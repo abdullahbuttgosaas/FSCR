@@ -1,0 +1,10 @@
+Task HZ_MANAGE_GEOGRAPHY_LOOKUPS. Re-test 2026-11-24 after wording fix. Read back by the main session.
+
+[GEO] import process 100004742407306:
+  Business object: Application Standard Lookup. Status: Completed successfully.
+  A total of 2 rows were processed.
+  Total Objects Failed: 0
+
+Main-session read-back:
+  standard/set lookup REST: type GAPFILL_AB_RT_GEO | GAPFILL AB RT GEO Lookup
+    code GAPFILL_AB_RT_GEO_A | GAPFILL AB RT GEO Alpha | enabled Y

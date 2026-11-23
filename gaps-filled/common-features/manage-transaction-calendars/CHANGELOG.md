@@ -22,3 +22,7 @@
 | 2026-11-20 live test | Claude (main session) | `GAPFILL_TC_T2` (Mon to Fri) | 2026/11/23 to 2026/11/29 (Thursday 2026/11/26 set as not a business day) |
 | 2026-11-20 fresh test | fresh sub-agent | `GAPFILL_TCF1_DEC07` (Mon to Fri) | 2026/12/07 to 2026/12/13 |
 None is assigned to a ledger.
+
+## Re-test after wording fix, 2026-11-24: PASS
+- Fresh sub-agent given only the task name and the current SKILL.md: calendar + 7 dates, 1 import, export compare PASS (3 -> 4 calendars, 14 -> 21 dates), about 6 min, no help, no deviation. Main session read the record back from Oracle. Evidence: `gaps-filled/evidence/batch-01-retest/GL_MANAGE_TRANSACTION_CALENDARS/`.
+- Notes not applied (wording unchanged after this test): which FSCR folder to use is not obvious when several copies exist; worked-example counts go out of date; the log one-liner leaves `\t` and `\/`.

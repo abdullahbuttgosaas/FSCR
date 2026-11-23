@@ -1,0 +1,11 @@
+Task XLE_MANAGE_APPLICATION_LOOKUP. Re-test 2026-11-24 after wording fix. Read back by the main session.
+
+[LE] import process 100004741413090:
+  Business object: Financials Generic Lookup. Status: In progress.
+  A total of 1 rows were processed.
+  Business object: Financials Generic Lookup. Status: Completed successfully.
+  Total Objects Failed: 0
+
+Main-session read-back:
+  standard/set lookup REST: type GAPFILL_AB_RT_LE | GAPFILL AB RT LE Lookup
+    code GAPFILL_AB_RT_LE_A | GAPFILL AB RT LE Alpha | enabled Y

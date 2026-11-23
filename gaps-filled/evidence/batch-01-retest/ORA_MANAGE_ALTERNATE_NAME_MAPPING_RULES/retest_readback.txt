@@ -1,0 +1,9 @@
+Task ORA_MANAGE_ALTERNATE_NAME_MAPPING_RULES. Re-test 2026-11-24 after wording fix. Read back by the main session.
+
+[ANM] REST POST result: AlternatePayerName=GAPFILL_AB_RT_ANM AlternateNameId=300000395047675 Active=Y
+
+[ANM2] REST POST result: AlternatePayerName=GAPFILL_AB_RT_ANM2 AlternateNameId=300000395165967 Active=Y
+
+Main-session read-back:
+  AlternatePayerName=GAPFILL_AB_RT_ANM | CustomerName=ZZ_TEST_CU_2589_14_OK | Active=Y | AlternateNameId=300000395047675
+  AlternatePayerName=GAPFILL_AB_RT_ANM2 | CustomerName=ZZ_TEST_CU_2589_14_OK | Active=Y | AlternateNameId=300000395165967

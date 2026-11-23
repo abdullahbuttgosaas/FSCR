@@ -1,0 +1,10 @@
+Task HZ_MANAGE_RESOURCE_NOTE_TYPE. Re-test 2026-11-24 after wording fix. Read back by the main session.
+
+[NOTE] import process 100004742406565:
+  Business object: Application Standard Lookup. Status: Completed successfully.
+  A total of 2 rows were processed.
+  Total Objects Failed: 0
+
+Main-session read-back:
+  standard/set lookup REST: type GAPFILL_AB_RT_NOTE | GAPFILL AB RT Note Type
+    code GAPFILL_AB_RT_NOTE_A | GAPFILL AB RT Note A | enabled Y

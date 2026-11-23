@@ -10,6 +10,5 @@ waiting_minutes: unknown
 fresh_claude_pass: yes
 route: FSM CSV
 depends_on: none
-test_records: unknown
-notes: Copy of fscr-main/_gap_fills/journal-categories. Live fill Run 24 = 6 min; skill writing (Run 26a) not timed; fix Run 26c = 4 min. Test records are FSCRT_ rows from Runs 24 and 26b (names not in the allowed sources). v0.2.0 fixes after the Run 26b cold test were checked offline, not by a new fresh test.
-retest_after_wording_fix: pending
+test_records: GAPFILL_AB_RT_JC; GAPFILL_AB_RT_JC2; GAPFILL_AB_RT_JC3
+notes: Copy of fscr-main/_gap_fills/journal-categories. Live fill Run 24 = 6 min; skill writing (Run 26a) not timed; fix Run 26c = 4 min. Test records are FSCRT_ rows from Runs 24 and 26b (names not in the allowed sources). v0.2.0 fixes after the Run 26b cold test were checked offline, not by a new fresh test. Re-tested 2026-11-24 after the wording fix: PASS.

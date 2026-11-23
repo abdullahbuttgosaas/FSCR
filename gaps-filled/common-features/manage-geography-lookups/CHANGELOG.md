@@ -15,3 +15,7 @@
 ## Fresh test, 2026-11-20: PASS
 - Sub-agent given only the task name and this SKILL.md path. 1 import attempt (3 rows, 0 failed), READBACK PASS, about 1.5 min, no help. Verified again by the main session.
 - Its notes applied afterwards as wording only (not re-tested): say what `<STD>` is and that all STD steps (incl. unzip and before-read) still apply.
+
+## Re-test after wording fix, 2026-11-24: PASS
+- Fresh sub-agent given only the task name and the current SKILL.md: type + 1 code, 1 import, REST READBACK PASS, about 4 min, no help, no deviation. Main session read the record back from Oracle. Evidence: `gaps-filled/evidence/batch-01-retest/HZ_MANAGE_GEOGRAPHY_LOOKUPS/`.
+- Notes not applied (wording unchanged after this test): which FSCR folder to use is not obvious when several copies exist; worked-example counts go out of date; the log one-liner leaves `\t` and `\/`.

@@ -1,0 +1,11 @@
+Task FND_MANAGE_APPLCORE_STANDARD_LOOKUPS. Re-test 2026-11-24 after wording fix. Read back by the main session.
+
+[SL] import process 100004741411135:
+  Business object: Application Standard Lookup. Status: Completed successfully.
+  A total of 3 rows were processed.
+  Total Objects Failed: 0
+
+Main-session read-back:
+  standard/set lookup REST: type GAPFILL_AB_RT_SL | GAPFILL AB RT SL Lookup
+    code GAPFILL_AB_RT_SL_A | GAPFILL AB RT SL Alpha | enabled Y
+    code GAPFILL_AB_RT_SL_B | GAPFILL AB RT SL Beta | enabled Y

@@ -17,3 +17,7 @@
 | 2026-11-20 live test | Claude (main session) | `GAPFILL_VS_T1` (independent, character, 20, upper case) | `GAPFILL_A`, `GAPFILL_B` |
 | 2026-11-20 fresh test | fresh sub-agent | `GAPFILL_VSF1_FRESH1` (same settings) | `GAPFILL_F1A`, `GAPFILL_F1B` |
 Neither is used by any flexfield segment.
+
+## Re-test after wording fix, 2026-11-24: PASS
+- Fresh sub-agent given only the task name and the current SKILL.md: value set + 2 values, 1 import, REST READBACK PASS and export compare PASS, about 6 min; the tester first picked an unconfigured FSCR copy (export refused), then the configured one; no help. Main session read the record back from Oracle. Evidence: `gaps-filled/evidence/batch-01-retest/FND_MANAGE_APPLCORE_VALUE_SETS/`.
+- Notes not applied (wording unchanged after this test): which FSCR folder to use is not obvious when several copies exist; worked-example counts go out of date; the log one-liner leaves `\t` and `\/`.

@@ -11,6 +11,8 @@ Files that are not in git but are not secrets: anything over 50 MB, and what `.g
 
 None on 2026-11-23 (the biggest file in the folder is 32.1 MB, the git pack of `fscr-official-clone`).
 
+Checked again on 2026-11-24 (PC, after batches 2-3 and the batch 1 re-test): no new file over 50 MB and no new ignored file worth keeping.
+
 ## Ignored on purpose (baseline, 2026-11-23)
 
 | Name | Path | Machine(s) | Size | Date | What it is | Made by (run/task) | How to get it back |

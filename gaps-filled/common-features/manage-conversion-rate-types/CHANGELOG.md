@@ -14,3 +14,7 @@
 |---|---|---|
 | 2026-11-20 live test | Claude (main session) | `GAPFILL_CRT_T1` |
 | 2026-11-20 fresh test | fresh sub-agent | `GAPFILL_CRTF1_A1` |
+
+## Re-test after wording fix, 2026-11-24: PASS
+- Fresh sub-agent given only the task name and the current SKILL.md: 1 import, REST READBACK PASS and export compare PASS (15 -> 16 rate types), about 5 min, no help, no deviation. Main session read the record back from Oracle. Evidence: `gaps-filled/evidence/batch-01-retest/GL_MANAGE_CONVERSION_RATE_TYPES/`.
+- Notes not applied (wording unchanged after this test): which FSCR folder to use is not obvious when several copies exist; worked-example counts go out of date; the log one-liner leaves `\t` and `\/`.

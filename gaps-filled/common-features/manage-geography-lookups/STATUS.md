@@ -10,6 +10,5 @@ waiting_minutes: 1
 fresh_claude_pass: yes
 route: FSM CSV
 depends_on: none
-test_records: GAPFILL_GEO_T2; GAPFILL_GEO_A; GAPFILL_GEOF2_TYP; GAPFILL_GEOF2_K1; GAPFILL_GEOF2_K2
-notes: Batch 1 part 1. Card over manage-standard-lookups. Tested with a new GAPFILL_ type; adding codes to the 7 seeded HZ_GEO types is not tested. Export is empty, REST is the check.
-retest_after_wording_fix: pending
+test_records: GAPFILL_GEO_T2; GAPFILL_GEO_A; GAPFILL_GEOF2_TYP; GAPFILL_GEOF2_K1; GAPFILL_GEOF2_K2; GAPFILL_AB_RT_GEO; GAPFILL_AB_RT_GEO_A
+notes: Batch 1 part 1. Card over manage-standard-lookups. Tested with a new GAPFILL_ type; adding codes to the 7 seeded HZ_GEO types is not tested. Export is empty, REST is the check. Re-tested 2026-11-24 after the wording fix: PASS.

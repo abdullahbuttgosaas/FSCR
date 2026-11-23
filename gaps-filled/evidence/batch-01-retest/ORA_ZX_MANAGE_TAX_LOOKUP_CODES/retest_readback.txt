@@ -1,0 +1,11 @@
+Task ORA_ZX_MANAGE_TAX_LOOKUP_CODES. Re-test 2026-11-24 after wording fix. Read back by the main session.
+
+[TAX] import process 100004742406659:
+  Business object: Financials Generic Lookup. Status: In progress.
+  A total of 1 rows were processed.
+  Business object: Financials Generic Lookup. Status: Completed successfully.
+  Total Objects Failed: 0
+
+Main-session read-back:
+  standard/set lookup REST: type GAPFILL_AB_RT_TAX | GAPFILL AB RT TAX Lookup
+    code GAPFILL_AB_RT_A | GAPFILL AB RT TAX Alpha | enabled Y

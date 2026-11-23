@@ -16,3 +16,7 @@ No code was added to a seeded legal entity lookup type.
 ## Fresh test, 2026-11-20: PASS
 - Sub-agent given only the task name and this card's path. 1 import attempt (type 1 row, codes 2 rows, 0 failed), REST READBACK PASS, about 2.5 minutes, no help. Verified again by the main session (READBACK PASS, 2 codes).
 - Its notes were applied afterwards as wording only (not re-tested): define `<FSCR>` in the card, put the scope read and the replaced Step 3a in the step order, explain `set -` on standard codes, name the `--info-of` command for the ModuleId check, the approval rule applies.
+
+## Re-test after wording fix, 2026-11-24: PASS
+- Fresh sub-agent given only the task name and the current SKILL.md: type + 1 code, 1 import, REST READBACK PASS, about 4 min, no help, no deviation. Main session read the record back from Oracle. Evidence: `gaps-filled/evidence/batch-01-retest/XLE_MANAGE_APPLICATION_LOOKUP/`.
+- Notes not applied (wording unchanged after this test): which FSCR folder to use is not obvious when several copies exist; worked-example counts go out of date; the log one-liner leaves `\t` and `\/`.

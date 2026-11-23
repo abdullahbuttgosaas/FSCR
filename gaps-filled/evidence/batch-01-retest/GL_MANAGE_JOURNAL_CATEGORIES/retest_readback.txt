@@ -1,0 +1,21 @@
+Task GL_MANAGE_JOURNAL_CATEGORIES. Re-test 2026-11-24 after wording fix. Read back by the main session.
+
+[JC] import process 100004742407273:
+  Business object: Journal Category. Status: Completed successfully.
+  A total of 1 rows were processed.
+  Total Objects Failed: 0
+
+[JC2] import process 100004742407444:
+  Business object: Journal Category. Status: Completed successfully.
+  A total of 1 rows were processed.
+  Total Objects Failed: 0
+
+[JC3] import process 100004742408071:
+  Business object: Journal Category. Status: Completed successfully.
+  A total of 1 rows were processed.
+  Total Objects Failed: 0
+
+Main-session read-back:
+  UserJeCategoryName=GAPFILL_AB_RT_JC | Description=GAPFILL test category for journals. Fresh tester run.
+  UserJeCategoryName=GAPFILL_AB_RT_JC2 | Description=Test category for retest run JC2.
+  UserJeCategoryName=GAPFILL_AB_RT_JC3 | Description=Test category for retest run JC3.

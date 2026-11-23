@@ -16,3 +16,7 @@ Visibility risk: both types are user-level (U) set-enabled types in the tax modu
 ## Fresh test, 2026-11-20: PASS
 - Sub-agent given only the task name and this SKILL.md path. 1 import attempt (type 1 row, codes 2 rows, 0 failed), REST READBACK PASS, export compare PASS, about 3 minutes, no help. Verified again by the main session (READBACK PASS, 2 codes, set COMMON).
 - Its notes were applied afterwards as wording only (not re-tested): several codes (repeat `--expect-code`, list after `--require-codes`), row counts grow with every test, export also prints "No matching pillar setup-task metadata" and `StatusCode: (unknown)` on success, non-ASCII characters in existing codes, why checking the type name is enough, where to write the approval.
+
+## Re-test after wording fix, 2026-11-24: PASS
+- Fresh sub-agent given only the task name and the current SKILL.md: set-enabled type + 1 code, 1 import, REST READBACK PASS and export compare PASS, about 6 min, no help, no deviation. Main session read the record back from Oracle. Evidence: `gaps-filled/evidence/batch-01-retest/ORA_ZX_MANAGE_TAX_LOOKUP_CODES/`.
+- Notes not applied (wording unchanged after this test): which FSCR folder to use is not obvious when several copies exist; worked-example counts go out of date; the log one-liner leaves `\t` and `\/`.

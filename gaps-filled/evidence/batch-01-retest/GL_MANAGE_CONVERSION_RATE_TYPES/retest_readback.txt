@@ -1,0 +1,11 @@
+Task GL_MANAGE_CONVERSION_RATE_TYPES. Re-test 2026-11-24 after wording fix. Read back by the main session.
+
+[CRT] import process 100004741411187:
+  Business object: Conversion Rate Type. Status: Completed successfully.
+  A total of 1 rows were processed.
+  Business object: Conversion Rate Rule. Status: Completed successfully.
+  already processed
+  Total Objects Failed: 0
+
+Main-session read-back:
+  UserConversionType=GAPFILL_AB_RT_CRT | Description=GoSaaS fresh tester rate type

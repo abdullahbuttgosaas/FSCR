@@ -1,6 +1,6 @@
 # CONTEXT: full memory of the FSCR work
 
-Read this first in every session. Plain words. "unconfirmed" = not confirmed from files. "per Abdullah" = stated by Abdullah, not found in a file. Last full rewrite: 2026-11-23 on the PC (DESKTOP-TJ1S90V).
+Read this first in every session. Plain words. "unconfirmed" = not confirmed from files. "per Abdullah" = stated by Abdullah, not found in a file. Last full rewrite: 2026-11-23 on the PC (DESKTOP-TJ1S90V). Sections 9, 11, 12 updated 2026-11-24 on the PC.
 
 ---
 
@@ -94,7 +94,7 @@ Open: owners for HCM, Logistics and PLM; how to split the big modules (PFM, GL, 
 
 1. Export the task from ETIA-TEST (read-only).
 2. Write a generic `SKILL.md`.
-3. Load a `GAPFILL_<INITIALS>_` test record on ETIA-TEST (FSM CSV or REST). (Batch 1 used plain `GAPFILL_`; runs 24–27 used `FSCRT_`.)
+3. Load a `GAPFILL_<INITIALS>_P<part>_` test record on ETIA-TEST (FSM CSV or REST). (Batch 1 used plain `GAPFILL_`, batch 2 `GAPFILL_AB_`; runs 24–27 used `FSCRT_`.)
 4. Read it back.
 5. Run a fresh sub-agent test using only the task name + `SKILL.md`.
 6. Write the `STATUS.md` card.
@@ -106,30 +106,63 @@ Open: owners for HCM, Logistics and PLM; how to split the big modules (PFM, GL, 
 
 ## 8. Index rule
 
-`gaps-filled\gap_index.csv` is **built, never hand-edited**. Run `python rebuild_index.py` in `gaps-filled\`: it reads every `STATUS.md`, updates `gap_index.csv` and writes `gap_progress.tsv` (standard library only; keeps CRLF). Expected now: **935 rows, 12 tested**.
+`gaps-filled\gap_index.csv` is **built, never hand-edited**. Run `python rebuild_index.py` in `gaps-filled\`: it reads every `STATUS.md`, updates `gap_index.csv` and writes `gap_progress.tsv` (standard library only; keeps CRLF). Expected now: **935 rows, 28 tested** (32 cards, 4 failed).
 
 ## 9. What is done
 
-### Gaps filled (from the 12 STATUS.md cards)
+### Gaps filled (from the 32 STATUS.md cards, 2026-11-24)
 
-| Task code | Task | Module | Status | Date | Write / test / wait min | Retest after wording fix |
-|---|---|---|---|---|---|---|
-| FND_MANAGE_APPLCORE_STANDARD_LOOKUPS | Manage Applications Core Standard Lookups | Common Features | tested | 2026-11-20 | 11 / 2 / 3 | pending |
-| HZ_MANAGE_GEOGRAPHY_LOOKUPS | Manage Geography Lookups | Common Features | tested | 2026-11-20 | 1 / 2 / 1 | pending |
-| HZ_MANAGE_RESOURCE_NOTE_TYPE | Manage Resource Note Type | Common Features | tested | 2026-11-20 | 1 / 2 / 1 | pending |
-| ORA_ZX_MANAGE_TAX_LOOKUP_CODES | Manage Tax Lookup Codes | Common Features | tested | 2026-11-20 | 4 / 3 / 3 | pending |
-| XLE_MANAGE_APPLICATION_LOOKUP | Manage Legal Entity Configurator Lookups | Common Features | tested | 2026-11-20 | 2 / 3 / 2 | pending |
-| FND_MANAGE_DOCUMENT_SEQUENCE_CATEGORIES | Manage Document Sequence Categories | Common Features | tested | 2026-11-20 | 4 / 3 / 1 | – |
-| GL_MANAGE_CONVERSION_RATE_TYPES | Manage Conversion Rate Types | Common Features | tested | 2026-11-20 | 2 / 2 / 1 | pending |
-| FND_MANAGE_APPLICATIONS_CORE_ATTACHMENT_CATEGORIES | Manage Applications Core Attachment Categories | Common Features | tested | 2026-11-20 | 2 / 3 / 1.5 | – |
-| FND_MANAGE_APPLCORE_VALUE_SETS | Manage Applications Core Value Sets | Common Features | tested | 2026-11-20 | 3 / 3 / 11 | pending |
-| GL_MANAGE_TRANSACTION_CALENDARS | Manage Transaction Calendars | Common Features | tested | 2026-11-20 | 3 / 2 / 2.5 | pending |
-| GL_MANAGE_JOURNAL_CATEGORIES | Manage Journal Categories | General Ledger | tested | 2026-11-15 | unknown / 4 / unknown | pending |
-| ORA_MANAGE_ALTERNATE_NAME_MAPPING_RULES | Manage Alternate Name Mapping Rules | Receivables | tested | 2026-11-16 | unknown / 12 / unknown | pending |
+**28 tested** in total: Common Features **26**, General Ledger **1**, Receivables **1**. Each passed a fresh Claude test on its final wording (no `retest_after_wording_fix` is pending). **4 failed** (tax chain, below). All filled by AB. Routes: 31 FSM CSV, 1 REST (alternate name mapping rules).
 
-- All 12 filled by AB (the 2 older ones say "GoSaaS (Runs 24, 26a-c)" and "GoSaaS (Runs 25, 27a-c)"). Routes: 11 FSM CSV, 1 REST (alternate name mapping rules).
-- **10 cards say `retest_after_wording_fix: pending`.**
-- The two older skills (`gaps-filled\general-ledger\manage-journal-categories`, `gaps-filled\receivables\manage-alternate-name-mapping-rules`) still point to the old `fscr-main\_gap_fills\` paths in their `SKILL.md`, `CHANGELOG.md` and `STATUS.md`: **not portable** yet.
+| Batch | Date | Result | Report |
+|---|---|---|---|
+| runs 24-27 | 2026-11-15/16 | 2 tested: Journal Categories (GL), Alternate Name Mapping Rules (Receivables) | run folders 24, 25, 26b, 27b |
+| batch 1 | 2026-11-20 | 10 of 10 tested (Common Features) | `gaps-filled\BATCH1_PART1..3_RESULT.md` |
+| batch 1 re-test | 2026-11-24 | all 10 re-test cards pass (8 batch 1 Common Features + the 2 older skills); journal categories and alternate name mapping skills fixed and now **portable** (no `fscr-main\_gap_fills\` paths, no ETIA-TEST names) | `gaps-filled\RETEST_BATCH1_RESULT.md` |
+| batch 2 | 2026-11-23 | **9 of 10** tested; Tax Zone Types failed | `gaps-filled\BATCH2_PLAN.md`, `BATCH2_PART1..3_RESULT.md` |
+| batch 3 | 2026-11-23/24 | **7 of 10** tested; Tax Statuses, Tax Rates, Tax Rules failed | `gaps-filled\BATCH3_PLAN.md`, `BATCH3_PART1..3_RESULT.md` |
+
+| Task code | Task | Module | Status | Date | Write / test / wait min |
+|---|---|---|---|---|---|
+| FND_MANAGE_APPLCORE_STANDARD_LOOKUPS | Manage Applications Core Standard Lookups | Common Features | tested | 2026-11-20 | 11 / 2 / 3 |
+| HZ_MANAGE_GEOGRAPHY_LOOKUPS | Manage Geography Lookups | Common Features | tested | 2026-11-20 | 1 / 2 / 1 |
+| HZ_MANAGE_RESOURCE_NOTE_TYPE | Manage Resource Note Type | Common Features | tested | 2026-11-20 | 1 / 2 / 1 |
+| ORA_ZX_MANAGE_TAX_LOOKUP_CODES | Manage Tax Lookup Codes | Common Features | tested | 2026-11-20 | 4 / 3 / 3 |
+| XLE_MANAGE_APPLICATION_LOOKUP | Manage Legal Entity Configurator Lookups | Common Features | tested | 2026-11-20 | 2 / 3 / 2 |
+| FND_MANAGE_DOCUMENT_SEQUENCE_CATEGORIES | Manage Document Sequence Categories | Common Features | tested | 2026-11-20 | 4 / 3 / 1 |
+| GL_MANAGE_CONVERSION_RATE_TYPES | Manage Conversion Rate Types | Common Features | tested | 2026-11-20 | 2 / 2 / 1 |
+| FND_MANAGE_APPLICATIONS_CORE_ATTACHMENT_CATEGORIES | Manage Applications Core Attachment Categories | Common Features | tested | 2026-11-20 | 2 / 3 / 1.5 |
+| FND_MANAGE_APPLCORE_VALUE_SETS | Manage Applications Core Value Sets | Common Features | tested | 2026-11-20 | 3 / 3 / 11 |
+| GL_MANAGE_TRANSACTION_CALENDARS | Manage Transaction Calendars | Common Features | tested | 2026-11-20 | 3 / 2 / 2.5 |
+| FND_MANAGE_APPLICATIONS_CORE_PROFILE_OPTIONS | Manage Applications Core Profile Options | Common Features | tested | 2026-11-23 | 5 / 6 / 2 |
+| FND_MANAGE_APPLICATIONS_CORE_ADMINISTRATOR_PROFILE_VALUES | Manage Applications Core Administrator Profile Values | Common Features | tested | 2026-11-23 | 4 / 5 / 2 |
+| FND_MANAGE_APPLICATIONS_CORE_PROFILE_CATEGORIES | Manage Applications Core Profile Categories | Common Features | tested | 2026-11-23 | 4 / 6 / 1 |
+| FND_MANAGE_PROFILE_CATEGORIES | Manage Profile Categories | Common Features | tested | 2026-11-23 | 2 / 6 / 2 |
+| FND_MANAGE_DOCUMENT_SEQUENCES | Manage Document Sequences | Common Features | tested | 2026-11-23 | 5 / 6 / 2 |
+| ORA_ZX_MANAGE_WITHHOLDING_TAX_CALENDARS | Manage Withholding Tax Calendars | Common Features | tested | 2026-11-23 | 5 / 4 / 2 |
+| ZX_MANAGE_TAX_ZONE_TYPES | Manage Tax Zone Types | Common Features | **failed** | 2026-11-23 | 6 / 0 / 5 |
+| ZX_MANAGE_TAX_REGIMES | Manage Tax Regimes | Common Features | tested | 2026-11-23 | 7 / 6 / 5 |
+| ZX_MANAGE_TAX_REPORTING_TYPES | Manage Tax Reporting Types | Common Features | tested | 2026-11-23 | 5 / 5 / 4 |
+| ZX_MANAGE_TAX_DETERMINING_FACTOR_SETS | Manage Tax Determining Factor Sets | Common Features | tested | 2026-11-23 | 4 / 4 / 3 |
+| ZX_MANAGE_TAXES | Manage Taxes | Common Features | tested | 2026-11-23 | 8 / 9 / 5 |
+| ZX_MANAGE_TAX_STATUSES | Manage Tax Statuses | Common Features | **failed** | 2026-11-23 | 11 / 0 / 21 |
+| ORA_ZX_MANAGE_TAX_FORMULAS | Manage Tax Formulas | Common Features | tested | 2026-11-23 | 5 / 5 / 3 |
+| ZX_MANAGE_TAX_RATES_AND_TAX_RECOVERY_RATES | Manage Tax Rates and Tax Recovery Rates | Common Features | **failed** | 2026-11-24 | 4 / 0 / 2 |
+| ZX_MANAGE_TAX_JURISDICTIONS | Manage Tax Jurisdictions | Common Features | tested | 2026-11-24 | 12 / 11 / 7 |
+| ZX_MANAGE_TAX_CONDITION_SETS | Manage Tax Condition Sets | Common Features | tested | 2026-11-24 | 9 / 6 / 5 |
+| ZX_MANAGE_TAX_RULES | Manage Tax Rules | Common Features | **failed** | 2026-11-24 | 8 / 0 / 8 |
+| ZX_MANAGE_PARTY_FISCAL_CLASSIFICATIONS | Manage Party Fiscal Classifications | Common Features | tested | 2026-11-24 | 5 / 8 / 9 |
+| ORA_GL_MANAGE_SHORTHAND_ALIASES | Manage Shorthand Aliases | Common Features | tested | 2026-11-24 | 5 / 3 / 9 |
+| XLE_MANAGE_LEGAL_AUTHORITIES | Manage Legal Authorities | Common Features | tested | 2026-11-24 | 7 / 7 / 9 |
+| GL_MANAGE_JOURNAL_CATEGORIES | Manage Journal Categories | General Ledger | tested | 2026-11-15 (re-test 2026-11-24) | unknown / 4 / unknown |
+| ORA_MANAGE_ALTERNATE_NAME_MAPPING_RULES | Manage Alternate Name Mapping Rules | Receivables | tested | 2026-11-16 (re-test 2026-11-24) | unknown / 12 / unknown |
+
+**The 4 failed or blocked (tax chain):**
+- **Tax Zone Types:** the import validates, then fails at the database insert with `JBO-26041`; 3 tries; the ORA- cause is **unconfirmed** (the FSM ProcessId was not kept, so the full log cannot be opened).
+- **Tax Statuses:** rejected 3 times (`ZX_INVALID_VALUE ... Tax attribute`), even with a simulation tax and a business unit subscription (test BU `ZZ_TEST_BU_1932` subscribes `GAPFILL_AB_TR1`, made with AB's approval). Likely missing piece: a subscription for the global configuration owner, which needs internal IDs.
+- **Tax Rates:** blocked by Tax Statuses (a rate needs a status).
+- **Tax Rules:** rejected 3 times with `ZX_RECRATE_DATE_INVALID`; likely the same root cause as statuses.
+- **Plan:** park all 4 with the screen-only group and look at them once with a screen step.
 
 ### Runs (dates = file dates in each run folder)
 
@@ -176,6 +209,9 @@ Open: owners for HCM, Logistics and PLM; how to split the big modules (PFM, GL, 
 | 38 | `_fscr_run_38_cold_test` (top level) | 2026-11-17 | cold test of the module test pack: pass with fixes (27 pack problems fixed in v2) |
 | batch 1 | `gaps-filled\BATCH1_PART1..3_RESULT.md` | 2026-11-20 | 10 Common Features gaps filled and fresh-tested |
 | setup | `gaps-filled\SETUP_RESULT.md` | 2026-11-20 | STATUS cards, 19-module index (935 rows), `rebuild_index.py` |
+| batch 2 | `gaps-filled\BATCH2_PLAN.md`, `BATCH2_PART1..3_RESULT.md` | 2026-11-23 | 10 Common Features gaps: 9 tested, Tax Zone Types failed |
+| batch 3 | `gaps-filled\BATCH3_PLAN.md`, `BATCH3_PART1..3_RESULT.md` | 2026-11-23/24 | 10 Common Features gaps: 7 tested, Tax Statuses / Rates / Rules failed |
+| batch 1 re-test | `gaps-filled\RETEST_BATCH1_RESULT.md` | 2026-11-24 | 10 re-test cards: 10 pass; 2 older skills made portable |
 
 ## 10. Time measured
 
@@ -191,16 +227,28 @@ Open: owners for HCM, Logistics and PLM; how to split the big modules (PFM, GL, 
 - Keep answers short and in simple words.
 - Oracle test record names: only `ZZ_TEST_`, `FSCRT_`, `GAPFILL_<INITIALS>_` style; never real company names.
 - Secrets never go in git or chat (SYNC_RULES.md).
+- **Test record names:** `GAPFILL_AB_P<part>_<name>` (for example `GAPFILL_AB_P2_RT1`), so parts running at the same time never see each other's records. Give `copy_parent_rows.py` the **parent's** own prefix (it can differ from the child's).
+- **Never import twice** after a dropped connection: first check by REST or a new export whether the record exists. Re-run a failed export into a new folder, one at a time, up to 3 tries. Keep every FSM ProcessId (ESS request numbers do not open the process log). `0 rows were processed` is a failure.
+- **Text minimum lengths** (for example a TEXT tax reporting type needs MinLength) and **name maximum lengths** (for example 15 characters for withholding tax calendar names): find them in the live test and give the builder `--max-len`.
+- **Profile-style (hierarchical) imports need the parent row** in the file: copy it unchanged with `common-features\manage-profile-options\scripts\copy_parent_rows.py` (only your own `GAPFILL_` parents).
+- **Skills must be generic:** never mention ETIA-TEST, never hard-code paths (use `FSCR`/`GAP`/`PREFIX` placeholders; the FSCR copy is the one whose `fusionEnv.properties` is filled in), never take internal IDs from an export. In Git Bash pass `E:/...`, never `$PWD` (`/e/...`).
+- **Fresh tests that share an FSM package run one after the other**, not in parallel.
+- **Tax chain parked:** Tax Zone Types, Statuses, Rates and Rules go with the screen-only group; one screen step later. Do not add subscriptions or make test taxes live without AB's decision.
+- **Safe wording for reports:** "tested by a fresh Claude on ETIA-TEST, record created and read back".
 
 ## 12. Pending
 
 - Drive upload of `gaps-filled\_drive_ready\gaps-filled`.
 - Gap tracker sheet with an "Assigned to" column.
 - Phase 2 and `PEOPLE_PROMPT.md` in the tester guide doc.
-- Pilot `PEOPLE_PROMPT.md` with one person.
+- Pilot `PEOPLE_PROMPT.md` with one person (Zaid).
 - Status email to Younas bhai.
-- Tester name checks.
-- Re-test the 10 cards with `retest_after_wording_fix: pending`; make the 2 older skills portable (remove `fscr-main\_gap_fills\` paths).
+- Owners for HCM, Logistics and PLM.
+- How to split the big modules (PFM, GL, Common Features).
+- Imtenan (Supply Planning) agreement.
+- Tax chain (Zone Types, Statuses, Rates, Rules): parked with the screen-only group; one screen step later.
+- Delete the empty folder tree `E:\e\` by hand (left by a `/e/...` path slip in batch 3 part 2; it holds no files).
+- **Next:** batch 4, about 10 easy Common Features gaps, avoiding the tax chain.
 
 ## 13. Session commands (Claude: follow exactly when Abdullah types these words)
 

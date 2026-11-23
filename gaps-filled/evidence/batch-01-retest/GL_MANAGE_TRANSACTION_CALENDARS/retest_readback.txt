@@ -1,0 +1,18 @@
+Task GL_MANAGE_TRANSACTION_CALENDARS. Re-test 2026-11-24 after wording fix. Read back by the main session.
+
+[TC] import process 100004742408055:
+  Business object: General Ledger Transaction Calendar. Status: Completed successfully.
+  A total of 1 rows were processed.
+  Business object: General Ledger Transaction Calendar Date. Status: Completed successfully.
+  already processed
+  Total Objects Failed: 0
+
+Main-session read-back:
+  GL_TRANSACTION_CALENDAR.csv: Name=GAPFILL_AB_RT_TC, MonBusinessDayFlag=Y, TueBusinessDayFlag=Y, WedBusinessDayFlag=Y, ThuBusinessDayFlag=Y, FriBusinessDayFlag=Y, SatBusinessDayFlag=N, SunBusinessDayFlag=N, Description=GAPFILL_AB_RT_ fresh test calendar, SecurityFlag=N
+  ORA_GL_TRANSACTION_CALENDAR_DATE.csv: GL_TRANSACTION_CALENDAR.Name=GAPFILL_AB_RT_TC, TransactionDate=2026/12/07, DayOfWeek=MON, BusinessDayFlag=Y
+  ORA_GL_TRANSACTION_CALENDAR_DATE.csv: GL_TRANSACTION_CALENDAR.Name=GAPFILL_AB_RT_TC, TransactionDate=2026/12/08, DayOfWeek=TUE, BusinessDayFlag=Y
+  ORA_GL_TRANSACTION_CALENDAR_DATE.csv: GL_TRANSACTION_CALENDAR.Name=GAPFILL_AB_RT_TC, TransactionDate=2026/12/09, DayOfWeek=WED, BusinessDayFlag=Y
+  ORA_GL_TRANSACTION_CALENDAR_DATE.csv: GL_TRANSACTION_CALENDAR.Name=GAPFILL_AB_RT_TC, TransactionDate=2026/12/10, DayOfWeek=THU, BusinessDayFlag=N
+  ORA_GL_TRANSACTION_CALENDAR_DATE.csv: GL_TRANSACTION_CALENDAR.Name=GAPFILL_AB_RT_TC, TransactionDate=2026/12/11, DayOfWeek=FRI, BusinessDayFlag=Y
+  ORA_GL_TRANSACTION_CALENDAR_DATE.csv: GL_TRANSACTION_CALENDAR.Name=GAPFILL_AB_RT_TC, TransactionDate=2026/12/12, DayOfWeek=SAT, BusinessDayFlag=N
+  ORA_GL_TRANSACTION_CALENDAR_DATE.csv: GL_TRANSACTION_CALENDAR.Name=GAPFILL_AB_RT_TC, TransactionDate=2026/12/13, DayOfWeek=SUN, BusinessDayFlag=N

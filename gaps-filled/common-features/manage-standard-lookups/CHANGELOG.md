@@ -14,3 +14,7 @@
 ## Fresh test, 2026-11-20: PASS
 - Sub-agent given only the task name and this SKILL.md path. 1 import attempt, REST READBACK PASS, export compare PASS (17 -> 18 types, 38 -> 40 codes), about 2 min 15 s, no help. Verified again by the main session (READBACK PASS).
 - Its notes were applied afterwards as wording only (not re-tested): how to find the FSCR root, ZIP name pattern, how to read the process log, counts grow between runs, steps 2/3 order, code uniqueness.
+
+## Re-test after wording fix, 2026-11-24: PASS
+- Fresh sub-agent given only the task name and the current SKILL.md: type + 2 codes, 1 import, REST READBACK PASS and export compare PASS, about 4 min, no help, no deviation. Main session read the record back from Oracle. Evidence: `gaps-filled/evidence/batch-01-retest/FND_MANAGE_APPLCORE_STANDARD_LOOKUPS/`.
+- Notes not applied (wording unchanged after this test): which FSCR folder to use is not obvious when several copies exist; worked-example counts go out of date; the log one-liner leaves `\t` and `\/`.

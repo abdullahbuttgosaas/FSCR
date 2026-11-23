@@ -10,6 +10,5 @@ waiting_minutes: 1
 fresh_claude_pass: yes
 route: FSM CSV
 depends_on: none
-test_records: GAPFILL_CRT_T1; GAPFILL_CRTF1_A1
-notes: Batch 1 part 3. Skill on the generic helpers in manage-docseq-categories/scripts. Cross rates (pivot + rule rows) not tested. Test rate types show in every rate type list.
-retest_after_wording_fix: pending
+test_records: GAPFILL_CRT_T1; GAPFILL_CRTF1_A1; GAPFILL_AB_RT_CRT
+notes: Batch 1 part 3. Skill on the generic helpers in manage-docseq-categories/scripts. Cross rates (pivot + rule rows) not tested. Test rate types show in every rate type list. Re-tested 2026-11-24 after the wording fix: PASS.

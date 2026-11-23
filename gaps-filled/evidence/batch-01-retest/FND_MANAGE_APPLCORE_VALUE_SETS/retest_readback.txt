@@ -1,0 +1,11 @@
+Task FND_MANAGE_APPLCORE_VALUE_SETS. Re-test 2026-11-24 after wording fix. Read back by the main session.
+
+[VS] import process 100004742406600:
+  Business object: Application Flexfield Value Set. Status: Completed successfully.
+  A total of 3 rows were processed.
+  Total Objects Failed: 0
+
+Main-session read-back:
+  ValueSetCode=GAPFILL_AB_RT_VS | ValidationType=INDEP | ValueDataType=VARCHAR2 | MaximumLength=20 | Description=GoSaaS retest value set
+  Value=GAPFILL_AB_RT_V1 | EnabledFlag=Y | SortOrder=1
+  Value=GAPFILL_AB_RT_V2 | EnabledFlag=Y | SortOrder=2

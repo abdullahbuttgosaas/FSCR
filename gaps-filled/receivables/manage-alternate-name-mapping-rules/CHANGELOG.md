@@ -54,3 +54,8 @@ First version, written from Run 25 (`_fscr_run_25_fill_no_route`). No Oracle cal
 - Whether DELETE works on these rules has not been tried.
 - The required privilege has not been checked.
 - A fresh-chat cold test is still to do.
+
+## Re-test after wording fix, 2026-11-24: PASS
+- Re-test 1 (`GAPFILL_AB_RT_ANM`, 1 POST, HTTP 201, read back by REST) FAILED as a skill test: the helper defaulted to `FSCRT_` and printed PRECHECK FAIL and RESULT FAIL, and the skill had hard-coded `E:/...` paths and ETIA-TEST/`ZZ_TEST_` wording. Wording fixed (version 0.3.0): placeholders FSCR/GAP/RUN/PREFIX defined generically, every helper call passes `--prefix "<PREFIX>"`, environment-specific names, account numbers and user names removed, one-rule runs allowed.
+- Fresh sub-agent given only the task name and the current SKILL.md: re-test 2: created GAPFILL_AB_RT_ANM2, 1 POST (HTTP 201), PRECHECK PASS, verify RESULT PASS (5 -> 6 rules, earlier rules unchanged), about 1 min, no deviation. Main session read the record back from Oracle. Evidence: `gaps-filled/evidence/batch-01-retest/ORA_MANAGE_ALTERNATE_NAME_MAPPING_RULES/`.
+- Notes not applied (wording unchanged after this test): which FSCR folder to use is not obvious when several copies exist; worked-example counts go out of date; the log one-liner leaves `\t` and `\/`.

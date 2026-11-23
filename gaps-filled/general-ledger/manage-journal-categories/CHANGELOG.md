@@ -24,3 +24,8 @@ Fixes from the Run 26b cold test (`_fscr_run_26b_skill_test\RUN_REPORT.md`, verd
 
 ## 0.1.0, Run 26a, 2026-11-15
 First version, written from Run 24.
+
+## Re-test after wording fix, 2026-11-24: PASS
+- Re-test 1 (GAPFILL_AB_RT_JC, 1 import, both checks passed only after deviations) FAILED as a skill test: FSCR and GAP were hard-coded E:\ paths to the old _gap_fills folder, the prefix FSCRT_ and ETIA-TEST were written in, and --prefix was missing from the build and compare commands. Wording fixed (version 0.3.0): generic FSCR/GAP/RUN/PREFIX placeholders (FSCR = the copy whose fusionEnv.properties is filled in), --prefix in Steps 4, 7A and 7B, environment names removed, 1 to 3 rows allowed. Re-test 2 (GAPFILL_AB_RT_JC2, 1 import) FAILED: Step 7A's rest_read_categories.py finds FSCR only from its old folder (No module named fusion_auth). Wording fixed: Step 7A now uses the generic gaps-filled helper rest_read.py with --fscr; the old script is marked history only (scripts unchanged).
+- Fresh sub-agent given only the task name and the current SKILL.md: re-test 3: created GAPFILL_AB_RT_JC3, 1 import, REST READBACK PASS (rest_read.py on journalCategoriesLOV) and export compare RESULT PASS (153 -> 154 rows, only JC3 added), about 3 min, no deviation. Main session read the record back from Oracle. Evidence: `gaps-filled/evidence/batch-01-retest/GL_MANAGE_JOURNAL_CATEGORIES/`.
+- Notes not applied (wording unchanged after this test): which FSCR folder to use is not obvious when several copies exist; worked-example counts go out of date; the log one-liner leaves `\t` and `\/`.
