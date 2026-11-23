@@ -1,0 +1,55 @@
+{
+  "items" : [ {
+    "PeriodNameId" : "13_Dec-27",
+    "ApplicationId" : "101",
+    "LedgerId" : "300000394640344",
+    "ClosingStatus" : "N",
+    "EndDate" : "2027-12-31",
+    "StartDate" : "2027-12-31",
+    "EffectivePeriodNumber" : "20270013",
+    "PeriodYear" : "2027",
+    "PeriodNumber" : "13",
+    "AdjustmentPeriodFlag" : true,
+    "@context" : {
+      "key" : "13_Dec-27,101,300000394640344"
+    }
+  }, {
+    "PeriodNameId" : "13_Aug-27",
+    "ApplicationId" : "101",
+    "LedgerId" : "300000391266059",
+    "ClosingStatus" : "N",
+    "EndDate" : "2027-08-31",
+    "StartDate" : "2027-08-31",
+    "EffectivePeriodNumber" : "20270013",
+    "PeriodYear" : "2027",
+    "PeriodNumber" : "13",
+    "AdjustmentPeriodFlag" : true,
+    "@context" : {
+      "key" : "13_Aug-27,101,300000391266059"
+    }
+  }, {
+    "PeriodNameId" : "13_Dec-27",
+    "ApplicationId" : "10455",
+    "LedgerId" : "300000394640344",
+    "ClosingStatus" : "N",
+    "EndDate" : "2027-12-31",
+    "StartDate" : "2027-12-31",
+    "EffectivePeriodNumber" : "20270013",
+    "PeriodYear" : "2027",
+    "PeriodNumber" : "13",
+    "AdjustmentPeriodFlag" : true,
+    "@context" : {
+      "key" : "13_Dec-27,10455,300000394640344"
+    }
+  } ],
+  "count" : 3,
+  "hasMore" : true,
+  "limit" : 3,
+  "offset" : 0,
+  "links" : [ {
+    "rel" : "self",
+    "href" : "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/accountingPeriodStatusLOV",
+    "name" : "accountingPeriodStatusLOV",
+    "kind" : "collection"
+  } ]
+}

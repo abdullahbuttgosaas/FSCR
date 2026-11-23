@@ -1,0 +1,981 @@
+{
+ "items": [
+  {
+   "PeriodNameId": "13_Jul22",
+   "ApplicationId": "101",
+   "LedgerId": "300000327478575",
+   "ClosingStatus": "N",
+   "EndDate": "2022-07-25",
+   "StartDate": "2022-07-25",
+   "EffectivePeriodNumber": "20220013",
+   "PeriodYear": "2022",
+   "PeriodNumber": "13",
+   "AdjustmentPeriodFlag": true,
+   "@context": {
+    "key": "13_Jul22,101,300000327478575"
+   }
+  },
+  {
+   "PeriodNameId": "13_Jul22",
+   "ApplicationId": "10455",
+   "LedgerId": "300000327478575",
+   "ClosingStatus": "N",
+   "EndDate": "2022-07-25",
+   "StartDate": "2022-07-25",
+   "EffectivePeriodNumber": "20220013",
+   "PeriodYear": "2022",
+   "PeriodNumber": "13",
+   "AdjustmentPeriodFlag": true,
+   "@context": {
+    "key": "13_Jul22,10455,300000327478575"
+   }
+  },
+  {
+   "PeriodNameId": "13_Jul22",
+   "ApplicationId": "10037",
+   "LedgerId": "300000327478575",
+   "ClosingStatus": "N",
+   "EndDate": "2022-07-25",
+   "StartDate": "2022-07-25",
+   "EffectivePeriodNumber": "20220013",
+   "PeriodYear": "2022",
+   "PeriodNumber": "13",
+   "AdjustmentPeriodFlag": true,
+   "@context": {
+    "key": "13_Jul22,10037,300000327478575"
+   }
+  },
+  {
+   "PeriodNameId": "13_Jul22",
+   "ApplicationId": "222",
+   "LedgerId": "300000327478575",
+   "ClosingStatus": "N",
+   "EndDate": "2022-07-25",
+   "StartDate": "2022-07-25",
+   "EffectivePeriodNumber": "20220013",
+   "PeriodYear": "2022",
+   "PeriodNumber": "13",
+   "AdjustmentPeriodFlag": true,
+   "@context": {
+    "key": "13_Jul22,222,300000327478575"
+   }
+  },
+  {
+   "PeriodNameId": "13_Jul22",
+   "ApplicationId": "200",
+   "LedgerId": "300000327478575",
+   "ClosingStatus": "N",
+   "EndDate": "2022-07-25",
+   "StartDate": "2022-07-25",
+   "EffectivePeriodNumber": "20220013",
+   "PeriodYear": "2022",
+   "PeriodNumber": "13",
+   "AdjustmentPeriodFlag": true,
+   "@context": {
+    "key": "13_Jul22,200,300000327478575"
+   }
+  },
+  {
+   "PeriodNameId": "Jun22",
+   "ApplicationId": "101",
+   "LedgerId": "300000327478575",
+   "ClosingStatus": "N",
+   "EndDate": "2022-07-25",
+   "StartDate": "2022-06-26",
+   "EffectivePeriodNumber": "20220012",
+   "PeriodYear": "2022",
+   "PeriodNumber": "12",
+   "AdjustmentPeriodFlag": false,
+   "@context": {
+    "key": "Jun22,101,300000327478575"
+   }
+  },
+  {
+   "PeriodNameId": "Jun22",
+   "ApplicationId": "10455",
+   "LedgerId": "300000327478575",
+   "ClosingStatus": "N",
+   "EndDate": "2022-07-25",
+   "StartDate": "2022-06-26",
+   "EffectivePeriodNumber": "20220012",
+   "PeriodYear": "2022",
+   "PeriodNumber": "12",
+   "AdjustmentPeriodFlag": false,
+   "@context": {
+    "key": "Jun22,10455,300000327478575"
+   }
+  },
+  {
+   "PeriodNameId": "Jun22",
+   "ApplicationId": "10037",
+   "LedgerId": "300000327478575",
+   "ClosingStatus": "N",
+   "EndDate": "2022-07-25",
+   "StartDate": "2022-06-26",
+   "EffectivePeriodNumber": "20220012",
+   "PeriodYear": "2022",
+   "PeriodNumber": "12",
+   "AdjustmentPeriodFlag": false,
+   "@context": {
+    "key": "Jun22,10037,300000327478575"
+   }
+  },
+  {
+   "PeriodNameId": "Jun22",
+   "ApplicationId": "222",
+   "LedgerId": "300000327478575",
+   "ClosingStatus": "N",
+   "EndDate": "2022-07-25",
+   "StartDate": "2022-06-26",
+   "EffectivePeriodNumber": "20220012",
+   "PeriodYear": "2022",
+   "PeriodNumber": "12",
+   "AdjustmentPeriodFlag": false,
+   "@context": {
+    "key": "Jun22,222,300000327478575"
+   }
+  },
+  {
+   "PeriodNameId": "Jun22",
+   "ApplicationId": "200",
+   "LedgerId": "300000327478575",
+   "ClosingStatus": "N",
+   "EndDate": "2022-07-25",
+   "StartDate": "2022-06-26",
+   "EffectivePeriodNumber": "20220012",
+   "PeriodYear": "2022",
+   "PeriodNumber": "12",
+   "AdjustmentPeriodFlag": false,
+   "@context": {
+    "key": "Jun22,200,300000327478575"
+   }
+  },
+  {
+   "PeriodNameId": "May22",
+   "ApplicationId": "101",
+   "LedgerId": "300000327478575",
+   "ClosingStatus": "N",
+   "EndDate": "2022-06-25",
+   "StartDate": "2022-05-26",
+   "EffectivePeriodNumber": "20220011",
+   "PeriodYear": "2022",
+   "PeriodNumber": "11",
+   "AdjustmentPeriodFlag": false,
+   "@context": {
+    "key": "May22,101,300000327478575"
+   }
+  },
+  {
+   "PeriodNameId": "May22",
+   "ApplicationId": "10455",
+   "LedgerId": "300000327478575",
+   "ClosingStatus": "N",
+   "EndDate": "2022-06-25",
+   "StartDate": "2022-05-26",
+   "EffectivePeriodNumber": "20220011",
+   "PeriodYear": "2022",
+   "PeriodNumber": "11",
+   "AdjustmentPeriodFlag": false,
+   "@context": {
+    "key": "May22,10455,300000327478575"
+   }
+  },
+  {
+   "PeriodNameId": "May22",
+   "ApplicationId": "10037",
+   "LedgerId": "300000327478575",
+   "ClosingStatus": "N",
+   "EndDate": "2022-06-25",
+   "StartDate": "2022-05-26",
+   "EffectivePeriodNumber": "20220011",
+   "PeriodYear": "2022",
+   "PeriodNumber": "11",
+   "AdjustmentPeriodFlag": false,
+   "@context": {
+    "key": "May22,10037,300000327478575"
+   }
+  },
+  {
+   "PeriodNameId": "May22",
+   "ApplicationId": "222",
+   "LedgerId": "300000327478575",
+   "ClosingStatus": "N",
+   "EndDate": "2022-06-25",
+   "StartDate": "2022-05-26",
+   "EffectivePeriodNumber": "20220011",
+   "PeriodYear": "2022",
+   "PeriodNumber": "11",
+   "AdjustmentPeriodFlag": false,
+   "@context": {
+    "key": "May22,222,300000327478575"
+   }
+  },
+  {
+   "PeriodNameId": "May22",
+   "ApplicationId": "200",
+   "LedgerId": "300000327478575",
+   "ClosingStatus": "N",
+   "EndDate": "2022-06-25",
+   "StartDate": "2022-05-26",
+   "EffectivePeriodNumber": "20220011",
+   "PeriodYear": "2022",
+   "PeriodNumber": "11",
+   "AdjustmentPeriodFlag": false,
+   "@context": {
+    "key": "May22,200,300000327478575"
+   }
+  },
+  {
+   "PeriodNameId": "Apr22",
+   "ApplicationId": "101",
+   "LedgerId": "300000327478575",
+   "ClosingStatus": "N",
+   "EndDate": "2022-05-25",
+   "StartDate": "2022-04-26",
+   "EffectivePeriodNumber": "20220010",
+   "PeriodYear": "2022",
+   "PeriodNumber": "10",
+   "AdjustmentPeriodFlag": false,
+   "@context": {
+    "key": "Apr22,101,300000327478575"
+   }
+  },
+  {
+   "PeriodNameId": "Apr22",
+   "ApplicationId": "10455",
+   "LedgerId": "300000327478575",
+   "ClosingStatus": "N",
+   "EndDate": "2022-05-25",
+   "StartDate": "2022-04-26",
+   "EffectivePeriodNumber": "20220010",
+   "PeriodYear": "2022",
+   "PeriodNumber": "10",
+   "AdjustmentPeriodFlag": false,
+   "@context": {
+    "key": "Apr22,10455,300000327478575"
+   }
+  },
+  {
+   "PeriodNameId": "Apr22",
+   "ApplicationId": "10037",
+   "LedgerId": "300000327478575",
+   "ClosingStatus": "N",
+   "EndDate": "2022-05-25",
+   "StartDate": "2022-04-26",
+   "EffectivePeriodNumber": "20220010",
+   "PeriodYear": "2022",
+   "PeriodNumber": "10",
+   "AdjustmentPeriodFlag": false,
+   "@context": {
+    "key": "Apr22,10037,300000327478575"
+   }
+  },
+  {
+   "PeriodNameId": "Apr22",
+   "ApplicationId": "222",
+   "LedgerId": "300000327478575",
+   "ClosingStatus": "N",
+   "EndDate": "2022-05-25",
+   "StartDate": "2022-04-26",
+   "EffectivePeriodNumber": "20220010",
+   "PeriodYear": "2022",
+   "PeriodNumber": "10",
+   "AdjustmentPeriodFlag": false,
+   "@context": {
+    "key": "Apr22,222,300000327478575"
+   }
+  },
+  {
+   "PeriodNameId": "Apr22",
+   "ApplicationId": "200",
+   "LedgerId": "300000327478575",
+   "ClosingStatus": "N",
+   "EndDate": "2022-05-25",
+   "StartDate": "2022-04-26",
+   "EffectivePeriodNumber": "20220010",
+   "PeriodYear": "2022",
+   "PeriodNumber": "10",
+   "AdjustmentPeriodFlag": false,
+   "@context": {
+    "key": "Apr22,200,300000327478575"
+   }
+  },
+  {
+   "PeriodNameId": "Mar22",
+   "ApplicationId": "101",
+   "LedgerId": "300000327478575",
+   "ClosingStatus": "N",
+   "EndDate": "2022-04-25",
+   "StartDate": "2022-03-26",
+   "EffectivePeriodNumber": "20220009",
+   "PeriodYear": "2022",
+   "PeriodNumber": "9",
+   "AdjustmentPeriodFlag": false,
+   "@context": {
+    "key": "Mar22,101,300000327478575"
+   }
+  },
+  {
+   "PeriodNameId": "Mar22",
+   "ApplicationId": "10455",
+   "LedgerId": "300000327478575",
+   "ClosingStatus": "N",
+   "EndDate": "2022-04-25",
+   "StartDate": "2022-03-26",
+   "EffectivePeriodNumber": "20220009",
+   "PeriodYear": "2022",
+   "PeriodNumber": "9",
+   "AdjustmentPeriodFlag": false,
+   "@context": {
+    "key": "Mar22,10455,300000327478575"
+   }
+  },
+  {
+   "PeriodNameId": "Mar22",
+   "ApplicationId": "10037",
+   "LedgerId": "300000327478575",
+   "ClosingStatus": "N",
+   "EndDate": "2022-04-25",
+   "StartDate": "2022-03-26",
+   "EffectivePeriodNumber": "20220009",
+   "PeriodYear": "2022",
+   "PeriodNumber": "9",
+   "AdjustmentPeriodFlag": false,
+   "@context": {
+    "key": "Mar22,10037,300000327478575"
+   }
+  },
+  {
+   "PeriodNameId": "Mar22",
+   "ApplicationId": "222",
+   "LedgerId": "300000327478575",
+   "ClosingStatus": "N",
+   "EndDate": "2022-04-25",
+   "StartDate": "2022-03-26",
+   "EffectivePeriodNumber": "20220009",
+   "PeriodYear": "2022",
+   "PeriodNumber": "9",
+   "AdjustmentPeriodFlag": false,
+   "@context": {
+    "key": "Mar22,222,300000327478575"
+   }
+  },
+  {
+   "PeriodNameId": "Mar22",
+   "ApplicationId": "200",
+   "LedgerId": "300000327478575",
+   "ClosingStatus": "N",
+   "EndDate": "2022-04-25",
+   "StartDate": "2022-03-26",
+   "EffectivePeriodNumber": "20220009",
+   "PeriodYear": "2022",
+   "PeriodNumber": "9",
+   "AdjustmentPeriodFlag": false,
+   "@context": {
+    "key": "Mar22,200,300000327478575"
+   }
+  },
+  {
+   "PeriodNameId": "Feb22",
+   "ApplicationId": "101",
+   "LedgerId": "300000327478575",
+   "ClosingStatus": "N",
+   "EndDate": "2022-03-25",
+   "StartDate": "2022-02-26",
+   "EffectivePeriodNumber": "20220008",
+   "PeriodYear": "2022",
+   "PeriodNumber": "8",
+   "AdjustmentPeriodFlag": false,
+   "@context": {
+    "key": "Feb22,101,300000327478575"
+   }
+  },
+  {
+   "PeriodNameId": "Feb22",
+   "ApplicationId": "10455",
+   "LedgerId": "300000327478575",
+   "ClosingStatus": "N",
+   "EndDate": "2022-03-25",
+   "StartDate": "2022-02-26",
+   "EffectivePeriodNumber": "20220008",
+   "PeriodYear": "2022",
+   "PeriodNumber": "8",
+   "AdjustmentPeriodFlag": false,
+   "@context": {
+    "key": "Feb22,10455,300000327478575"
+   }
+  },
+  {
+   "PeriodNameId": "Feb22",
+   "ApplicationId": "10037",
+   "LedgerId": "300000327478575",
+   "ClosingStatus": "N",
+   "EndDate": "2022-03-25",
+   "StartDate": "2022-02-26",
+   "EffectivePeriodNumber": "20220008",
+   "PeriodYear": "2022",
+   "PeriodNumber": "8",
+   "AdjustmentPeriodFlag": false,
+   "@context": {
+    "key": "Feb22,10037,300000327478575"
+   }
+  },
+  {
+   "PeriodNameId": "Feb22",
+   "ApplicationId": "222",
+   "LedgerId": "300000327478575",
+   "ClosingStatus": "N",
+   "EndDate": "2022-03-25",
+   "StartDate": "2022-02-26",
+   "EffectivePeriodNumber": "20220008",
+   "PeriodYear": "2022",
+   "PeriodNumber": "8",
+   "AdjustmentPeriodFlag": false,
+   "@context": {
+    "key": "Feb22,222,300000327478575"
+   }
+  },
+  {
+   "PeriodNameId": "Feb22",
+   "ApplicationId": "200",
+   "LedgerId": "300000327478575",
+   "ClosingStatus": "N",
+   "EndDate": "2022-03-25",
+   "StartDate": "2022-02-26",
+   "EffectivePeriodNumber": "20220008",
+   "PeriodYear": "2022",
+   "PeriodNumber": "8",
+   "AdjustmentPeriodFlag": false,
+   "@context": {
+    "key": "Feb22,200,300000327478575"
+   }
+  },
+  {
+   "PeriodNameId": "Jan22",
+   "ApplicationId": "101",
+   "LedgerId": "300000327478575",
+   "ClosingStatus": "N",
+   "EndDate": "2022-02-25",
+   "StartDate": "2022-01-26",
+   "EffectivePeriodNumber": "20220007",
+   "PeriodYear": "2022",
+   "PeriodNumber": "7",
+   "AdjustmentPeriodFlag": false,
+   "@context": {
+    "key": "Jan22,101,300000327478575"
+   }
+  },
+  {
+   "PeriodNameId": "Jan22",
+   "ApplicationId": "10455",
+   "LedgerId": "300000327478575",
+   "ClosingStatus": "N",
+   "EndDate": "2022-02-25",
+   "StartDate": "2022-01-26",
+   "EffectivePeriodNumber": "20220007",
+   "PeriodYear": "2022",
+   "PeriodNumber": "7",
+   "AdjustmentPeriodFlag": false,
+   "@context": {
+    "key": "Jan22,10455,300000327478575"
+   }
+  },
+  {
+   "PeriodNameId": "Jan22",
+   "ApplicationId": "10037",
+   "LedgerId": "300000327478575",
+   "ClosingStatus": "N",
+   "EndDate": "2022-02-25",
+   "StartDate": "2022-01-26",
+   "EffectivePeriodNumber": "20220007",
+   "PeriodYear": "2022",
+   "PeriodNumber": "7",
+   "AdjustmentPeriodFlag": false,
+   "@context": {
+    "key": "Jan22,10037,300000327478575"
+   }
+  },
+  {
+   "PeriodNameId": "Jan22",
+   "ApplicationId": "222",
+   "LedgerId": "300000327478575",
+   "ClosingStatus": "N",
+   "EndDate": "2022-02-25",
+   "StartDate": "2022-01-26",
+   "EffectivePeriodNumber": "20220007",
+   "PeriodYear": "2022",
+   "PeriodNumber": "7",
+   "AdjustmentPeriodFlag": false,
+   "@context": {
+    "key": "Jan22,222,300000327478575"
+   }
+  },
+  {
+   "PeriodNameId": "Jan22",
+   "ApplicationId": "200",
+   "LedgerId": "300000327478575",
+   "ClosingStatus": "N",
+   "EndDate": "2022-02-25",
+   "StartDate": "2022-01-26",
+   "EffectivePeriodNumber": "20220007",
+   "PeriodYear": "2022",
+   "PeriodNumber": "7",
+   "AdjustmentPeriodFlag": false,
+   "@context": {
+    "key": "Jan22,200,300000327478575"
+   }
+  },
+  {
+   "PeriodNameId": "Dec21",
+   "ApplicationId": "101",
+   "LedgerId": "300000327478575",
+   "ClosingStatus": "N",
+   "EndDate": "2022-01-25",
+   "StartDate": "2021-12-26",
+   "EffectivePeriodNumber": "20220006",
+   "PeriodYear": "2022",
+   "PeriodNumber": "6",
+   "AdjustmentPeriodFlag": false,
+   "@context": {
+    "key": "Dec21,101,300000327478575"
+   }
+  },
+  {
+   "PeriodNameId": "Dec21",
+   "ApplicationId": "10455",
+   "LedgerId": "300000327478575",
+   "ClosingStatus": "N",
+   "EndDate": "2022-01-25",
+   "StartDate": "2021-12-26",
+   "EffectivePeriodNumber": "20220006",
+   "PeriodYear": "2022",
+   "PeriodNumber": "6",
+   "AdjustmentPeriodFlag": false,
+   "@context": {
+    "key": "Dec21,10455,300000327478575"
+   }
+  },
+  {
+   "PeriodNameId": "Dec21",
+   "ApplicationId": "10037",
+   "LedgerId": "300000327478575",
+   "ClosingStatus": "N",
+   "EndDate": "2022-01-25",
+   "StartDate": "2021-12-26",
+   "EffectivePeriodNumber": "20220006",
+   "PeriodYear": "2022",
+   "PeriodNumber": "6",
+   "AdjustmentPeriodFlag": false,
+   "@context": {
+    "key": "Dec21,10037,300000327478575"
+   }
+  },
+  {
+   "PeriodNameId": "Dec21",
+   "ApplicationId": "222",
+   "LedgerId": "300000327478575",
+   "ClosingStatus": "N",
+   "EndDate": "2022-01-25",
+   "StartDate": "2021-12-26",
+   "EffectivePeriodNumber": "20220006",
+   "PeriodYear": "2022",
+   "PeriodNumber": "6",
+   "AdjustmentPeriodFlag": false,
+   "@context": {
+    "key": "Dec21,222,300000327478575"
+   }
+  },
+  {
+   "PeriodNameId": "Dec21",
+   "ApplicationId": "200",
+   "LedgerId": "300000327478575",
+   "ClosingStatus": "N",
+   "EndDate": "2022-01-25",
+   "StartDate": "2021-12-26",
+   "EffectivePeriodNumber": "20220006",
+   "PeriodYear": "2022",
+   "PeriodNumber": "6",
+   "AdjustmentPeriodFlag": false,
+   "@context": {
+    "key": "Dec21,200,300000327478575"
+   }
+  },
+  {
+   "PeriodNameId": "Nov21",
+   "ApplicationId": "101",
+   "LedgerId": "300000327478575",
+   "ClosingStatus": "N",
+   "EndDate": "2021-12-25",
+   "StartDate": "2021-11-26",
+   "EffectivePeriodNumber": "20220005",
+   "PeriodYear": "2022",
+   "PeriodNumber": "5",
+   "AdjustmentPeriodFlag": false,
+   "@context": {
+    "key": "Nov21,101,300000327478575"
+   }
+  },
+  {
+   "PeriodNameId": "Nov21",
+   "ApplicationId": "10455",
+   "LedgerId": "300000327478575",
+   "ClosingStatus": "N",
+   "EndDate": "2021-12-25",
+   "StartDate": "2021-11-26",
+   "EffectivePeriodNumber": "20220005",
+   "PeriodYear": "2022",
+   "PeriodNumber": "5",
+   "AdjustmentPeriodFlag": false,
+   "@context": {
+    "key": "Nov21,10455,300000327478575"
+   }
+  },
+  {
+   "PeriodNameId": "Nov21",
+   "ApplicationId": "10037",
+   "LedgerId": "300000327478575",
+   "ClosingStatus": "N",
+   "EndDate": "2021-12-25",
+   "StartDate": "2021-11-26",
+   "EffectivePeriodNumber": "20220005",
+   "PeriodYear": "2022",
+   "PeriodNumber": "5",
+   "AdjustmentPeriodFlag": false,
+   "@context": {
+    "key": "Nov21,10037,300000327478575"
+   }
+  },
+  {
+   "PeriodNameId": "Nov21",
+   "ApplicationId": "222",
+   "LedgerId": "300000327478575",
+   "ClosingStatus": "N",
+   "EndDate": "2021-12-25",
+   "StartDate": "2021-11-26",
+   "EffectivePeriodNumber": "20220005",
+   "PeriodYear": "2022",
+   "PeriodNumber": "5",
+   "AdjustmentPeriodFlag": false,
+   "@context": {
+    "key": "Nov21,222,300000327478575"
+   }
+  },
+  {
+   "PeriodNameId": "Nov21",
+   "ApplicationId": "200",
+   "LedgerId": "300000327478575",
+   "ClosingStatus": "N",
+   "EndDate": "2021-12-25",
+   "StartDate": "2021-11-26",
+   "EffectivePeriodNumber": "20220005",
+   "PeriodYear": "2022",
+   "PeriodNumber": "5",
+   "AdjustmentPeriodFlag": false,
+   "@context": {
+    "key": "Nov21,200,300000327478575"
+   }
+  },
+  {
+   "PeriodNameId": "Oct21",
+   "ApplicationId": "101",
+   "LedgerId": "300000327478575",
+   "ClosingStatus": "N",
+   "EndDate": "2021-11-25",
+   "StartDate": "2021-10-26",
+   "EffectivePeriodNumber": "20220004",
+   "PeriodYear": "2022",
+   "PeriodNumber": "4",
+   "AdjustmentPeriodFlag": false,
+   "@context": {
+    "key": "Oct21,101,300000327478575"
+   }
+  },
+  {
+   "PeriodNameId": "Oct21",
+   "ApplicationId": "10455",
+   "LedgerId": "300000327478575",
+   "ClosingStatus": "N",
+   "EndDate": "2021-11-25",
+   "StartDate": "2021-10-26",
+   "EffectivePeriodNumber": "20220004",
+   "PeriodYear": "2022",
+   "PeriodNumber": "4",
+   "AdjustmentPeriodFlag": false,
+   "@context": {
+    "key": "Oct21,10455,300000327478575"
+   }
+  },
+  {
+   "PeriodNameId": "Oct21",
+   "ApplicationId": "10037",
+   "LedgerId": "300000327478575",
+   "ClosingStatus": "N",
+   "EndDate": "2021-11-25",
+   "StartDate": "2021-10-26",
+   "EffectivePeriodNumber": "20220004",
+   "PeriodYear": "2022",
+   "PeriodNumber": "4",
+   "AdjustmentPeriodFlag": false,
+   "@context": {
+    "key": "Oct21,10037,300000327478575"
+   }
+  },
+  {
+   "PeriodNameId": "Oct21",
+   "ApplicationId": "222",
+   "LedgerId": "300000327478575",
+   "ClosingStatus": "N",
+   "EndDate": "2021-11-25",
+   "StartDate": "2021-10-26",
+   "EffectivePeriodNumber": "20220004",
+   "PeriodYear": "2022",
+   "PeriodNumber": "4",
+   "AdjustmentPeriodFlag": false,
+   "@context": {
+    "key": "Oct21,222,300000327478575"
+   }
+  },
+  {
+   "PeriodNameId": "Oct21",
+   "ApplicationId": "200",
+   "LedgerId": "300000327478575",
+   "ClosingStatus": "N",
+   "EndDate": "2021-11-25",
+   "StartDate": "2021-10-26",
+   "EffectivePeriodNumber": "20220004",
+   "PeriodYear": "2022",
+   "PeriodNumber": "4",
+   "AdjustmentPeriodFlag": false,
+   "@context": {
+    "key": "Oct21,200,300000327478575"
+   }
+  },
+  {
+   "PeriodNameId": "Sep21",
+   "ApplicationId": "101",
+   "LedgerId": "300000327478575",
+   "ClosingStatus": "N",
+   "EndDate": "2021-10-25",
+   "StartDate": "2021-09-26",
+   "EffectivePeriodNumber": "20220003",
+   "PeriodYear": "2022",
+   "PeriodNumber": "3",
+   "AdjustmentPeriodFlag": false,
+   "@context": {
+    "key": "Sep21,101,300000327478575"
+   }
+  },
+  {
+   "PeriodNameId": "Sep21",
+   "ApplicationId": "10455",
+   "LedgerId": "300000327478575",
+   "ClosingStatus": "N",
+   "EndDate": "2021-10-25",
+   "StartDate": "2021-09-26",
+   "EffectivePeriodNumber": "20220003",
+   "PeriodYear": "2022",
+   "PeriodNumber": "3",
+   "AdjustmentPeriodFlag": false,
+   "@context": {
+    "key": "Sep21,10455,300000327478575"
+   }
+  },
+  {
+   "PeriodNameId": "Sep21",
+   "ApplicationId": "10037",
+   "LedgerId": "300000327478575",
+   "ClosingStatus": "N",
+   "EndDate": "2021-10-25",
+   "StartDate": "2021-09-26",
+   "EffectivePeriodNumber": "20220003",
+   "PeriodYear": "2022",
+   "PeriodNumber": "3",
+   "AdjustmentPeriodFlag": false,
+   "@context": {
+    "key": "Sep21,10037,300000327478575"
+   }
+  },
+  {
+   "PeriodNameId": "Sep21",
+   "ApplicationId": "222",
+   "LedgerId": "300000327478575",
+   "ClosingStatus": "N",
+   "EndDate": "2021-10-25",
+   "StartDate": "2021-09-26",
+   "EffectivePeriodNumber": "20220003",
+   "PeriodYear": "2022",
+   "PeriodNumber": "3",
+   "AdjustmentPeriodFlag": false,
+   "@context": {
+    "key": "Sep21,222,300000327478575"
+   }
+  },
+  {
+   "PeriodNameId": "Sep21",
+   "ApplicationId": "200",
+   "LedgerId": "300000327478575",
+   "ClosingStatus": "N",
+   "EndDate": "2021-10-25",
+   "StartDate": "2021-09-26",
+   "EffectivePeriodNumber": "20220003",
+   "PeriodYear": "2022",
+   "PeriodNumber": "3",
+   "AdjustmentPeriodFlag": false,
+   "@context": {
+    "key": "Sep21,200,300000327478575"
+   }
+  },
+  {
+   "PeriodNameId": "Aug21",
+   "ApplicationId": "101",
+   "LedgerId": "300000327478575",
+   "ClosingStatus": "N",
+   "EndDate": "2021-09-25",
+   "StartDate": "2021-08-26",
+   "EffectivePeriodNumber": "20220002",
+   "PeriodYear": "2022",
+   "PeriodNumber": "2",
+   "AdjustmentPeriodFlag": false,
+   "@context": {
+    "key": "Aug21,101,300000327478575"
+   }
+  },
+  {
+   "PeriodNameId": "Aug21",
+   "ApplicationId": "10455",
+   "LedgerId": "300000327478575",
+   "ClosingStatus": "N",
+   "EndDate": "2021-09-25",
+   "StartDate": "2021-08-26",
+   "EffectivePeriodNumber": "20220002",
+   "PeriodYear": "2022",
+   "PeriodNumber": "2",
+   "AdjustmentPeriodFlag": false,
+   "@context": {
+    "key": "Aug21,10455,300000327478575"
+   }
+  },
+  {
+   "PeriodNameId": "Aug21",
+   "ApplicationId": "10037",
+   "LedgerId": "300000327478575",
+   "ClosingStatus": "N",
+   "EndDate": "2021-09-25",
+   "StartDate": "2021-08-26",
+   "EffectivePeriodNumber": "20220002",
+   "PeriodYear": "2022",
+   "PeriodNumber": "2",
+   "AdjustmentPeriodFlag": false,
+   "@context": {
+    "key": "Aug21,10037,300000327478575"
+   }
+  },
+  {
+   "PeriodNameId": "Aug21",
+   "ApplicationId": "222",
+   "LedgerId": "300000327478575",
+   "ClosingStatus": "N",
+   "EndDate": "2021-09-25",
+   "StartDate": "2021-08-26",
+   "EffectivePeriodNumber": "20220002",
+   "PeriodYear": "2022",
+   "PeriodNumber": "2",
+   "AdjustmentPeriodFlag": false,
+   "@context": {
+    "key": "Aug21,222,300000327478575"
+   }
+  },
+  {
+   "PeriodNameId": "Aug21",
+   "ApplicationId": "200",
+   "LedgerId": "300000327478575",
+   "ClosingStatus": "N",
+   "EndDate": "2021-09-25",
+   "StartDate": "2021-08-26",
+   "EffectivePeriodNumber": "20220002",
+   "PeriodYear": "2022",
+   "PeriodNumber": "2",
+   "AdjustmentPeriodFlag": false,
+   "@context": {
+    "key": "Aug21,200,300000327478575"
+   }
+  },
+  {
+   "PeriodNameId": "Jul21",
+   "ApplicationId": "101",
+   "LedgerId": "300000327478575",
+   "ClosingStatus": "N",
+   "EndDate": "2021-08-25",
+   "StartDate": "2021-07-26",
+   "EffectivePeriodNumber": "20220001",
+   "PeriodYear": "2022",
+   "PeriodNumber": "1",
+   "AdjustmentPeriodFlag": false,
+   "@context": {
+    "key": "Jul21,101,300000327478575"
+   }
+  },
+  {
+   "PeriodNameId": "Jul21",
+   "ApplicationId": "200",
+   "LedgerId": "300000327478575",
+   "ClosingStatus": "N",
+   "EndDate": "2021-08-25",
+   "StartDate": "2021-07-26",
+   "EffectivePeriodNumber": "20220001",
+   "PeriodYear": "2022",
+   "PeriodNumber": "1",
+   "AdjustmentPeriodFlag": false,
+   "@context": {
+    "key": "Jul21,200,300000327478575"
+   }
+  },
+  {
+   "PeriodNameId": "Jul21",
+   "ApplicationId": "222",
+   "LedgerId": "300000327478575",
+   "ClosingStatus": "N",
+   "EndDate": "2021-08-25",
+   "StartDate": "2021-07-26",
+   "EffectivePeriodNumber": "20220001",
+   "PeriodYear": "2022",
+   "PeriodNumber": "1",
+   "AdjustmentPeriodFlag": false,
+   "@context": {
+    "key": "Jul21,222,300000327478575"
+   }
+  },
+  {
+   "PeriodNameId": "Jul21",
+   "ApplicationId": "10037",
+   "LedgerId": "300000327478575",
+   "ClosingStatus": "N",
+   "EndDate": "2021-08-25",
+   "StartDate": "2021-07-26",
+   "EffectivePeriodNumber": "20220001",
+   "PeriodYear": "2022",
+   "PeriodNumber": "1",
+   "AdjustmentPeriodFlag": false,
+   "@context": {
+    "key": "Jul21,10037,300000327478575"
+   }
+  },
+  {
+   "PeriodNameId": "Jul21",
+   "ApplicationId": "10455",
+   "LedgerId": "300000327478575",
+   "ClosingStatus": "N",
+   "EndDate": "2021-08-25",
+   "StartDate": "2021-07-26",
+   "EffectivePeriodNumber": "20220001",
+   "PeriodYear": "2022",
+   "PeriodNumber": "1",
+   "AdjustmentPeriodFlag": false,
+   "@context": {
+    "key": "Jul21,10455,300000327478575"
+   }
+  }
+ ],
+ "count": 65,
+ "pages": 1
+}

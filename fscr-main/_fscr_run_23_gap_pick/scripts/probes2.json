@@ -1,0 +1,88 @@
+[
+ {
+  "id": "imp_GL_MANAGE_JOURNAL_CATEGORIES",
+  "path": "setupTaskCSVImports/GL_MANAGE_JOURNAL_CATEGORIES"
+ },
+ {
+  "id": "exp_GL_MANAGE_JOURNAL_CATEGORIES",
+  "path": "setupTaskCSVExports/GL_MANAGE_JOURNAL_CATEGORIES"
+ },
+ {
+  "id": "imp_AR_MANAGE_STATEMENT_CYCLES",
+  "path": "setupTaskCSVImports/AR_MANAGE_STATEMENT_CYCLES"
+ },
+ {
+  "id": "exp_AR_MANAGE_STATEMENT_CYCLES",
+  "path": "setupTaskCSVExports/AR_MANAGE_STATEMENT_CYCLES"
+ },
+ {
+  "id": "imp_AR_MANAGE_STANDARD_MEMO_LINES",
+  "path": "setupTaskCSVImports/AR_MANAGE_STANDARD_MEMO_LINES"
+ },
+ {
+  "id": "exp_AR_MANAGE_STANDARD_MEMO_LINES",
+  "path": "setupTaskCSVExports/AR_MANAGE_STANDARD_MEMO_LINES"
+ },
+ {
+  "id": "imp_PO_MANAGE_HAZARD_CLASSES",
+  "path": "setupTaskCSVImports/PO_MANAGE_HAZARD_CLASSES"
+ },
+ {
+  "id": "exp_PO_MANAGE_HAZARD_CLASSES",
+  "path": "setupTaskCSVExports/PO_MANAGE_HAZARD_CLASSES"
+ },
+ {
+  "id": "imp_WSH_MANAGE_SHIPPING_COST_TYPES",
+  "path": "setupTaskCSVImports/WSH_MANAGE_SHIPPING_COST_TYPES"
+ },
+ {
+  "id": "exp_WSH_MANAGE_SHIPPING_COST_TYPES",
+  "path": "setupTaskCSVExports/WSH_MANAGE_SHIPPING_COST_TYPES"
+ },
+ {
+  "id": "imp_ORA_POQ_MANAGE_SUPPLIER_QUALIFICATION_AREAS",
+  "path": "setupTaskCSVImports/ORA_POQ_MANAGE_SUPPLIER_QUALIFICATION_AREAS"
+ },
+ {
+  "id": "exp_ORA_POQ_MANAGE_SUPPLIER_QUALIFICATION_AREAS",
+  "path": "setupTaskCSVExports/ORA_POQ_MANAGE_SUPPLIER_QUALIFICATION_AREAS"
+ },
+ {
+  "id": "imp_CST_MANAGE_COST_ELEMENTS",
+  "path": "setupTaskCSVImports/CST_MANAGE_COST_ELEMENTS"
+ },
+ {
+  "id": "exp_CST_MANAGE_COST_ELEMENTS",
+  "path": "setupTaskCSVExports/CST_MANAGE_COST_ELEMENTS"
+ },
+ {
+  "id": "jc_fscrt",
+  "path": "journalCategoriesLOV",
+  "q": {
+   "q": "UserJeCategoryName LIKE 'FSCRT_%'"
+  }
+ },
+ {
+  "id": "jc_describe",
+  "path": "journalCategoriesLOV/describe"
+ },
+ {
+  "id": "memo_describe",
+  "path": "memoLinesLOV/describe"
+ },
+ {
+  "id": "sqa_describe",
+  "path": "supplierQualificationAreas/describe"
+ },
+ {
+  "id": "sct_describe",
+  "path": "shippingCostTypesLOV/describe"
+ },
+ {
+  "id": "setupOfferings",
+  "path": "setupOfferings",
+  "q": {
+   "limit": "2"
+  }
+ }
+]

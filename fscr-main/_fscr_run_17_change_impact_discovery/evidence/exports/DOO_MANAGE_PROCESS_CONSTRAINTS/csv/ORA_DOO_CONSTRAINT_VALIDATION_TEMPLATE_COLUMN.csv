@@ -1,0 +1,8 @@
+"ORA_DOO_CONSTRAINT_VALIDATION_TEMPLATE.OrchestrationApplicationCode","ORA_DOO_CONSTRAINT_VALIDATION_TEMPLATE.ValidationTmpltShortName","ColumnName","ValidationOp","ValueString","CreatedBy","LastUpdatedBy","EffContextCode"
+"DOO","SHIP10","STATUS_CODE","=","AWAIT_SHIP","Configuration","Configuration",""
+"DOO","PICK10","STATUS_CODE","=","PICKED","Configuration","Configuration",""
+"DOO","PICK_ZS","STATUS_CODE","=","PICKED","Configuration","Configuration",""
+"DOO","SHIP","STATUS_CODE","=","AWAIT_SHIP","Configuration","Configuration",""
+"DOO","MNCVRS","STATUS_CODE","=","AWAIT_SHIP","Configuration","Configuration",""
+"DOO","MNC_PIC","STATUS_CODE","=","PICKED","Configuration","Configuration",""
+"DOO","SHIP_ZS","STATUS_CODE","=","AWAIT_SHIP","Configuration","Configuration",""

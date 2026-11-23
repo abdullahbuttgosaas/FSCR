@@ -1,0 +1,51 @@
+<MigrationProcessCSVMetadataVO>
+   <MigrationProcessCSVMetadataVORow>
+      <ProcessId>-999</ProcessId>
+      <ProcessName>Manage External Purchase Prices Purchase Agreement Defaults_20261117_085038_534</ProcessName>
+      <ProcessDescription>Manage External Purchase Prices Purchase Agreement Defaults_20261117_085038_534</ProcessDescription>
+      <ProcessDate>2026-11-17 08:50:58.661</ProcessDate>
+      <ObjectShortName>ORA_MANAGE_EXTERNAL_PURCHASE_PRICES_PA_DEFAULTS</ObjectShortName>
+      <ObjectType>TASK</ObjectType>
+      <CreatedByFlow>TASK_CSV_SERVICE</CreatedByFlow>
+      <ProcessType>EXPORT</ProcessType>
+      <ProcessStatus>COMPLETED</ProcessStatus>
+      <ProcessEnv>etia-test</ProcessEnv>
+      <ProcessStartDate>2026-11-17 08:50:38.144</ProcessStartDate>
+      <ProcessEndDate>2026-11-17 08:50:58.661</ProcessEndDate>
+      <ProcessRelease>11.13.26.10.0</ProcessRelease>
+      <SubmittedBy>Configuration.TEST</SubmittedBy>
+      <ESSRequestId>4466254</ESSRequestId>
+      <MigrationProcessBusinessObjectCSVMetadata1>
+         <MigrationProcessBusinessObjectCSVMetadataVORow>
+            <ProcessId>-999</ProcessId>
+            <BusinessObjectShortName>ORA_EXTERNAL_PURCHASE_PRICES_ATTRIBUTE_DEFAULT</BusinessObjectShortName>
+            <BatchName>EppAgreementDefault</BatchName>
+            <XmlAttributeList>ConfirmingOrderFlag,AllowPriceOverrideFlag,RoundingFactor,RetroPriceCommUpdatesFlag,RetroPriceOpenOrderFlag,RetroPriceInitApprovalFlag,RetroPriceApplyUpdatesFlag,AllowMultipleSitesFlag,JobDefinitionName,ApprovalAction,JobDefinitionPackage,ReqGroupName</XmlAttributeList>
+            <XmlAttributeTypeList>string,string,decimal,string,string,string,string,string,string,string,string,string</XmlAttributeTypeList>
+            <XmlNodePath>/EppAgreementDefaultVO/EppAgreementDefaultVORow</XmlNodePath>
+            <NodeSequence>1</NodeSequence>
+         </MigrationProcessBusinessObjectCSVMetadataVORow>
+      </MigrationProcessBusinessObjectCSVMetadata1>
+      <MigrationProcessBatchCSVMetadata>
+         <MigrationProcessBatchCSVMetadataVORow>
+            <ProcessId>-999</ProcessId>
+            <BatchName>EppAgreementDefault</BatchName>
+            <ImportSequence>0</ImportSequence>
+            <ServiceName>oracle.apps.scm.sch.externalPurchasePrice.agreementDefaultService.EppAgreementDefaultService</ServiceName>
+            <BatchSize>500</BatchSize>
+         </MigrationProcessBatchCSVMetadataVORow>
+      </MigrationProcessBatchCSVMetadata>
+      <MigrationProcessScopeValueCSVMetadata null="true"/>
+      <MigrationProcessMigrationObjectCSVMetadata>
+         <MigrationProcessMigrationObjectCSVMetadataVORow>
+            <ProcessId>-999</ProcessId>
+            <BusinessObjectShortName>ORA_EXTERNAL_PURCHASE_PRICES_ATTRIBUTE_DEFAULT</BusinessObjectShortName>
+            <MigrateFlag>Y</MigrateFlag>
+            <IncludeExternalDataFlag>Y</IncludeExternalDataFlag>
+            <ServiceType null="true"/>
+         </MigrationProcessMigrationObjectCSVMetadataVORow>
+      </MigrationProcessMigrationObjectCSVMetadata>
+      <MigrationProcessTaskCSVMetadata null="true"/>
+      <MigrationProcessServiceVersionCSVMetadata null="true"/>
+   </MigrationProcessCSVMetadataVORow>
+</MigrationProcessCSVMetadataVO>

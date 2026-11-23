@@ -1,0 +1,9 @@
+FREEZE RECORD - run 14 part 2 intake
+Frozen at: 2026-11-05T19:35:24+05:00
+Baseline/answer folders opened before freeze: none (only _fscr_run_10_drive_reference/downloads/01_checklists_capture.txt was read, as permitted)
+MD5 of frozen outputs:
+d5b73e45ac83902f37d9d5ac7f480626 *01_SCOPE.md
+17abdb9166e44cca249bcb203e03b4f6 *02_ENTERPRISE_STRUCTURE.md
+6b9f369862c76f257a72e456d520e719 *03_INTEGRATION_LANDSCAPE.md
+Supporting (not frozen outputs):
+d29ff0170d9fe1ede178e610d0645d6b *fscr-main/project/twelve-scm-intake-20261105/artifacts/router/project-objective-classifier/current/scope.json

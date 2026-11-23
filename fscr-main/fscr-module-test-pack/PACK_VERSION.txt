@@ -1,0 +1,16 @@
+fscr-module-test-pack
+Built: 17/11/2026
+
+Official FSCR repository: https://github.com/oracle/fscr
+Commit: 2801695703b909891753790b60a694d2b270724e
+Commit message: FSCR 26D Release
+Commit date: 2026-10-20 16:48:55 -07:00 (author date 2026-10-19 13:27:56 -07:00)
+
+Why this commit: it is the last commit on or before 28/10/2026 15:23 (+05:00), when the FSCR copy we tested
+with was unpacked. The next commit (6684072, 06/11/2026) differs from our tested copy in 393 files; this one
+differs in only the 3 files listed in CHANGES.md.
+
+Files from the repository: 6,087 (every file git tracks at that commit, nothing else).
+Each one is byte-identical to git, except the changes listed in CHANGES.md (there are none in the FSCR files).
+Added on top: CLAUDE.md, SETUP.md, README_PACK.md, CHANGES.md, PACK_VERSION.txt, module-test-kit/ (see CHANGES.md).
+Scope map: module-test-kit/module_scope_map.csv and module_counts.csv (2,616 catalog tasks, 34 tracker rows + Unmapped).

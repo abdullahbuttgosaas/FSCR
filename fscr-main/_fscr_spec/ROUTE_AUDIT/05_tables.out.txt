@@ -1,0 +1,118 @@
+REST evidence kinds (a unit may have several): {"depends_only": 201, "REST units": 473, "rest_file": 24, "task_rest": 5, "data_loader_bo": 227, "rest_mode_only": 220}
+
+Routes by kind of unit: {"skill": {"FSM_CSV": 624, "REST": 429, "more than one route": 367, "ESS": 27, "CX_IMPORT": 5, "MANUAL_ONLY (user does it in the UI)": 4, "MANUAL (any)": 4, "NONE_DECLARED": 7, "FBDI": 9, "HDL": 41, "UNCLEAR": 1}, "task guide": {"NONE_DECLARED": 10, "FSM_CSV": 115, "REST": 44, "more than one route": 17, "HDL": 2, "MANUAL_ONLY (user does it in the UI)": 8, "MANUAL (any)": 8}}
+All units: {"FSM_CSV": 739, "NONE_DECLARED": 17, "REST": 473, "more than one route": 384, "ESS": 27, "CX_IMPORT": 5, "MANUAL_ONLY (user does it in the UI)": 12, "MANUAL (any)": 12, "FBDI": 9, "HDL": 43, "UNCLEAR": 1}
+By pillar: {"CX": {"skills": 223, "REST": 81, "FSM_CSV": 165, "more than one route": 46, "ESS": 16, "CX_IMPORT": 5, "MANUAL_ONLY (user does it in the UI)": 1, "MANUAL (any)": 1, "NONE_DECLARED": 5}, "Common": {"skills": 12, "FSM_CSV": 6, "NONE_DECLARED": 6}, "ERP": {"skills": 80, "FSM_CSV": 64, "FBDI": 3, "REST": 45, "more than one route": 36, "ESS": 2, "HDL": 2}, "HCM": {"skills": 365, "HDL": 41, "ESS": 8, "FSM_CSV": 285, "REST": 153, "more than one route": 120, "NONE_DECLARED": 3, "MANUAL_ONLY (user does it in the UI)": 1, "MANUAL (any)": 1, "UNCLEAR": 1}, "SCM": {"skills": 251, "FSM_CSV": 219, "REST": 194, "more than one route": 182, "NONE_DECLARED": 3, "MANUAL_ONLY (user does it in the UI)": 10, "MANUAL (any)": 10, "FBDI": 6, "ESS": 1}}
+
+Catalog comparison: {"CONTRADICTS (reverse): flag Y but skill declares only another route or manual, not FSM CSV": 37, "CONTRADICTS: flag N but skill declares FSM CSV": 2, "agree: flag N, skill declares another route or manual (no FSM CSV)": 125, "agree: flag Y, skill declares FSM CSV": 736, "flag UNKNOWN in catalog": 14, "no route to compare (flag N)": 11, "no route to compare (flag Y)": 6}
+
+no route to compare (flag N): 11
+  ORA_ASE_IMPORT_USER_LOGIN_HISTORY [task guide] routes=none | -
+  ORA_ASE_IMPORT_USERS_AND_ROLES [task guide] routes=none | -
+  ORA_FND_SET_CSM_TARGET_SECURITY [task guide] routes=none | -
+  PER_USER_AND_ROLES_SYNCHRONIZE_DETAILS [task guide] routes=none | -
+  CUSTOM_PRE_REQUISITES [skill] routes=none | -
+  ORA_SVC_MANAGE_PASSIVE_BEACON_CONFIGURATION [task guide] routes=none | -
+  CUSTOM_MANAGE_ALGORITHMS_FOR_ORDER_MANAGEMENT_TO_SUBSCRIPTIONS [skill] routes=none | -
+  CUSTOM_MANAGE_ALGORITHMS_FOR_SUBSCRIPTIONS_TO_ACCOUNTS_RECEIVABLES [skill] routes=none | -
+  CUSTOM_MANAGE_SERVICE_MAPPINGS_FOR_SUBSCRIPTIONS_TO_ACCOUNTS_RECEIVABLES [skill] routes=none | -
+  CUSTOM_ALERTS [task guide] routes=none | -
+
+no route to compare (flag Y): 6
+  ORA_ASE_MANAGE_SECURITY_PREFERENCES [task guide] routes=none | -
+  ATK_MANAGE_HELP_SECURITY_GROUPS [task guide] routes=none | -
+  FND_MANAGE_REFERENCE_DATA_SETS [skill] routes=none | pillars/hcm/goal-management/goal-management-common/manage-reference-data-sets/SKILL.md:16: dataloader_import_mode: "FSM"
+  ORA_MANAGE_CANDIDATE_DIMENSION_SOURCE_NAMES [skill] routes=none | -
+  ORA_DOS_MANAGE_SUPPLY_ORCHESTRATION_LOOKUPS [task guide] routes=none | -
+  FND_MANAGE_PROFILE_OPTIONS [task guide] routes=none | -
+
+flag Y, skill declares another route or manual, not FSM CSV: 37
+  ORA_CPQ_SETUP_ASSISTANT [skill] routes=['REST'] | pillars/cx/configure-price-quote/company-profile/cpq-setup-assistant/SKILL.md: frontmatter depends_on/uses_core core.fusion-api.rest-api-client
+  GL_MANAGE_ACCOUNTING_CALENDARS [skill] routes=['REST'] | pillars/erp/financials/financial-reporting-structures/manage-accounting-calendars/ora-resource/ora_rest_execution.md: exists
+  GL_MANAGE_CHART_OF_ACCOUNTS_MAPPING [skill] routes=['REST'] | pillars/erp/financials/financial-reporting-structures/manage-chart-of-accounts-mappings/ora-resource/ora_rest_execution.md: exists
+  GL_MANAGE_CHART_OF_ACCOUNTS_VALUE_SET_VALUES [skill] routes=['FBDI'] | pillars/erp/financials/financial-reporting-structures/manage-chart-of-accounts-value-set-values/ora-resource/ora_fbdi_processing.md: exists
+  GL_REVIEW_AND_SUBMIT_ACCOUNTING_CONFIGURATION [skill] routes=['ESS', 'REST'] | pillars/erp/financials/general-ledger/review-and-submit-accounting-configuration/SKILL.md: frontmatter depends_on core.fusion-api.ess-job-submitter
+  PJF_MANAGE_PROJECT_ORGANIZATION_CLASSIFICATIONS [skill] routes=['HDL', 'REST'] | pillars/erp/project-financial-management/project-organizations/manage-project-organization-classifications/SKILL.md:16: dataloader_import_mode: "HDL" (frontmatter)
+  PJF_MANAGE_PROJECT_UNIT_ORGANIZATIONS [skill] routes=['HDL', 'REST'] | pillars/erp/project-financial-management/project-organizations/manage-project-unit-organizations/SKILL.md:16: dataloader_import_mode: "HDL" (frontmatter)
+  ORA_PER_MANAGE_HCM_POSITION_HIERARCHY [skill] routes=['HDL', 'REST'] | pillars/hcm/global-human-resources/positions/manage-hcm-position-hierarchy/SKILL.md:16: dataloader_import_mode: "HDL" (frontmatter)
+  ORA_PER_MANAGE_BARGAINING_UNIT_LOOKUP [skill] routes=['REST'] | pillars/hcm/global-payroll/payroll-common/manage-bargaining-unit-lookup/SKILL.md:130: section 'Download Fusion Data Loader Sample' (Fusion Data Loader business object)
+  ORA_PER_MANAGE_WORKFORCE_STRUCTURES_DESCRIPTIVE_FLEXFIELDS [skill] routes=['REST'] | pillars/hcm/global-payroll/payroll-common/manage-workforce-structures-descriptive-flexfields/SKILL.md:130: section 'Download Fusion Data Loader Sample' (Fusion Data Loade
+
+flag UNKNOWN: 14
+  ORA_FFS_TS_ACTIVITY_TYPES [skill] routes=['REST'] | pillars/cx/field-service/scheduling-and-dispatch/activity-types/ora-resource/ora_rest_execution.md: exists
+  ORA_FFS_TS_RESOURCE_TYPES [skill] routes=['REST'] | pillars/cx/field-service/scheduling-and-dispatch/resource-types/ora-resource/ora_rest_execution.md: exists
+  ORA_FFS_TS_SHIFTS_AND_SCHEDULES [skill] routes=['REST'] | pillars/cx/field-service/scheduling-and-dispatch/shifts-and-schedules/ora-resource/ora_rest_execution.md: exists
+  ORA_FFS_TS_TIME_SLOTS [skill] routes=['REST'] | pillars/cx/field-service/scheduling-and-dispatch/time-slots/ora-resource/ora_rest_execution.md: exists
+  ORA_FFS_TS_WORK_SKILLS [skill] routes=['REST'] | pillars/cx/field-service/scheduling-and-dispatch/work-skills/ora-resource/ora_rest_execution.md: exists
+  ORA_FFS_TS_WORK_ZONES [skill] routes=['REST'] | pillars/cx/field-service/scheduling-and-dispatch/work-zones/ora-resource/ora_rest_execution.md: exists
+  ORA_GTG_ACTIVATE_ALGORITHMS [skill] routes=['REST'] | pillars/erp/risk-and-security/activate-algorithms/activate-algorithms/SKILL.md: frontmatter depends_on/uses_core core.fusion-api.rest-api-client
+  ORA_GTG_ACTIVATE_AUDIT_POLICIES [skill] routes=['REST'] | pillars/erp/risk-and-security/activate-algorithms/activate-audit-policies/SKILL.md:16: dataloader_import_mode: "REST" (frontmatter)
+  ORA_GTG_ADD_EPM_DATA_SOURCES [skill] routes=['REST'] | pillars/erp/risk-and-security/add-other-data-sources/add-epm-data-sources/SKILL.md: frontmatter depends_on/uses_core core.fusion-api.rest-api-client
+  ORA_GTG_ADD_OTHER_DATA_SOURCES [skill] routes=['REST'] | pillars/erp/risk-and-security/add-other-data-sources/add-other-data-sources/SKILL.md: frontmatter depends_on/uses_core core.fusion-api.rest-api-client
+
+flag N, skill declares FSM CSV: 2
+  CUSTOM_MANAGE_SALES_FUNCTIONAL_AREA_CATALOG [skill] routes=['FSM_CSV'] | pillars/cx/sales/sales-catalog-and-products/manage-sales-functional-area-catalog/SKILL.md:16: dataloader_import_mode: "FSM" (frontmatter)
+  QSC_MANAGE_PRODUCT_GROUPS [task guide] routes=['FSM_CSV'] | pillars/cx/service/service-catalog/manage-product-groups.md:12: dataloader_import_mode: "FSM" (frontmatter)
+
+Skill frontmatter CSV flag differs from the catalog: 16
+  pillars/cx/customer-data-management/trading-community-foundation/import-trading-community-data/SKILL.md: skill None / catalog N
+  pillars/hcm/benefits-configuration/benefits-general-configuration/configure-benefits-feature-preferences/SKILL.md: skill UNKNOWN / catalog N
+  pillars/hcm/global-payroll/payroll-common/manage-bargaining-unit-lookup/SKILL.md: skill UNKNOWN / catalog Y
+  pillars/hcm/global-payroll/payroll-common/manage-workforce-structures-descriptive-flexfields/SKILL.md: skill UNKNOWN / catalog Y
+  pillars/hcm/global-payroll/payroll-common/manage-workforce-structures-extensible-flexfields/SKILL.md: skill UNKNOWN / catalog Y
+  pillars/hcm/performance-management/requested-feedback-template/feedback-templates/SKILL.md: skill N / catalog Y
+  pillars/hcm/recruiting/recruiting-configuration/opportunity-marketplace-eligibility-profiles/SKILL.md: skill None / catalog Y
+  pillars/hcm/recruiting/recruiting-foundation/candidate-dimension-source-names/SKILL.md: skill None / catalog Y
+  pillars/hcm/workforce-time-management/time-and-labor-additional/time-balance-definitions/SKILL.md: skill UNKNOWN / catalog Y
+  pillars/hcm/workforce-time-management/time-and-labor-additional/time-balance-dimensions/SKILL.md: skill UNKNOWN / catalog Y
+  pillars/hcm/workforce-time-management/time-and-labor-additional/workday-definitions/SKILL.md: skill UNKNOWN / catalog Y
+  pillars/scm/procurement/approval-management/manage-internal-supplier-profile-change-approvals.md: skill None / catalog N
+  pillars/scm/procurement/approval-management/manage-internal-supplier-registration-approvals.md: skill None / catalog N
+  pillars/scm/procurement/approval-management/manage-supplier-profile-change-approvals.md: skill None / catalog N
+  pillars/scm/procurement/approval-management/manage-supplier-registration-approvals.md: skill None / catalog N
+  pillars/scm/procurement/approval-management/manage-supplier-spend-authorization-approvals.md: skill None / catalog N
+
+No-route units (no operative route): what they give: {"skills with no operative route": 30, "  of which route to manual-tasks": 12, "  with ora-resource/ files": 5, "  with ora_input_validation.md (fields / rules)": 5, "  with ora_dependency_readiness.md (requirements)": 5, "  with ora_reference_lookups.md (references)": 5, "  with references/ folder": 4, "  with fscr-create-fields tag": 0, "  only the generated sections (no ora-resource, no references)": 24}
+  ORA_ASE_IMPORT_USER_LOGIN_HISTORY [task guide] manual=False unclear=None ora-resource=0 headings=[]
+  ORA_ASE_IMPORT_USERS_AND_ROLES [task guide] manual=False unclear=None ora-resource=0 headings=[]
+  ORA_ASE_MANAGE_SECURITY_PREFERENCES [task guide] manual=False unclear=None ora-resource=0 headings=[]
+  ORA_FND_SET_CSM_TARGET_SECURITY [task guide] manual=False unclear=None ora-resource=0 headings=[]
+  ATK_MANAGE_HELP_SECURITY_GROUPS [task guide] manual=False unclear=None ora-resource=0 headings=[]
+  PER_USER_AND_ROLES_SYNCHRONIZE_DETAILS [task guide] manual=False unclear=None ora-resource=0 headings=[]
+  ORA_HZ_MANAGE_MESSAGES [skill] manual=True unclear=None ora-resource=0 headings=['Purpose', 'Setup Task Skill Contract', 'Usage', 'Setup Task Metadata', 'Execution Route', 'Automation Boundary', 'Manual Message Guidance', 'Tokens']
+  CUSTOM_PRE_REQUISITES [skill] manual=False unclear=None ora-resource=0 headings=['Purpose', 'Setup Task Skill Contract', 'Question Scope and Required Source', 'Execution Safety', 'Setup Task Metadata', 'CSV Export, Import, and Validation Workflow', 'Inputs', 'Outputs']
+  ORA_SVC_MANAGE_PASSIVE_BEACON_CONFIGURATION [task guide] manual=False unclear=None ora-resource=0 headings=['Setup Task Metadata', 'CSV Export, Import, and Validation Workflow', 'Usage']
+  CUSTOM_MANAGE_ALGORITHMS_FOR_ORDER_MANAGEMENT_TO_SUBSCRIPTIONS [skill] manual=False unclear=None ora-resource=6 headings=['Purpose', 'Resource Load Order', 'Essential Contract', 'Mandatory Action-Creation Ownership', 'Draft and Artifact Gates', 'Workflow Summary', 'Outputs', 'Non-goals']
+  CUSTOM_MANAGE_ALGORITHMS_FOR_SUBSCRIPTIONS_TO_ACCOUNTS_RECEIVABLES [skill] manual=False unclear=None ora-resource=7 headings=['Purpose', 'Ownership and companion routing', 'Mandatory inputs and export guidance', 'Existing action handling', 'Mandatory Groovy layout', 'Groovy review and XML artifact', 'Runtime handoff']
+  CUSTOM_MANAGE_SERVICE_MAPPINGS_FOR_SUBSCRIPTIONS_TO_ACCOUNTS_RECEIVABLES [skill] manual=False unclear=None ora-resource=6 headings=['Purpose', 'Ownership and return', 'Inputs and source XML', 'Source discovery and recommendations', 'Describe-only REST boundary']
+  SUPPLEMENTAL_PAYROLL_COMPONENTS [skill] manual=False unclear=None ora-resource=7 headings=['Purpose', 'Setup Task Skill Contract', 'Usage', 'Setup Task Metadata', 'CSV Export, Import, and Validation Workflow', 'Inputs', 'Outputs', 'Implementation Notes']
+  FND_MANAGE_CURRENCIES [skill] manual=True unclear=None ora-resource=0 headings=['Purpose', 'Setup Task Skill Contract', 'Usage', 'Setup Task Metadata', 'CSV Export, Import, and Validation Workflow', 'Inputs', 'Outputs', 'Implementation Notes']
+  FND_MANAGE_REFERENCE_DATA_SETS [skill] manual=False unclear=frontmatter mode disclaimed in the body, no other route found ora-resource=0 headings=['Purpose', 'Setup Task Skill Contract', 'Usage', 'Setup Task Metadata', 'CSV Export, Import, and Validation Workflow', 'Inputs', 'Outputs', 'Implementation Notes']
+  CUSTOM_ALERTS [task guide] manual=False unclear=None ora-resource=0 headings=['Setup Task Metadata', 'Runtime Ownership', 'Usage']
+  ORA_MANAGE_CANDIDATE_DIMENSION_SOURCE_NAMES [skill] manual=False unclear=None ora-resource=7 headings=['Supported work', 'CSV Export, Import, and Validation Workflow', 'Task-local resources']
+  ORA_FOS_REGISTER_PRICING_STUB [skill] manual=False unclear=None ora-resource=0 headings=['Purpose', 'Scope and routing', 'Required inputs', 'Confirmation and execution', 'Boundaries']
+  ORA_DOS_MANAGE_SUPPLY_ORCHESTRATION_LOOKUPS [task guide] manual=False unclear=None ora-resource=0 headings=['Purpose', 'Task Context', 'Lookup API Routing', 'Implementation Notes']
+  DOO_MANAGE_ORCHESTRATION_PROCESS_ASSIGNMENT_RULES [task guide] manual=True unclear=None ora-resource=0 headings=['Manual steps', 'Manual validation guidance']
+  FND_MANAGE_PROFILE_OPTIONS [task guide] manual=False unclear=None ora-resource=0 headings=['Setup Task Metadata', 'Mandatory Route', 'Pricing Profile Options', 'Usage']
+  ORA_POZ_MANAGE_INTERNAL_SUPPLIER_PROFILE_CHANGE_APPROVALS [task guide] manual=True unclear=None ora-resource=0 headings=['Access the task', 'Configuration versus migration', 'Manual steps', 'Manual validation']
+  ORA_POZ_MANAGE_INTERNAL_SUPPLIER_REGISTRATION_APPROVALS [task guide] manual=True unclear=None ora-resource=0 headings=['Access the task', 'Configuration versus migration', 'Manual steps', 'Manual validation']
+  ORA_POZ_MANAGE_SUPPLIER_PROFILE_CHANGE_APPROVALS [task guide] manual=True unclear=None ora-resource=0 headings=['Access the task', 'Configuration versus migration', 'Manual steps', 'Manual validation']
+  ORA_POZ_MANAGE_SUPPLIER_REGISTRATION_APPROVALS [task guide] manual=True unclear=None ora-resource=0 headings=['Access the task', 'Configuration versus migration', 'Manual steps', 'Manual validation']
+  ORA_POZ_MANAGE_SUPPLIER_SPEND_AUTHORIZATION_APPROVALS [task guide] manual=True unclear=None ora-resource=0 headings=['Access the task', 'Configuration versus migration', 'Manual steps', 'Manual validation']
+  ORA_POZ_MANAGE_SUPPLIER_PORTAL_MESSAGES [skill] manual=True unclear=None ora-resource=0 headings=['Purpose', 'Setup Task Skill Contract', 'Usage', 'Setup Task Metadata', 'Applications Core Messages Routing', 'Inputs', 'Outputs', 'Implementation Notes']
+  ORA_POZ_CONFIGURE_SUPPLIER_OUTBOUND_SYNCHRONIZATION_SERVICE [task guide] manual=True unclear=None ora-resource=0 headings=['Manual steps', 'Manual validation']
+  ORA_POZ_MANAGE_SUPPLIER_MESSAGES [skill] manual=True unclear=None ora-resource=0 headings=['Purpose', 'Setup Task Skill Contract', 'Usage', 'Setup Task Metadata', 'Applications Core Messages Routing', 'Inputs', 'Outputs', 'Implementation Notes']
+  CUSTOM_PLANNING_VISUALIZATIONS [task guide] manual=True unclear=None ora-resource=0 headings=['Manual steps', 'Manual validation']
+
+Unclear: [["pillars/hcm/goal-management/goal-management-common/manage-reference-data-sets/SKILL.md", "frontmatter mode disclaimed in the body, no other route found", "pillars/hcm/goal-management/goal-management-common/manage-reference-data-sets/SKILL.md:129: `CSVExportImportSupportedFlag` is catalog metadata only in this Goal Management"]]
+Browser/UI automation declared positively: 0; units that explicitly forbid it: 47
+  pillars/cx/customer-data-management/trading-community-foundation/manage-trading-community-messages/SKILL.md:156: - browser automation or direct UI control
+  pillars/cx/customer-data-management/trading-community-foundation/run-trading-community-current-record-information-maintenance/SKILL.md:306: 4. Never substitute browser automation, direct REST, a loade
+  pillars/cx/customer-data-management/trading-community-foundation/run-trading-community-party-hierarchy-generation/SKILL.md:141: browser automation, a direct REST call, or another loader for the missin
+  pillars/cx/sales/leads/manage-sales-lead-profile-options/SKILL.md:143: substitute browser automation, Data Loader, FSM import, or direct HTTP calls.
+  pillars/cx/sales/leads/manage-sales-lead-qualification-template/ora-resource/ora_design_enforcement.md:30: | LQT.DESIGN.MUTATION_ROUTE | Any requested create, copy, update, or deploy side effect | Err
+  pillars/cx/sales/leads/manage-sales-lead-standard-lookups/SKILL.md:133: help. Do not substitute browser automation, Data Loader, a setup import, direct
+  pillars/cx/sales/opportunities/manage-sales-task-templates/SKILL.md:222: `core.data-loader`. Do not initialize browser control as an alternate import
+  pillars/cx/sales/sales-foundation/manage-activity-profile-options/SKILL.md:144: contract and command help. Do not substitute browser automation, Data Loader,
+  pillars/cx/sales/sales-foundation/manage-activity-standard-lookups/SKILL.md:140: help. Do not substitute browser automation, Data Loader, setup import, direct
+  pillars/cx/sales/sales-foundation/manage-activity-type-and-subtype/SKILL.md:142: For supported subtype mutations, default to the CSV/FSM workflow and `core.data-loader`; do not initialize browser cont

@@ -1,0 +1,53 @@
+{
+ "steps": 60,
+ "with_route": 21,
+ "manual": 39,
+ "with_prerequisite": 0,
+ "plan_depends_on_total": 0,
+ "links_checked": 21,
+ "respected_local_plan": 16,
+ "respected_in_oracle_runbook": 16,
+ "same_order_as_plan": false,
+ "stages": {
+  "Procurement - Suppliers": 2,
+  "Procurement - Procurement Foundation": 14,
+  "Procurement - Approval Management": 13,
+  "Procurement - Procurement Transaction Account Rules": 9,
+  "Procurement - Purchasing Foundation": 2,
+  "Procurement - Self Service Procurement": 8,
+  "Procurement - Procurement Contracts": 9,
+  "Procurement - Compliance Checklists": 3
+ },
+ "oracle_runbook_violations": [
+  [
+   "OKC_MANAGE_CONTRACT_LINE_TYPES",
+   57,
+   "AP_MANAGE_PAYMENT_TERMS",
+   4
+  ],
+  [
+   "OKC_SPECIFY_PROCUREMENT_CONTRACT_MGMT_BUSINESS_FUNC_PROP",
+   49,
+   "ORA_MANAGE_APPROVAL_GROUPS",
+   1
+  ],
+  [
+   "POR_MANAGE_INFORMATION_TEMPLATE_VALUE_SETS",
+   42,
+   "POR_MANAGE_INFORMATION_TEMPLATE_DESCRIPTIVE_FLEXFIELDS",
+   41
+  ],
+  [
+   "POR_MANAGE_REQUISITION_DESCRIPTIVE_FLEXFIELDS",
+   39,
+   "POR_CONFIGURE_REQUISITIONING_BUSINESS_FUNCTION",
+   15
+  ],
+  [
+   "PO_MANAGE_TASK_CONFIGURATIONS",
+   27,
+   "ORA_MANAGE_APPROVAL_GROUPS",
+   1
+  ]
+ ]
+}

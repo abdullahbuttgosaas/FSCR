@@ -1,0 +1,1045 @@
+{
+ "lists": {
+  "[\"Customers\", \"country\", false]": {
+   "values": [
+    {
+     "value": "United States",
+     "label": "United States"
+    }
+   ],
+   "partial": true
+  },
+  "[\"Customers\", \"account_type\", false]": {
+   "values": [
+    {
+     "value": "External",
+     "label": "External"
+    },
+    {
+     "value": "Internal",
+     "label": "Internal"
+    }
+   ],
+   "partial": false
+  },
+  "[\"Customers\", \"customer_class\", false]": {
+   "values": [
+    {
+     "value": "Federal class",
+     "label": "Federal class"
+    },
+    {
+     "value": "Public sector companies",
+     "label": "Public sector companies"
+    }
+   ],
+   "partial": false
+  },
+  "[\"Customers\", \"account_address_set\", false]": {
+   "values": [
+    {
+     "value": "ENTERPRISE",
+     "label": "Enterprise Set"
+    },
+    {
+     "value": "CUSTOMER_RDS",
+     "label": "CUSTOMER_RDS"
+    },
+    {
+     "value": "001 CUSTOMER SITE",
+     "label": "001 Customer Site"
+    }
+   ],
+   "partial": true
+  },
+  "[\"Customers\", \"state\", false]": {
+   "values": [
+    {
+     "value": "CA",
+     "label": "CA"
+    }
+   ],
+   "partial": true
+  },
+  "[\"Customers\", \"prefix\", false]": {
+   "values": [
+    {
+     "value": "Mr.",
+     "label": "Mr."
+    },
+    {
+     "value": "Mrs.",
+     "label": "Mrs."
+    },
+    {
+     "value": "Ms.",
+     "label": "Ms."
+    }
+   ],
+   "partial": false
+  },
+  "[\"Customers\", \"state\", true]": {
+   "values": [
+    {
+     "value": "AA",
+     "label": "AA"
+    },
+    {
+     "value": "AE",
+     "label": "AE"
+    },
+    {
+     "value": "AK",
+     "label": "AK"
+    },
+    {
+     "value": "AL",
+     "label": "AL"
+    },
+    {
+     "value": "ALABAMA",
+     "label": "ALABAMA"
+    },
+    {
+     "value": "ALASKA",
+     "label": "ALASKA"
+    },
+    {
+     "value": "AP",
+     "label": "AP"
+    },
+    {
+     "value": "AR",
+     "label": "AR"
+    },
+    {
+     "value": "ARIZONA",
+     "label": "ARIZONA"
+    },
+    {
+     "value": "ARKANSAS",
+     "label": "ARKANSAS"
+    },
+    {
+     "value": "AZ",
+     "label": "AZ"
+    },
+    {
+     "value": "CA",
+     "label": "CA"
+    },
+    {
+     "value": "CALIFORNIA",
+     "label": "CALIFORNIA"
+    },
+    {
+     "value": "CO",
+     "label": "CO"
+    },
+    {
+     "value": "COLORADO",
+     "label": "COLORADO"
+    },
+    {
+     "value": "CONNECTICUT",
+     "label": "CONNECTICUT"
+    },
+    {
+     "value": "CT",
+     "label": "CT"
+    },
+    {
+     "value": "DC",
+     "label": "DC"
+    },
+    {
+     "value": "DE",
+     "label": "DE"
+    },
+    {
+     "value": "DELAWARE",
+     "label": "DELAWARE"
+    },
+    {
+     "value": "DISTRICT OF COLUMBIA",
+     "label": "DISTRICT OF COLUMBIA"
+    },
+    {
+     "value": "FL",
+     "label": "FL"
+    },
+    {
+     "value": "FLORIDA",
+     "label": "FLORIDA"
+    },
+    {
+     "value": "GA",
+     "label": "GA"
+    },
+    {
+     "value": "GEORGIA",
+     "label": "GEORGIA"
+    },
+    {
+     "value": "HAWAII",
+     "label": "HAWAII"
+    },
+    {
+     "value": "HI",
+     "label": "HI"
+    },
+    {
+     "value": "IA",
+     "label": "IA"
+    },
+    {
+     "value": "ID",
+     "label": "ID"
+    },
+    {
+     "value": "IDAHO",
+     "label": "IDAHO"
+    },
+    {
+     "value": "IL",
+     "label": "IL"
+    },
+    {
+     "value": "ILLINOIS",
+     "label": "ILLINOIS"
+    },
+    {
+     "value": "IN",
+     "label": "IN"
+    },
+    {
+     "value": "INDIANA",
+     "label": "INDIANA"
+    },
+    {
+     "value": "IOWA",
+     "label": "IOWA"
+    },
+    {
+     "value": "KANSAS",
+     "label": "KANSAS"
+    },
+    {
+     "value": "KENTUCKY",
+     "label": "KENTUCKY"
+    },
+    {
+     "value": "KS",
+     "label": "KS"
+    },
+    {
+     "value": "KY",
+     "label": "KY"
+    },
+    {
+     "value": "LA",
+     "label": "LA"
+    },
+    {
+     "value": "LOUISIANA",
+     "label": "LOUISIANA"
+    },
+    {
+     "value": "MA",
+     "label": "MA"
+    },
+    {
+     "value": "MAINE",
+     "label": "MAINE"
+    },
+    {
+     "value": "MARYLAND",
+     "label": "MARYLAND"
+    },
+    {
+     "value": "MASSACHUSETTS",
+     "label": "MASSACHUSETTS"
+    },
+    {
+     "value": "MD",
+     "label": "MD"
+    },
+    {
+     "value": "ME",
+     "label": "ME"
+    },
+    {
+     "value": "MI",
+     "label": "MI"
+    },
+    {
+     "value": "MICHIGAN",
+     "label": "MICHIGAN"
+    },
+    {
+     "value": "MINNESOTA",
+     "label": "MINNESOTA"
+    },
+    {
+     "value": "MISSISSIPPI",
+     "label": "MISSISSIPPI"
+    },
+    {
+     "value": "MISSOURI",
+     "label": "MISSOURI"
+    },
+    {
+     "value": "MN",
+     "label": "MN"
+    },
+    {
+     "value": "MO",
+     "label": "MO"
+    },
+    {
+     "value": "MONTANA",
+     "label": "MONTANA"
+    },
+    {
+     "value": "MS",
+     "label": "MS"
+    },
+    {
+     "value": "MT",
+     "label": "MT"
+    },
+    {
+     "value": "NC",
+     "label": "NC"
+    },
+    {
+     "value": "ND",
+     "label": "ND"
+    },
+    {
+     "value": "NE",
+     "label": "NE"
+    },
+    {
+     "value": "NEBRASKA",
+     "label": "NEBRASKA"
+    },
+    {
+     "value": "NEVADA",
+     "label": "NEVADA"
+    },
+    {
+     "value": "NEW HAMPSHIRE",
+     "label": "NEW HAMPSHIRE"
+    },
+    {
+     "value": "NEW JERSEY",
+     "label": "NEW JERSEY"
+    },
+    {
+     "value": "NEW MEXICO",
+     "label": "NEW MEXICO"
+    },
+    {
+     "value": "NEW YORK",
+     "label": "NEW YORK"
+    },
+    {
+     "value": "NH",
+     "label": "NH"
+    },
+    {
+     "value": "NJ",
+     "label": "NJ"
+    },
+    {
+     "value": "NM",
+     "label": "NM"
+    },
+    {
+     "value": "NORTH CAROLINA",
+     "label": "NORTH CAROLINA"
+    },
+    {
+     "value": "NORTH DAKOTA",
+     "label": "NORTH DAKOTA"
+    },
+    {
+     "value": "NV",
+     "label": "NV"
+    },
+    {
+     "value": "NY",
+     "label": "NY"
+    },
+    {
+     "value": "OH",
+     "label": "OH"
+    },
+    {
+     "value": "OHIO",
+     "label": "OHIO"
+    },
+    {
+     "value": "OK",
+     "label": "OK"
+    },
+    {
+     "value": "OKLAHOMA",
+     "label": "OKLAHOMA"
+    },
+    {
+     "value": "OR",
+     "label": "OR"
+    },
+    {
+     "value": "OREGON",
+     "label": "OREGON"
+    },
+    {
+     "value": "PA",
+     "label": "PA"
+    },
+    {
+     "value": "PENNSYLVANIA",
+     "label": "PENNSYLVANIA"
+    },
+    {
+     "value": "RHODE ISLAND",
+     "label": "RHODE ISLAND"
+    },
+    {
+     "value": "RI",
+     "label": "RI"
+    },
+    {
+     "value": "SC",
+     "label": "SC"
+    },
+    {
+     "value": "SD",
+     "label": "SD"
+    },
+    {
+     "value": "SOUTH CAROLINA",
+     "label": "SOUTH CAROLINA"
+    },
+    {
+     "value": "SOUTH DAKOTA",
+     "label": "SOUTH DAKOTA"
+    },
+    {
+     "value": "TENNESSEE",
+     "label": "TENNESSEE"
+    },
+    {
+     "value": "TEXAS",
+     "label": "TEXAS"
+    },
+    {
+     "value": "TN",
+     "label": "TN"
+    },
+    {
+     "value": "TX",
+     "label": "TX"
+    },
+    {
+     "value": "UT",
+     "label": "UT"
+    },
+    {
+     "value": "UTAH",
+     "label": "UTAH"
+    },
+    {
+     "value": "VA",
+     "label": "VA"
+    },
+    {
+     "value": "VERMONT",
+     "label": "VERMONT"
+    },
+    {
+     "value": "VIRGINIA",
+     "label": "VIRGINIA"
+    },
+    {
+     "value": "VT",
+     "label": "VT"
+    },
+    {
+     "value": "WA",
+     "label": "WA"
+    },
+    {
+     "value": "WASHINGTON",
+     "label": "WASHINGTON"
+    },
+    {
+     "value": "WEST VIRGINIA",
+     "label": "WEST VIRGINIA"
+    },
+    {
+     "value": "WI",
+     "label": "WI"
+    },
+    {
+     "value": "WISCONSIN",
+     "label": "WISCONSIN"
+    },
+    {
+     "value": "WV",
+     "label": "WV"
+    },
+    {
+     "value": "WY",
+     "label": "WY"
+    },
+    {
+     "value": "WYOMING",
+     "label": "WYOMING"
+    }
+   ],
+   "partial": false
+  }
+ },
+ "batches": {
+  "[\"Customers\", \"--check-address\", [{\"account_address_set\": \"Enterprise Set\", \"account_description\": \"Indie game developer and publisher\", \"account_established_date\": \"2026-10-22\", \"account_notes_other\": \"Net 30 account, digital and physical releases\", \"account_termination_date\": \"2027-12-31\", \"account_type\": \"External\", \"address_from_date\": \"2026-10-22\", \"address_line_1\": \"10450 Mercer Avenue\", \"address_line_2\": \"Suite 200\", \"address_note\": \"Main studio\", \"address_to_date\": \"2027-12-31\", \"authorizer\": \"Dana Whitfield\", \"city\": \"ABSECON\", \"contact_email\": \"orders@pixelforgestudios.example.com\", \"country\": \"United States\", \"customer_agreement\": \"Annual publishing and distribution agreement\", \"customer_class\": \"Public sector companies\", \"customer_type\": \"Organization\", \"duns_number\": \"081234567\", \"edi_location_code\": \"HVM-EDI-01\", \"key_account\": true, \"mail_stop\": \"Dock 4\", \"name\": \"Pixel Forge Studios2\", \"postal_code\": \"08201\", \"purposes\": [{\"from_date\": \"2026-10-22\", \"primary\": true, \"purpose\": \"Bill to\", \"to_date\": \"2027-12-31\"}, {\"from_date\": \"2026-10-22\", \"primary\": true, \"purpose\": \"Ship to\", \"to_date\": \"2027-12-31\"}], \"responsible_mineral_status\": \"Conflict Free\", \"sales_tax_geocode\": \"123456789\", \"sales_tax_inside_city_limits\": true, \"shipping_instructions\": \"Deliver to receiving dock, weekdays 8am to 5pm\", \"site_language\": \"American English\", \"site_name\": \"Game Studio Campus\", \"state\": \"NEW JERSEY\", \"supplier_site_id\": \"3001\", \"taxpayer_id\": \"84-1234567\", \"trading_partner_identifier\": \"4501001\", \"translated_customer_name\": \"Pixel Forge Studios Inc\", \"url\": \"https://www.pixelforgestudios.example.com\"}, {\"account_address_set\": \"Enterprise Set\", \"account_description\": \"Mobile and arcade game distributor\", \"account_established_date\": \"2026-10-22\", \"account_notes_other\": \"Seasonal release deliveries only\", \"account_termination_date\": \"2027-12-31\", \"account_type\": \"External\", \"address_from_date\": \"2026-10-22\", \"address_line_1\": \"2210 Alder Court\", \"address_line_2\": \"Unit B\", \"address_note\": \"Distribution site\", \"address_to_date\": \"2027-12-31\", \"authorizer\": \"Priya Nair\", \"city\": \"Cupertino\", \"contact_email\": \"accounts@arcadehorizongames.example.com\", \"country\": \"United States\", \"customer_agreement\": \"Seasonal distribution agreement\", \"customer_class\": \"Public sector companies\", \"customer_type\": \"Organization\", \"duns_number\": \"103456789\", \"edi_location_code\": \"BWF-EDI-03\", \"key_account\": false, \"mail_stop\": \"Gate 2\", \"name\": \"Arcade Horizon Games2\", \"postal_code\": \"95014\", \"purposes\": [{\"from_date\": \"2026-10-22\", \"primary\": true, \"purpose\": \"Bill to\", \"to_date\": \"2027-12-31\"}, {\"from_date\": \"2026-10-22\", \"primary\": true, \"purpose\": \"Ship to\", \"to_date\": \"2027-12-31\"}], \"responsible_mineral_status\": \"No Data\", \"sales_tax_geocode\": \"123456789\", \"sales_tax_inside_city_limits\": true, \"shipping_instructions\": \"Delivery before noon, ring bell at Gate 2\", \"site_language\": \"American English\", \"site_name\": \"Arcade Warehouse\", \"state\": \"CA\", \"supplier_site_id\": \"3010\", \"taxpayer_id\": \"77-3456789\", \"trading_partner_identifier\": \"4501003\", \"translated_customer_name\": \"Arcade Horizon Games Co\", \"url\": \"https://www.arcadehorizongames.example.com\"}]]": [
+   {
+    "ok": true,
+    "problems": [],
+    "found": {
+     "city": "Found in Oracle: ABSECON, NEW JERSEY",
+     "postal_code": "Found in Oracle for ABSECON, NEW JERSEY"
+    }
+   },
+   {
+    "ok": true,
+    "problems": [],
+    "found": {
+     "city": "Found in Oracle: CUPERTINO, CA",
+     "postal_code": "Found in Oracle for CUPERTINO, CA"
+    }
+   }
+  ],
+  "[\"Customers\", \"--existing\", [{\"account_address_set\": \"Enterprise Set\", \"account_description\": \"Indie game developer and publisher\", \"account_established_date\": \"2026-10-22\", \"account_notes_other\": \"Net 30 account, digital and physical releases\", \"account_termination_date\": \"2027-12-31\", \"account_type\": \"External\", \"address_from_date\": \"2026-10-22\", \"address_line_1\": \"10450 Mercer Avenue\", \"address_line_2\": \"Suite 200\", \"address_note\": \"Main studio\", \"address_to_date\": \"2027-12-31\", \"authorizer\": \"Dana Whitfield\", \"city\": \"ABSECON\", \"contact_email\": \"orders@pixelforgestudios.example.com\", \"country\": \"United States\", \"customer_agreement\": \"Annual publishing and distribution agreement\", \"customer_class\": \"Public sector companies\", \"customer_type\": \"Organization\", \"duns_number\": \"081234567\", \"edi_location_code\": \"HVM-EDI-01\", \"key_account\": true, \"mail_stop\": \"Dock 4\", \"name\": \"Pixel Forge Studios2\", \"postal_code\": \"08201\", \"purposes\": [{\"from_date\": \"2026-10-22\", \"primary\": true, \"purpose\": \"Bill to\", \"to_date\": \"2027-12-31\"}, {\"from_date\": \"2026-10-22\", \"primary\": true, \"purpose\": \"Ship to\", \"to_date\": \"2027-12-31\"}], \"responsible_mineral_status\": \"Conflict Free\", \"sales_tax_geocode\": \"123456789\", \"sales_tax_inside_city_limits\": true, \"shipping_instructions\": \"Deliver to receiving dock, weekdays 8am to 5pm\", \"site_language\": \"American English\", \"site_name\": \"Game Studio Campus\", \"state\": \"NEW JERSEY\", \"supplier_site_id\": \"3001\", \"taxpayer_id\": \"84-1234567\", \"trading_partner_identifier\": \"4501001\", \"translated_customer_name\": \"Pixel Forge Studios Inc\", \"url\": \"https://www.pixelforgestudios.example.com\"}, {\"account_address_set\": \"Enterprise Set\", \"account_description\": \"Console and PC game publisher\", \"account_established_date\": \"2026-10-22\", \"account_notes_other\": \"Purchase orders required above 5000\", \"account_termination_date\": \"2027-12-31\", \"account_type\": \"Internal\", \"address_from_date\": \"2026-10-22\", \"address_line_1\": \"550 Mission Street\", \"address_line_2\": \"Suite 1200\", \"address_note\": \"Head office\", \"address_to_date\": \"2027-12-31\", \"authorizer\": \"Marcus Hale\", \"city\": \"ABSECON\", \"contact_email\": \"payables@nightfallinteractive.example.com\", \"country\": \"United States\", \"customer_agreement\": \"Annual console hardware purchase agreement\", \"customer_class\": \"Federal class\", \"customer_type\": \"Organization\", \"duns_number\": \"092345678\", \"edi_location_code\": \"CIG-EDI-02\", \"key_account\": false, \"mail_stop\": \"Floor 12\", \"name\": \"Nightfall Interactive2\", \"postal_code\": \"08201\", \"purposes\": [{\"from_date\": \"2026-10-22\", \"primary\": true, \"purpose\": \"Bill to\", \"to_date\": \"2027-12-31\"}, {\"from_date\": \"2026-10-22\", \"primary\": true, \"purpose\": \"Ship to\", \"to_date\": \"2027-12-31\"}], \"responsible_mineral_status\": \"N/A\", \"sales_tax_geocode\": \"123456789\", \"sales_tax_inside_city_limits\": true, \"shipping_instructions\": \"Call receiving desk 30 minutes before arrival\", \"site_language\": \"American English\", \"site_name\": \"San Francisco Office\", \"state\": \"NEW JERSEY\", \"supplier_site_id\": \"3008\", \"taxpayer_id\": \"94-2345678\", \"trading_partner_identifier\": \"4501002\", \"translated_customer_name\": \"Nightfall Interactive LLC\", \"url\": \"https://www.nightfallinteractive.example.com\"}, {\"account_address_set\": \"Enterprise Set\", \"account_description\": \"Mobile and arcade game distributor\", \"account_established_date\": \"2026-10-22\", \"account_notes_other\": \"Seasonal release deliveries only\", \"account_termination_date\": \"2027-12-31\", \"account_type\": \"External\", \"address_from_date\": \"2026-10-22\", \"address_line_1\": \"2210 Alder Court\", \"address_line_2\": \"Unit B\", \"address_note\": \"Distribution site\", \"address_to_date\": \"2027-12-31\", \"authorizer\": \"Priya Nair\", \"city\": \"Cupertino\", \"contact_email\": \"accounts@arcadehorizongames.example.com\", \"country\": \"United States\", \"customer_agreement\": \"Seasonal distribution agreement\", \"customer_class\": \"Public sector companies\", \"customer_type\": \"Organization\", \"duns_number\": \"103456789\", \"edi_location_code\": \"BWF-EDI-03\", \"key_account\": false, \"mail_stop\": \"Gate 2\", \"name\": \"Arcade Horizon Games2\", \"postal_code\": \"95014\", \"purposes\": [{\"from_date\": \"2026-10-22\", \"primary\": true, \"purpose\": \"Bill to\", \"to_date\": \"2027-12-31\"}, {\"from_date\": \"2026-10-22\", \"primary\": true, \"purpose\": \"Ship to\", \"to_date\": \"2027-12-31\"}], \"responsible_mineral_status\": \"No Data\", \"sales_tax_geocode\": \"123456789\", \"sales_tax_inside_city_limits\": true, \"shipping_instructions\": \"Delivery before noon, ring bell at Gate 2\", \"site_language\": \"American English\", \"site_name\": \"Arcade Warehouse\", \"state\": \"CA\", \"supplier_site_id\": \"3010\", \"taxpayer_id\": \"77-3456789\", \"trading_partner_identifier\": \"4501003\", \"translated_customer_name\": \"Arcade Horizon Games Co\", \"url\": \"https://www.arcadehorizongames.example.com\"}]]": [
+   {
+    "ok": true,
+    "name": "Pixel Forge Studios2",
+    "type": "Organization",
+    "matches": []
+   },
+   {
+    "ok": true,
+    "name": "Nightfall Interactive2",
+    "type": "Organization",
+    "matches": []
+   },
+   {
+    "ok": true,
+    "name": "Arcade Horizon Games2",
+    "type": "Organization",
+    "matches": [
+     {
+      "registry_id": "130667",
+      "name": "Arcade Horizon Games2"
+     }
+    ]
+   }
+  ]
+ },
+ "today": "2026-10-24",
+ "specs": {
+  "Customers": {
+   "contract": 1,
+   "title": "Create a customer",
+   "description": "Creates an organization or person customer with its account and address; an existing customer is never changed.",
+   "groups": [
+    "main",
+    "more options"
+   ],
+   "fields": [
+    {
+     "key": "customer_type",
+     "label": "Customer type",
+     "required": true,
+     "type": "pick",
+     "placeholder": "Organization",
+     "default": "Organization",
+     "options": "--options customer_type",
+     "group": "main"
+    },
+    {
+     "key": "name",
+     "label": "Organization name",
+     "required": false,
+     "type": "text",
+     "placeholder": "Acme Widgets",
+     "default": null,
+     "required_when": {
+      "customer_type": "Organization"
+     },
+     "shown_when": {
+      "customer_type": "Organization"
+     },
+     "group": "main"
+    },
+    {
+     "key": "first_name",
+     "label": "First name",
+     "required": false,
+     "type": "text",
+     "placeholder": "Jane",
+     "default": null,
+     "required_when": {
+      "customer_type": "Person"
+     },
+     "shown_when": {
+      "customer_type": "Person"
+     },
+     "group": "main"
+    },
+    {
+     "key": "account_address_set",
+     "label": "Account address set",
+     "required": true,
+     "type": "pick",
+     "placeholder": "Enterprise Set",
+     "default": null,
+     "list": "samples",
+     "help": "Pick one that is known to work, or type another; it is checked with Oracle.",
+     "options": "--options account_address_set",
+     "group": "main"
+    },
+    {
+     "key": "supplier_site_id",
+     "label": "Supplier site ID",
+     "required": true,
+     "type": "text",
+     "placeholder": "1001",
+     "default": null,
+     "group": "main"
+    },
+    {
+     "key": "prefix",
+     "label": "Prefix",
+     "required": false,
+     "type": "pick",
+     "placeholder": "Ms.",
+     "default": null,
+     "shown_when": {
+      "customer_type": "Person"
+     },
+     "options": "--options prefix",
+     "group": "more options"
+    },
+    {
+     "key": "middle_name",
+     "label": "Middle name",
+     "required": false,
+     "type": "text",
+     "placeholder": "Q",
+     "default": null,
+     "shown_when": {
+      "customer_type": "Person"
+     },
+     "group": "more options"
+    },
+    {
+     "key": "last_name",
+     "label": "Last name",
+     "required": false,
+     "type": "text",
+     "placeholder": "Doe",
+     "default": null,
+     "shown_when": {
+      "customer_type": "Person"
+     },
+     "group": "more options"
+    },
+    {
+     "key": "suffix",
+     "label": "Suffix",
+     "required": false,
+     "type": "text",
+     "placeholder": "Jr.",
+     "default": null,
+     "shown_when": {
+      "customer_type": "Person"
+     },
+     "group": "more options"
+    },
+    {
+     "key": "duns_number",
+     "label": "D-U-N-S number",
+     "required": false,
+     "type": "text",
+     "placeholder": "123456789",
+     "default": null,
+     "shown_when": {
+      "customer_type": "Organization"
+     },
+     "group": "more options"
+    },
+    {
+     "key": "taxpayer_id",
+     "label": "Taxpayer ID",
+     "required": false,
+     "type": "text",
+     "placeholder": "123456789",
+     "default": null,
+     "group": "more options"
+    },
+    {
+     "key": "account_type",
+     "label": "Account type",
+     "required": false,
+     "type": "pick",
+     "placeholder": "External",
+     "default": null,
+     "options": "--options account_type",
+     "group": "more options"
+    },
+    {
+     "key": "customer_class",
+     "label": "Customer class",
+     "required": false,
+     "type": "pick",
+     "placeholder": "Federal class",
+     "default": null,
+     "options": "--options customer_class",
+     "group": "more options"
+    },
+    {
+     "key": "account_description",
+     "label": "Account description",
+     "required": false,
+     "type": "text",
+     "placeholder": "Main account",
+     "default": null,
+     "group": "more options"
+    },
+    {
+     "key": "account_established_date",
+     "label": "Account established date",
+     "required": false,
+     "type": "date",
+     "placeholder": "2026-10-21",
+     "default": null,
+     "help": "Empty: Oracle's today. 'today' means Oracle's today minus one day.",
+     "group": "more options"
+    },
+    {
+     "key": "address_from_date",
+     "label": "Address from date",
+     "required": false,
+     "type": "date",
+     "placeholder": "2026-10-21",
+     "default": null,
+     "help": "Empty: Oracle's today.",
+     "group": "more options"
+    },
+    {
+     "key": "site_name",
+     "label": "Site name",
+     "required": false,
+     "type": "text",
+     "placeholder": "Head office",
+     "default": null,
+     "group": "more options"
+    },
+    {
+     "key": "country",
+     "label": "Country",
+     "required": false,
+     "type": "pick",
+     "placeholder": "United States",
+     "default": "United States",
+     "list": "samples",
+     "help": "Only the United States is offered so far (its address fields are proven).",
+     "options": "--options country",
+     "group": "more options"
+    },
+    {
+     "key": "address_line_1",
+     "label": "Address line 1",
+     "required": false,
+     "type": "text",
+     "placeholder": "1 Main Street",
+     "default": null,
+     "group": "more options"
+    },
+    {
+     "key": "address_line_2",
+     "label": "Address line 2",
+     "required": false,
+     "type": "text",
+     "placeholder": "Suite 100",
+     "default": null,
+     "group": "more options"
+    },
+    {
+     "key": "state",
+     "label": "State",
+     "required": false,
+     "type": "pick",
+     "placeholder": "CA",
+     "default": null,
+     "list": "samples",
+     "help": "Proven states; another one you type is checked with Oracle.",
+     "options": "--options state",
+     "group": "more options"
+    },
+    {
+     "key": "city",
+     "label": "City",
+     "required": false,
+     "type": "text",
+     "placeholder": "Cupertino",
+     "default": null,
+     "help": "Must be a city Oracle knows in that state.",
+     "group": "more options"
+    },
+    {
+     "key": "postal_code",
+     "label": "Postal code",
+     "required": false,
+     "type": "text",
+     "placeholder": "95014",
+     "default": null,
+     "help": "Must be a postal code Oracle knows for that city.",
+     "group": "more options"
+    },
+    {
+     "key": "key_account",
+     "label": "Key account",
+     "required": false,
+     "type": "yes-no",
+     "placeholder": "no",
+     "default": false,
+     "group": "more options"
+    },
+    {
+     "key": "account_termination_date",
+     "label": "Account termination date",
+     "required": false,
+     "type": "date",
+     "placeholder": "2027-12-31",
+     "default": null,
+     "group": "more options"
+    },
+    {
+     "key": "account_notes_other",
+     "label": "Account notes other",
+     "required": false,
+     "type": "text",
+     "placeholder": "Notes",
+     "default": null,
+     "group": "more options"
+    },
+    {
+     "key": "shipping_instructions",
+     "label": "Shipping instructions",
+     "required": false,
+     "type": "text",
+     "placeholder": "Leave at the gate",
+     "default": null,
+     "group": "more options"
+    },
+    {
+     "key": "customer_agreement",
+     "label": "Customer agreement",
+     "required": false,
+     "type": "text",
+     "placeholder": "Agreement 1",
+     "default": null,
+     "group": "more options"
+    },
+    {
+     "key": "address_to_date",
+     "label": "Address to date",
+     "required": false,
+     "type": "date",
+     "placeholder": "2027-12-31",
+     "default": null,
+     "group": "more options"
+    },
+    {
+     "key": "mail_stop",
+     "label": "Mail stop",
+     "required": false,
+     "type": "text",
+     "placeholder": "MS 12",
+     "default": null,
+     "group": "more options"
+    },
+    {
+     "key": "responsible_mineral_status",
+     "label": "Responsible mineral status",
+     "required": false,
+     "type": "text",
+     "placeholder": "Conflict Free",
+     "default": null,
+     "help": "Conflict Free, N/A, No Data or Undetermined; checked with Oracle.",
+     "group": "more options"
+    },
+    {
+     "key": "address_note",
+     "label": "Address (extra line)",
+     "required": false,
+     "type": "text",
+     "placeholder": "Back entrance",
+     "default": null,
+     "group": "more options"
+    },
+    {
+     "key": "url",
+     "label": "Web address",
+     "required": false,
+     "type": "text",
+     "placeholder": "www.example.com",
+     "default": null,
+     "group": "more options"
+    },
+    {
+     "key": "contact_email",
+     "label": "Contact email",
+     "required": false,
+     "type": "text",
+     "placeholder": "name@example.com",
+     "default": null,
+     "group": "more options"
+    },
+    {
+     "key": "authorizer",
+     "label": "Authorizer",
+     "required": false,
+     "type": "text",
+     "placeholder": "Jane Doe",
+     "default": null,
+     "group": "more options"
+    },
+    {
+     "key": "sales_tax_geocode",
+     "label": "Sales tax geocode",
+     "required": false,
+     "type": "text",
+     "placeholder": "050850000",
+     "default": null,
+     "group": "more options"
+    },
+    {
+     "key": "sales_tax_inside_city_limits",
+     "label": "Sales tax inside city limits",
+     "required": false,
+     "type": "yes-no",
+     "placeholder": "yes",
+     "default": true,
+     "group": "more options"
+    },
+    {
+     "key": "customer_category_code",
+     "label": "Customer category code",
+     "required": false,
+     "type": "text",
+     "placeholder": "A",
+     "default": null,
+     "group": "more options"
+    },
+    {
+     "key": "site_language",
+     "label": "Site language",
+     "required": false,
+     "type": "text",
+     "placeholder": "American English",
+     "default": null,
+     "group": "more options"
+    },
+    {
+     "key": "translated_customer_name",
+     "label": "Translated customer name",
+     "required": false,
+     "type": "text",
+     "placeholder": "Acme",
+     "default": null,
+     "group": "more options"
+    },
+    {
+     "key": "trading_partner_identifier",
+     "label": "Trading partner identifier",
+     "required": false,
+     "type": "text",
+     "placeholder": "777",
+     "default": null,
+     "help": "Numbers only.",
+     "group": "more options"
+    },
+    {
+     "key": "edi_location_code",
+     "label": "EDI location code",
+     "required": false,
+     "type": "text",
+     "placeholder": "LOC1",
+     "default": null,
+     "group": "more options"
+    },
+    {
+     "key": "purposes",
+     "label": "Business purposes",
+     "required": false,
+     "type": "rows",
+     "min_rows": 0,
+     "add_label": "Add a purpose",
+     "row_label": "Purpose",
+     "fields": [
+      {
+       "key": "purpose",
+       "label": "Purpose",
+       "required": true,
+       "type": "pick",
+       "placeholder": "Bill to",
+       "list": "samples",
+       "default": null,
+       "options": "--options purposes.purpose"
+      },
+      {
+       "key": "from_date",
+       "label": "From date",
+       "required": false,
+       "type": "date",
+       "placeholder": "2026-10-21",
+       "default": null
+      },
+      {
+       "key": "to_date",
+       "label": "To date",
+       "required": false,
+       "type": "date",
+       "placeholder": "2027-12-31",
+       "default": null
+      },
+      {
+       "key": "primary",
+       "label": "Primary",
+       "required": false,
+       "type": "yes-no",
+       "placeholder": "no",
+       "default": null
+      },
+      {
+       "key": "bill_to_site",
+       "label": "Bill-to site",
+       "required": false,
+       "type": "text",
+       "placeholder": "1 Main Street,CUPERTINO, CA 95014",
+       "default": null
+      }
+     ],
+     "default": [],
+     "group": "more options"
+    }
+   ]
+  }
+ }
+}

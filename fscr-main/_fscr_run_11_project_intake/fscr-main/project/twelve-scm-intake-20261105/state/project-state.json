@@ -1,0 +1,24 @@
+{
+  "$schema": "../../../schemas/project-state.schema.json",
+  "project_id": "twelve-scm-intake-20261105",
+  "project_name": "Twelve SCM intake (paper)",
+  "customer": "Twelve Benefit Corporation",
+  "implementation_phase": "discovery",
+  "state_version": "0.1.0",
+  "created_at": "2026-11-05T04:45:00Z",
+  "updated_at": "2026-11-05T05:15:00Z",
+  "current_objective_ref": "artifacts/router/project-objective-classifier/current/objective.json",
+  "current_scope_ref": "artifacts/router/project-objective-classifier/current/scope.json",
+  "artifact_index_ref": "project/{project_id}/artifacts/artifact-index.json",
+  "latest_run_ref": null,
+  "baseline_refs": [],
+  "decision_refs": [],
+  "active_skill_path": [
+    "router.implementation-router",
+    "router.project-objective-classifier",
+    "shared.project-intake.implementation-scope-intake",
+    "shared.project-intake.enterprise-structure-intake",
+    "shared.project-intake.integration-landscape-intake"
+  ],
+  "status": "blocked_offering_scope_pending"
+}

@@ -1,0 +1,1 @@
+{"operations":[{"id":"cal1","action":"create","entity":"AP_OTHER_PERIOD_TYPE","targetKey":{"CalendarName":"FSCRT_CAL1","CalendarType":"GENERAL"},"values":{"Description":"FSCRT Run04 test calendar","PeriodFrequency":"MONTHLY","PeriodsPerYear":"12","PeriodNameFormat":"MMM","StartDate":"2027-01-01"},"generatePeriods":true}]}

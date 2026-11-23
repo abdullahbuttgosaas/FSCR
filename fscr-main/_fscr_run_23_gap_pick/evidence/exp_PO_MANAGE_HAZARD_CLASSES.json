@@ -1,0 +1,28 @@
+{
+  "TaskCode" : "PO_MANAGE_HAZARD_CLASSES",
+  "ExportSupportedFlag" : true,
+  "@context" : {
+    "key" : "PO_MANAGE_HAZARD_CLASSES",
+    "links" : [ {
+      "rel" : "self",
+      "href" : "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/setupTaskCSVExports/PO_MANAGE_HAZARD_CLASSES",
+      "name" : "setupTaskCSVExports",
+      "kind" : "item"
+    }, {
+      "rel" : "canonical",
+      "href" : "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/setupTaskCSVExports/PO_MANAGE_HAZARD_CLASSES",
+      "name" : "setupTaskCSVExports",
+      "kind" : "item"
+    }, {
+      "rel" : "child",
+      "href" : "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/setupTaskCSVExports/PO_MANAGE_HAZARD_CLASSES/child/SetupTaskCSVExportCriteria",
+      "name" : "SetupTaskCSVExportCriteria",
+      "kind" : "collection"
+    }, {
+      "rel" : "child",
+      "href" : "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/setupTaskCSVExports/PO_MANAGE_HAZARD_CLASSES/child/SetupTaskCSVExportProcess",
+      "name" : "SetupTaskCSVExportProcess",
+      "kind" : "collection"
+    } ]
+  }
+}

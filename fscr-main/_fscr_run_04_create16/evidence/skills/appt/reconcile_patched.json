@@ -1,0 +1,171 @@
+{
+  "baselineSha256": "a3330a42f036bc17d841b667d01c24cd006bdb9698cba4c266aea9cf475cf918",
+  "candidateSha256": "09e4e49402a6207dbffb57740f6fe38d22588074c1e47f57d33b51fa90d81b84",
+  "exportSha256": "0168d14238d26294ba0419aad56fc5617243d013507f3706221dc4b638f26615",
+  "mismatchCount": 0,
+  "requirementMatrix": [
+    {
+      "candidate": "present",
+      "detail": "",
+      "passed": true,
+      "persisted": "present",
+      "requested": "record present",
+      "requirement": "create exactly one AP_TERM_HEADER record identified by {\"Name\":\"FSCRT_AP_N45\"}",
+      "requirementId": "REQ-001"
+    },
+    {
+      "candidate": "FSCRT Run04 net 45",
+      "detail": "",
+      "passed": true,
+      "persisted": "FSCRT Run04 net 45",
+      "requested": "FSCRT Run04 net 45",
+      "requirement": "Persist AP_TERM_HEADER.Description=FSCRT Run04 net 45",
+      "requirementId": "REQ-002"
+    },
+    {
+      "candidate": "Y",
+      "detail": "",
+      "passed": true,
+      "persisted": "Y",
+      "requested": "Y",
+      "requirement": "Persist AP_TERM_HEADER.EnabledFlag=Y",
+      "requirementId": "REQ-003"
+    },
+    {
+      "candidate": "2026-11-03",
+      "detail": "",
+      "passed": true,
+      "persisted": "2026/11/03",
+      "requested": "2026-11-03",
+      "requirement": "Persist AP_TERM_HEADER.StartDateActive=2026-11-03",
+      "requirementId": "REQ-004"
+    },
+    {
+      "candidate": "STD",
+      "detail": "",
+      "passed": true,
+      "persisted": "STD",
+      "requested": "STD",
+      "requirement": "Persist AP_TERM_HEADER.Type=STD",
+      "requirementId": "REQ-005"
+    },
+    {
+      "candidate": "not populated by design",
+      "detail": "Unexpected difference count: 0.",
+      "passed": true,
+      "persisted": "unchanged",
+      "requested": "unchanged",
+      "requirement": "Preserve every unspecified record and non-audit value",
+      "requirementId": "REQ-006"
+    },
+    {
+      "candidate": "present",
+      "detail": "",
+      "passed": true,
+      "persisted": "present",
+      "requested": "record present",
+      "requirement": "create exactly one AP_TERM_LINE record identified by {\"AP_TERM_HEADER.Name\":\"FSCRT_AP_N45\",\"SequenceNum\":\"1\"}",
+      "requirementId": "REQ-007"
+    },
+    {
+      "candidate": "45",
+      "detail": "",
+      "passed": true,
+      "persisted": "45",
+      "requested": "45",
+      "requirement": "Persist AP_TERM_LINE.DueDays=45",
+      "requirementId": "REQ-008"
+    },
+    {
+      "candidate": "100",
+      "detail": "",
+      "passed": true,
+      "persisted": "100",
+      "requested": "100",
+      "requirement": "Persist AP_TERM_LINE.DuePercent=100",
+      "requirementId": "REQ-009"
+    },
+    {
+      "candidate": "not populated by design",
+      "detail": "Unexpected difference count: 0.",
+      "passed": true,
+      "persisted": "unchanged",
+      "requested": "unchanged",
+      "requirement": "Preserve every unspecified record and non-audit value",
+      "requirementId": "REQ-010"
+    },
+    {
+      "candidate": "present",
+      "detail": "",
+      "passed": true,
+      "persisted": "present",
+      "requested": "record present",
+      "requirement": "create exactly one AP_TERM_SUBSCRIPTION record identified by {\"AP_TERM_HEADER.Name\":\"FSCRT_AP_N45\",\"SetCode\":\"ENTERPRISE\"}",
+      "requirementId": "REQ-011"
+    },
+    {
+      "candidate": "not populated by design",
+      "detail": "Unexpected difference count: 0.",
+      "passed": true,
+      "persisted": "unchanged",
+      "requested": "unchanged",
+      "requirement": "Preserve every unspecified record and non-audit value",
+      "requirementId": "REQ-012"
+    },
+    {
+      "candidate": "present",
+      "detail": "",
+      "passed": true,
+      "persisted": "present",
+      "requested": "record present",
+      "requirement": "create exactly one AP_TERM_HEADER_TRANSLATION record identified by {\"AP_TERM_HEADER.Name\":\"FSCRT_AP_N45\",\"Language\":\"US\"}",
+      "requirementId": "REQ-013"
+    },
+    {
+      "candidate": "FSCRT Run04 net 45",
+      "detail": "",
+      "passed": true,
+      "persisted": "FSCRT Run04 net 45",
+      "requested": "FSCRT Run04 net 45",
+      "requirement": "Persist AP_TERM_HEADER_TRANSLATION.Description=FSCRT Run04 net 45",
+      "requirementId": "REQ-014"
+    },
+    {
+      "candidate": "FSCRT_AP_N45",
+      "detail": "",
+      "passed": true,
+      "persisted": "FSCRT_AP_N45",
+      "requested": "FSCRT_AP_N45",
+      "requirement": "Persist AP_TERM_HEADER_TRANSLATION.Name=FSCRT_AP_N45",
+      "requirementId": "REQ-015"
+    },
+    {
+      "candidate": "US",
+      "detail": "",
+      "passed": true,
+      "persisted": "US",
+      "requested": "US",
+      "requirement": "Persist AP_TERM_HEADER_TRANSLATION.SourceLang=US",
+      "requirementId": "REQ-016"
+    },
+    {
+      "candidate": "not populated by design",
+      "detail": "Unexpected difference count: 0.",
+      "passed": true,
+      "persisted": "unchanged",
+      "requested": "unchanged",
+      "requirement": "Preserve every unspecified record and non-audit value",
+      "requirementId": "REQ-017"
+    }
+  ],
+  "schemaVersion": "fscr-fsm-task-adapter-v1",
+  "status": "PASS",
+  "task": {
+    "code": "AP_MANAGE_PAYMENT_TERMS",
+    "csvSupported": true,
+    "functionalArea": "Payables",
+    "importMode": "FSM",
+    "name": "Manage Payment Terms",
+    "offering": "Financials"
+  }
+}

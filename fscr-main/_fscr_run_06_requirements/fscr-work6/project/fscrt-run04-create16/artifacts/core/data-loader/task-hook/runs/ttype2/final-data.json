@@ -1,0 +1,11 @@
+{
+ "archiveName": "fscrt-ttype2-candidate.zip",
+ "rowCounts": {
+  "AR_TRANSACTION_TYPE.csv": 1,
+  "AR_REF_ACCT_TRX_TYPE.csv": 0
+ },
+ "operation": "create",
+ "names": [
+  "FSCRT_TT1"
+ ]
+}

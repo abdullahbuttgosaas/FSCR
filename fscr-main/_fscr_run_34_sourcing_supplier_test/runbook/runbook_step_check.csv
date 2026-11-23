@@ -1,0 +1,92 @@
+seq,task,task_code,stage,oracle_type,has_route,says_manual,has_prerequisite,plan_depends_on
+1,Manage Item Organizations,EGP_MANAGE_ITEM_ORGANIZATIONS,Procurement - Suppliers,Import and Load Data,True,False,False,0
+2,Specify Supplier Numbering,POZ_SPECIFY_SUPPLIER_NUMBERING,Procurement - Suppliers,Import and Load Data,True,False,False,0
+3,Manage Supplier Type Lookup,POZ_MANAGE_SUPPLIER_TYPE_LOOKUP,Procurement - Suppliers,Import and Load Data,True,False,False,0
+4,Manage Tax Organization Type Lookup,POZ_MANAGE_TAX_ORGANIZATION_TYPE_LOOKUP,Procurement - Suppliers,Import and Load Data,True,False,False,0
+5,Manage Supplier Profile Options,ORA_POZ_MANAGE_SUPPLIER_PROFILE_OPTIONS,Procurement - Suppliers,Import and Load Data,True,False,False,0
+6,Manage Supplier Products and Services Category Hierarchy,POR_MANAGE_SUPPLIER_PRODUCTS_AND_SERVICES_CATEGORY_HIERARCHY,Procurement - Suppliers,Import and Load Data,True,False,False,0
+7,Manage Supplier Value Sets,POZ_MANAGE_SUPPLIER_VALUE_SETS,Procurement - Suppliers,Import and Load Data,True,False,False,0
+8,Manage Supplier Descriptive Flexfields,POZ_MANAGE_SUPPLIER_DESCRIPTIVE_FLEXFIELDS,Procurement - Suppliers,Import and Load Data,True,False,False,0
+9,Manage Supplier Bank Account Descriptive Flexfields,ORA_MANAGE_SUPPLIER_BANK_ACCOUNT_DESCRIPTIVE_FLEXFIELDS,Procurement - Suppliers,Import and Load Data,True,False,False,0
+10,Manage Supplier Messages,ORA_POZ_MANAGE_SUPPLIER_MESSAGES,Procurement - Suppliers,Import and Load Data,True,False,False,0
+11,Configure Supplier Outbound Synchronization Service,ORA_POZ_CONFIGURE_SUPPLIER_OUTBOUND_SYNCHRONIZATION_SERVICE,Procurement - Suppliers,Import and Load Data,True,False,False,0
+12,Configure Supplier Registration,POZ_CONFIGURE_SUPPLIER_REGISTRATION,Procurement - Suppliers,Import and Load Data,True,False,False,0
+13,Configure Supplier Profile Change Request,ORA_POZ_CONFIGURE_SUPPLIER_PROFILE_CHANGE_REQUEST,Procurement - Suppliers,Import and Load Data,True,False,False,0
+14,Configure New Supplier Notification,ORA_POZ_CONFIGURE_NEW_SUPPLIER_NOTIFICATION,Procurement - Suppliers,Import and Load Data,True,False,False,0
+15,Manage Integration with Oracle Verification Services,ORA_MANAGE_ADDRESS_VERIFICATION_CLOUD_TO_CX_CLOUD_INTEGRATION,Procurement - Suppliers,Manual Task,False,True,False,0
+16,Manage Supplier Registration Value Sets,POZ_MANAGE_SUPPLIER_REGISTRATION_VALUE_SETS,Procurement - Suppliers,Import and Load Data,True,False,False,0
+17,Manage Supplier Registration Descriptive Flexfields,POZ_MANAGE_SUPPLIER_REGISTRATION_DESCRIPTIVE_FLEXFIELDS,Procurement - Suppliers,Import and Load Data,True,False,False,0
+18,Manage Trading Community Person Descriptive Flexfields,HZ_MANAGE_TRADING_COMMUNITY_PERSON_DESCRIPTIVE_FLEXFIELDS,Procurement - Suppliers,Import and Load Data,True,False,False,0
+19,Manage Trading Community Organization Site Descriptive Flexfields,HZ_TRADING_COMMUNITY_ORGANIZATION_SITE_DESC_FLEXFIELDS,Procurement - Suppliers,Import and Load Data,True,False,False,0
+20,Configure Party Relationships for Supplier Match,ORA_POZ_CONFIGURE_PARTY_RELATIONSHIPS_FOR_SUPPLIER_MATCH,Procurement - Suppliers,Manual Task,False,True,False,0
+21,Manage Server Configurations,ZCQ_MANAGE_SERVER_CONFIGURATIONS,Procurement - Suppliers,Import and Load Data,True,False,False,0
+22,Manage Enterprise Data Quality Matching Configurations,ORA_ZCQ_EDQ_MATCH_CONFIGURATIONS,Procurement - Suppliers,Manual Task,False,True,False,0
+23,Manage Business Classification Lookup,POZ_MANAGE_BUSINESS_CLASSIFICATION_LOOKUP,Procurement - Suppliers,Import and Load Data,True,False,False,0
+24,Manage Minority Group Lookup,POZ_MANAGE_MINORITY_GROUP_LOOKUP,Procurement - Suppliers,Import and Load Data,True,False,False,0
+25,Manage Certifying Agencies,ORA_POZ_MANAGE_CERTIFYING_AGENCIES,Procurement - Suppliers,Import and Load Data,True,False,False,0
+26,Manage Address Formats,HZ_MANAGE_ADDRESS_FORMATS,Procurement - Suppliers,Import and Load Data,True,False,False,0
+27,Manage Collaboration Messaging Service Providers,ORA_CMK_COLLAB_MESG_SERVICE_PROVIDER,Procurement - Suppliers,Import and Load Data,True,False,False,0
+28,Manage Collaboration Messaging Domain Value Map,ORA_CMK_MANAGE_COLLAB_MESG_DVM,Procurement - Suppliers,Manual Task,False,True,False,0
+29,Manage Task Configurations for Supply Chain Management,INV_MANAGE_TASK_CONFIGURATIONS,Procurement - Suppliers,Manual Task,False,True,False,0
+30,Manage B2B Configuration,ORA_CMK_MANAGE_B2B_CONFIG,Procurement - Suppliers,Manual Task,False,True,False,0
+31,Manage Simplified Collaboration Messaging Configuration,ORA_CMK_MNGE_SIMPLIFIED_COLLAB_MSG_CONFIG,Procurement - Suppliers,Import and Load Data,True,False,False,0
+32,Upload Supplier Import File,ORA_POZ_UPLOAD_SUPPLIER_IMPORT_FILE,Procurement - Suppliers,Manual Task,False,True,False,0
+33,Load Supplier Interface through Scheduled Process,ORA_POZ_LOAD_SUPPLIER_INTERFACE_VIA_SCHEDULED_PROCESS,Procurement - Suppliers,Manual Task,False,True,False,0
+34,Import Suppliers,POZ_IMPORT_SUPPLIERS,Procurement - Suppliers,Import and Load Data,True,False,False,0
+35,Manage Trading Community Source Systems,HZ_MANAGE_TRADING_COMMUNITY_SOURCE_SYSTEMS,Procurement - Suppliers,Import and Load Data,True,False,False,0
+36,Manage Source System Entities,HZ_MANAGE_SOURCE_SYSTEM_ENTITIES,Procurement - Suppliers,Import and Load Data,True,False,False,0
+37,Manage Source System Lookups,HZ_MANAGE_SOURCE_SYSTEM_LOOKUPS,Procurement - Suppliers,Import and Load Data,True,False,False,0
+38,Manage Source System Descriptive Flexfields,HZ_MANAGE_SOURCE_SYSTEM_DESCRIPTIVE_FLEXFIELDS,Procurement - Suppliers,Import and Load Data,True,False,False,0
+39,Import Person and Organization,HZ_IMPORT_PARTNERS,Procurement - Suppliers,Manual Task,False,True,False,0
+40,Manage Import Lookups,HZ_MANAGE_IMPORT_LOOKUPS,Procurement - Suppliers,Import and Load Data,True,False,False,0
+41,Search Legal Entities,XLE_SEARCH_LEGAL_ENTITIES,Procurement - Suppliers,Manual Task,False,True,False,0
+42,View Accounting Configuration Summary,GL_VIEW_ACCOUNTING_CONFIGURATION_SUMMARY,Procurement - Suppliers,Manual Task,False,True,False,0
+43,Manage Intercompany and Contract Manufacturing Suppliers,ORA_RCS_MANAGE_SUPPLIER,Procurement - Suppliers,Manual Task,False,True,False,0
+44,Manage SCM Enterprise Calendar Profile Option,ORA_RCS_MANAGE_CALENDAR_PROFILE_OPTION,Procurement - Suppliers,Import and Load Data,True,False,False,0
+45,Manage Item Organizations Value Sets,ORA_RCS_MANAGE_ITEM_ORG_VALUE_SETS,Procurement - Suppliers,Import and Load Data,True,False,False,0
+46,Manage Item Organizations Descriptive Flexfields,ORA_RCS_MANAGE_ITEM_ORG_FLEXFIELDS,Procurement - Suppliers,Manual Task,False,True,False,0
+47,Manage Inventory Organizations Value Sets,ORA_RCS_MANAGE_INV_ORG_VALUE_SETS,Procurement - Suppliers,Import and Load Data,True,False,False,0
+48,Manage Inventory Organizations Descriptive Flexfields,ORA_RCS_MANAGE_INV_ORG_FLEXFIELDS,Procurement - Suppliers,Manual Task,False,True,False,0
+49,Associate Supplier with Contract Manufacturing Plant,ORA_RCS_ASSOCIATE_SUPPLIER_W_MFG_ORG,Procurement - Suppliers,Manual Task,False,True,False,0
+50,Manage Plant Profiles,ORA_RCS_MANAGE_MFG_PLANT_PROFILE,Procurement - Suppliers,Import and Load Data,True,False,False,0
+51,Manage SCM Common Lookups,ORA_RCS_MANAGE_SCM_COMMON_LOOKUPS,Procurement - Suppliers,Manual Task,False,True,False,0
+52,Configure Electronic Signature Preferences,ORA_EDR_ELECTRONIC_SIGN_PREF,Procurement - Suppliers,Manual Task,False,True,False,0
+53,Associate Source Organization with Inventory Organization,ORA_RCS_ASSOCIATE_SOURCE_ORGANIZATION_WITH_INVENTORY_ORGANIZATION,Procurement - Suppliers,Manual Task,False,True,False,0
+54,Manage Default Expenditure Types Lookups,ORA_RCS_MANAGE_DEFAULT_EXPENDITURE_TYPES_LOOKUPS,Procurement - Suppliers,Manual Task,False,True,False,0
+55,Manage Default Expenditure Types,ORA_RCS_MANAGE_DEFAULT_EXPENDITURE_TYPES,Procurement - Suppliers,Manual Task,False,True,False,0
+56,Manage Project Type Cost Exclusions,ORA_RCS_MANAGE_PROJECT_TYPE_COST_EXCLUSIONS,Procurement - Suppliers,Manual Task,False,True,False,0
+57,Manage Project Costing Descriptive Flexfields,PJC_MANAGE_PROJECT_COSTING_DESCRIPTIVE_FLEXFIELDS,Procurement - Suppliers,Manual Task,False,True,False,0
+58,Manage Project Attribute Defaults,ORA_RCS_MANAGE_PROJECT_ATTRIBUTE_DEFAULTS,Procurement - Suppliers,Manual Task,False,True,False,0
+59,Manage Project Organization Classifications,PJF_MANAGE_PROJECT_ORGANIZATION_CLASSIFICATIONS,Procurement - Suppliers,Import and Load Data,True,False,False,0
+60,Associate Customer with Inventory Organization,ORA_RCS_ASSOCIATE_CUSTOMER_WITH_INVENTORY_ORGANIZATION,Procurement - Suppliers,Manual Task,False,True,False,0
+61,Associate Fixed Asset Books with Inventory Organizations,ORA_RCS_ASSOCIATE_FABOOK_WITH_INVENTORY_ORGANIZATION,Procurement - Suppliers,Manual Task,False,True,False,0
+62,Copy Inventory Organizations,ORA_RCS_COPY_INVENTORY_ORGANIZATIONS,Procurement - Suppliers,Manual Task,False,True,False,0
+63,Associate Expired Lot Subinventories and Locators with Inventory Organizations,ORA_RCS_ASSOCIATE_EXPIRED_LOT_SUBINVLOC_WITH_INVENTORY_ORGANIZATIONS,Procurement - Suppliers,Manual Task,False,True,False,0
+64,Manage Supplier User Roles,POZ_MANAGE_SUPPLIER_USER_ROLES,Procurement - Supplier Portal,Import and Load Data,True,False,False,0
+65,Manage Supplier User Role Usages,POZ_MANAGE_SUPPLIER_USER_ROLE_USAGES,Procurement - Supplier Portal,Import and Load Data,True,False,False,0
+66,Specify User Category for New Supplier Users,ORA_POZ_SPECIFY_SUP_USER_CATEGORY,Procurement - Supplier Portal,Manual Task,False,True,False,0
+67,Specify Supplier News Content,POZ_SPECIFY_SUPPLIER_NEWS_CONTENT,Procurement - Supplier Portal,Import and Load Data,True,False,False,0
+68,Manage Supplier Portal Messages,ORA_POZ_MANAGE_SUPPLIER_PORTAL_MESSAGES,Procurement - Supplier Portal,Import and Load Data,True,False,False,0
+69,Configure Supplier Notifications,ORA_POZ_CONFIGURE_SUPPLIER_NOTIFICATIONS_FOR_PROFILE_MGMT,Procurement - Supplier Portal,Import and Load Data,True,False,False,0
+70,Manage Negotiation Styles,PON_MANAGE_NEGOTIATION_STYLES,Procurement - Sourcing,Manual Task,False,True,False,0
+71,Manage Sourcing Lookups,ORA_PON_MANAGE_SOURCING_LOOKUPS,Procurement - Sourcing,Manual Task,False,True,False,0
+72,Manage Supplier Questions,ORA_POQ_MANAGE_SUPPLIER_QUALIFICATION_QUESTIONS,Procurement - Sourcing,Import and Load Data,True,False,False,0
+73,Manage Attribute Lists,PON_MANAGE_ATTRIBUTE_LISTS,Procurement - Sourcing,Manual Task,False,True,False,0
+74,Manage Cost Factors,PON_MANAGE_COST_FACTORS,Procurement - Sourcing,Import and Load Data,True,False,False,0
+75,Manage Cost Factor Lists,PON_MANAGE_COST_FACTOR_LISTS,Procurement - Sourcing,Import and Load Data,True,False,False,0
+76,Manage Sourcing Value Sets,PON_MANAGE_SOURCING_VALUE_SETS,Procurement - Sourcing,Manual Task,False,True,False,0
+77,Manage Sourcing Descriptive Flexfields,PON_MANAGE_SOURCING_DESCRIPTIVE_FLEXFIELDS,Procurement - Sourcing,Manual Task,False,True,False,0
+78,Manage Sourcing Notifications,ORA_PON_MANAGE_NOTIFICATIONS,Procurement - Sourcing,Import and Load Data,True,False,False,0
+79,Configure Negotiation Award Outbound Service,ORA_PON_CONFIGURE_OUTBOUND_PURCHASING_SERVICE,Procurement - Sourcing,Manual Task,False,True,False,0
+80,Manage Sourcing Messages,ORA_PON_MANAGE_SOURCING_MESSAGES,Procurement - Sourcing,Manual Task,False,True,False,0
+81,Manage Subject Lookup,ORA_POQ_MANAGE_SUBJECT_LOOKUP,Procurement - Supplier Qualification,Manual Task,False,True,False,0
+82,Manage Standards Organization Lookup,ORA_POQ_MANAGE_STANDARDS_ORGANIZATION_LOOKUP,Procurement - Supplier Qualification,Manual Task,False,True,False,0
+83,Manage Qualification Areas,ORA_POQ_MANAGE_SUPPLIER_QUALIFICATION_AREAS,Procurement - Supplier Qualification,Manual Task,False,True,False,0
+84,Manage Qualification Models,ORA_POQ_MANAGE_SUPPLIER_QUALIFICATION_MODELS,Procurement - Supplier Qualification,Manual Task,False,True,False,0
+85,Manage Supplier Qualification Rule Sets,ORA_POQ_MANAGE_SUPPLIER_REG_RULE_SETS,Procurement - Supplier Qualification,Manual Task,False,True,False,0
+86,Configure Supplier Qualification Controls,ORA_POQ_CONFIGURE_SUPPLIER_QUALIFICATION_CONTROLS,Procurement - Supplier Qualification,Manual Task,False,True,False,0
+87,Manage Qualification Outcome Lookup,ORA_POQ_MANAGE_QUALIFICATION_OUTCOME_LOOKUP,Procurement - Supplier Qualification,Manual Task,False,True,False,0
+88,Manage Assessment Outcome Lookup,ORA_POQ_MANAGE_ASSESSMENT_OUTCOME_LOOKUP,Procurement - Supplier Qualification,Manual Task,False,True,False,0
+89,Manage Supplier Qualification Value Sets,ORA_POQ_MANAGE_SUPPLIER_QUALIFICATION_VALUE_SETS,Procurement - Supplier Qualification,Manual Task,False,True,False,0
+90,Manage Supplier Qualification Descriptive Flexfields,ORA_POQ_MANAGE_SUPPLIER_QUALIFICATION_DESCRIPTIVE_FLEXFIELDS,Procurement - Supplier Qualification,Manual Task,False,True,False,0
+91,Manage Supplier Qualification Messages,ORA_POQ_MANAGE_SUPPLIER_QUALIFICATION_MESSAGES,Procurement - Supplier Qualification,Manual Task,False,True,False,0

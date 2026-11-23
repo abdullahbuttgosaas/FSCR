@@ -1,0 +1,46 @@
+[
+ {
+  "source": "ora_input_validation.md",
+  "status": "passed",
+  "issues": [
+   {
+    "severity": "info",
+    "message": "AIGR.VALIDATE -> valid. New AR_AI_GROUPING_RULE Name FSCRT_GRP1 (10 chars) absent from baseline (11 rules); StartDate 2026-11-03 ISO; one ORA_AR_AI_GRP_TXN_TYPE child with parent key FSCRT_GRP1 and Class11 'I' (the stored system code also used by existing rules ORA_PSCR etc.); no group-by children; adapter normalize/build/validate PASS, errors []."
+   }
+  ],
+  "changes": []
+ },
+ {
+  "source": "ora_dependency_readiness.md",
+  "status": "passed",
+  "issues": [
+   {
+    "severity": "info",
+    "message": "AIGR.DEPENDENCIES -> ready. Line ordering rule: not supplied (LineOrderingRuleName blank) so no RA_LINE_ORDERING_RULES lookup needed. Transaction class: normalized to stored GROUPING_TRX_TYPE code I (evidence: baseline ORA_AR_AI_GRP_TXN_TYPE rows use C/D/I). Group-by characteristic: none requested. DFF: none requested."
+   }
+  ],
+  "changes": []
+ },
+ {
+  "source": "ora_design_enforcement.md",
+  "status": "passed",
+  "issues": [
+   {
+    "severity": "info",
+    "message": "AIGR.ENFORCE -> pass. Template-derived package with all three members and unchanged headers (validate PASS); parent-child keys consistent; audit columns blank; no existing rule touched (0 baseline duplicates)."
+   }
+  ],
+  "changes": []
+ },
+ {
+  "source": "ora_error_handling.md",
+  "status": "passed",
+  "issues": [
+   {
+    "severity": "info",
+    "message": "AIGR.GATE -> pass. Data Loader preflight passed with no upload; the user's written approval of Run 04 test records is the design confirmation; Task Hook preview/approval follows. Terminal AIGR.DONE."
+   }
+  ],
+  "changes": []
+ }
+]

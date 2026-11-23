@@ -1,0 +1,1 @@
+{"created": false, "invoked": false, "stage": "preflight", "failureClass": "input validation", "runbookControlStatus": "not-assessed", "error": "Project-backed Run Book creation requires runbook_control.status pending and an empty active_runbook_ref.", "recommendedAction": "Correct the Run Book preflight issue, then retry Run Book creation."}

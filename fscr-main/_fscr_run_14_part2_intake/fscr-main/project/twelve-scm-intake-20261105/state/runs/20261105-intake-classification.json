@@ -1,0 +1,1 @@
+{"run":"20261105-intake-classification","skill":"router.project-objective-classifier","mode":"offline","fusion_calls":0,"result":"31 FA rows; 24 resolved; 7 pending (fail-closed, multi-offering FAs)","artifact":"artifacts/router/project-objective-classifier/current/scope.json","failure_class":"input_validation (pending items only)"}

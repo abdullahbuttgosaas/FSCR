@@ -1,0 +1,75 @@
+{
+  "baselineSha256": "694029faa84d7d164ec0cafb9baea0fd694dd065a1f9a5c2c423fcfbc223df14",
+  "businessSummary": [
+    {
+      "action": "create",
+      "entity": "AR_TRANSACTION_TYPE",
+      "operationId": "t1",
+      "targetKey": {
+        "Name": "FSCRT_TT1",
+        "SetCode": "ENTERPRISE"
+      },
+      "values": {
+        "AccountingAffectFlag": "Y",
+        "AllowFreightFlag": "N",
+        "AllowOverapplicationFlag": "N",
+        "CreationSign": "P",
+        "DefaultPrintingOption": "PRI",
+        "DefaultStatus": "OP",
+        "Description": "FSCRT Run04 invoice type",
+        "NaturalApplicationOnlyFlag": "N",
+        "PostToGl": "N",
+        "StartDate": "2026-11-03",
+        "Status": "A",
+        "TaxCalculationFlag": "N",
+        "Type": "INV"
+      }
+    }
+  ],
+  "candidateSha256": "c9fa278d225b00cfc55c0eb1307e270d80bde48a9b88984f4e6c27f0c3f4bc55",
+  "designSha256": "b53a3a693293073a5b6b9b05dd9d65d268370e74e0bfa39df79396e1f6f4e2de",
+  "errors": [],
+  "memberInventory": [
+    "AR_TRANSACTION_TYPE.csv",
+    "AR_REF_ACCT_TRX_TYPE.csv",
+    "ASM_SETUP_CSV_METADATA.xml"
+  ],
+  "notImported": true,
+  "requirementIds": [
+    "REQ-001",
+    "REQ-002",
+    "REQ-003",
+    "REQ-004",
+    "REQ-005",
+    "REQ-006",
+    "REQ-007",
+    "REQ-008",
+    "REQ-009",
+    "REQ-010",
+    "REQ-011",
+    "REQ-012",
+    "REQ-013",
+    "REQ-014",
+    "REQ-015"
+  ],
+  "rowCounts": {
+    "AR_REF_ACCT_TRX_TYPE.csv": 0,
+    "AR_TRANSACTION_TYPE.csv": 1
+  },
+  "schemaFingerprint": "ca82e0dd0303dceaaa6eed1eba9effaeed5972925d3aaf6948a2315489c5ae5b",
+  "schemaVersion": "fscr-fsm-task-adapter-v1",
+  "semanticValidator": "fsm_task_adapter.py blueprint/baseline validator",
+  "status": "PASS",
+  "structuralValidator": "fsm_task_adapter.py exact-task package reader",
+  "task": {
+    "code": "AR_MANAGE_TRANSACTION_TYPES",
+    "csvSupported": true,
+    "functionalArea": "Customer Billing",
+    "importMode": "FSM",
+    "name": "Manage Transaction Types",
+    "offering": "Financials"
+  },
+  "templateSha256": "8919e913c3fa4601d1a9e899ca214a250f335c0c20f9a03e47b18a7f07ebfee2",
+  "unresolvedWarnings": [],
+  "warnings": []
+}

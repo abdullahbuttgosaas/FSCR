@@ -1,0 +1,11 @@
+TaskCode: PON_MANAGE_COST_FACTORS (Manage Cost Factors); CSVExportImportSupportedFlag: Y
+Resolved pillar skill metadata:
+  offering: pillars\scm\procurement\SKILL.md
+  functional_area: pillars\scm\procurement\sourcing\SKILL.md
+  task: pillars\scm\procurement\sourcing\manage-cost-factors\SKILL.md
+Started setup task CSV export process: 100004737413732
+ProcessCompletedFlag: False; StatusCode: (no result yet); ResultCount: 0
+ProcessCompletedFlag: True; StatusCode: (no result yet); ResultCount: 0
+StatusCode: (unknown)
+Retrieved: FileContent
+Wrote E:\GoSaaS\Configuration Automation v2.1\fscr-main\_fscr_run_34_sourcing_supplier_test\export_before\PON_MANAGE_COST_FACTORS\ETIA-TEST_setup_task_csv_export_pon_manage_cost_factors_100004737413732.zip (2133 bytes)

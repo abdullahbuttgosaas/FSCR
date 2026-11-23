@@ -1,0 +1,706 @@
+SOURCE (read in browser via docs.google.com viewer): Oracle (& Plex) Implementation Proposal 6-5-24.pptx | id=13zPWkXH-0zpRYyxicl9TIlSNLVUos_8r | kind=slides | chars=13664
+Oracle (& Plex) Implementation Proposal 6-5-24.pptx - Google Slides
+
+  1 of 16
+1
+
+Oracle (&Plex) Implementation Proposal
+​
+Jun 5, 2024
+
+Speaker Notes:
+<text>
+
+2 of 16
+2
+
+Purpose: To review the Phases of implementation as applicable by functionality (Module) as it applies to each part of the Twelve business.
+​
+​
+​
+
+––
+Purpose & Topics
+
+|   a world made from air
+
+Topics:
+Module Definitions
+Phase Logic & Definitions
+Breakdown by Phase:
+Basic Process Flows
+Roles & Responsibilities
+Execution Expectations
+​
+​
+​
+
+Speaker Notes:
+<text>
+
+3 of 16
+3
+
+What is a Module? Functionality within Oracle is broken up into Modules.  Access to Modules and functionality within the Modules is managed via Segregation of Duties matrix.  It is possible Users will have specific access to various Modules.
+*The Finance Oracle Module is currently Live for Twelve.
+​
+​
+​
+
+––
+Modules
+
+|   a world made from air
+
+Inventory
+
+Order Management
+
+PLM
+(Product)
+
+Manufacturing
+
+Maintenance
+
+Procurement
+
+*Issue & Change Purchase Reqs & Purchase Orders (Goods, Services & Fixed Assets)
+*Supplier Master
+*RFPs to Suppliers
+*Supplier Communications
+*Match Approval Levels (2- or 3-way)
+
+*Item Master
+*Bill of Materials (Product & Maintenance)
+*Approved Vendor List (AVL) per Item
+
+*Inventory Item Attributes
+*Serial # Entry at Pick
+*Pick List by Work Order
+*Internal Transfers (no Work Order - between inventory locations, scrap, ad hoc requests)
+
+*Customer Details on Sales Order
+*Issue & Change Sales Orders
+*Customer Communications
+*Drop Ship
+
+*Issue & Change Maintenance Work Orders (Operation Items, Resources, Exceptions, References captured)
+*Direct procurement of materials via W/O
+*Maintenance Backorder Reporting
+*Serialization
+
+*Issue & Change Production Work Orders and Dispatch
+*Cycle Count Creation
+
+Speaker Notes:
+<text>
+
+4 of 16
+4
+
+––
+Implementation: Phase Logic
+
+|   a world made from air
+
+Complexity
+
+# of Users
+
+Business Readiness
+
+Business Strategy
+
+Air Plants
+(R1 & C1)
+
+MEA
+​
+Stacks
+
+Indirect
+(General Purchasing)
+
+Phase 1:  R1 (Moses Lake) Procure, Inv & Maint.
+& Stacks PLM
+
+Phase 2:  Cx & R1
+Capital Procurement
+
+Phase 3:  MEA & Stacks Procurement, Inventory, Sourcing & (MEA PLM)
+
+Phase 4:  MEA & Stacks Mfg & Maintenance
+(Plex: Limited Scope)
+
+Phase 5:  Indirect (all company) Purchases
+[No more Coupa]
+
+Speaker Notes:
+<text>
+
+5 of 16
+5
+
+––
+Phases
+
+|   a world made from air
+
+Phase 3
+Stacks & MEA
+
+Phase 4
+Stacks & MEA
+
+Phase 1
+Moses Lake & PLM
+
+Phase 5
+Indirect Purchasing
+
+Phase 2
+Capital Procurement
+
+Cx Capital Procurement:
+  *Procurement
+  *Maintenance
+Why?  With these Modules, C1 purchasing can start in Oracle (no Coupa transfer) and Fixed Assets created in Maintenance Module.
+​
+R1 Capital Procurement
+  *Procurement
+Why?  Align with Phase 1 for creating Fixed Assets in Oracle and Maintenance Module.  This will involve PO transfers.
+​
+XFNL Teams:
+  *Supply Chain
+  *Purchase Req Approvers (R1/C1 Project Teams)
+  *Finance
+
+Moses Lake Modules:
+  *Procurement
+  *Inventory
+  *Maintenance
+  *Order Management
+Why?  With these Modules, R1 will start Day 1 Operations in Oracle.
+​
+Stacks:
+  *PLM
+Why?  BOM revision is critical when planning Stacks parts. It is also the first product to ‘become familiar’ with the PLM functionality in Oracle.
+​
+XFNL Teams:
+  *Supply Chain
+  *R1 Ops & Maintenance
+  *Stacks TD
+
+Stacks & MEA:
+  *Procurement
+  *Inventory
+  *Sourcing
+  *Product (MEA)
+Why?  Move all Sourcing, Purchasing & Inventory to Oracle as Phase 1 for Stacks & MEA.  This will also mean all MEA inventory will need to be managed in Oracle, as well as MEA BOMs uploaded.
+​
+XFNL Teams:
+  *Supply Chain
+  *Purchase Req Approvers (Gen1, P-Dev)
+  *M-Ops (BOM & Inventory)
+  *Internal Transfer Users (Metrology, R-Ops, M-Ops)
+  *Finance
+
+Stacks & MEA:
+  *Manufacturing
+  *Plex
+  *Maintenance
+Why?  Enabling Work Orders and Travelers to streamline R-Ops & M-Ops activities.  Also, enable the MRO functionality for Stacks/MEA Equipment.
+​
+XFNL Teams:
+  *Supply Chain
+  *Production Planning (historically TPMs)
+  *M-Ops & R-Ops
+  *Maintenance Team
+  *Finance
+
+Indirect/General Purch.:
+  *Procurement
+  *Inventory
+Why?  Transfer general purchasing of indirect materials (primarily TD) and punching out lists away from Coupa and in Oracle.
+​
+XFNL Teams:
+  *Supply Chain
+  *Tech Dev (Leaders alignment)
+  *Company-wide
+  *Finance
+
+Speaker Notes:
+<text>
+
+6 of 16
+6
+
+––
+Timelines
+
+|   a world made from air
+
+Phase 3
+Stacks & MEA (P&I)
+MEA PLM
+
+Phase 4
+Stacks & MEA: Mfg
+Stacks & MEA: MRO
+
+Phase 1
+Moses Lake
+PLM
+
+Phase 5
+Indirect Purchasing
+
+Phase 2
+Capital (C1)
+Capital (R1)
+
+Jul ‘24
+
+Aug ‘24
+
+Sep ‘24
+
+Oct ‘24
+
+Nov ‘24
+
+Dec ‘24
+
+Jan ‘25
+
+Feb ‘25
+
+Mar ‘25
+
+Go Live
+
+Train
+
+Kick Off
+
+Go Live
+
+Sys Read.
+
+Go Live
+
+Train
+
+Sys Read.
+
+Go Live
+
+Train
+
+Sys Read.
+
+Go Live
+
+Train
+
+Sys Read.
+
+Go Live
+
+Train
+
+Sys Read.
+
+Go Live
+
+Train
+
+Sys Read.
+
+Go Live
+
+Train
+
+Sys Read.
+
+Kick Off
+
+Go Live
+
+Sys Read.
+
+Kick Off
+
+Train
+
+Per IT Feedback:
+Oracle Module Alignment
+
+Speaker Notes:
+<text>
+
+7 of 16
+7
+
+––
+Phase 1
+
+|   a world made from air
+
+Phase 1
+Moses Lake & PLM
+
+Moses Lake Modules:
+  *Procurement
+  *Inventory
+  *Maintenance
+  *Order Management
+Why?  With these Modules, R1 will start Day 1 Operations in Oracle.
+​
+Stacks:
+  *PLM
+Why?  BOM revision is critical when planning Stacks parts. It is also the first product to ‘become familiar’ with the PLM functionality in Oracle.
+​
+XFNL Teams:
+  *Supply Chain
+  *R1 Ops & Maintenance
+  *Stacks TD
+
+Basic Process Flows
+Issue, Change & Receive Purchase Requisitions (for approval) and Purchase Orders
+Receive and Track Inventory (by locations - including Stacks and Maintenance Parts)
+Issue & Track Maintenance Work Orders (backlog reporting available)
+Routing established; Align with BOMs; Picklists for inventory (for Maintenance Work Orders)
+Issue and Receive Sales Orders (External & Internal Customers)
+
+Roles & Responsibilities
+MRO Buyer:  Issue POs, Vendor Management, Vendor Contracts
+Inventory Management:  Receive/Track Inventory; Issue parts per picklists
+Transportation Management:  Shipping for finished product, as well as product between sites; Issue/Receive Sales Orders
+Maintenance Manager:  Creation and tracking of Maintenance Work Orders to completion
+Maintenance Operators:  Check-in/-out; Upload photos/docs to Work Order completion
+
+Execution Expectations
+Create detail end to end process flow
+Create Training Plan with SOPs, Videos & Use-Cases for UAT
+Maintenance Items, SOPs and BOMs are uploaded
+Routing/Steps identified per Maintenance BOMs
+Customer Routing clarified and functionality enabled (i.e. Drop Ship vs Consignment)
+Purchase Requisition Approval Process identified and training for end users
+
+Speaker Notes:
+<text>
+
+8 of 16
+8
+
+––
+Phase 2
+
+|   a world made from air
+
+Basic Process Flows
+Issue, Change & Receive (Fixed Asset) Purchase Requisitions (for approval) and Purchase Orders
+Receive and Track Fixed Assets (to Maintenance & Fixed Asset Module)
+
+Roles & Responsibilities
+Global Supply Manager:  Issue POs, Customer Master Maintenance, Vendor Management, Vendor Contracts
+Maintenance Manager:  Fixed Asset creation in Maintenance Module, Align Maintenance plan (with parts) per Fixed Asset
+Finance:  Fixed Asset creation in Finance Module; Align depreciation schedule per Fixed Asset; Invoice processes
+
+Execution Expectations
+Create detail end to end process flow
+Create Training Plan with SOPs, Videos & Use-Cases for UAT
+Purchase Requisition Approval Process identified and training for end users
+
+Phase 2
+Capital Procurement
+
+C1 Capital Procurement:
+  *Procurement
+  *Maintenance
+Why?  With these Modules, C1 purchasing can start in Oracle (no Coupa transfer) and Fixed Assets created in Maintenance Module.
+​
+R1 Capital Procurement
+  *Procurement
+Why?  Align with Phase 1 for creating Fixed Assets in Oracle and Maintenance Module.  This will involve PO transfers.
+​
+XFNL Teams:
+  *Supply Chain
+  *Purchase Req Approvers (R1/C1 Project Teams)
+  *Finance
+
+Speaker Notes:
+<text>
+
+9 of 16
+9
+
+––
+Phase 3
+
+|   a world made from air
+
+Basic Process Flows
+Issue, Change & Receive (Goods & Services) Purchase Requisitions (for approval) and Purchase Orders
+Receive, Track and Move Goods (& Services)
+Issue, Modify and Track RFPs; Supplier Master Maintenance
+MEA:  Item Master, BOM, and Approved Vendors created and maintained
+
+Roles & Responsibilities
+Global Supply Manager:  Issue POs, Vendor Management
+Inventory Management:  Receive/Track Inventory; Issue parts per picklists/requests
+Sourcing Engineer:  Issue RFPs, POs, Vendor Management, Vendor Contracts, Item Master Creation & Maintenance
+M-Ops:  BOM Creation & Maintenance, Approved Vendor alignment to Items
+Finance:  Invoice processes
+
+Execution Expectations
+Create detail end to end process flow
+Create Training Plan with SOPs, Videos & Use-Cases for UAT
+Internal Transfer (issue parts without a Work Order) process identified and training for end users
+Purchase Requisition Approval Process identified and training for end users
+
+Phase 3
+Stacks & MEA
+
+Stacks & MEA:
+  *Procurement
+  *Inventory
+  *Sourcing
+  *Product (MEA)
+Why?  Move all Sourcing, Purchasing & Inventory to Oracle as Phase 1 for Stacks & MEA.  This will also mean all MEA inventory will need to be managed in Oracle, as well as MEA BOMs uploaded.
+​
+XFNL Teams:
+  *Supply Chain
+  *Purchase Req Approvers (Gen1, P-Dev)
+  *M-Ops (BOM & Inventory)
+  *Internal Transfer Users (Metrology, R-Ops, M-Ops)
+  *Finance
+
+Speaker Notes:
+<text>
+
+10 of 16
+10
+
+––
+Phase 4
+
+|   a world made from air
+
+Basic Process Flows
+Issue & Track Work Orders
+Traveler creation & tracking
+Routing established; Align with BOMs (for sub-assemblies and finished goods)
+Physical movement of parts per Work Order (kits)
+Exception Processing (i.e. scrap, MRB material, replacement parts issued)
+
+Phase 4
+Stacks & MEA
+
+Stacks & MEA:
+  *Manufacturing
+  *Plex
+  *Maintenance
+Why?  Enabling Work Orders and Travelers to streamline R-Ops & M-Ops activities.  Also, enable the MRO functionality for Stacks/MEA Equipment.
+​
+XFNL Teams:
+  *Supply Chain
+  *Production Planning (historically TPMs)
+  *M-Ops & R-Ops
+  *Metrology
+  *Maintenance Team
+  *Finance
+
+Roles & Responsibilities
+Production Planning:  Creation and tracking of Production Work Orders
+Production Managers:  Manage thru-put and notification of issues
+Inventory Management:  Print Traveler & Issue parts per picklists (attach Traveler to cart); Physical movement between Operations Steps?
+Operators:  Check-in/-out; Upload photos/docs; Access (& build/complete work) to SOPs
+Maintenance Manager:  Creation and tracking of Maintenance Work Orders
+
+Execution Expectations
+Create detail end to end process flow
+Create Training Plan with SOPs, Videos & Use-Cases for UAT
+SOPs and BOMs are uploaded
+Routing/Steps identified per sub-assembly/finished good
+
+Speaker Notes:
+<text>
+
+11 of 16
+11
+
+––
+Phase 5
+
+|   a world made from air
+
+Basic Process Flows
+Issue, Change & Receive (Goods & Services) Purchase Requisitions (for approval) and Purchase Orders
+Receive Orders
+
+Roles & Responsibilities
+End User:  Issue Purchase Requests/Obtain Approval; Approve invoices (Services only)
+Buyer:  Issue POs, Vendor Management, Vendor Contracts
+Inventory Management:  Receive Orders (if Goods)
+Finance:  Invoice processes
+
+Execution Expectations
+Create detail end to end process flow
+Create Training Plan with SOPs, Videos & Use-Cases for UAT
+Create End User Interface to Oracle PO creation process flow
+Purchase Requisition Approval Process identified and training for end users
+
+Phase 5
+Indirect Purchasing
+
+Indirect/General Purch.:
+  *Procurement
+  *Inventory
+Why?  Transfer general purchasing of indirect materials (primarily TD) and punching out lists away from Coupa and in Oracle.
+​
+XFNL Teams:
+  *Supply Chain
+  *Tech Dev (Leaders alignment)
+  *Company-wide
+  *Finance
+
+Speaker Notes:
+<text>
+
+12 of 16
+12
+
+––
+Approach
+
+|   a world made from air
+
+Confidential - Internal Use Only
+
+13 of 16
+13
+
+Purpose: This section is about the Approach to bring everyone along for the journey.
+​
+​
+​
+
+––
+Purpose & Topics
+
+|   a world made from air
+
+Topics:
+Requirements Alignment
+The Who
+Teams; People
+Subject Matter Experts vs Super Users
+Communication Plan
+​
+​
+​
+
+Speaker Notes:
+<text>
+
+14 of 16
+14
+
+How are we aligning on requirements?
+​
+​
+​
+
+––
+Requirements Alignment
+
+|   a world made from air
+
+Current Experiences
+& End-User Feedback
+
+✔️
+
+Share Proposed Scope
+‘Future User’ Vision
+
+Get Feedback
+*In Session & Survey
+
+Lock POR
+(Plan of Record)
+Pass to IT
+
+Out of Scope: Enhancements identified through the implementation?  *Add to a future scope.
+
+We have had several sessions to discuss challenges/issues, as well as obtain end-user feedback.
+Based on that feedback, we think we have an idea of what is needed for this implementation.
+
+Scope:  The bare-essentials of what is needed to track and manufacture a product end to end from a back-office perspective.
+Let’s take a look!
+
+What is missing?  What is a bare-essentials that is not represented?  Are there any ‘nice to haves’ that might be ‘easy’ to incorporate?
+After the session, a survey will be sent out to gather your thoughts and feedback that might have been missed.
+
+Speaker Notes:
+<text>
+
+15 of 16
+15
+
+Who is affected when?
+​
+​
+​
+
+––
+The Who:  Teams & People
+
+|   a world made from air
+
+Phase 1
+
+Share Proposed Scope
+‘Future User’ Vision
+
+Get Feedback
+*In Session & Survey
+
+Lock POR
+(Plan of Record)
+Pass to IT
+
+Speaker Notes:
+<text>
+
+16 of 16
+16
+
+Who is affected when?
+​
+​
+​
+
+––
+The Who:  Subject Matter Experts vs Super Users
+
+|   a world made from air
+
+Phase 1
+
+Share Proposed Scope
+‘Future User’ Vision
+
+Get Feedback
+*In Session & Survey
+
+Lock POR
+(Plan of Record)
+Pass to IT
+
+Speaker Notes:
+<text>
+

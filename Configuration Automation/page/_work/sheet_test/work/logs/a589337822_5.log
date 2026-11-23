@@ -1,0 +1,37 @@
+Host: https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com
+ORACLE_ENV: test
+Exporting AR_MANAGE_TRANSACTION_SOURCES ...
+  ProcessId=100004734402248
+  [export]   11s  StatusCode=IN_PROGRESS
+  [export]   22s  StatusCode=IN_PROGRESS
+  [export]   33s  StatusCode=COMPLETED
+  saved E:\GoSaaS\Configuration Automation v2.1\Configuration Automation\Transaction Sources\_work\AR_MANAGE_TRANSACTION_SOURCES_20261102_063057_before.zip
+  [template]   10s  StatusCode=NOT_STARTED
+  [template]   21s  StatusCode=IN_PROGRESS
+  [template]   32s  StatusCode=IN_PROGRESS
+  [template]   43s  StatusCode=COMPLETED
+  ZZ_TEST_TS_3114 (COMMON): new
+Exporting AR_MANAGE_TRANSACTION_SOURCES ...
+  ProcessId=100004734400298
+  [export]   10s  StatusCode=NOT_STARTED
+  [export]   21s  StatusCode=IN_PROGRESS
+  [export]   32s  StatusCode=COMPLETED
+  saved E:\GoSaaS\Configuration Automation v2.1\Configuration Automation\Transaction Sources\_work\AR_MANAGE_TRANSACTION_SOURCES_20261102_063220_names.zip
+Exporting AR_MANAGE_AUTOINVOICE_GROUPING_RULES ...
+  ProcessId=100004734401552
+  [export]   11s  StatusCode=IN_PROGRESS
+  [export]   22s  StatusCode=COMPLETED
+  saved E:\GoSaaS\Configuration Automation v2.1\Configuration Automation\Transaction Sources\_work\AR_MANAGE_AUTOINVOICE_GROUPING_RULES_20261102_063245_rules_now.zip
+  process 100004734401564
+  [transaction sources]   11s  StatusCode=IN_PROGRESS
+  [transaction sources]   22s  StatusCode=IN_PROGRESS
+  [transaction sources]   33s  StatusCode=COMPLETED
+  Oracle's result: COMPLETED
+Exporting AR_MANAGE_TRANSACTION_SOURCES ...
+  ProcessId=100004734401576
+  [export]   10s  StatusCode=IN_PROGRESS
+  [export]   21s  StatusCode=COMPLETED
+  saved E:\GoSaaS\Configuration Automation v2.1\Configuration Automation\Transaction Sources\_work\AR_MANAGE_TRANSACTION_SOURCES_20261102_063350_after.zip
+Whole run: 210 s
+
+===== run 06:30:18

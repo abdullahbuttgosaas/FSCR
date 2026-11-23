@@ -1,0 +1,27 @@
+{
+  "$schema": "../../../schemas/project-state.schema.json",
+  "project_id": "fscrt-run01-om-setup",
+  "project_name": "FSCRT Run01 OM Setup",
+  "customer": "GoSaaS",
+  "implementation_phase": "build",
+  "state_version": "0.1.0",
+  "created_at": "2026-11-02T19:49:35Z",
+  "updated_at": "2026-11-02T19:49:35Z",
+  "current_objective_ref": "project/fscrt-run01-om-setup/artifacts/router/project-objective-classifier/current/objective.json",
+  "current_scope_ref": null,
+  "artifact_index_ref": "project/fscrt-run01-om-setup/artifacts/artifact-index.json",
+  "latest_run_ref": "project/fscrt-run01-om-setup/state/runs/20261102T194935Z-project-workspace-initializer.json",
+  "baseline_refs": [],
+  "decision_refs": [],
+  "active_skill_path": [
+    "core.project-mgmt.project-workspace-initializer"
+  ],
+  "status": "initialized",
+  "runbook_control": {
+    "status": "active",
+    "active_runbook_ref": "300000394648040",
+    "server_url": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com",
+    "created_at": "2026-11-02T19:51:26Z",
+    "failure": null
+  }
+}

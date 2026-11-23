@@ -1,0 +1,13 @@
+{
+  "lookups": [
+    {
+      "lookup_type": "ZZ_TEST_4831",
+      "meaning": "ZZ Test 4831",
+      "module": "Order Management",
+      "module_id": "EDC7E0B04D5D8CD9E040F00A172014AD",
+      "codes": [
+        {"code": "OPEN", "meaning": "Open"}
+      ]
+    }
+  ]
+}

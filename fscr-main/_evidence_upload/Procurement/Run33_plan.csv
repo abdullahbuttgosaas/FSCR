@@ -1,0 +1,61 @@
+seq,task_code,task_name,functional_area,row_tag,catalog_offering,catalog_display_sequence,level_run32,fscr_prerequisites_found,oracle_sourced_prerequisites
+1,ORA_MANAGE_APPROVAL_GROUPS,Manage Approval Groups,Suppliers; Approval Management; Procurement Contracts,Shared,Procurement,112,c,,OKC_SPECIFY_PROCUREMENT_CONTRACT_MGMT_BUSINESS_FUNC_PROP; PO_MANAGE_TASK_CONFIGURATIONS
+2,POR_MANAGE_AGENT_ASSIGNMENTS_CATEGORY_HIERARCHY,Manage Procurement Category Hierarchy,Procurement Foundation,Procurement,Procurement,118,a,,
+3,PO_MANAGE_PROCUREMENT_AGENTS,Manage Procurement Agents,Suppliers; Procurement Foundation,Shared,Procurement,119,a,,
+4,POR_MANAGE_REQUISITION_APPROVALS,Manage Requisition Approvals,Approval Management; Self Service Procurement,Procurement,Procurement,121,c,,ORA_MANAGE_APPROVAL_GROUPS
+5,ORA_PON_MANAGE_NEG_APPROVALS,Manage Supplier Negotiation Approvals,Approval Management; Sourcing,Shared,Procurement,122,c,,
+6,ORA_PON_MANAGE_NEG_AWARD_APPROVALS,Manage Supplier Negotiation Award Approvals,Approval Management; Sourcing,Shared,Procurement,123,c,,
+7,PO_MANAGE_PURCHASING_DOCUMENT_APPROVALS,Manage Purchasing Document Approvals,Approval Management,Procurement,Procurement,124,c,,ORA_MANAGE_APPROVAL_GROUPS
+8,ORA_POZ_MANAGE_INTERNAL_SUPPLIER_REGISTRATION_APPROVALS,Manage Internal Supplier Registration Approvals,Approval Management,Procurement,Procurement,125,a,,
+9,ORA_POZ_MANAGE_SUPPLIER_REGISTRATION_APPROVALS,Manage Supplier Registration Approvals,Approval Management; Supplier Portal; Sourcing; Supplier Qualification,Shared,Procurement,126,a,,
+10,ORA_POZ_MANAGE_SUPPLIER_SPEND_AUTHORIZATION_APPROVALS,Manage Supplier Spend Authorization Approvals,Approval Management,Procurement,Procurement,127,a,,
+11,ORA_POZ_MANAGE_INTERNAL_SUPPLIER_PROFILE_CHANGE_APPROVALS,Manage Internal Supplier Profile Change Approvals,Approval Management,Procurement,Procurement,128,a,,
+12,ORA_POZ_MANAGE_SUPPLIER_PROFILE_CHANGE_APPROVALS,Manage Supplier Profile Change Approvals,Approval Management,Procurement,Procurement,129,a,,
+13,ORA_SCH_MANAGE_EXTERNAL_PURCHASE_PRICE_APPROVALS,Manage External Purchase Price Approvals,Approval Management; External Purchase Prices,Shared,Procurement,130,c,,
+14,PO_MANAGE_TASK_CONFIGURATIONS,Manage Task Configurations for Procurement,Approval Management,Procurement,Procurement,131,c,,
+15,ORA_PO_MANAGE_WORK_CONFIRMATION_APPROVALS,Manage Work Confirmation Approvals,Approval Management,Procurement,Procurement,132,c,,
+16,ORA_PO_MANAGE_INTAKE_REQUEST_APPROVALS,Manage Intake Request Approvals,Approval Management,Procurement,Procurement,133,c,,
+17,XLA_MANAGE_SUBLEDGER_APPLICATION,Manage Subledger Application,Procurement Transaction Account Rules,Procurement,Procurement,134,b,,
+18,XLA_UPDATE_SUBLEDGER_APPLICATION_OPTIONS,Update Subledger Application Options,Procurement Transaction Account Rules,Procurement,Procurement,135,c,,
+19,XLA_MANAGE_SOURCES,Manage Sources,Procurement Transaction Account Rules,Procurement,Procurement,136,b,,
+20,ORA_XLA_MANAGE_FORMULA,Manage User-Defined Formulas,Procurement Transaction Account Rules,Procurement,Procurement,137,b,,
+21,XLA_MANAGE_MAPPING_SET,Manage Mapping Sets,Procurement Transaction Account Rules,Procurement,Procurement,138,b,,
+22,XLA_MANAGE_ACCOUNT_RULE,Manage Account Rules,Procurement Transaction Account Rules,Procurement,Procurement,139,b,,XLA_MANAGE_MAPPING_SET; XLA_MANAGE_SOURCES
+23,XLA_MANAGE_TRANSACTION_ACCOUNT_TYPES,Manage Transaction Account Types,Procurement Transaction Account Rules,Procurement,Procurement,140,b,,XLA_MANAGE_SOURCES
+24,XLA_MANAGE_TRANSACTION_ACCOUNT_DEFINITION,Manage Transaction Account Definitions,Procurement Transaction Account Rules,Procurement,Procurement,141,b,,XLA_MANAGE_ACCOUNT_RULE; XLA_MANAGE_TRANSACTION_ACCOUNT_TYPES
+25,XLA_MANAGE_SUBLEDGER_ACCOUNTING_OPTIONS,Manage Subledger Accounting Options,Procurement Transaction Account Rules,Procurement,Procurement,142,b,,
+26,AP_MANAGE_PAYMENT_TERMS,Manage Payment Terms,Procurement Foundation,Procurement,Procurement,178,a,,OKC_MANAGE_CONTRACT_LINE_TYPES
+27,INV_MANAGE_UNITS_OF_MEASURE,Manage Units of Measure,Procurement Foundation,Procurement,Procurement,179,a,,
+28,ORA_RCS_MANAGE_SHIPPING_LOOKUPS,Manage Carriers Lookups,Procurement Foundation,Procurement,Procurement,180,b,,
+29,WSH_MANAGE_CARRIERS,Manage Carriers,Procurement Foundation,Procurement,Procurement,181,a,,
+30,PO_MANAGE_FOB_LOOKUP,Manage FOB Lookup,Procurement Foundation,Procurement,Procurement,182,b,,AP_MANAGE_PAYMENT_TERMS
+31,PO_MANAGE_FREIGHT_TERM_LOOKUP,Manage Freight Terms Lookup,Procurement Foundation,Procurement,Procurement,183,b,,AP_MANAGE_PAYMENT_TERMS
+32,PO_MANAGE_PURCHASING_PROFILE_OPTIONS,Manage Purchasing Profile Options,Procurement Foundation,Procurement,Procurement,184,b,,
+33,ORA_PO_MANAGE_PROCUREMENT_DOCUMENT_NUMBERING,Manage Procurement Document Numbering,Procurement Foundation,Procurement,Procurement,185,a,,
+34,PO_MANAGE_PURCHASING_LINE_TYPES,Manage Purchasing Line Types,Procurement Foundation,Procurement,Procurement,186,a,,
+35,PO_MANAGE_DOCUMENT_STYLES,Manage Document Styles,Procurement Foundation,Procurement,Procurement,187,a,,
+36,PO_CONFIGURE_PROCUREMENT_BUSINESS_FUNCTION,Configure Procurement Business Function,Procurement Foundation,Procurement,Procurement,216,b,,
+37,POR_CONFIGURE_REQUISITIONING_BUSINESS_FUNCTION,Configure Requisitioning Business Function,Procurement Foundation,Procurement,Procurement,217,a,,POR_MANAGE_REQUISITION_DESCRIPTIVE_FLEXFIELDS; PO_MANAGE_PURCHASING_LINE_TYPES
+38,AP_MANAGE_COMMON_OPTIONS_FOR_PAYABLES_AND_PROCUREMENT,Manage Common Options for Payables and Procurement,Procurement Foundation,Procurement,Procurement,218,a,,
+39,POR_MANAGE_REQUISITION_DESCRIPTIVE_FLEXFIELDS,Manage Requisition Descriptive Flexfields,Purchasing Foundation; Self Service Procurement,Shared,Procurement,222,a,,
+40,POR_MANAGE_REQUISITION_VALUE_SETS,Manage Requisition Value Sets,Purchasing Foundation; Self Service Procurement,Shared,Procurement,223,a,,
+41,POR_MANAGE_INFORMATION_TEMPLATE_DESCRIPTIVE_FLEXFIELDS,Manage Information Template Descriptive Flexfields,Self Service Procurement,Procurement,Procurement,231,a,,POR_MANAGE_INFORMATION_TEMPLATE_VALUE_SETS
+42,POR_MANAGE_INFORMATION_TEMPLATE_VALUE_SETS,Manage Information Template Value Sets,Self Service Procurement,Procurement,Procurement,232,a,,
+43,POR_MANAGE_SELF_SERVICE_PROCUREMENT_PROFILE_OPTIONS,Manage Self Service Procurement Profile Options,Self Service Procurement,Procurement,Procurement,233,a,,
+44,POR_MANAGE_CATALOG_CATEGORY_HIERARCHY,Manage Catalog Category Hierarchy,Self Service Procurement,Procurement,Procurement,234,a,,
+45,ORA_POR_MANAGE_SELF_SERVICE_PROCUREMENT_MESSAGES,Manage Self Service Procurement Messages,Self Service Procurement,Procurement,Procurement,235,c,,
+46,EXM_MANAGE_CORPORATE_CARD_ISSUERS,Manage Corporate Card Issuers,Self Service Procurement,Procurement,Procurement,236,b,,
+47,EXM_MANAGE_CORPORATE_CARD_PROGRAMS,Manage Corporate Card Programs,Self Service Procurement,Procurement,Procurement,237,b,,AP_MANAGE_PAYMENT_TERMS; EXM_MANAGE_CORPORATE_CARD_ISSUERS
+48,EXM_MANAGE_CORPORATE_CARDS,Manage Corporate Cards,Self Service Procurement,Procurement,Procurement,238,c,,EXM_MANAGE_CORPORATE_CARD_PROGRAMS
+49,OKC_SPECIFY_PROCUREMENT_CONTRACT_MGMT_BUSINESS_FUNC_PROP,Specify Supplier Contract Management Business Function Properties,Procurement Contracts,Procurement,Procurement,268,b,,
+50,ZBS_MANAGE_TASK_CONFIGURATIONS,Manage Task Configurations for Customer Relationship Management,Procurement Contracts,Procurement,Procurement,269,c,,
+51,CN_MANAGE_TASK_CONFIGURATIONS,Manage Task Configurations for Incentive Compensation,Procurement Contracts,Procurement,Procurement,270,c,,
+52,OKC_MANAGE_CONTRACT_TERMS_VALUE_SETS,Manage Contract Terms Value Sets,Procurement Contracts,Procurement,Procurement,272,b,,
+53,OKC_MANAGE_CLAUSE_AND_TEMPLATE_MANAGEMENT_LOOKUPS,Manage Contract Clause Types,Procurement Contracts,Procurement,Procurement,273,b,,
+54,ORA_OKC_MANAGE_CONTRACT_TERMS_DESCRIPTIVE_FLEXFIELDS,Manage Contract Terms Descriptive Flexfields,Procurement Contracts,Procurement,Procurement,274,b,,
+55,OKC_MANAGE_CLAUSE_AND_TEMPLATE_MANAGEMENT_PROFILES,Specify Contract Clause Import XML File Location,Procurement Contracts,Procurement,Procurement,275,b,,
+56,ORA_PO_COMPLIANCE_CHECKLIST_QUESTIONS,Manage Compliance Checklist Questions,Compliance Checklists,Procurement,Procurement,277,b,,
+57,ORA_PO_COMPLIANCE_CHECKLIST_SECTIONS,Manage Compliance Checklist Sections,Compliance Checklists,Procurement,Procurement,278,b,,ORA_PO_COMPLIANCE_CHECKLIST_QUESTIONS
+58,ORA_PO_COMPLIANCE_CHECKLIST_TEMPLATES,Manage Compliance Checklist Templates,Compliance Checklists,Procurement,Procurement,279,b,,ORA_PO_COMPLIANCE_CHECKLIST_SECTIONS
+59,OKC_MANAGE_CONTRACTS_DELIVERABLE_PROCUREMENT_SYSTEM_LOOKUPS,Manage Contract and Procurement System Integrations,Procurement Contracts,Procurement,Enterprise Contracts,144,b,,
+60,OKC_MANAGE_CONTRACT_LINE_TYPES,Manage Contract Line Types,Procurement Contracts,Procurement,Project Financial Management,183,b,,OKC_SPECIFY_PROCUREMENT_CONTRACT_MGMT_BUSINESS_FUNC_PROP

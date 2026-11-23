@@ -1,0 +1,147 @@
+== ORA_MANUFACTURING_AND_SUPPLY_C Manufacturing and Supply Chain Materials Management ['offeringShortName', 'offeringName', 'enabledFlag', 'obsoleteFlag', 'functionalAreaOrder', 'functionalAreas', 'functionalAreaCount', 'taskCount']
+   ORA_ASK_INITIAL_USER | Initial Users | 6 
+   ORA_ASK_ENTERPRISE_PROFILE | Enterprise Profile | 12 
+   ORA_ASK_LEGAL_STRUCTURES | Legal Structures | 8 
+   ORA_ASK_FIN_REPORTING_STRUCT | Financial Reporting Structures | 12 
+   ORA_ASK_ORGANIZATION_STRUCTURE | Organization Structures | 4 
+   ORA_EGP_CUSTOMER | Customers | 73 
+   ORA_EGP_SUPPLIERS | Suppliers | 73 
+   ORA_RCS_FACILITIES | Facilities | 29 
+   ORA_ASK_USERS_AND_SECURITY | Users and Security | 7 
+   ORA_EGP_FA_ITEMS | Items | 28 
+   ORA_RCS_CARRIERS_TRANSIT_TIMES | Carriers and Transit Times | 7 
+   ORA_EGP_FA_CATALOGS | Catalogs | 3 
+   ORA_WSH_INVENTORY_MGMT | Inventory Management | 63 
+   ORA_ADVANCED_INVENTORY_MANAGEMENT | Advanced Inventory Management | 2 
+   WSH_ENABLE_RECEIVING | Receiving | 6 
+   WSH_ENABLE_SHIPPING | Shipping | 27 
+   CMR_RECEIPT_ACCOUNTING | Receipt Accounting | 44 
+   CST_DEFINE_COST_MANAGEMENT | Cost Accounting | 63 
+   CST_COST_AND_PROFIT_PLANNING | Cost and Profit Planning | 7 
+   ORA_CML_LANDED_COST_MGMT | Landed Cost Management | 7 
+   JMF_INTRASTAT | Intrastat Reporting | 7 
+   ORA_WIS_COMMON_MFG_WORK_SETUP | Manufacturing Master Data | 26 
+   EGO_ADVANCED_PRODUCT_STRUCT | Structures | 5 
+   ORA_VCS_SUPPLY_COLLABORATION | Supply Chain Collaboration | 5 
+   ORA_DOS_SUPPLY_CHAIN_ORCH | Supply Chain Orchestration | 4 
+   ORA_MNT_MGMT | Maintenance Management | 23 
+   ORA_FOS_SUPPLY_CHAIN_FIN_FLOW | Supply Chain Financial Flows | 31 
+   ORA_RCL | Service Logistics | 17 
+   ORA_ENQ_PRODUCT_RECALL_MANAGEMENT | Product Recall Management | 4 
+   ORA_SUS_SUSTAINABILITY | Sustainability | 7 
+   ORA_ASK_APPLICATION_EXTENSIONS | Application Extensions | 38 
+== PO_PROCUREMENT Procurement ['offeringShortName', 'offeringName', 'enabledFlag', 'obsoleteFlag', 'functionalAreaOrder', 'functionalAreas', 'functionalAreaCount', 'taskCount']
+   ORA_ASK_INITIAL_USER | Initial Users | 6 
+   ORA_ASK_ENTERPRISE_PROFILE | Enterprise Profile | 12 
+   ORA_ASK_LEGAL_STRUCTURES | Legal Structures | 13 
+   ORA_ASK_FIN_REPORTING_STRUCT | Financial Reporting Structures | 18 
+   ORA_ASK_ORGANIZATION_STRUCTURE | Organization Structures | 13 
+   ORA_ASK_WORKFORCE_STRUCTURE | Workforce Structures | 4 
+   ORA_ASK_USERS_AND_SECURITY | Users and Security | 10 
+   ORA_PO_PURCHASING_CAT_FA | Purchasing Categories | 3 
+   ORA_EGP_SUPPLIERS | Suppliers | 35 
+   ORA_PO_APPROVAL_MANAGEMENT_FA | Approval Management | 14 
+   ORA_PO_PROC_FOUNDATION_FA | Procurement Foundation | 16 
+   ORA_EGP_FA_ITEMS | Items | 26 
+   ORA_PO_PURCHASING_FOUNDATION | Purchasing Foundation | 11 
+   ORA_PO_PRC_TRX_ACC_RULES_FA | Procurement Transaction Account Rules | 9 
+   PO_SSP_DEPLOYED | Self Service Procurement | 11 
+   ORA_EXTERNAL_PURCHASE_PRICES | External Purchase Prices | 5 
+   WSH_ENABLE_RECEIVING | Receiving | 4 
+   CMR_RECEIPT_ACCOUNTING | Receipt Accounting | 86 
+   FIN_PAYABLES_DEPLOYED | Payables | 50 
+   ORA_FIN_PAYMENTS | Payments | 19 
+   ORA_CE_CASH_MGMT_BANK | Cash Management | 39 
+   FIN_APPLICABILITY_ZX | Transaction Tax | 35 
+   ORA_CJM_SUPPLIER_INCENTIVES | Supplier Incentives | 39 
+   PO_SUP_PORTAL_DEPLOYED | Supplier Portal | 7 
+   PO_SOURCING_DEPLOYED | Sourcing | 20 
+   ORA_PO_QUALIFICATION_DEPLOYED | Supplier Qualification | 19 
+   OKC_PROC_CONTRACTS_ENABLED | Procurement Contracts | 8 
+   ORA_PO_COMPLIANCE_CHECKLISTS_FA | Compliance Checklists | 3 
+   ORA_SUS_SUSTAINABILITY | Sustainability | 7 
+   ORA_ASK_APPLICATION_EXTENSIONS | Application Extensions | 35 
+== PIM_PROD_MNG Product Management ['offeringShortName', 'offeringName', 'enabledFlag', 'obsoleteFlag', 'functionalAreaOrder', 'functionalAreas', 'functionalAreaCount', 'taskCount']
+   ORA_ASK_INITIAL_USER | Initial Users | 6 
+   ORA_ASK_ENTERPRISE_PROFILE | Enterprise Profile | 9 
+   ORA_ASK_USERS_AND_SECURITY | Users and Security | 24 
+   ORA_ASK_APPLICATION_EXTENSIONS | Application Extensions | 31 
+   ORA_EGP_FA_INVENTORY_ORGANIZAT | Inventory Organizations | 24 
+   ORA_EGP_FA_ITEM_ORGANIZATIONS | Item Organizations | 26 
+   ORA_EGP_FA_ITEMS | Items | 35 
+   ORA_EGP_FA_CATALOGS | Catalogs | 3 
+   EGO_ADVANCED_PRODUCT_STRUCT | Structures | 7 
+   ORA_EGP_SUPPLIER_FOR_PIM | Suppliers for Product Management | 14 
+   ORA_EGP_MASS_UPDATE | Item Mass Update | 1 
+   EGI_ADVANCED_CATALOGS | Advanced Catalogs | 1 
+   EGO_NEW_ITEM_REQUESTS | New Item Requests | 5 
+   EGO_CHANGE_ORDERS | Change Orders | 13 
+   EGO_PRODUCT_RULES | Product Rules | 2 
+   ORA_EGI_DATA_QLTY_RULES_PROD | Data Quality Rules for Products | 1 
+   ORA_EGI_AUDIT_TRAIL | Audit Trail | 1 
+   EGI_PRODUCT_SOURCE_SYSTEMS | Product Spoke Systems | 5 
+   ORA_EGI_PRODUCT_BATCH_IMPORT | Item Batches | 6 
+   ORA_EGP_DATA_POOL_INTEGRATION | Data Pool Integration | 3 
+   EGI_PRODUCT_DATA_QUALITY | Data Quality for Products | 1 
+   PO_SUP_PORTAL_DEPLOYED | Supplier Portal | 6 
+   ORA_ACA_PROD_DEV | Product Development | 2 
+   ORA_ACN_PROD_RQMNTS_IDEA | Product Requirements and Ideation Management | 9 
+   ORA_ACD_CONCEPT_DESIGN_MGMT | Concept Design Management | 9 
+   ORA_ACE_PRODUCT_PORTFOLIO | Product Lifecycle Portfolio Management | 9 
+   ORA_ENQ_QUALITY_ISSUE_ACTION | Quality Issue and Action Management | 5 
+   ORA_SUS_SUSTAINABILITY | Sustainability | 7 
+   CUSTOM_INDEX_MANAGEMENT | Index Management | 1 
+== PJF_PROJ_MNG Project Financial Management ['offeringShortName', 'offeringName', 'enabledFlag', 'obsoleteFlag', 'functionalAreaOrder', 'functionalAreas', 'functionalAreaCount', 'taskCount']
+   ORA_ASK_INITIAL_USER | Initial Users | 6 
+   ORA_ASK_ENTERPRISE_PROFILE | Enterprise Profile | 12 
+   ORA_ASK_LEGAL_STRUCTURES | Legal Structures | 7 
+   ORA_ASK_FIN_REPORTING_STRUCT | Financial Reporting Structures | 14 
+   ORA_ASK_ORGANIZATION_STRUCTURE | Organization Structures | 5 
+   ORA_ASK_WORKFORCE_STRUCTURE | Workforce Structures | 5 
+   ORA_PJF_PROJ_ORG | Project Organizations | 9 
+   ORA_ASK_USERS_AND_SECURITY | Users and Security | 8 
+   ORA_PJF_PROJECT_FOUNDATION_FA | Project Foundation | 42 
+   PJF_BURDENING | Burdening | 8 
+   PJF_PJO_DEPLOYED | Project Control | 9 
+   ORA_PJC_PROJ_COSTING_BASE_FA | Project Costing Base | 33 
+   PJC_CAPITAL_PROJECTS | Capital Projects | 10 
+   OKC_PROJECT_CONTRACTS | Project Contracts | 19 
+   ORA_PJB_PROJ_BILLING_BASE_FA | Project Billing Base | 21 
+   PJB_INTERCOMPANY_BILLING | Internal Project Billing | 12 
+   FIN_APPLICABILITY_ZX | Transaction Tax | 8 
+   PJF_PJS_DEPLOYED | Project Performance Reporting | 10 
+   ORA_PJC_PROJECT_ACCOUNTING | Project Accounting | 13 
+   ORA_ASK_APPLICATION_EXTENSIONS | Application Extensions | 41 
+== XLE_FINANCIALS_JUR Financials ['offeringShortName', 'offeringName', 'enabledFlag', 'obsoleteFlag', 'functionalAreaOrder', 'functionalAreas', 'functionalAreaCount', 'taskCount']
+   ORA_ASK_INITIAL_USER | Initial Users | 6 
+   ORA_ASK_ENTERPRISE_PROFILE | Enterprise Profile | 15 
+   ORA_ASK_LEGAL_STRUCTURES | Legal Structures | 18 
+   ORA_ASK_FIN_REPORTING_STRUCT | Financial Reporting Structures | 24 
+   ORA_FIN_GENERAL_LEDGER | General Ledger | 42 
+   ORA_ASK_ORGANIZATION_STRUCTURE | Organization Structures | 18 
+   ORA_CRM_RESOURCES | Resources | 16 
+   ORA_ASK_WORKFORCE_STRUCTURE | Workforce Structures | 4 
+   ORA_ASK_USERS_AND_SECURITY | Users and Security | 9 
+   ORA_FUN_BANKING_CONFIGURATIONS | Banking Configurations | 2 
+   FIN_PAYABLES_DEPLOYED | Payables | 50 
+   ORA_FIN_PAYMENTS | Payments | 19 
+   ORA_CE_CASH_MGMT_BANK | Cash Management | 39 
+   FIN_APPLICABILITY_ZX | Transaction Tax | 34 
+   FIN_EXPENSES_DEPLOYED | Expenses | 40 
+   FIN_FIXED_ASSETS_DEPLOYED | Fixed Assets | 47 
+   FIN_RECEIVABLES_DEPLOYED | Receivables | 51 
+   ORA_FIN_CUST_BILL | Customer Billing | 17 
+   ORA_FIN_REV_REC | Revenue Recognition | 23 
+   ORA_FIN_CUSTOMER_PAYMENTS | Customer Payments | 27 
+   ORA_EGP_CUSTOMER | Customers | 87 
+   ORA_EGP_FA_ITEMS | Items | 26 
+   FIN_COLLECTIONS_DEPLOYED | Collections | 39 
+   ORA_VRM_REVENUE_MANAGEMENT | Revenue Management | 131 
+   FIN_INTERCOMPANY_DEPLOYED | Intercompany | 21 
+   ORA_XCC_PUBLICSECTOR | Budgetary Control and Encumbrance Accounting | 17 
+   ORA_FIN_REPORT_CENTER | Financial Reporting Center | 16 
+   ORA_ASK_APPLICATION_EXTENSIONS | Application Extensions | 34 
+   ORA_FIN_ARB_BILL_MANAGEMENT | Bill Management | 2 
+   ORA_FV_US_FEDERAL_FINANCIALS | U.S. Federal Financials | 18 
+   ORA_FIN_JV_JOINT_VENTURE | Joint Venture Management | 55 
+   ORA_FLA_LEASE_ACCOUNTING | Lease Accounting | 27 

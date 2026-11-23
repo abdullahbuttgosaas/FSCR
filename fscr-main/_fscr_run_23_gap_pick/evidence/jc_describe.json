@@ -1,0 +1,123 @@
+{
+  "Resources" : {
+    "journalCategoriesLOV" : {
+      "discrColumnType" : false,
+      "usage" : "LOV",
+      "ServiceConfiguration" : {
+        "Cache-Control" : "public, max-age=3600"
+      },
+      "attributes" : [ {
+        "name" : "JeCategoryName",
+        "type" : "string",
+        "updatable" : false,
+        "mandatory" : true,
+        "queryable" : true,
+        "allowChanges" : "never",
+        "precision" : 25,
+        "hasDefaultValueExpression" : true
+      }, {
+        "name" : "Description",
+        "type" : "string",
+        "updatable" : false,
+        "mandatory" : false,
+        "queryable" : true,
+        "allowChanges" : "never",
+        "precision" : 240,
+        "title" : "Item Description",
+        "maxLength" : "240",
+        "properties" : {
+          "TOOLTIP" : "Item Description"
+        }
+      }, {
+        "name" : "UserJeCategoryName",
+        "type" : "string",
+        "updatable" : false,
+        "mandatory" : true,
+        "queryable" : true,
+        "allowChanges" : "never",
+        "precision" : 25,
+        "title" : "Category",
+        "maxLength" : "25",
+        "properties" : {
+          "TOOLTIP" : "Category"
+        }
+      }, {
+        "name" : "DisallowMjeFlag",
+        "type" : "boolean",
+        "updatable" : false,
+        "mandatory" : false,
+        "queryable" : true,
+        "allowChanges" : "never",
+        "precision" : 1,
+        "maxLength" : "1"
+      } ],
+      "collection" : {
+        "rangeSize" : 25,
+        "finders" : [ {
+          "name" : "KeywordFinder",
+          "title" : "findByKeyword",
+          "attributes" : [ {
+            "name" : "SearchTerm",
+            "type" : "string",
+            "updatable" : true,
+            "required" : "Optional",
+            "queryable" : false,
+            "allowChanges" : "always"
+          } ]
+        }, {
+          "name" : "PrimaryKey",
+          "attributes" : [ {
+            "name" : "JeCategoryName",
+            "type" : "string",
+            "updatable" : true,
+            "mandatory" : true,
+            "queryable" : true,
+            "allowChanges" : "never",
+            "precision" : 25,
+            "hasDefaultValueExpression" : true
+          } ]
+        } ],
+        "links" : [ {
+          "rel" : "self",
+          "href" : "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/journalCategoriesLOV",
+          "name" : "self",
+          "kind" : "collection"
+        } ],
+        "actions" : [ {
+          "name" : "get",
+          "method" : "GET",
+          "responseType" : [ "application/vnd.oracle.adf.resourcecollection+json", "application/json" ]
+        } ]
+      },
+      "item" : {
+        "links" : [ {
+          "rel" : "self",
+          "href" : "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/journalCategoriesLOV/{id}",
+          "name" : "self",
+          "kind" : "item"
+        }, {
+          "rel" : "canonical",
+          "href" : "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/journalCategoriesLOV/{id}",
+          "name" : "canonical",
+          "kind" : "item"
+        } ],
+        "actions" : [ {
+          "name" : "get",
+          "method" : "GET",
+          "responseType" : [ "application/vnd.oracle.adf.resourceitem+json", "application/json" ]
+        } ]
+      },
+      "links" : [ {
+        "rel" : "self",
+        "href" : "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/journalCategoriesLOV/describe",
+        "name" : "self",
+        "kind" : "describe"
+      }, {
+        "rel" : "canonical",
+        "href" : "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/journalCategoriesLOV/describe",
+        "name" : "canonical",
+        "kind" : "describe"
+      } ]
+    }
+  }
+}

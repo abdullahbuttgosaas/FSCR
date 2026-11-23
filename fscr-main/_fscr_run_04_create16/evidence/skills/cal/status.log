@@ -1,0 +1,11 @@
+| Data Set | Status | Total | Loaded | Failed |
+|---|---|---:|---:|---:|
+| fscrt-cal-candidate.zip | ✅ Succeeded | 2 | 2 | 0 |
+
+FSM Process Logs:
+
+| Data Set | File |
+|---|---|
+| fscrt-cal-candidate.zip | [fscrt-cal-candidate.zip-fsm-100004733447138-1.log](C:\Users\PC\.codex\data-loader-status-logs\requestid-4432126\fscrt-cal-candidate.zip-fsm-100004733447138-1.log) |
+
+--stderr--

@@ -1,0 +1,1 @@
+{"operations":[{"id":"s1","action":"create","entity":"ORA_AR_TXN_BATCH_SOURCE","targetKey":{"SetCode":"ENTERPRISE","Name":"FSCRT_TS1"},"values":{"Description":"FSCRT Run04 manual source","Status":"A","BatchSourceType":"INV","StartDate":"2026-11-03","AutoTrxNumberingFlag":"Y","LastBatchNum":"1"}}]}

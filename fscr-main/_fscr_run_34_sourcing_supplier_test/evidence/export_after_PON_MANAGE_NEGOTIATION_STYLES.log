@@ -1,0 +1,9 @@
+TaskCode: PON_MANAGE_NEGOTIATION_STYLES (Manage Negotiation Styles); CSVExportImportSupportedFlag: Y
+No matching pillar setup-task metadata found; using supplied or Fusion task context for export path.
+Started setup task CSV export process: 100004736427852
+ProcessCompletedFlag: False; StatusCode: (no result yet); ResultCount: 0
+ProcessCompletedFlag: False; StatusCode: (no result yet); ResultCount: 0
+ProcessCompletedFlag: True; StatusCode: (no result yet); ResultCount: 0
+StatusCode: (unknown)
+Retrieved: FileContent
+Wrote E:\GoSaaS\Configuration Automation v2.1\fscr-main\_fscr_run_34_sourcing_supplier_test\export_after\PON_MANAGE_NEGOTIATION_STYLES\ETIA-TEST_setup_task_csv_export_pon_manage_negotiation_styles_100004736427852.zip (4447 bytes)

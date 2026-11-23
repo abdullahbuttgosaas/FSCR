@@ -1,0 +1,26 @@
+Environment: etia-test
+Revision: 11.13.26.10.0
+
+The configuration package Manage Category Descriptive Flexfields_20261117_085240_909 was generated using setup data from environment etia-test with 11.13.26.10.0 revision.
+
+Request ID: 4,466,273. Status: In progress. Submitted By: Configuration.TEST. Process Date: 11/17/26 8:55 AM.
+
+Business object: Application Descriptive Flexfield. Status: Completed with errors. Status details: oracle.apps.setupHub.xml.XmlException: java.lang.NullPointerException: Cannot invoke \"java.lang.Integer.intValue()\" because the return value of \"java.util.HashMap.get(Object)\" is null
+
+The definition for business object Application Descriptive Flexfield is missing an alternate key.
+
+
+Review and report the errors for this object to product Oracle Middleware Extensions for Applications.
+
+Total Objects Processed: 1
+
+Total Objects Succeeded: 0
+
+Total Objects Failed: 1
+
+Total Objects with Warnings: 0
+
+Total Objects for External Loading: 0
+
+Request ID: 4,466,273. Status: Completed with errors. Submitted By: Configuration.TEST. Process Date: 11/17/26 8:55 AM.
+

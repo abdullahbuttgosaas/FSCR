@@ -1,0 +1,8 @@
+== AR_MANAGE_RECEIVABLES_PAYMENT_TERMS baseline start 14:19:15
+Started setup task CSV export process: 100004733467303
+ProcessCompletedFlag: False; StatusCode: (no result yet); ResultCount: 0
+ProcessCompletedFlag: False; StatusCode: (no result yet); ResultCount: 0
+ProcessCompletedFlag: True; StatusCode: (no result yet); ResultCount: 0
+StatusCode: (unknown)
+Wrote E:\GoSaaS\Configuration Automation v2.1\fscr-main\_fscr_run_08_compare\fscr-work8\project\draft_impl_project_20261104\exports$L$t\ETIA-TEST_setup_task_csv_export_ar_manage_receivables_payment_terms_100004733467303.zip (5803 bytes)
+== AR_MANAGE_RECEIVABLES_PAYMENT_TERMS baseline end 14:20:17

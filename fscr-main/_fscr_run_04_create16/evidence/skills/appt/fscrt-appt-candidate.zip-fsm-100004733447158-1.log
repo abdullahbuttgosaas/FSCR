@@ -1,0 +1,26 @@
+Environment: etia-test
+Revision: 11.13.26.10.0
+
+The configuration package Manage Payment Terms_20261103_035324_483 was generated using setup data from environment etia-test with 11.13.26.10.0 revision.
+
+Request ID: 4,432,148. Status: In progress. Submitted By: Configuration.TEST. Process Date: 11/3/26 4:00 AM.
+
+Business object: Payment Term Header. Status: Completed successfully. Status details: 
+	Detail Object: PaymentTermHeader. Status: Completed successfully. Status Details: A total of 1 rows were processed. 0 rows of them failed and 0 rows completed with warnings.. Started: 11/3/26 4:01 AM. Ended: 11/3/26 4:01 AM.
+
+Business object: Payment Term Line. Status: Completed successfully. Status details: This object was already processed. The import or export details were listed under the Payment Term Header business object.
+
+Business object: Payment Term Subscription. Status: Completed successfully. Status details: This object was already processed. The import or export details were listed under the Payment Term Header business object.
+
+Total Objects Processed: 3
+
+Total Objects Succeeded: 3
+
+Total Objects Failed: 0
+
+Total Objects with Warnings: 0
+
+Total Objects for External Loading: 0
+
+Request ID: 4,432,148. Status: Completed successfully. Submitted By: Configuration.TEST. Process Date: 11/3/26 4:01 AM.
+

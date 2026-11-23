@@ -1,0 +1,8 @@
+{
+  "title" : "Bad Request",
+  "status" : "400",
+  "o:errorDetails" : [ {
+    "detail" : "Failed to build ViewCriteria from expression \"PaymentTerms='FSCRT_2P10N30F1'\" using view object InvoiceHeader. Unable to create criteria item from node: \"PaymentTerms\". ",
+    "o:errorCode" : "29140"
+  } ]
+}

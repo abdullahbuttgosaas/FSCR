@@ -1,0 +1,82 @@
+{
+ "counts": {
+  "Calendars": {
+   "GoSaaS MFG": 1,
+   "N24Ledger": 1,
+   "GS Account": 1
+  },
+  "Periods": {
+   "GoSaaS MFG": 52,
+   "N24Ledger": 26,
+   "GS Account": 13
+  },
+  "PeriodStatus": {
+   "GoSaaS MFG": 3380,
+   "N24Ledger": 390,
+   "GS Account": 585
+  },
+  "Ledgers": {
+   "GoSaaS MFG": 13,
+   "N24Ledger": 3,
+   "GS Account": 9
+  },
+  "BusinessUnits": {
+   "GoSaaS MFG": 37,
+   "N24Ledger": 3,
+   "GS Account": 28
+  },
+  "ReceivablesOptions": {
+   "GoSaaS MFG": 2,
+   "N24Ledger": 3,
+   "GS Account": 0
+  },
+  "ReceivablesTxnTypes": {
+   "GoSaaS MFG": 3,
+   "N24Ledger": 0,
+   "GS Account": 0
+  },
+  "OtherModules": {
+   "GoSaaS MFG": 604,
+   "N24Ledger": 369,
+   "GS Account": 532
+  }
+ },
+ "other_status": [
+  [
+   "Payables and Procurement",
+   "Common options for Payables and Procurement",
+   "AP_MANAGE_COMMON_OPTIONS_FOR_PAYABLES_AND_PROCUREMENT",
+   "7 BU rows for these business units"
+  ],
+  [
+   "Payables",
+   "Invoice options",
+   "AP_MANAGE_INVOICE_OPTIONS",
+   "7 BU rows for these business units"
+  ],
+  [
+   "Payables",
+   "Payment options",
+   "AP_MANAGE_PAYMENT_OPTIONS",
+   "7 BU rows for these business units"
+  ],
+  [
+   "Procurement",
+   "Procurement business function options",
+   "PO_CONFIGURE_PROCUREMENT_BUSINESS_FUNCTION",
+   "12 BU rows for these business units"
+  ]
+ ],
+ "sheets": [
+  "README",
+  "Calendars",
+  "Periods",
+  "PeriodStatus",
+  "Ledgers",
+  "BusinessUnits",
+  "ReceivablesOptions",
+  "ReceivablesTxnTypes",
+  "OtherModules",
+  "Changes"
+ ]
+}

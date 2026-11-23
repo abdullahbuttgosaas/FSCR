@@ -1,0 +1,14 @@
+{
+  "$schema": "../../../../../../schemas/implementation-objective.schema.json",
+  "objective": "Create one FSCRT test record per FSCR create skill (15 ERP Financials skills) on ETIA-TEST",
+  "customer": "GoSaaS",
+  "pillars": [
+    "ERP"
+  ],
+  "offerings": [
+    "Financials"
+  ],
+  "countries": [],
+  "industry": "TBD",
+  "implementation_phase": "build"
+}

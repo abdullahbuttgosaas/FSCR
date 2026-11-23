@@ -1,0 +1,517 @@
+[
+ {
+  "code": "AR_MANAGE_RECEIVABLES_PAYMENT_TERMS",
+  "name": "Receivables payment terms",
+  "flags": [
+   "Y",
+   "Y"
+  ],
+  "skill": [
+   "pillars/erp/financials/customer-billing/manage-receivables-payment-terms/SKILL.md"
+  ],
+  "readiness": [
+   "pillars/erp/financials/customer-billing/manage-receivables-payment-terms/ora-resource/ora_dependency_readiness.md"
+  ],
+  "dependents_n": 4,
+  "dependent_modules": [
+   "erp/financials"
+  ],
+  "dependents": [
+   "pillars/erp/financials/customer-billing/manage-transaction-types/ora-resource/ora_dependency_readiness.md",
+   "pillars/erp/financials/payables/manage-invoice-options/ora-resource/ora_dependency_readiness.md",
+   "pillars/erp/financials/payables/manage-payables-calendars/ora-resource/ora_dependency_readiness.md",
+   "pillars/erp/financials/payables/manage-payment-terms/ora-resource/ora_dependency_readiness.md"
+  ]
+ },
+ {
+  "code": "AP_MANAGE_PAYMENT_TERMS",
+  "name": "Payables payment terms",
+  "flags": [
+   "Y",
+   "Y"
+  ],
+  "skill": [
+   "pillars/erp/financials/payables/manage-payment-terms/SKILL.md"
+  ],
+  "readiness": [
+   "pillars/erp/financials/payables/manage-payment-terms/ora-resource/ora_dependency_readiness.md"
+  ],
+  "dependents_n": 4,
+  "dependent_modules": [
+   "erp/financials"
+  ],
+  "dependents": [
+   "pillars/erp/financials/customer-billing/manage-receivables-payment-terms/ora-resource/ora_dependency_readiness.md",
+   "pillars/erp/financials/customer-billing/manage-transaction-types/ora-resource/ora_dependency_readiness.md",
+   "pillars/erp/financials/payables/manage-invoice-options/ora-resource/ora_dependency_readiness.md",
+   "pillars/erp/financials/payables/manage-payables-calendars/ora-resource/ora_dependency_readiness.md"
+  ]
+ },
+ {
+  "code": "FUN_MANAGE_BUSINESS_UNIT",
+  "name": "Business units",
+  "flags": [
+   "Y",
+   "Y"
+  ],
+  "skill": [
+   "pillars/erp/financials/organization-structures/manage-business-unit-set-assignment.md",
+   "pillars/erp/financials/organization-structures/manage-business-unit.md"
+  ],
+  "readiness": [
+   "pillars/erp/financials/organization-structures/ora-resource/ora_dependency_readiness.md"
+  ],
+  "dependents_n": 35,
+  "dependent_modules": [
+   "cx/customer-data-management",
+   "cx/sales",
+   "cx/service",
+   "erp/financials",
+   "erp/project-financial-management",
+   "hcm/global-human-resources",
+   "hcm/global-payroll",
+   "hcm/hcm-security",
+   "scm/manufacturing-and-supply-chain-materials-management",
+   "scm/order-management"
+  ],
+  "dependents": [
+   "pillars/cx/customer-data-management/resources/manage-resources/ora-resource/ora_dependency_readiness.md",
+   "pillars/cx/sales/leads/manage-sales-lead-qualification-template/ora-resource/ora_dependency_readiness.md",
+   "pillars/cx/sales/opportunities/manage-deal-horizons/ora-resource/ora_dependency_readiness.md",
+   "pillars/cx/sales/opportunities/manage-decision-levels/ora-resource/ora_dependency_readiness.md",
+   "pillars/cx/sales/opportunities/manage-levels-of-risk/ora-resource/ora_dependency_readiness.md",
+   "pillars/cx/sales/opportunities/manage-opportunity-revenue-types/ora-resource/ora_dependency_readiness.md",
+   "pillars/cx/sales/opportunities/manage-sales-task-templates/ora-resource/ora_dependency_readiness.md",
+   "pillars/cx/sales/opportunities/manage-strategic-values/ora-resource/ora_dependency_readiness.md",
+   "pillars/cx/sales/opportunities/manage-win-loss-reasons/ora-resource/ora_dependency_readiness.md",
+   "pillars/cx/service/service-entitlements/ora-resource/ora_dependency_readiness.md",
+   "pillars/erp/financials/customer-billing/manage-autoaccounting-rules/ora-resource/ora_dependency_readiness.md",
+   "pillars/erp/financials/customer-billing/manage-transaction-types/ora-resource/ora_dependency_readiness.md",
+   "pillars/erp/financials/customer-payments/manage-receipt-classes-and-methods/ora-resource/ora_dependency_readiness.md",
+   "pillars/erp/financials/customer-payments/manage-receipt-sources/ora-resource/ora_dependency_readiness.md",
+   "pillars/erp/financials/expenses/manage-auto-submission-and-matching-options/ora-resource/ora_dependency_readiness.md",
+   "pillars/erp/financials/expenses/manage-conversion-rates-and-policies/ora-resource/ora_dependency_readiness.md",
+   "pillars/erp/financials/expenses/manage-expense-fields-by-category/ora-resource/ora_dependency_readiness.md",
+   "pillars/erp/financials/expenses/manage-tax-fields/ora-resource/ora_dependency_readiness.md",
+   "pillars/erp/financials/payables/manage-invoice-options/ora-resource/ora_dependency_readiness.md",
+   "pillars/erp/financials/payables/manage-payment-options/ora-resource/ora_dependency_readiness.md",
+   "pillars/erp/financials/receivables/manage-receivables-system-options/ora-resource/ora_dependency_readiness.md",
+   "pillars/erp/project-financial-management/project-control/manage-project-plan-types/ora-resource/ora_dependency_readiness.md",
+   "pillars/erp/project-financial-management/project-organizations/configure-project-accounting-business-function/ora-resource/ora_dependency_readiness.md",
+   "pillars/erp/project-financial-management/project-organizations/manage-organization-hierarchies-and-classifications/ora-resource/ora_dependency_readiness.md",
+   "pillars/erp/project-financial-management/project-organizations/manage-project-unit-options/ora-resource/ora_dependency_readiness.md",
+   "pillars/hcm/global-human-resources/legal-and-legislative-organizations/manage-legal-reporting-unit-hcm-information/ora-resource/ora_dependency_readiness.md",
+   "pillars/hcm/global-human-resources/positions/manage-hcm-position-hierarchy/ora-resource/ora_dependency_readiness.md",
+   "pillars/hcm/global-human-resources/positions/manage-positions/ora-resource/ora_dependency_readiness.md",
+   "pillars/hcm/global-payroll/payroll-cost-accounting/costing-of-positions/ora-resource/ora_dependency_readiness.md",
+   "pillars/hcm/hcm-security/hcm-security-profile/manage-position-security-profile/ora-resource/ora_dependency_readiness.md",
+   "pillars/scm/manufacturing-and-supply-chain-materials-management/cost-accounting/cost-organization-relationships/ora-resource/ora_dependency_readiness.md",
+   "pillars/scm/manufacturing-and-supply-chain-materials-management/inventory-management/inventory-business-event-configurations/ora-resource/ora_dependency_readiness.md",
+   "pillars/scm/manufacturing-and-supply-chain-materials-management/product-recall-management/manage-product-recall-parameters/ora-resource/ora_dependency_readiness.md",
+   "pillars/scm/manufacturing-and-supply-chain-materials-management/supply-chain-financial-flows/manage-drop-ship-financial-flows/ora-resource/ora_dependency_readiness.md",
+   "pillars/scm/order-management/channel-revenue-management/manage-channel-claim-types/ora-resource/ora_dependency_readiness.md"
+  ]
+ },
+ {
+  "code": "FND_MANAGE_REFERENCE_DATA_SETS",
+  "name": "Reference data sets",
+  "flags": [
+   "Y",
+   "Y"
+  ],
+  "skill": [
+   "pillars/hcm/goal-management/goal-management-common/manage-reference-data-sets/SKILL.md",
+   "pillars/hcm/performance-management/performance-management-common/manage-reference-data-sets/SKILL.md"
+  ],
+  "readiness": [],
+  "dependents_n": 66,
+  "dependent_modules": [
+   "cx/sales",
+   "erp/financials",
+   "erp/project-financial-management",
+   "hcm/benefits-configuration",
+   "hcm/compensation",
+   "hcm/global-human-resources",
+   "hcm/global-payroll",
+   "hcm/hcm-security",
+   "hcm/hcm-tool",
+   "hcm/learning-management",
+   "hcm/recruiting",
+   "scm/manufacturing-and-supply-chain-materials-management",
+   "scm/order-management",
+   "scm/product-management"
+  ],
+  "dependents": [
+   "pillars/cx/sales/opportunities/manage-deal-horizons/ora-resource/ora_dependency_readiness.md",
+   "pillars/cx/sales/opportunities/manage-decision-levels/ora-resource/ora_dependency_readiness.md",
+   "pillars/cx/sales/opportunities/manage-levels-of-risk/ora-resource/ora_dependency_readiness.md",
+   "pillars/cx/sales/opportunities/manage-opportunity-revenue-types/ora-resource/ora_dependency_readiness.md",
+   "pillars/cx/sales/opportunities/manage-sales-methods-and-sales-stages/ora-resource/ora_dependency_readiness.md",
+   "pillars/cx/sales/opportunities/manage-sales-task-templates/ora-resource/ora_dependency_readiness.md",
+   "pillars/cx/sales/opportunities/manage-set-enabled-lookups/ora-resource/ora_dependency_readiness.md",
+   "pillars/cx/sales/opportunities/manage-strategic-values/ora-resource/ora_dependency_readiness.md",
+   "pillars/cx/sales/opportunities/manage-win-loss-reasons/ora-resource/ora_dependency_readiness.md",
+   "pillars/erp/financials/customer-billing/manage-receivables-payment-terms/ora-resource/ora_dependency_readiness.md",
+   "pillars/erp/financials/customer-billing/manage-remit-to-addresses/ora-resource/ora_dependency_readiness.md",
+   "pillars/erp/financials/customer-billing/manage-transaction-sources/ora-resource/ora_dependency_readiness.md",
+   "pillars/erp/financials/customer-billing/manage-transaction-types/ora-resource/ora_dependency_readiness.md",
+   "pillars/erp/financials/financial-reporting-structures/manage-chart-of-accounts-mappings/ora-resource/ora_dependency_readiness.md",
+   "pillars/erp/financials/financial-reporting-structures/manage-chart-of-accounts-structure-instances/ora-resource/ora_dependency_readiness.md",
+   "pillars/erp/financials/financial-reporting-structures/manage-chart-of-accounts-structures/ora-resource/ora_dependency_readiness.md",
+   "pillars/erp/financials/financial-reporting-structures/manage-chart-of-accounts-value-set-values/ora-resource/ora_dependency_readiness.md",
+   "pillars/erp/financials/financial-reporting-structures/manage-chart-of-accounts-value-sets/ora-resource/ora_dependency_readiness.md",
+   "pillars/erp/financials/fixed-assets/manage-asset-books/ora-resource/ora_dependency_readiness.md",
+   "pillars/erp/financials/fixed-assets/manage-asset-categories/ora-resource/ora_dependency_readiness.md",
+   "pillars/erp/financials/fixed-assets/manage-asset-keys/ora-resource/ora_dependency_readiness.md",
+   "pillars/erp/financials/fixed-assets/manage-asset-locations/ora-resource/ora_dependency_readiness.md",
+   "pillars/erp/financials/fixed-assets/manage-fixed-assets-flexfield-value-sets/ora-resource/ora_dependency_readiness.md",
+   "pillars/erp/financials/fixed-assets/manage-prorate-conventions/ora-resource/ora_dependency_readiness.md",
+   "pillars/erp/financials/general-ledger/assign-balancing-segment-values-to-ledger/ora-resource/ora_dependency_readiness.md",
+   "pillars/erp/financials/general-ledger/assign-balancing-segment-values-to-legal-entities/ora-resource/ora_dependency_readiness.md",
+   "pillars/erp/financials/general-ledger/complete-primary-to-secondary-ledger-mapping/ora-resource/ora_dependency_readiness.md",
+   "pillars/erp/financials/general-ledger/manage-primary-ledgers/ora-resource/ora_dependency_readiness.md",
+   "pillars/erp/financials/organization-structures/ora-resource/ora_dependency_readiness.md",
+   "pillars/erp/financials/payables/manage-common-options-for-payables-and-procurement/ora-resource/ora_dependency_readiness.md",
+   "pillars/erp/financials/payables/manage-payment-terms/ora-resource/ora_dependency_readiness.md",
+   "pillars/erp/financials/receivables/manage-receivables-system-options/ora-resource/ora_dependency_readiness.md",
+   "pillars/erp/project-financial-management/project-foundation/manage-planning-and-billing-resource-breakdown-structures/ora-resource/ora_dependency_readiness.md",
+   "pillars/erp/project-financial-management/project-foundation/manage-project-types/ora-resource/ora_dependency_readiness.md",
+   "pillars/erp/project-financial-management/project-foundation/manage-work-types/ora-resource/ora_dependency_readiness.md",
+   "pillars/erp/project-financial-management/project-organizations/manage-project-unit-options/ora-resource/ora_dependency_readiness.md",
+   "pillars/hcm/benefits-configuration/benefits-general-configuration/manage-beneficiary-organizations/ora-resource/ora_dependency_readiness.md",
+   "pillars/hcm/benefits-configuration/benefits-general-configuration/manage-regulatory-bodies/ora-resource/ora_dependency_readiness.md",
+   "pillars/hcm/compensation/grade-step-progression/progression-grade-ladders/ora-resource/ora_dependency_readiness.md",
+   "pillars/hcm/global-human-resources/departments/manage-departments/ora-resource/ora_dependency_readiness.md",
+   "pillars/hcm/global-human-resources/grades/manage-grade-rates/ora-resource/ora_dependency_readiness.md",
+   "pillars/hcm/global-human-resources/grades/manage-grades/ora-resource/ora_dependency_readiness.md",
+   "pillars/hcm/global-human-resources/locations/manage-locations/ora-resource/ora_dependency_readiness.md",
+   "pillars/hcm/global-human-resources/positions/manage-positions/ora-resource/ora_dependency_readiness.md",
+   "pillars/hcm/global-payroll/calculation-cards-and-calculation-values/calculation-value-definitions/ora-resource/ora_dependency_readiness.md",
+   "pillars/hcm/global-payroll/payroll-cost-accounting/cost-allocation-key-flexfield/ora-resource/ora_dependency_readiness.md",
+   "pillars/hcm/global-payroll/payroll-cost-accounting/costing-of-jobs/ora-resource/ora_dependency_readiness.md",
+   "pillars/hcm/global-payroll/payroll-cost-accounting/costing-of-locations/ora-resource/ora_dependency_readiness.md",
+   "pillars/hcm/global-payroll/payroll-cost-accounting/payroll-costing-value-sets/ora-resource/ora_dependency_readiness.md",
+   "pillars/hcm/global-payroll/payroll-definition-and-calendar/consolidation-groups/ora-resource/ora_dependency_readiness.md",
+   "pillars/hcm/global-payroll/payroll-definition-and-calendar/payroll-definitions/ora-resource/ora_dependency_readiness.md",
+   "pillars/hcm/global-payroll/payroll-process-rule-and-flow/payroll-flow-patterns/ora-resource/ora_dependency_readiness.md",
+   "pillars/hcm/global-payroll/payroll-rates-and-values/values-defined-by-criteria/ora-resource/ora_dependency_readiness.md",
+   "pillars/hcm/hcm-security/hcm-security-profile/manage-hcm-exclusion-rules/ora-resource/ora_dependency_readiness.md",
+   "pillars/hcm/hcm-tool/profile-management-content-library-configuration/item-catalogs/ora-resource/ora_dependency_readiness.md",
+   "pillars/hcm/learning-management/learning-resources/manage-classrooms/ora-resource/ora_dependency_readiness.md",
+   "pillars/hcm/recruiting/recruiting-configuration/referral-descriptive-flexfields/ora-resource/ora_dependency_readiness.md",
+   "pillars/scm/manufacturing-and-supply-chain-materials-management/cost-accounting/cost-organization-relationships/ora-resource/ora_dependency_readiness.md",
+   "pillars/scm/manufacturing-and-supply-chain-materials-management/cost-accounting/overhead-expense-pools/ora-resource/ora_dependency_readiness.md",
+   "pillars/scm/manufacturing-and-supply-chain-materials-management/landed-cost-management/landed-cost-reference-types/ora-resource/ora_dependency_readiness.md",
+   "pillars/scm/order-management/channel-revenue-management/manage-channel-claim-reasons/ora-resource/ora_dependency_readiness.md",
+   "pillars/scm/order-management/channel-revenue-management/manage-channel-claim-sources/ora-resource/ora_dependency_readiness.md",
+   "pillars/scm/order-management/channel-revenue-management/manage-channel-claim-types/ora-resource/ora_dependency_readiness.md",
+   "pillars/scm/order-management/channel-revenue-management/ora-resource/ora_dependency_readiness.md",
+   "pillars/scm/order-management/orders/manage-hold-codes/ora-resource/ora_dependency_readiness.md",
+   "pillars/scm/product-management/items/manage-product-and-child-value-sets/ora-resource/ora_dependency_readiness.md"
+  ]
+ },
+ {
+  "code": "XLE_MANAGE_LEGAL_ENTITY",
+  "name": "Legal entities",
+  "flags": [
+   "Y",
+   "Y"
+  ],
+  "skill": [
+   "pillars/erp/financials/legal-structures/manage-legal-entity/SKILL.md",
+   "pillars/erp/financials/legal-structures/manage-legal-entity-registrations/skill.md"
+  ],
+  "readiness": [
+   "pillars/erp/financials/legal-structures/manage-legal-entity/ora-resource/ora_dependency_readiness.md",
+   "pillars/erp/financials/legal-structures/manage-legal-entity-registrations/ora-resource/ora_dependency_readiness.md"
+  ],
+  "dependents_n": 18,
+  "dependent_modules": [
+   "cx/customer-data-management",
+   "erp/financials",
+   "erp/project-financial-management",
+   "hcm/global-human-resources",
+   "hcm/global-payroll",
+   "scm/manufacturing-and-supply-chain-materials-management"
+  ],
+  "dependents": [
+   "pillars/cx/customer-data-management/resources/manage-resources/ora-resource/ora_dependency_readiness.md",
+   "pillars/erp/financials/customer-billing/manage-transaction-sources/ora-resource/ora_dependency_readiness.md",
+   "pillars/erp/financials/customer-billing/manage-transaction-types/ora-resource/ora_dependency_readiness.md",
+   "pillars/erp/financials/general-ledger/assign-balancing-segment-values-to-ledger/ora-resource/ora_dependency_readiness.md",
+   "pillars/erp/financials/general-ledger/assign-balancing-segment-values-to-legal-entities/ora-resource/ora_dependency_readiness.md",
+   "pillars/erp/financials/general-ledger/assign-legal-entities/ora-resource/ora_dependency_readiness.md",
+   "pillars/erp/financials/general-ledger/specify-ledger-options-secondary-ledger/ora-resource/ora_dependency_readiness.md",
+   "pillars/erp/financials/legal-structures/manage-legal-reporting-unit/ora-resource/ora_dependency_readiness.md",
+   "pillars/erp/financials/organization-structures/ora-resource/ora_dependency_readiness.md",
+   "pillars/erp/financials/payables/manage-bank-charges/ora-resource/ora_dependency_readiness.md",
+   "pillars/erp/project-financial-management/project-organizations/configure-project-accounting-business-function/ora-resource/ora_dependency_readiness.md",
+   "pillars/hcm/global-human-resources/legal-and-legislative-organizations/manage-legal-entity-hcm-information/ora-resource/ora_dependency_readiness.md",
+   "pillars/hcm/global-human-resources/legal-and-legislative-organizations/manage-legal-reporting-unit-hcm-information/ora-resource/ora_dependency_readiness.md",
+   "pillars/hcm/global-payroll/payroll-organization-cards/legal-entity-calculation-cards/ora-resource/ora_dependency_readiness.md",
+   "pillars/hcm/global-payroll/payroll-payments-and-payslip/organization-payment-methods/ora-resource/ora_dependency_readiness.md",
+   "pillars/scm/manufacturing-and-supply-chain-materials-management/cost-accounting/cost-organization-relationships/ora-resource/ora_dependency_readiness.md",
+   "pillars/scm/manufacturing-and-supply-chain-materials-management/cost-accounting/cost-organizations/ora-resource/ora_dependency_readiness.md",
+   "pillars/scm/manufacturing-and-supply-chain-materials-management/supply-chain-financial-flows/profit-center-party-relationships/ora-resource/ora_dependency_readiness.md"
+  ]
+ },
+ {
+  "code": "GL_MANAGE_PRIMARY_LEDGERS",
+  "name": "Primary ledgers",
+  "flags": [
+   "Y",
+   "Y"
+  ],
+  "skill": [
+   "pillars/erp/financials/general-ledger/manage-primary-ledgers/SKILL.md"
+  ],
+  "readiness": [
+   "pillars/erp/financials/general-ledger/manage-primary-ledgers/ora-resource/ora_dependency_readiness.md"
+  ],
+  "dependents_n": 28,
+  "dependent_modules": [
+   "erp/financials",
+   "erp/project-financial-management",
+   "hcm/hcm-tool",
+   "scm/manufacturing-and-supply-chain-materials-management"
+  ],
+  "dependents": [
+   "pillars/erp/financials/customer-billing/manage-autoaccounting-rules/ora-resource/ora_dependency_readiness.md",
+   "pillars/erp/financials/customer-billing/manage-transaction-types/ora-resource/ora_dependency_readiness.md",
+   "pillars/erp/financials/expenses/manage-conversion-rates-and-policies/ora-resource/ora_dependency_readiness.md",
+   "pillars/erp/financials/financial-reporting-structures/manage-accounting-calendars/ora-resource/ora_dependency_readiness.md",
+   "pillars/erp/financials/fixed-assets/manage-asset-books/ora-resource/ora_dependency_readiness.md",
+   "pillars/erp/financials/fixed-assets/manage-asset-calendars/ora-resource/ora_dependency_readiness.md",
+   "pillars/erp/financials/fixed-assets/manage-asset-categories/ora-resource/ora_dependency_readiness.md",
+   "pillars/erp/financials/fixed-assets/manage-fiscal-years/ora-resource/ora_dependency_readiness.md",
+   "pillars/erp/financials/general-ledger/assign-balancing-segment-values-to-ledger/ora-resource/ora_dependency_readiness.md",
+   "pillars/erp/financials/general-ledger/assign-balancing-segment-values-to-legal-entities/ora-resource/ora_dependency_readiness.md",
+   "pillars/erp/financials/general-ledger/assign-legal-entities/ora-resource/ora_dependency_readiness.md",
+   "pillars/erp/financials/general-ledger/complete-primary-to-secondary-ledger-mapping/ora-resource/ora_dependency_readiness.md",
+   "pillars/erp/financials/general-ledger/manage-ledger-sets/ora-resource/ora_dependency_readiness.md",
+   "pillars/erp/financials/general-ledger/manage-reporting-currencies/ora-resource/ora_dependency_readiness.md",
+   "pillars/erp/financials/general-ledger/manage-secondary-ledgers/ora-resource/ora_dependency_readiness.md",
+   "pillars/erp/financials/general-ledger/review-and-submit-accounting-configuration/ora-resource/ora_dependency_readiness.md",
+   "pillars/erp/financials/general-ledger/specify-ledger-options-primary-ledger/ora-resource/ora_dependency_readiness.md",
+   "pillars/erp/financials/general-ledger/specify-ledger-options-secondary-ledger/ora-resource/ora_dependency_readiness.md",
+   "pillars/erp/financials/organization-structures/ora-resource/ora_dependency_readiness.md",
+   "pillars/erp/financials/payables/manage-common-options-for-payables-and-procurement/ora-resource/ora_dependency_readiness.md",
+   "pillars/erp/financials/payables/manage-invoice-options/ora-resource/ora_dependency_readiness.md",
+   "pillars/erp/financials/receivables/manage-receivables-system-options/ora-resource/ora_dependency_readiness.md",
+   "pillars/erp/project-financial-management/project-organizations/configure-project-accounting-business-function/ora-resource/ora_dependency_readiness.md",
+   "pillars/erp/project-financial-management/project-organizations/manage-project-organization-classifications/ora-resource/ora_dependency_readiness.md",
+   "pillars/hcm/hcm-tool/profile-types-and-content-section-configuration/ora-resource/ora_dependency_readiness.md",
+   "pillars/scm/manufacturing-and-supply-chain-materials-management/cost-accounting/cost-organization-relationships/ora-resource/ora_dependency_readiness.md",
+   "pillars/scm/manufacturing-and-supply-chain-materials-management/product-recall-management/manage-product-recall-parameters/ora-resource/ora_dependency_readiness.md",
+   "pillars/scm/manufacturing-and-supply-chain-materials-management/supply-chain-financial-flows/profit-center-party-relationships/ora-resource/ora_dependency_readiness.md"
+  ]
+ },
+ {
+  "code": "GL_MANAGE_ACCOUNTING_CALENDARS",
+  "name": "Accounting calendars",
+  "flags": [
+   "Y",
+   "Y"
+  ],
+  "skill": [
+   "pillars/erp/financials/financial-reporting-structures/manage-accounting-calendars/SKILL.md"
+  ],
+  "readiness": [
+   "pillars/erp/financials/financial-reporting-structures/manage-accounting-calendars/ora-resource/ora_dependency_readiness.md"
+  ],
+  "dependents_n": 4,
+  "dependent_modules": [
+   "erp/financials",
+   "erp/project-financial-management",
+   "scm/manufacturing-and-supply-chain-materials-management"
+  ],
+  "dependents": [
+   "pillars/erp/financials/general-ledger/manage-primary-ledgers/ora-resource/ora_dependency_readiness.md",
+   "pillars/erp/financials/general-ledger/manage-secondary-ledgers/ora-resource/ora_dependency_readiness.md",
+   "pillars/erp/project-financial-management/project-organizations/configure-project-accounting-business-function/ora-resource/ora_dependency_readiness.md",
+   "pillars/scm/manufacturing-and-supply-chain-materials-management/cost-accounting/cost-organization-relationships/ora-resource/ora_dependency_readiness.md"
+  ]
+ },
+ {
+  "code": "INV_MANAGE_UNITS_OF_MEASURE",
+  "name": "Units of measure",
+  "flags": [
+   "Y",
+   "Y"
+  ],
+  "skill": [
+   "pillars/scm/product-management/items/manage-units-of-measure/SKILL.md"
+  ],
+  "readiness": [],
+  "dependents_n": 11,
+  "dependent_modules": [
+   "cx/subscriptions",
+   "hcm/global-payroll",
+   "hcm/workforce-absence-management",
+   "scm/manufacturing-and-supply-chain-materials-management"
+  ],
+  "dependents": [
+   "pillars/cx/subscriptions/integration-setup/manage-algorithms-for-order-management-to-subscriptions/ora-resource/ora_dependency_readiness.md",
+   "pillars/cx/subscriptions/integration-setup/manage-service-mappings-for-order-management-to-subscriptions/ora-resource/ora_dependency_readiness.md",
+   "pillars/hcm/global-payroll/calculation-cards-and-calculation-values/calculation-value-definitions/ora-resource/ora_dependency_readiness.md",
+   "pillars/hcm/global-payroll/payroll-balances/balance-definitions/ora-resource/ora_dependency_readiness.md",
+   "pillars/hcm/global-payroll/payroll-rates-and-values/values-defined-by-criteria/ora-resource/ora_dependency_readiness.md",
+   "pillars/hcm/workforce-absence-management/absence/absence-plans/ora-resource/ora_dependency_readiness.md",
+   "pillars/hcm/workforce-absence-management/absence/absence-types/ora-resource/ora_dependency_readiness.md",
+   "pillars/scm/manufacturing-and-supply-chain-materials-management/inventory-management/picking-rule-assignments/ora-resource/ora_dependency_readiness.md",
+   "pillars/scm/manufacturing-and-supply-chain-materials-management/inventory-management/units-of-measure-usages/ora-resource/ora_dependency_readiness.md",
+   "pillars/scm/manufacturing-and-supply-chain-materials-management/landed-cost-management/landed-cost-charges/ora-resource/ora_dependency_readiness.md",
+   "pillars/scm/manufacturing-and-supply-chain-materials-management/manufacturing-master-data/manufacturing-resources/ora-resource/ora_dependency_readiness.md"
+  ]
+ },
+ {
+  "code": "FND_MANAGE_CURRENCIES",
+  "name": "Currencies",
+  "flags": [
+   "Y",
+   "Y"
+  ],
+  "skill": [
+   "pillars/hcm/goal-management/goal-management-common/manage-currencies/SKILL.md"
+  ],
+  "readiness": [],
+  "dependents_n": 40,
+  "dependent_modules": [
+   "cx/customer-data-management",
+   "cx/sales",
+   "erp/financials",
+   "erp/project-financial-management",
+   "hcm/benefits-configuration",
+   "hcm/compensation",
+   "hcm/global-human-resources",
+   "hcm/global-payroll",
+   "hcm/goal-management",
+   "hcm/learning-management",
+   "scm/manufacturing-and-supply-chain-materials-management",
+   "scm/order-management"
+  ],
+  "dependents": [
+   "pillars/cx/customer-data-management/customer-hub/run-request-dispatch-job/ora-resource/ora_dependency_readiness.md",
+   "pillars/cx/sales/sales-foundation/configure-adaptive-search/ora-resource/ora_dependency_readiness.md",
+   "pillars/erp/financials/customer-payments/manage-receipt-classes-and-methods/ora-resource/ora_dependency_readiness.md",
+   "pillars/erp/financials/expenses/manage-conversion-rates-and-policies/ora-resource/ora_dependency_readiness.md",
+   "pillars/erp/financials/fixed-assets/manage-asset-categories/ora-resource/ora_dependency_readiness.md",
+   "pillars/erp/financials/general-ledger/assign-legal-entities/ora-resource/ora_dependency_readiness.md",
+   "pillars/erp/financials/general-ledger/complete-primary-to-secondary-ledger-mapping/ora-resource/ora_dependency_readiness.md",
+   "pillars/erp/financials/general-ledger/manage-ledger-sets/ora-resource/ora_dependency_readiness.md",
+   "pillars/erp/financials/general-ledger/manage-primary-ledgers/ora-resource/ora_dependency_readiness.md",
+   "pillars/erp/financials/general-ledger/manage-reporting-currencies/ora-resource/ora_dependency_readiness.md",
+   "pillars/erp/financials/general-ledger/manage-secondary-ledgers/ora-resource/ora_dependency_readiness.md",
+   "pillars/erp/financials/general-ledger/specify-ledger-options-secondary-ledger/ora-resource/ora_dependency_readiness.md",
+   "pillars/erp/financials/organization-structures/ora-resource/ora_dependency_readiness.md",
+   "pillars/erp/financials/payables/manage-bank-charges/ora-resource/ora_dependency_readiness.md",
+   "pillars/erp/financials/payables/manage-invoice-options/ora-resource/ora_dependency_readiness.md",
+   "pillars/erp/financials/receivables/manage-receivables-system-options/ora-resource/ora_dependency_readiness.md",
+   "pillars/erp/project-financial-management/project-control/manage-project-plan-types/ora-resource/ora_dependency_readiness.md",
+   "pillars/erp/project-financial-management/project-organizations/configure-project-accounting-business-function/ora-resource/ora_dependency_readiness.md",
+   "pillars/hcm/benefits-configuration/benefits-general-configuration/benefit-balances/ora-resource/ora_dependency_readiness.md",
+   "pillars/hcm/compensation/salary-and-base-pay/salary-basis/ora-resource/ora_dependency_readiness.md",
+   "pillars/hcm/compensation/total-rewards-statement/configure-global-settings/ora-resource/ora_dependency_readiness.md",
+   "pillars/hcm/global-human-resources/grades/manage-grade-ladders/ora-resource/ora_dependency_readiness.md",
+   "pillars/hcm/global-human-resources/grades/manage-grade-rates/ora-resource/ora_dependency_readiness.md",
+   "pillars/hcm/global-human-resources/legal-and-legislative-organizations/manage-legislative-data-groups/ora-resource/ora_dependency_readiness.md",
+   "pillars/hcm/global-payroll/calculation-cards-and-calculation-values/calculation-value-definitions/ora-resource/ora_dependency_readiness.md",
+   "pillars/hcm/global-payroll/legislation-and-country-extension/configure-legislations-for-human-resources/ora-resource/ora_dependency_readiness.md",
+   "pillars/hcm/global-payroll/legislation-and-country-extension/configure-payroll-legislations/ora-resource/ora_dependency_readiness.md",
+   "pillars/hcm/global-payroll/payroll-balances/balance-definitions/ora-resource/ora_dependency_readiness.md",
+   "pillars/hcm/global-payroll/payroll-cost-accounting/costing-of-positions/ora-resource/ora_dependency_readiness.md",
+   "pillars/hcm/global-payroll/payroll-organization-cards/legal-entity-calculation-cards/ora-resource/ora_dependency_readiness.md",
+   "pillars/hcm/global-payroll/payroll-organization-cards/legal-reporting-unit-calculation-cards/ora-resource/ora_dependency_readiness.md",
+   "pillars/hcm/global-payroll/payroll-rates-and-values/rate-definitions/ora-resource/ora_dependency_readiness.md",
+   "pillars/hcm/global-payroll/payroll-rates-and-values/values-defined-by-criteria/ora-resource/ora_dependency_readiness.md",
+   "pillars/hcm/goal-management/review-period/review-periods/ora-resource/ora_dependency_readiness.md",
+   "pillars/hcm/learning-management/learning-catalog/categories/ora-resource/ora_dependency_readiness.md",
+   "pillars/scm/manufacturing-and-supply-chain-materials-management/cost-accounting/cost-organization-relationships/ora-resource/ora_dependency_readiness.md",
+   "pillars/scm/manufacturing-and-supply-chain-materials-management/landed-cost-management/landed-cost-charges/ora-resource/ora_dependency_readiness.md",
+   "pillars/scm/manufacturing-and-supply-chain-materials-management/product-recall-management/manage-product-recall-parameters/ora-resource/ora_dependency_readiness.md",
+   "pillars/scm/manufacturing-and-supply-chain-materials-management/supply-chain-financial-flows/documentation-and-accounting-rules/ora-resource/ora_dependency_readiness.md",
+   "pillars/scm/order-management/pricing/ora-resource/ora_dependency_readiness.md"
+  ]
+ },
+ {
+  "code": "GL_MANAGE_CONVERSION_RATE_TYPES",
+  "name": "Conversion rate types",
+  "flags": [
+   "Y",
+   "Y"
+  ],
+  "skill": [],
+  "readiness": [],
+  "dependents_n": 2,
+  "dependent_modules": [
+   "erp/financials"
+  ],
+  "dependents": [
+   "pillars/erp/financials/expenses/manage-conversion-rates-and-policies/ora-resource/ora_dependency_readiness.md",
+   "pillars/erp/financials/general-ledger/complete-primary-to-secondary-ledger-mapping/ora-resource/ora_dependency_readiness.md"
+  ]
+ },
+ {
+  "code": "ZX_MANAGE_TAX_REGIMES",
+  "name": "Tax regimes",
+  "flags": [
+   "Y",
+   "Y"
+  ],
+  "skill": [],
+  "readiness": [],
+  "dependents_n": 0,
+  "dependent_modules": [],
+  "dependents": []
+ },
+ {
+  "code": "WSH_MANAGE_CARRIERS",
+  "name": "Carriers",
+  "flags": [
+   "Y",
+   "Y"
+  ],
+  "skill": [
+   "pillars/scm/manufacturing-and-supply-chain-materials-management/carriers-and-transit-times/manage-carriers/SKILL.md"
+  ],
+  "readiness": [],
+  "dependents_n": 12,
+  "dependent_modules": [
+   "cx/sales",
+   "erp/financials",
+   "scm/manufacturing-and-supply-chain-materials-management",
+   "scm/order-management"
+  ],
+  "dependents": [
+   "pillars/cx/sales/opportunities/manage-opportunity-revenue-categories/ora-resource/ora_dependency_readiness.md",
+   "pillars/erp/financials/financial-reporting-structures/manage-accounting-calendars/ora-resource/ora_dependency_readiness.md",
+   "pillars/erp/financials/general-ledger/assign-balancing-segment-values-to-legal-entities/ora-resource/ora_dependency_readiness.md",
+   "pillars/erp/financials/general-ledger/manage-primary-ledgers/ora-resource/ora_dependency_readiness.md",
+   "pillars/erp/financials/general-ledger/specify-ledger-options-primary-ledger/ora-resource/ora_dependency_readiness.md",
+   "pillars/erp/financials/general-ledger/specify-ledger-options-secondary-ledger/ora-resource/ora_dependency_readiness.md",
+   "pillars/erp/financials/legal-structures/manage-legal-addresses/ora-resource/ora_dependency_readiness.md",
+   "pillars/erp/financials/legal-structures/manage-legal-entity/ora-resource/ora_dependency_readiness.md",
+   "pillars/erp/financials/legal-structures/manage-legal-reporting-unit/ora-resource/ora_dependency_readiness.md",
+   "pillars/erp/financials/legal-structures/manage-legal-reporting-unit-registrations/ora-resource/ora_dependency_readiness.md",
+   "pillars/scm/manufacturing-and-supply-chain-materials-management/inventory-management/picking-rule-assignments/ora-resource/ora_dependency_readiness.md",
+   "pillars/scm/order-management/channel-revenue-management/ora-resource/ora_dependency_readiness.md"
+  ]
+ },
+ {
+  "code": "AR_MANAGE_RECEIVABLES_CUSTOMER_PROFILE_CLASSES",
+  "name": "Customer profile classes",
+  "flags": [
+   "Y",
+   "Y"
+  ],
+  "skill": [],
+  "readiness": [],
+  "dependents_n": 1,
+  "dependent_modules": [
+   "erp/financials"
+  ],
+  "dependents": [
+   "pillars/erp/financials/customers/manage-customer-uploads/ora-resource/ora_dependency_readiness.md"
+  ]
+ }
+]

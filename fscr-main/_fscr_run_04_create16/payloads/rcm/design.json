@@ -1,0 +1,3 @@
+{"operations":[
+ {"id":"c1","action":"create","entity":"AR_RECEIPT_CLASS","targetKey":{"Name":"FSCRT_RC1"},"values":{"ConfirmFlag":"N","ClearFlag":"N","RemitFlag":"N","RemitMethodCode":"NONE","NotesReceivable":"N"}},
+ {"id":"m1","action":"create","entity":"AR_RECEIPT_METHOD","targetKey":{"AR_RECEIPT_CLASS.Name":"FSCRT_RC1","Name":"FSCRT_RM1"},"values":{"StartDate":"2026-11-03","PrintedName":"FSCRT Run04","PaymentTypeCode":"NONE"}}]}

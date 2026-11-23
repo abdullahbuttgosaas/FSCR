@@ -1,0 +1,41 @@
+{
+  "baselineSha256": "e7d15561e7082e04f7db67150313ec77f3de4e0937feec27707a80c3da65ccbd",
+  "candidateSha256": "cf8809a28a7f0eba83f1526494736736a3c00f7ca7c56f84194fb67bf4bdd6cd",
+  "designSha256": "0e7438907f2be7e7915b8231b50ec98230373af31ef0516a2215a583720e61d1",
+  "errors": [],
+  "memberInventory": [
+    "AR_AI_GROUPING_RULE.csv",
+    "ORA_AR_AI_GRP_TXN_TYPE.csv",
+    "ORA_AR_AI_GRP_TXN_REQUEST.csv",
+    "ASM_SETUP_CSV_METADATA.xml"
+  ],
+  "requirementIds": [
+    "REQ-001",
+    "REQ-002",
+    "REQ-003",
+    "REQ-004",
+    "REQ-005",
+    "REQ-006"
+  ],
+  "rowCounts": {
+    "AR_AI_GROUPING_RULE.csv": 1,
+    "ORA_AR_AI_GRP_TXN_REQUEST.csv": 0,
+    "ORA_AR_AI_GRP_TXN_TYPE.csv": 1
+  },
+  "schemaFingerprint": "edc45159ec7970277fe64cf70a8d03bf9ff85bfd688aec5053ca9b1650326f9c",
+  "schemaVersion": "fscr-fsm-task-adapter-v1",
+  "status": "PASS",
+  "task": {
+    "code": "AR_MANAGE_AUTOINVOICE_GROUPING_RULES",
+    "csvSupported": true,
+    "functionalArea": "Customer Billing",
+    "importMode": "FSM",
+    "name": "Manage AutoInvoice Grouping Rules",
+    "offering": "Financials"
+  },
+  "templateSha256": "9d94874db40cf5e3741c12c863da1b037f28bd0fca64617e063e83f9e1f4a045",
+  "unresolvedWarnings": [],
+  "warnings": []
+}
+
+--stderr--

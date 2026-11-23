@@ -1,0 +1,3 @@
+
+ERROR: The saved Oracle sign-in has expired (the sign-in page appeared). Run common/login_once.py, sign in, then run this again.
+Files kept for inspection in: E:\GoSaaS\Configuration Automation v2.1\Configuration Automation\page\_work\look

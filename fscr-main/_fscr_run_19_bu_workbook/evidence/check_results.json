@@ -1,0 +1,204 @@
+{
+ "sheets": {
+  "BusinessUnits": {
+   "workbook": {
+    "ABD": 1,
+    "ABC Procurement BU": 1,
+    "GoSaaS": 1,
+    "AMNA BU": 1,
+    "AKBusiness Unit Domestic": 1,
+    "ZZ_TEST_7669": 1
+   },
+   "source": {
+    "ABD": 1,
+    "ABC Procurement BU": 1,
+    "GoSaaS": 1,
+    "AMNA BU": 1,
+    "AKBusiness Unit Domestic": 1,
+    "ZZ_TEST_7669": 1
+   }
+  },
+  "BusinessFunctions": {
+   "workbook": {
+    "ABD": 19,
+    "ABC Procurement BU": 18,
+    "GoSaaS": 18,
+    "AMNA BU": 18,
+    "AKBusiness Unit Domestic": 18,
+    "ZZ_TEST_7669": 0
+   },
+   "source": {
+    "ABD": 19,
+    "ABC Procurement BU": 18,
+    "GoSaaS": 18,
+    "AMNA BU": 18,
+    "AKBusiness Unit Domestic": 18,
+    "ZZ_TEST_7669": 0
+   }
+  },
+  "LedgerAndLegalEntity": {
+   "workbook": {
+    "ABD": 1,
+    "ABC Procurement BU": 1,
+    "GoSaaS": 1,
+    "AMNA BU": 1,
+    "AKBusiness Unit Domestic": 1,
+    "ZZ_TEST_7669": 1
+   },
+   "source": {
+    "ABD": 1,
+    "ABC Procurement BU": 1,
+    "GoSaaS": 1,
+    "AMNA BU": 1,
+    "AKBusiness Unit Domestic": 1,
+    "ZZ_TEST_7669": 1
+   }
+  },
+  "ServiceProviders": {
+   "workbook": {
+    "ABD": 4,
+    "ABC Procurement BU": 4,
+    "GoSaaS": 4,
+    "AMNA BU": 4,
+    "AKBusiness Unit Domestic": 7,
+    "ZZ_TEST_7669": 0
+   },
+   "source": {
+    "ABD": 4,
+    "ABC Procurement BU": 4,
+    "GoSaaS": 4,
+    "AMNA BU": 4,
+    "AKBusiness Unit Domestic": 7,
+    "ZZ_TEST_7669": 0
+   }
+  },
+  "SetAssignments": {
+   "workbook": {
+    "ABD": 68,
+    "ABC Procurement BU": 68,
+    "GoSaaS": 67,
+    "AMNA BU": 68,
+    "AKBusiness Unit Domestic": 68,
+    "ZZ_TEST_7669": 0
+   },
+   "source": {
+    "ABD": 68,
+    "ABC Procurement BU": 68,
+    "GoSaaS": 67,
+    "AMNA BU": 68,
+    "AKBusiness Unit Domestic": 68,
+    "ZZ_TEST_7669": 0
+   }
+  },
+  "PriceLists": {
+   "workbook": {
+    "ABD": 21,
+    "ABC Procurement BU": 3,
+    "GoSaaS": 0,
+    "AMNA BU": 0,
+    "AKBusiness Unit Domestic": 0,
+    "ZZ_TEST_7669": 0
+   },
+   "source": {
+    "ABD": 21,
+    "ABC Procurement BU": 3,
+    "GoSaaS": 0,
+    "AMNA BU": 0,
+    "AKBusiness Unit Domestic": 0,
+    "ZZ_TEST_7669": 0
+   }
+  },
+  "UserAccess": {
+   "workbook": {
+    "ABD": 1,
+    "ABC Procurement BU": 1,
+    "GoSaaS": 25,
+    "AMNA BU": 11,
+    "AKBusiness Unit Domestic": 11,
+    "ZZ_TEST_7669": 0
+   },
+   "source": {
+    "ABD": 1,
+    "ABC Procurement BU": 1,
+    "GoSaaS": 25,
+    "AMNA BU": 11,
+    "AKBusiness Unit Domestic": 11,
+    "ZZ_TEST_7669": 0
+   }
+  },
+  "ReceivablesOptions": {
+   "workbook": {
+    "ABD": 0,
+    "ABC Procurement BU": 0,
+    "GoSaaS": 0,
+    "AMNA BU": 1,
+    "AKBusiness Unit Domestic": 1,
+    "ZZ_TEST_7669": 0
+   },
+   "source": {
+    "ABD": 0,
+    "ABC Procurement BU": 0,
+    "GoSaaS": 0,
+    "AMNA BU": 1,
+    "AKBusiness Unit Domestic": 1,
+    "ZZ_TEST_7669": 0
+   }
+  },
+  "ReceivablesTxnTypeBU": {
+   "workbook": {
+    "ABD": 0,
+    "ABC Procurement BU": 0,
+    "GoSaaS": 0,
+    "AMNA BU": 1,
+    "AKBusiness Unit Domestic": 0,
+    "ZZ_TEST_7669": 0
+   },
+   "source": {
+    "ABD": 0,
+    "ABC Procurement BU": 0,
+    "GoSaaS": 0,
+    "AMNA BU": 1,
+    "AKBusiness Unit Domestic": 0,
+    "ZZ_TEST_7669": 0
+   }
+  }
+ },
+ "mismatches": [
+  "ServiceProviders / ABD: workbook 4 vs Run 18 count 8",
+  "ServiceProviders / ABC Procurement BU: workbook 4 vs Run 18 count 8",
+  "ServiceProviders / GoSaaS: workbook 4 vs Run 18 count 8",
+  "ServiceProviders / AMNA BU: workbook 4 vs Run 18 count 8",
+  "ServiceProviders / AKBusiness Unit Domestic: workbook 7 vs Run 18 count 11"
+ ],
+ "empty": [
+  "BusinessFunctions / ZZ_TEST_7669",
+  "ServiceProviders / ZZ_TEST_7669",
+  "SetAssignments / ZZ_TEST_7669",
+  "PriceLists / GoSaaS",
+  "PriceLists / AMNA BU",
+  "PriceLists / AKBusiness Unit Domestic",
+  "PriceLists / ZZ_TEST_7669",
+  "UserAccess / ZZ_TEST_7669",
+  "ReceivablesOptions / ABD",
+  "ReceivablesOptions / ABC Procurement BU",
+  "ReceivablesOptions / GoSaaS",
+  "ReceivablesOptions / ZZ_TEST_7669",
+  "ReceivablesTxnTypeBU / ABD",
+  "ReceivablesTxnTypeBU / ABC Procurement BU",
+  "ReceivablesTxnTypeBU / GoSaaS",
+  "ReceivablesTxnTypeBU / AKBusiness Unit Domestic",
+  "ReceivablesTxnTypeBU / ZZ_TEST_7669",
+  "LedgerAndLegalEntity / ZZ_TEST_7669: no ledger and no legal entity (row kept, values blank)"
+ ],
+ "id_columns_ok": {
+  "BusinessUnits": true,
+  "BusinessFunctions": true,
+  "LedgerAndLegalEntity": true,
+  "ServiceProviders": true,
+  "SetAssignments": true,
+  "PriceLists": true,
+  "UserAccess": true,
+  "ReceivablesOptions": true,
+  "ReceivablesTxnTypeBU": true
+ }
+}

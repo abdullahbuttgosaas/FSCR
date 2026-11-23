@@ -1,0 +1,28 @@
+<ComparisonDiscrepancyVO089CC3D5_6132_4C37_A742_65AC57VO>
+   <ComparisonDiscrepancyVO089CC3D5_6132_4C37_A742_65AC57VORow>
+      <FsmRowIdentifier>FSCRT_OUTDOOR_ACTIVITY_F01,FSCRT_PADDLING</FsmRowIdentifier>
+      <AttributeDiscrepancy>Value in Source 1</AttributeDiscrepancy>
+      <LookupType null="true"/>
+      <LookupCode null="true"/>
+      <Meaning null="true"/>
+      <Description>Kayak, canoe and paddleboard gear</Description>
+      <EnabledFlag null="true"/>
+      <StartDateActive null="true"/>
+      <EndDateActive null="true"/>
+      <DisplaySequence null="true"/>
+      <Tag null="true"/>
+   </ComparisonDiscrepancyVO089CC3D5_6132_4C37_A742_65AC57VORow>
+   <ComparisonDiscrepancyVO089CC3D5_6132_4C37_A742_65AC57VORow>
+      <FsmRowIdentifier>FSCRT_OUTDOOR_ACTIVITY_F01,FSCRT_PADDLING</FsmRowIdentifier>
+      <AttributeDiscrepancy>Value in Source 2</AttributeDiscrepancy>
+      <LookupType null="true"/>
+      <LookupCode null="true"/>
+      <Meaning null="true"/>
+      <Description>Kayak, canoe and paddleboard gear (FSCRT drift test)</Description>
+      <EnabledFlag null="true"/>
+      <StartDateActive null="true"/>
+      <EndDateActive null="true"/>
+      <DisplaySequence null="true"/>
+      <Tag null="true"/>
+   </ComparisonDiscrepancyVO089CC3D5_6132_4C37_A742_65AC57VORow>
+</ComparisonDiscrepancyVO089CC3D5_6132_4C37_A742_65AC57VO>

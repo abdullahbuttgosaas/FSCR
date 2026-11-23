@@ -1,0 +1,26 @@
+module,record_field,record_value,created_value,note
+1,BU Name,Quillon Ridge Outfitters West F01,FSCRT_Quillon Ridge Outfitters West F01,
+1,BU Name,Brindle Harbor Marine Supply F01,FSCRT_Brindle Harbor Marine Supply F01,
+4,LookupType,OUTDOOR_ACTIVITY_F01,FSCRT_OUTDOOR_ACTIVITY_F01,
+4,Meaning,Outdoor activity F01,FSCRT_Outdoor activity F01,
+4,LookupType,CARRIER_SERVICE_TIER_F01,FSCRT_CARRIER_SERVICE_TIER_F01,30 chars = max 30
+4,Meaning,Carrier service tier F01,FSCRT_Carrier service tier F01,
+4,LookupCode,HIKING,FSCRT_HIKING,meaning FSCRT_Hiking
+4,LookupCode,PADDLING,FSCRT_PADDLING,meaning FSCRT_Paddling
+4,LookupCode,STANDARD,FSCRT_STANDARD,meaning FSCRT_Standard ground
+4,LookupCode,FREIGHT,FSCRT_FREIGHT,meaning FSCRT_Pallet freight
+5,LookupCode,SO_TRAIL_DEALER_F01,FSCRT_SO_TRAIL_DEALER_F01,meaning FSCRT_Trail Dealer Replenishment F01
+5,LookupCode,SO_WARRANTY_SWAP_F01,FSCRT_SO_WARRANTY_SWAP_F01,meaning FSCRT_Warranty Swap Order F01
+0,Run Book,(none),FSCRT Run01 OM Setup,FSCR names Run Book from project name; journey 300000394648040
+3,Payment Term Name,2 Percent 10 Net 30 Marine F01,FSCRT_2P10N30F1,shortened: Oracle payment term name max 15 chars
+3,Payment Term Name,Deposit 25 Balance 75 Alpine F01,FSCRT_D25B75AF1,shortened: max 15 chars
+2,Price List Name,Quillon Ridge Wholesale Tents USD F01,FSCRT_Quillon Ridge Wholesale Tents USD F01,created 300000394622041
+2,Price List Name,Brindle Harbor Dock Equipment EUR F01,FSCRT_Brindle Harbor Dock Equipment EUR F01,created 300000394623080
+6,Customer Name,Kestrel Basin Trading Cooperative F01,FSCRT_Kestrel Basin Trading Cooperative F01,account 22050
+6,Site Name,Kestrel Basin Depot,FSCRT_Kestrel Basin Depot,
+6,Customer Name,Pemberton Cove Boatworks F01,FSCRT_Pemberton Cove Boatworks F01,account 22051
+6,Site Name,Pemberton Cove Yard,FSCRT_Pemberton Cove Yard,
+7,First Name,Caspian,FSCRT_Caspian,Oracle party name FSCRT_Caspian Reed Thornbury Jr.; account 22052
+7,Site Name,Thornbury Residence,FSCRT_Thornbury Residence,
+7,First Name,Linnea,FSCRT_Linnea,party name FSCRT_Linnea Voskuijlen; account 22053
+7,Site Name,Voskuijlen Home,FSCRT_Voskuijlen Home,

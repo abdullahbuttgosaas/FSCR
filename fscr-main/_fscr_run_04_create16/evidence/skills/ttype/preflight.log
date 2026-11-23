@@ -1,0 +1,21 @@
+
+--stderr--
+## Business Object Validation
+
+| Source | Type |
+|---|---|
+| fscrt-ttype-candidate.zip | FSM Setup |
+
+### Validated upload
+
+| Item | Value |
+|---|---|
+| Validated ZIP | [fscrt-ttype-candidate.zip](<E:\GoSaaS\Configuration Automation v2.1\fscr-main\_fscr_run_04_create16\fscr-work4\project\fscrt-run04-create16\exports\ttype\fscrt-ttype-candidate.zip>) |
+
+### Validation complete
+
+fscrt-ttype-candidate.zip passed validation. No data was uploaded.
+
+### Approval required
+
+Reply with an approval to upload and initiate this exact validated load.

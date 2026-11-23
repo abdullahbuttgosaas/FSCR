@@ -1,0 +1,33 @@
+{
+  "project_id": "FSCR Receivables Payment Term Test",
+  "offering": "Financials",
+  "functional_area": "Customer Billing",
+  "sequence_status": "draft",
+  "tasks": [
+    {
+      "task_id": "AR_MANAGE_RECEIVABLES_PAYMENT_TERMS",
+      "name": "Manage Receivables Payment Terms",
+      "task_description": "Create payment terms to specify the due dates, discount dates and installment details for customer open items.",
+      "pillar": "ERP",
+      "offering": "Financials",
+      "functional_area": "Customer Billing",
+      "skill_path": "pillars/erp/financials/customer-billing/manage-receivables-payment-terms/SKILL.md",
+      "business_objects": [],
+      "taskType": "ORA_CHK_DATA_LOADER",
+      "sequence": 1,
+      "depends_on": [],
+      "execution_mode": "assisted",
+      "load_method": "manual"
+    }
+  ],
+  "planning_notes": [],
+  "created_at": "2026-10-28T10:53:07Z",
+  "project_metadata": {
+    "contexts": [
+      {
+        "offering": "Financials",
+        "functional_area": "Customer Billing"
+      }
+    ]
+  }
+}

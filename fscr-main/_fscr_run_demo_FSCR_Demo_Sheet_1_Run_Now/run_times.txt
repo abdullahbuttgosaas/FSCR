@@ -1,0 +1,13 @@
+request_start 2026-11-04 21:30:29 +0500 (first command; request arrived just before)
+login_start 21:38:21
+login_end 21:38:24
+lookup_create_start 21:46:53
+lookup_create_end 21:47:44
+ordertype_create_start 21:47:45
+ordertype_create_end 21:47:46
+pt_start 21:47:59
+pt_upload 21:51:10
+pt_import_done 21:52:28
+pt_end 21:52:59
+readback_end 21:53:32
+report_done 21:55:33

@@ -1,0 +1,165 @@
+{
+  "schema_version": "1.0",
+  "tasks": [
+    {
+      "sequence": 1,
+      "task_name": "Create Data Role for Implementation Users",
+      "offering": "Financials",
+      "functional_area": "Initial Users",
+      "task_code": "FND_CREATE_DATA_ROLE_FOR_IMPLEMENTATION_USERS",
+      "skill_path": null,
+      "skill_selection": {
+        "status": "missing",
+        "selected_by": "FLAT_TASK_GUIDANCE_MISSING",
+        "candidates": [],
+        "context_relation": "missing",
+        "project_context": {
+          "offering": "Financials",
+          "functional_area": "Initial Users"
+        },
+        "skill_context": null
+      },
+      "execution_mode": "manual",
+      "execution_route": "manual-tasks",
+      "execution_skill_path": "shared/common/manual-tasks/SKILL.md",
+      "match_status": "matched",
+      "match_reason": "No task skill or flat task guidance exists in FSCR; route this catalog task to the shared Manual Tasks skill.",
+      "business_objects": [],
+      "task_description": "Create a data role based on the Human Capital Management Application Administrator job role to view all security profiles so a single user will be able to perform all required Human Capital Management setup steps. This role combines granted entitlements with unrestricted access to the setup data relevant to the tasks performed by this role."
+    },
+    {
+      "sequence": 2,
+      "task_name": "Manage Reference Data Sets",
+      "offering": "Financials",
+      "functional_area": "Enterprise Profile",
+      "task_code": "FND_MANAGE_REFERENCE_DATA_SETS",
+      "skill_path": "pillars/hcm/goal-management/goal-management-common/manage-reference-data-sets/SKILL.md",
+      "skill_selection": {
+        "status": "selected",
+        "selected_by": "LEXICOGRAPHIC_PATH",
+        "candidates": [
+          "pillars/hcm/goal-management/goal-management-common/manage-reference-data-sets/SKILL.md",
+          "pillars/hcm/performance-management/performance-management-common/manage-reference-data-sets/SKILL.md"
+        ],
+        "context_relation": "cross-context-fallback",
+        "project_context": {
+          "offering": "Financials",
+          "functional_area": "Enterprise Profile"
+        },
+        "skill_context": {
+          "offering": "Goal Management",
+          "functional_area": "Goal Management Common"
+        }
+      },
+      "match_status": "matched",
+      "business_objects": []
+    },
+    {
+      "sequence": 3,
+      "task_name": "Manage Conversion Rate Types",
+      "offering": "Financials",
+      "functional_area": "Financial Reporting Structures",
+      "task_code": "GL_MANAGE_CONVERSION_RATE_TYPES",
+      "skill_path": null,
+      "skill_selection": {
+        "status": "missing",
+        "selected_by": "FLAT_TASK_GUIDANCE_MISSING",
+        "candidates": [],
+        "context_relation": "missing",
+        "project_context": {
+          "offering": "Financials",
+          "functional_area": "Financial Reporting Structures"
+        },
+        "skill_context": null
+      },
+      "execution_mode": "manual",
+      "execution_route": "manual-tasks",
+      "execution_skill_path": "shared/common/manual-tasks/SKILL.md",
+      "match_status": "matched",
+      "match_reason": "No task skill or flat task guidance exists in FSCR; route this catalog task to the shared Manual Tasks skill.",
+      "business_objects": [],
+      "task_description": "Review and update existing currency conversion relationships, and create new relationships."
+    },
+    {
+      "sequence": 4,
+      "task_name": "Manage Internal Resource Organizations",
+      "offering": "Financials",
+      "functional_area": "Organization Structures",
+      "task_code": "HZ_MANAGE_RESOURCE_ORGANIZATIONS",
+      "skill_path": null,
+      "skill_selection": {
+        "status": "missing",
+        "selected_by": "FLAT_TASK_GUIDANCE_MISSING",
+        "candidates": [],
+        "context_relation": "missing",
+        "project_context": {
+          "offering": "Financials",
+          "functional_area": "Organization Structures"
+        },
+        "skill_context": null
+      },
+      "execution_mode": "manual",
+      "execution_route": "manual-tasks",
+      "execution_skill_path": "shared/common/manual-tasks/SKILL.md",
+      "match_status": "matched",
+      "match_reason": "No task skill or flat task guidance exists in FSCR; route this catalog task to the shared Manual Tasks skill.",
+      "business_objects": [],
+      "task_description": "Define sales or marketing organizations."
+    },
+    {
+      "sequence": 5,
+      "task_name": "Manage Job Families",
+      "offering": "Financials",
+      "functional_area": "Workforce Structures",
+      "task_code": "PER_MANAGE_JOB_FAMILY",
+      "skill_path": "pillars/hcm/global-human-resources/jobs/manage-job-families/SKILL.md",
+      "skill_selection": {
+        "status": "selected",
+        "selected_by": "EXACT_TASK_CODE_AND_NAME",
+        "candidates": [
+          "pillars/hcm/global-human-resources/jobs/manage-job-families/SKILL.md"
+        ],
+        "context_relation": "canonical-task-reuse",
+        "project_context": {
+          "offering": "Financials",
+          "functional_area": "Workforce Structures"
+        },
+        "skill_context": {
+          "offering": "Global Human Resources",
+          "functional_area": "Jobs"
+        },
+        "context_note": "The unique task-code-and-name skill is canonical and reusable across Oracle offering and functional-area contexts."
+      },
+      "match_status": "matched",
+      "business_objects": [
+        "Job Family"
+      ]
+    },
+    {
+      "sequence": 6,
+      "task_name": "Manage Applications Core Standard Lookups",
+      "offering": "Financials",
+      "functional_area": "Application Extensions",
+      "task_code": "FND_MANAGE_APPLCORE_STANDARD_LOOKUPS",
+      "skill_path": null,
+      "skill_selection": {
+        "status": "missing",
+        "selected_by": "FLAT_TASK_GUIDANCE_MISSING",
+        "candidates": [],
+        "context_relation": "missing",
+        "project_context": {
+          "offering": "Financials",
+          "functional_area": "Application Extensions"
+        },
+        "skill_context": null
+      },
+      "execution_mode": "manual",
+      "execution_route": "manual-tasks",
+      "execution_skill_path": "shared/common/manual-tasks/SKILL.md",
+      "match_status": "matched",
+      "match_reason": "No task skill or flat task guidance exists in FSCR; route this catalog task to the shared Manual Tasks skill.",
+      "business_objects": [],
+      "task_description": "Review and manage lookup values for Oracle Middleware Extensions for Applications."
+    }
+  ]
+}

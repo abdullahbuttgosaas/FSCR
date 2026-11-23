@@ -1,0 +1,6 @@
+run,basis,input_new_tokens,cache_read_tokens,output_tokens,total_new_tokens,model
+24,MEASURED,41000,3964000,15000,56000,claude-opus-5-5
+25,MEASURED,78000,3610000,21000,100000,claude-opus-5-5
+24+25 (gap-filling),MEASURED,120000,7574000,36000,156000,claude-opus-5-5
+26b,MEASURED,46000,1480000,10000,56000,claude-opus-5-5
+27b,MEASURED,57000,2456000,16000,73000,claude-opus-5-5

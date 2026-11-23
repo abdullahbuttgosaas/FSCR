@@ -1,0 +1,3 @@
+TaskCode: ORA_PO_MANAGE_PURCHASING_MESSAGES (Manage Purchasing Messages); CSVExportImportSupportedFlag: N
+No matching pillar setup-task metadata found; using supplied or Fusion task context for export path.
+CSVExportImportSupportedFlag is N for ORA_PO_MANAGE_PURCHASING_MESSAGES (Manage Purchasing Messages). The setup task CSV export may not work, so no setup task CSV export was created.

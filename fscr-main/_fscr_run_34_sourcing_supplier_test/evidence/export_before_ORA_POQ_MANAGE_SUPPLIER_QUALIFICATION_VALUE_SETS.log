@@ -1,0 +1,8 @@
+TaskCode: ORA_POQ_MANAGE_SUPPLIER_QUALIFICATION_VALUE_SETS (Manage Supplier Qualification Value Sets); CSVExportImportSupportedFlag: Y
+No matching pillar setup-task metadata found; using supplied or Fusion task context for export path.
+Started setup task CSV export process: 100004737393159
+ProcessCompletedFlag: False; StatusCode: (no result yet); ResultCount: 0
+ProcessCompletedFlag: True; StatusCode: (no result yet); ResultCount: 0
+StatusCode: (unknown)
+Retrieved: FileContent
+Wrote E:\GoSaaS\Configuration Automation v2.1\fscr-main\_fscr_run_34_sourcing_supplier_test\export_before\ORA_POQ_MANAGE_SUPPLIER_QUALIFICATION_VALUE_SETS\ETIA-TEST_setup_task_csv_export_ora_poq_manage_supplier_qualification_value_sets_100004737393159.zip (3755 bytes)

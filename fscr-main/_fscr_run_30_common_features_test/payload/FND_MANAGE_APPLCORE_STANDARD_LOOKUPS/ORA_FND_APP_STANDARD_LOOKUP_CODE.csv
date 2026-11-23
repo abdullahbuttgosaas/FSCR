@@ -1,0 +1,3 @@
+"FND_APP_STANDARD_LOOKUP.LookupType","LookupCode","Meaning","Description","EnabledFlag","StartDateActive","EndDateActive","DisplaySequence","CreatedBy","CreationDate","LastUpdatedBy","LastUpdateDate","LastUpdateLogin","Tag"
+"FSCRT_R30_LOOKUP","FSCRT_A","FSCRT_R30 Alpha","","Y","2026/01/01","","1","","","","","",""
+"FSCRT_R30_LOOKUP","FSCRT_B","FSCRT_R30 Beta","","Y","2026/01/01","","2","","","","","",""

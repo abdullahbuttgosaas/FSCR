@@ -1,0 +1,10 @@
+{
+ "procurementBusinessUnitsLOV": {
+  "status": 200,
+  "count": 0
+ },
+ "externalPurchasePricesBusinessUnits": {
+  "status": 200,
+  "count": 0
+ }
+}

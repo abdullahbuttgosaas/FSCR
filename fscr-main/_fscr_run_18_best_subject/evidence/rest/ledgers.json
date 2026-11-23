@@ -1,0 +1,1298 @@
+{
+ "items": [
+  {
+   "AccountedPeriodType": "MONTH3929344966",
+   "ChartOfAccountsId": "49003",
+   "Description": "28 Secondary Ledger",
+   "EnableBudgetaryControlFlag": false,
+   "LedgerCategoryCode": "SECONDARY",
+   "LedgerId": "300000388128741",
+   "Name": "28 Secondary Ledger",
+   "LedgerTypeCode": "L",
+   "PeriodSetName": "28Ledger",
+   "SequencingModeCode": "N",
+   "ApDocumentSequencingOptionFlag": null,
+   "ArDocumentSequencingOptionFlag": null,
+   "EnfSequenceDateCorrelationCode": null,
+   "CurrencyCode": "USD",
+   "@context": {
+    "key": "300000388128741"
+   }
+  },
+  {
+   "AccountedPeriodType": "MONTH3929344966",
+   "ChartOfAccountsId": "49003",
+   "Description": null,
+   "EnableBudgetaryControlFlag": false,
+   "LedgerCategoryCode": "PRIMARY",
+   "LedgerId": "300000386448090",
+   "Name": "28Ledger US",
+   "LedgerTypeCode": "L",
+   "PeriodSetName": "28Ledger",
+   "SequencingModeCode": "N",
+   "ApDocumentSequencingOptionFlag": false,
+   "ArDocumentSequencingOptionFlag": false,
+   "EnfSequenceDateCorrelationCode": "N",
+   "CurrencyCode": "USD",
+   "@context": {
+    "key": "300000386448090"
+   }
+  },
+  {
+   "AccountedPeriodType": "MONTH2506690185",
+   "ChartOfAccountsId": "52002",
+   "Description": "29 Practice Primary Ledger ",
+   "EnableBudgetaryControlFlag": false,
+   "LedgerCategoryCode": "PRIMARY",
+   "LedgerId": "300000389032019",
+   "Name": "29PLedger",
+   "LedgerTypeCode": "L",
+   "PeriodSetName": "AKLedger",
+   "SequencingModeCode": "N",
+   "ApDocumentSequencingOptionFlag": null,
+   "ArDocumentSequencingOptionFlag": null,
+   "EnfSequenceDateCorrelationCode": "N",
+   "CurrencyCode": "USD",
+   "@context": {
+    "key": "300000389032019"
+   }
+  },
+  {
+   "AccountedPeriodType": "MONTH3455346601",
+   "ChartOfAccountsId": "2001",
+   "Description": "Ascend Group",
+   "EnableBudgetaryControlFlag": false,
+   "LedgerCategoryCode": "PRIMARY",
+   "LedgerId": "300000328247980",
+   "Name": "A-1",
+   "LedgerTypeCode": "L",
+   "PeriodSetName": "001Calendar",
+   "SequencingModeCode": "N",
+   "ApDocumentSequencingOptionFlag": null,
+   "ArDocumentSequencingOptionFlag": null,
+   "EnfSequenceDateCorrelationCode": "N",
+   "CurrencyCode": "USD",
+   "@context": {
+    "key": "300000328247980"
+   }
+  },
+  {
+   "AccountedPeriodType": "MONTH2506690185",
+   "ChartOfAccountsId": "43002",
+   "Description": null,
+   "EnableBudgetaryControlFlag": false,
+   "LedgerCategoryCode": "SECONDARY",
+   "LedgerId": "300000385902697",
+   "Name": "AALedger",
+   "LedgerTypeCode": "L",
+   "PeriodSetName": "AKLedger",
+   "SequencingModeCode": "N",
+   "ApDocumentSequencingOptionFlag": null,
+   "ArDocumentSequencingOptionFlag": null,
+   "EnfSequenceDateCorrelationCode": null,
+   "CurrencyCode": "USD",
+   "@context": {
+    "key": "300000385902697"
+   }
+  },
+  {
+   "AccountedPeriodType": "MONTH7657588696",
+   "ChartOfAccountsId": "12001",
+   "Description": "AG Primary Ledger",
+   "EnableBudgetaryControlFlag": false,
+   "LedgerCategoryCode": "PRIMARY",
+   "LedgerId": "300000394686036",
+   "Name": "AG Primary Ledger",
+   "LedgerTypeCode": "L",
+   "PeriodSetName": "GoSaaS MFG",
+   "SequencingModeCode": "N",
+   "ApDocumentSequencingOptionFlag": false,
+   "ArDocumentSequencingOptionFlag": false,
+   "EnfSequenceDateCorrelationCode": "N",
+   "CurrencyCode": "USD",
+   "@context": {
+    "key": "300000394686036"
+   }
+  },
+  {
+   "AccountedPeriodType": "MONTH7657588696",
+   "ChartOfAccountsId": "12001",
+   "Description": "Ascend Group",
+   "EnableBudgetaryControlFlag": false,
+   "LedgerCategoryCode": "PRIMARY",
+   "LedgerId": "300000328239293",
+   "Name": "AG-81209",
+   "LedgerTypeCode": "L",
+   "PeriodSetName": "GoSaaS MFG",
+   "SequencingModeCode": "N",
+   "ApDocumentSequencingOptionFlag": null,
+   "ArDocumentSequencingOptionFlag": null,
+   "EnfSequenceDateCorrelationCode": "N",
+   "CurrencyCode": "USD",
+   "@context": {
+    "key": "300000328239293"
+   }
+  },
+  {
+   "AccountedPeriodType": "MONTH2506690185",
+   "ChartOfAccountsId": "42002",
+   "Description": null,
+   "EnableBudgetaryControlFlag": false,
+   "LedgerCategoryCode": "ALC",
+   "LedgerId": "300000386804093",
+   "Name": "AH reporting currency",
+   "LedgerTypeCode": "L",
+   "PeriodSetName": "AKLedger",
+   "SequencingModeCode": "N",
+   "ApDocumentSequencingOptionFlag": false,
+   "ArDocumentSequencingOptionFlag": false,
+   "EnfSequenceDateCorrelationCode": "N",
+   "CurrencyCode": "GBP",
+   "@context": {
+    "key": "300000386804093"
+   }
+  },
+  {
+   "AccountedPeriodType": "MONTH2506690185",
+   "ChartOfAccountsId": "42002",
+   "Description": null,
+   "EnableBudgetaryControlFlag": false,
+   "LedgerCategoryCode": "NONE",
+   "LedgerId": "300000385782123",
+   "Name": "AK Ledger Set",
+   "LedgerTypeCode": "S",
+   "PeriodSetName": "AKLedger",
+   "SequencingModeCode": null,
+   "ApDocumentSequencingOptionFlag": null,
+   "ArDocumentSequencingOptionFlag": null,
+   "EnfSequenceDateCorrelationCode": null,
+   "CurrencyCode": "X",
+   "@context": {
+    "key": "300000385782123"
+   }
+  },
+  {
+   "AccountedPeriodType": "MONTH2506690185",
+   "ChartOfAccountsId": "42002",
+   "Description": null,
+   "EnableBudgetaryControlFlag": false,
+   "LedgerCategoryCode": "PRIMARY",
+   "LedgerId": "300000384644752",
+   "Name": "AKLedger IN",
+   "LedgerTypeCode": "L",
+   "PeriodSetName": "AKLedger",
+   "SequencingModeCode": "L",
+   "ApDocumentSequencingOptionFlag": false,
+   "ArDocumentSequencingOptionFlag": false,
+   "EnfSequenceDateCorrelationCode": "N",
+   "CurrencyCode": "INR",
+   "@context": {
+    "key": "300000384644752"
+   }
+  },
+  {
+   "AccountedPeriodType": "MONTH2506690185",
+   "ChartOfAccountsId": "42002",
+   "Description": null,
+   "EnableBudgetaryControlFlag": false,
+   "LedgerCategoryCode": "PRIMARY",
+   "LedgerId": "300000384644751",
+   "Name": "AKLedger US",
+   "LedgerTypeCode": "L",
+   "PeriodSetName": "AKLedger",
+   "SequencingModeCode": "N",
+   "ApDocumentSequencingOptionFlag": false,
+   "ArDocumentSequencingOptionFlag": false,
+   "EnfSequenceDateCorrelationCode": "N",
+   "CurrencyCode": "USD",
+   "@context": {
+    "key": "300000384644751"
+   }
+  },
+  {
+   "AccountedPeriodType": "MONTH3176786103",
+   "ChartOfAccountsId": "37001",
+   "Description": null,
+   "EnableBudgetaryControlFlag": false,
+   "LedgerCategoryCode": "PRIMARY",
+   "LedgerId": "300000337911001",
+   "Name": "AMN Ledgers",
+   "LedgerTypeCode": "L",
+   "PeriodSetName": "AMN Calendar",
+   "SequencingModeCode": "N",
+   "ApDocumentSequencingOptionFlag": null,
+   "ArDocumentSequencingOptionFlag": null,
+   "EnfSequenceDateCorrelationCode": "N",
+   "CurrencyCode": "NEWCUR",
+   "@context": {
+    "key": "300000337911001"
+   }
+  },
+  {
+   "AccountedPeriodType": "MONTH1252714374",
+   "ChartOfAccountsId": "2001",
+   "Description": null,
+   "EnableBudgetaryControlFlag": false,
+   "LedgerCategoryCode": "PRIMARY",
+   "LedgerId": "300000337253195",
+   "Name": "AMNAN_LEDGER",
+   "LedgerTypeCode": "L",
+   "PeriodSetName": "Vision01",
+   "SequencingModeCode": "N",
+   "ApDocumentSequencingOptionFlag": null,
+   "ArDocumentSequencingOptionFlag": null,
+   "EnfSequenceDateCorrelationCode": "N",
+   "CurrencyCode": "USD",
+   "@context": {
+    "key": "300000337253195"
+   }
+  },
+  {
+   "AccountedPeriodType": "MONTH4313841591",
+   "ChartOfAccountsId": "2001",
+   "Description": "Ascend Money Gang",
+   "EnableBudgetaryControlFlag": false,
+   "LedgerCategoryCode": "PRIMARY",
+   "LedgerId": "300000328247963",
+   "Name": "ASCEND_001",
+   "LedgerTypeCode": "L",
+   "PeriodSetName": "ASCEND_001",
+   "SequencingModeCode": "N",
+   "ApDocumentSequencingOptionFlag": null,
+   "ArDocumentSequencingOptionFlag": null,
+   "EnfSequenceDateCorrelationCode": "N",
+   "CurrencyCode": "USD",
+   "@context": {
+    "key": "300000328247963"
+   }
+  },
+  {
+   "AccountedPeriodType": "MONTH3455346601",
+   "ChartOfAccountsId": "17001",
+   "Description": "Ascend Group",
+   "EnableBudgetaryControlFlag": false,
+   "LedgerCategoryCode": "PRIMARY",
+   "LedgerId": "300000328239218",
+   "Name": "Ascend Group",
+   "LedgerTypeCode": "L",
+   "PeriodSetName": "001Calendar",
+   "SequencingModeCode": "N",
+   "ApDocumentSequencingOptionFlag": null,
+   "ArDocumentSequencingOptionFlag": null,
+   "EnfSequenceDateCorrelationCode": "N",
+   "CurrencyCode": "USD",
+   "@context": {
+    "key": "300000328239218"
+   }
+  },
+  {
+   "AccountedPeriodType": "MONTH7657588696",
+   "ChartOfAccountsId": "12001",
+   "Description": null,
+   "EnableBudgetaryControlFlag": false,
+   "LedgerCategoryCode": "PRIMARY",
+   "LedgerId": "300000337170053",
+   "Name": "Ash Ledger",
+   "LedgerTypeCode": "L",
+   "PeriodSetName": "GoSaaS MFG",
+   "SequencingModeCode": "N",
+   "ApDocumentSequencingOptionFlag": null,
+   "ArDocumentSequencingOptionFlag": null,
+   "EnfSequenceDateCorrelationCode": "N",
+   "CurrencyCode": "USD",
+   "@context": {
+    "key": "300000337170053"
+   }
+  },
+  {
+   "AccountedPeriodType": "MONTH7657588696",
+   "ChartOfAccountsId": "12001",
+   "Description": "DK",
+   "EnableBudgetaryControlFlag": false,
+   "LedgerCategoryCode": "PRIMARY",
+   "LedgerId": "300000329119446",
+   "Name": "DK ledger",
+   "LedgerTypeCode": "L",
+   "PeriodSetName": "GoSaaS MFG",
+   "SequencingModeCode": "N",
+   "ApDocumentSequencingOptionFlag": null,
+   "ArDocumentSequencingOptionFlag": null,
+   "EnfSequenceDateCorrelationCode": "N",
+   "CurrencyCode": "USD",
+   "@context": {
+    "key": "300000329119446"
+   }
+  },
+  {
+   "AccountedPeriodType": "MONTH4807642872",
+   "ChartOfAccountsId": "51002",
+   "Description": null,
+   "EnableBudgetaryControlFlag": false,
+   "LedgerCategoryCode": "PRIMARY",
+   "LedgerId": "300000388042019",
+   "Name": "DS Primary Ledger",
+   "LedgerTypeCode": "L",
+   "PeriodSetName": "DSSLedger",
+   "SequencingModeCode": "N",
+   "ApDocumentSequencingOptionFlag": null,
+   "ArDocumentSequencingOptionFlag": null,
+   "EnfSequenceDateCorrelationCode": "N",
+   "CurrencyCode": "USD",
+   "@context": {
+    "key": "300000388042019"
+   }
+  },
+  {
+   "AccountedPeriodType": "MONTH4807642872",
+   "ChartOfAccountsId": "51002",
+   "Description": "DS2 Secondary Ledger",
+   "EnableBudgetaryControlFlag": false,
+   "LedgerCategoryCode": "SECONDARY",
+   "LedgerId": "300000388042028",
+   "Name": "DS2 Secondary Ledger",
+   "LedgerTypeCode": "L",
+   "PeriodSetName": "DSSLedger",
+   "SequencingModeCode": "N",
+   "ApDocumentSequencingOptionFlag": null,
+   "ArDocumentSequencingOptionFlag": null,
+   "EnfSequenceDateCorrelationCode": null,
+   "CurrencyCode": "USD",
+   "@context": {
+    "key": "300000388042028"
+   }
+  },
+  {
+   "AccountedPeriodType": "MONTH4807642872",
+   "ChartOfAccountsId": "51002",
+   "Description": "DSS Secondary Ledger",
+   "EnableBudgetaryControlFlag": false,
+   "LedgerCategoryCode": "SECONDARY",
+   "LedgerId": "300000388042022",
+   "Name": "DSS Secondary Ledger",
+   "LedgerTypeCode": "L",
+   "PeriodSetName": "DSSLedger",
+   "SequencingModeCode": "L",
+   "ApDocumentSequencingOptionFlag": null,
+   "ArDocumentSequencingOptionFlag": null,
+   "EnfSequenceDateCorrelationCode": null,
+   "CurrencyCode": "USD",
+   "@context": {
+    "key": "300000388042022"
+   }
+  },
+  {
+   "AccountedPeriodType": "MONTH4807642872",
+   "ChartOfAccountsId": "51002",
+   "Description": null,
+   "EnableBudgetaryControlFlag": false,
+   "LedgerCategoryCode": "PRIMARY",
+   "LedgerId": "300000387285459",
+   "Name": "DSSLedger IN",
+   "LedgerTypeCode": "L",
+   "PeriodSetName": "DSSLedger",
+   "SequencingModeCode": "L",
+   "ApDocumentSequencingOptionFlag": false,
+   "ArDocumentSequencingOptionFlag": false,
+   "EnfSequenceDateCorrelationCode": "N",
+   "CurrencyCode": "INR",
+   "@context": {
+    "key": "300000387285459"
+   }
+  },
+  {
+   "AccountedPeriodType": "MONTH4807642872",
+   "ChartOfAccountsId": "51002",
+   "Description": null,
+   "EnableBudgetaryControlFlag": false,
+   "LedgerCategoryCode": "PRIMARY",
+   "LedgerId": "300000387285458",
+   "Name": "DSSLedger US",
+   "LedgerTypeCode": "L",
+   "PeriodSetName": "DSSLedger",
+   "SequencingModeCode": "N",
+   "ApDocumentSequencingOptionFlag": false,
+   "ArDocumentSequencingOptionFlag": false,
+   "EnfSequenceDateCorrelationCode": "N",
+   "CurrencyCode": "USD",
+   "@context": {
+    "key": "300000387285458"
+   }
+  },
+  {
+   "AccountedPeriodType": "MONTH7657588696",
+   "ChartOfAccountsId": "12001",
+   "Description": "Duck",
+   "EnableBudgetaryControlFlag": false,
+   "LedgerCategoryCode": "PRIMARY",
+   "LedgerId": "300000329239045",
+   "Name": "Duck",
+   "LedgerTypeCode": "L",
+   "PeriodSetName": "GoSaaS MFG",
+   "SequencingModeCode": "N",
+   "ApDocumentSequencingOptionFlag": null,
+   "ArDocumentSequencingOptionFlag": null,
+   "EnfSequenceDateCorrelationCode": "N",
+   "CurrencyCode": "USD",
+   "@context": {
+    "key": "300000329239045"
+   }
+  },
+  {
+   "AccountedPeriodType": "MONTH7657588696",
+   "ChartOfAccountsId": "12001",
+   "Description": "for mapping",
+   "EnableBudgetaryControlFlag": false,
+   "LedgerCategoryCode": "PRIMARY",
+   "LedgerId": "300000333835040",
+   "Name": "EBS-Testing-AI",
+   "LedgerTypeCode": "L",
+   "PeriodSetName": "GoSaaS MFG",
+   "SequencingModeCode": "N",
+   "ApDocumentSequencingOptionFlag": null,
+   "ArDocumentSequencingOptionFlag": null,
+   "EnfSequenceDateCorrelationCode": "N",
+   "CurrencyCode": "USD",
+   "@context": {
+    "key": "300000333835040"
+   }
+  },
+  {
+   "AccountedPeriodType": "MONTH7304180798",
+   "ChartOfAccountsId": "2001",
+   "Description": null,
+   "EnableBudgetaryControlFlag": false,
+   "LedgerCategoryCode": "PRIMARY",
+   "LedgerId": "300000002286040",
+   "Name": "GS  PL",
+   "LedgerTypeCode": "L",
+   "PeriodSetName": "GS Account",
+   "SequencingModeCode": "N",
+   "ApDocumentSequencingOptionFlag": null,
+   "ArDocumentSequencingOptionFlag": null,
+   "EnfSequenceDateCorrelationCode": "N",
+   "CurrencyCode": "USD",
+   "@context": {
+    "key": "300000002286040"
+   }
+  },
+  {
+   "AccountedPeriodType": "MONTH7304180798",
+   "ChartOfAccountsId": "2001",
+   "Description": "GoSaaS Labs Ledger",
+   "EnableBudgetaryControlFlag": false,
+   "LedgerCategoryCode": "PRIMARY",
+   "LedgerId": "300000327526346",
+   "Name": "GoSaaS Labs Ledger",
+   "LedgerTypeCode": "L",
+   "PeriodSetName": "GS Account",
+   "SequencingModeCode": "N",
+   "ApDocumentSequencingOptionFlag": null,
+   "ArDocumentSequencingOptionFlag": null,
+   "EnfSequenceDateCorrelationCode": "N",
+   "CurrencyCode": "PKR",
+   "@context": {
+    "key": "300000327526346"
+   }
+  },
+  {
+   "AccountedPeriodType": "MONTH7657588696",
+   "ChartOfAccountsId": "12001",
+   "Description": null,
+   "EnableBudgetaryControlFlag": false,
+   "LedgerCategoryCode": "PRIMARY",
+   "LedgerId": "300000327609001",
+   "Name": "GoSaaS MFG US",
+   "LedgerTypeCode": "L",
+   "PeriodSetName": "GoSaaS MFG",
+   "SequencingModeCode": "N",
+   "ApDocumentSequencingOptionFlag": false,
+   "ArDocumentSequencingOptionFlag": false,
+   "EnfSequenceDateCorrelationCode": "N",
+   "CurrencyCode": "USD",
+   "@context": {
+    "key": "300000327609001"
+   }
+  },
+  {
+   "AccountedPeriodType": "MONTH4761998953",
+   "ChartOfAccountsId": "2001",
+   "Description": null,
+   "EnableBudgetaryControlFlag": false,
+   "LedgerCategoryCode": "PRIMARY",
+   "LedgerId": "300000336564381",
+   "Name": "Gosaas Primary Ledger",
+   "LedgerTypeCode": "L",
+   "PeriodSetName": "001",
+   "SequencingModeCode": "N",
+   "ApDocumentSequencingOptionFlag": null,
+   "ArDocumentSequencingOptionFlag": null,
+   "EnfSequenceDateCorrelationCode": "N",
+   "CurrencyCode": "USD",
+   "@context": {
+    "key": "300000336564381"
+   }
+  },
+  {
+   "AccountedPeriodType": "MONTH4807015332",
+   "ChartOfAccountsId": "50002",
+   "Description": "HAHA secondary ledger",
+   "EnableBudgetaryControlFlag": false,
+   "LedgerCategoryCode": "SECONDARY",
+   "LedgerId": "300000388159009",
+   "Name": "HAHA secondary ledger",
+   "LedgerTypeCode": "L",
+   "PeriodSetName": "HAHALedger",
+   "SequencingModeCode": "N",
+   "ApDocumentSequencingOptionFlag": null,
+   "ArDocumentSequencingOptionFlag": null,
+   "EnfSequenceDateCorrelationCode": null,
+   "CurrencyCode": "USD",
+   "@context": {
+    "key": "300000388159009"
+   }
+  },
+  {
+   "AccountedPeriodType": "MONTH4807015332",
+   "ChartOfAccountsId": "50002",
+   "Description": null,
+   "EnableBudgetaryControlFlag": false,
+   "LedgerCategoryCode": "PRIMARY",
+   "LedgerId": "300000387440892",
+   "Name": "HAHALedger IN",
+   "LedgerTypeCode": "L",
+   "PeriodSetName": "HAHALedger",
+   "SequencingModeCode": "L",
+   "ApDocumentSequencingOptionFlag": false,
+   "ArDocumentSequencingOptionFlag": false,
+   "EnfSequenceDateCorrelationCode": "N",
+   "CurrencyCode": "INR",
+   "@context": {
+    "key": "300000387440892"
+   }
+  },
+  {
+   "AccountedPeriodType": "MONTH4807015332",
+   "ChartOfAccountsId": "50002",
+   "Description": null,
+   "EnableBudgetaryControlFlag": false,
+   "LedgerCategoryCode": "PRIMARY",
+   "LedgerId": "300000387440891",
+   "Name": "HAHALedger US",
+   "LedgerTypeCode": "L",
+   "PeriodSetName": "HAHALedger",
+   "SequencingModeCode": "N",
+   "ApDocumentSequencingOptionFlag": false,
+   "ArDocumentSequencingOptionFlag": false,
+   "EnfSequenceDateCorrelationCode": "N",
+   "CurrencyCode": "USD",
+   "@context": {
+    "key": "300000387440891"
+   }
+  },
+  {
+   "AccountedPeriodType": "MONTH7304180798",
+   "ChartOfAccountsId": "2001",
+   "Description": "Testing GL for the Miscellaneous Transactions",
+   "EnableBudgetaryControlFlag": false,
+   "LedgerCategoryCode": "PRIMARY",
+   "LedgerId": "300000337726017",
+   "Name": "KHO GL",
+   "LedgerTypeCode": "L",
+   "PeriodSetName": "GS Account",
+   "SequencingModeCode": "N",
+   "ApDocumentSequencingOptionFlag": null,
+   "ArDocumentSequencingOptionFlag": null,
+   "EnfSequenceDateCorrelationCode": "N",
+   "CurrencyCode": "PKR",
+   "@context": {
+    "key": "300000337726017"
+   }
+  },
+  {
+   "AccountedPeriodType": "MONTH3804694215",
+   "ChartOfAccountsId": "54002",
+   "Description": "Kestrel Ridge primary ledger, USD",
+   "EnableBudgetaryControlFlag": false,
+   "LedgerCategoryCode": "PRIMARY",
+   "LedgerId": "300000394640344",
+   "Name": "KR US Primary Ledger",
+   "LedgerTypeCode": "L",
+   "PeriodSetName": "KR Monthly Cale",
+   "SequencingModeCode": "L",
+   "ApDocumentSequencingOptionFlag": false,
+   "ArDocumentSequencingOptionFlag": false,
+   "EnfSequenceDateCorrelationCode": "N",
+   "CurrencyCode": "USD",
+   "@context": {
+    "key": "300000394640344"
+   }
+  },
+  {
+   "AccountedPeriodType": "MONTH9987884964",
+   "ChartOfAccountsId": "53002",
+   "Description": "MG GBP Reporting currency",
+   "EnableBudgetaryControlFlag": false,
+   "LedgerCategoryCode": "ALC",
+   "LedgerId": "300000391266059",
+   "Name": "MG GBP Reporting currency",
+   "LedgerTypeCode": "L",
+   "PeriodSetName": "MG Calendar",
+   "SequencingModeCode": "N",
+   "ApDocumentSequencingOptionFlag": false,
+   "ArDocumentSequencingOptionFlag": false,
+   "EnfSequenceDateCorrelationCode": "N",
+   "CurrencyCode": "GBP",
+   "@context": {
+    "key": "300000391266059"
+   }
+  },
+  {
+   "AccountedPeriodType": "MONTH9987884964",
+   "ChartOfAccountsId": "53002",
+   "Description": "MG Momina ledger set",
+   "EnableBudgetaryControlFlag": false,
+   "LedgerCategoryCode": "NONE",
+   "LedgerId": "300000391266064",
+   "Name": "MG Ledger set",
+   "LedgerTypeCode": "S",
+   "PeriodSetName": "MG Calendar",
+   "SequencingModeCode": null,
+   "ApDocumentSequencingOptionFlag": null,
+   "ArDocumentSequencingOptionFlag": null,
+   "EnfSequenceDateCorrelationCode": null,
+   "CurrencyCode": "X",
+   "@context": {
+    "key": "300000391266064"
+   }
+  },
+  {
+   "AccountedPeriodType": "MONTH9987884964",
+   "ChartOfAccountsId": "53002",
+   "Description": "Momina ledger",
+   "EnableBudgetaryControlFlag": false,
+   "LedgerCategoryCode": "PRIMARY",
+   "LedgerId": "300000391266030",
+   "Name": "MG Primary ledger",
+   "LedgerTypeCode": "L",
+   "PeriodSetName": "MG Calendar",
+   "SequencingModeCode": "N",
+   "ApDocumentSequencingOptionFlag": null,
+   "ArDocumentSequencingOptionFlag": null,
+   "EnfSequenceDateCorrelationCode": "N",
+   "CurrencyCode": "USD",
+   "@context": {
+    "key": "300000391266030"
+   }
+  },
+  {
+   "AccountedPeriodType": "MONTH9987884964",
+   "ChartOfAccountsId": "53002",
+   "Description": "Momina secondary ledger",
+   "EnableBudgetaryControlFlag": false,
+   "LedgerCategoryCode": "SECONDARY",
+   "LedgerId": "300000393343009",
+   "Name": "MG Secondary Ledger",
+   "LedgerTypeCode": "L",
+   "PeriodSetName": "MG Calendar",
+   "SequencingModeCode": "N",
+   "ApDocumentSequencingOptionFlag": null,
+   "ArDocumentSequencingOptionFlag": null,
+   "EnfSequenceDateCorrelationCode": null,
+   "CurrencyCode": "USD",
+   "@context": {
+    "key": "300000393343009"
+   }
+  },
+  {
+   "AccountedPeriodType": "MONTH9987884964",
+   "ChartOfAccountsId": "53002",
+   "Description": "Momina final secondary ledger",
+   "EnableBudgetaryControlFlag": false,
+   "LedgerCategoryCode": "SECONDARY",
+   "LedgerId": "300000393343013",
+   "Name": "MG final Secondary Ledger",
+   "LedgerTypeCode": "L",
+   "PeriodSetName": "MG Calendar",
+   "SequencingModeCode": "N",
+   "ApDocumentSequencingOptionFlag": null,
+   "ArDocumentSequencingOptionFlag": null,
+   "EnfSequenceDateCorrelationCode": null,
+   "CurrencyCode": "USD",
+   "@context": {
+    "key": "300000393343013"
+   }
+  },
+  {
+   "AccountedPeriodType": "MONTH4761998953",
+   "ChartOfAccountsId": "48002",
+   "Description": null,
+   "EnableBudgetaryControlFlag": false,
+   "LedgerCategoryCode": "NONE",
+   "LedgerId": "300000386717248",
+   "Name": "MM Ledger Set",
+   "LedgerTypeCode": "S",
+   "PeriodSetName": "001",
+   "SequencingModeCode": null,
+   "ApDocumentSequencingOptionFlag": null,
+   "ArDocumentSequencingOptionFlag": null,
+   "EnfSequenceDateCorrelationCode": null,
+   "CurrencyCode": "X",
+   "@context": {
+    "key": "300000386717248"
+   }
+  },
+  {
+   "AccountedPeriodType": "MONTH4761998953",
+   "ChartOfAccountsId": "48002",
+   "Description": null,
+   "EnableBudgetaryControlFlag": false,
+   "LedgerCategoryCode": "PRIMARY",
+   "LedgerId": "300000386655002",
+   "Name": "MM Primary Ledger",
+   "LedgerTypeCode": "L",
+   "PeriodSetName": "001",
+   "SequencingModeCode": "N",
+   "ApDocumentSequencingOptionFlag": null,
+   "ArDocumentSequencingOptionFlag": null,
+   "EnfSequenceDateCorrelationCode": "N",
+   "CurrencyCode": "USD",
+   "@context": {
+    "key": "300000386655002"
+   }
+  },
+  {
+   "AccountedPeriodType": "MONTH4030829914",
+   "ChartOfAccountsId": "48002",
+   "Description": null,
+   "EnableBudgetaryControlFlag": false,
+   "LedgerCategoryCode": "SECONDARY",
+   "LedgerId": "300000386717226",
+   "Name": "MM Secondary Ledger",
+   "LedgerTypeCode": "L",
+   "PeriodSetName": "MM-Calender",
+   "SequencingModeCode": "N",
+   "ApDocumentSequencingOptionFlag": null,
+   "ArDocumentSequencingOptionFlag": null,
+   "EnfSequenceDateCorrelationCode": null,
+   "CurrencyCode": "USD",
+   "@context": {
+    "key": "300000386717226"
+   }
+  },
+  {
+   "AccountedPeriodType": "MONTH4761998953",
+   "ChartOfAccountsId": "48002",
+   "Description": null,
+   "EnableBudgetaryControlFlag": false,
+   "LedgerCategoryCode": "SECONDARY",
+   "LedgerId": "300000386717233",
+   "Name": "MMM Secondary Ledger",
+   "LedgerTypeCode": "L",
+   "PeriodSetName": "001",
+   "SequencingModeCode": "N",
+   "ApDocumentSequencingOptionFlag": null,
+   "ArDocumentSequencingOptionFlag": null,
+   "EnfSequenceDateCorrelationCode": null,
+   "CurrencyCode": "USD",
+   "@context": {
+    "key": "300000386717233"
+   }
+  },
+  {
+   "AccountedPeriodType": "MONTH8007452049",
+   "ChartOfAccountsId": "13001",
+   "Description": null,
+   "EnableBudgetaryControlFlag": false,
+   "LedgerCategoryCode": "PRIMARY",
+   "LedgerId": "300000327491146",
+   "Name": "MWBK Primary Ledger Pakistan",
+   "LedgerTypeCode": "L",
+   "PeriodSetName": "MWBK A Calendar",
+   "SequencingModeCode": "N",
+   "ApDocumentSequencingOptionFlag": null,
+   "ArDocumentSequencingOptionFlag": null,
+   "EnfSequenceDateCorrelationCode": "N",
+   "CurrencyCode": "PKR",
+   "@context": {
+    "key": "300000327491146"
+   }
+  },
+  {
+   "AccountedPeriodType": "MONTH7657588696",
+   "ChartOfAccountsId": "12001",
+   "Description": "Ledger",
+   "EnableBudgetaryControlFlag": false,
+   "LedgerCategoryCode": "PRIMARY",
+   "LedgerId": "300000329151240",
+   "Name": "Mannan Ledger",
+   "LedgerTypeCode": "L",
+   "PeriodSetName": "GoSaaS MFG",
+   "SequencingModeCode": "N",
+   "ApDocumentSequencingOptionFlag": null,
+   "ArDocumentSequencingOptionFlag": null,
+   "EnfSequenceDateCorrelationCode": "N",
+   "CurrencyCode": "USD",
+   "@context": {
+    "key": "300000329151240"
+   }
+  },
+  {
+   "AccountedPeriodType": "MONTH4023686846",
+   "ChartOfAccountsId": "49004",
+   "Description": "N24 Secondary Ledger",
+   "EnableBudgetaryControlFlag": false,
+   "LedgerCategoryCode": "SECONDARY",
+   "LedgerId": "300000386780769",
+   "Name": "N24 Secondary Ledger",
+   "LedgerTypeCode": "L",
+   "PeriodSetName": "N24Ledger",
+   "SequencingModeCode": "N",
+   "ApDocumentSequencingOptionFlag": null,
+   "ArDocumentSequencingOptionFlag": null,
+   "EnfSequenceDateCorrelationCode": null,
+   "CurrencyCode": "USD",
+   "@context": {
+    "key": "300000386780769"
+   }
+  },
+  {
+   "AccountedPeriodType": "MONTH4023686846",
+   "ChartOfAccountsId": "49004",
+   "Description": null,
+   "EnableBudgetaryControlFlag": false,
+   "LedgerCategoryCode": "PRIMARY",
+   "LedgerId": "300000386471254",
+   "Name": "N24Ledger IN",
+   "LedgerTypeCode": "L",
+   "PeriodSetName": "N24Ledger",
+   "SequencingModeCode": "L",
+   "ApDocumentSequencingOptionFlag": false,
+   "ArDocumentSequencingOptionFlag": false,
+   "EnfSequenceDateCorrelationCode": "N",
+   "CurrencyCode": "INR",
+   "@context": {
+    "key": "300000386471254"
+   }
+  },
+  {
+   "AccountedPeriodType": "MONTH4023686846",
+   "ChartOfAccountsId": "49004",
+   "Description": null,
+   "EnableBudgetaryControlFlag": false,
+   "LedgerCategoryCode": "PRIMARY",
+   "LedgerId": "300000386471253",
+   "Name": "N24Ledger US",
+   "LedgerTypeCode": "L",
+   "PeriodSetName": "N24Ledger",
+   "SequencingModeCode": "N",
+   "ApDocumentSequencingOptionFlag": false,
+   "ArDocumentSequencingOptionFlag": false,
+   "EnfSequenceDateCorrelationCode": "N",
+   "CurrencyCode": "USD",
+   "@context": {
+    "key": "300000386471253"
+   }
+  },
+  {
+   "AccountedPeriodType": "MONTH7657588696",
+   "ChartOfAccountsId": "45002",
+   "Description": null,
+   "EnableBudgetaryControlFlag": false,
+   "LedgerCategoryCode": "PRIMARY",
+   "LedgerId": "300000385583001",
+   "Name": "NN2_Primary_Ledger",
+   "LedgerTypeCode": "L",
+   "PeriodSetName": "GoSaaS MFG",
+   "SequencingModeCode": "N",
+   "ApDocumentSequencingOptionFlag": null,
+   "ArDocumentSequencingOptionFlag": null,
+   "EnfSequenceDateCorrelationCode": "N",
+   "CurrencyCode": "PKR",
+   "@context": {
+    "key": "300000385583001"
+   }
+  },
+  {
+   "AccountedPeriodType": "MONTH7304180798",
+   "ChartOfAccountsId": "44002",
+   "Description": null,
+   "EnableBudgetaryControlFlag": false,
+   "LedgerCategoryCode": "PRIMARY",
+   "LedgerId": "300000384796713",
+   "Name": "NN_Primary_Ledger",
+   "LedgerTypeCode": "L",
+   "PeriodSetName": "GS Account",
+   "SequencingModeCode": "N",
+   "ApDocumentSequencingOptionFlag": null,
+   "ArDocumentSequencingOptionFlag": null,
+   "EnfSequenceDateCorrelationCode": "N",
+   "CurrencyCode": "PKR",
+   "@context": {
+    "key": "300000384796713"
+   }
+  },
+  {
+   "AccountedPeriodType": "MONTH5620049710",
+   "ChartOfAccountsId": "39002",
+   "Description": null,
+   "EnableBudgetaryControlFlag": false,
+   "LedgerCategoryCode": "PRIMARY",
+   "LedgerId": "300000338107614",
+   "Name": "PP Ledger",
+   "LedgerTypeCode": "L",
+   "PeriodSetName": "PPLedger",
+   "SequencingModeCode": "N",
+   "ApDocumentSequencingOptionFlag": null,
+   "ArDocumentSequencingOptionFlag": null,
+   "EnfSequenceDateCorrelationCode": "N",
+   "CurrencyCode": "USS",
+   "@context": {
+    "key": "300000338107614"
+   }
+  },
+  {
+   "AccountedPeriodType": "MONTH5620049710",
+   "ChartOfAccountsId": "39002",
+   "Description": "PP secondary",
+   "EnableBudgetaryControlFlag": false,
+   "LedgerCategoryCode": "SECONDARY",
+   "LedgerId": "300000338107248",
+   "Name": "PP secondary",
+   "LedgerTypeCode": "L",
+   "PeriodSetName": "PPLedger",
+   "SequencingModeCode": "N",
+   "ApDocumentSequencingOptionFlag": null,
+   "ArDocumentSequencingOptionFlag": null,
+   "EnfSequenceDateCorrelationCode": null,
+   "CurrencyCode": "USD",
+   "@context": {
+    "key": "300000338107248"
+   }
+  },
+  {
+   "AccountedPeriodType": "MONTH5620049710",
+   "ChartOfAccountsId": "39002",
+   "Description": null,
+   "EnableBudgetaryControlFlag": false,
+   "LedgerCategoryCode": "PRIMARY",
+   "LedgerId": "300000338422432",
+   "Name": "PPLedger US",
+   "LedgerTypeCode": "L",
+   "PeriodSetName": "PPLedger",
+   "SequencingModeCode": "N",
+   "ApDocumentSequencingOptionFlag": false,
+   "ArDocumentSequencingOptionFlag": false,
+   "EnfSequenceDateCorrelationCode": "N",
+   "CurrencyCode": "USD",
+   "@context": {
+    "key": "300000338422432"
+   }
+  },
+  {
+   "AccountedPeriodType": "MONTH7304180798",
+   "ChartOfAccountsId": "17001",
+   "Description": "Pakistan",
+   "EnableBudgetaryControlFlag": false,
+   "LedgerCategoryCode": "PRIMARY",
+   "LedgerId": "300000329151068",
+   "Name": "S-1",
+   "LedgerTypeCode": "L",
+   "PeriodSetName": "GS Account",
+   "SequencingModeCode": "N",
+   "ApDocumentSequencingOptionFlag": null,
+   "ArDocumentSequencingOptionFlag": null,
+   "EnfSequenceDateCorrelationCode": "N",
+   "CurrencyCode": "USD",
+   "@context": {
+    "key": "300000329151068"
+   }
+  },
+  {
+   "AccountedPeriodType": "MONTH4313841591",
+   "ChartOfAccountsId": "12001",
+   "Description": "Pakistan",
+   "EnableBudgetaryControlFlag": false,
+   "LedgerCategoryCode": "PRIMARY",
+   "LedgerId": "300000329151073",
+   "Name": "S-2",
+   "LedgerTypeCode": "L",
+   "PeriodSetName": "ASCEND_001",
+   "SequencingModeCode": "N",
+   "ApDocumentSequencingOptionFlag": null,
+   "ArDocumentSequencingOptionFlag": null,
+   "EnfSequenceDateCorrelationCode": "N",
+   "CurrencyCode": "USD",
+   "@context": {
+    "key": "300000329151073"
+   }
+  },
+  {
+   "AccountedPeriodType": "MONTH7657588696",
+   "ChartOfAccountsId": "12001",
+   "Description": "Pakistan",
+   "EnableBudgetaryControlFlag": false,
+   "LedgerCategoryCode": "PRIMARY",
+   "LedgerId": "300000329151076",
+   "Name": "S-3",
+   "LedgerTypeCode": "L",
+   "PeriodSetName": "GoSaaS MFG",
+   "SequencingModeCode": "N",
+   "ApDocumentSequencingOptionFlag": null,
+   "ArDocumentSequencingOptionFlag": null,
+   "EnfSequenceDateCorrelationCode": "N",
+   "CurrencyCode": "USD",
+   "@context": {
+    "key": "300000329151076"
+   }
+  },
+  {
+   "AccountedPeriodType": "MONTH7304180798",
+   "ChartOfAccountsId": "12001",
+   "Description": "GoSaaS",
+   "EnableBudgetaryControlFlag": false,
+   "LedgerCategoryCode": "PRIMARY",
+   "LedgerId": "300000329151112",
+   "Name": "S-400",
+   "LedgerTypeCode": "L",
+   "PeriodSetName": "GS Account",
+   "SequencingModeCode": "N",
+   "ApDocumentSequencingOptionFlag": null,
+   "ArDocumentSequencingOptionFlag": null,
+   "EnfSequenceDateCorrelationCode": "N",
+   "CurrencyCode": "USD",
+   "@context": {
+    "key": "300000329151112"
+   }
+  },
+  {
+   "AccountedPeriodType": "MONTH7304180798",
+   "ChartOfAccountsId": "12001",
+   "Description": "Ledger 2",
+   "EnableBudgetaryControlFlag": false,
+   "LedgerCategoryCode": "SECONDARY",
+   "LedgerId": "300000329151132",
+   "Name": "S-401",
+   "LedgerTypeCode": "L",
+   "PeriodSetName": "GS Account",
+   "SequencingModeCode": "N",
+   "ApDocumentSequencingOptionFlag": null,
+   "ArDocumentSequencingOptionFlag": null,
+   "EnfSequenceDateCorrelationCode": null,
+   "CurrencyCode": "USD",
+   "@context": {
+    "key": "300000329151132"
+   }
+  },
+  {
+   "AccountedPeriodType": "MONTH7657588696",
+   "ChartOfAccountsId": "12001",
+   "Description": "T",
+   "EnableBudgetaryControlFlag": false,
+   "LedgerCategoryCode": "PRIMARY",
+   "LedgerId": "300000328999989",
+   "Name": "T2 Ledger",
+   "LedgerTypeCode": "L",
+   "PeriodSetName": "GoSaaS MFG",
+   "SequencingModeCode": "N",
+   "ApDocumentSequencingOptionFlag": null,
+   "ArDocumentSequencingOptionFlag": null,
+   "EnfSequenceDateCorrelationCode": "N",
+   "CurrencyCode": "USD",
+   "@context": {
+    "key": "300000328999989"
+   }
+  },
+  {
+   "AccountedPeriodType": "MONTH7304180798",
+   "ChartOfAccountsId": "2001",
+   "Description": "TEST GL LEDGER",
+   "EnableBudgetaryControlFlag": false,
+   "LedgerCategoryCode": "PRIMARY",
+   "LedgerId": "300000327019422",
+   "Name": "TEST GL LEDGER",
+   "LedgerTypeCode": "L",
+   "PeriodSetName": "GS Account",
+   "SequencingModeCode": "N",
+   "ApDocumentSequencingOptionFlag": null,
+   "ArDocumentSequencingOptionFlag": null,
+   "EnfSequenceDateCorrelationCode": "N",
+   "CurrencyCode": "USD",
+   "@context": {
+    "key": "300000327019422"
+   }
+  },
+  {
+   "AccountedPeriodType": "MONTH6506294041",
+   "ChartOfAccountsId": "21001",
+   "Description": null,
+   "EnableBudgetaryControlFlag": false,
+   "LedgerCategoryCode": "PRIMARY",
+   "LedgerId": "300000333621585",
+   "Name": "TM Ledger CA",
+   "LedgerTypeCode": "L",
+   "PeriodSetName": "TM Ledger",
+   "SequencingModeCode": "N",
+   "ApDocumentSequencingOptionFlag": false,
+   "ArDocumentSequencingOptionFlag": false,
+   "EnfSequenceDateCorrelationCode": "N",
+   "CurrencyCode": "CAD",
+   "@context": {
+    "key": "300000333621585"
+   }
+  },
+  {
+   "AccountedPeriodType": "MONTH6506294041",
+   "ChartOfAccountsId": "21001",
+   "Description": null,
+   "EnableBudgetaryControlFlag": false,
+   "LedgerCategoryCode": "PRIMARY",
+   "LedgerId": "300000333621584",
+   "Name": "TM Ledger US",
+   "LedgerTypeCode": "L",
+   "PeriodSetName": "TM Ledger",
+   "SequencingModeCode": "N",
+   "ApDocumentSequencingOptionFlag": false,
+   "ArDocumentSequencingOptionFlag": false,
+   "EnfSequenceDateCorrelationCode": "N",
+   "CurrencyCode": "USD",
+   "@context": {
+    "key": "300000333621584"
+   }
+  },
+  {
+   "AccountedPeriodType": "MONTH7304180798",
+   "ChartOfAccountsId": "2001",
+   "Description": "POC",
+   "EnableBudgetaryControlFlag": false,
+   "LedgerCategoryCode": "PRIMARY",
+   "LedgerId": "300000327478575",
+   "Name": "TestLedger",
+   "LedgerTypeCode": "L",
+   "PeriodSetName": "GS Account",
+   "SequencingModeCode": "N",
+   "ApDocumentSequencingOptionFlag": null,
+   "ArDocumentSequencingOptionFlag": null,
+   "EnfSequenceDateCorrelationCode": "N",
+   "CurrencyCode": "USD",
+   "@context": {
+    "key": "300000327478575"
+   }
+  },
+  {
+   "AccountedPeriodType": "MONTH7657588696",
+   "ChartOfAccountsId": "12001",
+   "Description": null,
+   "EnableBudgetaryControlFlag": false,
+   "LedgerCategoryCode": "SECONDARY",
+   "LedgerId": "300000337168013",
+   "Name": "URA OPERATIONS",
+   "LedgerTypeCode": "L",
+   "PeriodSetName": "GoSaaS MFG",
+   "SequencingModeCode": "N",
+   "ApDocumentSequencingOptionFlag": null,
+   "ArDocumentSequencingOptionFlag": null,
+   "EnfSequenceDateCorrelationCode": null,
+   "CurrencyCode": "GBP",
+   "@context": {
+    "key": "300000337168013"
+   }
+  },
+  {
+   "AccountedPeriodType": "MONTH7657588696",
+   "ChartOfAccountsId": "12001",
+   "Description": null,
+   "EnableBudgetaryControlFlag": false,
+   "LedgerCategoryCode": "PRIMARY",
+   "LedgerId": "300000337168008",
+   "Name": "USAMA LEDGER",
+   "LedgerTypeCode": "L",
+   "PeriodSetName": "GoSaaS MFG",
+   "SequencingModeCode": "N",
+   "ApDocumentSequencingOptionFlag": null,
+   "ArDocumentSequencingOptionFlag": null,
+   "EnfSequenceDateCorrelationCode": "N",
+   "CurrencyCode": "USD",
+   "@context": {
+    "key": "300000337168008"
+   }
+  },
+  {
+   "AccountedPeriodType": "MONTH2506690185",
+   "ChartOfAccountsId": "42002",
+   "Description": null,
+   "EnableBudgetaryControlFlag": false,
+   "LedgerCategoryCode": "ALC",
+   "LedgerId": "300000385902668",
+   "Name": "YEN",
+   "LedgerTypeCode": "L",
+   "PeriodSetName": "AKLedger",
+   "SequencingModeCode": "N",
+   "ApDocumentSequencingOptionFlag": false,
+   "ArDocumentSequencingOptionFlag": false,
+   "EnfSequenceDateCorrelationCode": "N",
+   "CurrencyCode": "JPY",
+   "@context": {
+    "key": "300000385902668"
+   }
+  },
+  {
+   "AccountedPeriodType": "MONTH8101456137",
+   "ChartOfAccountsId": "2001",
+   "Description": null,
+   "EnableBudgetaryControlFlag": false,
+   "LedgerCategoryCode": "PRIMARY",
+   "LedgerId": "300000336736045",
+   "Name": "abcusama",
+   "LedgerTypeCode": "L",
+   "PeriodSetName": "TESTCALENDAR",
+   "SequencingModeCode": "N",
+   "ApDocumentSequencingOptionFlag": null,
+   "ArDocumentSequencingOptionFlag": null,
+   "EnfSequenceDateCorrelationCode": "N",
+   "CurrencyCode": "USD",
+   "@context": {
+    "key": "300000336736045"
+   }
+  },
+  {
+   "AccountedPeriodType": "MONTH3176786103",
+   "ChartOfAccountsId": "37001",
+   "Description": null,
+   "EnableBudgetaryControlFlag": false,
+   "LedgerCategoryCode": "PRIMARY",
+   "LedgerId": "300000337911007",
+   "Name": "amn ledger",
+   "LedgerTypeCode": "L",
+   "PeriodSetName": "AMN Calendar",
+   "SequencingModeCode": "N",
+   "ApDocumentSequencingOptionFlag": null,
+   "ArDocumentSequencingOptionFlag": null,
+   "EnfSequenceDateCorrelationCode": "N",
+   "CurrencyCode": "NEWCUR",
+   "@context": {
+    "key": "300000337911007"
+   }
+  },
+  {
+   "AccountedPeriodType": "MONTH8101456137",
+   "ChartOfAccountsId": "42002",
+   "Description": null,
+   "EnableBudgetaryControlFlag": false,
+   "LedgerCategoryCode": "PRIMARY",
+   "LedgerId": "300000387417269",
+   "Name": "araprimaryledgerr",
+   "LedgerTypeCode": "L",
+   "PeriodSetName": "TESTCALENDAR",
+   "SequencingModeCode": "N",
+   "ApDocumentSequencingOptionFlag": null,
+   "ArDocumentSequencingOptionFlag": null,
+   "EnfSequenceDateCorrelationCode": "N",
+   "CurrencyCode": "USD",
+   "@context": {
+    "key": "300000387417269"
+   }
+  }
+ ],
+ "count": 68,
+ "pages": 1
+}

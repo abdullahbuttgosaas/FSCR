@@ -1,0 +1,1 @@
+{"operations":[{"id":"r1","action":"create","entity":"AR_REMIT_TO_LOCATION","targetKey":{"SetCode":"ENTERPRISE","TerritoryCode":"US","Address1":"FSCRT_1 Remit Way","OrigSystemReference":"","PostalCode":"02110","State":"MA","City":"Boston"},"values":{"ShortDescription":"FSCRT_RMT1","Description":"FSCRT Run04 remit-to"}}]}

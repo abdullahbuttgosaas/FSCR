@@ -1,0 +1,32 @@
+== DOO_MANAGE_ORCHESTRATION_LOOKUPS --template-only start 22:07:24
+Started setup task CSV template export process: 100004733458054
+ProcessCompletedFlag: False; StatusCode: (no result yet); ResultCount: 0
+ProcessCompletedFlag: False; StatusCode: (no result yet); ResultCount: 0
+ProcessCompletedFlag: True; StatusCode: (no result yet); ResultCount: 0
+StatusCode: (unknown)
+Wrote E:\GoSaaS\Configuration Automation v2.1\fscr-main\_fscr_run_06_requirements\evidence\exports\DOO_MANAGE_ORCHESTRATION_LOOKUPS\ETIA-TEST_setup_task_csv_template_export_doo_manage_orchestration_lookups_100004733458054.zip (1859 bytes)
+== DOO_MANAGE_ORCHESTRATION_LOOKUPS --template-only end 22:07:59
+== DOO_MANAGE_ORCHESTRATION_LOOKUPS --data start 22:07:59
+Started setup task CSV export process: 100004734424696
+ProcessCompletedFlag: False; StatusCode: (no result yet); ResultCount: 0
+ProcessCompletedFlag: False; StatusCode: (no result yet); ResultCount: 0
+ProcessCompletedFlag: True; StatusCode: (no result yet); ResultCount: 0
+StatusCode: (unknown)
+Wrote E:\GoSaaS\Configuration Automation v2.1\fscr-main\_fscr_run_06_requirements\evidence\exports\DOO_MANAGE_ORCHESTRATION_LOOKUPS\ETIA-TEST_setup_task_csv_export_doo_manage_orchestration_lookups_100004734424696.zip (5916 bytes)
+== DOO_MANAGE_ORCHESTRATION_LOOKUPS --data end 22:08:33
+== AR_MANAGE_AUTOINVOICE_GROUPING_RULES --template-only start 22:08:33
+Started setup task CSV template export process: 100004733457644
+ProcessCompletedFlag: False; StatusCode: (no result yet); ResultCount: 0
+ProcessCompletedFlag: False; StatusCode: (no result yet); ResultCount: 0
+ProcessCompletedFlag: True; StatusCode: (no result yet); ResultCount: 0
+StatusCode: (unknown)
+Wrote E:\GoSaaS\Configuration Automation v2.1\fscr-main\_fscr_run_06_requirements\evidence\exports\AR_MANAGE_AUTOINVOICE_GROUPING_RULES\ETIA-TEST_setup_task_csv_template_export_ar_manage_autoinvoice_grouping_rules_100004733457644.zip (1877 bytes)
+== AR_MANAGE_AUTOINVOICE_GROUPING_RULES --template-only end 22:09:29
+== AR_MANAGE_AUTOINVOICE_GROUPING_RULES --data start 22:09:29
+Started setup task CSV export process: 100004733459180
+ProcessCompletedFlag: False; StatusCode: (no result yet); ResultCount: 0
+ProcessCompletedFlag: False; StatusCode: (no result yet); ResultCount: 0
+ProcessCompletedFlag: True; StatusCode: (no result yet); ResultCount: 0
+StatusCode: (unknown)
+Wrote E:\GoSaaS\Configuration Automation v2.1\fscr-main\_fscr_run_06_requirements\evidence\exports\AR_MANAGE_AUTOINVOICE_GROUPING_RULES\ETIA-TEST_setup_task_csv_export_ar_manage_autoinvoice_grouping_rules_100004733459180.zip (2746 bytes)
+== AR_MANAGE_AUTOINVOICE_GROUPING_RULES --data end 22:10:02

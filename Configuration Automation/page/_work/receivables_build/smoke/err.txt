@@ -1,0 +1,8 @@
+Host: https://fa-etia-test-stub.invalid
+ORACLE_ENV: test
+  ZZ_TEST_AR_4821 (COMMON): new
+  ZZ_BADSET (ZZ_NOT_FOR_AR): new
+  ZZ_UNKNOWN (COMMON): new
+  process 4242
+  Oracle's result: COMPLETED_ERRORS
+Whole run: 0 s

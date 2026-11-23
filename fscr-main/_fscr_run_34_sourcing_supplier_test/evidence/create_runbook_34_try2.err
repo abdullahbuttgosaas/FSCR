@@ -1,0 +1,1 @@
+Run Book error: Project-backed Run Book creation requires runbook_control.status pending and an empty active_runbook_ref.

@@ -1,0 +1,10 @@
+{
+  "errors": [
+    {
+      "code": "ADAPTER_ERROR",
+      "message": "Relationship 3 violates package dependency order: AR_RECEIPT_METHOD must precede AR_CC_ERROR_MAPPINGS."
+    }
+  ],
+  "schemaVersion": "fscr-fsm-task-adapter-v1",
+  "status": "FAIL"
+}

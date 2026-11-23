@@ -1,0 +1,48 @@
+diff --git a/pillars/erp/financials/customer-billing/manage-receivables-payment-terms/scripts/payment_terms_fsm_package.py b/pillars/erp/financials/customer-billing/manage-receivables-payment-terms/scripts/payment_terms_fsm_package.py
+index c3e8093..187059c 100644
+--- a/pillars/erp/financials/customer-billing/manage-receivables-payment-terms/scripts/payment_terms_fsm_package.py
++++ b/pillars/erp/financials/customer-billing/manage-receivables-payment-terms/scripts/payment_terms_fsm_package.py
+@@ -34,12 +34,6 @@ PAYMENT_TERM_OBJECTS = {
+     "AR_PAYMENT_TERM_TRANSLATION",
+     "AR_PAYMENT_TERM_DISCOUNT",
+ }
+-PAYMENT_TERM_OBJECT_ORDER = [
+-    "AR_PAYMENT_TERM",
+-    "AR_PAYMENT_TERM_TRANSLATION",
+-    "AR_PAYMENT_TERM_DISCOUNT",
+-    "AR_PAYMENT_TERM_LINE",
+-]
+ OBJECT_TO_CSV = {
+     "AR_PAYMENT_TERM": HEADER_CSV,
+     "AR_PAYMENT_TERM_LINE": LINE_CSV,
+@@ -459,13 +453,9 @@ def _task_scope_issues(package: PackageData, *, exact_task: bool) -> list[Issue]
+                     + ", ".join(unexpected_objects),
+                 )
+             )
+-        if package.business_objects != PAYMENT_TERM_OBJECT_ORDER:
+-            issues.append(
+-                Issue(
+-                    "payment_terms_object_order_mismatch",
+-                    "Payment Terms business objects must retain the exact target metadata order.",
+-                )
+-            )
++        # Declaration order varies by pod (for example LINE, TERM, TRANSLATION,
++        # DISCOUNT); the target metadata is copied unchanged into candidates and
++        # cross-archive order equality is enforced against the baseline.
+     for object_name, csv_name in OBJECT_TO_CSV.items():
+         contract = package.object_contracts.get(object_name)
+         if not contract:
+@@ -2223,6 +2213,13 @@ def _prepare_design(
+         )
+     if not _object_contracts_compatible(template.object_contracts, baseline.object_contracts):
+         raise PackageError("template_baseline_metadata_mismatch", "Template and baseline Payment Terms field contracts differ.")
++    if template.business_objects != baseline.business_objects:
++        raise PackageError(
++            "payment_terms_object_order_mismatch",
++            "Template and baseline must declare Payment Terms business objects in the same target metadata order.",
++            templateOrder=template.business_objects,
++            baselineOrder=baseline.business_objects,
++        )
+     for csv_name in PAYMENT_TERM_CSVS:
+         if template.headers[csv_name] != baseline.headers[csv_name]:
+             raise PackageError("template_baseline_mismatch", f"{csv_name} headers differ between template and baseline.")

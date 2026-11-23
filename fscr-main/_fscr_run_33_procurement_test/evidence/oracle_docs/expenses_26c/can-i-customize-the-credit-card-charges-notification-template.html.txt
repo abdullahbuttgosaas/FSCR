@@ -1,0 +1,2 @@
+URL: https://docs.oracle.com/en/cloud/saas/financials/26c/faiex/can-i-customize-the-credit-card-charges-notification-template.html
+ Previous Next JavaScript must be enabled to correctly display this content Implementing Expenses Can I change the credit card charges notification template? Can I change the credit card charges notification template? No. The credit card charges notification template is fixed and you can’t change. 

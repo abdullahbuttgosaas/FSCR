@@ -1,0 +1,13 @@
+{
+ "archiveName": "po_manage_document_styles_fscrt.zip",
+ "rowCounts": {
+  "PO_DOC_STYLE_VALUE.csv": 1,
+  "PO_DOC_STYLE_HEADER.csv": 3,
+  "PO_DOC_STYLE_LINE.csv": 2,
+  "PO_DOC_STYLE_HEADER_TRANSLATION.csv": 3
+ },
+ "operation": "create",
+ "names": [
+  "FSCRT_R33 Style"
+ ]
+}

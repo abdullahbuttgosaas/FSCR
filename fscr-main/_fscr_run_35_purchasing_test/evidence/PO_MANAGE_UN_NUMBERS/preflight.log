@@ -1,0 +1,19 @@
+## Business Object Validation
+
+| Source | Type |
+|---|---|
+| po_manage_un_numbers_fscrt.zip | FSM Setup |
+
+### Validated upload
+
+| Item | Value |
+|---|---|
+| Validated ZIP | [po_manage_un_numbers_fscrt.zip](<E:\GoSaaS\Configuration Automation v2.1\fscr-main\_fscr_run_35_purchasing_test\payload\PO_MANAGE_UN_NUMBERS\po_manage_un_numbers_fscrt.zip>) |
+
+### Validation complete
+
+po_manage_un_numbers_fscrt.zip passed validation. No data was uploaded.
+
+### Approval required
+
+Reply with an approval to upload and initiate this exact validated load.

@@ -1,0 +1,6 @@
+{
+  "lookup_type": "ORA_DOO_ORDER_TYPES",
+  "codes": [
+    {"code": "ABDTEST", "meaning": "abdabd", "description": "Quick test"}
+  ]
+}

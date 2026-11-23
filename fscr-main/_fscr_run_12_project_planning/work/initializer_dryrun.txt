@@ -1,0 +1,3 @@
+$ python core/project-mgmt/project-workspace-initializer/scripts/initialize_project_workspace.py --customer "Twelve Benefit Corporation" --implementation-objective "Implement Oracle Cloud SCM for Twelve (SOW 50513scm)" --pillar SCM --pillar ERP --offering ... (6) --country US --identified-task-mapping ../work/identified-task-mapping.json --no-create-runbook --dry-run
+Would create project workspace: project\twelve-sow-50513scm-oracle-cloud-scm
+exit code: 0

@@ -1,0 +1,1134 @@
+{
+  "Resources" : {
+    "standardLookups" : {
+      "discrColumnType" : false,
+      "title" : "Standard Lookup Types VO",
+      "titlePlural" : "Standard Lookup Types",
+      "usage" : "BusinessObject",
+      "attributes" : [ {
+        "name" : "LookupType",
+        "type" : "string",
+        "updatable" : true,
+        "mandatory" : true,
+        "inputRequired" : true,
+        "queryable" : true,
+        "allowChanges" : "inCreate",
+        "precision" : 30,
+        "title" : "Lookup Type",
+        "maxLength" : "30",
+        "annotations" : {
+          "description" : "The lookup type that identifies the lookup."
+        }
+      }, {
+        "name" : "ModuleId",
+        "type" : "string",
+        "updatable" : true,
+        "mandatory" : true,
+        "inputRequired" : true,
+        "queryable" : true,
+        "allowChanges" : "always",
+        "precision" : 32,
+        "title" : "Module",
+        "maxLength" : "32",
+        "annotations" : {
+          "description" : "The unique identifier of the module."
+        }
+      }, {
+        "name" : "Meaning",
+        "type" : "string",
+        "updatable" : true,
+        "mandatory" : true,
+        "inputRequired" : true,
+        "queryable" : true,
+        "allowChanges" : "always",
+        "precision" : 80,
+        "title" : "Meaning",
+        "maxLength" : "80",
+        "annotations" : {
+          "description" : "The meaning of the lookup."
+        }
+      }, {
+        "name" : "Description",
+        "type" : "string",
+        "updatable" : true,
+        "mandatory" : false,
+        "queryable" : true,
+        "allowChanges" : "always",
+        "precision" : 240,
+        "title" : "Item Description",
+        "maxLength" : "240",
+        "properties" : {
+          "DISPLAYWIDTH" : "50"
+        },
+        "annotations" : {
+          "description" : "The description of the lookup."
+        }
+      }, {
+        "name" : "CustomizationLevel",
+        "type" : "string",
+        "updatable" : true,
+        "mandatory" : true,
+        "queryable" : true,
+        "allowChanges" : "always",
+        "precision" : 1,
+        "defaultValue" : "U",
+        "title" : "Lookup Configuration Level",
+        "maxLength" : "1",
+        "properties" : {
+          "DISPLAYWIDTH" : "10"
+        },
+        "annotations" : {
+          "description" : "A code that indicates the CustomizationLevel."
+        }
+      }, {
+        "name" : "RestAccessSecured",
+        "type" : "string",
+        "updatable" : true,
+        "mandatory" : false,
+        "queryable" : true,
+        "allowChanges" : "always",
+        "precision" : 8,
+        "title" : "REST Access Secured",
+        "maxLength" : "8",
+        "annotations" : {
+          "description" : "The level of security set on the associated REST service."
+        }
+      }, {
+        "name" : "CreatedBy",
+        "type" : "string",
+        "updatable" : false,
+        "mandatory" : true,
+        "queryable" : true,
+        "allowChanges" : "never",
+        "precision" : 64,
+        "annotations" : {
+          "description" : "The user who created the record."
+        }
+      }, {
+        "name" : "CreationDate",
+        "type" : "datetime",
+        "updatable" : false,
+        "mandatory" : true,
+        "queryable" : true,
+        "allowChanges" : "never",
+        "annotations" : {
+          "description" : "The date on which the record was created."
+        }
+      }, {
+        "name" : "LastUpdateDate",
+        "type" : "datetime",
+        "updatable" : false,
+        "mandatory" : true,
+        "queryable" : true,
+        "allowChanges" : "never",
+        "annotations" : {
+          "description" : "The date on which the record was last updated."
+        }
+      }, {
+        "name" : "LastUpdateLogin",
+        "type" : "string",
+        "updatable" : false,
+        "mandatory" : false,
+        "queryable" : true,
+        "allowChanges" : "never",
+        "precision" : 32,
+        "annotations" : {
+          "description" : "The login credentials of the user who last updated the record."
+        }
+      }, {
+        "name" : "LastUpdatedBy",
+        "type" : "string",
+        "updatable" : false,
+        "mandatory" : true,
+        "queryable" : true,
+        "allowChanges" : "never",
+        "precision" : 64,
+        "annotations" : {
+          "description" : "The user who last updated the record."
+        }
+      } ],
+      "collection" : {
+        "rangeSize" : 25,
+        "finders" : [ {
+          "name" : "LookupTypeFinder",
+          "title" : "LookupTypeCriteria",
+          "annotations" : {
+            "description" : "Finds all lookups for a lookup type."
+          },
+          "attributes" : [ {
+            "name" : "LookupType",
+            "type" : "string",
+            "updatable" : true,
+            "required" : "Optional",
+            "queryable" : false,
+            "allowChanges" : "always",
+            "annotations" : {
+              "description" : "The unique identifier of the lookup type."
+            }
+          } ]
+        }, {
+          "name" : "PrimaryKey",
+          "annotations" : {
+            "description" : "Finds the standard lookup for the given primary key."
+          },
+          "attributes" : [ {
+            "name" : "LookupType",
+            "type" : "string",
+            "updatable" : true,
+            "mandatory" : true,
+            "inputRequired" : true,
+            "queryable" : true,
+            "allowChanges" : "inCreate",
+            "precision" : 30,
+            "title" : "Lookup Type",
+            "maxLength" : "30",
+            "annotations" : {
+              "description" : "The unique identifier of the lookup type."
+            }
+          } ]
+        } ],
+        "links" : [ {
+          "rel" : "self",
+          "href" : "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups",
+          "name" : "self",
+          "kind" : "collection"
+        } ],
+        "actions" : [ {
+          "name" : "get",
+          "method" : "GET",
+          "responseType" : [ "application/vnd.oracle.adf.resourcecollection+json", "application/json" ],
+          "annotations" : {
+            "title" : "Get all standard lookups"
+          }
+        }, {
+          "name" : "create",
+          "method" : "POST",
+          "requestType" : [ "application/vnd.oracle.adf.resourceitem+json", "application/json" ],
+          "responseType" : [ "application/vnd.oracle.adf.resourceitem+json", "application/json" ],
+          "annotations" : {
+            "title" : "Create a standard lookup"
+          }
+        }, {
+          "name" : "upsert",
+          "method" : "POST",
+          "header" : "Upsert-Mode=true",
+          "requestType" : [ "application/vnd.oracle.adf.resourceitem+json", "application/json" ],
+          "responseType" : [ "application/vnd.oracle.adf.resourceitem+json", "application/json" ]
+        } ]
+      },
+      "item" : {
+        "links" : [ {
+          "rel" : "child",
+          "href" : "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/{id}/child/lookupCodes",
+          "name" : "lookupCodes",
+          "kind" : "collection",
+          "cardinality" : {
+            "value" : "1 to *",
+            "sourceAttributes" : "LookupType, ViewApplicationId",
+            "destinationAttributes" : "LookupType, ViewApplicationId"
+          }
+        }, {
+          "rel" : "child",
+          "href" : "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/{id}/child/translations",
+          "name" : "translations",
+          "kind" : "collection",
+          "cardinality" : {
+            "value" : "1 to *",
+            "sourceAttributes" : "LookupType, ViewApplicationId",
+            "destinationAttributes" : "LookupType, ViewApplicationId"
+          }
+        }, {
+          "rel" : "self",
+          "href" : "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/{id}",
+          "name" : "self",
+          "kind" : "item"
+        }, {
+          "rel" : "canonical",
+          "href" : "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/{id}",
+          "name" : "canonical",
+          "kind" : "item"
+        } ],
+        "actions" : [ {
+          "name" : "get",
+          "method" : "GET",
+          "responseType" : [ "application/vnd.oracle.adf.resourceitem+json", "application/json" ],
+          "annotations" : {
+            "title" : "Get a standard lookup"
+          }
+        }, {
+          "name" : "update",
+          "method" : "PATCH",
+          "requestType" : [ "application/vnd.oracle.adf.resourceitem+json", "application/json" ],
+          "responseType" : [ "application/vnd.oracle.adf.resourceitem+json", "application/json" ],
+          "annotations" : {
+            "title" : "Update a standard lookup"
+          }
+        }, {
+          "name" : "delete",
+          "method" : "DELETE",
+          "annotations" : {
+            "title" : "Delete a standard lookup"
+          }
+        } ]
+      },
+      "annotations" : {
+        "description" : "The standard lookups resource is used to view, create, update, and delete standard lookups, which list the available codes and translated meanings. Standard lookups are defined in the standard lookups view and store lookup codes that support reference data sharing."
+      },
+      "children" : {
+        "lookupCodes" : {
+          "discrColumnType" : false,
+          "title" : "Standard Lookup Codes VO",
+          "titlePlural" : "Standard Lookup Codes",
+          "attributes" : [ {
+            "name" : "LookupCode",
+            "type" : "string",
+            "updatable" : true,
+            "mandatory" : true,
+            "queryable" : true,
+            "allowChanges" : "inCreate",
+            "precision" : 30,
+            "hasDefaultValueExpression" : true,
+            "title" : "Lookup Code",
+            "maxLength" : "30",
+            "annotations" : {
+              "description" : "The unique code that identifies the lookup."
+            }
+          }, {
+            "name" : "Meaning",
+            "type" : "string",
+            "updatable" : true,
+            "mandatory" : true,
+            "inputRequired" : true,
+            "queryable" : true,
+            "allowChanges" : "always",
+            "precision" : 80,
+            "title" : "Meaning",
+            "maxLength" : "80",
+            "annotations" : {
+              "description" : "The meaning of the lookup code."
+            }
+          }, {
+            "name" : "Description",
+            "type" : "string",
+            "updatable" : true,
+            "mandatory" : false,
+            "queryable" : true,
+            "allowChanges" : "always",
+            "precision" : 240,
+            "title" : "Item Description",
+            "maxLength" : "240",
+            "annotations" : {
+              "description" : "The description of the lookup."
+            }
+          }, {
+            "name" : "EnabledFlag",
+            "type" : "string",
+            "updatable" : true,
+            "mandatory" : true,
+            "queryable" : true,
+            "allowChanges" : "always",
+            "precision" : 1,
+            "defaultValue" : "Y",
+            "title" : "Enabled",
+            "maxLength" : "1",
+            "annotations" : {
+              "description" : "Indicates if the lookup code is enabled or not."
+            }
+          }, {
+            "name" : "StartDateActive",
+            "type" : "date",
+            "updatable" : true,
+            "mandatory" : false,
+            "queryable" : true,
+            "allowChanges" : "always",
+            "title" : "Start Date",
+            "annotations" : {
+              "description" : "The date on which the lookup code becomes active."
+            }
+          }, {
+            "name" : "EndDateActive",
+            "type" : "date",
+            "updatable" : true,
+            "mandatory" : false,
+            "queryable" : true,
+            "allowChanges" : "always",
+            "title" : "End Date",
+            "annotations" : {
+              "description" : "The date on which the lookup code is no longer active."
+            }
+          }, {
+            "name" : "DisplaySequence",
+            "type" : "string",
+            "format" : "BigInt",
+            "updatable" : true,
+            "mandatory" : false,
+            "queryable" : true,
+            "allowChanges" : "always",
+            "precision" : 18,
+            "operators" : [ "=", "<>", "<", "<=", ">", ">=", "BETWEEN", "NOTBETWEEN", "ISBLANK", "ISNOTBLANK" ],
+            "title" : "Display Sequence",
+            "annotations" : {
+              "description" : "The sequence in which the lookup code should be displayed."
+            }
+          }, {
+            "name" : "Tag",
+            "type" : "string",
+            "updatable" : true,
+            "mandatory" : false,
+            "queryable" : true,
+            "allowChanges" : "always",
+            "precision" : 150,
+            "title" : "Tag",
+            "maxLength" : "150",
+            "annotations" : {
+              "description" : "An optional tag used to filter the lookup codes."
+            }
+          }, {
+            "name" : "CreatedBy",
+            "type" : "string",
+            "updatable" : false,
+            "mandatory" : true,
+            "queryable" : true,
+            "allowChanges" : "never",
+            "precision" : 64,
+            "annotations" : {
+              "description" : "The user who created the record."
+            }
+          }, {
+            "name" : "CreationDate",
+            "type" : "datetime",
+            "updatable" : false,
+            "mandatory" : true,
+            "queryable" : true,
+            "allowChanges" : "never",
+            "annotations" : {
+              "description" : "The date on which the record was created."
+            }
+          }, {
+            "name" : "LastUpdateDate",
+            "type" : "datetime",
+            "updatable" : false,
+            "mandatory" : true,
+            "queryable" : true,
+            "allowChanges" : "never",
+            "annotations" : {
+              "description" : "The date on which the record was last updated."
+            }
+          }, {
+            "name" : "LastUpdateLogin",
+            "type" : "string",
+            "updatable" : false,
+            "mandatory" : false,
+            "queryable" : true,
+            "allowChanges" : "never",
+            "precision" : 32,
+            "annotations" : {
+              "description" : "The login credentials of the user who last updated the record."
+            }
+          }, {
+            "name" : "LastUpdatedBy",
+            "type" : "string",
+            "updatable" : false,
+            "mandatory" : true,
+            "queryable" : true,
+            "allowChanges" : "never",
+            "precision" : 64,
+            "annotations" : {
+              "description" : "The user who last updated the record."
+            }
+          } ],
+          "collection" : {
+            "rangeSize" : 1,
+            "finders" : [ {
+              "name" : "LookupCodeFinder",
+              "title" : "LookupCodeCriteria",
+              "annotations" : {
+                "description" : "Finds all lookups for the given lookup code."
+              },
+              "attributes" : [ {
+                "name" : "LookupCode",
+                "type" : "string",
+                "updatable" : true,
+                "required" : "Optional",
+                "queryable" : false,
+                "allowChanges" : "always",
+                "annotations" : {
+                  "description" : "The unique identifier of the lookup code."
+                }
+              } ]
+            }, {
+              "name" : "PrimaryKey",
+              "annotations" : {
+                "description" : "Finds the lookup code for the given primary key."
+              },
+              "attributes" : [ {
+                "name" : "LookupCode",
+                "type" : "string",
+                "updatable" : true,
+                "mandatory" : true,
+                "queryable" : true,
+                "allowChanges" : "inCreate",
+                "precision" : 30,
+                "hasDefaultValueExpression" : true,
+                "title" : "Lookup Code",
+                "maxLength" : "30",
+                "annotations" : {
+                  "description" : "The unique identifier of the lookup code."
+                }
+              } ]
+            } ],
+            "links" : [ {
+              "rel" : "self",
+              "href" : "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/{id}/child/lookupCodes",
+              "name" : "self",
+              "kind" : "collection"
+            } ],
+            "actions" : [ {
+              "name" : "get",
+              "method" : "GET",
+              "responseType" : [ "application/vnd.oracle.adf.resourcecollection+json", "application/json" ],
+              "annotations" : {
+                "title" : "Get all lookup codes"
+              }
+            }, {
+              "name" : "create",
+              "method" : "POST",
+              "requestType" : [ "application/vnd.oracle.adf.resourceitem+json", "application/json" ],
+              "responseType" : [ "application/vnd.oracle.adf.resourceitem+json", "application/json" ],
+              "annotations" : {
+                "title" : "Create a lookup code"
+              }
+            }, {
+              "name" : "upsert",
+              "method" : "POST",
+              "header" : "Upsert-Mode=true",
+              "requestType" : [ "application/vnd.oracle.adf.resourceitem+json", "application/json" ],
+              "responseType" : [ "application/vnd.oracle.adf.resourceitem+json", "application/json" ]
+            } ]
+          },
+          "item" : {
+            "links" : [ {
+              "rel" : "child",
+              "href" : "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/{id}/child/lookupCodes/{id}/child/lookupsDFF",
+              "name" : "lookupsDFF",
+              "kind" : "collection",
+              "cardinality" : {
+                "value" : "1 to 1",
+                "sourceAttributes" : "ViewApplicationId, LookupType, SetId, LookupCode",
+                "destinationAttributes" : "ViewApplicationId, LookupType, SetId, LookupCode"
+              }
+            }, {
+              "rel" : "child",
+              "href" : "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/{id}/child/lookupCodes/{id}/child/translations",
+              "name" : "translations",
+              "kind" : "collection",
+              "cardinality" : {
+                "value" : "1 to *",
+                "sourceAttributes" : "LookupType, LookupCode, ViewApplicationId, SetId",
+                "destinationAttributes" : "LookupType, LookupCode, ViewApplicationId, SetId"
+              }
+            }, {
+              "rel" : "self",
+              "href" : "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/{id}/child/lookupCodes/{id}",
+              "name" : "self",
+              "kind" : "item"
+            }, {
+              "rel" : "parent",
+              "href" : "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/{id}",
+              "name" : "parent",
+              "kind" : "item"
+            }, {
+              "rel" : "canonical",
+              "href" : "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/{id}/child/lookupCodes/{id}",
+              "name" : "canonical",
+              "kind" : "item"
+            } ],
+            "actions" : [ {
+              "name" : "get",
+              "method" : "GET",
+              "responseType" : [ "application/vnd.oracle.adf.resourceitem+json", "application/json" ],
+              "annotations" : {
+                "title" : "Get a lookup code"
+              }
+            }, {
+              "name" : "update",
+              "method" : "PATCH",
+              "requestType" : [ "application/vnd.oracle.adf.resourceitem+json", "application/json" ],
+              "responseType" : [ "application/vnd.oracle.adf.resourceitem+json", "application/json" ],
+              "annotations" : {
+                "title" : "Update a lookup code"
+              }
+            }, {
+              "name" : "delete",
+              "method" : "DELETE",
+              "annotations" : {
+                "title" : "Delete a lookup code"
+              }
+            } ]
+          },
+          "annotations" : {
+            "description" : "The lookup codes resource is used to view, create, update, and delete standard lookup codes, which list the available codes and translated meanings. Standard lookups are defined in the standard lookups view and store lookup codes that enable reference data sharing."
+          },
+          "children" : {
+            "lookupsDFF" : {
+              "discrColumnType" : true,
+              "properties" : {
+                "FND_ACFF_ApplicationID" : "0",
+                "FND_ACFF_ApplicationShortName" : "FND",
+                "FND_ACFF_Delimiter" : ".",
+                "FND_ACFF_ModelID" : "DFF_FND_FND_5FLOOKUP_5FVALUES_5FB_FND_5FLOOKUP_5FVALUES_5FB_FND_5FLOOKUP_5FVALUES_5FB",
+                "FND_ACFF_Title" : "Lookup values descriptive flexfield",
+                "FND_ACFF_Type" : "DFF"
+              },
+              "attributes" : [ {
+                "name" : "LookupType",
+                "type" : "string",
+                "updatable" : true,
+                "mandatory" : true,
+                "inputRequired" : true,
+                "queryable" : true,
+                "allowChanges" : "always",
+                "precision" : 30,
+                "title" : "Lookup Type",
+                "includeInCompactView" : true,
+                "maxLength" : "30",
+                "properties" : {
+                  "DISPLAYHINT" : "Hide"
+                }
+              }, {
+                "name" : "LookupCode",
+                "type" : "string",
+                "updatable" : true,
+                "mandatory" : true,
+                "queryable" : true,
+                "allowChanges" : "always",
+                "precision" : 30,
+                "hasDefaultValueExpression" : true,
+                "title" : "Lookup Code",
+                "includeInCompactView" : true,
+                "maxLength" : "30",
+                "properties" : {
+                  "DISPLAYHINT" : "Hide"
+                }
+              }, {
+                "name" : "ViewApplicationId",
+                "type" : "string",
+                "format" : "BigInt",
+                "updatable" : true,
+                "mandatory" : true,
+                "inputRequired" : true,
+                "queryable" : true,
+                "allowChanges" : "always",
+                "precision" : 18,
+                "operators" : [ "=", "<>", "<", "<=", ">", ">=", "BETWEEN", "NOTBETWEEN", "ISBLANK", "ISNOTBLANK" ],
+                "includeInCompactView" : true,
+                "properties" : {
+                  "DISPLAYHINT" : "Hide"
+                }
+              }, {
+                "name" : "SetId",
+                "type" : "string",
+                "format" : "BigInt",
+                "updatable" : true,
+                "mandatory" : true,
+                "inputRequired" : true,
+                "queryable" : true,
+                "allowChanges" : "always",
+                "precision" : 18,
+                "operators" : [ "=", "<>", "<", "<=", ">", ">=", "BETWEEN", "NOTBETWEEN", "ISBLANK", "ISNOTBLANK" ],
+                "title" : "Reference Data Set",
+                "includeInCompactView" : true,
+                "properties" : {
+                  "DISPLAYHINT" : "Hide"
+                }
+              }, {
+                "name" : "__FLEX_Context",
+                "type" : "string",
+                "updatable" : true,
+                "mandatory" : false,
+                "queryable" : true,
+                "allowChanges" : "always",
+                "precision" : 30,
+                "title" : "Context Segment",
+                "controlType" : "choice",
+                "includeInCompactView" : true,
+                "maxLength" : "30",
+                "properties" : {
+                  "DISPLAYHINT" : "Hide",
+                  "DISPLAYWIDTH" : "30",
+                  "FND_ACFF_AkaAttrName" : "__FLEX_Context_DisplayValue",
+                  "FND_ACFF_JavaType" : "java.lang.String",
+                  "FND_ACFF_MaximumLength" : "1024",
+                  "FND_ACFF_PreferredDisplayType" : "HIDDEN",
+                  "TOOLTIP" : "Context Segment"
+                },
+                "lov" : {
+                  "childRef" : "LVVO___FLEX_Context",
+                  "attributeMap" : [ {
+                    "source" : "ContextCode",
+                    "target" : "__FLEX_Context"
+                  } ],
+                  "displayAttributes" : [ "Name" ]
+                }
+              }, {
+                "name" : "__FLEX_Context_DisplayValue",
+                "type" : "string",
+                "updatable" : true,
+                "mandatory" : false,
+                "queryable" : true,
+                "allowChanges" : "always",
+                "hasDefaultValueExpression" : true,
+                "title" : "Context Segment",
+                "properties" : {
+                  "DISPLAYHINT" : "Hide",
+                  "DISPLAYWIDTH" : "30",
+                  "FND_ACFF_AkaRealSegmentAttrName" : "__FLEX_Context",
+                  "FND_ACFF_IsReadOnly" : "true",
+                  "FND_ACFF_JavaType" : "java.lang.String",
+                  "FND_ACFF_ListDisplayAttrName" : "Name",
+                  "FND_ACFF_MaximumLength" : "1024",
+                  "FND_ACFF_PreferredDisplayType" : "HIDDEN",
+                  "TOOLTIP" : "Context Segment",
+                  "updateable" : "false"
+                }
+              } ],
+              "collection" : {
+                "rangeSize" : 0,
+                "finders" : [ {
+                  "name" : "PrimaryKey",
+                  "attributes" : [ {
+                    "name" : "LookupCode",
+                    "type" : "string",
+                    "updatable" : true,
+                    "mandatory" : true,
+                    "queryable" : true,
+                    "allowChanges" : "always",
+                    "precision" : 30,
+                    "hasDefaultValueExpression" : true,
+                    "title" : "Lookup Code",
+                    "includeInCompactView" : true,
+                    "maxLength" : "30",
+                    "properties" : {
+                      "DISPLAYHINT" : "Hide"
+                    }
+                  }, {
+                    "name" : "LookupType",
+                    "type" : "string",
+                    "updatable" : true,
+                    "mandatory" : true,
+                    "inputRequired" : true,
+                    "queryable" : true,
+                    "allowChanges" : "always",
+                    "precision" : 30,
+                    "title" : "Lookup Type",
+                    "includeInCompactView" : true,
+                    "maxLength" : "30",
+                    "properties" : {
+                      "DISPLAYHINT" : "Hide"
+                    }
+                  }, {
+                    "name" : "SetId",
+                    "type" : "string",
+                    "format" : "BigInt",
+                    "updatable" : true,
+                    "mandatory" : true,
+                    "inputRequired" : true,
+                    "queryable" : true,
+                    "allowChanges" : "always",
+                    "precision" : 18,
+                    "title" : "Reference Data Set",
+                    "includeInCompactView" : true,
+                    "properties" : {
+                      "DISPLAYHINT" : "Hide"
+                    }
+                  }, {
+                    "name" : "ViewApplicationId",
+                    "type" : "string",
+                    "format" : "BigInt",
+                    "updatable" : true,
+                    "mandatory" : true,
+                    "inputRequired" : true,
+                    "queryable" : true,
+                    "allowChanges" : "always",
+                    "precision" : 18,
+                    "includeInCompactView" : true,
+                    "properties" : {
+                      "DISPLAYHINT" : "Hide"
+                    }
+                  } ]
+                } ],
+                "links" : [ {
+                  "rel" : "self",
+                  "href" : "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/{id}/child/lookupCodes/{id}/child/lookupsDFF",
+                  "name" : "self",
+                  "kind" : "collection"
+                } ],
+                "actions" : [ {
+                  "name" : "get",
+                  "method" : "GET",
+                  "responseType" : [ "application/vnd.oracle.adf.resourcecollection+json", "application/json" ]
+                }, {
+                  "name" : "create",
+                  "method" : "POST",
+                  "requestType" : [ "application/vnd.oracle.adf.resourceitem+json", "application/json" ],
+                  "responseType" : [ "application/vnd.oracle.adf.resourceitem+json", "application/json" ]
+                }, {
+                  "name" : "upsert",
+                  "method" : "POST",
+                  "header" : "Upsert-Mode=true",
+                  "requestType" : [ "application/vnd.oracle.adf.resourceitem+json", "application/json" ],
+                  "responseType" : [ "application/vnd.oracle.adf.resourceitem+json", "application/json" ]
+                } ]
+              },
+              "item" : {
+                "links" : [ {
+                  "rel" : "lov",
+                  "href" : "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/FlexFndDffDescriptiveFlexfieldContexts?finder=ValidValuesFinder%3BBind_ApplicationId%3D0%2CBind_DescriptiveFlexfieldCode%3DFND_LOOKUP_VALUES_B",
+                  "name" : "LVVO___FLEX_Context",
+                  "kind" : "collection"
+                }, {
+                  "rel" : "self",
+                  "href" : "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/{id}/child/lookupCodes/{id}/child/lookupsDFF/{id}",
+                  "name" : "self",
+                  "kind" : "item"
+                }, {
+                  "rel" : "parent",
+                  "href" : "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/{id}/child/lookupCodes/{id}",
+                  "name" : "parent",
+                  "kind" : "item"
+                }, {
+                  "rel" : "canonical",
+                  "href" : "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/{id}/child/lookupCodes/{id}/child/lookupsDFF/{id}",
+                  "name" : "canonical",
+                  "kind" : "item"
+                } ],
+                "actions" : [ {
+                  "name" : "get",
+                  "method" : "GET",
+                  "responseType" : [ "application/vnd.oracle.adf.resourceitem+json", "application/json" ]
+                }, {
+                  "name" : "update",
+                  "method" : "PATCH",
+                  "requestType" : [ "application/vnd.oracle.adf.resourceitem+json", "application/json" ],
+                  "responseType" : [ "application/vnd.oracle.adf.resourceitem+json", "application/json" ]
+                } ]
+              },
+              "links" : [ {
+                "rel" : "self",
+                "href" : "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/{id}/child/lookupCodes/{id}/child/lookupsDFF/describe",
+                "name" : "self",
+                "kind" : "describe"
+              }, {
+                "rel" : "canonical",
+                "href" : "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/{id}/child/lookupCodes/{id}/child/lookupsDFF/describe",
+                "name" : "canonical",
+                "kind" : "describe"
+              } ]
+            },
+            "translations" : {
+              "discrColumnType" : false,
+              "title" : "Standard Lookup Codes Translations VO",
+              "attributes" : [ {
+                "name" : "Language",
+                "type" : "string",
+                "updatable" : true,
+                "mandatory" : true,
+                "inputRequired" : true,
+                "queryable" : true,
+                "allowChanges" : "always",
+                "precision" : 30
+              }, {
+                "name" : "SourceLang",
+                "type" : "string",
+                "updatable" : true,
+                "mandatory" : true,
+                "inputRequired" : true,
+                "queryable" : true,
+                "allowChanges" : "always",
+                "precision" : 4
+              }, {
+                "name" : "Meaning",
+                "type" : "string",
+                "updatable" : true,
+                "mandatory" : true,
+                "inputRequired" : true,
+                "queryable" : true,
+                "allowChanges" : "always",
+                "precision" : 80
+              }, {
+                "name" : "Description",
+                "type" : "string",
+                "updatable" : true,
+                "mandatory" : false,
+                "queryable" : true,
+                "allowChanges" : "always",
+                "precision" : 240
+              }, {
+                "name" : "CreatedBy",
+                "type" : "string",
+                "updatable" : false,
+                "mandatory" : true,
+                "queryable" : true,
+                "allowChanges" : "never",
+                "precision" : 64
+              }, {
+                "name" : "CreationDate",
+                "type" : "datetime",
+                "updatable" : false,
+                "mandatory" : true,
+                "queryable" : true,
+                "allowChanges" : "never"
+              }, {
+                "name" : "LastUpdatedBy",
+                "type" : "string",
+                "updatable" : false,
+                "mandatory" : true,
+                "queryable" : true,
+                "allowChanges" : "never",
+                "precision" : 64
+              }, {
+                "name" : "LastUpdateDate",
+                "type" : "datetime",
+                "updatable" : false,
+                "mandatory" : true,
+                "queryable" : true,
+                "allowChanges" : "never"
+              }, {
+                "name" : "LastUpdateLogin",
+                "type" : "string",
+                "updatable" : false,
+                "mandatory" : false,
+                "queryable" : true,
+                "allowChanges" : "never",
+                "precision" : 32
+              } ],
+              "collection" : {
+                "rangeSize" : 0,
+                "finders" : [ {
+                  "name" : "PrimaryKey",
+                  "attributes" : [ {
+                    "name" : "Language",
+                    "type" : "string",
+                    "updatable" : true,
+                    "mandatory" : true,
+                    "inputRequired" : true,
+                    "queryable" : true,
+                    "allowChanges" : "always",
+                    "precision" : 30
+                  } ]
+                } ],
+                "links" : [ {
+                  "rel" : "self",
+                  "href" : "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/{id}/child/lookupCodes/{id}/child/translations",
+                  "name" : "self",
+                  "kind" : "collection"
+                } ],
+                "actions" : [ {
+                  "name" : "get",
+                  "method" : "GET",
+                  "responseType" : [ "application/vnd.oracle.adf.resourcecollection+json", "application/json" ]
+                } ]
+              },
+              "item" : {
+                "links" : [ {
+                  "rel" : "self",
+                  "href" : "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/{id}/child/lookupCodes/{id}/child/translations/{id}",
+                  "name" : "self",
+                  "kind" : "item"
+                }, {
+                  "rel" : "parent",
+                  "href" : "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/{id}/child/lookupCodes/{id}",
+                  "name" : "parent",
+                  "kind" : "item"
+                }, {
+                  "rel" : "canonical",
+                  "href" : "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/{id}/child/lookupCodes/{id}/child/translations/{id}",
+                  "name" : "canonical",
+                  "kind" : "item"
+                } ],
+                "actions" : [ {
+                  "name" : "get",
+                  "method" : "GET",
+                  "responseType" : [ "application/vnd.oracle.adf.resourceitem+json", "application/json" ]
+                } ]
+              },
+              "links" : [ {
+                "rel" : "self",
+                "href" : "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/{id}/child/lookupCodes/{id}/child/translations/describe",
+                "name" : "self",
+                "kind" : "describe"
+              }, {
+                "rel" : "canonical",
+                "href" : "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/{id}/child/lookupCodes/{id}/child/translations/describe",
+                "name" : "canonical",
+                "kind" : "describe"
+              } ]
+            }
+          },
+          "links" : [ {
+            "rel" : "self",
+            "href" : "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/{id}/child/lookupCodes/describe",
+            "name" : "self",
+            "kind" : "describe"
+          }, {
+            "rel" : "canonical",
+            "href" : "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/{id}/child/lookupCodes/describe",
+            "name" : "canonical",
+            "kind" : "describe"
+          } ]
+        },
+        "translations" : {
+          "discrColumnType" : false,
+          "title" : "Standard Lookup Types Translations VO",
+          "attributes" : [ {
+            "name" : "Language",
+            "type" : "string",
+            "updatable" : true,
+            "mandatory" : true,
+            "inputRequired" : true,
+            "queryable" : true,
+            "allowChanges" : "always",
+            "precision" : 4
+          }, {
+            "name" : "SourceLang",
+            "type" : "string",
+            "updatable" : true,
+            "mandatory" : true,
+            "inputRequired" : true,
+            "queryable" : true,
+            "allowChanges" : "always",
+            "precision" : 4
+          }, {
+            "name" : "Meaning",
+            "type" : "string",
+            "updatable" : true,
+            "mandatory" : true,
+            "inputRequired" : true,
+            "queryable" : true,
+            "allowChanges" : "always",
+            "precision" : 80,
+            "maxLength" : "80"
+          }, {
+            "name" : "Description",
+            "type" : "string",
+            "updatable" : true,
+            "mandatory" : false,
+            "queryable" : true,
+            "allowChanges" : "always",
+            "precision" : 240
+          }, {
+            "name" : "CreatedBy",
+            "type" : "string",
+            "updatable" : false,
+            "mandatory" : true,
+            "queryable" : true,
+            "allowChanges" : "never",
+            "precision" : 64
+          }, {
+            "name" : "CreationDate",
+            "type" : "datetime",
+            "updatable" : false,
+            "mandatory" : true,
+            "queryable" : true,
+            "allowChanges" : "never"
+          }, {
+            "name" : "LastUpdatedBy",
+            "type" : "string",
+            "updatable" : false,
+            "mandatory" : true,
+            "queryable" : true,
+            "allowChanges" : "never",
+            "precision" : 64
+          }, {
+            "name" : "LastUpdateDate",
+            "type" : "datetime",
+            "updatable" : false,
+            "mandatory" : true,
+            "queryable" : true,
+            "allowChanges" : "never"
+          }, {
+            "name" : "LastUpdateLogin",
+            "type" : "string",
+            "updatable" : false,
+            "mandatory" : false,
+            "queryable" : true,
+            "allowChanges" : "never",
+            "precision" : 32
+          } ],
+          "collection" : {
+            "rangeSize" : 0,
+            "finders" : [ {
+              "name" : "PrimaryKey",
+              "attributes" : [ {
+                "name" : "Language",
+                "type" : "string",
+                "updatable" : true,
+                "mandatory" : true,
+                "inputRequired" : true,
+                "queryable" : true,
+                "allowChanges" : "always",
+                "precision" : 4
+              } ]
+            } ],
+            "links" : [ {
+              "rel" : "self",
+              "href" : "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/{id}/child/translations",
+              "name" : "self",
+              "kind" : "collection"
+            } ],
+            "actions" : [ {
+              "name" : "get",
+              "method" : "GET",
+              "responseType" : [ "application/vnd.oracle.adf.resourcecollection+json", "application/json" ]
+            } ]
+          },
+          "item" : {
+            "links" : [ {
+              "rel" : "self",
+              "href" : "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/{id}/child/translations/{id}",
+              "name" : "self",
+              "kind" : "item"
+            }, {
+              "rel" : "parent",
+              "href" : "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/{id}",
+              "name" : "parent",
+              "kind" : "item"
+            }, {
+              "rel" : "canonical",
+              "href" : "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/{id}/child/translations/{id}",
+              "name" : "canonical",
+              "kind" : "item"
+            } ],
+            "actions" : [ {
+              "name" : "get",
+              "method" : "GET",
+              "responseType" : [ "application/vnd.oracle.adf.resourceitem+json", "application/json" ]
+            } ]
+          },
+          "links" : [ {
+            "rel" : "self",
+            "href" : "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/{id}/child/translations/describe",
+            "name" : "self",
+            "kind" : "describe"
+          }, {
+            "rel" : "canonical",
+            "href" : "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/{id}/child/translations/describe",
+            "name" : "canonical",
+            "kind" : "describe"
+          } ]
+        }
+      },
+      "links" : [ {
+        "rel" : "self",
+        "href" : "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/describe",
+        "name" : "self",
+        "kind" : "describe"
+      }, {
+        "rel" : "canonical",
+        "href" : "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/describe",
+        "name" : "canonical",
+        "kind" : "describe"
+      } ]
+    }
+  }
+}

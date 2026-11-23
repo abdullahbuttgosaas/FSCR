@@ -1,0 +1,11 @@
+{
+ "archiveName": "ora_poq_manage_supplier_qualification_value_sets_fscrt.zip",
+ "rowCounts": {
+  "FND_APP_FLEX_VALUE_SET.csv": 1,
+  "ORA_FND_APP_FLEX_VALUE_SET_VALUE.csv": 2
+ },
+ "operation": "create",
+ "names": [
+  "FSCRT_R34_VS"
+ ]
+}

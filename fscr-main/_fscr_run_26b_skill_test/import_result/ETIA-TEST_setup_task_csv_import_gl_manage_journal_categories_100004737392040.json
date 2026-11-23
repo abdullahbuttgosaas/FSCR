@@ -1,0 +1,7 @@
+{
+  "environment": "ETIA-TEST",
+  "taskCode": "GL_MANAGE_JOURNAL_CATEGORIES",
+  "taskName": "Manage Journal Categories",
+  "zipFile": "E:\\GoSaaS\\Configuration Automation v2.1\\fscr-main\\_fscr_run_26b_skill_test\\payload\\gl_journal_categories_fscrt.zip",
+  "processId": "100004737392040"
+}

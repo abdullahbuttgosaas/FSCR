@@ -1,0 +1,22 @@
+{
+ "edited_vs_baseline": {
+  "cells_or_rows": 133,
+  "by_sheet": {
+   "Periods | EndDate": 1,
+   "PeriodStatus | EndDate": 65,
+   "Changes | 1": 1,
+   "Changes | (new row)": 66
+  }
+ },
+ "live_periods_vs_baseline": {
+  "baseline": 91,
+  "live": 91,
+  "differences": []
+ },
+ "live_status_vs_baseline": {
+  "baseline": 4355,
+  "live": 4355,
+  "differences": [],
+  "n_diff": 0
+ }
+}

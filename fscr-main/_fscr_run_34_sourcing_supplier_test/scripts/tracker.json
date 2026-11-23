@@ -1,0 +1,60 @@
+{
+ "Status": [
+  "Completed"
+ ],
+ "FSCR coverage": [
+  "Partial: 45 skill/guide, 35 route only, 11 neither"
+ ],
+ "Fit rating": [
+  "Medium"
+ ],
+ "Plan accuracy": [
+  "4",
+  "14 of 14 Oracle links in order; supplier setup first",
+  "FSCR skills state 1"
+ ],
+ "Missing (N/total, from Run 32)": [
+  "46/91"
+ ],
+ "Runbook quality": [
+  "3",
+  "91 steps: 45 route, 46 manual (35 have CSV), 0 prerequisites",
+  "13 of 14 links in order"
+ ],
+ "Execution & validation": [
+  "3",
+  "3 of 4 loadable tasks done, read back",
+  "Oracle caught 3 errors; FSCR none"
+ ],
+ "FSCR skills / workflows used": [
+  "Planning",
+  "Run Book creation",
+  "Setup guides",
+  "Data loading",
+  "Safety checks before loading",
+  "REST API"
+ ],
+ "Test scenario": [
+  "Plan 91 tasks; check 14 Oracle links",
+  "Create Run Book FSCRT_R34 Sourcing Supplier",
+  "Run 6 tasks on ETIA-TEST; read back"
+ ],
+ "Fusion env / release": [
+  "ETIA-TEST, 26D (11.13.26.10.0)"
+ ],
+ "Last tested": [
+  "2026-11-17"
+ ],
+ "Key findings": [
+  "Supplier setup first; all 14 Oracle links in order",
+  "3 setups loaded via Data Loader + Task Hook, read back right",
+  "Oracle caught 3 real errors",
+  "No prerequisites in Run Book; 2 tasks screen-only in Oracle"
+ ],
+ "GoSaaS gap / build needed": [
+  "Dependency skill from Oracle pages",
+  "Run Book builder: prerequisites, CSV routes, timeout repair",
+  "Rules for route-only tasks",
+  "REST route for certifying agencies"
+ ]
+}

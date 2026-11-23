@@ -1,0 +1,75 @@
+<MigrationProcessCSVMetadataVO>
+   <MigrationProcessCSVMetadataVORow>
+      <ProcessId>-999</ProcessId>
+      <ProcessName>Manage AutoInvoice Grouping Rules_20261101_055720_362</ProcessName>
+      <ProcessDescription>Manage AutoInvoice Grouping Rules_20261101_055720_362</ProcessDescription>
+      <ProcessDate>2026-11-01 17:57:36.153</ProcessDate>
+      <ObjectShortName>AR_MANAGE_AUTOINVOICE_GROUPING_RULES</ObjectShortName>
+      <ObjectType>TASK</ObjectType>
+      <CreatedByFlow>TASK_CSV_SERVICE</CreatedByFlow>
+      <ProcessType>EXPORT</ProcessType>
+      <ProcessStatus>COMPLETED</ProcessStatus>
+      <ProcessEnv>etia-test</ProcessEnv>
+      <ProcessStartDate>2026-11-01 17:57:20.169</ProcessStartDate>
+      <ProcessEndDate>2026-11-01 17:57:36.153</ProcessEndDate>
+      <ProcessRelease>11.13.26.10.0</ProcessRelease>
+      <SubmittedBy>Configuration.TEST</SubmittedBy>
+      <ESSRequestId>4428524</ESSRequestId>
+      <MigrationProcessBusinessObjectCSVMetadata1>
+         <MigrationProcessBusinessObjectCSVMetadataVORow>
+            <ProcessId>-999</ProcessId>
+            <BusinessObjectShortName>ORA_AR_AI_GRP_TXN_TYPE</BusinessObjectShortName>
+            <BatchName null="true"/>
+            <XmlAttributeList>Attribute1,Attribute10,Attribute11,Attribute12,Attribute13,Attribute14,Attribute15,Attribute2,Attribute3,Attribute4,Attribute5,Attribute6,Attribute7,Attribute8,Attribute9,AttributeCategory,Class11,CreatedBy,LastUpdatedBy</XmlAttributeList>
+            <XmlAttributeTypeList>string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string</XmlAttributeTypeList>
+            <XmlNodePath>/TransactionRequestGroupingRuleVO/TransactionRequestGroupingRuleVORow/TransactionRequestGroupingTransactionType/TransactionRequestGroupingTransactionTypeVORow</XmlNodePath>
+            <NodeSequence>2</NodeSequence>
+         </MigrationProcessBusinessObjectCSVMetadataVORow>
+         <MigrationProcessBusinessObjectCSVMetadataVORow>
+            <ProcessId>-999</ProcessId>
+            <BusinessObjectShortName>ORA_AR_AI_GRP_TXN_REQUEST</BusinessObjectShortName>
+            <BatchName null="true"/>
+            <XmlAttributeList>Attribute1,Attribute10,Attribute11,Attribute12,Attribute13,Attribute14,Attribute15,Attribute2,Attribute3,Attribute4,Attribute5,Attribute6,Attribute7,Attribute8,Attribute9,AttributeCategory,CreatedBy,LastUpdatedBy,FromColumnName</XmlAttributeList>
+            <XmlAttributeTypeList>string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string</XmlAttributeTypeList>
+            <XmlNodePath>/TransactionRequestGroupingRuleVO/TransactionRequestGroupingRuleVORow/TransactionRequestGroupingTransactionType/TransactionRequestGroupingTransactionTypeVORow/TransactionRequestGroupBy/TransactionRequestGroupByVORow</XmlNodePath>
+            <NodeSequence>3</NodeSequence>
+         </MigrationProcessBusinessObjectCSVMetadataVORow>
+         <MigrationProcessBusinessObjectCSVMetadataVORow>
+            <ProcessId>-999</ProcessId>
+            <BusinessObjectShortName>AR_AI_GROUPING_RULE</BusinessObjectShortName>
+            <BatchName null="true"/>
+            <XmlAttributeList>Name,StartDate,LastUpdatedBy,CreatedBy,Description,EndDate,AttributeCategory,Attribute1,Attribute2,Attribute3,Attribute4,Attribute5,Attribute6,Attribute7,Attribute8,Attribute9,Attribute10,Attribute11,Attribute12,Attribute13,Attribute14,Attribute15,LineOrderingRuleName,ConsBillingUseFlag</XmlAttributeList>
+            <XmlAttributeTypeList>string,date,string,string,string,date,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string</XmlAttributeTypeList>
+            <XmlNodePath>/TransactionRequestGroupingRuleVO/TransactionRequestGroupingRuleVORow</XmlNodePath>
+            <NodeSequence>1</NodeSequence>
+         </MigrationProcessBusinessObjectCSVMetadataVORow>
+      </MigrationProcessBusinessObjectCSVMetadata1>
+      <MigrationProcessBatchCSVMetadata null="true"/>
+      <MigrationProcessScopeValueCSVMetadata null="true"/>
+      <MigrationProcessMigrationObjectCSVMetadata>
+         <MigrationProcessMigrationObjectCSVMetadataVORow>
+            <ProcessId>-999</ProcessId>
+            <BusinessObjectShortName>AR_AI_GROUPING_RULE</BusinessObjectShortName>
+            <MigrateFlag>Y</MigrateFlag>
+            <IncludeExternalDataFlag>Y</IncludeExternalDataFlag>
+            <ServiceType null="true"/>
+         </MigrationProcessMigrationObjectCSVMetadataVORow>
+         <MigrationProcessMigrationObjectCSVMetadataVORow>
+            <ProcessId>-999</ProcessId>
+            <BusinessObjectShortName>ORA_AR_AI_GRP_TXN_REQUEST</BusinessObjectShortName>
+            <MigrateFlag>Y</MigrateFlag>
+            <IncludeExternalDataFlag>Y</IncludeExternalDataFlag>
+            <ServiceType null="true"/>
+         </MigrationProcessMigrationObjectCSVMetadataVORow>
+         <MigrationProcessMigrationObjectCSVMetadataVORow>
+            <ProcessId>-999</ProcessId>
+            <BusinessObjectShortName>ORA_AR_AI_GRP_TXN_TYPE</BusinessObjectShortName>
+            <MigrateFlag>Y</MigrateFlag>
+            <IncludeExternalDataFlag>Y</IncludeExternalDataFlag>
+            <ServiceType null="true"/>
+         </MigrationProcessMigrationObjectCSVMetadataVORow>
+      </MigrationProcessMigrationObjectCSVMetadata>
+      <MigrationProcessTaskCSVMetadata null="true"/>
+      <MigrationProcessServiceVersionCSVMetadata null="true"/>
+   </MigrationProcessCSVMetadataVORow>
+</MigrationProcessCSVMetadataVO>

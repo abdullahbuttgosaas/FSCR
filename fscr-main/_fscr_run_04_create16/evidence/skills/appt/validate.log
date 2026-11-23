@@ -1,0 +1,55 @@
+{
+  "baselineSha256": "a3330a42f036bc17d841b667d01c24cd006bdb9698cba4c266aea9cf475cf918",
+  "candidateSha256": "09e4e49402a6207dbffb57740f6fe38d22588074c1e47f57d33b51fa90d81b84",
+  "designSha256": "83cdb9446a8f44ead22df4dcc0f8dce1dbf9b97e1721aa7e73715e838224ff5e",
+  "errors": [],
+  "memberInventory": [
+    "AP_TERM_HEADER.csv",
+    "AP_TERM_LINE.csv",
+    "AP_TERM_SUBSCRIPTION.csv",
+    "AP_TERM_HEADER_TRANSLATION.csv",
+    "ASM_SETUP_CSV_METADATA.xml"
+  ],
+  "requirementIds": [
+    "REQ-001",
+    "REQ-002",
+    "REQ-003",
+    "REQ-004",
+    "REQ-005",
+    "REQ-006",
+    "REQ-007",
+    "REQ-008",
+    "REQ-009",
+    "REQ-010",
+    "REQ-011",
+    "REQ-012",
+    "REQ-013",
+    "REQ-014",
+    "REQ-015",
+    "REQ-016",
+    "REQ-017"
+  ],
+  "resolverFindings": [],
+  "rowCounts": {
+    "AP_TERM_HEADER.csv": 1,
+    "AP_TERM_HEADER_TRANSLATION.csv": 1,
+    "AP_TERM_LINE.csv": 1,
+    "AP_TERM_SUBSCRIPTION.csv": 1
+  },
+  "schemaFingerprint": "526f2971123c366ef94ae15b56041ac4adf4db0c06c7ffa85e42a0a11974d005",
+  "schemaVersion": "fscr-fsm-task-adapter-v1",
+  "status": "PASS",
+  "task": {
+    "code": "AP_MANAGE_PAYMENT_TERMS",
+    "csvSupported": true,
+    "functionalArea": "Payables",
+    "importMode": "FSM",
+    "name": "Manage Payment Terms",
+    "offering": "Financials"
+  },
+  "templateSha256": "c27aa3d5f2e5ca16e44de27cd4d5ac515cccba65d014dd3cd9976bc0a660cc3d",
+  "unresolvedWarnings": [],
+  "warnings": []
+}
+
+--stderr--

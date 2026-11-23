@@ -1,0 +1,19 @@
+## Business Object Validation
+
+| Source | Type |
+|---|---|
+| ora_manage_external_purchase_prices_lookups_fscrt.zip | FSM Setup |
+
+### Validated upload
+
+| Item | Value |
+|---|---|
+| Validated ZIP | [ora_manage_external_purchase_prices_lookups_fscrt.zip](<E:\GoSaaS\Configuration Automation v2.1\fscr-main\_fscr_run_35_purchasing_test\payload\ORA_MANAGE_EXTERNAL_PURCHASE_PRICES_LOOKUPS\ora_manage_external_purchase_prices_lookups_fscrt.zip>) |
+
+### Validation complete
+
+ora_manage_external_purchase_prices_lookups_fscrt.zip passed validation. No data was uploaded.
+
+### Approval required
+
+Reply with an approval to upload and initiate this exact validated load.

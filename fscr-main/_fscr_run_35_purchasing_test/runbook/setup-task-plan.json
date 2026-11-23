@@ -1,0 +1,422 @@
+{
+  "schema_version": "1.0",
+  "offering": "Procurement",
+  "functional_area": "Multiple Functional Areas",
+  "tasks": [
+    {
+      "sequence": 1,
+      "task_name": "Manage Functional Area Catalogs",
+      "task_code": "EGP_MANAGE_DEFAULT_CATALOGS",
+      "offering": "Procurement",
+      "functional_area": "Purchasing Categories",
+      "skill_path": "pillars/scm/product-management/catalogs/manage-functional-area-catalogs/SKILL.md",
+      "skill_selection": {
+        "status": "selected",
+        "selected_by": "EXACT_TASK_CODE_AND_NAME",
+        "candidates": [
+          "pillars/scm/product-management/catalogs/manage-functional-area-catalogs/SKILL.md"
+        ],
+        "context_relation": "canonical-task-reuse",
+        "project_context": {
+          "offering": "Procurement",
+          "functional_area": "Purchasing Categories"
+        },
+        "skill_context": {
+          "offering": "Product Management",
+          "functional_area": "Catalogs"
+        },
+        "context_note": "The unique task-code-and-name skill is canonical and reusable across Oracle offering and functional-area contexts."
+      },
+      "match_status": "matched",
+      "business_objects": []
+    },
+    {
+      "sequence": 2,
+      "task_name": "Manage Catalog Descriptive Flexfields",
+      "task_code": "EGP_MANAGE_CATALOG_ATTRIBUTES",
+      "offering": "Procurement",
+      "functional_area": "Purchasing Categories",
+      "skill_path": "pillars/scm/product-management/catalogs/manage-catalog-descriptive-flexfields/SKILL.md",
+      "skill_selection": {
+        "status": "selected",
+        "selected_by": "EXACT_TASK_CODE_AND_NAME",
+        "candidates": [
+          "pillars/scm/product-management/catalogs/manage-catalog-descriptive-flexfields/SKILL.md"
+        ],
+        "context_relation": "canonical-task-reuse",
+        "project_context": {
+          "offering": "Procurement",
+          "functional_area": "Purchasing Categories"
+        },
+        "skill_context": {
+          "offering": "Product Management",
+          "functional_area": "Catalogs"
+        },
+        "context_note": "The unique task-code-and-name skill is canonical and reusable across Oracle offering and functional-area contexts."
+      },
+      "match_status": "matched",
+      "business_objects": []
+    },
+    {
+      "sequence": 3,
+      "task_name": "Manage Category Descriptive Flexfields",
+      "task_code": "EGP_MANAGE_CATEGORY_ATTRIBUTES",
+      "offering": "Procurement",
+      "functional_area": "Purchasing Categories",
+      "skill_path": "pillars/scm/product-management/catalogs/manage-category-descriptive-flexfields/SKILL.md",
+      "skill_selection": {
+        "status": "selected",
+        "selected_by": "EXACT_TASK_CODE_AND_NAME",
+        "candidates": [
+          "pillars/scm/product-management/catalogs/manage-category-descriptive-flexfields/SKILL.md"
+        ],
+        "context_relation": "canonical-task-reuse",
+        "project_context": {
+          "offering": "Procurement",
+          "functional_area": "Purchasing Categories"
+        },
+        "skill_context": {
+          "offering": "Product Management",
+          "functional_area": "Catalogs"
+        },
+        "context_note": "The unique task-code-and-name skill is canonical and reusable across Oracle offering and functional-area contexts."
+      },
+      "match_status": "matched",
+      "business_objects": []
+    },
+    {
+      "sequence": 4,
+      "task_name": "Manage Change Order Templates",
+      "task_code": "PO_MANAGE_CHANGE_ORDER_TEMPLATES",
+      "offering": "Procurement",
+      "functional_area": "Purchasing Foundation",
+      "skill_path": null,
+      "skill_selection": {
+        "status": "missing",
+        "selected_by": "FLAT_TASK_GUIDANCE_MISSING",
+        "candidates": [],
+        "context_relation": "missing",
+        "project_context": {
+          "offering": "Procurement",
+          "functional_area": "Purchasing Foundation"
+        },
+        "skill_context": null
+      },
+      "match_status": "matched",
+      "business_objects": [],
+      "execution_mode": "manual",
+      "execution_route": "manual-tasks",
+      "execution_skill_path": "shared/common/manual-tasks/SKILL.md",
+      "match_reason": "No task skill or flat task guidance exists in FSCR; route this catalog task to the shared Manual Tasks skill."
+    },
+    {
+      "sequence": 5,
+      "task_name": "Manage Purchasing Value Sets",
+      "task_code": "PO_MANAGE_PURCHASING_VALUE_SETS",
+      "offering": "Procurement",
+      "functional_area": "Purchasing Foundation",
+      "skill_path": null,
+      "skill_selection": {
+        "status": "missing",
+        "selected_by": "FLAT_TASK_GUIDANCE_MISSING",
+        "candidates": [],
+        "context_relation": "missing",
+        "project_context": {
+          "offering": "Procurement",
+          "functional_area": "Purchasing Foundation"
+        },
+        "skill_context": null
+      },
+      "match_status": "matched",
+      "business_objects": [],
+      "execution_mode": "manual",
+      "execution_route": "manual-tasks",
+      "execution_skill_path": "shared/common/manual-tasks/SKILL.md",
+      "match_reason": "No task skill or flat task guidance exists in FSCR; route this catalog task to the shared Manual Tasks skill."
+    },
+    {
+      "sequence": 6,
+      "task_name": "Manage Purchasing Descriptive Flexfields",
+      "task_code": "PO_MANAGE_PURCHASING_DESCRIPTIVE_FLEXFIELDS",
+      "offering": "Procurement",
+      "functional_area": "Purchasing Foundation",
+      "skill_path": null,
+      "skill_selection": {
+        "status": "missing",
+        "selected_by": "FLAT_TASK_GUIDANCE_MISSING",
+        "candidates": [],
+        "context_relation": "missing",
+        "project_context": {
+          "offering": "Procurement",
+          "functional_area": "Purchasing Foundation"
+        },
+        "skill_context": null
+      },
+      "match_status": "matched",
+      "business_objects": [],
+      "execution_mode": "manual",
+      "execution_route": "manual-tasks",
+      "execution_skill_path": "shared/common/manual-tasks/SKILL.md",
+      "match_reason": "No task skill or flat task guidance exists in FSCR; route this catalog task to the shared Manual Tasks skill."
+    },
+    {
+      "sequence": 7,
+      "task_name": "Manage Buyer Assignment Rule Sets Lookup",
+      "task_code": "ORA_PO_MANAGE_ASSIGNMENT_RULE_SETS_LOOKUP",
+      "offering": "Procurement",
+      "functional_area": "Purchasing Foundation",
+      "skill_path": null,
+      "skill_selection": {
+        "status": "missing",
+        "selected_by": "FLAT_TASK_GUIDANCE_MISSING",
+        "candidates": [],
+        "context_relation": "missing",
+        "project_context": {
+          "offering": "Procurement",
+          "functional_area": "Purchasing Foundation"
+        },
+        "skill_context": null
+      },
+      "match_status": "matched",
+      "business_objects": [],
+      "execution_mode": "manual",
+      "execution_route": "manual-tasks",
+      "execution_skill_path": "shared/common/manual-tasks/SKILL.md",
+      "match_reason": "No task skill or flat task guidance exists in FSCR; route this catalog task to the shared Manual Tasks skill."
+    },
+    {
+      "sequence": 8,
+      "task_name": "Manage Buyer Assignment Rules",
+      "task_code": "ORA_PO_MANAGE_BUYER_ASSIGNMENT_RULES",
+      "offering": "Procurement",
+      "functional_area": "Purchasing Foundation",
+      "skill_path": null,
+      "skill_selection": {
+        "status": "missing",
+        "selected_by": "FLAT_TASK_GUIDANCE_MISSING",
+        "candidates": [],
+        "context_relation": "missing",
+        "project_context": {
+          "offering": "Procurement",
+          "functional_area": "Purchasing Foundation"
+        },
+        "skill_context": null
+      },
+      "match_status": "matched",
+      "business_objects": [],
+      "execution_mode": "manual",
+      "execution_route": "manual-tasks",
+      "execution_skill_path": "shared/common/manual-tasks/SKILL.md",
+      "match_reason": "No task skill or flat task guidance exists in FSCR; route this catalog task to the shared Manual Tasks skill."
+    },
+    {
+      "sequence": 9,
+      "task_name": "Manage Purchasing Messages",
+      "task_code": "ORA_PO_MANAGE_PURCHASING_MESSAGES",
+      "offering": "Procurement",
+      "functional_area": "Purchasing Foundation",
+      "skill_path": null,
+      "skill_selection": {
+        "status": "missing",
+        "selected_by": "FLAT_TASK_GUIDANCE_MISSING",
+        "candidates": [],
+        "context_relation": "missing",
+        "project_context": {
+          "offering": "Procurement",
+          "functional_area": "Purchasing Foundation"
+        },
+        "skill_context": null
+      },
+      "match_status": "matched",
+      "business_objects": [],
+      "execution_mode": "manual",
+      "execution_route": "manual-tasks",
+      "execution_skill_path": "shared/common/manual-tasks/SKILL.md",
+      "match_reason": "No task skill or flat task guidance exists in FSCR; route this catalog task to the shared Manual Tasks skill."
+    },
+    {
+      "sequence": 10,
+      "task_name": "Manage Hazard Classes",
+      "task_code": "PO_MANAGE_HAZARD_CLASSES",
+      "offering": "Procurement",
+      "functional_area": "Purchasing Foundation",
+      "skill_path": null,
+      "skill_selection": {
+        "status": "missing",
+        "selected_by": "FLAT_TASK_GUIDANCE_MISSING",
+        "candidates": [],
+        "context_relation": "missing",
+        "project_context": {
+          "offering": "Procurement",
+          "functional_area": "Purchasing Foundation"
+        },
+        "skill_context": null
+      },
+      "match_status": "matched",
+      "business_objects": [],
+      "execution_mode": "manual",
+      "execution_route": "manual-tasks",
+      "execution_skill_path": "shared/common/manual-tasks/SKILL.md",
+      "match_reason": "No task skill or flat task guidance exists in FSCR; route this catalog task to the shared Manual Tasks skill."
+    },
+    {
+      "sequence": 11,
+      "task_name": "Manage UN Numbers",
+      "task_code": "PO_MANAGE_UN_NUMBERS",
+      "offering": "Procurement",
+      "functional_area": "Purchasing Foundation",
+      "skill_path": null,
+      "skill_selection": {
+        "status": "missing",
+        "selected_by": "FLAT_TASK_GUIDANCE_MISSING",
+        "candidates": [],
+        "context_relation": "missing",
+        "project_context": {
+          "offering": "Procurement",
+          "functional_area": "Purchasing Foundation"
+        },
+        "skill_context": null
+      },
+      "match_status": "matched",
+      "business_objects": [],
+      "execution_mode": "manual",
+      "execution_route": "manual-tasks",
+      "execution_skill_path": "shared/common/manual-tasks/SKILL.md",
+      "match_reason": "No task skill or flat task guidance exists in FSCR; route this catalog task to the shared Manual Tasks skill."
+    },
+    {
+      "sequence": 12,
+      "task_name": "Manage Approved Supplier List Statuses",
+      "task_code": "PO_MANAGE_APPROVED_SUPPLIER_LIST_STATUSES",
+      "offering": "Procurement",
+      "functional_area": "Purchasing Foundation",
+      "skill_path": null,
+      "skill_selection": {
+        "status": "missing",
+        "selected_by": "FLAT_TASK_GUIDANCE_MISSING",
+        "candidates": [],
+        "context_relation": "missing",
+        "project_context": {
+          "offering": "Procurement",
+          "functional_area": "Purchasing Foundation"
+        },
+        "skill_context": null
+      },
+      "match_status": "matched",
+      "business_objects": [],
+      "execution_mode": "manual",
+      "execution_route": "manual-tasks",
+      "execution_skill_path": "shared/common/manual-tasks/SKILL.md",
+      "match_reason": "No task skill or flat task guidance exists in FSCR; route this catalog task to the shared Manual Tasks skill."
+    },
+    {
+      "sequence": 13,
+      "task_name": "Manage External Purchase Prices Requisitioning BU Mapping",
+      "task_code": "ORA_MANAGE_EXTERNAL_PURCHASE_PRICES_REQBU_MAPPING",
+      "offering": "Procurement",
+      "functional_area": "External Purchase Prices",
+      "skill_path": "pillars/scm/procurement/external-purchase-prices/manage-external-purchase-prices-requisitioning-bu-mapping/SKILL.md",
+      "skill_selection": {
+        "status": "selected",
+        "selected_by": "EXACT_TASK_CODE_AND_NAME",
+        "candidates": [
+          "pillars/scm/procurement/external-purchase-prices/manage-external-purchase-prices-requisitioning-bu-mapping/SKILL.md"
+        ],
+        "context_relation": "same-context",
+        "project_context": {
+          "offering": "Procurement",
+          "functional_area": "External Purchase Prices"
+        },
+        "skill_context": {
+          "offering": "Procurement",
+          "functional_area": "External Purchase Prices"
+        }
+      },
+      "match_status": "matched",
+      "business_objects": [
+        "externalPurchasePricesBusinessUnits"
+      ]
+    },
+    {
+      "sequence": 14,
+      "task_name": "Manage External Purchase Prices Selection Criteria",
+      "task_code": "ORA_MANAGE_EXTERNAL_PURCHASE_PRICES_SELECTION_CRITERIA",
+      "offering": "Procurement",
+      "functional_area": "External Purchase Prices",
+      "skill_path": "pillars/scm/procurement/external-purchase-prices/manage-external-purchase-prices-selection-criteria/SKILL.md",
+      "skill_selection": {
+        "status": "selected",
+        "selected_by": "EXACT_TASK_CODE_AND_NAME",
+        "candidates": [
+          "pillars/scm/procurement/external-purchase-prices/manage-external-purchase-prices-selection-criteria/SKILL.md"
+        ],
+        "context_relation": "same-context",
+        "project_context": {
+          "offering": "Procurement",
+          "functional_area": "External Purchase Prices"
+        },
+        "skill_context": {
+          "offering": "Procurement",
+          "functional_area": "External Purchase Prices"
+        }
+      },
+      "match_status": "matched",
+      "business_objects": [
+        "externalPurchasePricesSelectionCriteria"
+      ]
+    },
+    {
+      "sequence": 15,
+      "task_name": "Manage External Purchase Prices Purchase Agreement Defaults",
+      "task_code": "ORA_MANAGE_EXTERNAL_PURCHASE_PRICES_PA_DEFAULTS",
+      "offering": "Procurement",
+      "functional_area": "External Purchase Prices",
+      "skill_path": "pillars/scm/procurement/external-purchase-prices/manage-external-purchase-prices-purchase-agreement-defaults/SKILL.md",
+      "skill_selection": {
+        "status": "selected",
+        "selected_by": "EXACT_TASK_CODE_AND_NAME",
+        "candidates": [
+          "pillars/scm/procurement/external-purchase-prices/manage-external-purchase-prices-purchase-agreement-defaults/SKILL.md"
+        ],
+        "context_relation": "same-context",
+        "project_context": {
+          "offering": "Procurement",
+          "functional_area": "External Purchase Prices"
+        },
+        "skill_context": {
+          "offering": "Procurement",
+          "functional_area": "External Purchase Prices"
+        }
+      },
+      "match_status": "matched",
+      "business_objects": [
+        "externalPurchasePricesPurchaseAgreementDefaults"
+      ]
+    },
+    {
+      "sequence": 16,
+      "task_name": "Manage External Purchase Prices Lookups",
+      "task_code": "ORA_MANAGE_EXTERNAL_PURCHASE_PRICES_LOOKUPS",
+      "offering": "Procurement",
+      "functional_area": "External Purchase Prices",
+      "skill_path": null,
+      "skill_selection": {
+        "status": "missing",
+        "selected_by": "FLAT_TASK_GUIDANCE_MISSING",
+        "candidates": [],
+        "context_relation": "missing",
+        "project_context": {
+          "offering": "Procurement",
+          "functional_area": "External Purchase Prices"
+        },
+        "skill_context": null
+      },
+      "match_status": "matched",
+      "business_objects": [],
+      "execution_mode": "manual",
+      "execution_route": "manual-tasks",
+      "execution_skill_path": "shared/common/manual-tasks/SKILL.md",
+      "match_reason": "No task skill or flat task guidance exists in FSCR; route this catalog task to the shared Manual Tasks skill."
+    }
+  ]
+}

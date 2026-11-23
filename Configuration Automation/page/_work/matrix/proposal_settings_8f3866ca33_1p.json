@@ -1,0 +1,1 @@
+{"permissions": {"allow": ["Read(./Lookup types/**)", "Read(./CLAUDE.md)"], "deny": ["Read(./.env)", "Read(./.session/**)", "Read(./.session)", "Edit", "Write", "Bash", "PowerShell", "WebFetch", "WebSearch", "NotebookEdit"], "defaultMode": "dontAsk"}}

@@ -1,0 +1,2 @@
+URL: https://docs.oracle.com/en/cloud/saas/financials/26c/faiex/what-s-an-expense-location.html
+ Previous Next JavaScript must be enabled to correctly display this content Implementing Expenses What's an expense location? What's an expense location? The location where the expense was incurred. Oracle Expenses captures expense location to enforce corporate policies. The expense location can determine specific merchant tax fields that appear in the UI, including the tax classification code. The application uses the location information, which is centrally stored. 

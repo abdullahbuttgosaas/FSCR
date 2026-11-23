@@ -1,0 +1,4 @@
+JeCategoryName,UserJeCategoryName,JeCategoryKey,Description,CreationDate,CreatedBy
+FSCRT_Run26 Accrual,FSCRT_Run26 Accrual,FSCRT_Run26 Accrual,FSCR test category for accrual journals. Run 26b.,2026/11/15 11:15:10.0,Configuration.TEST
+FSCRT_Run26 Payroll,FSCRT_Run26 Payroll,FSCRT_Run26 Payroll,FSCR test category for payroll journals. Run 26b.,2026/11/15 11:15:10.033,Configuration.TEST
+FSCRT_Run26 Reclass,FSCRT_Run26 Reclass,FSCRT_Run26 Reclass,FSCR test category for reclass journals. Run 26b.,2026/11/15 11:15:10.039,Configuration.TEST

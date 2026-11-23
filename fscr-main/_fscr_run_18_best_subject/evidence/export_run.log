@@ -1,0 +1,78 @@
+== FUN_MANAGE_BUSINESS_UNIT start 17:51:19
+Started setup task CSV export process: 100004733485230
+ProcessCompletedFlag: False; StatusCode: (no result yet); ResultCount: 0
+ProcessCompletedFlag: False; StatusCode: (no result yet); ResultCount: 0
+ProcessCompletedFlag: False; StatusCode: (no result yet); ResultCount: 0
+ProcessCompletedFlag: True; StatusCode: (no result yet); ResultCount: 0
+StatusCode: (unknown)
+Wrote E:\GoSaaS\Configuration Automation v2.1\fscr-main\_fscr_run_18_best_subject\evidence\exports\FUN_MANAGE_BUSINESS_UNIT\ETIA-TEST_setup_task_csv_export_fun_manage_business_unit_100004733485230.zip (127196 bytes)
+== FUN_MANAGE_BUSINESS_UNIT end 17:52:13
+== FND_MANAGE_REFERENCE_DATA_SETS start 17:52:13
+Started setup task CSV export process: 100004733485238
+ProcessCompletedFlag: False; StatusCode: (no result yet); ResultCount: 0
+ProcessCompletedFlag: True; StatusCode: (no result yet); ResultCount: 0
+StatusCode: (unknown)
+Wrote E:\GoSaaS\Configuration Automation v2.1\fscr-main\_fscr_run_18_best_subject\evidence\exports\FND_MANAGE_REFERENCE_DATA_SETS\ETIA-TEST_setup_task_csv_export_fnd_manage_reference_data_sets_100004733485238.zip (2980 bytes)
+== FND_MANAGE_REFERENCE_DATA_SETS end 17:53:02
+== FND_MANAGE_CURRENCIES start 17:53:02
+Started setup task CSV export process: 100004733485246
+ProcessCompletedFlag: False; StatusCode: (no result yet); ResultCount: 0
+ProcessCompletedFlag: False; StatusCode: (no result yet); ResultCount: 0
+ProcessCompletedFlag: True; StatusCode: (no result yet); ResultCount: 0
+StatusCode: (unknown)
+Wrote E:\GoSaaS\Configuration Automation v2.1\fscr-main\_fscr_run_18_best_subject\evidence\exports\FND_MANAGE_CURRENCIES\ETIA-TEST_setup_task_csv_export_fnd_manage_currencies_100004733485246.zip (2008 bytes)
+== FND_MANAGE_CURRENCIES end 17:53:55
+== FUN_MANAGE_BUSINESS_UNIT_SET_ASSIGNMENT start 17:53:55
+Started setup task CSV export process: 100004733482104
+ProcessCompletedFlag: False; StatusCode: (no result yet); ResultCount: 0
+ProcessCompletedFlag: False; StatusCode: (no result yet); ResultCount: 0
+ProcessCompletedFlag: False; StatusCode: (no result yet); ResultCount: 0
+ProcessCompletedFlag: False; StatusCode: (no result yet); ResultCount: 0
+ProcessCompletedFlag: True; StatusCode: (no result yet); ResultCount: 0
+StatusCode: (unknown)
+Wrote E:\GoSaaS\Configuration Automation v2.1\fscr-main\_fscr_run_18_best_subject\evidence\exports\FUN_MANAGE_BUSINESS_UNIT_SET_ASSIGNMENT\ETIA-TEST_setup_task_csv_export_fun_manage_business_unit_set_assignment_100004733482104.zip (127216 bytes)
+== FUN_MANAGE_BUSINESS_UNIT_SET_ASSIGNMENT end 17:54:53
+== AR_MANAGE_RECEIVABLES_PAYMENT_TERMS start 17:54:53
+Started setup task CSV export process: 100004733482114
+ProcessCompletedFlag: False; StatusCode: (no result yet); ResultCount: 0
+ProcessCompletedFlag: False; StatusCode: (no result yet); ResultCount: 0
+ProcessCompletedFlag: True; StatusCode: (no result yet); ResultCount: 0
+StatusCode: (unknown)
+Wrote E:\GoSaaS\Configuration Automation v2.1\fscr-main\_fscr_run_18_best_subject\evidence\exports\AR_MANAGE_RECEIVABLES_PAYMENT_TERMS\ETIA-TEST_setup_task_csv_export_ar_manage_receivables_payment_terms_100004733482114.zip (5956 bytes)
+== AR_MANAGE_RECEIVABLES_PAYMENT_TERMS end 17:55:33
+== AP_MANAGE_PAYMENT_TERMS start 17:55:33
+Started setup task CSV export process: 100004733481282
+ProcessCompletedFlag: False; StatusCode: (no result yet); ResultCount: 0
+ProcessCompletedFlag: False; StatusCode: (no result yet); ResultCount: 0
+ProcessCompletedFlag: False; StatusCode: (no result yet); ResultCount: 0
+ProcessCompletedFlag: True; StatusCode: (no result yet); ResultCount: 0
+StatusCode: (unknown)
+Wrote E:\GoSaaS\Configuration Automation v2.1\fscr-main\_fscr_run_18_best_subject\evidence\exports\AP_MANAGE_PAYMENT_TERMS\ETIA-TEST_setup_task_csv_export_ap_manage_payment_terms_100004733481282.zip (34583 bytes)
+== AP_MANAGE_PAYMENT_TERMS end 17:56:18
+== AR_MANAGE_TRANSACTION_TYPES start 17:56:18
+Started setup task CSV export process: 100004733485281
+ProcessCompletedFlag: False; StatusCode: (no result yet); ResultCount: 0
+ProcessCompletedFlag: False; StatusCode: (no result yet); ResultCount: 0
+ProcessCompletedFlag: False; StatusCode: (no result yet); ResultCount: 0
+ProcessCompletedFlag: True; StatusCode: (no result yet); ResultCount: 0
+StatusCode: (unknown)
+Wrote E:\GoSaaS\Configuration Automation v2.1\fscr-main\_fscr_run_18_best_subject\evidence\exports\AR_MANAGE_TRANSACTION_TYPES\ETIA-TEST_setup_task_csv_export_ar_manage_transaction_types_100004733485281.zip (3988 bytes)
+== AR_MANAGE_TRANSACTION_TYPES end 17:57:01
+== GL_MANAGE_PRIMARY_LEDGERS start 17:57:01
+Started setup task CSV export process: 100004733481388
+ProcessCompletedFlag: False; StatusCode: (no result yet); ResultCount: 0
+ProcessCompletedFlag: False; StatusCode: (no result yet); ResultCount: 0
+ProcessCompletedFlag: False; StatusCode: (no result yet); ResultCount: 0
+ProcessCompletedFlag: True; StatusCode: (no result yet); ResultCount: 0
+StatusCode: (unknown)
+Wrote E:\GoSaaS\Configuration Automation v2.1\fscr-main\_fscr_run_18_best_subject\evidence\exports\GL_MANAGE_PRIMARY_LEDGERS\ETIA-TEST_setup_task_csv_export_gl_manage_primary_ledgers_100004733481388.zip (28999 bytes)
+== GL_MANAGE_PRIMARY_LEDGERS end 17:58:09
+== AR_MANAGE_RECEIVABLES_SYSTEM_OPTIONS start 17:58:09
+Started setup task CSV export process: 100004733483269
+ProcessCompletedFlag: False; StatusCode: (no result yet); ResultCount: 0
+ProcessCompletedFlag: False; StatusCode: (no result yet); ResultCount: 0
+ProcessCompletedFlag: False; StatusCode: (no result yet); ResultCount: 0
+ProcessCompletedFlag: True; StatusCode: (no result yet); ResultCount: 0
+StatusCode: (unknown)
+Wrote E:\GoSaaS\Configuration Automation v2.1\fscr-main\_fscr_run_18_best_subject\evidence\exports\AR_MANAGE_RECEIVABLES_SYSTEM_OPTIONS\ETIA-TEST_setup_task_csv_export_ar_manage_receivables_system_options_100004733483269.zip (5266 bytes)
+== AR_MANAGE_RECEIVABLES_SYSTEM_OPTIONS end 17:59:14

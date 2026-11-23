@@ -1,0 +1,43 @@
+<MigrationProcessCSVMetadataVO>
+   <MigrationProcessCSVMetadataVORow>
+      <ProcessId>-999</ProcessId>
+      <ProcessName>Manage Invoice Options_20261109_015611_651</ProcessName>
+      <ProcessDescription>Manage Invoice Options_20261109_015611_651</ProcessDescription>
+      <ProcessDate>2026-11-09 13:56:37.87</ProcessDate>
+      <ObjectShortName>AP_MANAGE_INVOICE_OPTIONS</ObjectShortName>
+      <ObjectType>TASK</ObjectType>
+      <CreatedByFlow>TASK_CSV_SERVICE</CreatedByFlow>
+      <ProcessType>EXPORT</ProcessType>
+      <ProcessStatus>COMPLETED</ProcessStatus>
+      <ProcessEnv>etia-test</ProcessEnv>
+      <ProcessStartDate>2026-11-09 13:56:11.192</ProcessStartDate>
+      <ProcessEndDate>2026-11-09 13:56:37.87</ProcessEndDate>
+      <ProcessRelease>11.13.26.10.0</ProcessRelease>
+      <SubmittedBy>Configuration.TEST</SubmittedBy>
+      <ESSRequestId>4447653</ESSRequestId>
+      <MigrationProcessBusinessObjectCSVMetadata1>
+         <MigrationProcessBusinessObjectCSVMetadataVORow>
+            <ProcessId>-999</ProcessId>
+            <BusinessObjectShortName>AP_SYSTEM_PARAMETER</BusinessObjectShortName>
+            <BatchName null="true"/>
+            <XmlAttributeList>LastUpdateDate,LastUpdatedBy,BaseCurrencyCode,InvoiceCurrencyCode,PaymentCurrencyCode,AlwaysTakeDiscFlag,PayDateBasisLookupCode,AddDaysSettlementDate,DaysBetweenCheckCycles,FederalIdentificationNum,UpdatePaySiteFlag,MakeRateMandatoryFlag,GlDateFromReceiptFlag,DiscIsInvLessTaxFlag,AccountingMethodOption,OnlinePrintFlag,EftUserNumber,MaxOutlay,VendorPayGroupLookupCode,RequireTaxEntryFlag,PostDatedPaymentsFlag,SecondaryAccountingMethod,InterestToleranceAmount,TermsDateBasis,LiabilityPostLookupCode,DiscountDistributionMethod,CombinedFilingFlag,IncomeTaxRegion,IncomeTaxRegionFlag,AllowFinalMatchFlag,AllowFlexOverrideFlag,AllowPaidInvoiceAdjust,UssglTransactionCode,UssglTrxCodeContext,InvDocCategoryOverride,PayDocCategoryOverride,VendorAutoIntDefault,TransferDescFlexFlag,AllowAwtFlag,AllowAwtOverride,CreateAwtDistsType,CreateAwtInvoicesType,AwtIncludeDiscountAmt,AwtIncludeTaxAmt,AutoCreateFreightFlag,GlobalAttributeCategory,GlobalAttribute1,GlobalAttribute2,GlobalAttribute3,GlobalAttribute4,GlobalAttribute5,GlobalAttribute6,GlobalAttribute7,GlobalAttribute8,GlobalAttribute9,GlobalAttribute10,GlobalAttribute11,GlobalAttribute12,GlobalAttribute13,GlobalAttribute14,GlobalAttribute15,GlobalAttribute16,GlobalAttribute17,GlobalAttribute18,GlobalAttribute19,GlobalAttribute20,AllowSupplierBankOverride,UseBankChargeFlag,BankChargeBearer,MrcBaseCurrencyCode,GainLossCalcLevel,WhenToAccountPmt,FutureDatedPmtLiabRelief,GlTransferAllowOverride,GlTransferMode,GlTransferSubmitJournalImp,IncludeReportingSob,ApprovalWorkflowFlag,AllowForceApprovalFlag,ValidateBeforeApprovalFlag,XmlPaymentsAutoConfirmFlag,BuildPrepaymentAccountsFlag,Enable1099OnAwtFlag,ApprovalTiming,ReceiptAcceptanceDays,CreatedBy,LastUpdateLogin,PaymentPriority,ExcludeFreightFromDiscount,AutoCalculateInterestFlag,ProrateIntInvAcrossDists,CreationDate,RequireInvoiceGroupFlag,EmployeePaymentPriority,EmployeePayGroupLookupCode,SsInvoiceBackdatingFlag,SsLimitToSinglePoFlag,SsUpriceChangeForQtymatch,SOBName,TermName,EmployeeTermName,PrepaymentTermName,ToleranceName,ServicesToleranceName,AwtName,BuName,EnterpriseId,PrepaymentAvailableMesgFlag,RecalcPayScheduleFlag,InterestSegments,BudgetDateBasis,OverrideMatchRejectionFlag,RouteInterfaceRejectionFlag,AllowInvThirdPartyOvrd,AllowPymtThirdPartyOvrd,RoutingFlag,AttachmentMandatorySsFlag,DisallowAttachmentDelFlag,BankChargeDeductionTypeDes,ReleaseDupInvoiceHoldFlag,SsQtyMatchOverbillFlag,SsAmtMatchOverbillFlag,EscheatmentEligibilityPeriod,AccountDefaultBasisCodeDes</XmlAttributeList>
+            <XmlAttributeTypeList>dateTime,string,string,string,string,string,string,int,long,string,string,string,string,string,string,string,string,int,string,string,string,string,decimal,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,long,string,string,int,string,string,string,dateTime,string,int,string,string,string,string,string,string,string,string,string,string,string,string,long,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,long,string</XmlAttributeTypeList>
+            <XmlNodePath>/SystemOptionVO/SystemOptionVORow</XmlNodePath>
+            <NodeSequence>1</NodeSequence>
+         </MigrationProcessBusinessObjectCSVMetadataVORow>
+      </MigrationProcessBusinessObjectCSVMetadata1>
+      <MigrationProcessBatchCSVMetadata null="true"/>
+      <MigrationProcessScopeValueCSVMetadata null="true"/>
+      <MigrationProcessMigrationObjectCSVMetadata>
+         <MigrationProcessMigrationObjectCSVMetadataVORow>
+            <ProcessId>-999</ProcessId>
+            <BusinessObjectShortName>AP_SYSTEM_PARAMETER</BusinessObjectShortName>
+            <MigrateFlag>Y</MigrateFlag>
+            <IncludeExternalDataFlag>Y</IncludeExternalDataFlag>
+            <ServiceType null="true"/>
+         </MigrationProcessMigrationObjectCSVMetadataVORow>
+      </MigrationProcessMigrationObjectCSVMetadata>
+      <MigrationProcessTaskCSVMetadata null="true"/>
+      <MigrationProcessServiceVersionCSVMetadata null="true"/>
+   </MigrationProcessCSVMetadataVORow>
+</MigrationProcessCSVMetadataVO>

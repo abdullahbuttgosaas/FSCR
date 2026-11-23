@@ -1,0 +1,39 @@
+{
+  "explicitDefaults": [],
+  "operations": [
+    {
+      "action": "create",
+      "entity": "AR_TRANSACTION_TYPE",
+      "id": "t1",
+      "preserveOtherValues": true,
+      "preserveUnspecifiedRows": true,
+      "targetKey": {
+        "Name": "FSCRT_TT1",
+        "SetCode": "ENTERPRISE"
+      },
+      "values": {
+        "AccountingAffectFlag": "Y",
+        "AllowFreightFlag": "N",
+        "AllowOverapplicationFlag": "N",
+        "CreationSign": "P",
+        "DefaultPrintingOption": "PRI",
+        "DefaultStatus": "OP",
+        "Description": "FSCRT Run04 invoice type",
+        "NaturalApplicationOnlyFlag": "N",
+        "PostToGl": "N",
+        "StartDate": "2026-11-03",
+        "Status": "A",
+        "TaxCalculationFlag": "N",
+        "Type": "INV"
+      }
+    }
+  ],
+  "prerequisites": [],
+  "preservedValues": [],
+  "resolvedScope": {},
+  "task": {
+    "code": "AR_MANAGE_TRANSACTION_TYPES",
+    "name": "Manage Transaction Types"
+  },
+  "warnings": []
+}

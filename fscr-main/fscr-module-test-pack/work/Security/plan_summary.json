@@ -1,0 +1,68 @@
+{
+ "module": "Security",
+ "tasks": 6,
+ "levels": {
+  "a": 6
+ },
+ "missing_N_of_total": "0/6",
+ "primary_offering": "Risk and Security",
+ "not_in_release_catalog": [],
+ "skills_read": 6,
+ "graph_links_used": 0,
+ "a_sourced_links": 0,
+ "a_respected": 0,
+ "a_stated_by_fscr_skills": 0,
+ "a_violations": [],
+ "b_unverified": 2,
+ "b_unverified_out_of_order": 0,
+ "b_out_of_order": [],
+ "c_fscr_skill_prereqs": 5,
+ "c_out_of_order": 2,
+ "c_pairs_out_of_order": [
+  [
+   "ORA_GTG_ACTIVATE_ALGORITHMS",
+   4,
+   "ORA_GTG_ACTIVATE_AUDIT_POLICIES",
+   1
+  ],
+  [
+   "ORA_GTG_ADD_OTHER_DATA_SOURCES",
+   5,
+   "ORA_GTG_ADD_EPM_DATA_SOURCES",
+   2
+  ]
+ ],
+ "links_failed": 0,
+ "order": [
+  [
+   1,
+   "ORA_GTG_ACTIVATE_AUDIT_POLICIES",
+   "Activate Algorithms"
+  ],
+  [
+   2,
+   "ORA_GTG_ADD_EPM_DATA_SOURCES",
+   "Add Other Data Sources"
+  ],
+  [
+   3,
+   "ORA_GTG_ASSIGN_DEFAULT_PROCESS_OWNERS",
+   "Assign Initial Users"
+  ],
+  [
+   4,
+   "ORA_GTG_ACTIVATE_ALGORITHMS",
+   "Activate Algorithms"
+  ],
+  [
+   5,
+   "ORA_GTG_ADD_OTHER_DATA_SOURCES",
+   "Add Other Data Sources"
+  ],
+  [
+   6,
+   "ORA_GTG_ASSIGN_RISK_POWER_USER_ROLE",
+   "Assign Initial Users"
+  ]
+ ]
+}

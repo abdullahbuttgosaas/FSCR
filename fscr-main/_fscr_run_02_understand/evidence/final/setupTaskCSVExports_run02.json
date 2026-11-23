@@ -1,0 +1,8 @@
+{
+  "title" : "Bad Request",
+  "status" : "400",
+  "o:errorDetails" : [ {
+    "detail" : "Failed to build ViewCriteria from expression \"ProcessId IN (100004733440719,100004734412462,100004733440757)\" using view object SetupTaskCSVExport. Unable to create criteria item from node: \"ProcessId\". ",
+    "o:errorCode" : "29140"
+  } ]
+}

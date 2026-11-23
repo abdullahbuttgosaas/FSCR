@@ -1,0 +1,15 @@
+# secrets and per-PC state
+.env
+.session/
+.setup_ok
+
+# per-user tools (Claude's helper, portable Node.js); normally in %LOCALAPPDATA%\ConfigAutomation\tools
+page/_work/tools/
+page/_work/claude_skipped
+tools/
+
+# temporary work files
+_work/
+*.zip
+*.bin
+__pycache__/

@@ -1,0 +1,224 @@
+{
+ "about": "The upload workbook: every tab and column. page/workbook.py reads uploads and makes the empty sheet from this file only. See the root CLAUDE.md > The upload sheet.",
+ "version": 1,
+ "layout": {"section_row": 1, "label_row": 2, "hint_row": 3, "first_data_row": 4, "template_rows": 497},
+ "readme": {
+  "tab": "Read me",
+  "lines": [
+   "Upload sheet: how to fill it",
+   "",
+   "Organization Customers = Oracle's Create Organization Customer screen. Person Customers = Create Person Customer screen.",
+   "Order Types: one row per order type, as on Oracle's Manage Order Lookups screen. Row 4 is a sample.",
+   "Payment Terms: one row per term on Payment Terms, its installments on Payment Term Lines (in order) and its sets on Payment Term Sets. Lines and sets name their term in Payment Term Name, written exactly as the Name (capitals and spaces count).",
+   "Lookup Types: one row per NEW lookup type on Lookup Types (always a User type; type names in capitals, not starting with ORA). Its codes go on Lookup Codes, joined by Lookup Type written exactly (capitals and spaces count).",
+   "A code row whose Lookup Type is not on the Lookup Types tab adds that code to a lookup type that already exists in Oracle (User or Extensible types; System types can't get codes). Existing types and codes are never changed.",
+   "One bad code makes Oracle drop its WHOLE lookup type (the other types are saved); a rerun creates only what is missing.",
+   "Business Units: one row per business unit, as on Oracle's Create Business Unit screen (Name, Active, Location, Manager, Default Set). Order Manager and Pricing Administrator access on it for the configured user is added automatically; there is no column for it.",
+   "Business functions, ledger, legal entity, currency, profit center, service providers and set assignments are not created. An existing business unit is never changed; only missing access is added to it.",
+   "A name that differs from an existing business unit only in capitals (abd / ABD) is the same business unit for Oracle: that row is skipped and never sent. Manager: only Yaqub, Younas or Smith, Aron. Empty Location or Manager = none.",
+   "Price Lists: one row per price list (header only: no items, charges or tiers yet), as on Oracle's Create Price List screen; it is approved once its access sets are added. Price List Access Sets: one row per access set, joined by Price List Name written exactly (capitals and spaces count); every price list needs at least one.",
+   "Price list names are unique across ALL of Oracle (not per business unit), and capitals count: 'abc' next to an existing 'ABC' would be a NEW price list. An existing name is skipped and never changed.",
+   "A price list's Business Unit may also be one on the Business Units tab of this sheet: business units are created first, and the price list waits until Oracle shows that business unit for pricing. Dates: YYYY-MM-DD; Oracle shows them at 12:00 AM in the Oracle user's time zone.",
+   "Yellow headers (*) are required. Blue are optional; empty means Oracle's default.",
+   "Customers tabs: up to 100 customers per upload. A kind of setup whose tabs are empty is simply not created.",
+   "Address Purposes: one row per purpose. Customer Name = the customer's Name (organization) or First Name + space + Last Name (person).",
+   "Not in the sheet (Oracle fills them): Registry ID, Account Number, Site Number, Site on a purpose.",
+   "Dates are text, YYYY-MM-DD. Purpose dates must be within the address dates.",
+   "Test environment only. Delete the dummy rows before a real upload."
+  ]
+ },
+ "column_sets": {
+  "customer_account_and_address": [
+   {"label": "Taxpayer Identification Number", "section": "@info", "key": "taxpayer_id", "type": "text"},
+   {"label": "Account Description", "section": "Account Information", "key": "account_description", "type": "text"},
+   {"label": "Account Type", "section": "Account Information", "key": "account_type", "type": "pick", "values": ["External", "Internal"], "live": "account_type"},
+   {"label": "Customer Class", "section": "Account Information", "key": "customer_class", "type": "pick", "values": ["Federal class", "Public sector companies"], "live": "customer_class"},
+   {"label": "Account Established Date", "section": "Account Information", "key": "account_established_date", "type": "date", "role": "start", "default": "today"},
+   {"label": "Account Termination Date", "section": "Account Information", "key": "account_termination_date", "type": "date", "role": "end", "pair": "Account Established Date"},
+   {"label": "Account Notes Other", "section": "Account Information", "key": "account_notes_other", "type": "long-text"},
+   {"label": "Shipping Instrustions", "section": "Account Information", "key": "shipping_instructions", "type": "long-text"},
+   {"label": "Customer Agreement", "section": "Account Information", "key": "customer_agreement", "type": "long-text"},
+   {"label": "Account Address Set", "section": "Account Address", "key": "account_address_set", "type": "pick", "required": true, "live": "account_address_set", "hint": "Dropdown: Enterprise Set / CUSTOMER_RDS / 001 Customer Site ..."},
+   {"label": "From Date", "section": "Account Address", "key": "address_from_date", "type": "date", "role": "start", "default": "today"},
+   {"label": "To Date", "section": "Account Address", "key": "address_to_date", "type": "date", "role": "end", "pair": "From Date"},
+   {"label": "Site Name", "section": "Address", "key": "site_name", "type": "text"},
+   {"label": "Mail Stop", "section": "Address", "key": "mail_stop", "type": "text"},
+   {"label": "Country", "section": "Address", "key": "country", "type": "pick", "live": "country", "default": "United States"},
+   {"label": "Address Line 1", "section": "Address", "key": "address_line_1", "type": "text"},
+   {"label": "Address Line 2", "section": "Address", "key": "address_line_2", "type": "text"},
+   {"label": "City", "section": "Address", "key": "city", "type": "text", "oracle_checks": true, "hint": "Must exist in Oracle"},
+   {"label": "State", "section": "Address", "key": "state", "type": "pick", "live": "state", "hint": "Must exist in Oracle, e.g. CA"},
+   {"label": "Postal Code", "section": "Address", "key": "postal_code", "type": "text", "oracle_checks": true, "hint": "Must exist in Oracle"},
+   {"label": "Responsible Mineral Status", "section": "Address", "key": "responsible_mineral_status", "type": "pick", "values": ["Conflict Free", "N/A", "No Data", "Undetermined"]},
+   {"label": "Address", "section": "Address", "key": "address_note", "type": "text"},
+   {"label": "URL", "section": "Address", "key": "url", "type": "text"},
+   {"label": "ContactEmail", "section": "Address", "key": "contact_email", "type": "text"},
+   {"label": "Authorizer", "section": "Address", "key": "authorizer", "type": "text"},
+   {"label": "Supplier Site ID", "section": "Address", "key": "supplier_site_id", "type": "digits", "required": true, "hint": "Digits only, used as given"},
+   {"label": "Sales Tax Geocode", "section": "Address", "key": "sales_tax_geocode", "type": "text"},
+   {"label": "Sales Tax Inside City Limits", "section": "Address", "key": "sales_tax_inside_city_limits", "type": "yes-no", "default": true},
+   {"label": "Customer Category Code", "section": "Address Details", "key": "customer_category_code", "type": "pick", "values": [], "check": false, "hint": "Dropdown (list empty in this Oracle)"},
+   {"label": "Site Language", "section": "Address Details", "key": "site_language", "type": "text", "oracle_checks": true, "hint": "Dropdown"},
+   {"label": "Translated Customer Name", "section": "Address Details", "key": "translated_customer_name", "type": "text"},
+   {"label": "Key Account", "section": "Address Details", "key": "key_account", "type": "yes-no", "default": false},
+   {"label": "Trading Partner Identifier", "section": "Address Details", "key": "trading_partner_identifier", "type": "digits", "hint": "Numbers only"},
+   {"label": "EDI Location Code", "section": "Address Details", "key": "edi_location_code", "type": "text"}
+  ]
+ },
+ "tabs": [
+  {
+   "name": "Organization Customers",
+   "sections": {"@info": "Organization Information"},
+   "columns": [
+    {"label": "Name", "section": "Organization Information", "key": "name", "type": "text", "required": true, "hint": "Text"},
+    {"label": "D-U-N-S Number", "section": "Organization Information", "key": "duns_number", "type": "text"},
+    {"use": "customer_account_and_address"}
+   ]
+  },
+  {
+   "name": "Person Customers",
+   "sections": {"@info": "Person Information"},
+   "columns": [
+    {"label": "Prefix", "section": "Person Information", "key": "prefix", "type": "pick", "values": ["Mr.", "Mrs.", "Ms."], "live": "prefix"},
+    {"label": "First Name", "section": "Person Information", "key": "first_name", "type": "text", "required": true, "hint": "Text"},
+    {"label": "Middle Name", "section": "Person Information", "key": "middle_name", "type": "text"},
+    {"label": "Last Name", "section": "Person Information", "key": "last_name", "type": "text"},
+    {"label": "Suffix", "section": "Person Information", "key": "suffix", "type": "text"},
+    {"use": "customer_account_and_address"}
+   ]
+  },
+  {
+   "name": "Address Purposes",
+   "columns": [
+    {"label": "Customer Name", "section": "Address Purposes", "type": "text", "required": true, "hint": "Organization: its Name. Person: First Name + space + Last Name"},
+    {"label": "Primary", "section": "Address Purposes", "key": "primary", "type": "yes-no", "default": false, "hint": "Yes / No. One Primary per purpose type. Oracle makes the first of each type Primary on save"},
+    {"label": "Purpose", "section": "Address Purposes", "key": "purpose", "type": "pick", "required": true, "values": ["Acknowledgments", "Bill to", "Bills of lading", "Correspondence", "Credit contact", "Credit memos", "Deliver to", "Drawee", "Dunning", "Installed at", "Invoices", "Late charges", "Legal", "Self service user", "Ship to", "Sold to", "Statements", "Subscription Location"], "hint": "Dropdown, 18 values"},
+    {"label": "From Date", "section": "Address Purposes", "key": "from_date", "type": "date", "role": "start", "default": "today", "hint": "YYYY-MM-DD, within the address dates; empty = today"},
+    {"label": "To Date", "section": "Address Purposes", "key": "to_date", "type": "date", "role": "end", "pair": "From Date"},
+    {"label": "Bill-to Site", "section": "Address Purposes", "key": "bill_to_site", "type": "text", "hint": "Ship to rows only. Leave empty to use this customer's address"}
+   ]
+  },
+  {
+   "name": "Order Types",
+   "about": "One row = one order type (a lookup code of Type of Sales Order), run by the Order Types folder. Layout as the user's Best_Start_with_Order_Types.xlsx (2026-10-25); width and format copy that sheet.",
+   "columns": [
+    {"label": "Lookup Type", "section": "Order Types (Manage Order Lookups)", "key": "lookup_type", "type": "pick", "values": ["Type of Sales Order"], "live": "lookup_type", "default": "Type of Sales Order", "default_text": "Type of Sales Order (filled for you)", "width": 19, "format": "general", "hint": "Fixed: Type of Sales Order (the only list). Empty = filled for you"},
+    {"label": "Lookup Code", "section": "Order Types (Manage Order Lookups)", "key": "code", "type": "text", "required": true, "width": 19, "hint": "Text. Case counts. Sent exactly as typed. Existing codes are skipped"},
+    {"label": "Display Sequence", "section": "Order Types (Manage Order Lookups)", "key": "display_sequence", "type": "digits", "default": "highest existing + 1", "width": 24, "hint": "Number. Empty = highest existing + 1"},
+    {"label": "Enabled", "section": "Order Types (Manage Order Lookups)", "key": "enabled", "type": "yes-no", "default": true, "width": 16, "hint": "Yes / No. Empty = Yes"},
+    {"label": "Start Date", "section": "Order Types (Manage Order Lookups)", "key": "start_date", "type": "date", "role": "start", "default": "today-1", "send_default": true, "width": 18, "hint": "YYYY-MM-DD; empty = today"},
+    {"label": "End Date", "section": "Order Types (Manage Order Lookups)", "key": "end_date", "type": "date", "role": "end", "pair": "Start Date", "width": 16, "hint": "YYYY-MM-DD, after the start date; empty = none"},
+    {"label": "Meaning", "section": "Order Types (Manage Order Lookups)", "key": "meaning", "type": "text", "required": true, "width": 16, "hint": "Text. The name users see. Must be unique, capitals ignored"},
+    {"label": "Item Description", "section": "Order Types (Manage Order Lookups)", "key": "description", "type": "text", "width": 24, "hint": "Text"},
+    {"label": "Tag", "section": "Order Types (Manage Order Lookups)", "key": "tag", "type": "text", "width": 16, "hint": "Text"}
+   ]
+  },
+  {
+   "name": "Payment Terms",
+   "about": "One row per payment term, run by the Payment Terms folder (2026-10-25). Its lines and sets are on the next two tabs, joined by Payment Term Name (exact).",
+   "columns": [
+    {"label": "Name", "section": "Payment Terms (Manage Payment Terms)", "key": "name", "type": "text", "required": true, "hint": "Text, max 50. Capitals and spaces count. An existing name is skipped"},
+    {"label": "From Date", "section": "Payment Terms (Manage Payment Terms)", "key": "from_date", "type": "date", "role": "start", "default": "today-1", "send_default": true, "hint": "YYYY-MM-DD; empty = today"},
+    {"label": "To Date", "section": "Payment Terms (Manage Payment Terms)", "key": "to_date", "type": "date", "role": "end", "pair": "From Date", "hint": "YYYY-MM-DD, after the From Date; empty = none"},
+    {"label": "Item Description", "section": "Payment Terms (Manage Payment Terms)", "key": "description", "type": "text", "hint": "Text, max 240"},
+    {"label": "Cutoff Day", "section": "Payment Terms (Manage Payment Terms)", "key": "cutoff_day", "type": "number", "hint": "Whole number 1-31; for Day of Month terms"},
+    {"label": "Rank", "section": "Payment Terms (Manage Payment Terms)", "key": "rank", "type": "number", "hint": "Whole number; no other payment term may have it"}
+   ]
+  },
+  {
+   "name": "Payment Term Lines",
+   "about": "One row per installment, in the order given; joined to its term by Payment Term Name (exact).",
+   "columns": [
+    {"label": "Payment Term Name", "section": "Installment", "type": "text", "required": true, "hint": "The term's Name, written exactly (capitals and spaces count)"},
+    {"label": "Due (%)", "section": "Installment", "key": "due_percent", "type": "number", "hint": "Number 0-100, decimals allowed. Or Amount Due; all lines of a term the same kind, together 100"},
+    {"label": "Amount Due", "section": "Installment", "key": "due_amount", "type": "number", "hint": "Number. Or Due (%); the last line of an amount term is 0"},
+    {"label": "Days", "section": "Installment", "key": "days", "type": "number", "hint": "Whole number. Use ONE of Days / Fixed Date / Day of Month / Calendar"},
+    {"label": "Fixed Date", "section": "Installment", "key": "fixed_date", "type": "date", "hint": "YYYY-MM-DD"},
+    {"label": "Day of Month", "section": "Installment", "key": "day_of_month", "type": "number", "hint": "1-31 (31 = last day of the month); needs Months Ahead"},
+    {"label": "Months Ahead", "section": "Installment", "key": "months_ahead", "type": "number", "hint": "Whole number; required with Day of Month (0 = same month)"},
+    {"label": "Calendar", "section": "Installment", "key": "calendar", "type": "pick", "values": ["AKPmt Calendar", "AMN Calendar", "DSS Calendar", "N24 Calendar"], "check": "folder", "hint": "Dropdown: Oracle's payment calendars"},
+    {"label": "First Discount (%)", "section": "First Discount", "key": "discount_percent", "type": "number", "hint": "Number above 0, up to 100"},
+    {"label": "First Discount Days", "section": "First Discount", "key": "discount_days", "type": "number", "hint": "Whole number. Or Day of Month"},
+    {"label": "First Discount Day of Month", "section": "First Discount", "key": "discount_day_of_month", "type": "number", "hint": "1-31, with its Months Ahead. Or Days"},
+    {"label": "First Discount Months Ahead", "section": "First Discount", "key": "discount_months_ahead", "type": "number", "hint": "Whole number; required with its Day of Month (0 = same month)"},
+    {"label": "Second Discount (%)", "section": "Second Discount", "key": "discount2_percent", "type": "number", "hint": "Above 0, lower than the first"},
+    {"label": "Second Discount Days", "section": "Second Discount", "key": "discount2_days", "type": "number", "hint": "Whole number, more than the first. Or Day of Month"},
+    {"label": "Second Discount Day of Month", "section": "Second Discount", "key": "discount2_day_of_month", "type": "number", "hint": "1-31, with its Months Ahead. Or Days"},
+    {"label": "Second Discount Months Ahead", "section": "Second Discount", "key": "discount2_months_ahead", "type": "number", "hint": "Whole number; required with its Day of Month (0 = same month)"},
+    {"label": "Third Discount (%)", "section": "Third Discount", "key": "discount3_percent", "type": "number", "hint": "Above 0, lower than the second"},
+    {"label": "Third Discount Days", "section": "Third Discount", "key": "discount3_days", "type": "number", "hint": "Whole number, more than the second. Or Day of Month"},
+    {"label": "Third Discount Day of Month", "section": "Third Discount", "key": "discount3_day_of_month", "type": "number", "hint": "1-31, with its Months Ahead. Or Days"},
+    {"label": "Third Discount Months Ahead", "section": "Third Discount", "key": "discount3_months_ahead", "type": "number", "hint": "Whole number; required with its Day of Month (0 = same month)"}
+   ]
+  },
+  {
+   "name": "Payment Term Sets",
+   "about": "One row per reference data set of a term; joined by Payment Term Name (exact). A term may have none.",
+   "columns": [
+    {"label": "Payment Term Name", "section": "Set Assignments", "type": "text", "required": true, "hint": "The term's Name, written exactly (capitals and spaces count)"},
+    {"label": "Set Code", "section": "Set Assignments", "key": "set", "type": "pick", "required": true, "values": ["001 CUSTOMER SITE", "1111", "21", "221", "23", "25010094", "25010114", "28REFDATA", "7382", "A1_DATA_SET", "AHSAN RDS", "AKREFDATA", "ASAD123", "ASCEND_001", "ASH-25010114", "COMMON", "CUSTOMER_RDS", "DSSREFDATA", "ENTERPRISE", "HAHAREFDATA", "ITBU", "MA_CUST_SET", "MGREF-AP", "MGREFST", "MNC_CUST_OM_RDS", "MOMINA12", "MWBKBU1", "MWBKBU2", "N24REFDATA", "NMT", "ORA25010114", "PPREFDATA", "PRC100R", "S-31", "SET0001", "S_DATA_SET", "TEST"], "check": "folder", "hint": "Dropdown: Oracle's 37 set codes"}
+   ]
+  },
+  {
+   "name": "Lookup Types",
+   "about": "One row per NEW lookup type, run by the Lookup types folder (2026-10-25). Its codes are on Lookup Codes, joined by Lookup Type (exact).",
+   "columns": [
+    {"label": "Lookup Type", "section": "Lookup Types (Manage Standard Lookups)", "key": "lookup_type", "type": "text", "required": true, "hint": "Text, max 30, capitals; not starting with ORA. An existing type is skipped"},
+    {"label": "Meaning", "section": "Lookup Types (Manage Standard Lookups)", "key": "meaning", "type": "text", "required": true, "hint": "Text, max 80. The name users see; no other lookup type may use it"},
+    {"label": "Item Description", "section": "Lookup Types (Manage Standard Lookups)", "key": "description", "type": "text", "hint": "Text, max 240"},
+    {"label": "Module", "section": "Lookup Types (Manage Standard Lookups)", "key": "module", "type": "text", "required": true, "hint": "The module's name as Oracle shows it, e.g. Order Management"},
+    {"label": "REST Access Secured", "section": "Lookup Types (Manage Standard Lookups)", "key": "rest_access_secured", "type": "pick", "values": ["Secure", "Authenticated", "Anonymous"], "check": "folder", "hint": "Dropdown; empty = Secure"}
+   ]
+  },
+  {
+   "name": "Lookup Codes",
+   "about": "One row per code. Its Lookup Type is on the Lookup Types tab (a new type) or already in Oracle (codes added to it).",
+   "columns": [
+    {"label": "Lookup Type", "section": "Lookup Codes", "type": "text", "required": true, "hint": "A type on the Lookup Types tab, or one that exists in Oracle; written exactly"},
+    {"label": "Lookup Code", "section": "Lookup Codes", "key": "code", "type": "text", "required": true, "hint": "Text, max 30. Small letters and spaces allowed. An existing code is skipped"},
+    {"label": "Display Sequence", "section": "Lookup Codes", "key": "display_sequence", "type": "number", "hint": "Whole number, 0 or more"},
+    {"label": "Enabled", "section": "Lookup Codes", "key": "enabled", "type": "yes-no", "default": true, "hint": "Yes / No. Empty = Yes"},
+    {"label": "Start Date", "section": "Lookup Codes", "key": "start_date", "type": "date", "hint": "YYYY-MM-DD; empty = none"},
+    {"label": "End Date", "section": "Lookup Codes", "key": "end_date", "type": "date", "hint": "YYYY-MM-DD, after the Start Date; empty = none"},
+    {"label": "Meaning", "section": "Lookup Codes", "key": "meaning", "type": "text", "required": true, "hint": "Text, max 80. Once per type (capitals count)"},
+    {"label": "Item Description", "section": "Lookup Codes", "key": "description", "type": "text", "hint": "Text, max 240"},
+    {"label": "Tag", "section": "Lookup Codes", "key": "tag", "type": "text", "hint": "Text, max 150"}
+   ]
+  },
+  {
+   "name": "Business Units",
+   "about": "One row per business unit, run by the Business Units folder (2026-10-26): only the Create Business Unit screen's fields; the access (Order Manager, Pricing Administrator) is automatic. Location and Default Set drop-downs are Oracle's live lists when the sheet is made (values_live); the folder's --plan checks every value.",
+   "columns": [
+    {"label": "Name", "section": "Business Units (Manage Business Unit)", "key": "name", "type": "text", "required": true, "keep_spaces": true, "width": 30, "hint": "Text, max 240, no space at the start or end. Capitals don't make a new one. An existing name is skipped"},
+    {"label": "Active", "section": "Business Units (Manage Business Unit)", "key": "active", "type": "yes-no", "default": true, "hint": "Yes / No. Empty = Yes"},
+    {"label": "Location", "section": "Business Units (Manage Business Unit)", "key": "location", "type": "pick", "values_live": "location", "check": "folder", "default": "none", "default_text": "(none)", "send_default": true, "width": 26, "hint": "Dropdown of Oracle's active locations; empty = none"},
+    {"label": "Manager", "section": "Business Units (Manage Business Unit)", "key": "manager", "type": "pick", "values": ["Yaqub, Younas", "Smith, Aron"], "check": "folder", "width": 18, "hint": "Dropdown: Yaqub, Younas or Smith, Aron; empty = none"},
+    {"label": "Default Set", "section": "Business Units (Manage Business Unit)", "key": "default_set", "type": "pick", "required": true, "values_live": "default_set", "check": "folder", "width": 22, "hint": "Dropdown of Oracle's reference data sets (code)"}
+   ]
+  },
+  {
+   "name": "Price Lists",
+   "about": "One row per price list, run by the Price Lists folder (2026-10-26, scope A: the header, its line defaults and approval). Its access sets are on Price List Access Sets, joined by Price List Name (exact). Drop-downs are Oracle's live lists when the sheet is made; the folder's --plan checks every value.",
+   "columns": [
+    {"label": "Name", "section": "Price Lists (Manage Price Lists)", "key": "name", "type": "text", "required": true, "keep_spaces": true, "width": 28, "hint": "Text, max 80, no ' and no space at the start or end. Unique in all of Oracle; capitals count. An existing name is skipped"},
+    {"label": "Item Description", "section": "Price Lists (Manage Price Lists)", "key": "description", "type": "long-text", "width": 24, "hint": "Text, max 1000"},
+    {"label": "Type", "section": "Price Lists (Manage Price Lists)", "key": "type", "type": "pick", "values": ["Segment price list", "Floor price list", "GSA price list", "Ceiling price list"], "check": "folder", "width": 20, "hint": "Dropdown; empty = Segment price list"},
+    {"label": "Currency", "section": "Price Lists (Manage Price Lists)", "key": "currency", "type": "pick", "required": true, "values_live": "currency", "check": "folder", "width": 14, "hint": "Dropdown of Oracle's currencies (code)"},
+    {"label": "Business Unit", "section": "Price Lists (Manage Price Lists)", "key": "business_unit", "type": "pick", "required": true, "values_live": "business_unit", "dropdown_warn": true, "check": "folder", "width": 26, "hint": "Dropdown of the business units you can make price lists for, or one on the Business Units tab of this sheet (Excel only warns)"},
+    {"label": "Start Date", "section": "Price Lists (Manage Price Lists)", "key": "start_date", "type": "date", "required": true, "width": 14, "hint": "YYYY-MM-DD; Oracle shows it at 12:00 AM"},
+    {"label": "End Date", "section": "Price Lists (Manage Price Lists)", "key": "end_date", "type": "date", "width": 14, "hint": "YYYY-MM-DD, on or after the Start Date; empty = none"},
+    {"label": "Pricing Charge Definition", "section": "Price List Line Default Values", "key": "charge_definition", "type": "pick", "values_live": "charge_definition", "check": "folder", "width": 24, "hint": "Dropdown; empty = none"},
+    {"label": "Line Type", "section": "Price List Line Default Values", "key": "line_type", "type": "pick", "values_live": "line_type", "check": "folder", "width": 12, "hint": "Dropdown; empty = Buy"},
+    {"label": "Calculation Method", "section": "Price List Line Default Values", "key": "calculation_method", "type": "pick", "values_live": "calculation_method", "check": "folder", "width": 22, "hint": "Dropdown; empty = Price"}
+   ]
+  },
+  {
+   "name": "Price List Access Sets",
+   "about": "One row per access set of a price list; Price List Name is the Name on the Price Lists tab, written exactly. At least one per price list (Oracle approves a price list only with one).",
+   "columns": [
+    {"label": "Price List Name", "section": "Price List Access Sets", "type": "text", "required": true, "width": 28, "hint": "The Name on the Price Lists tab, written exactly"},
+    {"label": "Set Code", "section": "Price List Access Sets", "key": "name", "type": "pick", "required": true, "values_live": "access_sets.name", "check": "folder", "width": 20, "hint": "Dropdown of Oracle's reference data sets (code)"}
+   ]
+  }
+ ]
+}

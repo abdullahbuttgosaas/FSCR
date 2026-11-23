@@ -1,0 +1,8 @@
+{
+  "title" : "Bad Request",
+  "status" : "400",
+  "o:errorDetails" : [ {
+    "detail" : "Failed to build ViewCriteria from expression \"BusinessUnit='FSCRT_Brindle Harbor Marine Supply F01'\" using view object InvoiceHeader. Unable to create criteria item from node: \"BusinessUnit\". ",
+    "o:errorCode" : "29140"
+  } ]
+}

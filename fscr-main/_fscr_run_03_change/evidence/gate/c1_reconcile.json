@@ -1,0 +1,51 @@
+{
+  "additionalSystemTranslationLanguages": [],
+  "candidateRowCounts": {
+    "AR_PAYMENT_TERM.csv": 1,
+    "AR_PAYMENT_TERM_DISCOUNT.csv": 0,
+    "AR_PAYMENT_TERM_LINE.csv": 2,
+    "AR_PAYMENT_TERM_TRANSLATION.csv": 1
+  },
+  "candidateSha256": "b2425e0196ea7e27e97e0173a77b319636a50592a28d99843563f723df189354",
+  "errors": [],
+  "externalCalls": 0,
+  "freshExportSha256": "21ffbcedb7c1ec9f638a6339f9c3f9a08f03fabe72b626fee3792585b17ac07a",
+  "mismatches": [],
+  "mode": "offline_persisted_state_reconciliation",
+  "mutationAuthorized": false,
+  "name": "FSCRT_D25B75AF1",
+  "operationCount": 1,
+  "persistedRowCounts": {
+    "AR_PAYMENT_TERM.csv": 1,
+    "AR_PAYMENT_TERM_DISCOUNT.csv": 0,
+    "AR_PAYMENT_TERM_LINE.csv": 2,
+    "AR_PAYMENT_TERM_TRANSLATION.csv": 1
+  },
+  "setCode": "ENTERPRISE",
+  "status": "verified",
+  "targetEnvironment": "etia-test",
+  "targetRelease": "11.13.26.10.0",
+  "taskCode": "AR_MANAGE_RECEIVABLES_PAYMENT_TERMS",
+  "taskName": "Manage Receivables Payment Terms",
+  "terms": [
+    {
+      "additionalSystemTranslationLanguages": [],
+      "candidateRowCounts": {
+        "AR_PAYMENT_TERM.csv": 1,
+        "AR_PAYMENT_TERM_DISCOUNT.csv": 0,
+        "AR_PAYMENT_TERM_LINE.csv": 2,
+        "AR_PAYMENT_TERM_TRANSLATION.csv": 1
+      },
+      "mismatches": [],
+      "name": "FSCRT_D25B75AF1",
+      "persistedRowCounts": {
+        "AR_PAYMENT_TERM.csv": 1,
+        "AR_PAYMENT_TERM_DISCOUNT.csv": 0,
+        "AR_PAYMENT_TERM_LINE.csv": 2,
+        "AR_PAYMENT_TERM_TRANSLATION.csv": 1
+      },
+      "setCode": "ENTERPRISE",
+      "verified": true
+    }
+  ]
+}

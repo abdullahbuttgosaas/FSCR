@@ -1,0 +1,22 @@
+REST sample (10)
+- CX HZ_MANAGE_GEOGRAPHIES: REST paths 3 ['/crmRestApi/resources/11.13.18.05/importMappings', '/ess/rest/scheduler/v1/requests', '/fscmRestApi/resources/11.13.18.05/profileOptions']; POST/PATCH on a path: yes; docs write op: yes; TBD/stop: no; required-fields file: True
+- ERP GL_MANAGE_ACCOUNTING_CALENDARS: REST paths 4 ['/fscmRestApi/resources/11.13.18.05/accountingCalendarsLOV', '/fscmRestApi/resources/11.13.18.05/accountingPeriodStatusLOV', '/fscmRestApi/resources/11.13.18.05/accountingPeriodsLOV']; POST/PATCH on a path: no; docs write op: no; TBD/stop: yes; required-fields file: True
+- HCM BEN_MANAGE_ELIGIBILITY_PROFILES: REST paths 6 ['/ess/rest/scheduler/v1/requests', '/fscmRestApi/resources/11.13.18.05/commonLookupsLOV', '/fscmRestApi/resources/11.13.18.05/currenciesLOV']; POST/PATCH on a path: yes; docs write op: no; TBD/stop: no; required-fields file: True
+- SCM ORA_ADVANCED_INVENTORY_PARAMETERS: REST paths 1 ['/fscmRestApi/resources/11.13.18.05/standardLookupsLOV']; POST/PATCH on a path: no; docs write op: no; TBD/stop: no; required-fields file: True
+- CX ORA_HZ_RUN_GEOCODE_LOADER: REST paths 1 ['/ess/rest/scheduler/v1/requests']; POST/PATCH on a path: yes; docs write op: yes; TBD/stop: no; required-fields file: True
+- ERP GL_MANAGE_CHART_OF_ACCOUNTS_MAPPING: REST paths 3 ['/fscmRestApi/resources/11.13.18.05/chartOfAccountsLOV', '/fscmRestApi/resources/11.13.18.05/setupTaskCSVImports', '/fscmRestApi/resources/11.13.18.05/valueSets']; POST/PATCH on a path: yes; docs write op: no; TBD/stop: no; required-fields file: True
+- HCM BEN_MANAGE_BENEFIT_PROGRAMS_DETAILS: REST paths 2 ['/ess/rest/scheduler/v1/requests', '/hcmRestApi/resources/latest/benefitPlanCopyParameters']; POST/PATCH on a path: yes; docs write op: no; TBD/stop: no; required-fields file: True
+- SCM ORA_INVENTORY_TASK_CONFIGURATIONS: REST paths 2 ['/fscmRestApi/resources/11.13.18.05/inventoryAccessibleOrganizations', '/fscmRestApi/resources/11.13.18.05/inventoryZoneTaskConfigurations']; POST/PATCH on a path: no; docs write op: no; TBD/stop: no; required-fields file: True
+- CX HZ_MANAGE_RESOURCE_ROLES: REST paths 1 ['/crmRestApi/resources/11.13.18.05/resourceRoles']; POST/PATCH on a path: no; docs write op: no; TBD/stop: yes; required-fields file: True
+- ERP GL_MANAGE_CHARTS_OF_ACCOUNTS_STRUCTURE_INSTANCES: REST paths 1 ['/fscmRestApi/resources/11.13.18.05/chartOfAccountsLOV']; POST/PATCH on a path: no; docs write op: no; TBD/stop: yes; required-fields file: True
+CSV (FSM) sample (10)
+- CX ZCH_MANAGE_CUSTOMER_HUB_COMMON_LOOKUPS: task code True; template/export step yes; entity/CSV names no; metadata file True; import step yes; required-fields file True; create fields listed False
+- Common ASXS_MANAGE_DATA_SECURITY_POLICIES: task code True; template/export step yes; entity/CSV names no; metadata file True; import step no; required-fields file True; create fields listed False
+- ERP AR_MANAGE_AUTOACCOUNTING_RULES: task code True; template/export step yes; entity/CSV names yes; metadata file False; import step yes; required-fields file True; create fields listed True
+- HCM FND_MANAGE_ADMINISTRATOR_PROFILE_VALUES: task code True; template/export step yes; entity/CSV names no; metadata file False; import step yes; required-fields file False; create fields listed False
+- SCM DOO_MANAGE_ORCHESTRATION_LOOKUPS: task code True; template/export step yes; entity/CSV names no; metadata file False; import step yes; required-fields file False; create fields listed False
+- CX ORA_ZCH_MANAGE_SOURCE_SYSTEM_CONFIDENCE: task code True; template/export step yes; entity/CSV names yes; metadata file True; import step yes; required-fields file True; create fields listed False
+- Common ASXS_MANAGE_DUTIES: task code True; template/export step yes; entity/CSV names no; metadata file False; import step no; required-fields file False; create fields listed False
+- ERP AR_MANAGE_AUTOINVOICE_GROUPING_RULES: task code True; template/export step yes; entity/CSV names yes; metadata file True; import step yes; required-fields file True; create fields listed True
+- HCM FND_MANAGE_DESCRIPTIVE_FLEXFIELDS: task code True; template/export step yes; entity/CSV names no; metadata file False; import step yes; required-fields file False; create fields listed False
+- SCM DOO_MANAGE_ORCHESTRATION_PROFILES: task code True; template/export step yes; entity/CSV names no; metadata file False; import step yes; required-fields file False; create fields listed False

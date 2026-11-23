@@ -1,0 +1,138 @@
+{
+  "schema_version": "1.0",
+  "offering": "Multiple Offerings",
+  "functional_area": "Multiple Functional Areas",
+  "tasks": [
+    {
+      "sequence": 1,
+      "task_name": "Manage Business Unit",
+      "task_code": "FUN_MANAGE_BUSINESS_UNIT",
+      "offering": "Financials",
+      "functional_area": "Organization Structures",
+      "skill_path": "pillars/erp/financials/organization-structures/manage-business-unit.md",
+      "skill_selection": {
+        "status": "selected",
+        "selected_by": "FLAT_TASK_GUIDANCE_FILE",
+        "candidates": [
+          "pillars/erp/financials/organization-structures/manage-business-unit.md"
+        ],
+        "context_relation": "unscoped-guidance",
+        "project_context": {
+          "offering": "Financials",
+          "functional_area": "Organization Structures"
+        },
+        "skill_context": null
+      },
+      "match_status": "matched",
+      "business_objects": []
+    },
+    {
+      "sequence": 2,
+      "task_name": "Manage Order Lookups",
+      "task_code": "DOO_MANAGE_ORCHESTRATION_LOOKUPS",
+      "offering": "Order Management",
+      "functional_area": "Orders",
+      "skill_path": "pillars/scm/order-management/orders/manage-order-lookups/SKILL.md",
+      "skill_selection": {
+        "status": "selected",
+        "selected_by": "EXACT_TASK_CODE_AND_NAME",
+        "candidates": [
+          "pillars/scm/order-management/orders/manage-order-lookups/SKILL.md"
+        ],
+        "context_relation": "same-context",
+        "project_context": {
+          "offering": "Order Management",
+          "functional_area": "Orders"
+        },
+        "skill_context": {
+          "offering": "Order Management",
+          "functional_area": "Orders"
+        }
+      },
+      "match_status": "matched",
+      "business_objects": []
+    },
+    {
+      "sequence": 3,
+      "task_name": "Manage Receivables Payment Terms",
+      "task_code": "AR_MANAGE_RECEIVABLES_PAYMENT_TERMS",
+      "offering": "Financials",
+      "functional_area": "Customer Billing",
+      "skill_path": "pillars/erp/financials/customer-billing/manage-receivables-payment-terms/SKILL.md",
+      "skill_selection": {
+        "status": "selected",
+        "selected_by": "EXACT_TASK_CODE_AND_NAME",
+        "candidates": [
+          "pillars/erp/financials/customer-billing/manage-receivables-payment-terms/SKILL.md"
+        ],
+        "context_relation": "same-context",
+        "project_context": {
+          "offering": "Financials",
+          "functional_area": "Customer Billing"
+        },
+        "skill_context": {
+          "offering": "Financials",
+          "functional_area": "Customer Billing"
+        }
+      },
+      "match_status": "matched",
+      "business_objects": []
+    },
+    {
+      "sequence": 4,
+      "task_name": "Import Price Lists",
+      "task_code": "CUSTOM_IMPORT_PRICE_LISTS",
+      "offering": "Order Management",
+      "functional_area": "Pricing",
+      "skill_path": "pillars/scm/order-management/pricing/import-price-lists/SKILL.md",
+      "skill_selection": {
+        "status": "selected",
+        "selected_by": "EXACT_TASK_CODE_AND_NAME",
+        "candidates": [
+          "pillars/scm/order-management/pricing/import-price-lists/SKILL.md"
+        ],
+        "context_relation": "same-context",
+        "project_context": {
+          "offering": "Order Management",
+          "functional_area": "Pricing"
+        },
+        "skill_context": {
+          "offering": "Order Management",
+          "functional_area": "Pricing"
+        }
+      },
+      "match_status": "matched",
+      "business_objects": [
+        "Price List"
+      ]
+    },
+    {
+      "sequence": 5,
+      "task_name": "Manage Customer Uploads",
+      "task_code": "ORA_AR_MANAGE_CUSTOMER_UPLOADS",
+      "offering": "Financials",
+      "functional_area": "Customers",
+      "skill_path": "pillars/erp/financials/customers/manage-customer-uploads/SKILL.md",
+      "skill_selection": {
+        "status": "selected",
+        "selected_by": "EXACT_TASK_CODE_AND_NAME",
+        "candidates": [
+          "pillars/erp/financials/customers/manage-customer-uploads/SKILL.md"
+        ],
+        "context_relation": "same-context",
+        "project_context": {
+          "offering": "Financials",
+          "functional_area": "Customers"
+        },
+        "skill_context": {
+          "offering": "Financials",
+          "functional_area": "Customers"
+        }
+      },
+      "match_status": "matched",
+      "business_objects": [
+        "customers"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "items" : [ {
+    "LookupType" : "ORA_DOO_ORDER_TYPES",
+    "ModuleId" : "61ECAF4AAB00E990E040449821C61C97",
+    "Meaning" : "Type of Sales Order",
+    "Description" : "Abbreviated text that identifies the type of sales order.",
+    "CustomizationLevel" : "U",
+    "RestAccessSecured" : "AUTH",
+    "CreatedBy" : "SEED_DATA_FROM_APPLICATION",
+    "CreationDate" : "2021-03-07T03:57:19.297+00:00",
+    "LastUpdateDate" : "2026-04-02T12:45:52.613+00:00",
+    "LastUpdateLogin" : "-1",
+    "LastUpdatedBy" : "SEED_DATA_FROM_APPLICATION",
+    "@context" : {
+      "key" : "ORA_DOO_ORDER_TYPES"
+    }
+  } ],
+  "count" : 1,
+  "hasMore" : false,
+  "limit" : 25,
+  "offset" : 0,
+  "links" : [ {
+    "rel" : "self",
+    "href" : "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups",
+    "name" : "standardLookups",
+    "kind" : "collection"
+  } ]
+}

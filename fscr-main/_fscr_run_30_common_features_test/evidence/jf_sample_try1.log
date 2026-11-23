@@ -1,0 +1,7 @@
+| Stage | Result | Details |
+|---|---|---|
+| Sample Generation | \u274c Failed | Unable to write sample XLSX file ..\..\..\payload\PER_MANAGE_JOB_FAMILY\JobFamily.xlsx: The bundled Codex spreadsheet runtime is required to generate XLSX samples. |
+
+| Next action | Details |
+|---|---|
+| Required | Correct the sample request or output location and retry. |

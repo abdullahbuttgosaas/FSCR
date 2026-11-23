@@ -1,0 +1,49 @@
+{
+  "execution_result": {
+    "http_status": 200,
+    "actionName": "check-auditstatus",
+    "status": "SUCCESS",
+    "auditData": [
+      {
+        "businessObject": "oracle.apps.hcm.compensation.salary.core.protectedUiModel.view.SalaryAuditVO",
+        "parentBusinessObject": "oracle.apps.hcm.compensation.salary.core.protectedUiModel.view.SalaryAuditVO",
+        "auditSwitch": "NONE"
+      }
+    ],
+    "raw_response": {
+      "actionName": "check-auditstatus",
+      "status": "SUCCESS",
+      "auditData": [
+        {
+          "businessObject": "oracle.apps.hcm.compensation.salary.core.protectedUiModel.view.SalaryAuditVO",
+          "parentBusinessObject": "oracle.apps.hcm.compensation.salary.core.protectedUiModel.view.SalaryAuditVO",
+          "auditSwitch": "NONE"
+        }
+      ]
+    }
+  },
+  "diagnostics": {
+    "endpoint": "/fscmRestApi/fndAuditRESTService/audittrail/check-auditstatus",
+    "query_params": null,
+    "request_payload": {
+      "auditData": [
+        {
+          "businessObject": "oracle.apps.hcm.compensation.salary.core.protectedUiModel.view.SalaryAuditVO",
+          "parentBusinessObject": "oracle.apps.hcm.compensation.salary.core.protectedUiModel.view.SalaryAuditVO"
+        }
+      ]
+    },
+    "response_keys": [
+      "actionName",
+      "auditData",
+      "status"
+    ]
+  },
+  "audit_summary": {
+    "environment": "ETIA-TEST",
+    "rest_host": "fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com",
+    "endpoint": "/fscmRestApi/fndAuditRESTService/audittrail/check-auditstatus",
+    "actionName": "check-auditstatus",
+    "status": "SUCCESS"
+  }
+}

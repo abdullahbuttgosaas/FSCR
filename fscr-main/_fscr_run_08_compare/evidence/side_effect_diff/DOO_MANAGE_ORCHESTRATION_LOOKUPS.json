@@ -1,0 +1,32 @@
+{
+ "old": "fscr-work8/project/draft_impl_project_20261104/exports/baseline/DOO_MANAGE_ORCHESTRATION_LOOKUPS/ETIA-TEST_setup_task_csv_export_doo_manage_orchestration_lookups_100004734424708.zip",
+ "new": "fscr-work8/project/draft_impl_project_20261104/exports/extra/DOO_MANAGE_ORCHESTRATION_LOOKUPS/ETIA-TEST_setup_task_csv_export_doo_manage_orchestration_lookups_100004733467417.zip",
+ "files": {
+  "FND_APP_STANDARD_LOOKUP.csv": {
+   "rows_old": 6,
+   "rows_new": 6,
+   "key_columns": [
+    "LookupType",
+    "BossAppPackageName",
+    "BossModuleName"
+   ],
+   "added": [],
+   "removed": [],
+   "changed": []
+  },
+  "ORA_FND_APP_STANDARD_LOOKUP_CODE.csv": {
+   "rows_old": 70,
+   "rows_new": 71,
+   "key_columns": [
+    "LookupCode"
+   ],
+   "added": [
+    {
+     "LookupCode": "FSCRT_CAMPING_F08"
+    }
+   ],
+   "removed": [],
+   "changed": []
+  }
+ }
+}

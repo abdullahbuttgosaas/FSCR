@@ -1,0 +1,34 @@
+{
+ "items": [
+  {
+   "LookupType": "AR_BILLING_TXNS_WATCHLIST",
+   "Meaning": "Billing Transactions",
+   "@context": {
+    "key": "AR_BILLING_TXNS_WATCHLIST"
+   }
+  },
+  {
+   "LookupType": "AR_RCPTS_CM_WATCHLIST",
+   "Meaning": "Receipts and Credit Memos",
+   "@context": {
+    "key": "AR_RCPTS_CM_WATCHLIST"
+   }
+  },
+  {
+   "LookupType": "AR_RCPTS_CREATE_WATCHLIST",
+   "Meaning": "Receipts Pending Creation",
+   "@context": {
+    "key": "AR_RCPTS_CREATE_WATCHLIST"
+   }
+  },
+  {
+   "LookupType": "AR_RCPTS_REMIT_WATCHLIST",
+   "Meaning": "Receipt Remittances",
+   "@context": {
+    "key": "AR_RCPTS_REMIT_WATCHLIST"
+   }
+  }
+ ],
+ "count": 4,
+ "pages": 1
+}

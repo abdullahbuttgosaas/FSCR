@@ -1,0 +1,11 @@
+{
+  "objective": "Implement Oracle Cloud SCM modules (Product Information Management, Inventory & Cost Management, Self-Service Procurement, Purchasing, Supplier Portal, Process Manufacturing, Maintenance, Sustainability) with incremental updates to production Financials/Projects and a Reporting Strategy; common design for future site rollouts.",
+  "customer": "Twelve Benefit Corporation",
+  "pillars": ["SCM", "ERP"],
+  "offerings": [],
+  "countries": ["US"],
+  "industry": null,
+  "implementation_phase": "discovery",
+  "source": "sow/50513 - Twelve - Oracle Cloud SCM Implementation SOW v4_Twelve-signed_GS signed.pdf",
+  "notes": "offerings left empty: offering_scope pending per router.project-objective-classifier rules 4-5 (no exact offering name or short code in SOW; Supplier Portal, Sustainability, Items, GL, Payables are multi-offering functional areas)."
+}

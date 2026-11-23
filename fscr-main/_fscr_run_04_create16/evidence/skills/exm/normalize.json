@@ -1,0 +1,10 @@
+{
+  "errors": [
+    {
+      "code": "ADAPTER_ERROR",
+      "message": "Operation x1 creates conditionally blocked key field EXM_EXCHANGE_RATE_OPTION.BuName: Require fresh complete exact destination reference evidence bound to the candidate; Oracle error wording is not a prerequisite."
+    }
+  ],
+  "schemaVersion": "fscr-fsm-task-adapter-v1",
+  "status": "FAIL"
+}

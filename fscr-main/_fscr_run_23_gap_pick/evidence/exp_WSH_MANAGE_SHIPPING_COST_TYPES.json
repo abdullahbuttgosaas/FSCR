@@ -1,0 +1,28 @@
+{
+  "TaskCode" : "WSH_MANAGE_SHIPPING_COST_TYPES",
+  "ExportSupportedFlag" : true,
+  "@context" : {
+    "key" : "WSH_MANAGE_SHIPPING_COST_TYPES",
+    "links" : [ {
+      "rel" : "self",
+      "href" : "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/setupTaskCSVExports/WSH_MANAGE_SHIPPING_COST_TYPES",
+      "name" : "setupTaskCSVExports",
+      "kind" : "item"
+    }, {
+      "rel" : "canonical",
+      "href" : "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/setupTaskCSVExports/WSH_MANAGE_SHIPPING_COST_TYPES",
+      "name" : "setupTaskCSVExports",
+      "kind" : "item"
+    }, {
+      "rel" : "child",
+      "href" : "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/setupTaskCSVExports/WSH_MANAGE_SHIPPING_COST_TYPES/child/SetupTaskCSVExportCriteria",
+      "name" : "SetupTaskCSVExportCriteria",
+      "kind" : "collection"
+    }, {
+      "rel" : "child",
+      "href" : "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/setupTaskCSVExports/WSH_MANAGE_SHIPPING_COST_TYPES/child/SetupTaskCSVExportProcess",
+      "name" : "SetupTaskCSVExportProcess",
+      "kind" : "collection"
+    } ]
+  }
+}

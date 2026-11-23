@@ -1,0 +1,144 @@
+{
+  "Resources" : {
+    "paymentTermsLOV" : {
+      "discrColumnType" : false,
+      "usage" : "LOV",
+      "attributes" : [ {
+        "name" : "PaymentTermsId",
+        "type" : "string",
+        "format" : "BigInt",
+        "updatable" : false,
+        "mandatory" : true,
+        "queryable" : true,
+        "allowChanges" : "never",
+        "precision" : 18,
+        "operators" : [ "=", "<>", "<", "<=", ">", ">=", "BETWEEN", "NOTBETWEEN", "ISBLANK", "ISNOTBLANK" ],
+        "title" : "Payment Terms ID",
+        "annotations" : {
+          "description" : "The unique identifier of the payment term."
+        }
+      }, {
+        "name" : "Name",
+        "type" : "string",
+        "updatable" : false,
+        "mandatory" : true,
+        "queryable" : false,
+        "allowChanges" : "never",
+        "precision" : 15,
+        "title" : "Name",
+        "maxLength" : "15",
+        "annotations" : {
+          "description" : "Payment term name."
+        }
+      }, {
+        "name" : "Description",
+        "type" : "string",
+        "updatable" : false,
+        "mandatory" : false,
+        "queryable" : false,
+        "allowChanges" : "never",
+        "precision" : 240,
+        "title" : "Item Description",
+        "maxLength" : "240",
+        "annotations" : {
+          "description" : "Payment term description."
+        }
+      }, {
+        "name" : "SetName",
+        "type" : "string",
+        "updatable" : false,
+        "mandatory" : true,
+        "queryable" : false,
+        "allowChanges" : "never",
+        "precision" : 80,
+        "title" : "Reference Data Set",
+        "maxLength" : "80",
+        "annotations" : {
+          "description" : "Name of the reference data set value used within the context of transaction setups that are retrived through various reference resources."
+        }
+      } ],
+      "collection" : {
+        "rangeSize" : 25,
+        "finders" : [ {
+          "name" : "PrimaryKey",
+          "attributes" : [ {
+            "name" : "PaymentTermsId",
+            "type" : "string",
+            "format" : "BigInt",
+            "updatable" : true,
+            "mandatory" : true,
+            "queryable" : true,
+            "allowChanges" : "never",
+            "precision" : 18,
+            "title" : "Payment Terms ID"
+          } ]
+        }, {
+          "name" : "paymentTermSearch",
+          "title" : "PaymentTermSearchVC",
+          "attributes" : [ {
+            "name" : "Description",
+            "type" : "string",
+            "updatable" : true,
+            "required" : "Optional",
+            "queryable" : false,
+            "allowChanges" : "always"
+          }, {
+            "name" : "Name",
+            "type" : "string",
+            "updatable" : true,
+            "required" : "Optional",
+            "queryable" : false,
+            "allowChanges" : "always"
+          }, {
+            "name" : "SetName",
+            "type" : "string",
+            "updatable" : true,
+            "required" : "Required",
+            "queryable" : false,
+            "allowChanges" : "always"
+          } ]
+        } ],
+        "links" : [ {
+          "rel" : "self",
+          "href" : "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/paymentTermsLOV",
+          "name" : "self",
+          "kind" : "collection"
+        } ],
+        "actions" : [ {
+          "name" : "get",
+          "method" : "GET",
+          "responseType" : [ "application/vnd.oracle.adf.resourcecollection+json", "application/json" ]
+        } ]
+      },
+      "item" : {
+        "links" : [ {
+          "rel" : "self",
+          "href" : "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/paymentTermsLOV/{id}",
+          "name" : "self",
+          "kind" : "item"
+        }, {
+          "rel" : "canonical",
+          "href" : "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/paymentTermsLOV/{id}",
+          "name" : "canonical",
+          "kind" : "item"
+        } ],
+        "actions" : [ {
+          "name" : "get",
+          "method" : "GET",
+          "responseType" : [ "application/vnd.oracle.adf.resourceitem+json", "application/json" ]
+        } ]
+      },
+      "links" : [ {
+        "rel" : "self",
+        "href" : "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/paymentTermsLOV/describe",
+        "name" : "self",
+        "kind" : "describe"
+      }, {
+        "rel" : "canonical",
+        "href" : "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/paymentTermsLOV/describe",
+        "name" : "canonical",
+        "kind" : "describe"
+      } ]
+    }
+  }
+}

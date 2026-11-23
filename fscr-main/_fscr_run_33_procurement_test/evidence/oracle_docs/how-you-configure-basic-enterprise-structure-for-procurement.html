@@ -1,0 +1,105 @@
+<!DOCTYPE html
+  SYSTEM "about:legacy-compat">
+<html xmlns:table="http://dita-ot.sourceforge.net/ns/201007/dita-ot/table" lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta charset="UTF-8"><link rel="prev" href="enterprise-structure-for-procurement-rapid-implementation.html" title="Previous" type="text/html"><link rel="next" href="get-started-with-supplier-portal-configuration.html" title="Next" type="text/html"><meta name="description" content="When you perform a procurement rapid implementation, you have the option to use the Configure Basic Enterprise Structure for Procurement task. Use it for implementations of small and medium-sized organizations, to create a centralized procurement system for indirect, expense-type purchasing."><meta property="og:description" content="When you perform a procurement rapid implementation, you have the option to use the Configure Basic Enterprise Structure for Procurement task. Use it for implementations of small and medium-sized organizations, to create a centralized procurement system for indirect, expense-type purchasing."><meta property="og:title" content="Implementing Procurement"><meta name="application-name" content="Implementing Procurement"><meta name="dcterms:title" content="Implementing Procurement"><meta name="dcterms.title" content="Implementing Procurement"><meta name="doctitle" content="Implementing Procurement"><meta name="dcterms.created" content="Wed Sep 23 23:21:57 PDT 2026"><meta name="dcterms.dateCopyrighted" content="2026"><meta name="dcterms.category" content="cloud"><meta name="dcterms.isVersionOf" content="OAPRO"><meta name="dcterms.alternative" content="oapro"><meta name="dcterms.product" content="en/cloud/saas/procurement/26d"><link type="application/pdf" title="PDF" href="implementing-procurement.pdf" rel="alternate"><script type="application/json" id="ssot-metadata">{"primary":{"category":{"short_name":"cloud","element_name":"Cloud","display_in_url":true},"suite":{"short_name":"saas","element_name":"Cloud Applications","display_in_url":true},"product_group":{"short_name":"enterprise-resource-planning","element_name":"Enterprise Resource Planning","display_in_url":false},"product":{"short_name":"procurement","element_name":"Procurement","display_in_url":true},"release":{"short_name":"26d","element_name":"26D","display_in_url":true}}}</script><title>How You Configure Basic Enterprise Structure for Procurement</title>
+  
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!--saved from url=(0023)https://docs.oracle.com-->
+  <link rel="stylesheet" href="/sp_common/book-template/ohc-book-template/css/book.css">
+  <script>
+	document.write('<style type="text/css">');
+	document.write('body > .noscript, body > .noscript ~ * { opacity: 0; }');
+	document.write('</style>');
+  </script>
+  <script data-main="/sp_common/book-template/ohc-book-template/js/book-config" src="/sp_common/book-template/requirejs/require.js"></script>
+
+  <script>
+	if (window.require === undefined) {
+		document.write('<script data-main="sp_common/book-template/ohc-book-template/js/book-config" src="sp_common/book-template/requirejs/require.js"><\/script>');
+		document.write('<link href="sp_common/book-template/ohc-book-template/css/book.css" rel="stylesheet">');
+	}
+  </script>
+
+  <meta name="generator" content="Fusion Publishing Server, UAE Ditamap Publisher">
+  <link rel="shortcut icon" href="/sp_common/book-template/ohc-common/img/favicon.ico">
+  <link rel="schema.dcterms" href="http://purl.org/dc/terms/">
+
+
+    <meta name="dcterms.identifier" content="G59686-01">
+    <meta name="dcterms.release" content="26D">
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebPage","name":"How You Configure Basic Enterprise Structure for Procurement","description":"When you perform a procurement rapid implementation, you have the option to use the Configure Basic Enterprise Structure for Procurement task. Use it for implementations of small and medium-sized organizations, to create a centralized procurement system for indirect, expense-type purchasing.","datePublished":"2026-09-30 CST","dateModified":"2026-09-30 CST"}</script>
+    <script>window.ohcglobal || document.write('<script src="/en/dcommon/js/global.js">\x3C/script>')</script></head><body><div class="noscript alert alert-danger text-center" role="alert"><a class="pull-left" href="enterprise-structure-for-procurement-rapid-implementation.html"><span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>Previous</a><a class="pull-right" href="get-started-with-supplier-portal-configuration.html">Next<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span></a><span class="fa fa-exclamation-triangle" aria-hidden="true"></span> JavaScript must be enabled to correctly display this content
+		</div><article><header><style>table:not(.fsModule) th,table:not(.fsModule) td{width:auto !important;}</style><ol class="breadcrumb" vocab="http://schema.org/" typeof="BreadcrumbList"><li property="itemListElement" typeof="ListItem"><a href="index.html" property="item" typeof="WebPage"><span property="name">Implementing Procurement</span></a><meta property="position" content="0"></li><li class="active" property="itemListElement" typeof="ListItem">How You Configure Basic Enterprise Structure for Procurement<meta property="position" content="1"></li></ol><h1 class="fa-chapter topic_link"><span id="how-you-configure-basic-enterprise-structure-for-procurement"></span><span id="OAPROhow-you-configure-basic-enterprise-structure-for-procurement" data-help-type="cloud-saas-docid"></span><span id="OAPRO1863387" data-help-type="cloud-saas"></span><span class="chapterstart" id="s20053701">How You Configure Basic Enterprise Structure for Procurement</span></h1></header><div>
+   <p></p>
+   
+   
+   
+   
+  
+  <div class="body conbody"><p class="shortdesc">When you perform a procurement rapid implementation,
+you have the option to use the Configure Basic Enterprise Structure
+for Procurement task. Use it for implementations of small and medium-sized
+organizations, to create a centralized procurement system for indirect,
+expense-type purchasing.</p>
+      <p class="p"></p>
+      <section class="section"><h2 class="title sectiontitle">Basic Enterprise Structure for Procurement task</h2>
+         
+         <p class="p">To perform this setup task you run an automated
+program, the Enterprise Scheduler Service (ESS) scheduled process
+Configure Basic Enterprise Structure for Procurement. </p>
+         <p class="p">To submit the process, first enter two input parameters:
+Centralized Procurement Business Unit Name, and Currency.</p>
+         <p class="p">When you submit the process, the following enterprise
+structure setup tasks are configured automatically, based on existing
+enterprise structures set up for the organization:</p>
+         <ul class="ul">
+            <li class="li">
+               <p class="p">Creates a new business unit with
+the procurement business function, and configures it as a service
+provider for all other business units in the organization.</p>
+            </li>
+            <li class="li">
+               <p class="p">Configures each business unit with
+the requisitioning business function.</p>
+            </li>
+            <li class="li">
+               <p class="p">Creates an item organization, which
+is the master inventory organization.</p>
+            </li>
+            <li class="li">
+               <p class="p">Creates one inventory organization
+for each of the other business units.</p>
+            </li>
+            <li class="li">
+               <p class="p">Configures the inventory organization
+parameters and receiving parameters for each inventory organization
+created.</p>
+            </li>
+            <li class="li">
+               <p class="p">Creates a workday shift, pattern
+and schedule.</p>
+            </li>
+            <li class="li">
+               <p class="p">For the procurement business unit,
+creates a common content zone and catalog. Provides users in all requisitioning
+business units access to all agreements and master items while creating
+requisitions.</p>
+            </li>
+            <li class="li">
+               <p class="p">Creates most commonly used units
+of measure and their standard conversions.</p>
+            </li>
+         </ul>
+      </section>
+      <section class="section">
+         
+         <p class="p">Find the Configure Basic Enterprise Structure for
+Procurement task in the Setup and Maintenance work area. The task
+is under the Define Common Procurement Configuration Rapid Implementation
+task list. To create a procurement rapid implementation task list,
+see the topic: Getting Started with Your Procurement Rapid Implementation:
+Procedure.</p>
+      </section>
+   </div>
+  <p class="relatedlinks">Related Topics</p><div class="linklist"><ul><li><a class="link" href="get-started-with-your-procurement-rapid-implementation.html#s20053665" title="Use the procurement rapid implementation task list to implement the Oracle Fusion Cloud Procurement offering if your organization has simple setup requirements. The task list reduces the number of tasks to those that are required or commonly used.">Get Started with Your Procurement Rapid Implementation</a></li><li><a class="link" href="enterprise-structure-for-procurement-rapid-implementation.html#s20053697" title="When you do a procurement rapid implementation, two task lists are available to select for configuring the enterprise structures. The two versions vary by either including or excluding the purchasing-related tasks.">Enterprise Structure for Procurement Rapid Implementation</a></li></ul></div>
+</div></article></body></html>

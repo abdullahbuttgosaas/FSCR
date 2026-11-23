@@ -1,0 +1,1 @@
+[{"id":"verify_rest_journalCategoriesLOV","path":"journalCategoriesLOV","q":{"q":"UserJeCategoryName LIKE 'FSCRT_%'","limit":"50"}}]

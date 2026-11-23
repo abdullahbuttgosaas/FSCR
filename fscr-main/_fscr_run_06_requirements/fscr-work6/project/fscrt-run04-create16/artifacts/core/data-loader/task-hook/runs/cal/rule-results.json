@@ -1,0 +1,35 @@
+[
+ {
+  "source": "ora_input_validation.md",
+  "status": "passed",
+  "issues": [
+   {
+    "severity": "info",
+    "message": "CALENDAR.VALIDATE_INPUT -> valid. Parent identity AP_OTHER_PERIOD_TYPE CalendarName FSCRT_CAL1 + CalendarType GENERAL supplied with exact package headers; not present in baseline export 100004733446521 (5 calendars). 12 child periods all carry AP_OTHER_PERIOD_TYPE.CalendarName/CalendarType = FSCRT_CAL1/GENERAL and the parent row is in the same archive. GENERAL calendar: DueDate optional (blank). Only documented create fields used. Adapter normalize/build/validate status PASS, errors []."
+   }
+  ],
+  "changes": []
+ },
+ {
+  "source": "ora_design_enforcement.md",
+  "status": "passed",
+  "issues": [
+   {
+    "severity": "info",
+    "message": "CALENDAR.ENFORCE_DESIGN -> ready. generatePeriods on the create with StartDate 2027-01-01, PeriodFrequency MONTHLY, PeriodsPerYear 12, PeriodNameFormat MMM (matching pair per SKILL.md); no manual periods mixed in. Generated periods Jan-27..Dec-27: ordered, no overlaps, PeriodNum 1-12 unique within PeriodYear 2027. All dates ISO YYYY-MM-DD; audit columns blank; template headers and member order preserved (validate PASS)."
+   }
+  ],
+  "changes": []
+ },
+ {
+  "source": "ora_error_handling.md",
+  "status": "passed",
+  "issues": [
+   {
+    "severity": "info",
+    "message": "CALENDAR.EXECUTION_GATE -> approved_preview. Data Loader preflight passed (no upload) for fscrt-cal-candidate.zip; the user's written approval of Run 04 test records is the design confirmation and execution approval; the Task Hook preview/approval follows. Terminal CALENDAR.READY_FOR_DATA_LOADER."
+   }
+  ],
+  "changes": []
+ }
+]

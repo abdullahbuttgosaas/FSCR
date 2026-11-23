@@ -1,0 +1,710 @@
+{
+ "items": [
+  {
+   "LegalEntityId": "300000327701787",
+   "Name": "123Test",
+   "LegalEntityIdentifier": "123Testing",
+   "EffectiveFrom": null,
+   "EffectiveTo": null,
+   "PartyId": "300000327701788",
+   "@context": {
+    "key": "300000327701787"
+   }
+  },
+  {
+   "LegalEntityId": "300000386471065",
+   "Name": "28Vision America",
+   "LegalEntityIdentifier": "28-1234569",
+   "EffectiveFrom": null,
+   "EffectiveTo": null,
+   "PartyId": "300000386471088",
+   "@context": {
+    "key": "300000386471065"
+   }
+  },
+  {
+   "LegalEntityId": "300000386471064",
+   "Name": "28Vision Corporate HQ",
+   "LegalEntityIdentifier": "28-1234568",
+   "EffectiveFrom": null,
+   "EffectiveTo": null,
+   "PartyId": "300000386471080",
+   "@context": {
+    "key": "300000386471064"
+   }
+  },
+  {
+   "LegalEntityId": "300000389032022",
+   "Name": "29 Ledger LE",
+   "LegalEntityIdentifier": "29ledgerLE",
+   "EffectiveFrom": "2023-01-01",
+   "EffectiveTo": null,
+   "PartyId": "300000389032023",
+   "@context": {
+    "key": "300000389032022"
+   }
+  },
+  {
+   "LegalEntityId": "300000333786203",
+   "Name": "AI-oranges",
+   "LegalEntityIdentifier": "03057185626",
+   "EffectiveFrom": null,
+   "EffectiveTo": null,
+   "PartyId": "300000333786211",
+   "@context": {
+    "key": "300000333786203"
+   }
+  },
+  {
+   "LegalEntityId": "300000384756086",
+   "Name": "AKVision America",
+   "LegalEntityIdentifier": "AK-1234569",
+   "EffectiveFrom": null,
+   "EffectiveTo": null,
+   "PartyId": "300000384756117",
+   "@context": {
+    "key": "300000384756086"
+   }
+  },
+  {
+   "LegalEntityId": "300000384756085",
+   "Name": "AKVision Corporate HQ",
+   "LegalEntityIdentifier": "AK-1234568",
+   "EffectiveFrom": null,
+   "EffectiveTo": null,
+   "PartyId": "300000384756109",
+   "@context": {
+    "key": "300000384756085"
+   }
+  },
+  {
+   "LegalEntityId": "300000384756087",
+   "Name": "AKVision South Asia",
+   "LegalEntityIdentifier": "AK-1234570",
+   "EffectiveFrom": null,
+   "EffectiveTo": null,
+   "PartyId": "300000384756125",
+   "@context": {
+    "key": "300000384756087"
+   }
+  },
+  {
+   "LegalEntityId": "300000390039761",
+   "Name": "ARALE",
+   "LegalEntityIdentifier": "628",
+   "EffectiveFrom": null,
+   "EffectiveTo": null,
+   "PartyId": "300000390039762",
+   "@context": {
+    "key": "300000390039761"
+   }
+  },
+  {
+   "LegalEntityId": "300000336676423",
+   "Name": "AW GoSAAS",
+   "LegalEntityIdentifier": "AWGS",
+   "EffectiveFrom": null,
+   "EffectiveTo": null,
+   "PartyId": "300000336676424",
+   "@context": {
+    "key": "300000336676423"
+   }
+  },
+  {
+   "LegalEntityId": "300000328239204",
+   "Name": "Ascend Group Co. Ltd",
+   "LegalEntityIdentifier": "Ascend Group Co. Ltd",
+   "EffectiveFrom": "2024-08-19",
+   "EffectiveTo": null,
+   "PartyId": "300000328239205",
+   "@context": {
+    "key": "300000328239204"
+   }
+  },
+  {
+   "LegalEntityId": "300000333998829",
+   "Name": "Asif198",
+   "LegalEntityIdentifier": "191919",
+   "EffectiveFrom": null,
+   "EffectiveTo": null,
+   "PartyId": "300000333998837",
+   "@context": {
+    "key": "300000333998829"
+   }
+  },
+  {
+   "LegalEntityId": "300000384256041",
+   "Name": "CEA Medical Manufacturing, Inc.",
+   "LegalEntityIdentifier": "NMT_COLORADO",
+   "EffectiveFrom": null,
+   "EffectiveTo": null,
+   "PartyId": "300000384256042",
+   "@context": {
+    "key": "300000384256041"
+   }
+  },
+  {
+   "LegalEntityId": "300000387508354",
+   "Name": "DSSVision America",
+   "LegalEntityIdentifier": "DSS-1234569",
+   "EffectiveFrom": null,
+   "EffectiveTo": null,
+   "PartyId": "300000387508385",
+   "@context": {
+    "key": "300000387508354"
+   }
+  },
+  {
+   "LegalEntityId": "300000387508353",
+   "Name": "DSSVision Corporate HQ",
+   "LegalEntityIdentifier": "DSS-1234568",
+   "EffectiveFrom": null,
+   "EffectiveTo": null,
+   "PartyId": "300000387508377",
+   "@context": {
+    "key": "300000387508353"
+   }
+  },
+  {
+   "LegalEntityId": "300000387508355",
+   "Name": "DSSVision South Asia",
+   "LegalEntityIdentifier": "DSS-1234570",
+   "EffectiveFrom": null,
+   "EffectiveTo": null,
+   "PartyId": "300000387508393",
+   "@context": {
+    "key": "300000387508355"
+   }
+  },
+  {
+   "LegalEntityId": "300000329239049",
+   "Name": "Duck legal",
+   "LegalEntityIdentifier": "09",
+   "EffectiveFrom": "2024-09-03",
+   "EffectiveTo": null,
+   "PartyId": "300000329239050",
+   "@context": {
+    "key": "300000329239049"
+   }
+  },
+  {
+   "LegalEntityId": "300000333860223",
+   "Name": "EBS-AI",
+   "LegalEntityIdentifier": "654123987",
+   "EffectiveFrom": null,
+   "EffectiveTo": null,
+   "PartyId": "300000333860231",
+   "@context": {
+    "key": "300000333860223"
+   }
+  },
+  {
+   "LegalEntityId": "300000002285128",
+   "Name": "GS Legal Entity",
+   "LegalEntityIdentifier": "7865999",
+   "EffectiveFrom": null,
+   "EffectiveTo": null,
+   "PartyId": "300000002285129",
+   "@context": {
+    "key": "300000002285128"
+   }
+  },
+  {
+   "LegalEntityId": "300000327324882",
+   "Name": "Go Venue 02",
+   "LegalEntityIdentifier": "31313131",
+   "EffectiveFrom": null,
+   "EffectiveTo": null,
+   "PartyId": "300000327324905",
+   "@context": {
+    "key": "300000327324882"
+   }
+  },
+  {
+   "LegalEntityId": "300000327324881",
+   "Name": "Go range 01",
+   "LegalEntityIdentifier": "21212121",
+   "EffectiveFrom": null,
+   "EffectiveTo": null,
+   "PartyId": "300000327324897",
+   "@context": {
+    "key": "300000327324881"
+   }
+  },
+  {
+   "LegalEntityId": "300000130947095",
+   "Name": "GoSaaS Inc.",
+   "LegalEntityIdentifier": "GS-000",
+   "EffectiveFrom": null,
+   "EffectiveTo": null,
+   "PartyId": "300000130947326",
+   "@context": {
+    "key": "300000130947095"
+   }
+  },
+  {
+   "LegalEntityId": "300000327526292",
+   "Name": "GoSaaS Labs Legel Entity",
+   "LegalEntityIdentifier": "GoSaaS Labs Legel Entity",
+   "EffectiveFrom": null,
+   "EffectiveTo": null,
+   "PartyId": "300000327526293",
+   "@context": {
+    "key": "300000327526292"
+   }
+  },
+  {
+   "LegalEntityId": "300000380049029",
+   "Name": "GoSaaS Test",
+   "LegalEntityIdentifier": "12345678",
+   "EffectiveFrom": "2025-01-01",
+   "EffectiveTo": null,
+   "PartyId": "300000380049030",
+   "@context": {
+    "key": "300000380049029"
+   }
+  },
+  {
+   "LegalEntityId": "300000384256027",
+   "Name": "Graphic Controls Acquisition Corp.",
+   "LegalEntityIdentifier": "NMT_BUFFALO",
+   "EffectiveFrom": null,
+   "EffectiveTo": null,
+   "PartyId": "300000384256028",
+   "@context": {
+    "key": "300000384256027"
+   }
+  },
+  {
+   "LegalEntityId": "300000387285399",
+   "Name": "HAHAVision America",
+   "LegalEntityIdentifier": "HAHA-1234569",
+   "EffectiveFrom": null,
+   "EffectiveTo": null,
+   "PartyId": "300000387285430",
+   "@context": {
+    "key": "300000387285399"
+   }
+  },
+  {
+   "LegalEntityId": "300000387285398",
+   "Name": "HAHAVision Corporate HQ",
+   "LegalEntityIdentifier": "HAHA-1234568",
+   "EffectiveFrom": null,
+   "EffectiveTo": null,
+   "PartyId": "300000387285422",
+   "@context": {
+    "key": "300000387285398"
+   }
+  },
+  {
+   "LegalEntityId": "300000387285400",
+   "Name": "HAHAVision South Asia",
+   "LegalEntityIdentifier": "HAHA-1234570",
+   "EffectiveFrom": null,
+   "EffectiveTo": null,
+   "PartyId": "300000387285438",
+   "@context": {
+    "key": "300000387285400"
+   }
+  },
+  {
+   "LegalEntityId": "300000333993772",
+   "Name": "HEC-9090",
+   "LegalEntityIdentifier": "09090909",
+   "EffectiveFrom": null,
+   "EffectiveTo": null,
+   "PartyId": "300000333993780",
+   "@context": {
+    "key": "300000333993772"
+   }
+  },
+  {
+   "LegalEntityId": "300000333673180",
+   "Name": "IFF Twelve Mock Farms Ltd.",
+   "LegalEntityIdentifier": "US104111",
+   "EffectiveFrom": null,
+   "EffectiveTo": null,
+   "PartyId": "300000333673243",
+   "@context": {
+    "key": "300000333673180"
+   }
+  },
+  {
+   "LegalEntityId": "300000333673179",
+   "Name": "IFU Twelve Mock USA Ltd.",
+   "LegalEntityIdentifier": "US103111",
+   "EffectiveFrom": null,
+   "EffectiveTo": null,
+   "PartyId": "300000333673235",
+   "@context": {
+    "key": "300000333673179"
+   }
+  },
+  {
+   "LegalEntityId": "300000336313880",
+   "Name": "Imtenan Group of Companies",
+   "LegalEntityIdentifier": "1234",
+   "EffectiveFrom": null,
+   "EffectiveTo": null,
+   "PartyId": "300000336313881",
+   "@context": {
+    "key": "300000336313880"
+   }
+  },
+  {
+   "LegalEntityId": "300000384256083",
+   "Name": "Isometric Companies LLC",
+   "LegalEntityIdentifier": "NMT_NEWRICHMOND",
+   "EffectiveFrom": null,
+   "EffectiveTo": null,
+   "PartyId": "300000384256084",
+   "@context": {
+    "key": "300000384256083"
+   }
+  },
+  {
+   "LegalEntityId": "300000334604899",
+   "Name": "LEE1",
+   "LegalEntityIdentifier": "LEE1",
+   "EffectiveFrom": null,
+   "EffectiveTo": null,
+   "PartyId": "300000334604900",
+   "@context": {
+    "key": "300000334604899"
+   }
+  },
+  {
+   "LegalEntityId": "300000384256069",
+   "Name": "Lead-Lok, Inc",
+   "LegalEntityIdentifier": "NMT_SANDPOINT",
+   "EffectiveFrom": null,
+   "EffectiveTo": null,
+   "PartyId": "300000384256070",
+   "@context": {
+    "key": "300000384256069"
+   }
+  },
+  {
+   "LegalEntityId": "300000391266041",
+   "Name": "MG Legal Entity",
+   "LegalEntityIdentifier": "MGLE01",
+   "EffectiveFrom": "2026-09-01",
+   "EffectiveTo": null,
+   "PartyId": "300000391266042",
+   "@context": {
+    "key": "300000391266041"
+   }
+  },
+  {
+   "LegalEntityId": "300000386785928",
+   "Name": "MM Legal Entity",
+   "LegalEntityIdentifier": "MMLE01",
+   "EffectiveFrom": null,
+   "EffectiveTo": null,
+   "PartyId": "300000386785929",
+   "@context": {
+    "key": "300000386785928"
+   }
+  },
+  {
+   "LegalEntityId": "300000381023144",
+   "Name": "MNC_OM",
+   "LegalEntityIdentifier": "MNC_OM",
+   "EffectiveFrom": null,
+   "EffectiveTo": null,
+   "PartyId": "300000381023145",
+   "@context": {
+    "key": "300000381023144"
+   }
+  },
+  {
+   "LegalEntityId": "300000329151244",
+   "Name": "Mannan LT",
+   "LegalEntityIdentifier": "M-23",
+   "EffectiveFrom": "2024-09-02",
+   "EffectiveTo": null,
+   "PartyId": "300000329151245",
+   "@context": {
+    "key": "300000329151244"
+   }
+  },
+  {
+   "LegalEntityId": "300000386465302",
+   "Name": "N24Vision America",
+   "LegalEntityIdentifier": "N24-1234569",
+   "EffectiveFrom": null,
+   "EffectiveTo": null,
+   "PartyId": "300000386465333",
+   "@context": {
+    "key": "300000386465302"
+   }
+  },
+  {
+   "LegalEntityId": "300000386465301",
+   "Name": "N24Vision Corporate HQ",
+   "LegalEntityIdentifier": "N24-1234568",
+   "EffectiveFrom": null,
+   "EffectiveTo": null,
+   "PartyId": "300000386465325",
+   "@context": {
+    "key": "300000386465301"
+   }
+  },
+  {
+   "LegalEntityId": "300000386465303",
+   "Name": "N24Vision South Asia",
+   "LegalEntityIdentifier": "N24-1234570",
+   "EffectiveFrom": null,
+   "EffectiveTo": null,
+   "PartyId": "300000386465341",
+   "@context": {
+    "key": "300000386465303"
+   }
+  },
+  {
+   "LegalEntityId": "300000384256055",
+   "Name": "Nissha Medical Technologies Ohio Inc",
+   "LegalEntityIdentifier": "NMT_NORWALK",
+   "EffectiveFrom": null,
+   "EffectiveTo": null,
+   "PartyId": "300000384256056",
+   "@context": {
+    "key": "300000384256055"
+   }
+  },
+  {
+   "LegalEntityId": "300000384656041",
+   "Name": "Northwind Acquisitions Corp",
+   "LegalEntityIdentifier": "5493000CDEF003NY0014",
+   "EffectiveFrom": null,
+   "EffectiveTo": null,
+   "PartyId": "300000384656042",
+   "@context": {
+    "key": "300000384656041"
+   }
+  },
+  {
+   "LegalEntityId": "300000384656027",
+   "Name": "Northwind Biomedical Inc",
+   "LegalEntityIdentifier": "5493000CDEF002ID0083",
+   "EffectiveFrom": null,
+   "EffectiveTo": null,
+   "PartyId": "300000384656028",
+   "@context": {
+    "key": "300000384656027"
+   }
+  },
+  {
+   "LegalEntityId": "300000384656069",
+   "Name": "Northwind Innovations LLC",
+   "LegalEntityIdentifier": "5493000CDEF005WI0054",
+   "EffectiveFrom": null,
+   "EffectiveTo": null,
+   "PartyId": "300000384656070",
+   "@context": {
+    "key": "300000384656069"
+   }
+  },
+  {
+   "LegalEntityId": "300000384656013",
+   "Name": "Northwind Manufacturing Inc",
+   "LegalEntityIdentifier": "5493000CDEF001CO0042",
+   "EffectiveFrom": null,
+   "EffectiveTo": null,
+   "PartyId": "300000384656014",
+   "@context": {
+    "key": "300000384656013"
+   }
+  },
+  {
+   "LegalEntityId": "300000384656055",
+   "Name": "Northwind Ohio Inc",
+   "LegalEntityIdentifier": "5493000CDEF004OH0044",
+   "EffectiveFrom": null,
+   "EffectiveTo": null,
+   "PartyId": "300000384656056",
+   "@context": {
+    "key": "300000384656055"
+   }
+  },
+  {
+   "LegalEntityId": "300000338500353",
+   "Name": "PPVision America",
+   "LegalEntityIdentifier": "PP-1234579",
+   "EffectiveFrom": null,
+   "EffectiveTo": null,
+   "PartyId": "300000338500376",
+   "@context": {
+    "key": "300000338500353"
+   }
+  },
+  {
+   "LegalEntityId": "300000338500352",
+   "Name": "PPVision Corporate HQ",
+   "LegalEntityIdentifier": "PP-1234578",
+   "EffectiveFrom": null,
+   "EffectiveTo": null,
+   "PartyId": "300000338500368",
+   "@context": {
+    "key": "300000338500352"
+   }
+  },
+  {
+   "LegalEntityId": "300000329151081",
+   "Name": "Sohaib",
+   "LegalEntityIdentifier": "MS-1",
+   "EffectiveFrom": "2020-01-01",
+   "EffectiveTo": null,
+   "PartyId": "300000329151082",
+   "@context": {
+    "key": "300000329151081"
+   }
+  },
+  {
+   "LegalEntityId": "300000328999996",
+   "Name": "T2 legal",
+   "LegalEntityIdentifier": "12",
+   "EffectiveFrom": "2024-09-03",
+   "EffectiveTo": null,
+   "PartyId": "300000328999997",
+   "@context": {
+    "key": "300000328999996"
+   }
+  },
+  {
+   "LegalEntityId": "300000334904279",
+   "Name": "TEST Legal Entity",
+   "LegalEntityIdentifier": "TEST Legal Entity",
+   "EffectiveFrom": null,
+   "EffectiveTo": null,
+   "PartyId": "300000334904287",
+   "@context": {
+    "key": "300000334904279"
+   }
+  },
+  {
+   "LegalEntityId": "300000332884765",
+   "Name": "Tektronix, Inc.",
+   "LegalEntityIdentifier": "Tektronix, Inc.",
+   "EffectiveFrom": null,
+   "EffectiveTo": null,
+   "PartyId": "300000332884766",
+   "@context": {
+    "key": "300000332884765"
+   }
+  },
+  {
+   "LegalEntityId": "300000337701979",
+   "Name": "Thermacell Repellents",
+   "LegalEntityIdentifier": "Thermacell Repellents",
+   "EffectiveFrom": null,
+   "EffectiveTo": null,
+   "PartyId": "300000337701987",
+   "@context": {
+    "key": "300000337701979"
+   }
+  },
+  {
+   "LegalEntityId": "300000333673185",
+   "Name": "Twelve Mock Core Canada Ltd.",
+   "LegalEntityIdentifier": "CN006654",
+   "EffectiveFrom": null,
+   "EffectiveTo": null,
+   "PartyId": "300000333673283",
+   "@context": {
+    "key": "300000333673185"
+   }
+  },
+  {
+   "LegalEntityId": "300000327478448",
+   "Name": "UserTestEntity",
+   "LegalEntityIdentifier": "UserTestEntity",
+   "EffectiveFrom": null,
+   "EffectiveTo": null,
+   "PartyId": "300000327478449",
+   "@context": {
+    "key": "300000327478448"
+   }
+  },
+  {
+   "LegalEntityId": "300000333673183",
+   "Name": "VCC Twelve Mock Cupertino Cherries",
+   "LegalEntityIdentifier": "US10811",
+   "EffectiveFrom": null,
+   "EffectiveTo": null,
+   "PartyId": "300000333673267",
+   "@context": {
+    "key": "300000333673183"
+   }
+  },
+  {
+   "LegalEntityId": "300000333673184",
+   "Name": "VFPM Twelve Mock Production Mfg Ltd.",
+   "LegalEntityIdentifier": "US105111",
+   "EffectiveFrom": null,
+   "EffectiveTo": null,
+   "PartyId": "300000333673275",
+   "@context": {
+    "key": "300000333673184"
+   }
+  },
+  {
+   "LegalEntityId": "300000333673182",
+   "Name": "VSC Twelve Mock Stockton Citrus",
+   "LegalEntityIdentifier": "US107111",
+   "EffectiveFrom": null,
+   "EffectiveTo": null,
+   "PartyId": "300000333673259",
+   "@context": {
+    "key": "300000333673182"
+   }
+  },
+  {
+   "LegalEntityId": "300000333673181",
+   "Name": "VSCC Twelve Mock San Carlos Chocolates",
+   "LegalEntityIdentifier": "US106111",
+   "EffectiveFrom": null,
+   "EffectiveTo": null,
+   "PartyId": "300000333673251",
+   "@context": {
+    "key": "300000333673181"
+   }
+  },
+  {
+   "LegalEntityId": "300000333619701",
+   "Name": "Vision Operations 123",
+   "LegalEntityIdentifier": "123456789",
+   "EffectiveFrom": null,
+   "EffectiveTo": null,
+   "PartyId": "300000333619709",
+   "@context": {
+    "key": "300000333619701"
+   }
+  },
+  {
+   "LegalEntityId": "300000333359356",
+   "Name": "Vision Operations testing 001",
+   "LegalEntityIdentifier": "090078601",
+   "EffectiveFrom": null,
+   "EffectiveTo": null,
+   "PartyId": "300000333359357",
+   "@context": {
+    "key": "300000333359356"
+   }
+  },
+  {
+   "LegalEntityId": "300000003492035",
+   "Name": "zle",
+   "LegalEntityIdentifier": "11223344",
+   "EffectiveFrom": null,
+   "EffectiveTo": null,
+   "PartyId": "300000003492036",
+   "@context": {
+    "key": "300000003492035"
+   }
+  }
+ ],
+ "count": 64,
+ "pages": 1
+}

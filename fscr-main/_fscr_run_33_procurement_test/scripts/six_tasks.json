@@ -1,0 +1,38 @@
+[
+ {
+  "task": "Manage Document Styles (Procurement Foundation)",
+  "group": "Skill + route",
+  "result": "Done with a fix",
+  "note": "FSCRT_R33 Style: 3 document types, goods + services. Read back OK. Fix: Run Book binding written by hand after the create timeout; FSM CSV package used because the skill's REST object is not a Data Loader object."
+ },
+ {
+  "task": "Manage Procurement Document Numbering (Procurement Foundation)",
+  "group": "Skill + route",
+  "result": "Done with a fix",
+  "note": "Requisition numbering for FSCRT_Brindle Harbor Marine Supply F01, prefix FSCRT_R33|, 5 digits. Read back OK. Same Run Book fix."
+ },
+ {
+  "task": "Manage Compliance Checklist Questions (Compliance Checklists)",
+  "group": "Route only",
+  "result": "Not done",
+  "note": "Oracle's CSV import needs an internal ID (OriginalQuestionId) the CSV has no column for; a blank revision fails too. 2 tries, 0 created. CSV exists but cannot create."
+ },
+ {
+  "task": "Manage Compliance Checklist Sections (Compliance Checklists)",
+  "group": "Route only",
+  "result": "Not done",
+  "note": "Oracle: PrcBuId isn't valid. A section needs a Procurement BU; no FSCRT_ BU has that function and adding it edits an existing BU. 2 tries, 0 created."
+ },
+ {
+  "task": "Manage Approval Groups (Approval Management)",
+  "group": "Neither",
+  "result": "Not done",
+  "note": "No skill, no CSV, no API. Oracle has no CSV or API: screen work in the BPM Worklist only."
+ },
+ {
+  "task": "Manage Corporate Cards (Self Service Procurement)",
+  "group": "Neither",
+  "result": "Not done",
+  "note": "No skill, no CSV, no create API. Oracle has no CSV or API: its REST only reads card transactions."
+ }
+]

@@ -1,0 +1,7 @@
+| Stage | Result | Details |
+|---|---|---|
+| Task Validation | \u274c Failed | Task-routed approved artifacts require an approved Task Validator envelope. |
+
+| Next action | Details |
+|---|---|
+| Required | Correct the reported issue and retry the operation. |

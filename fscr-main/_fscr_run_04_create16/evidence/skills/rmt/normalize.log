@@ -1,0 +1,12 @@
+
+--stderr--
+{
+  "errors": [
+    {
+      "code": "ADAPTER_ERROR",
+      "message": "Operation r1 creates conditionally blocked key field AR_REMIT_TO_LOCATION.SetCode: Target access policy and optional supported public preflight are not yet reviewed."
+    }
+  ],
+  "schemaVersion": "fscr-fsm-task-adapter-v1",
+  "status": "FAIL"
+}

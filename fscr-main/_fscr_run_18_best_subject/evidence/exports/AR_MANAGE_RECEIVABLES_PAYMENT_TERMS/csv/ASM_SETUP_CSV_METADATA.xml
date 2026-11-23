@@ -1,0 +1,92 @@
+<MigrationProcessCSVMetadataVO>
+   <MigrationProcessCSVMetadataVORow>
+      <ProcessId>-999</ProcessId>
+      <ProcessName>Manage Receivables Payment Terms_20261109_125458_178</ProcessName>
+      <ProcessDescription>Manage Receivables Payment Terms_20261109_125458_178</ProcessDescription>
+      <ProcessDate>2026-11-09 12:55:24.36</ProcessDate>
+      <ObjectShortName>AR_MANAGE_RECEIVABLES_PAYMENT_TERMS</ObjectShortName>
+      <ObjectType>TASK</ObjectType>
+      <CreatedByFlow>TASK_CSV_SERVICE</CreatedByFlow>
+      <ProcessType>EXPORT</ProcessType>
+      <ProcessStatus>COMPLETED</ProcessStatus>
+      <ProcessEnv>etia-test</ProcessEnv>
+      <ProcessStartDate>2026-11-09 12:54:58.189</ProcessStartDate>
+      <ProcessEndDate>2026-11-09 12:55:24.36</ProcessEndDate>
+      <ProcessRelease>11.13.26.10.0</ProcessRelease>
+      <SubmittedBy>Configuration.TEST</SubmittedBy>
+      <ESSRequestId>4447548</ESSRequestId>
+      <MigrationProcessBusinessObjectCSVMetadata1>
+         <MigrationProcessBusinessObjectCSVMetadataVORow>
+            <ProcessId>-999</ProcessId>
+            <BusinessObjectShortName>AR_PAYMENT_TERM_LINE</BusinessObjectShortName>
+            <BatchName>PaymentTerm</BatchName>
+            <XmlAttributeList>SequenceNum,LastUpdateDate,LastUpdatedBy,CreationDate,CreatedBy,LastUpdateLogin,RelativeAmount,DueDays,DueDate,DueDayOfMonth,DueMonthsForward,AttributeCategory,Attribute1,Attribute2,Attribute3,Attribute4,Attribute5,Attribute6,Attribute7,Attribute8,Attribute9,Attribute10,Attribute11,Attribute12,Attribute13,Attribute14,Attribute15,SetCode</XmlAttributeList>
+            <XmlAttributeTypeList>long,dateTime,string,dateTime,string,string,decimal,decimal,date,decimal,decimal,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string</XmlAttributeTypeList>
+            <XmlNodePath>/PaymentTermVO/PaymentTermVORow/PaymentTermLine/PaymentTermLineVORow</XmlNodePath>
+            <NodeSequence>3</NodeSequence>
+         </MigrationProcessBusinessObjectCSVMetadataVORow>
+         <MigrationProcessBusinessObjectCSVMetadataVORow>
+            <ProcessId>-999</ProcessId>
+            <BusinessObjectShortName>AR_PAYMENT_TERM</BusinessObjectShortName>
+            <BatchName>PaymentTerm</BatchName>
+            <XmlAttributeList>LastUpdateDate,LastUpdatedBy,CreationDate,CreatedBy,LastUpdateLogin,CreditCheckFlag,DueCutoffDay,PrintingLeadDays,StartDateActive,EndDateActive,AttributeCategory,Attribute1,Attribute2,Attribute3,Attribute4,Attribute5,Attribute6,Attribute7,Attribute8,Attribute9,Attribute10,BaseAmount,CalcDiscountOnLinesFlag,DiscountBasisDateType,FirstInstallmentCode,InUse,PartialDiscountFlag,Attribute11,Attribute12,Attribute13,Attribute14,Attribute15,Name,Description,PrepaymentFlag,SetCode,CycleName</XmlAttributeList>
+            <XmlAttributeTypeList>dateTime,string,dateTime,string,string,string,decimal,decimal,date,date,string,string,string,string,string,string,string,string,string,string,string,decimal,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string</XmlAttributeTypeList>
+            <XmlNodePath>/PaymentTermVO/PaymentTermVORow</XmlNodePath>
+            <NodeSequence>1</NodeSequence>
+         </MigrationProcessBusinessObjectCSVMetadataVORow>
+         <MigrationProcessBusinessObjectCSVMetadataVORow>
+            <ProcessId>-999</ProcessId>
+            <BusinessObjectShortName>AR_PAYMENT_TERM_TRANSLATION</BusinessObjectShortName>
+            <BatchName>PaymentTerm</BatchName>
+            <XmlAttributeList>Description,Name,Language,SourceLang,LastUpdateDate,CreationDate,CreatedBy,LastUpdatedBy,LastUpdateLogin</XmlAttributeList>
+            <XmlAttributeTypeList>string,string,string,string,dateTime,dateTime,string,string,string</XmlAttributeTypeList>
+            <XmlNodePath>/PaymentTermVO/PaymentTermVORow/PaymentTermTranslation/PaymentTermTranslationVORow</XmlNodePath>
+            <NodeSequence>1</NodeSequence>
+         </MigrationProcessBusinessObjectCSVMetadataVORow>
+         <MigrationProcessBusinessObjectCSVMetadataVORow>
+            <ProcessId>-999</ProcessId>
+            <BusinessObjectShortName>AR_PAYMENT_TERM_DISCOUNT</BusinessObjectShortName>
+            <BatchName>PaymentTerm</BatchName>
+            <XmlAttributeList>LastUpdateDate,LastUpdatedBy,CreationDate,CreatedBy,LastUpdateLogin,SequenceNum,DiscountPercent,DiscountDays,DiscountDate,DiscountDayOfMonth,DiscountMonthsForward,AttributeCategory,Attribute1,Attribute2,Attribute3,Attribute4,Attribute5,Attribute6,Attribute7,Attribute8,Attribute9,Attribute10,Attribute11,Attribute12,Attribute13,Attribute14,Attribute15,SetCode</XmlAttributeList>
+            <XmlAttributeTypeList>dateTime,string,dateTime,string,string,long,decimal,decimal,date,decimal,decimal,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string</XmlAttributeTypeList>
+            <XmlNodePath>/PaymentTermVO/PaymentTermVORow/PaymentTermLine/PaymentTermLineVORow/PaymentTermLineDiscount/PaymentTermLineDiscountVORow</XmlNodePath>
+            <NodeSequence>4</NodeSequence>
+         </MigrationProcessBusinessObjectCSVMetadataVORow>
+      </MigrationProcessBusinessObjectCSVMetadata1>
+      <MigrationProcessBatchCSVMetadata>
+         <MigrationProcessBatchCSVMetadataVORow>
+            <ProcessId>-999</ProcessId>
+            <BatchName>PaymentTerm</BatchName>
+            <ImportSequence>0</ImportSequence>
+            <ServiceName>oracle.apps.financials.receivables.transactionSetup.paymentTerms.paymentTermService.ReceivablesPaymentTermService</ServiceName>
+            <BatchSize>500</BatchSize>
+         </MigrationProcessBatchCSVMetadataVORow>
+      </MigrationProcessBatchCSVMetadata>
+      <MigrationProcessScopeValueCSVMetadata null="true"/>
+      <MigrationProcessMigrationObjectCSVMetadata>
+         <MigrationProcessMigrationObjectCSVMetadataVORow>
+            <ProcessId>-999</ProcessId>
+            <BusinessObjectShortName>AR_PAYMENT_TERM</BusinessObjectShortName>
+            <MigrateFlag>Y</MigrateFlag>
+            <IncludeExternalDataFlag>Y</IncludeExternalDataFlag>
+            <ServiceType null="true"/>
+         </MigrationProcessMigrationObjectCSVMetadataVORow>
+         <MigrationProcessMigrationObjectCSVMetadataVORow>
+            <ProcessId>-999</ProcessId>
+            <BusinessObjectShortName>AR_PAYMENT_TERM_DISCOUNT</BusinessObjectShortName>
+            <MigrateFlag>Y</MigrateFlag>
+            <IncludeExternalDataFlag>Y</IncludeExternalDataFlag>
+            <ServiceType null="true"/>
+         </MigrationProcessMigrationObjectCSVMetadataVORow>
+         <MigrationProcessMigrationObjectCSVMetadataVORow>
+            <ProcessId>-999</ProcessId>
+            <BusinessObjectShortName>AR_PAYMENT_TERM_LINE</BusinessObjectShortName>
+            <MigrateFlag>Y</MigrateFlag>
+            <IncludeExternalDataFlag>Y</IncludeExternalDataFlag>
+            <ServiceType null="true"/>
+         </MigrationProcessMigrationObjectCSVMetadataVORow>
+      </MigrationProcessMigrationObjectCSVMetadata>
+      <MigrationProcessTaskCSVMetadata null="true"/>
+      <MigrationProcessServiceVersionCSVMetadata null="true"/>
+   </MigrationProcessCSVMetadataVORow>
+</MigrationProcessCSVMetadataVO>

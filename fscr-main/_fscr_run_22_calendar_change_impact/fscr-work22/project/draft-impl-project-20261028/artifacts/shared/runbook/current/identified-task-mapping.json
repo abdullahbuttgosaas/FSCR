@@ -1,0 +1,40 @@
+{
+  "source": "User request 2026-10-28: create one Receivables payment term on ETIA-TEST (FSCR capability test)",
+  "sequence_source": "shared.implementation-planning.task-dependency-resolver setup-task-sequence.json (release catalog order)",
+  "selection_counts": {
+    "selected": 1,
+    "included": 1,
+    "excluded": 0
+  },
+  "tasks": [
+    {
+      "ID": "AR_DEFINE_CUSTOMER_BILLING_CONFIGURATIONAR_MANAGE_RECEIVABLES_PAYMENT_TERMS",
+      "Source Task Name": "Manage Receivables Payment Terms",
+      "Task Code": "AR_MANAGE_RECEIVABLES_PAYMENT_TERMS",
+      "Offering": "Financials",
+      "Functional Area": "Customer Billing",
+      "Pillar": "ERP",
+      "Phase": "build",
+      "Resolver Sequence": 4,
+      "Resolver Task List Item ID": "AR_DEFINE_CUSTOMER_BILLING_CONFIGURATIONAR_MANAGE_RECEIVABLES_PAYMENT_TERMS",
+      "Match Method": "exact-name",
+      "Match Status": "matched",
+      "Source Reference": "User chat request",
+      "Skill Path": "pillars/erp/financials/customer-billing/manage-receivables-payment-terms/SKILL.md",
+      "Data Paths": [],
+      "Confidence": 1.0,
+      "Matched Task Code": "AR_MANAGE_RECEIVABLES_PAYMENT_TERMS",
+      "Matched Task Name": "Manage Receivables Payment Terms",
+      "Match Rationale": "Exact normalized source task name match in the current setup-task catalog.",
+      "Offering Context Status": "matched"
+    }
+  ],
+  "catalog_validation": {
+    "method": "exact-name",
+    "catalog": "knowledge/setup-task-catalog/effective/setupTasksAll.json",
+    "matched": 1,
+    "unmatched": 0,
+    "ambiguous": 0,
+    "total": 1
+  }
+}

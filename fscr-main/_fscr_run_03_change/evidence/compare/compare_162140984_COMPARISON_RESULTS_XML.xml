@@ -1,0 +1,54 @@
+<ComparisonResultVO>
+   <ComparisonResultVORow>
+      <NodePathBoShortName>AR_PAYMENT_TERM</NodePathBoShortName>
+      <NodePath>Receivables Payment Terms</NodePath>
+      <ApplicationName>Receivables</ApplicationName>
+      <Source1Count>0</Source1Count>
+      <Source2Count>0</Source2Count>
+      <MismatchCount>0</MismatchCount>
+      <MatchCount>17</MatchCount>
+      <TotalCount>17</TotalCount>
+      <BusinessObjectShortName>AR_PAYMENT_TERM</BusinessObjectShortName>
+      <FullNodePath>/PaymentTermVO/PaymentTermVORow</FullNodePath>
+      <BusinessObjectSequence>320</BusinessObjectSequence>
+   </ComparisonResultVORow>
+   <ComparisonResultVORow>
+      <NodePathBoShortName>AR_PAYMENT_TERM_DISCOUNT</NodePathBoShortName>
+      <NodePath>Receivables Payment Terms Discount</NodePath>
+      <ApplicationName>Receivables</ApplicationName>
+      <Source1Count>0</Source1Count>
+      <Source2Count>0</Source2Count>
+      <MismatchCount>0</MismatchCount>
+      <MatchCount>2</MatchCount>
+      <TotalCount>2</TotalCount>
+      <BusinessObjectShortName>AR_PAYMENT_TERM</BusinessObjectShortName>
+      <FullNodePath>/PaymentTermVO/PaymentTermVORow/PaymentTermLine/PaymentTermLineVORow/PaymentTermLineDiscount/PaymentTermLineDiscountVORow</FullNodePath>
+      <BusinessObjectSequence>320</BusinessObjectSequence>
+   </ComparisonResultVORow>
+   <ComparisonResultVORow>
+      <NodePathBoShortName>AR_PAYMENT_TERM_LINE</NodePathBoShortName>
+      <NodePath>Receivables Payment Terms Payment Schedule</NodePath>
+      <ApplicationName>Receivables</ApplicationName>
+      <Source1Count>0</Source1Count>
+      <Source2Count>0</Source2Count>
+      <MismatchCount>0</MismatchCount>
+      <MatchCount>20</MatchCount>
+      <TotalCount>20</TotalCount>
+      <BusinessObjectShortName>AR_PAYMENT_TERM</BusinessObjectShortName>
+      <FullNodePath>/PaymentTermVO/PaymentTermVORow/PaymentTermLine/PaymentTermLineVORow</FullNodePath>
+      <BusinessObjectSequence>320</BusinessObjectSequence>
+   </ComparisonResultVORow>
+   <ComparisonResultVORow>
+      <NodePathBoShortName>AR_PAYMENT_TERM_TRANSLATION</NodePathBoShortName>
+      <NodePath>Receivables Payment Terms Translation</NodePath>
+      <ApplicationName>Receivables</ApplicationName>
+      <Source1Count>0</Source1Count>
+      <Source2Count>0</Source2Count>
+      <MismatchCount>0</MismatchCount>
+      <MatchCount>17</MatchCount>
+      <TotalCount>17</TotalCount>
+      <BusinessObjectShortName>AR_PAYMENT_TERM</BusinessObjectShortName>
+      <FullNodePath>/PaymentTermVO/PaymentTermVORow/PaymentTermTranslation/PaymentTermTranslationVORow</FullNodePath>
+      <BusinessObjectSequence>320</BusinessObjectSequence>
+   </ComparisonResultVORow>
+</ComparisonResultVO>

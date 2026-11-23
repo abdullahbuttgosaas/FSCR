@@ -1,0 +1,11 @@
+{
+ "archiveName": "fscrt-bu-c4-manager-candidate.zip",
+ "rowCounts": {
+  "FUN_BUSINESS_UNIT.csv": 1
+ },
+ "operation": "update",
+ "names": [
+  "FSCRT_Brindle Harbor Marine Supply F01"
+ ],
+ "archiveSha256": "fd82d8f90b10967d81d8d822e43562a24e25f3c3099d228ed459e07b15335976"
+}

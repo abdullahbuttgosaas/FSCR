@@ -1,0 +1,295 @@
+{
+  "explicitDefaults": [],
+  "operations": [
+    {
+      "action": "create",
+      "entity": "AP_OTHER_PERIOD_TYPE",
+      "id": "cal1",
+      "preserveOtherValues": true,
+      "preserveUnspecifiedRows": true,
+      "targetKey": {
+        "CalendarName": "FSCRT_CAL1",
+        "CalendarType": "GENERAL"
+      },
+      "values": {
+        "Description": "FSCRT Run04 test calendar",
+        "PeriodFrequency": "MONTHLY",
+        "PeriodNameFormat": "MMM",
+        "PeriodsPerYear": "12",
+        "StartDate": "2027-01-01"
+      }
+    },
+    {
+      "action": "create",
+      "entity": "AP_OTHER_PERIOD_PERIOD",
+      "id": "cal1-PERIOD-01",
+      "preserveOtherValues": true,
+      "preserveUnspecifiedRows": true,
+      "targetKey": {
+        "CalendarName": "FSCRT_CAL1",
+        "CalendarType": "GENERAL",
+        "PeriodName": "Jan-27"
+      },
+      "values": {
+        "AP_OTHER_PERIOD_TYPE.CalendarName": "FSCRT_CAL1",
+        "AP_OTHER_PERIOD_TYPE.CalendarType": "GENERAL",
+        "ApplicationId": 200,
+        "EndDate": "2027-01-31",
+        "EnteredPeriodName": "Jan",
+        "PeriodNum": 1,
+        "PeriodYear": 2027,
+        "StartDate": "2027-01-01"
+      }
+    },
+    {
+      "action": "create",
+      "entity": "AP_OTHER_PERIOD_PERIOD",
+      "id": "cal1-PERIOD-02",
+      "preserveOtherValues": true,
+      "preserveUnspecifiedRows": true,
+      "targetKey": {
+        "CalendarName": "FSCRT_CAL1",
+        "CalendarType": "GENERAL",
+        "PeriodName": "Feb-27"
+      },
+      "values": {
+        "AP_OTHER_PERIOD_TYPE.CalendarName": "FSCRT_CAL1",
+        "AP_OTHER_PERIOD_TYPE.CalendarType": "GENERAL",
+        "ApplicationId": 200,
+        "EndDate": "2027-02-28",
+        "EnteredPeriodName": "Feb",
+        "PeriodNum": 2,
+        "PeriodYear": 2027,
+        "StartDate": "2027-02-01"
+      }
+    },
+    {
+      "action": "create",
+      "entity": "AP_OTHER_PERIOD_PERIOD",
+      "id": "cal1-PERIOD-03",
+      "preserveOtherValues": true,
+      "preserveUnspecifiedRows": true,
+      "targetKey": {
+        "CalendarName": "FSCRT_CAL1",
+        "CalendarType": "GENERAL",
+        "PeriodName": "Mar-27"
+      },
+      "values": {
+        "AP_OTHER_PERIOD_TYPE.CalendarName": "FSCRT_CAL1",
+        "AP_OTHER_PERIOD_TYPE.CalendarType": "GENERAL",
+        "ApplicationId": 200,
+        "EndDate": "2027-03-31",
+        "EnteredPeriodName": "Mar",
+        "PeriodNum": 3,
+        "PeriodYear": 2027,
+        "StartDate": "2027-03-01"
+      }
+    },
+    {
+      "action": "create",
+      "entity": "AP_OTHER_PERIOD_PERIOD",
+      "id": "cal1-PERIOD-04",
+      "preserveOtherValues": true,
+      "preserveUnspecifiedRows": true,
+      "targetKey": {
+        "CalendarName": "FSCRT_CAL1",
+        "CalendarType": "GENERAL",
+        "PeriodName": "Apr-27"
+      },
+      "values": {
+        "AP_OTHER_PERIOD_TYPE.CalendarName": "FSCRT_CAL1",
+        "AP_OTHER_PERIOD_TYPE.CalendarType": "GENERAL",
+        "ApplicationId": 200,
+        "EndDate": "2027-04-30",
+        "EnteredPeriodName": "Apr",
+        "PeriodNum": 4,
+        "PeriodYear": 2027,
+        "StartDate": "2027-04-01"
+      }
+    },
+    {
+      "action": "create",
+      "entity": "AP_OTHER_PERIOD_PERIOD",
+      "id": "cal1-PERIOD-05",
+      "preserveOtherValues": true,
+      "preserveUnspecifiedRows": true,
+      "targetKey": {
+        "CalendarName": "FSCRT_CAL1",
+        "CalendarType": "GENERAL",
+        "PeriodName": "May-27"
+      },
+      "values": {
+        "AP_OTHER_PERIOD_TYPE.CalendarName": "FSCRT_CAL1",
+        "AP_OTHER_PERIOD_TYPE.CalendarType": "GENERAL",
+        "ApplicationId": 200,
+        "EndDate": "2027-05-31",
+        "EnteredPeriodName": "May",
+        "PeriodNum": 5,
+        "PeriodYear": 2027,
+        "StartDate": "2027-05-01"
+      }
+    },
+    {
+      "action": "create",
+      "entity": "AP_OTHER_PERIOD_PERIOD",
+      "id": "cal1-PERIOD-06",
+      "preserveOtherValues": true,
+      "preserveUnspecifiedRows": true,
+      "targetKey": {
+        "CalendarName": "FSCRT_CAL1",
+        "CalendarType": "GENERAL",
+        "PeriodName": "Jun-27"
+      },
+      "values": {
+        "AP_OTHER_PERIOD_TYPE.CalendarName": "FSCRT_CAL1",
+        "AP_OTHER_PERIOD_TYPE.CalendarType": "GENERAL",
+        "ApplicationId": 200,
+        "EndDate": "2027-06-30",
+        "EnteredPeriodName": "Jun",
+        "PeriodNum": 6,
+        "PeriodYear": 2027,
+        "StartDate": "2027-06-01"
+      }
+    },
+    {
+      "action": "create",
+      "entity": "AP_OTHER_PERIOD_PERIOD",
+      "id": "cal1-PERIOD-07",
+      "preserveOtherValues": true,
+      "preserveUnspecifiedRows": true,
+      "targetKey": {
+        "CalendarName": "FSCRT_CAL1",
+        "CalendarType": "GENERAL",
+        "PeriodName": "Jul-27"
+      },
+      "values": {
+        "AP_OTHER_PERIOD_TYPE.CalendarName": "FSCRT_CAL1",
+        "AP_OTHER_PERIOD_TYPE.CalendarType": "GENERAL",
+        "ApplicationId": 200,
+        "EndDate": "2027-07-31",
+        "EnteredPeriodName": "Jul",
+        "PeriodNum": 7,
+        "PeriodYear": 2027,
+        "StartDate": "2027-07-01"
+      }
+    },
+    {
+      "action": "create",
+      "entity": "AP_OTHER_PERIOD_PERIOD",
+      "id": "cal1-PERIOD-08",
+      "preserveOtherValues": true,
+      "preserveUnspecifiedRows": true,
+      "targetKey": {
+        "CalendarName": "FSCRT_CAL1",
+        "CalendarType": "GENERAL",
+        "PeriodName": "Aug-27"
+      },
+      "values": {
+        "AP_OTHER_PERIOD_TYPE.CalendarName": "FSCRT_CAL1",
+        "AP_OTHER_PERIOD_TYPE.CalendarType": "GENERAL",
+        "ApplicationId": 200,
+        "EndDate": "2027-08-31",
+        "EnteredPeriodName": "Aug",
+        "PeriodNum": 8,
+        "PeriodYear": 2027,
+        "StartDate": "2027-08-01"
+      }
+    },
+    {
+      "action": "create",
+      "entity": "AP_OTHER_PERIOD_PERIOD",
+      "id": "cal1-PERIOD-09",
+      "preserveOtherValues": true,
+      "preserveUnspecifiedRows": true,
+      "targetKey": {
+        "CalendarName": "FSCRT_CAL1",
+        "CalendarType": "GENERAL",
+        "PeriodName": "Sep-27"
+      },
+      "values": {
+        "AP_OTHER_PERIOD_TYPE.CalendarName": "FSCRT_CAL1",
+        "AP_OTHER_PERIOD_TYPE.CalendarType": "GENERAL",
+        "ApplicationId": 200,
+        "EndDate": "2027-09-30",
+        "EnteredPeriodName": "Sep",
+        "PeriodNum": 9,
+        "PeriodYear": 2027,
+        "StartDate": "2027-09-01"
+      }
+    },
+    {
+      "action": "create",
+      "entity": "AP_OTHER_PERIOD_PERIOD",
+      "id": "cal1-PERIOD-10",
+      "preserveOtherValues": true,
+      "preserveUnspecifiedRows": true,
+      "targetKey": {
+        "CalendarName": "FSCRT_CAL1",
+        "CalendarType": "GENERAL",
+        "PeriodName": "Oct-27"
+      },
+      "values": {
+        "AP_OTHER_PERIOD_TYPE.CalendarName": "FSCRT_CAL1",
+        "AP_OTHER_PERIOD_TYPE.CalendarType": "GENERAL",
+        "ApplicationId": 200,
+        "EndDate": "2027-10-31",
+        "EnteredPeriodName": "Oct",
+        "PeriodNum": 10,
+        "PeriodYear": 2027,
+        "StartDate": "2027-10-01"
+      }
+    },
+    {
+      "action": "create",
+      "entity": "AP_OTHER_PERIOD_PERIOD",
+      "id": "cal1-PERIOD-11",
+      "preserveOtherValues": true,
+      "preserveUnspecifiedRows": true,
+      "targetKey": {
+        "CalendarName": "FSCRT_CAL1",
+        "CalendarType": "GENERAL",
+        "PeriodName": "Nov-27"
+      },
+      "values": {
+        "AP_OTHER_PERIOD_TYPE.CalendarName": "FSCRT_CAL1",
+        "AP_OTHER_PERIOD_TYPE.CalendarType": "GENERAL",
+        "ApplicationId": 200,
+        "EndDate": "2027-11-30",
+        "EnteredPeriodName": "Nov",
+        "PeriodNum": 11,
+        "PeriodYear": 2027,
+        "StartDate": "2027-11-01"
+      }
+    },
+    {
+      "action": "create",
+      "entity": "AP_OTHER_PERIOD_PERIOD",
+      "id": "cal1-PERIOD-12",
+      "preserveOtherValues": true,
+      "preserveUnspecifiedRows": true,
+      "targetKey": {
+        "CalendarName": "FSCRT_CAL1",
+        "CalendarType": "GENERAL",
+        "PeriodName": "Dec-27"
+      },
+      "values": {
+        "AP_OTHER_PERIOD_TYPE.CalendarName": "FSCRT_CAL1",
+        "AP_OTHER_PERIOD_TYPE.CalendarType": "GENERAL",
+        "ApplicationId": 200,
+        "EndDate": "2027-12-31",
+        "EnteredPeriodName": "Dec",
+        "PeriodNum": 12,
+        "PeriodYear": 2027,
+        "StartDate": "2027-12-01"
+      }
+    }
+  ],
+  "prerequisites": [],
+  "preservedValues": [],
+  "resolvedScope": {},
+  "task": {
+    "code": "AP_MANAGE_PAYABLES_CALENDARS",
+    "name": "Manage Payables Calendars"
+  },
+  "warnings": []
+}

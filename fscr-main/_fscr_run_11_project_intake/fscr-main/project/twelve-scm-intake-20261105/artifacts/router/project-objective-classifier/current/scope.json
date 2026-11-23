@@ -1,0 +1,32 @@
+{
+  "offering_scope": "pending",
+  "effective_catalog": "knowledge/setup-task-catalog/effective/offering-functional-area-task-catalog.json",
+  "candidate_offerings": ["ORA_MANUFACTURING_AND_SUPPLY_C", "PIM_PROD_MNG", "PO_PROCUREMENT", "XLE_FINANCIALS_JUR", "PJF_PROJ_MNG", "ORA_GMS_GRANTS_MANAGEMENT"],
+  "unique_functional_areas": {
+    "ORA_WSH_INVENTORY_MGMT": "ORA_MANUFACTURING_AND_SUPPLY_C",
+    "CST_DEFINE_COST_MANAGEMENT": "ORA_MANUFACTURING_AND_SUPPLY_C",
+    "ORA_RCS_FACILITIES": "ORA_MANUFACTURING_AND_SUPPLY_C",
+    "ORA_WIS_COMMON_MFG_WORK_SETUP": "ORA_MANUFACTURING_AND_SUPPLY_C",
+    "ORA_MNT_MGMT": "ORA_MANUFACTURING_AND_SUPPLY_C",
+    "PO_SSP_DEPLOYED": "PO_PROCUREMENT",
+    "ORA_PO_PURCHASING_FOUNDATION": "PO_PROCUREMENT",
+    "ORA_PO_APPROVAL_MANAGEMENT_FA": "PO_PROCUREMENT",
+    "ORA_PO_PRC_TRX_ACC_RULES_FA": "PO_PROCUREMENT",
+    "FIN_EXPENSES_DEPLOYED": "XLE_FINANCIALS_JUR",
+    "FIN_FIXED_ASSETS_DEPLOYED": "XLE_FINANCIALS_JUR",
+    "ORA_GMS_GRANTS_BASE_FA": "ORA_GMS_GRANTS_MANAGEMENT",
+    "ORA_EGP_FA_INVENTORY_ORGANIZAT": "PIM_PROD_MNG"
+  },
+  "ambiguous_functional_areas": {
+    "PO_SUP_PORTAL_DEPLOYED": ["PIM_PROD_MNG", "PO_PROCUREMENT"],
+    "ORA_SUS_SUSTAINABILITY": ["ORA_MANUFACTURING_AND_SUPPLY_C", "PIM_PROD_MNG", "PO_PROCUREMENT"],
+    "ORA_EGP_FA_ITEMS": ["6 offerings"],
+    "EGO_ADVANCED_PRODUCT_STRUCT": ["ORA_MANUFACTURING_AND_SUPPLY_C", "PIM_PROD_MNG"],
+    "ORA_FIN_GENERAL_LEDGER": ["XLE_FINANCIALS_JUR", "XLE_FIN_CONTROL_JUR"],
+    "FIN_PAYABLES_DEPLOYED": ["3 offerings"],
+    "ORA_PJC_PROJ_COSTING_BASE_FA": ["PJF_PROJ_MNG", "ORA_GMS_GRANTS_MANAGEMENT"]
+  },
+  "confidence": "low (offering) / high (functional areas listed as unique)",
+  "human_review": "Confirm offering short codes to enable; see outputs/01_scope_intake.md open questions S1-S17",
+  "dependency_graph_enrichment": "not run (no pre-release/custom provenance checked; out of paper-intake scope)"
+}

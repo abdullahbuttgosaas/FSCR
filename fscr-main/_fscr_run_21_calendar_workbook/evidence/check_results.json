@@ -1,0 +1,147 @@
+{
+ "mismatches": [],
+ "empty": [
+  "ReceivablesOptions / GS Account",
+  "ReceivablesTxnTypes / N24Ledger",
+  "ReceivablesTxnTypes / GS Account"
+ ],
+ "checks": [
+  {
+   "check": "Ledgers on GoSaaS MFG",
+   "workbook": 13,
+   "expected": 13,
+   "ok": true
+  },
+  {
+   "check": "Ledger names = Run 20 list",
+   "workbook": [
+    "AG Primary Ledger",
+    "AG-81209",
+    "Ash Ledger",
+    "DK ledger",
+    "Duck",
+    "EBS-Testing-AI",
+    "GoSaaS MFG US",
+    "Mannan Ledger",
+    "NN2_Primary_Ledger",
+    "S-3",
+    "T2 Ledger",
+    "URA OPERATIONS",
+    "USAMA LEDGER"
+   ],
+   "expected": [
+    "AG Primary Ledger",
+    "AG-81209",
+    "Ash Ledger",
+    "DK ledger",
+    "Duck",
+    "EBS-Testing-AI",
+    "GoSaaS MFG US",
+    "Mannan Ledger",
+    "NN2_Primary_Ledger",
+    "S-3",
+    "T2 Ledger",
+    "URA OPERATIONS",
+    "USAMA LEDGER"
+   ],
+   "ok": true
+  },
+  {
+   "check": "Business units on those ledgers",
+   "workbook": 37,
+   "expected": 37,
+   "ok": true
+  },
+  {
+   "check": "Receivables option BUs",
+   "workbook": [
+    "AMNA BU",
+    "BUU1"
+   ],
+   "expected": [
+    "AMNA BU",
+    "BUU1"
+   ],
+   "ok": true
+  },
+  {
+   "check": "Receivables option BUs = Run 20",
+   "workbook": [
+    "AMNA BU",
+    "BUU1"
+   ],
+   "expected": [
+    "AMNA BU",
+    "BUU1"
+   ],
+   "ok": true
+  },
+  {
+   "check": "Receivables txn-type rows",
+   "workbook": 3,
+   "expected": 3,
+   "ok": true
+  },
+  {
+   "check": "Ledger IDs filled",
+   "workbook": 0,
+   "expected": 0,
+   "ok": true
+  },
+  {
+   "check": "BU IDs filled",
+   "workbook": 0,
+   "expected": 0,
+   "ok": true
+  },
+  {
+   "check": "GoSaaS MFG periods = Run 20 count",
+   "workbook": 52,
+   "expected": 52,
+   "ok": true
+  },
+  {
+   "check": "Dec-26 period present",
+   "workbook": [
+    [
+     "2026/12/01",
+     "2026/12/31"
+    ]
+   ],
+   "expected": [
+    [
+     "2026/12/01",
+     "2026/12/31"
+    ]
+   ],
+   "ok": true
+  },
+  {
+   "check": "Dec-26 Receivables status rows (one per ledger)",
+   "workbook": 13,
+   "expected": 13,
+   "ok": true
+  }
+ ],
+ "dec26_receivables_status": {
+  "Never opened": 13
+ },
+ "status_by_app_GoSaaS": {
+  "101": {
+   "Never opened": 629,
+   "Open": 46,
+   "Future entry": 1
+  },
+  "200": {
+   "Never opened": 643,
+   "Open": 32,
+   "Future entry": 1
+  },
+  "222": {
+   "Never opened": 670,
+   "Open": 4,
+   "Future entry": 2
+  }
+ },
+ "changes_sheet_rows": 0
+}

@@ -1,0 +1,3 @@
+{"operations":[
+ {"id":"g1","action":"create","entity":"AR_AI_GROUPING_RULE","targetKey":{"Name":"FSCRT_GRP1"},"values":{"StartDate":"2026-11-03","Description":"FSCRT Run04 grouping rule"}},
+ {"id":"c1","action":"create","entity":"ORA_AR_AI_GRP_TXN_TYPE","targetKey":{"AR_AI_GROUPING_RULE.Name":"FSCRT_GRP1","Class11":"I"},"values":{}}]}

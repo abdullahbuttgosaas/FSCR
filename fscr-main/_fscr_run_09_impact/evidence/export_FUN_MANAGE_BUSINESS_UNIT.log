@@ -1,0 +1,9 @@
+== FUN_MANAGE_BUSINESS_UNIT now start 15:05:31
+Started setup task CSV export process: 100004733459706
+ProcessCompletedFlag: False; StatusCode: (no result yet); ResultCount: 0
+ProcessCompletedFlag: False; StatusCode: (no result yet); ResultCount: 0
+ProcessCompletedFlag: False; StatusCode: (no result yet); ResultCount: 0
+ProcessCompletedFlag: True; StatusCode: (no result yet); ResultCount: 0
+StatusCode: (unknown)
+Wrote E:\GoSaaS\Configuration Automation v2.1\fscr-main\_fscr_run_09_impact\fscr-work9\project\draft_impl_project_20261104_r09\exports\now\FUN_MANAGE_BUSINESS_UNIT\ETIA-TEST_setup_task_csv_export_fun_manage_business_unit_100004733459706.zip (125112 bytes)
+== FUN_MANAGE_BUSINESS_UNIT now end 15:06:20

@@ -1,0 +1,35 @@
+{
+  "$schema": "../../../schemas/artifact-index.schema.json",
+  "project_id": "twelve-scm-project-intake-20261105",
+  "updated_at": "2026-11-05T10:03:55+05:00",
+  "artifacts": [
+    {
+      "artifact_type": "scope",
+      "location": "project/twelve-scm-project-intake-20261105/artifacts/shared/project-intake/scope-definition/current/scope.md",
+      "produced_by": "shared.project-intake.scope-definition",
+      "status": "draft_unconfirmed",
+      "created_at": "2026-11-05T10:03:55+05:00"
+    },
+    {
+      "artifact_type": "enterprise_structure",
+      "location": "project/twelve-scm-project-intake-20261105/artifacts/shared/project-intake/enterprise-structure-intake/current/enterprise-structure.md",
+      "produced_by": "shared.project-intake.enterprise-structure-intake",
+      "status": "draft_unconfirmed",
+      "created_at": "2026-11-05T10:03:55+05:00"
+    },
+    {
+      "artifact_type": "integration_landscape",
+      "location": "project/twelve-scm-project-intake-20261105/artifacts/shared/project-intake/integration-landscape-intake/current/integration-landscape.md",
+      "produced_by": "shared.project-intake.integration-landscape-intake",
+      "status": "draft_unconfirmed",
+      "created_at": "2026-11-05T10:03:55+05:00"
+    },
+    {
+      "artifact_type": "scope_diagnostics",
+      "location": "project/twelve-scm-project-intake-20261105/artifacts/router/project-objective-classifier/current/offering-resolution-diagnostics.json",
+      "produced_by": "router.project-objective-classifier",
+      "status": "draft_unconfirmed",
+      "created_at": "2026-11-05T10:03:55+05:00"
+    }
+  ]
+}

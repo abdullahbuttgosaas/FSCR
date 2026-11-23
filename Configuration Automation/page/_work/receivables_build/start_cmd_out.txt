@@ -1,0 +1,28 @@
+﻿Getting things ready ...
+Opening the page at http://127.0.0.1:8765  (keep this window open while you use it)
+2026-10-30 10:11:30  page started at http://127.0.0.1:8765 (environment test)
+2026-10-30 10:11:36  folders: Lookup types, Price Lists, Payment Terms, Order Types, Customers, Business Units, Receivables Payment Terms
+2026-10-30 10:11:52  saved Oracle sign-in: expired (saved 2026-10-29T18:52:34+00:00, 14.7s)
+2026-10-30 10:12:03  saved Oracle sign-in: expired (saved 2026-10-29T18:52:34+00:00, 10.5s)
+2026-10-30 10:12:03  Oracle sign-in window opened
+2026-10-30 10:12:44  Oracle sign-in window closed (exit 0)
+2026-10-30 10:12:50  saved Oracle sign-in: valid (saved 2026-10-30T05:12:43+00:00, 5.7s)
+2026-10-30 10:12:51  setup checklist passed; showing the cards
+2026-10-30 10:13:57  saved Oracle sign-in: valid (saved 2026-10-30T05:12:43+00:00, 5.9s)
+2026-10-30 10:15:03  upload b3ddf3be57 (ZZRPT_9721.xlsx): ready, 1 record(s), 0 problem(s), 0 stop(s), checked in 72 s
+2026-10-30 10:15:12  saved Oracle sign-in: valid (saved 2026-10-30T05:12:43+00:00, 7.3s)
+2026-10-30 10:15:12  job 08f057a009 queued: Receivables Payment Terms (upload b3ddf3be57)
+2026-10-30 10:15:12  job 08f057a009: receivables payment term 1 of 1: ZZRPT 9721
+2026-10-30 10:17:32  job 08f057a009_1 done: Created the Receivables payment term ZZRPT 9721 in set COMMON with 2 installments, and checked it in Oracle: every value as sent.
+2026-10-30 10:17:32  job 08f057a009: ZZRPT 9721 done
+2026-10-30 13:00:43  saved Oracle sign-in: valid (saved 2026-10-30T05:12:43+00:00, 9.2s)
+2026-10-30 13:01:39  upload 68167a72c6 (Upload sheet - Receivables.xlsx): not ready, 1 record(s), 1 problem(s), 0 stop(s), checked in 72 s
+2026-10-30 13:04:12  saved Oracle sign-in: valid (saved 2026-10-30T05:12:43+00:00, 6.8s)
+2026-10-30 13:05:01  upload 5ae6bc2073 (Upload sheet - Receivables (1).xlsx): not ready, 1 record(s), 1 problem(s), 0 stop(s), checked in 56 s
+2026-10-30 13:05:31  saved Oracle sign-in: valid (saved 2026-10-30T05:12:43+00:00, 5.9s)
+2026-10-30 13:06:21  upload 8d91f36e8e (Upload sheet - Receivables (2).xlsx): ready, 1 record(s), 0 problem(s), 0 stop(s), checked in 56 s
+2026-10-30 13:07:44  saved Oracle sign-in: valid (saved 2026-10-30T05:12:43+00:00, 5.9s)
+2026-10-30 13:07:44  job 411e380f6c queued: Receivables Payment Terms (upload 8d91f36e8e)
+2026-10-30 13:07:44  job 411e380f6c: receivables payment term 1 of 1: ABC
+2026-10-30 13:09:37  job 411e380f6c_1 done: Created the Receivables payment term ABC in set 001 CUSTOMER SITE with 1 installment, and checked it in Oracle: every value as sent.
+2026-10-30 13:09:37  job 411e380f6c: ABC done

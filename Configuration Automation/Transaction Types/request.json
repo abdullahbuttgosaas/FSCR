@@ -1,0 +1,9 @@
+{
+  "types": [
+    {"name": "ZZ_TEST_TT_6421", "set_code": "COMMON", "description": "ZZ test transaction type (invoice)",
+     "trx_class": "Invoice", "status": "Active", "from_date": "2026-11-01", "open_receivable": "Yes",
+     "post_to_gl": "Yes", "allow_freight": "Yes", "tax_calculation": "Yes", "natural_application": "No",
+     "allow_overapplication": "No", "creation_sign": "Positive Sign", "transaction_status": "Open",
+     "printing_option": "Print"}
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "baselineSha256": "3ef1092d7e044806ae84511b816d3c43927d45f08cfa9e0bf278320658283f26",
+  "designSha256": "4cf7172594b15f439575e1c80180a933489925e4e51c7812f47c0f1368bc8585",
+  "explicitDefaults": [
+    {
+      "entity": "ORA_AR_TXN_BATCH_SOURCE",
+      "field": "InvalidLinesRule",
+      "operationId": "s1",
+      "sourceIds": [
+        "SRC-UI-MTS",
+        "SRC-CS-CREATE-VO"
+      ],
+      "value": "Reject"
+    }
+  ],
+  "operations": [
+    {
+      "action": "create",
+      "entity": "ORA_AR_TXN_BATCH_SOURCE",
+      "id": "s1",
+      "preserveOtherValues": true,
+      "preserveUnspecifiedRows": true,
+      "requestedValues": {
+        "AutoTrxNumberingFlag": "Y",
+        "BatchSourceType": "INV",
+        "Description": "FSCRT Run04 manual source",
+        "InvalidLinesRule": "Reject",
+        "LastBatchNum": "1",
+        "StartDate": "2026-11-03",
+        "Status": "A"
+      },
+      "targetKey": {
+        "Name": "FSCRT_TS1",
+        "SetCode": "ENTERPRISE"
+      }
+    }
+  ],
+  "prerequisites": [],
+  "requestSha256": "463e4f42f5d4253bbe550c809305138fd992c22099d06c6befd02e79c30b2e6e",
+  "requirementCount": 9,
+  "schemaVersion": "fscr-fsm-task-adapter-v1",
+  "task": {
+    "code": "AR_MANAGE_TRANSACTION_SOURCES",
+    "name": "Manage Transaction Sources"
+  },
+  "warnings": []
+}
+
+--stderr--

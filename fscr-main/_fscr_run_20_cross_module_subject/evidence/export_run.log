@@ -1,0 +1,27 @@
+== GL_MANAGE_CONVERSION_RATE_TYPES start 18:39:50
+Started setup task CSV export process: 100004733481400
+ProcessCompletedFlag: False; StatusCode: (no result yet); ResultCount: 0
+ProcessCompletedFlag: False; StatusCode: (no result yet); ResultCount: 0
+ProcessCompletedFlag: False; StatusCode: (no result yet); ResultCount: 0
+ProcessCompletedFlag: True; StatusCode: (no result yet); ResultCount: 0
+StatusCode: (unknown)
+Wrote E:\GoSaaS\Configuration Automation v2.1\fscr-main\_fscr_run_20_cross_module_subject\evidence\exports\GL_MANAGE_CONVERSION_RATE_TYPES\ETIA-TEST_setup_task_csv_export_gl_manage_conversion_rate_types_100004733481400.zip (2796 bytes)
+== GL_MANAGE_CONVERSION_RATE_TYPES end 18:40:34
+== GL_MANAGE_ACCOUNTING_CALENDARS start 18:40:34
+Started setup task CSV export process: 100004733482125
+ProcessCompletedFlag: False; StatusCode: (no result yet); ResultCount: 0
+ProcessCompletedFlag: False; StatusCode: (no result yet); ResultCount: 0
+ProcessCompletedFlag: False; StatusCode: (no result yet); ResultCount: 0
+ProcessCompletedFlag: True; StatusCode: (no result yet); ResultCount: 0
+StatusCode: (unknown)
+Wrote E:\GoSaaS\Configuration Automation v2.1\fscr-main\_fscr_run_20_cross_module_subject\evidence\exports\GL_MANAGE_ACCOUNTING_CALENDARS\ETIA-TEST_setup_task_csv_export_gl_manage_accounting_calendars_100004733482125.zip (16303 bytes)
+== GL_MANAGE_ACCOUNTING_CALENDARS end 18:41:42
+== GL_MANAGE_CHART_OF_ACCOUNTS_VALUE_SET_VALUES start 18:41:42
+Started setup task CSV export process: 100004733482137
+ProcessCompletedFlag: False; StatusCode: (no result yet); ResultCount: 0
+ProcessCompletedFlag: False; StatusCode: (no result yet); ResultCount: 0
+ProcessCompletedFlag: False; StatusCode: (no result yet); ResultCount: 0
+ProcessCompletedFlag: True; StatusCode: (no result yet); ResultCount: 0
+StatusCode: (unknown)
+Wrote E:\GoSaaS\Configuration Automation v2.1\fscr-main\_fscr_run_20_cross_module_subject\evidence\exports\GL_MANAGE_CHART_OF_ACCOUNTS_VALUE_SET_VALUES\ETIA-TEST_setup_task_csv_export_gl_manage_chart_of_accounts_value_set_values_100004733482137.zip (33394 byte
+== GL_MANAGE_CHART_OF_ACCOUNTS_VALUE_SET_VALUES end 18:42:27

@@ -1,0 +1,163 @@
+{
+  "schema_version": "1.0",
+  "offering": "Financials",
+  "functional_area": "Multiple Functional Areas",
+  "tasks": [
+    {
+      "sequence": 1,
+      "task_name": "Create Data Role for Implementation Users",
+      "task_code": "FND_CREATE_DATA_ROLE_FOR_IMPLEMENTATION_USERS",
+      "offering": "Financials",
+      "functional_area": "Initial Users",
+      "skill_path": null,
+      "skill_selection": {
+        "status": "missing",
+        "selected_by": "FLAT_TASK_GUIDANCE_MISSING",
+        "candidates": [],
+        "context_relation": "missing",
+        "project_context": {
+          "offering": "Financials",
+          "functional_area": "Initial Users"
+        },
+        "skill_context": null
+      },
+      "match_status": "matched",
+      "business_objects": [],
+      "execution_mode": "manual",
+      "execution_route": "manual-tasks",
+      "execution_skill_path": "shared/common/manual-tasks/SKILL.md",
+      "match_reason": "No task skill or flat task guidance exists in FSCR; route this catalog task to the shared Manual Tasks skill."
+    },
+    {
+      "sequence": 2,
+      "task_name": "Manage Reference Data Sets",
+      "task_code": "FND_MANAGE_REFERENCE_DATA_SETS",
+      "offering": "Financials",
+      "functional_area": "Enterprise Profile",
+      "skill_path": "pillars/hcm/goal-management/goal-management-common/manage-reference-data-sets/SKILL.md",
+      "skill_selection": {
+        "status": "selected",
+        "selected_by": "LEXICOGRAPHIC_PATH",
+        "candidates": [
+          "pillars/hcm/goal-management/goal-management-common/manage-reference-data-sets/SKILL.md",
+          "pillars/hcm/performance-management/performance-management-common/manage-reference-data-sets/SKILL.md"
+        ],
+        "context_relation": "cross-context-fallback",
+        "project_context": {
+          "offering": "Financials",
+          "functional_area": "Enterprise Profile"
+        },
+        "skill_context": {
+          "offering": "Goal Management",
+          "functional_area": "Goal Management Common"
+        }
+      },
+      "match_status": "matched",
+      "business_objects": []
+    },
+    {
+      "sequence": 3,
+      "task_name": "Manage Conversion Rate Types",
+      "task_code": "GL_MANAGE_CONVERSION_RATE_TYPES",
+      "offering": "Financials",
+      "functional_area": "Financial Reporting Structures",
+      "skill_path": null,
+      "skill_selection": {
+        "status": "missing",
+        "selected_by": "FLAT_TASK_GUIDANCE_MISSING",
+        "candidates": [],
+        "context_relation": "missing",
+        "project_context": {
+          "offering": "Financials",
+          "functional_area": "Financial Reporting Structures"
+        },
+        "skill_context": null
+      },
+      "match_status": "matched",
+      "business_objects": [],
+      "execution_mode": "manual",
+      "execution_route": "manual-tasks",
+      "execution_skill_path": "shared/common/manual-tasks/SKILL.md",
+      "match_reason": "No task skill or flat task guidance exists in FSCR; route this catalog task to the shared Manual Tasks skill."
+    },
+    {
+      "sequence": 4,
+      "task_name": "Manage Internal Resource Organizations",
+      "task_code": "HZ_MANAGE_RESOURCE_ORGANIZATIONS",
+      "offering": "Financials",
+      "functional_area": "Organization Structures",
+      "skill_path": null,
+      "skill_selection": {
+        "status": "missing",
+        "selected_by": "FLAT_TASK_GUIDANCE_MISSING",
+        "candidates": [],
+        "context_relation": "missing",
+        "project_context": {
+          "offering": "Financials",
+          "functional_area": "Organization Structures"
+        },
+        "skill_context": null
+      },
+      "match_status": "matched",
+      "business_objects": [],
+      "execution_mode": "manual",
+      "execution_route": "manual-tasks",
+      "execution_skill_path": "shared/common/manual-tasks/SKILL.md",
+      "match_reason": "No task skill or flat task guidance exists in FSCR; route this catalog task to the shared Manual Tasks skill."
+    },
+    {
+      "sequence": 5,
+      "task_name": "Manage Job Families",
+      "task_code": "PER_MANAGE_JOB_FAMILY",
+      "offering": "Financials",
+      "functional_area": "Workforce Structures",
+      "skill_path": "pillars/hcm/global-human-resources/jobs/manage-job-families/SKILL.md",
+      "skill_selection": {
+        "status": "selected",
+        "selected_by": "EXACT_TASK_CODE_AND_NAME",
+        "candidates": [
+          "pillars/hcm/global-human-resources/jobs/manage-job-families/SKILL.md"
+        ],
+        "context_relation": "canonical-task-reuse",
+        "project_context": {
+          "offering": "Financials",
+          "functional_area": "Workforce Structures"
+        },
+        "skill_context": {
+          "offering": "Global Human Resources",
+          "functional_area": "Jobs"
+        },
+        "context_note": "The unique task-code-and-name skill is canonical and reusable across Oracle offering and functional-area contexts."
+      },
+      "match_status": "matched",
+      "business_objects": [
+        "Job Family"
+      ]
+    },
+    {
+      "sequence": 6,
+      "task_name": "Manage Applications Core Standard Lookups",
+      "task_code": "FND_MANAGE_APPLCORE_STANDARD_LOOKUPS",
+      "offering": "Financials",
+      "functional_area": "Application Extensions",
+      "skill_path": null,
+      "skill_selection": {
+        "status": "missing",
+        "selected_by": "FLAT_TASK_GUIDANCE_MISSING",
+        "candidates": [],
+        "context_relation": "missing",
+        "project_context": {
+          "offering": "Financials",
+          "functional_area": "Application Extensions"
+        },
+        "skill_context": null
+      },
+      "match_status": "matched",
+      "business_objects": [],
+      "execution_mode": "manual",
+      "execution_route": "manual-tasks",
+      "execution_skill_path": "shared/common/manual-tasks/SKILL.md",
+      "match_reason": "No task skill or flat task guidance exists in FSCR; route this catalog task to the shared Manual Tasks skill."
+    }
+  ]
+}

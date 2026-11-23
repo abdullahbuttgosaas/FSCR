@@ -1,0 +1,8 @@
+TaskCode: GL_MANAGE_JOURNAL_CATEGORIES (Manage Journal Categories); CSVExportImportSupportedFlag: Y
+Started setup task CSV import process: 100004736418670
+ProcessCompletedFlag: False; StatusCode: (no result yet); ResultCount: 0
+ProcessCompletedFlag: False; StatusCode: (no result yet); ResultCount: 0
+ProcessCompletedFlag: True; StatusCode: (no result yet); ResultCount: 0
+StatusCode: (unknown)
+Wrote ..\evidence\import_attempt1\ETIA-TEST_setup_task_csv_import_gl_manage_journal_categories_100004736418670.json
+Wrote ..\evidence\import_attempt1\ETIA-TEST_setup_task_csv_import_gl_manage_journal_categories_100004736418670_process_log.txt (1105 bytes)

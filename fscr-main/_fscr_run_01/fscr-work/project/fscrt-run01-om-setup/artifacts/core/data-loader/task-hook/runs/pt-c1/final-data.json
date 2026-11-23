@@ -1,0 +1,14 @@
+{
+ "archiveName": "fscrt-pt-c1-enddate-candidate.zip",
+ "rowCounts": {
+  "AR_PAYMENT_TERM.csv": 1,
+  "AR_PAYMENT_TERM_LINE.csv": 2,
+  "AR_PAYMENT_TERM_TRANSLATION.csv": 1,
+  "AR_PAYMENT_TERM_DISCOUNT.csv": 0
+ },
+ "operation": "end-date",
+ "names": [
+  "FSCRT_D25B75AF1"
+ ],
+ "setCode": "ENTERPRISE"
+}

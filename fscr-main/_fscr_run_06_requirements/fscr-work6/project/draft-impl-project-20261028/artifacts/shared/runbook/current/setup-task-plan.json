@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0",
+  "offering": "Financials",
+  "functional_area": "Customer Billing",
+  "tasks": [
+    {
+      "sequence": 1,
+      "task_name": "Manage Receivables Payment Terms",
+      "task_code": "AR_MANAGE_RECEIVABLES_PAYMENT_TERMS",
+      "offering": "Financials",
+      "functional_area": "Customer Billing",
+      "skill_path": "pillars/erp/financials/customer-billing/manage-receivables-payment-terms/SKILL.md",
+      "skill_selection": {
+        "status": "selected",
+        "selected_by": "EXACT_TASK_CODE_AND_NAME",
+        "candidates": [
+          "pillars/erp/financials/customer-billing/manage-receivables-payment-terms/SKILL.md"
+        ],
+        "context_relation": "same-context",
+        "project_context": {
+          "offering": "Financials",
+          "functional_area": "Customer Billing"
+        },
+        "skill_context": {
+          "offering": "Financials",
+          "functional_area": "Customer Billing"
+        }
+      },
+      "match_status": "matched",
+      "business_objects": []
+    }
+  ]
+}

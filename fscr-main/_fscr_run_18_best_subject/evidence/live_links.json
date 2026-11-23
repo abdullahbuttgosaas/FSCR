@@ -1,0 +1,225 @@
+{
+ "BU": {
+  "business_units": 186,
+  "active": 180,
+  "with_primary_ledger": 92,
+  "with_default_legal_entity": 92,
+  "set_assignment_rows": 8580,
+  "bus_with_set_assignments": 126,
+  "price_lists_pointing_to_a_BU": 55,
+  "distinct_BUs_with_price_lists": 21,
+  "data_access_grants_by_BU": 350,
+  "data_access_security_contexts": {
+   "Inventory organization": 69,
+   "Manufacturing plant": 9,
+   "Business unit": 350,
+   "Project organization classification": 1,
+   "Cost organization": 7,
+   "Data access set": 27,
+   "Reference data set": 21,
+   "Legal entity": 14,
+   "Ledger": 4
+  },
+  "top_BUs_by_links": [
+   [
+    "GoSaaS",
+    92
+   ],
+   [
+    "ABD",
+    90
+   ],
+   [
+    "Splendid BU",
+    87
+   ],
+   [
+    "GoSaaS Inc. BU",
+    83
+   ],
+   [
+    "USA Business Unit1",
+    82
+   ],
+   [
+    "Zaid BU",
+    80
+   ],
+   [
+    "AKBusiness Unit Domestic",
+    79
+   ],
+   [
+    "AMNA BU",
+    79
+   ]
+  ],
+  "price_lists_per_BU": {
+   "ABD": 21,
+   "US1": 7,
+   "ABC Procurement BU": 3,
+   "TESTBU4": 2,
+   "TESTBU1000": 2,
+   "ZZ_SHEET_BU_8970": 2
+  }
+ },
+ "SETS": {
+  "sets": 39,
+  "reference_groups_(set-enabled setup types)": 81,
+  "set_assignment_rows": 8580,
+  "sets_in_use": 30,
+  "top_sets_by_rows": [
+   [
+    "COMMON",
+    5980
+   ],
+   [
+    "001 CUSTOMER SITE",
+    1022
+   ],
+   [
+    "ENTERPRISE",
+    205
+   ],
+   [
+    "SET0001",
+    137
+   ],
+   [
+    "ASCEND_001",
+    136
+   ],
+   [
+    "25010114",
+    136
+   ]
+  ],
+  "COMMON_rows": 5980,
+  "ENTERPRISE_rows": 205,
+  "BUs_using_COMMON": 89,
+  "groups_using_COMMON": 81,
+  "reference_groups_sample": [
+   "AP_PAYMENT_TERMS",
+   "AR_ACCOUNTING_RULES",
+   "AR_AGING_BUCKETS",
+   "AR_APP_EXCEPTION_RULES",
+   "AR_AUTOCASH_RULES",
+   "AR_AUTOMATCH_RULES",
+   "AR_COLLECTORS",
+   "AR_LOCKBOX",
+   "AR_MEMO_LINES",
+   "AR_PAYMENT_TERMS",
+   "AR_REMIT_TO_ADDRESS",
+   "AR_REVENUE_CONTINGENCIES",
+   "AR_TRANSACTION_SOURCE",
+   "AR_TRANSACTION_TYPE",
+   "CJM_ADJUSTMENT_TYPES",
+   "CJM_CLAIM_CLASS_SOURCE_MAP",
+   "CJM_CLAIM_REASONS",
+   "CJM_CLAIM_TYPES",
+   "CML_SETUPS",
+   "COST_PLANNING_SETUP",
+   "CST_CORE_SETUPS",
+   "DOO_HOLD_CODES",
+   "DOO_ORCHESTRATION_PROCESS",
+   "FA_BONUS_RULES",
+   "FA_DEPRECIATION_CEILINGS",
+   "FA_DEPRECIATION_METHODS",
+   "FA_DESCRIPTIONS",
+   "FA_PRORATE_CONVENTIONS",
+   "FA_QUEUE_NAMES",
+   "FA_RETIREMENT_TYPES",
+   "FA_UNPLANNED_TYPES",
+   "FND_TREE_GROUP",
+   "HED_ADJ_CAL_SETID",
+   "HED_DUE_DATE_CAL_SETID",
+   "HRA_PERFORMANCE_TEMPLATES",
+   "HZ_CUSTOMER_ACCOUNT_RELATION",
+   "HZ_CUSTOMER_ACCOUNT_SITE",
+   "HZ_SALES_PERSON",
+   "IEX_COLLECTIONS_SETUPS",
+   "IEX_DUNNING_PLANS",
+   "JA_CN_TRANSFER_RULE",
+   "MKL_DEAL_TYPE_SETID",
+   "MKL_LEAD_BUDGET_STATUS_SETID",
+   "MKL_LEAD_CHANNEL_SETID",
+   "MKL_LEAD_RANK_SETID",
+   "MKL_LEAD_REASSIGN_REASON_SETID",
+   "MKL_LEAD_TIMELINE_SETID",
+   "MKL_REJECT_REASON_SETID",
+   "MKL_RETIRE_REASON_CD_SETID",
+   "MOO_CRED_ALLOC_TEMPLATES",
+   "MOO_SALES_METHODS",
+   "MOO_SETID_ASSESS_OVRRIDE_RSN",
+   "MOO_SETID_DEAL_HORIZION",
+   "MOO_SETID_DECISION_LEVEL",
+   "MOO_SETID_REVENUE_TYPE",
+   "MOO_SETID_REVN_CATEGORY",
+   "MOO_SETID_RISK_LEVEL",
+   "MOO_SETID_STRATEGIC_VALUE",
+   "MOO_SETID_WIN_LOSS_REASON",
+   "MOO_STAGE_PHASE_CD"
+  ]
+ },
+ "CUR": {
+  "currencies": 268,
+  "enabled": 268,
+  "ledgers": 68,
+  "ledger_currency_counts": [
+   [
+    "USD",
+    48
+   ],
+   [
+    "PKR",
+    5
+   ],
+   [
+    "INR",
+    4
+   ],
+   [
+    "GBP",
+    3
+   ],
+   [
+    "X",
+    3
+   ],
+   [
+    "NEWCUR",
+    2
+   ]
+  ],
+  "price_list_currency_counts": [
+   [
+    "USD",
+    30
+   ],
+   [
+    "PKR",
+    14
+   ],
+   [
+    "AFN",
+    7
+   ],
+   [
+    "EUR",
+    2
+   ],
+   [
+    "JPY",
+    1
+   ],
+   [
+    "GBP",
+    1
+   ]
+  ],
+  "USD_links": {
+   "ledgers": 48,
+   "price_lists": 30
+  }
+ }
+}

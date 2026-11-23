@@ -1,0 +1,18 @@
+# Template for core\auth\fusionEnv.properties inside an FSCR copy (key names only, no values).
+# Fill the values by hand from fscr-signin-values.txt (shared by Abdullah). Never commit the filled file.
+environment=
+restBaseUrl=
+clientId=
+redirectUrl=
+ai_scope=
+boss_scope=
+fusion_common_scope=
+scope=
+km_scope=
+rmc_scope=
+cpq_scope=
+fs_restBaseUrl=
+fs_scope=
+cdp_restBaseUrl=
+cdp_scope=
+enableProxy=

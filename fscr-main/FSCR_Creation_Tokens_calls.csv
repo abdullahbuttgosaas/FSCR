@@ -1,0 +1,416 @@
+timestamp_+05,run,label,message_id,input_tokens,output_tokens,cache_read_input_tokens,cache_creation_input_tokens,what_the_call_did
+2026-11-02T23:49:57,R01,R01_REST_OF_RUN,msg_011CgebvoAKBY9siLdKmsd4K,2,378,77582,1007,Compare the two FSCR copies and find notes
+2026-11-02T23:50:01,R01,R01_REST_OF_RUN,msg_011Cgebw8UA4DSRt7LZAFvia,2,284,78589,637,Inspect project workspace and properties
+2026-11-02T23:50:07,R01,R01_REST_OF_RUN,msg_011CgebwXUGjKKYR5RYcQ1NN,2,212,79226,2133,Read prior notes
+2026-11-02T23:50:11,R01,R01_REST_OF_RUN,msg_011CgebwmQQvxhSFqunvdoyR,2,317,81359,1178,Outline notes file
+2026-11-02T23:50:14,R01,R01_REST_OF_RUN,msg_011Cgebx5QtQk2VGr77pNN7K,2,254,82537,918,Read key sections of prior notes
+2026-11-02T23:50:18,R01,R01_REST_OF_RUN,msg_011CgebxNa1BPLjMdP6mGufc,2,128,83455,1322,Read C:\\Users\\PC\\.claude\\projects\\E--GoSaaS-fscr-main-fscr-main\\fdb8d1e2-ed83-470f-bab1-2
+2026-11-02T23:50:23,R01,R01_REST_OF_RUN,msg_011CgebxZNPTpFqiRMBE2zZB,2,567,84777,14986,"Create run folder and record start time | ToolSearch ToolSearch: {""query"": ""select:mcp__ccd_session_mgmt__get_usage"", ""max_results"": 1}"
+2026-11-02T23:50:27,R01,R01_REST_OF_RUN,msg_011Cgeby3KAe6pxdUey67v5e,4,42,99763,1114,get_usage get_usage: {}
+2026-11-02T23:50:29,R01,R01_REST_OF_RUN,msg_011CgebyCdzk2Egzzdgcpigk,2,3596,100877,582,"Write E:\\GoSaaS\\Configuration Automation v2.1\\fscr-main\\_fscr_run_01\\input_records.md"", ""co"
+2026-11-02T23:50:54,R01,R01_REST_OF_RUN,msg_011Cgec13ZrC8rmerAh3i5WR,2,789,101459,3667,Create ledger files
+2026-11-02T23:51:03,R01,R01_REST_OF_RUN,msg_011Cgec1gZ5gmtLisEebKqMR,2,226,105126,859,"update_plan update_plan: {""advance"": true} | Locate the setup task catalog"
+2026-11-02T23:51:11,R01,R01_REST_OF_RUN,msg_011Cgec21ap4DDfwi77eKcKF,2,560,105985,818,Search catalog for relevant tasks
+2026-11-02T23:51:16,R01,R01_REST_OF_RUN,msg_011Cgec2T4zZ5bYvXJeMnnXF,2,861,106803,12191,Find skills for each task code
+2026-11-02T23:51:46,R01,R01_REST_OF_RUN,msg_011Cgec4stJEGH6Mxbx1bm3s,2,209,118994,2334,Read implementation router skill
+2026-11-02T23:51:49,R01,R01_REST_OF_RUN,msg_011Cgec57KRVC24a1V9qDJBv,2,249,121328,1308,Check project state and run book
+2026-11-02T23:51:58,R01,R01_REST_OF_RUN,msg_011Cgec5QbzbLHq1GWEJKJKM,2,805,122636,1552,Snapshot repo file hashes before run
+2026-11-02T23:52:15,R01,R01_REST_OF_RUN,msg_011Cgec6x2dQWBFpU4Ux5pZ2,2,434,124188,1330,Size up the key skill files
+2026-11-02T23:52:20,R01,R01_REST_OF_RUN,msg_011Cgec7MFtUStAAbfv9WNDn,2,180,125518,1310,Read E:\\GoSaaS\\Configuration Automation v2.1\\fscr-main\\fscr-main\\core\\data-loader\\SKILL.
+2026-11-02T23:52:25,R01,R01_REST_OF_RUN,msg_011Cgec7a1qLoQXgn78bogoh,2,509,126828,20938,Read prior payment term run records
+2026-11-02T23:52:32,R01,R01_REST_OF_RUN,msg_011Cgec82EBGmJUo1YvaVYvZ,2,534,147766,3042,Inspect auth skill commands
+2026-11-02T23:52:35,R01,R01_REST_OF_RUN,msg_011Cgec8WmuWw3oEpSzUEk4i,2,256,150808,2328,Find cached-token helpers; check port 8765
+2026-11-02T23:52:40,R01,R01_REST_OF_RUN,msg_011Cgec8oftpBzMzfjgWPNi4,2,174,153136,1679,Find token getter functions
+2026-11-02T23:52:44,R01,R01_REST_OF_RUN,msg_011Cgec93z7Zt9seF4MuitLG,2,285,154815,516,Read token cache functions
+2026-11-02T23:52:47,R01,R01_REST_OF_RUN,msg_011Cgec9MfzLz2Z2tS8DZ3Xy,2,616,155331,1600,Check token cache validity without printing it
+2026-11-02T23:52:55,R01,R01_REST_OF_RUN,msg_011Cgec9w3BohDMTKZF7d2NN,2,207,156931,4677,Check token cache validity (no -I)
+2026-11-02T23:53:05,R01,R01_REST_OF_RUN,msg_011CgecAMx8rqHNe8yKyB23H,2,1129,161608,293,Log decisions; read business unit task guide
+2026-11-02T23:53:13,R01,R01_REST_OF_RUN,msg_011CgecBJkSAyRPjZFeUEJ33,2,294,161901,3461,Read BU bulk intake and REST rules
+2026-11-02T23:53:34,R01,R01_REST_OF_RUN,msg_011CgecBchg8XEJRo7e7b4jT,2,1914,165362,1067,Read order lookups skill
+2026-11-02T23:53:38,R01,R01_REST_OF_RUN,msg_011CgecD5eBzD4q3N47dTgjs,2,254,166429,4938,Read apps-common skill
+2026-11-02T23:53:42,R01,R01_REST_OF_RUN,msg_011CgecDQ1VZXJBQKSBmNbx3,2,184,171367,1478,Read lookups nested skill
+2026-11-02T23:53:46,R01,R01_REST_OF_RUN,msg_011CgecDee5EWZox96UWANyn,2,156,172845,923,Read standard and common lookup references
+2026-11-02T23:53:51,R01,R01_REST_OF_RUN,msg_011CgecDtLaCeZwuDvqwjNoH,2,444,173768,2390,Read price list import skill
+2026-11-02T23:53:56,R01,R01_REST_OF_RUN,msg_011CgecEKSSaZ5vszqNSXMso,2,480,176158,5421,Read rest of price list skill
+2026-11-02T23:54:01,R01,R01_REST_OF_RUN,msg_011CgecEkpAY5NGUFNg4Rw1x,2,313,181579,2814,Read customer uploads skill
+2026-11-02T23:54:06,R01,R01_REST_OF_RUN,msg_011CgecF4tMbjppN11N5W8uJ,2,441,184393,4781,Inspect customer contract fields
+2026-11-02T23:54:13,R01,R01_REST_OF_RUN,msg_011CgecFUaPi4zNdZV8UXyNG,2,653,189174,2677,Show customer contract blockers
+2026-11-02T23:54:31,R01,R01_REST_OF_RUN,msg_011CgecG2FdyBBPdDvyg134b,2,1480,191851,1796,Search pricing guidance for BU requirements
+2026-11-02T23:54:35,R01,R01_REST_OF_RUN,msg_011CgecHGXARKG3KLBW6ixP3,2,298,193647,1693,Outline payment terms skill
+2026-11-02T23:54:39,R01,R01_REST_OF_RUN,msg_011CgecHbUvFwrmezsXUcmez,2,197,195340,957,Read E:\\GoSaaS\\Configuration Automation v2.1\\fscr-main\\fscr-main\\pillars\\erp\\financials\
+2026-11-02T23:54:45,R01,R01_REST_OF_RUN,msg_011CgecHqoe4V4gENx4YTsvY,2,533,196297,9915,Inspect task-level export skill commands
+2026-11-02T23:54:51,R01,R01_REST_OF_RUN,msg_011CgecJMET3GoTbvNmRCzf8,2,685,206212,1378,Check token lifetime and port 8765
+2026-11-02T23:55:11,R01,R01_REST_OF_RUN,msg_011CgecJycDThdgxmBUuehXX,2,4135,207590,703,Write E:\\GoSaaS\\Configuration Automation v2.1\\fscr-main\\_fscr_run_01\\step2_task_skill_map.m
+2026-11-02T23:55:36,R01,R01_REST_OF_RUN,msg_011CgecMqVeNPoJy9y189C2g,2,330,208293,4212,Read FSCR dependency readiness tables
+2026-11-02T23:55:55,R01,R01_REST_OF_RUN,msg_011CgecNABJ4ZuC2Pbb3M3Ha,2,1638,212505,2880,Write E:\\GoSaaS\\Configuration Automation v2.1\\fscr-main\\_fscr_run_01\\step3_dependencies_and
+2026-11-02T23:56:00,R01,R01_REST_OF_RUN,msg_011CgecPNmcqFta3XudjAhwB,2,355,215385,1717,Log stop point and create mapping file
+2026-11-02T23:56:02,R01,R01_REST_OF_RUN,msg_011CgecPij9mzZoBNPoA6kZ3,2,213,217102,480,Correct logged time
+2026-11-02T23:56:07,R01,R01_REST_OF_RUN,msg_011CgecPxfogoJtLvvNwtxnu,2,265,217582,312,"wrap_up wrap_up: {""recap"": ""Planning is done and saved in _fscr_run_01: the input records, the led"
+2026-11-02T23:56:18,R01,R01_REST_OF_RUN,msg_011CgecQG2b6YjdDmcDG1aaE,2,1012,217894,357,text reply
+2026-11-03T00:43:12,R01,R01_SIGNIN,msg_011CgefzLdwjEeWeGMR5Eb3N,2,123,218251,1396,Check port 8765 is free
+2026-11-03T00:43:17,R01,R01_SIGNIN,msg_011CgefzacpWKJmcUQsTn1Pp,2,245,219647,135,Start FSCR Oracle login in background
+2026-11-03T00:43:20,R01,R01_SIGNIN,msg_011CgefzpXjrN2sTWVXD4mJK,2,300,219782,484,Wait for login listener and read log
+2026-11-03T00:43:26,R01,R01_SIGNIN,msg_011Cgeg1BXnhSCQiExXMMcV6,2,557,220266,339,Wait for sign-in callback up to 4 minutes
+2026-11-03T00:43:49,R01,R01_EXPLORE,msg_011Cgeg33zAqDhTFfFbjJnLq,2,382,220605,1318,Read-only check: list reference data sets
+2026-11-03T00:43:55,R01,R01_EXPLORE,msg_011Cgeg3TFe8PyCnkwP4hZj9,2,176,221923,442,Read REST client usage
+2026-11-03T00:43:58,R01,R01_EXPLORE,msg_011Cgeg3gWN2mBCHkDb5YUwd,2,407,222365,543,Retry read-only call without path conversion
+2026-11-03T00:44:09,R01,R01_REPORT,msg_011Cgeg4KAW7SJNSCahpnzmb,2,1082,222908,1683,Log sign-in; find BU lookup endpoints in FSCR
+2026-11-03T00:44:19,R01,R01_SHARED_CODE,msg_011Cgeg5DWxjxTYT8fDqGNf7,2,874,224591,3871,"BU duplicate check, location and manager lookups"
+2026-11-03T00:44:34,R01,R1_BU,msg_011Cgeg6KTfwafu76Pytnvog,2,496,228462,1431,Retry location and manager lookups
+2026-11-03T00:44:45,R01,R1_BU,msg_011Cgeg75JejDB2uVHzQKS6H,2,544,229893,540,Probe location and second manager
+2026-11-03T00:44:56,R01,R1_BU,msg_011Cgeg7tihSPckmr17Rg6Gd,2,459,230433,962,Look up Lahore location and manager numbers
+2026-11-03T00:45:06,R01,R1_BU,msg_011Cgeg8cMxwiuJSdNgzceQk,2,325,231395,666,Search for Lahore Warehouse location
+2026-11-03T00:45:33,R01,R01_EXPLORE,msg_011CgegAiRR4SDQQwJ4qbq1u,2,242,232061,485,Read task-level export instructions
+2026-11-03T00:45:38,R01,R1_BU,msg_011CgegB1ezrRZ8pPqxHyooM,2,795,232546,2892,Run BU and payment-term FSM exports in parallel
+2026-11-03T00:46:52,R01,R1_BU,msg_011CgegGPaFetbrBUNEJd7g8,2,359,235438,2078,Inspect BU template package
+2026-11-03T00:46:59,R01,R01_READ_SKILL,msg_011CgegGnMUB8FGYQ2vyCtNn,2,626,237516,3602,Read BU create contract rows
+2026-11-03T00:47:04,R01,R1_BU,msg_011CgegHKzEHdmj8cVJA1hHJ,2,596,241118,2540,Get location code and manager person numbers
+2026-11-03T00:47:13,R01,R1_BU,msg_011CgegJ2vqPmKTps8VhuTZ7,2,444,243658,798,Get second manager details; location set code
+2026-11-03T00:47:23,R01,R01_EXPLORE,msg_011CgegJbMjEZhjD92neKcbW,2,526,244456,692,Find validator and Task Hook commands
+2026-11-03T00:47:27,R01,R01_EXPLORE,msg_011CgegK5NhZDJhky5nmsT3P,2,199,245148,874,Read validator and Task Hook usage
+2026-11-03T00:47:31,R01,R01_SHARED_SETUP,msg_011CgegKLRpT5gS7Tr7F3CE4,2,375,246022,2725,Read prior Task Hook inputs and task context
+2026-11-03T00:47:38,R01,R01_SHARED_SETUP,msg_011CgegKk5csUpFh1WKstZND,2,1089,248747,2191,Write run-01 task context file (new file)
+2026-11-03T00:47:45,R01,R1_BU,msg_011CgegLV5m9SLiUtf3HaaES,2,1266,250938,1102,Write BU package builder; check template encoding
+2026-11-03T00:48:00,R01,R1_BU,msg_011CgegMKkwzqHusFG5DCU8r,2,499,252040,1381,Build BU candidate ZIP and run shared validator context
+2026-11-03T00:48:07,R01,R01_EXPLORE,msg_011CgegN2KzP1biHo6Jh3Msn,2,251,253421,1443,List data loader CLI options
+2026-11-03T00:48:12,R01,R01_EXPLORE,msg_011CgegNMzuwemEJXJw9th7f,2,173,254864,608,Show data loader option names
+2026-11-03T00:48:17,R01,R1_BU,msg_011CgegNdRcU1JMYmtkqqrby,2,388,255472,957,Run data loader preflight for BU package (no upload)
+2026-11-03T00:48:25,R01,R1_BU,msg_011CgegPLZNYwppTEeiXWQGd,2,354,256429,679,Run Task Hook validation for BU
+2026-11-03T00:48:33,R01,R01_SHARED_SETUP,msg_011CgegPkrs2xdGSKTTWAj2F,2,472,257108,438,Find task-context path rule in Task Hook
+2026-11-03T00:48:36,R01,R01_SHARED_SETUP,msg_011CgegQCdASroVmxbUW9mDY,2,144,257546,508,Search core for the task-context rule
+2026-11-03T00:48:39,R01,R01_SHARED_SETUP,msg_011CgegQRe121o29ykjaHYkx,2,170,258054,272,Read Run Book guard
+2026-11-03T00:48:47,R01,R01_SHARED_SETUP,msg_011CgegQeRwXehFJTmrSp1o7,2,606,258326,2844,Inspect project-mgmt initializer
+2026-11-03T00:48:50,R01,R01_SHARED_SETUP,msg_011CgegRDrMsJGP8v6a2RCpF,2,182,261170,1049,Read workspace initializer skill
+2026-11-03T00:48:56,R01,R01_SHARED_SETUP,msg_011CgegRTpzZxdZK6BCuKdMZ,2,501,262219,2214,View task mapping format
+2026-11-03T00:49:00,R01,R01_SHARED_SETUP,msg_011CgegRuhV6doXbYThUTomY,2,236,264433,1602,Inspect implementation planning resolver
+2026-11-03T00:49:04,R01,R01_SHARED_SETUP,msg_011CgegSBjPgCfomY18rYxUE,2,232,266035,869,Look for sequence resolver scripts
+2026-11-03T00:49:07,R01,R01_SHARED_SETUP,msg_011CgegSSTftqfnRSCt1tJUZ,2,357,266904,399,Check mapping builder and sequence rules
+2026-11-03T00:49:15,R01,R01_SHARED_SETUP,msg_011CgegSnrVqsXSFkEpTEq98,2,1601,267303,895,Write task mapping; show initializer options
+2026-11-03T00:49:26,R01,R01_SHARED_SETUP,msg_011CgegTp5TD6H9D9ScRqddQ,2,496,268198,2011,Dry-run new project workspace initialization
+2026-11-03T00:49:33,R01,R01_SHARED_SETUP,msg_011CgegUEyujGkhLN55dwHwp,2,407,270209,555,Initialize new FSCR project workspace with Run Book
+2026-11-03T00:49:38,R01,R01_SHARED_SETUP,msg_011CgegUh6XiukQvpCxZ3uBf,2,296,270764,502,Generate Run Book plan and task context
+2026-11-03T00:49:47,R01,R01_SHARED_SETUP,msg_011CgegVPHFwtKA3CMgbJd46,2,205,271266,462,Read Run Book creation rules
+2026-11-03T00:49:53,R01,R01_SHARED_SETUP,msg_011CgegVd4y235eYueVjsdHp,2,632,271728,2039,Check repo size and any changed files so far
+2026-11-03T00:50:07,R01,R01_SHARED_SETUP,msg_011CgegWTfTCJJbbJ7upv8XT,2,747,273767,777,Inspect appended token-usage lines
+2026-11-03T00:50:12,R01,R01_SHARED_SETUP,msg_011CgegX9hVBSFHBZsk6Yc4o,2,224,274544,1166,Copy repo into run folder; test restoring log
+2026-11-03T00:50:30,R01,R01_SHARED_SETUP,msg_011CgegYXkq6eVjMDm7mAAqf,2,727,275710,294,Restore log; list files added to original repo
+2026-11-03T00:50:45,R01,R01_SHARED_SETUP,msg_011CgegZZF9nv6v168XQF5LX,2,584,276004,1729,Remove my added files from original repo
+2026-11-03T00:50:54,R01,R01_SHARED_SETUP,msg_011CgegaGsvZsVWH7dAQ8LXe,2,629,277733,765,Point helpers at working copy and test token
+2026-11-03T00:51:04,R01,R01_SHARED_SETUP,msg_011Cgegb2Ft1qUb4LH5bZ7mB,2,703,278498,995,Create Oracle Run Book for the new project
+2026-11-03T00:51:31,R01,R01_REPORT,msg_011CgegcvYtm1ahHuBdpigQn,2,1834,279493,1956,Log progress; move exports into new project
+2026-11-03T00:51:50,R01,R1_BU,msg_011CgegeHraJjQvmo4MtccS8,2,447,281449,2150,BU preflight and Task Hook in new project
+2026-11-03T00:52:01,R01,R01_SHARED_CODE,msg_011Cgegf18X6xAVdLoNJwx8D,2,1694,283599,1826,Write Task Hook lifecycle driver; check prior input shapes
+2026-11-03T00:52:19,R01,R1_BU,msg_011Cgegg8tNwMGG749tecx5X,2,1058,285425,1727,"Run Task Hook preview, approve, verify for BU"
+2026-11-03T00:52:25,R01,R1_BU,msg_011CgeggzYc1LXr2sdiLdU16,2,447,287152,1185,Upload and initiate BU FSM import
+2026-11-03T00:52:46,R01,R1_LOOKUP_SHARED,msg_011CgegiY8BatKPBJVtcqGbp,2,599,288337,594,Describe standardLookups resource attributes
+2026-11-03T00:52:52,R01,R1_LOOKUP_SHARED,msg_011Cgegj8HzBstt3LUMWDmsT,2,455,288931,730,Describe lookup resources
+2026-11-03T00:53:02,R01,R1_LOOKUP_SHARED,msg_011Cgegjkxd6ityfXW9evtGu,2,637,289661,1253,Find order types lookup and module id
+2026-11-03T00:53:12,R01,R1_LOOKUP_SHARED,msg_011CgegkUvjvoBZU3sGoEePx,2,408,290914,1105,Look up order types type and duplicates individually
+2026-11-03T00:53:30,R01,R1_LT,msg_011CgegmVje4tk5Nx9Thb2Tv,2,1165,292019,746,POST two lookup types via FSCR REST client
+2026-11-03T00:53:42,R01,R1_LC,msg_011CgegnmZg9H3z9aSVjio2t,2,708,292765,1599,POST four lookup codes
+2026-11-03T00:54:02,R01,R1_OT,msg_011CgegpDjJtZBrrh28tPvzT,2,778,294364,1040,Snapshot order types; POST two order type codes
+2026-11-03T00:54:18,R01,R1_LOOKUP_SHARED,msg_011CgegqPpK8ke1ghtHsCRUW,2,1447,295404,1037,Read back lookups and compare with payloads
+2026-11-03T00:54:37,R01,R01_REPORT,msg_011CgegrbNMkaG5dBMfbUXT4,2,4537,296441,2610,Record ledger rows; check BU import status
+2026-11-03T00:55:09,R01,R01_REPORT,msg_011Cgegu2YVxB3mUagXXuZng,2,405,299051,4587,Check what was written before error
+2026-11-03T00:55:12,R01,R01_REPORT,msg_011CgeguQJBgyLHDYnywFPbx,2,4335,303638,512,Write E:\\GoSaaS\\Configuration Automation v2.1\\fscr-main\\_fscr_run_01\\scripts\\ledger_add.py | Write E:\\GoSaaS\\Configuration Automation v2.1\\fscr-main\\_
+2026-11-03T00:55:48,R01,R01_REPORT,msg_011Cgegwg2nwFBHMJZjk4izV,2,935,304150,4592,Write ledger/mapping rows; check BU import status
+2026-11-03T00:56:00,R01,R1_BU,msg_011CgegxkcQHaVtF8yn7P5hu,2,399,308742,1223,Copy FSM log; read back BUs
+2026-11-03T00:56:07,R01,R1_BU,msg_011CgegyFJpBpuQY5otym7iT,2,574,309965,1216,Probe for BU default set read-back
+2026-11-03T00:56:17,R01,R1_BU,msg_011CgegyxbW471B8syKHySg6,2,733,311181,879,Look for a read-back exposing default set
+2026-11-03T00:56:30,R01,R1_PT,msg_011Cgegzny6hCxKucodotECu,2,890,312060,1111,Inspect payment term exports
+2026-11-03T00:56:39,R01,R1_PT,msg_011Cgeh1YE6V5yCWnPsaj9Mc,2,788,313171,1726,View prior blueprint and child CSV layouts
+2026-11-03T00:56:48,R01,R01_READ_SKILL,msg_011Cgeh2DxY79LGgagG8dneE,2,690,314897,2476,Find evidence format in PT script
+2026-11-03T00:56:53,R01,R1_PT,msg_011Cgeh2sm8h2bv4yNV8U2na,2,956,317373,1541,Write E:\\GoSaaS\\Configuration Automation v2.1\\fscr-main\\_fscr_run_01\\fscr-work\\project\\fs
+2026-11-03T00:57:05,R01,R1_PT,msg_011Cgeh3W6AQ5UK7RF7aSuTj,2,480,318914,1082,Run FSCR payment-term source validation and preview
+2026-11-03T00:57:10,R01,R1_PT,msg_011Cgeh3yJmx3F9pg78jHP2K,2,289,319996,2362,Get preview status and design hash
+2026-11-03T00:57:13,R01,R1_PT,msg_011Cgeh4HKzt6Bn5MYStKYeA,2,866,322358,434,"Confirm design, build and validate PT candidate"
+2026-11-03T00:57:23,R01,R1_PT,msg_011Cgeh4zAAG9dFs5EnNdkqH,2,642,322792,2277,PT preflight and Task Hook rule plan
+2026-11-03T00:57:44,R01,R1_PT,msg_011Cgeh5mfc1iNWvdn2sdkLr,2,1656,325069,947,Task Hook lifecycle and submit PT import
+2026-11-03T00:58:03,R01,R1_PL,msg_011Cgeh7QfMqHj2R7zxdq5NE,2,1062,326016,1893,Read live FBDI metadata for Price List
+2026-11-03T00:58:12,R01,R1_PL,msg_011Cgeh8UxbGBEgGiccTkjZu,2,438,327909,1166,List FBDI business objects in data loader
+2026-11-03T00:58:17,R01,R1_PL,msg_011Cgeh91UdyypCpimuSa7WX,2,588,329075,1337,Search data loader registry for price/customer objects
+2026-11-03T00:58:32,R01,R1_PL,msg_011Cgeh9nCDPti6YhqtAdgRR,2,882,330412,722,Describe Pricing priceLists REST resource
+2026-11-03T00:58:47,R01,R1_PL,msg_011CgehBG1pKhgdfQLbJ8cMW,2,532,331134,1099,Retry priceLists describe
+2026-11-03T00:59:04,R01,R1_PL,msg_011CgehCSWd97ZaPZY94UiM2,2,149,332233,749,Check DNS and network connectivity
+2026-11-03T00:59:08,R01,R1_PL,msg_011CgehCnHVj5cZ635YBwQcB,2,563,332982,390,Retry priceLists describe after network check
+2026-11-03T00:59:23,R01,R1_PL,msg_011CgehDXdE8Luh9P1R5oiPp,2,926,333372,1387,Read existing price lists for code values
+2026-11-03T00:59:33,R01,R1_PL,msg_011CgehEcEZZBFDsLJxtCfo5,2,593,334759,2022,Find charge definition and LOV sources
+2026-11-03T00:59:46,R01,R1_PL,msg_011CgehFDuAyQdWJ6kTQTGwq,2,1124,336781,1137,POST price list 1 with access set
+2026-11-03T00:59:58,R01,R1_PL,msg_011CgehGAt8CrG1KodcaJLt9,2,1345,337918,1297,"Write E:\\GoSaaS\\Configuration Automation v2.1\\fscr-main\\_fscr_run_01\\scripts\\rest_diag.py"""
+2026-11-03T01:00:07,R01,R1_PL,msg_011CgehH5tHGRvYZqu4txfNo,2,355,339215,1422,Confirm nothing created; re-POST to read error
+2026-11-03T01:00:19,R01,R1_PL,msg_011CgehHpVqoM9F2Zr8MZ1Bx,2,559,340637,542,Find pricing BU LOV resource
+2026-11-03T01:00:26,R01,R1_PL,msg_011CgehJGz3JitQ1MJgGJhY8,2,564,341179,781,"ToolSearch ToolSearch: {""query"": ""select:WebSearch,WebFetch"", ""max_results"": 2}"
+2026-11-03T01:00:29,R01,R1_PL,msg_011CgehJkaUNfYUCg4NZvknj,4,103,341960,1515,"WebSearch WebSearch: {""query"": ""Oracle Fusion Pricing price list business unit list of values busine"
+2026-11-03T01:00:41,R01,R1_PL,msg_011CgehKNcAMG51vPhZHi4Xj,2,904,343475,1905,Read user BU data access (read-only)
+2026-11-03T01:00:54,R01,R1_PL,msg_011CgehLUtic9xyNmFv9zqKw,2,227,345380,1014,Inspect data access rows for a pricing BU
+2026-11-03T01:01:09,R01,R1_PL,msg_011CgehMAC6akYxmFyAhcRGX,2,985,346394,1150,Retry price list by BU name; check FSCRT data access
+2026-11-03T01:01:23,R01,R1_PT,msg_011CgehNfdfxWrCjDLE1fiLa,2,417,347544,1186,Check payment term import status
+2026-11-03T01:01:32,R01,R1_PT,msg_011CgehPSNjHyc6Rn9YX5CDR,2,695,348730,952,Fresh PT export and FSCR reconcile
+2026-11-03T01:02:28,R01,R1_PT,msg_011CgehTU6ngqBMUWpEcMoUS,2,985,349682,1133,Compare existing terms before/after and show FSCRT rows
+2026-11-03T01:02:37,R01,R01_REPORT,msg_011CgehU8tfMKpvyz893fDC3,2,5175,350815,1433,"Write E:\\GoSaaS\\Configuration Automation v2.1\\fscr-main\\_fscr_run_01\\ledger_rows\\m1_m2_m3. | Record ledger rows, mapping, notes; check token"
+2026-11-03T01:03:22,R01,R1_CUST,msg_011CgehXLPJ1jYPUWjHRgqJX,2,710,352248,5379,get_usage get_usage: {} | Probe TCA/customer REST resources
+2026-11-03T01:04:10,R01,R01_REPORT,msg_011CgehauBb7CZZ4CG3vhhEG,2,336,357627,1614,"Mark chapter Mark chapter: {""title"": ""Customers"", ""summary"": ""Organization and person customers, addres"
+2026-11-03T01:04:13,R01,R01_READ_SKILL,msg_011CgehbDD3wYETXTUnrLubh,2,234,359241,376,See SOAP endpoints FSCR customer skill uses
+2026-11-03T01:04:31,R01,R1_CUST,msg_011CgehbUzqFxwGUPxs9bATu,2,1934,359617,999,Fetch SOAP WSDLs for customer services
+2026-11-03T01:04:44,R01,R1_CUST,msg_011CgehdVdLiXSsfcA6Fm379,2,395,360616,2601,Fetch customer account service XSD imports
+2026-11-03T01:04:53,R01,R1_CUST,msg_011Cgehdzcbz5ihwwnhttEGe,2,488,363217,562,List CustomerAccount SOAP type fields
+2026-11-03T01:05:01,R01,R1_CUST,msg_011CgeheZcE7RkHbxF36a9cM,2,620,363779,1173,"Inspect account DFF, site and site-use types"
+2026-11-03T01:05:32,R01,R1_CUST,msg_011CgehgvBHpTZcSeV6G4mQJ,2,867,364952,1767,Inspect site and site-use DFF fields
+2026-11-03T01:05:44,R01,R1_CUST,msg_011Cgehhn5QmDsxr1fjFEhEQ,2,587,366719,1314,Find location service XSDs
+2026-11-03T01:05:56,R01,R1_CUST,msg_011CgehiTpqGuUfeujxJ27gs,2,774,368033,854,Dump Location SOAP type fields
+2026-11-03T01:06:55,R01,R1_CUST,msg_011Cgehnw91AStb9Qkty7NGp,2,685,368887,1286,Dump organization party SOAP types
+2026-11-03T01:07:02,R01,R1_CUST,msg_011CgehodYNbvHNDiiDugisR,2,340,370173,847,Dump organization and person party types
+2026-11-03T01:07:10,R01,R1_CUST,msg_011CgehpDAgi9ESCUbKWKLM2,2,255,371020,376,Debug organization XSD dump
+2026-11-03T01:07:15,R01,R1_CUST,msg_011CgehpdDnsZUxgtHjNqseS,2,222,371396,377,Check organization XSD imports
+2026-11-03T01:07:18,R01,R1_CUST,msg_011CgehptAUVFSgGdn3oyenk,2,190,371773,258,Look at organization XSD content
+2026-11-03T01:07:22,R01,R1_CUST,msg_011Cgehq96PikK1jrDkWwRn2,2,456,372031,641,Dump organization and person types
+2026-11-03T01:10:39,R01,R1_CUST,msg_011Cgei5JDUDHj1Lj3kSFSPT,2,966,372672,3620,Check person party for trading partner field
+2026-11-03T01:10:44,R01,R1_CUST,msg_011Cgei63qZNek7QT7tMnNgH,2,187,376292,1040,Locate PersonParty type file
+2026-11-03T01:10:49,R01,R1_CUST,msg_011Cgei6JnEEACke75FeaDJE,2,371,377332,920,List PersonParty fields
+2026-11-03T01:11:06,R01,R1_CUST,msg_011Cgei6eTtybFzGBSA9tLd8,2,2190,378252,1152,Customer class codes and duplicate checks
+2026-11-03T01:11:43,R01,R1_CUST,msg_011CgeiAMv75Ja12Jo8i4btF,2,375,379404,2302,Find customer class lookup type
+2026-11-03T01:11:52,R01,R1_CUST,msg_011CgeiB1XnhcPWnh1QvrovQ,2,285,381706,449,Get customer class codes
+2026-11-03T01:11:57,R01,R1_CUST,msg_011CgeiBPzeHJgSuetAoiiMG,2,243,382155,300,Retry customer class code query
+2026-11-03T01:12:00,R01,R1_CUST,msg_011CgeiBjNTurro2n4xbmFPR,2,296,382455,1748,Customer class codes with encoded space
+2026-11-03T01:12:08,R01,R1_CUST,msg_011CgeiCBijWQN4cPoxHnKxy,2,412,384203,339,Customer class codes via expand
+2026-11-03T01:12:15,R01,R1_CUST,msg_011CgeiCedzXuiuQyXxr18js,2,363,384542,458,List customer class codes
+2026-11-03T01:12:19,R01,R1_CUST,msg_011CgeiD4mZkGJ4SWheb9ahD,2,448,385000,500,List customer class codes via LIKE
+2026-11-03T01:12:28,R01,R1_CUST,msg_011CgeiDaw2Ht4gQ3s2R9VDa,2,421,385500,546,Check standard lookups for customer class
+2026-11-03T01:12:33,R01,R1_CUST,msg_011CgeiE6qcLuSR118FVE5D8,2,198,386046,753,Inspect expanded codes structure
+2026-11-03T01:12:37,R01,R1_CUST,msg_011CgeiELyv26CoQAa7mWM13,2,239,386799,382,Print customer class codes
+2026-11-03T01:12:43,R01,R1_CUST,msg_011CgeiEdSru1wSCZGzJLJcF,2,1096,387181,323,Collect SOAP namespaces and request elements
+2026-11-03T01:12:53,R01,R1_CUST,msg_011CgeiFSQcQTWdocKDEjUkE,2,385,387504,1790,Show create element children and party namespaces
+2026-11-03T01:13:00,R01,R1_CUST,msg_011CgeiFoojHfjdvgHusfEHU,2,4862,389294,1247,Write E:\\GoSaaS\\Configuration Automation v2.1\\fscr-main\\_fscr_run_01\\scripts\\customers_soa
+2026-11-03T01:13:43,R01,R1_CUST,msg_011CgeiJZCyWyBoit8rydZZK,2,5476,390541,4939,Edit E:\\GoSaaS\\Configuration Automation v2.1\\fscr-main\\_fscr_run_01\\scripts\\customers_soa | Write E:\\GoSaaS\\Configuration Automation v2.1\\fscr-main\\_f
+2026-11-03T01:14:14,R01,R1_CUST,msg_011CgeiMZ7N5ERKb3amFBqde,2,262,395480,5675,Create location for customer A via SOAP
+2026-11-03T01:14:31,R01,R1_CUST,msg_011CgeiNmjA1FTshVMG79Twv,2,334,401155,507,Retry location create for customer A
+2026-11-03T01:14:41,R01,R1_CUST,msg_011CgeiPTtsvtJ7uD1xbXnh8,2,314,401662,418,Check location response; create org party
+2026-11-03T01:14:49,R01,R1_CUST,msg_011CgeiQ3D6qPA1GHczw7NcC,2,229,402080,580,Read party create fault
+2026-11-03T01:14:52,R01,R1_CUST,msg_011CgeiQLH2ZhLLiSjHw4uKD,2,958,402660,382,Fix gzip decode; read party fault; confirm no party
+2026-11-03T01:15:03,R01,R1_CUST,msg_011CgeiR8aLiQYA1hKRnhNJS,2,295,403042,1143,Re-send org party create to read the fault
+2026-11-03T01:15:08,R01,R1_CUST,msg_011CgeiRYzXbmt6Uqkc9Z74v,2,140,404185,370,Find the broken gzip check line
+2026-11-03T01:15:11,R01,R1_CUST,msg_011CgeiRm82KqDmuvRDjoejm,2,139,404555,155,Read E:\\GoSaaS\\Configuration Automation v2.1\\fscr-main\\_fscr_run_01\\scripts\\customers_soa
+2026-11-03T01:15:14,R01,R1_CUST,msg_011CgeiRvpSPYbynWgeBmgPs,2,473,404710,691,Edit E:\\GoSaaS\\Configuration Automation v2.1\\fscr-main\\_fscr_run_01\\scripts\\customers_soa | Re-send org party create with decoding
+2026-11-03T01:15:20,R01,R1_CUST,msg_011CgeiSTZdLTsKB7e8TFcen,2,549,405401,666,Fix decode line; re-send party create
+2026-11-03T01:15:31,R01,R1_CUST,msg_011CgeiT9eeAtzfLQfJZb1RX,2,493,406067,678,Check SOAP field types for flags and dates
+2026-11-03T01:15:37,R01,R1_CUST,msg_011CgeiTaZaqpr4NzSCFLQdr,2,321,406745,790,Fix boolean flags; create org party A
+2026-11-03T01:15:46,R01,R1_CUST,msg_011CgeiUJTFEZjkXCjcfS9C1,2,1039,407535,842,Add party usage assignment to script
+2026-11-03T01:15:56,R01,R1_CUST,msg_011CgeiV1NrTkuZBT4yUkgPp,2,196,408377,1374,Create org party A with usage
+2026-11-03T01:16:07,R01,R1_CUST,msg_011CgeiVvSUPUn4FGsVaK5Bv,2,246,409751,329,Create customer account A with site and uses
+2026-11-03T01:16:16,R01,R1_CUST,msg_011CgeiWVvNPeo7zNovaySd7,2,473,410080,418,Get SetId for ENTERPRISE and CUSTOMER_RDS
+2026-11-03T01:16:46,R01,R1_CUST,msg_011CgeiYekjzVgj1rqZkBUqT,2,405,410498,651,Use SetId; create customer account A
+2026-11-03T01:16:58,R01,R1_CUST,msg_011CgeiZc24kd9nRrdhZ1PPP,2,347,411149,700,Create customer B and two person customers
+2026-11-03T01:17:23,R01,R1_CUST,msg_011CgeibLoadHkjLAAXTCK7E,2,1118,411849,766,Move person tax ID to profile; create persons
+2026-11-03T01:17:39,R01,R1_CUST,msg_011Cgeicg3yzon9WukFhh3mW,2,534,412615,1333,Move person names to profile; create persons
+2026-11-03T01:17:58,R01,R01_READ_SKILL,msg_011Cgeie4TPyG4sUw26CGT6i,2,365,413948,1090,Check FSCR customer SOAP read script usage
+2026-11-03T01:18:04,R01,R01_READ_SKILL,msg_011CgeieRecqz6MuZ4UnAtM4,2,246,415038,444,Find how FSCR read scripts are invoked
+2026-11-03T01:18:07,R01,R01_READ_SKILL,msg_011CgeiehC1AuPqRg8abBQPf,2,291,415482,520,Read FSCR SOAP read function
+2026-11-03T01:18:12,R01,R1_CUST,msg_011Cgeif1WpRbD7bi5vMR4Ai,2,848,416002,2571,Verify customer A with FSCR's own SOAP reader
+2026-11-03T01:18:24,R01,R1_CUST,msg_011CgeifsUALpWfdXr2isf7k,2,2727,418573,4544,Write E:\\GoSaaS\\Configuration Automation v2.1\\fscr-main\\_fscr_run_01\\scripts\\verify_custom
+2026-11-03T01:18:45,R01,R1_CUST,msg_011CgeihV1rVCvZdg8tGhNyZ,2,192,423117,2804,Run customer read-back verification
+2026-11-03T01:19:14,R01,R1_CUST,msg_011CgeijajD2fF1qih2JFHVm,2,273,425921,757,Fix bytes serialization; rerun verification
+2026-11-03T01:19:23,R01,R1_CUST,msg_011CgeikES6Az1J435DvySpA,2,1029,426678,864,Fix party lookups; rerun verification
+2026-11-03T01:20:16,R01,R1_CUST,msg_011CgeipBJBuNZ8Xen1oeHH5,2,775,427542,1510,Add location read fallback; rerun verification
+2026-11-03T01:20:28,R01,R1_CUST,msg_011Cgeiq9mSdu9AVzvAJc1Am,2,500,429052,1189,Fix REST read buffering; rerun verification
+2026-11-03T01:20:52,R01,R1_CUST,msg_011CgeirnEhFcq4UU3b2QWic,2,579,430241,1047,Fix site parsing; show real mismatches
+2026-11-03T01:21:12,R01,R1_CUST,msg_011CgeitHuB7yiQUrvF5gKHg,2,585,431288,1741,Check party site name and prefix in responses
+2026-11-03T01:21:22,R01,R1_CUST,msg_011CgeitoKjg6aMUDWRaaxzE,2,632,433029,1173,Rerun customer verification
+2026-11-03T01:21:42,R01,R01_EXPLORE,msg_011CgeivGDmod9Xv6XSieJrb,2,523,434202,813,Check FSCR customers packager usage
+2026-11-03T01:21:47,R01,R01_EXPLORE,msg_011Cgeivs8k19ep28fLbzTGq,2,243,435015,695,Check packager preview options and sample input
+2026-11-03T01:21:51,R01,R01_EXPLORE,msg_011CgeiwAbxvjnJRkFL6uhdT,2,1426,435710,826,Run FSCR customers packager offline for customer A
+2026-11-03T01:22:04,R01,R01_EXPLORE,msg_011Cgeix8RGyNnPGVthmsXAQ,2,613,436536,1567,Retry FSCR packager with party numbers
+2026-11-03T01:22:14,R01,R01_REPORT,msg_011CgeixgScgz1FmhLfavGer,2,5205,438103,1476,Write E:\\GoSaaS\\Configuration Automation v2.1\\fscr-main\\_fscr_run_01\\ledger_rows\\m6_m7_m8. | Record customer ledger rows and notes
+2026-11-03T01:22:57,R01,R01_FINAL_CHECK,msg_011Cgej1sZvRQs6WCDY7iAyV,2,1038,439579,5409,Final check of created records in Oracle
+2026-11-03T01:23:38,R01,R01_FINAL_CHECK,msg_011Cgej54TM6jS6wiHepF8w8,2,576,444988,1733,Check for any parties or codes created during the run
+2026-11-03T01:23:50,R01,R01_REPORT,msg_011Cgej5xDaResxaddZJVErW,2,456,446721,712,Verify original repo unchanged; check processes
+2026-11-03T01:24:46,R01,R01_REPORT,msg_011Cgej9uG6nXgwnQuh5yjg7,2,505,447433,583,get_usage get_usage: {} | Read Run Book summary via FSCR
+2026-11-03T01:25:31,R01,R01_REST_OF_RUN,msg_011CgejCCLZrkn4fV2ePx1Kk,2,1974,448016,1240,Check FSCR docs for limits used in report
+2026-11-03T01:25:37,R01,R01_REST_OF_RUN,msg_011CgejDoTwiw6yowY33Fp31,2,260,449256,2625,Check adapter's declared Name length
+2026-11-03T01:25:41,R01,R01_REST_OF_RUN,msg_011CgejE6V9HSyuZ7ysKHEAP,2,12131,451881,267,"Write E:\\GoSaaS\\Configuration Automation v2.1\\fscr-main\\_fscr_run_01\\RUN_REPORT.md"", ""conte | Stamp finish time into report and ledger"
+2026-11-03T01:27:33,R01,R01_REST_OF_RUN,msg_011CgejNPW3o1Zuxkb32HDQN,2,390,452148,12416,Complete the files-written log
+2026-11-03T01:27:39,R01,R01_REST_OF_RUN,msg_011CgejNmHVUTvJHwGFNHgj1,2,270,464564,546,"wrap_up wrap_up: {""recap"": ""Run finished: 22 of 24 records are created in ETIA-TEST and read back."
+2026-11-03T01:27:54,R01,R01_REST_OF_RUN,msg_011CgejP4Jfmt6QKKaHJEvBf,2,1595,465110,416,text reply
+2026-11-03T06:18:44,R01,R01_REST_OF_RUN,msg_011Cgf7aHvLUNSxVTcprBu4w,2,224,48185,47026,"Read E:\\GoSaaS\\Configuration Automation v2.1\\fscr-main\\_fscr_run_01\\payloads\\pl1.json""}"
+2026-11-03T06:18:46,R01,R01_REST_OF_RUN,msg_011Cgf7aauJKgYJhgkioM2oL,2,168,95211,629,Show the price list records from the saved input
+2026-11-03T06:18:49,R01,R01_REST_OF_RUN,msg_011Cgf7apUNqg8VkJ2NYefJL,2,530,95840,1107,Write the second price list payload and log it
+2026-11-03T06:18:55,R01,R01_REST_OF_RUN,msg_011Cgf7bE6SQohBzzwYRSF8V,2,126,96947,641,"wrap_up wrap_up: {""recap"": ""Both price list requests are ready (pl1.json and pl2.json) but nothing"
+2026-11-03T06:19:01,R01,R01_REST_OF_RUN,msg_011Cgf7bSfEaPV7iJN4vqjHf,2,331,97588,184,text reply
+2026-11-03T06:42:33,R01,R01_SIGNIN,msg_011Cgf9PiKhzkxFUDnaLo2rt,4,438,97772,337,"update_plan update_plan: {""items"": [{""content"": ""Check Oracle sign-in is valid"", ""status"": ""in_progres | Check token cache expiry and port 8765"
+2026-11-03T06:42:39,R01,R01_SIGNIN,msg_011Cgf9Q9BSSbBDsHSmdBLCS,2,347,98109,587,Run FSCR Oracle login in background
+2026-11-03T06:42:44,R01,R01_SIGNIN,msg_011Cgf9QVXJTtUD2uPkt5uxd,2,195,98696,586,Check login log (redacted) and listener
+2026-11-03T06:42:46,R01,R01_SIGNIN,msg_011Cgf9QiuU5w9JnjEHybdLY,2,198,99282,269,Check whether a new token was saved
+2026-11-03T06:42:50,R01,R1_PL,msg_011Cgf9QyChNYJZN9DmtEkHg,2,431,99551,642,Read-only check for existing FSCRT price lists
+2026-11-03T06:42:57,R01,R1_PL,msg_011Cgf9RVowkHrK66MXoDnDo,2,396,100193,661,"update_plan update_plan: {""done"": [1, 2], ""start"": 3} | Create price list 1 in ETIA-TEST"
+2026-11-03T06:43:11,R01,R1_PL,msg_011Cgf9SMfpiRZv2V2oHC4Jt,2,450,100854,1312,Create price list 2 in ETIA-TEST
+2026-11-03T06:43:19,R01,R1_PL,msg_011Cgf9TAo1cfFKetgCq2Ax4,2,680,102166,1193,"update_plan update_plan: {""advance"": true} | Read back and compare both price lists"
+2026-11-03T06:43:28,R01,R1_PL,msg_011Cgf9Tp28KC1TwYtK139ot,2,527,103359,826,Compare read-back with sent payloads
+2026-11-03T06:43:34,R01,R01_REPORT,msg_011Cgf9UBhMWmpE5X3JdRZ4N,2,442,104185,704,"update_plan update_plan: {""advance"": true} | Find price list mentions in ledger, mapping and report"
+2026-11-03T06:43:39,R01,R01_REPORT,msg_011Cgf9Uas91iavaz4FPHidc,2,269,104889,4552,"Read E:\\GoSaaS\\Configuration Automation v2.1\\fscr-main\\_fscr_run_01\\RUN_REPORT.md"", ""limit"
+2026-11-03T06:43:43,R01,R01_REPORT,msg_011Cgf9UqUieES16nguYsbKh,2,2033,109441,3113,Update RUN_REPORT with the price list follow-up
+2026-11-03T06:44:00,R01,R01_REPORT,msg_011Cgf9W9C78eZQvJUNgGPR7,2,2361,112554,2142,"Update report, mapping, ledger and file log"
+2026-11-03T06:44:19,R01,R01_REPORT,msg_011Cgf9Xbi5CrRpBL1azJQUz,2,246,114696,2535,Check login log has no secrets and no processes left
+2026-11-03T06:44:23,R01,R01_REPORT,msg_011Cgf9XsT76ZPfJC136qKda,2,146,117231,284,"wrap_up wrap_up: {""recap"": ""Both price lists are created in ETIA-TEST with access set ENTERPRISE a"
+2026-11-03T06:44:29,R01,R01_REPORT,msg_011Cgf9Y5yvLEFDh8FwCPvsG,2,522,117515,235,text reply
+2026-11-03T06:58:42,R01,R1_PL_APPROVE,msg_011CgfAd3oDXqtqc1QQ97L3J,4,708,117750,1785,"update_plan update_plan: {""items"": [{""content"": ""Check sign-in and look for an FSCR approve route"", ""s | Check token and search FSCR for a price list approval r"
+2026-11-03T06:58:50,R01,R1_PL_APPROVE,msg_011CgfAdhWMewQSvyQgix1hC,2,219,119535,1054,Read status guidance in the FSCR price list skill
+2026-11-03T06:58:55,R01,R1_PL_APPROVE,msg_011CgfAe2ZauLFdwCo2HynGS,2,575,120589,821,Read the priceLists describe for status fields and actions
+2026-11-03T06:59:07,R01,R1_PL_APPROVE,msg_011CgfAex2FeHKf6Uzu4M21i,2,599,121410,1206,PATCH price list 1 status to Approved
+2026-11-03T06:59:15,R01,R1_PL_APPROVE,msg_011CgfAfcQ5wnC1R6M6GUiDJ,2,370,122616,885,PATCH price list 2 status to Approved
+2026-11-03T06:59:21,R01,R1_PL_APPROVE,msg_011CgfAg58fRSvwi2ovX4irn,2,694,123501,533,"update_plan update_plan: {""done"": [1], ""start"": 2} | Read back price lists and diff against before"
+2026-11-03T06:59:34,R01,R01_REPORT,msg_011CgfAgm4FcHYFDrDzoSvMP,2,486,124034,1732,"update_plan update_plan: {""advance"": true} | Locate payment-terms skill and scripts in the original repo"
+2026-11-03T06:59:42,R01,R01_REPORT,msg_011CgfAhWTx1dTMZmouK6Zn8,2,453,125766,691,Check payment-terms script timestamps and patch notes
+2026-11-03T06:59:48,R01,R01_REPORT,msg_011CgfAhvEgTkpyGcbXpKTNA,2,577,126457,2642,Diff the payment-terms script between original and patched copies
+2026-11-03T06:59:53,R01,R01_REPORT,msg_011CgfAiPRYySbb6gaU6Qz9c,2,301,129099,1425,Find where the fscr-work copy came from
+2026-11-03T06:59:58,R01,R01_REPORT,msg_011CgfAigAsN28QC1BJAmZpW,2,482,130524,1338,Diff unpatched vs patched payment-terms script and look for patch notes
+2026-11-03T07:00:04,R01,R01_REPORT,msg_011CgfAj8C3o35dtTZytzL3G,2,512,131862,1997,Read the 28 Oct blocked payment-term run record
+2026-11-03T07:00:09,R01,R01_REPORT,msg_011CgfAjXfg8wmi5WLkd9TUH,2,453,133859,2170,Check what FSCR lookup references specify
+2026-11-03T07:00:14,R01,R01_REPORT,msg_011CgfAjx2tqsuFt5DBfXaGz,2,321,136029,3216,Show lookup payloads and ledger notes on their origin
+2026-11-03T07:00:18,R01,R01_REPORT,msg_011CgfAkGtxFPSxXV73egwiQ,2,430,139245,1425,Search FSCR for ModuleId and lookup field guidance
+2026-11-03T07:00:34,R01,R01_REPORT,msg_011CgfAmRd73WaEafKzXoeSy,2,399,140670,965,Find where the ModuleId first appeared in this session
+2026-11-03T07:00:41,R01,R01_REPORT,msg_011CgfAmoms6kZnsyb4Mpqc6,2,549,141635,1407,Read FSCR order lookups skill routing guidance
+2026-11-03T07:00:46,R01,R01_REPORT,msg_011CgfAnGFp63Amvg1NtELD6,2,306,143042,2202,Read FSCR lookups skill workflow steps
+2026-11-03T07:00:54,R01,R01_REPORT,msg_011CgfAnYUe19SzyVmPQQ2KX,2,873,145244,1288,Find evidence for the payment-term name length limit
+2026-11-03T07:01:00,R01,R01_REPORT,msg_011CgfAoE5skxjZtYqbankrw,2,272,146532,1246,Read FSCR precision rule and find export ZIPs
+2026-11-03T07:01:02,R01,R01_REPORT,msg_011CgfAoWcnP77Zt4GBHrz6b,2,495,147778,1215,Look for Name field length in the Oracle export metadata
+2026-11-03T07:01:09,R01,R01_REPORT,msg_011CgfAovVyom2g2Jm4CdKYk,2,341,148993,650,Show Name attribute metadata from the Oracle export
+2026-11-03T07:01:13,R01,R01_REPORT,msg_011CgfApEUUBq22wV8KVTYBr,2,696,149643,1398,Read-only describes of payment term REST resources
+2026-11-03T07:01:24,R01,R01_REPORT,msg_011CgfAq8a2yD5Uj3a65mA9C,2,460,151041,862,Check what paymentTermsLOV covers and whether it lists the FSCRT terms
+2026-11-03T07:01:31,R01,R01_REPORT,msg_011CgfAqcvMuEzK86YcSaK2m,2,738,151903,670,Check if paymentTermsLOV covers receivables terms and existing name lengths
+2026-11-03T07:01:43,R01,R01_REPORT,msg_011CgfArDgPtm4Qzh75KW1p9,2,614,152573,834,"update_plan update_plan: {""done"": [3, 4], ""start"": 5} | List evidence files for customers, price lists and FSM"
+2026-11-03T07:01:49,R01,R01_REPORT,msg_011CgfArognk2mCeYUZ5U9mq,2,1030,153407,1372,Count SOAP and REST create calls from the session transcript
+2026-11-03T07:02:04,R01,R01_REPORT,msg_011CgfAsZyZsZdaFqZb3WgZu,2,1224,154779,1927,Show every price list POST/PATCH command and result
+2026-11-03T07:02:13,R01,R01_REPORT,msg_011CgfAtWh9M7vTXmNaDmpK2,2,547,156706,1765,Show price list POST/PATCH commands and results
+2026-11-03T07:02:20,R01,R01_REPORT,msg_011CgfAtwBJLHBetzUQh1ArM,2,572,158471,4378,Locate report headings and lines to correct
+2026-11-03T07:02:22,R01,R01_REPORT,msg_011CgfAuS3NadrpFncghki5G,2,126,162849,2884,"ToolSearch ToolSearch: {""query"": ""select:mcp__ccd_session_mgmt__get_usage"", ""max_results"": 1}"
+2026-11-03T07:02:24,R01,R01_REPORT,msg_011CgfAub9ZvndnNe16QgSST,4,42,165733,557,get_usage get_usage: {}
+2026-11-03T07:02:30,R01,R01_REPORT,msg_011CgfAujBGPizwpVwLUdRcB,2,602,166290,579,"Read E:\\GoSaaS\\Configuration Automation v2.1\\fscr-main\\_fscr_run_01\\RUN_REPORT.md"", ""offse"
+2026-11-03T07:02:43,R01,R01_REPORT,msg_011CgfAvEKTaNYueKzBsYLZ1,2,1607,166869,9093,Check which lookup fields the Oracle describe lists
+2026-11-03T07:02:49,R01,R01_REPORT,msg_011CgfAwNUN7wHmpequNUyMf,2,404,175962,1850,Check lookup code child fields in describe
+2026-11-03T07:02:55,R01,R01_REPORT,msg_011CgfAwibbD1JQkdo4RHKdy,2,505,177812,529,Show ledger.csv rows and mapping file
+2026-11-03T07:03:07,R01,R01_REPORT,msg_011CgfAxAekYbf9CrPTXkC9e,2,8493,178341,4104,Apply corrections to RUN_REPORT.md
+2026-11-03T07:04:11,R01,R01_REPORT,msg_011CgfB3GoEHj4eNBpQZTkpn,2,434,182445,8543,Confirm backups exist and report is unchanged
+2026-11-03T07:04:14,R01,R01_REPORT,msg_011CgfB3eZfwLAWCwTdNcDME,2,7869,190988,541,Write E:\\GoSaaS\\Configuration Automation v2.1\\fscr-main\\_fscr_run_01\\scripts\\fix_report_fo
+2026-11-03T07:05:07,R01,R01_REPORT,msg_011CgfB7UJ8rsYXNNaJo2sEW,2,209,191529,7949,Back up files and apply report corrections
+2026-11-03T07:05:11,R01,R01_REPORT,msg_011CgfB7nCA9XHUVsQif2fGi,2,346,199478,258,Find leftover outdated claims in the report
+2026-11-03T07:05:15,R01,R01_REPORT,msg_011CgfB87P58Mv75u69Vnbhz,2,3899,199736,1023,Write E:\\GoSaaS\\Configuration Automation v2.1\\fscr-main\\_fscr_run_01\\scripts\\fix_ledgers_f
+2026-11-03T07:05:46,R01,R01_REPORT,msg_011CgfBAHBEg5tvfCiFCR7z1,2,439,200759,3982,Apply ledger and mapping corrections and log files
+2026-11-03T07:05:50,R01,R01_REPORT,msg_011CgfBAevh5T4rXrdNYo9cv,2,443,204741,836,"update_plan update_plan: {""done"": [5, 6], ""start"": 7} | Verify repo unchanged, port 8765 free, no leftover processes"
+2026-11-03T07:06:19,R01,R01_REPORT,msg_011CgfBCnxw1dGKr2NGKshiM,2,257,205577,589,"wrap_up wrap_up: {""recap"": ""Both FSCRT price lists are now Approved in ETIA-TEST, and nothing else"
+2026-11-03T07:06:34,R01,R01_REPORT,msg_011CgfBD4xsFE32CwNedNGWS,2,1521,206166,315,text reply
+2026-11-03T07:10:09,R01,R01_REST_OF_RUN,msg_011CgfBUkEw388mbUS8LAHd9,4,2166,206481,3935,"update_plan update_plan: {""items"": [{""content"": ""Set up run 02 folder, baselines and usage reading"", "" | Create run 02 folder, record start time, check token | "
+2026-11-03T08:50:37,R04,R04_EXPLORE,msg_011CgfK8xpqqKxrWEe3CtKKT,4,2531,639154,3951,"update_plan update_plan: {""items"": [{""content"": ""Set up run 04 folder, copies, hashes, usage"", ""status | Create run 04 folder, record start, verify and hash ear"
+2026-11-03T08:50:58,R04,R04_EXPLORE,msg_011CgfKBbJ7ihrCn2NRWwg7E,2,557,643105,3290,Copy original repo and Run 01 project into run 04 working copy
+2026-11-03T08:51:17,R04,R04_EXPLORE,msg_011CgfKCxFxozoJiN9gAUJFk,2,434,646395,661,List skills with e2e adapters and find readiness claims
+2026-11-03T08:51:25,R04,R04_EXPLORE,msg_011CgfKDXm6rgLGtFbCmWELg,2,1693,647056,1535,Write E:\\GoSaaS\\Configuration Automation v2.1\\fscr-main\\_fscr_run_04_create16\\scripts\\surv | Run the 16-skill survey
+2026-11-03T08:51:42,R04,R04_EXPLORE,msg_011CgfKEiUo35j3JbqCJEHCt,2,639,648591,3673,"Inspect adapter structure, adapter CLI, and repo test files"
+2026-11-03T08:51:49,R04,R04_EXPLORE,msg_011CgfKFF6YunKWNCXNrXueF,2,711,652264,1664,Find built-on release per skill and repo test files
+2026-11-03T08:52:00,R04,R04_EXPLORE,msg_011CgfKG62Nv4G1NUhU5GRwG,2,600,653928,1158,Find test-like files in the 16 skill folders
+2026-11-03T08:52:07,R04,R04_EXPLORE,msg_011CgfKGfCuBL88nKQyzr3kZ,2,379,655086,1452,Read the earlier claims report for the test-file count
+2026-11-03T08:52:11,R04,R04_EXPLORE,msg_011CgfKGyNoDhEJu8mPfDpah,2,257,656538,882,Read the full test-file and 16-skill rows
+2026-11-03T08:52:36,R04,R04_SHARED_EXPORTS,msg_011CgfKHCTrYvHnS5ZSyMzcK,2,3404,657420,2109,Write E:\\GoSaaS\\Configuration Automation v2.1\\fscr-main\\_fscr_run_04_create16\\scripts\\expo | Export templates and data for all 15 skills in the background
+2026-11-03T08:52:47,R04,R04_EXPLORE,msg_011CgfKKfFiNZY453oy5xZ51,2,462,659529,3706,Extract stated dependencies per skill
+2026-11-03T08:53:03,R04,R04_EXPLORE,msg_011CgfKLAi1yqWe5CSCmEAx4,2,1401,663235,3789,Read adapter subcommand arguments and skill workflow
+2026-11-03T08:53:10,R04,R04_EXPLORE,msg_011CgfKMHJg9neG2X91nGbM8,2,356,667024,2353,Read the calendars skill export/import workflow
+2026-11-03T08:53:13,R04,R04_EXPLORE,msg_011CgfKMcCySrFGJkVyWdnp3,2,209,669377,796,Read the calendars skill outline and E2E section
+2026-11-03T08:53:17,R04,R04_EXPLORE,msg_011CgfKMqK1hbKvZJSNBJXJW,2,410,670173,1696,Read calendars adapter normalization and semantic model
+2026-11-03T08:53:25,R04,R04_SHARED_SETUP,msg_011CgfKNArG1DYEPXXYYnFd2,2,848,671869,1550,Read project initializer and runbook creator usage and Run 01 mapping format
+2026-11-03T08:53:36,R04,R04_SHARED_CODE,msg_011CgfKNpJ1oF5mUCB2YgkXY,2,2584,673419,1812,Write E:\\GoSaaS\\Configuration Automation v2.1\\fscr-main\\_fscr_run_04_create16\\scripts\\buil | Build the 15-task mapping from FSCR's catalog
+2026-11-03T08:53:51,R04,R04_SHARED_CODE,msg_011CgfKQNazdh4pYHmh76K11,2,437,675231,2863,Fix catalog parsing and build mapping
+2026-11-03T08:53:55,R04,R04_SHARED_CODE,msg_011CgfKQjfGKuBuNRgzSRXcx,2,635,678094,1678,Edit E:\\GoSaaS\\Configuration Automation v2.1\\fscr-main\\_fscr_run_04_create16\\scripts\\buil | Build mapping with adapter task metadata
+2026-11-03T08:54:03,R04,R04_SHARED_SETUP,msg_011CgfKRCLdue635psQqrQdh,2,773,679772,1493,Initialize new FSCR project and create its Run Book
+2026-11-03T08:54:11,R04,R04_SHARED_SETUP,msg_011CgfKRmYebb8WrGZc2q7V2,2,607,681265,888,Generate Run Book plan and read create-runbook usage
+2026-11-03T08:54:15,R04,R04_SHARED_SETUP,msg_011CgfKSEvw1oRrVa8FMUJex,2,223,682153,1335,List files the initializer created in the new project
+2026-11-03T08:54:20,R04,R04_SHARED_SETUP,msg_011CgfKSUtKbVcPMvXtBtm6c,2,351,683488,433,Generate the Run Book plan from the in-project mapping
+2026-11-03T08:54:36,R04,R04_SHARED_SETUP,msg_011CgfKTnNaPBGHMZSNSRRQe,2,439,683921,461,Create the Oracle Run Book for the new project
+2026-11-03T08:54:58,R04,R04_REPORT,msg_011CgfKVEA8bFFwx2toApFA7,2,1480,684382,1000,"Write E:\\GoSaaS\\Configuration Automation v2.1\\fscr-main\\_fscr_run_04_create16\\ledger.md"", "" | Check export batch progress"
+2026-11-03T08:55:13,R04,R4_S2,msg_011CgfKWDVV26dZtmHcSoSsk,2,844,685382,1949,Show calendars template/baseline headers and sample rows
+2026-11-03T08:55:20,R04,R04_READ_SKILL,msg_011CgfKWpiJFjyBKavb2kBbD,2,790,687331,2832,Check calendar name limits and allowed codes
+2026-11-03T08:55:30,R04,R04_SHARED_CODE,msg_011CgfKXRVpQrE55kyeLaZFz,2,2822,690163,1685,Write E:\\GoSaaS\\Configuration Automation v2.1\\fscr-main\\_fscr_run_04_create16\\scripts\\adap | Run Payables Calendars adapter offline steps with one test ca
+2026-11-03T08:55:51,R04,R4_S2,msg_011CgfKZEjEJAqv8kcVF9ZpC,2,210,691848,3057,Read the calendars normalize error
+2026-11-03T08:55:53,R04,R4_S2,msg_011CgfKZTcdQ7dtCaF6mJhhq,2,657,694905,311,Retry calendars with keys only in targetKey
+2026-11-03T08:56:06,R04,R04_SHARED_CODE,msg_011CgfKZxpY2FmBCVT1xMZE9,2,4492,695216,1546,Write E:\\GoSaaS\\Configuration Automation v2.1\\fscr-main\\_fscr_run_04_create16\\scripts\\live | Calendars: Data Loader preflight and Task Hook rule plan
+2026-11-03T08:56:42,R04,R04_SHARED_CODE,msg_011CgfKcpyaeaX9PfKT36qsJ,2,1779,696762,5441,Write E:\\GoSaaS\\Configuration Automation v2.1\\fscr-main\\_fscr_run_04_create16\\scripts\\insp | Inspect calendars candidate for rule evidence
+2026-11-03T08:56:57,R04,R4_S2,msg_011CgfKe1BH5FXdevbk4XVAu,2,1525,702203,2975,"Calendars: write rule results, run Task Hook and approved upload"
+2026-11-03T08:57:22,R04,R4_S2,msg_011CgfKfsqZVncLKSRGw9CrC,2,321,705178,1606,"Calendars: poll import status, fresh export and reconcile"
+2026-11-03T08:57:27,R04,R04_SHARED_CODE,msg_011CgfKgGu8t3Lz42nkSyFFc,2,640,706784,1286,"Edit E:\\GoSaaS\\Configuration Automation v2.1\\fscr-main\\_fscr_run_04_create16\\scripts\\live | Calendars: poll import status, fresh export and reconcile"
+2026-11-03T08:59:34,R04,R4_S2,msg_011CgfKqXNnEEeEWjRS3qzg9,2,753,708070,1348,Diff calendars baseline vs fresh export for side effects
+2026-11-03T08:59:39,R04,R04_REPORT,msg_011CgfKr4BSH6VdvfqKoHNLV,2,1823,709418,1005,"Log Payables Calendars to ledger, ledger.csv and mapping"
+2026-11-03T08:59:55,R04,R4_S3,msg_011CgfKsEycaCr3VKL3ogTez,2,672,710423,2940,Show Payables payment terms export rows and validation rules
+2026-11-03T09:00:05,R04,R4_S3,msg_011CgfKsimBzdXLZ4tbpuyeU,2,1425,713363,2201,Payables payment terms: run adapter offline steps; read prerequisite resolver usage
+2026-11-03T09:00:14,R04,R4_S3,msg_011CgfKtgypPvo3E81Wt4PHQ,2,646,715564,2497,"AP terms: FSCR prerequisite GET, preflight and rule plan"
+2026-11-03T09:00:28,R04,R4_S3,msg_011CgfKuTjrxQbHbXEDZJzgV,2,697,718061,1971,Inspect AP terms candidate and prerequisite result
+2026-11-03T09:00:42,R04,R4_S3,msg_011CgfKuy9C79Meb4ZZmYwG3,2,1611,720032,1073,"AP terms: write rule results, run Task Hook and approved upload"
+2026-11-03T09:00:52,R04,R4_S3,msg_011CgfKwJDgcPKhaYNH1ZKEC,2,472,721105,1691,"AP terms: status, fresh export, reconcile, diff"
+2026-11-03T09:02:55,R04,R4_S3,msg_011CgfL6XEXN6MKj6AcEGbp6,2,310,722796,1433,Read the failed after-export log
+2026-11-03T09:02:59,R04,R4_S3,msg_011CgfL6nkRZC7gPLdJfxhec,2,692,724229,590,Fetch the completed AP terms export via FSCR engine
+2026-11-03T09:03:14,R04,R4_S3,msg_011CgfL7NwifZCzk8MeyTbYe,2,1229,724819,1278,"Fetch export, run adapter reconcile and diff for AP terms"
+2026-11-03T09:03:19,R04,R4_S3,msg_011CgfL8LZ8mQ8cobhmtbYjD,2,311,726097,1663,Read the AP terms reconcile result
+2026-11-03T09:03:24,R04,R4_S3,msg_011CgfL8bXnbmmg3otRUJDsM,2,241,727760,356,Find which reconcile fields report failure
+2026-11-03T09:03:28,R04,R4_S3,msg_011CgfL8phYqMcv3irwpvmhe,2,435,728116,788,List failed reconcile requirements
+2026-11-03T09:03:36,R04,R04_READ_SKILL,msg_011CgfL9Cfei2yf3Vigddnu9,2,476,728904,531,Compare the 16 copies of fsm_task_adapter.py
+2026-11-03T09:03:43,R04,R04_READ_SKILL,msg_011CgfL9n659pSV9W6jesw6a,2,519,729435,1170,Find reconcile comparison and date normalization code
+2026-11-03T09:03:47,R04,R04_READ_SKILL,msg_011CgfLAJQi7DfEE98mDU8Nm,2,206,730605,818,Read the reconcile value comparison in the AP terms adapter
+2026-11-03T09:03:49,R04,R04_READ_SKILL,msg_011CgfLAVsXPFGGkcWeGbFr4,2,178,731423,916,Read the field-requirement comparison branch
+2026-11-03T09:03:56,R04,R4_S3,msg_011CgfLAikvB4G4oEZmXg1x3,2,1375,732339,935,Patch a copy of the AP terms adapter reconcile and re-run
+2026-11-03T09:04:06,R04,R4_S3,msg_011CgfLBioBbkMRHUZF5PAE9,2,1232,733274,2438,Redo minimal byte-level patch and re-run reconcile
+2026-11-03T09:04:19,R04,R04_REPORT,msg_011CgfLCWneGaNozc5xbmrFz,2,1756,735712,1397,Log Payables payment terms; check exports and token
+2026-11-03T09:04:32,R04,R04_READ_SKILL,msg_011CgfLDf2mqvKQRtNPH95ae,2,530,737109,1870,Read Bank Charges adapter capability statuses
+2026-11-03T09:04:43,R04,R4_S4,msg_011CgfLE48aVe7DWLTaTKjvH,2,594,738979,972,Show Bank Charges CSV headers and rows
+2026-11-03T09:04:59,R04,R4_S4,msg_011CgfLEi3czoN2CxUoDdaR6,2,1193,739951,2722,Run Bank Charges adapter offline as written
+2026-11-03T09:05:10,R04,R04_READ_SKILL,msg_011CgfLFz3pqMVRHpJNuouLx,2,436,742673,1387,Check the Bank Charges alternative script
+2026-11-03T09:05:23,R04,R04_REPORT,msg_011CgfLGjzFeJLLJpcV541r4,2,2317,744060,664,Log Bank Charges; profile BU-level skill exports for target qualification
+2026-11-03T09:05:35,R04,R4_S8,msg_011CgfLJGyN19dTgYVrSDDtL,2,610,744724,2998,Show AutoInvoice grouping rule CSVs
+2026-11-03T09:05:42,R04,R4_S8,msg_011CgfLJhcC4uNmAavTxSfL1,2,994,747722,1591,AutoInvoice grouping rules: adapter offline steps
+2026-11-03T09:05:52,R04,R4_S8,msg_011CgfLKPxKjVM2gNCPjfHb7,2,498,749313,1537,"Grouping rules: preflight, rule plan, candidate inspection"
+2026-11-03T09:05:59,R04,R4_S8,msg_011CgfLKx77FThTPnDHiWd6g,2,1534,750850,1293,"Grouping rules: rule results, Task Hook, upload"
+2026-11-03T09:06:20,R04,R04_SHARED_CODE,msg_011CgfLMZHijYLf8DHWpzsGs,2,1057,752143,1615,"Edit E:\\GoSaaS\\Configuration Automation v2.1\\fscr-main\\_fscr_run_04_create16\\scripts\\live | Grouping rules: status, verify, diff"
+2026-11-03T09:08:29,R04,R04_REPORT,msg_011CgfLX3T7sT9aUwQxDsnds,2,1227,753758,1825,Log grouping rules; show remit-to CSVs
+2026-11-03T09:09:05,R04,R4_S9,msg_011CgfLZJkBkqnpVxNnCfhSt,2,1317,755583,2744,Remit-to: adapter offline steps (discover key requirements)
+2026-11-03T09:09:12,R04,R4_S9,msg_011CgfLaH9DgrxGeYrmnQm6b,2,188,758327,1383,Read remit-to manifest error
+2026-11-03T09:09:15,R04,R04_READ_SKILL,msg_011CgfLaUvtPTovTDfYZ3zsG,2,470,759710,273,Read remit-to base URL check
+2026-11-03T09:09:25,R04,R04_READ_SKILL,msg_011CgfLasSERkqZmw1s9KMXN,2,802,759983,984,Find adapters with the strict hostname check
+2026-11-03T09:09:29,R04,R4_S9,msg_011CgfLbVPD5ihm4FJWhRQ5G,2,981,760967,856,Patch remit-to adapter copy and re-run offline steps
+2026-11-03T09:09:37,R04,R4_S9,msg_011CgfLcBirRzB2gRHgLqxdS,2,593,761823,1258,Re-run remit-to with patched adapter and its helper
+2026-11-03T09:09:46,R04,R04_READ_SKILL,msg_011CgfLcg6uRhwE984rAMCgA,2,416,763081,842,Find FSCR guidance on OrigSystemReference for new remit-to
+2026-11-03T09:09:55,R04,R4_S9,msg_011CgfLd2SXT2gb1ctPBr8wK,2,1102,763923,1933,Remit-to approach 2: blank OrigSystemReference
+2026-11-03T09:10:05,R04,R04_REPORT,msg_011CgfLdpMGp4vcbp3tKS9sj,2,2040,765856,1327,Log remit-to; show receipt class CSVs
+2026-11-03T09:10:18,R04,R4_S10,msg_011CgfLf3725E1cKPJUZpYGo,2,1159,767183,3765,Receipt classes and methods: adapter offline steps
+2026-11-03T09:10:28,R04,R04_READ_SKILL,msg_011CgfLfn1wWo5TKUh8mFYm8,2,527,770948,1297,Read the node sequence check and contract values
+2026-11-03T09:10:36,R04,R4_S10,msg_011CgfLgCQdqmq2VXBvSqfN7,2,814,772245,965,Show pod template node sequences for receipt classes
+2026-11-03T09:10:51,R04,R4_S10,msg_011CgfLgpq8kYWgs4WuRSP7B,2,2060,773210,1561,Patch receipt-class contract node sequences and re-run
+2026-11-03T09:11:07,R04,R04_REPORT,msg_011CgfLiQZviz1h3trmYekU6,2,1806,774771,3072,"Log receipt classes; check time, token and export completeness"
+2026-11-03T09:11:22,R04,R04_NOTRUN6_CHECK,msg_011CgfLjbeThgc9tvrC4ciUe,2,1146,777843,1996,get_usage get_usage: {} | Profile BU-level skill exports for ledger and BU fields
+2026-11-03T09:11:44,R04,R04_REPORT,msg_011CgfLkRnufBZc6rL9e6c6w,2,2888,779839,2960,Log the six blocked singleton/BU skills
+2026-11-03T09:11:57,R04,R4_S12,msg_011CgfLnQAEfDj5QLTcD5TfF,2,465,782799,2976,Show one existing transaction type row
+2026-11-03T09:12:06,R04,R4_S12,msg_011CgfLnoMzvwPRghwBibH7B,2,1213,785775,807,Transaction types: adapter offline steps
+2026-11-03T09:12:17,R04,R4_S12,msg_011CgfLokRfQVZLBcQgkHCGu,2,479,786582,1568,"Transaction types: preflight, rule plan, candidate inspection"
+2026-11-03T09:12:26,R04,R4_S12,msg_011CgfLpQ6aX1fJ9qjhzY3pQ,2,508,788150,1309,Check transaction-type blueprint defaults and prerequisites
+2026-11-03T09:12:38,R04,R4_S12,msg_011CgfLppDPfcT8W33KY6Wqj,2,1434,789459,567,"Transaction types: rule results, Task Hook, upload"
+2026-11-03T09:13:09,R04,R4_S12,msg_011CgfLsc8DNrWJ7xfQn2TJo,2,462,790026,1514,"Transaction types: status, verify, diff"
+2026-11-03T09:15:06,R04,R4_S12,msg_011CgfM2SyJEc91SUSBofdjf,2,296,791540,808,Read the transaction type import error
+2026-11-03T09:15:17,R04,R4_S12,msg_011CgfM2hxhVMMCR47H579vG,2,910,792348,1110,Check CreationSign values and FSCR mentions
+2026-11-03T09:15:25,R04,R4_S12,msg_011CgfM3YBbidE77DPsS31Gp,2,1413,793458,1553,"Transaction types approach 2: add CreationSign, rebuild, Task Hook, upload"
+2026-11-03T09:15:44,R04,R4_S12,msg_011CgfM56CU2miEwhiWdPooB,2,432,795011,1601,"Transaction types approach 2: status, verify, diff"
+2026-11-03T09:18:10,R04,R04_REPORT,msg_011CgfMFdKW1Gg8yGyGvqoX2,2,1884,796612,692,Log transaction types; show one transaction source row
+2026-11-03T09:18:26,R04,R4_S14,msg_011CgfMGuj1Vw5yunokTxJhG,2,1139,797304,2092,Transaction sources: adapter offline steps
+2026-11-03T09:18:36,R04,R4_S14,msg_011CgfMHk7MBSQKDxdjGrrZu,2,575,799396,1292,Show ORA_AR_TXN_BATCH_SOURCE headers
+2026-11-03T09:18:42,R04,R4_S14,msg_011CgfMJAPqivZZHExifgLX9,2,522,800688,1294,Transaction sources: retry with the implementor entity
+2026-11-03T09:18:48,R04,R4_S14,msg_011CgfMJeVY24M6jZkP8rwXQ,2,802,801982,625,Transaction sources: retry without type link; preflight and plan
+2026-11-03T09:18:57,R04,R4_S14,msg_011CgfMKM45MZs4PTw94zJAX,2,993,802607,1551,"Transaction sources: LastBatchNum 1; offline steps, preflight, inspection"
+2026-11-03T09:19:16,R04,R4_S14,msg_011CgfMLVP9ijJGY9WPbYSyM,2,2210,804158,1441,"Transaction sources: rule results, Task Hook, upload"
+2026-11-03T09:19:36,R04,R4_S14,msg_011CgfMN8xsuMqttDhgM74FL,2,465,805599,2311,"Transaction sources: status, verify, diff; check token"
+2026-11-03T09:21:58,R04,R04_REPORT,msg_011CgfMYXnMc9zk3yHYKrQYh,2,1726,807910,760,Log transaction sources; show conversion rate option rows
+2026-11-03T09:22:12,R04,R4_S11,msg_011CgfMZbNvjuyb7Yu6kc648,2,1110,808670,2028,Conversion rates: adapter offline steps; reference validator usage
+2026-11-03T09:22:22,R04,R04_READ_SKILL,msg_011CgfMaSYtfpTz7zbf6xH3P,2,459,810698,1293,Read the conversion-rates reference validator purpose
+2026-11-03T09:22:32,R04,R04_READ_SKILL,msg_011CgfMaozjQ6GzKwDSHzTxP,2,1066,811991,801,Inspect the conversion-rates test catalog for runnable tests
+2026-11-03T09:22:48,R04,R04_DISCOUNT_BASIS_CHECK,msg_011CgfMbhjTxrGfLUr188HaR,2,1411,812792,1387,Find the discount-basis lookup and FSCR's two meanings for F
+2026-11-03T09:22:55,R04,R04_DISCOUNT_BASIS_CHECK,msg_011CgfMctUugt6XcoBUjX63L,2,654,814179,1679,Find the discount-basis lookup type; show adapter Freight meaning
+2026-11-03T09:23:05,R04,R04_DISCOUNT_BASIS_CHECK,msg_011CgfMdW8WtQYDLxmGNQMjs,2,767,815858,920,Search Receivables lookup types for discount basis
+2026-11-03T09:23:17,R04,R04_REPORT,msg_011CgfMeCPxBN4FquRmWnqWe,2,1832,816778,840,"Log conversion rates, tests and discount basis check"
+2026-11-03T09:23:29,R04,R04_SHARED_SETUP,msg_011CgfMfRayTNQREhrzXV84N,2,829,817618,1871,"Final checks: Run Book status, hashes, processes, port, secrets | get_usage get_usage: {}"
+2026-11-03T09:23:53,R04,R04_REPORT,msg_011CgfMgzPESPmLtWLTKqjNs,2,8641,819489,1628,Write E:\\GoSaaS\\Configuration Automation v2.1\\fscr-main\\_fscr_run_04_create16\\RUN_REPORT.md
+2026-11-03T09:25:06,R04,R04_REPORT,msg_011CgfMnboqTdQaa4qnLUTgh,2,1150,821117,8720,Edit E:\\GoSaaS\\Configuration Automation v2.1\\fscr-main\\_fscr_run_04_create16\\RUN_REPORT.md
+2026-11-03T09:25:15,R04,R04_REPORT,msg_011CgfMoGCQB9aGbccsHfa5y,2,804,829837,1232,"Fix breadth count, record finish time, close the ledger"
+2026-11-03T09:25:22,R04,R04_REPORT,msg_011CgfMoox7cXT2nPcVgaZNh,2,157,831069,1099,"wrap_up wrap_up: {""recap"": ""Of FSCR's 16 create skills, 4 worked unmodified, 2 needed small patche"
+2026-11-03T09:25:35,R04,R04_REPORT,msg_011CgfMp239Eedi3nw4U1UQs,2,1372,832168,215,text reply
+2026-11-03T09:40:07,R04,R04_REST_OF_RUN,msg_011CgfNvZYk4xDtGi65tCx28,4,1626,832383,3766,"update_plan update_plan: {""items"": [{""content"": ""Set up run 05 folder, copy, hashes, usage"", ""status"": | Create run 05 folder, copy repo, verify earlier runs, r"

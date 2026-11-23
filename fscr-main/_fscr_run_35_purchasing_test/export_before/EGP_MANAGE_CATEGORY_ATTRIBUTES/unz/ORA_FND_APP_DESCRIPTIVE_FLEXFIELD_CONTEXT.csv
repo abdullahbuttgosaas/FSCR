@@ -1,0 +1,3 @@
+"FND_APP_DESCRIPTIVE_FLEXFIELD.DescriptiveFlexfieldCode","FND_APP_DESCRIPTIVE_FLEXFIELD.ApplicationId","ContextCode","ContextIdentifier","Name","Description","InstructionHelpText","EnabledFlag","MultirowFlag","AdvancedQueryFlag","TranslatableFlag","CreationDate","CreatedBy","LastUpdateDate","LastUpdatedBy","LastUpdateLogin"
+"EGP_CATEGORY_DFF","10011","ASHL-24","Ashl24","ASHL-24","","","Y","","","","2024/05/03 11:13:28.129","CUSTOMIZED_USER","2024/05/03 11:13:49.115","CUSTOMIZED_USER","17844DB769CC7788E0631B65310A2BBC"
+"EGP_CATEGORY_DFF","10011","Gosaas","Gosaas","Gosaas","","","Y","","","","2025/01/30 18:03:36.0","CUSTOMIZED_USER","2025/01/30 18:03:37.013","CUSTOMIZED_USER","2CDA5B2AA5D482D7E0631B65310A4DFD"

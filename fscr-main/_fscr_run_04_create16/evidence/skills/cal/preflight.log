@@ -1,0 +1,21 @@
+
+--stderr--
+## Business Object Validation
+
+| Source | Type |
+|---|---|
+| fscrt-cal-candidate.zip | FSM Setup |
+
+### Validated upload
+
+| Item | Value |
+|---|---|
+| Validated ZIP | [fscrt-cal-candidate.zip](<E:\GoSaaS\Configuration Automation v2.1\fscr-main\_fscr_run_04_create16\fscr-work4\project\fscrt-run04-create16\exports\cal\fscrt-cal-candidate.zip>) |
+
+### Validation complete
+
+fscrt-cal-candidate.zip passed validation. No data was uploaded.
+
+### Approval required
+
+Reply with an approval to upload and initiate this exact validated load.

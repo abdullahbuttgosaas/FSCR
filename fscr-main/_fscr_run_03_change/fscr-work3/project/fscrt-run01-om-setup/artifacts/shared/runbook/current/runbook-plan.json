@@ -1,0 +1,113 @@
+{
+  "project_id": "FSCRT Run01 OM Setup",
+  "offering": "Multiple Offerings",
+  "functional_area": "Multiple Functional Areas",
+  "sequence_status": "draft",
+  "tasks": [
+    {
+      "task_id": "FUN_MANAGE_BUSINESS_UNIT",
+      "name": "Manage Business Unit",
+      "task_description": "Create and maintain information on units of an enterprise to allow for flexible implementation, to provide a consistent entity for controlling and reporting on transactions, and to be an anchor for the sharing of reference data sets across applications.",
+      "pillar": "ERP",
+      "offering": "Financials",
+      "functional_area": "Organization Structures",
+      "skill_path": "pillars/erp/financials/organization-structures/manage-business-unit.md",
+      "business_objects": [],
+      "taskType": "ORA_CHK_DATA_LOADER",
+      "sequence": 1,
+      "depends_on": [],
+      "execution_mode": "assisted",
+      "load_method": "manual"
+    },
+    {
+      "task_id": "DOO_MANAGE_ORCHESTRATION_LOOKUPS",
+      "name": "Manage Order Lookups",
+      "task_description": "Review and maintain lookup values, such as Return Reason Code and Activity Type.",
+      "pillar": "SCM",
+      "offering": "Order Management",
+      "functional_area": "Orders",
+      "skill_path": "pillars/scm/order-management/orders/manage-order-lookups/SKILL.md",
+      "business_objects": [],
+      "taskType": "ORA_CHK_DATA_LOADER",
+      "sequence": 2,
+      "depends_on": [],
+      "execution_mode": "assisted",
+      "load_method": "manual"
+    },
+    {
+      "task_id": "AR_MANAGE_RECEIVABLES_PAYMENT_TERMS",
+      "name": "Manage Receivables Payment Terms",
+      "task_description": "Create payment terms to specify the due dates, discount dates and installment details for customer open items.",
+      "pillar": "ERP",
+      "offering": "Financials",
+      "functional_area": "Customer Billing",
+      "skill_path": "pillars/erp/financials/customer-billing/manage-receivables-payment-terms/SKILL.md",
+      "business_objects": [],
+      "taskType": "ORA_CHK_DATA_LOADER",
+      "sequence": 3,
+      "depends_on": [],
+      "execution_mode": "assisted",
+      "load_method": "manual"
+    },
+    {
+      "task_id": "CUSTOM_IMPORT_PRICE_LISTS",
+      "name": "Import Price Lists",
+      "task_description": "",
+      "pillar": "SCM",
+      "offering": "Order Management",
+      "functional_area": "Pricing",
+      "skill_path": "pillars/scm/order-management/pricing/import-price-lists/SKILL.md",
+      "business_objects": [
+        "Price List"
+      ],
+      "taskType": "ORA_CHK_DATA_LOADER",
+      "sequence": 4,
+      "depends_on": [],
+      "execution_mode": "assisted",
+      "load_method": "manual"
+    },
+    {
+      "task_id": "ORA_AR_MANAGE_CUSTOMER_UPLOADS",
+      "name": "Manage Customer Uploads",
+      "task_description": "Manage the upload of customer data from spreadsheet.",
+      "pillar": "ERP",
+      "offering": "Financials",
+      "functional_area": "Customers",
+      "skill_path": "pillars/erp/financials/customers/manage-customer-uploads/SKILL.md",
+      "business_objects": [
+        "customers"
+      ],
+      "taskType": "ORA_CHK_DATA_LOADER",
+      "sequence": 5,
+      "depends_on": [],
+      "execution_mode": "assisted",
+      "load_method": "manual"
+    }
+  ],
+  "planning_notes": [],
+  "created_at": "2026-11-02T19:49:44Z",
+  "project_metadata": {
+    "contexts": [
+      {
+        "offering": "Financials",
+        "functional_area": "Organization Structures"
+      },
+      {
+        "offering": "Order Management",
+        "functional_area": "Orders"
+      },
+      {
+        "offering": "Financials",
+        "functional_area": "Customer Billing"
+      },
+      {
+        "offering": "Order Management",
+        "functional_area": "Pricing"
+      },
+      {
+        "offering": "Financials",
+        "functional_area": "Customers"
+      }
+    ]
+  }
+}

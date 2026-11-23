@@ -1,0 +1,145 @@
+<MigrationProcessCSVMetadataVO>
+   <MigrationProcessCSVMetadataVORow>
+      <ProcessId>-999</ProcessId>
+      <ProcessName>Manage Primary Ledgers_20261109_125705_907</ProcessName>
+      <ProcessDescription>Manage Primary Ledgers_20261109_125705_907</ProcessDescription>
+      <ProcessDate>2026-11-09 12:57:34.009</ProcessDate>
+      <ObjectShortName>GL_MANAGE_PRIMARY_LEDGERS</ObjectShortName>
+      <ObjectType>TASK</ObjectType>
+      <CreatedByFlow>TASK_CSV_SERVICE</CreatedByFlow>
+      <ProcessType>EXPORT</ProcessType>
+      <ProcessStatus>COMPLETED</ProcessStatus>
+      <ProcessEnv>etia-test</ProcessEnv>
+      <ProcessStartDate>2026-11-09 12:57:05.495</ProcessStartDate>
+      <ProcessEndDate>2026-11-09 12:57:34.009</ProcessEndDate>
+      <ProcessRelease>11.13.26.10.0</ProcessRelease>
+      <SubmittedBy>Configuration.TEST</SubmittedBy>
+      <ESSRequestId>4447554</ESSRequestId>
+      <MigrationProcessBusinessObjectCSVMetadata1>
+         <MigrationProcessBusinessObjectCSVMetadataVORow>
+            <ProcessId>-999</ProcessId>
+            <BusinessObjectShortName>GL_LEDGER_SEG_VAL_ASSIGNMENT</BusinessObjectShortName>
+            <BatchName null="true"/>
+            <XmlAttributeList>SegmentTypeCode,SegmentValue,SegmentValueTypeCode,LastUpdateDate,LastUpdatedBy,LastUpdateLogin,CreationDate,CreatedBy,StartDate,EndDate,SlaSequencingFlag,Attribute1,Attribute2,Attribute3,Attribute4,Attribute5,Attribute6,Attribute7,Attribute8,Attribute9,Attribute10,Attribute11,Attribute12,Attribute13,Attribute14,Attribute15,AttributeCategory,LedgerName,LegalEntityIdentifier</XmlAttributeList>
+            <XmlAttributeTypeList>string,string,string,dateTime,string,string,dateTime,string,date,date,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string</XmlAttributeTypeList>
+            <XmlNodePath>/LedgerConfigurationVO/LedgerConfigurationVORow/Ledger/LedgerVORow/LedgerBSVAssignment/LedgerBSVAssignmentVORow</XmlNodePath>
+            <NodeSequence>8</NodeSequence>
+         </MigrationProcessBusinessObjectCSVMetadataVORow>
+         <MigrationProcessBusinessObjectCSVMetadataVORow>
+            <ProcessId>-999</ProcessId>
+            <BusinessObjectShortName>GL_SECONDARY_LEDGER</BusinessObjectShortName>
+            <BatchName null="true"/>
+            <XmlAttributeList>Name,Description,ShortName,LedgerCategoryCode,AlcLedgerTypeCode,ObjectTypeCode,LeLedgerTypeCode,CurrencyCode,PeriodSetName,AccountedPeriodType,FirstLedgerPeriodName,SuspenseAllowedFlag,AllowIntercompanyPostFlag,TrackRoundingImbalanceFlag,EnableAverageBalancesFlag,EnableBudgetaryControlFlag,RequireBudgetJournalsFlag,EnableJeApprovalFlag,EnableAutomaticTaxFlag,ConsolidationLedgerFlag,TranslateEodFlag,TranslateQatdFlag,TranslateYatdFlag,AutomaticallyCreatedFlag,BalSegValueOptionCode,BalSegColumnName,MgtSegValueOptionCode,MgtSegColumnName,FutureEnterablePeriodsLimit,LedgerAttributes,LatestEncumbranceYear,SlaAccountingMethodCode,SlaAccountingMethodType,SlaDescriptionLanguage,SlaSequencingFlag,SlaBalByLedgerCurrFlag,EnableSecondaryTrackFlag,EnableRevalSsTrackFlag,LastUpdateDate,LastUpdatedBy,CreationDate,CreatedBy,LastUpdateLogin,Attribute1,Attribute2,Attribute3,Attribute4,Attribute5,Attribute6,Attribute7,Attribute8,Attribute9,Attribute10,Attribute11,Attribute12,Attribute13,Attribute14,Attribute15,AttributeNumber1,AttributeNumber2,AttributeNumber3,AttributeNumber4,AttributeNumber5,AttributeDate1,AttributeDate2,AttributeDate3,AttributeDate4,AttributeDate5,EnableReconciliationFlag,CreateJeFlag,SlaLedgerCashBasisFlag,UssglOptionCode,ValidateJournalRefDate,JrnlsGroupByDateFlag,RevalFromPriLgrCurr,AutorevAfterOpenPrdFlag,PriorPrdNotificationFlag,PopUpStatAccountFlag,ThresholdAmount,NumberOfProcessors,ProcessingUnitSize,AttributeCategory,ReleaseUpgradeFrom,TransactionCalendarName,BalSegValueSetCode,MgtSegValueSetCode,Name1,KeyFlexfieldCode,StructureInstanceCode,ApplicationShortName,CumTransCcidSegments,ResEncumCcidSegments,NetIncomeCcidSegments,RoundingCcidSegments,SlaEntCurBalSusSegments,SlaLedgerCurBalSusSegments,IntercoGainLossSegments,RetEarnCcidSegments,CrossLgrClrAccSegments,Name2,CriteriaSetName,CalendarName,PrimaryLedgerTrans,SecondaryLedgerTrans,AlcTrans,DataConversionLevelTrans,TaxDefaultLeTrans,DefaultLedgerIdTrans,LedgerDescriptionTrans,SLAMNameTrans,ProjectsImplementedTrans,SuspenseAccountCcidSegments,UserPeriodSetName,ApDocSequencingOptionFlag,ArDocSequencingOptionFlag,EnfSeqDateCorrelationCode,SequencingModeCode,AutomateSecJrnlRevFlag,NetClosingBalFlag,DailyTranslationRateTypeTrans,PeriodAverageRateTypeTrans,PeriodEndRateTypeTrans,BudgetPeriodAvgRateTypeTrans,BudgetPeriodEndRateTypeTrans,MinimumThresholdAmount,StrictPeriodCloseFlag,IncomeStmtAdbStatusCode,BalanceMjeByCurrencyFlag,SingleCurrencyJournalFlag,PostingCutoffFlag,PostingCutoffTimezoneCode,PostingCutoffDate</XmlAttributeList>
+            <XmlAttributeTypeList>string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,long,string,long,string,string,string,string,string,string,string,dateTime,string,dateTime,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,decimal,decimal,decimal,decimal,decimal,date,date,date,date,date,string,string,string,string,string,string,string,string,string,string,long,int,int,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,long,long,string,string,boolean,string,string,string,string,string,string,string,string,string,string,string,string,string,decimal,string,string,string,string,string,string,date</XmlAttributeTypeList>
+            <XmlNodePath>/LedgerConfigurationVO/LedgerConfigurationVORow/Ledger/LedgerVORow</XmlNodePath>
+            <NodeSequence>7</NodeSequence>
+         </MigrationProcessBusinessObjectCSVMetadataVORow>
+         <MigrationProcessBusinessObjectCSVMetadataVORow>
+            <ProcessId>-999</ProcessId>
+            <BusinessObjectShortName>ORA_PRIMARY_BALANCING_SEGMENT_VALUE_CONVERSION_RULES</BusinessObjectShortName>
+            <BatchName null="true"/>
+            <XmlAttributeList>Attribute1,Attribute10,Attribute11,Attribute12,Attribute13,Attribute14,Attribute15,Attribute2,Attribute3,Attribute4,Attribute5,Attribute6,Attribute7,Attribute8,Attribute9,AttributeCategory,AttributeDate1,AttributeDate2,AttributeDate3,AttributeDate4,AttributeDate5,AttributeNumber1,AttributeNumber2,AttributeNumber3,AttributeNumber4,AttributeNumber5,CreatedBy,CreationDate,LastUpdateDate,LastUpdateLogin,LastUpdatedBy,SourceSegmentValue,Meaning</XmlAttributeList>
+            <XmlAttributeTypeList>string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,date,date,date,date,date,decimal,decimal,decimal,decimal,decimal,string,dateTime,dateTime,string,string,string,string</XmlAttributeTypeList>
+            <XmlNodePath>/LedgerConfigurationVO/LedgerConfigurationVORow/Ledger/LedgerVORow/LedgerRelationship/LedgerRelationshipVORow/BsvReplicationRule/BsvReplicationRuleVORow</XmlNodePath>
+            <NodeSequence>1</NodeSequence>
+         </MigrationProcessBusinessObjectCSVMetadataVORow>
+         <MigrationProcessBusinessObjectCSVMetadataVORow>
+            <ProcessId>-999</ProcessId>
+            <BusinessObjectShortName>ORA_GL_JOUNAL_CONVERSION_RULES</BusinessObjectShortName>
+            <BatchName null="true"/>
+            <XmlAttributeList>JeSourceName,JeCategoryName,UserUpdatableFlag,IncludeFlag,CreationDate,CreatedBy,LastUpdateLogin,LastUpdateDate,LastUpdatedBy,Attribute1,Attribute2,Attribute3,Attribute4,Attribute5,Attribute6,Attribute7,Attribute8,Attribute9,Attribute10,Attribute11,Attribute12,Attribute13,Attribute14,Attribute15,AttributeCategory,JeSourceKey,JeCategoryKey,AlcInheritConversionType,AlcDefaultConvRateTypeTrans</XmlAttributeList>
+            <XmlAttributeTypeList>string,string,string,string,dateTime,string,string,dateTime,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string</XmlAttributeTypeList>
+            <XmlNodePath>/LedgerConfigurationVO/LedgerConfigurationVORow/Ledger/LedgerVORow/LedgerRelationship/LedgerRelationshipVORow/JournalInclusionRule/JournalInclusionRuleVORow</XmlNodePath>
+            <NodeSequence>10</NodeSequence>
+         </MigrationProcessBusinessObjectCSVMetadataVORow>
+         <MigrationProcessBusinessObjectCSVMetadataVORow>
+            <ProcessId>-999</ProcessId>
+            <BusinessObjectShortName>ORA_GL_JOURNAL_CONFIG_DETAIL</BusinessObjectShortName>
+            <BatchName null="true"/>
+            <XmlAttributeList>ObjectTypeCode,ObjectName,SetupStepCode,NextActionCode,StatusCode,CreatedBy,LastUpdateLogin,LastUpdateDate,LastUpdatedBy,CreationDate,TimeZoneDefaultLeFlag,TaxDefaultLeFlag,LegalEntityIdentifier,LedgerName</XmlAttributeList>
+            <XmlAttributeTypeList>string,string,string,string,string,string,string,dateTime,string,dateTime,string,string,string,string</XmlAttributeTypeList>
+            <XmlNodePath>/LedgerConfigurationVO/LedgerConfigurationVORow/LedgerConfigurationDetail/LedgerConfigurationDetailVORow</XmlNodePath>
+            <NodeSequence>5</NodeSequence>
+         </MigrationProcessBusinessObjectCSVMetadataVORow>
+         <MigrationProcessBusinessObjectCSVMetadataVORow>
+            <ProcessId>-999</ProcessId>
+            <BusinessObjectShortName>ORA_LEGAL_ENTITY_BAL_SEG_VAL_DEF</BusinessObjectShortName>
+            <BatchName null="true"/>
+            <XmlAttributeList>FlexSegmentValue,StartDate,EndDate,LastUpdateDate,LastUpdatedBy,LastUpdateLogin,CreationDate,CreatedBy,LegalEntityNameTrans,FlexValueSetCode,LegalEntityIdentifier</XmlAttributeList>
+            <XmlAttributeTypeList>string,date,date,dateTime,string,string,dateTime,string,string,string,string</XmlAttributeTypeList>
+            <XmlNodePath>/LedgerConfigurationVO/LedgerConfigurationVORow/LedgerConfigurationDetail/LedgerConfigurationDetailVORow/LegalEntityBSVAssignment/LegalEntityBSVAssignmentVORow</XmlNodePath>
+            <NodeSequence>6</NodeSequence>
+         </MigrationProcessBusinessObjectCSVMetadataVORow>
+         <MigrationProcessBusinessObjectCSVMetadataVORow>
+            <ProcessId>-999</ProcessId>
+            <BusinessObjectShortName>ORA_GL_LEDGER_RELATIONSHIP</BusinessObjectShortName>
+            <BatchName null="true"/>
+            <XmlAttributeList>TargetCurrencyCode,TargetLedgerName,TargetLedgerCategoryCode,RelationshipTypeCode,RelationshipEnabledFlag,InheritCreationUserFlag,LastUpdateDate,LastUpdatedBy,CreationDate,CreatedBy,LastUpdateLogin,AutomaticPostFlag,AlcNoRateActionCode,AlcMaxDaysRollRate,AlcInheritConversionType,AlcInitConvOptionCode,AlcInitPeriod,AlcInitDate,AlcInitializingRateDate,DisableConversionDate,StatusCode,RevExpXlationRuleCode,OwnerEquityXlationRuleCode,TargetLedgerShortName,Name,Name1,Name2,Name3,Name4,ApplicationShortName,Attribute1,Attribute10,Attribute11,Attribute12,Attribute13,Attribute14,Attribute15,Attribute2,Attribute3,Attribute4,Attribute5,Attribute6,Attribute7,Attribute8,Attribute9,AttributeCategory,OrgIdTrans,AlcDefaultConvRateTypeTrans,AlcInitializingRateTypeTrans,AlcPeriodAverageRateTypeTrans,AlcPeriodEndRateTypeTrans,SourceTreeCode,BsvReplicationFlag,BsvReplicationEnabledDate,TreeVersion</XmlAttributeList>
+            <XmlAttributeTypeList>string,string,string,string,string,string,dateTime,string,dateTime,string,string,string,string,int,string,string,string,date,date,date,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,date,string</XmlAttributeTypeList>
+            <XmlNodePath>/LedgerConfigurationVO/LedgerConfigurationVORow/Ledger/LedgerVORow/LedgerRelationship/LedgerRelationshipVORow</XmlNodePath>
+            <NodeSequence>9</NodeSequence>
+         </MigrationProcessBusinessObjectCSVMetadataVORow>
+         <MigrationProcessBusinessObjectCSVMetadataVORow>
+            <ProcessId>-999</ProcessId>
+            <BusinessObjectShortName>GL_LEDGER</BusinessObjectShortName>
+            <BatchName null="true"/>
+            <XmlAttributeList>AcctgEnvironmentCode,Attribute1,Attribute10,Attribute11,Attribute12,Attribute13,Attribute14,Attribute15,Attribute2,Attribute3,Attribute4,Attribute5,Attribute6,Attribute7,Attribute8,Attribute9,AttributeCategory,CreatedBy,CreationDate,Description,LastUpdateDate,LastUpdateLogin,LastUpdatedBy,Name</XmlAttributeList>
+            <XmlAttributeTypeList>string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,dateTime,string,dateTime,string,string,string</XmlAttributeTypeList>
+            <XmlNodePath>/LedgerConfigurationVO/LedgerConfigurationVORow</XmlNodePath>
+            <NodeSequence>4</NodeSequence>
+         </MigrationProcessBusinessObjectCSVMetadataVORow>
+         <MigrationProcessBusinessObjectCSVMetadataVORow>
+            <ProcessId>-999</ProcessId>
+            <BusinessObjectShortName>ORA_GL_PRIMARY_LEDGER_CONFIG</BusinessObjectShortName>
+            <BatchName null="true"/>
+            <XmlAttributeList>AcctgEnvironmentCode,Attribute1,Attribute10,Attribute11,Attribute12,Attribute13,Attribute14,Attribute15,Attribute2,Attribute3,Attribute4,Attribute5,Attribute6,Attribute7,Attribute8,Attribute9,AttributeCategory,CreatedBy,CreationDate,Description,LastUpdateDate,LastUpdateLogin,LastUpdatedBy,Name</XmlAttributeList>
+            <XmlAttributeTypeList>string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,dateTime,string,dateTime,string,string,string</XmlAttributeTypeList>
+            <XmlNodePath>/LedgerConfigurationVO/LedgerConfigurationVORow</XmlNodePath>
+            <NodeSequence>2</NodeSequence>
+         </MigrationProcessBusinessObjectCSVMetadataVORow>
+         <MigrationProcessBusinessObjectCSVMetadataVORow>
+            <ProcessId>-999</ProcessId>
+            <BusinessObjectShortName>GL_PRIMARY_LEDGER</BusinessObjectShortName>
+            <BatchName null="true"/>
+            <XmlAttributeList>Name,Description,ShortName,LedgerCategoryCode,AlcLedgerTypeCode,ObjectTypeCode,LeLedgerTypeCode,CurrencyCode,PeriodSetName,AccountedPeriodType,FirstLedgerPeriodName,SuspenseAllowedFlag,AllowIntercompanyPostFlag,TrackRoundingImbalanceFlag,EnableAverageBalancesFlag,EnableBudgetaryControlFlag,RequireBudgetJournalsFlag,EnableJeApprovalFlag,EnableAutomaticTaxFlag,ConsolidationLedgerFlag,TranslateEodFlag,TranslateQatdFlag,TranslateYatdFlag,AutomaticallyCreatedFlag,BalSegValueOptionCode,BalSegColumnName,MgtSegValueOptionCode,MgtSegColumnName,FutureEnterablePeriodsLimit,LedgerAttributes,LatestEncumbranceYear,SlaAccountingMethodCode,SlaAccountingMethodType,SlaDescriptionLanguage,SlaSequencingFlag,SlaBalByLedgerCurrFlag,EnableSecondaryTrackFlag,EnableRevalSsTrackFlag,LastUpdateDate,LastUpdatedBy,CreationDate,CreatedBy,LastUpdateLogin,Attribute1,Attribute2,Attribute3,Attribute4,Attribute5,Attribute6,Attribute7,Attribute8,Attribute9,Attribute10,Attribute11,Attribute12,Attribute13,Attribute14,Attribute15,AttributeNumber1,AttributeNumber2,AttributeNumber3,AttributeNumber4,AttributeNumber5,AttributeDate1,AttributeDate2,AttributeDate3,AttributeDate4,AttributeDate5,EnableReconciliationFlag,CreateJeFlag,SlaLedgerCashBasisFlag,UssglOptionCode,ValidateJournalRefDate,JrnlsGroupByDateFlag,RevalFromPriLgrCurr,AutorevAfterOpenPrdFlag,PriorPrdNotificationFlag,PopUpStatAccountFlag,ThresholdAmount,NumberOfProcessors,ProcessingUnitSize,AttributeCategory,ReleaseUpgradeFrom,TransactionCalendarName,BalSegValueSetCode,MgtSegValueSetCode,Name1,KeyFlexfieldCode,StructureInstanceCode,ApplicationShortName,CumTransCcidSegments,ResEncumCcidSegments,NetIncomeCcidSegments,RoundingCcidSegments,SlaEntCurBalSusSegments,SlaLedgerCurBalSusSegments,IntercoGainLossSegments,RetEarnCcidSegments,CrossLgrClrAccSegments,Name2,CriteriaSetName,CalendarName,PrimaryLedgerTrans,SecondaryLedgerTrans,AlcTrans,DataConversionLevelTrans,TaxDefaultLeTrans,DefaultLedgerIdTrans,LedgerDescriptionTrans,SLAMNameTrans,ProjectsImplementedTrans,SuspenseAccountCcidSegments,UserPeriodSetName,ApDocSequencingOptionFlag,ArDocSequencingOptionFlag,EnfSeqDateCorrelationCode,SequencingModeCode,AutomateSecJrnlRevFlag,NetClosingBalFlag,DailyTranslationRateTypeTrans,PeriodAverageRateTypeTrans,PeriodEndRateTypeTrans,BudgetPeriodAvgRateTypeTrans,BudgetPeriodEndRateTypeTrans,MinimumThresholdAmount,StrictPeriodCloseFlag,IncomeStmtAdbStatusCode,BalanceMjeByCurrencyFlag,SingleCurrencyJournalFlag,PostingCutoffFlag,PostingCutoffTimezoneCode,PostingCutoffDate</XmlAttributeList>
+            <XmlAttributeTypeList>string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,long,string,long,string,string,string,string,string,string,string,dateTime,string,dateTime,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,decimal,decimal,decimal,decimal,decimal,date,date,date,date,date,string,string,string,string,string,string,string,string,string,string,long,int,int,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,long,long,string,string,boolean,string,string,string,string,string,string,string,string,string,string,string,string,string,decimal,string,string,string,string,string,string,date</XmlAttributeTypeList>
+            <XmlNodePath>/LedgerConfigurationVO/LedgerConfigurationVORow/Ledger/LedgerVORow</XmlNodePath>
+            <NodeSequence>3</NodeSequence>
+         </MigrationProcessBusinessObjectCSVMetadataVORow>
+      </MigrationProcessBusinessObjectCSVMetadata1>
+      <MigrationProcessBatchCSVMetadata null="true"/>
+      <MigrationProcessScopeValueCSVMetadata null="true"/>
+      <MigrationProcessMigrationObjectCSVMetadata>
+         <MigrationProcessMigrationObjectCSVMetadataVORow>
+            <ProcessId>-999</ProcessId>
+            <BusinessObjectShortName>GL_PRIMARY_LEDGER</BusinessObjectShortName>
+            <MigrateFlag>Y</MigrateFlag>
+            <IncludeExternalDataFlag>Y</IncludeExternalDataFlag>
+            <ServiceType null="true"/>
+         </MigrationProcessMigrationObjectCSVMetadataVORow>
+         <MigrationProcessMigrationObjectCSVMetadataVORow>
+            <ProcessId>-999</ProcessId>
+            <BusinessObjectShortName>ORA_GL_JOURNAL_CONFIG_DETAIL</BusinessObjectShortName>
+            <MigrateFlag>Y</MigrateFlag>
+            <IncludeExternalDataFlag>Y</IncludeExternalDataFlag>
+            <ServiceType null="true"/>
+         </MigrationProcessMigrationObjectCSVMetadataVORow>
+         <MigrationProcessMigrationObjectCSVMetadataVORow>
+            <ProcessId>-999</ProcessId>
+            <BusinessObjectShortName>ORA_GL_LEDGER_RELATIONSHIP</BusinessObjectShortName>
+            <MigrateFlag>Y</MigrateFlag>
+            <IncludeExternalDataFlag>Y</IncludeExternalDataFlag>
+            <ServiceType null="true"/>
+         </MigrationProcessMigrationObjectCSVMetadataVORow>
+         <MigrationProcessMigrationObjectCSVMetadataVORow>
+            <ProcessId>-999</ProcessId>
+            <BusinessObjectShortName>ORA_GL_PRIMARY_LEDGER_CONFIG</BusinessObjectShortName>
+            <MigrateFlag>Y</MigrateFlag>
+            <IncludeExternalDataFlag>Y</IncludeExternalDataFlag>
+            <ServiceType null="true"/>
+         </MigrationProcessMigrationObjectCSVMetadataVORow>
+      </MigrationProcessMigrationObjectCSVMetadata>
+      <MigrationProcessTaskCSVMetadata null="true"/>
+      <MigrationProcessServiceVersionCSVMetadata null="true"/>
+   </MigrationProcessCSVMetadataVORow>
+</MigrationProcessCSVMetadataVO>

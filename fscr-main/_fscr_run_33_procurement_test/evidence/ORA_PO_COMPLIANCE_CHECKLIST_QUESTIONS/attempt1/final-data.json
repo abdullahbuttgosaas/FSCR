@@ -1,0 +1,11 @@
+{
+ "archiveName": "ora_po_compliance_checklist_questions_fscrt.zip",
+ "rowCounts": {
+  "ORA_POQ_CHECKLIST_QUESTION.csv": 1,
+  "ORA_POQ_TRANS_CHECKLIST_QUESTION.csv": 1
+ },
+ "operation": "create",
+ "names": [
+  "FSCRT_R33_Q1"
+ ]
+}

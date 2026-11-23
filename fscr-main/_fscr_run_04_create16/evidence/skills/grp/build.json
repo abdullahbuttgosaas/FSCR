@@ -1,0 +1,66 @@
+{
+  "baselineSha256": "91cc052956fcca34f205843b102dbe62d81c6a043d523c65692341581f809c86",
+  "businessSummary": [
+    {
+      "action": "create",
+      "entity": "AR_AI_GROUPING_RULE",
+      "operationId": "g1",
+      "targetKey": {
+        "Name": "FSCRT_GRP1"
+      },
+      "values": {
+        "Description": "FSCRT Run04 grouping rule",
+        "StartDate": "2026-11-03"
+      }
+    },
+    {
+      "action": "create",
+      "entity": "ORA_AR_AI_GRP_TXN_TYPE",
+      "operationId": "c1",
+      "targetKey": {
+        "AR_AI_GROUPING_RULE.Name": "FSCRT_GRP1",
+        "Class11": "I"
+      },
+      "values": {}
+    }
+  ],
+  "candidateSha256": "19a89d7d7aac865962e458b3db13e04f9b18904575528c086e064e728de305c6",
+  "designSha256": "389de726e91df8a938ad754201def6bca50a33ed6f38743f170f8cd7ee0ecc59",
+  "errors": [],
+  "memberInventory": [
+    "AR_AI_GROUPING_RULE.csv",
+    "ORA_AR_AI_GRP_TXN_TYPE.csv",
+    "ORA_AR_AI_GRP_TXN_REQUEST.csv",
+    "ASM_SETUP_CSV_METADATA.xml"
+  ],
+  "notImported": true,
+  "requirementIds": [
+    "REQ-001",
+    "REQ-002",
+    "REQ-003",
+    "REQ-004",
+    "REQ-005",
+    "REQ-006"
+  ],
+  "rowCounts": {
+    "AR_AI_GROUPING_RULE.csv": 1,
+    "ORA_AR_AI_GRP_TXN_REQUEST.csv": 0,
+    "ORA_AR_AI_GRP_TXN_TYPE.csv": 1
+  },
+  "schemaFingerprint": "edc45159ec7970277fe64cf70a8d03bf9ff85bfd688aec5053ca9b1650326f9c",
+  "schemaVersion": "fscr-fsm-task-adapter-v1",
+  "semanticValidator": "fsm_task_adapter.py blueprint/baseline validator",
+  "status": "PASS",
+  "structuralValidator": "fsm_task_adapter.py exact-task package reader",
+  "task": {
+    "code": "AR_MANAGE_AUTOINVOICE_GROUPING_RULES",
+    "csvSupported": true,
+    "functionalArea": "Customer Billing",
+    "importMode": "FSM",
+    "name": "Manage AutoInvoice Grouping Rules",
+    "offering": "Financials"
+  },
+  "templateSha256": "9ef901c438daf3e82e0b98ade11012405b6536eeb6661f8b75ce1786243d3774",
+  "unresolvedWarnings": [],
+  "warnings": []
+}

@@ -1,0 +1,734 @@
+{
+ "items": [
+  {
+   "PeriodNameId": "13_Dec-26",
+   "PeriodSetNameId": "GoSaaS MFG",
+   "PeriodType": "MONTH7657588696",
+   "AdjustmentPeriodFlag": true,
+   "StartDate": "2026-12-31",
+   "EndDate": "2026-12-31",
+   "EnteredPeriodName": "13_Dec-26",
+   "PeriodYear": "2026",
+   "PeriodNumber": "13",
+   "@context": {
+    "key": "13_Dec-26,GoSaaS%20MFG"
+   }
+  },
+  {
+   "PeriodNameId": "Dec-26",
+   "PeriodSetNameId": "GoSaaS MFG",
+   "PeriodType": "MONTH7657588696",
+   "AdjustmentPeriodFlag": false,
+   "StartDate": "2026-12-01",
+   "EndDate": "2026-12-31",
+   "EnteredPeriodName": "Dec-26",
+   "PeriodYear": "2026",
+   "PeriodNumber": "12",
+   "@context": {
+    "key": "Dec-26,GoSaaS%20MFG"
+   }
+  },
+  {
+   "PeriodNameId": "Nov-26",
+   "PeriodSetNameId": "GoSaaS MFG",
+   "PeriodType": "MONTH7657588696",
+   "AdjustmentPeriodFlag": false,
+   "StartDate": "2026-11-01",
+   "EndDate": "2026-11-30",
+   "EnteredPeriodName": "Nov-26",
+   "PeriodYear": "2026",
+   "PeriodNumber": "11",
+   "@context": {
+    "key": "Nov-26,GoSaaS%20MFG"
+   }
+  },
+  {
+   "PeriodNameId": "Oct-26",
+   "PeriodSetNameId": "GoSaaS MFG",
+   "PeriodType": "MONTH7657588696",
+   "AdjustmentPeriodFlag": false,
+   "StartDate": "2026-10-01",
+   "EndDate": "2026-10-31",
+   "EnteredPeriodName": "Oct-26",
+   "PeriodYear": "2026",
+   "PeriodNumber": "10",
+   "@context": {
+    "key": "Oct-26,GoSaaS%20MFG"
+   }
+  },
+  {
+   "PeriodNameId": "Sep-26",
+   "PeriodSetNameId": "GoSaaS MFG",
+   "PeriodType": "MONTH7657588696",
+   "AdjustmentPeriodFlag": false,
+   "StartDate": "2026-09-01",
+   "EndDate": "2026-09-30",
+   "EnteredPeriodName": "Sep-26",
+   "PeriodYear": "2026",
+   "PeriodNumber": "9",
+   "@context": {
+    "key": "Sep-26,GoSaaS%20MFG"
+   }
+  },
+  {
+   "PeriodNameId": "Aug-26",
+   "PeriodSetNameId": "GoSaaS MFG",
+   "PeriodType": "MONTH7657588696",
+   "AdjustmentPeriodFlag": false,
+   "StartDate": "2026-08-01",
+   "EndDate": "2026-08-31",
+   "EnteredPeriodName": "Aug-26",
+   "PeriodYear": "2026",
+   "PeriodNumber": "8",
+   "@context": {
+    "key": "Aug-26,GoSaaS%20MFG"
+   }
+  },
+  {
+   "PeriodNameId": "Jul-26",
+   "PeriodSetNameId": "GoSaaS MFG",
+   "PeriodType": "MONTH7657588696",
+   "AdjustmentPeriodFlag": false,
+   "StartDate": "2026-07-01",
+   "EndDate": "2026-07-31",
+   "EnteredPeriodName": "Jul-26",
+   "PeriodYear": "2026",
+   "PeriodNumber": "7",
+   "@context": {
+    "key": "Jul-26,GoSaaS%20MFG"
+   }
+  },
+  {
+   "PeriodNameId": "Jun-26",
+   "PeriodSetNameId": "GoSaaS MFG",
+   "PeriodType": "MONTH7657588696",
+   "AdjustmentPeriodFlag": false,
+   "StartDate": "2026-06-01",
+   "EndDate": "2026-06-30",
+   "EnteredPeriodName": "Jun-26",
+   "PeriodYear": "2026",
+   "PeriodNumber": "6",
+   "@context": {
+    "key": "Jun-26,GoSaaS%20MFG"
+   }
+  },
+  {
+   "PeriodNameId": "May-26",
+   "PeriodSetNameId": "GoSaaS MFG",
+   "PeriodType": "MONTH7657588696",
+   "AdjustmentPeriodFlag": false,
+   "StartDate": "2026-05-01",
+   "EndDate": "2026-05-31",
+   "EnteredPeriodName": "May-26",
+   "PeriodYear": "2026",
+   "PeriodNumber": "5",
+   "@context": {
+    "key": "May-26,GoSaaS%20MFG"
+   }
+  },
+  {
+   "PeriodNameId": "Apr-26",
+   "PeriodSetNameId": "GoSaaS MFG",
+   "PeriodType": "MONTH7657588696",
+   "AdjustmentPeriodFlag": false,
+   "StartDate": "2026-04-01",
+   "EndDate": "2026-04-30",
+   "EnteredPeriodName": "Apr-26",
+   "PeriodYear": "2026",
+   "PeriodNumber": "4",
+   "@context": {
+    "key": "Apr-26,GoSaaS%20MFG"
+   }
+  },
+  {
+   "PeriodNameId": "Mar-26",
+   "PeriodSetNameId": "GoSaaS MFG",
+   "PeriodType": "MONTH7657588696",
+   "AdjustmentPeriodFlag": false,
+   "StartDate": "2026-03-01",
+   "EndDate": "2026-03-31",
+   "EnteredPeriodName": "Mar-26",
+   "PeriodYear": "2026",
+   "PeriodNumber": "3",
+   "@context": {
+    "key": "Mar-26,GoSaaS%20MFG"
+   }
+  },
+  {
+   "PeriodNameId": "Feb-26",
+   "PeriodSetNameId": "GoSaaS MFG",
+   "PeriodType": "MONTH7657588696",
+   "AdjustmentPeriodFlag": false,
+   "StartDate": "2026-02-01",
+   "EndDate": "2026-02-28",
+   "EnteredPeriodName": "Feb-26",
+   "PeriodYear": "2026",
+   "PeriodNumber": "2",
+   "@context": {
+    "key": "Feb-26,GoSaaS%20MFG"
+   }
+  },
+  {
+   "PeriodNameId": "Jan-26",
+   "PeriodSetNameId": "GoSaaS MFG",
+   "PeriodType": "MONTH7657588696",
+   "AdjustmentPeriodFlag": false,
+   "StartDate": "2026-01-01",
+   "EndDate": "2026-01-31",
+   "EnteredPeriodName": "Jan-26",
+   "PeriodYear": "2026",
+   "PeriodNumber": "1",
+   "@context": {
+    "key": "Jan-26,GoSaaS%20MFG"
+   }
+  },
+  {
+   "PeriodNameId": "13_Dec-25",
+   "PeriodSetNameId": "GoSaaS MFG",
+   "PeriodType": "MONTH7657588696",
+   "AdjustmentPeriodFlag": true,
+   "StartDate": "2025-12-31",
+   "EndDate": "2025-12-31",
+   "EnteredPeriodName": "13_Dec-25",
+   "PeriodYear": "2025",
+   "PeriodNumber": "13",
+   "@context": {
+    "key": "13_Dec-25,GoSaaS%20MFG"
+   }
+  },
+  {
+   "PeriodNameId": "Dec-25",
+   "PeriodSetNameId": "GoSaaS MFG",
+   "PeriodType": "MONTH7657588696",
+   "AdjustmentPeriodFlag": false,
+   "StartDate": "2025-12-01",
+   "EndDate": "2025-12-31",
+   "EnteredPeriodName": "Dec-25",
+   "PeriodYear": "2025",
+   "PeriodNumber": "12",
+   "@context": {
+    "key": "Dec-25,GoSaaS%20MFG"
+   }
+  },
+  {
+   "PeriodNameId": "Nov-25",
+   "PeriodSetNameId": "GoSaaS MFG",
+   "PeriodType": "MONTH7657588696",
+   "AdjustmentPeriodFlag": false,
+   "StartDate": "2025-11-01",
+   "EndDate": "2025-11-30",
+   "EnteredPeriodName": "Nov-25",
+   "PeriodYear": "2025",
+   "PeriodNumber": "11",
+   "@context": {
+    "key": "Nov-25,GoSaaS%20MFG"
+   }
+  },
+  {
+   "PeriodNameId": "Oct-25",
+   "PeriodSetNameId": "GoSaaS MFG",
+   "PeriodType": "MONTH7657588696",
+   "AdjustmentPeriodFlag": false,
+   "StartDate": "2025-10-01",
+   "EndDate": "2025-10-31",
+   "EnteredPeriodName": "Oct-25",
+   "PeriodYear": "2025",
+   "PeriodNumber": "10",
+   "@context": {
+    "key": "Oct-25,GoSaaS%20MFG"
+   }
+  },
+  {
+   "PeriodNameId": "Sep-25",
+   "PeriodSetNameId": "GoSaaS MFG",
+   "PeriodType": "MONTH7657588696",
+   "AdjustmentPeriodFlag": false,
+   "StartDate": "2025-09-01",
+   "EndDate": "2025-09-30",
+   "EnteredPeriodName": "Sep-25",
+   "PeriodYear": "2025",
+   "PeriodNumber": "9",
+   "@context": {
+    "key": "Sep-25,GoSaaS%20MFG"
+   }
+  },
+  {
+   "PeriodNameId": "Aug-25",
+   "PeriodSetNameId": "GoSaaS MFG",
+   "PeriodType": "MONTH7657588696",
+   "AdjustmentPeriodFlag": false,
+   "StartDate": "2025-08-01",
+   "EndDate": "2025-08-31",
+   "EnteredPeriodName": "Aug-25",
+   "PeriodYear": "2025",
+   "PeriodNumber": "8",
+   "@context": {
+    "key": "Aug-25,GoSaaS%20MFG"
+   }
+  },
+  {
+   "PeriodNameId": "Jul-25",
+   "PeriodSetNameId": "GoSaaS MFG",
+   "PeriodType": "MONTH7657588696",
+   "AdjustmentPeriodFlag": false,
+   "StartDate": "2025-07-01",
+   "EndDate": "2025-07-31",
+   "EnteredPeriodName": "Jul-25",
+   "PeriodYear": "2025",
+   "PeriodNumber": "7",
+   "@context": {
+    "key": "Jul-25,GoSaaS%20MFG"
+   }
+  },
+  {
+   "PeriodNameId": "Jun-25",
+   "PeriodSetNameId": "GoSaaS MFG",
+   "PeriodType": "MONTH7657588696",
+   "AdjustmentPeriodFlag": false,
+   "StartDate": "2025-06-01",
+   "EndDate": "2025-06-30",
+   "EnteredPeriodName": "Jun-25",
+   "PeriodYear": "2025",
+   "PeriodNumber": "6",
+   "@context": {
+    "key": "Jun-25,GoSaaS%20MFG"
+   }
+  },
+  {
+   "PeriodNameId": "May-25",
+   "PeriodSetNameId": "GoSaaS MFG",
+   "PeriodType": "MONTH7657588696",
+   "AdjustmentPeriodFlag": false,
+   "StartDate": "2025-05-01",
+   "EndDate": "2025-05-31",
+   "EnteredPeriodName": "May-25",
+   "PeriodYear": "2025",
+   "PeriodNumber": "5",
+   "@context": {
+    "key": "May-25,GoSaaS%20MFG"
+   }
+  },
+  {
+   "PeriodNameId": "Apr-25",
+   "PeriodSetNameId": "GoSaaS MFG",
+   "PeriodType": "MONTH7657588696",
+   "AdjustmentPeriodFlag": false,
+   "StartDate": "2025-04-01",
+   "EndDate": "2025-04-30",
+   "EnteredPeriodName": "Apr-25",
+   "PeriodYear": "2025",
+   "PeriodNumber": "4",
+   "@context": {
+    "key": "Apr-25,GoSaaS%20MFG"
+   }
+  },
+  {
+   "PeriodNameId": "Mar-25",
+   "PeriodSetNameId": "GoSaaS MFG",
+   "PeriodType": "MONTH7657588696",
+   "AdjustmentPeriodFlag": false,
+   "StartDate": "2025-03-01",
+   "EndDate": "2025-03-31",
+   "EnteredPeriodName": "Mar-25",
+   "PeriodYear": "2025",
+   "PeriodNumber": "3",
+   "@context": {
+    "key": "Mar-25,GoSaaS%20MFG"
+   }
+  },
+  {
+   "PeriodNameId": "Feb-25",
+   "PeriodSetNameId": "GoSaaS MFG",
+   "PeriodType": "MONTH7657588696",
+   "AdjustmentPeriodFlag": false,
+   "StartDate": "2025-02-01",
+   "EndDate": "2025-02-28",
+   "EnteredPeriodName": "Feb-25",
+   "PeriodYear": "2025",
+   "PeriodNumber": "2",
+   "@context": {
+    "key": "Feb-25,GoSaaS%20MFG"
+   }
+  },
+  {
+   "PeriodNameId": "Jan-25",
+   "PeriodSetNameId": "GoSaaS MFG",
+   "PeriodType": "MONTH7657588696",
+   "AdjustmentPeriodFlag": false,
+   "StartDate": "2025-01-01",
+   "EndDate": "2025-01-31",
+   "EnteredPeriodName": "Jan-25",
+   "PeriodYear": "2025",
+   "PeriodNumber": "1",
+   "@context": {
+    "key": "Jan-25,GoSaaS%20MFG"
+   }
+  },
+  {
+   "PeriodNameId": "13_Dec-24",
+   "PeriodSetNameId": "GoSaaS MFG",
+   "PeriodType": "MONTH7657588696",
+   "AdjustmentPeriodFlag": true,
+   "StartDate": "2024-12-31",
+   "EndDate": "2024-12-31",
+   "EnteredPeriodName": "13_Dec-24",
+   "PeriodYear": "2024",
+   "PeriodNumber": "13",
+   "@context": {
+    "key": "13_Dec-24,GoSaaS%20MFG"
+   }
+  },
+  {
+   "PeriodNameId": "Dec-24",
+   "PeriodSetNameId": "GoSaaS MFG",
+   "PeriodType": "MONTH7657588696",
+   "AdjustmentPeriodFlag": false,
+   "StartDate": "2024-12-01",
+   "EndDate": "2024-12-31",
+   "EnteredPeriodName": "Dec-24",
+   "PeriodYear": "2024",
+   "PeriodNumber": "12",
+   "@context": {
+    "key": "Dec-24,GoSaaS%20MFG"
+   }
+  },
+  {
+   "PeriodNameId": "Nov-24",
+   "PeriodSetNameId": "GoSaaS MFG",
+   "PeriodType": "MONTH7657588696",
+   "AdjustmentPeriodFlag": false,
+   "StartDate": "2024-11-01",
+   "EndDate": "2024-11-30",
+   "EnteredPeriodName": "Nov-24",
+   "PeriodYear": "2024",
+   "PeriodNumber": "11",
+   "@context": {
+    "key": "Nov-24,GoSaaS%20MFG"
+   }
+  },
+  {
+   "PeriodNameId": "Oct-24",
+   "PeriodSetNameId": "GoSaaS MFG",
+   "PeriodType": "MONTH7657588696",
+   "AdjustmentPeriodFlag": false,
+   "StartDate": "2024-10-01",
+   "EndDate": "2024-10-31",
+   "EnteredPeriodName": "Oct-24",
+   "PeriodYear": "2024",
+   "PeriodNumber": "10",
+   "@context": {
+    "key": "Oct-24,GoSaaS%20MFG"
+   }
+  },
+  {
+   "PeriodNameId": "Sep-24",
+   "PeriodSetNameId": "GoSaaS MFG",
+   "PeriodType": "MONTH7657588696",
+   "AdjustmentPeriodFlag": false,
+   "StartDate": "2024-09-01",
+   "EndDate": "2024-09-30",
+   "EnteredPeriodName": "Sep-24",
+   "PeriodYear": "2024",
+   "PeriodNumber": "9",
+   "@context": {
+    "key": "Sep-24,GoSaaS%20MFG"
+   }
+  },
+  {
+   "PeriodNameId": "Aug-24",
+   "PeriodSetNameId": "GoSaaS MFG",
+   "PeriodType": "MONTH7657588696",
+   "AdjustmentPeriodFlag": false,
+   "StartDate": "2024-08-01",
+   "EndDate": "2024-08-31",
+   "EnteredPeriodName": "Aug-24",
+   "PeriodYear": "2024",
+   "PeriodNumber": "8",
+   "@context": {
+    "key": "Aug-24,GoSaaS%20MFG"
+   }
+  },
+  {
+   "PeriodNameId": "Jul-24",
+   "PeriodSetNameId": "GoSaaS MFG",
+   "PeriodType": "MONTH7657588696",
+   "AdjustmentPeriodFlag": false,
+   "StartDate": "2024-07-01",
+   "EndDate": "2024-07-31",
+   "EnteredPeriodName": "Jul-24",
+   "PeriodYear": "2024",
+   "PeriodNumber": "7",
+   "@context": {
+    "key": "Jul-24,GoSaaS%20MFG"
+   }
+  },
+  {
+   "PeriodNameId": "Jun-24",
+   "PeriodSetNameId": "GoSaaS MFG",
+   "PeriodType": "MONTH7657588696",
+   "AdjustmentPeriodFlag": false,
+   "StartDate": "2024-06-01",
+   "EndDate": "2024-06-30",
+   "EnteredPeriodName": "Jun-24",
+   "PeriodYear": "2024",
+   "PeriodNumber": "6",
+   "@context": {
+    "key": "Jun-24,GoSaaS%20MFG"
+   }
+  },
+  {
+   "PeriodNameId": "May-24",
+   "PeriodSetNameId": "GoSaaS MFG",
+   "PeriodType": "MONTH7657588696",
+   "AdjustmentPeriodFlag": false,
+   "StartDate": "2024-05-01",
+   "EndDate": "2024-05-31",
+   "EnteredPeriodName": "May-24",
+   "PeriodYear": "2024",
+   "PeriodNumber": "5",
+   "@context": {
+    "key": "May-24,GoSaaS%20MFG"
+   }
+  },
+  {
+   "PeriodNameId": "Apr-24",
+   "PeriodSetNameId": "GoSaaS MFG",
+   "PeriodType": "MONTH7657588696",
+   "AdjustmentPeriodFlag": false,
+   "StartDate": "2024-04-01",
+   "EndDate": "2024-04-30",
+   "EnteredPeriodName": "Apr-24",
+   "PeriodYear": "2024",
+   "PeriodNumber": "4",
+   "@context": {
+    "key": "Apr-24,GoSaaS%20MFG"
+   }
+  },
+  {
+   "PeriodNameId": "Mar-24",
+   "PeriodSetNameId": "GoSaaS MFG",
+   "PeriodType": "MONTH7657588696",
+   "AdjustmentPeriodFlag": false,
+   "StartDate": "2024-03-01",
+   "EndDate": "2024-03-31",
+   "EnteredPeriodName": "Mar-24",
+   "PeriodYear": "2024",
+   "PeriodNumber": "3",
+   "@context": {
+    "key": "Mar-24,GoSaaS%20MFG"
+   }
+  },
+  {
+   "PeriodNameId": "Feb-24",
+   "PeriodSetNameId": "GoSaaS MFG",
+   "PeriodType": "MONTH7657588696",
+   "AdjustmentPeriodFlag": false,
+   "StartDate": "2024-02-01",
+   "EndDate": "2024-02-29",
+   "EnteredPeriodName": "Feb-24",
+   "PeriodYear": "2024",
+   "PeriodNumber": "2",
+   "@context": {
+    "key": "Feb-24,GoSaaS%20MFG"
+   }
+  },
+  {
+   "PeriodNameId": "Jan-24",
+   "PeriodSetNameId": "GoSaaS MFG",
+   "PeriodType": "MONTH7657588696",
+   "AdjustmentPeriodFlag": false,
+   "StartDate": "2024-01-01",
+   "EndDate": "2024-01-31",
+   "EnteredPeriodName": "Jan-24",
+   "PeriodYear": "2024",
+   "PeriodNumber": "1",
+   "@context": {
+    "key": "Jan-24,GoSaaS%20MFG"
+   }
+  },
+  {
+   "PeriodNameId": "13_Dec-23",
+   "PeriodSetNameId": "GoSaaS MFG",
+   "PeriodType": "MONTH7657588696",
+   "AdjustmentPeriodFlag": true,
+   "StartDate": "2023-12-31",
+   "EndDate": "2023-12-31",
+   "EnteredPeriodName": "13_Dec-23",
+   "PeriodYear": "2023",
+   "PeriodNumber": "13",
+   "@context": {
+    "key": "13_Dec-23,GoSaaS%20MFG"
+   }
+  },
+  {
+   "PeriodNameId": "Dec-23",
+   "PeriodSetNameId": "GoSaaS MFG",
+   "PeriodType": "MONTH7657588696",
+   "AdjustmentPeriodFlag": false,
+   "StartDate": "2023-12-01",
+   "EndDate": "2023-12-31",
+   "EnteredPeriodName": "Dec-23",
+   "PeriodYear": "2023",
+   "PeriodNumber": "12",
+   "@context": {
+    "key": "Dec-23,GoSaaS%20MFG"
+   }
+  },
+  {
+   "PeriodNameId": "Nov-23",
+   "PeriodSetNameId": "GoSaaS MFG",
+   "PeriodType": "MONTH7657588696",
+   "AdjustmentPeriodFlag": false,
+   "StartDate": "2023-11-01",
+   "EndDate": "2023-11-30",
+   "EnteredPeriodName": "Nov-23",
+   "PeriodYear": "2023",
+   "PeriodNumber": "11",
+   "@context": {
+    "key": "Nov-23,GoSaaS%20MFG"
+   }
+  },
+  {
+   "PeriodNameId": "Oct-23",
+   "PeriodSetNameId": "GoSaaS MFG",
+   "PeriodType": "MONTH7657588696",
+   "AdjustmentPeriodFlag": false,
+   "StartDate": "2023-10-01",
+   "EndDate": "2023-10-31",
+   "EnteredPeriodName": "Oct-23",
+   "PeriodYear": "2023",
+   "PeriodNumber": "10",
+   "@context": {
+    "key": "Oct-23,GoSaaS%20MFG"
+   }
+  },
+  {
+   "PeriodNameId": "Sep-23",
+   "PeriodSetNameId": "GoSaaS MFG",
+   "PeriodType": "MONTH7657588696",
+   "AdjustmentPeriodFlag": false,
+   "StartDate": "2023-09-01",
+   "EndDate": "2023-09-30",
+   "EnteredPeriodName": "Sep-23",
+   "PeriodYear": "2023",
+   "PeriodNumber": "9",
+   "@context": {
+    "key": "Sep-23,GoSaaS%20MFG"
+   }
+  },
+  {
+   "PeriodNameId": "Aug-23",
+   "PeriodSetNameId": "GoSaaS MFG",
+   "PeriodType": "MONTH7657588696",
+   "AdjustmentPeriodFlag": false,
+   "StartDate": "2023-08-01",
+   "EndDate": "2023-08-31",
+   "EnteredPeriodName": "Aug-23",
+   "PeriodYear": "2023",
+   "PeriodNumber": "8",
+   "@context": {
+    "key": "Aug-23,GoSaaS%20MFG"
+   }
+  },
+  {
+   "PeriodNameId": "Jul-23",
+   "PeriodSetNameId": "GoSaaS MFG",
+   "PeriodType": "MONTH7657588696",
+   "AdjustmentPeriodFlag": false,
+   "StartDate": "2023-07-01",
+   "EndDate": "2023-07-31",
+   "EnteredPeriodName": "Jul-23",
+   "PeriodYear": "2023",
+   "PeriodNumber": "7",
+   "@context": {
+    "key": "Jul-23,GoSaaS%20MFG"
+   }
+  },
+  {
+   "PeriodNameId": "Jun-23",
+   "PeriodSetNameId": "GoSaaS MFG",
+   "PeriodType": "MONTH7657588696",
+   "AdjustmentPeriodFlag": false,
+   "StartDate": "2023-06-01",
+   "EndDate": "2023-06-30",
+   "EnteredPeriodName": "Jun-23",
+   "PeriodYear": "2023",
+   "PeriodNumber": "6",
+   "@context": {
+    "key": "Jun-23,GoSaaS%20MFG"
+   }
+  },
+  {
+   "PeriodNameId": "May-23",
+   "PeriodSetNameId": "GoSaaS MFG",
+   "PeriodType": "MONTH7657588696",
+   "AdjustmentPeriodFlag": false,
+   "StartDate": "2023-05-01",
+   "EndDate": "2023-05-31",
+   "EnteredPeriodName": "May-23",
+   "PeriodYear": "2023",
+   "PeriodNumber": "5",
+   "@context": {
+    "key": "May-23,GoSaaS%20MFG"
+   }
+  },
+  {
+   "PeriodNameId": "Apr-23",
+   "PeriodSetNameId": "GoSaaS MFG",
+   "PeriodType": "MONTH7657588696",
+   "AdjustmentPeriodFlag": false,
+   "StartDate": "2023-04-01",
+   "EndDate": "2023-04-30",
+   "EnteredPeriodName": "Apr-23",
+   "PeriodYear": "2023",
+   "PeriodNumber": "4",
+   "@context": {
+    "key": "Apr-23,GoSaaS%20MFG"
+   }
+  },
+  {
+   "PeriodNameId": "Mar-23",
+   "PeriodSetNameId": "GoSaaS MFG",
+   "PeriodType": "MONTH7657588696",
+   "AdjustmentPeriodFlag": false,
+   "StartDate": "2023-03-01",
+   "EndDate": "2023-03-31",
+   "EnteredPeriodName": "Mar-23",
+   "PeriodYear": "2023",
+   "PeriodNumber": "3",
+   "@context": {
+    "key": "Mar-23,GoSaaS%20MFG"
+   }
+  },
+  {
+   "PeriodNameId": "Feb-23",
+   "PeriodSetNameId": "GoSaaS MFG",
+   "PeriodType": "MONTH7657588696",
+   "AdjustmentPeriodFlag": false,
+   "StartDate": "2023-02-01",
+   "EndDate": "2023-02-28",
+   "EnteredPeriodName": "Feb-23",
+   "PeriodYear": "2023",
+   "PeriodNumber": "2",
+   "@context": {
+    "key": "Feb-23,GoSaaS%20MFG"
+   }
+  },
+  {
+   "PeriodNameId": "Jan-23",
+   "PeriodSetNameId": "GoSaaS MFG",
+   "PeriodType": "MONTH7657588696",
+   "AdjustmentPeriodFlag": false,
+   "StartDate": "2023-01-01",
+   "EndDate": "2023-01-31",
+   "EnteredPeriodName": "Jan-23",
+   "PeriodYear": "2023",
+   "PeriodNumber": "1",
+   "@context": {
+    "key": "Jan-23,GoSaaS%20MFG"
+   }
+  }
+ ],
+ "count": 52,
+ "pages": 1
+}

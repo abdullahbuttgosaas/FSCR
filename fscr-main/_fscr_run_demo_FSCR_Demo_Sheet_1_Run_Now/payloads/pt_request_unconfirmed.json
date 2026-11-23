@@ -1,0 +1,22 @@
+{
+  "operations": [
+    {
+      "operation_id": "pt1",
+      "action": "create",
+      "header": {
+        "Name": "FSCRT_N20D1",
+        "SetCode": "ENTERPRISE",
+        "Description": "FSCRT demo payment term 1",
+        "StartDateActive": "2026-11-04"
+      },
+      "lines": [
+        {"SequenceNum": "1", "RelativeAmount": "100", "DueDays": "20"}
+      ],
+      "translations": [
+        {"Language": "US", "SourceLang": "US", "Name": "FSCRT_N20D1", "Description": "FSCRT demo payment term 1"}
+      ],
+      "discounts": []
+    }
+  ],
+  "evidence": {"reference_data_sets": ["ENTERPRISE"], "languages": ["US"]}
+}

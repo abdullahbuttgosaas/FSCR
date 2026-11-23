@@ -1,0 +1,8 @@
+TaskCode: FND_MANAGE_APPLCORE_STANDARD_LOOKUPS (Manage Applications Core Standard Lookups); CSVExportImportSupportedFlag: Y
+No matching pillar setup-task metadata found; using supplied or Fusion task context for export path.
+Started setup task CSV export process: 100004736427689
+ProcessCompletedFlag: False; StatusCode: (no result yet); ResultCount: 0
+ProcessCompletedFlag: True; StatusCode: (no result yet); ResultCount: 0
+StatusCode: (unknown)
+Retrieved: FileContent
+Wrote ..\export_before\FND_MANAGE_APPLCORE_STANDARD_LOOKUPS\ETIA-TEST_setup_task_csv_export_fnd_manage_applcore_standard_lookups_100004736427689.zip (3623 bytes)

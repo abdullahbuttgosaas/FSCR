@@ -1,0 +1,16 @@
+{
+ "what": "The page's preview of input/customer_sheet.xlsx after wiring Order Types (2026-10-25), every customer opened",
+ "added_lines": [
+  "Order Types: there are no rows for this in the sheet, so nothing will be created."
+ ],
+ "length_without_added": 7814,
+ "sha256_without_added": "3b62c721bf5f919a6ad3c8c3c876ef8537eafeaa54c53189907bd49052d84a8f",
+ "same_as_before": true,
+ "elements": 658,
+ "api_differences": [
+  "/today: was \"2026-10-24\", now \"2026-10-25\""
+ ],
+ "api_added": [
+  "/modules = [{\"name\": \"Customers\", \"record\": \"customer\", \"count\": 3, \"minutes_each\": 3, \"text\": null}, {\"name\": \"Order Types\", \"record\": \"order type\", \"count\": 0, \"minutes_each\": 1, \"text\": \"Order Types: there ar"
+ ]
+}

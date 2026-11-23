@@ -1,0 +1,8 @@
+bu_lov: HTTP 200 rows=186 pages=1 -> evidence/rest/bu_lov.json
+ref_sets: HTTP 200 rows=39 pages=1 -> evidence/rest/ref_sets.json
+currencies: HTTP 200 rows=268 pages=1 -> evidence/rest/currencies.json
+ledgers: HTTP 200 rows=68 pages=1 -> evidence/rest/ledgers.json
+price_lists: HTTP 200 rows=55 pages=1 -> evidence/rest/price_lists.json
+data_access: HTTP 200 rows=502 pages=2 -> evidence/rest/data_access.json
+set_assign_bu: HTTP 200 rows=8580 pages=18 -> evidence/rest/set_assign_bu.json
+legal_entities: HTTP 200 rows=67 pages=1 -> evidence/rest/legal_entities.json

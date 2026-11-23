@@ -1,0 +1,67 @@
+{
+ "old": "evidence/after/exports/ETIA-TEST_setup_task_csv_export_ar_manage_receivables_payment_terms_100004733440780.zip",
+ "new": "E:/GoSaaS/Configuration Automation v2.1/fscr-main/_fscr_run_03_change/evidence/gate/after_c1/ETIA-TEST_setup_task_csv_export_ar_manage_receivables_payment_terms_100004734412650.zip",
+ "files": {
+  "AR_PAYMENT_TERM.csv": {
+   "rows_old": 17,
+   "rows_new": 17,
+   "key_columns": [
+    "Name",
+    "SetCode",
+    "CycleName"
+   ],
+   "added": [],
+   "removed": [],
+   "changed": [
+    {
+     "key": {
+      "Name": "FSCRT_D25B75AF1",
+      "SetCode": "ENTERPRISE"
+     },
+     "diff": {
+      "EndDateActive": [
+       "",
+       "2028/12/31"
+      ]
+     }
+    }
+   ]
+  },
+  "AR_PAYMENT_TERM_DISCOUNT.csv": {
+   "rows_old": 2,
+   "rows_new": 2,
+   "key_columns": [
+    "SequenceNum",
+    "AR_PAYMENT_TERM.Name",
+    "SetCode"
+   ],
+   "added": [],
+   "removed": [],
+   "changed": []
+  },
+  "AR_PAYMENT_TERM_LINE.csv": {
+   "rows_old": 20,
+   "rows_new": 20,
+   "key_columns": [
+    "SequenceNum",
+    "AR_PAYMENT_TERM.Name",
+    "SetCode"
+   ],
+   "added": [],
+   "removed": [],
+   "changed": []
+  },
+  "AR_PAYMENT_TERM_TRANSLATION.csv": {
+   "rows_old": 17,
+   "rows_new": 17,
+   "key_columns": [
+    "Name",
+    "AR_PAYMENT_TERM.Name",
+    "Language"
+   ],
+   "added": [],
+   "removed": [],
+   "changed": []
+  }
+ }
+}

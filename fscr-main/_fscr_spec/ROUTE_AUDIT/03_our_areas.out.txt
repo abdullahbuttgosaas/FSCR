@@ -1,0 +1,263 @@
+
+=== Order Types (our folder: lookup ORA_DOO_ORDER_TYPES via Manage Order Lookups)
+  catalog: DOO_MANAGE_ORCHESTRATION_LOOKUPS | Manage Order Lookups | CSV flag Y | skills: 1
+    pillars/scm/order-management/orders/manage-order-lookups/SKILL.md:16: dataloader_import_mode: "FSM"
+    pillars/scm/order-management/orders/manage-order-lookups/SKILL.md:17: businessObject: ""
+    pillars/scm/order-management/orders/manage-order-lookups/SKILL.md:109: - dataloader_import_mode: `FSM`
+    pillars/scm/order-management/orders/manage-order-lookups/SKILL.md:110: - businessObject: ``
+    pillars/scm/order-management/orders/manage-order-lookups/SKILL.md:276: `CSVExportImportSupportedFlag` is `Y` for this task, so route task setup data work through the relevant skills:
+    pillars/scm/order-management/orders/manage-order-lookups/SKILL.md:281: 4. Import setup task data with `core.data-loader`.
+  catalog: EGO_MANAGE_CHANGE_ORDER_TYPES | Manage Change Order Types | CSV flag Y | skills: 1
+    pillars/scm/product-management/change-orders/manage-change-order-types/SKILL.md:16: dataloader_import_mode: "FSM"
+    pillars/scm/product-management/change-orders/manage-change-order-types/SKILL.md:17: businessObject: ""
+    pillars/scm/product-management/change-orders/manage-change-order-types/SKILL.md:115: - dataloader_import_mode: `FSM`
+    pillars/scm/product-management/change-orders/manage-change-order-types/SKILL.md:116: - businessObject: ``
+    pillars/scm/product-management/change-orders/manage-change-order-types/SKILL.md:169: `CSVExportImportSupportedFlag` is `Y` for this task, so route task setup data work through the relevant skills:
+    pillars/scm/product-management/change-orders/manage-change-order-types/SKILL.md:174: 4. Import setup task data with `core.data-loader`.
+
+=== Business Units
+  catalog: FUN_ASSIGN_BUSINESS_UNIT_BUSINESS_FUNCTION | Assign Business Unit Business Function | CSV flag Y | skills: 1
+    pillars/erp/financials/organization-structures/assign-business-unit-business-function.md:28: `CSVExportImportSupportedFlag` is `Y` for this task, so route task setup data work through the shared skills:
+    pillars/erp/financials/organization-structures/ora-resource/ora_rest_execution.md: exists
+  catalog: FUN_MANAGE_BUSINESS_UNIT | Manage Business Unit | CSV flag Y | skills: 1
+    pillars/erp/financials/organization-structures/manage-business-unit.md:28: `CSVExportImportSupportedFlag` is `Y` for this task, so route task setup data work through the shared skills:
+    pillars/erp/financials/organization-structures/ora-resource/ora_rest_execution.md: exists
+  catalog: FUN_MANAGE_BUSINESS_UNIT_SET_ASSIGNMENT | Manage Business Unit Set Assignment | CSV flag Y | skills: 1
+    pillars/erp/financials/organization-structures/manage-business-unit-set-assignment.md:28: `CSVExportImportSupportedFlag` is `Y` for this task, so route task setup data work through the shared skills:
+    pillars/erp/financials/organization-structures/ora-resource/ora_rest_execution.md: exists
+  catalog: ORA_FND_MANAGE_DOCUMENT_SEQUENCES_BU | Manage Business Unit Document Sequences | CSV flag Y | skills: 0
+    no skill with this task_code; files mentioning the code: 0 []
+  catalog: ORA_FOS_DEFINE_PROFIT_CENTER_BUSINESS_UNIT_PARTY_RELATIONSHIP | Manage Profit Center Business Unit Party Relationship | CSV flag Y | skills: 0
+    no skill with this task_code; files mentioning the code: 0 []
+  catalog: ORA_FUN_MANAGE_BUSINESS_UNIT_DATA_ACCESS_FOR_USERS | Manage Business Unit Data Access for Users | CSV flag N | skills: 0
+    no skill with this task_code; files mentioning the code: 1 ['project/draft-impl-project-20261028/artifacts/shared/reporting/fscr-claims-verification-20261029.md']
+  catalog: ORA_GMS_MANAGE_GRANTS_MANAGEMENT_BUSINESS_UNIT_IMPLEMENTATION_OPTIONS | Manage Grants Management Business Unit Implementation Options | CSV flag Y | skills: 0
+    no skill with this task_code; files mentioning the code: 0 []
+  catalog: ORA_MANAGE_BUSINESS_UNIT_PRODUCT_GROUP_USAGE_FOR_HR_SERVICE_REQUESTS | Manage Business Unit Product Group Usage for HR Service Requests | CSV flag Y | skills: 0
+    no skill with this task_code; files mentioning the code: 0 []
+  catalog: ORA_MANAGE_BUSINESS_UNIT_PRODUCT_GROUP_USAGE_FOR_INTERNAL_SERVICE_REQUESTS | Manage Business Unit Product Group Usage for Internal Service Requests | CSV flag Y | skills: 0
+    no skill with this task_code; files mentioning the code: 0 []
+  catalog: ORA_MANAGE_BUSINESS_UNIT_SERVICE_MILESTONE_CONFIGURATION_FOR_HR_SERVICE_REQUESTS | Manage Business Unit Service Milestone Configuration for HR Service Requests | CSV flag Y | skills: 0
+    no skill with this task_code; files mentioning the code: 0 []
+  catalog: ORA_MANAGE_BUSINESS_UNIT_SERVICE_MILESTONE_CONFIGURATION_FOR_INTERNAL_SERVICE_REQUESTS | Manage Business Unit Service Milestone Configuration for Internal Service Requests | CSV flag Y | skills: 0
+    no skill with this task_code; files mentioning the code: 0 []
+  catalog: ORA_MANAGE_OUTBOUND_EMAIL_PROFILE_VALUES_FOR_BUSINESS_UNIT | Manage Outbound Email Profile Values for Business Unit | CSV flag Y | skills: 0
+    no skill with this task_code; files mentioning the code: 0 []
+  catalog: ORA_MIGRATE_LEAD_OPPTY_BU_DATA | Migrate Lead and Opportunity Business Unit Data | CSV flag N | skills: 0
+    no skill with this task_code; files mentioning the code: 0 []
+  catalog: ORA_SVC_EMAIL_TEMPLATES_FOR_BU | Manage Service Email Templates for Business Unit | CSV flag Y | skills: 0
+    no skill with this task_code; files mentioning the code: 0 []
+  catalog: ORA_SVC_HRHD_EMAIL_TEMPLATES_FOR_BU | Manage Human Resource Help Desk Email Templates for Business Unit | CSV flag Y | skills: 0
+    no skill with this task_code; files mentioning the code: 0 []
+  catalog: ORA_SVC_HRHD_PRODUCT_GROUP_USAGE_FOR_BU | Manage HR Help Desk Product Group Usage for Business Unit | CSV flag Y | skills: 0
+    no skill with this task_code; files mentioning the code: 0 []
+  catalog: ORA_SVC_MANAGE_BUSINESS_UNIT_EMAIL_TEMPLATES_FOR_HR_HELP_DESK | Manage Business Unit Email Templates for HR Help Desk | CSV flag Y | skills: 0
+    no skill with this task_code; files mentioning the code: 0 []
+  catalog: ORA_SVC_MANAGE_BUSINESS_UNIT_EMAIL_TEMPLATES_FOR_INTERNAL_HELP_DESK | Manage Business Unit Email Templates for Internal Help Desk | CSV flag Y | skills: 0
+    no skill with this task_code; files mentioning the code: 0 []
+  catalog: ORA_SVC_MANAGE_BUSINESS_UNIT_SERVICE_REQUEST_CATEGORIES_FOR_HR_SERVICE_REQUESTS | Manage Business Unit Service Request Categories for HR Service Requests | CSV flag Y | skills: 0
+    no skill with this task_code; files mentioning the code: 0 []
+  catalog: ORA_SVC_MANAGE_BUSINESS_UNIT_SERVICE_REQUEST_CATEGORIES_FOR_INTERNAL_SERVICE_REQUESTS | Manage Business Unit Service Request Categories for Internal Service Requests | CSV flag Y | skills: 0
+    no skill with this task_code; files mentioning the code: 0 []
+  catalog: ORA_SVC_MANAGE_CHANNELS_FOR_BU | Manage Communication Channels for Business Unit | CSV flag Y | skills: 0
+    no skill with this task_code; files mentioning the code: 0 []
+  catalog: ORA_SVC_MANAGE_HRHD_SERVICE_CATEGORIES_FOR_BU | Manage HR Help Desk Service Categories for Business Unit | CSV flag Y | skills: 0
+    no skill with this task_code; files mentioning the code: 0 []
+  catalog: ORA_SVC_MANAGE_SERVICE_CATEGORIES_FOR_BU | Manage Service Categories for Business Unit | CSV flag Y | skills: 0
+    no skill with this task_code; files mentioning the code: 0 []
+  catalog: ORA_SVC_MANAGE_SVC_MILESTONE_CONFIG_FOR_BU | Manage Service Milestone Configuration for Business Unit | CSV flag Y | skills: 0
+    no skill with this task_code; files mentioning the code: 0 []
+  catalog: ORA_SVC_PRODUCT_GROUP_USAGE_FOR_BU | Manage Service Product Group Usage for Business Unit | CSV flag Y | skills: 0
+    no skill with this task_code; files mentioning the code: 0 []
+  catalog: ORA_ZCA_MANAGE_COMMON_CRM_BUSINESS_UNIT_PROFILE_OPTIONS | Manage Common CRM Business Unit Profile Options | CSV flag Y | skills: 0
+    no skill with this task_code; files mentioning the code: 0 []
+
+=== Price Lists
+  catalog: CUSTOM_IMPORT_PRICE_LISTS | Import Price Lists | CSV flag N | skills: 1
+    pillars/scm/order-management/pricing/import-price-lists/SKILL.md:16: dataloader_import_mode: "FBDI"
+    pillars/scm/order-management/pricing/import-price-lists/SKILL.md:17: businessObject: "Price List"
+    pillars/scm/order-management/pricing/import-price-lists/SKILL.md:45: - "core.fusion-api.rest-api-client"
+    pillars/scm/order-management/pricing/import-price-lists/SKILL.md:48: - "core.fusion-api.rest-api-client"
+    pillars/scm/order-management/pricing/import-price-lists/SKILL.md:128: - dataloader_import_mode: `FBDI`
+    pillars/scm/order-management/pricing/import-price-lists/SKILL.md:129: - businessObject: `Price List`
+    pillars/scm/order-management/pricing/import-price-lists/SKILL.md:149: `CSVExportImportSupportedFlag` is `N`, so this task is not marked as CSV export/import supported in the effective setup-task catalog.
+    pillars/scm/order-management/pricing/import-price-lists/SKILL.md:155: `dataloader_import_mode` is `FBDI`. Route Price Lists FBDI package validation,
+    pillars/scm/order-management/pricing/import-price-lists/SKILL.md:363: 2. Perform a read-only lookup through `core.fusion-api.rest-api-client` for an
+
+=== Payment Terms (Payables)
+  catalog: AP_MANAGE_PAYMENT_TERMS | Manage Payment Terms | CSV flag Y | skills: 1
+    pillars/erp/financials/payables/manage-payment-terms/SKILL.md:16: dataloader_import_mode: "FSM"
+    pillars/erp/financials/payables/manage-payment-terms/SKILL.md:17: businessObject: ""
+    pillars/erp/financials/payables/manage-payment-terms/SKILL.md:170: - dataloader_import_mode: `FSM`
+    pillars/erp/financials/payables/manage-payment-terms/SKILL.md:171: - businessObject: ``
+    pillars/erp/financials/payables/manage-payment-terms/SKILL.md:191: `CSVExportImportSupportedFlag` is `Y` for this task, so route task setup data work through the relevant skills:
+    pillars/erp/financials/payables/manage-payment-terms/SKILL.md:196: 4. Import setup task data with `core.data-loader`.
+    pillars/erp/financials/payables/manage-payment-terms/e2e-adapter.json: task = {"code": "AP_MANAGE_PAYMENT_TERMS", "csvSupported": true, "functionalArea": "Payables", "importMode": "FSM", "name": "Manage Payment Terms", "offering": "Financials"}
+
+=== Customers
+  catalog: AR_CREATE_CUSTOMER | Create Customer | CSV flag N | skills: 0
+    no skill with this task_code; files mentioning the code: 0 []
+  catalog: AR_MANAGE_CUSTOMERS | Manage Customers | CSV flag N | skills: 0
+    no skill with this task_code; files mentioning the code: 1 ['project/draft-impl-project-20261028/artifacts/shared/reporting/fscr-claims-verification-20261029.md']
+  catalog: ORA_FOS_IMPORT_CUSTOMER | Import Customers | CSV flag N | skills: 0
+    no skill with this task_code; files mentioning the code: 0 []
+
+=== Receivables Payment Terms
+  catalog: AR_MANAGE_RECEIVABLES_PAYMENT_TERMS | Manage Receivables Payment Terms | CSV flag Y | skills: 1
+    pillars/erp/financials/customer-billing/manage-receivables-payment-terms/SKILL.md:16: dataloader_import_mode: "FSM"
+    pillars/erp/financials/customer-billing/manage-receivables-payment-terms/SKILL.md:17: businessObject: ""
+    pillars/erp/financials/customer-billing/manage-receivables-payment-terms/SKILL.md:235: to that envelope. Store import approval and other execution metadata only in the
+    pillars/erp/financials/customer-billing/manage-receivables-payment-terms/e2e-adapter.json: task = {"code": "AR_MANAGE_RECEIVABLES_PAYMENT_TERMS", "csvSupported": true, "functionalArea": "Customer Billing", "importMode": "FSM", "name": "Manage Receivables Payment Terms", "offering": "Financials"}
+
+=== AutoInvoice Grouping Rules
+  catalog: AR_MANAGE_AUTOINVOICE_GROUPING_RULES | Manage AutoInvoice Grouping Rules | CSV flag Y | skills: 1
+    pillars/erp/financials/customer-billing/manage-autoinvoice-grouping-rules/SKILL.md:16: dataloader_import_mode: "FSM"
+    pillars/erp/financials/customer-billing/manage-autoinvoice-grouping-rules/SKILL.md:17: businessObject: ""
+    pillars/erp/financials/customer-billing/manage-autoinvoice-grouping-rules/SKILL.md:113: - dataloader_import_mode: `FSM`
+    pillars/erp/financials/customer-billing/manage-autoinvoice-grouping-rules/SKILL.md:114: - businessObject: ``
+    pillars/erp/financials/customer-billing/manage-autoinvoice-grouping-rules/SKILL.md:134: `CSVExportImportSupportedFlag` is `Y` for this task, so route task setup data work through the relevant skills:
+    pillars/erp/financials/customer-billing/manage-autoinvoice-grouping-rules/SKILL.md:139: 4. Import setup task data with `core.data-loader`.
+    pillars/erp/financials/customer-billing/manage-autoinvoice-grouping-rules/e2e-adapter.json: task = {"code": "AR_MANAGE_AUTOINVOICE_GROUPING_RULES", "csvSupported": true, "functionalArea": "Customer Billing", "importMode": "FSM", "name": "Manage AutoInvoice Grouping Rules", "offering": "Financials"}
+
+=== Transaction Sources
+  catalog: AR_MANAGE_TRANSACTION_SOURCES | Manage Transaction Sources | CSV flag Y | skills: 1
+    pillars/erp/financials/customer-billing/manage-transaction-sources/SKILL.md:16: dataloader_import_mode: "FSM"
+    pillars/erp/financials/customer-billing/manage-transaction-sources/SKILL.md:17: businessObject: ""
+    pillars/erp/financials/customer-billing/manage-transaction-sources/SKILL.md:111: - dataloader_import_mode: `FSM`
+    pillars/erp/financials/customer-billing/manage-transaction-sources/SKILL.md:112: - businessObject: ``
+    pillars/erp/financials/customer-billing/manage-transaction-sources/SKILL.md:132: `CSVExportImportSupportedFlag` is `Y` for this task, so route task setup data work through the relevant skills:
+    pillars/erp/financials/customer-billing/manage-transaction-sources/SKILL.md:137: 4. Import setup task data with `core.data-loader`.
+    pillars/erp/financials/customer-billing/manage-transaction-sources/e2e-adapter.json: task = {"code": "AR_MANAGE_TRANSACTION_SOURCES", "csvSupported": true, "functionalArea": "Customer Billing", "importMode": "FSM", "name": "Manage Transaction Sources", "offering": "Financials"}
+
+=== Transaction Types
+  catalog: AR_MANAGE_TRANSACTION_TYPES | Manage Transaction Types | CSV flag Y | skills: 1
+    pillars/erp/financials/customer-billing/manage-transaction-types/SKILL.md:16: dataloader_import_mode: "FSM"
+    pillars/erp/financials/customer-billing/manage-transaction-types/SKILL.md:17: businessObject: ""
+    pillars/erp/financials/customer-billing/manage-transaction-types/SKILL.md:113: - dataloader_import_mode: `FSM`
+    pillars/erp/financials/customer-billing/manage-transaction-types/SKILL.md:114: - businessObject: ``
+    pillars/erp/financials/customer-billing/manage-transaction-types/SKILL.md:134: `CSVExportImportSupportedFlag` is `Y` for this task, so route task setup data work through the relevant skills:
+    pillars/erp/financials/customer-billing/manage-transaction-types/SKILL.md:139: 4. Import setup task data with `core.data-loader`.
+    pillars/erp/financials/customer-billing/manage-transaction-types/SKILL.md:167: - Route every import through `core.data-loader` in `FSM` mode with an empty `businessObject`; use metadata `ObjectShortName` `AR_MANAGE_TRANSACTION_TYPES` as task identity, require the validation, immutable preview, and approval p
+    pillars/erp/financials/customer-billing/manage-transaction-types/e2e-adapter.json: task = {"code": "AR_MANAGE_TRANSACTION_TYPES", "csvSupported": true, "functionalArea": "Customer Billing", "importMode": "FSM", "name": "Manage Transaction Types", "offering": "Financials"}
+
+=== The skills with <!-- fscr-create-fields --> (the create skills)
+  AP_MANAGE_COMMON_OPTIONS_FOR_PAYABLES_AND_PROCUREMENT (operations: create, update)
+    pillars/erp/financials/payables/manage-common-options-for-payables-and-procurement/SKILL.md:16: dataloader_import_mode: "FSM"
+    pillars/erp/financials/payables/manage-common-options-for-payables-and-procurement/SKILL.md:17: businessObject: ""
+    pillars/erp/financials/payables/manage-common-options-for-payables-and-procurement/SKILL.md:41: - "core.fusion-api.rest-api-client"
+    pillars/erp/financials/payables/manage-common-options-for-payables-and-procurement/SKILL.md:45: - "core.fusion-api.rest-api-client"
+    pillars/erp/financials/payables/manage-common-options-for-payables-and-procurement/SKILL.md:120: - dataloader_import_mode: `FSM`
+    pillars/erp/financials/payables/manage-common-options-for-payables-and-procurement/SKILL.md:121: - businessObject: ``
+    pillars/erp/financials/payables/manage-common-options-for-payables-and-procurement/SKILL.md:141: `CSVExportImportSupportedFlag` is `Y` for this task, so route task setup data work through the relevant skills:
+    pillars/erp/financials/payables/manage-common-options-for-payables-and-procurement/SKILL.md:146: 4. Import setup task data with `core.data-loader`.
+  AP_MANAGE_INVOICE_OPTIONS (operations: create, update)
+    pillars/erp/financials/payables/manage-invoice-options/SKILL.md:16: dataloader_import_mode: "FSM"
+    pillars/erp/financials/payables/manage-invoice-options/SKILL.md:17: businessObject: ""
+    pillars/erp/financials/payables/manage-invoice-options/SKILL.md:131: - Route every import through `core.data-loader` in FSM mode. A static artifact
+    pillars/erp/financials/payables/manage-invoice-options/SKILL.md:147: - dataloader_import_mode: `FSM`
+    pillars/erp/financials/payables/manage-invoice-options/SKILL.md:148: - businessObject: ``
+    pillars/erp/financials/payables/manage-invoice-options/SKILL.md:168: `CSVExportImportSupportedFlag` is `Y` for this task, so route task setup data work through the relevant skills:
+    pillars/erp/financials/payables/manage-invoice-options/SKILL.md:173: 4. Import setup task data with `core.data-loader`.
+    pillars/erp/financials/payables/manage-invoice-options/e2e-adapter.json: task = {"code": "AP_MANAGE_INVOICE_OPTIONS", "csvSupported": true, "functionalArea": "Payables", "importMode": "FSM", "name": "Manage Invoice Options", "offering": "Financials"}
+  AP_MANAGE_PAYABLES_CALENDARS (operations: create, update)
+    pillars/erp/financials/payables/manage-payables-calendars/SKILL.md:16: dataloader_import_mode: "FSM"
+    pillars/erp/financials/payables/manage-payables-calendars/SKILL.md:17: businessObject: ""
+    pillars/erp/financials/payables/manage-payables-calendars/SKILL.md:139: - Route every import through `core.data-loader` in FSM mode. A candidate still
+    pillars/erp/financials/payables/manage-payables-calendars/SKILL.md:154: - dataloader_import_mode: `FSM`
+    pillars/erp/financials/payables/manage-payables-calendars/SKILL.md:155: - businessObject: ``
+    pillars/erp/financials/payables/manage-payables-calendars/SKILL.md:175: `CSVExportImportSupportedFlag` is `Y` for this task, so route task setup data work through the relevant skills:
+    pillars/erp/financials/payables/manage-payables-calendars/SKILL.md:180: 4. Import setup task data with `core.data-loader`.
+    pillars/erp/financials/payables/manage-payables-calendars/e2e-adapter.json: task = {"code": "AP_MANAGE_PAYABLES_CALENDARS", "csvSupported": true, "functionalArea": "Payables", "importMode": "FSM", "name": "Manage Payables Calendars", "offering": "Financials"}
+  AP_MANAGE_PAYMENT_OPTIONS (operations: create, update)
+    pillars/erp/financials/payables/manage-payment-options/SKILL.md:16: dataloader_import_mode: "FSM"
+    pillars/erp/financials/payables/manage-payment-options/SKILL.md:17: businessObject: ""
+    pillars/erp/financials/payables/manage-payment-options/SKILL.md:130: - Route every import through `core.data-loader` in FSM mode. A candidate still
+    pillars/erp/financials/payables/manage-payment-options/SKILL.md:145: - dataloader_import_mode: `FSM`
+    pillars/erp/financials/payables/manage-payment-options/SKILL.md:146: - businessObject: ``
+    pillars/erp/financials/payables/manage-payment-options/SKILL.md:166: `CSVExportImportSupportedFlag` is `Y` for this task, so route task setup data work through the relevant skills:
+    pillars/erp/financials/payables/manage-payment-options/SKILL.md:171: 4. Import setup task data with `core.data-loader`.
+    pillars/erp/financials/payables/manage-payment-options/e2e-adapter.json: task = {"code": "AP_MANAGE_PAYMENT_OPTIONS", "csvSupported": true, "functionalArea": "Payables", "importMode": "FSM", "name": "Manage Payment Options", "offering": "Financials"}
+  AP_MANAGE_PAYMENT_TERMS (operations: create, update)
+    pillars/erp/financials/payables/manage-payment-terms/SKILL.md:16: dataloader_import_mode: "FSM"
+    pillars/erp/financials/payables/manage-payment-terms/SKILL.md:17: businessObject: ""
+    pillars/erp/financials/payables/manage-payment-terms/SKILL.md:170: - dataloader_import_mode: `FSM`
+    pillars/erp/financials/payables/manage-payment-terms/SKILL.md:171: - businessObject: ``
+    pillars/erp/financials/payables/manage-payment-terms/SKILL.md:191: `CSVExportImportSupportedFlag` is `Y` for this task, so route task setup data work through the relevant skills:
+    pillars/erp/financials/payables/manage-payment-terms/SKILL.md:196: 4. Import setup task data with `core.data-loader`.
+    pillars/erp/financials/payables/manage-payment-terms/e2e-adapter.json: task = {"code": "AP_MANAGE_PAYMENT_TERMS", "csvSupported": true, "functionalArea": "Payables", "importMode": "FSM", "name": "Manage Payment Terms", "offering": "Financials"}
+  AR_MANAGE_AUTOACCOUNTING_RULES (operations: create, update)
+    pillars/erp/financials/customer-billing/manage-autoaccounting-rules/SKILL.md:16: dataloader_import_mode: "FSM"
+    pillars/erp/financials/customer-billing/manage-autoaccounting-rules/SKILL.md:17: businessObject: ""
+    pillars/erp/financials/customer-billing/manage-autoaccounting-rules/SKILL.md:116: - dataloader_import_mode: `FSM`
+    pillars/erp/financials/customer-billing/manage-autoaccounting-rules/SKILL.md:117: - businessObject: ``
+    pillars/erp/financials/customer-billing/manage-autoaccounting-rules/SKILL.md:175: `CSVExportImportSupportedFlag` is `Y` for this task, so route task setup data work through the relevant skills:
+    pillars/erp/financials/customer-billing/manage-autoaccounting-rules/SKILL.md:180: 4. Import setup task data with `core.data-loader`.
+    pillars/erp/financials/customer-billing/manage-autoaccounting-rules/e2e-adapter.json: task = {"code": "AR_MANAGE_AUTOACCOUNTING_RULES", "csvSupported": true, "functionalArea": "Customer Billing", "importMode": "FSM", "name": "Manage AutoAccounting Rules", "offering": "Financials"}
+  AR_MANAGE_AUTOINVOICE_GROUPING_RULES (operations: create, update)
+    pillars/erp/financials/customer-billing/manage-autoinvoice-grouping-rules/SKILL.md:16: dataloader_import_mode: "FSM"
+    pillars/erp/financials/customer-billing/manage-autoinvoice-grouping-rules/SKILL.md:17: businessObject: ""
+    pillars/erp/financials/customer-billing/manage-autoinvoice-grouping-rules/SKILL.md:113: - dataloader_import_mode: `FSM`
+    pillars/erp/financials/customer-billing/manage-autoinvoice-grouping-rules/SKILL.md:114: - businessObject: ``
+    pillars/erp/financials/customer-billing/manage-autoinvoice-grouping-rules/SKILL.md:134: `CSVExportImportSupportedFlag` is `Y` for this task, so route task setup data work through the relevant skills:
+    pillars/erp/financials/customer-billing/manage-autoinvoice-grouping-rules/SKILL.md:139: 4. Import setup task data with `core.data-loader`.
+    pillars/erp/financials/customer-billing/manage-autoinvoice-grouping-rules/e2e-adapter.json: task = {"code": "AR_MANAGE_AUTOINVOICE_GROUPING_RULES", "csvSupported": true, "functionalArea": "Customer Billing", "importMode": "FSM", "name": "Manage AutoInvoice Grouping Rules", "offering": "Financials"}
+  AR_MANAGE_RECEIPT_CLASSES_AND_METHODS (operations: create, update)
+    pillars/erp/financials/customer-payments/manage-receipt-classes-and-methods/SKILL.md:16: dataloader_import_mode: "FSM"
+    pillars/erp/financials/customer-payments/manage-receipt-classes-and-methods/SKILL.md:17: businessObject: ""
+    pillars/erp/financials/customer-payments/manage-receipt-classes-and-methods/SKILL.md:190: - Route live import only through `core.data-loader` in `FSM` mode after the
+    pillars/erp/financials/customer-payments/manage-receipt-classes-and-methods/e2e-adapter.json: task = {"code": "AR_MANAGE_RECEIPT_CLASSES_AND_METHODS", "csvSupported": true, "functionalArea": "Customer Payments", "importMode": "FSM", "name": "Manage Receipt Classes and Methods", "offering": "Financials"}
+  AR_MANAGE_RECEIPT_SOURCES (operations: create, update)
+    pillars/erp/financials/customer-payments/manage-receipt-sources/SKILL.md:16: dataloader_import_mode: "FSM"
+    pillars/erp/financials/customer-payments/manage-receipt-sources/SKILL.md:17: businessObject: ""
+    pillars/erp/financials/customer-payments/manage-receipt-sources/e2e-adapter.json: task = {"code": "AR_MANAGE_RECEIPT_SOURCES", "csvSupported": true, "functionalArea": "Customer Payments", "importMode": "FSM", "name": "Manage Receipt Sources", "offering": "Financials"}
+  AR_MANAGE_RECEIVABLES_PAYMENT_TERMS (operations: create, update)
+    pillars/erp/financials/customer-billing/manage-receivables-payment-terms/SKILL.md:16: dataloader_import_mode: "FSM"
+    pillars/erp/financials/customer-billing/manage-receivables-payment-terms/SKILL.md:17: businessObject: ""
+    pillars/erp/financials/customer-billing/manage-receivables-payment-terms/SKILL.md:235: to that envelope. Store import approval and other execution metadata only in the
+    pillars/erp/financials/customer-billing/manage-receivables-payment-terms/e2e-adapter.json: task = {"code": "AR_MANAGE_RECEIVABLES_PAYMENT_TERMS", "csvSupported": true, "functionalArea": "Customer Billing", "importMode": "FSM", "name": "Manage Receivables Payment Terms", "offering": "Financials"}
+  AR_MANAGE_RECEIVABLES_SYSTEM_OPTIONS (operations: create, update)
+    pillars/erp/financials/receivables/manage-receivables-system-options/SKILL.md:16: dataloader_import_mode: "FSM"
+    pillars/erp/financials/receivables/manage-receivables-system-options/SKILL.md:17: businessObject: ""
+    pillars/erp/financials/receivables/manage-receivables-system-options/SKILL.md:113: - businessObject: empty by contract; use `ASM_SETUP_CSV_METADATA.xml` object short name `AR_SYSTEM_OPTIONS` as FSM archive identity
+    pillars/erp/financials/receivables/manage-receivables-system-options/e2e-adapter.json: task = {"code": "AR_MANAGE_RECEIVABLES_SYSTEM_OPTIONS", "csvSupported": true, "functionalArea": "Receivables", "importMode": "FSM", "name": "Manage Receivables System Options", "offering": "Financials"}
+  AR_MANAGE_REMIT_TO_ADDRESSES (operations: create, update)
+    pillars/erp/financials/customer-billing/manage-remit-to-addresses/SKILL.md:16: dataloader_import_mode: "FSM"
+    pillars/erp/financials/customer-billing/manage-remit-to-addresses/SKILL.md:17: businessObject: ""
+    pillars/erp/financials/customer-billing/manage-remit-to-addresses/SKILL.md:109: - dataloader_import_mode: `FSM`
+    pillars/erp/financials/customer-billing/manage-remit-to-addresses/SKILL.md:110: - businessObject: ``
+    pillars/erp/financials/customer-billing/manage-remit-to-addresses/SKILL.md:130: `CSVExportImportSupportedFlag` is `Y` for this task, so route task setup data work through the relevant skills:
+    pillars/erp/financials/customer-billing/manage-remit-to-addresses/SKILL.md:135: 4. Import setup task data with `core.data-loader`.
+    pillars/erp/financials/customer-billing/manage-remit-to-addresses/SKILL.md:285: through `core.data-loader` in FSM mode. Do not introduce SOAP, direct entity REST
+    pillars/erp/financials/customer-billing/manage-remit-to-addresses/SKILL.md:337: by the Run Book and `core.data-loader` in FSM mode, with that owner's current
+  AR_MANAGE_TRANSACTION_SOURCES (operations: create, update)
+    pillars/erp/financials/customer-billing/manage-transaction-sources/SKILL.md:16: dataloader_import_mode: "FSM"
+    pillars/erp/financials/customer-billing/manage-transaction-sources/SKILL.md:17: businessObject: ""
+    pillars/erp/financials/customer-billing/manage-transaction-sources/SKILL.md:111: - dataloader_import_mode: `FSM`
+    pillars/erp/financials/customer-billing/manage-transaction-sources/SKILL.md:112: - businessObject: ``
+    pillars/erp/financials/customer-billing/manage-transaction-sources/SKILL.md:132: `CSVExportImportSupportedFlag` is `Y` for this task, so route task setup data work through the relevant skills:
+    pillars/erp/financials/customer-billing/manage-transaction-sources/SKILL.md:137: 4. Import setup task data with `core.data-loader`.
+    pillars/erp/financials/customer-billing/manage-transaction-sources/e2e-adapter.json: task = {"code": "AR_MANAGE_TRANSACTION_SOURCES", "csvSupported": true, "functionalArea": "Customer Billing", "importMode": "FSM", "name": "Manage Transaction Sources", "offering": "Financials"}
+  AR_MANAGE_TRANSACTION_TYPES (operations: create, update)
+    pillars/erp/financials/customer-billing/manage-transaction-types/SKILL.md:16: dataloader_import_mode: "FSM"
+    pillars/erp/financials/customer-billing/manage-transaction-types/SKILL.md:17: businessObject: ""
+    pillars/erp/financials/customer-billing/manage-transaction-types/SKILL.md:113: - dataloader_import_mode: `FSM`
+    pillars/erp/financials/customer-billing/manage-transaction-types/SKILL.md:114: - businessObject: ``
+    pillars/erp/financials/customer-billing/manage-transaction-types/SKILL.md:134: `CSVExportImportSupportedFlag` is `Y` for this task, so route task setup data work through the relevant skills:
+    pillars/erp/financials/customer-billing/manage-transaction-types/SKILL.md:139: 4. Import setup task data with `core.data-loader`.
+    pillars/erp/financials/customer-billing/manage-transaction-types/SKILL.md:167: - Route every import through `core.data-loader` in `FSM` mode with an empty `businessObject`; use metadata `ObjectShortName` `AR_MANAGE_TRANSACTION_TYPES` as task identity, require the validation, immutable preview, and approval p
+    pillars/erp/financials/customer-billing/manage-transaction-types/e2e-adapter.json: task = {"code": "AR_MANAGE_TRANSACTION_TYPES", "csvSupported": true, "functionalArea": "Customer Billing", "importMode": "FSM", "name": "Manage Transaction Types", "offering": "Financials"}
+  EXM_MANAGE_CONVERSION_RATES_AND_POLICIES (operations: create, update)
+    pillars/erp/financials/expenses/manage-conversion-rates-and-policies/SKILL.md:16: dataloader_import_mode: "FSM"
+    pillars/erp/financials/expenses/manage-conversion-rates-and-policies/SKILL.md:17: businessObject: ""
+    pillars/erp/financials/expenses/manage-conversion-rates-and-policies/SKILL.md:113: - dataloader_import_mode: `FSM`
+    pillars/erp/financials/expenses/manage-conversion-rates-and-policies/SKILL.md:114: - businessObject: ``
+    pillars/erp/financials/expenses/manage-conversion-rates-and-policies/SKILL.md:134: `CSVExportImportSupportedFlag` is `Y` for this task, so route task setup data work through the relevant skills:
+    pillars/erp/financials/expenses/manage-conversion-rates-and-policies/SKILL.md:139: 4. Import setup task data with `core.data-loader`.
+    pillars/erp/financials/expenses/manage-conversion-rates-and-policies/e2e-adapter.json: task = {"code": "EXM_MANAGE_CONVERSION_RATES_AND_POLICIES", "csvSupported": true, "functionalArea": "Expenses", "importMode": "FSM", "name": "Manage Conversion Rates and Policies", "offering": "Financials"}
+  ORA_AP_MANAGE_BANK_CHARGES (operations: create, update)
+    pillars/erp/financials/payables/manage-bank-charges/SKILL.md:16: dataloader_import_mode: "FSM"
+    pillars/erp/financials/payables/manage-bank-charges/SKILL.md:17: businessObject: ""
+    pillars/erp/financials/payables/manage-bank-charges/SKILL.md:42: - "core.fusion-api.rest-api-client"
+    pillars/erp/financials/payables/manage-bank-charges/SKILL.md:44: - "core.fusion-api.rest-api-client"
+    pillars/erp/financials/payables/manage-bank-charges/SKILL.md:146: Use `core.fusion-api.rest-api-client` for the declared legal entity, currency,
+    pillars/erp/financials/payables/manage-bank-charges/e2e-adapter.json: task = {"code": "ORA_AP_MANAGE_BANK_CHARGES", "csvSupported": true, "functionalArea": "Payables", "importMode": "FSM", "name": "Manage Bank Charges", "offering": "Financials"}

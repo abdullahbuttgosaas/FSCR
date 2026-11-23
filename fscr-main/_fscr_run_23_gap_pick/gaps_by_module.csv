@@ -1,0 +1,101 @@
+Area,Module (functional area),route_only_csv_no_skill,no_skill_no_route,skill_but_no_csv_rest_route,total_gaps
+ERP,Agency Profile,37,6,0,43
+ERP,Joint Venture Management,34,0,0,34
+ERP,Project Foundation,27,6,0,33
+ERP,Expenses,26,4,0,30
+ERP,Project Costing Base,28,1,0,29
+ERP,General Ledger,21,5,0,26
+ERP,Project Execution,22,4,0,26
+ERP,System Administration,17,7,0,24
+ERP,Revenue Recognition,23,0,0,23
+ERP,Grants Management Foundation,18,4,0,22
+ERP,Fees and Payments,19,2,0,21
+ERP,U.S. Federal Financials,18,0,0,18
+ERP,Collections,17,0,0,17
+ERP,Financial Reporting Center,1,15,0,16
+ERP,Incidents and Cases,14,2,0,16
+ERP,Receivables,15,0,0,15
+ERP,Project Billing Base,13,2,0,15
+ERP,Customer Payments,11,2,0,13
+ERP,Fixed Assets,12,1,0,13
+ERP,Project Resource Management,8,5,0,13
+ERP,Permit Inspections,12,1,0,13
+ERP,Financial Reporting Structures,8,2,2,12
+ERP,Branding,10,2,0,12
+ERP,Intercompany,10,1,0,11
+ERP,Customer Billing,8,2,0,10
+ERP,Project Performance Reporting,9,1,0,10
+ERP,Permit Types,5,5,0,10
+ERP,Capital Projects,9,0,0,9
+ERP,Budgetary Control and Encumbrance Accounting,6,2,0,8
+ERP,Project Control,7,1,0,8
+ERP,Reference Entities,7,1,0,8
+ERP,Internal Project Billing,8,0,0,8
+ERP,Burdening,7,1,0,8
+ERP,Application Extensions,5,2,0,7
+ERP,Planning Application Types,5,2,0,7
+ERP,Lease Accounting,6,0,0,6
+ERP,Initial Set Up,1,5,0,6
+ERP,GIS,5,1,0,6
+ERP,Agency Staff,2,3,0,5
+ERP,Business License Types,3,2,0,5
+ERP,Project Organizations,1,2,1,4
+ERP,Analytics and Reporting,4,0,0,4
+ERP,Public Users,2,2,0,4
+ERP,Plan Review,4,0,0,4
+ERP,Legal Structures,4,0,0,4
+ERP,Accounting Transformation,1,2,0,3
+ERP,Customers,1,1,0,2
+ERP,Project Contracts,2,0,0,2
+ERP,Bill Management,1,1,0,2
+ERP,Banking Configurations,0,2,0,2
+ERP,Revenue Management,1,1,0,2
+ERP,Public Hearing,2,0,0,2
+ERP,Organization Structures,0,1,0,1
+ERP,Help Management,1,0,0,1
+ERP,Accounting,1,0,0,1
+SCM,Inventory Management,32,0,0,32
+SCM,Orders,21,7,1,29
+SCM,Customers,16,3,0,19
+SCM,Shipping,17,1,0,18
+SCM,Cost Accounting,13,2,0,15
+SCM,Service Logistics,15,0,0,15
+SCM,Approval Management,0,8,5,13
+SCM,Maintenance Management,10,1,0,11
+SCM,Supplier Qualification,10,1,0,11
+SCM,Product Requirements and Ideation Management,6,3,0,9
+SCM,Purchasing Foundation,8,1,0,9
+SCM,Sustainability,7,0,0,7
+SCM,Manufacturing Master Data,2,5,0,7
+SCM,Sourcing,5,2,0,7
+SCM,Intrastat Reporting,6,0,0,6
+SCM,Supply Chain Financial Flows,5,0,1,6
+SCM,Product Lifecycle Portfolio Management,5,0,0,5
+SCM,Concept Design Management,5,0,0,5
+SCM,Quality Issue and Action Management,5,0,0,5
+SCM,Channel Revenue Management,2,2,0,4
+SCM,Supply Chain Planning Configuration,1,1,2,4
+SCM,Suppliers,0,2,2,4
+SCM,Receiving,4,0,0,4
+SCM,Procurement Foundation,4,0,0,4
+SCM,Landed Cost Management,3,0,0,3
+SCM,Data Pool Integration,3,0,0,3
+SCM,Suppliers for Product Management,1,1,1,3
+SCM,Compliance Checklists,3,0,0,3
+SCM,Supply Chain Orchestration,1,0,1,2
+SCM,Items,1,1,0,2
+SCM,Product Recall Management,1,1,0,2
+SCM,Supplier Portal,0,1,1,2
+SCM,Supply Chain Collaboration,0,2,0,2
+SCM,Data Quality Rules for Products,1,0,0,1
+SCM,Structures,1,0,0,1
+SCM,New Item Requests,1,0,0,1
+SCM,Change Orders,1,0,0,1
+SCM,Product Development,1,0,0,1
+SCM,Item Mass Update,1,0,0,1
+SCM,Product Rules,0,1,0,1
+SCM,Transaction Tax,1,0,0,1
+SCM,External Purchase Prices,1,0,0,1
+SCM,Self Service Procurement,0,1,0,1
+SCM,Carriers and Transit Times,1,0,0,1
+SCM,Organization Structures,1,0,0,1

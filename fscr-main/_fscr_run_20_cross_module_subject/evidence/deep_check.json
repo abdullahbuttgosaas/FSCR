@@ -1,0 +1,801 @@
+{
+ "rate_types": [
+  {
+   "UserConversionType": "Corporate",
+   "Description": "Corporate Exchange Rate"
+  },
+  {
+   "UserConversionType": "Fixed",
+   "Description": "Fixed Rate"
+  },
+  {
+   "UserConversionType": "Spot",
+   "Description": "Spot Exchange Rate"
+  },
+  {
+   "UserConversionType": "User",
+   "Description": "User Specified Rate"
+  },
+  {
+   "UserConversionType": "AMNCORP Rate Type",
+   "Description": "AMN Rate Type"
+  },
+  {
+   "UserConversionType": "Test Rate Types",
+   "Description": "Test Rate Types Desc"
+  },
+  {
+   "UserConversionType": "Ahmed Rate Type",
+   "Description": "Ahmed Rate Type Description"
+  },
+  {
+   "UserConversionType": "14SPCCORP",
+   "Description": "14SPCCORP"
+  },
+  {
+   "UserConversionType": "28SPCORP",
+   "Description": "28SPCORP"
+  },
+  {
+   "UserConversionType": "AKCorp",
+   "Description": "corporate rate type"
+  },
+  {
+   "UserConversionType": "Test Rate Type1",
+   "Description": "Test Rate Type1 Description"
+  },
+  {
+   "UserConversionType": "XXSPCORP",
+   "Description": "XXSPCORP"
+  }
+ ],
+ "corporate_row": [
+  {
+   "UserConversionType": "Corporate",
+   "LastUpdateDate": "2026/11/04 14:57:34.045",
+   "LastUpdatedBy": "ahsan.rehman@gosaas.ai",
+   "CreationDate": "2021/03/07 03:46:00.001",
+   "CreatedBy": "SEED_DATA_FROM_APPLICATION",
+   "LastUpdateLogin": "5F7529E59B904350E0631C65310A1C4B",
+   "Description": "Corporate Exchange Rate",
+   "Attribute1": "",
+   "Attribute2": "",
+   "Attribute3": "",
+   "Attribute4": "",
+   "Attribute5": "",
+   "Attribute6": "",
+   "Attribute7": "",
+   "Attribute8": "",
+   "Attribute9": "",
+   "Attribute10": "",
+   "Attribute11": "",
+   "Attribute12": "",
+   "Attribute13": "",
+   "Attribute14": "",
+   "Attribute15": "",
+   "FemEnabledFlag": "",
+   "FemScenario": "",
+   "FemRateTypeCode": "",
+   "FemTimeframe": "",
+   "SecurityFlag": "N",
+   "PivotCurrencyCode": "",
+   "EnforceInverseRateFlag": "Y",
+   "UserOverrideCrossRateFlag": "N",
+   "EnableCrossRateFlag": "N",
+   "AttributeCategory": ""
+  }
+ ],
+ "corporate_rate_rules": [],
+ "ar_options_using_corporate": [
+  {
+   "BU": "USA Business Unit1",
+   "Ledger": "TM Ledger US"
+  },
+  {
+   "BU": "USA Business Unit2",
+   "Ledger": "TM Ledger US"
+  },
+  {
+   "BU": "Canada Business Unit1",
+   "Ledger": "TM Ledger CA"
+  },
+  {
+   "BU": "PPBusiness Unit",
+   "Ledger": "PPLedger US"
+  },
+  {
+   "BU": "KLI Business Unit",
+   "Ledger": "N24Ledger US"
+  },
+  {
+   "BU": "HELLO BU",
+   "Ledger": "N24Ledger US"
+  },
+  {
+   "BU": "Demascus BU",
+   "Ledger": "N24Ledger IN"
+  },
+  {
+   "BU": "28Business Unit",
+   "Ledger": "28Ledger US"
+  },
+  {
+   "BU": "DSSBusiness Unit Corporate",
+   "Ledger": "DSSLedger US"
+  },
+  {
+   "BU": "DSSBusiness Unit Domestic",
+   "Ledger": "DSSLedger US"
+  },
+  {
+   "BU": "DSSBusiness Unit South Asia ",
+   "Ledger": "DSSLedger IN"
+  },
+  {
+   "BU": "HAHABusiness Unit Corporate",
+   "Ledger": "HAHALedger US"
+  },
+  {
+   "BU": "HAHABusiness Unit Domestic",
+   "Ledger": "HAHALedger US"
+  },
+  {
+   "BU": "HAHABusiness Unit South Asia ",
+   "Ledger": "HAHALedger IN"
+  },
+  {
+   "BU": "AKBusiness Unit Corporate",
+   "Ledger": "AKLedger US"
+  },
+  {
+   "BU": "AKBusiness Unit Domestic",
+   "Ledger": "AKLedger US"
+  },
+  {
+   "BU": "AKBusiness Unit South Asia ",
+   "Ledger": "AKLedger IN"
+  }
+ ],
+ "gl_ledgers_using_corporate": [
+  "MM Secondary Ledger",
+  "MMM Secondary Ledger"
+ ],
+ "ar_option_rate_types_not_in_export": [],
+ "calendars": 24,
+ "calendar_to_ar": {
+  "TM Ledger": {
+   "ledgers": [
+    "TM Ledger US",
+    "TM Ledger CA"
+   ],
+   "ar_bus": [
+    [
+     "USA Business Unit1",
+     "TM Ledger US"
+    ],
+    [
+     "USA Business Unit2",
+     "TM Ledger US"
+    ],
+    [
+     "Canada Business Unit1",
+     "TM Ledger CA"
+    ]
+   ],
+   "periods_defined": 26,
+   "in_calendar_export": true
+  },
+  "PPLedger": {
+   "ledgers": [
+    "PPLedger US",
+    "PP secondary",
+    "PP Ledger"
+   ],
+   "ar_bus": [
+    [
+     "PPBusiness Unit",
+     "PPLedger US"
+    ]
+   ],
+   "periods_defined": 26,
+   "in_calendar_export": true
+  },
+  "N24Ledger": {
+   "ledgers": [
+    "N24Ledger US",
+    "N24 Secondary Ledger",
+    "N24Ledger IN"
+   ],
+   "ar_bus": [
+    [
+     "KLI Business Unit",
+     "N24Ledger US"
+    ],
+    [
+     "HELLO BU",
+     "N24Ledger US"
+    ],
+    [
+     "Demascus BU",
+     "N24Ledger IN"
+    ]
+   ],
+   "periods_defined": 26,
+   "in_calendar_export": true
+  },
+  "28Ledger": {
+   "ledgers": [
+    "28Ledger US",
+    "28 Secondary Ledger"
+   ],
+   "ar_bus": [
+    [
+     "28Business Unit",
+     "28Ledger US"
+    ]
+   ],
+   "periods_defined": 26,
+   "in_calendar_export": true
+  },
+  "GoSaaS MFG": {
+   "ledgers": [
+    "GoSaaS MFG US",
+    "S-3",
+    "Ash Ledger",
+    "NN2_Primary_Ledger",
+    "AG-81209",
+    "T2 Ledger",
+    "Duck",
+    "Mannan Ledger",
+    "DK ledger",
+    "AG Primary Ledger",
+    "EBS-Testing-AI",
+    "USAMA LEDGER",
+    "URA OPERATIONS"
+   ],
+   "ar_bus": [
+    [
+     "BUU1",
+     "GoSaaS MFG US"
+    ],
+    [
+     "AMNA BU",
+     "EBS-Testing-AI"
+    ]
+   ],
+   "periods_defined": 52,
+   "in_calendar_export": true
+  },
+  "DSSLedger": {
+   "ledgers": [
+    "DS Primary Ledger",
+    "DSSLedger US",
+    "DS2 Secondary Ledger",
+    "DSSLedger IN",
+    "DSS Secondary Ledger"
+   ],
+   "ar_bus": [
+    [
+     "DSSBusiness Unit Corporate",
+     "DSSLedger US"
+    ],
+    [
+     "DSSBusiness Unit Domestic",
+     "DSSLedger US"
+    ],
+    [
+     "DSSBusiness Unit South Asia ",
+     "DSSLedger IN"
+    ]
+   ],
+   "periods_defined": 26,
+   "in_calendar_export": true
+  },
+  "HAHALedger": {
+   "ledgers": [
+    "HAHALedger US",
+    "HAHA secondary ledger",
+    "HAHALedger IN"
+   ],
+   "ar_bus": [
+    [
+     "HAHABusiness Unit Corporate",
+     "HAHALedger US"
+    ],
+    [
+     "HAHABusiness Unit Domestic",
+     "HAHALedger US"
+    ],
+    [
+     "HAHABusiness Unit South Asia ",
+     "HAHALedger IN"
+    ]
+   ],
+   "periods_defined": 26,
+   "in_calendar_export": true
+  },
+  "AKLedger": {
+   "ledgers": [
+    "29PLedger",
+    "AKLedger US",
+    "AALedger",
+    "YEN",
+    "AKLedger IN",
+    "AH reporting currency"
+   ],
+   "ar_bus": [
+    [
+     "AKBusiness Unit Corporate",
+     "AKLedger US"
+    ],
+    [
+     "AKBusiness Unit Domestic",
+     "AKLedger US"
+    ],
+    [
+     "AKBusiness Unit South Asia ",
+     "AKLedger IN"
+    ]
+   ],
+   "periods_defined": 26,
+   "in_calendar_export": true
+  }
+ },
+ "segment_values": {
+  "000": {
+   "ar_rows": 17,
+   "value_sets": [
+    [
+     "28Department 28Ledger",
+     "Y",
+     ""
+    ],
+    [
+     "AKDepartment AKLedger",
+     "Y",
+     ""
+    ],
+    [
+     "CostCenter TM Ledger",
+     "Y",
+     ""
+    ],
+    [
+     "DSSDepartment DSSLedger",
+     "Y",
+     ""
+    ],
+    [
+     "HAHADepartment HAHALedger",
+     "Y",
+     ""
+    ],
+    [
+     "KR_COST_CENTER",
+     "Y",
+     ""
+    ],
+    [
+     "MGDepartment MGLedger",
+     "Y",
+     ""
+    ],
+    [
+     "N24Department N24Ledger",
+     "Y",
+     ""
+    ],
+    [
+     "NN2_Intercompany",
+     "Y",
+     ""
+    ],
+    [
+     "PPDepartment PPLedger",
+     "Y",
+     ""
+    ],
+    [
+     "XXDepartment XXLedger",
+     "Y",
+     ""
+    ]
+   ]
+  },
+  "2640": {
+   "ar_rows": 13,
+   "value_sets": [
+    [
+     "28Account 28Ledger",
+     "Y",
+     ""
+    ],
+    [
+     "AKAccount AKLedger",
+     "Y",
+     ""
+    ],
+    [
+     "DSSAccount DSSLedger",
+     "Y",
+     ""
+    ],
+    [
+     "HAHAAccount HAHALedger",
+     "Y",
+     ""
+    ],
+    [
+     "MGAccount MGLedger",
+     "Y",
+     ""
+    ],
+    [
+     "N24Account N24Ledger",
+     "Y",
+     ""
+    ],
+    [
+     "XXAccount XXLedger",
+     "Y",
+     ""
+    ]
+   ]
+  },
+  "01": {
+   "ar_rows": 10,
+   "value_sets": [
+    [
+     "28Company 28Ledger",
+     "Y",
+     ""
+    ],
+    [
+     "28Intercompany 28Ledger",
+     "Y",
+     ""
+    ],
+    [
+     "AKCompany AKLedger",
+     "Y",
+     ""
+    ],
+    [
+     "AKIntercompany AKLedger",
+     "Y",
+     ""
+    ],
+    [
+     "AMN_COMPANY",
+     "Y",
+     ""
+    ],
+    [
+     "DSSCompany DSSLedger",
+     "Y",
+     ""
+    ],
+    [
+     "DSSIntercompany DSSLedger",
+     "Y",
+     ""
+    ],
+    [
+     "HAHACompany HAHALedger",
+     "Y",
+     ""
+    ],
+    [
+     "HAHAIntercompany HAHALedger",
+     "Y",
+     ""
+    ],
+    [
+     "MGCompany MGLedger",
+     "Y",
+     ""
+    ],
+    [
+     "MGIntercompany MGLedger",
+     "Y",
+     ""
+    ],
+    [
+     "MMcompany",
+     "Y",
+     ""
+    ],
+    [
+     "MWBK Ledger CoA VS",
+     "Y",
+     ""
+    ],
+    [
+     "N24Company N24Ledger",
+     "Y",
+     ""
+    ],
+    [
+     "N24Intercompany N24Ledger",
+     "Y",
+     ""
+    ],
+    [
+     "NIM_ACCOUNT_VS",
+     "Y",
+     ""
+    ],
+    [
+     "PPCompany PPLedger",
+     "Y",
+     ""
+    ],
+    [
+     "PPIntercompany PPLedger",
+     "Y",
+     ""
+    ],
+    [
+     "XXCompany XXLedger",
+     "Y",
+     ""
+    ],
+    [
+     "XXIntercompany XXLedger",
+     "Y",
+     ""
+    ]
+   ]
+  },
+  "00": {
+   "ar_rows": 10,
+   "value_sets": [
+    [
+     "001Account",
+     "Y",
+     ""
+    ],
+    [
+     "28Company 28Ledger",
+     "Y",
+     ""
+    ],
+    [
+     "28Intercompany 28Ledger",
+     "Y",
+     ""
+    ],
+    [
+     "AKCompany AKLedger",
+     "Y",
+     ""
+    ],
+    [
+     "AKIntercompany AKLedger",
+     "Y",
+     ""
+    ],
+    [
+     "DSSCompany DSSLedger",
+     "Y",
+     ""
+    ],
+    [
+     "DSSIntercompany DSSLedger",
+     "Y",
+     ""
+    ],
+    [
+     "HAHACompany HAHALedger",
+     "Y",
+     ""
+    ],
+    [
+     "HAHAIntercompany HAHALedger",
+     "Y",
+     ""
+    ],
+    [
+     "MGCompany MGLedger",
+     "Y",
+     ""
+    ],
+    [
+     "MGIntercompany MGLedger",
+     "Y",
+     ""
+    ],
+    [
+     "MMIntercompany",
+     "Y",
+     ""
+    ],
+    [
+     "N24Company N24Ledger",
+     "Y",
+     ""
+    ],
+    [
+     "N24Intercompany N24Ledger",
+     "Y",
+     ""
+    ],
+    [
+     "PPCompany PPLedger",
+     "Y",
+     ""
+    ],
+    [
+     "PPIntercompany PPLedger",
+     "Y",
+     ""
+    ],
+    [
+     "XXCompany XXLedger",
+     "Y",
+     ""
+    ],
+    [
+     "XXIntercompany XXLedger",
+     "Y",
+     ""
+    ]
+   ]
+  },
+  "02": {
+   "ar_rows": 8,
+   "value_sets": [
+    [
+     "AKCompany AKLedger",
+     "Y",
+     ""
+    ],
+    [
+     "AKIntercompany AKLedger",
+     "Y",
+     ""
+    ],
+    [
+     "AMN_COMPANY",
+     "Y",
+     ""
+    ],
+    [
+     "Chart Of Accounts Value Set",
+     "Y",
+     ""
+    ],
+    [
+     "DSSCompany DSSLedger",
+     "Y",
+     ""
+    ],
+    [
+     "DSSIntercompany DSSLedger",
+     "Y",
+     ""
+    ],
+    [
+     "GoSaaS Chart of Accounts",
+     "Y",
+     ""
+    ],
+    [
+     "HAHACompany HAHALedger",
+     "Y",
+     ""
+    ],
+    [
+     "HAHAIntercompany HAHALedger",
+     "Y",
+     ""
+    ],
+    [
+     "MGCompany MGLedger",
+     "Y",
+     ""
+    ],
+    [
+     "MGIntercompany MGLedger",
+     "Y",
+     ""
+    ],
+    [
+     "MWBK Ledger CoA VS",
+     "Y",
+     ""
+    ],
+    [
+     "N24Company N24Ledger",
+     "Y",
+     ""
+    ],
+    [
+     "N24Intercompany N24Ledger",
+     "Y",
+     ""
+    ]
+   ]
+  },
+  "10": {
+   "ar_rows": 6,
+   "value_sets": [
+    [
+     "AACompany",
+     "Y",
+     ""
+    ],
+    [
+     "Division TM Ledger",
+     "Y",
+     ""
+    ],
+    [
+     "Future TM Ledger",
+     "Y",
+     ""
+    ],
+    [
+     "Value set 1",
+     "Y",
+     ""
+    ]
+   ]
+  },
+  "21530": {
+   "ar_rows": 3,
+   "value_sets": [
+    [
+     "Account TM Ledger",
+     "Y",
+     ""
+    ]
+   ]
+  },
+  "0000": {
+   "ar_rows": 3,
+   "value_sets": [
+    [
+     "NN2_Department",
+     "Y",
+     ""
+    ],
+    [
+     "Product Family TM Ledger",
+     "Y",
+     ""
+    ]
+   ]
+  },
+  "3251": {
+   "ar_rows": 2,
+   "value_sets": [
+    [
+     "Company TM Ledger",
+     "Y",
+     ""
+    ],
+    [
+     "Intercompany TM Ledger",
+     "Y",
+     ""
+    ]
+   ]
+  },
+  "3231": {
+   "ar_rows": 2,
+   "value_sets": [
+    [
+     "Company TM Ledger",
+     "Y",
+     ""
+    ],
+    [
+     "Intercompany TM Ledger",
+     "Y",
+     ""
+    ]
+   ]
+  }
+ }
+}

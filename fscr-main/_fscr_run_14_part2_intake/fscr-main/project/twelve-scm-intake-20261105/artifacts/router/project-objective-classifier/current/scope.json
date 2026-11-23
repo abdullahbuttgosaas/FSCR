@@ -1,0 +1,684 @@
+{
+  "classifier_skill": "router.project-objective-classifier",
+  "catalog_path": "knowledge/setup-task-catalog/effective/offering-functional-area-task-catalog.json",
+  "pillar_map_path": "knowledge/setup-task-catalog/effective/pillars-offerings-mapping.json",
+  "fusion_calls": 0,
+  "functional_area_scope": [
+    {
+      "sow_ref": "SCM-1",
+      "sow_text": "Product Information Management (items, structures)",
+      "functional_area_code": "ORA_EGP_FA_ITEMS",
+      "functional_area_name": "Items",
+      "offering_scope_status": "resolved",
+      "offering_short_code": "PIM_PROD_MNG",
+      "offering_name": "Product Management",
+      "pillar": "SCM",
+      "candidate_offerings": [
+        "DOO_ORCHESTRATION",
+        "MKT_MARKETING",
+        "ORA_MANUFACTURING_AND_SUPPLY_C",
+        "PIM_PROD_MNG",
+        "PO_PROCUREMENT",
+        "XLE_FINANCIALS_JUR"
+      ],
+      "effective_task_count": 35
+    },
+    {
+      "sow_ref": "SCM-1",
+      "sow_text": "Product Information Management (items, structures)",
+      "functional_area_code": "EGO_ADVANCED_PRODUCT_STRUCT",
+      "functional_area_name": "Structures",
+      "offering_scope_status": "resolved",
+      "offering_short_code": "PIM_PROD_MNG",
+      "offering_name": "Product Management",
+      "pillar": "SCM",
+      "candidate_offerings": [
+        "ORA_MANUFACTURING_AND_SUPPLY_C",
+        "PIM_PROD_MNG"
+      ],
+      "effective_task_count": 7
+    },
+    {
+      "sow_ref": "SCM-1",
+      "sow_text": "Product Information Management (items, structures)",
+      "functional_area_code": "ORA_EGP_FA_ITEM_ORGANIZATIONS",
+      "functional_area_name": "Item Organizations",
+      "offering_scope_status": "resolved",
+      "offering_short_code": "PIM_PROD_MNG",
+      "offering_name": "Product Management",
+      "pillar": "SCM",
+      "candidate_offerings": [
+        "PIM_PROD_MNG"
+      ],
+      "effective_task_count": 26
+    },
+    {
+      "sow_ref": "SCM-2",
+      "sow_text": "Inventory and Cost Management",
+      "functional_area_code": "ORA_RCS_FACILITIES",
+      "functional_area_name": "Facilities",
+      "offering_scope_status": "resolved",
+      "offering_short_code": "ORA_MANUFACTURING_AND_SUPPLY_C",
+      "offering_name": "Manufacturing and Supply Chain Materials Management",
+      "pillar": "SCM",
+      "candidate_offerings": [
+        "ORA_MANUFACTURING_AND_SUPPLY_C"
+      ],
+      "effective_task_count": 29
+    },
+    {
+      "sow_ref": "SCM-2",
+      "sow_text": "Inventory and Cost Management",
+      "functional_area_code": "ORA_WSH_INVENTORY_MGMT",
+      "functional_area_name": "Inventory Management",
+      "offering_scope_status": "resolved",
+      "offering_short_code": "ORA_MANUFACTURING_AND_SUPPLY_C",
+      "offering_name": "Manufacturing and Supply Chain Materials Management",
+      "pillar": "SCM",
+      "candidate_offerings": [
+        "ORA_MANUFACTURING_AND_SUPPLY_C"
+      ],
+      "effective_task_count": 63
+    },
+    {
+      "sow_ref": "SCM-2",
+      "sow_text": "Inventory and Cost Management",
+      "functional_area_code": "WSH_ENABLE_RECEIVING",
+      "functional_area_name": "Receiving",
+      "offering_scope_status": "resolved",
+      "offering_short_code": "ORA_MANUFACTURING_AND_SUPPLY_C",
+      "offering_name": "Manufacturing and Supply Chain Materials Management",
+      "pillar": "SCM",
+      "candidate_offerings": [
+        "ORA_MANUFACTURING_AND_SUPPLY_C",
+        "PO_PROCUREMENT"
+      ],
+      "effective_task_count": 6
+    },
+    {
+      "sow_ref": "SCM-2",
+      "sow_text": "Inventory and Cost Management",
+      "functional_area_code": "CST_DEFINE_COST_MANAGEMENT",
+      "functional_area_name": "Cost Accounting",
+      "offering_scope_status": "resolved",
+      "offering_short_code": "ORA_MANUFACTURING_AND_SUPPLY_C",
+      "offering_name": "Manufacturing and Supply Chain Materials Management",
+      "pillar": "SCM",
+      "candidate_offerings": [
+        "ORA_MANUFACTURING_AND_SUPPLY_C"
+      ],
+      "effective_task_count": 63
+    },
+    {
+      "sow_ref": "SCM-2",
+      "sow_text": "Inventory and Cost Management",
+      "functional_area_code": "CMR_RECEIPT_ACCOUNTING",
+      "functional_area_name": "Receipt Accounting",
+      "offering_scope_status": "resolved",
+      "offering_short_code": "ORA_MANUFACTURING_AND_SUPPLY_C",
+      "offering_name": "Manufacturing and Supply Chain Materials Management",
+      "pillar": "SCM",
+      "candidate_offerings": [
+        "ORA_MANUFACTURING_AND_SUPPLY_C",
+        "PO_PROCUREMENT"
+      ],
+      "effective_task_count": 44
+    },
+    {
+      "sow_ref": "SCM-3",
+      "sow_text": "Self-Service Procurement",
+      "functional_area_code": "PO_SSP_DEPLOYED",
+      "functional_area_name": "Self Service Procurement",
+      "offering_scope_status": "resolved",
+      "offering_short_code": "PO_PROCUREMENT",
+      "offering_name": "Procurement",
+      "pillar": "SCM",
+      "candidate_offerings": [
+        "PO_PROCUREMENT"
+      ],
+      "effective_task_count": 11
+    },
+    {
+      "sow_ref": "SCM-3",
+      "sow_text": "Self-Service Procurement",
+      "functional_area_code": "ORA_PO_APPROVAL_MANAGEMENT_FA",
+      "functional_area_name": "Approval Management",
+      "offering_scope_status": "resolved",
+      "offering_short_code": "PO_PROCUREMENT",
+      "offering_name": "Procurement",
+      "pillar": "SCM",
+      "candidate_offerings": [
+        "PO_PROCUREMENT"
+      ],
+      "effective_task_count": 14
+    },
+    {
+      "sow_ref": "SCM-3",
+      "sow_text": "Self-Service Procurement",
+      "functional_area_code": "ORA_PO_PRC_TRX_ACC_RULES_FA",
+      "functional_area_name": "Procurement Transaction Account Rules",
+      "offering_scope_status": "resolved",
+      "offering_short_code": "PO_PROCUREMENT",
+      "offering_name": "Procurement",
+      "pillar": "SCM",
+      "candidate_offerings": [
+        "PO_PROCUREMENT"
+      ],
+      "effective_task_count": 9
+    },
+    {
+      "sow_ref": "SCM-4",
+      "sow_text": "Purchasing",
+      "functional_area_code": "ORA_PO_PROC_FOUNDATION_FA",
+      "functional_area_name": "Procurement Foundation",
+      "offering_scope_status": "resolved",
+      "offering_short_code": "PO_PROCUREMENT",
+      "offering_name": "Procurement",
+      "pillar": "SCM",
+      "candidate_offerings": [
+        "PO_PROCUREMENT"
+      ],
+      "effective_task_count": 16
+    },
+    {
+      "sow_ref": "SCM-4",
+      "sow_text": "Purchasing",
+      "functional_area_code": "ORA_PO_PURCHASING_FOUNDATION",
+      "functional_area_name": "Purchasing Foundation",
+      "offering_scope_status": "resolved",
+      "offering_short_code": "PO_PROCUREMENT",
+      "offering_name": "Procurement",
+      "pillar": "SCM",
+      "candidate_offerings": [
+        "PO_PROCUREMENT"
+      ],
+      "effective_task_count": 11
+    },
+    {
+      "sow_ref": "SCM-5",
+      "sow_text": "Supplier Portal",
+      "functional_area_code": "PO_SUP_PORTAL_DEPLOYED",
+      "functional_area_name": "Supplier Portal",
+      "offering_scope_status": "resolved",
+      "offering_short_code": "PO_PROCUREMENT",
+      "offering_name": "Procurement",
+      "pillar": "SCM",
+      "candidate_offerings": [
+        "PIM_PROD_MNG",
+        "PO_PROCUREMENT"
+      ],
+      "effective_task_count": 7
+    },
+    {
+      "sow_ref": "SCM-5",
+      "sow_text": "Supplier Portal",
+      "functional_area_code": "ORA_EGP_SUPPLIERS",
+      "functional_area_name": "Suppliers",
+      "offering_scope_status": "resolved",
+      "offering_short_code": "PO_PROCUREMENT",
+      "offering_name": "Procurement",
+      "pillar": "SCM",
+      "candidate_offerings": [
+        "ORA_MANUFACTURING_AND_SUPPLY_C",
+        "PO_PROCUREMENT"
+      ],
+      "effective_task_count": 35
+    },
+    {
+      "sow_ref": "SCM-6",
+      "sow_text": "Manufacturing (process-based)",
+      "functional_area_code": "ORA_WIS_COMMON_MFG_WORK_SETUP",
+      "functional_area_name": "Manufacturing Master Data",
+      "offering_scope_status": "resolved",
+      "offering_short_code": "ORA_MANUFACTURING_AND_SUPPLY_C",
+      "offering_name": "Manufacturing and Supply Chain Materials Management",
+      "pillar": "SCM",
+      "candidate_offerings": [
+        "ORA_MANUFACTURING_AND_SUPPLY_C"
+      ],
+      "effective_task_count": 26
+    },
+    {
+      "sow_ref": "SCM-7",
+      "sow_text": "Maintenance",
+      "functional_area_code": "ORA_MNT_MGMT",
+      "functional_area_name": "Maintenance Management",
+      "offering_scope_status": "resolved",
+      "offering_short_code": "ORA_MANUFACTURING_AND_SUPPLY_C",
+      "offering_name": "Manufacturing and Supply Chain Materials Management",
+      "pillar": "SCM",
+      "candidate_offerings": [
+        "ORA_MANUFACTURING_AND_SUPPLY_C"
+      ],
+      "effective_task_count": 23
+    },
+    {
+      "sow_ref": "FIN-ES",
+      "sow_text": "Confirm Enterprise (BU) Structure",
+      "functional_area_code": "ORA_ASK_LEGAL_STRUCTURES",
+      "functional_area_name": "Legal Structures",
+      "offering_scope_status": "pending",
+      "offering_short_code": null,
+      "offering_name": null,
+      "pillar": null,
+      "candidate_offerings": [
+        "MKT_MARKETING",
+        "OKC_CONTRACTS",
+        "ORA_GMS_GRANTS_MANAGEMENT",
+        "ORA_MANUFACTURING_AND_SUPPLY_C",
+        "ORA_STUDENT_MANAGEMENT",
+        "PJF_PROJ_MNG",
+        "PO_PROCUREMENT",
+        "XLE_FINANCIALS_JUR",
+        "XLE_FIN_CONTROL_JUR",
+        "ZCH_CDM"
+      ],
+      "effective_task_count": null
+    },
+    {
+      "sow_ref": "FIN-ES",
+      "sow_text": "Confirm Enterprise (BU) Structure",
+      "functional_area_code": "ORA_ASK_FIN_REPORTING_STRUCT",
+      "functional_area_name": "Financial Reporting Structures",
+      "offering_scope_status": "pending",
+      "offering_short_code": null,
+      "offering_name": null,
+      "pillar": null,
+      "candidate_offerings": [
+        "MKT_MARKETING",
+        "OKC_CONTRACTS",
+        "ORA_GMS_GRANTS_MANAGEMENT",
+        "ORA_MANUFACTURING_AND_SUPPLY_C",
+        "ORA_STUDENT_MANAGEMENT",
+        "PJF_PROJ_MNG",
+        "PO_PROCUREMENT",
+        "XLE_FINANCIALS_JUR",
+        "XLE_FIN_CONTROL_JUR"
+      ],
+      "effective_task_count": null
+    },
+    {
+      "sow_ref": "FIN-ES",
+      "sow_text": "Confirm Enterprise (BU) Structure",
+      "functional_area_code": "ORA_ASK_ORGANIZATION_STRUCTURE",
+      "functional_area_name": "Organization Structures",
+      "offering_scope_status": "pending",
+      "offering_short_code": null,
+      "offering_name": null,
+      "pillar": null,
+      "candidate_offerings": [
+        "DOO_ORCHESTRATION",
+        "MKT_MARKETING",
+        "OKC_CONTRACTS",
+        "ORA_GMS_GRANTS_MANAGEMENT",
+        "ORA_MANUFACTURING_AND_SUPPLY_C",
+        "ORA_STUDENT_MANAGEMENT",
+        "PJF_PROJ_MNG",
+        "PO_PROCUREMENT",
+        "XLE_FINANCIALS_JUR",
+        "ZCH_CDM"
+      ],
+      "effective_task_count": null
+    },
+    {
+      "sow_ref": "FIN-GL",
+      "sow_text": "General Ledger / Subledger Accounting (incremental)",
+      "functional_area_code": "ORA_FIN_GENERAL_LEDGER",
+      "functional_area_name": "General Ledger",
+      "offering_scope_status": "resolved",
+      "offering_short_code": "XLE_FINANCIALS_JUR",
+      "offering_name": "Financials",
+      "pillar": "ERP",
+      "candidate_offerings": [
+        "XLE_FINANCIALS_JUR",
+        "XLE_FIN_CONTROL_JUR"
+      ],
+      "effective_task_count": 42
+    },
+    {
+      "sow_ref": "FIN-AP",
+      "sow_text": "Payables (incremental)",
+      "functional_area_code": "FIN_PAYABLES_DEPLOYED",
+      "functional_area_name": "Payables",
+      "offering_scope_status": "pending",
+      "offering_short_code": null,
+      "offering_name": null,
+      "pillar": null,
+      "candidate_offerings": [
+        "ORA_STUDENT_MANAGEMENT",
+        "PO_PROCUREMENT",
+        "XLE_FINANCIALS_JUR"
+      ],
+      "effective_task_count": null
+    },
+    {
+      "sow_ref": "FIN-AR",
+      "sow_text": "Receivables (remediation, TBD)",
+      "functional_area_code": "FIN_RECEIVABLES_DEPLOYED",
+      "functional_area_name": "Receivables",
+      "offering_scope_status": "resolved",
+      "offering_short_code": "XLE_FINANCIALS_JUR",
+      "offering_name": "Financials",
+      "pillar": "ERP",
+      "candidate_offerings": [
+        "ORA_STUDENT_MANAGEMENT",
+        "XLE_FINANCIALS_JUR"
+      ],
+      "effective_task_count": 51
+    },
+    {
+      "sow_ref": "FIN-CE",
+      "sow_text": "Cash Management (remediation, TBD)",
+      "functional_area_code": "ORA_CE_CASH_MGMT_BANK",
+      "functional_area_name": "Cash Management",
+      "offering_scope_status": "pending",
+      "offering_short_code": null,
+      "offering_name": null,
+      "pillar": null,
+      "candidate_offerings": [
+        "ORA_STUDENT_MANAGEMENT",
+        "PO_PROCUREMENT",
+        "XLE_FINANCIALS_JUR"
+      ],
+      "effective_task_count": null
+    },
+    {
+      "sow_ref": "FIN-FA",
+      "sow_text": "Fixed Assets (remediation, TBD)",
+      "functional_area_code": "FIN_FIXED_ASSETS_DEPLOYED",
+      "functional_area_name": "Fixed Assets",
+      "offering_scope_status": "resolved",
+      "offering_short_code": "XLE_FINANCIALS_JUR",
+      "offering_name": "Financials",
+      "pillar": "ERP",
+      "candidate_offerings": [
+        "XLE_FINANCIALS_JUR"
+      ],
+      "effective_task_count": 47
+    },
+    {
+      "sow_ref": "FIN-PJ",
+      "sow_text": "Project Cost Management (incremental)",
+      "functional_area_code": "ORA_PJC_PROJ_COSTING_BASE_FA",
+      "functional_area_name": "Project Costing Base",
+      "offering_scope_status": "resolved",
+      "offering_short_code": "PJF_PROJ_MNG",
+      "offering_name": "Project Financial Management",
+      "pillar": "ERP",
+      "candidate_offerings": [
+        "ORA_GMS_GRANTS_MANAGEMENT",
+        "PJF_PROJ_MNG"
+      ],
+      "effective_task_count": 33
+    },
+    {
+      "sow_ref": "FIN-GM",
+      "sow_text": "Grants Management (remediation, TBD)",
+      "functional_area_code": "ORA_GMS_GRANTS_BASE_FA",
+      "functional_area_name": "Grants Management Foundation",
+      "offering_scope_status": "resolved",
+      "offering_short_code": "ORA_GMS_GRANTS_MANAGEMENT",
+      "offering_name": "Grants Management",
+      "pillar": "ERP",
+      "candidate_offerings": [
+        "ORA_GMS_GRANTS_MANAGEMENT"
+      ],
+      "effective_task_count": 27
+    },
+    {
+      "sow_ref": "FIN-SUS",
+      "sow_text": "Supply Chain Sustainability",
+      "functional_area_code": "ORA_SUS_SUSTAINABILITY",
+      "functional_area_name": "Sustainability",
+      "offering_scope_status": "pending",
+      "offering_short_code": null,
+      "offering_name": null,
+      "pillar": null,
+      "candidate_offerings": [
+        "ORA_MANUFACTURING_AND_SUPPLY_C",
+        "PIM_PROD_MNG",
+        "PO_PROCUREMENT"
+      ],
+      "effective_task_count": null
+    },
+    {
+      "sow_ref": "FIN-EXM",
+      "sow_text": "Expenses (conditional on design session)",
+      "functional_area_code": "FIN_EXPENSES_DEPLOYED",
+      "functional_area_name": "Expenses",
+      "offering_scope_status": "resolved",
+      "offering_short_code": "XLE_FINANCIALS_JUR",
+      "offering_name": "Financials",
+      "pillar": "ERP",
+      "candidate_offerings": [
+        "XLE_FINANCIALS_JUR"
+      ],
+      "effective_task_count": 40
+    },
+    {
+      "sow_ref": "FIN-RPT",
+      "sow_text": "Reporting approach (OTBI/BIP/FDI/EPM)",
+      "functional_area_code": "ORA_FIN_REPORT_CENTER",
+      "functional_area_name": "Financial Reporting Center",
+      "offering_scope_status": "resolved",
+      "offering_short_code": "XLE_FINANCIALS_JUR",
+      "offering_name": "Financials",
+      "pillar": "ERP",
+      "candidate_offerings": [
+        "XLE_FINANCIALS_JUR",
+        "XLE_FIN_CONTROL_JUR"
+      ],
+      "effective_task_count": 16
+    },
+    {
+      "sow_ref": "CFG-12",
+      "sow_text": "Security and Roles",
+      "functional_area_code": "ORA_ASK_USERS_AND_SECURITY",
+      "functional_area_name": "Users and Security",
+      "offering_scope_status": "pending",
+      "offering_short_code": null,
+      "offering_name": null,
+      "pillar": null,
+      "candidate_offerings": [
+        "CUSTOM_SUBSCRIPTIONS",
+        "DOO_ORCHESTRATION",
+        "MKT_MARKETING",
+        "OKC_CONTRACTS",
+        "ORA_CONFIGURE_PRICE_QUOTE",
+        "ORA_CUSTOMER_LOYALTY",
+        "ORA_FIELD_SERVICE",
+        "ORA_FMK_MARKETING",
+        "ORA_GMS_GRANTS_MANAGEMENT",
+        "ORA_MANUFACTURING_AND_SUPPLY_C",
+        "ORA_MIDSIZE_SALES",
+        "ORA_MSC_VALUE_CHAIN_PLANNING",
+        "ORA_STUDENT_MANAGEMENT",
+        "ORA_SVC",
+        "ORA_SVC_HELP_DESK",
+        "PIM_PROD_MNG",
+        "PJF_PROJ_MNG",
+        "PO_PROCUREMENT",
+        "XLE_FINANCIALS_JUR",
+        "XLE_FIN_CONTROL_JUR",
+        "ZCH_CDM"
+      ],
+      "effective_task_count": null
+    }
+  ],
+  "scope_diagnostics": [
+    {
+      "sow_ref": "FIN-ES",
+      "fa": "ORA_ASK_LEGAL_STRUCTURES",
+      "class": "input_validation",
+      "msg": "no offering supplied and FA belongs to multiple offerings; human review",
+      "candidates": [
+        "MKT_MARKETING",
+        "OKC_CONTRACTS",
+        "ORA_GMS_GRANTS_MANAGEMENT",
+        "ORA_MANUFACTURING_AND_SUPPLY_C",
+        "ORA_STUDENT_MANAGEMENT",
+        "PJF_PROJ_MNG",
+        "PO_PROCUREMENT",
+        "XLE_FINANCIALS_JUR",
+        "XLE_FIN_CONTROL_JUR",
+        "ZCH_CDM"
+      ]
+    },
+    {
+      "sow_ref": "FIN-ES",
+      "fa": "ORA_ASK_FIN_REPORTING_STRUCT",
+      "class": "input_validation",
+      "msg": "no offering supplied and FA belongs to multiple offerings; human review",
+      "candidates": [
+        "MKT_MARKETING",
+        "OKC_CONTRACTS",
+        "ORA_GMS_GRANTS_MANAGEMENT",
+        "ORA_MANUFACTURING_AND_SUPPLY_C",
+        "ORA_STUDENT_MANAGEMENT",
+        "PJF_PROJ_MNG",
+        "PO_PROCUREMENT",
+        "XLE_FINANCIALS_JUR",
+        "XLE_FIN_CONTROL_JUR"
+      ]
+    },
+    {
+      "sow_ref": "FIN-ES",
+      "fa": "ORA_ASK_ORGANIZATION_STRUCTURE",
+      "class": "input_validation",
+      "msg": "no offering supplied and FA belongs to multiple offerings; human review",
+      "candidates": [
+        "DOO_ORCHESTRATION",
+        "MKT_MARKETING",
+        "OKC_CONTRACTS",
+        "ORA_GMS_GRANTS_MANAGEMENT",
+        "ORA_MANUFACTURING_AND_SUPPLY_C",
+        "ORA_STUDENT_MANAGEMENT",
+        "PJF_PROJ_MNG",
+        "PO_PROCUREMENT",
+        "XLE_FINANCIALS_JUR",
+        "ZCH_CDM"
+      ]
+    },
+    {
+      "sow_ref": "FIN-AP",
+      "fa": "FIN_PAYABLES_DEPLOYED",
+      "class": "input_validation",
+      "msg": "no offering supplied and FA belongs to multiple offerings; human review",
+      "candidates": [
+        "ORA_STUDENT_MANAGEMENT",
+        "PO_PROCUREMENT",
+        "XLE_FINANCIALS_JUR"
+      ]
+    },
+    {
+      "sow_ref": "FIN-CE",
+      "fa": "ORA_CE_CASH_MGMT_BANK",
+      "class": "input_validation",
+      "msg": "no offering supplied and FA belongs to multiple offerings; human review",
+      "candidates": [
+        "ORA_STUDENT_MANAGEMENT",
+        "PO_PROCUREMENT",
+        "XLE_FINANCIALS_JUR"
+      ]
+    },
+    {
+      "sow_ref": "FIN-SUS",
+      "fa": "ORA_SUS_SUSTAINABILITY",
+      "class": "input_validation",
+      "msg": "no offering supplied and FA belongs to multiple offerings; human review",
+      "candidates": [
+        "ORA_MANUFACTURING_AND_SUPPLY_C",
+        "PIM_PROD_MNG",
+        "PO_PROCUREMENT"
+      ]
+    },
+    {
+      "sow_ref": "CFG-12",
+      "fa": "ORA_ASK_USERS_AND_SECURITY",
+      "class": "input_validation",
+      "msg": "no offering supplied and FA belongs to multiple offerings; human review",
+      "candidates": [
+        "CUSTOM_SUBSCRIPTIONS",
+        "DOO_ORCHESTRATION",
+        "MKT_MARKETING",
+        "OKC_CONTRACTS",
+        "ORA_CONFIGURE_PRICE_QUOTE",
+        "ORA_CUSTOMER_LOYALTY",
+        "ORA_FIELD_SERVICE",
+        "ORA_FMK_MARKETING",
+        "ORA_GMS_GRANTS_MANAGEMENT",
+        "ORA_MANUFACTURING_AND_SUPPLY_C",
+        "ORA_MIDSIZE_SALES",
+        "ORA_MSC_VALUE_CHAIN_PLANNING",
+        "ORA_STUDENT_MANAGEMENT",
+        "ORA_SVC",
+        "ORA_SVC_HELP_DESK",
+        "PIM_PROD_MNG",
+        "PJF_PROJ_MNG",
+        "PO_PROCUREMENT",
+        "XLE_FINANCIALS_JUR",
+        "XLE_FIN_CONTROL_JUR",
+        "ZCH_CDM"
+      ]
+    }
+  ],
+  "catalog_gaps": [
+    {
+      "sow_ref": "SCM-6.2",
+      "item": "Process Manufacturing (vs discrete)",
+      "finding": "no separate effective functional area; process-vs-discrete is a plant/work-definition choice inside ORA_WIS_COMMON_MFG_WORK_SETUP (not verified in catalog task list)"
+    },
+    {
+      "sow_ref": "SCM-7.5/7.7",
+      "item": "Meters, Installed Base tracking",
+      "finding": "no separate functional area found by name; assumed inside ORA_MNT_MGMT (not verified)"
+    },
+    {
+      "sow_ref": "FIN-RPT 6.1",
+      "item": "FDI / EPM reporting strategy",
+      "finding": "no FSCR offering or skill for Fusion Data Intelligence or EPM"
+    },
+    {
+      "sow_ref": "RICE-R1",
+      "item": "Printable Purchase Order (BIP)",
+      "finding": "no FSCR setup task; custom report development"
+    },
+    {
+      "sow_ref": "RICE-C1",
+      "item": "Supplier conversion",
+      "finding": "FSCR shared/data-conversion skills exist but were not exercised (planning only)"
+    }
+  ],
+  "resolved_offerings": [
+    [
+      "ORA_GMS_GRANTS_MANAGEMENT",
+      "Grants Management",
+      "ERP"
+    ],
+    [
+      "ORA_MANUFACTURING_AND_SUPPLY_C",
+      "Manufacturing and Supply Chain Materials Management",
+      "SCM"
+    ],
+    [
+      "PIM_PROD_MNG",
+      "Product Management",
+      "SCM"
+    ],
+    [
+      "PJF_PROJ_MNG",
+      "Project Financial Management",
+      "ERP"
+    ],
+    [
+      "PO_PROCUREMENT",
+      "Procurement",
+      "SCM"
+    ],
+    [
+      "XLE_FINANCIALS_JUR",
+      "Financials",
+      "ERP"
+    ]
+  ]
+}

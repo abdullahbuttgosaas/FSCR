@@ -1,0 +1,42 @@
+{
+  "baselineSha256": "694029faa84d7d164ec0cafb9baea0fd694dd065a1f9a5c2c423fcfbc223df14",
+  "designSha256": "b53a3a693293073a5b6b9b05dd9d65d268370e74e0bfa39df79396e1f6f4e2de",
+  "explicitDefaults": [],
+  "operations": [
+    {
+      "action": "create",
+      "entity": "AR_TRANSACTION_TYPE",
+      "id": "t1",
+      "preserveOtherValues": true,
+      "preserveUnspecifiedRows": true,
+      "requestedValues": {
+        "AccountingAffectFlag": "Y",
+        "AllowFreightFlag": "N",
+        "AllowOverapplicationFlag": "N",
+        "CreationSign": "P",
+        "DefaultPrintingOption": "PRI",
+        "DefaultStatus": "OP",
+        "Description": "FSCRT Run04 invoice type",
+        "NaturalApplicationOnlyFlag": "N",
+        "PostToGl": "N",
+        "StartDate": "2026-11-03",
+        "Status": "A",
+        "TaxCalculationFlag": "N",
+        "Type": "INV"
+      },
+      "targetKey": {
+        "Name": "FSCRT_TT1",
+        "SetCode": "ENTERPRISE"
+      }
+    }
+  ],
+  "prerequisites": [],
+  "requestSha256": "b8bd672eb7936ec37459936ad45a62beb3d8ef72e586b1b94e3f338b182d1c82",
+  "requirementCount": 15,
+  "schemaVersion": "fscr-fsm-task-adapter-v1",
+  "task": {
+    "code": "AR_MANAGE_TRANSACTION_TYPES",
+    "name": "Manage Transaction Types"
+  },
+  "warnings": []
+}

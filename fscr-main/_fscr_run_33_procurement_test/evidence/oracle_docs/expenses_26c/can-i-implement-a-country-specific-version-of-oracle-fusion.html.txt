@@ -1,0 +1,2 @@
+URL: https://docs.oracle.com/en/cloud/saas/financials/26c/faiex/can-i-implement-a-country-specific-version-of-oracle-fusion.html
+ Previous Next JavaScript must be enabled to correctly display this content Implementing Expenses Can I implement a country-specific version of Oracle Fusion Expenses? Can I implement a country-specific version of Oracle Fusion Expenses? No. A country-specific version of Expenses isn't available. Expenses supports both global and local requirements. 

@@ -1,0 +1,142 @@
+{
+ "items": [
+  {
+   "LookupType": "FSCRT_CARRIER_SERVICE_TIER_F01",
+   "ModuleId": "61ECAF4AAB00E990E040449821C61C97",
+   "Meaning": "FSCRT_Carrier service tier F01",
+   "Description": "Shipping service levels offered to dealers",
+   "CustomizationLevel": "U",
+   "RestAccessSecured": "AUTH",
+   "CreatedBy": "Configuration.TEST",
+   "CreationDate": "2026-11-02T19:53:38+00:00",
+   "LastUpdateDate": "2026-11-02T19:53:38.188+00:00",
+   "LastUpdateLogin": "5F4DC615B8ADA793E0631C65310A696A",
+   "LastUpdatedBy": "Configuration.TEST",
+   "lookupCodes": {
+    "items": [
+     {
+      "LookupCode": "FSCRT_FREIGHT",
+      "Meaning": "FSCRT_Pallet freight",
+      "Description": null,
+      "EnabledFlag": "Y",
+      "StartDateActive": null,
+      "EndDateActive": null,
+      "DisplaySequence": null,
+      "Tag": null,
+      "CreatedBy": "Configuration.TEST",
+      "CreationDate": "2026-11-02T19:53:57+00:00",
+      "LastUpdateDate": "2026-11-03T02:55:43+00:00",
+      "LastUpdateLogin": "5F4DD5A7CC310AE7E0631C65310A4BA1",
+      "LastUpdatedBy": "Configuration.TEST",
+      "@context": {
+       "key": "FSCRT_FREIGHT"
+      }
+     },
+     {
+      "LookupCode": "FSCRT_STANDARD",
+      "Meaning": "FSCRT_Standard ground",
+      "Description": null,
+      "EnabledFlag": "N",
+      "StartDateActive": null,
+      "EndDateActive": null,
+      "DisplaySequence": null,
+      "Tag": null,
+      "CreatedBy": "Configuration.TEST",
+      "CreationDate": "2026-11-02T19:53:56+00:00",
+      "LastUpdateDate": "2026-11-03T02:55:41+00:00",
+      "LastUpdateLogin": "5F4BED34FAC7F747E0631B65310A6627",
+      "LastUpdatedBy": "Configuration.TEST",
+      "@context": {
+       "key": "FSCRT_STANDARD"
+      }
+     }
+    ],
+    "count": 2,
+    "hasMore": false,
+    "limit": 500,
+    "offset": 0,
+    "links": [
+     {
+      "rel": "self",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/FSCRT_CARRIER_SERVICE_TIER_F01/child/lookupCodes",
+      "name": "lookupCodes",
+      "kind": "collection"
+     }
+    ]
+   },
+   "@context": {
+    "key": "FSCRT_CARRIER_SERVICE_TIER_F01"
+   }
+  },
+  {
+   "LookupType": "FSCRT_OUTDOOR_ACTIVITY_F01",
+   "ModuleId": "61ECAF4AAB00E990E040449821C61C97",
+   "Meaning": "FSCRT_Outdoor activity F01",
+   "Description": "Activities a product is sold for",
+   "CustomizationLevel": "U",
+   "RestAccessSecured": "SECURE",
+   "CreatedBy": "Configuration.TEST",
+   "CreationDate": "2026-11-02T19:53:36+00:00",
+   "LastUpdateDate": "2026-11-02T19:53:36.268+00:00",
+   "LastUpdateLogin": "5F4DD5A7CB610AE7E0631C65310A4BA1",
+   "LastUpdatedBy": "Configuration.TEST",
+   "lookupCodes": {
+    "items": [
+     {
+      "LookupCode": "FSCRT_HIKING",
+      "Meaning": "FSCRT_Hiking and trekking",
+      "Description": "Day hikes and multi-day treks",
+      "EnabledFlag": "Y",
+      "StartDateActive": null,
+      "EndDateActive": null,
+      "DisplaySequence": "1",
+      "Tag": null,
+      "CreatedBy": "Configuration.TEST",
+      "CreationDate": "2026-11-02T19:53:52+00:00",
+      "LastUpdateDate": "2026-11-03T02:55:44+00:00",
+      "LastUpdateLogin": "5F51CE6B1209BB85E0631C65310A52B2",
+      "LastUpdatedBy": "Configuration.TEST",
+      "@context": {
+       "key": "FSCRT_HIKING"
+      }
+     },
+     {
+      "LookupCode": "FSCRT_PADDLING",
+      "Meaning": "FSCRT_Paddling",
+      "Description": "Kayak and canoe gear",
+      "EnabledFlag": "Y",
+      "StartDateActive": null,
+      "EndDateActive": null,
+      "DisplaySequence": "2",
+      "Tag": "water",
+      "CreatedBy": "Configuration.TEST",
+      "CreationDate": "2026-11-02T19:53:54+00:00",
+      "LastUpdateDate": "2026-11-02T19:53:54.237+00:00",
+      "LastUpdateLogin": "5F4BED34FA1FF747E0631B65310A6627",
+      "LastUpdatedBy": "Configuration.TEST",
+      "@context": {
+       "key": "FSCRT_PADDLING"
+      }
+     }
+    ],
+    "count": 2,
+    "hasMore": false,
+    "limit": 500,
+    "offset": 0,
+    "links": [
+     {
+      "rel": "self",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/FSCRT_OUTDOOR_ACTIVITY_F01/child/lookupCodes",
+      "name": "lookupCodes",
+      "kind": "collection"
+     }
+    ]
+   },
+   "@context": {
+    "key": "FSCRT_OUTDOOR_ACTIVITY_F01"
+   }
+  }
+ ],
+ "count": 2,
+ "pages": 1
+}

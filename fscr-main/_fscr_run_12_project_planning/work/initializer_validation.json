@@ -1,0 +1,8 @@
+{
+ "method": "exact-name",
+ "catalog": "knowledge/setup-task-catalog/effective/setupTasksAll.json",
+ "matched": 728,
+ "unmatched": 0,
+ "ambiguous": 0,
+ "total": 728
+}

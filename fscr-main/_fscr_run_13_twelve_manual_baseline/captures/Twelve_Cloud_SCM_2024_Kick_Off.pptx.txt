@@ -1,0 +1,620 @@
+SOURCE (read in browser via docs.google.com viewer): Twelve Cloud SCM 2024 Kick Off.pptx | id=1F57sU-oJhCQXox6qGm8hDr6OEehzdJp4 | kind=slides | chars=7939
+Twelve Cloud SCM 2024 Kick Off.pptx - Google Slides
+
+  1 of 17
+Twelve
+​
+Oracle Cloud SCM Kickoff
+
+February 2025
+
+2 of 17
+Agenda
+
+Implementation Team
+Project Scope
+Project Schedule
+Project Governance
+Next Steps
+
+3 of 17
+Implementation Team Introduction
+
+Name
+
+	Company
+
+	Role
+
+Naresh Amarnani
+
+	GoSaaS - US
+
+	Finance Architect
+
+John Tolmachoff
+Andy Bargeron
+
+	GoSaaS - US
+
+	Supply Chain Architect
+
+Anand Joshi
+
+	GoSaaS - US
+
+	Reporting Architect
+
+Quinn Casey
+
+	GoSaaS - US
+
+	Project Manager
+
+Name
+
+	Company
+
+	Role
+
+Zainab Muhammad
+
+	GoSaaS – Offshore
+
+	Project Manager
+
+Younas Yaqoob
+
+	GoSaaS – Offshore
+
+	Project Manager
+
+Rida Zahoor
+Faizan Ahmad
+
+	GoSaaS - Offshore
+
+	Finance Consultant(s)
+
+Muhammad Zohaib
+
+	GoSaaS - Offshore
+
+	Cost Management Consultant
+
+Muhammad Rizwan
+
+	GoSaaS - Offshore
+
+	Development Consultant
+
+Iman Asif
+
+	GoSaaS - Offshore
+​
+
+	Self Service Procurement, Purchasing Consultant
+
+Bilal Shahid
+
+	GoSaaS - Offshore
+​
+
+	PIM Consultant
+
+Hassan Ashfaq
+
+	GoSaaS - Offshore
+​
+
+	Inventory Consultant
+
+Ahmad Iftikhar, Asad Zafar, Husnain Naeem
+
+	GoSaaS - Offshore
+​
+
+	Manufacturing / Maintenance Consultant(s)
+
+4 of 17
+Org Chart
+
+PMO
+
+PIM
+
+MFG
+
+Maintenance
+
+Procurement
+
+Development
+
+Financials
+
+SME’s
+​
+
+GoSaaS
+John Tolmachoff
+Andy Bargeron
+
+Twelve
+TBD
+TBD
+
+GoSaaS
+Quinn Casey
+Zainab Muhammed
+Younas Yaqoob
+
+Twelve
+TBD
+TBD
+
+Twelve
+Business
+IT
+
+GoSaaS
+Muhammad Bilal
+
+Twelve
+Business
+IT
+
+GoSaaS
+Ahmad Iftikhar
+
+Twelve
+Business
+IT
+
+GoSaaS
+Muhammad Asad Zafar
+Muhammad Husnain Naeem
+
+Twelve
+Business
+IT
+
+GoSaaS
+Iman Asif
+
+Twelve
+Business
+IT
+
+GoSaaS
+Naresh Amarnani, Rida Zahoor, Faizan Ahmad
+
+Twelve
+TBD
+
+Stakeholder’s / Sponsor’s
+​
+
+Twelve
+TBD
+TBD
+
+GoSaaS
+Muhammad Rizwan
+
+Inventory/Costing
+Twelve
+Business
+IT
+​
+GoSaaS
+Hassan Ashfaq
+Muhammad Zohaib
+
+Core Team
+
+5 of 17
+High Level Project Schedule
+
+6 of 17
+Phasing & High Level Scope
+
+5
+Deployment
+
+4
+Conference
+Room Pilot
+
+3
+Build
+
+2
+Design Workshops
+
+Production migrations
+Readiness
+Cutover
+Hypercare
+
+CRP 1 & 2
+UAT
+End User Training
+
+Configuration load
+RICE
+Sample Data Migration
+CRP Preparation
+Training Development
+
+New modules & impacts to existing modules (Financials, Prod Dev, PIM)
+Business Scenarios
+Process Flows
+Requirements
+RICE - Reports, Integrations, Conversions, Extensions
+Best Starts (Configurations)
+KDD’s
+Training Planning
+
+1
+Pre-Implementation Training
+
+​
+New / Changed Modules
+Self-Service Procurement
+Purchasing
+Supplier Portal
+Inventory Management
+Cost Management
+Expenses
+Sustainability
+Product Data Management
+Maintenance
+Manufacturing
+Overview of
+The Oracle Financials
+Oracle Product Development
+Oracle Prod Information Mgmt
+Coupa
+Begin Data Capturing:
+Best Starts
+Requirements
+
+Given the deployment approach will be unique for Twelve, we will position a more Iterative based approach based on the agreed Business Scenarios aligned with the scope.
+Refer to High Level Project Schedule slide for clarification
+
+7 of 17
+Phases and Activities - Design & Build
+
+Pre-Implementation Training
+
+Design Workshops
+
+Build
+
+Introduction to basic functionality of Oracle Modules to be implemented
+Familiarity with Oracle terminology and Forms
+Optimize Design Workshop Sessions
+
+Document Business Requirements for Processes / Modules in Scope
+Template driven Design Sessions (Best Start) utilizing leading practices
+Training Planning
+​
+​
+​
+
+GoSaaS will load data in Oracle Cloud (DEV or TEST)
+Twelve will extract, cleanse and format data into the required Oracle loader file format
+Training Development
+RICE Development
+
+Powerpoint Slides
+Online Walkthroughs
+
+Business Scenarios
+Requirements
+Best Start Templates (Configurations)
+Process Flows
+RICE Design Documents
+Training Plan
+​
+
+Report Design Documents
+Integration Design Documents
+Conversion Design Documents
+Extension Design Documents
+
+8 of 17
+Pre-Implementation Training
+
+Time
+
+	Tuesday (2/18)
+
+	Wednesday (2/19)
+
+	Thursday (2/20)
+
+	Friday (2/21)
+
+8AM
+
+	​
+
+	Inventory Management
+
+	Maintenance
+
+	SSP &
+Procurement
+
+9AM
+
+	Enterprise Structure
+
+10AM
+
+	Product Data Management
+
+	​
+
+	​
+
+	​
+
+11AM
+
+	Manufacturing
+
+	Costing
+
+	Payables
+
+12PM
+
+	​
+
+	Expenses
+
+1PM
+
+	​
+
+	​
+
+	​
+
+	​
+
+2PM
+
+	​
+
+	​
+
+	​
+
+	​
+
+All times are Pacific Time Zone
+
+Discuss Kickoff session in the week of February 10
+Daily sessions are group for like content
+
+9 of 17
+Design Workshop Approach
+
+By Process or Module
+
+Requirements
+
+Scenarios
+
+Twelve
+Draft Data
+
+L1
+Core Process
+
+Source to Settle
+
+L2
+Process
+
+Requisition to invoice
+
+L3
+Sub-Process
+
+Outputs / Deliverables
+
+Requirements - Updated
+
+Scenarios- Refined
+
+Process Flows - Updated
+
+RICE
+
+Design Decisions
+
+Manage Requisitions
+
+Best Start’s
+
+© 2024 GoSaaS, Inc. - Confidential or our internal use only
+
+10 of 17
+Key Design Decisions
+
+Tentative
+
+Finance
+Accounting Rules - Procure to Pay
+Requisitions
+Purchase Order
+PO Receipts
+Invoices (Update from current process for PO Matching)
+Approvals - Procure to Pay
+Requisitions
+Purchase Order
+Invoices (Update from current process, if needed)
+Expenses (if confirmed in scope)
+Costing
+Inventory
+Maintenance
+Manufacturing
+Enterprise Design - Purchasing & Requisition BU’s
+​
+
+Supply Chain Management
+Approvals
+Items
+Category Structures
+Requisitions
+Purchasing
+Commercial Change Orders(Update)
+Engineering Change Order(Update)
+Product Classification Structure (Item Categories)
+Manufacturing Structures
+Equipment Structures
+Inventory Organization Structure
+Costing
+Manufacturing
+Maintenance
+
+© 2024 GoSaaS, Inc. - Confidential or our internal use only
+
+11 of 17
+Design Workshop Schedule
+
+By Process / Module
+
+All times are Pacific Time Zone
+
+12 of 17
+Phases and Activities - CRP and Deployment
+
+CRP 2
+
+CRP 1
+
+UAT
+
+Go-Live & Hypercare
+
+CRP (System Integration Testing)
+2nd Test Cycle
+Full Test of Configurations & Data Migrations
+Security / Role Testing
+GoSaaS-provided CRP/UAT scripts
+GoSaaS-provided Training Documentation and will train Twelve’s trainers
+Twelve delivers end user training
+
+CRP1 (Oracle application- focused testing)
+First Test Cycle
+Full Test of Configuration
+Partial Data Migration
+No Security Restrictions
+No Integration Testing
+
+UAT Scripts
+Final Test Cycle
+Full Test of Configuration
+Security Testing
+Full Data Migration
+Integration Testing
+End User Training (include End Users not previously involved)
+
+Twelve will migrate configurations and data to Production, supported by GoSaaS
+Integrations deployed
+Users provisioned
+GoSaaS will provide Post Go Live Support (PGLS)
+
+​
+CRP1 Issue List
+Revised Best Start Templates
+Revised Data Mapping
+
+​
+UAT Issue List
+Finalize Cutover Plan
+Go / No-Go Decision
+
+13 of 17
+High Level CRP Approach
+
+Scenario Inventory
+
+Scripts
+
+Scripts
+
+Scripts
+
+Structured by Process
+i.e. Requisition Management,
+Order Management
+Item Management
+Receivables Management
+
+Requirements
+
+Design Artifact’s
+
+Scenarios
+
+Key Design Decisions
+
+Process Flows
+
+Configurations
+
+RICE Objects
+
+Addressing variants within Process
+
+Informs the CRP scope
+
+© 2024 GoSaaS, Inc. - Confidential or our internal use only
+
+14 of 17
+Next Steps
+
+Onboarding & System Provisioning and System Access for GoSaaS
+
+Project Governance
+Project Repository
+Status Updates
+
+Review and Confirm Project Plan
+Confirm Environments
+​
+
+Schedule Pre-Implementation Training & Design Workshops
+
+15 of 17
+Onboarding Activities & Action List
+
+Shared updated RTM - In Progress
+Refine Use Cases - In Progress
+Collect high level configurations for Coupa and Expensify - In Progress
+SharePoint / Teams Access - In Progress
+Approach to manage files and communications / meetings
+Who will send invites
+Oracle Instances access - In Progress
+Current enterprise structure
+Document Twelve resource involvement for Core (FTE) and extended people - In Progress
+Document Twelve resource capacity - In Progress
+Daily project working schedule
+2 FIN FTE’s available up to 15 hours/week
+Confirm SCM, IT, etc
+Finalize Pre-Implementation Training schedule and attendees - Done
+Finalize Design Workshop schedule - In Progress
+
+16 of 17
+Any Questions?
+
+17 of 17
+Thank you
+

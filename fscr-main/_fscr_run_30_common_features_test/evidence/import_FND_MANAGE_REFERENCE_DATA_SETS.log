@@ -1,0 +1,8 @@
+TaskCode: FND_MANAGE_REFERENCE_DATA_SETS (Manage Reference Data Sets); CSVExportImportSupportedFlag: Y
+Started setup task CSV import process: 100004736418702
+ProcessCompletedFlag: False; StatusCode: (no result yet); ResultCount: 0
+ProcessCompletedFlag: False; StatusCode: (no result yet); ResultCount: 0
+ProcessCompletedFlag: True; StatusCode: (no result yet); ResultCount: 0
+StatusCode: (unknown)
+Wrote ..\import_result\FND_MANAGE_REFERENCE_DATA_SETS\ETIA-TEST_setup_task_csv_import_fnd_manage_reference_data_sets_100004736418702.json
+Wrote ..\import_result\FND_MANAGE_REFERENCE_DATA_SETS\ETIA-TEST_setup_task_csv_import_fnd_manage_reference_data_sets_100004736418702_process_log.txt (1116 bytes)

@@ -1,0 +1,10 @@
+﻿TaskCode: ORA_PO_COMPLIANCE_CHECKLIST_SECTIONS (Manage Compliance Checklist Sections); CSVExportImportSupportedFlag: Y
+No matching pillar setup-task metadata found; using supplied or Fusion task context for export path.
+Started setup task CSV export process: 100004736418743
+ProcessCompletedFlag: False; StatusCode: (no result yet); ResultCount: 0
+ProcessCompletedFlag: False; StatusCode: (no result yet); ResultCount: 0
+ProcessCompletedFlag: False; StatusCode: (no result yet); ResultCount: 0
+ProcessCompletedFlag: True; StatusCode: (no result yet); ResultCount: 0
+StatusCode: (unknown)
+Retrieved: FileContent
+Wrote E:\GoSaaS\Configuration Automation v2.1\fscr-main\_fscr_run_33_procurement_test\export_before\ORA_PO_COMPLIANCE_CHECKLIST_SECTIONS\ETIA-TEST_setup_task_csv_export_ora_po_compliance_checklist_sections_100004736418743.zip (2610 bytes)

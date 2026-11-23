@@ -1,0 +1,11 @@
+{
+ "archiveName": "fscrt-tsrc-candidate.zip",
+ "rowCounts": {
+  "ORA_AR_TXN_BATCH_SOURCE.csv": 1,
+  "AR_BATCH_SOURCE.csv": 0
+ },
+ "operation": "create",
+ "names": [
+  "FSCRT_TS1"
+ ]
+}

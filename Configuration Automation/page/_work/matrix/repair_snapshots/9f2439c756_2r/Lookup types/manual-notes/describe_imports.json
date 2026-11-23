@@ -1,0 +1,433 @@
+{
+  "Resources" : {
+    "setupTaskCSVImports" : {
+      "discrColumnType" : false,
+      "usage" : "BusinessObject",
+      "attributes" : [ {
+        "name" : "TaskCode",
+        "type" : "string",
+        "updatable" : true,
+        "mandatory" : false,
+        "queryable" : true,
+        "allowChanges" : "always",
+        "precision" : 255,
+        "title" : "Task Code",
+        "maxLength" : "255",
+        "annotations" : {
+          "description" : "The unique code of the setup task for which the CSV data files are imported."
+        }
+      }, {
+        "name" : "ImportSupportedFlag",
+        "type" : "boolean",
+        "updatable" : true,
+        "mandatory" : false,
+        "queryable" : true,
+        "allowChanges" : "always",
+        "title" : "Import from CSV Support",
+        "annotations" : {
+          "description" : "Indicates whether CSV import is supported for the setup task."
+        }
+      } ],
+      "collection" : {
+        "rangeSize" : 25,
+        "finders" : [ {
+          "name" : "PrimaryKey",
+          "attributes" : [ {
+            "name" : "TaskCode",
+            "type" : "string",
+            "updatable" : true,
+            "mandatory" : false,
+            "queryable" : true,
+            "allowChanges" : "always",
+            "precision" : 255,
+            "title" : "Task Code",
+            "maxLength" : "255"
+          } ]
+        } ],
+        "links" : [ {
+          "rel" : "self",
+          "href" : "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/setupTaskCSVImports",
+          "name" : "self",
+          "kind" : "collection"
+        } ],
+        "actions" : [ {
+          "name" : "get",
+          "method" : "GET",
+          "responseType" : [ "application/vnd.oracle.adf.resourcecollection+json", "application/json" ]
+        }, {
+          "name" : "create",
+          "method" : "POST",
+          "requestType" : [ "application/vnd.oracle.adf.resourceitem+json", "application/json" ],
+          "responseType" : [ "application/vnd.oracle.adf.resourceitem+json", "application/json" ],
+          "annotations" : {
+            "title" : "Create a setup task CSV import"
+          }
+        } ]
+      },
+      "item" : {
+        "links" : [ {
+          "rel" : "child",
+          "href" : "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/setupTaskCSVImports/{id}/child/SetupTaskCSVImportProcess",
+          "name" : "SetupTaskCSVImportProcess",
+          "kind" : "collection",
+          "cardinality" : {
+            "value" : "1 to *",
+            "sourceAttributes" : "TaskCode",
+            "destinationAttributes" : "TaskCode"
+          }
+        }, {
+          "rel" : "self",
+          "href" : "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/setupTaskCSVImports/{id}",
+          "name" : "self",
+          "kind" : "item"
+        }, {
+          "rel" : "canonical",
+          "href" : "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/setupTaskCSVImports/{id}",
+          "name" : "canonical",
+          "kind" : "item"
+        } ],
+        "actions" : [ {
+          "name" : "get",
+          "method" : "GET",
+          "responseType" : [ "application/vnd.oracle.adf.resourceitem+json", "application/json" ],
+          "annotations" : {
+            "title" : "Get a setup task CSV import"
+          }
+        } ]
+      },
+      "annotations" : {
+        "description" : "Represents the functionality to import the CSV setup data relevant to a task."
+      },
+      "children" : {
+        "SetupTaskCSVImportProcess" : {
+          "discrColumnType" : false,
+          "attributes" : [ {
+            "name" : "ProcessId",
+            "type" : "integer",
+            "updatable" : true,
+            "mandatory" : false,
+            "queryable" : true,
+            "allowChanges" : "always",
+            "title" : "Process ID",
+            "annotations" : {
+              "description" : "The unique identifier of the setup task CSV import process."
+            }
+          }, {
+            "name" : "TaskCode",
+            "type" : "string",
+            "updatable" : true,
+            "mandatory" : false,
+            "queryable" : true,
+            "allowChanges" : "always",
+            "title" : "Task Code",
+            "annotations" : {
+              "description" : "The unique code of the setup task for the CSV import process."
+            }
+          }, {
+            "name" : "FileContent",
+            "type" : "attachment",
+            "updatable" : true,
+            "mandatory" : false,
+            "queryable" : true,
+            "allowChanges" : "inCreate",
+            "title" : "File Content",
+            "actions" : [ {
+              "name" : "get",
+              "method" : "GET",
+              "responseType" : [ "application/octet-stream" ]
+            } ],
+            "annotations" : {
+              "description" : "The .zip file containing the setup task CSV files."
+            }
+          }, {
+            "name" : "ProcessCompletedFlag",
+            "type" : "boolean",
+            "updatable" : true,
+            "mandatory" : false,
+            "queryable" : true,
+            "allowChanges" : "always",
+            "title" : "Process Complete",
+            "annotations" : {
+              "description" : "Indicates whether the setup task CSV import process is complete. This attribute doesn't have a default value."
+            }
+          }, {
+            "name" : "SourceTargetDiffOkFlag",
+            "type" : "boolean",
+            "updatable" : true,
+            "mandatory" : false,
+            "queryable" : true,
+            "allowChanges" : "always",
+            "precision" : 1,
+            "title" : "Option to Import Task Setup Data Although Revisions Mismatch",
+            "maxLength" : "1",
+            "annotations" : {
+              "description" : "Indicates an option to proceed with the import even if the revision of the imported task setup data is different from the revision of the target environment. If Y, the import process begins. If N, the import doesn't continue. The default value is N."
+            }
+          } ],
+          "collection" : {
+            "rangeSize" : 0,
+            "finders" : [ {
+              "name" : "PrimaryKey",
+              "attributes" : [ {
+                "name" : "ProcessId",
+                "type" : "integer",
+                "updatable" : true,
+                "mandatory" : false,
+                "queryable" : true,
+                "allowChanges" : "always",
+                "title" : "Process ID"
+              } ]
+            } ],
+            "links" : [ {
+              "rel" : "self",
+              "href" : "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/setupTaskCSVImports/{id}/child/SetupTaskCSVImportProcess",
+              "name" : "self",
+              "kind" : "collection"
+            } ],
+            "actions" : [ {
+              "name" : "get",
+              "method" : "GET",
+              "responseType" : [ "application/vnd.oracle.adf.resourcecollection+json", "application/json" ]
+            }, {
+              "name" : "create",
+              "method" : "POST",
+              "requestType" : [ "application/vnd.oracle.adf.resourceitem+json", "application/json" ],
+              "responseType" : [ "application/vnd.oracle.adf.resourceitem+json", "application/json" ],
+              "annotations" : {
+                "title" : "Create a setup task CSV import process"
+              }
+            } ]
+          },
+          "item" : {
+            "links" : [ {
+              "rel" : "child",
+              "href" : "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/setupTaskCSVImports/{id}/child/SetupTaskCSVImportProcess/{id}/child/SetupTaskCSVImportProcessResult",
+              "name" : "SetupTaskCSVImportProcessResult",
+              "kind" : "collection",
+              "cardinality" : {
+                "value" : "1 to *",
+                "sourceAttributes" : "ProcessId",
+                "destinationAttributes" : "ProcessId"
+              }
+            }, {
+              "rel" : "self",
+              "href" : "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/setupTaskCSVImports/{id}/child/SetupTaskCSVImportProcess/{id}",
+              "name" : "self",
+              "kind" : "item"
+            }, {
+              "rel" : "parent",
+              "href" : "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/setupTaskCSVImports/{id}",
+              "name" : "parent",
+              "kind" : "item"
+            }, {
+              "rel" : "canonical",
+              "href" : "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/setupTaskCSVImports/{id}/child/SetupTaskCSVImportProcess/{id}",
+              "name" : "canonical",
+              "kind" : "item"
+            }, {
+              "rel" : "enclosure",
+              "href" : "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/setupTaskCSVImports/{id}/child/SetupTaskCSVImportProcess/{id}/enclosure/FileContent",
+              "name" : "FileContent",
+              "kind" : "other"
+            } ],
+            "actions" : [ {
+              "name" : "get",
+              "method" : "GET",
+              "responseType" : [ "application/vnd.oracle.adf.resourceitem+json", "application/json" ]
+            } ]
+          },
+          "annotations" : {
+            "description" : "Captures details relevant to the process that imports the CSV data files for a task."
+          },
+          "children" : {
+            "SetupTaskCSVImportProcessResult" : {
+              "discrColumnType" : false,
+              "attributes" : [ {
+                "name" : "ProcessId",
+                "type" : "integer",
+                "updatable" : true,
+                "mandatory" : false,
+                "queryable" : true,
+                "allowChanges" : "always",
+                "title" : "Process ID",
+                "annotations" : {
+                  "description" : "The unique identifier of the setup task CSV import process result."
+                }
+              }, {
+                "name" : "ProcessName",
+                "type" : "string",
+                "updatable" : true,
+                "mandatory" : false,
+                "queryable" : true,
+                "allowChanges" : "always",
+                "title" : "Process Name",
+                "annotations" : {
+                  "description" : "Name of the setup task CSV import process."
+                }
+              }, {
+                "name" : "StatusCode",
+                "type" : "string",
+                "updatable" : true,
+                "mandatory" : false,
+                "queryable" : true,
+                "allowChanges" : "always",
+                "title" : "Status Code",
+                "annotations" : {
+                  "description" : "The status of the setup task CSV import process. The valid values are NOT_STARTED, IN_PROGRESS, COMPLETED, COMPLETED_WARNINGS, and COMPLETED_ERRORS."
+                }
+              }, {
+                "name" : "ProcessLog",
+                "type" : "attachment",
+                "updatable" : false,
+                "mandatory" : false,
+                "queryable" : true,
+                "allowChanges" : "never",
+                "title" : "Process Log",
+                "actions" : [ {
+                  "name" : "get",
+                  "method" : "GET",
+                  "responseType" : [ "application/octet-stream" ]
+                } ],
+                "annotations" : {
+                  "description" : "The log containing the processing details of each business object in the setup task CSV import process."
+                }
+              }, {
+                "name" : "ProcessResultsReport",
+                "type" : "attachment",
+                "updatable" : false,
+                "mandatory" : false,
+                "queryable" : true,
+                "allowChanges" : "never",
+                "title" : "Process Results Report",
+                "actions" : [ {
+                  "name" : "get",
+                  "method" : "GET",
+                  "responseType" : [ "application/octet-stream" ]
+                } ],
+                "annotations" : {
+                  "description" : "The report that contains the results for each business object of the task included in the CSV import process."
+                }
+              }, {
+                "name" : "ProcessResultsSummaryReport",
+                "type" : "attachment",
+                "updatable" : false,
+                "mandatory" : false,
+                "queryable" : true,
+                "allowChanges" : "never",
+                "title" : "Process Results Summary Report",
+                "actions" : [ {
+                  "name" : "get",
+                  "method" : "GET",
+                  "responseType" : [ "application/octet-stream" ]
+                } ],
+                "annotations" : {
+                  "description" : "The summary report for the setup task CSV import process."
+                }
+              } ],
+              "collection" : {
+                "rangeSize" : 0,
+                "finders" : [ {
+                  "name" : "PrimaryKey",
+                  "attributes" : [ {
+                    "name" : "ProcessId",
+                    "type" : "integer",
+                    "updatable" : true,
+                    "mandatory" : false,
+                    "queryable" : true,
+                    "allowChanges" : "always",
+                    "title" : "Process ID"
+                  } ]
+                } ],
+                "links" : [ {
+                  "rel" : "self",
+                  "href" : "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/setupTaskCSVImports/{id}/child/SetupTaskCSVImportProcess/{id}/child/SetupTaskCSVImportProcessResult",
+                  "name" : "self",
+                  "kind" : "collection"
+                } ],
+                "actions" : [ {
+                  "name" : "get",
+                  "method" : "GET",
+                  "responseType" : [ "application/vnd.oracle.adf.resourcecollection+json", "application/json" ]
+                } ]
+              },
+              "item" : {
+                "links" : [ {
+                  "rel" : "self",
+                  "href" : "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/setupTaskCSVImports/{id}/child/SetupTaskCSVImportProcess/{id}/child/SetupTaskCSVImportProcessResult/{id}",
+                  "name" : "self",
+                  "kind" : "item"
+                }, {
+                  "rel" : "parent",
+                  "href" : "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/setupTaskCSVImports/{id}/child/SetupTaskCSVImportProcess/{id}",
+                  "name" : "parent",
+                  "kind" : "item"
+                }, {
+                  "rel" : "canonical",
+                  "href" : "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/setupTaskCSVImports/{id}/child/SetupTaskCSVImportProcess/{id}/child/SetupTaskCSVImportProcessResult/{id}",
+                  "name" : "canonical",
+                  "kind" : "item"
+                }, {
+                  "rel" : "enclosure",
+                  "href" : "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/setupTaskCSVImports/{id}/child/SetupTaskCSVImportProcess/{id}/child/SetupTaskCSVImportProcessResult/{id}/enclosure/ProcessLog",
+                  "name" : "ProcessLog",
+                  "kind" : "other"
+                }, {
+                  "rel" : "enclosure",
+                  "href" : "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/setupTaskCSVImports/{id}/child/SetupTaskCSVImportProcess/{id}/child/SetupTaskCSVImportProcessResult/{id}/enclosure/ProcessResultsReport",
+                  "name" : "ProcessResultsReport",
+                  "kind" : "other"
+                }, {
+                  "rel" : "enclosure",
+                  "href" : "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/setupTaskCSVImports/{id}/child/SetupTaskCSVImportProcess/{id}/child/SetupTaskCSVImportProcessResult/{id}/enclosure/ProcessResultsSummaryReport",
+                  "name" : "ProcessResultsSummaryReport",
+                  "kind" : "other"
+                } ],
+                "actions" : [ {
+                  "name" : "get",
+                  "method" : "GET",
+                  "responseType" : [ "application/vnd.oracle.adf.resourceitem+json", "application/json" ]
+                } ]
+              },
+              "annotations" : {
+                "description" : "Provides details about an ongoing CSV import process for a task."
+              },
+              "links" : [ {
+                "rel" : "self",
+                "href" : "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/setupTaskCSVImports/{id}/child/SetupTaskCSVImportProcess/{id}/child/SetupTaskCSVImportProcessResult/describe",
+                "name" : "self",
+                "kind" : "describe"
+              }, {
+                "rel" : "canonical",
+                "href" : "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/setupTaskCSVImports/{id}/child/SetupTaskCSVImportProcess/{id}/child/SetupTaskCSVImportProcessResult/describe",
+                "name" : "canonical",
+                "kind" : "describe"
+              } ]
+            }
+          },
+          "links" : [ {
+            "rel" : "self",
+            "href" : "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/setupTaskCSVImports/{id}/child/SetupTaskCSVImportProcess/describe",
+            "name" : "self",
+            "kind" : "describe"
+          }, {
+            "rel" : "canonical",
+            "href" : "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/setupTaskCSVImports/{id}/child/SetupTaskCSVImportProcess/describe",
+            "name" : "canonical",
+            "kind" : "describe"
+          } ]
+        }
+      },
+      "links" : [ {
+        "rel" : "self",
+        "href" : "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/setupTaskCSVImports/describe",
+        "name" : "self",
+        "kind" : "describe"
+      }, {
+        "rel" : "canonical",
+        "href" : "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/setupTaskCSVImports/describe",
+        "name" : "canonical",
+        "kind" : "describe"
+      } ]
+    }
+  }
+}

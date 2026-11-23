@@ -1,0 +1,974 @@
+[
+ [
+  "Customers",
+  "Answered with a suggestion",
+  "PASS",
+  "asked (City), answered GOOD_1, created"
+ ],
+ [
+  "Customers",
+  "Answered with a typed value",
+  "PASS",
+  "BAD_TYPED refused in the panel, TYPED_OK created"
+ ],
+ [
+  "Customers",
+  "Skipped",
+  "PASS",
+  "skipped, not created, run ended, summary lists the decision"
+ ],
+ [
+  "Customers",
+  "Page refresh",
+  "PASS",
+  "question shown again on refresh (HTTP), answered after it, created"
+ ],
+ [
+  "Customers",
+  "Forced script failure -> repair",
+  "PASS",
+  "test switch failed it, repair started (budget $2.0), rerun created it"
+ ],
+ [
+  "Customers",
+  "Unknown refusal -> Claude proposes",
+  "PASS",
+  "Claude proposed CLAUDE_FIX (not applied), user accepted, created; summary shows tokens and cost"
+ ],
+ [
+  "Customers",
+  "Unknown refusal, Claude not signed in",
+  "PASS",
+  "Claude not signed in: not started, plain card with Oracle's reason"
+ ],
+ [
+  "Customers",
+  "Script failure in 1 of 2 records -> repair",
+  "PASS",
+  "the failed record repaired and created, the other untouched"
+ ],
+ [
+  "Order Types",
+  "Answered with a suggestion",
+  "PASS",
+  "asked (Meaning), answered GOOD_1, created"
+ ],
+ [
+  "Order Types",
+  "Answered with a typed value",
+  "PASS",
+  "BAD_TYPED refused in the panel, TYPED_OK created"
+ ],
+ [
+  "Order Types",
+  "Skipped",
+  "PASS",
+  "skipped, not created, run ended, summary lists the decision"
+ ],
+ [
+  "Order Types",
+  "Page refresh",
+  "PASS",
+  "question shown again on refresh (HTTP), answered after it, created"
+ ],
+ [
+  "Order Types",
+  "Forced script failure -> repair",
+  "PASS",
+  "test switch failed it, repair started (budget $2.0), rerun created it"
+ ],
+ [
+  "Order Types",
+  "Unknown refusal -> Claude proposes",
+  "PASS",
+  "Claude proposed CLAUDE_FIX (not applied), user accepted, created; summary shows tokens and cost"
+ ],
+ [
+  "Order Types",
+  "Unknown refusal, Claude not signed in",
+  "PASS",
+  "Claude not signed in: not started, plain card with Oracle's reason"
+ ],
+ [
+  "Order Types",
+  "Script failure in 1 of 2 records -> repair",
+  "PASS",
+  "the failed record repaired and created, the other untouched"
+ ],
+ [
+  "Payment Terms",
+  "Answered with a suggestion",
+  "PASS",
+  "asked (Row 1), answered GOOD_1, created"
+ ],
+ [
+  "Payment Terms",
+  "Answered with a typed value",
+  "PASS",
+  "BAD_TYPED refused in the panel, TYPED_OK created"
+ ],
+ [
+  "Payment Terms",
+  "Skipped",
+  "PASS",
+  "skipped, not created, run ended, summary lists the decision"
+ ],
+ [
+  "Payment Terms",
+  "Page refresh",
+  "PASS",
+  "question shown again on refresh (HTTP), answered after it, created"
+ ],
+ [
+  "Payment Terms",
+  "Forced script failure -> repair",
+  "PASS",
+  "test switch failed it, repair started (budget $2.0), rerun created it"
+ ],
+ [
+  "Payment Terms",
+  "Unknown refusal -> Claude proposes",
+  "PASS",
+  "Claude proposed CLAUDE_FIX (not applied), user accepted, created; summary shows tokens and cost"
+ ],
+ [
+  "Payment Terms",
+  "Unknown refusal, Claude not signed in",
+  "PASS",
+  "Claude not signed in: not started, plain card with Oracle's reason"
+ ],
+ [
+  "Payment Terms",
+  "Script failure in 1 of 2 records -> repair",
+  "PASS",
+  "the failed record repaired and created, the other untouched"
+ ],
+ [
+  "Lookup types",
+  "Answered with a suggestion",
+  "PASS",
+  "asked (Row 1), answered GOOD_1, created"
+ ],
+ [
+  "Lookup types",
+  "Answered with a typed value",
+  "PASS",
+  "BAD_TYPED refused in the panel, TYPED_OK created"
+ ],
+ [
+  "Lookup types",
+  "Skipped",
+  "PASS",
+  "skipped, not created, run ended, summary lists the decision"
+ ],
+ [
+  "Lookup types",
+  "Page refresh",
+  "PASS",
+  "question shown again on refresh (HTTP), answered after it, created"
+ ],
+ [
+  "Lookup types",
+  "Forced script failure -> repair",
+  "PASS",
+  "test switch failed it, repair started (budget $2.0), rerun created it"
+ ],
+ [
+  "Lookup types",
+  "Unknown refusal -> Claude proposes",
+  "PASS",
+  "Claude proposed CLAUDE_FIX (not applied), user accepted, created; summary shows tokens and cost"
+ ],
+ [
+  "Lookup types",
+  "Unknown refusal, Claude not signed in",
+  "PASS",
+  "Claude not signed in: not started, plain card with Oracle's reason"
+ ],
+ [
+  "Lookup types",
+  "Script failure in 1 of 2 records -> repair",
+  "PASS",
+  "the failed record repaired and created, the other untouched"
+ ],
+ [
+  "Business Units",
+  "Answered with a suggestion",
+  "PASS",
+  "asked (Location), answered GOOD_1, created"
+ ],
+ [
+  "Business Units",
+  "Answered with a typed value",
+  "PASS",
+  "BAD_TYPED refused in the panel, TYPED_OK created"
+ ],
+ [
+  "Business Units",
+  "Skipped",
+  "PASS",
+  "skipped, not created, run ended, summary lists the decision"
+ ],
+ [
+  "Business Units",
+  "Page refresh",
+  "PASS",
+  "question shown again on refresh (HTTP), answered after it, created"
+ ],
+ [
+  "Business Units",
+  "Forced script failure -> repair",
+  "PASS",
+  "test switch failed it, repair started (budget $2.0), rerun created it"
+ ],
+ [
+  "Business Units",
+  "Unknown refusal -> Claude proposes",
+  "PASS",
+  "Claude proposed CLAUDE_FIX (not applied), user accepted, created; summary shows tokens and cost"
+ ],
+ [
+  "Business Units",
+  "Unknown refusal, Claude not signed in",
+  "PASS",
+  "Claude not signed in: not started, plain card with Oracle's reason"
+ ],
+ [
+  "Business Units",
+  "Script failure in 1 of 2 records -> repair",
+  "PASS",
+  "the failed record repaired and created, the other untouched"
+ ],
+ [
+  "Price Lists",
+  "Answered with a suggestion",
+  "PASS",
+  "asked (Currency), answered GOOD_1, created"
+ ],
+ [
+  "Price Lists",
+  "Answered with a typed value",
+  "PASS",
+  "BAD_TYPED refused in the panel, TYPED_OK created"
+ ],
+ [
+  "Price Lists",
+  "Skipped",
+  "PASS",
+  "skipped, not created, run ended, summary lists the decision"
+ ],
+ [
+  "Price Lists",
+  "Page refresh",
+  "PASS",
+  "question shown again on refresh (HTTP), answered after it, created"
+ ],
+ [
+  "Price Lists",
+  "Forced script failure -> repair",
+  "PASS",
+  "test switch failed it, repair started (budget $2.0), rerun created it"
+ ],
+ [
+  "Price Lists",
+  "Unknown refusal -> Claude proposes",
+  "PASS",
+  "Claude proposed CLAUDE_FIX (not applied), user accepted, created; summary shows tokens and cost"
+ ],
+ [
+  "Price Lists",
+  "Unknown refusal, Claude not signed in",
+  "PASS",
+  "Claude not signed in: not started, plain card with Oracle's reason"
+ ],
+ [
+  "Price Lists",
+  "Script failure in 1 of 2 records -> repair",
+  "PASS",
+  "the failed record repaired and created, the other untouched"
+ ],
+ [
+  "Receivables Payment Terms",
+  "Answered with a suggestion",
+  "PASS",
+  "asked (Row 1), answered GOOD_1, created"
+ ],
+ [
+  "Receivables Payment Terms",
+  "Answered with a typed value",
+  "PASS",
+  "BAD_TYPED refused in the panel, TYPED_OK created"
+ ],
+ [
+  "Receivables Payment Terms",
+  "Skipped",
+  "PASS",
+  "skipped, not created, run ended, summary lists the decision"
+ ],
+ [
+  "Receivables Payment Terms",
+  "Page refresh",
+  "PASS",
+  "question shown again on refresh (HTTP), answered after it, created"
+ ],
+ [
+  "Receivables Payment Terms",
+  "Forced script failure -> repair",
+  "PASS",
+  "test switch failed it, repair started (budget $2.0), rerun created it"
+ ],
+ [
+  "Receivables Payment Terms",
+  "Unknown refusal -> Claude proposes",
+  "PASS",
+  "Claude proposed CLAUDE_FIX (not applied), user accepted, created; summary shows tokens and cost"
+ ],
+ [
+  "Receivables Payment Terms",
+  "Unknown refusal, Claude not signed in",
+  "PASS",
+  "Claude not signed in: not started, plain card with Oracle's reason"
+ ],
+ [
+  "Receivables Payment Terms",
+  "Script failure in 1 of 2 records -> repair",
+  "PASS",
+  "the failed record repaired and created, the other untouched"
+ ],
+ [
+  "AutoInvoice Grouping Rules",
+  "Answered with a suggestion",
+  "PASS",
+  "asked (Row 1), answered GOOD_1, created"
+ ],
+ [
+  "AutoInvoice Grouping Rules",
+  "Answered with a typed value",
+  "PASS",
+  "BAD_TYPED refused in the panel, TYPED_OK created"
+ ],
+ [
+  "AutoInvoice Grouping Rules",
+  "Skipped",
+  "PASS",
+  "skipped, not created, run ended, summary lists the decision"
+ ],
+ [
+  "AutoInvoice Grouping Rules",
+  "Page refresh",
+  "PASS",
+  "question shown again on refresh (HTTP), answered after it, created"
+ ],
+ [
+  "AutoInvoice Grouping Rules",
+  "Forced script failure -> repair",
+  "PASS",
+  "test switch failed it, repair started (budget $2.0), rerun created it"
+ ],
+ [
+  "AutoInvoice Grouping Rules",
+  "Unknown refusal -> Claude proposes",
+  "PASS",
+  "Claude proposed CLAUDE_FIX (not applied), user accepted, created; summary shows tokens and cost"
+ ],
+ [
+  "AutoInvoice Grouping Rules",
+  "Unknown refusal, Claude not signed in",
+  "PASS",
+  "Claude not signed in: not started, plain card with Oracle's reason"
+ ],
+ [
+  "AutoInvoice Grouping Rules",
+  "Script failure in 1 of 2 records -> repair",
+  "PASS",
+  "the failed record repaired and created, the other untouched"
+ ],
+ [
+  "Transaction Sources",
+  "Answered with a suggestion",
+  "PASS",
+  "asked (Item Description), answered GOOD_1, created"
+ ],
+ [
+  "Transaction Sources",
+  "Answered with a typed value",
+  "PASS",
+  "BAD_TYPED refused in the panel, TYPED_OK created"
+ ],
+ [
+  "Transaction Sources",
+  "Skipped",
+  "PASS",
+  "skipped, not created, run ended, summary lists the decision"
+ ],
+ [
+  "Transaction Sources",
+  "Page refresh",
+  "PASS",
+  "question shown again on refresh (HTTP), answered after it, created"
+ ],
+ [
+  "Transaction Sources",
+  "Forced script failure -> repair",
+  "PASS",
+  "test switch failed it, repair started (budget $2.0), rerun created it"
+ ],
+ [
+  "Transaction Sources",
+  "Unknown refusal -> Claude proposes",
+  "PASS",
+  "Claude proposed CLAUDE_FIX (not applied), user accepted, created; summary shows tokens and cost"
+ ],
+ [
+  "Transaction Sources",
+  "Unknown refusal, Claude not signed in",
+  "PASS",
+  "Claude not signed in: not started, plain card with Oracle's reason"
+ ],
+ [
+  "Transaction Sources",
+  "Script failure in 1 of 2 records -> repair",
+  "PASS",
+  "the failed record repaired and created, the other untouched"
+ ],
+ [
+  "Transaction Types",
+  "Answered with a suggestion",
+  "PASS",
+  "asked (Item Description), answered GOOD_1, created"
+ ],
+ [
+  "Transaction Types",
+  "Answered with a typed value",
+  "PASS",
+  "BAD_TYPED refused in the panel, TYPED_OK created"
+ ],
+ [
+  "Transaction Types",
+  "Skipped",
+  "PASS",
+  "skipped, not created, run ended, summary lists the decision"
+ ],
+ [
+  "Transaction Types",
+  "Page refresh",
+  "PASS",
+  "question shown again on refresh (HTTP), answered after it, created"
+ ],
+ [
+  "Transaction Types",
+  "Forced script failure -> repair",
+  "PASS",
+  "test switch failed it, repair started (budget $2.0), rerun created it"
+ ],
+ [
+  "Transaction Types",
+  "Unknown refusal -> Claude proposes",
+  "PASS",
+  "Claude proposed CLAUDE_FIX (not applied), user accepted, created; summary shows tokens and cost"
+ ],
+ [
+  "Transaction Types",
+  "Unknown refusal, Claude not signed in",
+  "PASS",
+  "Claude not signed in: not started, plain card with Oracle's reason"
+ ],
+ [
+  "Transaction Types",
+  "Script failure in 1 of 2 records -> repair",
+  "PASS",
+  "the failed record repaired and created, the other untouched"
+ ],
+ [
+  "Customers",
+  "Check can't run -> re-runs, real reason",
+  "PASS",
+  "3 tries, then under Oracle: The customers couldn't be checked with Oracle: Oracle's Setu..."
+ ],
+ [
+  "Customers",
+  "Check fails once -> re-run answers",
+  "PASS",
+  "failed once, the automatic re-run answered"
+ ],
+ [
+  "Order Types",
+  "Check can't run -> re-runs, real reason",
+  "PASS",
+  "3 tries, then under Oracle: The order types couldn't be checked with Oracle: Oracle's Se..."
+ ],
+ [
+  "Order Types",
+  "Check fails once -> re-run answers",
+  "PASS",
+  "failed once, the automatic re-run answered"
+ ],
+ [
+  "Payment Terms",
+  "Check can't run -> re-runs, real reason",
+  "PASS",
+  "3 tries, then under Oracle: The payment terms couldn't be checked with Oracle: Oracle's ..."
+ ],
+ [
+  "Payment Terms",
+  "Check fails once -> re-run answers",
+  "PASS",
+  "failed once, the automatic re-run answered"
+ ],
+ [
+  "Lookup types",
+  "Check can't run -> re-runs, real reason",
+  "PASS",
+  "3 tries, then under Oracle: The lookup types couldn't be checked with Oracle: Oracle's S..."
+ ],
+ [
+  "Lookup types",
+  "Check fails once -> re-run answers",
+  "PASS",
+  "failed once, the automatic re-run answered"
+ ],
+ [
+  "Business Units",
+  "Check can't run -> re-runs, real reason",
+  "PASS",
+  "3 tries, then under Oracle: The business units couldn't be checked with Oracle: Oracle's..."
+ ],
+ [
+  "Business Units",
+  "Check fails once -> re-run answers",
+  "PASS",
+  "failed once, the automatic re-run answered"
+ ],
+ [
+  "Price Lists",
+  "Check can't run -> re-runs, real reason",
+  "PASS",
+  "3 tries, then under Oracle: The price lists couldn't be checked with Oracle: Oracle's Se..."
+ ],
+ [
+  "Price Lists",
+  "Check fails once -> re-run answers",
+  "PASS",
+  "failed once, the automatic re-run answered"
+ ],
+ [
+  "Receivables Payment Terms",
+  "Check can't run -> re-runs, real reason",
+  "PASS",
+  "3 tries, then under Oracle: The receivables payment terms couldn't be checked with Oracl..."
+ ],
+ [
+  "Receivables Payment Terms",
+  "Check fails once -> re-run answers",
+  "PASS",
+  "failed once, the automatic re-run answered"
+ ],
+ [
+  "AutoInvoice Grouping Rules",
+  "Check can't run -> re-runs, real reason",
+  "PASS",
+  "3 tries, then under Oracle: The autoinvoice grouping rules couldn't be checked with Orac..."
+ ],
+ [
+  "AutoInvoice Grouping Rules",
+  "Check fails once -> re-run answers",
+  "PASS",
+  "failed once, the automatic re-run answered"
+ ],
+ [
+  "Transaction Sources",
+  "Check can't run -> re-runs, real reason",
+  "PASS",
+  "3 tries, then under Oracle: The transaction sources couldn't be checked with Oracle: Ora..."
+ ],
+ [
+  "Transaction Sources",
+  "Check fails once -> re-run answers",
+  "PASS",
+  "failed once, the automatic re-run answered"
+ ],
+ [
+  "Transaction Types",
+  "Check can't run -> re-runs, real reason",
+  "PASS",
+  "3 tries, then under Oracle: The transaction types couldn't be checked with Oracle: Oracl..."
+ ],
+ [
+  "Transaction Types",
+  "Check fails once -> re-run answers",
+  "PASS",
+  "failed once, the automatic re-run answered"
+ ],
+ [
+  "Receivables folder",
+  "Happy path, 2 installments + discount",
+  "PASS",
+  "checked, created in one go (1 header, 2 lines, 1 discount, 1 name row), read back as sent; rerun skipped"
+ ],
+ [
+  "Receivables folder",
+  "Name over 15 characters",
+  "PASS",
+  "Name is longer than 15 characters (Oracle's limit for Receivables paym"
+ ],
+ [
+  "Receivables folder",
+  "Installments not adding up",
+  "PASS",
+  "The installments add up to 90, but Base Amount is 100. They must add up to exact"
+ ],
+ [
+  "Receivables folder",
+  "Missing / zero Print Lead Days",
+  "PASS",
+  "This term has 2 installments, so Print Lead Days is needed (; 0 refused; one installment needs neither"
+ ],
+ [
+  "Receivables folder",
+  "Missing Tax and Freight",
+  "PASS",
+  "This term has 2 installments: choose Tax and Freight (first installment, or acro"
+ ],
+ [
+  "Receivables folder",
+  "Duplicate name in the same set -> skipped",
+  "PASS",
+  "exact name + set skipped; same name in set S1 is new; twice in the sheet red on the later row"
+ ],
+ [
+  "Receivables folder",
+  "Capitals-only match -> yellow note",
+  "PASS",
+  "Oracle has '30 Net' in set COMMON, which differs only in capitals or spaces. Thi"
+ ],
+ [
+  "Receivables folder",
+  "To Date not after From Date",
+  "PASS",
+  "To Date must be after the From Date. (also when equal)"
+ ],
+ [
+  "Receivables folder",
+  "Amount Due rules (share, one due date)",
+  "PASS",
+  "an amount line of 0 refused (not money); Day of Month without Months Ahead; two due dates; none"
+ ],
+ [
+  "Receivables folder",
+  "Discount rules",
+  "PASS",
+  "basis needed; same % twice; 0-100; order; 4th refused; DoM needs months; F/T labels not offered; 3 fine"
+ ],
+ [
+  "Receivables folder",
+  "Refused value at Create -> pause and ask",
+  "PASS",
+  "Oracle refused set ZZ_NOT_FOR_AR: asked (Set Code, suggestions COMMON ...), answered COMMON, created"
+ ],
+ [
+  "Receivables folder",
+  "Template with a different entity order",
+  "PASS",
+  "template entity order reversed and shuffled: file follows it, created and read back as sent"
+ ],
+ [
+  "Receivables folder",
+  "Template not as known -> plain stop",
+  "PASS",
+  "no DISCOUNT entity / other release: plain stop, nothing built; template refused: data file layout, said so"
+ ],
+ [
+  "Receivables folder",
+  "Base language none / several",
+  "PASS",
+  "Oracle's language for payment term names couldn't be decided (it has n / several"
+ ],
+ [
+  "Receivables folder",
+  "Route refused -> plain card, no other way",
+  "PASS",
+  "plain card (route refused, nothing created, no other way tried); no repair, no question"
+ ],
+ [
+  "Receivables folder",
+  "Check can't run -> re-runs, real reason",
+  "PASS",
+  "3 tries, then under Oracle: The receivables payment terms couldn't be checked with Oracle: Oracle ..."
+ ],
+ [
+  "Receivables folder",
+  "Preview of a sheet through the page",
+  "PASS",
+  "good OK with summary; long name, sum red; capitals yellow; existing skipped; DoM red on its own line row (11); To Date red; only this module has rows (the other Receivables module: empty-module line)"
+ ],
+ [
+  "Receivables folder",
+  "Layout units on FSCR's ETIA-TEST files",
+  "PASS",
+  "ETIA-TEST template read (order LINE, TERM, TRANSLATION, DISCOUNT); FSCR's accepted term rebuilt value for value and byte for byte; its read-back: every value as sent, 10 other terms unchanged; slash = ISO date; reversed template followed; extra link column kept empty, unknown column stops"
+ ],
+ [
+  "Grouping rules folder",
+  "Happy path, Corsair OEM rule",
+  "PASS",
+  "checked, created in one go (1 rule, 3 classes, 1 characteristic), read back as sent; rerun skipped"
+ ],
+ [
+  "Grouping rules folder",
+  "Name and description rules",
+  "PASS",
+  "41 characters, ORA_ prefix, outer space, description over 80: each red"
+ ],
+ [
+  "Grouping rules folder",
+  "From / To Date",
+  "PASS",
+  "From Date missing red (never defaulted); To Date before red; equal allowed (FSCR: on or after)"
+ ],
+ [
+  "Grouping rules folder",
+  "Class rows",
+  "PASS",
+  "class missing / unknown / twice, characteristic twice: red; code I + characteristic row = one class; none: note"
+ ],
+ [
+  "Grouping rules folder",
+  "Characteristic not in Oracle -> red",
+  "PASS",
+  "Class row 1: no grouping rule in Oracle uses characteristic 'PURCHASE_...: red, fix lists Oracle's names; capitals suggest the exact name"
+ ],
+ [
+  "Grouping rules folder",
+  "Existing / capitals / twice",
+  "PASS",
+  "existing name skipped; capitals-only match yellow; twice in the sheet red on the later row"
+ ],
+ [
+  "Grouping rules folder",
+  "Refused value at Create -> pause and ask",
+  "PASS",
+  "Oracle refused ATTRIBUTE7 (stub: consolidated billing only): asked, answered ATTRIBUTE2, created"
+ ],
+ [
+  "Grouping rules folder",
+  "Template with a different entity order",
+  "PASS",
+  "template entity order reversed and shuffled: file follows it, created and read back as sent"
+ ],
+ [
+  "Grouping rules folder",
+  "Template not as known -> plain stop",
+  "PASS",
+  "no characteristic entity / other release: plain stop; template refused: data file layout, said so"
+ ],
+ [
+  "Grouping rules folder",
+  "Route refused -> plain card, no other way",
+  "PASS",
+  "plain card (route refused, nothing created, no other way tried); no repair, no question"
+ ],
+ [
+  "Grouping rules folder",
+  "Check can't run -> re-runs, real reason",
+  "PASS",
+  "3 tries, then under Oracle: The autoinvoice grouping rules couldn't be checked with Oracle: Oracle..."
+ ],
+ [
+  "Grouping rules folder",
+  "Preview of a Corsair sheet through the page",
+  "PASS",
+  "good OK with summary; unknown characteristic red on its class row (7); existing skipped; ORA_ red; From Date red; only this module has rows (the other Receivables module: empty-module line)"
+ ],
+ [
+  "Grouping rules folder",
+  "Layout units on ETIA-TEST's real template",
+  "PASS",
+  "ETIA-TEST template read (entities TYPE, REQUEST, RULE; zip RULE, TYPE, REQUEST); file = its members and metadata byte for byte; slash date = ISO on read-back; a characteristic Oracle dropped is a mismatch; extra link column kept empty; unknown column stops"
+ ],
+ [
+  "Transaction sources folder",
+  "Happy path, Manual source",
+  "PASS",
+  "checked, created (1 row, create target only), read back from AR_BATCH_SOURCE as sent; rerun skipped"
+ ],
+ [
+  "Transaction sources folder",
+  "Read-back when the data file hides it",
+  "PASS",
+  "a new source the data file doesn't list: found in Oracle's source list, name/set/description checked and said so; rerun skipped; a refused one still 'nothing saved'"
+ ],
+ [
+  "Transaction sources folder",
+  "Field rules and FSCR defaults",
+  "PASS",
+  "ORA_, outer space, no description, no From Date, Last Number missing / 0 / 1.5 / with numbering No, bad Type and Status: red; FSCR's four defaults filled in and shown"
+ ],
+ [
+  "Transaction sources folder",
+  "Existing / capitals / other set / twice / set",
+  "PASS",
+  "existing source skipped, from the source list and from the data file; capitals yellow; other set new; twice red; unknown set red"
+ ],
+ [
+  "Transaction sources folder",
+  "Grouping rule already in Oracle / nowhere / Manual",
+  "PASS",
+  "rule already in Oracle: OK; rule nowhere: red, fix lists Oracle's rules; rule on a Manual source: red"
+ ],
+ [
+  "Transaction sources folder",
+  "Grouping rule on the sheet (pending)",
+  "PASS",
+  "rule on the sheet: preview OK with 'created first'; at Create the rule still missing: not sent, nothing saved"
+ ],
+ [
+  "Transaction sources folder",
+  "Refused value at Create -> pause and ask",
+  "PASS",
+  "Oracle refused set ZZ_NOT_FOR_TS: asked (Set Code, COMMON suggested), answered, created"
+ ],
+ [
+  "Transaction sources folder",
+  "Template with a different entity order",
+  "PASS",
+  "template entity order reversed (AR_BATCH_SOURCE, ORA_AR_TXN_BATCH_SOURCE): file follows it, created and read back"
+ ],
+ [
+  "Transaction sources folder",
+  "Template not as known -> plain stop",
+  "PASS",
+  "no AR_BATCH_SOURCE / other release: plain stop; template refused: data file layout, said so"
+ ],
+ [
+  "Transaction sources folder",
+  "Route refused -> plain card, no other way",
+  "PASS",
+  "plain card (route refused, nothing created, no other way tried); no repair, no question"
+ ],
+ [
+  "Transaction sources folder",
+  "Check can't run -> re-runs, real reason",
+  "PASS",
+  "3 tries, then under Oracle: The transaction sources couldn't be checked with Oracle: Ora..."
+ ],
+ [
+  "Transaction sources folder",
+  "Rule + source in one upload (depends_on)",
+  "PASS",
+  "rule + source in one upload: rule created first, source then created with it; rule refused and skipped by the user: source held, then not sent (nothing sent for it)"
+ ],
+ [
+  "Transaction sources folder",
+  "Preview of a sheet with both modules",
+  "PASS",
+  "rule on the sheet: source OK with 'created first' note; rule nowhere: red; rule on Manual: red; no description: red; modules grouping rules then sources"
+ ],
+ [
+  "Transaction sources folder",
+  "Layout units",
+  "PASS",
+  "template read (ORA_AR_TXN_BATCH_SOURCE, AR_BATCH_SOURCE); file = its members and metadata, AR_BATCH_SOURCE header only; read-back finds the source in AR_BATCH_SOURCE (slash date = ISO); a missing one isn't saved; rule names read"
+ ],
+ [
+  "Transaction types folder",
+  "Happy path, Invoice type",
+  "PASS",
+  "checked, created (1 row, accounts header only), read back as sent (slash dates); rerun skipped"
+ ],
+ [
+  "Transaction types folder",
+  "Read-back when the data file hides it",
+  "PASS",
+  "a new type the data file doesn't list: found in Oracle's type list, name/set/description checked and said so; rerun skipped; a refused one still 'nothing saved'"
+ ],
+ [
+  "Transaction types folder",
+  "Field rules, nothing defaulted",
+  "PASS",
+  "13 required fields each asked (never defaulted); Name 21 / Description 81 red with counts, 20 / 80 OK; Credit Memo not offered; DM code OK; natural + overapplication; sign, status, D, dates, flags, term pairs"
+ ],
+ [
+  "Transaction types folder",
+  "Existing / capitals / other set / twice / set",
+  "PASS",
+  "existing type skipped (from the type list and from the data file); capitals yellow; other set new; twice red; unknown set red"
+ ],
+ [
+  "Transaction types folder",
+  "Payment term in Oracle / nowhere / other set",
+  "PASS",
+  "term in Oracle: OK; term nowhere: red, fix lists Oracle's terms; term in another set: red, says where; bad term set: red"
+ ],
+ [
+  "Transaction types folder",
+  "Payment term on the sheet (pending)",
+  "PASS",
+  "term on the sheet: preview OK with 'created first'; at Create the term still missing: not sent, nothing saved"
+ ],
+ [
+  "Transaction types folder",
+  "Refused value at Create -> pause and ask",
+  "PASS",
+  "Oracle refused set ZZ_NOT_FOR_TT: asked (Set Code, COMMON suggested), answered, created"
+ ],
+ [
+  "Transaction types folder",
+  "Template with a different entity order",
+  "PASS",
+  "template entity order reversed (AR_REF_ACCT_TRX_TYPE, AR_TRANSACTION_TYPE): file follows it, created and read back"
+ ],
+ [
+  "Transaction types folder",
+  "Template not as known -> plain stop",
+  "PASS",
+  "no AR_REF_ACCT_TRX_TYPE / other release: plain stop; template refused: data file layout, said so"
+ ],
+ [
+  "Transaction types folder",
+  "Route refused -> plain card, no other way",
+  "PASS",
+  "plain card (route refused, nothing created, no other way tried); no repair, no question"
+ ],
+ [
+  "Transaction types folder",
+  "Check can't run -> re-runs, real reason",
+  "PASS",
+  "3 tries, then under Oracle: The transaction types couldn't be checked with Oracle: Oracl..."
+ ],
+ [
+  "Transaction types folder",
+  "Term + type in one upload (depends_on)",
+  "PASS",
+  "payment term + type in one upload: term created first, type then created with it; term refused and skipped by the user: type held, then not sent (nothing sent for it)"
+ ],
+ [
+  "Transaction types folder",
+  "Preview of a sheet with both modules",
+  "PASS",
+  "term on the sheet: type OK with 'created first' note; term nowhere: red; debit memo OK; an empty required flag: red (never defaulted); modules payment terms then types"
+ ],
+ [
+  "Transaction types folder",
+  "Layout units",
+  "PASS",
+  "template read (AR_TRANSACTION_TYPE, AR_REF_ACCT_TRX_TYPE); file = its members and metadata, accounts header only; read-back as sent (slash dates = ISO); a missing one isn't saved; account rows noted; term names + sets read"
+ ],
+ [
+  "Sign-in gate",
+  "Which sheets need the sign-in",
+  "PASS",
+  "four Receivables modules: no sign-in; each Order Management module alone or mixed in: sign-in; empty: as before"
+ ],
+ [
+  "Sign-in gate",
+  "Receivables-only sheet, sign-in expired",
+  "PASS",
+  "expired sign-in: Receivables sheet checked in full, Create ran, sign-in never checked, no window"
+ ],
+ [
+  "Sign-in gate",
+  "Order Management sheet, sign-in expired",
+  "PASS",
+  "expired sign-in: Order Management sheet waits for the sign-in window; Create of a mixed sheet asks for it too"
+ ]
+]

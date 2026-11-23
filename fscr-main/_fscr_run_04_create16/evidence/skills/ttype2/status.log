@@ -1,0 +1,11 @@
+| Data Set | Status | Total | Loaded | Failed |
+|---|---|---:|---:|---:|
+| fscrt-ttype2-candidate.zip | ✅ Succeeded | 2 | 2 | 0 |
+
+FSM Process Logs:
+
+| Data Set | File |
+|---|---|
+| fscrt-ttype2-candidate.zip | [fscrt-ttype2-candidate.zip-fsm-100004734412796-1.log](C:\Users\PC\.codex\data-loader-status-logs\requestid-4432197\fscrt-ttype2-candidate.zip-fsm-100004734412796-1.log) |
+
+--stderr--

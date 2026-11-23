@@ -1,0 +1,4185 @@
+{
+ "items": [
+  {
+   "PriceListName": "TESTPRICE1000",
+   "PriceListId": "300000393897818",
+   "PriceListDescription": null,
+   "PriceListType": "Segment price list",
+   "PriceListTypeCode": "SEGMENT",
+   "BusinessUnit": "TESTBU1000",
+   "BusinessUnitId": "300000393755705",
+   "Currency": "Pakistan Rupee",
+   "CurrencyCode": "PKR",
+   "Status": "Approved",
+   "StatusCode": "APPROVED",
+   "StartDate": "2026-10-20T19:00:00+00:00",
+   "EndDate": null,
+   "EntityApprovalStatus": null,
+   "EntityApprovalStatusCode": null,
+   "PricingChargeDefinition": null,
+   "PricingChargeDefinitionCode": null,
+   "PricingChargeDefinitionId": null,
+   "LineType": "Buy",
+   "LineTypeCode": "ORA_BUY",
+   "CalculationMethod": "Price",
+   "CalculationMethodCode": "PRICE",
+   "CreationDate": "2026-10-22T16:09:11.001+00:00",
+   "CreatedBy": "Configuration.TEST",
+   "LastUpdateDate": "2026-10-22T16:09:13+00:00",
+   "LastUpdatedBy": "Configuration.TEST",
+   "ChangeTypeCode": null,
+   "ChangeType": null,
+   "accessSets": {
+    "items": [
+     {
+      "PriceListSetId": "300000393985343",
+      "PriceListId": "300000393897818",
+      "AccessSetName": "Enterprise Set",
+      "AccessSetCode": "ENTERPRISE",
+      "AccessSetId": "300000000003463",
+      "AccessSetDescription": null,
+      "EntityApprovalStatus": null,
+      "EntityApprovalStatusCode": null,
+      "CreationDate": "2026-10-22T16:09:12+00:00",
+      "CreatedBy": "Configuration.TEST",
+      "LastUpdateDate": "2026-10-22T16:09:12.037+00:00",
+      "LastUpdatedBy": "Configuration.TEST",
+      "ChangeTypeCode": null,
+      "ChangeType": null,
+      "@context": {
+       "key": "300000393985343",
+       "headers": {
+        "ETag": "ACED0005737200136A6176612E7574696C2E41727261794C6973747881D21D99C7619D03000149000473697A65787000000001770400000001737200116A6176612E6C616E672E496E746567657212E2A0A4F781873802000149000576616C7565787200106A6176612E6C616E672E4E756D62657286AC951D0B94E08B02000078700000000178"
+       }
+      }
+     }
+    ],
+    "count": 1,
+    "hasMore": false,
+    "limit": 500,
+    "offset": 0,
+    "links": [
+     {
+      "rel": "self",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/priceLists/300000393897818/child/accessSets",
+      "name": "accessSets",
+      "kind": "collection"
+     }
+    ]
+   },
+   "@context": {
+    "key": "300000393897818",
+    "headers": {
+     "ETag": "ACED0005737200136A6176612E7574696C2E41727261794C6973747881D21D99C7619D03000149000473697A65787000000001770400000001737200116A6176612E6C616E672E496E746567657212E2A0A4F781873802000149000576616C7565787200106A6176612E6C616E672E4E756D62657286AC951D0B94E08B02000078700000000278"
+    }
+   }
+  },
+  {
+   "PriceListName": "ZZ_SHEET_PL_8003_NEWBU2",
+   "PriceListId": "300000394372463",
+   "PriceListDescription": null,
+   "PriceListType": "Segment price list",
+   "PriceListTypeCode": "SEGMENT",
+   "BusinessUnit": "ZZ_SHEET_BU_8970",
+   "BusinessUnitId": "300000394385006",
+   "Currency": "US Dollar",
+   "CurrencyCode": "USD",
+   "Status": "Approved",
+   "StatusCode": "APPROVED",
+   "StartDate": "2026-11-01T04:00:00+00:00",
+   "EndDate": null,
+   "EntityApprovalStatus": null,
+   "EntityApprovalStatusCode": null,
+   "PricingChargeDefinition": null,
+   "PricingChargeDefinitionCode": null,
+   "PricingChargeDefinitionId": null,
+   "LineType": "Buy",
+   "LineTypeCode": "ORA_BUY",
+   "CalculationMethod": "Price",
+   "CalculationMethodCode": "PRICE",
+   "CreationDate": "2026-10-26T12:40:18+00:00",
+   "CreatedBy": "Configuration.TEST",
+   "LastUpdateDate": "2026-10-26T12:40:20+00:00",
+   "LastUpdatedBy": "Configuration.TEST",
+   "ChangeTypeCode": null,
+   "ChangeType": null,
+   "accessSets": {
+    "items": [
+     {
+      "PriceListSetId": "300000394356183",
+      "PriceListId": "300000394372463",
+      "AccessSetName": "001 Customer Site",
+      "AccessSetCode": "001 CUSTOMER SITE",
+      "AccessSetId": "300000332869080",
+      "AccessSetDescription": null,
+      "EntityApprovalStatus": null,
+      "EntityApprovalStatusCode": null,
+      "CreationDate": "2026-10-26T12:40:19+00:00",
+      "CreatedBy": "Configuration.TEST",
+      "LastUpdateDate": "2026-10-26T12:40:19.009+00:00",
+      "LastUpdatedBy": "Configuration.TEST",
+      "ChangeTypeCode": null,
+      "ChangeType": null,
+      "@context": {
+       "key": "300000394356183",
+       "headers": {
+        "ETag": "ACED0005737200136A6176612E7574696C2E41727261794C6973747881D21D99C7619D03000149000473697A65787000000001770400000001737200116A6176612E6C616E672E496E746567657212E2A0A4F781873802000149000576616C7565787200106A6176612E6C616E672E4E756D62657286AC951D0B94E08B02000078700000000178"
+       }
+      }
+     }
+    ],
+    "count": 1,
+    "hasMore": false,
+    "limit": 500,
+    "offset": 0,
+    "links": [
+     {
+      "rel": "self",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/priceLists/300000394372463/child/accessSets",
+      "name": "accessSets",
+      "kind": "collection"
+     }
+    ]
+   },
+   "@context": {
+    "key": "300000394372463",
+    "headers": {
+     "ETag": "ACED0005737200136A6176612E7574696C2E41727261794C6973747881D21D99C7619D03000149000473697A65787000000001770400000001737200116A6176612E6C616E672E496E746567657212E2A0A4F781873802000149000576616C7565787200106A6176612E6C616E672E4E756D62657286AC951D0B94E08B02000078700000000278"
+    }
+   }
+  },
+  {
+   "PriceListName": "TESTPRICELIST4",
+   "PriceListId": "300000393936114",
+   "PriceListDescription": null,
+   "PriceListType": "Segment price list",
+   "PriceListTypeCode": "SEGMENT",
+   "BusinessUnit": "TESTBU4",
+   "BusinessUnitId": "300000393672209",
+   "Currency": "Afghani",
+   "CurrencyCode": "AFN",
+   "Status": "Approved",
+   "StatusCode": "APPROVED",
+   "StartDate": "2026-10-19T19:00:00+00:00",
+   "EndDate": null,
+   "EntityApprovalStatus": null,
+   "EntityApprovalStatusCode": null,
+   "PricingChargeDefinition": null,
+   "PricingChargeDefinitionCode": null,
+   "PricingChargeDefinitionId": null,
+   "LineType": "Buy",
+   "LineTypeCode": "ORA_BUY",
+   "CalculationMethod": "Price",
+   "CalculationMethodCode": "PRICE",
+   "CreationDate": "2026-10-21T16:21:04.001+00:00",
+   "CreatedBy": "Configuration.TEST",
+   "LastUpdateDate": "2026-10-21T16:21:05+00:00",
+   "LastUpdatedBy": "Configuration.TEST",
+   "ChangeTypeCode": null,
+   "ChangeType": null,
+   "accessSets": {
+    "items": [
+     {
+      "PriceListSetId": "300000393986188",
+      "PriceListId": "300000393936114",
+      "AccessSetName": "Enterprise Set",
+      "AccessSetCode": "ENTERPRISE",
+      "AccessSetId": "300000000003463",
+      "AccessSetDescription": null,
+      "EntityApprovalStatus": null,
+      "EntityApprovalStatusCode": null,
+      "CreationDate": "2026-10-21T16:21:05+00:00",
+      "CreatedBy": "Configuration.TEST",
+      "LastUpdateDate": "2026-10-21T16:21:05.030+00:00",
+      "LastUpdatedBy": "Configuration.TEST",
+      "ChangeTypeCode": null,
+      "ChangeType": null,
+      "@context": {
+       "key": "300000393986188",
+       "headers": {
+        "ETag": "ACED0005737200136A6176612E7574696C2E41727261794C6973747881D21D99C7619D03000149000473697A65787000000001770400000001737200116A6176612E6C616E672E496E746567657212E2A0A4F781873802000149000576616C7565787200106A6176612E6C616E672E4E756D62657286AC951D0B94E08B02000078700000000178"
+       }
+      }
+     }
+    ],
+    "count": 1,
+    "hasMore": false,
+    "limit": 500,
+    "offset": 0,
+    "links": [
+     {
+      "rel": "self",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/priceLists/300000393936114/child/accessSets",
+      "name": "accessSets",
+      "kind": "collection"
+     }
+    ]
+   },
+   "@context": {
+    "key": "300000393936114",
+    "headers": {
+     "ETag": "ACED0005737200136A6176612E7574696C2E41727261794C6973747881D21D99C7619D03000149000473697A65787000000001770400000001737200116A6176612E6C616E672E496E746567657212E2A0A4F781873802000149000576616C7565787200106A6176612E6C616E672E4E756D62657286AC951D0B94E08B02000078700000000278"
+    }
+   }
+  },
+  {
+   "PriceListName": "ZZ_TEST_4832",
+   "PriceListId": "300000393775945",
+   "PriceListDescription": null,
+   "PriceListType": "Segment price list",
+   "PriceListTypeCode": "SEGMENT",
+   "BusinessUnit": "ABD",
+   "BusinessUnitId": "300000393727002",
+   "Currency": "US Dollar",
+   "CurrencyCode": "USD",
+   "Status": "Approved",
+   "StatusCode": "APPROVED",
+   "StartDate": "2026-10-17T19:00:00+00:00",
+   "EndDate": null,
+   "EntityApprovalStatus": null,
+   "EntityApprovalStatusCode": null,
+   "PricingChargeDefinition": null,
+   "PricingChargeDefinitionCode": null,
+   "PricingChargeDefinitionId": null,
+   "LineType": "Buy",
+   "LineTypeCode": "ORA_BUY",
+   "CalculationMethod": "Price",
+   "CalculationMethodCode": "PRICE",
+   "CreationDate": "2026-10-21T02:28:06.001+00:00",
+   "CreatedBy": "Configuration.TEST",
+   "LastUpdateDate": "2026-10-21T02:28:09+00:00",
+   "LastUpdatedBy": "Configuration.TEST",
+   "ChangeTypeCode": null,
+   "ChangeType": null,
+   "accessSets": {
+    "items": [
+     {
+      "PriceListSetId": "300000393685818",
+      "PriceListId": "300000393775945",
+      "AccessSetName": "001 Customer Site",
+      "AccessSetCode": "001 CUSTOMER SITE",
+      "AccessSetId": "300000332869080",
+      "AccessSetDescription": null,
+      "EntityApprovalStatus": null,
+      "EntityApprovalStatusCode": null,
+      "CreationDate": "2026-10-21T02:28:07+00:00",
+      "CreatedBy": "Configuration.TEST",
+      "LastUpdateDate": "2026-10-21T02:28:07.131+00:00",
+      "LastUpdatedBy": "Configuration.TEST",
+      "ChangeTypeCode": null,
+      "ChangeType": null,
+      "@context": {
+       "key": "300000393685818",
+       "headers": {
+        "ETag": "ACED0005737200136A6176612E7574696C2E41727261794C6973747881D21D99C7619D03000149000473697A65787000000001770400000001737200116A6176612E6C616E672E496E746567657212E2A0A4F781873802000149000576616C7565787200106A6176612E6C616E672E4E756D62657286AC951D0B94E08B02000078700000000178"
+       }
+      }
+     }
+    ],
+    "count": 1,
+    "hasMore": false,
+    "limit": 500,
+    "offset": 0,
+    "links": [
+     {
+      "rel": "self",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/priceLists/300000393775945/child/accessSets",
+      "name": "accessSets",
+      "kind": "collection"
+     }
+    ]
+   },
+   "@context": {
+    "key": "300000393775945",
+    "headers": {
+     "ETag": "ACED0005737200136A6176612E7574696C2E41727261794C6973747881D21D99C7619D03000149000473697A65787000000001770400000001737200116A6176612E6C616E672E496E746567657212E2A0A4F781873802000149000576616C7565787200106A6176612E6C616E672E4E756D62657286AC951D0B94E08B02000078700000000278"
+    }
+   }
+  },
+  {
+   "PriceListName": "ZZ_SHEET_PL_8003_SEG",
+   "PriceListId": "300000394356052",
+   "PriceListDescription": null,
+   "PriceListType": "Segment price list",
+   "PriceListTypeCode": "SEGMENT",
+   "BusinessUnit": "US1",
+   "BusinessUnitId": "300000386672082",
+   "Currency": "Pakistan Rupee",
+   "CurrencyCode": "PKR",
+   "Status": "Approved",
+   "StatusCode": "APPROVED",
+   "StartDate": "2026-11-01T04:00:00+00:00",
+   "EndDate": null,
+   "EntityApprovalStatus": null,
+   "EntityApprovalStatusCode": null,
+   "PricingChargeDefinition": null,
+   "PricingChargeDefinitionCode": null,
+   "PricingChargeDefinitionId": null,
+   "LineType": "Buy",
+   "LineTypeCode": "ORA_BUY",
+   "CalculationMethod": "Price",
+   "CalculationMethodCode": "PRICE",
+   "CreationDate": "2026-10-26T02:41:31.001+00:00",
+   "CreatedBy": "Configuration.TEST",
+   "LastUpdateDate": "2026-10-26T02:41:32+00:00",
+   "LastUpdatedBy": "Configuration.TEST",
+   "ChangeTypeCode": null,
+   "ChangeType": null,
+   "accessSets": {
+    "items": [
+     {
+      "PriceListSetId": "300000394374054",
+      "PriceListId": "300000394356052",
+      "AccessSetName": "Common Set",
+      "AccessSetCode": "COMMON",
+      "AccessSetId": "0",
+      "AccessSetDescription": null,
+      "EntityApprovalStatus": null,
+      "EntityApprovalStatusCode": null,
+      "CreationDate": "2026-10-26T02:41:32+00:00",
+      "CreatedBy": "Configuration.TEST",
+      "LastUpdateDate": "2026-10-26T02:41:32.004+00:00",
+      "LastUpdatedBy": "Configuration.TEST",
+      "ChangeTypeCode": null,
+      "ChangeType": null,
+      "@context": {
+       "key": "300000394374054",
+       "headers": {
+        "ETag": "ACED0005737200136A6176612E7574696C2E41727261794C6973747881D21D99C7619D03000149000473697A65787000000001770400000001737200116A6176612E6C616E672E496E746567657212E2A0A4F781873802000149000576616C7565787200106A6176612E6C616E672E4E756D62657286AC951D0B94E08B02000078700000000178"
+       }
+      }
+     }
+    ],
+    "count": 1,
+    "hasMore": false,
+    "limit": 500,
+    "offset": 0,
+    "links": [
+     {
+      "rel": "self",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/priceLists/300000394356052/child/accessSets",
+      "name": "accessSets",
+      "kind": "collection"
+     }
+    ]
+   },
+   "@context": {
+    "key": "300000394356052",
+    "headers": {
+     "ETag": "ACED0005737200136A6176612E7574696C2E41727261794C6973747881D21D99C7619D03000149000473697A65787000000001770400000001737200116A6176612E6C616E672E496E746567657212E2A0A4F781873802000149000576616C7565787200106A6176612E6C616E672E4E756D62657286AC951D0B94E08B02000078700000000278"
+    }
+   }
+  },
+  {
+   "PriceListName": "ZZ_TEST_PL_8034_B3",
+   "PriceListId": "300000394376018",
+   "PriceListDescription": null,
+   "PriceListType": "Segment price list",
+   "PriceListTypeCode": "SEGMENT",
+   "BusinessUnit": "ABD",
+   "BusinessUnitId": "300000393727002",
+   "Currency": "US Dollar",
+   "CurrencyCode": "USD",
+   "Status": "Approved",
+   "StatusCode": "APPROVED",
+   "StartDate": "2026-10-27T04:00:00+00:00",
+   "EndDate": null,
+   "EntityApprovalStatus": null,
+   "EntityApprovalStatusCode": null,
+   "PricingChargeDefinition": null,
+   "PricingChargeDefinitionCode": null,
+   "PricingChargeDefinitionId": null,
+   "LineType": "Buy",
+   "LineTypeCode": "ORA_BUY",
+   "CalculationMethod": "Price",
+   "CalculationMethodCode": "PRICE",
+   "CreationDate": "2026-10-26T00:19:27.001+00:00",
+   "CreatedBy": "Configuration.TEST",
+   "LastUpdateDate": "2026-10-26T00:19:28+00:00",
+   "LastUpdatedBy": "Configuration.TEST",
+   "ChangeTypeCode": null,
+   "ChangeType": null,
+   "accessSets": {
+    "items": [
+     {
+      "PriceListSetId": "300000394373079",
+      "PriceListId": "300000394376018",
+      "AccessSetName": "001 Customer Site",
+      "AccessSetCode": "001 CUSTOMER SITE",
+      "AccessSetId": "300000332869080",
+      "AccessSetDescription": null,
+      "EntityApprovalStatus": null,
+      "EntityApprovalStatusCode": null,
+      "CreationDate": "2026-10-26T00:19:28+00:00",
+      "CreatedBy": "Configuration.TEST",
+      "LastUpdateDate": "2026-10-26T00:19:28.023+00:00",
+      "LastUpdatedBy": "Configuration.TEST",
+      "ChangeTypeCode": null,
+      "ChangeType": null,
+      "@context": {
+       "key": "300000394373079",
+       "headers": {
+        "ETag": "ACED0005737200136A6176612E7574696C2E41727261794C6973747881D21D99C7619D03000149000473697A65787000000001770400000001737200116A6176612E6C616E672E496E746567657212E2A0A4F781873802000149000576616C7565787200106A6176612E6C616E672E4E756D62657286AC951D0B94E08B02000078700000000178"
+       }
+      }
+     }
+    ],
+    "count": 1,
+    "hasMore": false,
+    "limit": 500,
+    "offset": 0,
+    "links": [
+     {
+      "rel": "self",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/priceLists/300000394376018/child/accessSets",
+      "name": "accessSets",
+      "kind": "collection"
+     }
+    ]
+   },
+   "@context": {
+    "key": "300000394376018",
+    "headers": {
+     "ETag": "ACED0005737200136A6176612E7574696C2E41727261794C6973747881D21D99C7619D03000149000473697A65787000000001770400000001737200116A6176612E6C616E672E496E746567657212E2A0A4F781873802000149000576616C7565787200106A6176612E6C616E672E4E756D62657286AC951D0B94E08B02000078700000000278"
+    }
+   }
+  },
+  {
+   "PriceListName": "ZZ_TEST_PL_8034_CEIL",
+   "PriceListId": "300000394373077",
+   "PriceListDescription": null,
+   "PriceListType": "Ceiling price list",
+   "PriceListTypeCode": "CEILING",
+   "BusinessUnit": "ABD",
+   "BusinessUnitId": "300000393727002",
+   "Currency": "Euro",
+   "CurrencyCode": "EUR",
+   "Status": "Approved",
+   "StatusCode": "APPROVED",
+   "StartDate": "2026-10-27T04:00:00+00:00",
+   "EndDate": null,
+   "EntityApprovalStatus": null,
+   "EntityApprovalStatusCode": null,
+   "PricingChargeDefinition": null,
+   "PricingChargeDefinitionCode": null,
+   "PricingChargeDefinitionId": null,
+   "LineType": "Buy",
+   "LineTypeCode": "ORA_BUY",
+   "CalculationMethod": "Source document cost",
+   "CalculationMethodCode": "SOURCE_DOCUMENT_COST",
+   "CreationDate": "2026-10-26T00:18:46+00:00",
+   "CreatedBy": "Configuration.TEST",
+   "LastUpdateDate": "2026-10-26T00:18:47+00:00",
+   "LastUpdatedBy": "Configuration.TEST",
+   "ChangeTypeCode": null,
+   "ChangeType": null,
+   "accessSets": {
+    "items": [
+     {
+      "PriceListSetId": "300000394372046",
+      "PriceListId": "300000394373077",
+      "AccessSetName": "GoSaaS Labs Data Set",
+      "AccessSetCode": "SET0001",
+      "AccessSetId": "300000130947183",
+      "AccessSetDescription": null,
+      "EntityApprovalStatus": null,
+      "EntityApprovalStatusCode": null,
+      "CreationDate": "2026-10-26T00:18:46+00:00",
+      "CreatedBy": "Configuration.TEST",
+      "LastUpdateDate": "2026-10-26T00:18:46.009+00:00",
+      "LastUpdatedBy": "Configuration.TEST",
+      "ChangeTypeCode": null,
+      "ChangeType": null,
+      "@context": {
+       "key": "300000394372046",
+       "headers": {
+        "ETag": "ACED0005737200136A6176612E7574696C2E41727261794C6973747881D21D99C7619D03000149000473697A65787000000001770400000001737200116A6176612E6C616E672E496E746567657212E2A0A4F781873802000149000576616C7565787200106A6176612E6C616E672E4E756D62657286AC951D0B94E08B02000078700000000178"
+       }
+      }
+     }
+    ],
+    "count": 1,
+    "hasMore": false,
+    "limit": 500,
+    "offset": 0,
+    "links": [
+     {
+      "rel": "self",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/priceLists/300000394373077/child/accessSets",
+      "name": "accessSets",
+      "kind": "collection"
+     }
+    ]
+   },
+   "@context": {
+    "key": "300000394373077",
+    "headers": {
+     "ETag": "ACED0005737200136A6176612E7574696C2E41727261794C6973747881D21D99C7619D03000149000473697A65787000000001770400000001737200116A6176612E6C616E672E496E746567657212E2A0A4F781873802000149000576616C7565787200106A6176612E6C616E672E4E756D62657286AC951D0B94E08B02000078700000000278"
+    }
+   }
+  },
+  {
+   "PriceListName": "ZZ_POC_PRICELIST1",
+   "PriceListId": "300000393700020",
+   "PriceListDescription": null,
+   "PriceListType": "Segment price list",
+   "PriceListTypeCode": "SEGMENT",
+   "BusinessUnit": "ABD",
+   "BusinessUnitId": "300000393727002",
+   "Currency": "US Dollar",
+   "CurrencyCode": "USD",
+   "Status": "Approved",
+   "StatusCode": "APPROVED",
+   "StartDate": "2026-10-18T19:19:00+00:00",
+   "EndDate": null,
+   "EntityApprovalStatus": null,
+   "EntityApprovalStatusCode": null,
+   "PricingChargeDefinition": null,
+   "PricingChargeDefinitionCode": null,
+   "PricingChargeDefinitionId": null,
+   "LineType": "Buy",
+   "LineTypeCode": "ORA_BUY",
+   "CalculationMethod": "Price",
+   "CalculationMethodCode": "PRICE",
+   "CreationDate": "2026-10-18T19:19:48.001+00:00",
+   "CreatedBy": "Configuration.TEST",
+   "LastUpdateDate": "2026-10-18T19:32:26.965+00:00",
+   "LastUpdatedBy": "Configuration.TEST",
+   "ChangeTypeCode": null,
+   "ChangeType": null,
+   "accessSets": {
+    "items": [
+     {
+      "PriceListSetId": "300000393700022",
+      "PriceListId": "300000393700020",
+      "AccessSetName": "001 Customer Site",
+      "AccessSetCode": "001 CUSTOMER SITE",
+      "AccessSetId": "300000332869080",
+      "AccessSetDescription": null,
+      "EntityApprovalStatus": null,
+      "EntityApprovalStatusCode": null,
+      "CreationDate": "2026-10-18T19:32:01+00:00",
+      "CreatedBy": "Configuration.TEST",
+      "LastUpdateDate": "2026-10-18T19:32:26.970+00:00",
+      "LastUpdatedBy": "Configuration.TEST",
+      "ChangeTypeCode": null,
+      "ChangeType": null,
+      "@context": {
+       "key": "300000393700022",
+       "headers": {
+        "ETag": "ACED0005737200136A6176612E7574696C2E41727261794C6973747881D21D99C7619D03000149000473697A65787000000001770400000001737200116A6176612E6C616E672E496E746567657212E2A0A4F781873802000149000576616C7565787200106A6176612E6C616E672E4E756D62657286AC951D0B94E08B02000078700000000178"
+       }
+      }
+     }
+    ],
+    "count": 1,
+    "hasMore": false,
+    "limit": 500,
+    "offset": 0,
+    "links": [
+     {
+      "rel": "self",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/priceLists/300000393700020/child/accessSets",
+      "name": "accessSets",
+      "kind": "collection"
+     }
+    ]
+   },
+   "@context": {
+    "key": "300000393700020",
+    "headers": {
+     "ETag": "ACED0005737200136A6176612E7574696C2E41727261794C6973747881D21D99C7619D03000149000473697A65787000000001770400000001737200116A6176612E6C616E672E496E746567657212E2A0A4F781873802000149000576616C7565787200106A6176612E6C616E672E4E756D62657286AC951D0B94E08B02000078700000000278"
+    }
+   }
+  },
+  {
+   "PriceListName": "TESTPRICE8",
+   "PriceListId": "300000393986395",
+   "PriceListDescription": null,
+   "PriceListType": "Segment price list",
+   "PriceListTypeCode": "SEGMENT",
+   "BusinessUnit": "ABD",
+   "BusinessUnitId": "300000393727002",
+   "Currency": "Pakistan Rupee",
+   "CurrencyCode": "PKR",
+   "Status": "Approved",
+   "StatusCode": "APPROVED",
+   "StartDate": "2026-10-20T19:00:00+00:00",
+   "EndDate": null,
+   "EntityApprovalStatus": null,
+   "EntityApprovalStatusCode": null,
+   "PricingChargeDefinition": null,
+   "PricingChargeDefinitionCode": null,
+   "PricingChargeDefinitionId": null,
+   "LineType": "Buy",
+   "LineTypeCode": "ORA_BUY",
+   "CalculationMethod": "Price",
+   "CalculationMethodCode": "PRICE",
+   "CreationDate": "2026-10-22T13:24:03+00:00",
+   "CreatedBy": "Configuration.TEST",
+   "LastUpdateDate": "2026-10-22T13:24:05+00:00",
+   "LastUpdatedBy": "Configuration.TEST",
+   "ChangeTypeCode": null,
+   "ChangeType": null,
+   "accessSets": {
+    "items": [
+     {
+      "PriceListSetId": "300000393897783",
+      "PriceListId": "300000393986395",
+      "AccessSetName": "Enterprise Set",
+      "AccessSetCode": "ENTERPRISE",
+      "AccessSetId": "300000000003463",
+      "AccessSetDescription": null,
+      "EntityApprovalStatus": null,
+      "EntityApprovalStatusCode": null,
+      "CreationDate": "2026-10-22T13:24:04+00:00",
+      "CreatedBy": "Configuration.TEST",
+      "LastUpdateDate": "2026-10-22T13:24:04.037+00:00",
+      "LastUpdatedBy": "Configuration.TEST",
+      "ChangeTypeCode": null,
+      "ChangeType": null,
+      "@context": {
+       "key": "300000393897783",
+       "headers": {
+        "ETag": "ACED0005737200136A6176612E7574696C2E41727261794C6973747881D21D99C7619D03000149000473697A65787000000001770400000001737200116A6176612E6C616E672E496E746567657212E2A0A4F781873802000149000576616C7565787200106A6176612E6C616E672E4E756D62657286AC951D0B94E08B02000078700000000178"
+       }
+      }
+     }
+    ],
+    "count": 1,
+    "hasMore": false,
+    "limit": 500,
+    "offset": 0,
+    "links": [
+     {
+      "rel": "self",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/priceLists/300000393986395/child/accessSets",
+      "name": "accessSets",
+      "kind": "collection"
+     }
+    ]
+   },
+   "@context": {
+    "key": "300000393986395",
+    "headers": {
+     "ETag": "ACED0005737200136A6176612E7574696C2E41727261794C6973747881D21D99C7619D03000149000473697A65787000000001770400000001737200116A6176612E6C616E672E496E746567657212E2A0A4F781873802000149000576616C7565787200106A6176612E6C616E672E4E756D62657286AC951D0B94E08B02000078700000000278"
+    }
+   }
+  },
+  {
+   "PriceListName": "ZZ_TEST_6183",
+   "PriceListId": "300000393683886",
+   "PriceListDescription": null,
+   "PriceListType": "Segment price list",
+   "PriceListTypeCode": "SEGMENT",
+   "BusinessUnit": "ABD",
+   "BusinessUnitId": "300000393727002",
+   "Currency": "US Dollar",
+   "CurrencyCode": "USD",
+   "Status": "Approved",
+   "StatusCode": "APPROVED",
+   "StartDate": "2026-10-19T19:00:00+00:00",
+   "EndDate": null,
+   "EntityApprovalStatus": null,
+   "EntityApprovalStatusCode": null,
+   "PricingChargeDefinition": null,
+   "PricingChargeDefinitionCode": null,
+   "PricingChargeDefinitionId": null,
+   "LineType": "Buy",
+   "LineTypeCode": "ORA_BUY",
+   "CalculationMethod": "Price",
+   "CalculationMethodCode": "PRICE",
+   "CreationDate": "2026-10-21T04:30:25+00:00",
+   "CreatedBy": "Configuration.TEST",
+   "LastUpdateDate": "2026-10-21T04:30:26+00:00",
+   "LastUpdatedBy": "Configuration.TEST",
+   "ChangeTypeCode": null,
+   "ChangeType": null,
+   "accessSets": {
+    "items": [
+     {
+      "PriceListSetId": "300000393775951",
+      "PriceListId": "300000393683886",
+      "AccessSetName": "001 Customer Site",
+      "AccessSetCode": "001 CUSTOMER SITE",
+      "AccessSetId": "300000332869080",
+      "AccessSetDescription": null,
+      "EntityApprovalStatus": null,
+      "EntityApprovalStatusCode": null,
+      "CreationDate": "2026-10-21T04:30:25+00:00",
+      "CreatedBy": "Configuration.TEST",
+      "LastUpdateDate": "2026-10-21T04:30:25.029+00:00",
+      "LastUpdatedBy": "Configuration.TEST",
+      "ChangeTypeCode": null,
+      "ChangeType": null,
+      "@context": {
+       "key": "300000393775951",
+       "headers": {
+        "ETag": "ACED0005737200136A6176612E7574696C2E41727261794C6973747881D21D99C7619D03000149000473697A65787000000001770400000001737200116A6176612E6C616E672E496E746567657212E2A0A4F781873802000149000576616C7565787200106A6176612E6C616E672E4E756D62657286AC951D0B94E08B02000078700000000178"
+       }
+      }
+     }
+    ],
+    "count": 1,
+    "hasMore": false,
+    "limit": 500,
+    "offset": 0,
+    "links": [
+     {
+      "rel": "self",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/priceLists/300000393683886/child/accessSets",
+      "name": "accessSets",
+      "kind": "collection"
+     }
+    ]
+   },
+   "@context": {
+    "key": "300000393683886",
+    "headers": {
+     "ETag": "ACED0005737200136A6176612E7574696C2E41727261794C6973747881D21D99C7619D03000149000473697A65787000000001770400000001737200116A6176612E6C616E672E496E746567657212E2A0A4F781873802000149000576616C7565787200106A6176612E6C616E672E4E756D62657286AC951D0B94E08B02000078700000000278"
+    }
+   }
+  },
+  {
+   "PriceListName": "ZZ_TEST_PL_8034_ALL",
+   "PriceListId": "300000394372043",
+   "PriceListDescription": "All fields",
+   "PriceListType": "Floor price list",
+   "PriceListTypeCode": "FLOOR",
+   "BusinessUnit": "ABD",
+   "BusinessUnitId": "300000393727002",
+   "Currency": "US Dollar",
+   "CurrencyCode": "USD",
+   "Status": "Approved",
+   "StatusCode": "APPROVED",
+   "StartDate": "2026-10-27T04:00:00+00:00",
+   "EndDate": "2027-12-31T05:00:00+00:00",
+   "EntityApprovalStatus": null,
+   "EntityApprovalStatusCode": null,
+   "PricingChargeDefinition": "Sale Price",
+   "PricingChargeDefinitionCode": "QP_SALE_PRICE",
+   "PricingChargeDefinitionId": "300000000325736",
+   "LineType": "Buy",
+   "LineTypeCode": "ORA_BUY",
+   "CalculationMethod": "Cost",
+   "CalculationMethodCode": "COST",
+   "CreationDate": "2026-10-26T00:18:15+00:00",
+   "CreatedBy": "Configuration.TEST",
+   "LastUpdateDate": "2026-10-26T00:18:18+00:00",
+   "LastUpdatedBy": "Configuration.TEST",
+   "ChangeTypeCode": null,
+   "ChangeType": null,
+   "accessSets": {
+    "items": [
+     {
+      "PriceListSetId": "300000394374037",
+      "PriceListId": "300000394372043",
+      "AccessSetName": "Enterprise Set",
+      "AccessSetCode": "ENTERPRISE",
+      "AccessSetId": "300000000003463",
+      "AccessSetDescription": null,
+      "EntityApprovalStatus": null,
+      "EntityApprovalStatusCode": null,
+      "CreationDate": "2026-10-26T00:18:17+00:00",
+      "CreatedBy": "Configuration.TEST",
+      "LastUpdateDate": "2026-10-26T00:18:17.145+00:00",
+      "LastUpdatedBy": "Configuration.TEST",
+      "ChangeTypeCode": null,
+      "ChangeType": null,
+      "@context": {
+       "key": "300000394374037",
+       "headers": {
+        "ETag": "ACED0005737200136A6176612E7574696C2E41727261794C6973747881D21D99C7619D03000149000473697A65787000000001770400000001737200116A6176612E6C616E672E496E746567657212E2A0A4F781873802000149000576616C7565787200106A6176612E6C616E672E4E756D62657286AC951D0B94E08B02000078700000000178"
+       }
+      }
+     },
+     {
+      "PriceListSetId": "300000394356043",
+      "PriceListId": "300000394372043",
+      "AccessSetName": "001 Customer Site",
+      "AccessSetCode": "001 CUSTOMER SITE",
+      "AccessSetId": "300000332869080",
+      "AccessSetDescription": null,
+      "EntityApprovalStatus": null,
+      "EntityApprovalStatusCode": null,
+      "CreationDate": "2026-10-26T00:18:16+00:00",
+      "CreatedBy": "Configuration.TEST",
+      "LastUpdateDate": "2026-10-26T00:18:16.172+00:00",
+      "LastUpdatedBy": "Configuration.TEST",
+      "ChangeTypeCode": null,
+      "ChangeType": null,
+      "@context": {
+       "key": "300000394356043",
+       "headers": {
+        "ETag": "ACED0005737200136A6176612E7574696C2E41727261794C6973747881D21D99C7619D03000149000473697A65787000000001770400000001737200116A6176612E6C616E672E496E746567657212E2A0A4F781873802000149000576616C7565787200106A6176612E6C616E672E4E756D62657286AC951D0B94E08B02000078700000000178"
+       }
+      }
+     }
+    ],
+    "count": 2,
+    "hasMore": false,
+    "limit": 500,
+    "offset": 0,
+    "links": [
+     {
+      "rel": "self",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/priceLists/300000394372043/child/accessSets",
+      "name": "accessSets",
+      "kind": "collection"
+     }
+    ]
+   },
+   "@context": {
+    "key": "300000394372043",
+    "headers": {
+     "ETag": "ACED0005737200136A6176612E7574696C2E41727261794C6973747881D21D99C7619D03000149000473697A65787000000001770400000001737200116A6176612E6C616E672E496E746567657212E2A0A4F781873802000149000576616C7565787200106A6176612E6C616E672E4E756D62657286AC951D0B94E08B02000078700000000278"
+    }
+   }
+  },
+  {
+   "PriceListName": "ZZ_TEST_PL_8034_SEG",
+   "PriceListId": "300000394372044",
+   "PriceListDescription": null,
+   "PriceListType": "Segment price list",
+   "PriceListTypeCode": "SEGMENT",
+   "BusinessUnit": "US1",
+   "BusinessUnitId": "300000386672082",
+   "Currency": "Pakistan Rupee",
+   "CurrencyCode": "PKR",
+   "Status": "Approved",
+   "StatusCode": "APPROVED",
+   "StartDate": "2026-10-26T04:00:00+00:00",
+   "EndDate": null,
+   "EntityApprovalStatus": null,
+   "EntityApprovalStatusCode": null,
+   "PricingChargeDefinition": "Recurring Sale Price",
+   "PricingChargeDefinitionCode": "QP_RECURRING_SALE_PRICE",
+   "PricingChargeDefinitionId": "300000000325737",
+   "LineType": "Buy",
+   "LineTypeCode": "ORA_BUY",
+   "CalculationMethod": "Price",
+   "CalculationMethodCode": "PRICE",
+   "CreationDate": "2026-10-26T00:18:40.001+00:00",
+   "CreatedBy": "Configuration.TEST",
+   "LastUpdateDate": "2026-10-26T00:18:42+00:00",
+   "LastUpdatedBy": "Configuration.TEST",
+   "ChangeTypeCode": null,
+   "ChangeType": null,
+   "accessSets": {
+    "items": [
+     {
+      "PriceListSetId": "300000394356044",
+      "PriceListId": "300000394372044",
+      "AccessSetName": "001 Customer Site",
+      "AccessSetCode": "001 CUSTOMER SITE",
+      "AccessSetId": "300000332869080",
+      "AccessSetDescription": null,
+      "EntityApprovalStatus": null,
+      "EntityApprovalStatusCode": null,
+      "CreationDate": "2026-10-26T00:18:41+00:00",
+      "CreatedBy": "Configuration.TEST",
+      "LastUpdateDate": "2026-10-26T00:18:41.011+00:00",
+      "LastUpdatedBy": "Configuration.TEST",
+      "ChangeTypeCode": null,
+      "ChangeType": null,
+      "@context": {
+       "key": "300000394356044",
+       "headers": {
+        "ETag": "ACED0005737200136A6176612E7574696C2E41727261794C6973747881D21D99C7619D03000149000473697A65787000000001770400000001737200116A6176612E6C616E672E496E746567657212E2A0A4F781873802000149000576616C7565787200106A6176612E6C616E672E4E756D62657286AC951D0B94E08B02000078700000000178"
+       }
+      }
+     }
+    ],
+    "count": 1,
+    "hasMore": false,
+    "limit": 500,
+    "offset": 0,
+    "links": [
+     {
+      "rel": "self",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/priceLists/300000394372044/child/accessSets",
+      "name": "accessSets",
+      "kind": "collection"
+     }
+    ]
+   },
+   "@context": {
+    "key": "300000394372044",
+    "headers": {
+     "ETag": "ACED0005737200136A6176612E7574696C2E41727261794C6973747881D21D99C7619D03000149000473697A65787000000001770400000001737200116A6176612E6C616E672E496E746567657212E2A0A4F781873802000149000576616C7565787200106A6176612E6C616E672E4E756D62657286AC951D0B94E08B02000078700000000278"
+    }
+   }
+  },
+  {
+   "PriceListName": "FSCRT_Brindle Harbor Dock Equipment EUR F01",
+   "PriceListId": "300000394623080",
+   "PriceListDescription": "Dock and mooring equipment prices for European marinas, 2027 season",
+   "PriceListType": "Segment price list",
+   "PriceListTypeCode": "SEGMENT",
+   "BusinessUnit": "FSCRT_Brindle Harbor Marine Supply F01",
+   "BusinessUnitId": "300000394664009",
+   "Currency": "Euro",
+   "CurrencyCode": "EUR",
+   "Status": "Approved",
+   "StatusCode": "APPROVED",
+   "StartDate": "2026-11-03T00:00:00+00:00",
+   "EndDate": "2027-09-30T23:59:59+00:00",
+   "EntityApprovalStatus": null,
+   "EntityApprovalStatusCode": null,
+   "PricingChargeDefinition": "Sale Price",
+   "PricingChargeDefinitionCode": "QP_SALE_PRICE",
+   "PricingChargeDefinitionId": "300000000325736",
+   "LineType": "Buy",
+   "LineTypeCode": "ORA_BUY",
+   "CalculationMethod": "Price",
+   "CalculationMethodCode": "PRICE",
+   "CreationDate": "2026-11-03T01:43:16.001+00:00",
+   "CreatedBy": "Configuration.TEST",
+   "LastUpdateDate": "2026-11-03T02:57:58+00:00",
+   "LastUpdatedBy": "Configuration.TEST",
+   "ChangeTypeCode": null,
+   "ChangeType": null,
+   "accessSets": {
+    "items": [
+     {
+      "PriceListSetId": "300000394623081",
+      "PriceListId": "300000394623080",
+      "AccessSetName": "Enterprise Set",
+      "AccessSetCode": "ENTERPRISE",
+      "AccessSetId": "300000000003463",
+      "AccessSetDescription": null,
+      "EntityApprovalStatus": null,
+      "EntityApprovalStatusCode": null,
+      "CreationDate": "2026-11-03T01:43:16.317+00:00",
+      "CreatedBy": "Configuration.TEST",
+      "LastUpdateDate": "2026-11-03T01:43:16.489+00:00",
+      "LastUpdatedBy": "Configuration.TEST",
+      "ChangeTypeCode": null,
+      "ChangeType": null,
+      "@context": {
+       "key": "300000394623081",
+       "headers": {
+        "ETag": "ACED0005737200136A6176612E7574696C2E41727261794C6973747881D21D99C7619D03000149000473697A65787000000001770400000001737200116A6176612E6C616E672E496E746567657212E2A0A4F781873802000149000576616C7565787200106A6176612E6C616E672E4E756D62657286AC951D0B94E08B02000078700000000178"
+       }
+      }
+     }
+    ],
+    "count": 1,
+    "hasMore": false,
+    "limit": 500,
+    "offset": 0,
+    "links": [
+     {
+      "rel": "self",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/priceLists/300000394623080/child/accessSets",
+      "name": "accessSets",
+      "kind": "collection"
+     }
+    ]
+   },
+   "@context": {
+    "key": "300000394623080",
+    "headers": {
+     "ETag": "ACED0005737200136A6176612E7574696C2E41727261794C6973747881D21D99C7619D03000149000473697A65787000000001770400000001737200116A6176612E6C616E672E496E746567657212E2A0A4F781873802000149000576616C7565787200106A6176612E6C616E672E4E756D62657286AC951D0B94E08B02000078700000000378"
+    }
+   }
+  },
+  {
+   "PriceListName": "ZZ_SHEET_PL_8003_SEG25",
+   "PriceListId": "300000394372466",
+   "PriceListDescription": null,
+   "PriceListType": "Segment price list",
+   "PriceListTypeCode": "SEGMENT",
+   "BusinessUnit": "US1",
+   "BusinessUnitId": "300000386672082",
+   "Currency": "Pakistan Rupee",
+   "CurrencyCode": "PKR",
+   "Status": "Approved",
+   "StatusCode": "APPROVED",
+   "StartDate": "2026-11-01T04:00:00+00:00",
+   "EndDate": null,
+   "EntityApprovalStatus": null,
+   "EntityApprovalStatusCode": null,
+   "PricingChargeDefinition": null,
+   "PricingChargeDefinitionCode": null,
+   "PricingChargeDefinitionId": null,
+   "LineType": "Buy",
+   "LineTypeCode": "ORA_BUY",
+   "CalculationMethod": "Price",
+   "CalculationMethodCode": "PRICE",
+   "CreationDate": "2026-10-26T16:03:28.001+00:00",
+   "CreatedBy": "Configuration.TEST",
+   "LastUpdateDate": "2026-10-26T16:03:29+00:00",
+   "LastUpdatedBy": "Configuration.TEST",
+   "ChangeTypeCode": null,
+   "ChangeType": null,
+   "accessSets": {
+    "items": [
+     {
+      "PriceListSetId": "300000394356191",
+      "PriceListId": "300000394372466",
+      "AccessSetName": "Common Set",
+      "AccessSetCode": "COMMON",
+      "AccessSetId": "0",
+      "AccessSetDescription": null,
+      "EntityApprovalStatus": null,
+      "EntityApprovalStatusCode": null,
+      "CreationDate": "2026-10-26T16:03:28+00:00",
+      "CreatedBy": "Configuration.TEST",
+      "LastUpdateDate": "2026-10-26T16:03:28.006+00:00",
+      "LastUpdatedBy": "Configuration.TEST",
+      "ChangeTypeCode": null,
+      "ChangeType": null,
+      "@context": {
+       "key": "300000394356191",
+       "headers": {
+        "ETag": "ACED0005737200136A6176612E7574696C2E41727261794C6973747881D21D99C7619D03000149000473697A65787000000001770400000001737200116A6176612E6C616E672E496E746567657212E2A0A4F781873802000149000576616C7565787200106A6176612E6C616E672E4E756D62657286AC951D0B94E08B02000078700000000178"
+       }
+      }
+     }
+    ],
+    "count": 1,
+    "hasMore": false,
+    "limit": 500,
+    "offset": 0,
+    "links": [
+     {
+      "rel": "self",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/priceLists/300000394372466/child/accessSets",
+      "name": "accessSets",
+      "kind": "collection"
+     }
+    ]
+   },
+   "@context": {
+    "key": "300000394372466",
+    "headers": {
+     "ETag": "ACED0005737200136A6176612E7574696C2E41727261794C6973747881D21D99C7619D03000149000473697A65787000000001770400000001737200116A6176612E6C616E672E496E746567657212E2A0A4F781873802000149000576616C7565787200106A6176612E6C616E672E4E756D62657286AC951D0B94E08B02000078700000000278"
+    }
+   }
+  },
+  {
+   "PriceListName": "TESTPRICE1004",
+   "PriceListId": "300000393986428",
+   "PriceListDescription": null,
+   "PriceListType": "Segment price list",
+   "PriceListTypeCode": "SEGMENT",
+   "BusinessUnit": "TESTBU1000",
+   "BusinessUnitId": "300000393755705",
+   "Currency": "Pakistan Rupee",
+   "CurrencyCode": "PKR",
+   "Status": "Approved",
+   "StatusCode": "APPROVED",
+   "StartDate": "2026-10-20T19:00:00+00:00",
+   "EndDate": null,
+   "EntityApprovalStatus": null,
+   "EntityApprovalStatusCode": null,
+   "PricingChargeDefinition": null,
+   "PricingChargeDefinitionCode": null,
+   "PricingChargeDefinitionId": null,
+   "LineType": "Buy",
+   "LineTypeCode": "ORA_BUY",
+   "CalculationMethod": "Price",
+   "CalculationMethodCode": "PRICE",
+   "CreationDate": "2026-10-22T17:15:08.001+00:00",
+   "CreatedBy": "Configuration.TEST",
+   "LastUpdateDate": "2026-10-22T17:15:10+00:00",
+   "LastUpdatedBy": "Configuration.TEST",
+   "ChangeTypeCode": null,
+   "ChangeType": null,
+   "accessSets": {
+    "items": [
+     {
+      "PriceListSetId": "300000393897823",
+      "PriceListId": "300000393986428",
+      "AccessSetName": "001 Customer Site",
+      "AccessSetCode": "001 CUSTOMER SITE",
+      "AccessSetId": "300000332869080",
+      "AccessSetDescription": null,
+      "EntityApprovalStatus": null,
+      "EntityApprovalStatusCode": null,
+      "CreationDate": "2026-10-22T17:15:09+00:00",
+      "CreatedBy": "Configuration.TEST",
+      "LastUpdateDate": "2026-10-22T17:15:09.009+00:00",
+      "LastUpdatedBy": "Configuration.TEST",
+      "ChangeTypeCode": null,
+      "ChangeType": null,
+      "@context": {
+       "key": "300000393897823",
+       "headers": {
+        "ETag": "ACED0005737200136A6176612E7574696C2E41727261794C6973747881D21D99C7619D03000149000473697A65787000000001770400000001737200116A6176612E6C616E672E496E746567657212E2A0A4F781873802000149000576616C7565787200106A6176612E6C616E672E4E756D62657286AC951D0B94E08B02000078700000000178"
+       }
+      }
+     }
+    ],
+    "count": 1,
+    "hasMore": false,
+    "limit": 500,
+    "offset": 0,
+    "links": [
+     {
+      "rel": "self",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/priceLists/300000393986428/child/accessSets",
+      "name": "accessSets",
+      "kind": "collection"
+     }
+    ]
+   },
+   "@context": {
+    "key": "300000393986428",
+    "headers": {
+     "ETag": "ACED0005737200136A6176612E7574696C2E41727261794C6973747881D21D99C7619D03000149000473697A65787000000001770400000001737200116A6176612E6C616E672E496E746567657212E2A0A4F781873802000149000576616C7565787200106A6176612E6C616E672E4E756D62657286AC951D0B94E08B02000078700000000278"
+    }
+   }
+  },
+  {
+   "PriceListName": "ZZ_TEST_8202",
+   "PriceListId": "300000393936112",
+   "PriceListDescription": null,
+   "PriceListType": "Segment price list",
+   "PriceListTypeCode": "SEGMENT",
+   "BusinessUnit": "ZZ_TEST_8131",
+   "BusinessUnitId": "300000393672193",
+   "Currency": "US Dollar",
+   "CurrencyCode": "USD",
+   "Status": "Approved",
+   "StatusCode": "APPROVED",
+   "StartDate": "2026-10-19T19:00:00+00:00",
+   "EndDate": null,
+   "EntityApprovalStatus": null,
+   "EntityApprovalStatusCode": null,
+   "PricingChargeDefinition": null,
+   "PricingChargeDefinitionCode": null,
+   "PricingChargeDefinitionId": null,
+   "LineType": "Buy",
+   "LineTypeCode": "ORA_BUY",
+   "CalculationMethod": "Price",
+   "CalculationMethodCode": "PRICE",
+   "CreationDate": "2026-10-21T15:38:46+00:00",
+   "CreatedBy": "Configuration.TEST",
+   "LastUpdateDate": "2026-10-21T15:38:47+00:00",
+   "LastUpdatedBy": "Configuration.TEST",
+   "ChangeTypeCode": null,
+   "ChangeType": null,
+   "accessSets": {
+    "items": [
+     {
+      "PriceListSetId": "300000393986159",
+      "PriceListId": "300000393936112",
+      "AccessSetName": "001 Customer Site",
+      "AccessSetCode": "001 CUSTOMER SITE",
+      "AccessSetId": "300000332869080",
+      "AccessSetDescription": null,
+      "EntityApprovalStatus": null,
+      "EntityApprovalStatusCode": null,
+      "CreationDate": "2026-10-21T15:38:47+00:00",
+      "CreatedBy": "Configuration.TEST",
+      "LastUpdateDate": "2026-10-21T15:38:47.009+00:00",
+      "LastUpdatedBy": "Configuration.TEST",
+      "ChangeTypeCode": null,
+      "ChangeType": null,
+      "@context": {
+       "key": "300000393986159",
+       "headers": {
+        "ETag": "ACED0005737200136A6176612E7574696C2E41727261794C6973747881D21D99C7619D03000149000473697A65787000000001770400000001737200116A6176612E6C616E672E496E746567657212E2A0A4F781873802000149000576616C7565787200106A6176612E6C616E672E4E756D62657286AC951D0B94E08B02000078700000000178"
+       }
+      }
+     }
+    ],
+    "count": 1,
+    "hasMore": false,
+    "limit": 500,
+    "offset": 0,
+    "links": [
+     {
+      "rel": "self",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/priceLists/300000393936112/child/accessSets",
+      "name": "accessSets",
+      "kind": "collection"
+     }
+    ]
+   },
+   "@context": {
+    "key": "300000393936112",
+    "headers": {
+     "ETag": "ACED0005737200136A6176612E7574696C2E41727261794C6973747881D21D99C7619D03000149000473697A65787000000001770400000001737200116A6176612E6C616E672E496E746567657212E2A0A4F781873802000149000576616C7565787200106A6176612E6C616E672E4E756D62657286AC951D0B94E08B02000078700000000278"
+    }
+   }
+  },
+  {
+   "PriceListName": "TESTPRICE1001",
+   "PriceListId": "300000393973854",
+   "PriceListDescription": null,
+   "PriceListType": "Segment price list",
+   "PriceListTypeCode": "SEGMENT",
+   "BusinessUnit": "ABC Procurement BU",
+   "BusinessUnitId": "300000389039590",
+   "Currency": "Afghani",
+   "CurrencyCode": "AFN",
+   "Status": "Approved",
+   "StatusCode": "APPROVED",
+   "StartDate": "2026-10-20T19:00:00+00:00",
+   "EndDate": null,
+   "EntityApprovalStatus": null,
+   "EntityApprovalStatusCode": null,
+   "PricingChargeDefinition": null,
+   "PricingChargeDefinitionCode": null,
+   "PricingChargeDefinitionId": null,
+   "LineType": "Buy",
+   "LineTypeCode": "ORA_BUY",
+   "CalculationMethod": "Price",
+   "CalculationMethodCode": "PRICE",
+   "CreationDate": "2026-10-22T16:20:07+00:00",
+   "CreatedBy": "Configuration.TEST",
+   "LastUpdateDate": "2026-10-22T16:20:08+00:00",
+   "LastUpdatedBy": "Configuration.TEST",
+   "ChangeTypeCode": null,
+   "ChangeType": null,
+   "accessSets": {
+    "items": [
+     {
+      "PriceListSetId": "300000393986425",
+      "PriceListId": "300000393973854",
+      "AccessSetName": "001 Customer Site",
+      "AccessSetCode": "001 CUSTOMER SITE",
+      "AccessSetId": "300000332869080",
+      "AccessSetDescription": null,
+      "EntityApprovalStatus": null,
+      "EntityApprovalStatusCode": null,
+      "CreationDate": "2026-10-22T16:20:08+00:00",
+      "CreatedBy": "Configuration.TEST",
+      "LastUpdateDate": "2026-10-22T16:20:08.033+00:00",
+      "LastUpdatedBy": "Configuration.TEST",
+      "ChangeTypeCode": null,
+      "ChangeType": null,
+      "@context": {
+       "key": "300000393986425",
+       "headers": {
+        "ETag": "ACED0005737200136A6176612E7574696C2E41727261794C6973747881D21D99C7619D03000149000473697A65787000000001770400000001737200116A6176612E6C616E672E496E746567657212E2A0A4F781873802000149000576616C7565787200106A6176612E6C616E672E4E756D62657286AC951D0B94E08B02000078700000000178"
+       }
+      }
+     }
+    ],
+    "count": 1,
+    "hasMore": false,
+    "limit": 500,
+    "offset": 0,
+    "links": [
+     {
+      "rel": "self",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/priceLists/300000393973854/child/accessSets",
+      "name": "accessSets",
+      "kind": "collection"
+     }
+    ]
+   },
+   "@context": {
+    "key": "300000393973854",
+    "headers": {
+     "ETag": "ACED0005737200136A6176612E7574696C2E41727261794C6973747881D21D99C7619D03000149000473697A65787000000001770400000001737200116A6176612E6C616E672E496E746567657212E2A0A4F781873802000149000576616C7565787200106A6176612E6C616E672E4E756D62657286AC951D0B94E08B02000078700000000278"
+    }
+   }
+  },
+  {
+   "PriceListName": "Kingston SSD Price List JPY",
+   "PriceListId": "300000394373188",
+   "PriceListDescription": "SSD prices in JPY",
+   "PriceListType": "Segment price list",
+   "PriceListTypeCode": "SEGMENT",
+   "BusinessUnit": "Kingston JP",
+   "BusinessUnitId": "300000394381245",
+   "Currency": "Yen",
+   "CurrencyCode": "JPY",
+   "Status": "Approved",
+   "StatusCode": "APPROVED",
+   "StartDate": "2026-11-01T04:00:00+00:00",
+   "EndDate": null,
+   "EntityApprovalStatus": null,
+   "EntityApprovalStatusCode": null,
+   "PricingChargeDefinition": "Sale Price",
+   "PricingChargeDefinitionCode": "QP_SALE_PRICE",
+   "PricingChargeDefinitionId": "300000000325736",
+   "LineType": "Buy",
+   "LineTypeCode": "ORA_BUY",
+   "CalculationMethod": "Price",
+   "CalculationMethodCode": "PRICE",
+   "CreationDate": "2026-10-26T18:58:49.001+00:00",
+   "CreatedBy": "Configuration.TEST",
+   "LastUpdateDate": "2026-10-26T18:58:50+00:00",
+   "LastUpdatedBy": "Configuration.TEST",
+   "ChangeTypeCode": null,
+   "ChangeType": null,
+   "accessSets": {
+    "items": [
+     {
+      "PriceListSetId": "300000394372473",
+      "PriceListId": "300000394373188",
+      "AccessSetName": "Enterprise Set",
+      "AccessSetCode": "ENTERPRISE",
+      "AccessSetId": "300000000003463",
+      "AccessSetDescription": null,
+      "EntityApprovalStatus": null,
+      "EntityApprovalStatusCode": null,
+      "CreationDate": "2026-10-26T18:58:49+00:00",
+      "CreatedBy": "Configuration.TEST",
+      "LastUpdateDate": "2026-10-26T18:58:49.009+00:00",
+      "LastUpdatedBy": "Configuration.TEST",
+      "ChangeTypeCode": null,
+      "ChangeType": null,
+      "@context": {
+       "key": "300000394372473",
+       "headers": {
+        "ETag": "ACED0005737200136A6176612E7574696C2E41727261794C6973747881D21D99C7619D03000149000473697A65787000000001770400000001737200116A6176612E6C616E672E496E746567657212E2A0A4F781873802000149000576616C7565787200106A6176612E6C616E672E4E756D62657286AC951D0B94E08B02000078700000000178"
+       }
+      }
+     }
+    ],
+    "count": 1,
+    "hasMore": false,
+    "limit": 500,
+    "offset": 0,
+    "links": [
+     {
+      "rel": "self",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/priceLists/300000394373188/child/accessSets",
+      "name": "accessSets",
+      "kind": "collection"
+     }
+    ]
+   },
+   "@context": {
+    "key": "300000394373188",
+    "headers": {
+     "ETag": "ACED0005737200136A6176612E7574696C2E41727261794C6973747881D21D99C7619D03000149000473697A65787000000001770400000001737200116A6176612E6C616E672E496E746567657212E2A0A4F781873802000149000576616C7565787200106A6176612E6C616E672E4E756D62657286AC951D0B94E08B02000078700000000278"
+    }
+   }
+  },
+  {
+   "PriceListName": "TESTPRICELIST2",
+   "PriceListId": "300000393685988",
+   "PriceListDescription": null,
+   "PriceListType": "Segment price list",
+   "PriceListTypeCode": "SEGMENT",
+   "BusinessUnit": "US1",
+   "BusinessUnitId": "300000386672082",
+   "Currency": "Pakistan Rupee",
+   "CurrencyCode": "PKR",
+   "Status": "Approved",
+   "StatusCode": "APPROVED",
+   "StartDate": "2026-10-19T19:00:00+00:00",
+   "EndDate": null,
+   "EntityApprovalStatus": null,
+   "EntityApprovalStatusCode": null,
+   "PricingChargeDefinition": null,
+   "PricingChargeDefinitionCode": null,
+   "PricingChargeDefinitionId": null,
+   "LineType": "Buy",
+   "LineTypeCode": "ORA_BUY",
+   "CalculationMethod": "Price",
+   "CalculationMethodCode": "PRICE",
+   "CreationDate": "2026-10-21T12:56:21.001+00:00",
+   "CreatedBy": "Configuration.TEST",
+   "LastUpdateDate": "2026-10-21T12:56:22+00:00",
+   "LastUpdatedBy": "Configuration.TEST",
+   "ChangeTypeCode": null,
+   "ChangeType": null,
+   "accessSets": {
+    "items": [
+     {
+      "PriceListSetId": "300000393897544",
+      "PriceListId": "300000393685988",
+      "AccessSetName": "AK Referance Data Set",
+      "AccessSetCode": "AKREFDATA",
+      "AccessSetId": "300000386553140",
+      "AccessSetDescription": "AK Referance Data Set",
+      "EntityApprovalStatus": null,
+      "EntityApprovalStatusCode": null,
+      "CreationDate": "2026-10-21T12:56:21+00:00",
+      "CreatedBy": "Configuration.TEST",
+      "LastUpdateDate": "2026-10-21T12:56:21.058+00:00",
+      "LastUpdatedBy": "Configuration.TEST",
+      "ChangeTypeCode": null,
+      "ChangeType": null,
+      "@context": {
+       "key": "300000393897544",
+       "headers": {
+        "ETag": "ACED0005737200136A6176612E7574696C2E41727261794C6973747881D21D99C7619D03000149000473697A65787000000001770400000001737200116A6176612E6C616E672E496E746567657212E2A0A4F781873802000149000576616C7565787200106A6176612E6C616E672E4E756D62657286AC951D0B94E08B02000078700000000178"
+       }
+      }
+     }
+    ],
+    "count": 1,
+    "hasMore": false,
+    "limit": 500,
+    "offset": 0,
+    "links": [
+     {
+      "rel": "self",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/priceLists/300000393685988/child/accessSets",
+      "name": "accessSets",
+      "kind": "collection"
+     }
+    ]
+   },
+   "@context": {
+    "key": "300000393685988",
+    "headers": {
+     "ETag": "ACED0005737200136A6176612E7574696C2E41727261794C6973747881D21D99C7619D03000149000473697A65787000000001770400000001737200116A6176612E6C616E672E496E746567657212E2A0A4F781873802000149000576616C7565787200106A6176612E6C616E672E4E756D62657286AC951D0B94E08B02000078700000000278"
+    }
+   }
+  },
+  {
+   "PriceListName": "TESTPRICE1002",
+   "PriceListId": "300000393986426",
+   "PriceListDescription": null,
+   "PriceListType": "Segment price list",
+   "PriceListTypeCode": "SEGMENT",
+   "BusinessUnit": "TESTBU1001",
+   "BusinessUnitId": "300000393674258",
+   "Currency": "Afghani",
+   "CurrencyCode": "AFN",
+   "Status": "Approved",
+   "StatusCode": "APPROVED",
+   "StartDate": "2026-10-20T19:00:00+00:00",
+   "EndDate": null,
+   "EntityApprovalStatus": null,
+   "EntityApprovalStatusCode": null,
+   "PricingChargeDefinition": null,
+   "PricingChargeDefinitionCode": null,
+   "PricingChargeDefinitionId": null,
+   "LineType": "Buy",
+   "LineTypeCode": "ORA_BUY",
+   "CalculationMethod": "Price",
+   "CalculationMethodCode": "PRICE",
+   "CreationDate": "2026-10-22T16:36:03.001+00:00",
+   "CreatedBy": "Configuration.TEST",
+   "LastUpdateDate": "2026-10-22T16:36:05+00:00",
+   "LastUpdatedBy": "Configuration.TEST",
+   "ChangeTypeCode": null,
+   "ChangeType": null,
+   "accessSets": {
+    "items": [
+     {
+      "PriceListSetId": "300000393897821",
+      "PriceListId": "300000393986426",
+      "AccessSetName": "Enterprise Set",
+      "AccessSetCode": "ENTERPRISE",
+      "AccessSetId": "300000000003463",
+      "AccessSetDescription": null,
+      "EntityApprovalStatus": null,
+      "EntityApprovalStatusCode": null,
+      "CreationDate": "2026-10-22T16:36:04+00:00",
+      "CreatedBy": "Configuration.TEST",
+      "LastUpdateDate": "2026-10-22T16:36:04.010+00:00",
+      "LastUpdatedBy": "Configuration.TEST",
+      "ChangeTypeCode": null,
+      "ChangeType": null,
+      "@context": {
+       "key": "300000393897821",
+       "headers": {
+        "ETag": "ACED0005737200136A6176612E7574696C2E41727261794C6973747881D21D99C7619D03000149000473697A65787000000001770400000001737200116A6176612E6C616E672E496E746567657212E2A0A4F781873802000149000576616C7565787200106A6176612E6C616E672E4E756D62657286AC951D0B94E08B02000078700000000178"
+       }
+      }
+     }
+    ],
+    "count": 1,
+    "hasMore": false,
+    "limit": 500,
+    "offset": 0,
+    "links": [
+     {
+      "rel": "self",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/priceLists/300000393986426/child/accessSets",
+      "name": "accessSets",
+      "kind": "collection"
+     }
+    ]
+   },
+   "@context": {
+    "key": "300000393986426",
+    "headers": {
+     "ETag": "ACED0005737200136A6176612E7574696C2E41727261794C6973747881D21D99C7619D03000149000473697A65787000000001770400000001737200116A6176612E6C616E672E496E746567657212E2A0A4F781873802000149000576616C7565787200106A6176612E6C616E672E4E756D62657286AC951D0B94E08B02000078700000000278"
+    }
+   }
+  },
+  {
+   "PriceListName": "ZZ_TEST_PL_8034_GSA",
+   "PriceListId": "300000394356045",
+   "PriceListDescription": null,
+   "PriceListType": "GSA price list",
+   "PriceListTypeCode": "GSA",
+   "BusinessUnit": "ABC Procurement BU",
+   "BusinessUnitId": "300000389039590",
+   "Currency": "Afghani",
+   "CurrencyCode": "AFN",
+   "Status": "Approved",
+   "StatusCode": "APPROVED",
+   "StartDate": "2026-11-02T05:00:00+00:00",
+   "EndDate": "2027-03-15T04:00:00+00:00",
+   "EntityApprovalStatus": null,
+   "EntityApprovalStatusCode": null,
+   "PricingChargeDefinition": null,
+   "PricingChargeDefinitionCode": null,
+   "PricingChargeDefinitionId": null,
+   "LineType": "Buy",
+   "LineTypeCode": "ORA_BUY",
+   "CalculationMethod": "Covered item price percent",
+   "CalculationMethodCode": "COVERED_ITEM_PRICE_PERCENT",
+   "CreationDate": "2026-10-26T00:18:43.001+00:00",
+   "CreatedBy": "Configuration.TEST",
+   "LastUpdateDate": "2026-10-26T00:18:45+00:00",
+   "LastUpdatedBy": "Configuration.TEST",
+   "ChangeTypeCode": null,
+   "ChangeType": null,
+   "accessSets": {
+    "items": [
+     {
+      "PriceListSetId": "300000394372045",
+      "PriceListId": "300000394356045",
+      "AccessSetName": "Common Set",
+      "AccessSetCode": "COMMON",
+      "AccessSetId": "0",
+      "AccessSetDescription": null,
+      "EntityApprovalStatus": null,
+      "EntityApprovalStatusCode": null,
+      "CreationDate": "2026-10-26T00:18:44+00:00",
+      "CreatedBy": "Configuration.TEST",
+      "LastUpdateDate": "2026-10-26T00:18:44.083+00:00",
+      "LastUpdatedBy": "Configuration.TEST",
+      "ChangeTypeCode": null,
+      "ChangeType": null,
+      "@context": {
+       "key": "300000394372045",
+       "headers": {
+        "ETag": "ACED0005737200136A6176612E7574696C2E41727261794C6973747881D21D99C7619D03000149000473697A65787000000001770400000001737200116A6176612E6C616E672E496E746567657212E2A0A4F781873802000149000576616C7565787200106A6176612E6C616E672E4E756D62657286AC951D0B94E08B02000078700000000178"
+       }
+      }
+     }
+    ],
+    "count": 1,
+    "hasMore": false,
+    "limit": 500,
+    "offset": 0,
+    "links": [
+     {
+      "rel": "self",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/priceLists/300000394356045/child/accessSets",
+      "name": "accessSets",
+      "kind": "collection"
+     }
+    ]
+   },
+   "@context": {
+    "key": "300000394356045",
+    "headers": {
+     "ETag": "ACED0005737200136A6176612E7574696C2E41727261794C6973747881D21D99C7619D03000149000473697A65787000000001770400000001737200116A6176612E6C616E672E496E746567657212E2A0A4F781873802000149000576616C7565787200106A6176612E6C616E672E4E756D62657286AC951D0B94E08B02000078700000000278"
+    }
+   }
+  },
+  {
+   "PriceListName": "Collector Retail USD D01",
+   "PriceListId": "300000394356198",
+   "PriceListDescription": "Retail prices for collector editions",
+   "PriceListType": "Segment price list",
+   "PriceListTypeCode": "SEGMENT",
+   "BusinessUnit": "Emberlight Games North America Retail D01",
+   "BusinessUnitId": "300000394385075",
+   "Currency": "US Dollar",
+   "CurrencyCode": "USD",
+   "Status": "Approved",
+   "StatusCode": "APPROVED",
+   "StartDate": "2026-11-01T04:00:00+00:00",
+   "EndDate": null,
+   "EntityApprovalStatus": null,
+   "EntityApprovalStatusCode": null,
+   "PricingChargeDefinition": "Sale Price",
+   "PricingChargeDefinitionCode": "QP_SALE_PRICE",
+   "PricingChargeDefinitionId": "300000000325736",
+   "LineType": "Buy",
+   "LineTypeCode": "ORA_BUY",
+   "CalculationMethod": "Price",
+   "CalculationMethodCode": "PRICE",
+   "CreationDate": "2026-10-26T17:14:39.001+00:00",
+   "CreatedBy": "Configuration.TEST",
+   "LastUpdateDate": "2026-10-26T17:14:40+00:00",
+   "LastUpdatedBy": "Configuration.TEST",
+   "ChangeTypeCode": null,
+   "ChangeType": null,
+   "accessSets": {
+    "items": [
+     {
+      "PriceListSetId": "300000394374078",
+      "PriceListId": "300000394356198",
+      "AccessSetName": "Enterprise Set",
+      "AccessSetCode": "ENTERPRISE",
+      "AccessSetId": "300000000003463",
+      "AccessSetDescription": null,
+      "EntityApprovalStatus": null,
+      "EntityApprovalStatusCode": null,
+      "CreationDate": "2026-10-26T17:14:39+00:00",
+      "CreatedBy": "Configuration.TEST",
+      "LastUpdateDate": "2026-10-26T17:14:39.009+00:00",
+      "LastUpdatedBy": "Configuration.TEST",
+      "ChangeTypeCode": null,
+      "ChangeType": null,
+      "@context": {
+       "key": "300000394374078",
+       "headers": {
+        "ETag": "ACED0005737200136A6176612E7574696C2E41727261794C6973747881D21D99C7619D03000149000473697A65787000000001770400000001737200116A6176612E6C616E672E496E746567657212E2A0A4F781873802000149000576616C7565787200106A6176612E6C616E672E4E756D62657286AC951D0B94E08B02000078700000000178"
+       }
+      }
+     }
+    ],
+    "count": 1,
+    "hasMore": false,
+    "limit": 500,
+    "offset": 0,
+    "links": [
+     {
+      "rel": "self",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/priceLists/300000394356198/child/accessSets",
+      "name": "accessSets",
+      "kind": "collection"
+     }
+    ]
+   },
+   "@context": {
+    "key": "300000394356198",
+    "headers": {
+     "ETag": "ACED0005737200136A6176612E7574696C2E41727261794C6973747881D21D99C7619D03000149000473697A65787000000001770400000001737200116A6176612E6C616E672E496E746567657212E2A0A4F781873802000149000576616C7565787200106A6176612E6C616E672E4E756D62657286AC951D0B94E08B02000078700000000278"
+    }
+   }
+  },
+  {
+   "PriceListName": "ZZ_POC_PRICELIST3",
+   "PriceListId": "300000393684129",
+   "PriceListDescription": null,
+   "PriceListType": "Segment price list",
+   "PriceListTypeCode": "SEGMENT",
+   "BusinessUnit": "ABD",
+   "BusinessUnitId": "300000393727002",
+   "Currency": "US Dollar",
+   "CurrencyCode": "USD",
+   "Status": "Approved",
+   "StatusCode": "APPROVED",
+   "StartDate": "2026-10-18T19:00:00+00:00",
+   "EndDate": null,
+   "EntityApprovalStatus": null,
+   "EntityApprovalStatusCode": null,
+   "PricingChargeDefinition": null,
+   "PricingChargeDefinitionCode": null,
+   "PricingChargeDefinitionId": null,
+   "LineType": "Buy",
+   "LineTypeCode": "ORA_BUY",
+   "CalculationMethod": "Price",
+   "CalculationMethodCode": "PRICE",
+   "CreationDate": "2026-10-18T20:04:01.001+00:00",
+   "CreatedBy": "Configuration.TEST",
+   "LastUpdateDate": "2026-10-18T20:04:03+00:00",
+   "LastUpdatedBy": "Configuration.TEST",
+   "ChangeTypeCode": null,
+   "ChangeType": null,
+   "accessSets": {
+    "items": [
+     {
+      "PriceListSetId": "300000393630748",
+      "PriceListId": "300000393684129",
+      "AccessSetName": "001 Customer Site",
+      "AccessSetCode": "001 CUSTOMER SITE",
+      "AccessSetId": "300000332869080",
+      "AccessSetDescription": null,
+      "EntityApprovalStatus": null,
+      "EntityApprovalStatusCode": null,
+      "CreationDate": "2026-10-18T20:04:02+00:00",
+      "CreatedBy": "Configuration.TEST",
+      "LastUpdateDate": "2026-10-18T20:04:02.132+00:00",
+      "LastUpdatedBy": "Configuration.TEST",
+      "ChangeTypeCode": null,
+      "ChangeType": null,
+      "@context": {
+       "key": "300000393630748",
+       "headers": {
+        "ETag": "ACED0005737200136A6176612E7574696C2E41727261794C6973747881D21D99C7619D03000149000473697A65787000000001770400000001737200116A6176612E6C616E672E496E746567657212E2A0A4F781873802000149000576616C7565787200106A6176612E6C616E672E4E756D62657286AC951D0B94E08B02000078700000000178"
+       }
+      }
+     }
+    ],
+    "count": 1,
+    "hasMore": false,
+    "limit": 500,
+    "offset": 0,
+    "links": [
+     {
+      "rel": "self",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/priceLists/300000393684129/child/accessSets",
+      "name": "accessSets",
+      "kind": "collection"
+     }
+    ]
+   },
+   "@context": {
+    "key": "300000393684129",
+    "headers": {
+     "ETag": "ACED0005737200136A6176612E7574696C2E41727261794C6973747881D21D99C7619D03000149000473697A65787000000001770400000001737200116A6176612E6C616E672E496E746567657212E2A0A4F781873802000149000576616C7565787200106A6176612E6C616E672E4E756D62657286AC951D0B94E08B02000078700000000278"
+    }
+   }
+  },
+  {
+   "PriceListName": "TESTPRICE1003",
+   "PriceListId": "300000393986427",
+   "PriceListDescription": null,
+   "PriceListType": "Segment price list",
+   "PriceListTypeCode": "SEGMENT",
+   "BusinessUnit": "TESTBU1001",
+   "BusinessUnitId": "300000393674258",
+   "Currency": "Afghani",
+   "CurrencyCode": "AFN",
+   "Status": "Approved",
+   "StatusCode": "APPROVED",
+   "StartDate": "2026-10-20T19:00:00+00:00",
+   "EndDate": null,
+   "EntityApprovalStatus": null,
+   "EntityApprovalStatusCode": null,
+   "PricingChargeDefinition": null,
+   "PricingChargeDefinitionCode": null,
+   "PricingChargeDefinitionId": null,
+   "LineType": "Buy",
+   "LineTypeCode": "ORA_BUY",
+   "CalculationMethod": "Price",
+   "CalculationMethodCode": "PRICE",
+   "CreationDate": "2026-10-22T16:59:00+00:00",
+   "CreatedBy": "Configuration.TEST",
+   "LastUpdateDate": "2026-10-22T16:59:02+00:00",
+   "LastUpdatedBy": "Configuration.TEST",
+   "ChangeTypeCode": null,
+   "ChangeType": null,
+   "accessSets": {
+    "items": [
+     {
+      "PriceListSetId": "300000393897822",
+      "PriceListId": "300000393986427",
+      "AccessSetName": "Enterprise Set",
+      "AccessSetCode": "ENTERPRISE",
+      "AccessSetId": "300000000003463",
+      "AccessSetDescription": null,
+      "EntityApprovalStatus": null,
+      "EntityApprovalStatusCode": null,
+      "CreationDate": "2026-10-22T16:59:01+00:00",
+      "CreatedBy": "Configuration.TEST",
+      "LastUpdateDate": "2026-10-22T16:59:01.009+00:00",
+      "LastUpdatedBy": "Configuration.TEST",
+      "ChangeTypeCode": null,
+      "ChangeType": null,
+      "@context": {
+       "key": "300000393897822",
+       "headers": {
+        "ETag": "ACED0005737200136A6176612E7574696C2E41727261794C6973747881D21D99C7619D03000149000473697A65787000000001770400000001737200116A6176612E6C616E672E496E746567657212E2A0A4F781873802000149000576616C7565787200106A6176612E6C616E672E4E756D62657286AC951D0B94E08B02000078700000000178"
+       }
+      }
+     }
+    ],
+    "count": 1,
+    "hasMore": false,
+    "limit": 500,
+    "offset": 0,
+    "links": [
+     {
+      "rel": "self",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/priceLists/300000393986427/child/accessSets",
+      "name": "accessSets",
+      "kind": "collection"
+     }
+    ]
+   },
+   "@context": {
+    "key": "300000393986427",
+    "headers": {
+     "ETag": "ACED0005737200136A6176612E7574696C2E41727261794C6973747881D21D99C7619D03000149000473697A65787000000001770400000001737200116A6176612E6C616E672E496E746567657212E2A0A4F781873802000149000576616C7565787200106A6176612E6C616E672E4E756D62657286AC951D0B94E08B02000078700000000278"
+    }
+   }
+  },
+  {
+   "PriceListName": "ZZ_TEST_PL_1932_B",
+   "PriceListId": "300000394373208",
+   "PriceListDescription": "Random test price list",
+   "PriceListType": "Segment price list",
+   "PriceListTypeCode": "SEGMENT",
+   "BusinessUnit": "ZZ_TEST_BU_1932",
+   "BusinessUnitId": "300000394385099",
+   "Currency": "US Dollar",
+   "CurrencyCode": "USD",
+   "Status": "Approved",
+   "StatusCode": "APPROVED",
+   "StartDate": "2026-11-01T04:00:00+00:00",
+   "EndDate": null,
+   "EntityApprovalStatus": null,
+   "EntityApprovalStatusCode": null,
+   "PricingChargeDefinition": "Sale Price",
+   "PricingChargeDefinitionCode": "QP_SALE_PRICE",
+   "PricingChargeDefinitionId": "300000000325736",
+   "LineType": "Buy",
+   "LineTypeCode": "ORA_BUY",
+   "CalculationMethod": "Price",
+   "CalculationMethodCode": "PRICE",
+   "CreationDate": "2026-10-27T12:06:46.001+00:00",
+   "CreatedBy": "Configuration.TEST",
+   "LastUpdateDate": "2026-10-27T12:06:47+00:00",
+   "LastUpdatedBy": "Configuration.TEST",
+   "ChangeTypeCode": null,
+   "ChangeType": null,
+   "accessSets": {
+    "items": [
+     {
+      "PriceListSetId": "300000394372612",
+      "PriceListId": "300000394373208",
+      "AccessSetName": "Enterprise Set",
+      "AccessSetCode": "ENTERPRISE",
+      "AccessSetId": "300000000003463",
+      "AccessSetDescription": null,
+      "EntityApprovalStatus": null,
+      "EntityApprovalStatusCode": null,
+      "CreationDate": "2026-10-27T12:06:46+00:00",
+      "CreatedBy": "Configuration.TEST",
+      "LastUpdateDate": "2026-10-27T12:06:46.007+00:00",
+      "LastUpdatedBy": "Configuration.TEST",
+      "ChangeTypeCode": null,
+      "ChangeType": null,
+      "@context": {
+       "key": "300000394372612",
+       "headers": {
+        "ETag": "ACED0005737200136A6176612E7574696C2E41727261794C6973747881D21D99C7619D03000149000473697A65787000000001770400000001737200116A6176612E6C616E672E496E746567657212E2A0A4F781873802000149000576616C7565787200106A6176612E6C616E672E4E756D62657286AC951D0B94E08B02000078700000000178"
+       }
+      }
+     }
+    ],
+    "count": 1,
+    "hasMore": false,
+    "limit": 500,
+    "offset": 0,
+    "links": [
+     {
+      "rel": "self",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/priceLists/300000394373208/child/accessSets",
+      "name": "accessSets",
+      "kind": "collection"
+     }
+    ]
+   },
+   "@context": {
+    "key": "300000394373208",
+    "headers": {
+     "ETag": "ACED0005737200136A6176612E7574696C2E41727261794C6973747881D21D99C7619D03000149000473697A65787000000001770400000001737200116A6176612E6C616E672E496E746567657212E2A0A4F781873802000149000576616C7565787200106A6176612E6C616E672E4E756D62657286AC951D0B94E08B02000078700000000278"
+    }
+   }
+  },
+  {
+   "PriceListName": "TESTPRICELIST300",
+   "PriceListId": "300000393986468",
+   "PriceListDescription": null,
+   "PriceListType": "Segment price list",
+   "PriceListTypeCode": "SEGMENT",
+   "BusinessUnit": "TESTBU100",
+   "BusinessUnitId": "300000393671139",
+   "Currency": "Pakistan Rupee",
+   "CurrencyCode": "PKR",
+   "Status": "Approved",
+   "StatusCode": "APPROVED",
+   "StartDate": "2026-10-20T19:00:00+00:00",
+   "EndDate": null,
+   "EntityApprovalStatus": null,
+   "EntityApprovalStatusCode": null,
+   "PricingChargeDefinition": null,
+   "PricingChargeDefinitionCode": null,
+   "PricingChargeDefinitionId": null,
+   "LineType": "Buy",
+   "LineTypeCode": "ORA_BUY",
+   "CalculationMethod": "Price",
+   "CalculationMethodCode": "PRICE",
+   "CreationDate": "2026-10-22T23:56:15+00:00",
+   "CreatedBy": "Configuration.TEST",
+   "LastUpdateDate": "2026-10-22T23:56:16+00:00",
+   "LastUpdatedBy": "Configuration.TEST",
+   "ChangeTypeCode": null,
+   "ChangeType": null,
+   "accessSets": {
+    "items": [
+     {
+      "PriceListSetId": "300000393973899",
+      "PriceListId": "300000393986468",
+      "AccessSetName": "Enterprise Set",
+      "AccessSetCode": "ENTERPRISE",
+      "AccessSetId": "300000000003463",
+      "AccessSetDescription": null,
+      "EntityApprovalStatus": null,
+      "EntityApprovalStatusCode": null,
+      "CreationDate": "2026-10-22T23:56:15+00:00",
+      "CreatedBy": "Configuration.TEST",
+      "LastUpdateDate": "2026-10-22T23:56:15.008+00:00",
+      "LastUpdatedBy": "Configuration.TEST",
+      "ChangeTypeCode": null,
+      "ChangeType": null,
+      "@context": {
+       "key": "300000393973899",
+       "headers": {
+        "ETag": "ACED0005737200136A6176612E7574696C2E41727261794C6973747881D21D99C7619D03000149000473697A65787000000001770400000001737200116A6176612E6C616E672E496E746567657212E2A0A4F781873802000149000576616C7565787200106A6176612E6C616E672E4E756D62657286AC951D0B94E08B02000078700000000178"
+       }
+      }
+     }
+    ],
+    "count": 1,
+    "hasMore": false,
+    "limit": 500,
+    "offset": 0,
+    "links": [
+     {
+      "rel": "self",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/priceLists/300000393986468/child/accessSets",
+      "name": "accessSets",
+      "kind": "collection"
+     }
+    ]
+   },
+   "@context": {
+    "key": "300000393986468",
+    "headers": {
+     "ETag": "ACED0005737200136A6176612E7574696C2E41727261794C6973747881D21D99C7619D03000149000473697A65787000000001770400000001737200116A6176612E6C616E672E496E746567657212E2A0A4F781873802000149000576616C7565787200106A6176612E6C616E672E4E756D62657286AC951D0B94E08B02000078700000000278"
+    }
+   }
+  },
+  {
+   "PriceListName": "TESTPRICELIST6",
+   "PriceListId": "300000393973570",
+   "PriceListDescription": null,
+   "PriceListType": "Segment price list",
+   "PriceListTypeCode": "SEGMENT",
+   "BusinessUnit": "TESTBU6",
+   "BusinessUnitId": "300000393672257",
+   "Currency": "Pakistan Rupee",
+   "CurrencyCode": "PKR",
+   "Status": "Approved",
+   "StatusCode": "APPROVED",
+   "StartDate": "2026-10-19T19:00:00+00:00",
+   "EndDate": null,
+   "EntityApprovalStatus": null,
+   "EntityApprovalStatusCode": null,
+   "PricingChargeDefinition": null,
+   "PricingChargeDefinitionCode": null,
+   "PricingChargeDefinitionId": null,
+   "LineType": "Buy",
+   "LineTypeCode": "ORA_BUY",
+   "CalculationMethod": "Price",
+   "CalculationMethodCode": "PRICE",
+   "CreationDate": "2026-10-21T17:43:01.001+00:00",
+   "CreatedBy": "Configuration.TEST",
+   "LastUpdateDate": "2026-10-21T17:43:02+00:00",
+   "LastUpdatedBy": "Configuration.TEST",
+   "ChangeTypeCode": null,
+   "ChangeType": null,
+   "accessSets": {
+    "items": [
+     {
+      "PriceListSetId": "300000393897580",
+      "PriceListId": "300000393973570",
+      "AccessSetName": "GoSaaS Labs Data Set",
+      "AccessSetCode": "SET0001",
+      "AccessSetId": "300000130947183",
+      "AccessSetDescription": null,
+      "EntityApprovalStatus": null,
+      "EntityApprovalStatusCode": null,
+      "CreationDate": "2026-10-21T17:43:02+00:00",
+      "CreatedBy": "Configuration.TEST",
+      "LastUpdateDate": "2026-10-21T17:43:02.014+00:00",
+      "LastUpdatedBy": "Configuration.TEST",
+      "ChangeTypeCode": null,
+      "ChangeType": null,
+      "@context": {
+       "key": "300000393897580",
+       "headers": {
+        "ETag": "ACED0005737200136A6176612E7574696C2E41727261794C6973747881D21D99C7619D03000149000473697A65787000000001770400000001737200116A6176612E6C616E672E496E746567657212E2A0A4F781873802000149000576616C7565787200106A6176612E6C616E672E4E756D62657286AC951D0B94E08B02000078700000000178"
+       }
+      }
+     }
+    ],
+    "count": 1,
+    "hasMore": false,
+    "limit": 500,
+    "offset": 0,
+    "links": [
+     {
+      "rel": "self",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/priceLists/300000393973570/child/accessSets",
+      "name": "accessSets",
+      "kind": "collection"
+     }
+    ]
+   },
+   "@context": {
+    "key": "300000393973570",
+    "headers": {
+     "ETag": "ACED0005737200136A6176612E7574696C2E41727261794C6973747881D21D99C7619D03000149000473697A65787000000001770400000001737200116A6176612E6C616E672E496E746567657212E2A0A4F781873802000149000576616C7565787200106A6176612E6C616E672E4E756D62657286AC951D0B94E08B02000078700000000278"
+    }
+   }
+  },
+  {
+   "PriceListName": "Esports Arena Wholesale USD D01",
+   "PriceListId": "300000394356197",
+   "PriceListDescription": "Wholesale prices for esports arenas",
+   "PriceListType": "Segment price list",
+   "PriceListTypeCode": "SEGMENT",
+   "BusinessUnit": "Emberlight Games North America Retail D01",
+   "BusinessUnitId": "300000394385075",
+   "Currency": "US Dollar",
+   "CurrencyCode": "USD",
+   "Status": "Approved",
+   "StatusCode": "APPROVED",
+   "StartDate": "2026-11-01T04:00:00+00:00",
+   "EndDate": null,
+   "EntityApprovalStatus": null,
+   "EntityApprovalStatusCode": null,
+   "PricingChargeDefinition": "Sale Price",
+   "PricingChargeDefinitionCode": "QP_SALE_PRICE",
+   "PricingChargeDefinitionId": "300000000325736",
+   "LineType": "Buy",
+   "LineTypeCode": "ORA_BUY",
+   "CalculationMethod": "Price",
+   "CalculationMethodCode": "PRICE",
+   "CreationDate": "2026-10-26T17:14:36.001+00:00",
+   "CreatedBy": "Configuration.TEST",
+   "LastUpdateDate": "2026-10-26T17:14:37+00:00",
+   "LastUpdatedBy": "Configuration.TEST",
+   "ChangeTypeCode": null,
+   "ChangeType": null,
+   "accessSets": {
+    "items": [
+     {
+      "PriceListSetId": "300000394374077",
+      "PriceListId": "300000394356197",
+      "AccessSetName": "Enterprise Set",
+      "AccessSetCode": "ENTERPRISE",
+      "AccessSetId": "300000000003463",
+      "AccessSetDescription": null,
+      "EntityApprovalStatus": null,
+      "EntityApprovalStatusCode": null,
+      "CreationDate": "2026-10-26T17:14:37+00:00",
+      "CreatedBy": "Configuration.TEST",
+      "LastUpdateDate": "2026-10-26T17:14:37.012+00:00",
+      "LastUpdatedBy": "Configuration.TEST",
+      "ChangeTypeCode": null,
+      "ChangeType": null,
+      "@context": {
+       "key": "300000394374077",
+       "headers": {
+        "ETag": "ACED0005737200136A6176612E7574696C2E41727261794C6973747881D21D99C7619D03000149000473697A65787000000001770400000001737200116A6176612E6C616E672E496E746567657212E2A0A4F781873802000149000576616C7565787200106A6176612E6C616E672E4E756D62657286AC951D0B94E08B02000078700000000178"
+       }
+      }
+     }
+    ],
+    "count": 1,
+    "hasMore": false,
+    "limit": 500,
+    "offset": 0,
+    "links": [
+     {
+      "rel": "self",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/priceLists/300000394356197/child/accessSets",
+      "name": "accessSets",
+      "kind": "collection"
+     }
+    ]
+   },
+   "@context": {
+    "key": "300000394356197",
+    "headers": {
+     "ETag": "ACED0005737200136A6176612E7574696C2E41727261794C6973747881D21D99C7619D03000149000473697A65787000000001770400000001737200116A6176612E6C616E672E496E746567657212E2A0A4F781873802000149000576616C7565787200106A6176612E6C616E672E4E756D62657286AC951D0B94E08B02000078700000000278"
+    }
+   }
+  },
+  {
+   "PriceListName": "ZZ_SHEET_PL_8003_NEWBU",
+   "PriceListId": "300000394356053",
+   "PriceListDescription": null,
+   "PriceListType": "Segment price list",
+   "PriceListTypeCode": "SEGMENT",
+   "BusinessUnit": "ZZ_SHEET_BU_8970",
+   "BusinessUnitId": "300000394385006",
+   "Currency": "US Dollar",
+   "CurrencyCode": "USD",
+   "Status": "Approved",
+   "StatusCode": "APPROVED",
+   "StartDate": "2026-11-01T04:00:00+00:00",
+   "EndDate": null,
+   "EntityApprovalStatus": null,
+   "EntityApprovalStatusCode": null,
+   "PricingChargeDefinition": null,
+   "PricingChargeDefinitionCode": null,
+   "PricingChargeDefinitionId": null,
+   "LineType": "Buy",
+   "LineTypeCode": "ORA_BUY",
+   "CalculationMethod": "Price",
+   "CalculationMethodCode": "PRICE",
+   "CreationDate": "2026-10-26T02:41:33.001+00:00",
+   "CreatedBy": "Configuration.TEST",
+   "LastUpdateDate": "2026-10-26T02:41:34+00:00",
+   "LastUpdatedBy": "Configuration.TEST",
+   "ChangeTypeCode": null,
+   "ChangeType": null,
+   "accessSets": {
+    "items": [
+     {
+      "PriceListSetId": "300000394374055",
+      "PriceListId": "300000394356053",
+      "AccessSetName": "001 Customer Site",
+      "AccessSetCode": "001 CUSTOMER SITE",
+      "AccessSetId": "300000332869080",
+      "AccessSetDescription": null,
+      "EntityApprovalStatus": null,
+      "EntityApprovalStatusCode": null,
+      "CreationDate": "2026-10-26T02:41:34+00:00",
+      "CreatedBy": "Configuration.TEST",
+      "LastUpdateDate": "2026-10-26T02:41:34.008+00:00",
+      "LastUpdatedBy": "Configuration.TEST",
+      "ChangeTypeCode": null,
+      "ChangeType": null,
+      "@context": {
+       "key": "300000394374055",
+       "headers": {
+        "ETag": "ACED0005737200136A6176612E7574696C2E41727261794C6973747881D21D99C7619D03000149000473697A65787000000001770400000001737200116A6176612E6C616E672E496E746567657212E2A0A4F781873802000149000576616C7565787200106A6176612E6C616E672E4E756D62657286AC951D0B94E08B02000078700000000178"
+       }
+      }
+     }
+    ],
+    "count": 1,
+    "hasMore": false,
+    "limit": 500,
+    "offset": 0,
+    "links": [
+     {
+      "rel": "self",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/priceLists/300000394356053/child/accessSets",
+      "name": "accessSets",
+      "kind": "collection"
+     }
+    ]
+   },
+   "@context": {
+    "key": "300000394356053",
+    "headers": {
+     "ETag": "ACED0005737200136A6176612E7574696C2E41727261794C6973747881D21D99C7619D03000149000473697A65787000000001770400000001737200116A6176612E6C616E672E496E746567657212E2A0A4F781873802000149000576616C7565787200106A6176612E6C616E672E4E756D62657286AC951D0B94E08B02000078700000000278"
+    }
+   }
+  },
+  {
+   "PriceListName": "Kingston SSD Price List USD",
+   "PriceListId": "300000394373186",
+   "PriceListDescription": "SSD prices in USD",
+   "PriceListType": "Segment price list",
+   "PriceListTypeCode": "SEGMENT",
+   "BusinessUnit": "Kingston US",
+   "BusinessUnitId": "300000394381239",
+   "Currency": "US Dollar",
+   "CurrencyCode": "USD",
+   "Status": "Approved",
+   "StatusCode": "APPROVED",
+   "StartDate": "2026-11-01T04:00:00+00:00",
+   "EndDate": null,
+   "EntityApprovalStatus": null,
+   "EntityApprovalStatusCode": null,
+   "PricingChargeDefinition": "Sale Price",
+   "PricingChargeDefinitionCode": "QP_SALE_PRICE",
+   "PricingChargeDefinitionId": "300000000325736",
+   "LineType": "Buy",
+   "LineTypeCode": "ORA_BUY",
+   "CalculationMethod": "Price",
+   "CalculationMethodCode": "PRICE",
+   "CreationDate": "2026-10-26T18:58:45.001+00:00",
+   "CreatedBy": "Configuration.TEST",
+   "LastUpdateDate": "2026-10-26T18:58:46+00:00",
+   "LastUpdatedBy": "Configuration.TEST",
+   "ChangeTypeCode": null,
+   "ChangeType": null,
+   "accessSets": {
+    "items": [
+     {
+      "PriceListSetId": "300000394372471",
+      "PriceListId": "300000394373186",
+      "AccessSetName": "Enterprise Set",
+      "AccessSetCode": "ENTERPRISE",
+      "AccessSetId": "300000000003463",
+      "AccessSetDescription": null,
+      "EntityApprovalStatus": null,
+      "EntityApprovalStatusCode": null,
+      "CreationDate": "2026-10-26T18:58:45+00:00",
+      "CreatedBy": "Configuration.TEST",
+      "LastUpdateDate": "2026-10-26T18:58:45.010+00:00",
+      "LastUpdatedBy": "Configuration.TEST",
+      "ChangeTypeCode": null,
+      "ChangeType": null,
+      "@context": {
+       "key": "300000394372471",
+       "headers": {
+        "ETag": "ACED0005737200136A6176612E7574696C2E41727261794C6973747881D21D99C7619D03000149000473697A65787000000001770400000001737200116A6176612E6C616E672E496E746567657212E2A0A4F781873802000149000576616C7565787200106A6176612E6C616E672E4E756D62657286AC951D0B94E08B02000078700000000178"
+       }
+      }
+     }
+    ],
+    "count": 1,
+    "hasMore": false,
+    "limit": 500,
+    "offset": 0,
+    "links": [
+     {
+      "rel": "self",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/priceLists/300000394373186/child/accessSets",
+      "name": "accessSets",
+      "kind": "collection"
+     }
+    ]
+   },
+   "@context": {
+    "key": "300000394373186",
+    "headers": {
+     "ETag": "ACED0005737200136A6176612E7574696C2E41727261794C6973747881D21D99C7619D03000149000473697A65787000000001770400000001737200116A6176612E6C616E672E496E746567657212E2A0A4F781873802000149000576616C7565787200106A6176612E6C616E672E4E756D62657286AC951D0B94E08B02000078700000000278"
+    }
+   }
+  },
+  {
+   "PriceListName": "ZZ_TEST_PL_8034_B1",
+   "PriceListId": "300000394356046",
+   "PriceListDescription": null,
+   "PriceListType": "Segment price list",
+   "PriceListTypeCode": "SEGMENT",
+   "BusinessUnit": "ABD",
+   "BusinessUnitId": "300000393727002",
+   "Currency": "US Dollar",
+   "CurrencyCode": "USD",
+   "Status": "Approved",
+   "StatusCode": "APPROVED",
+   "StartDate": "2026-10-27T04:00:00+00:00",
+   "EndDate": null,
+   "EntityApprovalStatus": null,
+   "EntityApprovalStatusCode": null,
+   "PricingChargeDefinition": null,
+   "PricingChargeDefinitionCode": null,
+   "PricingChargeDefinitionId": null,
+   "LineType": "Buy",
+   "LineTypeCode": "ORA_BUY",
+   "CalculationMethod": "Price",
+   "CalculationMethodCode": "PRICE",
+   "CreationDate": "2026-10-26T00:19:23.001+00:00",
+   "CreatedBy": "Configuration.TEST",
+   "LastUpdateDate": "2026-10-26T00:19:24+00:00",
+   "LastUpdatedBy": "Configuration.TEST",
+   "ChangeTypeCode": null,
+   "ChangeType": null,
+   "accessSets": {
+    "items": [
+     {
+      "PriceListSetId": "300000394373078",
+      "PriceListId": "300000394356046",
+      "AccessSetName": "001 Customer Site",
+      "AccessSetCode": "001 CUSTOMER SITE",
+      "AccessSetId": "300000332869080",
+      "AccessSetDescription": null,
+      "EntityApprovalStatus": null,
+      "EntityApprovalStatusCode": null,
+      "CreationDate": "2026-10-26T00:19:23+00:00",
+      "CreatedBy": "Configuration.TEST",
+      "LastUpdateDate": "2026-10-26T00:19:23.031+00:00",
+      "LastUpdatedBy": "Configuration.TEST",
+      "ChangeTypeCode": null,
+      "ChangeType": null,
+      "@context": {
+       "key": "300000394373078",
+       "headers": {
+        "ETag": "ACED0005737200136A6176612E7574696C2E41727261794C6973747881D21D99C7619D03000149000473697A65787000000001770400000001737200116A6176612E6C616E672E496E746567657212E2A0A4F781873802000149000576616C7565787200106A6176612E6C616E672E4E756D62657286AC951D0B94E08B02000078700000000178"
+       }
+      }
+     }
+    ],
+    "count": 1,
+    "hasMore": false,
+    "limit": 500,
+    "offset": 0,
+    "links": [
+     {
+      "rel": "self",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/priceLists/300000394356046/child/accessSets",
+      "name": "accessSets",
+      "kind": "collection"
+     }
+    ]
+   },
+   "@context": {
+    "key": "300000394356046",
+    "headers": {
+     "ETag": "ACED0005737200136A6176612E7574696C2E41727261794C6973747881D21D99C7619D03000149000473697A65787000000001770400000001737200116A6176612E6C616E672E496E746567657212E2A0A4F781873802000149000576616C7565787200106A6176612E6C616E672E4E756D62657286AC951D0B94E08B02000078700000000278"
+    }
+   }
+  },
+  {
+   "PriceListName": "ZZ_SHEET_PL_8003_ALL2",
+   "PriceListId": "300000394376127",
+   "PriceListDescription": "Every field filled",
+   "PriceListType": "Floor price list",
+   "PriceListTypeCode": "FLOOR",
+   "BusinessUnit": "ABD",
+   "BusinessUnitId": "300000393727002",
+   "Currency": "US Dollar",
+   "CurrencyCode": "USD",
+   "Status": "Approved",
+   "StatusCode": "APPROVED",
+   "StartDate": "2026-11-01T04:00:00+00:00",
+   "EndDate": "2027-10-31T04:00:00+00:00",
+   "EntityApprovalStatus": null,
+   "EntityApprovalStatusCode": null,
+   "PricingChargeDefinition": "Sale Price",
+   "PricingChargeDefinitionCode": "QP_SALE_PRICE",
+   "PricingChargeDefinitionId": "300000000325736",
+   "LineType": "Buy",
+   "LineTypeCode": "ORA_BUY",
+   "CalculationMethod": "Cost",
+   "CalculationMethodCode": "COST",
+   "CreationDate": "2026-10-26T12:40:11.001+00:00",
+   "CreatedBy": "Configuration.TEST",
+   "LastUpdateDate": "2026-10-26T12:40:14+00:00",
+   "LastUpdatedBy": "Configuration.TEST",
+   "ChangeTypeCode": null,
+   "ChangeType": null,
+   "accessSets": {
+    "items": [
+     {
+      "PriceListSetId": "300000394356181",
+      "PriceListId": "300000394376127",
+      "AccessSetName": "Enterprise Set",
+      "AccessSetCode": "ENTERPRISE",
+      "AccessSetId": "300000000003463",
+      "AccessSetDescription": null,
+      "EntityApprovalStatus": null,
+      "EntityApprovalStatusCode": null,
+      "CreationDate": "2026-10-26T12:40:13+00:00",
+      "CreatedBy": "Configuration.TEST",
+      "LastUpdateDate": "2026-10-26T12:40:13.044+00:00",
+      "LastUpdatedBy": "Configuration.TEST",
+      "ChangeTypeCode": null,
+      "ChangeType": null,
+      "@context": {
+       "key": "300000394356181",
+       "headers": {
+        "ETag": "ACED0005737200136A6176612E7574696C2E41727261794C6973747881D21D99C7619D03000149000473697A65787000000001770400000001737200116A6176612E6C616E672E496E746567657212E2A0A4F781873802000149000576616C7565787200106A6176612E6C616E672E4E756D62657286AC951D0B94E08B02000078700000000178"
+       }
+      }
+     },
+     {
+      "PriceListSetId": "300000394372461",
+      "PriceListId": "300000394376127",
+      "AccessSetName": "001 Customer Site",
+      "AccessSetCode": "001 CUSTOMER SITE",
+      "AccessSetId": "300000332869080",
+      "AccessSetDescription": null,
+      "EntityApprovalStatus": null,
+      "EntityApprovalStatusCode": null,
+      "CreationDate": "2026-10-26T12:40:12+00:00",
+      "CreatedBy": "Configuration.TEST",
+      "LastUpdateDate": "2026-10-26T12:40:12.060+00:00",
+      "LastUpdatedBy": "Configuration.TEST",
+      "ChangeTypeCode": null,
+      "ChangeType": null,
+      "@context": {
+       "key": "300000394372461",
+       "headers": {
+        "ETag": "ACED0005737200136A6176612E7574696C2E41727261794C6973747881D21D99C7619D03000149000473697A65787000000001770400000001737200116A6176612E6C616E672E496E746567657212E2A0A4F781873802000149000576616C7565787200106A6176612E6C616E672E4E756D62657286AC951D0B94E08B02000078700000000178"
+       }
+      }
+     }
+    ],
+    "count": 2,
+    "hasMore": false,
+    "limit": 500,
+    "offset": 0,
+    "links": [
+     {
+      "rel": "self",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/priceLists/300000394376127/child/accessSets",
+      "name": "accessSets",
+      "kind": "collection"
+     }
+    ]
+   },
+   "@context": {
+    "key": "300000394376127",
+    "headers": {
+     "ETag": "ACED0005737200136A6176612E7574696C2E41727261794C6973747881D21D99C7619D03000149000473697A65787000000001770400000001737200116A6176612E6C616E672E496E746567657212E2A0A4F781873802000149000576616C7565787200106A6176612E6C616E672E4E756D62657286AC951D0B94E08B02000078700000000278"
+    }
+   }
+  },
+  {
+   "PriceListName": "FSCRT_Quillon Ridge Wholesale Tents USD F01",
+   "PriceListId": "300000394622041",
+   "PriceListDescription": "Wholesale tent and shelter prices for retail dealers",
+   "PriceListType": "Segment price list",
+   "PriceListTypeCode": "SEGMENT",
+   "BusinessUnit": "FSCRT_Quillon Ridge Outfitters West F01",
+   "BusinessUnitId": "300000394664006",
+   "Currency": "US Dollar",
+   "CurrencyCode": "USD",
+   "Status": "Approved",
+   "StatusCode": "APPROVED",
+   "StartDate": "2026-11-03T00:00:00+00:00",
+   "EndDate": null,
+   "EntityApprovalStatus": null,
+   "EntityApprovalStatusCode": null,
+   "PricingChargeDefinition": "Sale Price",
+   "PricingChargeDefinitionCode": "QP_SALE_PRICE",
+   "PricingChargeDefinitionId": "300000000325736",
+   "LineType": "Buy",
+   "LineTypeCode": "ORA_BUY",
+   "CalculationMethod": "Price",
+   "CalculationMethodCode": "PRICE",
+   "CreationDate": "2026-11-03T01:43:04.001+00:00",
+   "CreatedBy": "Configuration.TEST",
+   "LastUpdateDate": "2026-11-03T01:59:11+00:00",
+   "LastUpdatedBy": "Configuration.TEST",
+   "ChangeTypeCode": null,
+   "ChangeType": null,
+   "accessSets": {
+    "items": [
+     {
+      "PriceListSetId": "300000394622042",
+      "PriceListId": "300000394622041",
+      "AccessSetName": "Enterprise Set",
+      "AccessSetCode": "ENTERPRISE",
+      "AccessSetId": "300000000003463",
+      "AccessSetDescription": null,
+      "EntityApprovalStatus": null,
+      "EntityApprovalStatusCode": null,
+      "CreationDate": "2026-11-03T01:43:04.430+00:00",
+      "CreatedBy": "Configuration.TEST",
+      "LastUpdateDate": "2026-11-03T01:43:04.633+00:00",
+      "LastUpdatedBy": "Configuration.TEST",
+      "ChangeTypeCode": null,
+      "ChangeType": null,
+      "@context": {
+       "key": "300000394622042",
+       "headers": {
+        "ETag": "ACED0005737200136A6176612E7574696C2E41727261794C6973747881D21D99C7619D03000149000473697A65787000000001770400000001737200116A6176612E6C616E672E496E746567657212E2A0A4F781873802000149000576616C7565787200106A6176612E6C616E672E4E756D62657286AC951D0B94E08B02000078700000000178"
+       }
+      }
+     }
+    ],
+    "count": 1,
+    "hasMore": false,
+    "limit": 500,
+    "offset": 0,
+    "links": [
+     {
+      "rel": "self",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/priceLists/300000394622041/child/accessSets",
+      "name": "accessSets",
+      "kind": "collection"
+     }
+    ]
+   },
+   "@context": {
+    "key": "300000394622041",
+    "headers": {
+     "ETag": "ACED0005737200136A6176612E7574696C2E41727261794C6973747881D21D99C7619D03000149000473697A65787000000001770400000001737200116A6176612E6C616E672E496E746567657212E2A0A4F781873802000149000576616C7565787200106A6176612E6C616E672E4E756D62657286AC951D0B94E08B02000078700000000278"
+    }
+   }
+  },
+  {
+   "PriceListName": "ZZ_TEST_1567",
+   "PriceListId": "300000393775950",
+   "PriceListDescription": "Page interface test",
+   "PriceListType": "Segment price list",
+   "PriceListTypeCode": "SEGMENT",
+   "BusinessUnit": "ABD",
+   "BusinessUnitId": "300000393727002",
+   "Currency": "US Dollar",
+   "CurrencyCode": "USD",
+   "Status": "Approved",
+   "StatusCode": "APPROVED",
+   "StartDate": "2026-10-19T19:00:00+00:00",
+   "EndDate": null,
+   "EntityApprovalStatus": null,
+   "EntityApprovalStatusCode": null,
+   "PricingChargeDefinition": null,
+   "PricingChargeDefinitionCode": null,
+   "PricingChargeDefinitionId": null,
+   "LineType": "Buy",
+   "LineTypeCode": "ORA_BUY",
+   "CalculationMethod": "Price",
+   "CalculationMethodCode": "PRICE",
+   "CreationDate": "2026-10-21T03:34:44+00:00",
+   "CreatedBy": "Configuration.TEST",
+   "LastUpdateDate": "2026-10-21T03:34:46+00:00",
+   "LastUpdatedBy": "Configuration.TEST",
+   "ChangeTypeCode": null,
+   "ChangeType": null,
+   "accessSets": {
+    "items": [
+     {
+      "PriceListSetId": "300000393685819",
+      "PriceListId": "300000393775950",
+      "AccessSetName": "001 Customer Site",
+      "AccessSetCode": "001 CUSTOMER SITE",
+      "AccessSetId": "300000332869080",
+      "AccessSetDescription": null,
+      "EntityApprovalStatus": null,
+      "EntityApprovalStatusCode": null,
+      "CreationDate": "2026-10-21T03:34:45+00:00",
+      "CreatedBy": "Configuration.TEST",
+      "LastUpdateDate": "2026-10-21T03:34:45.021+00:00",
+      "LastUpdatedBy": "Configuration.TEST",
+      "ChangeTypeCode": null,
+      "ChangeType": null,
+      "@context": {
+       "key": "300000393685819",
+       "headers": {
+        "ETag": "ACED0005737200136A6176612E7574696C2E41727261794C6973747881D21D99C7619D03000149000473697A65787000000001770400000001737200116A6176612E6C616E672E496E746567657212E2A0A4F781873802000149000576616C7565787200106A6176612E6C616E672E4E756D62657286AC951D0B94E08B02000078700000000178"
+       }
+      }
+     }
+    ],
+    "count": 1,
+    "hasMore": false,
+    "limit": 500,
+    "offset": 0,
+    "links": [
+     {
+      "rel": "self",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/priceLists/300000393775950/child/accessSets",
+      "name": "accessSets",
+      "kind": "collection"
+     }
+    ]
+   },
+   "@context": {
+    "key": "300000393775950",
+    "headers": {
+     "ETag": "ACED0005737200136A6176612E7574696C2E41727261794C6973747881D21D99C7619D03000149000473697A65787000000001770400000001737200116A6176612E6C616E672E496E746567657212E2A0A4F781873802000149000576616C7565787200106A6176612E6C616E672E4E756D62657286AC951D0B94E08B02000078700000000278"
+    }
+   }
+  },
+  {
+   "PriceListName": "TESTPRICELIST1",
+   "PriceListId": "300000393684000",
+   "PriceListDescription": null,
+   "PriceListType": "Segment price list",
+   "PriceListTypeCode": "SEGMENT",
+   "BusinessUnit": "US1",
+   "BusinessUnitId": "300000386672082",
+   "Currency": "Pakistan Rupee",
+   "CurrencyCode": "PKR",
+   "Status": "Approved",
+   "StatusCode": "APPROVED",
+   "StartDate": "2026-10-19T19:00:00+00:00",
+   "EndDate": null,
+   "EntityApprovalStatus": null,
+   "EntityApprovalStatusCode": null,
+   "PricingChargeDefinition": null,
+   "PricingChargeDefinitionCode": null,
+   "PricingChargeDefinitionId": null,
+   "LineType": "Buy",
+   "LineTypeCode": "ORA_BUY",
+   "CalculationMethod": "Price",
+   "CalculationMethodCode": "PRICE",
+   "CreationDate": "2026-10-21T12:37:46.001+00:00",
+   "CreatedBy": "Configuration.TEST",
+   "LastUpdateDate": "2026-10-21T12:37:47+00:00",
+   "LastUpdatedBy": "Configuration.TEST",
+   "ChangeTypeCode": null,
+   "ChangeType": null,
+   "accessSets": {
+    "items": [
+     {
+      "PriceListSetId": "300000393936075",
+      "PriceListId": "300000393684000",
+      "AccessSetName": "AK Referance Data Set",
+      "AccessSetCode": "AKREFDATA",
+      "AccessSetId": "300000386553140",
+      "AccessSetDescription": "AK Referance Data Set",
+      "EntityApprovalStatus": null,
+      "EntityApprovalStatusCode": null,
+      "CreationDate": "2026-10-21T12:37:46+00:00",
+      "CreatedBy": "Configuration.TEST",
+      "LastUpdateDate": "2026-10-21T12:37:46.033+00:00",
+      "LastUpdatedBy": "Configuration.TEST",
+      "ChangeTypeCode": null,
+      "ChangeType": null,
+      "@context": {
+       "key": "300000393936075",
+       "headers": {
+        "ETag": "ACED0005737200136A6176612E7574696C2E41727261794C6973747881D21D99C7619D03000149000473697A65787000000001770400000001737200116A6176612E6C616E672E496E746567657212E2A0A4F781873802000149000576616C7565787200106A6176612E6C616E672E4E756D62657286AC951D0B94E08B02000078700000000178"
+       }
+      }
+     }
+    ],
+    "count": 1,
+    "hasMore": false,
+    "limit": 500,
+    "offset": 0,
+    "links": [
+     {
+      "rel": "self",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/priceLists/300000393684000/child/accessSets",
+      "name": "accessSets",
+      "kind": "collection"
+     }
+    ]
+   },
+   "@context": {
+    "key": "300000393684000",
+    "headers": {
+     "ETag": "ACED0005737200136A6176612E7574696C2E41727261794C6973747881D21D99C7619D03000149000473697A65787000000001770400000001737200116A6176612E6C616E672E496E746567657212E2A0A4F781873802000149000576616C7565787200106A6176612E6C616E672E4E756D62657286AC951D0B94E08B02000078700000000278"
+    }
+   }
+  },
+  {
+   "PriceListName": "abc test",
+   "PriceListId": "300000393683115",
+   "PriceListDescription": null,
+   "PriceListType": "Segment price list",
+   "PriceListTypeCode": "SEGMENT",
+   "BusinessUnit": "ABC Procurement BU",
+   "BusinessUnitId": "300000389039590",
+   "Currency": "Pakistan Rupee",
+   "CurrencyCode": "PKR",
+   "Status": "Approved",
+   "StatusCode": "APPROVED",
+   "StartDate": "2026-10-18T19:00:00+00:00",
+   "EndDate": null,
+   "EntityApprovalStatus": null,
+   "EntityApprovalStatusCode": null,
+   "PricingChargeDefinition": null,
+   "PricingChargeDefinitionCode": null,
+   "PricingChargeDefinitionId": null,
+   "LineType": "Buy",
+   "LineTypeCode": "ORA_BUY",
+   "CalculationMethod": "Price",
+   "CalculationMethodCode": "PRICE",
+   "CreationDate": "2026-10-18T21:36:13+00:00",
+   "CreatedBy": "Configuration.TEST",
+   "LastUpdateDate": "2026-10-18T21:36:15+00:00",
+   "LastUpdatedBy": "Configuration.TEST",
+   "ChangeTypeCode": null,
+   "ChangeType": null,
+   "accessSets": {
+    "items": [
+     {
+      "PriceListSetId": "300000393630749",
+      "PriceListId": "300000393683115",
+      "AccessSetName": "001 Customer Site",
+      "AccessSetCode": "001 CUSTOMER SITE",
+      "AccessSetId": "300000332869080",
+      "AccessSetDescription": null,
+      "EntityApprovalStatus": null,
+      "EntityApprovalStatusCode": null,
+      "CreationDate": "2026-10-18T21:36:14+00:00",
+      "CreatedBy": "Configuration.TEST",
+      "LastUpdateDate": "2026-10-18T21:36:14.023+00:00",
+      "LastUpdatedBy": "Configuration.TEST",
+      "ChangeTypeCode": null,
+      "ChangeType": null,
+      "@context": {
+       "key": "300000393630749",
+       "headers": {
+        "ETag": "ACED0005737200136A6176612E7574696C2E41727261794C6973747881D21D99C7619D03000149000473697A65787000000001770400000001737200116A6176612E6C616E672E496E746567657212E2A0A4F781873802000149000576616C7565787200106A6176612E6C616E672E4E756D62657286AC951D0B94E08B02000078700000000178"
+       }
+      }
+     }
+    ],
+    "count": 1,
+    "hasMore": false,
+    "limit": 500,
+    "offset": 0,
+    "links": [
+     {
+      "rel": "self",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/priceLists/300000393683115/child/accessSets",
+      "name": "accessSets",
+      "kind": "collection"
+     }
+    ]
+   },
+   "@context": {
+    "key": "300000393683115",
+    "headers": {
+     "ETag": "ACED0005737200136A6176612E7574696C2E41727261794C6973747881D21D99C7619D03000149000473697A65787000000001770400000001737200116A6176612E6C616E672E496E746567657212E2A0A4F781873802000149000576616C7565787200106A6176612E6C616E672E4E756D62657286AC951D0B94E08B02000078700000000278"
+    }
+   }
+  },
+  {
+   "PriceListName": "TESTPRICELIST3",
+   "PriceListId": "300000393685989",
+   "PriceListDescription": null,
+   "PriceListType": "Segment price list",
+   "PriceListTypeCode": "SEGMENT",
+   "BusinessUnit": "ABD",
+   "BusinessUnitId": "300000393727002",
+   "Currency": "US Dollar",
+   "CurrencyCode": "USD",
+   "Status": "Approved",
+   "StatusCode": "APPROVED",
+   "StartDate": "2026-10-19T19:00:00+00:00",
+   "EndDate": null,
+   "EntityApprovalStatus": null,
+   "EntityApprovalStatusCode": null,
+   "PricingChargeDefinition": null,
+   "PricingChargeDefinitionCode": null,
+   "PricingChargeDefinitionId": null,
+   "LineType": "Buy",
+   "LineTypeCode": "ORA_BUY",
+   "CalculationMethod": "Price",
+   "CalculationMethodCode": "PRICE",
+   "CreationDate": "2026-10-21T13:19:48.001+00:00",
+   "CreatedBy": "Configuration.TEST",
+   "LastUpdateDate": "2026-10-21T13:19:49+00:00",
+   "LastUpdatedBy": "Configuration.TEST",
+   "ChangeTypeCode": null,
+   "ChangeType": null,
+   "accessSets": {
+    "items": [
+     {
+      "PriceListSetId": "300000393973558",
+      "PriceListId": "300000393685989",
+      "AccessSetName": "001 Customer Site",
+      "AccessSetCode": "001 CUSTOMER SITE",
+      "AccessSetId": "300000332869080",
+      "AccessSetDescription": null,
+      "EntityApprovalStatus": null,
+      "EntityApprovalStatusCode": null,
+      "CreationDate": "2026-10-21T13:19:48+00:00",
+      "CreatedBy": "Configuration.TEST",
+      "LastUpdateDate": "2026-10-21T13:19:48.055+00:00",
+      "LastUpdatedBy": "Configuration.TEST",
+      "ChangeTypeCode": null,
+      "ChangeType": null,
+      "@context": {
+       "key": "300000393973558",
+       "headers": {
+        "ETag": "ACED0005737200136A6176612E7574696C2E41727261794C6973747881D21D99C7619D03000149000473697A65787000000001770400000001737200116A6176612E6C616E672E496E746567657212E2A0A4F781873802000149000576616C7565787200106A6176612E6C616E672E4E756D62657286AC951D0B94E08B02000078700000000178"
+       }
+      }
+     }
+    ],
+    "count": 1,
+    "hasMore": false,
+    "limit": 500,
+    "offset": 0,
+    "links": [
+     {
+      "rel": "self",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/priceLists/300000393685989/child/accessSets",
+      "name": "accessSets",
+      "kind": "collection"
+     }
+    ]
+   },
+   "@context": {
+    "key": "300000393685989",
+    "headers": {
+     "ETag": "ACED0005737200136A6176612E7574696C2E41727261794C6973747881D21D99C7619D03000149000473697A65787000000001770400000001737200116A6176612E6C616E672E496E746567657212E2A0A4F781873802000149000576616C7565787200106A6176612E6C616E672E4E756D62657286AC951D0B94E08B02000078700000000278"
+    }
+   }
+  },
+  {
+   "PriceListName": "TESTPRICE9",
+   "PriceListId": "300000393897794",
+   "PriceListDescription": null,
+   "PriceListType": "Segment price list",
+   "PriceListTypeCode": "SEGMENT",
+   "BusinessUnit": "TESTBU8",
+   "BusinessUnitId": "300000393672273",
+   "Currency": "Pakistan Rupee",
+   "CurrencyCode": "PKR",
+   "Status": "Approved",
+   "StatusCode": "APPROVED",
+   "StartDate": "2026-10-20T19:00:00+00:00",
+   "EndDate": null,
+   "EntityApprovalStatus": null,
+   "EntityApprovalStatusCode": null,
+   "PricingChargeDefinition": null,
+   "PricingChargeDefinitionCode": null,
+   "PricingChargeDefinitionId": null,
+   "LineType": "Buy",
+   "LineTypeCode": "ORA_BUY",
+   "CalculationMethod": "Price",
+   "CalculationMethodCode": "PRICE",
+   "CreationDate": "2026-10-22T13:39:01.001+00:00",
+   "CreatedBy": "Configuration.TEST",
+   "LastUpdateDate": "2026-10-22T13:39:03+00:00",
+   "LastUpdatedBy": "Configuration.TEST",
+   "ChangeTypeCode": null,
+   "ChangeType": null,
+   "accessSets": {
+    "items": [
+     {
+      "PriceListSetId": "300000393973829",
+      "PriceListId": "300000393897794",
+      "AccessSetName": "Enterprise Set",
+      "AccessSetCode": "ENTERPRISE",
+      "AccessSetId": "300000000003463",
+      "AccessSetDescription": null,
+      "EntityApprovalStatus": null,
+      "EntityApprovalStatusCode": null,
+      "CreationDate": "2026-10-22T13:39:02+00:00",
+      "CreatedBy": "Configuration.TEST",
+      "LastUpdateDate": "2026-10-22T13:39:02.032+00:00",
+      "LastUpdatedBy": "Configuration.TEST",
+      "ChangeTypeCode": null,
+      "ChangeType": null,
+      "@context": {
+       "key": "300000393973829",
+       "headers": {
+        "ETag": "ACED0005737200136A6176612E7574696C2E41727261794C6973747881D21D99C7619D03000149000473697A65787000000001770400000001737200116A6176612E6C616E672E496E746567657212E2A0A4F781873802000149000576616C7565787200106A6176612E6C616E672E4E756D62657286AC951D0B94E08B02000078700000000178"
+       }
+      }
+     },
+     {
+      "PriceListSetId": "300000393985306",
+      "PriceListId": "300000393897794",
+      "AccessSetName": "001 Customer Site",
+      "AccessSetCode": "001 CUSTOMER SITE",
+      "AccessSetId": "300000332869080",
+      "AccessSetDescription": null,
+      "EntityApprovalStatus": null,
+      "EntityApprovalStatusCode": null,
+      "CreationDate": "2026-10-22T13:39:01+00:00",
+      "CreatedBy": "Configuration.TEST",
+      "LastUpdateDate": "2026-10-22T13:39:01.010+00:00",
+      "LastUpdatedBy": "Configuration.TEST",
+      "ChangeTypeCode": null,
+      "ChangeType": null,
+      "@context": {
+       "key": "300000393985306",
+       "headers": {
+        "ETag": "ACED0005737200136A6176612E7574696C2E41727261794C6973747881D21D99C7619D03000149000473697A65787000000001770400000001737200116A6176612E6C616E672E496E746567657212E2A0A4F781873802000149000576616C7565787200106A6176612E6C616E672E4E756D62657286AC951D0B94E08B02000078700000000178"
+       }
+      }
+     }
+    ],
+    "count": 2,
+    "hasMore": false,
+    "limit": 500,
+    "offset": 0,
+    "links": [
+     {
+      "rel": "self",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/priceLists/300000393897794/child/accessSets",
+      "name": "accessSets",
+      "kind": "collection"
+     }
+    ]
+   },
+   "@context": {
+    "key": "300000393897794",
+    "headers": {
+     "ETag": "ACED0005737200136A6176612E7574696C2E41727261794C6973747881D21D99C7619D03000149000473697A65787000000001770400000001737200116A6176612E6C616E672E496E746567657212E2A0A4F781873802000149000576616C7565787200106A6176612E6C616E672E4E756D62657286AC951D0B94E08B02000078700000000278"
+    }
+   }
+  },
+  {
+   "PriceListName": "zz_test_pl_8034_all",
+   "PriceListId": "300000394372048",
+   "PriceListDescription": null,
+   "PriceListType": "Segment price list",
+   "PriceListTypeCode": "SEGMENT",
+   "BusinessUnit": "ABD",
+   "BusinessUnitId": "300000393727002",
+   "Currency": "US Dollar",
+   "CurrencyCode": "USD",
+   "Status": "In progress",
+   "StatusCode": "IN_PROGRESS",
+   "StartDate": "2026-10-27T04:00:00+00:00",
+   "EndDate": null,
+   "EntityApprovalStatus": null,
+   "EntityApprovalStatusCode": null,
+   "PricingChargeDefinition": null,
+   "PricingChargeDefinitionCode": null,
+   "PricingChargeDefinitionId": null,
+   "LineType": "Buy",
+   "LineTypeCode": "ORA_BUY",
+   "CalculationMethod": "Price",
+   "CalculationMethodCode": "PRICE",
+   "CreationDate": "2026-10-26T00:19:41+00:00",
+   "CreatedBy": "Configuration.TEST",
+   "LastUpdateDate": "2026-10-26T00:19:41.025+00:00",
+   "LastUpdatedBy": "Configuration.TEST",
+   "ChangeTypeCode": null,
+   "ChangeType": null,
+   "accessSets": {
+    "items": [],
+    "count": 0,
+    "hasMore": false,
+    "limit": 500,
+    "offset": 0,
+    "links": [
+     {
+      "rel": "self",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/priceLists/300000394372048/child/accessSets",
+      "name": "accessSets",
+      "kind": "collection"
+     }
+    ]
+   },
+   "@context": {
+    "key": "300000394372048",
+    "headers": {
+     "ETag": "ACED0005737200136A6176612E7574696C2E41727261794C6973747881D21D99C7619D03000149000473697A65787000000001770400000001737200116A6176612E6C616E672E496E746567657212E2A0A4F781873802000149000576616C7565787200106A6176612E6C616E672E4E756D62657286AC951D0B94E08B02000078700000000178"
+    }
+   }
+  },
+  {
+   "PriceListName": "ZZ_TEST_PL_8034_NEWBU",
+   "PriceListId": "300000394376022",
+   "PriceListDescription": null,
+   "PriceListType": "Segment price list",
+   "PriceListTypeCode": "SEGMENT",
+   "BusinessUnit": "ZZ_TEST_BU_8034_PL",
+   "BusinessUnitId": "300000394371147",
+   "Currency": "US Dollar",
+   "CurrencyCode": "USD",
+   "Status": "Approved",
+   "StatusCode": "APPROVED",
+   "StartDate": "2026-10-27T04:00:00+00:00",
+   "EndDate": null,
+   "EntityApprovalStatus": null,
+   "EntityApprovalStatusCode": null,
+   "PricingChargeDefinition": null,
+   "PricingChargeDefinitionCode": null,
+   "PricingChargeDefinitionId": null,
+   "LineType": "Buy",
+   "LineTypeCode": "ORA_BUY",
+   "CalculationMethod": "Price",
+   "CalculationMethodCode": "PRICE",
+   "CreationDate": "2026-10-26T00:22:47+00:00",
+   "CreatedBy": "Configuration.TEST",
+   "LastUpdateDate": "2026-10-26T00:22:49+00:00",
+   "LastUpdatedBy": "Configuration.TEST",
+   "ChangeTypeCode": null,
+   "ChangeType": null,
+   "accessSets": {
+    "items": [
+     {
+      "PriceListSetId": "300000394373082",
+      "PriceListId": "300000394376022",
+      "AccessSetName": "001 Customer Site",
+      "AccessSetCode": "001 CUSTOMER SITE",
+      "AccessSetId": "300000332869080",
+      "AccessSetDescription": null,
+      "EntityApprovalStatus": null,
+      "EntityApprovalStatusCode": null,
+      "CreationDate": "2026-10-26T00:22:48+00:00",
+      "CreatedBy": "Configuration.TEST",
+      "LastUpdateDate": "2026-10-26T00:22:48.008+00:00",
+      "LastUpdatedBy": "Configuration.TEST",
+      "ChangeTypeCode": null,
+      "ChangeType": null,
+      "@context": {
+       "key": "300000394373082",
+       "headers": {
+        "ETag": "ACED0005737200136A6176612E7574696C2E41727261794C6973747881D21D99C7619D03000149000473697A65787000000001770400000001737200116A6176612E6C616E672E496E746567657212E2A0A4F781873802000149000576616C7565787200106A6176612E6C616E672E4E756D62657286AC951D0B94E08B02000078700000000178"
+       }
+      }
+     }
+    ],
+    "count": 1,
+    "hasMore": false,
+    "limit": 500,
+    "offset": 0,
+    "links": [
+     {
+      "rel": "self",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/priceLists/300000394376022/child/accessSets",
+      "name": "accessSets",
+      "kind": "collection"
+     }
+    ]
+   },
+   "@context": {
+    "key": "300000394376022",
+    "headers": {
+     "ETag": "ACED0005737200136A6176612E7574696C2E41727261794C6973747881D21D99C7619D03000149000473697A65787000000001770400000001737200116A6176612E6C616E672E496E746567657212E2A0A4F781873802000149000576616C7565787200106A6176612E6C616E672E4E756D62657286AC951D0B94E08B02000078700000000278"
+    }
+   }
+  },
+  {
+   "PriceListName": "TESTPRICELIST7",
+   "PriceListId": "300000393897581",
+   "PriceListDescription": null,
+   "PriceListType": "Segment price list",
+   "PriceListTypeCode": "SEGMENT",
+   "BusinessUnit": "TESTBU7",
+   "BusinessUnitId": "300000393755586",
+   "Currency": "Afghani",
+   "CurrencyCode": "AFN",
+   "Status": "Approved",
+   "StatusCode": "APPROVED",
+   "StartDate": "2026-10-19T19:00:00+00:00",
+   "EndDate": null,
+   "EntityApprovalStatus": null,
+   "EntityApprovalStatusCode": null,
+   "PricingChargeDefinition": null,
+   "PricingChargeDefinitionCode": null,
+   "PricingChargeDefinitionId": null,
+   "LineType": "Buy",
+   "LineTypeCode": "ORA_BUY",
+   "CalculationMethod": "Price",
+   "CalculationMethodCode": "PRICE",
+   "CreationDate": "2026-10-21T18:40:57.001+00:00",
+   "CreatedBy": "Configuration.TEST",
+   "LastUpdateDate": "2026-10-21T18:40:58+00:00",
+   "LastUpdatedBy": "Configuration.TEST",
+   "ChangeTypeCode": null,
+   "ChangeType": null,
+   "accessSets": {
+    "items": [
+     {
+      "PriceListSetId": "300000393985038",
+      "PriceListId": "300000393897581",
+      "AccessSetName": "Enterprise Set",
+      "AccessSetCode": "ENTERPRISE",
+      "AccessSetId": "300000000003463",
+      "AccessSetDescription": null,
+      "EntityApprovalStatus": null,
+      "EntityApprovalStatusCode": null,
+      "CreationDate": "2026-10-21T18:40:57+00:00",
+      "CreatedBy": "Configuration.TEST",
+      "LastUpdateDate": "2026-10-21T18:40:57.011+00:00",
+      "LastUpdatedBy": "Configuration.TEST",
+      "ChangeTypeCode": null,
+      "ChangeType": null,
+      "@context": {
+       "key": "300000393985038",
+       "headers": {
+        "ETag": "ACED0005737200136A6176612E7574696C2E41727261794C6973747881D21D99C7619D03000149000473697A65787000000001770400000001737200116A6176612E6C616E672E496E746567657212E2A0A4F781873802000149000576616C7565787200106A6176612E6C616E672E4E756D62657286AC951D0B94E08B02000078700000000178"
+       }
+      }
+     }
+    ],
+    "count": 1,
+    "hasMore": false,
+    "limit": 500,
+    "offset": 0,
+    "links": [
+     {
+      "rel": "self",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/priceLists/300000393897581/child/accessSets",
+      "name": "accessSets",
+      "kind": "collection"
+     }
+    ]
+   },
+   "@context": {
+    "key": "300000393897581",
+    "headers": {
+     "ETag": "ACED0005737200136A6176612E7574696C2E41727261794C6973747881D21D99C7619D03000149000473697A65787000000001770400000001737200116A6176612E6C616E672E496E746567657212E2A0A4F781873802000149000576616C7565787200106A6176612E6C616E672E4E756D62657286AC951D0B94E08B02000078700000000278"
+    }
+   }
+  },
+  {
+   "PriceListName": "abcdef",
+   "PriceListId": "300000393936322",
+   "PriceListDescription": null,
+   "PriceListType": "Segment price list",
+   "PriceListTypeCode": "SEGMENT",
+   "BusinessUnit": "TESTBU4",
+   "BusinessUnitId": "300000393672209",
+   "Currency": "Pakistan Rupee",
+   "CurrencyCode": "PKR",
+   "Status": "Approved",
+   "StatusCode": "APPROVED",
+   "StartDate": "2026-10-20T19:00:00+00:00",
+   "EndDate": null,
+   "EntityApprovalStatus": null,
+   "EntityApprovalStatusCode": null,
+   "PricingChargeDefinition": null,
+   "PricingChargeDefinitionCode": null,
+   "PricingChargeDefinitionId": null,
+   "LineType": "Buy",
+   "LineTypeCode": "ORA_BUY",
+   "CalculationMethod": "Price",
+   "CalculationMethodCode": "PRICE",
+   "CreationDate": "2026-10-22T14:11:21.001+00:00",
+   "CreatedBy": "Configuration.TEST",
+   "LastUpdateDate": "2026-10-22T14:11:23+00:00",
+   "LastUpdatedBy": "Configuration.TEST",
+   "ChangeTypeCode": null,
+   "ChangeType": null,
+   "accessSets": {
+    "items": [
+     {
+      "PriceListSetId": "300000393897802",
+      "PriceListId": "300000393936322",
+      "AccessSetName": "001 Customer Site",
+      "AccessSetCode": "001 CUSTOMER SITE",
+      "AccessSetId": "300000332869080",
+      "AccessSetDescription": null,
+      "EntityApprovalStatus": null,
+      "EntityApprovalStatusCode": null,
+      "CreationDate": "2026-10-22T14:11:22+00:00",
+      "CreatedBy": "Configuration.TEST",
+      "LastUpdateDate": "2026-10-22T14:11:22.009+00:00",
+      "LastUpdatedBy": "Configuration.TEST",
+      "ChangeTypeCode": null,
+      "ChangeType": null,
+      "@context": {
+       "key": "300000393897802",
+       "headers": {
+        "ETag": "ACED0005737200136A6176612E7574696C2E41727261794C6973747881D21D99C7619D03000149000473697A65787000000001770400000001737200116A6176612E6C616E672E496E746567657212E2A0A4F781873802000149000576616C7565787200106A6176612E6C616E672E4E756D62657286AC951D0B94E08B02000078700000000178"
+       }
+      }
+     }
+    ],
+    "count": 1,
+    "hasMore": false,
+    "limit": 500,
+    "offset": 0,
+    "links": [
+     {
+      "rel": "self",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/priceLists/300000393936322/child/accessSets",
+      "name": "accessSets",
+      "kind": "collection"
+     }
+    ]
+   },
+   "@context": {
+    "key": "300000393936322",
+    "headers": {
+     "ETag": "ACED0005737200136A6176612E7574696C2E41727261794C6973747881D21D99C7619D03000149000473697A65787000000001770400000001737200116A6176612E6C616E672E496E746567657212E2A0A4F781873802000149000576616C7565787200106A6176612E6C616E672E4E756D62657286AC951D0B94E08B02000078700000000278"
+    }
+   }
+  },
+  {
+   "PriceListName": "ii",
+   "PriceListId": "300000393792279",
+   "PriceListDescription": null,
+   "PriceListType": "Segment price list",
+   "PriceListTypeCode": "SEGMENT",
+   "BusinessUnit": "ABD",
+   "BusinessUnitId": "300000393727002",
+   "Currency": "Afghani",
+   "CurrencyCode": "AFN",
+   "Status": "Approved",
+   "StatusCode": "APPROVED",
+   "StartDate": "2026-10-21T13:59:00+00:00",
+   "EndDate": null,
+   "EntityApprovalStatus": null,
+   "EntityApprovalStatusCode": null,
+   "PricingChargeDefinition": null,
+   "PricingChargeDefinitionCode": null,
+   "PricingChargeDefinitionId": null,
+   "LineType": "Buy",
+   "LineTypeCode": "ORA_BUY",
+   "CalculationMethod": "Price",
+   "CalculationMethodCode": "PRICE",
+   "CreationDate": "2026-10-21T13:59:41.401+00:00",
+   "CreatedBy": "Configuration.TEST",
+   "LastUpdateDate": "2026-10-21T14:00:32.123+00:00",
+   "LastUpdatedBy": "Configuration.TEST",
+   "ChangeTypeCode": null,
+   "ChangeType": null,
+   "accessSets": {
+    "items": [
+     {
+      "PriceListSetId": "300000393792281",
+      "PriceListId": "300000393792279",
+      "AccessSetName": "GoSaaS Labs Data Set",
+      "AccessSetCode": "SET0001",
+      "AccessSetId": "300000130947183",
+      "AccessSetDescription": null,
+      "EntityApprovalStatus": null,
+      "EntityApprovalStatusCode": null,
+      "CreationDate": "2026-10-21T14:00:09+00:00",
+      "CreatedBy": "Configuration.TEST",
+      "LastUpdateDate": "2026-10-21T14:00:32.124+00:00",
+      "LastUpdatedBy": "Configuration.TEST",
+      "ChangeTypeCode": null,
+      "ChangeType": null,
+      "@context": {
+       "key": "300000393792281",
+       "headers": {
+        "ETag": "ACED0005737200136A6176612E7574696C2E41727261794C6973747881D21D99C7619D03000149000473697A65787000000001770400000001737200116A6176612E6C616E672E496E746567657212E2A0A4F781873802000149000576616C7565787200106A6176612E6C616E672E4E756D62657286AC951D0B94E08B02000078700000000178"
+       }
+      }
+     }
+    ],
+    "count": 1,
+    "hasMore": false,
+    "limit": 500,
+    "offset": 0,
+    "links": [
+     {
+      "rel": "self",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/priceLists/300000393792279/child/accessSets",
+      "name": "accessSets",
+      "kind": "collection"
+     }
+    ]
+   },
+   "@context": {
+    "key": "300000393792279",
+    "headers": {
+     "ETag": "ACED0005737200136A6176612E7574696C2E41727261794C6973747881D21D99C7619D03000149000473697A65787000000001770400000001737200116A6176612E6C616E672E496E746567657212E2A0A4F781873802000149000576616C7565787200106A6176612E6C616E672E4E756D62657286AC951D0B94E08B02000078700000000278"
+    }
+   }
+  },
+  {
+   "PriceListName": "ZZ_SHEET_PL_8003_ALL",
+   "PriceListId": "300000394372073",
+   "PriceListDescription": "Every field filled",
+   "PriceListType": "Floor price list",
+   "PriceListTypeCode": "FLOOR",
+   "BusinessUnit": "ABD",
+   "BusinessUnitId": "300000393727002",
+   "Currency": "US Dollar",
+   "CurrencyCode": "USD",
+   "Status": "Approved",
+   "StatusCode": "APPROVED",
+   "StartDate": "2026-11-01T04:00:00+00:00",
+   "EndDate": "2027-10-31T04:00:00+00:00",
+   "EntityApprovalStatus": null,
+   "EntityApprovalStatusCode": null,
+   "PricingChargeDefinition": "Sale Price",
+   "PricingChargeDefinitionCode": "QP_SALE_PRICE",
+   "PricingChargeDefinitionId": "300000000325736",
+   "LineType": "Buy",
+   "LineTypeCode": "ORA_BUY",
+   "CalculationMethod": "Cost",
+   "CalculationMethodCode": "COST",
+   "CreationDate": "2026-10-26T02:41:28.001+00:00",
+   "CreatedBy": "Configuration.TEST",
+   "LastUpdateDate": "2026-10-26T02:41:30+00:00",
+   "LastUpdatedBy": "Configuration.TEST",
+   "ChangeTypeCode": null,
+   "ChangeType": null,
+   "accessSets": {
+    "items": [
+     {
+      "PriceListSetId": "300000394374053",
+      "PriceListId": "300000394372073",
+      "AccessSetName": "Enterprise Set",
+      "AccessSetCode": "ENTERPRISE",
+      "AccessSetId": "300000000003463",
+      "AccessSetDescription": null,
+      "EntityApprovalStatus": null,
+      "EntityApprovalStatusCode": null,
+      "CreationDate": "2026-10-26T02:41:29+00:00",
+      "CreatedBy": "Configuration.TEST",
+      "LastUpdateDate": "2026-10-26T02:41:29.039+00:00",
+      "LastUpdatedBy": "Configuration.TEST",
+      "ChangeTypeCode": null,
+      "ChangeType": null,
+      "@context": {
+       "key": "300000394374053",
+       "headers": {
+        "ETag": "ACED0005737200136A6176612E7574696C2E41727261794C6973747881D21D99C7619D03000149000473697A65787000000001770400000001737200116A6176612E6C616E672E496E746567657212E2A0A4F781873802000149000576616C7565787200106A6176612E6C616E672E4E756D62657286AC951D0B94E08B02000078700000000178"
+       }
+      }
+     },
+     {
+      "PriceListSetId": "300000394356051",
+      "PriceListId": "300000394372073",
+      "AccessSetName": "001 Customer Site",
+      "AccessSetCode": "001 CUSTOMER SITE",
+      "AccessSetId": "300000332869080",
+      "AccessSetDescription": null,
+      "EntityApprovalStatus": null,
+      "EntityApprovalStatusCode": null,
+      "CreationDate": "2026-10-26T02:41:29+00:00",
+      "CreatedBy": "Configuration.TEST",
+      "LastUpdateDate": "2026-10-26T02:41:29.037+00:00",
+      "LastUpdatedBy": "Configuration.TEST",
+      "ChangeTypeCode": null,
+      "ChangeType": null,
+      "@context": {
+       "key": "300000394356051",
+       "headers": {
+        "ETag": "ACED0005737200136A6176612E7574696C2E41727261794C6973747881D21D99C7619D03000149000473697A65787000000001770400000001737200116A6176612E6C616E672E496E746567657212E2A0A4F781873802000149000576616C7565787200106A6176612E6C616E672E4E756D62657286AC951D0B94E08B02000078700000000178"
+       }
+      }
+     }
+    ],
+    "count": 2,
+    "hasMore": false,
+    "limit": 500,
+    "offset": 0,
+    "links": [
+     {
+      "rel": "self",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/priceLists/300000394372073/child/accessSets",
+      "name": "accessSets",
+      "kind": "collection"
+     }
+    ]
+   },
+   "@context": {
+    "key": "300000394372073",
+    "headers": {
+     "ETag": "ACED0005737200136A6176612E7574696C2E41727261794C6973747881D21D99C7619D03000149000473697A65787000000001770400000001737200116A6176612E6C616E672E496E746567657212E2A0A4F781873802000149000576616C7565787200106A6176612E6C616E672E4E756D62657286AC951D0B94E08B02000078700000000278"
+    }
+   }
+  },
+  {
+   "PriceListName": "ZZ_SHEET_PL_8003_ALL25",
+   "PriceListId": "300000394373174",
+   "PriceListDescription": "Every field filled",
+   "PriceListType": "Floor price list",
+   "PriceListTypeCode": "FLOOR",
+   "BusinessUnit": "ABD",
+   "BusinessUnitId": "300000393727002",
+   "Currency": "US Dollar",
+   "CurrencyCode": "USD",
+   "Status": "Approved",
+   "StatusCode": "APPROVED",
+   "StartDate": "2026-11-01T04:00:00+00:00",
+   "EndDate": "2027-10-31T04:00:00+00:00",
+   "EntityApprovalStatus": null,
+   "EntityApprovalStatusCode": null,
+   "PricingChargeDefinition": "Sale Price",
+   "PricingChargeDefinitionCode": "QP_SALE_PRICE",
+   "PricingChargeDefinitionId": "300000000325736",
+   "LineType": "Buy",
+   "LineTypeCode": "ORA_BUY",
+   "CalculationMethod": "Cost",
+   "CalculationMethodCode": "COST",
+   "CreationDate": "2026-10-26T16:03:25+00:00",
+   "CreatedBy": "Configuration.TEST",
+   "LastUpdateDate": "2026-10-26T16:03:26+00:00",
+   "LastUpdatedBy": "Configuration.TEST",
+   "ChangeTypeCode": null,
+   "ChangeType": null,
+   "accessSets": {
+    "items": [
+     {
+      "PriceListSetId": "300000394356190",
+      "PriceListId": "300000394373174",
+      "AccessSetName": "Enterprise Set",
+      "AccessSetCode": "ENTERPRISE",
+      "AccessSetId": "300000000003463",
+      "AccessSetDescription": null,
+      "EntityApprovalStatus": null,
+      "EntityApprovalStatusCode": null,
+      "CreationDate": "2026-10-26T16:03:26+00:00",
+      "CreatedBy": "Configuration.TEST",
+      "LastUpdateDate": "2026-10-26T16:03:26.047+00:00",
+      "LastUpdatedBy": "Configuration.TEST",
+      "ChangeTypeCode": null,
+      "ChangeType": null,
+      "@context": {
+       "key": "300000394356190",
+       "headers": {
+        "ETag": "ACED0005737200136A6176612E7574696C2E41727261794C6973747881D21D99C7619D03000149000473697A65787000000001770400000001737200116A6176612E6C616E672E496E746567657212E2A0A4F781873802000149000576616C7565787200106A6176612E6C616E672E4E756D62657286AC951D0B94E08B02000078700000000178"
+       }
+      }
+     },
+     {
+      "PriceListSetId": "300000394372465",
+      "PriceListId": "300000394373174",
+      "AccessSetName": "001 Customer Site",
+      "AccessSetCode": "001 CUSTOMER SITE",
+      "AccessSetId": "300000332869080",
+      "AccessSetDescription": null,
+      "EntityApprovalStatus": null,
+      "EntityApprovalStatusCode": null,
+      "CreationDate": "2026-10-26T16:03:25+00:00",
+      "CreatedBy": "Configuration.TEST",
+      "LastUpdateDate": "2026-10-26T16:03:25.031+00:00",
+      "LastUpdatedBy": "Configuration.TEST",
+      "ChangeTypeCode": null,
+      "ChangeType": null,
+      "@context": {
+       "key": "300000394372465",
+       "headers": {
+        "ETag": "ACED0005737200136A6176612E7574696C2E41727261794C6973747881D21D99C7619D03000149000473697A65787000000001770400000001737200116A6176612E6C616E672E496E746567657212E2A0A4F781873802000149000576616C7565787200106A6176612E6C616E672E4E756D62657286AC951D0B94E08B02000078700000000178"
+       }
+      }
+     }
+    ],
+    "count": 2,
+    "hasMore": false,
+    "limit": 500,
+    "offset": 0,
+    "links": [
+     {
+      "rel": "self",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/priceLists/300000394373174/child/accessSets",
+      "name": "accessSets",
+      "kind": "collection"
+     }
+    ]
+   },
+   "@context": {
+    "key": "300000394373174",
+    "headers": {
+     "ETag": "ACED0005737200136A6176612E7574696C2E41727261794C6973747881D21D99C7619D03000149000473697A65787000000001770400000001737200116A6176612E6C616E672E496E746567657212E2A0A4F781873802000149000576616C7565787200106A6176612E6C616E672E4E756D62657286AC951D0B94E08B02000078700000000278"
+    }
+   }
+  },
+  {
+   "PriceListName": "ZZ_POC_PRICELIST2",
+   "PriceListId": "300000393659127",
+   "PriceListDescription": null,
+   "PriceListType": "Segment price list",
+   "PriceListTypeCode": "SEGMENT",
+   "BusinessUnit": "ABD",
+   "BusinessUnitId": "300000393727002",
+   "Currency": "US Dollar",
+   "CurrencyCode": "USD",
+   "Status": "Approved",
+   "StatusCode": "APPROVED",
+   "StartDate": "2026-10-19T00:00:00+00:00",
+   "EndDate": null,
+   "EntityApprovalStatus": null,
+   "EntityApprovalStatusCode": null,
+   "PricingChargeDefinition": null,
+   "PricingChargeDefinitionCode": null,
+   "PricingChargeDefinitionId": null,
+   "LineType": "Buy",
+   "LineTypeCode": "ORA_BUY",
+   "CalculationMethod": "Price",
+   "CalculationMethodCode": "PRICE",
+   "CreationDate": "2026-10-18T19:21:42.001+00:00",
+   "CreatedBy": "Configuration.TEST",
+   "LastUpdateDate": "2026-10-18T19:41:49+00:00",
+   "LastUpdatedBy": "Configuration.TEST",
+   "ChangeTypeCode": null,
+   "ChangeType": null,
+   "accessSets": {
+    "items": [
+     {
+      "PriceListSetId": "300000393683114",
+      "PriceListId": "300000393659127",
+      "AccessSetName": "001 Customer Site",
+      "AccessSetCode": "001 CUSTOMER SITE",
+      "AccessSetId": "300000332869080",
+      "AccessSetDescription": null,
+      "EntityApprovalStatus": null,
+      "EntityApprovalStatusCode": null,
+      "CreationDate": "2026-10-18T19:35:57+00:00",
+      "CreatedBy": "Configuration.TEST",
+      "LastUpdateDate": "2026-10-18T19:35:57.232+00:00",
+      "LastUpdatedBy": "Configuration.TEST",
+      "ChangeTypeCode": null,
+      "ChangeType": null,
+      "@context": {
+       "key": "300000393683114",
+       "headers": {
+        "ETag": "ACED0005737200136A6176612E7574696C2E41727261794C6973747881D21D99C7619D03000149000473697A65787000000001770400000001737200116A6176612E6C616E672E496E746567657212E2A0A4F781873802000149000576616C7565787200106A6176612E6C616E672E4E756D62657286AC951D0B94E08B02000078700000000178"
+       }
+      }
+     }
+    ],
+    "count": 1,
+    "hasMore": false,
+    "limit": 500,
+    "offset": 0,
+    "links": [
+     {
+      "rel": "self",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/priceLists/300000393659127/child/accessSets",
+      "name": "accessSets",
+      "kind": "collection"
+     }
+    ]
+   },
+   "@context": {
+    "key": "300000393659127",
+    "headers": {
+     "ETag": "ACED0005737200136A6176612E7574696C2E41727261794C6973747881D21D99C7619D03000149000473697A65787000000001770400000001737200116A6176612E6C616E672E496E746567657212E2A0A4F781873802000149000576616C7565787200106A6176612E6C616E672E4E756D62657286AC951D0B94E08B02000078700000000278"
+    }
+   }
+  },
+  {
+   "PriceListName": "tyty",
+   "PriceListId": "300000393897365",
+   "PriceListDescription": null,
+   "PriceListType": "Segment price list",
+   "PriceListTypeCode": "SEGMENT",
+   "BusinessUnit": "ABD",
+   "BusinessUnitId": "300000393727002",
+   "Currency": "US Dollar",
+   "CurrencyCode": "USD",
+   "Status": "Approved",
+   "StatusCode": "APPROVED",
+   "StartDate": "2026-10-19T19:00:00+00:00",
+   "EndDate": null,
+   "EntityApprovalStatus": null,
+   "EntityApprovalStatusCode": null,
+   "PricingChargeDefinition": null,
+   "PricingChargeDefinitionCode": null,
+   "PricingChargeDefinitionId": null,
+   "LineType": "Buy",
+   "LineTypeCode": "ORA_BUY",
+   "CalculationMethod": "Price",
+   "CalculationMethodCode": "PRICE",
+   "CreationDate": "2026-10-21T05:16:32.001+00:00",
+   "CreatedBy": "Configuration.TEST",
+   "LastUpdateDate": "2026-10-21T05:16:34+00:00",
+   "LastUpdatedBy": "Configuration.TEST",
+   "ChangeTypeCode": null,
+   "ChangeType": null,
+   "accessSets": {
+    "items": [
+     {
+      "PriceListSetId": "300000393683892",
+      "PriceListId": "300000393897365",
+      "AccessSetName": "001 Customer Site",
+      "AccessSetCode": "001 CUSTOMER SITE",
+      "AccessSetId": "300000332869080",
+      "AccessSetDescription": null,
+      "EntityApprovalStatus": null,
+      "EntityApprovalStatusCode": null,
+      "CreationDate": "2026-10-21T05:16:33+00:00",
+      "CreatedBy": "Configuration.TEST",
+      "LastUpdateDate": "2026-10-21T05:16:33.013+00:00",
+      "LastUpdatedBy": "Configuration.TEST",
+      "ChangeTypeCode": null,
+      "ChangeType": null,
+      "@context": {
+       "key": "300000393683892",
+       "headers": {
+        "ETag": "ACED0005737200136A6176612E7574696C2E41727261794C6973747881D21D99C7619D03000149000473697A65787000000001770400000001737200116A6176612E6C616E672E496E746567657212E2A0A4F781873802000149000576616C7565787200106A6176612E6C616E672E4E756D62657286AC951D0B94E08B02000078700000000178"
+       }
+      }
+     }
+    ],
+    "count": 1,
+    "hasMore": false,
+    "limit": 500,
+    "offset": 0,
+    "links": [
+     {
+      "rel": "self",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/priceLists/300000393897365/child/accessSets",
+      "name": "accessSets",
+      "kind": "collection"
+     }
+    ]
+   },
+   "@context": {
+    "key": "300000393897365",
+    "headers": {
+     "ETag": "ACED0005737200136A6176612E7574696C2E41727261794C6973747881D21D99C7619D03000149000473697A65787000000001770400000001737200116A6176612E6C616E672E496E746567657212E2A0A4F781873802000149000576616C7565787200106A6176612E6C616E672E4E756D62657286AC951D0B94E08B02000078700000000278"
+    }
+   }
+  },
+  {
+   "PriceListName": "ZZ_SHEET_PL_8003_SEG2",
+   "PriceListId": "300000394372462",
+   "PriceListDescription": null,
+   "PriceListType": "Segment price list",
+   "PriceListTypeCode": "SEGMENT",
+   "BusinessUnit": "US1",
+   "BusinessUnitId": "300000386672082",
+   "Currency": "Pakistan Rupee",
+   "CurrencyCode": "PKR",
+   "Status": "Approved",
+   "StatusCode": "APPROVED",
+   "StartDate": "2026-11-01T04:00:00+00:00",
+   "EndDate": null,
+   "EntityApprovalStatus": null,
+   "EntityApprovalStatusCode": null,
+   "PricingChargeDefinition": null,
+   "PricingChargeDefinitionCode": null,
+   "PricingChargeDefinitionId": null,
+   "LineType": "Buy",
+   "LineTypeCode": "ORA_BUY",
+   "CalculationMethod": "Price",
+   "CalculationMethodCode": "PRICE",
+   "CreationDate": "2026-10-26T12:40:16.001+00:00",
+   "CreatedBy": "Configuration.TEST",
+   "LastUpdateDate": "2026-10-26T12:40:17+00:00",
+   "LastUpdatedBy": "Configuration.TEST",
+   "ChangeTypeCode": null,
+   "ChangeType": null,
+   "accessSets": {
+    "items": [
+     {
+      "PriceListSetId": "300000394356182",
+      "PriceListId": "300000394372462",
+      "AccessSetName": "Common Set",
+      "AccessSetCode": "COMMON",
+      "AccessSetId": "0",
+      "AccessSetDescription": null,
+      "EntityApprovalStatus": null,
+      "EntityApprovalStatusCode": null,
+      "CreationDate": "2026-10-26T12:40:17+00:00",
+      "CreatedBy": "Configuration.TEST",
+      "LastUpdateDate": "2026-10-26T12:40:17.005+00:00",
+      "LastUpdatedBy": "Configuration.TEST",
+      "ChangeTypeCode": null,
+      "ChangeType": null,
+      "@context": {
+       "key": "300000394356182",
+       "headers": {
+        "ETag": "ACED0005737200136A6176612E7574696C2E41727261794C6973747881D21D99C7619D03000149000473697A65787000000001770400000001737200116A6176612E6C616E672E496E746567657212E2A0A4F781873802000149000576616C7565787200106A6176612E6C616E672E4E756D62657286AC951D0B94E08B02000078700000000178"
+       }
+      }
+     }
+    ],
+    "count": 1,
+    "hasMore": false,
+    "limit": 500,
+    "offset": 0,
+    "links": [
+     {
+      "rel": "self",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/priceLists/300000394372462/child/accessSets",
+      "name": "accessSets",
+      "kind": "collection"
+     }
+    ]
+   },
+   "@context": {
+    "key": "300000394372462",
+    "headers": {
+     "ETag": "ACED0005737200136A6176612E7574696C2E41727261794C6973747881D21D99C7619D03000149000473697A65787000000001770400000001737200116A6176612E6C616E672E496E746567657212E2A0A4F781873802000149000576616C7565787200106A6176612E6C616E672E4E756D62657286AC951D0B94E08B02000078700000000278"
+    }
+   }
+  },
+  {
+   "PriceListName": "uu",
+   "PriceListId": "300000393792276",
+   "PriceListDescription": null,
+   "PriceListType": "Segment price list",
+   "PriceListTypeCode": "SEGMENT",
+   "BusinessUnit": "US1",
+   "BusinessUnitId": "300000386672082",
+   "Currency": "US Dollar",
+   "CurrencyCode": "USD",
+   "Status": "Approved",
+   "StatusCode": "APPROVED",
+   "StartDate": "2026-10-21T13:58:00+00:00",
+   "EndDate": null,
+   "EntityApprovalStatus": null,
+   "EntityApprovalStatusCode": null,
+   "PricingChargeDefinition": null,
+   "PricingChargeDefinitionCode": null,
+   "PricingChargeDefinitionId": null,
+   "LineType": "Buy",
+   "LineTypeCode": "ORA_BUY",
+   "CalculationMethod": "Price",
+   "CalculationMethodCode": "PRICE",
+   "CreationDate": "2026-10-21T13:58:14.001+00:00",
+   "CreatedBy": "Configuration.TEST",
+   "LastUpdateDate": "2026-10-21T13:59:04.291+00:00",
+   "LastUpdatedBy": "Configuration.TEST",
+   "ChangeTypeCode": null,
+   "ChangeType": null,
+   "accessSets": {
+    "items": [
+     {
+      "PriceListSetId": "300000393792278",
+      "PriceListId": "300000393792276",
+      "AccessSetName": "Enterprise Set",
+      "AccessSetCode": "ENTERPRISE",
+      "AccessSetId": "300000000003463",
+      "AccessSetDescription": null,
+      "EntityApprovalStatus": null,
+      "EntityApprovalStatusCode": null,
+      "CreationDate": "2026-10-21T13:58:49+00:00",
+      "CreatedBy": "Configuration.TEST",
+      "LastUpdateDate": "2026-10-21T13:59:04.295+00:00",
+      "LastUpdatedBy": "Configuration.TEST",
+      "ChangeTypeCode": null,
+      "ChangeType": null,
+      "@context": {
+       "key": "300000393792278",
+       "headers": {
+        "ETag": "ACED0005737200136A6176612E7574696C2E41727261794C6973747881D21D99C7619D03000149000473697A65787000000001770400000001737200116A6176612E6C616E672E496E746567657212E2A0A4F781873802000149000576616C7565787200106A6176612E6C616E672E4E756D62657286AC951D0B94E08B02000078700000000178"
+       }
+      }
+     }
+    ],
+    "count": 1,
+    "hasMore": false,
+    "limit": 500,
+    "offset": 0,
+    "links": [
+     {
+      "rel": "self",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/priceLists/300000393792276/child/accessSets",
+      "name": "accessSets",
+      "kind": "collection"
+     }
+    ]
+   },
+   "@context": {
+    "key": "300000393792276",
+    "headers": {
+     "ETag": "ACED0005737200136A6176612E7574696C2E41727261794C6973747881D21D99C7619D03000149000473697A65787000000001770400000001737200116A6176612E6C616E672E496E746567657212E2A0A4F781873802000149000576616C7565787200106A6176612E6C616E672E4E756D62657286AC951D0B94E08B02000078700000000278"
+    }
+   }
+  },
+  {
+   "PriceListName": "ZZ_TEST_PL_8034_HALF",
+   "PriceListId": "300000394376020",
+   "PriceListDescription": null,
+   "PriceListType": "Segment price list",
+   "PriceListTypeCode": "SEGMENT",
+   "BusinessUnit": "ABD",
+   "BusinessUnitId": "300000393727002",
+   "Currency": "US Dollar",
+   "CurrencyCode": "USD",
+   "Status": "Approved",
+   "StatusCode": "APPROVED",
+   "StartDate": "2026-10-27T04:00:00+00:00",
+   "EndDate": null,
+   "EntityApprovalStatus": null,
+   "EntityApprovalStatusCode": null,
+   "PricingChargeDefinition": null,
+   "PricingChargeDefinitionCode": null,
+   "PricingChargeDefinitionId": null,
+   "LineType": "Buy",
+   "LineTypeCode": "ORA_BUY",
+   "CalculationMethod": "Price",
+   "CalculationMethodCode": "PRICE",
+   "CreationDate": "2026-10-26T00:20:16.001+00:00",
+   "CreatedBy": "Configuration.TEST",
+   "LastUpdateDate": "2026-10-26T00:20:45+00:00",
+   "LastUpdatedBy": "Configuration.TEST",
+   "ChangeTypeCode": null,
+   "ChangeType": null,
+   "accessSets": {
+    "items": [
+     {
+      "PriceListSetId": "300000394372049",
+      "PriceListId": "300000394376020",
+      "AccessSetName": "001 Customer Site",
+      "AccessSetCode": "001 CUSTOMER SITE",
+      "AccessSetId": "300000332869080",
+      "AccessSetDescription": null,
+      "EntityApprovalStatus": null,
+      "EntityApprovalStatusCode": null,
+      "CreationDate": "2026-10-26T00:20:45+00:00",
+      "CreatedBy": "Configuration.TEST",
+      "LastUpdateDate": "2026-10-26T00:20:45.008+00:00",
+      "LastUpdatedBy": "Configuration.TEST",
+      "ChangeTypeCode": null,
+      "ChangeType": null,
+      "@context": {
+       "key": "300000394372049",
+       "headers": {
+        "ETag": "ACED0005737200136A6176612E7574696C2E41727261794C6973747881D21D99C7619D03000149000473697A65787000000001770400000001737200116A6176612E6C616E672E496E746567657212E2A0A4F781873802000149000576616C7565787200106A6176612E6C616E672E4E756D62657286AC951D0B94E08B02000078700000000178"
+       }
+      }
+     }
+    ],
+    "count": 1,
+    "hasMore": false,
+    "limit": 500,
+    "offset": 0,
+    "links": [
+     {
+      "rel": "self",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/priceLists/300000394376020/child/accessSets",
+      "name": "accessSets",
+      "kind": "collection"
+     }
+    ]
+   },
+   "@context": {
+    "key": "300000394376020",
+    "headers": {
+     "ETag": "ACED0005737200136A6176612E7574696C2E41727261794C6973747881D21D99C7619D03000149000473697A65787000000001770400000001737200116A6176612E6C616E672E496E746567657212E2A0A4F781873802000149000576616C7565787200106A6176612E6C616E672E4E756D62657286AC951D0B94E08B02000078700000000278"
+    }
+   }
+  },
+  {
+   "PriceListName": "ZZ_TEST_PL_1932_A",
+   "PriceListId": "300000394373207",
+   "PriceListDescription": "Random test price list",
+   "PriceListType": "Segment price list",
+   "PriceListTypeCode": "SEGMENT",
+   "BusinessUnit": "ZZ_TEST_BU_1932",
+   "BusinessUnitId": "300000394385099",
+   "Currency": "US Dollar",
+   "CurrencyCode": "USD",
+   "Status": "Approved",
+   "StatusCode": "APPROVED",
+   "StartDate": "2026-11-01T04:00:00+00:00",
+   "EndDate": null,
+   "EntityApprovalStatus": null,
+   "EntityApprovalStatusCode": null,
+   "PricingChargeDefinition": "Sale Price",
+   "PricingChargeDefinitionCode": "QP_SALE_PRICE",
+   "PricingChargeDefinitionId": "300000000325736",
+   "LineType": "Buy",
+   "LineTypeCode": "ORA_BUY",
+   "CalculationMethod": "Price",
+   "CalculationMethodCode": "PRICE",
+   "CreationDate": "2026-10-27T12:06:43.001+00:00",
+   "CreatedBy": "Configuration.TEST",
+   "LastUpdateDate": "2026-10-27T12:06:44+00:00",
+   "LastUpdatedBy": "Configuration.TEST",
+   "ChangeTypeCode": null,
+   "ChangeType": null,
+   "accessSets": {
+    "items": [
+     {
+      "PriceListSetId": "300000394372611",
+      "PriceListId": "300000394373207",
+      "AccessSetName": "Enterprise Set",
+      "AccessSetCode": "ENTERPRISE",
+      "AccessSetId": "300000000003463",
+      "AccessSetDescription": null,
+      "EntityApprovalStatus": null,
+      "EntityApprovalStatusCode": null,
+      "CreationDate": "2026-10-27T12:06:43+00:00",
+      "CreatedBy": "Configuration.TEST",
+      "LastUpdateDate": "2026-10-27T12:06:43.033+00:00",
+      "LastUpdatedBy": "Configuration.TEST",
+      "ChangeTypeCode": null,
+      "ChangeType": null,
+      "@context": {
+       "key": "300000394372611",
+       "headers": {
+        "ETag": "ACED0005737200136A6176612E7574696C2E41727261794C6973747881D21D99C7619D03000149000473697A65787000000001770400000001737200116A6176612E6C616E672E496E746567657212E2A0A4F781873802000149000576616C7565787200106A6176612E6C616E672E4E756D62657286AC951D0B94E08B02000078700000000178"
+       }
+      }
+     }
+    ],
+    "count": 1,
+    "hasMore": false,
+    "limit": 500,
+    "offset": 0,
+    "links": [
+     {
+      "rel": "self",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/priceLists/300000394373207/child/accessSets",
+      "name": "accessSets",
+      "kind": "collection"
+     }
+    ]
+   },
+   "@context": {
+    "key": "300000394373207",
+    "headers": {
+     "ETag": "ACED0005737200136A6176612E7574696C2E41727261794C6973747881D21D99C7619D03000149000473697A65787000000001770400000001737200116A6176612E6C616E672E496E746567657212E2A0A4F781873802000149000576616C7565787200106A6176612E6C616E672E4E756D62657286AC951D0B94E08B02000078700000000278"
+    }
+   }
+  },
+  {
+   "PriceListName": "Kingston SSD Price List GBP",
+   "PriceListId": "300000394373187",
+   "PriceListDescription": "SSD prices in GBP",
+   "PriceListType": "Segment price list",
+   "PriceListTypeCode": "SEGMENT",
+   "BusinessUnit": "Kingston GB",
+   "BusinessUnitId": "300000394381242",
+   "Currency": "Pound Sterling",
+   "CurrencyCode": "GBP",
+   "Status": "Approved",
+   "StatusCode": "APPROVED",
+   "StartDate": "2026-11-01T04:00:00+00:00",
+   "EndDate": null,
+   "EntityApprovalStatus": null,
+   "EntityApprovalStatusCode": null,
+   "PricingChargeDefinition": "Sale Price",
+   "PricingChargeDefinitionCode": "QP_SALE_PRICE",
+   "PricingChargeDefinitionId": "300000000325736",
+   "LineType": "Buy",
+   "LineTypeCode": "ORA_BUY",
+   "CalculationMethod": "Price",
+   "CalculationMethodCode": "PRICE",
+   "CreationDate": "2026-10-26T18:58:47.001+00:00",
+   "CreatedBy": "Configuration.TEST",
+   "LastUpdateDate": "2026-10-26T18:58:48+00:00",
+   "LastUpdatedBy": "Configuration.TEST",
+   "ChangeTypeCode": null,
+   "ChangeType": null,
+   "accessSets": {
+    "items": [
+     {
+      "PriceListSetId": "300000394372472",
+      "PriceListId": "300000394373187",
+      "AccessSetName": "Enterprise Set",
+      "AccessSetCode": "ENTERPRISE",
+      "AccessSetId": "300000000003463",
+      "AccessSetDescription": null,
+      "EntityApprovalStatus": null,
+      "EntityApprovalStatusCode": null,
+      "CreationDate": "2026-10-26T18:58:47+00:00",
+      "CreatedBy": "Configuration.TEST",
+      "LastUpdateDate": "2026-10-26T18:58:47.007+00:00",
+      "LastUpdatedBy": "Configuration.TEST",
+      "ChangeTypeCode": null,
+      "ChangeType": null,
+      "@context": {
+       "key": "300000394372472",
+       "headers": {
+        "ETag": "ACED0005737200136A6176612E7574696C2E41727261794C6973747881D21D99C7619D03000149000473697A65787000000001770400000001737200116A6176612E6C616E672E496E746567657212E2A0A4F781873802000149000576616C7565787200106A6176612E6C616E672E4E756D62657286AC951D0B94E08B02000078700000000178"
+       }
+      }
+     }
+    ],
+    "count": 1,
+    "hasMore": false,
+    "limit": 500,
+    "offset": 0,
+    "links": [
+     {
+      "rel": "self",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/priceLists/300000394373187/child/accessSets",
+      "name": "accessSets",
+      "kind": "collection"
+     }
+    ]
+   },
+   "@context": {
+    "key": "300000394373187",
+    "headers": {
+     "ETag": "ACED0005737200136A6176612E7574696C2E41727261794C6973747881D21D99C7619D03000149000473697A65787000000001770400000001737200116A6176612E6C616E672E496E746567657212E2A0A4F781873802000149000576616C7565787200106A6176612E6C616E672E4E756D62657286AC951D0B94E08B02000078700000000278"
+    }
+   }
+  },
+  {
+   "PriceListName": "ZZ_TEST_PL_8034_N80_XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+   "PriceListId": "300000394373081",
+   "PriceListDescription": "DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD",
+   "PriceListType": "Segment price list",
+   "PriceListTypeCode": "SEGMENT",
+   "BusinessUnit": "ABD",
+   "BusinessUnitId": "300000393727002",
+   "Currency": "US Dollar",
+   "CurrencyCode": "USD",
+   "Status": "Approved",
+   "StatusCode": "APPROVED",
+   "StartDate": "2026-10-27T04:00:00+00:00",
+   "EndDate": null,
+   "EntityApprovalStatus": null,
+   "EntityApprovalStatusCode": null,
+   "PricingChargeDefinition": null,
+   "PricingChargeDefinitionCode": null,
+   "PricingChargeDefinitionId": null,
+   "LineType": "Buy",
+   "LineTypeCode": "ORA_BUY",
+   "CalculationMethod": "Price",
+   "CalculationMethodCode": "PRICE",
+   "CreationDate": "2026-10-26T00:20:12+00:00",
+   "CreatedBy": "Configuration.TEST",
+   "LastUpdateDate": "2026-10-26T00:20:13+00:00",
+   "LastUpdatedBy": "Configuration.TEST",
+   "ChangeTypeCode": null,
+   "ChangeType": null,
+   "accessSets": {
+    "items": [
+     {
+      "PriceListSetId": "300000394356048",
+      "PriceListId": "300000394373081",
+      "AccessSetName": "001 Customer Site",
+      "AccessSetCode": "001 CUSTOMER SITE",
+      "AccessSetId": "300000332869080",
+      "AccessSetDescription": null,
+      "EntityApprovalStatus": null,
+      "EntityApprovalStatusCode": null,
+      "CreationDate": "2026-10-26T00:20:13+00:00",
+      "CreatedBy": "Configuration.TEST",
+      "LastUpdateDate": "2026-10-26T00:20:13.024+00:00",
+      "LastUpdatedBy": "Configuration.TEST",
+      "ChangeTypeCode": null,
+      "ChangeType": null,
+      "@context": {
+       "key": "300000394356048",
+       "headers": {
+        "ETag": "ACED0005737200136A6176612E7574696C2E41727261794C6973747881D21D99C7619D03000149000473697A65787000000001770400000001737200116A6176612E6C616E672E496E746567657212E2A0A4F781873802000149000576616C7565787200106A6176612E6C616E672E4E756D62657286AC951D0B94E08B02000078700000000178"
+       }
+      }
+     }
+    ],
+    "count": 1,
+    "hasMore": false,
+    "limit": 500,
+    "offset": 0,
+    "links": [
+     {
+      "rel": "self",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/priceLists/300000394373081/child/accessSets",
+      "name": "accessSets",
+      "kind": "collection"
+     }
+    ]
+   },
+   "@context": {
+    "key": "300000394373081",
+    "headers": {
+     "ETag": "ACED0005737200136A6176612E7574696C2E41727261794C6973747881D21D99C7619D03000149000473697A65787000000001770400000001737200116A6176612E6C616E672E496E746567657212E2A0A4F781873802000149000576616C7565787200106A6176612E6C616E672E4E756D62657286AC951D0B94E08B02000078700000000278"
+    }
+   }
+  },
+  {
+   "PriceListName": "ZZ_SHEET_PL_8003_NEWBU25",
+   "PriceListId": "300000394372467",
+   "PriceListDescription": null,
+   "PriceListType": "Segment price list",
+   "PriceListTypeCode": "SEGMENT",
+   "BusinessUnit": "ZZ_SHEET_BU_897025",
+   "BusinessUnitId": "300000394371225",
+   "Currency": "US Dollar",
+   "CurrencyCode": "USD",
+   "Status": "Approved",
+   "StatusCode": "APPROVED",
+   "StartDate": "2026-11-01T04:00:00+00:00",
+   "EndDate": null,
+   "EntityApprovalStatus": null,
+   "EntityApprovalStatusCode": null,
+   "PricingChargeDefinition": null,
+   "PricingChargeDefinitionCode": null,
+   "PricingChargeDefinitionId": null,
+   "LineType": "Buy",
+   "LineTypeCode": "ORA_BUY",
+   "CalculationMethod": "Price",
+   "CalculationMethodCode": "PRICE",
+   "CreationDate": "2026-10-26T16:03:30.001+00:00",
+   "CreatedBy": "Configuration.TEST",
+   "LastUpdateDate": "2026-10-26T16:03:31+00:00",
+   "LastUpdatedBy": "Configuration.TEST",
+   "ChangeTypeCode": null,
+   "ChangeType": null,
+   "accessSets": {
+    "items": [
+     {
+      "PriceListSetId": "300000394356192",
+      "PriceListId": "300000394372467",
+      "AccessSetName": "001 Customer Site",
+      "AccessSetCode": "001 CUSTOMER SITE",
+      "AccessSetId": "300000332869080",
+      "AccessSetDescription": null,
+      "EntityApprovalStatus": null,
+      "EntityApprovalStatusCode": null,
+      "CreationDate": "2026-10-26T16:03:31+00:00",
+      "CreatedBy": "Configuration.TEST",
+      "LastUpdateDate": "2026-10-26T16:03:31.008+00:00",
+      "LastUpdatedBy": "Configuration.TEST",
+      "ChangeTypeCode": null,
+      "ChangeType": null,
+      "@context": {
+       "key": "300000394356192",
+       "headers": {
+        "ETag": "ACED0005737200136A6176612E7574696C2E41727261794C6973747881D21D99C7619D03000149000473697A65787000000001770400000001737200116A6176612E6C616E672E496E746567657212E2A0A4F781873802000149000576616C7565787200106A6176612E6C616E672E4E756D62657286AC951D0B94E08B02000078700000000178"
+       }
+      }
+     }
+    ],
+    "count": 1,
+    "hasMore": false,
+    "limit": 500,
+    "offset": 0,
+    "links": [
+     {
+      "rel": "self",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/priceLists/300000394372467/child/accessSets",
+      "name": "accessSets",
+      "kind": "collection"
+     }
+    ]
+   },
+   "@context": {
+    "key": "300000394372467",
+    "headers": {
+     "ETag": "ACED0005737200136A6176612E7574696C2E41727261794C6973747881D21D99C7619D03000149000473697A65787000000001770400000001737200116A6176612E6C616E672E496E746567657212E2A0A4F781873802000149000576616C7565787200106A6176612E6C616E672E4E756D62657286AC951D0B94E08B02000078700000000278"
+    }
+   }
+  },
+  {
+   "PriceListName": "ZZ_TEST_PL_8034_RUN",
+   "PriceListId": "300000394373083",
+   "PriceListDescription": null,
+   "PriceListType": "Floor price list",
+   "PriceListTypeCode": "FLOOR",
+   "BusinessUnit": "ABD",
+   "BusinessUnitId": "300000393727002",
+   "Currency": "US Dollar",
+   "CurrencyCode": "USD",
+   "Status": "Approved",
+   "StatusCode": "APPROVED",
+   "StartDate": "2026-10-28T04:00:00+00:00",
+   "EndDate": "2026-12-31T05:00:00+00:00",
+   "EntityApprovalStatus": null,
+   "EntityApprovalStatusCode": null,
+   "PricingChargeDefinition": "Recurring Sale Price",
+   "PricingChargeDefinitionCode": "QP_RECURRING_SALE_PRICE",
+   "PricingChargeDefinitionId": "300000000325737",
+   "LineType": "Buy",
+   "LineTypeCode": "ORA_BUY",
+   "CalculationMethod": "Cost",
+   "CalculationMethodCode": "COST",
+   "CreationDate": "2026-10-26T00:24:20.002+00:00",
+   "CreatedBy": "Configuration.TEST",
+   "LastUpdateDate": "2026-10-26T00:24:22+00:00",
+   "LastUpdatedBy": "Configuration.TEST",
+   "ChangeTypeCode": null,
+   "ChangeType": null,
+   "accessSets": {
+    "items": [
+     {
+      "PriceListSetId": "300000394372050",
+      "PriceListId": "300000394373083",
+      "AccessSetName": "GoSaaS Labs Data Set",
+      "AccessSetCode": "SET0001",
+      "AccessSetId": "300000130947183",
+      "AccessSetDescription": null,
+      "EntityApprovalStatus": null,
+      "EntityApprovalStatusCode": null,
+      "CreationDate": "2026-10-26T00:24:21+00:00",
+      "CreatedBy": "Configuration.TEST",
+      "LastUpdateDate": "2026-10-26T00:24:21.008+00:00",
+      "LastUpdatedBy": "Configuration.TEST",
+      "ChangeTypeCode": null,
+      "ChangeType": null,
+      "@context": {
+       "key": "300000394372050",
+       "headers": {
+        "ETag": "ACED0005737200136A6176612E7574696C2E41727261794C6973747881D21D99C7619D03000149000473697A65787000000001770400000001737200116A6176612E6C616E672E496E746567657212E2A0A4F781873802000149000576616C7565787200106A6176612E6C616E672E4E756D62657286AC951D0B94E08B02000078700000000178"
+       }
+      }
+     },
+     {
+      "PriceListSetId": "300000394356049",
+      "PriceListId": "300000394373083",
+      "AccessSetName": "001 Customer Site",
+      "AccessSetCode": "001 CUSTOMER SITE",
+      "AccessSetId": "300000332869080",
+      "AccessSetDescription": null,
+      "EntityApprovalStatus": null,
+      "EntityApprovalStatusCode": null,
+      "CreationDate": "2026-10-26T00:24:21+00:00",
+      "CreatedBy": "Configuration.TEST",
+      "LastUpdateDate": "2026-10-26T00:24:21.009+00:00",
+      "LastUpdatedBy": "Configuration.TEST",
+      "ChangeTypeCode": null,
+      "ChangeType": null,
+      "@context": {
+       "key": "300000394356049",
+       "headers": {
+        "ETag": "ACED0005737200136A6176612E7574696C2E41727261794C6973747881D21D99C7619D03000149000473697A65787000000001770400000001737200116A6176612E6C616E672E496E746567657212E2A0A4F781873802000149000576616C7565787200106A6176612E6C616E672E4E756D62657286AC951D0B94E08B02000078700000000178"
+       }
+      }
+     }
+    ],
+    "count": 2,
+    "hasMore": false,
+    "limit": 500,
+    "offset": 0,
+    "links": [
+     {
+      "rel": "self",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/priceLists/300000394373083/child/accessSets",
+      "name": "accessSets",
+      "kind": "collection"
+     }
+    ]
+   },
+   "@context": {
+    "key": "300000394373083",
+    "headers": {
+     "ETag": "ACED0005737200136A6176612E7574696C2E41727261794C6973747881D21D99C7619D03000149000473697A65787000000001770400000001737200116A6176612E6C616E672E496E746567657212E2A0A4F781873802000149000576616C7565787200106A6176612E6C616E672E4E756D62657286AC951D0B94E08B02000078700000000278"
+    }
+   }
+  }
+ ],
+ "count": 55,
+ "pages": 1
+}

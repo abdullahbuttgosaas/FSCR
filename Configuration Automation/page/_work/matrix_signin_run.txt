@@ -1,0 +1,1179 @@
+2026-11-02 08:20:23  job b4372ff568 queued: Customers
+2026-11-02 08:20:23  job b4372ff568: customer 1 of 1: ZZ_STUB_1
+2026-11-02 08:20:23  job b4372ff568_1 stopped (INVALID_REQUEST): Oracle refused ZZ_STUB_1: Oracle has no value 'REFUSE_ME' (stub). Nothing was saved in Oracle.
+2026-11-02 08:20:23  job b4372ff568: ZZ_STUB_1 failed
+2026-11-02 08:20:23  job b4372ff568: question 1 (ZZ_STUB_1): City 'REFUSE_ME' refused: Oracle has no value 'REFUSE_ME' (stub).; suggested: GOOD_1, GOOD_2
+2026-11-02 08:20:24  job b4372ff568: question 1 (ZZ_STUB_1) answered: City = GOOD_1; trying again
+2026-11-02 08:20:24  job b4372ff568: customer 1 of 1: ZZ_STUB_1
+2026-11-02 08:20:24  job b4372ff568_1 done: Created ZZ_STUB_1 (stub) and checked it.
+2026-11-02 08:20:24  job b4372ff568: ZZ_STUB_1 done
+2026-11-02 08:20:24  job b4372ff568: question 1 (ZZ_STUB_1) answered: City = GOOD_1; done
+PASS  Customers       Answered with a suggestion                    asked (City), answered GOOD_1, created
+2026-11-02 08:20:24  job 415d831607 queued: Customers
+2026-11-02 08:20:24  job 415d831607: customer 1 of 1: ZZ_STUB_2
+2026-11-02 08:20:24  job 415d831607_1 stopped (INVALID_REQUEST): Oracle refused ZZ_STUB_2: Oracle has no value 'REFUSE_ME' (stub). Nothing was saved in Oracle.
+2026-11-02 08:20:24  job 415d831607: ZZ_STUB_2 failed
+2026-11-02 08:20:24  job 415d831607: question 1 (ZZ_STUB_2): City 'REFUSE_ME' refused: Oracle has no value 'REFUSE_ME' (stub).; suggested: GOOD_1, GOOD_2
+2026-11-02 08:20:25  job 415d831607: question 1 (ZZ_STUB_2): 'BAD_TYPED' not accepted: Oracle has no value 'BAD_TYPED' (stub check).
+2026-11-02 08:20:25  job 415d831607: question 1 (ZZ_STUB_2) answered: City = TYPED_OK; trying again
+2026-11-02 08:20:25  job 415d831607: customer 1 of 1: ZZ_STUB_2
+2026-11-02 08:20:25  job 415d831607_1 done: Created ZZ_STUB_2 (stub) and checked it.
+2026-11-02 08:20:25  job 415d831607: ZZ_STUB_2 done
+2026-11-02 08:20:25  job 415d831607: question 1 (ZZ_STUB_2) answered: City = TYPED_OK; done
+PASS  Customers       Answered with a typed value                   BAD_TYPED refused in the panel, TYPED_OK created
+2026-11-02 08:20:25  job 316c08cc93 queued: Customers
+2026-11-02 08:20:25  job 316c08cc93: customer 1 of 1: ZZ_STUB_3
+2026-11-02 08:20:25  job 316c08cc93_1 stopped (INVALID_REQUEST): Oracle refused ZZ_STUB_3: Oracle has no value 'REFUSE_ME' (stub). Nothing was saved in Oracle.
+2026-11-02 08:20:25  job 316c08cc93: ZZ_STUB_3 failed
+2026-11-02 08:20:25  job 316c08cc93: question 1 (ZZ_STUB_3): City 'REFUSE_ME' refused: Oracle has no value 'REFUSE_ME' (stub).; suggested: GOOD_1, GOOD_2
+2026-11-02 08:20:26  job 316c08cc93: question 1 (ZZ_STUB_3) skipped by the user
+PASS  Customers       Skipped                                       skipped, not created, run ended, summary lists the decision
+2026-11-02 08:20:26  job eb7de34510 queued: Customers
+2026-11-02 08:20:26  job eb7de34510: customer 1 of 1: ZZ_STUB_4
+2026-11-02 08:20:26  job eb7de34510_1 stopped (INVALID_REQUEST): Oracle refused ZZ_STUB_4: Oracle has no value 'REFUSE_ME' (stub). Nothing was saved in Oracle.
+2026-11-02 08:20:26  job eb7de34510: ZZ_STUB_4 failed
+2026-11-02 08:20:26  job eb7de34510: question 1 (ZZ_STUB_4): City 'REFUSE_ME' refused: Oracle has no value 'REFUSE_ME' (stub).; suggested: GOOD_1, GOOD_2
+2026-11-02 08:20:27  job eb7de34510: question 1 (ZZ_STUB_4) answered: City = GOOD_2; trying again
+2026-11-02 08:20:27  job eb7de34510: customer 1 of 1: ZZ_STUB_4
+2026-11-02 08:20:27  job eb7de34510_1 done: Created ZZ_STUB_4 (stub) and checked it.
+2026-11-02 08:20:27  job eb7de34510: ZZ_STUB_4 done
+2026-11-02 08:20:27  job eb7de34510: question 1 (ZZ_STUB_4) answered: City = GOOD_2; done
+PASS  Customers       Page refresh                                  question shown again on refresh (HTTP), answered after it, created
+2026-11-02 08:20:27  job c0e71a95dd queued: Customers
+2026-11-02 08:20:27  job c0e71a95dd: customer 1 of 1: ZZ_STUB_5
+2026-11-02 08:20:27  job c0e71a95dd_1: test switch - this run is made to fail (no browser)
+2026-11-02 08:20:28  job c0e71a95dd_1 repair attempt 1: cost $0.0123 (this run $0.0123), status no_change_needed, changed nothing: It was a temporary problem (stub).
+2026-11-02 08:20:28  job c0e71a95dd_1: rerun after repair attempt 1: ok - Created ZZ_STUB_5 (stub) and checked it.
+2026-11-02 08:20:28  job c0e71a95dd_1: repair finished, total cost $0.0123
+2026-11-02 08:20:28  job c0e71a95dd_1 done: Created ZZ_STUB_5 (stub) and checked it.
+2026-11-02 08:20:28  job c0e71a95dd: ZZ_STUB_5 done
+PASS  Customers       Forced script failure -> repair               test switch failed it, repair started (budget $2.0), rerun created it
+2026-11-02 08:20:28  job ac7f06336e queued: Customers
+2026-11-02 08:20:28  job ac7f06336e: customer 1 of 1: ZZ_STUB_6
+2026-11-02 08:20:28  job ac7f06336e_1 stopped (INVALID_REQUEST): Oracle refused ZZ_STUB_6: ORA-99999: a rule nobody has written down yet refused this (stub). Nothing was saved in Oracle.
+2026-11-02 08:20:28  job ac7f06336e: ZZ_STUB_6 failed
+2026-11-02 08:20:28  job ac7f06336e_1p proposal: cost $0.0123, field city, value 'CLAUDE_FIX': The stub proposes a value that works.
+2026-11-02 08:20:28  job ac7f06336e: question 1 (ZZ_STUB_6): City 'UNKNOWN_ME' refused: ORA-99999: a rule nobody has written down yet refused this (stub).; suggested: CLAUDE_FIX
+2026-11-02 08:20:28  job ac7f06336e: question 1 (ZZ_STUB_6) answered: City = CLAUDE_FIX; trying again
+2026-11-02 08:20:28  job ac7f06336e: customer 1 of 1: ZZ_STUB_6
+2026-11-02 08:20:29  job ac7f06336e_1 done: Created ZZ_STUB_6 (stub) and checked it.
+2026-11-02 08:20:29  job ac7f06336e: ZZ_STUB_6 done
+2026-11-02 08:20:29  job ac7f06336e: question 1 (ZZ_STUB_6) answered: City = CLAUDE_FIX; done
+PASS  Customers       Unknown refusal -> Claude proposes            Claude proposed CLAUDE_FIX (not applied), user accepted, created; summary shows tokens and cost
+2026-11-02 08:20:29  job 4f32bf8196 queued: Customers
+2026-11-02 08:20:29  job 4f32bf8196: customer 1 of 1: ZZ_STUB_7
+2026-11-02 08:20:29  job 4f32bf8196_1 stopped (INVALID_REQUEST): Oracle refused ZZ_STUB_7: ORA-99999: a rule nobody has written down yet refused this (stub). Nothing was saved in Oracle.
+2026-11-02 08:20:29  job 4f32bf8196: ZZ_STUB_7 failed
+2026-11-02 08:20:29  job 4f32bf8196: question 1 (ZZ_STUB_7) not asked: refusal not recognised and Claude is not available (installed=True, signed in=False): ORA-99999: a rule nobody has written down yet refused this (stub).
+PASS  Customers       Unknown refusal, Claude not signed in         Claude not signed in: not started, plain card with Oracle's reason
+2026-11-02 08:20:29  job e3580b1ac6 queued: Customers
+2026-11-02 08:20:29  job e3580b1ac6: customer 1 of 2: ZZ_STUB_8
+2026-11-02 08:20:30  job e3580b1ac6_1 done: Created ZZ_STUB_8 (stub) and checked it.
+2026-11-02 08:20:30  job e3580b1ac6: ZZ_STUB_8 done
+2026-11-02 08:20:30  job e3580b1ac6: customer 2 of 2: ZZ_STUB_9
+2026-11-02 08:20:30  job e3580b1ac6_2 repair attempt 1: cost $0.0123 (this run $0.0123), status no_change_needed, changed nothing: It was a temporary problem (stub).
+2026-11-02 08:20:30  job e3580b1ac6_2: rerun after repair attempt 1: ok - Created ZZ_STUB_9 (stub) and checked it.
+2026-11-02 08:20:30  job e3580b1ac6_2: repair finished, total cost $0.0123
+2026-11-02 08:20:30  job e3580b1ac6_2 done: Created ZZ_STUB_9 (stub) and checked it.
+2026-11-02 08:20:30  job e3580b1ac6: ZZ_STUB_9 done
+PASS  Customers       Script failure in 1 of 2 records -> repair    the failed record repaired and created, the other untouched
+2026-11-02 08:20:30  job e6d555ecc5 queued: Order Types
+2026-11-02 08:20:30  job e6d555ecc5: order type 1 of 1: ZZ_STUB_10
+2026-11-02 08:20:30  job e6d555ecc5_1 stopped (INVALID_REQUEST): Oracle refused ZZ_STUB_10: Oracle has no value 'REFUSE_ME' (stub). Nothing was saved in Oracle.
+2026-11-02 08:20:30  job e6d555ecc5: ZZ_STUB_10 failed
+2026-11-02 08:20:30  job e6d555ecc5: question 1 (ZZ_STUB_10): Meaning 'REFUSE_ME' refused: Oracle has no value 'REFUSE_ME' (stub).; suggested: GOOD_1, GOOD_2
+2026-11-02 08:20:31  job e6d555ecc5: question 1 (ZZ_STUB_10) answered: Meaning = GOOD_1; trying again
+2026-11-02 08:20:31  job e6d555ecc5: order type 1 of 1: ZZ_STUB_10
+2026-11-02 08:20:31  job e6d555ecc5_1 done: Created ZZ_STUB_10 (stub) and checked it.
+2026-11-02 08:20:31  job e6d555ecc5: ZZ_STUB_10 done
+2026-11-02 08:20:31  job e6d555ecc5: question 1 (ZZ_STUB_10) answered: Meaning = GOOD_1; done
+PASS  Order Types     Answered with a suggestion                    asked (Meaning), answered GOOD_1, created
+2026-11-02 08:20:31  job 16ff3fe05e queued: Order Types
+2026-11-02 08:20:31  job 16ff3fe05e: order type 1 of 1: ZZ_STUB_11
+2026-11-02 08:20:31  job 16ff3fe05e_1 stopped (INVALID_REQUEST): Oracle refused ZZ_STUB_11: Oracle has no value 'REFUSE_ME' (stub). Nothing was saved in Oracle.
+2026-11-02 08:20:31  job 16ff3fe05e: ZZ_STUB_11 failed
+2026-11-02 08:20:31  job 16ff3fe05e: question 1 (ZZ_STUB_11): Meaning 'REFUSE_ME' refused: Oracle has no value 'REFUSE_ME' (stub).; suggested: GOOD_1, GOOD_2
+2026-11-02 08:20:32  job 16ff3fe05e: question 1 (ZZ_STUB_11): 'BAD_TYPED' not accepted: Oracle has no value 'BAD_TYPED' (stub check).
+2026-11-02 08:20:32  job 16ff3fe05e: question 1 (ZZ_STUB_11) answered: Meaning = TYPED_OK; trying again
+2026-11-02 08:20:32  job 16ff3fe05e: order type 1 of 1: ZZ_STUB_11
+2026-11-02 08:20:32  job 16ff3fe05e_1 done: Created ZZ_STUB_11 (stub) and checked it.
+2026-11-02 08:20:32  job 16ff3fe05e: ZZ_STUB_11 done
+2026-11-02 08:20:32  job 16ff3fe05e: question 1 (ZZ_STUB_11) answered: Meaning = TYPED_OK; done
+PASS  Order Types     Answered with a typed value                   BAD_TYPED refused in the panel, TYPED_OK created
+2026-11-02 08:20:33  job 09182fcc40 queued: Order Types
+2026-11-02 08:20:33  job 09182fcc40: order type 1 of 1: ZZ_STUB_12
+2026-11-02 08:20:33  job 09182fcc40_1 stopped (INVALID_REQUEST): Oracle refused ZZ_STUB_12: Oracle has no value 'REFUSE_ME' (stub). Nothing was saved in Oracle.
+2026-11-02 08:20:33  job 09182fcc40: ZZ_STUB_12 failed
+2026-11-02 08:20:33  job 09182fcc40: question 1 (ZZ_STUB_12): Meaning 'REFUSE_ME' refused: Oracle has no value 'REFUSE_ME' (stub).; suggested: GOOD_1, GOOD_2
+2026-11-02 08:20:33  job 09182fcc40: question 1 (ZZ_STUB_12) skipped by the user
+PASS  Order Types     Skipped                                       skipped, not created, run ended, summary lists the decision
+2026-11-02 08:20:34  job a0f2f6f22d queued: Order Types
+2026-11-02 08:20:34  job a0f2f6f22d: order type 1 of 1: ZZ_STUB_13
+2026-11-02 08:20:34  job a0f2f6f22d_1 stopped (INVALID_REQUEST): Oracle refused ZZ_STUB_13: Oracle has no value 'REFUSE_ME' (stub). Nothing was saved in Oracle.
+2026-11-02 08:20:34  job a0f2f6f22d: ZZ_STUB_13 failed
+2026-11-02 08:20:34  job a0f2f6f22d: question 1 (ZZ_STUB_13): Meaning 'REFUSE_ME' refused: Oracle has no value 'REFUSE_ME' (stub).; suggested: GOOD_1, GOOD_2
+2026-11-02 08:20:34  job a0f2f6f22d: question 1 (ZZ_STUB_13) answered: Meaning = GOOD_2; trying again
+2026-11-02 08:20:34  job a0f2f6f22d: order type 1 of 1: ZZ_STUB_13
+2026-11-02 08:20:34  job a0f2f6f22d_1 done: Created ZZ_STUB_13 (stub) and checked it.
+2026-11-02 08:20:34  job a0f2f6f22d: ZZ_STUB_13 done
+2026-11-02 08:20:34  job a0f2f6f22d: question 1 (ZZ_STUB_13) answered: Meaning = GOOD_2; done
+PASS  Order Types     Page refresh                                  question shown again on refresh (HTTP), answered after it, created
+2026-11-02 08:20:35  job cd6d366d00 queued: Order Types
+2026-11-02 08:20:35  job cd6d366d00: order type 1 of 1: ZZ_STUB_14
+2026-11-02 08:20:35  job cd6d366d00_1: test switch - this run is made to fail (no browser)
+2026-11-02 08:20:35  job cd6d366d00_1 repair attempt 1: cost $0.0123 (this run $0.0123), status no_change_needed, changed nothing: It was a temporary problem (stub).
+2026-11-02 08:20:35  job cd6d366d00_1: rerun after repair attempt 1: ok - Created ZZ_STUB_14 (stub) and checked it.
+2026-11-02 08:20:35  job cd6d366d00_1: repair finished, total cost $0.0123
+2026-11-02 08:20:35  job cd6d366d00_1 done: Created ZZ_STUB_14 (stub) and checked it.
+2026-11-02 08:20:35  job cd6d366d00: ZZ_STUB_14 done
+PASS  Order Types     Forced script failure -> repair               test switch failed it, repair started (budget $2.0), rerun created it
+2026-11-02 08:20:35  job 9107a5f65c queued: Order Types
+2026-11-02 08:20:35  job 9107a5f65c: order type 1 of 1: ZZ_STUB_15
+2026-11-02 08:20:35  job 9107a5f65c_1 stopped (INVALID_REQUEST): Oracle refused ZZ_STUB_15: ORA-99999: a rule nobody has written down yet refused this (stub). Nothing was saved in Oracle.
+2026-11-02 08:20:35  job 9107a5f65c: ZZ_STUB_15 failed
+2026-11-02 08:20:35  job 9107a5f65c_1p proposal: cost $0.0123, field meaning, value 'CLAUDE_FIX': The stub proposes a value that works.
+2026-11-02 08:20:35  job 9107a5f65c: question 1 (ZZ_STUB_15): Meaning 'UNKNOWN_ME' refused: ORA-99999: a rule nobody has written down yet refused this (stub).; suggested: CLAUDE_FIX
+2026-11-02 08:20:36  job 9107a5f65c: question 1 (ZZ_STUB_15) answered: Meaning = CLAUDE_FIX; trying again
+2026-11-02 08:20:36  job 9107a5f65c: order type 1 of 1: ZZ_STUB_15
+2026-11-02 08:20:36  job 9107a5f65c_1 done: Created ZZ_STUB_15 (stub) and checked it.
+2026-11-02 08:20:36  job 9107a5f65c: ZZ_STUB_15 done
+2026-11-02 08:20:36  job 9107a5f65c: question 1 (ZZ_STUB_15) answered: Meaning = CLAUDE_FIX; done
+PASS  Order Types     Unknown refusal -> Claude proposes            Claude proposed CLAUDE_FIX (not applied), user accepted, created; summary shows tokens and cost
+2026-11-02 08:20:36  job 28876af064 queued: Order Types
+2026-11-02 08:20:36  job 28876af064: order type 1 of 1: ZZ_STUB_16
+2026-11-02 08:20:36  job 28876af064_1 stopped (INVALID_REQUEST): Oracle refused ZZ_STUB_16: ORA-99999: a rule nobody has written down yet refused this (stub). Nothing was saved in Oracle.
+2026-11-02 08:20:36  job 28876af064: ZZ_STUB_16 failed
+2026-11-02 08:20:36  job 28876af064: question 1 (ZZ_STUB_16) not asked: refusal not recognised and Claude is not available (installed=True, signed in=False): ORA-99999: a rule nobody has written down yet refused this (stub).
+PASS  Order Types     Unknown refusal, Claude not signed in         Claude not signed in: not started, plain card with Oracle's reason
+2026-11-02 08:20:37  job 5c621b9ec1 queued: Order Types
+2026-11-02 08:20:37  job 5c621b9ec1: order type 1 of 2: ZZ_STUB_17
+2026-11-02 08:20:37  job 5c621b9ec1_1 done: Created ZZ_STUB_17 (stub) and checked it.
+2026-11-02 08:20:37  job 5c621b9ec1: ZZ_STUB_17 done
+2026-11-02 08:20:37  job 5c621b9ec1: order type 2 of 2: ZZ_STUB_18
+2026-11-02 08:20:37  job 5c621b9ec1_2 repair attempt 1: cost $0.0123 (this run $0.0123), status no_change_needed, changed nothing: It was a temporary problem (stub).
+2026-11-02 08:20:37  job 5c621b9ec1_2: rerun after repair attempt 1: ok - Created ZZ_STUB_18 (stub) and checked it.
+2026-11-02 08:20:37  job 5c621b9ec1_2: repair finished, total cost $0.0123
+2026-11-02 08:20:37  job 5c621b9ec1_2 done: Created ZZ_STUB_18 (stub) and checked it.
+2026-11-02 08:20:37  job 5c621b9ec1: ZZ_STUB_18 done
+PASS  Order Types     Script failure in 1 of 2 records -> repair    the failed record repaired and created, the other untouched
+2026-11-02 08:20:37  job c54db7d4cc queued: Payment Terms
+2026-11-02 08:20:37  job c54db7d4cc: payment term 1 of 1: ZZ_STUB_19
+2026-11-02 08:20:38  job c54db7d4cc_1 stopped (INVALID_REQUEST): Oracle refused ZZ_STUB_19: Oracle has no value 'REFUSE_ME' (stub). Nothing was saved in Oracle.
+2026-11-02 08:20:38  job c54db7d4cc: ZZ_STUB_19 failed
+2026-11-02 08:20:38  job c54db7d4cc: question 1 (ZZ_STUB_19): Months Ahead 'REFUSE_ME' refused: Oracle has no value 'REFUSE_ME' (stub).; suggested: GOOD_1, GOOD_2
+2026-11-02 08:20:38  job c54db7d4cc: question 1 (ZZ_STUB_19) answered: Months Ahead = GOOD_1; trying again
+2026-11-02 08:20:38  job c54db7d4cc: payment term 1 of 1: ZZ_STUB_19
+2026-11-02 08:20:38  job c54db7d4cc_1 done: Created ZZ_STUB_19 (stub) and checked it.
+2026-11-02 08:20:38  job c54db7d4cc: ZZ_STUB_19 done
+2026-11-02 08:20:38  job c54db7d4cc: question 1 (ZZ_STUB_19) answered: Months Ahead = GOOD_1; done
+PASS  Payment Terms   Answered with a suggestion                    asked (Row 1), answered GOOD_1, created
+2026-11-02 08:20:38  job b25c0a21dc queued: Payment Terms
+2026-11-02 08:20:38  job b25c0a21dc: payment term 1 of 1: ZZ_STUB_20
+2026-11-02 08:20:39  job b25c0a21dc_1 stopped (INVALID_REQUEST): Oracle refused ZZ_STUB_20: Oracle has no value 'REFUSE_ME' (stub). Nothing was saved in Oracle.
+2026-11-02 08:20:39  job b25c0a21dc: ZZ_STUB_20 failed
+2026-11-02 08:20:39  job b25c0a21dc: question 1 (ZZ_STUB_20): Months Ahead 'REFUSE_ME' refused: Oracle has no value 'REFUSE_ME' (stub).; suggested: GOOD_1, GOOD_2
+2026-11-02 08:20:39  job b25c0a21dc: question 1 (ZZ_STUB_20): 'BAD_TYPED' not accepted: Oracle has no value 'BAD_TYPED' (stub check).
+2026-11-02 08:20:39  job b25c0a21dc: question 1 (ZZ_STUB_20) answered: Months Ahead = TYPED_OK; trying again
+2026-11-02 08:20:39  job b25c0a21dc: payment term 1 of 1: ZZ_STUB_20
+2026-11-02 08:20:39  job b25c0a21dc_1 done: Created ZZ_STUB_20 (stub) and checked it.
+2026-11-02 08:20:39  job b25c0a21dc: ZZ_STUB_20 done
+2026-11-02 08:20:39  job b25c0a21dc: question 1 (ZZ_STUB_20) answered: Months Ahead = TYPED_OK; done
+PASS  Payment Terms   Answered with a typed value                   BAD_TYPED refused in the panel, TYPED_OK created
+2026-11-02 08:20:40  job 11a09cb4cd queued: Payment Terms
+2026-11-02 08:20:40  job 11a09cb4cd: payment term 1 of 1: ZZ_STUB_21
+2026-11-02 08:20:40  job 11a09cb4cd_1 stopped (INVALID_REQUEST): Oracle refused ZZ_STUB_21: Oracle has no value 'REFUSE_ME' (stub). Nothing was saved in Oracle.
+2026-11-02 08:20:40  job 11a09cb4cd: ZZ_STUB_21 failed
+2026-11-02 08:20:40  job 11a09cb4cd: question 1 (ZZ_STUB_21): Months Ahead 'REFUSE_ME' refused: Oracle has no value 'REFUSE_ME' (stub).; suggested: GOOD_1, GOOD_2
+2026-11-02 08:20:40  job 11a09cb4cd: question 1 (ZZ_STUB_21) skipped by the user
+PASS  Payment Terms   Skipped                                       skipped, not created, run ended, summary lists the decision
+2026-11-02 08:20:41  job 3dcd064a0a queued: Payment Terms
+2026-11-02 08:20:41  job 3dcd064a0a: payment term 1 of 1: ZZ_STUB_22
+2026-11-02 08:20:41  job 3dcd064a0a_1 stopped (INVALID_REQUEST): Oracle refused ZZ_STUB_22: Oracle has no value 'REFUSE_ME' (stub). Nothing was saved in Oracle.
+2026-11-02 08:20:41  job 3dcd064a0a: ZZ_STUB_22 failed
+2026-11-02 08:20:41  job 3dcd064a0a: question 1 (ZZ_STUB_22): Months Ahead 'REFUSE_ME' refused: Oracle has no value 'REFUSE_ME' (stub).; suggested: GOOD_1, GOOD_2
+2026-11-02 08:20:41  job 3dcd064a0a: question 1 (ZZ_STUB_22) answered: Months Ahead = GOOD_2; trying again
+2026-11-02 08:20:41  job 3dcd064a0a: payment term 1 of 1: ZZ_STUB_22
+2026-11-02 08:20:42  job 3dcd064a0a_1 done: Created ZZ_STUB_22 (stub) and checked it.
+2026-11-02 08:20:42  job 3dcd064a0a: ZZ_STUB_22 done
+2026-11-02 08:20:42  job 3dcd064a0a: question 1 (ZZ_STUB_22) answered: Months Ahead = GOOD_2; done
+PASS  Payment Terms   Page refresh                                  question shown again on refresh (HTTP), answered after it, created
+2026-11-02 08:20:42  job 9b2ad22a7b queued: Payment Terms
+2026-11-02 08:20:42  job 9b2ad22a7b: payment term 1 of 1: ZZ_STUB_23
+2026-11-02 08:20:42  job 9b2ad22a7b_1: test switch - this run is made to fail (no browser)
+2026-11-02 08:20:42  job 9b2ad22a7b_1 repair attempt 1: cost $0.0123 (this run $0.0123), status no_change_needed, changed nothing: It was a temporary problem (stub).
+2026-11-02 08:20:42  job 9b2ad22a7b_1: rerun after repair attempt 1: ok - stub batch
+2026-11-02 08:20:42  job 9b2ad22a7b_1: repair finished, total cost $0.0123
+2026-11-02 08:20:42  job 9b2ad22a7b_1 done: stub batch
+2026-11-02 08:20:42  job 9b2ad22a7b_1 done: Created ZZ_STUB_23 (stub) and checked it.
+2026-11-02 08:20:42  job 9b2ad22a7b: ZZ_STUB_23 done
+PASS  Payment Terms   Forced script failure -> repair               test switch failed it, repair started (budget $2.0), rerun created it
+2026-11-02 08:20:42  job 7b65583174 queued: Payment Terms
+2026-11-02 08:20:42  job 7b65583174: payment term 1 of 1: ZZ_STUB_24
+2026-11-02 08:20:42  job 7b65583174_1 stopped (INVALID_REQUEST): Oracle refused ZZ_STUB_24: ORA-99999: a rule nobody has written down yet refused this (stub). Nothing was saved in Oracle.
+2026-11-02 08:20:42  job 7b65583174: ZZ_STUB_24 failed
+2026-11-02 08:20:43  job 7b65583174_1p proposal: cost $0.0123, field months_ahead, value 'CLAUDE_FIX': The stub proposes a value that works.
+2026-11-02 08:20:43  job 7b65583174: question 1 (ZZ_STUB_24): Months Ahead 'UNKNOWN_ME' refused: ORA-99999: a rule nobody has written down yet refused this (stub).; suggested: CLAUDE_FIX
+2026-11-02 08:20:43  job 7b65583174: question 1 (ZZ_STUB_24) answered: Months Ahead = CLAUDE_FIX; trying again
+2026-11-02 08:20:43  job 7b65583174: payment term 1 of 1: ZZ_STUB_24
+2026-11-02 08:20:43  job 7b65583174_1 done: Created ZZ_STUB_24 (stub) and checked it.
+2026-11-02 08:20:43  job 7b65583174: ZZ_STUB_24 done
+2026-11-02 08:20:43  job 7b65583174: question 1 (ZZ_STUB_24) answered: Months Ahead = CLAUDE_FIX; done
+PASS  Payment Terms   Unknown refusal -> Claude proposes            Claude proposed CLAUDE_FIX (not applied), user accepted, created; summary shows tokens and cost
+2026-11-02 08:20:43  job 3b5d4cec86 queued: Payment Terms
+2026-11-02 08:20:43  job 3b5d4cec86: payment term 1 of 1: ZZ_STUB_25
+2026-11-02 08:20:43  job 3b5d4cec86_1 stopped (INVALID_REQUEST): Oracle refused ZZ_STUB_25: ORA-99999: a rule nobody has written down yet refused this (stub). Nothing was saved in Oracle.
+2026-11-02 08:20:43  job 3b5d4cec86: ZZ_STUB_25 failed
+2026-11-02 08:20:43  job 3b5d4cec86: question 1 (ZZ_STUB_25) not asked: refusal not recognised and Claude is not available (installed=True, signed in=False): ORA-99999: a rule nobody has written down yet refused this (stub).
+PASS  Payment Terms   Unknown refusal, Claude not signed in         Claude not signed in: not started, plain card with Oracle's reason
+2026-11-02 08:20:44  job 1ff9f30204 queued: Payment Terms
+2026-11-02 08:20:44  job 1ff9f30204: payment term 1 of 2: ZZ_STUB_26
+2026-11-02 08:20:44  job 1ff9f30204: payment term 2 of 2: ZZ_STUB_27
+2026-11-02 08:20:44  job 1ff9f30204: 1 payment term(s) of the batch failed for a reason that isn't a value; automatic repair for those
+2026-11-02 08:20:44  job 1ff9f30204_2r repair attempt 1: cost $0.0123 (this run $0.0123), status no_change_needed, changed nothing: It was a temporary problem (stub).
+2026-11-02 08:20:44  job 1ff9f30204_2r: rerun after repair attempt 1: ok - stub batch
+2026-11-02 08:20:44  job 1ff9f30204_2r: repair finished, total cost $0.0123
+2026-11-02 08:20:44  job 1ff9f30204_2r done: stub batch
+2026-11-02 08:20:44  job 1ff9f30204_1 done: Created ZZ_STUB_26 (stub) and checked it.
+2026-11-02 08:20:44  job 1ff9f30204: ZZ_STUB_26 done
+2026-11-02 08:20:44  job 1ff9f30204_2 done: Created ZZ_STUB_27 (stub) and checked it.
+2026-11-02 08:20:44  job 1ff9f30204: ZZ_STUB_27 done
+PASS  Payment Terms   Script failure in 1 of 2 records -> repair    the failed record repaired and created, the other untouched
+2026-11-02 08:20:44  job cdab90af74 queued: Lookup types
+2026-11-02 08:20:44  job cdab90af74: lookup type 1 of 1: ZZ_STUB_28
+2026-11-02 08:20:45  job cdab90af74_1 stopped (INVALID_REQUEST): Oracle refused ZZ_STUB_28: Oracle has no value 'REFUSE_ME' (stub). Nothing was saved in Oracle.
+2026-11-02 08:20:45  job cdab90af74: ZZ_STUB_28 failed
+2026-11-02 08:20:45  job cdab90af74: question 1 (ZZ_STUB_28): Meaning 'REFUSE_ME' refused: Oracle has no value 'REFUSE_ME' (stub).; suggested: GOOD_1, GOOD_2
+2026-11-02 08:20:45  job cdab90af74: question 1 (ZZ_STUB_28) answered: Meaning = GOOD_1; trying again
+2026-11-02 08:20:45  job cdab90af74: lookup type 1 of 1: ZZ_STUB_28
+2026-11-02 08:20:45  job cdab90af74_1 done: Created ZZ_STUB_28 (stub) and checked it.
+2026-11-02 08:20:45  job cdab90af74: ZZ_STUB_28 done
+2026-11-02 08:20:45  job cdab90af74: question 1 (ZZ_STUB_28) answered: Meaning = GOOD_1; done
+PASS  Lookup types    Answered with a suggestion                    asked (Row 1), answered GOOD_1, created
+2026-11-02 08:20:45  job 5ec71b0553 queued: Lookup types
+2026-11-02 08:20:45  job 5ec71b0553: lookup type 1 of 1: ZZ_STUB_29
+2026-11-02 08:20:46  job 5ec71b0553_1 stopped (INVALID_REQUEST): Oracle refused ZZ_STUB_29: Oracle has no value 'REFUSE_ME' (stub). Nothing was saved in Oracle.
+2026-11-02 08:20:46  job 5ec71b0553: ZZ_STUB_29 failed
+2026-11-02 08:20:46  job 5ec71b0553: question 1 (ZZ_STUB_29): Meaning 'REFUSE_ME' refused: Oracle has no value 'REFUSE_ME' (stub).; suggested: GOOD_1, GOOD_2
+2026-11-02 08:20:46  job 5ec71b0553: question 1 (ZZ_STUB_29): 'BAD_TYPED' not accepted: Oracle has no value 'BAD_TYPED' (stub check).
+2026-11-02 08:20:46  job 5ec71b0553: question 1 (ZZ_STUB_29) answered: Meaning = TYPED_OK; trying again
+2026-11-02 08:20:46  job 5ec71b0553: lookup type 1 of 1: ZZ_STUB_29
+2026-11-02 08:20:46  job 5ec71b0553_1 done: Created ZZ_STUB_29 (stub) and checked it.
+2026-11-02 08:20:46  job 5ec71b0553: ZZ_STUB_29 done
+2026-11-02 08:20:46  job 5ec71b0553: question 1 (ZZ_STUB_29) answered: Meaning = TYPED_OK; done
+PASS  Lookup types    Answered with a typed value                   BAD_TYPED refused in the panel, TYPED_OK created
+2026-11-02 08:20:47  job 24576f34b1 queued: Lookup types
+2026-11-02 08:20:47  job 24576f34b1: lookup type 1 of 1: ZZ_STUB_30
+2026-11-02 08:20:47  job 24576f34b1_1 stopped (INVALID_REQUEST): Oracle refused ZZ_STUB_30: Oracle has no value 'REFUSE_ME' (stub). Nothing was saved in Oracle.
+2026-11-02 08:20:47  job 24576f34b1: ZZ_STUB_30 failed
+2026-11-02 08:20:47  job 24576f34b1: question 1 (ZZ_STUB_30): Meaning 'REFUSE_ME' refused: Oracle has no value 'REFUSE_ME' (stub).; suggested: GOOD_1, GOOD_2
+2026-11-02 08:20:47  job 24576f34b1: question 1 (ZZ_STUB_30) skipped by the user
+PASS  Lookup types    Skipped                                       skipped, not created, run ended, summary lists the decision
+2026-11-02 08:20:48  job 3336f5d649 queued: Lookup types
+2026-11-02 08:20:48  job 3336f5d649: lookup type 1 of 1: ZZ_STUB_31
+2026-11-02 08:20:48  job 3336f5d649_1 stopped (INVALID_REQUEST): Oracle refused ZZ_STUB_31: Oracle has no value 'REFUSE_ME' (stub). Nothing was saved in Oracle.
+2026-11-02 08:20:48  job 3336f5d649: ZZ_STUB_31 failed
+2026-11-02 08:20:48  job 3336f5d649: question 1 (ZZ_STUB_31): Meaning 'REFUSE_ME' refused: Oracle has no value 'REFUSE_ME' (stub).; suggested: GOOD_1, GOOD_2
+2026-11-02 08:20:48  job 3336f5d649: question 1 (ZZ_STUB_31) answered: Meaning = GOOD_2; trying again
+2026-11-02 08:20:48  job 3336f5d649: lookup type 1 of 1: ZZ_STUB_31
+2026-11-02 08:20:49  job 3336f5d649_1 done: Created ZZ_STUB_31 (stub) and checked it.
+2026-11-02 08:20:49  job 3336f5d649: ZZ_STUB_31 done
+2026-11-02 08:20:49  job 3336f5d649: question 1 (ZZ_STUB_31) answered: Meaning = GOOD_2; done
+PASS  Lookup types    Page refresh                                  question shown again on refresh (HTTP), answered after it, created
+2026-11-02 08:20:49  job 3be82ecaa2 queued: Lookup types
+2026-11-02 08:20:49  job 3be82ecaa2: lookup type 1 of 1: ZZ_STUB_32
+2026-11-02 08:20:49  job 3be82ecaa2_1: test switch - this run is made to fail (no browser)
+2026-11-02 08:20:49  job 3be82ecaa2_1 repair attempt 1: cost $0.0123 (this run $0.0123), status no_change_needed, changed nothing: It was a temporary problem (stub).
+2026-11-02 08:20:49  job 3be82ecaa2_1: rerun after repair attempt 1: ok - stub batch
+2026-11-02 08:20:49  job 3be82ecaa2_1: repair finished, total cost $0.0123
+2026-11-02 08:20:49  job 3be82ecaa2_1 done: stub batch
+2026-11-02 08:20:49  job 3be82ecaa2_1 done: Created ZZ_STUB_32 (stub) and checked it.
+2026-11-02 08:20:49  job 3be82ecaa2: ZZ_STUB_32 done
+PASS  Lookup types    Forced script failure -> repair               test switch failed it, repair started (budget $2.0), rerun created it
+2026-11-02 08:20:49  job 8f3866ca33 queued: Lookup types
+2026-11-02 08:20:49  job 8f3866ca33: lookup type 1 of 1: ZZ_STUB_33
+2026-11-02 08:20:49  job 8f3866ca33_1 stopped (INVALID_REQUEST): Oracle refused ZZ_STUB_33: ORA-99999: a rule nobody has written down yet refused this (stub). Nothing was saved in Oracle.
+2026-11-02 08:20:49  job 8f3866ca33: ZZ_STUB_33 failed
+2026-11-02 08:20:50  job 8f3866ca33_1p proposal: cost $0.0123, field meaning, value 'CLAUDE_FIX': The stub proposes a value that works.
+2026-11-02 08:20:50  job 8f3866ca33: question 1 (ZZ_STUB_33): Meaning 'UNKNOWN_ME' refused: ORA-99999: a rule nobody has written down yet refused this (stub).; suggested: CLAUDE_FIX
+2026-11-02 08:20:50  job 8f3866ca33: question 1 (ZZ_STUB_33) answered: Meaning = CLAUDE_FIX; trying again
+2026-11-02 08:20:50  job 8f3866ca33: lookup type 1 of 1: ZZ_STUB_33
+2026-11-02 08:20:50  job 8f3866ca33_1 done: Created ZZ_STUB_33 (stub) and checked it.
+2026-11-02 08:20:50  job 8f3866ca33: ZZ_STUB_33 done
+2026-11-02 08:20:50  job 8f3866ca33: question 1 (ZZ_STUB_33) answered: Meaning = CLAUDE_FIX; done
+PASS  Lookup types    Unknown refusal -> Claude proposes            Claude proposed CLAUDE_FIX (not applied), user accepted, created; summary shows tokens and cost
+2026-11-02 08:20:50  job 47ffacc1a8 queued: Lookup types
+2026-11-02 08:20:50  job 47ffacc1a8: lookup type 1 of 1: ZZ_STUB_34
+2026-11-02 08:20:51  job 47ffacc1a8_1 stopped (INVALID_REQUEST): Oracle refused ZZ_STUB_34: ORA-99999: a rule nobody has written down yet refused this (stub). Nothing was saved in Oracle.
+2026-11-02 08:20:51  job 47ffacc1a8: ZZ_STUB_34 failed
+2026-11-02 08:20:51  job 47ffacc1a8: question 1 (ZZ_STUB_34) not asked: refusal not recognised and Claude is not available (installed=True, signed in=False): ORA-99999: a rule nobody has written down yet refused this (stub).
+PASS  Lookup types    Unknown refusal, Claude not signed in         Claude not signed in: not started, plain card with Oracle's reason
+2026-11-02 08:20:51  job 9f2439c756 queued: Lookup types
+2026-11-02 08:20:51  job 9f2439c756: lookup type 1 of 2: ZZ_STUB_35
+2026-11-02 08:20:51  job 9f2439c756: lookup type 2 of 2: ZZ_STUB_36
+2026-11-02 08:20:51  job 9f2439c756: 1 lookup type(s) of the batch failed for a reason that isn't a value; automatic repair for those
+2026-11-02 08:20:51  job 9f2439c756_2r repair attempt 1: cost $0.0123 (this run $0.0123), status no_change_needed, changed nothing: It was a temporary problem (stub).
+2026-11-02 08:20:51  job 9f2439c756_2r: rerun after repair attempt 1: ok - stub batch
+2026-11-02 08:20:51  job 9f2439c756_2r: repair finished, total cost $0.0123
+2026-11-02 08:20:51  job 9f2439c756_2r done: stub batch
+2026-11-02 08:20:51  job 9f2439c756_1 done: Created ZZ_STUB_35 (stub) and checked it.
+2026-11-02 08:20:51  job 9f2439c756: ZZ_STUB_35 done
+2026-11-02 08:20:51  job 9f2439c756_2 done: Created ZZ_STUB_36 (stub) and checked it.
+2026-11-02 08:20:51  job 9f2439c756: ZZ_STUB_36 done
+PASS  Lookup types    Script failure in 1 of 2 records -> repair    the failed record repaired and created, the other untouched
+2026-11-02 08:20:51  job 939155b610 queued: Business Units
+2026-11-02 08:20:51  job 939155b610: business unit 1 of 1: ZZ_STUB_37
+2026-11-02 08:20:52  job 939155b610_1 stopped (INVALID_REQUEST): Oracle refused ZZ_STUB_37: Oracle has no value 'REFUSE_ME' (stub). Nothing was saved in Oracle.
+2026-11-02 08:20:52  job 939155b610: ZZ_STUB_37 failed
+2026-11-02 08:20:52  job 939155b610: question 1 (ZZ_STUB_37): Location 'REFUSE_ME' refused: Oracle has no value 'REFUSE_ME' (stub).; suggested: GOOD_1, GOOD_2
+2026-11-02 08:20:52  job 939155b610: question 1 (ZZ_STUB_37) answered: Location = GOOD_1; trying again
+2026-11-02 08:20:52  job 939155b610: business unit 1 of 1: ZZ_STUB_37
+2026-11-02 08:20:52  job 939155b610_1 done: Created ZZ_STUB_37 (stub) and checked it.
+2026-11-02 08:20:52  job 939155b610: ZZ_STUB_37 done
+2026-11-02 08:20:52  job 939155b610: question 1 (ZZ_STUB_37) answered: Location = GOOD_1; done
+PASS  Business Units  Answered with a suggestion                    asked (Location), answered GOOD_1, created
+2026-11-02 08:20:52  job b347dd2696 queued: Business Units
+2026-11-02 08:20:52  job b347dd2696: business unit 1 of 1: ZZ_STUB_38
+2026-11-02 08:20:53  job b347dd2696_1 stopped (INVALID_REQUEST): Oracle refused ZZ_STUB_38: Oracle has no value 'REFUSE_ME' (stub). Nothing was saved in Oracle.
+2026-11-02 08:20:53  job b347dd2696: ZZ_STUB_38 failed
+2026-11-02 08:20:53  job b347dd2696: question 1 (ZZ_STUB_38): Location 'REFUSE_ME' refused: Oracle has no value 'REFUSE_ME' (stub).; suggested: GOOD_1, GOOD_2
+2026-11-02 08:20:53  job b347dd2696: question 1 (ZZ_STUB_38): 'BAD_TYPED' not accepted: Oracle has no value 'BAD_TYPED' (stub check).
+2026-11-02 08:20:53  job b347dd2696: question 1 (ZZ_STUB_38) answered: Location = TYPED_OK; trying again
+2026-11-02 08:20:53  job b347dd2696: business unit 1 of 1: ZZ_STUB_38
+2026-11-02 08:20:53  job b347dd2696_1 done: Created ZZ_STUB_38 (stub) and checked it.
+2026-11-02 08:20:53  job b347dd2696: ZZ_STUB_38 done
+2026-11-02 08:20:53  job b347dd2696: question 1 (ZZ_STUB_38) answered: Location = TYPED_OK; done
+PASS  Business Units  Answered with a typed value                   BAD_TYPED refused in the panel, TYPED_OK created
+2026-11-02 08:20:54  job afa5784fa6 queued: Business Units
+2026-11-02 08:20:54  job afa5784fa6: business unit 1 of 1: ZZ_STUB_39
+2026-11-02 08:20:54  job afa5784fa6_1 stopped (INVALID_REQUEST): Oracle refused ZZ_STUB_39: Oracle has no value 'REFUSE_ME' (stub). Nothing was saved in Oracle.
+2026-11-02 08:20:54  job afa5784fa6: ZZ_STUB_39 failed
+2026-11-02 08:20:54  job afa5784fa6: question 1 (ZZ_STUB_39): Location 'REFUSE_ME' refused: Oracle has no value 'REFUSE_ME' (stub).; suggested: GOOD_1, GOOD_2
+2026-11-02 08:20:54  job afa5784fa6: question 1 (ZZ_STUB_39) skipped by the user
+PASS  Business Units  Skipped                                       skipped, not created, run ended, summary lists the decision
+2026-11-02 08:20:55  job 230ba1c020 queued: Business Units
+2026-11-02 08:20:55  job 230ba1c020: business unit 1 of 1: ZZ_STUB_40
+2026-11-02 08:20:55  job 230ba1c020_1 stopped (INVALID_REQUEST): Oracle refused ZZ_STUB_40: Oracle has no value 'REFUSE_ME' (stub). Nothing was saved in Oracle.
+2026-11-02 08:20:55  job 230ba1c020: ZZ_STUB_40 failed
+2026-11-02 08:20:55  job 230ba1c020: question 1 (ZZ_STUB_40): Location 'REFUSE_ME' refused: Oracle has no value 'REFUSE_ME' (stub).; suggested: GOOD_1, GOOD_2
+2026-11-02 08:20:55  job 230ba1c020: question 1 (ZZ_STUB_40) answered: Location = GOOD_2; trying again
+2026-11-02 08:20:55  job 230ba1c020: business unit 1 of 1: ZZ_STUB_40
+2026-11-02 08:20:56  job 230ba1c020_1 done: Created ZZ_STUB_40 (stub) and checked it.
+2026-11-02 08:20:56  job 230ba1c020: ZZ_STUB_40 done
+2026-11-02 08:20:56  job 230ba1c020: question 1 (ZZ_STUB_40) answered: Location = GOOD_2; done
+PASS  Business Units  Page refresh                                  question shown again on refresh (HTTP), answered after it, created
+2026-11-02 08:20:56  job 1e4a5e20ab queued: Business Units
+2026-11-02 08:20:56  job 1e4a5e20ab: business unit 1 of 1: ZZ_STUB_41
+2026-11-02 08:20:56  job 1e4a5e20ab_1: test switch - this run is made to fail (no browser)
+2026-11-02 08:20:56  job 1e4a5e20ab_1 repair attempt 1: cost $0.0123 (this run $0.0123), status no_change_needed, changed nothing: It was a temporary problem (stub).
+2026-11-02 08:20:56  job 1e4a5e20ab_1: rerun after repair attempt 1: ok - stub batch
+2026-11-02 08:20:56  job 1e4a5e20ab_1: repair finished, total cost $0.0123
+2026-11-02 08:20:56  job 1e4a5e20ab_1 done: stub batch
+2026-11-02 08:20:56  job 1e4a5e20ab_1 done: Created ZZ_STUB_41 (stub) and checked it.
+2026-11-02 08:20:56  job 1e4a5e20ab: ZZ_STUB_41 done
+PASS  Business Units  Forced script failure -> repair               test switch failed it, repair started (budget $2.0), rerun created it
+2026-11-02 08:20:56  job 03861fb4f4 queued: Business Units
+2026-11-02 08:20:56  job 03861fb4f4: business unit 1 of 1: ZZ_STUB_42
+2026-11-02 08:20:56  job 03861fb4f4_1 stopped (INVALID_REQUEST): Oracle refused ZZ_STUB_42: ORA-99999: a rule nobody has written down yet refused this (stub). Nothing was saved in Oracle.
+2026-11-02 08:20:56  job 03861fb4f4: ZZ_STUB_42 failed
+2026-11-02 08:20:57  job 03861fb4f4_1p proposal: cost $0.0123, field location, value 'CLAUDE_FIX': The stub proposes a value that works.
+2026-11-02 08:20:57  job 03861fb4f4: question 1 (ZZ_STUB_42): Location 'UNKNOWN_ME' refused: ORA-99999: a rule nobody has written down yet refused this (stub).; suggested: CLAUDE_FIX
+2026-11-02 08:20:57  job 03861fb4f4: question 1 (ZZ_STUB_42) answered: Location = CLAUDE_FIX; trying again
+2026-11-02 08:20:57  job 03861fb4f4: business unit 1 of 1: ZZ_STUB_42
+2026-11-02 08:20:57  job 03861fb4f4_1 done: Created ZZ_STUB_42 (stub) and checked it.
+2026-11-02 08:20:57  job 03861fb4f4: ZZ_STUB_42 done
+2026-11-02 08:20:57  job 03861fb4f4: question 1 (ZZ_STUB_42) answered: Location = CLAUDE_FIX; done
+PASS  Business Units  Unknown refusal -> Claude proposes            Claude proposed CLAUDE_FIX (not applied), user accepted, created; summary shows tokens and cost
+2026-11-02 08:20:57  job 6573d1e875 queued: Business Units
+2026-11-02 08:20:57  job 6573d1e875: business unit 1 of 1: ZZ_STUB_43
+2026-11-02 08:20:57  job 6573d1e875_1 stopped (INVALID_REQUEST): Oracle refused ZZ_STUB_43: ORA-99999: a rule nobody has written down yet refused this (stub). Nothing was saved in Oracle.
+2026-11-02 08:20:57  job 6573d1e875: ZZ_STUB_43 failed
+2026-11-02 08:20:57  job 6573d1e875: question 1 (ZZ_STUB_43) not asked: refusal not recognised and Claude is not available (installed=True, signed in=False): ORA-99999: a rule nobody has written down yet refused this (stub).
+PASS  Business Units  Unknown refusal, Claude not signed in         Claude not signed in: not started, plain card with Oracle's reason
+2026-11-02 08:20:58  job eee8e3d75b queued: Business Units
+2026-11-02 08:20:58  job eee8e3d75b: business unit 1 of 2: ZZ_STUB_44
+2026-11-02 08:20:58  job eee8e3d75b: business unit 2 of 2: ZZ_STUB_45
+2026-11-02 08:20:58  job eee8e3d75b: 1 business unit(s) of the batch failed for a reason that isn't a value; automatic repair for those
+2026-11-02 08:20:58  job eee8e3d75b_2r repair attempt 1: cost $0.0123 (this run $0.0123), status no_change_needed, changed nothing: It was a temporary problem (stub).
+2026-11-02 08:20:58  job eee8e3d75b_2r: rerun after repair attempt 1: ok - stub batch
+2026-11-02 08:20:58  job eee8e3d75b_2r: repair finished, total cost $0.0123
+2026-11-02 08:20:58  job eee8e3d75b_2r done: stub batch
+2026-11-02 08:20:58  job eee8e3d75b_1 done: Created ZZ_STUB_44 (stub) and checked it.
+2026-11-02 08:20:58  job eee8e3d75b: ZZ_STUB_44 done
+2026-11-02 08:20:58  job eee8e3d75b_2 done: Created ZZ_STUB_45 (stub) and checked it.
+2026-11-02 08:20:58  job eee8e3d75b: ZZ_STUB_45 done
+PASS  Business Units  Script failure in 1 of 2 records -> repair    the failed record repaired and created, the other untouched
+2026-11-02 08:20:58  job bacc598b96 queued: Price Lists
+2026-11-02 08:20:58  job bacc598b96: price list 1 of 1: ZZ_STUB_46
+2026-11-02 08:20:58  job bacc598b96_1 stopped (INVALID_REQUEST): Oracle refused ZZ_STUB_46: Oracle has no value 'REFUSE_ME' (stub). Nothing was saved in Oracle.
+2026-11-02 08:20:58  job bacc598b96: ZZ_STUB_46 failed
+2026-11-02 08:20:58  job bacc598b96: question 1 (ZZ_STUB_46): Currency 'REFUSE_ME' refused: Oracle has no value 'REFUSE_ME' (stub).; suggested: GOOD_1, GOOD_2
+2026-11-02 08:20:59  job bacc598b96: question 1 (ZZ_STUB_46) answered: Currency = GOOD_1; trying again
+2026-11-02 08:20:59  job bacc598b96: price list 1 of 1: ZZ_STUB_46
+2026-11-02 08:20:59  job bacc598b96_1 done: Created ZZ_STUB_46 (stub) and checked it.
+2026-11-02 08:20:59  job bacc598b96: ZZ_STUB_46 done
+2026-11-02 08:20:59  job bacc598b96: question 1 (ZZ_STUB_46) answered: Currency = GOOD_1; done
+PASS  Price Lists     Answered with a suggestion                    asked (Currency), answered GOOD_1, created
+2026-11-02 08:20:59  job 8fe8985a19 queued: Price Lists
+2026-11-02 08:20:59  job 8fe8985a19: price list 1 of 1: ZZ_STUB_47
+2026-11-02 08:20:59  job 8fe8985a19_1 stopped (INVALID_REQUEST): Oracle refused ZZ_STUB_47: Oracle has no value 'REFUSE_ME' (stub). Nothing was saved in Oracle.
+2026-11-02 08:20:59  job 8fe8985a19: ZZ_STUB_47 failed
+2026-11-02 08:20:59  job 8fe8985a19: question 1 (ZZ_STUB_47): Currency 'REFUSE_ME' refused: Oracle has no value 'REFUSE_ME' (stub).; suggested: GOOD_1, GOOD_2
+2026-11-02 08:21:00  job 8fe8985a19: question 1 (ZZ_STUB_47): 'BAD_TYPED' not accepted: Oracle has no value 'BAD_TYPED' (stub check).
+2026-11-02 08:21:00  job 8fe8985a19: question 1 (ZZ_STUB_47) answered: Currency = TYPED_OK; trying again
+2026-11-02 08:21:00  job 8fe8985a19: price list 1 of 1: ZZ_STUB_47
+2026-11-02 08:21:00  job 8fe8985a19_1 done: Created ZZ_STUB_47 (stub) and checked it.
+2026-11-02 08:21:00  job 8fe8985a19: ZZ_STUB_47 done
+2026-11-02 08:21:00  job 8fe8985a19: question 1 (ZZ_STUB_47) answered: Currency = TYPED_OK; done
+PASS  Price Lists     Answered with a typed value                   BAD_TYPED refused in the panel, TYPED_OK created
+2026-11-02 08:21:01  job f30a0655db queued: Price Lists
+2026-11-02 08:21:01  job f30a0655db: price list 1 of 1: ZZ_STUB_48
+2026-11-02 08:21:01  job f30a0655db_1 stopped (INVALID_REQUEST): Oracle refused ZZ_STUB_48: Oracle has no value 'REFUSE_ME' (stub). Nothing was saved in Oracle.
+2026-11-02 08:21:01  job f30a0655db: ZZ_STUB_48 failed
+2026-11-02 08:21:01  job f30a0655db: question 1 (ZZ_STUB_48): Currency 'REFUSE_ME' refused: Oracle has no value 'REFUSE_ME' (stub).; suggested: GOOD_1, GOOD_2
+2026-11-02 08:21:01  job f30a0655db: question 1 (ZZ_STUB_48) skipped by the user
+PASS  Price Lists     Skipped                                       skipped, not created, run ended, summary lists the decision
+2026-11-02 08:21:02  job 2347d9b199 queued: Price Lists
+2026-11-02 08:21:02  job 2347d9b199: price list 1 of 1: ZZ_STUB_49
+2026-11-02 08:21:02  job 2347d9b199_1 stopped (INVALID_REQUEST): Oracle refused ZZ_STUB_49: Oracle has no value 'REFUSE_ME' (stub). Nothing was saved in Oracle.
+2026-11-02 08:21:02  job 2347d9b199: ZZ_STUB_49 failed
+2026-11-02 08:21:02  job 2347d9b199: question 1 (ZZ_STUB_49): Currency 'REFUSE_ME' refused: Oracle has no value 'REFUSE_ME' (stub).; suggested: GOOD_1, GOOD_2
+2026-11-02 08:21:02  job 2347d9b199: question 1 (ZZ_STUB_49) answered: Currency = GOOD_2; trying again
+2026-11-02 08:21:02  job 2347d9b199: price list 1 of 1: ZZ_STUB_49
+2026-11-02 08:21:02  job 2347d9b199_1 done: Created ZZ_STUB_49 (stub) and checked it.
+2026-11-02 08:21:02  job 2347d9b199: ZZ_STUB_49 done
+2026-11-02 08:21:02  job 2347d9b199: question 1 (ZZ_STUB_49) answered: Currency = GOOD_2; done
+PASS  Price Lists     Page refresh                                  question shown again on refresh (HTTP), answered after it, created
+2026-11-02 08:21:03  job df842b57ba queued: Price Lists
+2026-11-02 08:21:03  job df842b57ba: price list 1 of 1: ZZ_STUB_50
+2026-11-02 08:21:03  job df842b57ba_1: test switch - this run is made to fail (no browser)
+2026-11-02 08:21:03  job df842b57ba_1 repair attempt 1: cost $0.0123 (this run $0.0123), status no_change_needed, changed nothing: It was a temporary problem (stub).
+2026-11-02 08:21:03  job df842b57ba_1: rerun after repair attempt 1: ok - stub batch
+2026-11-02 08:21:03  job df842b57ba_1: repair finished, total cost $0.0123
+2026-11-02 08:21:03  job df842b57ba_1 done: stub batch
+2026-11-02 08:21:03  job df842b57ba_1 done: Created ZZ_STUB_50 (stub) and checked it.
+2026-11-02 08:21:03  job df842b57ba: ZZ_STUB_50 done
+PASS  Price Lists     Forced script failure -> repair               test switch failed it, repair started (budget $2.0), rerun created it
+2026-11-02 08:21:03  job d350780c44 queued: Price Lists
+2026-11-02 08:21:03  job d350780c44: price list 1 of 1: ZZ_STUB_51
+2026-11-02 08:21:03  job d350780c44_1 stopped (INVALID_REQUEST): Oracle refused ZZ_STUB_51: ORA-99999: a rule nobody has written down yet refused this (stub). Nothing was saved in Oracle.
+2026-11-02 08:21:03  job d350780c44: ZZ_STUB_51 failed
+2026-11-02 08:21:04  job d350780c44_1p proposal: cost $0.0123, field currency, value 'CLAUDE_FIX': The stub proposes a value that works.
+2026-11-02 08:21:04  job d350780c44: question 1 (ZZ_STUB_51): Currency 'UNKNOWN_ME' refused: ORA-99999: a rule nobody has written down yet refused this (stub).; suggested: CLAUDE_FIX
+2026-11-02 08:21:04  job d350780c44: question 1 (ZZ_STUB_51) answered: Currency = CLAUDE_FIX; trying again
+2026-11-02 08:21:04  job d350780c44: price list 1 of 1: ZZ_STUB_51
+2026-11-02 08:21:04  job d350780c44_1 done: Created ZZ_STUB_51 (stub) and checked it.
+2026-11-02 08:21:04  job d350780c44: ZZ_STUB_51 done
+2026-11-02 08:21:04  job d350780c44: question 1 (ZZ_STUB_51) answered: Currency = CLAUDE_FIX; done
+PASS  Price Lists     Unknown refusal -> Claude proposes            Claude proposed CLAUDE_FIX (not applied), user accepted, created; summary shows tokens and cost
+2026-11-02 08:21:04  job 83c7ed62bc queued: Price Lists
+2026-11-02 08:21:04  job 83c7ed62bc: price list 1 of 1: ZZ_STUB_52
+2026-11-02 08:21:04  job 83c7ed62bc_1 stopped (INVALID_REQUEST): Oracle refused ZZ_STUB_52: ORA-99999: a rule nobody has written down yet refused this (stub). Nothing was saved in Oracle.
+2026-11-02 08:21:04  job 83c7ed62bc: ZZ_STUB_52 failed
+2026-11-02 08:21:04  job 83c7ed62bc: question 1 (ZZ_STUB_52) not asked: refusal not recognised and Claude is not available (installed=True, signed in=False): ORA-99999: a rule nobody has written down yet refused this (stub).
+PASS  Price Lists     Unknown refusal, Claude not signed in         Claude not signed in: not started, plain card with Oracle's reason
+2026-11-02 08:21:05  job c98bbafc00 queued: Price Lists
+2026-11-02 08:21:05  job c98bbafc00: price list 1 of 2: ZZ_STUB_53
+2026-11-02 08:21:05  job c98bbafc00: price list 2 of 2: ZZ_STUB_54
+2026-11-02 08:21:05  job c98bbafc00: 1 price list(s) of the batch failed for a reason that isn't a value; automatic repair for those
+2026-11-02 08:21:05  job c98bbafc00_2r repair attempt 1: cost $0.0123 (this run $0.0123), status no_change_needed, changed nothing: It was a temporary problem (stub).
+2026-11-02 08:21:05  job c98bbafc00_2r: rerun after repair attempt 1: ok - stub batch
+2026-11-02 08:21:05  job c98bbafc00_2r: repair finished, total cost $0.0123
+2026-11-02 08:21:05  job c98bbafc00_2r done: stub batch
+2026-11-02 08:21:05  job c98bbafc00_1 done: Created ZZ_STUB_53 (stub) and checked it.
+2026-11-02 08:21:05  job c98bbafc00: ZZ_STUB_53 done
+2026-11-02 08:21:05  job c98bbafc00_2 done: Created ZZ_STUB_54 (stub) and checked it.
+2026-11-02 08:21:05  job c98bbafc00: ZZ_STUB_54 done
+PASS  Price Lists     Script failure in 1 of 2 records -> repair    the failed record repaired and created, the other untouched
+2026-11-02 08:21:05  job 1551f01a20 queued: Receivables Payment Terms
+2026-11-02 08:21:05  job 1551f01a20: receivables payment term 1 of 1: ZZ_STUB_55
+2026-11-02 08:21:05  job 1551f01a20_1 stopped (INVALID_REQUEST): Oracle refused ZZ_STUB_55: Oracle has no value 'REFUSE_ME' (stub). Nothing was saved in Oracle.
+2026-11-02 08:21:05  job 1551f01a20: ZZ_STUB_55 failed
+2026-11-02 08:21:05  job 1551f01a20: question 1 (ZZ_STUB_55): Days 'REFUSE_ME' refused: Oracle has no value 'REFUSE_ME' (stub).; suggested: GOOD_1, GOOD_2
+2026-11-02 08:21:06  job 1551f01a20: question 1 (ZZ_STUB_55) answered: Days = GOOD_1; trying again
+2026-11-02 08:21:06  job 1551f01a20: receivables payment term 1 of 1: ZZ_STUB_55
+2026-11-02 08:21:06  job 1551f01a20_1 done: Created ZZ_STUB_55 (stub) and checked it.
+2026-11-02 08:21:06  job 1551f01a20: ZZ_STUB_55 done
+2026-11-02 08:21:06  job 1551f01a20: question 1 (ZZ_STUB_55) answered: Days = GOOD_1; done
+PASS  Receivables Payment Terms Answered with a suggestion                    asked (Row 1), answered GOOD_1, created
+2026-11-02 08:21:06  job f0acb547f4 queued: Receivables Payment Terms
+2026-11-02 08:21:06  job f0acb547f4: receivables payment term 1 of 1: ZZ_STUB_56
+2026-11-02 08:21:06  job f0acb547f4_1 stopped (INVALID_REQUEST): Oracle refused ZZ_STUB_56: Oracle has no value 'REFUSE_ME' (stub). Nothing was saved in Oracle.
+2026-11-02 08:21:06  job f0acb547f4: ZZ_STUB_56 failed
+2026-11-02 08:21:06  job f0acb547f4: question 1 (ZZ_STUB_56): Days 'REFUSE_ME' refused: Oracle has no value 'REFUSE_ME' (stub).; suggested: GOOD_1, GOOD_2
+2026-11-02 08:21:07  job f0acb547f4: question 1 (ZZ_STUB_56): 'BAD_TYPED' not accepted: Oracle has no value 'BAD_TYPED' (stub check).
+2026-11-02 08:21:07  job f0acb547f4: question 1 (ZZ_STUB_56) answered: Days = TYPED_OK; trying again
+2026-11-02 08:21:07  job f0acb547f4: receivables payment term 1 of 1: ZZ_STUB_56
+2026-11-02 08:21:07  job f0acb547f4_1 done: Created ZZ_STUB_56 (stub) and checked it.
+2026-11-02 08:21:07  job f0acb547f4: ZZ_STUB_56 done
+2026-11-02 08:21:07  job f0acb547f4: question 1 (ZZ_STUB_56) answered: Days = TYPED_OK; done
+PASS  Receivables Payment Terms Answered with a typed value                   BAD_TYPED refused in the panel, TYPED_OK created
+2026-11-02 08:21:08  job 897d08adc2 queued: Receivables Payment Terms
+2026-11-02 08:21:08  job 897d08adc2: receivables payment term 1 of 1: ZZ_STUB_57
+2026-11-02 08:21:08  job 897d08adc2_1 stopped (INVALID_REQUEST): Oracle refused ZZ_STUB_57: Oracle has no value 'REFUSE_ME' (stub). Nothing was saved in Oracle.
+2026-11-02 08:21:08  job 897d08adc2: ZZ_STUB_57 failed
+2026-11-02 08:21:08  job 897d08adc2: question 1 (ZZ_STUB_57): Days 'REFUSE_ME' refused: Oracle has no value 'REFUSE_ME' (stub).; suggested: GOOD_1, GOOD_2
+2026-11-02 08:21:08  job 897d08adc2: question 1 (ZZ_STUB_57) skipped by the user
+PASS  Receivables Payment Terms Skipped                                       skipped, not created, run ended, summary lists the decision
+2026-11-02 08:21:09  job bc9d3cf3c9 queued: Receivables Payment Terms
+2026-11-02 08:21:09  job bc9d3cf3c9: receivables payment term 1 of 1: ZZ_STUB_58
+2026-11-02 08:21:09  job bc9d3cf3c9_1 stopped (INVALID_REQUEST): Oracle refused ZZ_STUB_58: Oracle has no value 'REFUSE_ME' (stub). Nothing was saved in Oracle.
+2026-11-02 08:21:09  job bc9d3cf3c9: ZZ_STUB_58 failed
+2026-11-02 08:21:09  job bc9d3cf3c9: question 1 (ZZ_STUB_58): Days 'REFUSE_ME' refused: Oracle has no value 'REFUSE_ME' (stub).; suggested: GOOD_1, GOOD_2
+2026-11-02 08:21:09  job bc9d3cf3c9: question 1 (ZZ_STUB_58) answered: Days = GOOD_2; trying again
+2026-11-02 08:21:09  job bc9d3cf3c9: receivables payment term 1 of 1: ZZ_STUB_58
+2026-11-02 08:21:09  job bc9d3cf3c9_1 done: Created ZZ_STUB_58 (stub) and checked it.
+2026-11-02 08:21:09  job bc9d3cf3c9: ZZ_STUB_58 done
+2026-11-02 08:21:09  job bc9d3cf3c9: question 1 (ZZ_STUB_58) answered: Days = GOOD_2; done
+PASS  Receivables Payment Terms Page refresh                                  question shown again on refresh (HTTP), answered after it, created
+2026-11-02 08:21:10  job cc48f8aa9c queued: Receivables Payment Terms
+2026-11-02 08:21:10  job cc48f8aa9c: receivables payment term 1 of 1: ZZ_STUB_59
+2026-11-02 08:21:10  job cc48f8aa9c_1: test switch - this run is made to fail (no browser)
+2026-11-02 08:21:10  job cc48f8aa9c_1 repair attempt 1: cost $0.0123 (this run $0.0123), status no_change_needed, changed nothing: It was a temporary problem (stub).
+2026-11-02 08:21:10  job cc48f8aa9c_1: rerun after repair attempt 1: ok - stub batch
+2026-11-02 08:21:10  job cc48f8aa9c_1: repair finished, total cost $0.0123
+2026-11-02 08:21:10  job cc48f8aa9c_1 done: stub batch
+2026-11-02 08:21:10  job cc48f8aa9c_1 done: Created ZZ_STUB_59 (stub) and checked it.
+2026-11-02 08:21:10  job cc48f8aa9c: ZZ_STUB_59 done
+PASS  Receivables Payment Terms Forced script failure -> repair               test switch failed it, repair started (budget $2.0), rerun created it
+2026-11-02 08:21:10  job bb04b733a2 queued: Receivables Payment Terms
+2026-11-02 08:21:10  job bb04b733a2: receivables payment term 1 of 1: ZZ_STUB_60
+2026-11-02 08:21:10  job bb04b733a2_1 stopped (INVALID_REQUEST): Oracle refused ZZ_STUB_60: ORA-99999: a rule nobody has written down yet refused this (stub). Nothing was saved in Oracle.
+2026-11-02 08:21:10  job bb04b733a2: ZZ_STUB_60 failed
+2026-11-02 08:21:11  job bb04b733a2_1p proposal: cost $0.0123, field days, value 'CLAUDE_FIX': The stub proposes a value that works.
+2026-11-02 08:21:11  job bb04b733a2: question 1 (ZZ_STUB_60): Days 'UNKNOWN_ME' refused: ORA-99999: a rule nobody has written down yet refused this (stub).; suggested: CLAUDE_FIX
+2026-11-02 08:21:11  job bb04b733a2: question 1 (ZZ_STUB_60) answered: Days = CLAUDE_FIX; trying again
+2026-11-02 08:21:11  job bb04b733a2: receivables payment term 1 of 1: ZZ_STUB_60
+2026-11-02 08:21:11  job bb04b733a2_1 done: Created ZZ_STUB_60 (stub) and checked it.
+2026-11-02 08:21:11  job bb04b733a2: ZZ_STUB_60 done
+2026-11-02 08:21:11  job bb04b733a2: question 1 (ZZ_STUB_60) answered: Days = CLAUDE_FIX; done
+PASS  Receivables Payment Terms Unknown refusal -> Claude proposes            Claude proposed CLAUDE_FIX (not applied), user accepted, created; summary shows tokens and cost
+2026-11-02 08:21:11  job 58daf64b59 queued: Receivables Payment Terms
+2026-11-02 08:21:11  job 58daf64b59: receivables payment term 1 of 1: ZZ_STUB_61
+2026-11-02 08:21:11  job 58daf64b59_1 stopped (INVALID_REQUEST): Oracle refused ZZ_STUB_61: ORA-99999: a rule nobody has written down yet refused this (stub). Nothing was saved in Oracle.
+2026-11-02 08:21:11  job 58daf64b59: ZZ_STUB_61 failed
+2026-11-02 08:21:11  job 58daf64b59: question 1 (ZZ_STUB_61) not asked: refusal not recognised and Claude is not available (installed=True, signed in=False): ORA-99999: a rule nobody has written down yet refused this (stub).
+PASS  Receivables Payment Terms Unknown refusal, Claude not signed in         Claude not signed in: not started, plain card with Oracle's reason
+2026-11-02 08:21:12  job 08dcce347a queued: Receivables Payment Terms
+2026-11-02 08:21:12  job 08dcce347a: receivables payment term 1 of 2: ZZ_STUB_62
+2026-11-02 08:21:12  job 08dcce347a: receivables payment term 2 of 2: ZZ_STUB_63
+2026-11-02 08:21:12  job 08dcce347a: 1 receivables payment term(s) of the batch failed for a reason that isn't a value; automatic repair for those
+2026-11-02 08:21:12  job 08dcce347a_2r repair attempt 1: cost $0.0123 (this run $0.0123), status no_change_needed, changed nothing: It was a temporary problem (stub).
+2026-11-02 08:21:12  job 08dcce347a_2r: rerun after repair attempt 1: ok - stub batch
+2026-11-02 08:21:12  job 08dcce347a_2r: repair finished, total cost $0.0123
+2026-11-02 08:21:12  job 08dcce347a_2r done: stub batch
+2026-11-02 08:21:12  job 08dcce347a_1 done: Created ZZ_STUB_62 (stub) and checked it.
+2026-11-02 08:21:12  job 08dcce347a: ZZ_STUB_62 done
+2026-11-02 08:21:12  job 08dcce347a_2 done: Created ZZ_STUB_63 (stub) and checked it.
+2026-11-02 08:21:12  job 08dcce347a: ZZ_STUB_63 done
+PASS  Receivables Payment Terms Script failure in 1 of 2 records -> repair    the failed record repaired and created, the other untouched
+2026-11-02 08:21:12  job 718566bb66 queued: AutoInvoice Grouping Rules
+2026-11-02 08:21:12  job 718566bb66: autoinvoice grouping rule 1 of 1: ZZ_STUB_64
+2026-11-02 08:21:12  job 718566bb66_1 stopped (INVALID_REQUEST): Oracle refused ZZ_STUB_64: Oracle has no value 'REFUSE_ME' (stub). Nothing was saved in Oracle.
+2026-11-02 08:21:12  job 718566bb66: ZZ_STUB_64 failed
+2026-11-02 08:21:12  job 718566bb66: question 1 (ZZ_STUB_64): Characteristic 'REFUSE_ME' refused: Oracle has no value 'REFUSE_ME' (stub).; suggested: GOOD_1, GOOD_2
+2026-11-02 08:21:13  job 718566bb66: question 1 (ZZ_STUB_64) answered: Characteristic = GOOD_1; trying again
+2026-11-02 08:21:13  job 718566bb66: autoinvoice grouping rule 1 of 1: ZZ_STUB_64
+2026-11-02 08:21:13  job 718566bb66_1 done: Created ZZ_STUB_64 (stub) and checked it.
+2026-11-02 08:21:13  job 718566bb66: ZZ_STUB_64 done
+2026-11-02 08:21:13  job 718566bb66: question 1 (ZZ_STUB_64) answered: Characteristic = GOOD_1; done
+PASS  AutoInvoice Grouping Rules Answered with a suggestion                    asked (Row 1), answered GOOD_1, created
+2026-11-02 08:21:13  job c55545d09b queued: AutoInvoice Grouping Rules
+2026-11-02 08:21:13  job c55545d09b: autoinvoice grouping rule 1 of 1: ZZ_STUB_65
+2026-11-02 08:21:13  job c55545d09b_1 stopped (INVALID_REQUEST): Oracle refused ZZ_STUB_65: Oracle has no value 'REFUSE_ME' (stub). Nothing was saved in Oracle.
+2026-11-02 08:21:13  job c55545d09b: ZZ_STUB_65 failed
+2026-11-02 08:21:13  job c55545d09b: question 1 (ZZ_STUB_65): Characteristic 'REFUSE_ME' refused: Oracle has no value 'REFUSE_ME' (stub).; suggested: GOOD_1, GOOD_2
+2026-11-02 08:21:14  job c55545d09b: question 1 (ZZ_STUB_65): 'BAD_TYPED' not accepted: Oracle has no value 'BAD_TYPED' (stub check).
+2026-11-02 08:21:14  job c55545d09b: question 1 (ZZ_STUB_65) answered: Characteristic = TYPED_OK; trying again
+2026-11-02 08:21:14  job c55545d09b: autoinvoice grouping rule 1 of 1: ZZ_STUB_65
+2026-11-02 08:21:14  job c55545d09b_1 done: Created ZZ_STUB_65 (stub) and checked it.
+2026-11-02 08:21:14  job c55545d09b: ZZ_STUB_65 done
+2026-11-02 08:21:14  job c55545d09b: question 1 (ZZ_STUB_65) answered: Characteristic = TYPED_OK; done
+PASS  AutoInvoice Grouping Rules Answered with a typed value                   BAD_TYPED refused in the panel, TYPED_OK created
+2026-11-02 08:21:15  job 0230dabae0 queued: AutoInvoice Grouping Rules
+2026-11-02 08:21:15  job 0230dabae0: autoinvoice grouping rule 1 of 1: ZZ_STUB_66
+2026-11-02 08:21:15  job 0230dabae0_1 stopped (INVALID_REQUEST): Oracle refused ZZ_STUB_66: Oracle has no value 'REFUSE_ME' (stub). Nothing was saved in Oracle.
+2026-11-02 08:21:15  job 0230dabae0: ZZ_STUB_66 failed
+2026-11-02 08:21:15  job 0230dabae0: question 1 (ZZ_STUB_66): Characteristic 'REFUSE_ME' refused: Oracle has no value 'REFUSE_ME' (stub).; suggested: GOOD_1, GOOD_2
+2026-11-02 08:21:15  job 0230dabae0: question 1 (ZZ_STUB_66) skipped by the user
+PASS  AutoInvoice Grouping Rules Skipped                                       skipped, not created, run ended, summary lists the decision
+2026-11-02 08:21:16  job 9c883997b0 queued: AutoInvoice Grouping Rules
+2026-11-02 08:21:16  job 9c883997b0: autoinvoice grouping rule 1 of 1: ZZ_STUB_67
+2026-11-02 08:21:16  job 9c883997b0_1 stopped (INVALID_REQUEST): Oracle refused ZZ_STUB_67: Oracle has no value 'REFUSE_ME' (stub). Nothing was saved in Oracle.
+2026-11-02 08:21:16  job 9c883997b0: ZZ_STUB_67 failed
+2026-11-02 08:21:16  job 9c883997b0: question 1 (ZZ_STUB_67): Characteristic 'REFUSE_ME' refused: Oracle has no value 'REFUSE_ME' (stub).; suggested: GOOD_1, GOOD_2
+2026-11-02 08:21:16  job 9c883997b0: question 1 (ZZ_STUB_67) answered: Characteristic = GOOD_2; trying again
+2026-11-02 08:21:16  job 9c883997b0: autoinvoice grouping rule 1 of 1: ZZ_STUB_67
+2026-11-02 08:21:16  job 9c883997b0_1 done: Created ZZ_STUB_67 (stub) and checked it.
+2026-11-02 08:21:16  job 9c883997b0: ZZ_STUB_67 done
+2026-11-02 08:21:16  job 9c883997b0: question 1 (ZZ_STUB_67) answered: Characteristic = GOOD_2; done
+PASS  AutoInvoice Grouping Rules Page refresh                                  question shown again on refresh (HTTP), answered after it, created
+2026-11-02 08:21:17  job ed208efac0 queued: AutoInvoice Grouping Rules
+2026-11-02 08:21:17  job ed208efac0: autoinvoice grouping rule 1 of 1: ZZ_STUB_68
+2026-11-02 08:21:17  job ed208efac0_1: test switch - this run is made to fail (no browser)
+2026-11-02 08:21:17  job ed208efac0_1 repair attempt 1: cost $0.0123 (this run $0.0123), status no_change_needed, changed nothing: It was a temporary problem (stub).
+2026-11-02 08:21:17  job ed208efac0_1: rerun after repair attempt 1: ok - stub batch
+2026-11-02 08:21:17  job ed208efac0_1: repair finished, total cost $0.0123
+2026-11-02 08:21:17  job ed208efac0_1 done: stub batch
+2026-11-02 08:21:17  job ed208efac0_1 done: Created ZZ_STUB_68 (stub) and checked it.
+2026-11-02 08:21:17  job ed208efac0: ZZ_STUB_68 done
+PASS  AutoInvoice Grouping Rules Forced script failure -> repair               test switch failed it, repair started (budget $2.0), rerun created it
+2026-11-02 08:21:17  job 8cf2e49a6d queued: AutoInvoice Grouping Rules
+2026-11-02 08:21:17  job 8cf2e49a6d: autoinvoice grouping rule 1 of 1: ZZ_STUB_69
+2026-11-02 08:21:17  job 8cf2e49a6d_1 stopped (INVALID_REQUEST): Oracle refused ZZ_STUB_69: ORA-99999: a rule nobody has written down yet refused this (stub). Nothing was saved in Oracle.
+2026-11-02 08:21:17  job 8cf2e49a6d: ZZ_STUB_69 failed
+2026-11-02 08:21:18  job 8cf2e49a6d_1p proposal: cost $0.0123, field characteristic, value 'CLAUDE_FIX': The stub proposes a value that works.
+2026-11-02 08:21:18  job 8cf2e49a6d: question 1 (ZZ_STUB_69): Characteristic 'UNKNOWN_ME' refused: ORA-99999: a rule nobody has written down yet refused this (stub).; suggested: CLAUDE_FIX
+2026-11-02 08:21:18  job 8cf2e49a6d: question 1 (ZZ_STUB_69) answered: Characteristic = CLAUDE_FIX; trying again
+2026-11-02 08:21:18  job 8cf2e49a6d: autoinvoice grouping rule 1 of 1: ZZ_STUB_69
+2026-11-02 08:21:18  job 8cf2e49a6d_1 done: Created ZZ_STUB_69 (stub) and checked it.
+2026-11-02 08:21:18  job 8cf2e49a6d: ZZ_STUB_69 done
+2026-11-02 08:21:18  job 8cf2e49a6d: question 1 (ZZ_STUB_69) answered: Characteristic = CLAUDE_FIX; done
+PASS  AutoInvoice Grouping Rules Unknown refusal -> Claude proposes            Claude proposed CLAUDE_FIX (not applied), user accepted, created; summary shows tokens and cost
+2026-11-02 08:21:18  job 799aff150c queued: AutoInvoice Grouping Rules
+2026-11-02 08:21:18  job 799aff150c: autoinvoice grouping rule 1 of 1: ZZ_STUB_70
+2026-11-02 08:21:18  job 799aff150c_1 stopped (INVALID_REQUEST): Oracle refused ZZ_STUB_70: ORA-99999: a rule nobody has written down yet refused this (stub). Nothing was saved in Oracle.
+2026-11-02 08:21:18  job 799aff150c: ZZ_STUB_70 failed
+2026-11-02 08:21:18  job 799aff150c: question 1 (ZZ_STUB_70) not asked: refusal not recognised and Claude is not available (installed=True, signed in=False): ORA-99999: a rule nobody has written down yet refused this (stub).
+PASS  AutoInvoice Grouping Rules Unknown refusal, Claude not signed in         Claude not signed in: not started, plain card with Oracle's reason
+2026-11-02 08:21:19  job f5d32bfc18 queued: AutoInvoice Grouping Rules
+2026-11-02 08:21:19  job f5d32bfc18: autoinvoice grouping rule 1 of 2: ZZ_STUB_71
+2026-11-02 08:21:19  job f5d32bfc18: autoinvoice grouping rule 2 of 2: ZZ_STUB_72
+2026-11-02 08:21:19  job f5d32bfc18: 1 autoinvoice grouping rule(s) of the batch failed for a reason that isn't a value; automatic repair for those
+2026-11-02 08:21:19  job f5d32bfc18_2r repair attempt 1: cost $0.0123 (this run $0.0123), status no_change_needed, changed nothing: It was a temporary problem (stub).
+2026-11-02 08:21:19  job f5d32bfc18_2r: rerun after repair attempt 1: ok - stub batch
+2026-11-02 08:21:19  job f5d32bfc18_2r: repair finished, total cost $0.0123
+2026-11-02 08:21:19  job f5d32bfc18_2r done: stub batch
+2026-11-02 08:21:19  job f5d32bfc18_1 done: Created ZZ_STUB_71 (stub) and checked it.
+2026-11-02 08:21:19  job f5d32bfc18: ZZ_STUB_71 done
+2026-11-02 08:21:19  job f5d32bfc18_2 done: Created ZZ_STUB_72 (stub) and checked it.
+2026-11-02 08:21:19  job f5d32bfc18: ZZ_STUB_72 done
+PASS  AutoInvoice Grouping Rules Script failure in 1 of 2 records -> repair    the failed record repaired and created, the other untouched
+2026-11-02 08:21:19  job 16f00a4049 queued: Transaction Sources
+2026-11-02 08:21:19  job 16f00a4049: transaction source 1 of 1: ZZ_STUB_73
+2026-11-02 08:21:19  job 16f00a4049_1 stopped (INVALID_REQUEST): Oracle refused ZZ_STUB_73: Oracle has no value 'REFUSE_ME' (stub). Nothing was saved in Oracle.
+2026-11-02 08:21:19  job 16f00a4049: ZZ_STUB_73 failed
+2026-11-02 08:21:19  job 16f00a4049: question 1 (ZZ_STUB_73): Item Description 'REFUSE_ME' refused: Oracle has no value 'REFUSE_ME' (stub).; suggested: GOOD_1, GOOD_2
+2026-11-02 08:21:20  job 16f00a4049: question 1 (ZZ_STUB_73) answered: Item Description = GOOD_1; trying again
+2026-11-02 08:21:20  job 16f00a4049: transaction source 1 of 1: ZZ_STUB_73
+2026-11-02 08:21:20  job 16f00a4049_1 done: Created ZZ_STUB_73 (stub) and checked it.
+2026-11-02 08:21:20  job 16f00a4049: ZZ_STUB_73 done
+2026-11-02 08:21:20  job 16f00a4049: question 1 (ZZ_STUB_73) answered: Item Description = GOOD_1; done
+PASS  Transaction Sources Answered with a suggestion                    asked (Item Description), answered GOOD_1, created
+2026-11-02 08:21:20  job da0e4a6a46 queued: Transaction Sources
+2026-11-02 08:21:20  job da0e4a6a46: transaction source 1 of 1: ZZ_STUB_74
+2026-11-02 08:21:20  job da0e4a6a46_1 stopped (INVALID_REQUEST): Oracle refused ZZ_STUB_74: Oracle has no value 'REFUSE_ME' (stub). Nothing was saved in Oracle.
+2026-11-02 08:21:20  job da0e4a6a46: ZZ_STUB_74 failed
+2026-11-02 08:21:20  job da0e4a6a46: question 1 (ZZ_STUB_74): Item Description 'REFUSE_ME' refused: Oracle has no value 'REFUSE_ME' (stub).; suggested: GOOD_1, GOOD_2
+2026-11-02 08:21:21  job da0e4a6a46: question 1 (ZZ_STUB_74): 'BAD_TYPED' not accepted: Oracle has no value 'BAD_TYPED' (stub check).
+2026-11-02 08:21:21  job da0e4a6a46: question 1 (ZZ_STUB_74) answered: Item Description = TYPED_OK; trying again
+2026-11-02 08:21:21  job da0e4a6a46: transaction source 1 of 1: ZZ_STUB_74
+2026-11-02 08:21:21  job da0e4a6a46_1 done: Created ZZ_STUB_74 (stub) and checked it.
+2026-11-02 08:21:21  job da0e4a6a46: ZZ_STUB_74 done
+2026-11-02 08:21:21  job da0e4a6a46: question 1 (ZZ_STUB_74) answered: Item Description = TYPED_OK; done
+PASS  Transaction Sources Answered with a typed value                   BAD_TYPED refused in the panel, TYPED_OK created
+2026-11-02 08:21:22  job e61d809794 queued: Transaction Sources
+2026-11-02 08:21:22  job e61d809794: transaction source 1 of 1: ZZ_STUB_75
+2026-11-02 08:21:22  job e61d809794_1 stopped (INVALID_REQUEST): Oracle refused ZZ_STUB_75: Oracle has no value 'REFUSE_ME' (stub). Nothing was saved in Oracle.
+2026-11-02 08:21:22  job e61d809794: ZZ_STUB_75 failed
+2026-11-02 08:21:22  job e61d809794: question 1 (ZZ_STUB_75): Item Description 'REFUSE_ME' refused: Oracle has no value 'REFUSE_ME' (stub).; suggested: GOOD_1, GOOD_2
+2026-11-02 08:21:22  job e61d809794: question 1 (ZZ_STUB_75) skipped by the user
+PASS  Transaction Sources Skipped                                       skipped, not created, run ended, summary lists the decision
+2026-11-02 08:21:23  job 86f088d7b1 queued: Transaction Sources
+2026-11-02 08:21:23  job 86f088d7b1: transaction source 1 of 1: ZZ_STUB_76
+2026-11-02 08:21:23  job 86f088d7b1_1 stopped (INVALID_REQUEST): Oracle refused ZZ_STUB_76: Oracle has no value 'REFUSE_ME' (stub). Nothing was saved in Oracle.
+2026-11-02 08:21:23  job 86f088d7b1: ZZ_STUB_76 failed
+2026-11-02 08:21:23  job 86f088d7b1: question 1 (ZZ_STUB_76): Item Description 'REFUSE_ME' refused: Oracle has no value 'REFUSE_ME' (stub).; suggested: GOOD_1, GOOD_2
+2026-11-02 08:21:23  job 86f088d7b1: question 1 (ZZ_STUB_76) answered: Item Description = GOOD_2; trying again
+2026-11-02 08:21:23  job 86f088d7b1: transaction source 1 of 1: ZZ_STUB_76
+2026-11-02 08:21:23  job 86f088d7b1_1 done: Created ZZ_STUB_76 (stub) and checked it.
+2026-11-02 08:21:23  job 86f088d7b1: ZZ_STUB_76 done
+2026-11-02 08:21:23  job 86f088d7b1: question 1 (ZZ_STUB_76) answered: Item Description = GOOD_2; done
+PASS  Transaction Sources Page refresh                                  question shown again on refresh (HTTP), answered after it, created
+2026-11-02 08:21:24  job 1ac1e1e273 queued: Transaction Sources
+2026-11-02 08:21:24  job 1ac1e1e273: transaction source 1 of 1: ZZ_STUB_77
+2026-11-02 08:21:24  job 1ac1e1e273_1: test switch - this run is made to fail (no browser)
+2026-11-02 08:21:24  job 1ac1e1e273_1 repair attempt 1: cost $0.0123 (this run $0.0123), status no_change_needed, changed nothing: It was a temporary problem (stub).
+2026-11-02 08:21:24  job 1ac1e1e273_1: rerun after repair attempt 1: ok - stub batch
+2026-11-02 08:21:24  job 1ac1e1e273_1: repair finished, total cost $0.0123
+2026-11-02 08:21:24  job 1ac1e1e273_1 done: stub batch
+2026-11-02 08:21:24  job 1ac1e1e273_1 done: Created ZZ_STUB_77 (stub) and checked it.
+2026-11-02 08:21:24  job 1ac1e1e273: ZZ_STUB_77 done
+PASS  Transaction Sources Forced script failure -> repair               test switch failed it, repair started (budget $2.0), rerun created it
+2026-11-02 08:21:24  job 513a26a27b queued: Transaction Sources
+2026-11-02 08:21:24  job 513a26a27b: transaction source 1 of 1: ZZ_STUB_78
+2026-11-02 08:21:24  job 513a26a27b_1 stopped (INVALID_REQUEST): Oracle refused ZZ_STUB_78: ORA-99999: a rule nobody has written down yet refused this (stub). Nothing was saved in Oracle.
+2026-11-02 08:21:24  job 513a26a27b: ZZ_STUB_78 failed
+2026-11-02 08:21:25  job 513a26a27b_1p proposal: cost $0.0123, field description, value 'CLAUDE_FIX': The stub proposes a value that works.
+2026-11-02 08:21:25  job 513a26a27b: question 1 (ZZ_STUB_78): Item Description 'UNKNOWN_ME' refused: ORA-99999: a rule nobody has written down yet refused this (stub).; suggested: CLAUDE_FIX
+2026-11-02 08:21:25  job 513a26a27b: question 1 (ZZ_STUB_78) answered: Item Description = CLAUDE_FIX; trying again
+2026-11-02 08:21:25  job 513a26a27b: transaction source 1 of 1: ZZ_STUB_78
+2026-11-02 08:21:25  job 513a26a27b_1 done: Created ZZ_STUB_78 (stub) and checked it.
+2026-11-02 08:21:25  job 513a26a27b: ZZ_STUB_78 done
+2026-11-02 08:21:25  job 513a26a27b: question 1 (ZZ_STUB_78) answered: Item Description = CLAUDE_FIX; done
+PASS  Transaction Sources Unknown refusal -> Claude proposes            Claude proposed CLAUDE_FIX (not applied), user accepted, created; summary shows tokens and cost
+2026-11-02 08:21:25  job 49e98e826d queued: Transaction Sources
+2026-11-02 08:21:25  job 49e98e826d: transaction source 1 of 1: ZZ_STUB_79
+2026-11-02 08:21:25  job 49e98e826d_1 stopped (INVALID_REQUEST): Oracle refused ZZ_STUB_79: ORA-99999: a rule nobody has written down yet refused this (stub). Nothing was saved in Oracle.
+2026-11-02 08:21:25  job 49e98e826d: ZZ_STUB_79 failed
+2026-11-02 08:21:25  job 49e98e826d: question 1 (ZZ_STUB_79) not asked: refusal not recognised and Claude is not available (installed=True, signed in=False): ORA-99999: a rule nobody has written down yet refused this (stub).
+PASS  Transaction Sources Unknown refusal, Claude not signed in         Claude not signed in: not started, plain card with Oracle's reason
+2026-11-02 08:21:26  job d51095d811 queued: Transaction Sources
+2026-11-02 08:21:26  job d51095d811: transaction source 1 of 2: ZZ_STUB_80
+2026-11-02 08:21:26  job d51095d811: transaction source 2 of 2: ZZ_STUB_81
+2026-11-02 08:21:26  job d51095d811: 1 transaction source(s) of the batch failed for a reason that isn't a value; automatic repair for those
+2026-11-02 08:21:26  job d51095d811_2r repair attempt 1: cost $0.0123 (this run $0.0123), status no_change_needed, changed nothing: It was a temporary problem (stub).
+2026-11-02 08:21:26  job d51095d811_2r: rerun after repair attempt 1: ok - stub batch
+2026-11-02 08:21:26  job d51095d811_2r: repair finished, total cost $0.0123
+2026-11-02 08:21:26  job d51095d811_2r done: stub batch
+2026-11-02 08:21:26  job d51095d811_1 done: Created ZZ_STUB_80 (stub) and checked it.
+2026-11-02 08:21:26  job d51095d811: ZZ_STUB_80 done
+2026-11-02 08:21:26  job d51095d811_2 done: Created ZZ_STUB_81 (stub) and checked it.
+2026-11-02 08:21:26  job d51095d811: ZZ_STUB_81 done
+PASS  Transaction Sources Script failure in 1 of 2 records -> repair    the failed record repaired and created, the other untouched
+2026-11-02 08:21:26  job 99db7c4ad6 queued: Transaction Types
+2026-11-02 08:21:26  job 99db7c4ad6: transaction type 1 of 1: ZZ_STUB_82
+2026-11-02 08:21:26  job 99db7c4ad6_1 stopped (INVALID_REQUEST): Oracle refused ZZ_STUB_82: Oracle has no value 'REFUSE_ME' (stub). Nothing was saved in Oracle.
+2026-11-02 08:21:26  job 99db7c4ad6: ZZ_STUB_82 failed
+2026-11-02 08:21:26  job 99db7c4ad6: question 1 (ZZ_STUB_82): Item Description 'REFUSE_ME' refused: Oracle has no value 'REFUSE_ME' (stub).; suggested: GOOD_1, GOOD_2
+2026-11-02 08:21:27  job 99db7c4ad6: question 1 (ZZ_STUB_82) answered: Item Description = GOOD_1; trying again
+2026-11-02 08:21:27  job 99db7c4ad6: transaction type 1 of 1: ZZ_STUB_82
+2026-11-02 08:21:27  job 99db7c4ad6_1 done: Created ZZ_STUB_82 (stub) and checked it.
+2026-11-02 08:21:27  job 99db7c4ad6: ZZ_STUB_82 done
+2026-11-02 08:21:27  job 99db7c4ad6: question 1 (ZZ_STUB_82) answered: Item Description = GOOD_1; done
+PASS  Transaction Types Answered with a suggestion                    asked (Item Description), answered GOOD_1, created
+2026-11-02 08:21:27  job 989e5ea934 queued: Transaction Types
+2026-11-02 08:21:27  job 989e5ea934: transaction type 1 of 1: ZZ_STUB_83
+2026-11-02 08:21:27  job 989e5ea934_1 stopped (INVALID_REQUEST): Oracle refused ZZ_STUB_83: Oracle has no value 'REFUSE_ME' (stub). Nothing was saved in Oracle.
+2026-11-02 08:21:27  job 989e5ea934: ZZ_STUB_83 failed
+2026-11-02 08:21:27  job 989e5ea934: question 1 (ZZ_STUB_83): Item Description 'REFUSE_ME' refused: Oracle has no value 'REFUSE_ME' (stub).; suggested: GOOD_1, GOOD_2
+2026-11-02 08:21:28  job 989e5ea934: question 1 (ZZ_STUB_83): 'BAD_TYPED' not accepted: Oracle has no value 'BAD_TYPED' (stub check).
+2026-11-02 08:21:28  job 989e5ea934: question 1 (ZZ_STUB_83) answered: Item Description = TYPED_OK; trying again
+2026-11-02 08:21:28  job 989e5ea934: transaction type 1 of 1: ZZ_STUB_83
+2026-11-02 08:21:28  job 989e5ea934_1 done: Created ZZ_STUB_83 (stub) and checked it.
+2026-11-02 08:21:28  job 989e5ea934: ZZ_STUB_83 done
+2026-11-02 08:21:28  job 989e5ea934: question 1 (ZZ_STUB_83) answered: Item Description = TYPED_OK; done
+PASS  Transaction Types Answered with a typed value                   BAD_TYPED refused in the panel, TYPED_OK created
+2026-11-02 08:21:29  job b9e7902a54 queued: Transaction Types
+2026-11-02 08:21:29  job b9e7902a54: transaction type 1 of 1: ZZ_STUB_84
+2026-11-02 08:21:29  job b9e7902a54_1 stopped (INVALID_REQUEST): Oracle refused ZZ_STUB_84: Oracle has no value 'REFUSE_ME' (stub). Nothing was saved in Oracle.
+2026-11-02 08:21:29  job b9e7902a54: ZZ_STUB_84 failed
+2026-11-02 08:21:29  job b9e7902a54: question 1 (ZZ_STUB_84): Item Description 'REFUSE_ME' refused: Oracle has no value 'REFUSE_ME' (stub).; suggested: GOOD_1, GOOD_2
+2026-11-02 08:21:29  job b9e7902a54: question 1 (ZZ_STUB_84) skipped by the user
+PASS  Transaction Types Skipped                                       skipped, not created, run ended, summary lists the decision
+2026-11-02 08:21:30  job a384941086 queued: Transaction Types
+2026-11-02 08:21:30  job a384941086: transaction type 1 of 1: ZZ_STUB_85
+2026-11-02 08:21:30  job a384941086_1 stopped (INVALID_REQUEST): Oracle refused ZZ_STUB_85: Oracle has no value 'REFUSE_ME' (stub). Nothing was saved in Oracle.
+2026-11-02 08:21:30  job a384941086: ZZ_STUB_85 failed
+2026-11-02 08:21:30  job a384941086: question 1 (ZZ_STUB_85): Item Description 'REFUSE_ME' refused: Oracle has no value 'REFUSE_ME' (stub).; suggested: GOOD_1, GOOD_2
+2026-11-02 08:21:30  job a384941086: question 1 (ZZ_STUB_85) answered: Item Description = GOOD_2; trying again
+2026-11-02 08:21:30  job a384941086: transaction type 1 of 1: ZZ_STUB_85
+2026-11-02 08:21:31  job a384941086_1 done: Created ZZ_STUB_85 (stub) and checked it.
+2026-11-02 08:21:31  job a384941086: ZZ_STUB_85 done
+2026-11-02 08:21:31  job a384941086: question 1 (ZZ_STUB_85) answered: Item Description = GOOD_2; done
+PASS  Transaction Types Page refresh                                  question shown again on refresh (HTTP), answered after it, created
+2026-11-02 08:21:31  job f6073dc7e0 queued: Transaction Types
+2026-11-02 08:21:31  job f6073dc7e0: transaction type 1 of 1: ZZ_STUB_86
+2026-11-02 08:21:31  job f6073dc7e0_1: test switch - this run is made to fail (no browser)
+2026-11-02 08:21:31  job f6073dc7e0_1 repair attempt 1: cost $0.0123 (this run $0.0123), status no_change_needed, changed nothing: It was a temporary problem (stub).
+2026-11-02 08:21:31  job f6073dc7e0_1: rerun after repair attempt 1: ok - stub batch
+2026-11-02 08:21:31  job f6073dc7e0_1: repair finished, total cost $0.0123
+2026-11-02 08:21:31  job f6073dc7e0_1 done: stub batch
+2026-11-02 08:21:31  job f6073dc7e0_1 done: Created ZZ_STUB_86 (stub) and checked it.
+2026-11-02 08:21:31  job f6073dc7e0: ZZ_STUB_86 done
+PASS  Transaction Types Forced script failure -> repair               test switch failed it, repair started (budget $2.0), rerun created it
+2026-11-02 08:21:32  job 527a94bb6a queued: Transaction Types
+2026-11-02 08:21:32  job 527a94bb6a: transaction type 1 of 1: ZZ_STUB_87
+2026-11-02 08:21:32  job 527a94bb6a_1 stopped (INVALID_REQUEST): Oracle refused ZZ_STUB_87: ORA-99999: a rule nobody has written down yet refused this (stub). Nothing was saved in Oracle.
+2026-11-02 08:21:32  job 527a94bb6a: ZZ_STUB_87 failed
+2026-11-02 08:21:32  job 527a94bb6a_1p proposal: cost $0.0123, field description, value 'CLAUDE_FIX': The stub proposes a value that works.
+2026-11-02 08:21:32  job 527a94bb6a: question 1 (ZZ_STUB_87): Item Description 'UNKNOWN_ME' refused: ORA-99999: a rule nobody has written down yet refused this (stub).; suggested: CLAUDE_FIX
+2026-11-02 08:21:32  job 527a94bb6a: question 1 (ZZ_STUB_87) answered: Item Description = CLAUDE_FIX; trying again
+2026-11-02 08:21:32  job 527a94bb6a: transaction type 1 of 1: ZZ_STUB_87
+2026-11-02 08:21:32  job 527a94bb6a_1 done: Created ZZ_STUB_87 (stub) and checked it.
+2026-11-02 08:21:32  job 527a94bb6a: ZZ_STUB_87 done
+2026-11-02 08:21:32  job 527a94bb6a: question 1 (ZZ_STUB_87) answered: Item Description = CLAUDE_FIX; done
+PASS  Transaction Types Unknown refusal -> Claude proposes            Claude proposed CLAUDE_FIX (not applied), user accepted, created; summary shows tokens and cost
+2026-11-02 08:21:33  job 0a99f50e89 queued: Transaction Types
+2026-11-02 08:21:33  job 0a99f50e89: transaction type 1 of 1: ZZ_STUB_88
+2026-11-02 08:21:33  job 0a99f50e89_1 stopped (INVALID_REQUEST): Oracle refused ZZ_STUB_88: ORA-99999: a rule nobody has written down yet refused this (stub). Nothing was saved in Oracle.
+2026-11-02 08:21:33  job 0a99f50e89: ZZ_STUB_88 failed
+2026-11-02 08:21:33  job 0a99f50e89: question 1 (ZZ_STUB_88) not asked: refusal not recognised and Claude is not available (installed=True, signed in=False): ORA-99999: a rule nobody has written down yet refused this (stub).
+PASS  Transaction Types Unknown refusal, Claude not signed in         Claude not signed in: not started, plain card with Oracle's reason
+2026-11-02 08:21:33  job eb7ec1d6fe queued: Transaction Types
+2026-11-02 08:21:33  job eb7ec1d6fe: transaction type 1 of 2: ZZ_STUB_89
+2026-11-02 08:21:33  job eb7ec1d6fe: transaction type 2 of 2: ZZ_STUB_90
+2026-11-02 08:21:33  job eb7ec1d6fe: 1 transaction type(s) of the batch failed for a reason that isn't a value; automatic repair for those
+2026-11-02 08:21:34  job eb7ec1d6fe_2r repair attempt 1: cost $0.0123 (this run $0.0123), status no_change_needed, changed nothing: It was a temporary problem (stub).
+2026-11-02 08:21:34  job eb7ec1d6fe_2r: rerun after repair attempt 1: ok - stub batch
+2026-11-02 08:21:34  job eb7ec1d6fe_2r: repair finished, total cost $0.0123
+2026-11-02 08:21:34  job eb7ec1d6fe_2r done: stub batch
+2026-11-02 08:21:34  job eb7ec1d6fe_1 done: Created ZZ_STUB_89 (stub) and checked it.
+2026-11-02 08:21:34  job eb7ec1d6fe: ZZ_STUB_89 done
+2026-11-02 08:21:34  job eb7ec1d6fe_2 done: Created ZZ_STUB_90 (stub) and checked it.
+2026-11-02 08:21:34  job eb7ec1d6fe: ZZ_STUB_90 done
+PASS  Transaction Types Script failure in 1 of 2 records -> repair    the failed record repaired and created, the other untouched
+2026-11-02 08:21:34  --plan for 1 record(s) failed (1): 
+2026-11-02 08:21:34  --plan for Customers couldn't run (Oracle's Setup page did not open Create Customer after 3 tries); running it again in 0.2 s (re-run 1/2)
+2026-11-02 08:21:34  --plan for 1 record(s) failed (1): 
+2026-11-02 08:21:34  --plan for Customers couldn't run (Oracle's Setup page did not open Create Customer after 3 tries); running it again in 0.2 s (re-run 2/2)
+2026-11-02 08:21:35  --plan for 1 record(s) failed (1): 
+PASS  Customers       Check can't run -> re-runs, real reason       3 tries, then under Oracle: The customers couldn't be checked with Oracle: Oracle's Setu...
+2026-11-02 08:21:35  --plan for 1 record(s) failed (1): 
+2026-11-02 08:21:35  --plan for Customers couldn't run (Oracle's Setup page did not open Create Customer after 3 tries); running it again in 0.2 s (re-run 1/2)
+PASS  Customers       Check fails once -> re-run answers            failed once, the automatic re-run answered
+2026-11-02 08:21:35  --plan for 1 record(s) failed (1): 
+2026-11-02 08:21:35  --plan for Order Types couldn't run (Oracle's Setup page did not open Create Customer after 3 tries); running it again in 0.2 s (re-run 1/2)
+2026-11-02 08:21:36  --plan for 1 record(s) failed (1): 
+2026-11-02 08:21:36  --plan for Order Types couldn't run (Oracle's Setup page did not open Create Customer after 3 tries); running it again in 0.2 s (re-run 2/2)
+2026-11-02 08:21:36  --plan for 1 record(s) failed (1): 
+PASS  Order Types     Check can't run -> re-runs, real reason       3 tries, then under Oracle: The order types couldn't be checked with Oracle: Oracle's Se...
+2026-11-02 08:21:36  --plan for 1 record(s) failed (1): 
+2026-11-02 08:21:36  --plan for Order Types couldn't run (Oracle's Setup page did not open Create Customer after 3 tries); running it again in 0.2 s (re-run 1/2)
+PASS  Order Types     Check fails once -> re-run answers            failed once, the automatic re-run answered
+2026-11-02 08:21:36  --plan for 1 record(s) failed (1): 
+2026-11-02 08:21:36  --plan for Payment Terms couldn't run (Oracle's Setup page did not open Create Customer after 3 tries); running it again in 0.2 s (re-run 1/2)
+2026-11-02 08:21:37  --plan for 1 record(s) failed (1): 
+2026-11-02 08:21:37  --plan for Payment Terms couldn't run (Oracle's Setup page did not open Create Customer after 3 tries); running it again in 0.2 s (re-run 2/2)
+2026-11-02 08:21:37  --plan for 1 record(s) failed (1): 
+PASS  Payment Terms   Check can't run -> re-runs, real reason       3 tries, then under Oracle: The payment terms couldn't be checked with Oracle: Oracle's ...
+2026-11-02 08:21:37  --plan for 1 record(s) failed (1): 
+2026-11-02 08:21:37  --plan for Payment Terms couldn't run (Oracle's Setup page did not open Create Customer after 3 tries); running it again in 0.2 s (re-run 1/2)
+PASS  Payment Terms   Check fails once -> re-run answers            failed once, the automatic re-run answered
+2026-11-02 08:21:38  --plan for 1 record(s) failed (1): 
+2026-11-02 08:21:38  --plan for Lookup types couldn't run (Oracle's Setup page did not open Create Customer after 3 tries); running it again in 0.2 s (re-run 1/2)
+2026-11-02 08:21:38  --plan for 1 record(s) failed (1): 
+2026-11-02 08:21:38  --plan for Lookup types couldn't run (Oracle's Setup page did not open Create Customer after 3 tries); running it again in 0.2 s (re-run 2/2)
+2026-11-02 08:21:38  --plan for 1 record(s) failed (1): 
+PASS  Lookup types    Check can't run -> re-runs, real reason       3 tries, then under Oracle: The lookup types couldn't be checked with Oracle: Oracle's S...
+2026-11-02 08:21:38  --plan for 1 record(s) failed (1): 
+2026-11-02 08:21:38  --plan for Lookup types couldn't run (Oracle's Setup page did not open Create Customer after 3 tries); running it again in 0.2 s (re-run 1/2)
+PASS  Lookup types    Check fails once -> re-run answers            failed once, the automatic re-run answered
+2026-11-02 08:21:39  --plan for 1 record(s) failed (1): 
+2026-11-02 08:21:39  --plan for Business Units couldn't run (Oracle's Setup page did not open Create Customer after 3 tries); running it again in 0.2 s (re-run 1/2)
+2026-11-02 08:21:39  --plan for 1 record(s) failed (1): 
+2026-11-02 08:21:39  --plan for Business Units couldn't run (Oracle's Setup page did not open Create Customer after 3 tries); running it again in 0.2 s (re-run 2/2)
+2026-11-02 08:21:39  --plan for 1 record(s) failed (1): 
+PASS  Business Units  Check can't run -> re-runs, real reason       3 tries, then under Oracle: The business units couldn't be checked with Oracle: Oracle's...
+2026-11-02 08:21:40  --plan for 1 record(s) failed (1): 
+2026-11-02 08:21:40  --plan for Business Units couldn't run (Oracle's Setup page did not open Create Customer after 3 tries); running it again in 0.2 s (re-run 1/2)
+PASS  Business Units  Check fails once -> re-run answers            failed once, the automatic re-run answered
+2026-11-02 08:21:40  --plan for 1 record(s) failed (1): 
+2026-11-02 08:21:40  --plan for Price Lists couldn't run (Oracle's Setup page did not open Create Customer after 3 tries); running it again in 0.2 s (re-run 1/2)
+2026-11-02 08:21:40  --plan for 1 record(s) failed (1): 
+2026-11-02 08:21:40  --plan for Price Lists couldn't run (Oracle's Setup page did not open Create Customer after 3 tries); running it again in 0.2 s (re-run 2/2)
+2026-11-02 08:21:41  --plan for 1 record(s) failed (1): 
+PASS  Price Lists     Check can't run -> re-runs, real reason       3 tries, then under Oracle: The price lists couldn't be checked with Oracle: Oracle's Se...
+2026-11-02 08:21:41  --plan for 1 record(s) failed (1): 
+2026-11-02 08:21:41  --plan for Price Lists couldn't run (Oracle's Setup page did not open Create Customer after 3 tries); running it again in 0.2 s (re-run 1/2)
+PASS  Price Lists     Check fails once -> re-run answers            failed once, the automatic re-run answered
+2026-11-02 08:21:41  --plan for 1 record(s) failed (1): 
+2026-11-02 08:21:41  --plan for Receivables Payment Terms couldn't run (Oracle's Setup page did not open Create Customer after 3 tries); running it again in 0.2 s (re-run 1/2)
+2026-11-02 08:21:41  --plan for 1 record(s) failed (1): 
+2026-11-02 08:21:41  --plan for Receivables Payment Terms couldn't run (Oracle's Setup page did not open Create Customer after 3 tries); running it again in 0.2 s (re-run 2/2)
+2026-11-02 08:21:42  --plan for 1 record(s) failed (1): 
+PASS  Receivables Payment Terms Check can't run -> re-runs, real reason       3 tries, then under Oracle: The receivables payment terms couldn't be checked with Oracl...
+2026-11-02 08:21:42  --plan for 1 record(s) failed (1): 
+2026-11-02 08:21:42  --plan for Receivables Payment Terms couldn't run (Oracle's Setup page did not open Create Customer after 3 tries); running it again in 0.2 s (re-run 1/2)
+PASS  Receivables Payment Terms Check fails once -> re-run answers            failed once, the automatic re-run answered
+2026-11-02 08:21:42  --plan for 1 record(s) failed (1): 
+2026-11-02 08:21:42  --plan for AutoInvoice Grouping Rules couldn't run (Oracle's Setup page did not open Create Customer after 3 tries); running it again in 0.2 s (re-run 1/2)
+2026-11-02 08:21:43  --plan for 1 record(s) failed (1): 
+2026-11-02 08:21:43  --plan for AutoInvoice Grouping Rules couldn't run (Oracle's Setup page did not open Create Customer after 3 tries); running it again in 0.2 s (re-run 2/2)
+2026-11-02 08:21:43  --plan for 1 record(s) failed (1): 
+PASS  AutoInvoice Grouping Rules Check can't run -> re-runs, real reason       3 tries, then under Oracle: The autoinvoice grouping rules couldn't be checked with Orac...
+2026-11-02 08:21:43  --plan for 1 record(s) failed (1): 
+2026-11-02 08:21:43  --plan for AutoInvoice Grouping Rules couldn't run (Oracle's Setup page did not open Create Customer after 3 tries); running it again in 0.2 s (re-run 1/2)
+PASS  AutoInvoice Grouping Rules Check fails once -> re-run answers            failed once, the automatic re-run answered
+2026-11-02 08:21:44  --plan for 1 record(s) failed (1): 
+2026-11-02 08:21:44  --plan for Transaction Sources couldn't run (Oracle's Setup page did not open Create Customer after 3 tries); running it again in 0.2 s (re-run 1/2)
+2026-11-02 08:21:44  --plan for 1 record(s) failed (1): 
+2026-11-02 08:21:44  --plan for Transaction Sources couldn't run (Oracle's Setup page did not open Create Customer after 3 tries); running it again in 0.2 s (re-run 2/2)
+2026-11-02 08:21:44  --plan for 1 record(s) failed (1): 
+PASS  Transaction Sources Check can't run -> re-runs, real reason       3 tries, then under Oracle: The transaction sources couldn't be checked with Oracle: Ora...
+2026-11-02 08:21:44  --plan for 1 record(s) failed (1): 
+2026-11-02 08:21:44  --plan for Transaction Sources couldn't run (Oracle's Setup page did not open Create Customer after 3 tries); running it again in 0.2 s (re-run 1/2)
+PASS  Transaction Sources Check fails once -> re-run answers            failed once, the automatic re-run answered
+2026-11-02 08:21:45  --plan for 1 record(s) failed (1): 
+2026-11-02 08:21:45  --plan for Transaction Types couldn't run (Oracle's Setup page did not open Create Customer after 3 tries); running it again in 0.2 s (re-run 1/2)
+2026-11-02 08:21:45  --plan for 1 record(s) failed (1): 
+2026-11-02 08:21:45  --plan for Transaction Types couldn't run (Oracle's Setup page did not open Create Customer after 3 tries); running it again in 0.2 s (re-run 2/2)
+2026-11-02 08:21:45  --plan for 1 record(s) failed (1): 
+PASS  Transaction Types Check can't run -> re-runs, real reason       3 tries, then under Oracle: The transaction types couldn't be checked with Oracle: Oracl...
+2026-11-02 08:21:46  --plan for 1 record(s) failed (1): 
+2026-11-02 08:21:46  --plan for Transaction Types couldn't run (Oracle's Setup page did not open Create Customer after 3 tries); running it again in 0.2 s (re-run 1/2)
+PASS  Transaction Types Check fails once -> re-run answers            failed once, the automatic re-run answered
+2026-11-02 08:21:47  job e8f90d6892 queued: Receivables Payment Terms
+2026-11-02 08:21:47  job e8f90d6892: receivables payment term 1 of 1: ZZ_TEST_AR_4821
+2026-11-02 08:21:48  job e8f90d6892_1 done: Created the Receivables payment term ZZ_TEST_AR_4821 in set COMMON with 2 installments and 1 discount, and checked it in Oracle: every value as sent.
+2026-11-02 08:21:48  job e8f90d6892: ZZ_TEST_AR_4821 done
+2026-11-02 08:21:48  job a09f3e4316 queued: Receivables Payment Terms
+2026-11-02 08:21:48  job a09f3e4316: receivables payment term 1 of 1: ZZ_TEST_AR_4821
+2026-11-02 08:21:49  job a09f3e4316_1 done: The Receivables payment term ZZ_TEST_AR_4821 is already in set COMMON in Oracle, so it was skipped; nothing was changed.
+2026-11-02 08:21:49  job a09f3e4316: ZZ_TEST_AR_4821 done
+PASS  RPT folder      Happy path, 2 installments + discount         checked, created in one go (1 header, 2 lines, 1 discount, 1 name row), read back as sent; rerun skipped
+PASS  RPT folder      Name over 15 characters                       Name is longer than 15 characters (Oracle's limit for Receivables paym
+PASS  RPT folder      Installments not adding up                    The installments add up to 90, but Base Amount is 100. They must add up to exact
+PASS  RPT folder      Missing / zero Print Lead Days                This term has 2 installments, so Print Lead Days is needed (; 0 refused; one installment needs neither
+PASS  RPT folder      Missing Tax and Freight                       This term has 2 installments: choose Tax and Freight (first installment, or acro
+PASS  RPT folder      Duplicate name in the same set -> skipped     exact name + set skipped; same name in set S1 is new; twice in the sheet red on the later row
+PASS  RPT folder      Capitals-only match -> yellow note            Oracle has '30 Net' in set COMMON, which differs only in capitals or spaces. Thi
+PASS  RPT folder      To Date not after From Date                   To Date must be after the From Date. (also when equal)
+PASS  RPT folder      Amount Due rules (share, one due date)        an amount line of 0 refused (not money); Day of Month without Months Ahead; two due dates; none
+PASS  RPT folder      Discount rules                                basis needed; same % twice; 0-100; order; 4th refused; DoM needs months; F/T labels not offered; 3 fine
+2026-11-02 08:22:10  job cd493d4a6a queued: Receivables Payment Terms
+2026-11-02 08:22:10  job cd493d4a6a: receivables payment term 1 of 1: ZZ_REFUSE_AR
+2026-11-02 08:22:11  job cd493d4a6a_1 stopped (INVALID_REQUEST): Oracle refused the Receivables payment term ZZ_REFUSE_AR: Oracle has no matching value for Set Code. Nothing was saved in Oracle.
+2026-11-02 08:22:11  job cd493d4a6a: ZZ_REFUSE_AR failed
+2026-11-02 08:22:11  job cd493d4a6a: question 1 (ZZ_REFUSE_AR): Set Code 'ZZ_NOT_FOR_AR' refused: Oracle has no matching value for Set Code; suggested: COMMON, ENTERPRISE, S1
+2026-11-02 08:22:12  job cd493d4a6a: question 1 (ZZ_REFUSE_AR) answered: Set Code = COMMON; trying again
+2026-11-02 08:22:12  job cd493d4a6a: receivables payment term 1 of 1: ZZ_REFUSE_AR
+2026-11-02 08:22:13  job cd493d4a6a_1 done: Created the Receivables payment term ZZ_REFUSE_AR in set COMMON with 2 installments, and checked it in Oracle: every value as sent.
+2026-11-02 08:22:13  job cd493d4a6a: ZZ_REFUSE_AR done
+2026-11-02 08:22:13  job cd493d4a6a: question 1 (ZZ_REFUSE_AR) answered: Set Code = COMMON; done
+PASS  RPT folder      Refused value at Create -> pause and ask      Oracle refused set ZZ_NOT_FOR_AR: asked (Set Code, suggestions COMMON ...), answered COMMON, created
+PASS  RPT folder      Template with a different entity order        template entity order reversed and shuffled: file follows it, created and read back as sent
+PASS  RPT folder      Template not as known -> plain stop           no DISCOUNT entity / other release: plain stop, nothing built; template refused: data file layout, said so
+PASS  RPT folder      Base language none / several                  Oracle's language for payment term names couldn't be decided (it has n / several
+2026-11-02 08:22:20  job 0c0d0420f0 queued: Receivables Payment Terms
+2026-11-02 08:22:20  job 0c0d0420f0: receivables payment term 1 of 1: ZZ_ROUTE_AR
+2026-11-02 08:22:21  job 0c0d0420f0_1 stopped (SETUP_NEEDED): Oracle refused the setup task process for Receivables payment terms (HTTP 404). Nothing was created. This way of creating them isn't proven for this task yet, and no other way was tried.
+2026-11-02 08:22:21  job 0c0d0420f0: ZZ_ROUTE_AR failed
+PASS  RPT folder      Route refused -> plain card, no other way     plain card (route refused, nothing created, no other way tried); no repair, no question
+2026-11-02 08:22:22  --plan for 1 record(s) failed (1): Host: https://fa-etia-test-stub.invalid
+ORACLE_ENV: test
+
+ERROR: GET setIdSetsLOV
+HTTP 503 Service Unavailable (stub)
+Files kept for inspection in: E:\GoSaaS\Configuration Automation v2.1\Configuration Automation\page\_work\matrix\rpt_work
+2026-11-02 08:22:22  --plan for Receivables Payment Terms couldn't run (Oracle couldn't be read just now for Receivables payment terms.); running it again in 0.2 s (re-run 1/2)
+2026-11-02 08:22:23  --plan for 1 record(s) failed (1): Host: https://fa-etia-test-stub.invalid
+ORACLE_ENV: test
+
+ERROR: GET setIdSetsLOV
+HTTP 503 Service Unavailable (stub)
+Files kept for inspection in: E:\GoSaaS\Configuration Automation v2.1\Configuration Automation\page\_work\matrix\rpt_work
+2026-11-02 08:22:23  --plan for Receivables Payment Terms couldn't run (Oracle couldn't be read just now for Receivables payment terms.); running it again in 0.2 s (re-run 2/2)
+2026-11-02 08:22:24  --plan for 1 record(s) failed (1): Host: https://fa-etia-test-stub.invalid
+ORACLE_ENV: test
+
+ERROR: GET setIdSetsLOV
+HTTP 503 Service Unavailable (stub)
+Files kept for inspection in: E:\GoSaaS\Configuration Automation v2.1\Configuration Automation\page\_work\matrix\rpt_work
+PASS  RPT folder      Check can't run -> re-runs, real reason       3 tries, then under Oracle: The receivables payment terms couldn't be checked with Oracle: Oracle ...
+PASS  RPT folder      Preview of a sheet through the page           good OK with summary; long name, sum red; capitals yellow; existing skipped; DoM red on its own line row (11); To Date red; only this module has rows (the other Receivables module: empty-module line)
+PASS  RPT folder      Layout units on FSCR's ETIA-TEST files        ETIA-TEST template read (order LINE, TERM, TRANSLATION, DISCOUNT); FSCR's accepted term rebuilt value for value and byte for byte; its read-back: every value as sent, 10 other terms unchanged; slash = ISO date; reversed template followed; extra link column kept empty, unknown column stops
+2026-11-02 08:22:27  job df30354d62 queued: AutoInvoice Grouping Rules
+2026-11-02 08:22:27  job df30354d62: autoinvoice grouping rule 1 of 1: CORSAIR OEM BY ORDER REFERENCE
+2026-11-02 08:22:28  job df30354d62_1 done: Created the AutoInvoice grouping rule CORSAIR OEM BY ORDER REFERENCE with 3 transaction classes and 1 characteristic, and checked it in Oracle: every value as sent.
+2026-11-02 08:22:28  job df30354d62: CORSAIR OEM BY ORDER REFERENCE done
+2026-11-02 08:22:28  job 157c9a3927 queued: AutoInvoice Grouping Rules
+2026-11-02 08:22:28  job 157c9a3927: autoinvoice grouping rule 1 of 1: CORSAIR OEM BY ORDER REFERENCE
+2026-11-02 08:22:29  job 157c9a3927_1 done: The AutoInvoice grouping rule CORSAIR OEM BY ORDER REFERENCE is already in Oracle, so it was skipped; nothing was changed.
+2026-11-02 08:22:29  job 157c9a3927: CORSAIR OEM BY ORDER REFERENCE done
+PASS  AGR folder      Happy path, Corsair OEM rule                  checked, created in one go (1 rule, 3 classes, 1 characteristic), read back as sent; rerun skipped
+PASS  AGR folder      Name and description rules                    41 characters, ORA_ prefix, outer space, description over 80: each red
+PASS  AGR folder      From / To Date                                From Date missing red (never defaulted); To Date before red; equal allowed (FSCR: on or after)
+PASS  AGR folder      Class rows                                    class missing / unknown / twice, characteristic twice: red; code I + characteristic row = one class; none: note
+PASS  AGR folder      Characteristic not in Oracle -> red           Class row 1: no grouping rule in Oracle uses characteristic 'PURCHASE_...: red, fix lists Oracle's names; capitals suggest the exact name
+PASS  AGR folder      Existing / capitals / twice                   existing name skipped; capitals-only match yellow; twice in the sheet red on the later row
+2026-11-02 08:22:46  job 5699e67139 queued: AutoInvoice Grouping Rules
+2026-11-02 08:22:46  job 5699e67139: autoinvoice grouping rule 1 of 1: CORSAIR CONSOLIDATED OEM
+2026-11-02 08:22:47  job 5699e67139_1 stopped (INVALID_REQUEST): Oracle refused the AutoInvoice grouping rule CORSAIR CONSOLIDATED OEM: this characteristic needs consolidated billing (AR_CONS_BILL_GROUP_NOT_ALLOW_U). Nothing was saved in Oracle.
+2026-11-02 08:22:47  job 5699e67139: CORSAIR CONSOLIDATED OEM failed
+2026-11-02 08:22:47  job 5699e67139: question 1 (CORSAIR CONSOLIDATED OEM): Characteristic 'L.INTERFACE_LINE_ATTRIBUTE7' refused: this characteristic needs consolidated billing (AR_CONS_BILL_GROUP_NOT_ALLOW_U); suggested: L.INTERFACE_LINE_ATTRIBUTE1, L.INTERFACE_LINE_ATTRIBUTE2, L.INTERFACE_LINE_ATTRIBUTE3, L.INTERFACE_LINE_ATTRIBUTE4, L.INTERFACE_LINE_ATTRIBUTE5, L.INTERFACE_LINE_ATTRIBUTE6
+2026-11-02 08:22:48  job 5699e67139: question 1 (CORSAIR CONSOLIDATED OEM) answered: Characteristic = L.INTERFACE_LINE_ATTRIBUTE2; trying again
+2026-11-02 08:22:48  job 5699e67139: autoinvoice grouping rule 1 of 1: CORSAIR CONSOLIDATED OEM
+2026-11-02 08:22:49  job 5699e67139_1 done: Created the AutoInvoice grouping rule CORSAIR CONSOLIDATED OEM with 1 transaction class and 1 characteristic, and checked it in Oracle: every value as sent.
+2026-11-02 08:22:49  job 5699e67139: CORSAIR CONSOLIDATED OEM done
+2026-11-02 08:22:49  job 5699e67139: question 1 (CORSAIR CONSOLIDATED OEM) answered: Characteristic = L.INTERFACE_LINE_ATTRIBUTE2; done
+PASS  AGR folder      Refused value at Create -> pause and ask      Oracle refused ATTRIBUTE7 (stub: consolidated billing only): asked, answered ATTRIBUTE2, created
+PASS  AGR folder      Template with a different entity order        template entity order reversed and shuffled: file follows it, created and read back as sent
+PASS  AGR folder      Template not as known -> plain stop           no characteristic entity / other release: plain stop; template refused: data file layout, said so
+2026-11-02 08:22:53  job 5324636f96 queued: AutoInvoice Grouping Rules
+2026-11-02 08:22:53  job 5324636f96: autoinvoice grouping rule 1 of 1: CORSAIR NVIDIA BY PO
+2026-11-02 08:22:54  job 5324636f96_1 stopped (SETUP_NEEDED): Oracle refused the setup task process for AutoInvoice grouping rules (HTTP 404). Nothing was created. This way of creating them isn't proven for this task yet, and no other way was tried.
+2026-11-02 08:22:54  job 5324636f96: CORSAIR NVIDIA BY PO failed
+PASS  AGR folder      Route refused -> plain card, no other way     plain card (route refused, nothing created, no other way tried); no repair, no question
+2026-11-02 08:22:55  --plan for 1 record(s) failed (1): Host: https://fa-etia-test-stub.invalid
+ORACLE_ENV: test
+
+ERROR: POST setupTaskCSVExports/AR_MANAGE_AUTOINVOICE_GROUPING_RULES
+HTTP 503 Service Unavailable (stub)
+Files kept for inspection in: E:\GoSaaS\Configuration Automation v2.1\Configuration Automation\page\_work\matrix\agr_work
+2026-11-02 08:22:55  --plan for AutoInvoice Grouping Rules couldn't run (Oracle couldn't be read just now for AutoInvoice grouping rules.); running it again in 0.2 s (re-run 1/2)
+2026-11-02 08:22:57  --plan for 1 record(s) failed (1): Host: https://fa-etia-test-stub.invalid
+ORACLE_ENV: test
+
+ERROR: POST setupTaskCSVExports/AR_MANAGE_AUTOINVOICE_GROUPING_RULES
+HTTP 503 Service Unavailable (stub)
+Files kept for inspection in: E:\GoSaaS\Configuration Automation v2.1\Configuration Automation\page\_work\matrix\agr_work
+2026-11-02 08:22:57  --plan for AutoInvoice Grouping Rules couldn't run (Oracle couldn't be read just now for AutoInvoice grouping rules.); running it again in 0.2 s (re-run 2/2)
+2026-11-02 08:22:58  --plan for 1 record(s) failed (1): Host: https://fa-etia-test-stub.invalid
+ORACLE_ENV: test
+
+ERROR: POST setupTaskCSVExports/AR_MANAGE_AUTOINVOICE_GROUPING_RULES
+HTTP 503 Service Unavailable (stub)
+Files kept for inspection in: E:\GoSaaS\Configuration Automation v2.1\Configuration Automation\page\_work\matrix\agr_work
+PASS  AGR folder      Check can't run -> re-runs, real reason       3 tries, then under Oracle: The autoinvoice grouping rules couldn't be checked with Oracle: Oracle...
+PASS  AGR folder      Preview of a Corsair sheet through the page   good OK with summary; unknown characteristic red on its class row (7); existing skipped; ORA_ red; From Date red; only this module has rows (the other Receivables module: empty-module line)
+PASS  AGR folder      Layout units on ETIA-TEST's real template     ETIA-TEST template read (entities TYPE, REQUEST, RULE; zip RULE, TYPE, REQUEST); file = its members and metadata byte for byte; slash date = ISO on read-back; a characteristic Oracle dropped is a mismatch; extra link column kept empty; unknown column stops
+2026-11-02 08:23:01  job 4c8fb60ffc queued: Transaction Sources
+2026-11-02 08:23:01  job 4c8fb60ffc: transaction source 1 of 1: CORSAIR MANUAL INVOICES
+2026-11-02 08:23:02  job 4c8fb60ffc_1 done: Created the transaction source CORSAIR MANUAL INVOICES in set COMMON, and checked it in Oracle: every value as sent.
+2026-11-02 08:23:02  job 4c8fb60ffc: CORSAIR MANUAL INVOICES done
+2026-11-02 08:23:02  job 9ddaa569b7 queued: Transaction Sources
+2026-11-02 08:23:02  job 9ddaa569b7: transaction source 1 of 1: CORSAIR MANUAL INVOICES
+2026-11-02 08:23:03  job 9ddaa569b7_1 done: The transaction source CORSAIR MANUAL INVOICES is already in set COMMON in Oracle, so it was skipped; nothing was changed.
+2026-11-02 08:23:03  job 9ddaa569b7: CORSAIR MANUAL INVOICES done
+PASS  TS folder       Happy path, Manual source                     checked, created (1 row, create target only), read back from AR_BATCH_SOURCE as sent; rerun skipped
+PASS  TS folder       Read-back when the data file hides it         a new source the data file doesn't list: found in Oracle's source list, name/set/description checked and said so; rerun skipped; a refused one still 'nothing saved'
+PASS  TS folder       Field rules and FSCR defaults                 ORA_, outer space, no description, no From Date, Last Number missing / 0 / 1.5 / with numbering No, bad Type and Status: red; FSCR's four defaults filled in and shown
+PASS  TS folder       Existing / capitals / other set / twice / set existing source skipped, from the source list and from the data file; capitals yellow; other set new; twice red; unknown set red
+PASS  TS folder       Grouping rule already in Oracle / nowhere / Manual rule already in Oracle: OK; rule nowhere: red, fix lists Oracle's rules; rule on a Manual source: red
+PASS  TS folder       Grouping rule on the sheet (pending)          rule on the sheet: preview OK with 'created first'; at Create the rule still missing: not sent, nothing saved
+2026-11-02 08:23:26  job afc3a9b955 queued: Transaction Sources
+2026-11-02 08:23:26  job afc3a9b955: transaction source 1 of 1: CORSAIR NVIDIA SAMPLES
+2026-11-02 08:23:27  job afc3a9b955_1 stopped (INVALID_REQUEST): Oracle refused the transaction source CORSAIR NVIDIA SAMPLES: Oracle has no matching value for Set Code. Nothing was saved in Oracle.
+2026-11-02 08:23:27  job afc3a9b955: CORSAIR NVIDIA SAMPLES failed
+2026-11-02 08:23:27  job afc3a9b955: question 1 (CORSAIR NVIDIA SAMPLES): Set Code 'ZZ_NOT_FOR_TS' refused: Oracle has no matching value for Set Code; suggested: COMMON, ENTERPRISE
+2026-11-02 08:23:28  job afc3a9b955: question 1 (CORSAIR NVIDIA SAMPLES) answered: Set Code = COMMON; trying again
+2026-11-02 08:23:28  job afc3a9b955: transaction source 1 of 1: CORSAIR NVIDIA SAMPLES
+2026-11-02 08:23:29  job afc3a9b955_1 done: Created the transaction source CORSAIR NVIDIA SAMPLES in set COMMON, and checked it in Oracle: every value as sent.
+2026-11-02 08:23:29  job afc3a9b955: CORSAIR NVIDIA SAMPLES done
+2026-11-02 08:23:29  job afc3a9b955: question 1 (CORSAIR NVIDIA SAMPLES) answered: Set Code = COMMON; done
+PASS  TS folder       Refused value at Create -> pause and ask      Oracle refused set ZZ_NOT_FOR_TS: asked (Set Code, COMMON suggested), answered, created
+PASS  TS folder       Template with a different entity order        template entity order reversed (AR_BATCH_SOURCE, ORA_AR_TXN_BATCH_SOURCE): file follows it, created and read back
+PASS  TS folder       Template not as known -> plain stop           no AR_BATCH_SOURCE / other release: plain stop; template refused: data file layout, said so
+2026-11-02 08:23:32  job bcd3dd1b35 queued: Transaction Sources
+2026-11-02 08:23:32  job bcd3dd1b35: transaction source 1 of 1: CORSAIR INTEL SAMPLES
+2026-11-02 08:23:33  job bcd3dd1b35_1 stopped (SETUP_NEEDED): Oracle refused the setup task process for transaction sources (HTTP 404). Nothing was created. This way of creating them isn't proven for this task yet, and no other way was tried.
+2026-11-02 08:23:33  job bcd3dd1b35: CORSAIR INTEL SAMPLES failed
+PASS  TS folder       Route refused -> plain card, no other way     plain card (route refused, nothing created, no other way tried); no repair, no question
+2026-11-02 08:23:34  --plan for 1 record(s) failed (1): Host: https://fa-etia-test-stub.invalid
+ORACLE_ENV: test
+
+ERROR: GET setIdSetsLOV
+HTTP 503 Service Unavailable (stub)
+Files kept for inspection in: E:\GoSaaS\Configuration Automation v2.1\Configuration Automation\page\_work\matrix\ts_work
+2026-11-02 08:23:34  --plan for Transaction Sources couldn't run (Oracle couldn't be read just now for transaction sources.); running it again in 0.2 s (re-run 1/2)
+2026-11-02 08:23:35  --plan for 1 record(s) failed (1): Host: https://fa-etia-test-stub.invalid
+ORACLE_ENV: test
+
+ERROR: GET setIdSetsLOV
+HTTP 503 Service Unavailable (stub)
+Files kept for inspection in: E:\GoSaaS\Configuration Automation v2.1\Configuration Automation\page\_work\matrix\ts_work
+2026-11-02 08:23:35  --plan for Transaction Sources couldn't run (Oracle couldn't be read just now for transaction sources.); running it again in 0.2 s (re-run 2/2)
+2026-11-02 08:23:36  --plan for 1 record(s) failed (1): Host: https://fa-etia-test-stub.invalid
+ORACLE_ENV: test
+
+ERROR: GET setIdSetsLOV
+HTTP 503 Service Unavailable (stub)
+Files kept for inspection in: E:\GoSaaS\Configuration Automation v2.1\Configuration Automation\page\_work\matrix\ts_work
+PASS  TS folder       Check can't run -> re-runs, real reason       3 tries, then under Oracle: The transaction sources couldn't be checked with Oracle: Ora...
+2026-11-02 08:23:36  job 80fda02a08 queued: AutoInvoice Grouping Rules
+2026-11-02 08:23:36  job 80fda02a08: autoinvoice grouping rule 1 of 2: CORSAIR OEM BY ORDER REFERENCE
+2026-11-02 08:23:37  job 80fda02a08_1 done: Created the AutoInvoice grouping rule CORSAIR OEM BY ORDER REFERENCE with 1 transaction class and 1 characteristic, and checked it in Oracle: every value as sent.
+2026-11-02 08:23:37  job 80fda02a08: CORSAIR OEM BY ORDER REFERENCE done
+2026-11-02 08:23:37  job 80fda02a08: transaction source 2 of 2: CORSAIR OEM ORDERS
+2026-11-02 08:23:38  job 80fda02a08_2 done: Created the transaction source CORSAIR OEM ORDERS in set COMMON for AutoInvoice with grouping rule CORSAIR OEM BY ORDER REFERENCE, and checked it in Oracle: every value as sent.
+2026-11-02 08:23:38  job 80fda02a08: CORSAIR OEM ORDERS done
+2026-11-02 08:23:38  job ebf3424776 queued: AutoInvoice Grouping Rules
+2026-11-02 08:23:38  job ebf3424776: autoinvoice grouping rule 1 of 2: CORSAIR OEM BY ORDER REFERENCE
+2026-11-02 08:23:39  job ebf3424776_1 stopped (INVALID_REQUEST): Oracle refused the AutoInvoice grouping rule CORSAIR OEM BY ORDER REFERENCE: this characteristic needs consolidated billing (AR_CONS_BILL_GROUP_NOT_ALLOW_U). Nothing was saved in Oracle.
+2026-11-02 08:23:39  job ebf3424776: CORSAIR OEM BY ORDER REFERENCE failed
+2026-11-02 08:23:39  job ebf3424776: question 1 (CORSAIR OEM BY ORDER REFERENCE): Characteristic 'L.INTERFACE_LINE_ATTRIBUTE7' refused: this characteristic needs consolidated billing (AR_CONS_BILL_GROUP_NOT_ALLOW_U); suggested: L.INTERFACE_LINE_ATTRIBUTE1, L.INTERFACE_LINE_ATTRIBUTE2, L.INTERFACE_LINE_ATTRIBUTE3, L.INTERFACE_LINE_ATTRIBUTE4, L.INTERFACE_LINE_ATTRIBUTE5, L.INTERFACE_LINE_ATTRIBUTE6
+2026-11-02 08:23:39  job ebf3424776: question 1 (CORSAIR OEM BY ORDER REFERENCE) skipped by the user
+2026-11-02 08:23:39  job ebf3424776: transaction source 2 (CORSAIR OEM ORDERS) not sent: its autoinvoice grouping rule CORSAIR OEM BY ORDER REFERENCE isn't ready (you chose to skip it)
+PASS  TS folder       Rule + source in one upload (depends_on)      rule + source in one upload: rule created first, source then created with it; rule refused and skipped by the user: source held, then not sent (nothing sent for it)
+PASS  TS folder       Preview of a sheet with both modules          rule on the sheet: source OK with 'created first' note; rule nowhere: red; rule on Manual: red; no description: red; modules grouping rules then sources
+PASS  TS folder       Layout units                                  template read (ORA_AR_TXN_BATCH_SOURCE, AR_BATCH_SOURCE); file = its members and metadata, AR_BATCH_SOURCE header only; read-back finds the source in AR_BATCH_SOURCE (slash date = ISO); a missing one isn't saved; rule names read
+2026-11-02 08:23:43  job b7debe7429 queued: Transaction Types
+2026-11-02 08:23:43  job b7debe7429: transaction type 1 of 1: CORSAIR OEM INVOICE
+2026-11-02 08:23:44  job b7debe7429_1 done: Created the transaction type CORSAIR OEM INVOICE (Invoice) in set COMMON, and checked it in Oracle: every value as sent.
+2026-11-02 08:23:44  job b7debe7429: CORSAIR OEM INVOICE done
+2026-11-02 08:23:44  job 98fa28d2c4 queued: Transaction Types
+2026-11-02 08:23:44  job 98fa28d2c4: transaction type 1 of 1: CORSAIR OEM INVOICE
+2026-11-02 08:23:45  job 98fa28d2c4_1 done: The transaction type CORSAIR OEM INVOICE is already in set COMMON in Oracle, so it was skipped; nothing was changed.
+2026-11-02 08:23:45  job 98fa28d2c4: CORSAIR OEM INVOICE done
+PASS  TT folder       Happy path, Invoice type                      checked, created (1 row, accounts header only), read back as sent (slash dates); rerun skipped
+PASS  TT folder       Read-back when the data file hides it         a new type the data file doesn't list: found in Oracle's type list, name/set/description checked and said so; rerun skipped; a refused one still 'nothing saved'
+PASS  TT folder       Field rules, nothing defaulted                13 required fields each asked (never defaulted); Name 21 / Description 81 red with counts, 20 / 80 OK; Credit Memo not offered; DM code OK; natural + overapplication; sign, status, D, dates, flags, term pairs
+PASS  TT folder       Existing / capitals / other set / twice / set existing type skipped (from the type list and from the data file); capitals yellow; other set new; twice red; unknown set red
+PASS  TT folder       Payment term in Oracle / nowhere / other set  term in Oracle: OK; term nowhere: red, fix lists Oracle's terms; term in another set: red, says where; bad term set: red
+PASS  TT folder       Payment term on the sheet (pending)           term on the sheet: preview OK with 'created first'; at Create the term still missing: not sent, nothing saved
+2026-11-02 08:24:16  job e4b163ed5e queued: Transaction Types
+2026-11-02 08:24:16  job e4b163ed5e: transaction type 1 of 1: CORSAIR NVIDIA DEBIT
+2026-11-02 08:24:17  job e4b163ed5e_1 stopped (INVALID_REQUEST): Oracle refused the transaction type CORSAIR NVIDIA DEBIT: Oracle has no matching value for Set Code. Nothing was saved in Oracle.
+2026-11-02 08:24:17  job e4b163ed5e: CORSAIR NVIDIA DEBIT failed
+2026-11-02 08:24:17  job e4b163ed5e: question 1 (CORSAIR NVIDIA DEBIT): Set Code 'ZZ_NOT_FOR_TT' refused: Oracle has no matching value for Set Code; suggested: COMMON, ENTERPRISE
+2026-11-02 08:24:18  job e4b163ed5e: question 1 (CORSAIR NVIDIA DEBIT) answered: Set Code = COMMON; trying again
+2026-11-02 08:24:18  job e4b163ed5e: transaction type 1 of 1: CORSAIR NVIDIA DEBIT
+2026-11-02 08:24:19  job e4b163ed5e_1 done: Created the transaction type CORSAIR NVIDIA DEBIT (Debit Memo) in set COMMON, and checked it in Oracle: every value as sent.
+2026-11-02 08:24:19  job e4b163ed5e: CORSAIR NVIDIA DEBIT done
+2026-11-02 08:24:19  job e4b163ed5e: question 1 (CORSAIR NVIDIA DEBIT) answered: Set Code = COMMON; done
+PASS  TT folder       Refused value at Create -> pause and ask      Oracle refused set ZZ_NOT_FOR_TT: asked (Set Code, COMMON suggested), answered, created
+PASS  TT folder       Template with a different entity order        template entity order reversed (AR_REF_ACCT_TRX_TYPE, AR_TRANSACTION_TYPE): file follows it, created and read back
+PASS  TT folder       Template not as known -> plain stop           no AR_REF_ACCT_TRX_TYPE / other release: plain stop; template refused: data file layout, said so
+2026-11-02 08:24:22  job 24ac8e3d3a queued: Transaction Types
+2026-11-02 08:24:22  job 24ac8e3d3a: transaction type 1 of 1: CORSAIR INTEL DEBIT
+2026-11-02 08:24:23  job 24ac8e3d3a_1 stopped (SETUP_NEEDED): Oracle refused the setup task process for transaction types (HTTP 404). Nothing was created. This way of creating them isn't proven for this task yet, and no other way was tried.
+2026-11-02 08:24:23  job 24ac8e3d3a: CORSAIR INTEL DEBIT failed
+PASS  TT folder       Route refused -> plain card, no other way     plain card (route refused, nothing created, no other way tried); no repair, no question
+2026-11-02 08:24:23  --plan for 1 record(s) failed (1): Host: https://fa-etia-test-stub.invalid
+ORACLE_ENV: test
+
+ERROR: GET setIdSetsLOV
+HTTP 503 Service Unavailable (stub)
+Files kept for inspection in: E:\GoSaaS\Configuration Automation v2.1\Configuration Automation\page\_work\matrix\tt_work
+2026-11-02 08:24:23  --plan for Transaction Types couldn't run (Oracle couldn't be read just now for transaction types.); running it again in 0.2 s (re-run 1/2)
+2026-11-02 08:24:24  --plan for 1 record(s) failed (1): Host: https://fa-etia-test-stub.invalid
+ORACLE_ENV: test
+
+ERROR: GET setIdSetsLOV
+HTTP 503 Service Unavailable (stub)
+Files kept for inspection in: E:\GoSaaS\Configuration Automation v2.1\Configuration Automation\page\_work\matrix\tt_work
+2026-11-02 08:24:24  --plan for Transaction Types couldn't run (Oracle couldn't be read just now for transaction types.); running it again in 0.2 s (re-run 2/2)
+2026-11-02 08:24:25  --plan for 1 record(s) failed (1): Host: https://fa-etia-test-stub.invalid
+ORACLE_ENV: test
+
+ERROR: GET setIdSetsLOV
+HTTP 503 Service Unavailable (stub)
+Files kept for inspection in: E:\GoSaaS\Configuration Automation v2.1\Configuration Automation\page\_work\matrix\tt_work
+PASS  TT folder       Check can't run -> re-runs, real reason       3 tries, then under Oracle: The transaction types couldn't be checked with Oracle: Oracl...
+2026-11-02 08:24:25  job 18aafa95fd queued: Receivables Payment Terms
+2026-11-02 08:24:25  job 18aafa95fd: receivables payment term 1 of 2: CORSAIR NET 45
+2026-11-02 08:24:26  job 18aafa95fd_1 done: Created the Receivables payment term CORSAIR NET 45 in set COMMON with 1 installment, and checked it in Oracle: every value as sent.
+2026-11-02 08:24:26  job 18aafa95fd: CORSAIR NET 45 done
+2026-11-02 08:24:26  job 18aafa95fd: transaction type 2 of 2: CORSAIR OEM INVOICE
+2026-11-02 08:24:27  job 18aafa95fd_2 done: Created the transaction type CORSAIR OEM INVOICE (Invoice) in set COMMON with payment term CORSAIR NET 45, and checked it in Oracle: every value as sent.
+2026-11-02 08:24:27  job 18aafa95fd: CORSAIR OEM INVOICE done
+2026-11-02 08:24:27  job 327707e8ed queued: Receivables Payment Terms
+2026-11-02 08:24:27  job 327707e8ed: receivables payment term 1 of 2: CORSAIR NET 45
+2026-11-02 08:24:28  job 327707e8ed_1 stopped (INVALID_REQUEST): Oracle refused the Receivables payment term CORSAIR NET 45: Oracle has no matching value for Set Code. Nothing was saved in Oracle.
+2026-11-02 08:24:28  job 327707e8ed: CORSAIR NET 45 failed
+2026-11-02 08:24:28  job 327707e8ed: question 1 (CORSAIR NET 45): Set Code 'ZZ_NOT_FOR_AR' refused: Oracle has no matching value for Set Code; suggested: COMMON, ENTERPRISE, S1
+2026-11-02 08:24:28  job 327707e8ed: question 1 (CORSAIR NET 45) skipped by the user
+2026-11-02 08:24:28  job 327707e8ed: transaction type 2 (CORSAIR OEM INVOICE) not sent: its receivables payment term CORSAIR NET 45 isn't ready (you chose to skip it)
+PASS  TT folder       Term + type in one upload (depends_on)        payment term + type in one upload: term created first, type then created with it; term refused and skipped by the user: type held, then not sent (nothing sent for it)
+PASS  TT folder       Preview of a sheet with both modules          term on the sheet: type OK with 'created first' note; term nowhere: red; debit memo OK; an empty required flag: red (never defaulted); modules payment terms then types
+PASS  TT folder       Layout units                                  template read (AR_TRANSACTION_TYPE, AR_REF_ACCT_TRX_TYPE); file = its members and metadata, accounts header only; read-back as sent (slash dates = ISO); a missing one isn't saved; account rows noted; term names + sets read
+PASS  Sign-in gate    Which sheets need the sign-in                 four Receivables modules: no sign-in; each Order Management module alone or mixed in: sign-in; empty: as before
+2026-11-02 08:24:32  upload d61696a4ba: no module of this sheet uses the browser, so the Oracle sign-in isn't checked
+2026-11-02 08:24:32  upload d61696a4ba (receivables.xlsx): ready, 1 record(s), 0 problem(s), 0 stop(s), checked in 0 s
+2026-11-02 08:24:33  job 8430f484cc queued: Transaction Types (upload d61696a4ba)
+2026-11-02 08:24:33  job 8430f484cc: transaction type 1 of 1: ZZ_STUB_111
+2026-11-02 08:24:33  job 8430f484cc_1 done: Created ZZ_STUB_111 (stub) and checked it.
+2026-11-02 08:24:33  job 8430f484cc: ZZ_STUB_111 done
+PASS  Sign-in gate    Receivables-only sheet, sign-in expired       expired sign-in: Receivables sheet checked in full, Create ran, sign-in never checked, no window
+2026-11-02 08:24:38  upload c22aec837e (om.xlsx): not ready, 1 record(s), 1 problem(s), 0 stop(s), waiting for the Oracle sign-in
+2026-11-02 08:24:39  upload c22aec837e: Oracle sign-in not finished
+2026-11-02 08:24:40  upload c22aec837e: Oracle sign-in not finished
+PASS  Sign-in gate    Order Management sheet, sign-in expired       expired sign-in: Order Management sheet waits for the sign-in window; Create of a mixed sheet asks for it too
+
+80 of 80 PASS
+check that can't run: 20 of 20 PASS
+Receivables Payment Terms folder (real code, Oracle replaced): 18 of 18 PASS
+AutoInvoice Grouping Rules folder (real code, ETIA-TEST layout, Oracle replaced): 13 of 13 PASS
+Transaction Sources folder (real code, Oracle replaced): 14 of 14 PASS
+Transaction Types folder (real code, Oracle replaced): 14 of 14 PASS
+Sign-in gate: 3 of 3 PASS

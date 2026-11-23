@@ -1,0 +1,242 @@
+{
+  "Resources" : {
+    "finBusinessUnitsLOV" : {
+      "discrColumnType" : false,
+      "usage" : "LOV",
+      "ServiceConfiguration" : {
+        "Cache-Control" : "private, max-age=3600"
+      },
+      "attributes" : [ {
+        "name" : "BusinessUnitId",
+        "type" : "integer",
+        "updatable" : false,
+        "mandatory" : true,
+        "queryable" : true,
+        "allowChanges" : "never",
+        "precision" : 18,
+        "title" : "Business Unit ID",
+        "controlType" : "number_edit",
+        "properties" : {
+          "DISPLAYWIDTH" : "18"
+        }
+      }, {
+        "name" : "BusinessUnitName",
+        "type" : "string",
+        "updatable" : false,
+        "mandatory" : true,
+        "queryable" : true,
+        "allowChanges" : "never",
+        "precision" : 240,
+        "title" : "Business Unit",
+        "maxLength" : "240"
+      }, {
+        "name" : "ActiveFlag",
+        "type" : "boolean",
+        "updatable" : false,
+        "mandatory" : true,
+        "queryable" : true,
+        "allowChanges" : "never",
+        "precision" : 30,
+        "title" : "Active",
+        "controlType" : "check_box",
+        "maxLength" : "30"
+      }, {
+        "name" : "PrimaryLedgerId",
+        "type" : "string",
+        "updatable" : false,
+        "mandatory" : false,
+        "queryable" : true,
+        "allowChanges" : "never",
+        "precision" : 150,
+        "title" : "Primary Ledger",
+        "maxLength" : "150"
+      }, {
+        "name" : "LocationId",
+        "type" : "integer",
+        "updatable" : false,
+        "mandatory" : false,
+        "queryable" : true,
+        "allowChanges" : "never",
+        "precision" : 18
+      }, {
+        "name" : "ManagerId",
+        "type" : "string",
+        "updatable" : false,
+        "mandatory" : false,
+        "queryable" : true,
+        "allowChanges" : "never",
+        "precision" : 150
+      }, {
+        "name" : "LegalEntityId",
+        "type" : "string",
+        "updatable" : false,
+        "mandatory" : false,
+        "queryable" : true,
+        "allowChanges" : "never",
+        "precision" : 150
+      }, {
+        "name" : "ProfitCenterFlag",
+        "type" : "boolean",
+        "updatable" : false,
+        "mandatory" : false,
+        "queryable" : true,
+        "allowChanges" : "never",
+        "precision" : 150,
+        "maxLength" : "150"
+      } ],
+      "collection" : {
+        "rangeSize" : 25,
+        "finders" : [ {
+          "name" : "IntentFinder",
+          "title" : "ByIntent",
+          "attributes" : [ {
+            "name" : "Intent",
+            "type" : "string",
+            "updatable" : true,
+            "required" : "Optional",
+            "queryable" : false,
+            "allowChanges" : "always"
+          }, {
+            "name" : "SearchTerm",
+            "type" : "string",
+            "updatable" : true,
+            "required" : "Optional",
+            "queryable" : false,
+            "allowChanges" : "always"
+          } ]
+        }, {
+          "name" : "KeywordFinder",
+          "title" : "findByKeyword",
+          "attributes" : [ {
+            "name" : "SearchTerm",
+            "type" : "string",
+            "updatable" : true,
+            "required" : "Optional",
+            "queryable" : false,
+            "allowChanges" : "always"
+          } ]
+        }, {
+          "name" : "ModuleIdFinder",
+          "title" : "ModuleIdDSViewCriteria",
+          "attributes" : [ {
+            "name" : "Intent",
+            "type" : "string",
+            "updatable" : true,
+            "required" : "Optional",
+            "queryable" : false,
+            "allowChanges" : "always"
+          }, {
+            "name" : "ModuleId",
+            "type" : "integer",
+            "updatable" : true,
+            "required" : "Optional",
+            "queryable" : false,
+            "allowChanges" : "always"
+          }, {
+            "name" : "SearchTerm",
+            "type" : "string",
+            "updatable" : true,
+            "required" : "Optional",
+            "queryable" : false,
+            "allowChanges" : "always"
+          } ]
+        }, {
+          "name" : "PrimaryKey",
+          "attributes" : [ {
+            "name" : "BusinessUnitId",
+            "type" : "integer",
+            "updatable" : true,
+            "mandatory" : true,
+            "queryable" : true,
+            "allowChanges" : "never",
+            "precision" : 18,
+            "title" : "Business Unit ID",
+            "controlType" : "number_edit",
+            "properties" : {
+              "DISPLAYWIDTH" : "18"
+            }
+          } ]
+        }, {
+          "name" : "ServiceProviderFinder",
+          "title" : "ServiceProviderDSViewCriteria",
+          "attributes" : [ {
+            "name" : "DownstreamFunctionId",
+            "type" : "integer",
+            "updatable" : true,
+            "required" : "Optional",
+            "queryable" : false,
+            "allowChanges" : "always"
+          }, {
+            "name" : "Intent",
+            "type" : "string",
+            "updatable" : true,
+            "required" : "Optional",
+            "queryable" : false,
+            "allowChanges" : "always"
+          }, {
+            "name" : "ModuleId",
+            "type" : "integer",
+            "updatable" : true,
+            "required" : "Optional",
+            "queryable" : false,
+            "allowChanges" : "always"
+          }, {
+            "name" : "SearchTerm",
+            "type" : "string",
+            "updatable" : true,
+            "required" : "Optional",
+            "queryable" : false,
+            "allowChanges" : "always"
+          }, {
+            "name" : "UpstreamFunctionId",
+            "type" : "integer",
+            "updatable" : true,
+            "required" : "Optional",
+            "queryable" : false,
+            "allowChanges" : "always"
+          } ]
+        } ],
+        "links" : [ {
+          "rel" : "self",
+          "href" : "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/finBusinessUnitsLOV",
+          "name" : "self",
+          "kind" : "collection"
+        } ],
+        "actions" : [ {
+          "name" : "get",
+          "method" : "GET",
+          "responseType" : [ "application/vnd.oracle.adf.resourcecollection+json", "application/json" ]
+        } ]
+      },
+      "item" : {
+        "links" : [ {
+          "rel" : "self",
+          "href" : "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/finBusinessUnitsLOV/{id}",
+          "name" : "self",
+          "kind" : "item"
+        }, {
+          "rel" : "canonical",
+          "href" : "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/finBusinessUnitsLOV/{id}",
+          "name" : "canonical",
+          "kind" : "item"
+        } ],
+        "actions" : [ {
+          "name" : "get",
+          "method" : "GET",
+          "responseType" : [ "application/vnd.oracle.adf.resourceitem+json", "application/json" ]
+        } ]
+      },
+      "links" : [ {
+        "rel" : "self",
+        "href" : "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/finBusinessUnitsLOV/describe",
+        "name" : "self",
+        "kind" : "describe"
+      }, {
+        "rel" : "canonical",
+        "href" : "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/finBusinessUnitsLOV/describe",
+        "name" : "canonical",
+        "kind" : "describe"
+      } ]
+    }
+  }
+}

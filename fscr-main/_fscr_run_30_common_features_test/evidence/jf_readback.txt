@@ -1,0 +1,28 @@
+200
+{
+  "items" : [ {
+    "JobFamilyId" : 300000395075023,
+    "JobFamilyCode" : "FSCRT_R30_JF",
+    "JobFamilyName" : "FSCRT_R30 Job Family",
+    "EffectiveStartDate" : "2026-01-01",
+    "ActiveStatus" : "A",
+    "CreatedBy" : "FUSION_APPS_HCM_ESS_LOADER_APPID",
+    "CreationDate" : "2026-11-16T15:54:49.132+00:00"
+  } ],
+  "count" : 1,
+  "hasMore" : false,
+  "limit" : 25,
+  "offset" : 0,
+  "links" : [ {
+    "rel" : "self",
+    "href" : "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/hcmRestApi/resources/11.13.18.05/jobFamiliesV2",
+    "name" : "jobFamiliesV2",
+    "kind" : "collection"
+  }, {
+    "rel" : "action",
+    "href" : "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/hcmRestApi/resources/11.13.18.05/jobFamiliesV2/action/findByAdvancedSearchQuery",
+    "name" : "findByAdvancedSearchQuery",
+    "kind" : "other"
+  }, {
+    "rel" : "action",
+    "href" : "https:

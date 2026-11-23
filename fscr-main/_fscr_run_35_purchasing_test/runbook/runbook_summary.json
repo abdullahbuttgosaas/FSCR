@@ -1,0 +1,28 @@
+{
+ "steps": 16,
+ "with_route": 6,
+ "manual": 10,
+ "manual_with_csv_route": 9,
+ "with_prerequisite": 0,
+ "plan_depends_on_total": 0,
+ "sourced_links": 4,
+ "respected_in_oracle_runbook": 3,
+ "unverified_out_of_order_in_runbook": 2,
+ "same_order_as_plan": true,
+ "statuses": {
+  "INI": 16
+ },
+ "stages": {
+  "Procurement - Purchasing Categories": 3,
+  "Procurement - Purchasing Foundation": 9,
+  "Procurement - External Purchase Prices": 4
+ },
+ "oracle_runbook_violations": [
+  [
+   "ORA_MANAGE_EXTERNAL_PURCHASE_PRICES_PA_DEFAULTS",
+   15,
+   "ORA_MANAGE_EXTERNAL_PURCHASE_PRICES_SELECTION_CRITERIA",
+   14
+  ]
+ ]
+}

@@ -1,0 +1,185 @@
+{
+ "business_units": [
+  {
+   "name": "ZZ_TEST_8131",
+   "status": "ready",
+   "note": "",
+   "user": "Configuration.TEST",
+   "roles": [
+    "Order Manager",
+    "Pricing Administrator"
+   ],
+   "pricing_confirmed": true,
+   "written": "2026-10-21T15:20:37+00:00"
+  },
+  {
+   "name": "TESTBU4",
+   "status": "ready",
+   "note": "",
+   "user": "Configuration.TEST",
+   "roles": [
+    "Order Manager",
+    "Pricing Administrator"
+   ],
+   "pricing_confirmed": true,
+   "written": "2026-10-21T16:20:03+00:00"
+  },
+  {
+   "name": "ZZ_TEST_9754",
+   "status": "ready",
+   "note": "",
+   "user": "Configuration.TEST",
+   "roles": [
+    "Order Manager",
+    "Pricing Administrator"
+   ],
+   "pricing_confirmed": false,
+   "written": "2026-10-21T17:16:21+00:00"
+  },
+  {
+   "name": "TESTBU6",
+   "status": "ready",
+   "note": "",
+   "user": "Configuration.TEST",
+   "roles": [
+    "Order Manager",
+    "Pricing Administrator"
+   ],
+   "pricing_confirmed": true,
+   "written": "2026-10-21T17:41:28+00:00"
+  },
+  {
+   "name": "TESTBU7",
+   "status": "ready",
+   "note": "",
+   "user": "Configuration.TEST",
+   "roles": [
+    "Order Manager",
+    "Pricing Administrator"
+   ],
+   "pricing_confirmed": true,
+   "written": "2026-10-21T18:40:05+00:00"
+  },
+  {
+   "name": "ZZ_TEST_1097",
+   "status": "ready",
+   "note": "",
+   "user": "Configuration.TEST",
+   "roles": [
+    "Order Manager",
+    "Pricing Administrator"
+   ],
+   "pricing_confirmed": false,
+   "written": "2026-10-22T21:50:40+00:00"
+  },
+  {
+   "name": "ZZ_TEST_7361",
+   "status": "ready",
+   "note": "",
+   "user": "Configuration.TEST",
+   "roles": [
+    "Order Manager",
+    "Pricing Administrator"
+   ],
+   "pricing_confirmed": false,
+   "written": "2026-10-22T21:51:44+00:00"
+  },
+  {
+   "name": "ZZ_TEST_6290",
+   "status": "ready",
+   "note": "",
+   "user": "Configuration.TEST",
+   "roles": [
+    "Order Manager",
+    "Pricing Administrator"
+   ],
+   "pricing_confirmed": false,
+   "written": "2026-10-22T21:52:25+00:00"
+  },
+  {
+   "name": "ZZ_TEST_5115",
+   "status": "ready",
+   "note": "",
+   "user": "Configuration.TEST",
+   "roles": [
+    "Order Manager",
+    "Pricing Administrator"
+   ],
+   "pricing_confirmed": false,
+   "written": "2026-10-22T21:56:06+00:00"
+  },
+  {
+   "name": "TESTBU100",
+   "status": "ready",
+   "note": "",
+   "user": "Configuration.TEST",
+   "roles": [
+    "Order Manager",
+    "Pricing Administrator"
+   ],
+   "pricing_confirmed": true,
+   "written": "2026-10-22T23:54:50+00:00"
+  },
+  {
+   "name": "ZZ_SHEET_BU_8010_ALL",
+   "status": "ready",
+   "note": "",
+   "user": "Configuration.TEST",
+   "roles": [
+    "Order Manager",
+    "Pricing Administrator"
+   ],
+   "pricing_confirmed": false,
+   "written": "2026-10-25T23:33:04+00:00"
+  },
+  {
+   "name": "ZZ_SHEET_BU_8010_NOLOC",
+   "status": "ready",
+   "note": "",
+   "user": "Configuration.TEST",
+   "roles": [
+    "Order Manager",
+    "Pricing Administrator"
+   ],
+   "pricing_confirmed": false,
+   "written": "2026-10-25T23:33:10+00:00"
+  },
+  {
+   "name": "ZZ_SHEET_BU_8010_OUTSIDE",
+   "status": "ready",
+   "note": "",
+   "user": "Configuration.TEST",
+   "roles": [
+    "Order Manager",
+    "Pricing Administrator"
+   ],
+   "pricing_confirmed": false,
+   "written": "2026-10-25T23:33:14+00:00"
+  },
+  {
+   "name": "ZZ_SHEET_BU_8970",
+   "status": "ready",
+   "note": "",
+   "user": "Configuration.TEST",
+   "roles": [
+    "Order Manager",
+    "Pricing Administrator"
+   ],
+   "pricing_confirmed": false,
+   "written": "2026-10-26T02:41:19+00:00"
+  },
+  {
+   "name": "ZZ_SHEET_BU_89702",
+   "status": "ready",
+   "note": "",
+   "user": "Configuration.TEST",
+   "roles": [
+    "Order Manager",
+    "Pricing Administrator"
+   ],
+   "pricing_confirmed": false,
+   "written": "2026-10-26T12:39:56+00:00"
+  }
+ ],
+ "about": "Business units created and verified by the Business Units folder (business unit, Order Manager and Pricing Administrator access rows). status: ready | pending (Oracle needs a fresh sign-in before it shows for pricing). pricing_confirmed: set by Price Lists after a price list was created with it."
+}

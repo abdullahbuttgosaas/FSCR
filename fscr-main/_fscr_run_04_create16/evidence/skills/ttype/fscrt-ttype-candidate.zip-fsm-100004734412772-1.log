@@ -1,0 +1,29 @@
+Environment: etia-test
+Revision: 11.13.26.10.0
+
+The configuration package Manage Transaction Types_20261103_035854_758 was generated using setup data from environment etia-test with 11.13.26.10.0 revision.
+
+Request ID: 4,432,191. Status: In progress. Submitted By: Configuration.TEST. Process Date: 11/3/26 4:13 AM.
+
+Business object: Receivables Transaction Type Reference Account. Status: Completed with errors. Status details: Review and report the errors for this object to product Receivables.
+	Detail Object: TransactionType. Status: Completed with errors. Status Details: A total of 1 rows were processed. 1 rows of them failed and 0 rows completed with warnings.. Started: 11/3/26 4:13 AM. Ended: 11/3/26 4:13 AM.
+		Row Identifier: 300000394623090. Status: Error. Message Code: . Message Text: 
+		The data row that caused the exception exists in the AR_TRANSACTION_TYPE.csv file.
+
+		JBO-25026: Row oracle.jbo.Key[300000394623090 ] with XML tag TransactionTypeVORow cannot be loaded.JBO-27024: Failed to validate a row with key oracle.jbo.Key[300000394623092 ] in TransactionTypeEO__DefCustomizer__JBO-27014: Attribute CreationSign in TransactionTypeEO__DefCustomizer__ is required.
+
+
+Business object: Receivables Transaction Type. Status: Completed with errors. Status details: This object was already processed. The import or export details were listed under the Receivables Transaction Type Reference Account business object.
+
+Total Objects Processed: 2
+
+Total Objects Succeeded: 0
+
+Total Objects Failed: 2
+
+Total Objects with Warnings: 0
+
+Total Objects for External Loading: 0
+
+Request ID: 4,432,191. Status: Completed with errors. Submitted By: Configuration.TEST. Process Date: 11/3/26 4:13 AM.
+

@@ -1,0 +1,96 @@
+{
+ "old": "fscr-work2/project/fscrt-run01-om-setup/exports/financials/customer-billing/manage-receivables-payment-terms/ETIA-TEST_setup_task_csv_export_ar_manage_receivables_payment_terms_100004733439686.zip",
+ "new": "evidence/D/exports/ETIA-TEST_setup_task_csv_export_ar_manage_receivables_payment_terms_100004733440719.zip",
+ "files": {
+  "AR_PAYMENT_TERM.csv": {
+   "rows_old": 15,
+   "rows_new": 17,
+   "key_columns": [
+    "Name",
+    "SetCode",
+    "CycleName"
+   ],
+   "added": [
+    {
+     "Name": "FSCRT_2P10N30F1",
+     "SetCode": "ENTERPRISE"
+    },
+    {
+     "Name": "FSCRT_D25B75AF1",
+     "SetCode": "ENTERPRISE"
+    }
+   ],
+   "removed": [],
+   "changed": []
+  },
+  "AR_PAYMENT_TERM_DISCOUNT.csv": {
+   "rows_old": 1,
+   "rows_new": 2,
+   "key_columns": [
+    "SequenceNum",
+    "AR_PAYMENT_TERM.Name",
+    "SetCode"
+   ],
+   "added": [
+    {
+     "SequenceNum": "1",
+     "AR_PAYMENT_TERM.Name": "FSCRT_2P10N30F1",
+     "SetCode": "ENTERPRISE"
+    }
+   ],
+   "removed": [],
+   "changed": []
+  },
+  "AR_PAYMENT_TERM_LINE.csv": {
+   "rows_old": 17,
+   "rows_new": 20,
+   "key_columns": [
+    "SequenceNum",
+    "AR_PAYMENT_TERM.Name",
+    "SetCode"
+   ],
+   "added": [
+    {
+     "SequenceNum": "1",
+     "AR_PAYMENT_TERM.Name": "FSCRT_2P10N30F1",
+     "SetCode": "ENTERPRISE"
+    },
+    {
+     "SequenceNum": "1",
+     "AR_PAYMENT_TERM.Name": "FSCRT_D25B75AF1",
+     "SetCode": "ENTERPRISE"
+    },
+    {
+     "SequenceNum": "2",
+     "AR_PAYMENT_TERM.Name": "FSCRT_D25B75AF1",
+     "SetCode": "ENTERPRISE"
+    }
+   ],
+   "removed": [],
+   "changed": []
+  },
+  "AR_PAYMENT_TERM_TRANSLATION.csv": {
+   "rows_old": 15,
+   "rows_new": 17,
+   "key_columns": [
+    "Name",
+    "AR_PAYMENT_TERM.Name",
+    "Language"
+   ],
+   "added": [
+    {
+     "Name": "FSCRT_2P10N30F1",
+     "AR_PAYMENT_TERM.Name": "FSCRT_2P10N30F1",
+     "Language": "US"
+    },
+    {
+     "Name": "FSCRT_D25B75AF1",
+     "AR_PAYMENT_TERM.Name": "FSCRT_D25B75AF1",
+     "Language": "US"
+    }
+   ],
+   "removed": [],
+   "changed": []
+  }
+ }
+}

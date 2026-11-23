@@ -1,0 +1,49 @@
+{
+  "$schema": "../../../schemas/artifact-index.schema.json",
+  "project_id": "fscrt-run01-om-setup",
+  "updated_at": "2026-11-02T19:49:35Z",
+  "artifacts": [
+    {
+      "artifact_id": "objective-fscrt-run01-om-setup-v1",
+      "name": "FSCRT Run01 OM Setup Objective",
+      "artifact_type": "objective",
+      "skill_id": "core.project-mgmt.project-workspace-initializer",
+      "location": "project/fscrt-run01-om-setup/artifacts/router/project-objective-classifier/current/objective.json",
+      "version": "1.0.0",
+      "status": "draft",
+      "change_type": "initial",
+      "supersedes": null,
+      "checksum": null,
+      "created_at": "2026-11-02T19:49:35Z",
+      "updated_at": "2026-11-02T19:49:35Z"
+    },
+    {
+      "artifact_id": "skill-run-project-workspace-initializer-20261102T194935Z-project-workspace-initializer",
+      "name": "Project Workspace Initializer Run",
+      "artifact_type": "skill_run",
+      "skill_id": "core.project-mgmt.project-workspace-initializer",
+      "location": "project/fscrt-run01-om-setup/state/runs/20261102T194935Z-project-workspace-initializer.json",
+      "version": "1.0.0",
+      "status": "draft",
+      "change_type": "initial",
+      "supersedes": null,
+      "checksum": null,
+      "created_at": "2026-11-02T19:49:35Z",
+      "updated_at": "2026-11-02T19:49:35Z"
+    },
+    {
+      "artifact_id": "identified-task-mapping-fscrt-run01-om-setup-v1",
+      "name": "Identified Task Mapping",
+      "artifact_type": "task_mapping",
+      "skill_id": "core.project-mgmt.project-workspace-initializer",
+      "location": "project/fscrt-run01-om-setup/artifacts/shared/runbook/current/identified-task-mapping.json",
+      "version": "1.0.0",
+      "status": "draft",
+      "change_type": "initial",
+      "supersedes": null,
+      "checksum": "d6d5599c8090886f978c6e8fbf32aff460060af898c4fc8648f382ac451de11d",
+      "created_at": "2026-11-02T19:49:35Z",
+      "updated_at": "2026-11-02T19:49:35Z"
+    }
+  ]
+}

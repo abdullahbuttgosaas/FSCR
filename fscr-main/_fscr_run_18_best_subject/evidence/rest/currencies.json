@@ -1,0 +1,5366 @@
+{
+ "items": [
+  {
+   "CurrencyCode": "28ULD",
+   "Name": "28 UltraLandDollars",
+   "Description": "Currency for UltraLand",
+   "EnabledFlag": "Y",
+   "StartDateActive": "2026-01-01",
+   "EndDateActive": null,
+   "ActiveDate": null,
+   "CurrencyFormat": "#,##0.00;-#,##0.00",
+   "CurrencyFormatWithSymbol": "'28ULD'#,##0.00;-'28ULD'#,##0.00",
+   "CurrencyFormatWithCode": "'28ULD' #,##0.00;'28ULD' -#,##0.00",
+   "IssuingTerritoryCode": null,
+   "Symbol": null,
+   "Precision": 2,
+   "ExtendedPrecision": 5,
+   "CurrencyFlag": "Y",
+   "@context": {
+    "key": "28ULD"
+   }
+  },
+  {
+   "CurrencyCode": "AKULD",
+   "Name": "AKUltraland Dollars",
+   "Description": null,
+   "EnabledFlag": "Y",
+   "StartDateActive": "2026-07-01",
+   "EndDateActive": null,
+   "ActiveDate": null,
+   "CurrencyFormat": "#,##0.00;-#,##0.00",
+   "CurrencyFormatWithSymbol": "'AKULD' #,##0.00;'AKULD' -#,##0.00",
+   "CurrencyFormatWithCode": "'AKULD' #,##0.00;'AKULD' -#,##0.00",
+   "IssuingTerritoryCode": null,
+   "Symbol": null,
+   "Precision": 2,
+   "ExtendedPrecision": 5,
+   "CurrencyFlag": "Y",
+   "@context": {
+    "key": "AKULD"
+   }
+  },
+  {
+   "CurrencyCode": "NEWCUR",
+   "Name": "AMN dollar ",
+   "Description": "currency for AMN",
+   "EnabledFlag": "Y",
+   "StartDateActive": null,
+   "EndDateActive": null,
+   "ActiveDate": null,
+   "CurrencyFormat": "#,##0.00;-#,##0.00",
+   "CurrencyFormatWithSymbol": "'NEWCUR' #,##0.00;'NEWCUR' -#,##0.00",
+   "CurrencyFormatWithCode": "'NEWCUR' #,##0.00;'NEWCUR' -#,##0.00",
+   "IssuingTerritoryCode": null,
+   "Symbol": null,
+   "Precision": 2,
+   "ExtendedPrecision": 5,
+   "CurrencyFlag": "Y",
+   "@context": {
+    "key": "NEWCUR"
+   }
+  },
+  {
+   "CurrencyCode": "AFN",
+   "Name": "Afghani",
+   "Description": "Afghani",
+   "EnabledFlag": "Y",
+   "StartDateActive": null,
+   "EndDateActive": null,
+   "ActiveDate": null,
+   "CurrencyFormat": "#,##0.00;-#,##0.00",
+   "CurrencyFormatWithSymbol": "'\u060b'#,##0.00;-'\u060b'#,##0.00",
+   "CurrencyFormatWithCode": "'AFN' #,##0.00;'AFN' -#,##0.00",
+   "IssuingTerritoryCode": "AF",
+   "Symbol": "\u060b",
+   "Precision": 2,
+   "ExtendedPrecision": 5,
+   "CurrencyFlag": "Y",
+   "@context": {
+    "key": "AFN"
+   }
+  },
+  {
+   "CurrencyCode": "AFA",
+   "Name": "Afghani (old)",
+   "Description": "Afghani (old)",
+   "EnabledFlag": "Y",
+   "StartDateActive": null,
+   "EndDateActive": "2003-01-02",
+   "ActiveDate": null,
+   "CurrencyFormat": "#,##0.00;-#,##0.00",
+   "CurrencyFormatWithSymbol": "'AFA' #,##0.00;'AFA' -#,##0.00",
+   "CurrencyFormatWithCode": "'AFA' #,##0.00;'AFA' -#,##0.00",
+   "IssuingTerritoryCode": "AF",
+   "Symbol": null,
+   "Precision": 2,
+   "ExtendedPrecision": 5,
+   "CurrencyFlag": "Y",
+   "@context": {
+    "key": "AFA"
+   }
+  },
+  {
+   "CurrencyCode": "DZD",
+   "Name": "Algerian Dinar",
+   "Description": "Algerian Dinar",
+   "EnabledFlag": "Y",
+   "StartDateActive": null,
+   "EndDateActive": null,
+   "ActiveDate": null,
+   "CurrencyFormat": "#,##0.00;-#,##0.00",
+   "CurrencyFormatWithSymbol": "'\u062f.\u062c.\u200f'#,##0.00;-'\u062f.\u062c.\u200f'#,##0.00",
+   "CurrencyFormatWithCode": "'DZD' #,##0.00;'DZD' -#,##0.00",
+   "IssuingTerritoryCode": "DZ",
+   "Symbol": "\u062f.\u062c.\u200f",
+   "Precision": 2,
+   "ExtendedPrecision": 5,
+   "CurrencyFlag": "Y",
+   "@context": {
+    "key": "DZD"
+   }
+  },
+  {
+   "CurrencyCode": "ADP",
+   "Name": "Andorran Peseta",
+   "Description": "Andorran Peseta",
+   "EnabledFlag": "Y",
+   "StartDateActive": null,
+   "EndDateActive": null,
+   "ActiveDate": null,
+   "CurrencyFormat": "#,##0;-#,##0",
+   "CurrencyFormatWithSymbol": "'ADP' #,##0;'ADP' -#,##0",
+   "CurrencyFormatWithCode": "'ADP' #,##0;'ADP' -#,##0",
+   "IssuingTerritoryCode": "AD",
+   "Symbol": null,
+   "Precision": 0,
+   "ExtendedPrecision": 3,
+   "CurrencyFlag": "Y",
+   "@context": {
+    "key": "ADP"
+   }
+  },
+  {
+   "CurrencyCode": "XAD",
+   "Name": "Arab Accounting Dinar",
+   "Description": "Arab Accounting Dinar",
+   "EnabledFlag": "Y",
+   "StartDateActive": "2025-03-12",
+   "EndDateActive": null,
+   "ActiveDate": null,
+   "CurrencyFormat": "#,##0.00;-#,##0.00",
+   "CurrencyFormatWithSymbol": "'XAD' #,##0.00;'XAD' -#,##0.00",
+   "CurrencyFormatWithCode": "'XAD' #,##0.00;'XAD' -#,##0.00",
+   "IssuingTerritoryCode": null,
+   "Symbol": null,
+   "Precision": 2,
+   "ExtendedPrecision": null,
+   "CurrencyFlag": "Y",
+   "@context": {
+    "key": "XAD"
+   }
+  },
+  {
+   "CurrencyCode": "ARS",
+   "Name": "Argentine Peso",
+   "Description": "Argentine Peso",
+   "EnabledFlag": "Y",
+   "StartDateActive": null,
+   "EndDateActive": null,
+   "ActiveDate": null,
+   "CurrencyFormat": "#,##0.00;-#,##0.00",
+   "CurrencyFormatWithSymbol": "'$'#,##0.00;-'$'#,##0.00",
+   "CurrencyFormatWithCode": "'ARS' #,##0.00;'ARS' -#,##0.00",
+   "IssuingTerritoryCode": "AR",
+   "Symbol": "$",
+   "Precision": 2,
+   "ExtendedPrecision": 5,
+   "CurrencyFlag": "Y",
+   "@context": {
+    "key": "ARS"
+   }
+  },
+  {
+   "CurrencyCode": "AMD",
+   "Name": "Armenian Dram",
+   "Description": "Armenian Dram",
+   "EnabledFlag": "Y",
+   "StartDateActive": null,
+   "EndDateActive": null,
+   "ActiveDate": null,
+   "CurrencyFormat": "#,##0.00;-#,##0.00",
+   "CurrencyFormatWithSymbol": "'\u0564\u0580.'#,##0.00;-'\u0564\u0580.'#,##0.00",
+   "CurrencyFormatWithCode": "'AMD' #,##0.00;'AMD' -#,##0.00",
+   "IssuingTerritoryCode": "AM",
+   "Symbol": "\u0564\u0580.",
+   "Precision": 2,
+   "ExtendedPrecision": 5,
+   "CurrencyFlag": "Y",
+   "@context": {
+    "key": "AMD"
+   }
+  },
+  {
+   "CurrencyCode": "AWG",
+   "Name": "Aruban Guilder",
+   "Description": "Aruban Guilder",
+   "EnabledFlag": "Y",
+   "StartDateActive": null,
+   "EndDateActive": null,
+   "ActiveDate": null,
+   "CurrencyFormat": "#,##0.00;-#,##0.00",
+   "CurrencyFormatWithSymbol": "'\u0192'#,##0.00;-'\u0192'#,##0.00",
+   "CurrencyFormatWithCode": "'AWG' #,##0.00;'AWG' -#,##0.00",
+   "IssuingTerritoryCode": "AW",
+   "Symbol": "\u0192",
+   "Precision": 2,
+   "ExtendedPrecision": 5,
+   "CurrencyFlag": "Y",
+   "@context": {
+    "key": "AWG"
+   }
+  },
+  {
+   "CurrencyCode": "ARA",
+   "Name": "Austral",
+   "Description": "Austral",
+   "EnabledFlag": "Y",
+   "StartDateActive": null,
+   "EndDateActive": "1994-08-12",
+   "ActiveDate": null,
+   "CurrencyFormat": "#,##0.00;-#,##0.00",
+   "CurrencyFormatWithSymbol": "'ARA' #,##0.00;'ARA' -#,##0.00",
+   "CurrencyFormatWithCode": "'ARA' #,##0.00;'ARA' -#,##0.00",
+   "IssuingTerritoryCode": "AR",
+   "Symbol": null,
+   "Precision": 2,
+   "ExtendedPrecision": 5,
+   "CurrencyFlag": "Y",
+   "@context": {
+    "key": "ARA"
+   }
+  },
+  {
+   "CurrencyCode": "AUD",
+   "Name": "Australian Dollar",
+   "Description": "Australian Dollar",
+   "EnabledFlag": "Y",
+   "StartDateActive": null,
+   "EndDateActive": null,
+   "ActiveDate": null,
+   "CurrencyFormat": "#,##0.00;-#,##0.00",
+   "CurrencyFormatWithSymbol": "'$'#,##0.00;-'$'#,##0.00",
+   "CurrencyFormatWithCode": "'AUD' #,##0.00;'AUD' -#,##0.00",
+   "IssuingTerritoryCode": "AU",
+   "Symbol": "$",
+   "Precision": 2,
+   "ExtendedPrecision": 5,
+   "CurrencyFlag": "Y",
+   "@context": {
+    "key": "AUD"
+   }
+  },
+  {
+   "CurrencyCode": "AZN",
+   "Name": "Azerbaijanian Manat",
+   "Description": "Azerbaijanian Manat",
+   "EnabledFlag": "Y",
+   "StartDateActive": null,
+   "EndDateActive": null,
+   "ActiveDate": null,
+   "CurrencyFormat": "#,##0.00;-#,##0.00",
+   "CurrencyFormatWithSymbol": "'\u043c\u0430\u043d'#,##0.00;-'\u043c\u0430\u043d'#,##0.00",
+   "CurrencyFormatWithCode": "'AZN' #,##0.00;'AZN' -#,##0.00",
+   "IssuingTerritoryCode": "AZ",
+   "Symbol": "\u043c\u0430\u043d",
+   "Precision": 2,
+   "ExtendedPrecision": 5,
+   "CurrencyFlag": "Y",
+   "@context": {
+    "key": "AZN"
+   }
+  },
+  {
+   "CurrencyCode": "AZM",
+   "Name": "Azerbaijanian Manat (old)",
+   "Description": "Azerbaijanian Manat (old)",
+   "EnabledFlag": "Y",
+   "StartDateActive": null,
+   "EndDateActive": "2006-12-31",
+   "ActiveDate": null,
+   "CurrencyFormat": "#,##0.00;-#,##0.00",
+   "CurrencyFormatWithSymbol": "'\u043c\u0430\u043d.'#,##0.00;-'\u043c\u0430\u043d.'#,##0.00",
+   "CurrencyFormatWithCode": "'AZM' #,##0.00;'AZM' -#,##0.00",
+   "IssuingTerritoryCode": "AZ",
+   "Symbol": "\u043c\u0430\u043d.",
+   "Precision": 2,
+   "ExtendedPrecision": 5,
+   "CurrencyFlag": "Y",
+   "@context": {
+    "key": "AZM"
+   }
+  },
+  {
+   "CurrencyCode": "1214",
+   "Name": "BSD",
+   "Description": "Butt State Dollars",
+   "EnabledFlag": "Y",
+   "StartDateActive": "2026-01-01",
+   "EndDateActive": null,
+   "ActiveDate": null,
+   "CurrencyFormat": "#,##0.00;-#,##0.00",
+   "CurrencyFormatWithSymbol": "'1214'#,##0.00;-'1214'#,##0.00",
+   "CurrencyFormatWithCode": "'1214' #,##0.00;'1214' -#,##0.00",
+   "IssuingTerritoryCode": "PK",
+   "Symbol": null,
+   "Precision": 2,
+   "ExtendedPrecision": 5,
+   "CurrencyFlag": "Y",
+   "@context": {
+    "key": "1214"
+   }
+  },
+  {
+   "CurrencyCode": "BSD",
+   "Name": "Bahamian Dollar",
+   "Description": "Bahamian Dollar",
+   "EnabledFlag": "Y",
+   "StartDateActive": null,
+   "EndDateActive": null,
+   "ActiveDate": null,
+   "CurrencyFormat": "#,##0.00;-#,##0.00",
+   "CurrencyFormatWithSymbol": "'$'#,##0.00;-'$'#,##0.00",
+   "CurrencyFormatWithCode": "'BSD' #,##0.00;'BSD' -#,##0.00",
+   "IssuingTerritoryCode": "BS",
+   "Symbol": "$",
+   "Precision": 2,
+   "ExtendedPrecision": 5,
+   "CurrencyFlag": "Y",
+   "@context": {
+    "key": "BSD"
+   }
+  },
+  {
+   "CurrencyCode": "BHD",
+   "Name": "Bahraini Dinar",
+   "Description": "Bahraini Dinar",
+   "EnabledFlag": "Y",
+   "StartDateActive": null,
+   "EndDateActive": null,
+   "ActiveDate": null,
+   "CurrencyFormat": "#,##0.000;-#,##0.000",
+   "CurrencyFormatWithSymbol": "'\u062f.\u0628.\u200f'#,##0.000;-'\u062f.\u0628.\u200f'#,##0.000",
+   "CurrencyFormatWithCode": "'BHD' #,##0.000;'BHD' -#,##0.000",
+   "IssuingTerritoryCode": "BH",
+   "Symbol": "\u062f.\u0628.\u200f",
+   "Precision": 3,
+   "ExtendedPrecision": 6,
+   "CurrencyFlag": "Y",
+   "@context": {
+    "key": "BHD"
+   }
+  },
+  {
+   "CurrencyCode": "THB",
+   "Name": "Baht",
+   "Description": "Baht",
+   "EnabledFlag": "Y",
+   "StartDateActive": null,
+   "EndDateActive": null,
+   "ActiveDate": null,
+   "CurrencyFormat": "#,##0.00;-#,##0.00",
+   "CurrencyFormatWithSymbol": "'\u0e3f'#,##0.00;-'\u0e3f'#,##0.00",
+   "CurrencyFormatWithCode": "'THB' #,##0.00;'THB' -#,##0.00",
+   "IssuingTerritoryCode": "TH",
+   "Symbol": "\u0e3f",
+   "Precision": 2,
+   "ExtendedPrecision": 5,
+   "CurrencyFlag": "Y",
+   "@context": {
+    "key": "THB"
+   }
+  },
+  {
+   "CurrencyCode": "PAB",
+   "Name": "Balboa",
+   "Description": "Balboa",
+   "EnabledFlag": "Y",
+   "StartDateActive": null,
+   "EndDateActive": null,
+   "ActiveDate": null,
+   "CurrencyFormat": "#,##0.00;-#,##0.00",
+   "CurrencyFormatWithSymbol": "'B/.'#,##0.00;-'B/.'#,##0.00",
+   "CurrencyFormatWithCode": "'PAB' #,##0.00;'PAB' -#,##0.00",
+   "IssuingTerritoryCode": "PA",
+   "Symbol": "B/.",
+   "Precision": 2,
+   "ExtendedPrecision": 5,
+   "CurrencyFlag": "Y",
+   "@context": {
+    "key": "PAB"
+   }
+  },
+  {
+   "CurrencyCode": "BBD",
+   "Name": "Barbados Dollar",
+   "Description": "Barbados Dollar",
+   "EnabledFlag": "Y",
+   "StartDateActive": null,
+   "EndDateActive": null,
+   "ActiveDate": null,
+   "CurrencyFormat": "#,##0.00;-#,##0.00",
+   "CurrencyFormatWithSymbol": "'$'#,##0.00;-'$'#,##0.00",
+   "CurrencyFormatWithCode": "'BBD' #,##0.00;'BBD' -#,##0.00",
+   "IssuingTerritoryCode": "BB",
+   "Symbol": "$",
+   "Precision": 2,
+   "ExtendedPrecision": 5,
+   "CurrencyFlag": "Y",
+   "@context": {
+    "key": "BBD"
+   }
+  },
+  {
+   "CurrencyCode": "BYN",
+   "Name": "Belarusian Ruble",
+   "Description": "The currency of Belarus",
+   "EnabledFlag": "Y",
+   "StartDateActive": "2016-07-16",
+   "EndDateActive": null,
+   "ActiveDate": null,
+   "CurrencyFormat": "#,##0.00;-#,##0.00",
+   "CurrencyFormatWithSymbol": "'Br'#,##0.00;-'Br'#,##0.00",
+   "CurrencyFormatWithCode": "'BYN' #,##0.00;'BYN' -#,##0.00",
+   "IssuingTerritoryCode": "BY",
+   "Symbol": "Br",
+   "Precision": 2,
+   "ExtendedPrecision": 5,
+   "CurrencyFlag": "Y",
+   "@context": {
+    "key": "BYN"
+   }
+  },
+  {
+   "CurrencyCode": "BYB",
+   "Name": "Belarusian Ruble (Withdrawn in 2000)",
+   "Description": "The currency of Belarus withdrawn in year 2000 and replaced with BYR",
+   "EnabledFlag": "Y",
+   "StartDateActive": null,
+   "EndDateActive": "2000-12-31",
+   "ActiveDate": null,
+   "CurrencyFormat": "#,##0;-#,##0",
+   "CurrencyFormatWithSymbol": "'\u0440.'#,##0;-'\u0440.'#,##0",
+   "CurrencyFormatWithCode": "'BYB' #,##0;'BYB' -#,##0",
+   "IssuingTerritoryCode": "BY",
+   "Symbol": "\u0440.",
+   "Precision": 0,
+   "ExtendedPrecision": 3,
+   "CurrencyFlag": "Y",
+   "@context": {
+    "key": "BYB"
+   }
+  },
+  {
+   "CurrencyCode": "BYR",
+   "Name": "Belarusian Ruble (Withdrawn in 2016)",
+   "Description": "The currency of Belarus withdrawn in year 2016 and replaced with BYN",
+   "EnabledFlag": "Y",
+   "StartDateActive": null,
+   "EndDateActive": "2016-12-31",
+   "ActiveDate": null,
+   "CurrencyFormat": "#,##0;-#,##0",
+   "CurrencyFormatWithSymbol": "'p.'#,##0;-'p.'#,##0",
+   "CurrencyFormatWithCode": "'BYR' #,##0;'BYR' -#,##0",
+   "IssuingTerritoryCode": "BY",
+   "Symbol": "p.",
+   "Precision": 0,
+   "ExtendedPrecision": 3,
+   "CurrencyFlag": "Y",
+   "@context": {
+    "key": "BYR"
+   }
+  },
+  {
+   "CurrencyCode": "BEF",
+   "Name": "Belgian Franc",
+   "Description": "Belgian Franc",
+   "EnabledFlag": "Y",
+   "StartDateActive": null,
+   "EndDateActive": null,
+   "ActiveDate": null,
+   "CurrencyFormat": "#,##0;-#,##0",
+   "CurrencyFormatWithSymbol": "'\u20a3'#,##0;-'\u20a3'#,##0",
+   "CurrencyFormatWithCode": "'BEF' #,##0;'BEF' -#,##0",
+   "IssuingTerritoryCode": "BE",
+   "Symbol": "\u20a3",
+   "Precision": 0,
+   "ExtendedPrecision": 3,
+   "CurrencyFlag": "Y",
+   "@context": {
+    "key": "BEF"
+   }
+  },
+  {
+   "CurrencyCode": "BZD",
+   "Name": "Belize Dollar",
+   "Description": "Belize Dollar",
+   "EnabledFlag": "Y",
+   "StartDateActive": null,
+   "EndDateActive": null,
+   "ActiveDate": null,
+   "CurrencyFormat": "#,##0.00;-#,##0.00",
+   "CurrencyFormatWithSymbol": "'BZ$'#,##0.00;-'BZ$'#,##0.00",
+   "CurrencyFormatWithCode": "'BZD' #,##0.00;'BZD' -#,##0.00",
+   "IssuingTerritoryCode": "BZ",
+   "Symbol": "BZ$",
+   "Precision": 2,
+   "ExtendedPrecision": 5,
+   "CurrencyFlag": "Y",
+   "@context": {
+    "key": "BZD"
+   }
+  },
+  {
+   "CurrencyCode": "BMD",
+   "Name": "Bermudian Dollar",
+   "Description": "Bermudian Dollar",
+   "EnabledFlag": "Y",
+   "StartDateActive": null,
+   "EndDateActive": null,
+   "ActiveDate": null,
+   "CurrencyFormat": "#,##0.00;-#,##0.00",
+   "CurrencyFormatWithSymbol": "'$'#,##0.00;-'$'#,##0.00",
+   "CurrencyFormatWithCode": "'BMD' #,##0.00;'BMD' -#,##0.00",
+   "IssuingTerritoryCode": "BM",
+   "Symbol": "$",
+   "Precision": 2,
+   "ExtendedPrecision": 5,
+   "CurrencyFlag": "Y",
+   "@context": {
+    "key": "BMD"
+   }
+  },
+  {
+   "CurrencyCode": "VEB",
+   "Name": "Bolivar",
+   "Description": "Bolivar",
+   "EnabledFlag": "Y",
+   "StartDateActive": null,
+   "EndDateActive": "2007-12-31",
+   "ActiveDate": null,
+   "CurrencyFormat": "#,##0.00;-#,##0.00",
+   "CurrencyFormatWithSymbol": "'Bs'#,##0.00;-'Bs'#,##0.00",
+   "CurrencyFormatWithCode": "'VEB' #,##0.00;'VEB' -#,##0.00",
+   "IssuingTerritoryCode": "VE",
+   "Symbol": "Bs",
+   "Precision": 2,
+   "ExtendedPrecision": 5,
+   "CurrencyFlag": "Y",
+   "@context": {
+    "key": "VEB"
+   }
+  },
+  {
+   "CurrencyCode": "VEF",
+   "Name": "Bolivar Fuerte",
+   "Description": "Bolivar Fuerte",
+   "EnabledFlag": "Y",
+   "StartDateActive": "2008-01-01",
+   "EndDateActive": "2018-08-03",
+   "ActiveDate": null,
+   "CurrencyFormat": "#,##0.00;-#,##0.00",
+   "CurrencyFormatWithSymbol": "'VEF' #,##0.00;'VEF' -#,##0.00",
+   "CurrencyFormatWithCode": "'VEF' #,##0.00;'VEF' -#,##0.00",
+   "IssuingTerritoryCode": "VE",
+   "Symbol": null,
+   "Precision": 2,
+   "ExtendedPrecision": 5,
+   "CurrencyFlag": "Y",
+   "@context": {
+    "key": "VEF"
+   }
+  },
+  {
+   "CurrencyCode": "VES",
+   "Name": "Bolivar Soberano",
+   "Description": "Bolivar Soberano",
+   "EnabledFlag": "Y",
+   "StartDateActive": "2018-08-04",
+   "EndDateActive": null,
+   "ActiveDate": null,
+   "CurrencyFormat": "#,##0.00;-#,##0.00",
+   "CurrencyFormatWithSymbol": "'Bs'#,##0.00;-'Bs'#,##0.00",
+   "CurrencyFormatWithCode": "'VES' #,##0.00;'VES' -#,##0.00",
+   "IssuingTerritoryCode": "VE",
+   "Symbol": "Bs",
+   "Precision": 2,
+   "ExtendedPrecision": 5,
+   "CurrencyFlag": "Y",
+   "@context": {
+    "key": "VES"
+   }
+  },
+  {
+   "CurrencyCode": "BOB",
+   "Name": "Boliviano",
+   "Description": "Boliviano",
+   "EnabledFlag": "Y",
+   "StartDateActive": null,
+   "EndDateActive": null,
+   "ActiveDate": null,
+   "CurrencyFormat": "#,##0.00;-#,##0.00",
+   "CurrencyFormatWithSymbol": "'$b'#,##0.00;-'$b'#,##0.00",
+   "CurrencyFormatWithCode": "'BOB' #,##0.00;'BOB' -#,##0.00",
+   "IssuingTerritoryCode": "BO",
+   "Symbol": "$b",
+   "Precision": 2,
+   "ExtendedPrecision": 5,
+   "CurrencyFlag": "Y",
+   "@context": {
+    "key": "BOB"
+   }
+  },
+  {
+   "CurrencyCode": "XBA",
+   "Name": "Bond Markets Unit European Composite Unit (EURCO)",
+   "Description": "The Bond Markets Currency for European Composite Unit (EURCO)",
+   "EnabledFlag": "Y",
+   "StartDateActive": null,
+   "EndDateActive": null,
+   "ActiveDate": null,
+   "CurrencyFormat": "#,##0;-#,##0",
+   "CurrencyFormatWithSymbol": "'XBA' #,##0;'XBA' -#,##0",
+   "CurrencyFormatWithCode": "'XBA' #,##0;'XBA' -#,##0",
+   "IssuingTerritoryCode": null,
+   "Symbol": null,
+   "Precision": 0,
+   "ExtendedPrecision": null,
+   "CurrencyFlag": "Y",
+   "@context": {
+    "key": "XBA"
+   }
+  },
+  {
+   "CurrencyCode": "XBB",
+   "Name": "Bond Markets Unit European Monetary Unit (E.M.U.-6)",
+   "Description": "E.M.U.-6 is sometimes known as the European Currency Unit. Do not confuse with the settlement unit of the European Monetary Cooperation Fund (EMCF) which has the same name.",
+   "EnabledFlag": "Y",
+   "StartDateActive": null,
+   "EndDateActive": null,
+   "ActiveDate": null,
+   "CurrencyFormat": "#,##0;-#,##0",
+   "CurrencyFormatWithSymbol": "'XBB' #,##0;'XBB' -#,##0",
+   "CurrencyFormatWithCode": "'XBB' #,##0;'XBB' -#,##0",
+   "IssuingTerritoryCode": null,
+   "Symbol": null,
+   "Precision": 0,
+   "ExtendedPrecision": null,
+   "CurrencyFlag": "Y",
+   "@context": {
+    "key": "XBB"
+   }
+  },
+  {
+   "CurrencyCode": "XBD",
+   "Name": "Bond Markets Unit European Unit of Account 17 (E.U.A.-17)",
+   "Description": "The Bond Markets Currency for European Unit of Account 17 (E.U.A.-17)",
+   "EnabledFlag": "Y",
+   "StartDateActive": null,
+   "EndDateActive": null,
+   "ActiveDate": null,
+   "CurrencyFormat": "#,##0;-#,##0",
+   "CurrencyFormatWithSymbol": "'XBD' #,##0;'XBD' -#,##0",
+   "CurrencyFormatWithCode": "'XBD' #,##0;'XBD' -#,##0",
+   "IssuingTerritoryCode": null,
+   "Symbol": null,
+   "Precision": 0,
+   "ExtendedPrecision": null,
+   "CurrencyFlag": "Y",
+   "@context": {
+    "key": "XBD"
+   }
+  },
+  {
+   "CurrencyCode": "XB5",
+   "Name": "Bond Markets Unit European Unit of Account 17 (Obsolete)",
+   "Description": "Bond Markets Unit European Unit of Account 17 (E.U.A.-17) (Obsolete)",
+   "EnabledFlag": "Y",
+   "StartDateActive": null,
+   "EndDateActive": null,
+   "ActiveDate": null,
+   "CurrencyFormat": "#,##0;-#,##0",
+   "CurrencyFormatWithSymbol": "'XB5'#,##0;-'XB5'#,##0",
+   "CurrencyFormatWithCode": "'XB5' #,##0;'XB5' -#,##0",
+   "IssuingTerritoryCode": null,
+   "Symbol": null,
+   "Precision": 0,
+   "ExtendedPrecision": null,
+   "CurrencyFlag": "Y",
+   "@context": {
+    "key": "XB5"
+   }
+  },
+  {
+   "CurrencyCode": "XBC",
+   "Name": "Bond Markets Unit European Unit of Account 9 (E.U.A.-9)",
+   "Description": "The Bond Markets Currency for European Unit of Account 9 (E.U.A.-9)",
+   "EnabledFlag": "Y",
+   "StartDateActive": null,
+   "EndDateActive": null,
+   "ActiveDate": null,
+   "CurrencyFormat": "#,##0;-#,##0",
+   "CurrencyFormatWithSymbol": "'XBC' #,##0;'XBC' -#,##0",
+   "CurrencyFormatWithCode": "'XBC' #,##0;'XBC' -#,##0",
+   "IssuingTerritoryCode": null,
+   "Symbol": null,
+   "Precision": 0,
+   "ExtendedPrecision": null,
+   "CurrencyFlag": "Y",
+   "@context": {
+    "key": "XBC"
+   }
+  },
+  {
+   "CurrencyCode": "BRL",
+   "Name": "Brazilian Real",
+   "Description": "Brazilian Real",
+   "EnabledFlag": "Y",
+   "StartDateActive": null,
+   "EndDateActive": null,
+   "ActiveDate": null,
+   "CurrencyFormat": "#,##0.00;-#,##0.00",
+   "CurrencyFormatWithSymbol": "'R$'#,##0.00;-'R$'#,##0.00",
+   "CurrencyFormatWithCode": "'BRL' #,##0.00;'BRL' -#,##0.00",
+   "IssuingTerritoryCode": "BR",
+   "Symbol": "R$",
+   "Precision": 2,
+   "ExtendedPrecision": 5,
+   "CurrencyFlag": "Y",
+   "@context": {
+    "key": "BRL"
+   }
+  },
+  {
+   "CurrencyCode": "BND",
+   "Name": "Brunei Dollar",
+   "Description": "Brunei Dollar",
+   "EnabledFlag": "Y",
+   "StartDateActive": null,
+   "EndDateActive": null,
+   "ActiveDate": null,
+   "CurrencyFormat": "#,##0.00;-#,##0.00",
+   "CurrencyFormatWithSymbol": "'$'#,##0.00;-'$'#,##0.00",
+   "CurrencyFormatWithCode": "'BND' #,##0.00;'BND' -#,##0.00",
+   "IssuingTerritoryCode": "BN",
+   "Symbol": "$",
+   "Precision": 2,
+   "ExtendedPrecision": 5,
+   "CurrencyFlag": "Y",
+   "@context": {
+    "key": "BND"
+   }
+  },
+  {
+   "CurrencyCode": "BGN",
+   "Name": "Bulgarian Lev",
+   "Description": "Bulgarian Lev",
+   "EnabledFlag": "Y",
+   "StartDateActive": null,
+   "EndDateActive": null,
+   "ActiveDate": null,
+   "CurrencyFormat": "#,##0.00;-#,##0.00",
+   "CurrencyFormatWithSymbol": "'\u043b\u0432'#,##0.00;-'\u043b\u0432'#,##0.00",
+   "CurrencyFormatWithCode": "'BGN' #,##0.00;'BGN' -#,##0.00",
+   "IssuingTerritoryCode": "BG",
+   "Symbol": "\u043b\u0432",
+   "Precision": 2,
+   "ExtendedPrecision": 5,
+   "CurrencyFlag": "Y",
+   "@context": {
+    "key": "BGN"
+   }
+  },
+  {
+   "CurrencyCode": "BGL",
+   "Name": "Bulgarian Lev (Obsolete)",
+   "Description": "Lev",
+   "EnabledFlag": "Y",
+   "StartDateActive": null,
+   "EndDateActive": null,
+   "ActiveDate": null,
+   "CurrencyFormat": "#,##0.00;-#,##0.00",
+   "CurrencyFormatWithSymbol": "'\u043b\u0432'#,##0.00;-'\u043b\u0432'#,##0.00",
+   "CurrencyFormatWithCode": "'BGL' #,##0.00;'BGL' -#,##0.00",
+   "IssuingTerritoryCode": "BG",
+   "Symbol": "\u043b\u0432",
+   "Precision": 2,
+   "ExtendedPrecision": 5,
+   "CurrencyFlag": "Y",
+   "@context": {
+    "key": "BGL"
+   }
+  },
+  {
+   "CurrencyCode": "BIF",
+   "Name": "Burundi Franc",
+   "Description": "Burundi Franc",
+   "EnabledFlag": "Y",
+   "StartDateActive": null,
+   "EndDateActive": null,
+   "ActiveDate": null,
+   "CurrencyFormat": "#,##0;-#,##0",
+   "CurrencyFormatWithSymbol": "'FBu'#,##0;-'FBu'#,##0",
+   "CurrencyFormatWithCode": "'BIF' #,##0;'BIF' -#,##0",
+   "IssuingTerritoryCode": "BI",
+   "Symbol": "FBu",
+   "Precision": 0,
+   "ExtendedPrecision": 3,
+   "CurrencyFlag": "Y",
+   "@context": {
+    "key": "BIF"
+   }
+  },
+  {
+   "CurrencyCode": "XOF",
+   "Name": "CFA Franc BCEAO",
+   "Description": "Banque Centrale des Etats de l'Afrique de l'Ouest",
+   "EnabledFlag": "Y",
+   "StartDateActive": null,
+   "EndDateActive": null,
+   "ActiveDate": null,
+   "CurrencyFormat": "#,##0;-#,##0",
+   "CurrencyFormatWithSymbol": "'CFA' #,##0;'CFA' -#,##0",
+   "CurrencyFormatWithCode": "'XOF' #,##0;'XOF' -#,##0",
+   "IssuingTerritoryCode": null,
+   "Symbol": "CFA",
+   "Precision": 0,
+   "ExtendedPrecision": 3,
+   "CurrencyFlag": "Y",
+   "@context": {
+    "key": "XOF"
+   }
+  },
+  {
+   "CurrencyCode": "XAF",
+   "Name": "CFA Franc BEAC",
+   "Description": "Banque des Etats de l'Afrique Centrale",
+   "EnabledFlag": "Y",
+   "StartDateActive": null,
+   "EndDateActive": null,
+   "ActiveDate": null,
+   "CurrencyFormat": "#,##0;-#,##0",
+   "CurrencyFormatWithSymbol": "'XAF' #,##0;'XAF' -#,##0",
+   "CurrencyFormatWithCode": "'XAF' #,##0;'XAF' -#,##0",
+   "IssuingTerritoryCode": null,
+   "Symbol": null,
+   "Precision": 0,
+   "ExtendedPrecision": 3,
+   "CurrencyFlag": "Y",
+   "@context": {
+    "key": "XAF"
+   }
+  },
+  {
+   "CurrencyCode": "XPF",
+   "Name": "CFP Franc",
+   "Description": "CFP Franc",
+   "EnabledFlag": "Y",
+   "StartDateActive": null,
+   "EndDateActive": null,
+   "ActiveDate": null,
+   "CurrencyFormat": "#,##0;-#,##0",
+   "CurrencyFormatWithSymbol": "'F' #,##0;'F' -#,##0",
+   "CurrencyFormatWithCode": "'XPF' #,##0;'XPF' -#,##0",
+   "IssuingTerritoryCode": null,
+   "Symbol": "F",
+   "Precision": 0,
+   "ExtendedPrecision": 3,
+   "CurrencyFlag": "Y",
+   "@context": {
+    "key": "XPF"
+   }
+  },
+  {
+   "CurrencyCode": "CAD",
+   "Name": "Canadian Dollar",
+   "Description": "Canadian Dollars",
+   "EnabledFlag": "Y",
+   "StartDateActive": null,
+   "EndDateActive": null,
+   "ActiveDate": null,
+   "CurrencyFormat": "#,##0.00;-#,##0.00",
+   "CurrencyFormatWithSymbol": "'$'#,##0.00;-'$'#,##0.00",
+   "CurrencyFormatWithCode": "'CAD' #,##0.00;'CAD' -#,##0.00",
+   "IssuingTerritoryCode": "CA",
+   "Symbol": "$",
+   "Precision": 2,
+   "ExtendedPrecision": 5,
+   "CurrencyFlag": "Y",
+   "@context": {
+    "key": "CAD"
+   }
+  },
+  {
+   "CurrencyCode": "CVE",
+   "Name": "Cape Verde Escudo",
+   "Description": "Cape Verde Escudo",
+   "EnabledFlag": "Y",
+   "StartDateActive": null,
+   "EndDateActive": null,
+   "ActiveDate": null,
+   "CurrencyFormat": "#,##0.00;-#,##0.00",
+   "CurrencyFormatWithSymbol": "'CVE' #,##0.00;'CVE' -#,##0.00",
+   "CurrencyFormatWithCode": "'CVE' #,##0.00;'CVE' -#,##0.00",
+   "IssuingTerritoryCode": "CV",
+   "Symbol": null,
+   "Precision": 2,
+   "ExtendedPrecision": 5,
+   "CurrencyFlag": "Y",
+   "@context": {
+    "key": "CVE"
+   }
+  },
+  {
+   "CurrencyCode": "XCG",
+   "Name": "Caribbean Guilder",
+   "Description": "Caribbean Guilder",
+   "EnabledFlag": "Y",
+   "StartDateActive": "2025-03-31",
+   "EndDateActive": null,
+   "ActiveDate": null,
+   "CurrencyFormat": "#,##0.00;-#,##0.00",
+   "CurrencyFormatWithSymbol": "'Cg'#,##0.00;-'Cg'#,##0.00",
+   "CurrencyFormatWithCode": "'XCG' #,##0.00;'XCG' -#,##0.00",
+   "IssuingTerritoryCode": "NL",
+   "Symbol": "Cg",
+   "Precision": 2,
+   "ExtendedPrecision": 5,
+   "CurrencyFlag": "Y",
+   "@context": {
+    "key": "XCG"
+   }
+  },
+  {
+   "CurrencyCode": "KYD",
+   "Name": "Cayman Islands Dollar",
+   "Description": "Cayman Islands Dollar",
+   "EnabledFlag": "Y",
+   "StartDateActive": null,
+   "EndDateActive": null,
+   "ActiveDate": null,
+   "CurrencyFormat": "#,##0.00;-#,##0.00",
+   "CurrencyFormatWithSymbol": "'$'#,##0.00;-'$'#,##0.00",
+   "CurrencyFormatWithCode": "'KYD' #,##0.00;'KYD' -#,##0.00",
+   "IssuingTerritoryCode": "KY",
+   "Symbol": "$",
+   "Precision": 2,
+   "ExtendedPrecision": 5,
+   "CurrencyFlag": "Y",
+   "@context": {
+    "key": "KYD"
+   }
+  },
+  {
+   "CurrencyCode": "CLP",
+   "Name": "Chilean Peso",
+   "Description": "Chilean Peso",
+   "EnabledFlag": "Y",
+   "StartDateActive": null,
+   "EndDateActive": null,
+   "ActiveDate": null,
+   "CurrencyFormat": "#,##0;-#,##0",
+   "CurrencyFormatWithSymbol": "'$'#,##0;-'$'#,##0",
+   "CurrencyFormatWithCode": "'CLP' #,##0;'CLP' -#,##0",
+   "IssuingTerritoryCode": "CL",
+   "Symbol": "$",
+   "Precision": 0,
+   "ExtendedPrecision": 3,
+   "CurrencyFlag": "Y",
+   "@context": {
+    "key": "CLP"
+   }
+  },
+  {
+   "CurrencyCode": "COP",
+   "Name": "Colombian Peso",
+   "Description": "Colombian Peso",
+   "EnabledFlag": "Y",
+   "StartDateActive": null,
+   "EndDateActive": null,
+   "ActiveDate": null,
+   "CurrencyFormat": "#,##0.00;-#,##0.00",
+   "CurrencyFormatWithSymbol": "'$'#,##0.00;-'$'#,##0.00",
+   "CurrencyFormatWithCode": "'COP' #,##0.00;'COP' -#,##0.00",
+   "IssuingTerritoryCode": "CO",
+   "Symbol": "$",
+   "Precision": 2,
+   "ExtendedPrecision": 5,
+   "CurrencyFlag": "Y",
+   "@context": {
+    "key": "COP"
+   }
+  },
+  {
+   "CurrencyCode": "KMF",
+   "Name": "Comoro Franc",
+   "Description": "Comoro Franc",
+   "EnabledFlag": "Y",
+   "StartDateActive": null,
+   "EndDateActive": null,
+   "ActiveDate": null,
+   "CurrencyFormat": "#,##0;-#,##0",
+   "CurrencyFormatWithSymbol": "'KMF' #,##0;'KMF' -#,##0",
+   "CurrencyFormatWithCode": "'KMF' #,##0;'KMF' -#,##0",
+   "IssuingTerritoryCode": "KM",
+   "Symbol": null,
+   "Precision": 0,
+   "ExtendedPrecision": 3,
+   "CurrencyFlag": "Y",
+   "@context": {
+    "key": "KMF"
+   }
+  },
+  {
+   "CurrencyCode": "LUC",
+   "Name": "Convertible Franc",
+   "Description": "Convertible Franc",
+   "EnabledFlag": "Y",
+   "StartDateActive": null,
+   "EndDateActive": "1994-08-12",
+   "ActiveDate": null,
+   "CurrencyFormat": "#,##0;-#,##0",
+   "CurrencyFormatWithSymbol": "'LUC' #,##0;'LUC' -#,##0",
+   "CurrencyFormatWithCode": "'LUC' #,##0;'LUC' -#,##0",
+   "IssuingTerritoryCode": "LU",
+   "Symbol": null,
+   "Precision": 0,
+   "ExtendedPrecision": 3,
+   "CurrencyFlag": "Y",
+   "@context": {
+    "key": "LUC"
+   }
+  },
+  {
+   "CurrencyCode": "BAM",
+   "Name": "Convertible Marks",
+   "Description": "Convertible Marks",
+   "EnabledFlag": "Y",
+   "StartDateActive": null,
+   "EndDateActive": null,
+   "ActiveDate": null,
+   "CurrencyFormat": "#,##0.00;-#,##0.00",
+   "CurrencyFormatWithSymbol": "'KM' #,##0.00;'KM' -#,##0.00",
+   "CurrencyFormatWithCode": "'BAM' #,##0.00;'BAM' -#,##0.00",
+   "IssuingTerritoryCode": "BA",
+   "Symbol": "KM",
+   "Precision": 2,
+   "ExtendedPrecision": 5,
+   "CurrencyFlag": "Y",
+   "@context": {
+    "key": "BAM"
+   }
+  },
+  {
+   "CurrencyCode": "ESB",
+   "Name": "Convertible Peseta Accounts",
+   "Description": "Convertible Peseta Accounts",
+   "EnabledFlag": "Y",
+   "StartDateActive": null,
+   "EndDateActive": "1993-12-01",
+   "ActiveDate": null,
+   "CurrencyFormat": "#,##0;-#,##0",
+   "CurrencyFormatWithSymbol": "'ESB' #,##0;'ESB' -#,##0",
+   "CurrencyFormatWithCode": "'ESB' #,##0;'ESB' -#,##0",
+   "IssuingTerritoryCode": "ES",
+   "Symbol": null,
+   "Precision": 0,
+   "ExtendedPrecision": 3,
+   "CurrencyFlag": "Y",
+   "@context": {
+    "key": "ESB"
+   }
+  },
+  {
+   "CurrencyCode": "NIC",
+   "Name": "Cordoba",
+   "Description": "Cordoba",
+   "EnabledFlag": "Y",
+   "StartDateActive": null,
+   "EndDateActive": "1994-08-12",
+   "ActiveDate": null,
+   "CurrencyFormat": "#,##0.00;-#,##0.00",
+   "CurrencyFormatWithSymbol": "'NIC' #,##0.00;'NIC' -#,##0.00",
+   "CurrencyFormatWithCode": "'NIC' #,##0.00;'NIC' -#,##0.00",
+   "IssuingTerritoryCode": "NI",
+   "Symbol": null,
+   "Precision": 2,
+   "ExtendedPrecision": 5,
+   "CurrencyFlag": "Y",
+   "@context": {
+    "key": "NIC"
+   }
+  },
+  {
+   "CurrencyCode": "NIO",
+   "Name": "Cordoba Oro",
+   "Description": "Cordoba Oro",
+   "EnabledFlag": "Y",
+   "StartDateActive": null,
+   "EndDateActive": null,
+   "ActiveDate": null,
+   "CurrencyFormat": "#,##0.00;-#,##0.00",
+   "CurrencyFormatWithSymbol": "'C$'#,##0.00;-'C$'#,##0.00",
+   "CurrencyFormatWithCode": "'NIO' #,##0.00;'NIO' -#,##0.00",
+   "IssuingTerritoryCode": "NI",
+   "Symbol": "C$",
+   "Precision": 2,
+   "ExtendedPrecision": 5,
+   "CurrencyFlag": "Y",
+   "@context": {
+    "key": "NIO"
+   }
+  },
+  {
+   "CurrencyCode": "CRC",
+   "Name": "Costa Rican Colon",
+   "Description": "Costa Rican Colon",
+   "EnabledFlag": "Y",
+   "StartDateActive": null,
+   "EndDateActive": null,
+   "ActiveDate": null,
+   "CurrencyFormat": "#,##0.00;-#,##0.00",
+   "CurrencyFormatWithSymbol": "'\u20a1'#,##0.00;-'\u20a1'#,##0.00",
+   "CurrencyFormatWithCode": "'CRC' #,##0.00;'CRC' -#,##0.00",
+   "IssuingTerritoryCode": "CR",
+   "Symbol": "\u20a1",
+   "Precision": 2,
+   "ExtendedPrecision": 5,
+   "CurrencyFlag": "Y",
+   "@context": {
+    "key": "CRC"
+   }
+  },
+  {
+   "CurrencyCode": "HRD",
+   "Name": "Croatian Dinar",
+   "Description": "Croatian Dinar",
+   "EnabledFlag": "Y",
+   "StartDateActive": null,
+   "EndDateActive": null,
+   "ActiveDate": null,
+   "CurrencyFormat": "#,##0;-#,##0",
+   "CurrencyFormatWithSymbol": "'HRD' #,##0;'HRD' -#,##0",
+   "CurrencyFormatWithCode": "'HRD' #,##0;'HRD' -#,##0",
+   "IssuingTerritoryCode": "HR",
+   "Symbol": null,
+   "Precision": 0,
+   "ExtendedPrecision": 3,
+   "CurrencyFlag": "Y",
+   "@context": {
+    "key": "HRD"
+   }
+  },
+  {
+   "CurrencyCode": "HRK",
+   "Name": "Croatian Kuna",
+   "Description": "Croatian Kuna",
+   "EnabledFlag": "Y",
+   "StartDateActive": null,
+   "EndDateActive": null,
+   "ActiveDate": null,
+   "CurrencyFormat": "#,##0.00;-#,##0.00",
+   "CurrencyFormatWithSymbol": "'kn'#,##0.00;-'kn'#,##0.00",
+   "CurrencyFormatWithCode": "'HRK' #,##0.00;'HRK' -#,##0.00",
+   "IssuingTerritoryCode": "HR",
+   "Symbol": "kn",
+   "Precision": 2,
+   "ExtendedPrecision": 5,
+   "CurrencyFlag": "Y",
+   "@context": {
+    "key": "HRK"
+   }
+  },
+  {
+   "CurrencyCode": "BRC",
+   "Name": "Cruzado",
+   "Description": "Cruzado",
+   "EnabledFlag": "Y",
+   "StartDateActive": null,
+   "EndDateActive": "1994-08-12",
+   "ActiveDate": null,
+   "CurrencyFormat": "#,##0.00;-#,##0.00",
+   "CurrencyFormatWithSymbol": "'\u20a2'#,##0.00;-'\u20a2'#,##0.00",
+   "CurrencyFormatWithCode": "'BRC' #,##0.00;'BRC' -#,##0.00",
+   "IssuingTerritoryCode": "BR",
+   "Symbol": "\u20a2",
+   "Precision": 2,
+   "ExtendedPrecision": 5,
+   "CurrencyFlag": "Y",
+   "@context": {
+    "key": "BRC"
+   }
+  },
+  {
+   "CurrencyCode": "CUP",
+   "Name": "Cuban Peso",
+   "Description": "Cuban Peso",
+   "EnabledFlag": "Y",
+   "StartDateActive": null,
+   "EndDateActive": null,
+   "ActiveDate": null,
+   "CurrencyFormat": "#,##0.00;-#,##0.00",
+   "CurrencyFormatWithSymbol": "'\u20b1'#,##0.00;-'\u20b1'#,##0.00",
+   "CurrencyFormatWithCode": "'CUP' #,##0.00;'CUP' -#,##0.00",
+   "IssuingTerritoryCode": "CU",
+   "Symbol": "\u20b1",
+   "Precision": 2,
+   "ExtendedPrecision": 5,
+   "CurrencyFlag": "Y",
+   "@context": {
+    "key": "CUP"
+   }
+  },
+  {
+   "CurrencyCode": "CYP",
+   "Name": "Cyprus Pound",
+   "Description": "Cyprus Pound",
+   "EnabledFlag": "Y",
+   "StartDateActive": null,
+   "EndDateActive": null,
+   "ActiveDate": null,
+   "CurrencyFormat": "#,##0.00;-#,##0.00",
+   "CurrencyFormatWithSymbol": "'\u00a3'#,##0.00;-'\u00a3'#,##0.00",
+   "CurrencyFormatWithCode": "'CYP' #,##0.00;'CYP' -#,##0.00",
+   "IssuingTerritoryCode": "CY",
+   "Symbol": "\u00a3",
+   "Precision": 2,
+   "ExtendedPrecision": 5,
+   "CurrencyFlag": "Y",
+   "@context": {
+    "key": "CYP"
+   }
+  },
+  {
+   "CurrencyCode": "CZK",
+   "Name": "Czech Koruna",
+   "Description": "Czech Koruna",
+   "EnabledFlag": "Y",
+   "StartDateActive": null,
+   "EndDateActive": null,
+   "ActiveDate": null,
+   "CurrencyFormat": "#,##0.00;-#,##0.00",
+   "CurrencyFormatWithSymbol": "'K\u010d'#,##0.00;-'K\u010d'#,##0.00",
+   "CurrencyFormatWithCode": "'CZK' #,##0.00;'CZK' -#,##0.00",
+   "IssuingTerritoryCode": "CZ",
+   "Symbol": "K\u010d",
+   "Precision": 2,
+   "ExtendedPrecision": 5,
+   "CurrencyFlag": "Y",
+   "@context": {
+    "key": "CZK"
+   }
+  },
+  {
+   "CurrencyCode": "GMD",
+   "Name": "Dalasi",
+   "Description": "Dalasi",
+   "EnabledFlag": "Y",
+   "StartDateActive": null,
+   "EndDateActive": null,
+   "ActiveDate": null,
+   "CurrencyFormat": "#,##0.00;-#,##0.00",
+   "CurrencyFormatWithSymbol": "'D' #,##0.00;'D' -#,##0.00",
+   "CurrencyFormatWithCode": "'GMD' #,##0.00;'GMD' -#,##0.00",
+   "IssuingTerritoryCode": "GM",
+   "Symbol": "D",
+   "Precision": 2,
+   "ExtendedPrecision": 5,
+   "CurrencyFlag": "Y",
+   "@context": {
+    "key": "GMD"
+   }
+  },
+  {
+   "CurrencyCode": "DKK",
+   "Name": "Danish Krone",
+   "Description": "Danish Krone",
+   "EnabledFlag": "Y",
+   "StartDateActive": null,
+   "EndDateActive": null,
+   "ActiveDate": null,
+   "CurrencyFormat": "#,##0.00;-#,##0.00",
+   "CurrencyFormatWithSymbol": "'kr'#,##0.00;-'kr'#,##0.00",
+   "CurrencyFormatWithCode": "'DKK' #,##0.00;'DKK' -#,##0.00",
+   "IssuingTerritoryCode": "DK",
+   "Symbol": "kr",
+   "Precision": 2,
+   "ExtendedPrecision": 5,
+   "CurrencyFlag": "Y",
+   "@context": {
+    "key": "DKK"
+   }
+  },
+  {
+   "CurrencyCode": "MKD",
+   "Name": "Denar",
+   "Description": "Denar",
+   "EnabledFlag": "Y",
+   "StartDateActive": null,
+   "EndDateActive": null,
+   "ActiveDate": null,
+   "CurrencyFormat": "#,##0.00;-#,##0.00",
+   "CurrencyFormatWithSymbol": "'\u0434\u0435\u043d'#,##0.00;-'\u0434\u0435\u043d'#,##0.00",
+   "CurrencyFormatWithCode": "'MKD' #,##0.00;'MKD' -#,##0.00",
+   "IssuingTerritoryCode": "MK",
+   "Symbol": "\u0434\u0435\u043d",
+   "Precision": 2,
+   "ExtendedPrecision": 5,
+   "CurrencyFlag": "Y",
+   "@context": {
+    "key": "MKD"
+   }
+  },
+  {
+   "CurrencyCode": "DEM",
+   "Name": "Deutsche Mark",
+   "Description": "Deutsche Mark",
+   "EnabledFlag": "Y",
+   "StartDateActive": null,
+   "EndDateActive": null,
+   "ActiveDate": null,
+   "CurrencyFormat": "#,##0.00;-#,##0.00",
+   "CurrencyFormatWithSymbol": "'DEM' #,##0.00;'DEM' -#,##0.00",
+   "CurrencyFormatWithCode": "'DEM' #,##0.00;'DEM' -#,##0.00",
+   "IssuingTerritoryCode": "DE",
+   "Symbol": null,
+   "Precision": 2,
+   "ExtendedPrecision": 5,
+   "CurrencyFlag": "Y",
+   "@context": {
+    "key": "DEM"
+   }
+  },
+  {
+   "CurrencyCode": "DJF",
+   "Name": "Djibouti Franc",
+   "Description": "Djibouti Franc",
+   "EnabledFlag": "Y",
+   "StartDateActive": null,
+   "EndDateActive": null,
+   "ActiveDate": null,
+   "CurrencyFormat": "#,##0;-#,##0",
+   "CurrencyFormatWithSymbol": "'Fdj'#,##0;-'Fdj'#,##0",
+   "CurrencyFormatWithCode": "'DJF' #,##0;'DJF' -#,##0",
+   "IssuingTerritoryCode": "DJ",
+   "Symbol": "Fdj",
+   "Precision": 0,
+   "ExtendedPrecision": 3,
+   "CurrencyFlag": "Y",
+   "@context": {
+    "key": "DJF"
+   }
+  },
+  {
+   "CurrencyCode": "STN",
+   "Name": "Dobra",
+   "Description": "Dobra",
+   "EnabledFlag": "Y",
+   "StartDateActive": "2018-01-01",
+   "EndDateActive": null,
+   "ActiveDate": null,
+   "CurrencyFormat": "#,##0.00;-#,##0.00",
+   "CurrencyFormatWithSymbol": "'Db'#,##0.00;-'Db'#,##0.00",
+   "CurrencyFormatWithCode": "'STN' #,##0.00;'STN' -#,##0.00",
+   "IssuingTerritoryCode": "ST",
+   "Symbol": "Db",
+   "Precision": 2,
+   "ExtendedPrecision": 5,
+   "CurrencyFlag": "Y",
+   "@context": {
+    "key": "STN"
+   }
+  },
+  {
+   "CurrencyCode": "STD",
+   "Name": "Dobra (Obsolete)",
+   "Description": "Dobra (Obsolete)",
+   "EnabledFlag": "Y",
+   "StartDateActive": null,
+   "EndDateActive": "2018-06-30",
+   "ActiveDate": null,
+   "CurrencyFormat": "#,##0.00;-#,##0.00",
+   "CurrencyFormatWithSymbol": "'Db'#,##0.00;-'Db'#,##0.00",
+   "CurrencyFormatWithCode": "'STD' #,##0.00;'STD' -#,##0.00",
+   "IssuingTerritoryCode": "ST",
+   "Symbol": "Db",
+   "Precision": 2,
+   "ExtendedPrecision": 5,
+   "CurrencyFlag": "Y",
+   "@context": {
+    "key": "STD"
+   }
+  },
+  {
+   "CurrencyCode": "C-1",
+   "Name": "Dollars",
+   "Description": "Dollars",
+   "EnabledFlag": "Y",
+   "StartDateActive": null,
+   "EndDateActive": null,
+   "ActiveDate": null,
+   "CurrencyFormat": "#,##0.00;-#,##0.00",
+   "CurrencyFormatWithSymbol": "'C-1'#,##0.00;-'C-1'#,##0.00",
+   "CurrencyFormatWithCode": "'C-1' #,##0.00;'C-1' -#,##0.00",
+   "IssuingTerritoryCode": null,
+   "Symbol": null,
+   "Precision": 2,
+   "ExtendedPrecision": 5,
+   "CurrencyFlag": "Y",
+   "@context": {
+    "key": "C-1"
+   }
+  },
+  {
+   "CurrencyCode": "DOP",
+   "Name": "Dominican Peso",
+   "Description": "Dominican Peso",
+   "EnabledFlag": "Y",
+   "StartDateActive": null,
+   "EndDateActive": null,
+   "ActiveDate": null,
+   "CurrencyFormat": "#,##0.00;-#,##0.00",
+   "CurrencyFormatWithSymbol": "'RD$'#,##0.00;-'RD$'#,##0.00",
+   "CurrencyFormatWithCode": "'DOP' #,##0.00;'DOP' -#,##0.00",
+   "IssuingTerritoryCode": "DO",
+   "Symbol": "RD$",
+   "Precision": 2,
+   "ExtendedPrecision": 5,
+   "CurrencyFlag": "Y",
+   "@context": {
+    "key": "DOP"
+   }
+  },
+  {
+   "CurrencyCode": "VND",
+   "Name": "Dong",
+   "Description": "Dong",
+   "EnabledFlag": "Y",
+   "StartDateActive": null,
+   "EndDateActive": null,
+   "ActiveDate": null,
+   "CurrencyFormat": "#,##0.00;-#,##0.00",
+   "CurrencyFormatWithSymbol": "'\u20ab'#,##0.00;-'\u20ab'#,##0.00",
+   "CurrencyFormatWithCode": "'VND' #,##0.00;'VND' -#,##0.00",
+   "IssuingTerritoryCode": "VN",
+   "Symbol": "\u20ab",
+   "Precision": 2,
+   "ExtendedPrecision": 5,
+   "CurrencyFlag": "Y",
+   "@context": {
+    "key": "VND"
+   }
+  },
+  {
+   "CurrencyCode": "GRD",
+   "Name": "Drachma",
+   "Description": "Drachma",
+   "EnabledFlag": "Y",
+   "StartDateActive": null,
+   "EndDateActive": null,
+   "ActiveDate": null,
+   "CurrencyFormat": "#,##0;-#,##0",
+   "CurrencyFormatWithSymbol": "'\u20af'#,##0;-'\u20af'#,##0",
+   "CurrencyFormatWithCode": "'GRD' #,##0;'GRD' -#,##0",
+   "IssuingTerritoryCode": "GR",
+   "Symbol": "\u20af",
+   "Precision": 0,
+   "ExtendedPrecision": 3,
+   "CurrencyFlag": "Y",
+   "@context": {
+    "key": "GRD"
+   }
+  },
+  {
+   "CurrencyCode": "XCD",
+   "Name": "East Caribbean Dollar",
+   "Description": "East Caribbean Dollar",
+   "EnabledFlag": "Y",
+   "StartDateActive": null,
+   "EndDateActive": null,
+   "ActiveDate": null,
+   "CurrencyFormat": "#,##0.00;-#,##0.00",
+   "CurrencyFormatWithSymbol": "'$'#,##0.00;-'$'#,##0.00",
+   "CurrencyFormatWithCode": "'XCD' #,##0.00;'XCD' -#,##0.00",
+   "IssuingTerritoryCode": null,
+   "Symbol": "$",
+   "Precision": 2,
+   "ExtendedPrecision": 5,
+   "CurrencyFlag": "Y",
+   "@context": {
+    "key": "XCD"
+   }
+  },
+  {
+   "CurrencyCode": "EGP",
+   "Name": "Egyptian Pound",
+   "Description": "Egyptian Pound",
+   "EnabledFlag": "Y",
+   "StartDateActive": null,
+   "EndDateActive": null,
+   "ActiveDate": null,
+   "CurrencyFormat": "#,##0.00;-#,##0.00",
+   "CurrencyFormatWithSymbol": "'\u00a3'#,##0.00;-'\u00a3'#,##0.00",
+   "CurrencyFormatWithCode": "'EGP' #,##0.00;'EGP' -#,##0.00",
+   "IssuingTerritoryCode": "EG",
+   "Symbol": "\u00a3",
+   "Precision": 2,
+   "ExtendedPrecision": 5,
+   "CurrencyFlag": "Y",
+   "@context": {
+    "key": "EGP"
+   }
+  },
+  {
+   "CurrencyCode": "SVC",
+   "Name": "El Salvador Colon",
+   "Description": "El Salvador Colon",
+   "EnabledFlag": "Y",
+   "StartDateActive": null,
+   "EndDateActive": null,
+   "ActiveDate": null,
+   "CurrencyFormat": "#,##0.00;-#,##0.00",
+   "CurrencyFormatWithSymbol": "'$'#,##0.00;-'$'#,##0.00",
+   "CurrencyFormatWithCode": "'SVC' #,##0.00;'SVC' -#,##0.00",
+   "IssuingTerritoryCode": "SV",
+   "Symbol": "$",
+   "Precision": 2,
+   "ExtendedPrecision": 5,
+   "CurrencyFlag": "Y",
+   "@context": {
+    "key": "SVC"
+   }
+  },
+  {
+   "CurrencyCode": "ETB",
+   "Name": "Ethiopian Birr",
+   "Description": "Ethiopian Birr",
+   "EnabledFlag": "Y",
+   "StartDateActive": null,
+   "EndDateActive": null,
+   "ActiveDate": null,
+   "CurrencyFormat": "#,##0.00;-#,##0.00",
+   "CurrencyFormatWithSymbol": "'Br'#,##0.00;-'Br'#,##0.00",
+   "CurrencyFormatWithCode": "'ETB' #,##0.00;'ETB' -#,##0.00",
+   "IssuingTerritoryCode": "ET",
+   "Symbol": "Br",
+   "Precision": 2,
+   "ExtendedPrecision": 5,
+   "CurrencyFlag": "Y",
+   "@context": {
+    "key": "ETB"
+   }
+  },
+  {
+   "CurrencyCode": "EUR",
+   "Name": "Euro",
+   "Description": "Pan-European Currency",
+   "EnabledFlag": "Y",
+   "StartDateActive": null,
+   "EndDateActive": null,
+   "ActiveDate": null,
+   "CurrencyFormat": "#,##0.00;-#,##0.00",
+   "CurrencyFormatWithSymbol": "'\u20ac'#,##0.00;-'\u20ac'#,##0.00",
+   "CurrencyFormatWithCode": "'EUR' #,##0.00;'EUR' -#,##0.00",
+   "IssuingTerritoryCode": null,
+   "Symbol": "\u20ac",
+   "Precision": 2,
+   "ExtendedPrecision": 5,
+   "CurrencyFlag": "Y",
+   "@context": {
+    "key": "EUR"
+   }
+  },
+  {
+   "CurrencyCode": "XEU",
+   "Name": "European Currency Unit (E.C.U.)",
+   "Description": "European Monetary Cooperation Fund (E.M.C.F.)",
+   "EnabledFlag": "Y",
+   "StartDateActive": null,
+   "EndDateActive": null,
+   "ActiveDate": null,
+   "CurrencyFormat": "#,##0.00;-#,##0.00",
+   "CurrencyFormatWithSymbol": "'\u20a0'#,##0.00;-'\u20a0'#,##0.00",
+   "CurrencyFormatWithCode": "'XEU' #,##0.00;'XEU' -#,##0.00",
+   "IssuingTerritoryCode": null,
+   "Symbol": "\u20a0",
+   "Precision": 2,
+   "ExtendedPrecision": 5,
+   "CurrencyFlag": "Y",
+   "@context": {
+    "key": "XEU"
+   }
+  },
+  {
+   "CurrencyCode": "FKP",
+   "Name": "Falkland Islands Pound",
+   "Description": "Falkland Islands Pound",
+   "EnabledFlag": "Y",
+   "StartDateActive": null,
+   "EndDateActive": null,
+   "ActiveDate": null,
+   "CurrencyFormat": "#,##0.00;-#,##0.00",
+   "CurrencyFormatWithSymbol": "'\u00a3'#,##0.00;-'\u00a3'#,##0.00",
+   "CurrencyFormatWithCode": "'FKP' #,##0.00;'FKP' -#,##0.00",
+   "IssuingTerritoryCode": "FK",
+   "Symbol": "\u00a3",
+   "Precision": 2,
+   "ExtendedPrecision": 5,
+   "CurrencyFlag": "Y",
+   "@context": {
+    "key": "FKP"
+   }
+  },
+  {
+   "CurrencyCode": "FJD",
+   "Name": "Fiji Dollar",
+   "Description": "Fiji Dollar",
+   "EnabledFlag": "Y",
+   "StartDateActive": null,
+   "EndDateActive": null,
+   "ActiveDate": null,
+   "CurrencyFormat": "#,##0.00;-#,##0.00",
+   "CurrencyFormatWithSymbol": "'$'#,##0.00;-'$'#,##0.00",
+   "CurrencyFormatWithCode": "'FJD' #,##0.00;'FJD' -#,##0.00",
+   "IssuingTerritoryCode": "FJ",
+   "Symbol": "$",
+   "Precision": 2,
+   "ExtendedPrecision": 5,
+   "CurrencyFlag": "Y",
+   "@context": {
+    "key": "FJD"
+   }
+  },
+  {
+   "CurrencyCode": "LUL",
+   "Name": "Financial Franc",
+   "Description": "Financial Franc",
+   "EnabledFlag": "Y",
+   "StartDateActive": null,
+   "EndDateActive": "1994-08-12",
+   "ActiveDate": null,
+   "CurrencyFormat": "#,##0;-#,##0",
+   "CurrencyFormatWithSymbol": "'LUL' #,##0;'LUL' -#,##0",
+   "CurrencyFormatWithCode": "'LUL' #,##0;'LUL' -#,##0",
+   "IssuingTerritoryCode": "LU",
+   "Symbol": null,
+   "Precision": 0,
+   "ExtendedPrecision": 3,
+   "CurrencyFlag": "Y",
+   "@context": {
+    "key": "LUL"
+   }
+  },
+  {
+   "CurrencyCode": "ZAL",
+   "Name": "Financial Rand",
+   "Description": "Financial Rand",
+   "EnabledFlag": "Y",
+   "StartDateActive": null,
+   "EndDateActive": null,
+   "ActiveDate": null,
+   "CurrencyFormat": "#,##0.00;-#,##0.00",
+   "CurrencyFormatWithSymbol": "'ZAL' #,##0.00;'ZAL' -#,##0.00",
+   "CurrencyFormatWithCode": "'ZAL' #,##0.00;'ZAL' -#,##0.00",
+   "IssuingTerritoryCode": "ZA",
+   "Symbol": null,
+   "Precision": 2,
+   "ExtendedPrecision": 5,
+   "CurrencyFlag": "Y",
+   "@context": {
+    "key": "ZAL"
+   }
+  },
+  {
+   "CurrencyCode": "HUF",
+   "Name": "Forint",
+   "Description": "Forint",
+   "EnabledFlag": "Y",
+   "StartDateActive": null,
+   "EndDateActive": null,
+   "ActiveDate": null,
+   "CurrencyFormat": "#,##0.00;-#,##0.00",
+   "CurrencyFormatWithSymbol": "'Ft'#,##0.00;-'Ft'#,##0.00",
+   "CurrencyFormatWithCode": "'HUF' #,##0.00;'HUF' -#,##0.00",
+   "IssuingTerritoryCode": "HU",
+   "Symbol": "Ft",
+   "Precision": 2,
+   "ExtendedPrecision": 5,
+   "CurrencyFlag": "Y",
+   "@context": {
+    "key": "HUF"
+   }
+  },
+  {
+   "CurrencyCode": "CDF",
+   "Name": "Franc Congolais",
+   "Description": "Franc Congolais",
+   "EnabledFlag": "Y",
+   "StartDateActive": null,
+   "EndDateActive": null,
+   "ActiveDate": null,
+   "CurrencyFormat": "#,##0.00;-#,##0.00",
+   "CurrencyFormatWithSymbol": "'F' #,##0.00;'F' -#,##0.00",
+   "CurrencyFormatWithCode": "'CDF' #,##0.00;'CDF' -#,##0.00",
+   "IssuingTerritoryCode": "CD",
+   "Symbol": "F",
+   "Precision": 2,
+   "ExtendedPrecision": 5,
+   "CurrencyFlag": "Y",
+   "@context": {
+    "key": "CDF"
+   }
+  },
+  {
+   "CurrencyCode": "FRF",
+   "Name": "French Franc",
+   "Description": "French Franc",
+   "EnabledFlag": "Y",
+   "StartDateActive": null,
+   "EndDateActive": null,
+   "ActiveDate": null,
+   "CurrencyFormat": "#,##0.00;-#,##0.00",
+   "CurrencyFormatWithSymbol": "'\u20a3'#,##0.00;-'\u20a3'#,##0.00",
+   "CurrencyFormatWithCode": "'FRF' #,##0.00;'FRF' -#,##0.00",
+   "IssuingTerritoryCode": "FR",
+   "Symbol": "\u20a3",
+   "Precision": 2,
+   "ExtendedPrecision": 5,
+   "CurrencyFlag": "Y",
+   "@context": {
+    "key": "FRF"
+   }
+  },
+  {
+   "CurrencyCode": "GEK",
+   "Name": "Georgian Coupon",
+   "Description": "Georgian Coupon",
+   "EnabledFlag": "Y",
+   "StartDateActive": null,
+   "EndDateActive": null,
+   "ActiveDate": null,
+   "CurrencyFormat": "#,##0;-#,##0",
+   "CurrencyFormatWithSymbol": "'GEK' #,##0;'GEK' -#,##0",
+   "CurrencyFormatWithCode": "'GEK' #,##0;'GEK' -#,##0",
+   "IssuingTerritoryCode": "GE",
+   "Symbol": null,
+   "Precision": 0,
+   "ExtendedPrecision": 3,
+   "CurrencyFlag": "Y",
+   "@context": {
+    "key": "GEK"
+   }
+  },
+  {
+   "CurrencyCode": "GHS",
+   "Name": "Ghana Cedi",
+   "Description": "Ghana Cedi",
+   "EnabledFlag": "Y",
+   "StartDateActive": null,
+   "EndDateActive": null,
+   "ActiveDate": null,
+   "CurrencyFormat": "#,##0.00;-#,##0.00",
+   "CurrencyFormatWithSymbol": "'GHS' #,##0.00;'GHS' -#,##0.00",
+   "CurrencyFormatWithCode": "'GHS' #,##0.00;'GHS' -#,##0.00",
+   "IssuingTerritoryCode": "GH",
+   "Symbol": null,
+   "Precision": 2,
+   "ExtendedPrecision": 5,
+   "CurrencyFlag": "Y",
+   "@context": {
+    "key": "GHS"
+   }
+  },
+  {
+   "CurrencyCode": "GHC",
+   "Name": "Ghana Cedi (old)",
+   "Description": "Ghana Cedi (old)",
+   "EnabledFlag": "Y",
+   "StartDateActive": null,
+   "EndDateActive": null,
+   "ActiveDate": null,
+   "CurrencyFormat": "#,##0.00;-#,##0.00",
+   "CurrencyFormatWithSymbol": "'\u00a2'#,##0.00;-'\u00a2'#,##0.00",
+   "CurrencyFormatWithCode": "'GHC' #,##0.00;'GHC' -#,##0.00",
+   "IssuingTerritoryCode": "GH",
+   "Symbol": "\u00a2",
+   "Precision": 2,
+   "ExtendedPrecision": 5,
+   "CurrencyFlag": "Y",
+   "@context": {
+    "key": "GHC"
+   }
+  },
+  {
+   "CurrencyCode": "GIP",
+   "Name": "Gibraltar Pound",
+   "Description": "Gibraltar Pound",
+   "EnabledFlag": "Y",
+   "StartDateActive": null,
+   "EndDateActive": null,
+   "ActiveDate": null,
+   "CurrencyFormat": "#,##0.00;-#,##0.00",
+   "CurrencyFormatWithSymbol": "'\u00a3'#,##0.00;-'\u00a3'#,##0.00",
+   "CurrencyFormatWithCode": "'GIP' #,##0.00;'GIP' -#,##0.00",
+   "IssuingTerritoryCode": "GI",
+   "Symbol": "\u00a3",
+   "Precision": 2,
+   "ExtendedPrecision": 5,
+   "CurrencyFlag": "Y",
+   "@context": {
+    "key": "GIP"
+   }
+  },
+  {
+   "CurrencyCode": "XAU",
+   "Name": "Gold",
+   "Description": "Gold",
+   "EnabledFlag": "Y",
+   "StartDateActive": null,
+   "EndDateActive": null,
+   "ActiveDate": null,
+   "CurrencyFormat": "#,##0;-#,##0",
+   "CurrencyFormatWithSymbol": "'XAU' #,##0;'XAU' -#,##0",
+   "CurrencyFormatWithCode": "'XAU' #,##0;'XAU' -#,##0",
+   "IssuingTerritoryCode": null,
+   "Symbol": null,
+   "Precision": 0,
+   "ExtendedPrecision": null,
+   "CurrencyFlag": "Y",
+   "@context": {
+    "key": "XAU"
+   }
+  },
+  {
+   "CurrencyCode": "HTG",
+   "Name": "Gourde",
+   "Description": "Gourde",
+   "EnabledFlag": "Y",
+   "StartDateActive": null,
+   "EndDateActive": null,
+   "ActiveDate": null,
+   "CurrencyFormat": "#,##0.00;-#,##0.00",
+   "CurrencyFormatWithSymbol": "'G' #,##0.00;'G' -#,##0.00",
+   "CurrencyFormatWithCode": "'HTG' #,##0.00;'HTG' -#,##0.00",
+   "IssuingTerritoryCode": "HT",
+   "Symbol": "G",
+   "Precision": 2,
+   "ExtendedPrecision": 5,
+   "CurrencyFlag": "Y",
+   "@context": {
+    "key": "HTG"
+   }
+  },
+  {
+   "CurrencyCode": "PYG",
+   "Name": "Guarani",
+   "Description": "Guarani",
+   "EnabledFlag": "Y",
+   "StartDateActive": null,
+   "EndDateActive": null,
+   "ActiveDate": null,
+   "CurrencyFormat": "#,##0;-#,##0",
+   "CurrencyFormatWithSymbol": "'Gs'#,##0;-'Gs'#,##0",
+   "CurrencyFormatWithCode": "'PYG' #,##0;'PYG' -#,##0",
+   "IssuingTerritoryCode": "PY",
+   "Symbol": "Gs",
+   "Precision": 0,
+   "ExtendedPrecision": 3,
+   "CurrencyFlag": "Y",
+   "@context": {
+    "key": "PYG"
+   }
+  },
+  {
+   "CurrencyCode": "GNF",
+   "Name": "Guinea Franc",
+   "Description": "Guinea Franc",
+   "EnabledFlag": "Y",
+   "StartDateActive": null,
+   "EndDateActive": null,
+   "ActiveDate": null,
+   "CurrencyFormat": "#,##0;-#,##0",
+   "CurrencyFormatWithSymbol": "'FG' #,##0;'FG' -#,##0",
+   "CurrencyFormatWithCode": "'GNF' #,##0;'GNF' -#,##0",
+   "IssuingTerritoryCode": "GN",
+   "Symbol": "FG",
+   "Precision": 0,
+   "ExtendedPrecision": 3,
+   "CurrencyFlag": "Y",
+   "@context": {
+    "key": "GNF"
+   }
+  },
+  {
+   "CurrencyCode": "GWP",
+   "Name": "Guinea-Bissau Peso",
+   "Description": "Guinea-Bissau Peso",
+   "EnabledFlag": "Y",
+   "StartDateActive": null,
+   "EndDateActive": null,
+   "ActiveDate": null,
+   "CurrencyFormat": "#,##0.00;-#,##0.00",
+   "CurrencyFormatWithSymbol": "'GWP' #,##0.00;'GWP' -#,##0.00",
+   "CurrencyFormatWithCode": "'GWP' #,##0.00;'GWP' -#,##0.00",
+   "IssuingTerritoryCode": "GW",
+   "Symbol": null,
+   "Precision": 2,
+   "ExtendedPrecision": 5,
+   "CurrencyFlag": "Y",
+   "@context": {
+    "key": "GWP"
+   }
+  },
+  {
+   "CurrencyCode": "GYD",
+   "Name": "Guyana Dollar",
+   "Description": "Guyana Dollar",
+   "EnabledFlag": "Y",
+   "StartDateActive": null,
+   "EndDateActive": null,
+   "ActiveDate": null,
+   "CurrencyFormat": "#,##0.00;-#,##0.00",
+   "CurrencyFormatWithSymbol": "'$'#,##0.00;-'$'#,##0.00",
+   "CurrencyFormatWithCode": "'GYD' #,##0.00;'GYD' -#,##0.00",
+   "IssuingTerritoryCode": "GY",
+   "Symbol": "$",
+   "Precision": 2,
+   "ExtendedPrecision": 5,
+   "CurrencyFlag": "Y",
+   "@context": {
+    "key": "GYD"
+   }
+  },
+  {
+   "CurrencyCode": "HKD",
+   "Name": "Hong Kong Dollar",
+   "Description": "Hong Kong Dollar",
+   "EnabledFlag": "Y",
+   "StartDateActive": null,
+   "EndDateActive": null,
+   "ActiveDate": null,
+   "CurrencyFormat": "#,##0.00;-#,##0.00",
+   "CurrencyFormatWithSymbol": "'HK$'#,##0.00;-'HK$'#,##0.00",
+   "CurrencyFormatWithCode": "'HKD' #,##0.00;'HKD' -#,##0.00",
+   "IssuingTerritoryCode": "HK",
+   "Symbol": "HK$",
+   "Precision": 2,
+   "ExtendedPrecision": 5,
+   "CurrencyFlag": "Y",
+   "@context": {
+    "key": "HKD"
+   }
+  },
+  {
+   "CurrencyCode": "UAH",
+   "Name": "Hryvnia",
+   "Description": "Hryvnia",
+   "EnabledFlag": "Y",
+   "StartDateActive": null,
+   "EndDateActive": null,
+   "ActiveDate": null,
+   "CurrencyFormat": "#,##0.00;-#,##0.00",
+   "CurrencyFormatWithSymbol": "'\u20b4'#,##0.00;-'\u20b4'#,##0.00",
+   "CurrencyFormatWithCode": "'UAH' #,##0.00;'UAH' -#,##0.00",
+   "IssuingTerritoryCode": "UA",
+   "Symbol": "\u20b4",
+   "Precision": 2,
+   "ExtendedPrecision": 5,
+   "CurrencyFlag": "Y",
+   "@context": {
+    "key": "UAH"
+   }
+  },
+  {
+   "CurrencyCode": "ISK",
+   "Name": "Iceland Krona",
+   "Description": "Iceland Krona",
+   "EnabledFlag": "Y",
+   "StartDateActive": null,
+   "EndDateActive": null,
+   "ActiveDate": null,
+   "CurrencyFormat": "#,##0.00;-#,##0.00",
+   "CurrencyFormatWithSymbol": "'kr'#,##0.00;-'kr'#,##0.00",
+   "CurrencyFormatWithCode": "'ISK' #,##0.00;'ISK' -#,##0.00",
+   "IssuingTerritoryCode": "IS",
+   "Symbol": "kr",
+   "Precision": 2,
+   "ExtendedPrecision": 5,
+   "CurrencyFlag": "Y",
+   "@context": {
+    "key": "ISK"
+   }
+  },
+  {
+   "CurrencyCode": "INR",
+   "Name": "Indian Rupee",
+   "Description": "Indian Rupee",
+   "EnabledFlag": "Y",
+   "StartDateActive": null,
+   "EndDateActive": null,
+   "ActiveDate": null,
+   "CurrencyFormat": "#,##0.00;-#,##0.00",
+   "CurrencyFormatWithSymbol": "'\u20a8'#,##0.00;-'\u20a8'#,##0.00",
+   "CurrencyFormatWithCode": "'INR' #,##0.00;'INR' -#,##0.00",
+   "IssuingTerritoryCode": "IN",
+   "Symbol": "\u20a8",
+   "Precision": 2,
+   "ExtendedPrecision": 5,
+   "CurrencyFlag": "Y",
+   "@context": {
+    "key": "INR"
+   }
+  },
+  {
+   "CurrencyCode": "PEI",
+   "Name": "Inti",
+   "Description": "Inti",
+   "EnabledFlag": "Y",
+   "StartDateActive": null,
+   "EndDateActive": "1994-08-12",
+   "ActiveDate": null,
+   "CurrencyFormat": "#,##0.00;-#,##0.00",
+   "CurrencyFormatWithSymbol": "'PEI' #,##0.00;'PEI' -#,##0.00",
+   "CurrencyFormatWithCode": "'PEI' #,##0.00;'PEI' -#,##0.00",
+   "IssuingTerritoryCode": "PE",
+   "Symbol": null,
+   "Precision": 2,
+   "ExtendedPrecision": 5,
+   "CurrencyFlag": "Y",
+   "@context": {
+    "key": "PEI"
+   }
+  },
+  {
+   "CurrencyCode": "IRR",
+   "Name": "Iranian Rial",
+   "Description": "Iranian Rial",
+   "EnabledFlag": "Y",
+   "StartDateActive": null,
+   "EndDateActive": null,
+   "ActiveDate": null,
+   "CurrencyFormat": "#,##0.00;-#,##0.00",
+   "CurrencyFormatWithSymbol": "'\ufdfc'#,##0.00;-'\ufdfc'#,##0.00",
+   "CurrencyFormatWithCode": "'IRR' #,##0.00;'IRR' -#,##0.00",
+   "IssuingTerritoryCode": "IR",
+   "Symbol": "\ufdfc",
+   "Precision": 2,
+   "ExtendedPrecision": 5,
+   "CurrencyFlag": "Y",
+   "@context": {
+    "key": "IRR"
+   }
+  },
+  {
+   "CurrencyCode": "IQD",
+   "Name": "Iraqi Dinar",
+   "Description": "Iraqi Dinar",
+   "EnabledFlag": "Y",
+   "StartDateActive": null,
+   "EndDateActive": null,
+   "ActiveDate": null,
+   "CurrencyFormat": "#,##0.000;-#,##0.000",
+   "CurrencyFormatWithSymbol": "'\u062f.\u0639.\u200f'#,##0.000;-'\u062f.\u0639.\u200f'#,##0.000",
+   "CurrencyFormatWithCode": "'IQD' #,##0.000;'IQD' -#,##0.000",
+   "IssuingTerritoryCode": "IQ",
+   "Symbol": "\u062f.\u0639.\u200f",
+   "Precision": 3,
+   "ExtendedPrecision": 6,
+   "CurrencyFlag": "Y",
+   "@context": {
+    "key": "IQD"
+   }
+  },
+  {
+   "CurrencyCode": "IEP",
+   "Name": "Irish Pound",
+   "Description": "Irish Pound",
+   "EnabledFlag": "Y",
+   "StartDateActive": null,
+   "EndDateActive": null,
+   "ActiveDate": null,
+   "CurrencyFormat": "#,##0.00;-#,##0.00",
+   "CurrencyFormatWithSymbol": "'\u00a3'#,##0.00;-'\u00a3'#,##0.00",
+   "CurrencyFormatWithCode": "'IEP' #,##0.00;'IEP' -#,##0.00",
+   "IssuingTerritoryCode": "IE",
+   "Symbol": "\u00a3",
+   "Precision": 2,
+   "ExtendedPrecision": 5,
+   "CurrencyFlag": "Y",
+   "@context": {
+    "key": "IEP"
+   }
+  },
+  {
+   "CurrencyCode": "ITL",
+   "Name": "Italian Lira",
+   "Description": "Italian Lira",
+   "EnabledFlag": "Y",
+   "StartDateActive": null,
+   "EndDateActive": null,
+   "ActiveDate": null,
+   "CurrencyFormat": "#,##0;-#,##0",
+   "CurrencyFormatWithSymbol": "'\u20a4'#,##0;-'\u20a4'#,##0",
+   "CurrencyFormatWithCode": "'ITL' #,##0;'ITL' -#,##0",
+   "IssuingTerritoryCode": "IT",
+   "Symbol": "\u20a4",
+   "Precision": 0,
+   "ExtendedPrecision": 3,
+   "CurrencyFlag": "Y",
+   "@context": {
+    "key": "ITL"
+   }
+  },
+  {
+   "CurrencyCode": "JMD",
+   "Name": "Jamaican Dollar",
+   "Description": "Jamaican Dollar",
+   "EnabledFlag": "Y",
+   "StartDateActive": null,
+   "EndDateActive": null,
+   "ActiveDate": null,
+   "CurrencyFormat": "#,##0.00;-#,##0.00",
+   "CurrencyFormatWithSymbol": "'J$'#,##0.00;-'J$'#,##0.00",
+   "CurrencyFormatWithCode": "'JMD' #,##0.00;'JMD' -#,##0.00",
+   "IssuingTerritoryCode": "JM",
+   "Symbol": "J$",
+   "Precision": 2,
+   "ExtendedPrecision": 5,
+   "CurrencyFlag": "Y",
+   "@context": {
+    "key": "JMD"
+   }
+  },
+  {
+   "CurrencyCode": "JOD",
+   "Name": "Jordanian Dinar",
+   "Description": "Jordanian Dinar",
+   "EnabledFlag": "Y",
+   "StartDateActive": null,
+   "EndDateActive": null,
+   "ActiveDate": null,
+   "CurrencyFormat": "#,##0.000;-#,##0.000",
+   "CurrencyFormatWithSymbol": "'\u062f.\u0627.\u200f'#,##0.000;-'\u062f.\u0627.\u200f'#,##0.000",
+   "CurrencyFormatWithCode": "'JOD' #,##0.000;'JOD' -#,##0.000",
+   "IssuingTerritoryCode": "JO",
+   "Symbol": "\u062f.\u0627.\u200f",
+   "Precision": 3,
+   "ExtendedPrecision": 6,
+   "CurrencyFlag": "Y",
+   "@context": {
+    "key": "JOD"
+   }
+  },
+  {
+   "CurrencyCode": "UAK",
+   "Name": "Karbovanet",
+   "Description": "Karbovanet",
+   "EnabledFlag": "Y",
+   "StartDateActive": null,
+   "EndDateActive": null,
+   "ActiveDate": null,
+   "CurrencyFormat": "#,##0.00;-#,##0.00",
+   "CurrencyFormatWithSymbol": "'UAK' #,##0.00;'UAK' -#,##0.00",
+   "CurrencyFormatWithCode": "'UAK' #,##0.00;'UAK' -#,##0.00",
+   "IssuingTerritoryCode": "UA",
+   "Symbol": null,
+   "Precision": 2,
+   "ExtendedPrecision": 5,
+   "CurrencyFlag": "Y",
+   "@context": {
+    "key": "UAK"
+   }
+  },
+  {
+   "CurrencyCode": "MWK",
+   "Name": "Kawacha",
+   "Description": "Kawacha",
+   "EnabledFlag": "Y",
+   "StartDateActive": null,
+   "EndDateActive": null,
+   "ActiveDate": null,
+   "CurrencyFormat": "#,##0.00;-#,##0.00",
+   "CurrencyFormatWithSymbol": "'MK' #,##0.00;'MK' -#,##0.00",
+   "CurrencyFormatWithCode": "'MWK' #,##0.00;'MWK' -#,##0.00",
+   "IssuingTerritoryCode": "MW",
+   "Symbol": "MK",
+   "Precision": 2,
+   "ExtendedPrecision": 5,
+   "CurrencyFlag": "Y",
+   "@context": {
+    "key": "MWK"
+   }
+  },
+  {
+   "CurrencyCode": "KES",
+   "Name": "Kenyan Shilling",
+   "Description": "Kenyan Shilling",
+   "EnabledFlag": "Y",
+   "StartDateActive": null,
+   "EndDateActive": null,
+   "ActiveDate": null,
+   "CurrencyFormat": "#,##0.00;-#,##0.00",
+   "CurrencyFormatWithSymbol": "'S' #,##0.00;'S' -#,##0.00",
+   "CurrencyFormatWithCode": "'KES' #,##0.00;'KES' -#,##0.00",
+   "IssuingTerritoryCode": "KE",
+   "Symbol": "S",
+   "Precision": 2,
+   "ExtendedPrecision": 5,
+   "CurrencyFlag": "Y",
+   "@context": {
+    "key": "KES"
+   }
+  },
+  {
+   "CurrencyCode": "TT",
+   "Name": "Kheedira",
+   "Description": "TT",
+   "EnabledFlag": "Y",
+   "StartDateActive": null,
+   "EndDateActive": null,
+   "ActiveDate": null,
+   "CurrencyFormat": "#,##0.00;-#,##0.00",
+   "CurrencyFormatWithSymbol": "'TT' #,##0.00;'TT' -#,##0.00",
+   "CurrencyFormatWithCode": "'TT' #,##0.00;'TT' -#,##0.00",
+   "IssuingTerritoryCode": null,
+   "Symbol": null,
+   "Precision": 2,
+   "ExtendedPrecision": 5,
+   "CurrencyFlag": "Y",
+   "@context": {
+    "key": "TT"
+   }
+  },
+  {
+   "CurrencyCode": "PGK",
+   "Name": "Kina",
+   "Description": "Kina",
+   "EnabledFlag": "Y",
+   "StartDateActive": null,
+   "EndDateActive": null,
+   "ActiveDate": null,
+   "CurrencyFormat": "#,##0.00;-#,##0.00",
+   "CurrencyFormatWithSymbol": "'K' #,##0.00;'K' -#,##0.00",
+   "CurrencyFormatWithCode": "'PGK' #,##0.00;'PGK' -#,##0.00",
+   "IssuingTerritoryCode": "PG",
+   "Symbol": "K",
+   "Precision": 2,
+   "ExtendedPrecision": 5,
+   "CurrencyFlag": "Y",
+   "@context": {
+    "key": "PGK"
+   }
+  },
+  {
+   "CurrencyCode": "LAK",
+   "Name": "Kip",
+   "Description": "Kip",
+   "EnabledFlag": "Y",
+   "StartDateActive": null,
+   "EndDateActive": null,
+   "ActiveDate": null,
+   "CurrencyFormat": "#,##0.00;-#,##0.00",
+   "CurrencyFormatWithSymbol": "'\u20ad'#,##0.00;-'\u20ad'#,##0.00",
+   "CurrencyFormatWithCode": "'LAK' #,##0.00;'LAK' -#,##0.00",
+   "IssuingTerritoryCode": "LA",
+   "Symbol": "\u20ad",
+   "Precision": 2,
+   "ExtendedPrecision": 5,
+   "CurrencyFlag": "Y",
+   "@context": {
+    "key": "LAK"
+   }
+  },
+  {
+   "CurrencyCode": "CSK",
+   "Name": "Koruna",
+   "Description": "Koruna",
+   "EnabledFlag": "Y",
+   "StartDateActive": null,
+   "EndDateActive": "1994-08-12",
+   "ActiveDate": null,
+   "CurrencyFormat": "#,##0.00;-#,##0.00",
+   "CurrencyFormatWithSymbol": "'CSK' #,##0.00;'CSK' -#,##0.00",
+   "CurrencyFormatWithCode": "'CSK' #,##0.00;'CSK' -#,##0.00",
+   "IssuingTerritoryCode": null,
+   "Symbol": null,
+   "Precision": 2,
+   "ExtendedPrecision": 5,
+   "CurrencyFlag": "Y",
+   "@context": {
+    "key": "CSK"
+   }
+  },
+  {
+   "CurrencyCode": "EEK",
+   "Name": "Kroon",
+   "Description": "Kroon",
+   "EnabledFlag": "Y",
+   "StartDateActive": null,
+   "EndDateActive": null,
+   "ActiveDate": null,
+   "CurrencyFormat": "#,##0.00;-#,##0.00",
+   "CurrencyFormatWithSymbol": "'kr'#,##0.00;-'kr'#,##0.00",
+   "CurrencyFormatWithCode": "'EEK' #,##0.00;'EEK' -#,##0.00",
+   "IssuingTerritoryCode": "EE",
+   "Symbol": "kr",
+   "Precision": 2,
+   "ExtendedPrecision": 5,
+   "CurrencyFlag": "Y",
+   "@context": {
+    "key": "EEK"
+   }
+  },
+  {
+   "CurrencyCode": "KWD",
+   "Name": "Kuwaiti Dinar",
+   "Description": "Kuwaiti Dinar",
+   "EnabledFlag": "Y",
+   "StartDateActive": null,
+   "EndDateActive": null,
+   "ActiveDate": null,
+   "CurrencyFormat": "#,##0.000;-#,##0.000",
+   "CurrencyFormatWithSymbol": "'\u062f.\u0643.\u200f'#,##0.000;-'\u062f.\u0643.\u200f'#,##0.000",
+   "CurrencyFormatWithCode": "'KWD' #,##0.000;'KWD' -#,##0.000",
+   "IssuingTerritoryCode": "KW",
+   "Symbol": "\u062f.\u0643.\u200f",
+   "Precision": 3,
+   "ExtendedPrecision": 6,
+   "CurrencyFlag": "Y",
+   "@context": {
+    "key": "KWD"
+   }
+  },
+  {
+   "CurrencyCode": "AOA",
+   "Name": "Kwanza",
+   "Description": "Kwanza",
+   "EnabledFlag": "Y",
+   "StartDateActive": null,
+   "EndDateActive": null,
+   "ActiveDate": null,
+   "CurrencyFormat": "#,##0.00;-#,##0.00",
+   "CurrencyFormatWithSymbol": "'Kz'#,##0.00;-'Kz'#,##0.00",
+   "CurrencyFormatWithCode": "'AOA' #,##0.00;'AOA' -#,##0.00",
+   "IssuingTerritoryCode": "AO",
+   "Symbol": "Kz",
+   "Precision": 2,
+   "ExtendedPrecision": 5,
+   "CurrencyFlag": "Y",
+   "@context": {
+    "key": "AOA"
+   }
+  },
+  {
+   "CurrencyCode": "AOK",
+   "Name": "Kwanza (Obsolete)",
+   "Description": "Kwanza (Obsolete)",
+   "EnabledFlag": "Y",
+   "StartDateActive": null,
+   "EndDateActive": "1994-08-12",
+   "ActiveDate": null,
+   "CurrencyFormat": "#,##0;-#,##0",
+   "CurrencyFormatWithSymbol": "'AOK' #,##0;'AOK' -#,##0",
+   "CurrencyFormatWithCode": "'AOK' #,##0;'AOK' -#,##0",
+   "IssuingTerritoryCode": "AO",
+   "Symbol": null,
+   "Precision": 0,
+   "ExtendedPrecision": 3,
+   "CurrencyFlag": "Y",
+   "@context": {
+    "key": "AOK"
+   }
+  },
+  {
+   "CurrencyCode": "MMK",
+   "Name": "Kyat",
+   "Description": "Kyat",
+   "EnabledFlag": "Y",
+   "StartDateActive": null,
+   "EndDateActive": null,
+   "ActiveDate": null,
+   "CurrencyFormat": "#,##0.00;-#,##0.00",
+   "CurrencyFormatWithSymbol": "'K' #,##0.00;'K' -#,##0.00",
+   "CurrencyFormatWithCode": "'MMK' #,##0.00;'MMK' -#,##0.00",
+   "IssuingTerritoryCode": "MM",
+   "Symbol": "K",
+   "Precision": 2,
+   "ExtendedPrecision": 5,
+   "CurrencyFlag": "Y",
+   "@context": {
+    "key": "MMK"
+   }
+  },
+  {
+   "CurrencyCode": "BUK",
+   "Name": "Kyat (Obsolete)",
+   "Description": "Kyat",
+   "EnabledFlag": "Y",
+   "StartDateActive": null,
+   "EndDateActive": "1994-08-12",
+   "ActiveDate": null,
+   "CurrencyFormat": "#,##0.00;-#,##0.00",
+   "CurrencyFormatWithSymbol": "'BUK' #,##0.00;'BUK' -#,##0.00",
+   "CurrencyFormatWithCode": "'BUK' #,##0.00;'BUK' -#,##0.00",
+   "IssuingTerritoryCode": "MM",
+   "Symbol": null,
+   "Precision": 2,
+   "ExtendedPrecision": 5,
+   "CurrencyFlag": "Y",
+   "@context": {
+    "key": "BUK"
+   }
+  },
+  {
+   "CurrencyCode": "GEL",
+   "Name": "Lari",
+   "Description": "Lari",
+   "EnabledFlag": "Y",
+   "StartDateActive": null,
+   "EndDateActive": null,
+   "ActiveDate": null,
+   "CurrencyFormat": "#,##0.00;-#,##0.00",
+   "CurrencyFormatWithSymbol": "'Lari'#,##0.00;-'Lari'#,##0.00",
+   "CurrencyFormatWithCode": "'GEL' #,##0.00;'GEL' -#,##0.00",
+   "IssuingTerritoryCode": "GE",
+   "Symbol": "Lari",
+   "Precision": 2,
+   "ExtendedPrecision": 5,
+   "CurrencyFlag": "Y",
+   "@context": {
+    "key": "GEL"
+   }
+  },
+  {
+   "CurrencyCode": "LVL",
+   "Name": "Latvian Lats",
+   "Description": "Latvian Lats",
+   "EnabledFlag": "Y",
+   "StartDateActive": "1951-01-01",
+   "EndDateActive": null,
+   "ActiveDate": null,
+   "CurrencyFormat": "#,##0.00;-#,##0.00",
+   "CurrencyFormatWithSymbol": "'Ls'#,##0.00;-'Ls'#,##0.00",
+   "CurrencyFormatWithCode": "'LVL' #,##0.00;'LVL' -#,##0.00",
+   "IssuingTerritoryCode": "LV",
+   "Symbol": "Ls",
+   "Precision": 2,
+   "ExtendedPrecision": 5,
+   "CurrencyFlag": "Y",
+   "@context": {
+    "key": "LVL"
+   }
+  },
+  {
+   "CurrencyCode": "LVR",
+   "Name": "Latvian Ruble",
+   "Description": "Latvian Ruble",
+   "EnabledFlag": "Y",
+   "StartDateActive": null,
+   "EndDateActive": null,
+   "ActiveDate": null,
+   "CurrencyFormat": "#,##0.00;-#,##0.00",
+   "CurrencyFormatWithSymbol": "'LVR' #,##0.00;'LVR' -#,##0.00",
+   "CurrencyFormatWithCode": "'LVR' #,##0.00;'LVR' -#,##0.00",
+   "IssuingTerritoryCode": "LV",
+   "Symbol": null,
+   "Precision": 2,
+   "ExtendedPrecision": 5,
+   "CurrencyFlag": "Y",
+   "@context": {
+    "key": "LVR"
+   }
+  },
+  {
+   "CurrencyCode": "LBP",
+   "Name": "Lebanese Pound",
+   "Description": "Lebanese Pound",
+   "EnabledFlag": "Y",
+   "StartDateActive": null,
+   "EndDateActive": null,
+   "ActiveDate": null,
+   "CurrencyFormat": "#,##0.00;-#,##0.00",
+   "CurrencyFormatWithSymbol": "'\u00a3'#,##0.00;-'\u00a3'#,##0.00",
+   "CurrencyFormatWithCode": "'LBP' #,##0.00;'LBP' -#,##0.00",
+   "IssuingTerritoryCode": "LB",
+   "Symbol": "\u00a3",
+   "Precision": 2,
+   "ExtendedPrecision": 5,
+   "CurrencyFlag": "Y",
+   "@context": {
+    "key": "LBP"
+   }
+  },
+  {
+   "CurrencyCode": "ALL",
+   "Name": "Lek",
+   "Description": "Lek",
+   "EnabledFlag": "Y",
+   "StartDateActive": null,
+   "EndDateActive": null,
+   "ActiveDate": null,
+   "CurrencyFormat": "#,##0.00;-#,##0.00",
+   "CurrencyFormatWithSymbol": "'Lek'#,##0.00;-'Lek'#,##0.00",
+   "CurrencyFormatWithCode": "'ALL' #,##0.00;'ALL' -#,##0.00",
+   "IssuingTerritoryCode": "AL",
+   "Symbol": "Lek",
+   "Precision": 2,
+   "ExtendedPrecision": 5,
+   "CurrencyFlag": "Y",
+   "@context": {
+    "key": "ALL"
+   }
+  },
+  {
+   "CurrencyCode": "HNL",
+   "Name": "Lempira",
+   "Description": "Lempira",
+   "EnabledFlag": "Y",
+   "StartDateActive": null,
+   "EndDateActive": null,
+   "ActiveDate": null,
+   "CurrencyFormat": "#,##0.00;-#,##0.00",
+   "CurrencyFormatWithSymbol": "'L' #,##0.00;'L' -#,##0.00",
+   "CurrencyFormatWithCode": "'HNL' #,##0.00;'HNL' -#,##0.00",
+   "IssuingTerritoryCode": "HN",
+   "Symbol": "L",
+   "Precision": 2,
+   "ExtendedPrecision": 5,
+   "CurrencyFlag": "Y",
+   "@context": {
+    "key": "HNL"
+   }
+  },
+  {
+   "CurrencyCode": "SLL",
+   "Name": "Leone",
+   "Description": "Leone",
+   "EnabledFlag": "Y",
+   "StartDateActive": null,
+   "EndDateActive": null,
+   "ActiveDate": null,
+   "CurrencyFormat": "#,##0.00;-#,##0.00",
+   "CurrencyFormatWithSymbol": "'Le'#,##0.00;-'Le'#,##0.00",
+   "CurrencyFormatWithCode": "'SLL' #,##0.00;'SLL' -#,##0.00",
+   "IssuingTerritoryCode": "SL",
+   "Symbol": "Le",
+   "Precision": 2,
+   "ExtendedPrecision": 5,
+   "CurrencyFlag": "Y",
+   "@context": {
+    "key": "SLL"
+   }
+  },
+  {
+   "CurrencyCode": "ROL",
+   "Name": "Leu",
+   "Description": "Leu",
+   "EnabledFlag": "Y",
+   "StartDateActive": null,
+   "EndDateActive": "2006-12-31",
+   "ActiveDate": null,
+   "CurrencyFormat": "#,##0.00;-#,##0.00",
+   "CurrencyFormatWithSymbol": "'lei'#,##0.00;-'lei'#,##0.00",
+   "CurrencyFormatWithCode": "'ROL' #,##0.00;'ROL' -#,##0.00",
+   "IssuingTerritoryCode": "RO",
+   "Symbol": "lei",
+   "Precision": 2,
+   "ExtendedPrecision": 5,
+   "CurrencyFlag": "Y",
+   "@context": {
+    "key": "ROL"
+   }
+  },
+  {
+   "CurrencyCode": "LRD",
+   "Name": "Liberian Dollar",
+   "Description": "Liberian Dollar",
+   "EnabledFlag": "Y",
+   "StartDateActive": null,
+   "EndDateActive": null,
+   "ActiveDate": null,
+   "CurrencyFormat": "#,##0.00;-#,##0.00",
+   "CurrencyFormatWithSymbol": "'$'#,##0.00;-'$'#,##0.00",
+   "CurrencyFormatWithCode": "'LRD' #,##0.00;'LRD' -#,##0.00",
+   "IssuingTerritoryCode": "LR",
+   "Symbol": "$",
+   "Precision": 2,
+   "ExtendedPrecision": 5,
+   "CurrencyFlag": "Y",
+   "@context": {
+    "key": "LRD"
+   }
+  },
+  {
+   "CurrencyCode": "LYD",
+   "Name": "Libyan Dinar",
+   "Description": "Libyan Dinar",
+   "EnabledFlag": "Y",
+   "StartDateActive": null,
+   "EndDateActive": null,
+   "ActiveDate": null,
+   "CurrencyFormat": "#,##0.000;-#,##0.000",
+   "CurrencyFormatWithSymbol": "'\u062f.\u0644.\u200f'#,##0.000;-'\u062f.\u0644.\u200f'#,##0.000",
+   "CurrencyFormatWithCode": "'LYD' #,##0.000;'LYD' -#,##0.000",
+   "IssuingTerritoryCode": "LY",
+   "Symbol": "\u062f.\u0644.\u200f",
+   "Precision": 3,
+   "ExtendedPrecision": 6,
+   "CurrencyFlag": "Y",
+   "@context": {
+    "key": "LYD"
+   }
+  },
+  {
+   "CurrencyCode": "SZL",
+   "Name": "Lilangeni",
+   "Description": "Lilangeni",
+   "EnabledFlag": "Y",
+   "StartDateActive": null,
+   "EndDateActive": null,
+   "ActiveDate": null,
+   "CurrencyFormat": "#,##0.00;-#,##0.00",
+   "CurrencyFormatWithSymbol": "'SZL' #,##0.00;'SZL' -#,##0.00",
+   "CurrencyFormatWithCode": "'SZL' #,##0.00;'SZL' -#,##0.00",
+   "IssuingTerritoryCode": "SZ",
+   "Symbol": null,
+   "Precision": 2,
+   "ExtendedPrecision": 5,
+   "CurrencyFlag": "Y",
+   "@context": {
+    "key": "SZL"
+   }
+  },
+  {
+   "CurrencyCode": "LTL",
+   "Name": "Lithuanian Litas",
+   "Description": "Lithuanian Litas",
+   "EnabledFlag": "Y",
+   "StartDateActive": null,
+   "EndDateActive": "2014-12-31",
+   "ActiveDate": null,
+   "CurrencyFormat": "#,##0.00;-#,##0.00",
+   "CurrencyFormatWithSymbol": "'Lt'#,##0.00;-'Lt'#,##0.00",
+   "CurrencyFormatWithCode": "'LTL' #,##0.00;'LTL' -#,##0.00",
+   "IssuingTerritoryCode": "LT",
+   "Symbol": "Lt",
+   "Precision": 2,
+   "ExtendedPrecision": 5,
+   "CurrencyFlag": "Y",
+   "@context": {
+    "key": "LTL"
+   }
+  },
+  {
+   "CurrencyCode": "LSL",
+   "Name": "Loti",
+   "Description": "Loti",
+   "EnabledFlag": "Y",
+   "StartDateActive": null,
+   "EndDateActive": null,
+   "ActiveDate": null,
+   "CurrencyFormat": "#,##0.00;-#,##0.00",
+   "CurrencyFormatWithSymbol": "'LSL' #,##0.00;'LSL' -#,##0.00",
+   "CurrencyFormatWithCode": "'LSL' #,##0.00;'LSL' -#,##0.00",
+   "IssuingTerritoryCode": "LS",
+   "Symbol": null,
+   "Precision": 2,
+   "ExtendedPrecision": 5,
+   "CurrencyFlag": "Y",
+   "@context": {
+    "key": "LSL"
+   }
+  },
+  {
+   "CurrencyCode": "LUF",
+   "Name": "Luxembourg Franc",
+   "Description": "Luxembourg Franc",
+   "EnabledFlag": "Y",
+   "StartDateActive": null,
+   "EndDateActive": null,
+   "ActiveDate": null,
+   "CurrencyFormat": "#,##0;-#,##0",
+   "CurrencyFormatWithSymbol": "'\u20a3'#,##0;-'\u20a3'#,##0",
+   "CurrencyFormatWithCode": "'LUF' #,##0;'LUF' -#,##0",
+   "IssuingTerritoryCode": "LU",
+   "Symbol": "\u20a3",
+   "Precision": 0,
+   "ExtendedPrecision": 3,
+   "CurrencyFlag": "Y",
+   "@context": {
+    "key": "LUF"
+   }
+  },
+  {
+   "CurrencyCode": "MGA",
+   "Name": "Malagasy Ariary",
+   "Description": "Malagasy Ariary",
+   "EnabledFlag": "Y",
+   "StartDateActive": null,
+   "EndDateActive": null,
+   "ActiveDate": null,
+   "CurrencyFormat": "#,##0.00;-#,##0.00",
+   "CurrencyFormatWithSymbol": "'MGA' #,##0.00;'MGA' -#,##0.00",
+   "CurrencyFormatWithCode": "'MGA' #,##0.00;'MGA' -#,##0.00",
+   "IssuingTerritoryCode": "MG",
+   "Symbol": null,
+   "Precision": 2,
+   "ExtendedPrecision": 5,
+   "CurrencyFlag": "Y",
+   "@context": {
+    "key": "MGA"
+   }
+  },
+  {
+   "CurrencyCode": "MGF",
+   "Name": "Malagasy Franc",
+   "Description": "Malagasy Franc",
+   "EnabledFlag": "Y",
+   "StartDateActive": null,
+   "EndDateActive": "2004-12-31",
+   "ActiveDate": null,
+   "CurrencyFormat": "#,##0;-#,##0",
+   "CurrencyFormatWithSymbol": "'MGF' #,##0;'MGF' -#,##0",
+   "CurrencyFormatWithCode": "'MGF' #,##0;'MGF' -#,##0",
+   "IssuingTerritoryCode": "MG",
+   "Symbol": null,
+   "Precision": 0,
+   "ExtendedPrecision": 3,
+   "CurrencyFlag": "Y",
+   "@context": {
+    "key": "MGF"
+   }
+  },
+  {
+   "CurrencyCode": "MYR",
+   "Name": "Malaysian Ringgit",
+   "Description": "Malaysian Ringgit",
+   "EnabledFlag": "Y",
+   "StartDateActive": null,
+   "EndDateActive": null,
+   "ActiveDate": null,
+   "CurrencyFormat": "#,##0.00;-#,##0.00",
+   "CurrencyFormatWithSymbol": "'RM' #,##0.00;'RM' -#,##0.00",
+   "CurrencyFormatWithCode": "'MYR' #,##0.00;'MYR' -#,##0.00",
+   "IssuingTerritoryCode": "MY",
+   "Symbol": "RM",
+   "Precision": 2,
+   "ExtendedPrecision": 5,
+   "CurrencyFlag": "Y",
+   "@context": {
+    "key": "MYR"
+   }
+  },
+  {
+   "CurrencyCode": "MTL",
+   "Name": "Maltese Lira",
+   "Description": "Maltese Lira",
+   "EnabledFlag": "Y",
+   "StartDateActive": null,
+   "EndDateActive": null,
+   "ActiveDate": null,
+   "CurrencyFormat": "#,##0.00;-#,##0.00",
+   "CurrencyFormatWithSymbol": "'Lm'#,##0.00;-'Lm'#,##0.00",
+   "CurrencyFormatWithCode": "'MTL' #,##0.00;'MTL' -#,##0.00",
+   "IssuingTerritoryCode": "MT",
+   "Symbol": "Lm",
+   "Precision": 2,
+   "ExtendedPrecision": 5,
+   "CurrencyFlag": "Y",
+   "@context": {
+    "key": "MTL"
+   }
+  },
+  {
+   "CurrencyCode": "TMT",
+   "Name": "Manat",
+   "Description": "Manat",
+   "EnabledFlag": "Y",
+   "StartDateActive": "2009-01-01",
+   "EndDateActive": null,
+   "ActiveDate": null,
+   "CurrencyFormat": "#,##0.00;-#,##0.00",
+   "CurrencyFormatWithSymbol": "'m'#,##0.00;-'m'#,##0.00",
+   "CurrencyFormatWithCode": "'TMT' #,##0.00;'TMT' -#,##0.00",
+   "IssuingTerritoryCode": "TM",
+   "Symbol": "m",
+   "Precision": 2,
+   "ExtendedPrecision": 5,
+   "CurrencyFlag": "Y",
+   "@context": {
+    "key": "TMT"
+   }
+  },
+  {
+   "CurrencyCode": "TMM",
+   "Name": "Manat (Obsolete)",
+   "Description": "Manat (Obsolete)",
+   "EnabledFlag": "Y",
+   "StartDateActive": null,
+   "EndDateActive": "2009-12-31",
+   "ActiveDate": null,
+   "CurrencyFormat": "#,##0.00;-#,##0.00",
+   "CurrencyFormatWithSymbol": "'m'#,##0.00;-'m'#,##0.00",
+   "CurrencyFormatWithCode": "'TMM' #,##0.00;'TMM' -#,##0.00",
+   "IssuingTerritoryCode": "TM",
+   "Symbol": "m",
+   "Precision": 2,
+   "ExtendedPrecision": 5,
+   "CurrencyFlag": "Y",
+   "@context": {
+    "key": "TMM"
+   }
+  },
+  {
+   "CurrencyCode": "FIM",
+   "Name": "Markka",
+   "Description": "Markka",
+   "EnabledFlag": "Y",
+   "StartDateActive": null,
+   "EndDateActive": null,
+   "ActiveDate": null,
+   "CurrencyFormat": "#,##0.00;-#,##0.00",
+   "CurrencyFormatWithSymbol": "'FIM' #,##0.00;'FIM' -#,##0.00",
+   "CurrencyFormatWithCode": "'FIM' #,##0.00;'FIM' -#,##0.00",
+   "IssuingTerritoryCode": "FI",
+   "Symbol": null,
+   "Precision": 2,
+   "ExtendedPrecision": 5,
+   "CurrencyFlag": "Y",
+   "@context": {
+    "key": "FIM"
+   }
+  },
+  {
+   "CurrencyCode": "MUR",
+   "Name": "Mauritius Rupee",
+   "Description": "Mauritius Rupee",
+   "EnabledFlag": "Y",
+   "StartDateActive": null,
+   "EndDateActive": null,
+   "ActiveDate": null,
+   "CurrencyFormat": "#,##0.00;-#,##0.00",
+   "CurrencyFormatWithSymbol": "'\u20a8'#,##0.00;-'\u20a8'#,##0.00",
+   "CurrencyFormatWithCode": "'MUR' #,##0.00;'MUR' -#,##0.00",
+   "IssuingTerritoryCode": "MU",
+   "Symbol": "\u20a8",
+   "Precision": 2,
+   "ExtendedPrecision": 5,
+   "CurrencyFlag": "Y",
+   "@context": {
+    "key": "MUR"
+   }
+  },
+  {
+   "CurrencyCode": "MZN",
+   "Name": "Metical",
+   "Description": "Metical",
+   "EnabledFlag": "Y",
+   "StartDateActive": null,
+   "EndDateActive": null,
+   "ActiveDate": null,
+   "CurrencyFormat": "#,##0.00;-#,##0.00",
+   "CurrencyFormatWithSymbol": "'MT' #,##0.00;'MT' -#,##0.00",
+   "CurrencyFormatWithCode": "'MZN' #,##0.00;'MZN' -#,##0.00",
+   "IssuingTerritoryCode": "MZ",
+   "Symbol": "MT",
+   "Precision": 2,
+   "ExtendedPrecision": 5,
+   "CurrencyFlag": "Y",
+   "@context": {
+    "key": "MZN"
+   }
+  },
+  {
+   "CurrencyCode": "MZM",
+   "Name": "Metical (old)",
+   "Description": "Metical (old)",
+   "EnabledFlag": "Y",
+   "StartDateActive": null,
+   "EndDateActive": "2006-12-31",
+   "ActiveDate": null,
+   "CurrencyFormat": "#,##0.00;-#,##0.00",
+   "CurrencyFormatWithSymbol": "'MZM' #,##0.00;'MZM' -#,##0.00",
+   "CurrencyFormatWithCode": "'MZM' #,##0.00;'MZM' -#,##0.00",
+   "IssuingTerritoryCode": "MZ",
+   "Symbol": null,
+   "Precision": 2,
+   "ExtendedPrecision": 5,
+   "CurrencyFlag": "Y",
+   "@context": {
+    "key": "MZM"
+   }
+  },
+  {
+   "CurrencyCode": "MXN",
+   "Name": "Mexican Peso",
+   "Description": "Mexican Peso",
+   "EnabledFlag": "Y",
+   "StartDateActive": null,
+   "EndDateActive": null,
+   "ActiveDate": null,
+   "CurrencyFormat": "#,##0.00;-#,##0.00",
+   "CurrencyFormatWithSymbol": "'$'#,##0.00;-'$'#,##0.00",
+   "CurrencyFormatWithCode": "'MXN' #,##0.00;'MXN' -#,##0.00",
+   "IssuingTerritoryCode": "MX",
+   "Symbol": "$",
+   "Precision": 2,
+   "ExtendedPrecision": 5,
+   "CurrencyFlag": "Y",
+   "@context": {
+    "key": "MXN"
+   }
+  },
+  {
+   "CurrencyCode": "MXP",
+   "Name": "Mexican Peso (Obsolete)",
+   "Description": "Mexican Peso (Obsolete)",
+   "EnabledFlag": "Y",
+   "StartDateActive": null,
+   "EndDateActive": "1994-08-12",
+   "ActiveDate": null,
+   "CurrencyFormat": "#,##0;-#,##0",
+   "CurrencyFormatWithSymbol": "'MXP' #,##0;'MXP' -#,##0",
+   "CurrencyFormatWithCode": "'MXP' #,##0;'MXP' -#,##0",
+   "IssuingTerritoryCode": "MX",
+   "Symbol": null,
+   "Precision": 0,
+   "ExtendedPrecision": 3,
+   "CurrencyFlag": "Y",
+   "@context": {
+    "key": "MXP"
+   }
+  },
+  {
+   "CurrencyCode": "MXV",
+   "Name": "Mexican Unidad de Inversion (UDI)",
+   "Description": "Mexican Unidad de Inversion (UDI)",
+   "EnabledFlag": "Y",
+   "StartDateActive": null,
+   "EndDateActive": null,
+   "ActiveDate": null,
+   "CurrencyFormat": "#,##0.00;-#,##0.00",
+   "CurrencyFormatWithSymbol": "'MXV' #,##0.00;'MXV' -#,##0.00",
+   "CurrencyFormatWithCode": "'MXV' #,##0.00;'MXV' -#,##0.00",
+   "IssuingTerritoryCode": "MX",
+   "Symbol": null,
+   "Precision": 2,
+   "ExtendedPrecision": 5,
+   "CurrencyFlag": "Y",
+   "@context": {
+    "key": "MXV"
+   }
+  },
+  {
+   "CurrencyCode": "MDL",
+   "Name": "Moldovan Leu",
+   "Description": "Moldovan Leu",
+   "EnabledFlag": "Y",
+   "StartDateActive": null,
+   "EndDateActive": null,
+   "ActiveDate": null,
+   "CurrencyFormat": "#,##0.00;-#,##0.00",
+   "CurrencyFormatWithSymbol": "'MDL' #,##0.00;'MDL' -#,##0.00",
+   "CurrencyFormatWithCode": "'MDL' #,##0.00;'MDL' -#,##0.00",
+   "IssuingTerritoryCode": "MD",
+   "Symbol": null,
+   "Precision": 2,
+   "ExtendedPrecision": 5,
+   "CurrencyFlag": "Y",
+   "@context": {
+    "key": "MDL"
+   }
+  },
+  {
+   "CurrencyCode": "MAD",
+   "Name": "Moroccan Dirham",
+   "Description": "Moroccan Dirham",
+   "EnabledFlag": "Y",
+   "StartDateActive": null,
+   "EndDateActive": null,
+   "ActiveDate": null,
+   "CurrencyFormat": "#,##0.00;-#,##0.00",
+   "CurrencyFormatWithSymbol": "'\u062f.\u0645.\u200f'#,##0.00;-'\u062f.\u0645.\u200f'#,##0.00",
+   "CurrencyFormatWithCode": "'MAD' #,##0.00;'MAD' -#,##0.00",
+   "IssuingTerritoryCode": "MA",
+   "Symbol": "\u062f.\u0645.\u200f",
+   "Precision": 2,
+   "ExtendedPrecision": 5,
+   "CurrencyFlag": "Y",
+   "@context": {
+    "key": "MAD"
+   }
+  },
+  {
+   "CurrencyCode": "BOV",
+   "Name": "Mvdol",
+   "Description": "Mvdol",
+   "EnabledFlag": "Y",
+   "StartDateActive": null,
+   "EndDateActive": null,
+   "ActiveDate": null,
+   "CurrencyFormat": "#,##0.00;-#,##0.00",
+   "CurrencyFormatWithSymbol": "'BOV' #,##0.00;'BOV' -#,##0.00",
+   "CurrencyFormatWithCode": "'BOV' #,##0.00;'BOV' -#,##0.00",
+   "IssuingTerritoryCode": "BO",
+   "Symbol": null,
+   "Precision": 2,
+   "ExtendedPrecision": 5,
+   "CurrencyFlag": "Y",
+   "@context": {
+    "key": "BOV"
+   }
+  },
+  {
+   "CurrencyCode": "NGN",
+   "Name": "Naira",
+   "Description": "Naira",
+   "EnabledFlag": "Y",
+   "StartDateActive": null,
+   "EndDateActive": null,
+   "ActiveDate": null,
+   "CurrencyFormat": "#,##0.00;-#,##0.00",
+   "CurrencyFormatWithSymbol": "'\u20a6'#,##0.00;-'\u20a6'#,##0.00",
+   "CurrencyFormatWithCode": "'NGN' #,##0.00;'NGN' -#,##0.00",
+   "IssuingTerritoryCode": "NG",
+   "Symbol": "\u20a6",
+   "Precision": 2,
+   "ExtendedPrecision": 5,
+   "CurrencyFlag": "Y",
+   "@context": {
+    "key": "NGN"
+   }
+  },
+  {
+   "CurrencyCode": "ERN",
+   "Name": "Nakfa",
+   "Description": "Nakfa",
+   "EnabledFlag": "Y",
+   "StartDateActive": null,
+   "EndDateActive": null,
+   "ActiveDate": null,
+   "CurrencyFormat": "#,##0.00;-#,##0.00",
+   "CurrencyFormatWithSymbol": "'Nfk'#,##0.00;-'Nfk'#,##0.00",
+   "CurrencyFormatWithCode": "'ERN' #,##0.00;'ERN' -#,##0.00",
+   "IssuingTerritoryCode": "ER",
+   "Symbol": "Nfk",
+   "Precision": 2,
+   "ExtendedPrecision": 5,
+   "CurrencyFlag": "Y",
+   "@context": {
+    "key": "ERN"
+   }
+  },
+  {
+   "CurrencyCode": "NAD",
+   "Name": "Namibia Dollar",
+   "Description": "Namibia Dollar",
+   "EnabledFlag": "Y",
+   "StartDateActive": "1951-01-01",
+   "EndDateActive": null,
+   "ActiveDate": null,
+   "CurrencyFormat": "#,##0.00;-#,##0.00",
+   "CurrencyFormatWithSymbol": "'$'#,##0.00;-'$'#,##0.00",
+   "CurrencyFormatWithCode": "'NAD' #,##0.00;'NAD' -#,##0.00",
+   "IssuingTerritoryCode": "NA",
+   "Symbol": "$",
+   "Precision": 2,
+   "ExtendedPrecision": 5,
+   "CurrencyFlag": "Y",
+   "@context": {
+    "key": "NAD"
+   }
+  },
+  {
+   "CurrencyCode": "NPR",
+   "Name": "Nepalese Rupee",
+   "Description": "Nepalese Rupee",
+   "EnabledFlag": "Y",
+   "StartDateActive": null,
+   "EndDateActive": null,
+   "ActiveDate": null,
+   "CurrencyFormat": "#,##0.00;-#,##0.00",
+   "CurrencyFormatWithSymbol": "'\u20a8'#,##0.00;-'\u20a8'#,##0.00",
+   "CurrencyFormatWithCode": "'NPR' #,##0.00;'NPR' -#,##0.00",
+   "IssuingTerritoryCode": "NP",
+   "Symbol": "\u20a8",
+   "Precision": 2,
+   "ExtendedPrecision": 5,
+   "CurrencyFlag": "Y",
+   "@context": {
+    "key": "NPR"
+   }
+  },
+  {
+   "CurrencyCode": "ANG",
+   "Name": "Netherlands Antillian Guilder",
+   "Description": "Netherlands Antillian Guilder",
+   "EnabledFlag": "Y",
+   "StartDateActive": null,
+   "EndDateActive": null,
+   "ActiveDate": null,
+   "CurrencyFormat": "#,##0.00;-#,##0.00",
+   "CurrencyFormatWithSymbol": "'\u0192'#,##0.00;-'\u0192'#,##0.00",
+   "CurrencyFormatWithCode": "'ANG' #,##0.00;'ANG' -#,##0.00",
+   "IssuingTerritoryCode": "AN",
+   "Symbol": "\u0192",
+   "Precision": 2,
+   "ExtendedPrecision": 5,
+   "CurrencyFlag": "Y",
+   "@context": {
+    "key": "ANG"
+   }
+  },
+  {
+   "CurrencyCode": "NLG",
+   "Name": "Netherlands Guilder",
+   "Description": "Netherlands Guilder",
+   "EnabledFlag": "Y",
+   "StartDateActive": null,
+   "EndDateActive": null,
+   "ActiveDate": null,
+   "CurrencyFormat": "#,##0.00;-#,##0.00",
+   "CurrencyFormatWithSymbol": "'\u0192'#,##0.00;-'\u0192'#,##0.00",
+   "CurrencyFormatWithCode": "'NLG' #,##0.00;'NLG' -#,##0.00",
+   "IssuingTerritoryCode": "NL",
+   "Symbol": "\u0192",
+   "Precision": 2,
+   "ExtendedPrecision": 5,
+   "CurrencyFlag": "Y",
+   "@context": {
+    "key": "NLG"
+   }
+  },
+  {
+   "CurrencyCode": "ILS",
+   "Name": "New Israeli Sheqel",
+   "Description": "New Israeli Sheqel",
+   "EnabledFlag": "Y",
+   "StartDateActive": null,
+   "EndDateActive": null,
+   "ActiveDate": null,
+   "CurrencyFormat": "#,##0.00;-#,##0.00",
+   "CurrencyFormatWithSymbol": "'\u20aa'#,##0.00;-'\u20aa'#,##0.00",
+   "CurrencyFormatWithCode": "'ILS' #,##0.00;'ILS' -#,##0.00",
+   "IssuingTerritoryCode": "IL",
+   "Symbol": "\u20aa",
+   "Precision": 2,
+   "ExtendedPrecision": 5,
+   "CurrencyFlag": "Y",
+   "@context": {
+    "key": "ILS"
+   }
+  },
+  {
+   "CurrencyCode": "AON",
+   "Name": "New Kwanza",
+   "Description": "New Kwanza",
+   "EnabledFlag": "Y",
+   "StartDateActive": null,
+   "EndDateActive": null,
+   "ActiveDate": null,
+   "CurrencyFormat": "#,##0.00;-#,##0.00",
+   "CurrencyFormatWithSymbol": "'AON' #,##0.00;'AON' -#,##0.00",
+   "CurrencyFormatWithCode": "'AON' #,##0.00;'AON' -#,##0.00",
+   "IssuingTerritoryCode": "AO",
+   "Symbol": null,
+   "Precision": 2,
+   "ExtendedPrecision": 5,
+   "CurrencyFlag": "Y",
+   "@context": {
+    "key": "AON"
+   }
+  },
+  {
+   "CurrencyCode": "SLE",
+   "Name": "New Leone",
+   "Description": "New Leone",
+   "EnabledFlag": "Y",
+   "StartDateActive": "2022-04-01",
+   "EndDateActive": null,
+   "ActiveDate": null,
+   "CurrencyFormat": "#,##0.00;-#,##0.00",
+   "CurrencyFormatWithSymbol": "'Le'#,##0.00;-'Le'#,##0.00",
+   "CurrencyFormatWithCode": "'SLE' #,##0.00;'SLE' -#,##0.00",
+   "IssuingTerritoryCode": "SL",
+   "Symbol": "Le",
+   "Precision": 2,
+   "ExtendedPrecision": null,
+   "CurrencyFlag": "Y",
+   "@context": {
+    "key": "SLE"
+   }
+  },
+  {
+   "CurrencyCode": "RON",
+   "Name": "New Romanian Leu",
+   "Description": "New Romanian Leu",
+   "EnabledFlag": "Y",
+   "StartDateActive": null,
+   "EndDateActive": null,
+   "ActiveDate": null,
+   "CurrencyFormat": "#,##0.00;-#,##0.00",
+   "CurrencyFormatWithSymbol": "'lei'#,##0.00;-'lei'#,##0.00",
+   "CurrencyFormatWithCode": "'RON' #,##0.00;'RON' -#,##0.00",
+   "IssuingTerritoryCode": "RO",
+   "Symbol": "lei",
+   "Precision": 2,
+   "ExtendedPrecision": 5,
+   "CurrencyFlag": "Y",
+   "@context": {
+    "key": "RON"
+   }
+  },
+  {
+   "CurrencyCode": "TWD",
+   "Name": "New Taiwan Dollar",
+   "Description": "New Taiwan Dollar",
+   "EnabledFlag": "Y",
+   "StartDateActive": null,
+   "EndDateActive": null,
+   "ActiveDate": null,
+   "CurrencyFormat": "#,##0.00;-#,##0.00",
+   "CurrencyFormatWithSymbol": "'NT$'#,##0.00;-'NT$'#,##0.00",
+   "CurrencyFormatWithCode": "'TWD' #,##0.00;'TWD' -#,##0.00",
+   "IssuingTerritoryCode": "TW",
+   "Symbol": "NT$",
+   "Precision": 2,
+   "ExtendedPrecision": 5,
+   "CurrencyFlag": "Y",
+   "@context": {
+    "key": "TWD"
+   }
+  },
+  {
+   "CurrencyCode": "TRY",
+   "Name": "New Turkish Lira",
+   "Description": "New Turkish Lira",
+   "EnabledFlag": "Y",
+   "StartDateActive": null,
+   "EndDateActive": null,
+   "ActiveDate": null,
+   "CurrencyFormat": "#,##0.00;-#,##0.00",
+   "CurrencyFormatWithSymbol": "'YTL' #,##0.00;'YTL' -#,##0.00",
+   "CurrencyFormatWithCode": "'TRY' #,##0.00;'TRY' -#,##0.00",
+   "IssuingTerritoryCode": "TR",
+   "Symbol": "YTL",
+   "Precision": 2,
+   "ExtendedPrecision": 5,
+   "CurrencyFlag": "Y",
+   "@context": {
+    "key": "TRY"
+   }
+  },
+  {
+   "CurrencyCode": "YUD",
+   "Name": "New Yugoslavian Dinar",
+   "Description": "New Yugoslavian Dinar",
+   "EnabledFlag": "Y",
+   "StartDateActive": null,
+   "EndDateActive": "1994-08-12",
+   "ActiveDate": null,
+   "CurrencyFormat": "#,##0;-#,##0",
+   "CurrencyFormatWithSymbol": "'YUD' #,##0;'YUD' -#,##0",
+   "CurrencyFormatWithCode": "'YUD' #,##0;'YUD' -#,##0",
+   "IssuingTerritoryCode": "YU",
+   "Symbol": null,
+   "Precision": 0,
+   "ExtendedPrecision": 3,
+   "CurrencyFlag": "Y",
+   "@context": {
+    "key": "YUD"
+   }
+  },
+  {
+   "CurrencyCode": "ZRN",
+   "Name": "New Zaire",
+   "Description": "New Zaire",
+   "EnabledFlag": "Y",
+   "StartDateActive": null,
+   "EndDateActive": null,
+   "ActiveDate": null,
+   "CurrencyFormat": "#,##0.00;-#,##0.00",
+   "CurrencyFormatWithSymbol": "'ZRN' #,##0.00;'ZRN' -#,##0.00",
+   "CurrencyFormatWithCode": "'ZRN' #,##0.00;'ZRN' -#,##0.00",
+   "IssuingTerritoryCode": "CD",
+   "Symbol": null,
+   "Precision": 2,
+   "ExtendedPrecision": 5,
+   "CurrencyFlag": "Y",
+   "@context": {
+    "key": "ZRN"
+   }
+  },
+  {
+   "CurrencyCode": "NZD",
+   "Name": "New Zealand Dollar",
+   "Description": "New Zealand Dollar",
+   "EnabledFlag": "Y",
+   "StartDateActive": null,
+   "EndDateActive": null,
+   "ActiveDate": null,
+   "CurrencyFormat": "#,##0.00;-#,##0.00",
+   "CurrencyFormatWithSymbol": "'$'#,##0.00;-'$'#,##0.00",
+   "CurrencyFormatWithCode": "'NZD' #,##0.00;'NZD' -#,##0.00",
+   "IssuingTerritoryCode": "NZ",
+   "Symbol": "$",
+   "Precision": 2,
+   "ExtendedPrecision": 5,
+   "CurrencyFlag": "Y",
+   "@context": {
+    "key": "NZD"
+   }
+  },
+  {
+   "CurrencyCode": "BTN",
+   "Name": "Ngultrum",
+   "Description": "Ngultrum",
+   "EnabledFlag": "Y",
+   "StartDateActive": null,
+   "EndDateActive": null,
+   "ActiveDate": null,
+   "CurrencyFormat": "#,##0.00;-#,##0.00",
+   "CurrencyFormatWithSymbol": "'Nu.'#,##0.00;-'Nu.'#,##0.00",
+   "CurrencyFormatWithCode": "'BTN' #,##0.00;'BTN' -#,##0.00",
+   "IssuingTerritoryCode": "BT",
+   "Symbol": "Nu.",
+   "Precision": 2,
+   "ExtendedPrecision": 5,
+   "CurrencyFlag": "Y",
+   "@context": {
+    "key": "BTN"
+   }
+  },
+  {
+   "CurrencyCode": "XXX",
+   "Name": "No currency",
+   "Description": "Code assigned for transactions where no currency is involved",
+   "EnabledFlag": "Y",
+   "StartDateActive": null,
+   "EndDateActive": null,
+   "ActiveDate": null,
+   "CurrencyFormat": "#,##0;-#,##0",
+   "CurrencyFormatWithSymbol": "'XXX' #,##0;'XXX' -#,##0",
+   "CurrencyFormatWithCode": "'XXX' #,##0;'XXX' -#,##0",
+   "IssuingTerritoryCode": null,
+   "Symbol": null,
+   "Precision": 0,
+   "ExtendedPrecision": null,
+   "CurrencyFlag": "Y",
+   "@context": {
+    "key": "XXX"
+   }
+  },
+  {
+   "CurrencyCode": "KPW",
+   "Name": "North Korean Won",
+   "Description": "North Korean Won",
+   "EnabledFlag": "Y",
+   "StartDateActive": null,
+   "EndDateActive": null,
+   "ActiveDate": null,
+   "CurrencyFormat": "#,##0.00;-#,##0.00",
+   "CurrencyFormatWithSymbol": "'\u20a9'#,##0.00;-'\u20a9'#,##0.00",
+   "CurrencyFormatWithCode": "'KPW' #,##0.00;'KPW' -#,##0.00",
+   "IssuingTerritoryCode": "KP",
+   "Symbol": "\u20a9",
+   "Precision": 2,
+   "ExtendedPrecision": 5,
+   "CurrencyFlag": "Y",
+   "@context": {
+    "key": "KPW"
+   }
+  },
+  {
+   "CurrencyCode": "NOK",
+   "Name": "Norwegian Krone",
+   "Description": "Norwegian Krone",
+   "EnabledFlag": "Y",
+   "StartDateActive": null,
+   "EndDateActive": null,
+   "ActiveDate": null,
+   "CurrencyFormat": "#,##0.00;-#,##0.00",
+   "CurrencyFormatWithSymbol": "'kr'#,##0.00;-'kr'#,##0.00",
+   "CurrencyFormatWithCode": "'NOK' #,##0.00;'NOK' -#,##0.00",
+   "IssuingTerritoryCode": "NO",
+   "Symbol": "kr",
+   "Precision": 2,
+   "ExtendedPrecision": 5,
+   "CurrencyFlag": "Y",
+   "@context": {
+    "key": "NOK"
+   }
+  },
+  {
+   "CurrencyCode": "PEN",
+   "Name": "Nuevo Sol",
+   "Description": "Nuevo Sol",
+   "EnabledFlag": "Y",
+   "StartDateActive": null,
+   "EndDateActive": null,
+   "ActiveDate": null,
+   "CurrencyFormat": "#,##0.00;-#,##0.00",
+   "CurrencyFormatWithSymbol": "'S/.'#,##0.00;-'S/.'#,##0.00",
+   "CurrencyFormatWithCode": "'PEN' #,##0.00;'PEN' -#,##0.00",
+   "IssuingTerritoryCode": "PE",
+   "Symbol": "S/.",
+   "Precision": 2,
+   "ExtendedPrecision": 5,
+   "CurrencyFlag": "Y",
+   "@context": {
+    "key": "PEN"
+   }
+  },
+  {
+   "CurrencyCode": "MRU",
+   "Name": "Ouguiya",
+   "Description": "Ouguiya",
+   "EnabledFlag": "Y",
+   "StartDateActive": "2018-01-01",
+   "EndDateActive": null,
+   "ActiveDate": null,
+   "CurrencyFormat": "#,##0.00;-#,##0.00",
+   "CurrencyFormatWithSymbol": "'UM' #,##0.00;'UM' -#,##0.00",
+   "CurrencyFormatWithCode": "'MRU' #,##0.00;'MRU' -#,##0.00",
+   "IssuingTerritoryCode": "MR",
+   "Symbol": "UM",
+   "Precision": 2,
+   "ExtendedPrecision": 5,
+   "CurrencyFlag": "Y",
+   "@context": {
+    "key": "MRU"
+   }
+  },
+  {
+   "CurrencyCode": "MRO",
+   "Name": "Ouguiya (Obsolete)",
+   "Description": "Ouguiya (Obsolete)",
+   "EnabledFlag": "Y",
+   "StartDateActive": null,
+   "EndDateActive": "2018-06-30",
+   "ActiveDate": null,
+   "CurrencyFormat": "#,##0.00;-#,##0.00",
+   "CurrencyFormatWithSymbol": "'UM' #,##0.00;'UM' -#,##0.00",
+   "CurrencyFormatWithCode": "'MRO' #,##0.00;'MRO' -#,##0.00",
+   "IssuingTerritoryCode": "MR",
+   "Symbol": "UM",
+   "Precision": 2,
+   "ExtendedPrecision": 5,
+   "CurrencyFlag": "Y",
+   "@context": {
+    "key": "MRO"
+   }
+  },
+  {
+   "CurrencyCode": "TOP",
+   "Name": "Pa'anga",
+   "Description": "Pa'anga",
+   "EnabledFlag": "Y",
+   "StartDateActive": null,
+   "EndDateActive": null,
+   "ActiveDate": null,
+   "CurrencyFormat": "#,##0.00;-#,##0.00",
+   "CurrencyFormatWithSymbol": "'T$'#,##0.00;-'T$'#,##0.00",
+   "CurrencyFormatWithCode": "'TOP' #,##0.00;'TOP' -#,##0.00",
+   "IssuingTerritoryCode": "TO",
+   "Symbol": "T$",
+   "Precision": 2,
+   "ExtendedPrecision": 5,
+   "CurrencyFlag": "Y",
+   "@context": {
+    "key": "TOP"
+   }
+  },
+  {
+   "CurrencyCode": "PKR",
+   "Name": "Pakistan Rupee",
+   "Description": "Pakistan Rupee",
+   "EnabledFlag": "Y",
+   "StartDateActive": null,
+   "EndDateActive": null,
+   "ActiveDate": null,
+   "CurrencyFormat": "#,##0.00;-#,##0.00",
+   "CurrencyFormatWithSymbol": "'\u20a8'#,##0.00;-'\u20a8'#,##0.00",
+   "CurrencyFormatWithCode": "'PKR' #,##0.00;'PKR' -#,##0.00",
+   "IssuingTerritoryCode": "PK",
+   "Symbol": "\u20a8",
+   "Precision": 2,
+   "ExtendedPrecision": 5,
+   "CurrencyFlag": "Y",
+   "@context": {
+    "key": "PKR"
+   }
+  },
+  {
+   "CurrencyCode": "XPD",
+   "Name": "Palladium",
+   "Description": "Palladium",
+   "EnabledFlag": "Y",
+   "StartDateActive": null,
+   "EndDateActive": null,
+   "ActiveDate": null,
+   "CurrencyFormat": "#,##0;-#,##0",
+   "CurrencyFormatWithSymbol": "'XPD' #,##0;'XPD' -#,##0",
+   "CurrencyFormatWithCode": "'XPD' #,##0;'XPD' -#,##0",
+   "IssuingTerritoryCode": null,
+   "Symbol": null,
+   "Precision": 0,
+   "ExtendedPrecision": null,
+   "CurrencyFlag": "Y",
+   "@context": {
+    "key": "XPD"
+   }
+  },
+  {
+   "CurrencyCode": "MOP",
+   "Name": "Pataca",
+   "Description": "Pataca",
+   "EnabledFlag": "Y",
+   "StartDateActive": null,
+   "EndDateActive": null,
+   "ActiveDate": null,
+   "CurrencyFormat": "#,##0.00;-#,##0.00",
+   "CurrencyFormatWithSymbol": "'P' #,##0.00;'P' -#,##0.00",
+   "CurrencyFormatWithCode": "'MOP' #,##0.00;'MOP' -#,##0.00",
+   "IssuingTerritoryCode": "MO",
+   "Symbol": "P",
+   "Precision": 2,
+   "ExtendedPrecision": 5,
+   "CurrencyFlag": "Y",
+   "@context": {
+    "key": "MOP"
+   }
+  },
+  {
+   "CurrencyCode": "UYU",
+   "Name": "Peso Uruguayo",
+   "Description": "Peso Uruguayo",
+   "EnabledFlag": "Y",
+   "StartDateActive": null,
+   "EndDateActive": null,
+   "ActiveDate": null,
+   "CurrencyFormat": "#,##0.00;-#,##0.00",
+   "CurrencyFormatWithSymbol": "'$U'#,##0.00;-'$U'#,##0.00",
+   "CurrencyFormatWithCode": "'UYU' #,##0.00;'UYU' -#,##0.00",
+   "IssuingTerritoryCode": "UY",
+   "Symbol": "$U",
+   "Precision": 2,
+   "ExtendedPrecision": 5,
+   "CurrencyFlag": "Y",
+   "@context": {
+    "key": "UYU"
+   }
+  },
+  {
+   "CurrencyCode": "PHP",
+   "Name": "Philippine Peso",
+   "Description": "Philippine Peso",
+   "EnabledFlag": "Y",
+   "StartDateActive": null,
+   "EndDateActive": null,
+   "ActiveDate": null,
+   "CurrencyFormat": "#,##0.00;-#,##0.00",
+   "CurrencyFormatWithSymbol": "'Php'#,##0.00;-'Php'#,##0.00",
+   "CurrencyFormatWithCode": "'PHP' #,##0.00;'PHP' -#,##0.00",
+   "IssuingTerritoryCode": "PH",
+   "Symbol": "Php",
+   "Precision": 2,
+   "ExtendedPrecision": 5,
+   "CurrencyFlag": "Y",
+   "@context": {
+    "key": "PHP"
+   }
+  },
+  {
+   "CurrencyCode": "XPT",
+   "Name": "Platinum",
+   "Description": "Platinum",
+   "EnabledFlag": "Y",
+   "StartDateActive": null,
+   "EndDateActive": null,
+   "ActiveDate": null,
+   "CurrencyFormat": "#,##0;-#,##0",
+   "CurrencyFormatWithSymbol": "'XPT' #,##0;'XPT' -#,##0",
+   "CurrencyFormatWithCode": "'XPT' #,##0;'XPT' -#,##0",
+   "IssuingTerritoryCode": null,
+   "Symbol": null,
+   "Precision": 0,
+   "ExtendedPrecision": null,
+   "CurrencyFlag": "Y",
+   "@context": {
+    "key": "XPT"
+   }
+  },
+  {
+   "CurrencyCode": "PTE",
+   "Name": "Portuguese Escudo",
+   "Description": "Portuguese Escudo",
+   "EnabledFlag": "Y",
+   "StartDateActive": null,
+   "EndDateActive": null,
+   "ActiveDate": null,
+   "CurrencyFormat": "#,##0;-#,##0",
+   "CurrencyFormatWithSymbol": "'PTE' #,##0;'PTE' -#,##0",
+   "CurrencyFormatWithCode": "'PTE' #,##0;'PTE' -#,##0",
+   "IssuingTerritoryCode": "PT",
+   "Symbol": null,
+   "Precision": 0,
+   "ExtendedPrecision": 3,
+   "CurrencyFlag": "Y",
+   "@context": {
+    "key": "PTE"
+   }
+  },
+  {
+   "CurrencyCode": "GBP",
+   "Name": "Pound Sterling",
+   "Description": "Pound Sterling",
+   "EnabledFlag": "Y",
+   "StartDateActive": null,
+   "EndDateActive": null,
+   "ActiveDate": null,
+   "CurrencyFormat": "#,##0.00;-#,##0.00",
+   "CurrencyFormatWithSymbol": "'\u00a3'#,##0.00;-'\u00a3'#,##0.00",
+   "CurrencyFormatWithCode": "'GBP' #,##0.00;'GBP' -#,##0.00",
+   "IssuingTerritoryCode": "GB",
+   "Symbol": "\u00a3",
+   "Precision": 2,
+   "ExtendedPrecision": 5,
+   "CurrencyFlag": "Y",
+   "@context": {
+    "key": "GBP"
+   }
+  },
+  {
+   "CurrencyCode": "BWP",
+   "Name": "Pula",
+   "Description": "Pula",
+   "EnabledFlag": "Y",
+   "StartDateActive": null,
+   "EndDateActive": null,
+   "ActiveDate": null,
+   "CurrencyFormat": "#,##0.00;-#,##0.00",
+   "CurrencyFormatWithSymbol": "'P' #,##0.00;'P' -#,##0.00",
+   "CurrencyFormatWithCode": "'BWP' #,##0.00;'BWP' -#,##0.00",
+   "IssuingTerritoryCode": "BW",
+   "Symbol": "P",
+   "Precision": 2,
+   "ExtendedPrecision": 5,
+   "CurrencyFlag": "Y",
+   "@context": {
+    "key": "BWP"
+   }
+  },
+  {
+   "CurrencyCode": "QAR",
+   "Name": "Qatari Rial",
+   "Description": "Qatari Rial",
+   "EnabledFlag": "Y",
+   "StartDateActive": null,
+   "EndDateActive": null,
+   "ActiveDate": null,
+   "CurrencyFormat": "#,##0.00;-#,##0.00",
+   "CurrencyFormatWithSymbol": "'\ufdfc'#,##0.00;-'\ufdfc'#,##0.00",
+   "CurrencyFormatWithCode": "'QAR' #,##0.00;'QAR' -#,##0.00",
+   "IssuingTerritoryCode": "QA",
+   "Symbol": "\ufdfc",
+   "Precision": 2,
+   "ExtendedPrecision": 5,
+   "CurrencyFlag": "Y",
+   "@context": {
+    "key": "QAR"
+   }
+  },
+  {
+   "CurrencyCode": "GTQ",
+   "Name": "Quetzal",
+   "Description": "Quetzal",
+   "EnabledFlag": "Y",
+   "StartDateActive": null,
+   "EndDateActive": null,
+   "ActiveDate": null,
+   "CurrencyFormat": "#,##0.00;-#,##0.00",
+   "CurrencyFormatWithSymbol": "'Q' #,##0.00;'Q' -#,##0.00",
+   "CurrencyFormatWithCode": "'GTQ' #,##0.00;'GTQ' -#,##0.00",
+   "IssuingTerritoryCode": "GT",
+   "Symbol": "Q",
+   "Precision": 2,
+   "ExtendedPrecision": 5,
+   "CurrencyFlag": "Y",
+   "@context": {
+    "key": "GTQ"
+   }
+  },
+  {
+   "CurrencyCode": "ZAR",
+   "Name": "Rand",
+   "Description": "Rand",
+   "EnabledFlag": "Y",
+   "StartDateActive": null,
+   "EndDateActive": null,
+   "ActiveDate": null,
+   "CurrencyFormat": "#,##0.00;-#,##0.00",
+   "CurrencyFormatWithSymbol": "'R' #,##0.00;'R' -#,##0.00",
+   "CurrencyFormatWithCode": "'ZAR' #,##0.00;'ZAR' -#,##0.00",
+   "IssuingTerritoryCode": "ZA",
+   "Symbol": "R",
+   "Precision": 2,
+   "ExtendedPrecision": 5,
+   "CurrencyFlag": "Y",
+   "@context": {
+    "key": "ZAR"
+   }
+  },
+  {
+   "CurrencyCode": "OMR",
+   "Name": "Rial Omani",
+   "Description": "Rial Omani",
+   "EnabledFlag": "Y",
+   "StartDateActive": null,
+   "EndDateActive": null,
+   "ActiveDate": null,
+   "CurrencyFormat": "#,##0.000;-#,##0.000",
+   "CurrencyFormatWithSymbol": "'\ufdfc'#,##0.000;-'\ufdfc'#,##0.000",
+   "CurrencyFormatWithCode": "'OMR' #,##0.000;'OMR' -#,##0.000",
+   "IssuingTerritoryCode": "OM",
+   "Symbol": "\ufdfc",
+   "Precision": 3,
+   "ExtendedPrecision": 6,
+   "CurrencyFlag": "Y",
+   "@context": {
+    "key": "OMR"
+   }
+  },
+  {
+   "CurrencyCode": "KHR",
+   "Name": "Riel",
+   "Description": "Riel",
+   "EnabledFlag": "Y",
+   "StartDateActive": null,
+   "EndDateActive": null,
+   "ActiveDate": null,
+   "CurrencyFormat": "#,##0.00;-#,##0.00",
+   "CurrencyFormatWithSymbol": "'\u17db'#,##0.00;-'\u17db'#,##0.00",
+   "CurrencyFormatWithCode": "'KHR' #,##0.00;'KHR' -#,##0.00",
+   "IssuingTerritoryCode": "KH",
+   "Symbol": "\u17db",
+   "Precision": 2,
+   "ExtendedPrecision": 5,
+   "CurrencyFlag": "Y",
+   "@context": {
+    "key": "KHR"
+   }
+  },
+  {
+   "CurrencyCode": "SUR",
+   "Name": "Rouble",
+   "Description": "Rouble",
+   "EnabledFlag": "Y",
+   "StartDateActive": null,
+   "EndDateActive": "1994-08-12",
+   "ActiveDate": null,
+   "CurrencyFormat": "#,##0.00;-#,##0.00",
+   "CurrencyFormatWithSymbol": "'SUR' #,##0.00;'SUR' -#,##0.00",
+   "CurrencyFormatWithCode": "'SUR' #,##0.00;'SUR' -#,##0.00",
+   "IssuingTerritoryCode": "RU",
+   "Symbol": null,
+   "Precision": 2,
+   "ExtendedPrecision": 5,
+   "CurrencyFlag": "Y",
+   "@context": {
+    "key": "SUR"
+   }
+  },
+  {
+   "CurrencyCode": "MVR",
+   "Name": "Rufiyaa",
+   "Description": "Rufiyaa",
+   "EnabledFlag": "Y",
+   "StartDateActive": null,
+   "EndDateActive": null,
+   "ActiveDate": null,
+   "CurrencyFormat": "#,##0.00;-#,##0.00",
+   "CurrencyFormatWithSymbol": "'\u0783.'#,##0.00;-'\u0783.'#,##0.00",
+   "CurrencyFormatWithCode": "'MVR' #,##0.00;'MVR' -#,##0.00",
+   "IssuingTerritoryCode": "MV",
+   "Symbol": "\u0783.",
+   "Precision": 2,
+   "ExtendedPrecision": 5,
+   "CurrencyFlag": "Y",
+   "@context": {
+    "key": "MVR"
+   }
+  },
+  {
+   "CurrencyCode": "IDR",
+   "Name": "Rupiah",
+   "Description": "Rupiah",
+   "EnabledFlag": "Y",
+   "StartDateActive": null,
+   "EndDateActive": null,
+   "ActiveDate": null,
+   "CurrencyFormat": "#,##0.00;-#,##0.00",
+   "CurrencyFormatWithSymbol": "'Rp'#,##0.00;-'Rp'#,##0.00",
+   "CurrencyFormatWithCode": "'IDR' #,##0.00;'IDR' -#,##0.00",
+   "IssuingTerritoryCode": "ID",
+   "Symbol": "Rp",
+   "Precision": 2,
+   "ExtendedPrecision": 5,
+   "CurrencyFlag": "Y",
+   "@context": {
+    "key": "IDR"
+   }
+  },
+  {
+   "CurrencyCode": "RUB",
+   "Name": "Russian Ruble",
+   "Description": "Russian Ruble",
+   "EnabledFlag": "Y",
+   "StartDateActive": null,
+   "EndDateActive": null,
+   "ActiveDate": null,
+   "CurrencyFormat": "#,##0.00;-#,##0.00",
+   "CurrencyFormatWithSymbol": "'\u0440\u0443\u0431'#,##0.00;-'\u0440\u0443\u0431'#,##0.00",
+   "CurrencyFormatWithCode": "'RUB' #,##0.00;'RUB' -#,##0.00",
+   "IssuingTerritoryCode": "RU",
+   "Symbol": "\u0440\u0443\u0431",
+   "Precision": 2,
+   "ExtendedPrecision": 5,
+   "CurrencyFlag": "Y",
+   "@context": {
+    "key": "RUB"
+   }
+  },
+  {
+   "CurrencyCode": "RUR",
+   "Name": "Russian Ruble (old)",
+   "Description": "Russian Ruble (old)",
+   "EnabledFlag": "Y",
+   "StartDateActive": null,
+   "EndDateActive": null,
+   "ActiveDate": null,
+   "CurrencyFormat": "#,##0.00;-#,##0.00",
+   "CurrencyFormatWithSymbol": "'\u0440.'#,##0.00;-'\u0440.'#,##0.00",
+   "CurrencyFormatWithCode": "'RUR' #,##0.00;'RUR' -#,##0.00",
+   "IssuingTerritoryCode": "RU",
+   "Symbol": "\u0440.",
+   "Precision": 2,
+   "ExtendedPrecision": 5,
+   "CurrencyFlag": "Y",
+   "@context": {
+    "key": "RUR"
+   }
+  },
+  {
+   "CurrencyCode": "RWF",
+   "Name": "Rwanda Franc",
+   "Description": "Rwanda Franc",
+   "EnabledFlag": "Y",
+   "StartDateActive": null,
+   "EndDateActive": null,
+   "ActiveDate": null,
+   "CurrencyFormat": "#,##0;-#,##0",
+   "CurrencyFormatWithSymbol": "'RF' #,##0;'RF' -#,##0",
+   "CurrencyFormatWithCode": "'RWF' #,##0;'RWF' -#,##0",
+   "IssuingTerritoryCode": "RW",
+   "Symbol": "RF",
+   "Precision": 0,
+   "ExtendedPrecision": 3,
+   "CurrencyFlag": "Y",
+   "@context": {
+    "key": "RWF"
+   }
+  },
+  {
+   "CurrencyCode": "XDR",
+   "Name": "SDR",
+   "Description": "International Monetary Fund (I.M.F.)",
+   "EnabledFlag": "Y",
+   "StartDateActive": null,
+   "EndDateActive": null,
+   "ActiveDate": null,
+   "CurrencyFormat": "#,##0;-#,##0",
+   "CurrencyFormatWithSymbol": "'XDR' #,##0;'XDR' -#,##0",
+   "CurrencyFormatWithCode": "'XDR' #,##0;'XDR' -#,##0",
+   "IssuingTerritoryCode": null,
+   "Symbol": null,
+   "Precision": 0,
+   "ExtendedPrecision": null,
+   "CurrencyFlag": "Y",
+   "@context": {
+    "key": "XDR"
+   }
+  },
+  {
+   "CurrencyCode": "SHP",
+   "Name": "Saint Helena Pound",
+   "Description": "Saint Helena Pound",
+   "EnabledFlag": "Y",
+   "StartDateActive": null,
+   "EndDateActive": null,
+   "ActiveDate": null,
+   "CurrencyFormat": "#,##0.00;-#,##0.00",
+   "CurrencyFormatWithSymbol": "'\u00a3'#,##0.00;-'\u00a3'#,##0.00",
+   "CurrencyFormatWithCode": "'SHP' #,##0.00;'SHP' -#,##0.00",
+   "IssuingTerritoryCode": "SH",
+   "Symbol": "\u00a3",
+   "Precision": 2,
+   "ExtendedPrecision": 5,
+   "CurrencyFlag": "Y",
+   "@context": {
+    "key": "SHP"
+   }
+  },
+  {
+   "CurrencyCode": "SAR",
+   "Name": "Saudi Riyal",
+   "Description": "Saudi Riyal",
+   "EnabledFlag": "Y",
+   "StartDateActive": null,
+   "EndDateActive": null,
+   "ActiveDate": null,
+   "CurrencyFormat": "#,##0.00;-#,##0.00",
+   "CurrencyFormatWithSymbol": "'\u0631.\u0633.\u200f'#,##0.00;-'\u0631.\u0633.\u200f'#,##0.00",
+   "CurrencyFormatWithCode": "'SAR' #,##0.00;'SAR' -#,##0.00",
+   "IssuingTerritoryCode": "SA",
+   "Symbol": "\u0631.\u0633.\u200f",
+   "Precision": 2,
+   "ExtendedPrecision": 5,
+   "CurrencyFlag": "Y",
+   "@context": {
+    "key": "SAR"
+   }
+  },
+  {
+   "CurrencyCode": "ATS",
+   "Name": "Schilling",
+   "Description": "Schilling",
+   "EnabledFlag": "Y",
+   "StartDateActive": null,
+   "EndDateActive": null,
+   "ActiveDate": null,
+   "CurrencyFormat": "#,##0.00;-#,##0.00",
+   "CurrencyFormatWithSymbol": "'ATS' #,##0.00;'ATS' -#,##0.00",
+   "CurrencyFormatWithCode": "'ATS' #,##0.00;'ATS' -#,##0.00",
+   "IssuingTerritoryCode": "AT",
+   "Symbol": null,
+   "Precision": 2,
+   "ExtendedPrecision": 5,
+   "CurrencyFlag": "Y",
+   "@context": {
+    "key": "ATS"
+   }
+  },
+  {
+   "CurrencyCode": "RSD",
+   "Name": "Serbian Dinar",
+   "Description": "Serbian Dinar",
+   "EnabledFlag": "Y",
+   "StartDateActive": null,
+   "EndDateActive": null,
+   "ActiveDate": null,
+   "CurrencyFormat": "#,##0.00;-#,##0.00",
+   "CurrencyFormatWithSymbol": "'\u0414\u0438\u043d.'#,##0.00;-'\u0414\u0438\u043d.'#,##0.00",
+   "CurrencyFormatWithCode": "'RSD' #,##0.00;'RSD' -#,##0.00",
+   "IssuingTerritoryCode": "RS",
+   "Symbol": "\u0414\u0438\u043d.",
+   "Precision": 2,
+   "ExtendedPrecision": 5,
+   "CurrencyFlag": "Y",
+   "@context": {
+    "key": "RSD"
+   }
+  },
+  {
+   "CurrencyCode": "SCR",
+   "Name": "Seychelles Rupee",
+   "Description": "Seychelles Rupee",
+   "EnabledFlag": "Y",
+   "StartDateActive": null,
+   "EndDateActive": null,
+   "ActiveDate": null,
+   "CurrencyFormat": "#,##0.00;-#,##0.00",
+   "CurrencyFormatWithSymbol": "'\u20a8'#,##0.00;-'\u20a8'#,##0.00",
+   "CurrencyFormatWithCode": "'SCR' #,##0.00;'SCR' -#,##0.00",
+   "IssuingTerritoryCode": "SC",
+   "Symbol": "\u20a8",
+   "Precision": 2,
+   "ExtendedPrecision": 5,
+   "CurrencyFlag": "Y",
+   "@context": {
+    "key": "SCR"
+   }
+  },
+  {
+   "CurrencyCode": "XAG",
+   "Name": "Silver",
+   "Description": "Silver",
+   "EnabledFlag": "Y",
+   "StartDateActive": null,
+   "EndDateActive": null,
+   "ActiveDate": null,
+   "CurrencyFormat": "#,##0;-#,##0",
+   "CurrencyFormatWithSymbol": "'XAG' #,##0;'XAG' -#,##0",
+   "CurrencyFormatWithCode": "'XAG' #,##0;'XAG' -#,##0",
+   "IssuingTerritoryCode": null,
+   "Symbol": null,
+   "Precision": 0,
+   "ExtendedPrecision": null,
+   "CurrencyFlag": "Y",
+   "@context": {
+    "key": "XAG"
+   }
+  },
+  {
+   "CurrencyCode": "SGD",
+   "Name": "Singapore Dollar",
+   "Description": "Singapore Dollar",
+   "EnabledFlag": "Y",
+   "StartDateActive": null,
+   "EndDateActive": null,
+   "ActiveDate": null,
+   "CurrencyFormat": "#,##0.00;-#,##0.00",
+   "CurrencyFormatWithSymbol": "'$'#,##0.00;-'$'#,##0.00",
+   "CurrencyFormatWithCode": "'SGD' #,##0.00;'SGD' -#,##0.00",
+   "IssuingTerritoryCode": "SG",
+   "Symbol": "$",
+   "Precision": 2,
+   "ExtendedPrecision": 5,
+   "CurrencyFlag": "Y",
+   "@context": {
+    "key": "SGD"
+   }
+  },
+  {
+   "CurrencyCode": "SKK",
+   "Name": "Slovak Koruna",
+   "Description": "Slovak Koruna",
+   "EnabledFlag": "Y",
+   "StartDateActive": null,
+   "EndDateActive": null,
+   "ActiveDate": null,
+   "CurrencyFormat": "#,##0.00;-#,##0.00",
+   "CurrencyFormatWithSymbol": "'SIT' #,##0.00;'SIT' -#,##0.00",
+   "CurrencyFormatWithCode": "'SKK' #,##0.00;'SKK' -#,##0.00",
+   "IssuingTerritoryCode": "SK",
+   "Symbol": "SIT",
+   "Precision": 2,
+   "ExtendedPrecision": 5,
+   "CurrencyFlag": "Y",
+   "@context": {
+    "key": "SKK"
+   }
+  },
+  {
+   "CurrencyCode": "SBD",
+   "Name": "Solomon Islands Dollar",
+   "Description": "Solomon Islands Dollar",
+   "EnabledFlag": "Y",
+   "StartDateActive": null,
+   "EndDateActive": null,
+   "ActiveDate": null,
+   "CurrencyFormat": "#,##0.00;-#,##0.00",
+   "CurrencyFormatWithSymbol": "'$'#,##0.00;-'$'#,##0.00",
+   "CurrencyFormatWithCode": "'SBD' #,##0.00;'SBD' -#,##0.00",
+   "IssuingTerritoryCode": "SB",
+   "Symbol": "$",
+   "Precision": 2,
+   "ExtendedPrecision": 5,
+   "CurrencyFlag": "Y",
+   "@context": {
+    "key": "SBD"
+   }
+  },
+  {
+   "CurrencyCode": "KGS",
+   "Name": "Som",
+   "Description": "Som",
+   "EnabledFlag": "Y",
+   "StartDateActive": null,
+   "EndDateActive": null,
+   "ActiveDate": null,
+   "CurrencyFormat": "#,##0.00;-#,##0.00",
+   "CurrencyFormatWithSymbol": "'\u043b\u0432'#,##0.00;-'\u043b\u0432'#,##0.00",
+   "CurrencyFormatWithCode": "'KGS' #,##0.00;'KGS' -#,##0.00",
+   "IssuingTerritoryCode": "KG",
+   "Symbol": "\u043b\u0432",
+   "Precision": 2,
+   "ExtendedPrecision": 5,
+   "CurrencyFlag": "Y",
+   "@context": {
+    "key": "KGS"
+   }
+  },
+  {
+   "CurrencyCode": "SOS",
+   "Name": "Somali Shilling",
+   "Description": "Somali Shilling",
+   "EnabledFlag": "Y",
+   "StartDateActive": null,
+   "EndDateActive": null,
+   "ActiveDate": null,
+   "CurrencyFormat": "#,##0.00;-#,##0.00",
+   "CurrencyFormatWithSymbol": "'S' #,##0.00;'S' -#,##0.00",
+   "CurrencyFormatWithCode": "'SOS' #,##0.00;'SOS' -#,##0.00",
+   "IssuingTerritoryCode": "SO",
+   "Symbol": "S",
+   "Precision": 2,
+   "ExtendedPrecision": 5,
+   "CurrencyFlag": "Y",
+   "@context": {
+    "key": "SOS"
+   }
+  },
+  {
+   "CurrencyCode": "TJS",
+   "Name": "Somoni",
+   "Description": "Somoni",
+   "EnabledFlag": "Y",
+   "StartDateActive": null,
+   "EndDateActive": null,
+   "ActiveDate": null,
+   "CurrencyFormat": "#,##0.00;-#,##0.00",
+   "CurrencyFormatWithSymbol": "'TJS' #,##0.00;'TJS' -#,##0.00",
+   "CurrencyFormatWithCode": "'TJS' #,##0.00;'TJS' -#,##0.00",
+   "IssuingTerritoryCode": "TJ",
+   "Symbol": null,
+   "Precision": 2,
+   "ExtendedPrecision": 5,
+   "CurrencyFlag": "Y",
+   "@context": {
+    "key": "TJS"
+   }
+  },
+  {
+   "CurrencyCode": "SSP",
+   "Name": "South Sudanese Pound",
+   "Description": "South Sudanese Pound",
+   "EnabledFlag": "Y",
+   "StartDateActive": null,
+   "EndDateActive": null,
+   "ActiveDate": null,
+   "CurrencyFormat": "#,##0.00;-#,##0.00",
+   "CurrencyFormatWithSymbol": "'SSP' #,##0.00;'SSP' -#,##0.00",
+   "CurrencyFormatWithCode": "'SSP' #,##0.00;'SSP' -#,##0.00",
+   "IssuingTerritoryCode": "SS",
+   "Symbol": null,
+   "Precision": 2,
+   "ExtendedPrecision": 5,
+   "CurrencyFlag": "Y",
+   "@context": {
+    "key": "SSP"
+   }
+  },
+  {
+   "CurrencyCode": "ESP",
+   "Name": "Spanish Peseta",
+   "Description": "Spanish Peseta",
+   "EnabledFlag": "Y",
+   "StartDateActive": null,
+   "EndDateActive": null,
+   "ActiveDate": null,
+   "CurrencyFormat": "#,##0;-#,##0",
+   "CurrencyFormatWithSymbol": "'\u20a7'#,##0;-'\u20a7'#,##0",
+   "CurrencyFormatWithCode": "'ESP' #,##0;'ESP' -#,##0",
+   "IssuingTerritoryCode": "ES",
+   "Symbol": "\u20a7",
+   "Precision": 0,
+   "ExtendedPrecision": 3,
+   "CurrencyFlag": "Y",
+   "@context": {
+    "key": "ESP"
+   }
+  },
+  {
+   "CurrencyCode": "XFO",
+   "Name": "Special settlement currencies - Gold-Franc",
+   "Description": "Special settlement currencies - Gold-Franc",
+   "EnabledFlag": "Y",
+   "StartDateActive": null,
+   "EndDateActive": null,
+   "ActiveDate": null,
+   "CurrencyFormat": "#,##0;-#,##0",
+   "CurrencyFormatWithSymbol": "'XFO' #,##0;'XFO' -#,##0",
+   "CurrencyFormatWithCode": "'XFO' #,##0;'XFO' -#,##0",
+   "IssuingTerritoryCode": null,
+   "Symbol": null,
+   "Precision": 0,
+   "ExtendedPrecision": null,
+   "CurrencyFlag": "Y",
+   "@context": {
+    "key": "XFO"
+   }
+  },
+  {
+   "CurrencyCode": "LKR",
+   "Name": "Sri Lanka Rupee",
+   "Description": "Sri Lanka Rupee",
+   "EnabledFlag": "Y",
+   "StartDateActive": null,
+   "EndDateActive": null,
+   "ActiveDate": null,
+   "CurrencyFormat": "#,##0.00;-#,##0.00",
+   "CurrencyFormatWithSymbol": "'\u20a8'#,##0.00;-'\u20a8'#,##0.00",
+   "CurrencyFormatWithCode": "'LKR' #,##0.00;'LKR' -#,##0.00",
+   "IssuingTerritoryCode": "LK",
+   "Symbol": "\u20a8",
+   "Precision": 2,
+   "ExtendedPrecision": 5,
+   "CurrencyFlag": "Y",
+   "@context": {
+    "key": "LKR"
+   }
+  },
+  {
+   "CurrencyCode": "STAT",
+   "Name": "Statistical",
+   "Description": "Statistical",
+   "EnabledFlag": "Y",
+   "StartDateActive": null,
+   "EndDateActive": null,
+   "ActiveDate": null,
+   "CurrencyFormat": "#,##0.00;-#,##0.00",
+   "CurrencyFormatWithSymbol": "'STAT' #,##0.00;'STAT' -#,##0.00",
+   "CurrencyFormatWithCode": "'STAT' #,##0.00;'STAT' -#,##0.00",
+   "IssuingTerritoryCode": null,
+   "Symbol": null,
+   "Precision": 2,
+   "ExtendedPrecision": 5,
+   "CurrencyFlag": "N",
+   "@context": {
+    "key": "STAT"
+   }
+  },
+  {
+   "CurrencyCode": "ECS",
+   "Name": "Sucre",
+   "Description": "Sucre",
+   "EnabledFlag": "Y",
+   "StartDateActive": null,
+   "EndDateActive": null,
+   "ActiveDate": null,
+   "CurrencyFormat": "#,##0.00;-#,##0.00",
+   "CurrencyFormatWithSymbol": "'ECS' #,##0.00;'ECS' -#,##0.00",
+   "CurrencyFormatWithCode": "'ECS' #,##0.00;'ECS' -#,##0.00",
+   "IssuingTerritoryCode": "EC",
+   "Symbol": null,
+   "Precision": 2,
+   "ExtendedPrecision": 5,
+   "CurrencyFlag": "Y",
+   "@context": {
+    "key": "ECS"
+   }
+  },
+  {
+   "CurrencyCode": "SDD",
+   "Name": "Sudanese Dinar",
+   "Description": "Sudanese Dinar",
+   "EnabledFlag": "Y",
+   "StartDateActive": null,
+   "EndDateActive": "2007-06-30",
+   "ActiveDate": null,
+   "CurrencyFormat": "#,##0.00;-#,##0.00",
+   "CurrencyFormatWithSymbol": "'SDD' #,##0.00;'SDD' -#,##0.00",
+   "CurrencyFormatWithCode": "'SDD' #,##0.00;'SDD' -#,##0.00",
+   "IssuingTerritoryCode": "SD",
+   "Symbol": null,
+   "Precision": 2,
+   "ExtendedPrecision": 5,
+   "CurrencyFlag": "Y",
+   "@context": {
+    "key": "SDD"
+   }
+  },
+  {
+   "CurrencyCode": "SDG",
+   "Name": "Sudanese Pound",
+   "Description": "Sudanese Pound",
+   "EnabledFlag": "Y",
+   "StartDateActive": null,
+   "EndDateActive": null,
+   "ActiveDate": null,
+   "CurrencyFormat": "#,##0.00;-#,##0.00",
+   "CurrencyFormatWithSymbol": "'SDG' #,##0.00;'SDG' -#,##0.00",
+   "CurrencyFormatWithCode": "'SDG' #,##0.00;'SDG' -#,##0.00",
+   "IssuingTerritoryCode": "SD",
+   "Symbol": null,
+   "Precision": 2,
+   "ExtendedPrecision": 5,
+   "CurrencyFlag": "Y",
+   "@context": {
+    "key": "SDG"
+   }
+  },
+  {
+   "CurrencyCode": "SDP",
+   "Name": "Sudanese Pound (old)",
+   "Description": "Sudanese Pound (old)",
+   "EnabledFlag": "Y",
+   "StartDateActive": null,
+   "EndDateActive": "1992-06-08",
+   "ActiveDate": null,
+   "CurrencyFormat": "#,##0.00;-#,##0.00",
+   "CurrencyFormatWithSymbol": "'SDP' #,##0.00;'SDP' -#,##0.00",
+   "CurrencyFormatWithCode": "'SDP' #,##0.00;'SDP' -#,##0.00",
+   "IssuingTerritoryCode": "SD",
+   "Symbol": null,
+   "Precision": 2,
+   "ExtendedPrecision": 5,
+   "CurrencyFlag": "Y",
+   "@context": {
+    "key": "SDP"
+   }
+  },
+  {
+   "CurrencyCode": "SRD",
+   "Name": "Suriname Dollar",
+   "Description": "Suriname Dollar",
+   "EnabledFlag": "Y",
+   "StartDateActive": null,
+   "EndDateActive": null,
+   "ActiveDate": null,
+   "CurrencyFormat": "#,##0.00;-#,##0.00",
+   "CurrencyFormatWithSymbol": "'$'#,##0.00;-'$'#,##0.00",
+   "CurrencyFormatWithCode": "'SRD' #,##0.00;'SRD' -#,##0.00",
+   "IssuingTerritoryCode": "SR",
+   "Symbol": "$",
+   "Precision": 2,
+   "ExtendedPrecision": 5,
+   "CurrencyFlag": "Y",
+   "@context": {
+    "key": "SRD"
+   }
+  },
+  {
+   "CurrencyCode": "SRG",
+   "Name": "Suriname Guilder",
+   "Description": "Suriname Guilder",
+   "EnabledFlag": "Y",
+   "StartDateActive": null,
+   "EndDateActive": "2004-12-31",
+   "ActiveDate": null,
+   "CurrencyFormat": "#,##0.00;-#,##0.00",
+   "CurrencyFormatWithSymbol": "'SRG' #,##0.00;'SRG' -#,##0.00",
+   "CurrencyFormatWithCode": "'SRG' #,##0.00;'SRG' -#,##0.00",
+   "IssuingTerritoryCode": "SR",
+   "Symbol": null,
+   "Precision": 2,
+   "ExtendedPrecision": 5,
+   "CurrencyFlag": "Y",
+   "@context": {
+    "key": "SRG"
+   }
+  },
+  {
+   "CurrencyCode": "SEK",
+   "Name": "Swedish Krona",
+   "Description": "Swedish Krona",
+   "EnabledFlag": "Y",
+   "StartDateActive": null,
+   "EndDateActive": null,
+   "ActiveDate": null,
+   "CurrencyFormat": "#,##0.00;-#,##0.00",
+   "CurrencyFormatWithSymbol": "'kr'#,##0.00;-'kr'#,##0.00",
+   "CurrencyFormatWithCode": "'SEK' #,##0.00;'SEK' -#,##0.00",
+   "IssuingTerritoryCode": "SE",
+   "Symbol": "kr",
+   "Precision": 2,
+   "ExtendedPrecision": 5,
+   "CurrencyFlag": "Y",
+   "@context": {
+    "key": "SEK"
+   }
+  },
+  {
+   "CurrencyCode": "CHF",
+   "Name": "Swiss Franc",
+   "Description": "Swiss Franc",
+   "EnabledFlag": "Y",
+   "StartDateActive": null,
+   "EndDateActive": null,
+   "ActiveDate": null,
+   "CurrencyFormat": "#,##0.00;-#,##0.00",
+   "CurrencyFormatWithSymbol": "'CHF' #,##0.00;'CHF' -#,##0.00",
+   "CurrencyFormatWithCode": "'CHF' #,##0.00;'CHF' -#,##0.00",
+   "IssuingTerritoryCode": "CH",
+   "Symbol": "CHF",
+   "Precision": 2,
+   "ExtendedPrecision": 5,
+   "CurrencyFlag": "Y",
+   "@context": {
+    "key": "CHF"
+   }
+  },
+  {
+   "CurrencyCode": "SYP",
+   "Name": "Syrian Pound",
+   "Description": "Syrian Pound",
+   "EnabledFlag": "Y",
+   "StartDateActive": null,
+   "EndDateActive": null,
+   "ActiveDate": null,
+   "CurrencyFormat": "#,##0.00;-#,##0.00",
+   "CurrencyFormatWithSymbol": "'\u00a3'#,##0.00;-'\u00a3'#,##0.00",
+   "CurrencyFormatWithCode": "'SYP' #,##0.00;'SYP' -#,##0.00",
+   "IssuingTerritoryCode": "SY",
+   "Symbol": "\u00a3",
+   "Precision": 2,
+   "ExtendedPrecision": 5,
+   "CurrencyFlag": "Y",
+   "@context": {
+    "key": "SYP"
+   }
+  },
+  {
+   "CurrencyCode": "TJR",
+   "Name": "Tajik Ruble",
+   "Description": "Tajik Ruble",
+   "EnabledFlag": "Y",
+   "StartDateActive": null,
+   "EndDateActive": null,
+   "ActiveDate": null,
+   "CurrencyFormat": "#,##0;-#,##0",
+   "CurrencyFormatWithSymbol": "'TJR' #,##0;'TJR' -#,##0",
+   "CurrencyFormatWithCode": "'TJR' #,##0;'TJR' -#,##0",
+   "IssuingTerritoryCode": "TJ",
+   "Symbol": null,
+   "Precision": 0,
+   "ExtendedPrecision": 3,
+   "CurrencyFlag": "Y",
+   "@context": {
+    "key": "TJR"
+   }
+  },
+  {
+   "CurrencyCode": "BDT",
+   "Name": "Taka",
+   "Description": "Taka",
+   "EnabledFlag": "Y",
+   "StartDateActive": null,
+   "EndDateActive": null,
+   "ActiveDate": null,
+   "CurrencyFormat": "#,##0.00;-#,##0.00",
+   "CurrencyFormatWithSymbol": "'BDT' #,##0.00;'BDT' -#,##0.00",
+   "CurrencyFormatWithCode": "'BDT' #,##0.00;'BDT' -#,##0.00",
+   "IssuingTerritoryCode": "BD",
+   "Symbol": null,
+   "Precision": 2,
+   "ExtendedPrecision": 5,
+   "CurrencyFlag": "Y",
+   "@context": {
+    "key": "BDT"
+   }
+  },
+  {
+   "CurrencyCode": "WST",
+   "Name": "Tala",
+   "Description": "Tala",
+   "EnabledFlag": "Y",
+   "StartDateActive": null,
+   "EndDateActive": null,
+   "ActiveDate": null,
+   "CurrencyFormat": "#,##0.00;-#,##0.00",
+   "CurrencyFormatWithSymbol": "'WS$'#,##0.00;-'WS$'#,##0.00",
+   "CurrencyFormatWithCode": "'WST' #,##0.00;'WST' -#,##0.00",
+   "IssuingTerritoryCode": "WS",
+   "Symbol": "WS$",
+   "Precision": 2,
+   "ExtendedPrecision": 5,
+   "CurrencyFlag": "Y",
+   "@context": {
+    "key": "WST"
+   }
+  },
+  {
+   "CurrencyCode": "TZS",
+   "Name": "Tanzanian Shilling",
+   "Description": "Tanzanian Shilling",
+   "EnabledFlag": "Y",
+   "StartDateActive": null,
+   "EndDateActive": "2025-09-16",
+   "ActiveDate": null,
+   "CurrencyFormat": "#,##0.00;-#,##0.00",
+   "CurrencyFormatWithSymbol": "'TZS' #,##0.00;'TZS' -#,##0.00",
+   "CurrencyFormatWithCode": "'TZS' #,##0.00;'TZS' -#,##0.00",
+   "IssuingTerritoryCode": "TZ",
+   "Symbol": null,
+   "Precision": 2,
+   "ExtendedPrecision": 5,
+   "CurrencyFlag": "Y",
+   "@context": {
+    "key": "TZS"
+   }
+  },
+  {
+   "CurrencyCode": "KZT",
+   "Name": "Tenge",
+   "Description": "Tenge",
+   "EnabledFlag": "Y",
+   "StartDateActive": null,
+   "EndDateActive": null,
+   "ActiveDate": null,
+   "CurrencyFormat": "#,##0.00;-#,##0.00",
+   "CurrencyFormatWithSymbol": "'\u20b8'#,##0.00;-'\u20b8'#,##0.00",
+   "CurrencyFormatWithCode": "'KZT' #,##0.00;'KZT' -#,##0.00",
+   "IssuingTerritoryCode": "KZ",
+   "Symbol": "\u20b8",
+   "Precision": 2,
+   "ExtendedPrecision": 5,
+   "CurrencyFlag": "Y",
+   "@context": {
+    "key": "KZT"
+   }
+  },
+  {
+   "CurrencyCode": "XTS",
+   "Name": "Testing",
+   "Description": "Code specifically reserved for testing purposes",
+   "EnabledFlag": "Y",
+   "StartDateActive": null,
+   "EndDateActive": null,
+   "ActiveDate": null,
+   "CurrencyFormat": "#,##0;-#,##0",
+   "CurrencyFormatWithSymbol": "'XTS' #,##0;'XTS' -#,##0",
+   "CurrencyFormatWithCode": "'XTS' #,##0;'XTS' -#,##0",
+   "IssuingTerritoryCode": null,
+   "Symbol": null,
+   "Precision": 0,
+   "ExtendedPrecision": null,
+   "CurrencyFlag": "Y",
+   "@context": {
+    "key": "XTS"
+   }
+  },
+  {
+   "CurrencyCode": "TPE",
+   "Name": "Timor Escudo",
+   "Description": "Timor Escudo",
+   "EnabledFlag": "Y",
+   "StartDateActive": null,
+   "EndDateActive": null,
+   "ActiveDate": null,
+   "CurrencyFormat": "#,##0;-#,##0",
+   "CurrencyFormatWithSymbol": "'TPE' #,##0;'TPE' -#,##0",
+   "CurrencyFormatWithCode": "'TPE' #,##0;'TPE' -#,##0",
+   "IssuingTerritoryCode": "TP",
+   "Symbol": null,
+   "Precision": 0,
+   "ExtendedPrecision": 3,
+   "CurrencyFlag": "Y",
+   "@context": {
+    "key": "TPE"
+   }
+  },
+  {
+   "CurrencyCode": "SIT",
+   "Name": "Tolar",
+   "Description": "Tolar",
+   "EnabledFlag": "Y",
+   "StartDateActive": null,
+   "EndDateActive": null,
+   "ActiveDate": null,
+   "CurrencyFormat": "#,##0.00;-#,##0.00",
+   "CurrencyFormatWithSymbol": "'SIT' #,##0.00;'SIT' -#,##0.00",
+   "CurrencyFormatWithCode": "'SIT' #,##0.00;'SIT' -#,##0.00",
+   "IssuingTerritoryCode": "SI",
+   "Symbol": "SIT",
+   "Precision": 2,
+   "ExtendedPrecision": 5,
+   "CurrencyFlag": "Y",
+   "@context": {
+    "key": "SIT"
+   }
+  },
+  {
+   "CurrencyCode": "TTD",
+   "Name": "Trinidad and Tobago Dollar",
+   "Description": "Trinidad and Tobago Dollar",
+   "EnabledFlag": "Y",
+   "StartDateActive": null,
+   "EndDateActive": null,
+   "ActiveDate": null,
+   "CurrencyFormat": "#,##0.00;-#,##0.00",
+   "CurrencyFormatWithSymbol": "'TT$'#,##0.00;-'TT$'#,##0.00",
+   "CurrencyFormatWithCode": "'TTD' #,##0.00;'TTD' -#,##0.00",
+   "IssuingTerritoryCode": "TT",
+   "Symbol": "TT$",
+   "Precision": 2,
+   "ExtendedPrecision": 5,
+   "CurrencyFlag": "Y",
+   "@context": {
+    "key": "TTD"
+   }
+  },
+  {
+   "CurrencyCode": "MNT",
+   "Name": "Tugrik",
+   "Description": "Tugrik",
+   "EnabledFlag": "Y",
+   "StartDateActive": null,
+   "EndDateActive": null,
+   "ActiveDate": null,
+   "CurrencyFormat": "#,##0.00;-#,##0.00",
+   "CurrencyFormatWithSymbol": "'\u20ae'#,##0.00;-'\u20ae'#,##0.00",
+   "CurrencyFormatWithCode": "'MNT' #,##0.00;'MNT' -#,##0.00",
+   "IssuingTerritoryCode": "MN",
+   "Symbol": "\u20ae",
+   "Precision": 2,
+   "ExtendedPrecision": 5,
+   "CurrencyFlag": "Y",
+   "@context": {
+    "key": "MNT"
+   }
+  },
+  {
+   "CurrencyCode": "TND",
+   "Name": "Tunisian Dinar",
+   "Description": "Tunisian Dinar",
+   "EnabledFlag": "Y",
+   "StartDateActive": null,
+   "EndDateActive": null,
+   "ActiveDate": null,
+   "CurrencyFormat": "#,##0.000;-#,##0.000",
+   "CurrencyFormatWithSymbol": "'\u062f.\u062a.\u200f'#,##0.000;-'\u062f.\u062a.\u200f'#,##0.000",
+   "CurrencyFormatWithCode": "'TND' #,##0.000;'TND' -#,##0.000",
+   "IssuingTerritoryCode": "TN",
+   "Symbol": "\u062f.\u062a.\u200f",
+   "Precision": 3,
+   "ExtendedPrecision": 6,
+   "CurrencyFlag": "Y",
+   "@context": {
+    "key": "TND"
+   }
+  },
+  {
+   "CurrencyCode": "TRL",
+   "Name": "Turkish Lira",
+   "Description": "Turkish Lira",
+   "EnabledFlag": "Y",
+   "StartDateActive": null,
+   "EndDateActive": "2005-12-31",
+   "ActiveDate": null,
+   "CurrencyFormat": "#,##0;-#,##0",
+   "CurrencyFormatWithSymbol": "'\u20a4'#,##0;-'\u20a4'#,##0",
+   "CurrencyFormatWithCode": "'TRL' #,##0;'TRL' -#,##0",
+   "IssuingTerritoryCode": "TR",
+   "Symbol": "\u20a4",
+   "Precision": 0,
+   "ExtendedPrecision": 3,
+   "CurrencyFlag": "Y",
+   "@context": {
+    "key": "TRL"
+   }
+  },
+  {
+   "CurrencyCode": "AED",
+   "Name": "UAE Dirham",
+   "Description": "UAE Dirham",
+   "EnabledFlag": "Y",
+   "StartDateActive": null,
+   "EndDateActive": null,
+   "ActiveDate": null,
+   "CurrencyFormat": "#,##0.00;-#,##0.00",
+   "CurrencyFormatWithSymbol": "'\u062f.\u0625.\u200f'#,##0.00;-'\u062f.\u0625.\u200f'#,##0.00",
+   "CurrencyFormatWithCode": "'AED' #,##0.00;'AED' -#,##0.00",
+   "IssuingTerritoryCode": "AE",
+   "Symbol": "\u062f.\u0625.\u200f",
+   "Precision": 2,
+   "ExtendedPrecision": 5,
+   "CurrencyFlag": "Y",
+   "@context": {
+    "key": "AED"
+   }
+  },
+  {
+   "CurrencyCode": "XFU",
+   "Name": "UIC Franc (special settlement currency)",
+   "Description": "UIC Franc (special settlement currency)",
+   "EnabledFlag": "Y",
+   "StartDateActive": null,
+   "EndDateActive": null,
+   "ActiveDate": null,
+   "CurrencyFormat": "#,##0;-#,##0",
+   "CurrencyFormatWithSymbol": "'XFU' #,##0;'XFU' -#,##0",
+   "CurrencyFormatWithCode": "'XFU' #,##0;'XFU' -#,##0",
+   "IssuingTerritoryCode": null,
+   "Symbol": null,
+   "Precision": 0,
+   "ExtendedPrecision": null,
+   "CurrencyFlag": "Y",
+   "@context": {
+    "key": "XFU"
+   }
+  },
+  {
+   "CurrencyCode": "USD",
+   "Name": "US Dollar",
+   "Description": "US Dollar",
+   "EnabledFlag": "Y",
+   "StartDateActive": null,
+   "EndDateActive": null,
+   "ActiveDate": null,
+   "CurrencyFormat": "#,##0.00;-#,##0.00",
+   "CurrencyFormatWithSymbol": "'$'#,##0.00;-'$'#,##0.00",
+   "CurrencyFormatWithCode": "'USD' #,##0.00;'USD' -#,##0.00",
+   "IssuingTerritoryCode": "US",
+   "Symbol": "$",
+   "Precision": 2,
+   "ExtendedPrecision": 5,
+   "CurrencyFlag": "Y",
+   "@context": {
+    "key": "USD"
+   }
+  },
+  {
+   "CurrencyCode": "USN",
+   "Name": "US Dollar (next day)",
+   "Description": "US Dollar (next day)",
+   "EnabledFlag": "Y",
+   "StartDateActive": null,
+   "EndDateActive": null,
+   "ActiveDate": null,
+   "CurrencyFormat": "#,##0.00;-#,##0.00",
+   "CurrencyFormatWithSymbol": "'USN' #,##0.00;'USN' -#,##0.00",
+   "CurrencyFormatWithCode": "'USN' #,##0.00;'USN' -#,##0.00",
+   "IssuingTerritoryCode": "US",
+   "Symbol": null,
+   "Precision": 2,
+   "ExtendedPrecision": 5,
+   "CurrencyFlag": "Y",
+   "@context": {
+    "key": "USN"
+   }
+  },
+  {
+   "CurrencyCode": "USS",
+   "Name": "US Dollar (same day)",
+   "Description": "US Dollar (same day)",
+   "EnabledFlag": "Y",
+   "StartDateActive": null,
+   "EndDateActive": null,
+   "ActiveDate": null,
+   "CurrencyFormat": "#,##0.00;-#,##0.00",
+   "CurrencyFormatWithSymbol": "'USS' #,##0.00;'USS' -#,##0.00",
+   "CurrencyFormatWithCode": "'USS' #,##0.00;'USS' -#,##0.00",
+   "IssuingTerritoryCode": "US",
+   "Symbol": null,
+   "Precision": 2,
+   "ExtendedPrecision": 5,
+   "CurrencyFlag": "Y",
+   "@context": {
+    "key": "USS"
+   }
+  },
+  {
+   "CurrencyCode": "UGX",
+   "Name": "Uganda Shilling",
+   "Description": "Uganda Shilling",
+   "EnabledFlag": "Y",
+   "StartDateActive": "1951-01-01",
+   "EndDateActive": null,
+   "ActiveDate": null,
+   "CurrencyFormat": "#,##0.00;-#,##0.00",
+   "CurrencyFormatWithSymbol": "'USh'#,##0.00;-'USh'#,##0.00",
+   "CurrencyFormatWithCode": "'UGX' #,##0.00;'UGX' -#,##0.00",
+   "IssuingTerritoryCode": "UG",
+   "Symbol": "USh",
+   "Precision": 2,
+   "ExtendedPrecision": 5,
+   "CurrencyFlag": "Y",
+   "@context": {
+    "key": "UGX"
+   }
+  },
+  {
+   "CurrencyCode": "UGS",
+   "Name": "Uganda Shilling (Obsolete)",
+   "Description": "Uganda Shilling (Obsolete)",
+   "EnabledFlag": "Y",
+   "StartDateActive": null,
+   "EndDateActive": "1994-08-12",
+   "ActiveDate": null,
+   "CurrencyFormat": "#,##0.00;-#,##0.00",
+   "CurrencyFormatWithSymbol": "'UGS' #,##0.00;'UGS' -#,##0.00",
+   "CurrencyFormatWithCode": "'UGS' #,##0.00;'UGS' -#,##0.00",
+   "IssuingTerritoryCode": "UG",
+   "Symbol": null,
+   "Precision": 2,
+   "ExtendedPrecision": 5,
+   "CurrencyFlag": "Y",
+   "@context": {
+    "key": "UGS"
+   }
+  },
+  {
+   "CurrencyCode": "UYW",
+   "Name": "Unidad Previsional",
+   "Description": "Unidad Previsional",
+   "EnabledFlag": "Y",
+   "StartDateActive": "2018-08-29",
+   "EndDateActive": null,
+   "ActiveDate": null,
+   "CurrencyFormat": "#,##0.0000;-#,##0.0000",
+   "CurrencyFormatWithSymbol": "'UYW' #,##0.0000;'UYW' -#,##0.0000",
+   "CurrencyFormatWithCode": "'UYW' #,##0.0000;'UYW' -#,##0.0000",
+   "IssuingTerritoryCode": "UY",
+   "Symbol": null,
+   "Precision": 4,
+   "ExtendedPrecision": null,
+   "CurrencyFlag": "Y",
+   "@context": {
+    "key": "UYW"
+   }
+  },
+  {
+   "CurrencyCode": "CLF",
+   "Name": "Unidad de Fomento",
+   "Description": "Unidad de Fomento",
+   "EnabledFlag": "Y",
+   "StartDateActive": null,
+   "EndDateActive": null,
+   "ActiveDate": null,
+   "CurrencyFormat": "#,##0;-#,##0",
+   "CurrencyFormatWithSymbol": "'CLF' #,##0;'CLF' -#,##0",
+   "CurrencyFormatWithCode": "'CLF' #,##0;'CLF' -#,##0",
+   "IssuingTerritoryCode": "CL",
+   "Symbol": null,
+   "Precision": 0,
+   "ExtendedPrecision": 3,
+   "CurrencyFlag": "Y",
+   "@context": {
+    "key": "CLF"
+   }
+  },
+  {
+   "CurrencyCode": "ECV",
+   "Name": "Unidad de Valor Constante (UVC)",
+   "Description": "Unidad de Valor Constante (UVC)",
+   "EnabledFlag": "Y",
+   "StartDateActive": null,
+   "EndDateActive": null,
+   "ActiveDate": null,
+   "CurrencyFormat": "#,##0.00;-#,##0.00",
+   "CurrencyFormatWithSymbol": "'ECV' #,##0.00;'ECV' -#,##0.00",
+   "CurrencyFormatWithCode": "'ECV' #,##0.00;'ECV' -#,##0.00",
+   "IssuingTerritoryCode": null,
+   "Symbol": null,
+   "Precision": 2,
+   "ExtendedPrecision": 5,
+   "CurrencyFlag": "Y",
+   "@context": {
+    "key": "ECV"
+   }
+  },
+  {
+   "CurrencyCode": "COU",
+   "Name": "Unidad de Valor Real",
+   "Description": "Unidad de Valor Real",
+   "EnabledFlag": "Y",
+   "StartDateActive": null,
+   "EndDateActive": null,
+   "ActiveDate": null,
+   "CurrencyFormat": "#,##0.00;-#,##0.00",
+   "CurrencyFormatWithSymbol": "'COU' #,##0.00;'COU' -#,##0.00",
+   "CurrencyFormatWithCode": "'COU' #,##0.00;'COU' -#,##0.00",
+   "IssuingTerritoryCode": "CO",
+   "Symbol": null,
+   "Precision": 2,
+   "ExtendedPrecision": 5,
+   "CurrencyFlag": "Y",
+   "@context": {
+    "key": "COU"
+   }
+  },
+  {
+   "CurrencyCode": "UYI",
+   "Name": "Uruguay Peso en Unidades Indexadas",
+   "Description": "Uruguay Peso en Unidades Indexadas",
+   "EnabledFlag": "Y",
+   "StartDateActive": null,
+   "EndDateActive": null,
+   "ActiveDate": null,
+   "CurrencyFormat": "#,##0;-#,##0",
+   "CurrencyFormatWithSymbol": "'UYI' #,##0;'UYI' -#,##0",
+   "CurrencyFormatWithCode": "'UYI' #,##0;'UYI' -#,##0",
+   "IssuingTerritoryCode": "UY",
+   "Symbol": null,
+   "Precision": 0,
+   "ExtendedPrecision": 3,
+   "CurrencyFlag": "Y",
+   "@context": {
+    "key": "UYI"
+   }
+  },
+  {
+   "CurrencyCode": "UYP",
+   "Name": "Uruguayan Peso",
+   "Description": "Uruguayan Peso",
+   "EnabledFlag": "Y",
+   "StartDateActive": null,
+   "EndDateActive": "1994-08-12",
+   "ActiveDate": null,
+   "CurrencyFormat": "#,##0.00;-#,##0.00",
+   "CurrencyFormatWithSymbol": "'UYP' #,##0.00;'UYP' -#,##0.00",
+   "CurrencyFormatWithCode": "'UYP' #,##0.00;'UYP' -#,##0.00",
+   "IssuingTerritoryCode": "UY",
+   "Symbol": null,
+   "Precision": 2,
+   "ExtendedPrecision": 5,
+   "CurrencyFlag": "Y",
+   "@context": {
+    "key": "UYP"
+   }
+  },
+  {
+   "CurrencyCode": "UZS",
+   "Name": "Uzbekistan Sum",
+   "Description": "Uzbekistan Sum",
+   "EnabledFlag": "Y",
+   "StartDateActive": null,
+   "EndDateActive": null,
+   "ActiveDate": null,
+   "CurrencyFormat": "#,##0.00;-#,##0.00",
+   "CurrencyFormatWithSymbol": "'\u043b\u0432'#,##0.00;-'\u043b\u0432'#,##0.00",
+   "CurrencyFormatWithCode": "'UZS' #,##0.00;'UZS' -#,##0.00",
+   "IssuingTerritoryCode": "UZ",
+   "Symbol": "\u043b\u0432",
+   "Precision": 2,
+   "ExtendedPrecision": 5,
+   "CurrencyFlag": "Y",
+   "@context": {
+    "key": "UZS"
+   }
+  },
+  {
+   "CurrencyCode": "VUV",
+   "Name": "Vatu",
+   "Description": "Vatu",
+   "EnabledFlag": "Y",
+   "StartDateActive": null,
+   "EndDateActive": null,
+   "ActiveDate": null,
+   "CurrencyFormat": "#,##0;-#,##0",
+   "CurrencyFormatWithSymbol": "'Vt'#,##0;-'Vt'#,##0",
+   "CurrencyFormatWithCode": "'VUV' #,##0;'VUV' -#,##0",
+   "IssuingTerritoryCode": "VU",
+   "Symbol": "Vt",
+   "Precision": 0,
+   "ExtendedPrecision": 3,
+   "CurrencyFlag": "Y",
+   "@context": {
+    "key": "VUV"
+   }
+  },
+  {
+   "CurrencyCode": "CHE",
+   "Name": "WIR Euro",
+   "Description": "WIR Euro",
+   "EnabledFlag": "Y",
+   "StartDateActive": null,
+   "EndDateActive": null,
+   "ActiveDate": null,
+   "CurrencyFormat": "#,##0.00;-#,##0.00",
+   "CurrencyFormatWithSymbol": "'CHE' #,##0.00;'CHE' -#,##0.00",
+   "CurrencyFormatWithCode": "'CHE' #,##0.00;'CHE' -#,##0.00",
+   "IssuingTerritoryCode": "CH",
+   "Symbol": null,
+   "Precision": 2,
+   "ExtendedPrecision": 5,
+   "CurrencyFlag": "Y",
+   "@context": {
+    "key": "CHE"
+   }
+  },
+  {
+   "CurrencyCode": "CHW",
+   "Name": "WIR Franc",
+   "Description": "WIR Franc",
+   "EnabledFlag": "Y",
+   "StartDateActive": null,
+   "EndDateActive": null,
+   "ActiveDate": null,
+   "CurrencyFormat": "#,##0.00;-#,##0.00",
+   "CurrencyFormatWithSymbol": "'CHW' #,##0.00;'CHW' -#,##0.00",
+   "CurrencyFormatWithCode": "'CHW' #,##0.00;'CHW' -#,##0.00",
+   "IssuingTerritoryCode": "CH",
+   "Symbol": null,
+   "Precision": 2,
+   "ExtendedPrecision": 5,
+   "CurrencyFlag": "Y",
+   "@context": {
+    "key": "CHW"
+   }
+  },
+  {
+   "CurrencyCode": "KRW",
+   "Name": "Won",
+   "Description": "Won",
+   "EnabledFlag": "Y",
+   "StartDateActive": null,
+   "EndDateActive": null,
+   "ActiveDate": null,
+   "CurrencyFormat": "#,##0;-#,##0",
+   "CurrencyFormatWithSymbol": "'\u20a9'#,##0;-'\u20a9'#,##0",
+   "CurrencyFormatWithCode": "'KRW' #,##0;'KRW' -#,##0",
+   "IssuingTerritoryCode": "KR",
+   "Symbol": "\u20a9",
+   "Precision": 0,
+   "ExtendedPrecision": 3,
+   "CurrencyFlag": "Y",
+   "@context": {
+    "key": "KRW"
+   }
+  },
+  {
+   "CurrencyCode": "XXULD",
+   "Name": "XXUltraland Dollars",
+   "Description": "Currency for Ultraland",
+   "EnabledFlag": "Y",
+   "StartDateActive": null,
+   "EndDateActive": null,
+   "ActiveDate": null,
+   "CurrencyFormat": "#,##0.00;-#,##0.00",
+   "CurrencyFormatWithSymbol": "'XXULD' #,##0.00;'XXULD' -#,##0.00",
+   "CurrencyFormatWithCode": "'XXULD' #,##0.00;'XXULD' -#,##0.00",
+   "IssuingTerritoryCode": null,
+   "Symbol": null,
+   "Precision": 2,
+   "ExtendedPrecision": 5,
+   "CurrencyFlag": "Y",
+   "@context": {
+    "key": "XXULD"
+   }
+  },
+  {
+   "CurrencyCode": "YDD",
+   "Name": "Yemeni Dinar",
+   "Description": "Yemeni Dinar",
+   "EnabledFlag": "Y",
+   "StartDateActive": null,
+   "EndDateActive": "1994-08-12",
+   "ActiveDate": null,
+   "CurrencyFormat": "#,##0.000;-#,##0.000",
+   "CurrencyFormatWithSymbol": "'YDD' #,##0.000;'YDD' -#,##0.000",
+   "CurrencyFormatWithCode": "'YDD' #,##0.000;'YDD' -#,##0.000",
+   "IssuingTerritoryCode": "YE",
+   "Symbol": null,
+   "Precision": 3,
+   "ExtendedPrecision": 6,
+   "CurrencyFlag": "Y",
+   "@context": {
+    "key": "YDD"
+   }
+  },
+  {
+   "CurrencyCode": "YER",
+   "Name": "Yemeni Rial",
+   "Description": "Yemeni Rial",
+   "EnabledFlag": "Y",
+   "StartDateActive": null,
+   "EndDateActive": null,
+   "ActiveDate": null,
+   "CurrencyFormat": "#,##0.00;-#,##0.00",
+   "CurrencyFormatWithSymbol": "'\ufdfc'#,##0.00;-'\ufdfc'#,##0.00",
+   "CurrencyFormatWithCode": "'YER' #,##0.00;'YER' -#,##0.00",
+   "IssuingTerritoryCode": "YE",
+   "Symbol": "\ufdfc",
+   "Precision": 2,
+   "ExtendedPrecision": 5,
+   "CurrencyFlag": "Y",
+   "@context": {
+    "key": "YER"
+   }
+  },
+  {
+   "CurrencyCode": "JPY",
+   "Name": "Yen",
+   "Description": "Japanese yen",
+   "EnabledFlag": "Y",
+   "StartDateActive": null,
+   "EndDateActive": null,
+   "ActiveDate": null,
+   "CurrencyFormat": "#,##0;-#,##0",
+   "CurrencyFormatWithSymbol": "'\u00a5'#,##0;-'\u00a5'#,##0",
+   "CurrencyFormatWithCode": "'JPY' #,##0;'JPY' -#,##0",
+   "IssuingTerritoryCode": "JP",
+   "Symbol": "\u00a5",
+   "Precision": 0,
+   "ExtendedPrecision": 3,
+   "CurrencyFlag": "Y",
+   "@context": {
+    "key": "JPY"
+   }
+  },
+  {
+   "CurrencyCode": "CNY",
+   "Name": "Yuan Renminbi",
+   "Description": "Yuan Renminbi",
+   "EnabledFlag": "Y",
+   "StartDateActive": null,
+   "EndDateActive": null,
+   "ActiveDate": null,
+   "CurrencyFormat": "#,##0.00;-#,##0.00",
+   "CurrencyFormatWithSymbol": "'\uffe5'#,##0.00;-'\uffe5'#,##0.00",
+   "CurrencyFormatWithCode": "'CNY' #,##0.00;'CNY' -#,##0.00",
+   "IssuingTerritoryCode": "CN",
+   "Symbol": "\uffe5",
+   "Precision": 2,
+   "ExtendedPrecision": 5,
+   "CurrencyFlag": "Y",
+   "@context": {
+    "key": "CNY"
+   }
+  },
+  {
+   "CurrencyCode": "YUM",
+   "Name": "Yugoslavian Dinar",
+   "Description": "Yugoslavian Dinar",
+   "EnabledFlag": "Y",
+   "StartDateActive": null,
+   "EndDateActive": null,
+   "ActiveDate": null,
+   "CurrencyFormat": "#,##0.00;-#,##0.00",
+   "CurrencyFormatWithSymbol": "'YUM' #,##0.00;'YUM' -#,##0.00",
+   "CurrencyFormatWithCode": "'YUM' #,##0.00;'YUM' -#,##0.00",
+   "IssuingTerritoryCode": "YU",
+   "Symbol": null,
+   "Precision": 2,
+   "ExtendedPrecision": 5,
+   "CurrencyFlag": "Y",
+   "@context": {
+    "key": "YUM"
+   }
+  },
+  {
+   "CurrencyCode": "YUN",
+   "Name": "Yugoslavian Dinar (Obsolete)",
+   "Description": "Yugoslavian Dinar (Obsolete)",
+   "EnabledFlag": "Y",
+   "StartDateActive": null,
+   "EndDateActive": null,
+   "ActiveDate": null,
+   "CurrencyFormat": "#,##0.00;-#,##0.00",
+   "CurrencyFormatWithSymbol": "'YUN' #,##0.00;'YUN' -#,##0.00",
+   "CurrencyFormatWithCode": "'YUN' #,##0.00;'YUN' -#,##0.00",
+   "IssuingTerritoryCode": "YU",
+   "Symbol": null,
+   "Precision": 2,
+   "ExtendedPrecision": 5,
+   "CurrencyFlag": "Y",
+   "@context": {
+    "key": "YUN"
+   }
+  },
+  {
+   "CurrencyCode": "ZRZ",
+   "Name": "Zaire",
+   "Description": "Zaire",
+   "EnabledFlag": "Y",
+   "StartDateActive": null,
+   "EndDateActive": "1994-08-12",
+   "ActiveDate": null,
+   "CurrencyFormat": "#,##0.00;-#,##0.00",
+   "CurrencyFormatWithSymbol": "'ZRZ' #,##0.00;'ZRZ' -#,##0.00",
+   "CurrencyFormatWithCode": "'ZRZ' #,##0.00;'ZRZ' -#,##0.00",
+   "IssuingTerritoryCode": "CD",
+   "Symbol": null,
+   "Precision": 2,
+   "ExtendedPrecision": 5,
+   "CurrencyFlag": "Y",
+   "@context": {
+    "key": "ZRZ"
+   }
+  },
+  {
+   "CurrencyCode": "ZMW",
+   "Name": "Zambian Kwacha",
+   "Description": "Zambian Kwacha",
+   "EnabledFlag": "Y",
+   "StartDateActive": "2013-01-01",
+   "EndDateActive": null,
+   "ActiveDate": null,
+   "CurrencyFormat": "#,##0.00;-#,##0.00",
+   "CurrencyFormatWithSymbol": "'ZK' #,##0.00;'ZK' -#,##0.00",
+   "CurrencyFormatWithCode": "'ZMW' #,##0.00;'ZMW' -#,##0.00",
+   "IssuingTerritoryCode": "ZM",
+   "Symbol": "ZK",
+   "Precision": 2,
+   "ExtendedPrecision": 5,
+   "CurrencyFlag": "Y",
+   "@context": {
+    "key": "ZMW"
+   }
+  },
+  {
+   "CurrencyCode": "ZMK",
+   "Name": "Zambian Kwacha (Obsolete)",
+   "Description": "Zambian Kwacha (Obsolete)",
+   "EnabledFlag": "Y",
+   "StartDateActive": null,
+   "EndDateActive": "2013-06-30",
+   "ActiveDate": null,
+   "CurrencyFormat": "#,##0.00;-#,##0.00",
+   "CurrencyFormatWithSymbol": "'ZK' #,##0.00;'ZK' -#,##0.00",
+   "CurrencyFormatWithCode": "'ZMK' #,##0.00;'ZMK' -#,##0.00",
+   "IssuingTerritoryCode": "ZM",
+   "Symbol": "ZK",
+   "Precision": 2,
+   "ExtendedPrecision": 5,
+   "CurrencyFlag": "Y",
+   "@context": {
+    "key": "ZMK"
+   }
+  },
+  {
+   "CurrencyCode": "ZWL",
+   "Name": "Zimbabwe Dollar",
+   "Description": "Zimbabwe Dollar",
+   "EnabledFlag": "Y",
+   "StartDateActive": "2009-02-01",
+   "EndDateActive": null,
+   "ActiveDate": null,
+   "CurrencyFormat": "#,##0.00;-#,##0.00",
+   "CurrencyFormatWithSymbol": "'Z$'#,##0.00;-'Z$'#,##0.00",
+   "CurrencyFormatWithCode": "'ZWL' #,##0.00;'ZWL' -#,##0.00",
+   "IssuingTerritoryCode": "ZW",
+   "Symbol": "Z$",
+   "Precision": 2,
+   "ExtendedPrecision": 5,
+   "CurrencyFlag": "Y",
+   "@context": {
+    "key": "ZWL"
+   }
+  },
+  {
+   "CurrencyCode": "ZWD",
+   "Name": "Zimbabwe Dollar (Obsolete Much Earlier)",
+   "Description": "Zimbabwe Dollar (Obsolete Much Earlier)",
+   "EnabledFlag": "Y",
+   "StartDateActive": null,
+   "EndDateActive": "2008-08-01",
+   "ActiveDate": null,
+   "CurrencyFormat": "#,##0.00;-#,##0.00",
+   "CurrencyFormatWithSymbol": "'Z$'#,##0.00;-'Z$'#,##0.00",
+   "CurrencyFormatWithCode": "'ZWD' #,##0.00;'ZWD' -#,##0.00",
+   "IssuingTerritoryCode": "ZW",
+   "Symbol": "Z$",
+   "Precision": 2,
+   "ExtendedPrecision": 5,
+   "CurrencyFlag": "Y",
+   "@context": {
+    "key": "ZWD"
+   }
+  },
+  {
+   "CurrencyCode": "ZWR",
+   "Name": "Zimbabwe Dollar (Obsolete)",
+   "Description": "Zimbabwe Dollar (Obsolete)",
+   "EnabledFlag": "Y",
+   "StartDateActive": "2008-08-01",
+   "EndDateActive": "2009-06-01",
+   "ActiveDate": null,
+   "CurrencyFormat": "#,##0.00;-#,##0.00",
+   "CurrencyFormatWithSymbol": "'Z$'#,##0.00;-'Z$'#,##0.00",
+   "CurrencyFormatWithCode": "'ZWR' #,##0.00;'ZWR' -#,##0.00",
+   "IssuingTerritoryCode": "ZW",
+   "Symbol": "Z$",
+   "Precision": 2,
+   "ExtendedPrecision": 5,
+   "CurrencyFlag": "Y",
+   "@context": {
+    "key": "ZWR"
+   }
+  },
+  {
+   "CurrencyCode": "ZIG",
+   "Name": "Zimbabwe Gold",
+   "Description": "Zimbabwe Gold",
+   "EnabledFlag": "Y",
+   "StartDateActive": "2024-04-08",
+   "EndDateActive": null,
+   "ActiveDate": null,
+   "CurrencyFormat": "#,##0.00;-#,##0.00",
+   "CurrencyFormatWithSymbol": "'Z$'#,##0.00;-'Z$'#,##0.00",
+   "CurrencyFormatWithCode": "'ZIG' #,##0.00;'ZIG' -#,##0.00",
+   "IssuingTerritoryCode": "ZW",
+   "Symbol": "Z$",
+   "Precision": 2,
+   "ExtendedPrecision": 5,
+   "CurrencyFlag": "Y",
+   "@context": {
+    "key": "ZIG"
+   }
+  },
+  {
+   "CurrencyCode": "PLN",
+   "Name": "Zloty",
+   "Description": "Zloty",
+   "EnabledFlag": "Y",
+   "StartDateActive": null,
+   "EndDateActive": null,
+   "ActiveDate": null,
+   "CurrencyFormat": "#,##0.00;-#,##0.00",
+   "CurrencyFormatWithSymbol": "'z\u0142'#,##0.00;-'z\u0142'#,##0.00",
+   "CurrencyFormatWithCode": "'PLN' #,##0.00;'PLN' -#,##0.00",
+   "IssuingTerritoryCode": "PL",
+   "Symbol": "z\u0142",
+   "Precision": 2,
+   "ExtendedPrecision": 5,
+   "CurrencyFlag": "Y",
+   "@context": {
+    "key": "PLN"
+   }
+  },
+  {
+   "CurrencyCode": "PLZ",
+   "Name": "Zloty (Obsolete)",
+   "Description": "Zloty (Obsolete)",
+   "EnabledFlag": "Y",
+   "StartDateActive": null,
+   "EndDateActive": null,
+   "ActiveDate": null,
+   "CurrencyFormat": "#,##0.00;-#,##0.00",
+   "CurrencyFormatWithSymbol": "'PLZ' #,##0.00;'PLZ' -#,##0.00",
+   "CurrencyFormatWithCode": "'PLZ' #,##0.00;'PLZ' -#,##0.00",
+   "IssuingTerritoryCode": "PL",
+   "Symbol": null,
+   "Precision": 2,
+   "ExtendedPrecision": 5,
+   "CurrencyFlag": "Y",
+   "@context": {
+    "key": "PLZ"
+   }
+  },
+  {
+   "CurrencyCode": "14ULD",
+   "Name": "ultraland dollars",
+   "Description": "14ultraland dollars",
+   "EnabledFlag": "Y",
+   "StartDateActive": "2026-07-13",
+   "EndDateActive": null,
+   "ActiveDate": null,
+   "CurrencyFormat": "#,##0.00;-#,##0.00",
+   "CurrencyFormatWithSymbol": "'14ULD'#,##0.00;-'14ULD'#,##0.00",
+   "CurrencyFormatWithCode": "'14ULD' #,##0.00;'14ULD' -#,##0.00",
+   "IssuingTerritoryCode": null,
+   "Symbol": null,
+   "Precision": 2,
+   "ExtendedPrecision": 5,
+   "CurrencyFlag": "Y",
+   "@context": {
+    "key": "14ULD"
+   }
+  }
+ ],
+ "count": 268,
+ "pages": 1
+}

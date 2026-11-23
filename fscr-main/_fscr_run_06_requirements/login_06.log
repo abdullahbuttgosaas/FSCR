@@ -1,0 +1,5 @@
+Error: Failed calling https://idcs-5494651e240c4013a8bbb054d96637ec.identity.oraclecloud.com/oauth2/v1/token: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+Opening Oracle Identity Cloud login in your browser.
+https://idcs-5494651e240c4013a8bbb054d96637ec.identity.oraclecloud.com/oauth2/v1/authorize?client_id=4639c0a6da794c9cb38f8ac49ce99924&response_type=code&redirect_uri=http%3A%2F%2F127.0.0.1%3A8765%2Foauth%2Fcallback&scope=urn%3Aopc%3Aresource%3Afaaas%3Afa%3AETIA-TESTurn%3Aopc%3Aresource%3Aconsumer%3A%3Aall&state=9zunocdFa7B2jJUW8kxEJE4zCarTLGTA&code_challenge=D12GmfsQKSlGHePKnLOPBLWO3QBwCl5llBduy-KfsbQ&code_challenge_method=S256
+
+Waiting up to 300 seconds for OAuth callback at http://127.0.0.1:8765/oauth/callback

@@ -1,0 +1,472 @@
+SOURCE: Configuration Master Checklist (Google Sheet) id=1L4N7tVVw7iaYh16iWN-eKvIOmdF-WIMWWWTq-e5LTWg
+
+### SHEET: Financials (tasks 252, group headers 45)
+Task List / Task | Description | Owner | BU Specific/Cross BU | Configured
+Define Reference Data Sharing
+Manage Reference Data Sets |  | General Ledger | BU Specific | FALSE
+Manage Set Assignments for Set Determinant Type |  | General Ledger | BU Specific | FALSE
+Manage Reference Data Set Data Access for Users |  | General Ledger | BU Specific | FALSE | 
+Define Geographies |  |  |  |  | 
+Manage Geographies |  | General Ledger | Cross BU | FALSE
+Load Geography Interface Data |  | General Ledger | Cross BU | FALSE
+Run Geography Loader |  | General Ledger | Cross BU | FALSE
+Run Maintain Geography Name Referencing |  | General Ledger | Cross BU | FALSE
+Run Geocode Generation |  | General Ledger | Cross BU | FALSE
+Manage Geography Lookups |  | General Ledger | Cross BU | FALSE
+Define Legal Jurisdictions and Authorities for Financials
+Manage Legal Jurisdictions |  | General Ledger | Cross BU | FALSE
+Manage Legal Authorities |  | General Ledger | Cross BU | FALSE
+Manage Legal Addresses |  | General Ledger | Cross BU | FALSE
+Manage Legal Entity Configurator Lookups |  | General Ledger | Cross BU | FALSE
+Manage Legal Entity Configurator Descriptive Flexfield |  | General Ledger | Cross BU | FALSE
+Manage Legal Entity Configurator Profile Options |  | General Ledger | Cross BU | FALSE
+Define Legal Entities for Financials
+Manage Legal Entity |  | General Ledger | Cross BU | FALSE
+Manage Legal Entity Registrations |  | General Ledger | Cross BU | FALSE
+Define Chart of Accounts
+Manage Chart of Accounts Value Sets |  | General Ledger | Cross BU | FALSE
+Manage Chart of Accounts Structures |  | General Ledger | Cross BU | FALSE
+Manage Chart of Accounts Structure Instances |  | General Ledger | Cross BU | FALSE
+Manage Chart of Accounts Configurations |  | General Ledger | Cross BU | FALSE
+Manage Chart of Accounts Value Set Values |  | General Ledger | Cross BU | FALSE
+Define Calendars
+Manage Accounting Calendars |  | General Ledger | Cross BU | FALSE
+Define Currencies
+Manage Currencies |  | General Ledger | Cross BU | FALSE
+Manage Conversion Rate Types |  | General Ledger | Cross BU | FALSE
+Manage Daily Rates |  | General Ledger | Cross BU | FALSE
+Define Ledgers
+Define Accounting Configurations |  | General Ledger | Cross BU | FALSE
+Manage Primary Ledgers |  | General Ledger | Cross BU | FALSE
+Assign Legal Entities |  | General Ledger | Cross BU | FALSE
+Specify Ledger Options |  | General Ledger | Cross BU | FALSE
+Define Secondary Ledgers
+Manage Secondary Ledgers |  | General Ledger | Cross BU | FALSE
+Specify Ledger Options |  | General Ledger | Cross BU | FALSE
+Complete Primary to Secondary Ledger Mapping |  | General Ledger | Cross BU | FALSE
+Define Business Units
+Manage Business Unit |  | General Ledger | BU Specific | FALSE
+Assign Business Unit Business Function |  | General Ledger | BU Specific | FALSE
+Manage Business Unit Data Access for Users |  | General Ledger | BU Specific | FALSE
+Manage Business Unit Set Assignment |  | General Ledger | BU Specific | FALSE
+Define Tax Configuration
+Manage Tax Regimes |  | General Ledger | BU Specific | FALSE
+Run Jurisdiction and Rates Upload Program |  | General Ledger | Cross BU | FALSE
+Manage Taxes |  | General Ledger | BU Specific | FALSE
+Manage Tax Rates and Tax Recovery Rates |  | General Ledger | BU Specific | FALSE
+Define Banking Configurations
+Manage Standard Banking Configurations |  | General Ledger | Cross BU | FALSE
+Manage Embedded Banking Configurations |  | General Ledger | Cross BU | FALSE
+Define Supplier Configuration for Financials
+Specify Supplier Numbering |  | Procurement | Cross BU | FALSE
+Manage Supplier Type Lookup |  | Procurement | Cross BU | FALSE
+Manage Tax Organization Type Lookup |  | Procurement | Cross BU | FALSE
+Manage Supplier Value Sets |  | Procurement | Cross BU | FALSE
+Manage Supplier Descriptive Flexfields |  | Procurement | Cross BU | FALSE
+Manage Supplier Bank Account Descriptive Flexfields |  | Procurement | Cross BU | FALSE
+Manage Supplier Messages |  | Procurement | Cross BU | FALSE
+Configure New Supplier Notification |  | Procurement | Cross BU | FALSE
+Manage Supplier User Roles |  | Procurement | Cross BU | FALSE
+Define Payables
+Define Automated Invoice Processing Configuration | Configure Oracle  WebCenter  Imaging, Oracle  WebCenter  Capture, and  Oracle  WebCenter  Forms  recognition to  import invoice  images,  recognize and  capture invoice  data, and send  the invoices to  Oracle Fusion  Payables for  payment. | Payables | Cross BU | FALSE
+Manage Intelligent Document Recognition Options | Define the default values and  controls used in  processing  imaging invoices  from Intelligent  Document  Recognition. | Payables | Cross BU | FALSE
+Manage Payment Terms | Define and  maintain Oracle  Fusion Payables  payment terms in use by an | Payables | Cross BU | FALSE
+Manage Invoice Tolerances | Define the  matching  tolerances to  allow for  variances  between invoice,  purchase order,  and receipt  information.  Define both  percentage- based and  amount-based  tolerances. | Payables | Cross BU | FALSE
+Define Common Options for Payables and Procurement
+Manage Procurement Agents | Define and  maintain  procurement  agents access to  information such  as purchasing  documents,  suppliers,  approved  supplier list  entries, and  business  intelligence  spend data. | Payables | BU Specific | FALSE
+Manage Common Options for Payables and Procurement | Select and  maintain common options for the  integration  between Oracle | Payables | BU Specific | FALSE
+Define General Payables Options
+Manage Invoice Options | Define invoicing- related defaults  and controls used in invoice  processing. | Payables | BU Specific | FALSE
+Manage Payment Options | Define payment- related defaults  and controls used in payment  processing. | Payables | BU Specific | FALSE
+Define Payables Configuration
+Manage Payables Profile Options | Define profile  option settings  and values to  control  reconciliation  data behavior  such as purge  frequency. | Payables | Cross BU | FALSE
+Manage Payables Document Sequences | Define document  categories and  assign  sequences to  Oracle Fusion  Payables  documents. | Payables | BU Specific | FALSE
+Manage Distribution Sets | Define  distribution sets  to automatically  enter distributions for an invoice  when they are  not matched to a  purchase order. | Payables | BU Specific | FALSE
+Manage Aging Periods | Define time  periods used by  the invoice aging  report. | Payables | Cross BU | FALSE
+Define Subledger Application andSources
+Manage Sources | Create and  maintain sources  which provide  transaction  attribute values  into the journal  entry generation  mechanism.  Sources are used in the definition of the rules. | Payables | Cross BU | FALSE
+Define Subledger Accounting Methods
+Manage Journal Line Rules | Create and  maintain the rule  used to convert  transaction data  into a journal | Payables | Cross BU | FALSE
+Manage Description Rules | Create and  maintain the rule  that creates a  description for a  subledger journal entry or any of its lines. | Payables | Cross BU | FALSE
+Manage MappingSets | Create and  maintain the rule  that determines  the segment or  entire account  value based on  certain  transaction  attribute values.  Mapping sets are used in account  rules. | Payables | Cross BU | FALSE
+Manage Account Rules | Create and  maintain the rules that are used to  determine the  accounts for | Payables | Cross BU | FALSE
+Manage Subledger Journal Entry RuleSets | Create and  maintain the rules that will generate  a complete  subledger journal entry. | Payables | Cross BU | FALSE
+Manage Accounting Methods | Create and  maintain method  used to record  the financial  impact of  subledger  transactions,  such as accrual  basis, cash basis, or combined  basis accounting. | Payables | Cross BU | FALSE
+Define Transaction Accounts
+Manage Transaction Account Types | Create and  maintain the  types of accounts that can be  derived for a  transaction, as  well as the  sources that can  be used for its  derivation. | Payables | Cross BU | FALSE
+Manage Transaction Account Definitions | Create and  maintain the  object that  groups the  account  derivation rules  used to derive  default accounts  for transactions  of an application. | Payables | Cross BU | FALSE
+Define Invoicing and Payments Configuration
+Create Payment Process Request Templates | Create templates  by predefining  selection criteria,  payment  attributes, and  processing  instructions.  Invalidate  obsolete  templates, or edit a template to  fine-tune its  selection criteria. | Payables | Cross BU | FALSE
+Define Common Accounts Receivable Configuration Task
+Manage Application Rule Sets Task | Create application rule sets to specify default payment steps for receipt applications and how discounts affect the open balance for each type of associated charge. | Receivables | BU Specific | FALSE
+Manage Receivables Activities Task | Create Receivables activities to provide default accounting information for customer payment activities. | Receivables | BU Specific | FALSE
+Manage Approval Limits Task | Create approval limits that allow users to approve adjustments, credit memo requests, credit memo refunds, and receipt write- offs within assigned currency and amount ranges. | Receivables | BU Specific | FALSE
+Manage Receivables Profile Options Task | Define profile option settings and values to control Receivables behavior such the receipt application accounting date default. | Receivables | Cross BU | FALSE
+Manage AutoCash Rule Sets Task | Create AutoCash rule sets to determine the sequence of rules to use to apply receipts to open receivables and update customer account balances. | Receivables | BU Specific | FALSE
+Manage Receivables Distribution Sets Task | Create distribution sets to account for income not related to invoices. | Receivables | BU Specific | FALSE
+Manage Receivables Descriptive Flexfields Task | Define validation and display properties of descriptive flexfields for Receivables. Descriptive flexfields are used to add custom attributes to entities. | Receivables | Cross BU | FALSE
+Manage Receivables Lookups Task | Review and maintain lookup values for Receivables, such as credit memo reason and adjustment reason. | Receivables | Cross BU | FALSE
+Manage Receivables Document Sequences Task | Define and assign document sequences to Oracle Receivables documents. | Receivables | BU Specific | FALSE
+Define Resource Organization Information Task
+Manage Internal Resource Organization s Task | Define sales or marketing organizations. Trading Community | Receivables | BU Specific | FALSE
+Manage Partner Organization s Task | Define partner resource organizations used to create partner | Receivables | BU Specific | FALSE
+Manage Resource Organization Hierarchies Task | Manage organization hierarchies for sales, marketing, or partner | Receivables | Cross BU | FALSE
+Manage Resource Organization Members Task | Manage resource members of sales, marketing, or partner organizations. | Receivables | Cross BU | FALSE
+Run Reporting Hierarchy Generation Task | Schedule and monitor the process to generate organization | Receivables | Cross BU | FALSE
+Define Resource Information Task
+Manage Resource Note Type Task | Manage resource note types. Trading Community Model | Receivables | Cross BU | FALSE
+Manage Resource Note Type Mapping Task | Manage resource note type mappings. Trading Community | Receivables | Cross BU | FALSE
+Manage Resource Note Descriptive Flexfields Task | Define descriptive flexfield setup for resource notes. Trading | Receivables | Cross BU | FALSE
+Manage Resource Lookups Task | Define lookup setup for resources. Trading Community | Receivables | Cross BU | FALSE
+Manage Resource Profile Options Task | Define profile options for resources. Trading Community | Receivables | Cross BU | FALSE
+Manage Resources Task | Create and manage resources. Trading Community | Receivables | BU Specific | FALSE
+Define Resource Role Information Task
+Manage Resource Roles Task | Define resource roles. Trading Community Model | Receivables | Cross BU | FALSE
+Manage Resource Role Lookups Task | Define lookup setup for resource roles. Trading Community | Receivables | Cross BU | FALSE
+Manage Resource Role Descriptive Flexfields Task | Define descriptive flexfield setup for resource roles. Trading | Receivables | Cross BU | FALSE
+Define Credit Management Configuration Task
+Manage Credit Scoring Models Task | Manages the scoring models defined based on data points. Scoring models are calculation formulas used to calculate credit scores using data point values. | Receivables | Cross BU | FALSE
+Manage Credit Case Folder Templates Task | Manages the templates of credit case folders, used during new case folder creation. | Receivables | BU Specific | FALSE
+Define Accounts Receivable Balance Monitoring Task
+Manage Statement Cycles Task | Create statement cycles to determine when to send statements to customers. | Receivables | BU Specific | FALSE
+Manage Standard Messages Task | Create standard messages to provide text that prints on the bottom of customer statements, debit memos, and | Receivables | Cross BU | FALSE
+Manage Interest Tiers Task | Create and configure interest tiers that define period ranges for number of days overdue on invoices and late payments. | Receivables | Cross BU | FALSE
+Manage Late Charge Schedules Task | Create and configure charge schedules that assign progressively higher interest or penalty charges to interest tier date ranges for overdue invoices | Receivables | BU Specific | FALSE
+Define Receivables Configuration Task
+Manage Receivables System Options Task | Define system options to configure the Receivables environment for a business unit. | Receivables | BU Specific | FALSE
+Define Subledger Application and Sources Task
+Manage Subledger Application Task | Register and maintain the subledger application and its corresponding | Receivables | Cross BU | FALSE
+Update Subledger Application Options Task | Submit a process to be run when there is a new subledger application | Receivables | Cross BU | FALSE
+Manage Subledger Application Transaction Objects Task | Create and maintain the transaction object and reference object definitions | Receivables | Cross BU | FALSE
+Create and Assign Sources Task | Submit a process to generate sources and source assignments | Receivables | Cross BU | FALSE
+Manage Sources Task | Create and maintain sources which provide transaction attribute values | Receivables | Cross BU | FALSE
+Manage User-Defined Formulas Task | Create and maintain the rule that calculates a numeric value or to derive an | Receivables | Cross BU | FALSE
+Manage Accounting Attributes Task | Maintain the attributes of a journal entry by mapping the sources which | Receivables | Cross BU | FALSE
+Define Subledger Accounting Methods Task
+Manage Journal Line Rules Task | Create and maintain the rule used to convert transaction data into a journal | Receivables | Cross BU | FALSE
+Manage Description Rules Task | Create and maintain the rule that creates a description for a subledger journal | Receivables | Cross BU | FALSE
+Manage Mapping Sets Task | Create and maintain the rule that determines the segment or entire account | Receivables | Cross BU | FALSE
+Manage Account Rules Task | Create and maintain the rules that are used to determine the accounts for | Receivables | Cross BU | FALSE
+Manage Supporting References Task | Create and maintain the object that stores additional transaction | Receivables | Cross BU | FALSE
+Manage Subledger Journal Entry Rule Sets Task | Create and maintain the rules that will generate a complete subledger journal | Receivables | Cross BU | FALSE
+Manage Accounting Methods Task | Create and maintain method used to record the financial impact of | Receivables | Cross BU | FALSE
+Activate Subledger Journal Entry Rule Set Assignments Task | Submit a process to validate the configuration and activate the usage of the | Receivables | Cross BU | FALSE
+Define Subledger Accounting Rules Task
+Import Supporting Reference Initial Balances Task | Use the manual journal entry spreadsheet to initialize the supporting | Receivables | BU Specific | FALSE
+Manage Subledger Accounting Options Task | Create and maintain options at the subledger application level to define how | Receivables | BU Specific | FALSE
+Manage Accounting Class Usages Task | Create and maintain the list of accounting classes that are used to | Receivables | Cross BU | FALSE
+Manage Subledger Accounting Lookups Task | Review and maintain lookup values for Oracle Fusion Subledger Accounting, such | Receivables | Cross BU | FALSE
+Manage Subledger Accounting Profile Options Task | Define profile option settings and values to control Oracle Fusion Subledger | Receivables | Cross BU | FALSE
+Manage Subledger Accounting Descriptive Flexfields Task | Define validation and display properties of descriptive flexfields for | Receivables | Cross BU | FALSE
+Define Common Cash and Treasury Management Configuration
+Manage Cash Management Descriptive Flexfields | Define validation | Cash Management | Cross BU | FALSE
+Manage Cash Management Profile Options | Define profile options | Cash Management | Cross BU | FALSE
+Manage Cash Management Lookups | Review and maintain | Cash Management | Cross BU | FALSE
+Define Bank Statement Processing and Reconciliation
+Manage Bank Statement Transaction Codes | Maintain codes | Cash Management | BU Specific | FALSE
+Manage Parse Rule Sets | Create and edit | Cash Management | Cross BU | FALSE
+Manage Bank Statement Transaction Creation Rules | Manage rules | Cash Management | Cross BU | FALSE
+Manage Cash Transaction Type Mapping | Create and edit mappings | Cash Management | Cross BU | FALSE
+Manage Bank Statement Reconciliation Tolerance Rules | Create and edit tolerance | Cash Management | Cross BU | FALSE
+Manage Bank Statement Reconciliation Matching Rules | Create and edit matching | Cash Management | Cross BU | FALSE
+Manage Bank Statement Reconciliation Rule Sets | Create and edit rule sets | Cash Management | Cross BU | FALSE
+Set Up Banks, Branches, and Accounts
+Manage Banks | Create and edit banks | Cash Management | BU Specific | FALSE
+Manage Bank Branches | Create and edit bank branches | Cash Management | BU Specific | FALSE
+Manage Bank Accounts | Create and edit bank accounts | Cash Management | BU Specific | FALSE
+Manage Payment Instruments | Create and edit instruments | Cash Management | BU Specific | FALSE
+Define Cash Positioning and Forecasting
+Specify Cash Positioning and Forecasting Options | Configure flexible time spans | Cash Management | Cross BU | FALSE
+Manage Cash Positioning and Forecasting Transaction Grouping | Maintain cube dimensions | Cash Management | Cross BU | FALSE
+Create Cash Positioning Report | Download Excel template | Cash Management | Cross BU | FALSE
+Define Subledger Application and Sources
+Manage Subledger Application | Register and maintain application | Cash Management | Cross BU | FALSE
+Update Subledger Application Options | Submit a process | Cash Management | Cross BU | FALSE
+Manage Subledger Application Transaction Objects | Create and maintain definitions | Cash Management | Cross BU | FALSE
+Create and Assign Sources | Submit a process | Cash Management | Cross BU | FALSE
+Manage Sources | Create and maintain sources | Cash Management | Cross BU | FALSE
+Manage User-Defined Formulas | Create and maintain rules | Cash Management | Cross BU | FALSE
+Manage Accounting Attributes | Maintain attributes | Cash Management | Cross BU | FALSE
+Define Subledger Accounting Methods
+Manage Journal Line Rules | Create and maintain rule | Cash Management | Cross BU | FALSE
+Manage Description Rules | Create and maintain description | Cash Management | Cross BU | FALSE
+Manage Mapping Sets | Create and maintain rule | Cash Management | Cross BU | FALSE
+Manage Account Rules | Create and maintain rules | Cash Management | Cross BU | FALSE
+Manage Supporting References | Create and maintain objects | Cash Management | Cross BU | FALSE
+Manage Subledger Journal Entry Rule Sets | Create and maintain rules | Cash Management | Cross BU | FALSE
+Manage Accounting Methods | Create and maintain method | Cash Management | Cross BU | FALSE
+Activate Subledger Journal Entry Rule Set Assignments | Submit a process | Cash Management | Cross BU | FALSE
+Import Supporting Reference Initial Balances | Use the manual spreadsheet | Cash Management | Cross BU | FALSE
+Manage Subledger Accounting Options | Create and maintain options | Cash Management | Cross BU | FALSE
+Manage Accounting Class Usages | Create and maintain list | Cash Management | Cross BU | FALSE
+Manage Subledger Accounting Lookups | Review and maintain lookups | Cash Management | Cross BU | FALSE
+Manage Subledger Accounting Profile Options | Define profile settings | Cash Management | Cross BU | FALSE
+Manage Subledger Accounting Descriptive Flexfields | Define validation and display | Cash Management | Cross BU | FALSE
+Define Fixed Assets Configuration
+Manage Fixed Assets Flexfield Value Sets | Create and update the definitions of the values used in each of the segments in the flexfields. | Assets | Cross BU | FALSE
+Manage Fixed Assets Key Flexfields | Define the category, location and asset key flexfield structures, which are used to classify fixed assets for depreciation and financial reporting purposes, track the exact location of the fixed assets and record information. | Assets | Cross BU | FALSE
+Manage System Controls | Define system options to configure assets. | Assets | BU Specific | FALSE
+Manage Fiscal Years | Define fiscal years used for reporting and tax purposes. | Assets | BU Specific | FALSE
+Manage Asset Keys | Create new asset key flexfield segment value combinations and review the existing combinations. | Assets | BU Specific | FALSE
+Manage Asset Locations | Create new combinations for location flexfield segment value combinations and review the existing combinations. | Assets | BU Specific | FALSE
+Manage Asset Calendars | Define accounting periods used for reporting and tax purposes. | Assets | BU Specific | FALSE
+Manage Prorate Conventions | Create prorate conventions to manage depreciation calculation during the first and last year of an asset's life. | Assets | BU Specific | FALSE
+Manage Depreciation Rules
+Manage Depreciation Methods | Create depreciation methods to calculate the depreciation for assets as required by reporting standards and tax regulations. | Assets | BU Specific | FALSE
+Manage Bonus Rules | Create bonus rules to take additional depreciation for assets. | Assets | BU Specific | FALSE
+Manage Ceilings | Create ceilings to limit the annual depreciation expense and the recoverable cost used to calculate annual depreciation expense. | Assets | BU Specific | FALSE
+Define Fixed Assets Configuration
+Manage Asset Books | Create asset books. Each book can have its own set of accounting rules and accounts to organize and implement fixed assets reporting and tax accounting policies. | Assets | BU Specific | FALSE
+Manage Asset Book Data Access for Users | Manage asset book data access for user provisioned roles with a security context of asset book. | Assets | BU Specific | FALSE
+Manage Set Assignments for Set Determinant Type | Specify the reference data set assignments for determinant type of Set. | Assets | Cross BU | FALSE
+Manage Cash Generating Units | Define cash generating units to be used to calculate impairment loss. | Assets | BU Specific | FALSE
+Manage Asset Price Indexes | Define asset price index to be used to revalue the carrying cost of the asset at periodic intervals. | Assets | BU Specific | FALSE
+Manage Asset Distribution Sets | Create distribution sets to quickly assign the appropriate distributions to a new asset. | Assets | BU Specific | FALSE
+Manage Fixed Assets Profile Options | Define profile option settings and values to control Oracle Fusion Assets behavior, such as the amount of database information retained in a concurrent program. | Assets | Cross BU | FALSE
+Manage Fixed Assets Lookups | Review and maintain lookup values for assets, such as description and queue name. | Assets | Cross BU | FALSE
+Manage Fixed Assets Descriptive Flexfields | Define validation and display properties of descriptive flexfields, which are used to capture additional asset descriptive information. | Assets | Cross BU | FALSE
+Define Subledger Application and Sources
+Manage Subledger Application | Register and maintain the subledger application and its corresponding event model such as event classes and event types. | Assets | Cross BU | FALSE
+Update Subledger Application Options | Submit a process to be run when there is a new subledger application registered or updates are made to any of the following after ledgers are defined; event model, event class, or event type. | Assets | Cross BU | FALSE
+Manage Subledger Application Transaction Objects | Create and maintain the transaction object and reference object definitions and the source assignments. | Assets | Cross BU | FALSE
+Create and Assign Sources | Submit a process to generate sources and source assignments based on the object definitions after creating or modifying transaction objects. | Assets | Cross BU | FALSE
+Manage Sources | Create and maintain sources which provide transaction attribute values into the journal entry generation mechanism. Sources are used in the definition of the rules. | Assets | Cross BU | FALSE
+Manage User-Defined Formulas | Create and maintain the rule that calculates a numeric value or to derive an alphanumeric value based on certain transaction attribute values. Formulas can be used in journal line rules, account rules, description rules, supporting references or mapping sets. | Assets | BU Specific | FALSE
+Update Subledger Application Options | Submit a process to be run when there is a new subledger application registered or updates are made to any of the following after ledgers are defined; event model, event class, or event type. | Assets | Cross BU | FALSE
+Manage Subledger Application Transaction Objects | Create and maintain the transaction object and reference object definitions and the source assignments. | Assets | Cross BU | FALSE
+Create and Assign Sources | Submit a process to generate sources and source assignments based on the object definitions after creating or modifying transaction objects. | Assets | Cross BU | FALSE
+Manage Sources | Create and maintain sources which provide transaction attribute values into the journal entry generation mechanism. Sources are used in the definition of the rules. | Assets | Cross BU | FALSE
+Manage User-Defined Formulas | Create and maintain the rule that calculates a numeric value or to derive an alphanumeric value based on certain transaction attribute values. Formulas can be used in journal line rules, account rules, description rules, supporting references or mapping sets. | Assets | BU Specific | FALSE
+Manage Accounting Attributes | Maintain the attributes of a journal entry by mapping the sources which will provide the values during entry generation. | Assets | BU Specific | FALSE
+Define Subledger Accounting Methods
+Manage Journal Line Rules | Create and maintain the rule used to convert transaction data into a journal entry line. | Assets | BU Specific | FALSE
+Manage Description Rules | Create and maintain the rule that creates a description for a subledger journal entry or any of its lines. | Assets | BU Specific | FALSE
+Manage Mapping Sets | Create and maintain the rule that determines the segment or entire account value based on certain transaction attribute values. Mapping sets are used in account rules. | Assets | Cross BU | FALSE
+Manage Account Rules | Create and maintain the rules that are used to determine the accounts for subledger journal entries. | Assets | BU Specific | FALSE
+Manage Supporting References | Create and maintain the object that stores additional transaction information about a subledger journal entry either at the header or line level. Supporting references can also be used to establish a subledger balance for each value of a transaction attribute and account. | Assets | Cross BU | FALSE
+Manage Subledger Journal Entry Rule Sets | Create and maintain the rules that will generate a complete subledger journal entry. | Assets | Cross BU | FALSE
+Manage Accounting Methods | Create and maintain method used to record the financial impact of subledger transactions, such as accrual basis, cash basis, or combined basis accounting. | Assets | Cross BU | FALSE
+Activate Subledger Journal Entry Rule Set Assignments | Submit a process to validate the configuration and activate the usage of the accounting method after making any updates on the journal entry rule set components or their assignments on the Accounting Method page. | Assets | Cross BU | FALSE
+Define Subledger Accounting Rules
+Import Supporting Reference Initial Balances | Use the manual journal entry spreadsheet to initialize the supporting reference balances. | Assets | Cross BU | FALSE
+Manage Subledger Accounting Options | Create and maintain options at the subledger application level to define how journal entries are generated for transactions. | Assets | Cross BU | FALSE
+Manage Accounting Class Usages | Create and maintain the list of accounting classes that are used to determine which journal entry lines to retrieve during a particular process. The process can be a report or any other post-accounting program. | Assets | BU Specific | FALSE
+Manage Subledger Accounting Lookups | Review and maintain lookup values for Oracle Fusion Subledger Accounting, such as accounting class values and journal entry types. | Assets | Cross BU | FALSE
+Manage Subledger Accounting Profile Options | Define profile option settings and values to control Oracle Fusion Subledger Accounting behavior such as enabling diagnostics which will capture transaction data used in journal entry generation. | Assets | Cross BU | FALSE
+Manage Subledger Accounting Descriptive Flexfields | Define validation and display properties of descriptive flexfields for Oracle Fusion Subledger Accounting. Descriptive flexfields are used to add custom attributes to manual adjustment entries. | Assets | Cross BU | FALSE
+Define Fixed Assets Configuration
+Manage Asset Categories | Create asset categories to classify and group fixed assets. Assign the categories to a book and define default depreciation rules and accounts, which are used for transactions and reporting. | Assets | BU Specific | FALSE
+Manage Asset Category Aliases | Create or update aliases for asset category combination | Assets | BU Specific | FALSE
+Manage Asset Key Aliases | Create or update aliases for asset key combination. | Assets | BU Specific | FALSE
+Manage Asset Location Aliases | Create or update aliases for asset location combination. | Assets | BU Specific | FALSE
+Define Tax Configuration
+Manage Tax Regimes | Create and maintain tax regimes for the taxes in each country and geographic region. Rapid setup spreadsheets can be used. | Tax | Cross BU | FALSE
+Run Jurisdiction and Rates Upload Program | Upload US sales and use tax jurisdictions and tax rates from a tax content provider. | Tax | Cross BU | FALSE
+Manage Taxes | Maintain details for tax rates, tax recovery rates, and tax accounting. Use rapid setup spreadsheets to create taxes. | Tax | Cross BU | FALSE
+Manage Tax Rates and Tax Recovery Rates | Create and maintain tax rates and recovery rates. Use rapid setup spreadsheets. | Tax | Cross BU | FALSE
+Manage Tax Exceptions | Create tax exceptions to override tax rate by item or fiscal classification. | Tax | Cross BU | FALSE
+Manage Party Tax Profiles | Maintain tax profiles for legal entities, business units, and suppliers/customers. | Tax | BU Specific | FALSE
+Manage Tax Registrations | Maintain tax registration for transaction/withholding tax obligation with tax authority. | Tax | BU Specific | FALSE
+Manage Tax Exemptions | Create tax exemptions to reduce/increase the tax rate on transactions. | Tax | BU Specific | FALSE
+Manage Transaction-Based Fiscal Classifications | Create fiscal classifications to determine tax treatments of transactions. | Tax | Cross BU | FALSE
+Manage Tax Classification Codes | Create tax classification codes to determine tax treatments of transactions and parties. | Tax | Cross BU | FALSE
+Manage Product Fiscal Classifications | Create product fiscal classifications to categorize products for tax calculation purposes. | Tax | Cross BU | FALSE
+Manage Intend Use Fiscal Classifications | Maintain intended use classifications that affect tax calculation rules. | Tax | Cross BU | FALSE
+Manage Place of Supply Rules | Define place of supply rules used to determine the jurisdiction for transaction taxes. | Tax | Cross BU | FALSE
+Manage Tax Rules | Create tax rules that determine how tax is calculated for transactions. Includes place of supply, registration, party, product, and fiscal classification rules. | Tax | Cross BU | FALSE
+Manage Tax Statuses | Create and maintain tax statuses associated with specific tax rates. | Tax | Cross BU | FALSE
+Manage Tax Reporting Types | Define reporting types used for generating tax reports and audit information. | Tax | Cross BU | FALSE
+Manage Tax Recovery Rates | Create tax recovery rates and define recovery percentages by tax status or classification. | Tax | Cross BU | FALSE
+Manage Tax Zone Types | Define types of geographical zones used for tax jurisdiction purposes. | Tax | BU Specific | FALSE
+Manage Tax Zones | Create and maintain geographic tax zones for jurisdiction mapping and rate calculations. | Tax | BU Specific | FALSE
+Manage Tax Jurisdictions | Create and maintain tax jurisdictions associated with tax zones and regimes. | Tax | BU Specific | FALSE
+Manage Party Tax Profiles (Customers) | Define tax profiles specific to customer parties. | Tax | BU Specific | FALSE
+Manage Party Tax Profiles (Suppliers) | Define tax profiles specific to supplier parties. | Tax | BU Specific | FALSE
+Manage Tax Content Subscription | Manage subscription to tax content providers for jurisdictions and rates. | Tax | Cross BU | FALSE
+Manage Tax Regime to Party Associations | Link tax regimes to specific business units or legal entities. | Tax | Cross BU | FALSE
+Manage Legal Reporting Unit Tax Profile | Define tax profile details for legal reporting units. | Tax | BU Specific | FALSE
+Manage Transaction Tax Options | Specify transaction tax options for business units and ledgers. | Tax | BU Specific | FALSE
+Manage Tax Accounting | Define tax accounting rules and default accounts for transactions. | Tax | Cross BU | FALSE
+Manage Default Recovery Rates | Specify default recovery rates for taxes at different tax statuses. | Tax | Cross BU | FALSE
+Manage Tax Configuration Diagnostics | Review and troubleshoot tax configurations using diagnostics tools. | Tax | Cross BU | FALSE
+Manage Configuration Owners and Subscriptions | Manage the entities responsible for owning and subscribing to tax configuration content. | Tax | Cross BU | FALSE
+Manage Tax Document Sequencing | Define how tax documents are numbered for reporting and compliance. | Tax | Cross BU | FALSE
+Manage Tax Reporting Codes | Define codes for transaction classification for regulatory reporting. | Tax | Cross BU | FALSE
+Manage Tax Event Classes | Maintain tax event classes for determining tax applicability to events like invoice or receipt. | Tax | Cross BU | FALSE
+Manage Tax Status Defaults | Define default tax statuses based on jurisdiction or product category. | Tax | Cross BU | FALSE
+Manage Geography Data for Tax | Import and manage country, state, and postal code data used in tax jurisdictions. | Tax | Cross BU | FALSE
+Manage Tax Reporting Entity Registrations | Create tax reporting entities and assign registration numbers by country. | Tax | BU Specific | FALSE
+Run Tax Configuration Diagnostics | Submit diagnostic reports to identify errors in tax setup. | Tax | Cross BU | FALSE
+Manage Deferred Tax Rules | Configure rules for deferring tax calculation and recognition. | Tax | Cross BU | FALSE
+Manage Tax Deductibility | Specify the deductibility of taxes for expense or income tax reporting. | Tax | BU Specific | FALSE
+
+### SHEET: Procurement (tasks 51, group headers 16)
+Task List / Task | Description | Required | Predecessor/Owner | BU Specific/Cross BU | Configured
+Define Enterprise for Procurement
+Manage Locations |  | Y |  | Cross BU | TRUE
+*Define Legal Jurisdictions and Authorities for Procurement
+*Manage Legal Entity |  | Y |  | Cross BU | TRUE
+Define Organization Structures for Procurement
+Manage Business Unit |  | Y |  | Cross BU | TRUE
+Assign Business Unit Business Function |  | Y |  | BU Specific | FALSE
+Manage Business Unit Set Assignment |  | N |  | BU Specific | FALSE
+Manage Service Provider Relationships |  | N |  | Cross BU | FALSE
+Define Facilities for Procurement
+Manage Facility Shifts |  | Y | Inventory | Cross BU | FALSE
+Manage Facility Workday Patterns |  | Y | Inventory | Cross BU | FALSE
+Manage Facility Schedules |  | Y | Inventory | Cross BU | FALSE
+Manage Inventory Organization |  | Y | Inventory | Cross BU | FALSE
+Manage Inventory Organization Data Access for Users |  | Y | Inventory | Cross BU | FALSE
+Manage Inventory Organization Locations |  | Y | Inventory | Cross BU | FALSE
+Manage Item Organizations |  | Y | Inventory | Cross BU | FALSE
+Define Security for Procurement
+Manage Job Roles |  | Y |  | Cross BU | FALSE
+Manage Duties |  | Y |  | Cross BU | FALSE
+Define Data Security for Procurement
+Manage Data Security Policies |  | N |  | Cross BU | FALSE
+Manage Data Role and Security Profiles |  | N |  | Cross BU | FALSE
+Define Trading Partner Security
+Manage Supplier User Roles |  | Y |  | Cross BU | TRUE
+Manage Supplier User Role Usages |  | N |  | Cross BU | TRUE
+Define Users for Procurement
+Manage Users |  | Y |  | Cross BU | FALSE
+Manage Business Unit Data Access for Users |  | Y |  | Cross BU | FALSE
+Procurement Foundation
+Manage Procurement Agents | Define and maintain procurement agents access to information such as purchasing documents, suppliers, approved supplier list entries, and business intelligence spend data. | Y |  | BU Specific | TRUE
+Manage Payment Terms | Define and maintain Oracle Fusion Payables payment terms in use by an organization. | Y |  | Cross BU | TRUE
+Manage Units of Measure | Create and maintain units of measure used within your organization to clearly identify the quantity of an item. | Y |  | Cross BU | TRUE
+Manage Procurement Document Numbering | Define and maintain document numbering sequence for document types and its corresponding determinant type. Determinant Type is an entity type on which the document numbering is based. For example, sold-to legal entity for purchase orders. | N |  | BU Specific | FALSE
+Manage Purchasing Line Types | Define and maintain purchasing line types used to differentiate orders for goods from those for services. | N |  | Cross BU | TRUE
+Manage Document Styles | Create and maintain purchasing document styles to control the look and feel to match the usage of the document. | N |  | Cross BU | TRUE
+Configure Procurement Business Function | Configure the procurement business function for the procurement business unit. Define procurement document control, document defaults, document numbering and related settings. | Y |  | BU Specific | TRUE
+Configure Requisitioning Business Function | Configure the requisitioning business function for the requisitioning business unit. Define requisition and purchasing document control, document defaults, document numbering and related settings. | Y |  | BU Specific | TRUE
+Manage Common Options for Payables and Procurement | Select and maintain common options for the integration between Oracle Fusion Payables and Oracle Fusion Procurement. | N |  | BU Specific | TRUE
+Purchasing Categories
+Manage Functional Area Catalogs | Create and edit functional area catalogs. | Y |  | Cross BU | FALSE
+Approval Management
+Manage Requisition Approvals | Define and maintain approval routing and configuration for requisitions. | Y |  | Cross BU | FALSE
+Manage Purchasing Document Approvals | Define and maintain approval routings and configuration for purchasing documents. | Y |  | Cross BU | FALSE
+Manage Internal Supplier Registration Approvals | Author approval rules to route an internal supplier registration for approval. | N |  | Cross BU | FALSE
+Manage Supplier Registration Approvals | Author approval rules to route an external supplier registration for approval. | N |  | Cross BU | FALSE
+Manage Supplier Profile Change Approvals | Author approval rules to route a supplier profile change request for approval. | N |  | Cross BU | FALSE
+Purchasing Foundation
+Manage Change Order Templates | Create and maintain templates to identify type of attribute changes that should result in a formal revision of the document. | N |  | Cross BU | TRUE
+Manage Purchasing Messages | Review and edit Purchasing messages. | N |  | Cross BU | TRUE
+Manage Hazard Classes | Create and maintain hazard class codes and description which aid in clearly identifying orders for hazardous materials. | N |  | Cross BU | TRUE
+Manage UN Numbers | Create and maintain United Nations identification numbers for hazardous materials. | N |  | Cross BU | TRUE
+Self Service Procurement
+Manage Self Service Procurement Profile Options | Define profile options related to self service procurement. | N |  | Cross BU | TRUE
+Manage Catalog Category Hierarchy | Define and maintain the category hierarchy for the supplier. | N |  | Cross BU | FALSE
+Receipt Accounting
+Manage Mapping Sets | Create and maintain the rule that determines the segment or entire account value based on certain transaction attribute values. Mapping sets are used in account rules. | N |  | Cross BU | FALSE
+Manage Account Rules | Create and maintain the rules that are used to determine the accounts for subledger journal entries. | N |  | Cross BU | FALSE
+Payables |  |  |  |  | 
+Manage Transaction Account Types | Create and maintain the types of accounts that can be derived for a transaction, as well as the sources that can be used for its derivation. | N |  | Cross BU | FALSE
+Manage Transaction Account Definitions | Create and maintain the object that groups the account derivation rules used to derive default accounts for transactions of an application. | N |  | Cross BU | FALSE
+Suppliers
+Specify Supplier Numbering | Specify the supplier number to be used when the next supplier record is created. | N |  | Cross BU | TRUE
+Manage Supplier Profile Options | Select the options to define aspects of the Supplier application's behavior. | N |  | Cross BU | FALSE
+Manage Supplier News Content |  |  | Procurement | Cross BU | TRUE
+Configure New Supplier Notification |  |  | Procurement | Cross BU | TRUE
+Manage Supplier User Roles |  |  | Procurement | Cross BU | TRUE
+
+### SHEET: Inventory (tasks 29, group headers 1)
+Task List / Task | Description | Required | Predecessor/Owner | BU Specific/Cross BU | Configured
+Define Inventory Management Configuration
+Manage Inventory Organizations | Define Inventory Organizations | Y |  | BU Specific | Not Started
+Manage Item Organizations | Define Item Organizations | Y |  | BU Specific | Not Started
+Manage Inventory Profile Options | Define profile option settings and values to control inventory behavior such as Material Status Support. | N |  | BU Specific | Not Started
+Manage Inventory Lookups | Review and maintain lookup values for inventory, such as Movement Request Pick Slip Print Options and Lot Origination Type. | N |  | Cross BU | Not Started
+Manage Inventory Value Sets | Create and edit inventory value sets. | N |  | Cross BU | Not Started
+Manage Inventory Descriptive Flexfields | Define validation and display properties of descriptive flexfields for inventory. Descriptive flexfields are used to add attributes to entities. | N |  | Cross BU | Not Started
+Manage Inventory Account Alias Key Flexfield | Define the inventory account alias key flexfield segments and validation for use as inventory account alias classification keys. The inventory account alias key flexfield must be defined for inventory to operate correctly. | N |  | Cross BU | Not Started
+Manage Inventory Locator Key Flexfield | Define the inventory locator key flexfield segments and validation for use as inventory locator classification keys. The inventory locator key flexfield must be defined for inventory to operate correctly. | N |  | Cross BU | Not Started
+Manage Inventory Transaction Sources and Types | Configure inventory transaction sources to use while performing transactions to classify transactions according to their origin, such as purchase order, sales order, account number, or physical inventory. Configure transaction types using user-defined terminology to represent transaction types. | N |  | Cross BU | Not Started
+Manage Material Statuses | Configure user-defined material statuses to control the transactions that can be performed on the material. Material status can be assigned either at the subinventory, locator, lot, or serial number level. | N |  | Cross BU | Not Started
+Manage Subinventories and Locators | Configure and maintain subinventories and locators to identify material storage locations or groupings of items within an inventory organization. | N |  | Cross BU | Not Started
+Manage ABC Classes | Configure ABC classes to identify the value groupings to which items will be assigned. | N |  | Cross BU | Not Started
+Manage ABC Classification Sets | Configure the valuation and scope of the ABC analysis performed against an inventory based on quantity, value, or history of the item. | N |  | Cross BU | Not Started
+Manage ABC Assignment Groups | Configure ABC assignment groups and associate ABC classes to the respective ABC assignment groups. | N |  | Cross BU | Not Started
+Manage Interorganization Parameters | Configure interorganization parameters to define accounting information and relationships that exist between a shipping organization and a destination organization. Interorganization parameters are used in the creation and processing of interorganization transactions. | N |  | Cross BU | Not Started
+Manage Intersubinventory Parameters | Configure parameters related to the transfer of material between two subinventories. | N |  | Cross BU | Not Started
+Manage Account Aliases | Configure account aliases to provide an easily recognizable name or label for general ledger account numbers. An account alias can be used instead of the account number to refer to an account when processing inventory transactions. | N |  | Cross BU | Not Started
+Manage Lot Expiration Actions | Configure lot expiration actions to indicate the action required on a lot when it expires. | N |  | Cross BU | Not Started
+Pick Slip Grouping Rules | Configure the grouping of picks into pick slips. | N |  | Cross BU | Not Started
+Manage Pick Slip Grouping Rules | Configure the grouping of picks into pick slips. | N |  | Cross BU | Not Started
+Manage Picking Rules | Configure picking rules to enable the selection of material based on defined criteria. | N |  | Cross BU | Not Started
+Picking Rule Assignments | Configure the assignment of a picking rule to any combination of criteria and prioritize the rule assignment within the organization. | N |  | Cross BU | Not Started
+Manage Picking Rule Assignments | Configure the assignment of a picking rule to any combination of criteria and prioritize the rule assignment within the organization. | N |  | Cross BU | Not Started
+Manage Min-Max Planning Classification Groups | Create and edit classifications under the default classification group. Define classification criteria for each classification so that items are classified into relevant classifications based on these criteria. | N |  | Cross BU | Not Started
+Manage Min-Max Planning Policy Profiles | Create and edit policy profiles to define how safety stock, minimum quantity, maximum quantity, and EOQ must be calculated for min-max planning. | N |  | Cross BU | Not Started
+Manage Min-Max Planning Policy Profile Assignments | Create and edit assignments of policy profiles to classifications at the organization and subinventory level for min-max planning. | N |  | Cross BU | Not Started
+Associate Source Organization with Inventory Organization | Define and maintain the source organizations that are associated with inventory organizations, when the item sourcing is organization. | N |  | Cross BU | Not Started
+Associate Customer with Inventory Organization | Define and maintain the customer that are associated with inventory organizations. | N |  | Cross BU | Not Started
+Manage Inventory Document Output Preferences | Configure inventory document output preferences. | N |  | Cross BU | Not Started
+
+### SHEET: Costing (tasks 14, group headers 4)
+Task List / Task | Description | Required | Predecessor/Owner | BU Specific/Cross BU | Configured
+Define Cost Accounting |  | No
+Manage Cost Organizations | Create and edit cost organizations. Cost accounting setup data policies and user security policies for cost management are established in these organizations. | Y | Cost Management | BU Specific | Not Started
+Manage Cost Organization Data Access for Users | Manage cost organization data access for user provisioned roles. | Y | Cost Management | BU Specific | Not Started
+Manage Cost Books | Create and edit cost books that are used for inventory transaction accounting. | Y | Cost Management | BU Specific | Not Started
+Manage Cost Organization Relationships | Associate inventory organizations to cost organizations and assign cost books to cost organizations. | Y | Cost Management | BU Specific | Not Started
+Manage Cost Analysis Groups | Create and edit cost classifications for analysis. | N | Cost Management | Cross BU | Not Started
+Define Cost Accounting Policies | Specify cost elements, configure mapping between cost components and cost elements, and specify cost profiles and valuation unit structures. | Yes
+Manage Valuation Structures | Create and edit valuation structures to define inventory control attributes that are used to track costs. | Y | Cost Management | Cross BU | Not Started
+Manage Cost Elements | Create and edit cost elements that are used for inventory transaction accounting. | Y | Cost Management | Cross BU | Not Started
+Manage Cost Component Mappings | Create and edit mappings between cost components and cost elements. | Y | Cost Management | Cross BU | Not Started
+Manage Cost Profiles | Create and edit cost profiles that are used for assigning accounting methods to items. | Y | Cost Management | Cross BU | Not Started
+Define Cost Accounting Book Policies | Configure default cost profiles, item cost profiles, and valuation units for items. | Yes
+Manage Default Cost Profiles | Create and edit cost profiles that can be automatically assigned to items at the cost organization, cost book, or item category level. | Y | Cost Management | BU Specific | Not Started
+Manage Item Cost Profiles | Assign cost profiles to items at the cost organization and cost book level. | N | Cost Management | BU Specific | Not Started
+Manage Valuation Units | Create and edit valuation units to define the values of inventory control attributes within valuation structures. | Y | Cost Management | BU Specific | Not Started
+Define Overheads Absorption Policies | Specify overhead expense pools and cost elements for overheads. | No
+Manage Overhead Expense Pools | Create and edit definitions of expense pools for overhead rules that are used in overhead absorption. | N | Cost Management | Cross BU | Not Started
+Manage Overhead Cost Element Groups | Create and edit cost element groupings for overhead rules that are based on a percentage of cost. | N | Cost Management | BU Specific | Not Started
+
+### SHEET: Manufacturing (tasks 11, group headers 0)
+Task List / Task | Description | Required | Predecessor/Owner | BU Specific/Cross BU | Configured
+Define Common Production Configuration | Set up and configure production- related data that is common data across production methods and strategies. | Y |  | Cross BU | Not Started
+Manage Plant Parameters | Configure parameters at a plant level that are relevant to production master data and execution. | Y |  | Cross BU | Not Started
+Manage Plant Profiles | Review and maintain profile values for manufacturing facilities. | Y |  | Cross BU | Not Started
+Manage Production Value Sets | Create and maintain production value sets. | N |  | Cross BU | Not Started
+Manage Production Lookups | Create and maintain lookups that are used in production master data and execution. | N |  | Cross BU | Not Started
+Manage Work Areas | Create and maintain work areas to represent specific regions in the plant where work activities are executed. | Y |  | Cross BU | Not Started
+Manage Production Resources | Create and maintain resources to model the labor or equipment used in a work center and operation and to track usages during production execution. | N |  | Cross BU | Not Started
+Manage Work Centers | Create and maintain work centers to represent specific location where work is performed and is comprised of resources having similar capabilities. | Y |  | Cross BU | Not Started
+Define Common Production Configuration | Set up and configure production- related data that is common data across production methods and strategies. | Y |  | Cross BU | Not Started
+Manage Production Resource Instances | Create and maintain resource instances that represent the named labor or equipment belonging to a resource. Resource instances are assigned in work order operations and their usage is tracked during production execution. | N |  | Cross BU | Not Started
+Manage Manufacturing and Maintenance Work Order Statuses | Create and maintain work order statuses to support enterprise- specific business processes in manufacturing and maintenance. | N |  | Cross BU | Not Started
+
+### SHEET: Maintenance (tasks 21, group headers 3)
+Task List / Task | Description | Required | Predecessor/Owner | BU Specific/Cross BU | Configured
+Define Common Maintenance Management Configuration
+Manage Plant Parameters | Configure parameters at a plant level that are relevant to production master data and execution. | Y | Manufacturing | BU Specific | Not Started
+Manage Inventory Organization Data Access for Users | Manage inventory organization data access for user provisioned roles with a security context of inventory organization. | Y | Financials | BU Specific | Not Started
+Manage Plant Profiles | Review and maintain profile values for manufacturing facilities. | Y | Manufacturing | BU Specific | Not Started
+Manage Maintenance Lookups | Create and maintain lookups that are used in maintenance management. | Y | Maintenance | BU Specific | Not Started
+Manage Maintenance Value Sets | Create and maintain maintenance management value sets. | N | Maintenance | BU Specific | Not Started
+Manage Maintenance Descriptive Flexfields | Define validation and display properties of descriptive flexfields for maintenance management. Descriptive flexfields are used to add attributes to entities. | N | Maintenance | BU Specific | Not Started
+Manage Maintenance Work Areas | Create and maintain work areas to represent specific regions where maintenance activities are executed. | Y | Maintenance | BU Specific | Not Started
+Manage Maintenance Resources | Create and maintain resources to model the labor or equipment used in a maintenance work center and operation, and to track usages during maintenance execution. | Y | Maintenance | BU Specific | Not Started
+Manage Maintenance Work Centers | Create and maintain work centers to represent specific locations where maintenance work is performed and resources with similar capabilities are available. | Y | Maintenance | BU Specific | Not Started
+Define Assets
+Download Asset Import Template | Download the asset import template from Oracle Enterprise Repository. | N | Maintenance | BU Specific | Not Started
+Upload Asset Data | Upload the asset data file to the import processing area. | N | Maintenance | BU Specific | Not Started
+Load Interface File for Asset Import | Run the scheduled process that loads asset data to interface tables. | N | Maintenance | BU Specific | Not Started
+Import Assets | Import assets using interface tables. | N | Maintenance | BU Specific | Not Started
+Define Common Maintenance Management Configuration
+Manage Maintenance Resource Instances | Create and maintain resource instances, such as an employee or a piece of equipment to model the labor or equipment used in a maintenance work center and operation, and to track usages during maintenance execution. | N | Maintenance | BU Specific | Not Started
+Manage Asset Maintenance Parameters | Configure parameters that are relevant to the creation, update, and management of maintenance assets. | N | Maintenance | BU Specific | Not Started
+Manage Condition Event Codes | Create and maintain event codes to represent equipment conditions. | N | Maintenance | BU Specific | Not Started
+Manage Maintenance Organization Relationships | Define relationships for maintenance-enabled organizations to facilitate the management of assets across the operating organizations. | N | Maintenance | BU Specific | Not Started
+Manage Manufacturing and Maintenance Work Order Statuses | Create and maintain work order statuses to support enterprise-specific business processes in manufacturing and maintenance. | N | Maintenance | BU Specific | Not Started
+Manage Asset Group Rules | Create and maintain group rules for asset groups. You can specify usages and grouping attributes for your groups. | N | Maintenance | BU Specific | Not Started
+Manage Failure Sets | Create and maintain failure sets for asset failure capture. | N | Maintenance | BU Specific | Not Started
+Manage Asset Tracking Descriptive Flexfields | Define validation and display properties of descriptive flexfields for asset tracking. Descriptive flexfields are used to add attributes to entities. | N | Maintenance | BU Specific | Not Started
+
+### SHEET: PIM (tasks 3, group headers 0)
+Offering | Task List / Task | Description | Required | BU Specific/Cross BU | Configured
+Product Management | Configure Item Classes |  | Y | Cross BU | FALSE
+Product Management | Configure Catalogs/Categories |  | Y | Cross BU | FALSE
+Product Management | Configure Structure Types |  | Y | Cross BU | FALSE

@@ -1,0 +1,1 @@
+Create a GENERAL Payables calendar named FSCRT_CAL1 for Run 04 testing, monthly periods with MMM period names, starting 2027-01-01, and generate the first year of periods.

@@ -1,0 +1,23 @@
+{
+  "TaskCode" : "AR_MANAGE_STATEMENT_CYCLES",
+  "ImportSupportedFlag" : true,
+  "@context" : {
+    "key" : "AR_MANAGE_STATEMENT_CYCLES",
+    "links" : [ {
+      "rel" : "self",
+      "href" : "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/setupTaskCSVImports/AR_MANAGE_STATEMENT_CYCLES",
+      "name" : "setupTaskCSVImports",
+      "kind" : "item"
+    }, {
+      "rel" : "canonical",
+      "href" : "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/setupTaskCSVImports/AR_MANAGE_STATEMENT_CYCLES",
+      "name" : "setupTaskCSVImports",
+      "kind" : "item"
+    }, {
+      "rel" : "child",
+      "href" : "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/setupTaskCSVImports/AR_MANAGE_STATEMENT_CYCLES/child/SetupTaskCSVImportProcess",
+      "name" : "SetupTaskCSVImportProcess",
+      "kind" : "collection"
+    } ]
+  }
+}

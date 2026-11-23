@@ -1,0 +1,54 @@
+{
+ "old": "evidence/before/exports/ETIA-TEST_setup_task_csv_export_fun_manage_business_unit_100004734412594.zip",
+ "new": "evidence/after/exports/ETIA-TEST_setup_task_csv_export_fun_manage_business_unit_100004733447091.zip",
+ "files": {
+  "FUN_BUSINESS_UNIT.csv": {
+   "rows_old": 183,
+   "rows_new": 183,
+   "key_columns": [
+    "Name",
+    "PrimaryLedgerName",
+    "LegalEntityName",
+    "ManagerListName",
+    "FirstName",
+    "LastName"
+   ],
+   "added": [],
+   "removed": [],
+   "changed": []
+  },
+  "FUN_BU_SERVICE_PROVIDERS.csv": {
+   "rows_old": 264,
+   "rows_new": 264,
+   "key_columns": [
+    "ClientBuName",
+    "ProviderBuName"
+   ],
+   "added": [],
+   "removed": [],
+   "changed": []
+  },
+  "FUN_BU_USAGE.csv": {
+   "rows_old": 1068,
+   "rows_new": 1068,
+   "key_columns": [
+    "FUN_BUSINESS_UNIT.Name"
+   ],
+   "added": [],
+   "removed": [],
+   "changed": []
+  },
+  "LE_1214416713655.csv": {
+   "rows_old": 8363,
+   "rows_new": 8363,
+   "key_columns": [
+    "Name",
+    "SetCode",
+    "ReferenceGroupName"
+   ],
+   "added": [],
+   "removed": [],
+   "changed": []
+  }
+ }
+}

@@ -1,0 +1,411 @@
+area_code,area,offerings,row,reason,area_tasks,tasks_in_this_row,tasks_sent_elsewhere
+ORA_ABSENCE,Absence,Workforce Absence Management,Absence Management,offering default: offering default: Absence offering,4,4,-
+ORA_ABSENCE_MANAGEMENT_BENEFITS_ELIGIBILITY,Absence Management Benefits Eligibility,Workforce Absence Management,Absence Management,offering default: offering default: Absence offering,4,0,Benefits 4
+ORA_ABSENCE_MANAGEMENT_COMMON,Absence Management Common,Workforce Absence Management,Absence Management,offering default: offering default: Absence offering,3,0,Common Features 3
+ORA_ABSENCE_MANAGEMENT_ELEMENTS_EARNINGS_AND_DEDUCTIONS,"Absence Management Elements, Earnings and Deductions",Workforce Absence Management,Absence Management,offering default: offering default: Absence offering,2,0,Global Payroll 2
+ORA_ABSENCE_MANAGEMENT_EMPLOYMENT_ACTIONS_FRAMEWORK,Absence Management Employment Actions Framework,Workforce Absence Management,Absence Management,offering default: offering default: Absence offering,3,0,Global HR 3
+ORA_ABSENCE_MANAGEMENT_ENTERPRISE,Absence Management Enterprise,Workforce Absence Management,Absence Management,offering default: offering default: Absence offering,1,0,Common Features 1
+ORA_ABSENCE_MANAGEMENT_LEGAL_AND_LEGISLATIVE_ORGANIZATIONS,Absence Management Legal and Legislative Organizations,Workforce Absence Management,Absence Management,offering default: offering default: Absence offering,3,0,Common Features 2; Global HR 1
+ORA_ABSENCE_MANAGEMENT_PAYROLL_RATES_AND_VALUES,Absence Management Payroll Rates and Values,Workforce Absence Management,Absence Management,offering default: offering default: Absence offering,2,0,Global Payroll 2
+ORA_ABSENCE_MANAGEMENT_PAYROLL_TOOLS,Absence Management Payroll Tools,Workforce Absence Management,Absence Management,offering default: offering default: Absence offering,2,0,Global Payroll 2
+ORA_ABSENCE_MANAGEMENT_PERSON_RECORD,Absence Management Person Record,Workforce Absence Management,Absence Management,offering default: offering default: Absence offering,3,0,Global HR 3
+ORA_ABSENCE_MANAGEMENT_WFM_COMMON,Absence Management WFM Common,Workforce Absence Management,Absence Management,offering default: offering default: Absence offering,4,0,Time and Labor 3; Global HR 1
+ORA_ABSENCES_ADDITIONAL,Absences Additional,Workforce Absence Management,Absence Management,offering default: offering default: Absence offering,2,2,-
+ORA_HER_INSTITUTIONAL_SETTINGS,Academic Structures,Student Management,Unmapped,"offering default: offering has no tracker row (CX, Public Sector or Student Management)",20,20,-
+ORA_PSC_FA_ACCOUNTING,Accounting,Public Sector Business Licenses; Public Sector Code Enforcement; Public Sector Permits; Public Sector Planning and Zoning,Unmapped,"offering default: offering has no tracker row (CX, Public Sector or Student Management)",24,3,General Ledger 21
+ORA_FIN_ACCOUNT_TRANSFORM,Accounting Transformation,Fusion Accounting Hub,General Ledger,area override: accounting hub,24,24,-
+ORA_SVC_ACCOUNTS_AND_CONTACTS,Accounts and Contacts,Customer Loyalty; Sales; Service,Unmapped,"offering default: offering has no tracker row (CX, Public Sector or Student Management)",65,9,Receivables 56
+ORA_SVC_ACTION_PLANS,Action Plans,Help Desk; Service,Unmapped,"offering default: offering has no tracker row (CX, Public Sector or Student Management)",8,8,-
+ORA_GTG_ACTIVATE_ALGORITHMS,Activate Algorithms,Risk and Security,Security,offering default: offering default: Risk and Security (advanced access controls),2,2,-
+ORA_GTG_ADD_OTHER_DATA_SOURCES,Add Other Data Sources,Risk and Security,Security,offering default: offering default: Risk and Security (advanced access controls),2,2,-
+ORA_HEQ_ADMISSIONS_STRUCTURE,Admissions Structures,Student Management,Unmapped,"offering default: offering has no tracker row (CX, Public Sector or Student Management)",6,6,-
+EGI_ADVANCED_CATALOGS,Advanced Catalogs,Product Management,PLM - Product Hub,offering default: offering default: Product Management offering = Product Hub; area overrides below,1,1,-
+ORA_ADVANCED_INVENTORY_MANAGEMENT,Advanced Inventory Management,Manufacturing and Supply Chain Materials Management,Inventory Management,area override: inventory,2,2,-
+ORA_PSC_FA_AGENCY_PROFILE,Agency Profile,Public Sector Business Licenses; Public Sector Code Enforcement; Public Sector Permits; Public Sector Planning and Zoning,Unmapped,"offering default: offering has no tracker row (CX, Public Sector or Student Management)",56,43,Common Features 11; Receivables 2
+ORA_PSC_FA_AGENCY_STAFF,Agency Staff,Public Sector Business Licenses; Public Sector Code Enforcement; Public Sector Permits; Public Sector Planning and Zoning,Unmapped,"offering default: offering has no tracker row (CX, Public Sector or Student Management)",5,5,-
+CUSTOM_ALERT_FOUNDATION,Alert Foundation,HCM Tool,Global HR,"offering default: offering default: HCM tools (profiles, questionnaires, approvals) are HCM common",1,1,-
+ORA_PSC_FA_ANALYTICS,Analytics and Reporting,Public Sector Business Licenses; Public Sector Code Enforcement; Public Sector Permits; Public Sector Planning and Zoning,Unmapped,"offering default: offering has no tracker row (CX, Public Sector or Student Management)",4,4,-
+ORA_HEY_APPLICATION_ACCESS,Application Access,Student Management,Unmapped,"offering default: offering has no tracker row (CX, Public Sector or Student Management)",3,2,Common Features 1
+ORA_ASK_APPLICATION_EXTENSIONS,Application Extensions,Customer Data Management; Enterprise Contracts; Financials; Fusion Accounting Hub; Grants Management; Manufacturing and Supply Chain Materials Management; Order Management; Procurement; Product Management; Project Execution Management; Project Financial Management; Public Sector Business Licenses; Public Sector Code Enforcement; Public Sector Permits; Public Sector Planning and Zoning; Sales; Sales Marketing; Student Management; Supply Chain Planning,Common Features,ORA_ASK_: ORA_ASK_ shared setup area (Run 29 rule),54,54,-
+ORA_PO_APPROVAL_MANAGEMENT_FA,Approval Management,Procurement,Procurement,area override: Run 32 tag Procurement,14,5,Sourcing and Supplier Management 7; Common Features 1; Purchasing 1
+CUSTOM_APPROVAL_OPTIONS,Approval Options,HCM Tool,Global HR,"offering default: offering default: HCM tools (profiles, questionnaires, approvals) are HCM common",3,3,-
+CUSTOM_APPROVAL_RULES,Approval Rules,HCM Tool,Global HR,"offering default: offering default: HCM tools (profiles, questionnaires, approvals) are HCM common",2,2,-
+CUSTOM_APPROVAL_TASK,Approval Task,HCM Tool,Global HR,"offering default: offering default: HCM tools (profiles, questionnaires, approvals) are HCM common",2,2,-
+ORA_GTG_RM_INITIAL_USERS,Assign Initial Users,Risk and Security,Security,offering default: offering default: Risk and Security (advanced access controls),2,2,-
+ORA_SVC_ASSIGNMENT_AND_ROUTING,Assignment and Routing,Help Desk,Unmapped,"offering default: offering has no tracker row (CX, Public Sector or Student Management)",3,3,-
+ORA_EGI_AUDIT_TRAIL,Audit Trail,Product Management,PLM - Product Hub,offering default: offering default: Product Management offering = Product Hub; area overrides below,1,0,Common Features 1
+ORA_FUN_BANKING_CONFIGURATIONS,Banking Configurations,Financials,Cash Management,area override: bank configurations,2,0,General Ledger 2
+ORA_BENEFITS_ABSENCE,Benefits Absence,Benefits Configuration,Benefits,offering default: offering default: Benefits offering,5,0,Absence Management 5
+ORA_BENEFITS_BILLING,Benefits Billing,Benefits Configuration,Benefits,offering default: offering default: Benefits offering,1,1,-
+ORA_BENEFITS_COLLECTIVE_AGREEMENTS,Benefits Collective Agreements,Benefits Configuration,Benefits,offering default: offering default: Benefits offering,1,0,Global HR 1
+ORA_BENEFITS_COMMON,Benefits Common,Benefits Configuration,Benefits,offering default: offering default: Benefits offering,8,6,Common Features 1; Global HR 1
+ORA_BENEFITS_DEPARTMENTS,Benefits Departments,Benefits Configuration,Benefits,offering default: offering default: Benefits offering,1,0,Common Features 1
+ORA_BENEFITS_DOCUMENT_TYPES,Benefits Document Types,Benefits Configuration,Benefits,offering default: offering default: Benefits offering,2,0,Global HR 2
+ORA_BENEFITS_ELEMENTS_EARNINGS_AND_DEDUCTIONS,"Benefits Elements, Earnings and Deductions",Benefits Configuration,Benefits,offering default: offering default: Benefits offering,2,0,Global Payroll 2
+ORA_BENEFITS_ELIGIBILITY,Benefits Eligibility,Benefits Configuration,Benefits,offering default: offering default: Benefits offering,1,1,-
+ORA_BENEFITS_EMPLOYMENT_ACTIONS_FRAMEWORK,Benefits Employment Actions Framework,Benefits Configuration,Benefits,offering default: offering default: Benefits offering,3,0,Global HR 3
+ORA_BENEFITS_ENTERPRISE,Benefits Enterprise,Benefits Configuration,Benefits,offering default: offering default: Benefits offering,1,0,Common Features 1
+ORA_BENEFITS_GENERAL_CONFIGURATION,Benefits General Configuration,Benefits Configuration,Benefits,offering default: offering default: Benefits offering,15,15,-
+ORA_BENEFITS_GRADES,Benefits Grades,Benefits Configuration,Benefits,offering default: offering default: Benefits offering,3,0,Global HR 3
+ORA_BENEFITS_HCM_DATA_ROLE,Benefits HCM Data Role,Benefits Configuration,Benefits,offering default: offering default: Benefits offering,1,0,Global HR 1
+ORA_BENEFITS_HCM_EXTRACT,Benefits HCM Extract,Benefits Configuration,Benefits,offering default: offering default: Benefits offering,1,0,Global HR 1
+ORA_BENEFITS_HCM_SECURITY_PROFILE,Benefits HCM Security Profile,Benefits Configuration,Benefits,offering default: offering default: Benefits offering,13,0,Global HR 7; Global Payroll 3; Recruiting 2; Talent Review and Succession 1
+ORA_BENEFITS_HCM_TREES,Benefits HCM Trees,Benefits Configuration,Benefits,offering default: offering default: Benefits offering,3,0,Common Features 2; Global HR 1
+ORA_BENEFITS_JOBS,Benefits Jobs,Benefits Configuration,Benefits,offering default: offering default: Benefits offering,2,0,Common Features 2
+ORA_BENEFITS_LEGAL_AND_LEGISLATIVE_ORGANIZATIONS,Benefits Legal and Legislative Organizations,Benefits Configuration,Benefits,offering default: offering default: Benefits offering,3,0,Common Features 2; Global HR 1
+ORA_BENEFITS_LOCATIONS,Benefits Locations,Benefits Configuration,Benefits,offering default: offering default: Benefits offering,1,0,Common Features 1
+ORA_BENEFITS_PAYROLL_BALANCES,Benefits Payroll Balances,Benefits Configuration,Benefits,offering default: offering default: Benefits offering,5,0,Global Payroll 5
+ORA_BENEFITS_PAYROLL_TOOLS,Benefits Payroll Tools,Benefits Configuration,Benefits,offering default: offering default: Benefits offering,2,0,Global Payroll 2
+ORA_BENEFITS_PERSON_RECORD,Benefits Person Record,Benefits Configuration,Benefits,offering default: offering default: Benefits offering,3,0,Global HR 3
+ORA_BENEFITS_POSITIONS,Benefits Positions,Benefits Configuration,Benefits,offering default: offering default: Benefits offering,3,0,Global HR 3
+ORA_BENEFITS_PROGRAM_AND_PLAN_HIERARCHY,Benefits Program and Plan Hierarchy,Benefits Configuration,Benefits,offering default: offering default: Benefits offering,1,1,-
+ORA_BENEFITS_RATES,Benefits Rates,Benefits Configuration,Benefits,offering default: offering default: Benefits offering,1,1,-
+ORA_BENEFITS_SALARY_AND_BASE_PAY,Benefits Salary and Base Pay,Benefits Configuration,Benefits,offering default: offering default: Benefits offering,4,0,Workforce Compensation 4
+ORA_BENEFITS_SECURITY_CONSOLE,Benefits Security Console,Benefits Configuration,Benefits,offering default: offering default: Benefits offering,7,0,Common Features 6; Global HR 1
+ORA_BENEFITS_SENIORITY_DATES,Benefits Seniority Dates,Benefits Configuration,Benefits,offering default: offering default: Benefits offering,1,0,Global HR 1
+ORA_BENEFITS_SUPPLEMENTARY_ORGANIZATIONS,Benefits Supplementary Organizations,Benefits Configuration,Benefits,offering default: offering default: Benefits offering,3,0,Global HR 2; Common Features 1
+ORA_BENEFITS_TIME_AND_LABOR,Benefits Time and Labor,Benefits Configuration,Benefits,offering default: offering default: Benefits offering,6,0,Time and Labor 6
+ORA_FIN_ARB_BILL_MANAGEMENT,Bill Management,Financials,Receivables,area override: customer bill presentment,2,2,-
+CUSTOM_BILLING_SETUP,Billing Setup,Subscriptions,Unmapped,"offering default: offering has no tracker row (CX, Public Sector or Student Management)",3,3,-
+ORA_PSC_FA_BRANDING,Branding,Public Sector Business Licenses; Public Sector Code Enforcement; Public Sector Permits; Public Sector Planning and Zoning,Unmapped,"offering default: offering has no tracker row (CX, Public Sector or Student Management)",12,12,-
+ORA_XCC_PUBLICSECTOR,Budgetary Control and Encumbrance Accounting,Financials,General Ledger,area override: budgetary control in GL,17,17,-
+PJF_BURDENING,Burdening,Grants Management; Project Financial Management,Project Financial Management,offering default: offering default: Grants Management is built on Projects; Project Financial Management offering,8,8,-
+ORA_PSC_FA_BL_INSPECTION,Business License Inspections,Public Sector Business Licenses,Unmapped,"offering default: offering has no tracker row (CX, Public Sector or Student Management)",13,13,-
+ORA_PSC_FA_BUS_LICENSE_TYPES,Business License Types,Public Sector Business Licenses,Unmapped,"offering default: offering has no tracker row (CX, Public Sector or Student Management)",11,11,-
+ORA_ZCA_SALES_BUSINESS_PLAN,Business Plans,Sales,Unmapped,"offering default: offering has no tracker row (CX, Public Sector or Student Management)",7,7,-
+ORA_SVC_BUSINESS_UNITS,Business Units,Help Desk; Service,Unmapped,"offering default: offering has no tracker row (CX, Public Sector or Student Management)",15,14,Common Features 1
+ORA_CALCULATION_CARDS_AND_CALCULATION_VALUES,Calculation Cards and Calculation Values,Global Payroll,Global Payroll,offering default: offering default: Global Payroll offering,4,4,-
+ORA_CMP_CAMPAIGNS,Campaigns,Sales Marketing,Unmapped,"offering default: offering has no tracker row (CX, Public Sector or Student Management)",14,13,Common Features 1
+ORA_CANDIDATE_EXPERIENCE_CONFIGURATION,Candidate Experience Configuration,Recruiting,Recruiting,offering default: offering default: Recruiting offering,4,4,-
+PJC_CAPITAL_PROJECTS,Capital Projects,Grants Management; Project Financial Management,Project Financial Management,offering default: offering default: Grants Management is built on Projects; Project Financial Management offering,10,10,-
+ORA_RCS_CARRIERS_TRANSIT_TIMES,Carriers and Transit Times,Manufacturing and Supply Chain Materials Management,Inventory Management,area override: carriers and transit times serve shipping in Inventory Management,7,7,-
+ORA_SVC_CASE,Case Management,Help Desk; Service,Unmapped,"offering default: offering has no tracker row (CX, Public Sector or Student Management)",14,14,-
+ORA_CE_CASH_MGMT_BANK,Cash Management,Financials; Procurement; Student Management,Cash Management,area override: Cash Management,39,18,General Ledger 21
+ORA_EGP_FA_CATALOGS,Catalogs,Manufacturing and Supply Chain Materials Management; Order Management; Product Management,PLM - Product Hub,area override: item catalogs,3,3,-
+EGO_CHANGE_ORDERS,Change Orders,Product Management,PLM - Product Development,area override: engineering change orders,13,10,Common Features 3
+ORA_FOM_CHANNEL_REV_MGMT,Channel Revenue Management,Order Management,Order Management,area override: channel revenue (customer side),35,12,General Ledger 21; Receivables 1; Procurement 1
+ORA_CHECK_IN_TEMPLATE,Check-in Template,Performance Management,Performance and Goal Management,offering default: offering default: Performance offering,1,1,-
+FIN_COLLECTIONS_DEPLOYED,Collections,Financials,Receivables,area override: collections of customer receivables,39,18,General Ledger 21
+ORA_COLLECTIVE_AGREEMENTS,Collective Agreements,Global Human Resources,Global HR,offering default: offering default: Global Human Resources offering,1,1,-
+ORA_SVC_COMM_CHANNELS,Communication Channels,Service,Unmapped,"offering default: offering has no tracker row (CX, Public Sector or Student Management)",17,17,-
+ORA_SVC_COMPANY_PROFILE,Company Profile,Configure Price Quote; Customer Loyalty; Field Service; Help Desk; Sales; Service; Subscriptions,Unmapped,"offering default: offering has no tracker row (CX, Public Sector or Student Management)",27,5,Common Features 22
+ORA_COMPENSATION_BENEFITS_ELIGIBILITY,Compensation Benefits Eligibility,Compensation,Workforce Compensation,offering default: offering default: Compensation offering,4,0,Benefits 4
+ORA_COMPENSATION_COMMON,Compensation Common,Compensation,Workforce Compensation,offering default: offering default: Compensation offering,8,0,Common Features 8
+ORA_COMPENSATION_DATA_AND_BATCH_CONTROLS,Compensation Data and Batch Controls,Compensation,Workforce Compensation,offering default: offering default: Compensation offering,2,2,-
+ORA_COMPENSATION_DOCUMENT_TYPES,Compensation Document Types,Compensation,Workforce Compensation,offering default: offering default: Compensation offering,2,0,Global HR 2
+ORA_COMPENSATION_ELEMENTS_EARNINGS_AND_DEDUCTIONS,"Compensation Elements, Earnings and Deductions",Compensation,Workforce Compensation,offering default: offering default: Compensation offering,2,0,Global Payroll 2
+ORA_COMPENSATION_EMPLOYMENT_ACTIONS_FRAMEWORK,Compensation Employment Actions Framework,Compensation,Workforce Compensation,offering default: offering default: Compensation offering,3,0,Global HR 3
+ORA_COMPENSATION_GRADE_RATES,Compensation Grade Rates,Compensation,Workforce Compensation,offering default: offering default: Compensation offering,1,0,Global HR 1
+ORA_COMPENSATION_GRADES,Compensation Grades,Compensation,Workforce Compensation,offering default: offering default: Compensation offering,2,0,Global HR 2
+ORA_COMPENSATION_HCM_TOOL,Compensation HCM Tool,Compensation,Workforce Compensation,offering default: offering default: Compensation offering,3,0,Global HR 3
+ORA_COMPENSATION_JOBS,Compensation Jobs,Compensation,Workforce Compensation,offering default: offering default: Compensation offering,2,0,Common Features 2
+ORA_COMPENSATION_LOCATIONS,Compensation Locations,Compensation,Workforce Compensation,offering default: offering default: Compensation offering,1,0,Common Features 1
+ORA_COMPENSATION_PAYROLL_BALANCES,Compensation Payroll Balances,Compensation,Workforce Compensation,offering default: offering default: Compensation offering,5,0,Global Payroll 5
+ORA_COMPENSATION_PAYROLL_RATES_AND_VALUES,Compensation Payroll Rates and Values,Compensation,Workforce Compensation,offering default: offering default: Compensation offering,2,0,Global Payroll 2
+ORA_COMPENSATION_PAYROLL_TOOLS,Compensation Payroll Tools,Compensation,Workforce Compensation,offering default: offering default: Compensation offering,2,0,Global Payroll 2
+ORA_COMPENSATION_POSITIONS,Compensation Positions,Compensation,Workforce Compensation,offering default: offering default: Compensation offering,3,0,Global HR 3
+ORA_PO_COMPLIANCE_CHECKLISTS_FA,Compliance Checklists,Procurement,Procurement,area override: Run 32 tag Procurement,3,3,-
+ORA_ACD_CONCEPT_DESIGN_MGMT,Concept Design Management,Product Management,PLM - Product Development,area override: innovation,9,9,-
+ORA_CONFIGURE_PUBLIC_WORKERS_FOR_ORACLE_SEARCH,Configure Public Workers for Oracle Search,HCM Security,Security,offering default: offering default: HCM Security offering: security profiles and data roles,1,0,Global HR 1
+CST_DEFINE_COST_MANAGEMENT,Cost Accounting,Manufacturing and Supply Chain Materials Management,Cost Management,area override: cost accounting,56,33,General Ledger 23
+CST_COST_AND_PROFIT_PLANNING,Cost and Profit Planning,Manufacturing and Supply Chain Materials Management,Cost Management,area override: cost planning,7,7,-
+CUSTOM_COVERAGE_SETUP,Coverage Setup,Subscriptions,Unmapped,"offering default: offering has no tracker row (CX, Public Sector or Student Management)",3,3,-
+ORA_HER_CURRICULUM_STRUCTURES,Curriculum Structures,Student Management,Unmapped,"offering default: offering has no tracker row (CX, Public Sector or Student Management)",16,16,-
+ORA_FIN_CUST_BILL,Customer Billing,Financials; Student Management,Receivables,area override: customer billing,17,17,-
+CSC_CUST_CENTER,Customer Center,Sales Marketing,Unmapped,"offering default: offering has no tracker row (CX, Public Sector or Student Management)",9,9,-
+ZCH_CUST_HUB_OPT,Customer Hub,Customer Data Management,Unmapped,"offering default: offering has no tracker row (CX, Public Sector or Student Management)",11,11,-
+ORA_FIN_CUSTOMER_PAYMENTS,Customer Payments,Financials; Student Management,Receivables,area override: customer receipts,27,17,Payables 10
+ORA_EGP_CUSTOMER,Customers,Financials; Manufacturing and Supply Chain Materials Management; Order Management; Student Management,Receivables,area override: customer model; SCM/GL/RCS tasks listed here go by family,155,64,Common Features 53; Inventory Management 18; Procurement 6; Cost Management 4; Manufacturing 3; Unmapped 3; Project Financial Management 2; PLM - Product Hub 1; Sourcing and Supplier Management 1
+ORA_EGP_DATA_POOL_INTEGRATION,Data Pool Integration,Product Management,PLM - Product Hub,offering default: offering default: Product Management offering = Product Hub; area overrides below,3,3,-
+ZCQ_CLEANSE_OPT,Data Quality Cleansing,Customer Data Management,Unmapped,"offering default: offering has no tracker row (CX, Public Sector or Student Management)",2,2,-
+ORA_ZCQ_DATA_QLTY_FOUNDATION,Data Quality Foundation,Customer Data Management,Unmapped,"offering default: offering has no tracker row (CX, Public Sector or Student Management)",4,4,-
+ZCQ_MATCH_OPT,Data Quality Matching,Customer Data Management,Unmapped,"offering default: offering has no tracker row (CX, Public Sector or Student Management)",2,2,-
+ORA_EGI_DATA_QLTY_RULES_PROD,Data Quality Rules for Products,Product Management,PLM - Product Hub,offering default: offering default: Product Management offering = Product Hub; area overrides below,1,1,-
+ORA_DATA_QUALITY_VERIFICATION_SERVICES,Data Quality Verification Services,Customer Data Management; Sales,Unmapped,"offering default: offering has no tracker row (CX, Public Sector or Student Management)",18,15,Receivables 3
+ORA_ZCH_DATA_QUALITY_AND_CUSTOMER_HUB,Data Quality and Customer Hub,Sales,Unmapped,"offering default: offering has no tracker row (CX, Public Sector or Student Management)",18,15,Receivables 3
+EGI_PRODUCT_DATA_QUALITY,Data Quality for Products,Product Management,PLM - Product Hub,offering default: offering default: Product Management offering = Product Hub; area overrides below,1,1,-
+ORA_DEPARTMENTS,Departments,Global Human Resources,Global HR,offering default: offering default: Global Human Resources offering,1,0,Common Features 1
+ORA_DEVELOPMENT_LIBRARY_GOALS,Development Library Goals,Goal Management,Performance and Goal Management,offering default: offering default: Goal offering,1,1,-
+ORA_SVC_DIGITAL_CUSTOMER_SERVICE,Digital Customer Service,Service,Unmapped,"offering default: offering has no tracker row (CX, Public Sector or Student Management)",11,11,-
+ORA_DOCUMENT_TYPES,Document Types,Global Human Resources,Global HR,offering default: offering default: Global Human Resources offering,2,2,-
+ORA_ELEMENTS_EARNINGS_AND_DEDUCTIONS,"Elements, Earnings and Deductions",Global Payroll,Global Payroll,offering default: offering default: Global Payroll offering,2,2,-
+ORA_SVC_EMAIL_COMMUNICATION_CHANNEL,Email Communication Channel,Help Desk,Unmapped,"offering default: offering has no tracker row (CX, Public Sector or Student Management)",6,6,-
+ORA_IRC_EMPLOYEE_CAMPAIGNS,Employee Communications,HCM Communicate,Global HR,offering default: offering default: HCM Communicate is employee communication,11,0,Recruiting 11
+ORA_EMPLOYMENT_ACTIONS_FRAMEWORK,Employment Actions Framework,Global Human Resources,Global HR,offering default: offering default: Global Human Resources offering,3,3,-
+ORA_ENTERPRISE,Enterprise,Global Human Resources,Global HR,offering default: offering default: Global Human Resources offering,1,0,Common Features 1
+ORA_OKC_ENT_CONTRACTS_BASE,Enterprise Contracts Base,Enterprise Contracts,Unmapped,"offering default: offering has no tracker row (CX, Public Sector or Student Management)",25,5,Project Financial Management 12; Common Features 6; Procurement 1; Receivables 1
+ORA_ASK_ENTERPRISE_PROFILE,Enterprise Profile,Customer Data Management; Enterprise Contracts; Financials; Fusion Accounting Hub; Grants Management; Manufacturing and Supply Chain Materials Management; Order Management; Procurement; Product Management; Project Financial Management; Sales Marketing; Student Management; Supply Chain Planning,Common Features,ORA_ASK_: ORA_ASK_ shared setup area (Run 29 rule),44,39,Inventory Management 4; PLM - Product Hub 1
+FIN_EXPENSES_DEPLOYED,Expenses,Financials,Expenses,area override: Expenses,40,39,Common Features 1
+ORA_EXTERNAL_PROVIDERS,External Providers,Learning Management,Learning,offering default: offering default: Learning offering,1,1,-
+ORA_EXTERNAL_PURCHASE_PRICES,External Purchase Prices,Procurement,Purchasing,area override: Run 32 tag Purchasing,5,5,-
+ORA_RCS_FACILITIES,Facilities,Manufacturing and Supply Chain Materials Management,Inventory Management,area override: inventory organizations and facilities,29,18,Cost Management 4; Project Financial Management 2; Manufacturing 2; Common Features 2; PLM - Product Hub 1
+ORA_PSC_FA_FEES_PAYMENTS,Fees and Payments,Public Sector Business Licenses; Public Sector Code Enforcement; Public Sector Permits; Public Sector Planning and Zoning,Unmapped,"offering default: offering has no tracker row (CX, Public Sector or Student Management)",24,19,Payables 3; Receivables 2
+ORA_FIN_REPORT_CENTER,Financial Reporting Center,Financials; Fusion Accounting Hub,General Ledger,area override: GL financial reporting,16,16,-
+ORA_ASK_FIN_REPORTING_STRUCT,Financial Reporting Structures,Enterprise Contracts; Financials; Fusion Accounting Hub; Grants Management; Manufacturing and Supply Chain Materials Management; Procurement; Project Financial Management; Sales Marketing; Student Management,Common Features,ORA_ASK_: ORA_ASK_ shared setup area (Run 29 rule),32,32,-
+FIN_FIXED_ASSETS_DEPLOYED,Fixed Assets,Financials,Fixed Assets,area override: Assets,47,22,General Ledger 24; Common Features 1
+CUSTOM_FOUNDATION_SETUP,Foundation Setup,Subscriptions,Unmapped,"offering default: offering has no tracker row (CX, Public Sector or Student Management)",7,7,-
+ORA_PSC_FA_GIS,GIS,Public Sector Business Licenses; Public Sector Code Enforcement; Public Sector Permits; Public Sector Planning and Zoning,Unmapped,"offering default: offering has no tracker row (CX, Public Sector or Student Management)",6,6,-
+ORA_FIN_GENERAL_LEDGER,General Ledger,Financials; Fusion Accounting Hub,General Ledger,area override: General Ledger,37,28,Common Features 9
+ORA_GLOBAL_HUMAN_RESOURCES_BENEFITS_GENERAL_CONFIGURATION,Global Human Resources Benefits General Configuration,Global Human Resources,Global HR,offering default: offering default: Global Human Resources offering,7,0,Benefits 7
+ORA_GLOBAL_HUMAN_RESOURCES_BUSINESS_UNIT,Global Human Resources Business Unit,Global Human Resources,Global HR,offering default: offering default: Global Human Resources offering,2,0,Common Features 2
+ORA_GLOBAL_HUMAN_RESOURCES_CHART_OF_ACCOUNTS,Global Human Resources Chart of Accounts,Global Human Resources,Global HR,offering default: offering default: Global Human Resources offering,4,0,Common Features 4
+ORA_GLOBAL_HUMAN_RESOURCES_COMMON,Global Human Resources Common,Global Human Resources,Global HR,offering default: offering default: Global Human Resources offering,12,0,Common Features 12
+ORA_GLOBAL_HUMAN_RESOURCES_HCM_TOOL,Global Human Resources HCM Tool,Global Human Resources,Global HR,offering default: offering default: Global Human Resources offering,7,1,Common Features 4; Recruiting 2
+ORA_GLOBAL_HUMAN_RESOURCES_LEGAL_ENTITY,Global Human Resources Legal Entity,Global Human Resources,Global HR,offering default: offering default: Global Human Resources offering,5,0,Common Features 5
+ORA_GLOBAL_HUMAN_RESOURCES_LEGAL_JURISDICTION_AND_AUTHORITY,Global Human Resources Legal Jurisdiction and Authority,Global Human Resources,Global HR,offering default: offering default: Global Human Resources offering,2,0,Common Features 2
+ORA_GLOBAL_HUMAN_RESOURCES_PAYROLL_DEFINITION_AND_CALENDAR,Global Human Resources Payroll Definition and Calendar,Global Human Resources,Global HR,offering default: offering default: Global Human Resources offering,3,0,Global Payroll 3
+ORA_GLOBAL_HUMAN_RESOURCES_PAYROLL_TOOLS,Global Human Resources Payroll Tools,Global Human Resources,Global HR,offering default: offering default: Global Human Resources offering,1,0,Global Payroll 1
+ORA_GOAL_MANAGEMENT_BENEFITS_ELIGIBILITY,Goal Management Benefits Eligibility,Goal Management,Performance and Goal Management,offering default: offering default: Goal offering,4,0,Benefits 4
+ORA_GOAL_MANAGEMENT_COMMON,Goal Management Common,Goal Management,Performance and Goal Management,offering default: offering default: Goal offering,12,0,Common Features 11; Project Financial Management 1
+ORA_GOAL_MANAGEMENT_HCM_TOOL,Goal Management HCM Tool,Goal Management,Performance and Goal Management,offering default: offering default: Goal offering,11,0,Global HR 11
+ORA_GOAL_MANAGEMENT_PERFORMANCE_DOCUMENT_TYPE,Goal Management Performance Document Type,Goal Management,Performance and Goal Management,offering default: offering default: Goal offering,1,1,-
+ORA_GOAL_MANAGEMENT_REQUEST_FEEDBACK_TEMPLATE,Goal Management Request Feedback Template,Goal Management,Performance and Goal Management,offering default: offering default: Goal offering,1,1,-
+ORA_GOAL_PLAN,Goal Plan,Goal Management,Performance and Goal Management,offering default: offering default: Goal offering,5,5,-
+ORA_GRADE_STEP_PROGRESSION,Grade Step Progression,Compensation,Workforce Compensation,offering default: offering default: Compensation offering,1,1,-
+ORA_GRADES,Grades,Global Human Resources,Global HR,offering default: offering default: Global Human Resources offering,3,3,-
+ORA_GMS_GRANTS_BASE_FA,Grants Management Foundation,Grants Management,Project Financial Management,offering default: offering default: Grants Management is built on Projects,27,22,Common Features 3; Cost Management 1; Receivables 1
+ORA_HCM_SECURITY_CONSOLE,HCM  Security Console,HCM Security,Security,offering default: offering default: HCM Security offering: security profiles and data roles,6,0,Common Features 6
+ORA_HCM_DATA_ROLE,HCM Data Role,HCM Security,Security,offering default: offering default: HCM Security offering: security profiles and data roles,1,0,Global HR 1
+ORA_HCM_EXTRACT,HCM Extract,Global Payroll,Global Payroll,offering default: offering default: Global Payroll offering,2,0,Global HR 2
+CUSTOM_HCM_FILTERED_LISTS_FOUNDATION,HCM Filtered Lists Foundation,HCM Tool,Global HR,"offering default: offering default: HCM tools (profiles, questionnaires, approvals) are HCM common",1,1,-
+CUSTOM_HCM_RESPONSIBILITIES,HCM Responsibilities,Global Human Resources,Global HR,offering default: offering default: Global Human Resources offering,2,2,-
+ORA_HCM_SECURITY_CANDIDATE_AND_REQUISITION_DATA,HCM Security Candidate and Requisition Data,HCM Security,Security,offering default: offering default: HCM Security offering: security profiles and data roles,6,0,Recruiting 6
+ORA_HCM_SECURITY_COMMON,HCM Security Common,HCM Security,Security,offering default: offering default: HCM Security offering: security profiles and data roles,5,0,Common Features 5
+ORA_HCM_SECURITY_DOCUMENT_TYPES,HCM Security Document Types,HCM Security,Security,offering default: offering default: HCM Security offering: security profiles and data roles,2,0,Global HR 2
+ORA_HCM_SECURITY_ELEMENTS_EARNINGS_AND_DEDUCTIONS,"HCM Security Elements, Earnings and Deductions",HCM Security,Security,offering default: offering default: HCM Security offering: security profiles and data roles,2,0,Global Payroll 2
+ORA_HCM_SECURITY_HCM_TOOL,HCM Security HCM Tool,HCM Security,Security,offering default: offering default: HCM Security offering: security profiles and data roles,6,0,Common Features 4; Recruiting 2
+ORA_HCM_SECURITY_PAYROLL_DEFINITION_AND_CALENDAR,HCM Security Payroll Definition and Calendar,HCM Security,Security,offering default: offering default: HCM Security offering: security profiles and data roles,3,0,Global Payroll 3
+ORA_HCM_SECURITY_PROFILE,HCM Security Profile,HCM Security,Security,offering default: offering default: HCM Security offering: security profiles and data roles,14,0,Global HR 8; Global Payroll 3; Recruiting 2; Talent Review and Succession 1
+ORA_HCM_TREES,HCM Trees,Global Human Resources,Global HR,offering default: offering default: Global Human Resources offering,3,1,Common Features 2
+ORA_SVC_HELP_DESK_REQUEST,Help Desk Request,Help Desk,Unmapped,"offering default: offering has no tracker row (CX, Public Sector or Student Management)",17,17,-
+ORA_PSC_FA_HELP,Help Management,Public Sector Business Licenses; Public Sector Code Enforcement; Public Sector Permits; Public Sector Planning and Zoning,Unmapped,"offering default: offering has no tracker row (CX, Public Sector or Student Management)",1,1,-
+ORA_CN_INCENTIVES,Incentives,Sales,Unmapped,"offering default: offering has no tracker row (CX, Public Sector or Student Management)",17,16,Common Features 1
+ORA_PSCR_FA_INCDNT_CASE_TYP,Incidents and Cases,Public Sector Code Enforcement,Unmapped,"offering default: offering has no tracker row (CX, Public Sector or Student Management)",22,22,-
+CUSTOM_INDEX_MANAGEMENT,Index Management,Product Management,PLM - Product Hub,offering default: offering default: Product Management offering = Product Hub; area overrides below,1,1,-
+ORA_INDIVIDUAL_COMPENSATION_PLANS_AND_HISTORY,Individual Compensation Plans and History,Compensation,Workforce Compensation,offering default: offering default: Compensation offering,3,3,-
+ORA_PSC_FA_INITIAL_SET_UP,Initial Set Up,Public Sector Business Licenses; Public Sector Code Enforcement; Public Sector Permits; Public Sector Planning and Zoning,Unmapped,"offering default: offering has no tracker row (CX, Public Sector or Student Management)",11,6,Common Features 5
+ORA_ASK_INITIAL_USER,Initial Users,Customer Data Management; Enterprise Contracts; Financials; Fusion Accounting Hub; Grants Management; Manufacturing and Supply Chain Materials Management; Order Management; Procurement; Product Management; Project Financial Management; Sales Marketing; Student Management; Supply Chain Planning,Common Features,ORA_ASK_: ORA_ASK_ shared setup area (Run 29 rule),6,6,-
+CUSTOM_INTEGRATION_SETUP,Integration Setup,Subscriptions,Unmapped,"offering default: offering has no tracker row (CX, Public Sector or Student Management)",10,10,-
+ORA_ZCA_INTEGRATIONS,Integrations,Sales,Unmapped,"offering default: offering has no tracker row (CX, Public Sector or Student Management)",14,13,Sourcing and Supplier Management 1
+ORA_ZCA_SALES_ADAPTIVE_INTELLIGENCE,Intelligence in Sales,Sales,Unmapped,"offering default: offering has no tracker row (CX, Public Sector or Student Management)",2,2,-
+FIN_INTERCOMPANY_DEPLOYED,Intercompany,Financials,General Ledger,area override: intercompany posts to GL,21,21,-
+PJB_INTERCOMPANY_BILLING,Internal Project Billing,Grants Management; Project Financial Management,Project Financial Management,offering default: offering default: Grants Management is built on Projects; Project Financial Management offering,12,11,General Ledger 1
+JMF_INTRASTAT,Intrastat Reporting,Manufacturing and Supply Chain Materials Management,Logistics - Global Trade Management,area override: Intrastat trade reporting,7,7,-
+ORA_WSH_INVENTORY_MGMT,Inventory Management,Manufacturing and Supply Chain Materials Management,Inventory Management,area override: inventory,63,63,-
+ORA_EGP_FA_INVENTORY_ORGANIZAT,Inventory Organizations,Product Management,Inventory Management,area override: inventory organizations,24,6,Common Features 18
+ORA_EGI_PRODUCT_BATCH_IMPORT,Item Batches,Product Management,PLM - Product Hub,offering default: offering default: Product Management offering = Product Hub; area overrides below,6,2,Receivables 4
+ORA_EGP_MASS_UPDATE,Item Mass Update,Product Management,PLM - Product Hub,offering default: offering default: Product Management offering = Product Hub; area overrides below,1,1,-
+ORA_EGP_FA_ITEM_ORGANIZATIONS,Item Organizations,Product Management,PLM - Product Hub,area override: item organizations,26,1,Common Features 20; Inventory Management 5
+ORA_EGP_FA_ITEMS,Items,Financials; Manufacturing and Supply Chain Materials Management; Order Management; Procurement; Product Management; Sales Marketing,PLM - Product Hub,area override: item master setup,37,28,Inventory Management 8; Supply Planning 1
+ORA_JOBS,Jobs,Global Human Resources,Global HR,offering default: offering default: Global Human Resources offering,2,0,Common Features 2
+ORA_FIN_JV_JOINT_VENTURE,Joint Venture Management,Financials,General Ledger,area override: joint venture cost distribution from GL,55,55,-
+ORA_CSO_KNOWLEDGE_MANAGEMENT,Knowledge Management,Help Desk; Service,Unmapped,"offering default: offering has no tracker row (CX, Public Sector or Student Management)",18,18,-
+ORA_CML_LANDED_COST_MGMT,Landed Cost Management,Manufacturing and Supply Chain Materials Management,Cost Management,area override: landed cost,7,7,-
+MKL_LEAD_MGMT_DEPLOYED,Lead Management,Sales Marketing,Unmapped,"offering default: offering has no tracker row (CX, Public Sector or Student Management)",17,17,-
+ORA_LDS_LEADS,Leads,Sales; Sales Marketing,Unmapped,"offering default: offering has no tracker row (CX, Public Sector or Student Management)",18,17,Common Features 1
+ORA_LEARNING_ASSIGNMENT,Learning Assignment,Learning Management,Learning,offering default: offering default: Learning offering,2,2,-
+ORA_LEARNING_AUDIENCE,Learning Audience,Learning Management,Learning,offering default: offering default: Learning offering,2,2,-
+ORA_LEARNING_CATALOG,Learning Catalog,Learning Management,Learning,offering default: offering default: Learning offering,9,9,-
+ORA_LEARNING_CONFIGURATIONS,Learning Configurations,Learning Management,Learning,offering default: offering default: Learning offering,2,2,-
+ORA_LEARNING_MANAGEMENT_COMMON,Learning Management Common,Learning Management,Learning,offering default: offering default: Learning offering,10,0,Common Features 9; Project Financial Management 1
+ORA_LEARNING_MANAGEMENT_HCM_SECURITY_PROFILE,Learning Management HCM Security Profile,Learning Management,Learning,offering default: offering default: Learning offering,2,0,Global HR 2
+ORA_LEARNING_MANAGEMENT_HCM_TOOL,Learning Management HCM Tool,Learning Management,Learning,offering default: offering default: Learning offering,4,0,Global HR 4
+ORA_LEARNING_MANAGEMENT_LOCATIONS,Learning Management Locations,Learning Management,Learning,offering default: offering default: Learning offering,1,0,Common Features 1
+ORA_LEARNING_RESOURCES,Learning Resources,Learning Management,Learning,offering default: offering default: Learning offering,3,3,-
+ORA_FLA_LEASE_ACCOUNTING,Lease Accounting,Financials,Fixed Assets,area override: lease accounting books right-of-use assets,27,6,General Ledger 21
+ORA_ASK_LEGAL_STRUCTURES,Legal Structures,Customer Data Management; Enterprise Contracts; Financials; Fusion Accounting Hub; Grants Management; Manufacturing and Supply Chain Materials Management; Procurement; Project Financial Management; Sales Marketing; Student Management,Common Features,ORA_ASK_: ORA_ASK_ shared setup area (Run 29 rule),21,21,-
+ORA_LEGAL_AND_LEGISLATIVE_ORGANIZATIONS,Legal and Legislative Organizations,Global Human Resources,Global HR,offering default: offering default: Global Human Resources offering,3,1,Common Features 2
+ORA_LEGISLATION_AND_COUNTRY_EXTENSION,Legislation and Country Extension,Global Payroll,Global Payroll,offering default: offering default: Global Payroll offering,3,3,-
+ORA_LOCATIONS,Locations,Global Human Resources,Global HR,offering default: offering default: Global Human Resources offering,1,0,Common Features 1
+ORA_LOY_ENTERPRISE_FOUNDATION,Loyalty Foundation,Customer Loyalty,Unmapped,"offering default: offering has no tracker row (CX, Public Sector or Student Management)",26,4,Common Features 22
+ORA_LOY_MEMBERS,Loyalty Members,Customer Loyalty,Unmapped,"offering default: offering has no tracker row (CX, Public Sector or Student Management)",11,11,-
+ORA_LOY_TRANSACTIONS,Loyalty Transactions,Customer Loyalty,Unmapped,"offering default: offering has no tracker row (CX, Public Sector or Student Management)",12,12,-
+ORA_MNT_MGMT,Maintenance Management,Manufacturing and Supply Chain Materials Management,Maintenance,area override: maintenance,23,19,Manufacturing 3; Inventory Management 1
+ORA_WIS_COMMON_MFG_WORK_SETUP,Manufacturing Master Data,Manufacturing and Supply Chain Materials Management,Manufacturing,area override: manufacturing master data,26,16,PLM - Product Development 5; Maintenance 4; Common Features 1
+ORA_FFS_FA_MOBILE_EXPERIENCE,Mobile Experience,Field Service,Unmapped,"offering default: offering has no tracker row (CX, Public Sector or Student Management)",2,2,-
+EGO_NEW_ITEM_REQUESTS,New Item Requests,Product Management,PLM - Product Hub,offering default: offering default: Product Management offering = Product Hub; area overrides below,5,1,Common Features 2; PLM - Product Development 2
+ORA_MOO_OPPORTUNITIES,Opportunities,Sales,Unmapped,"offering default: offering has no tracker row (CX, Public Sector or Student Management)",20,19,Common Features 1
+ORA_FMK_FUSION_MARKETING,Oracle Fusion Marketing,Marketing,Unmapped,"offering default: offering has no tracker row (CX, Public Sector or Student Management)",1,1,-
+ORA_DOO_ORDER_FULLFILLMENT,Orders,Order Management,Order Management,area override: orders,42,39,Cost Management 3
+ORA_ASK_ORGANIZATION_STRUCTURE,Organization Structures,Customer Data Management; Enterprise Contracts; Financials; Grants Management; Manufacturing and Supply Chain Materials Management; Order Management; Procurement; Project Financial Management; Sales Marketing; Student Management,Common Features,ORA_ASK_: ORA_ASK_ shared setup area (Run 29 rule),22,13,Inventory Management 8; PLM - Product Hub 1
+ORA_SVC_OTHER_COMMUNICATION_CHANNELS,Other Communication Channels,Help Desk,Unmapped,"offering default: offering has no tracker row (CX, Public Sector or Student Management)",5,5,-
+ORA_ZPM_MANAGE_PARTNERS,Partner Relationship Management,Sales,Unmapped,"offering default: offering has no tracker row (CX, Public Sector or Student Management)",9,9,-
+FIN_PAYABLES_DEPLOYED,Payables,Financials; Procurement; Student Management,Payables,area override: Payables,50,26,General Ledger 23; Procurement 1
+ORA_FIN_PAYMENTS,Payments,Financials; Procurement; Student Management,Payables,area override: disbursements,19,19,-
+ORA_PAYROLL_BALANCES,Payroll Balances,Global Payroll,Global Payroll,offering default: offering default: Global Payroll offering,5,5,-
+ORA_PAYROLL_BANKING_AND_PAYMENTS,Payroll Banking and Payments,Global Payroll,Global Payroll,offering default: offering default: Global Payroll offering,4,0,Cash Management 4
+ORA_PAYROLL_CHART_OF_ACCOUNTS,Payroll Chart of Accounts,Global Payroll,Global Payroll,offering default: offering default: Global Payroll offering,4,0,Common Features 4
+ORA_PAYROLL_COMMON,Payroll Common,Global Payroll,Global Payroll,offering default: offering default: Global Payroll offering,48,5,Global HR 28; Common Features 9; Time and Labor 2; Absence Management 2; Unmapped 1; Project Financial Management 1
+ORA_PAYROLL_COSTING,Payroll Cost Accounting,Global Payroll,Global Payroll,offering default: offering default: Global Payroll offering,9,9,-
+ORA_PAYROLL_DEFINITION_AND_CALENDAR,Payroll Definition and Calendar,Global Payroll,Global Payroll,offering default: offering default: Global Payroll offering,3,3,-
+ORA_PAYROLL_ENTERPRISE,Payroll Enterprise,Global Payroll,Global Payroll,offering default: offering default: Global Payroll offering,1,0,Common Features 1
+ORA_PAYROLL_EVENTS_AND_RETROACTIVITY,Payroll Events and Retroactivity,Global Payroll,Global Payroll,offering default: offering default: Global Payroll offering,2,2,-
+ORA_PAYROLL_HCM_DATA_ROLE,Payroll HCM Data Role,Global Payroll,Global Payroll,offering default: offering default: Global Payroll offering,1,0,Global HR 1
+ORA_PAYROLL_HCM_SECURITY_PROFILE,Payroll HCM Security Profile,Global Payroll,Global Payroll,offering default: offering default: Global Payroll offering,4,3,Global HR 1
+ORA_PAYROLL_LEDGER_STRUCTURE,Payroll Ledger Structure,Global Payroll,Global Payroll,offering default: offering default: Global Payroll offering,4,0,Common Features 3; General Ledger 1
+ORA_PAYROLL_LEGAL_AND_LEGISLATIVE_ORGANIZATIONS,Payroll Legal and Legislative Organizations,Global Payroll,Global Payroll,offering default: offering default: Global Payroll offering,3,0,Common Features 2; Global HR 1
+ORA_PAYROLL_ORGANIZATION_CARDS,Payroll Organization Cards,Global Payroll,Global Payroll,offering default: offering default: Global Payroll offering,2,2,-
+ORA_PAYROLL_PAYMENTS_AND_PAYSLIP,Payroll Payments and Payslip,Global Payroll,Global Payroll,offering default: offering default: Global Payroll offering,2,2,-
+ORA_PAYROLL_PROCESS_RULE_AND_FLOW,Payroll Process Rule and Flow,Global Payroll,Global Payroll,offering default: offering default: Global Payroll offering,1,1,-
+ORA_PAYROLL_RATES_AND_VALUES,Payroll Rates and Values,Global Payroll,Global Payroll,offering default: offering default: Global Payroll offering,2,2,-
+ORA_PAYROLL_TOOLS,Payroll Tools,Global Payroll,Global Payroll,offering default: offering default: Global Payroll offering,2,2,-
+ORA_PERFORMANCE_DOCUMENT_TYPE,Performance Document Type,Performance Management,Performance and Goal Management,offering default: offering default: Performance offering,1,1,-
+ORA_PERFORMANCE_LIBRARY_GOALS,Performance Library Goals,Goal Management,Performance and Goal Management,offering default: offering default: Goal offering,1,1,-
+ORA_PERFORMANCE_MANAGEMENT_BENEFITS_ELIGIBILITY,Performance Management Benefits Eligibility,Performance Management,Performance and Goal Management,offering default: offering default: Performance offering,4,0,Benefits 4
+ORA_PERFORMANCE_MANAGEMENT_COMMON,Performance Management Common,Performance Management,Performance and Goal Management,offering default: offering default: Performance offering,16,0,Common Features 15; Project Financial Management 1
+ORA_PERFORMANCE_MANAGEMENT_HCM_TOOL,Performance Management HCM Tool,Performance Management,Performance and Goal Management,offering default: offering default: Performance offering,13,0,Global HR 13
+ORA_PERFORMANCE_MANAGEMENT_PAYROLL_TOOLS,Performance Management Payroll Tools,Performance Management,Performance and Goal Management,offering default: offering default: Performance offering,2,0,Global Payroll 2
+ORA_PERFORMANCE_MANAGEMENT_PERFORMANCE_LIBRARY_GOALS,Performance Management Performance Library Goals,Performance Management,Performance and Goal Management,offering default: offering default: Performance offering,1,1,-
+ORA_PERFORMANCE_MANAGEMENT_REVIEW_PERIOD,Performance Management Review Period,Performance Management,Performance and Goal Management,offering default: offering default: Performance offering,1,1,-
+ORA_PERFORMANCE_PROCESS_FLOW,Performance Process Flow,Performance Management,Performance and Goal Management,offering default: offering default: Performance offering,1,1,-
+ORA_PERFORMANCE_ROLE,Performance Role,Performance Management,Performance and Goal Management,offering default: offering default: Performance offering,1,1,-
+ORA_PERFORMANCE_TEMPLATE,Performance Template,Performance Management,Performance and Goal Management,offering default: offering default: Performance offering,1,1,-
+ORA_PERFORMANCE_TEMPLATE_SECTION,Performance Template Section,Performance Management,Performance and Goal Management,offering default: offering default: Performance offering,1,1,-
+ORA_PSC_FA_INSPECTION,Permit Inspections,Public Sector Permits,Unmapped,"offering default: offering has no tracker row (CX, Public Sector or Student Management)",13,13,-
+ORA_PSC_FA_PERMIT,Permit Types,Public Sector Permits,Unmapped,"offering default: offering has no tracker row (CX, Public Sector or Student Management)",10,10,-
+CUSTOM_PERSON_NOTES,Person Notes Visibility,HCM Tool,Global HR,"offering default: offering default: HCM tools (profiles, questionnaires, approvals) are HCM common",1,1,-
+ORA_PERSON_RECORD,Person Record,Global Human Resources,Global HR,offering default: offering default: Global Human Resources offering,3,3,-
+ORA_PSC_FA_PLAN_REVIEW,Plan Review,Public Sector Permits; Public Sector Planning and Zoning,Unmapped,"offering default: offering has no tracker row (CX, Public Sector or Student Management)",4,4,-
+ORA_PSCR_FA_PNZ_APP_TYPES,Planning Application Types,Public Sector Planning and Zoning,Unmapped,"offering default: offering has no tracker row (CX, Public Sector or Student Management)",14,14,-
+ORA_POSITIONS,Positions,Global Human Resources,Global HR,offering default: offering default: Global Human Resources offering,4,4,-
+ORA_FOM_PRICING,Pricing,Order Management,Order Management,area override: pricing,17,17,-
+CUSTOM_PRICING,Pricing,Configure Price Quote,Unmapped,"offering default: offering has no tracker row (CX, Public Sector or Student Management)",1,1,-
+OKC_PROC_CONTRACTS_ENABLED,Procurement Contracts,Enterprise Contracts; Procurement,Procurement,area override: Run 32 tag Procurement,10,7,Unmapped 2; Common Features 1
+ORA_PO_PROC_FOUNDATION_FA,Procurement Foundation,Procurement,Procurement,area override: Run 32 tag Procurement,15,10,Inventory Management 3; Payables 2
+ORA_PO_PRC_TRX_ACC_RULES_FA,Procurement Transaction Account Rules,Procurement,Procurement,area override: Run 32 tag Procurement (its XLA tasks go to General Ledger by family),9,0,General Ledger 9
+ORA_ACA_PROD_DEV,Product Development,Product Management,PLM - Product Development,area override: product development,2,2,-
+ORA_ACE_PRODUCT_PORTFOLIO,Product Lifecycle Portfolio Management,Product Management,PLM - Product Development,area override: portfolio,9,9,-
+ORA_ENQ_PRODUCT_RECALL_MANAGEMENT,Product Recall Management,Manufacturing and Supply Chain Materials Management,Inventory Management,area override: recall of on-hand inventory,4,4,-
+ORA_ACN_PROD_RQMNTS_IDEA,Product Requirements and Ideation Management,Product Management,PLM - Product Development,area override: requirements and ideation,9,9,-
+EGO_PRODUCT_RULES,Product Rules,Product Management,PLM - Product Hub,offering default: offering default: Product Management offering = Product Hub; area overrides below,2,2,-
+EGI_PRODUCT_SOURCE_SYSTEMS,Product Spoke Systems,Product Management,PLM - Product Hub,offering default: offering default: Product Management offering = Product Hub; area overrides below,5,1,Receivables 4
+ORA_SVC_PRODUCTIVITY,Productivity Tools,Help Desk; Service,Unmapped,"offering default: offering has no tracker row (CX, Public Sector or Student Management)",17,16,Receivables 1
+CUSTOM_PRODUCTS_SETUP,Products Setup,Configure Price Quote,Unmapped,"offering default: offering has no tracker row (CX, Public Sector or Student Management)",0,0,-
+CUSTOM_TALENT_PROFILE_CONTENT_LIBRARY,Profile Management Content Library Configuration,HCM Tool,Global HR,"offering default: offering default: HCM tools (profiles, questionnaires, approvals) are HCM common",5,5,-
+CUSTOM_PROFILE_MANAGEMENT_DATA_LOAD_MIGRATION_AND_MAINTENANCE,"Profile Management Data Load, Migration, and Maintenance",HCM Tool,Global HR,"offering default: offering default: HCM tools (profiles, questionnaires, approvals) are HCM common",10,10,-
+CUSTOM_PROFILE_RATING_MODEL,Profile Rating Model Configuration,HCM Tool,Global HR,"offering default: offering default: HCM tools (profiles, questionnaires, approvals) are HCM common",2,2,-
+CUSTOM_PROFILE_TYPES_AND_CONTENT_SECTION,Profile Types and Content Section Configuration,HCM Tool,Global HR,"offering default: offering default: HCM tools (profiles, questionnaires, approvals) are HCM common",7,7,-
+ORA_PJC_PROJECT_ACCOUNTING,Project Accounting,Grants Management; Project Financial Management,Project Financial Management,offering default: offering default: Grants Management is built on Projects; Project Financial Management offering,13,0,General Ledger 13
+ORA_PJB_PROJ_BILLING_BASE_FA,Project Billing Base,Grants Management; Project Financial Management,Project Financial Management,offering default: offering default: Grants Management is built on Projects; Project Financial Management offering,21,15,Receivables 6
+OKC_PROJECT_CONTRACTS,Project Contracts,Grants Management; Project Financial Management,Project Financial Management,area override: project contracts,19,13,Procurement 3; Common Features 3
+PJF_PJO_DEPLOYED,Project Control,Grants Management; Project Financial Management,Project Financial Management,offering default: offering default: Grants Management is built on Projects; Project Financial Management offering,9,9,-
+ORA_PJC_PROJ_COSTING_BASE_FA,Project Costing Base,Grants Management; Project Financial Management,Project Financial Management,offering default: offering default: Grants Management is built on Projects; Project Financial Management offering,33,30,Expenses 1; Inventory Management 1; Payables 1
+ORA_PJT_PROJECT_EXECUTION_FA,Project Execution,Project Execution Management,Project Financial Management,offering default: offering default: Project Execution is part of Projects; tracker has only Project Financial Management,28,28,-
+ORA_PJF_PROJECT_FOUNDATION_FA,Project Foundation,Grants Management; Project Financial Management,Project Financial Management,offering default: offering default: Grants Management is built on Projects; Project Financial Management offering,42,40,Common Features 1; Inventory Management 1
+ORA_PJF_PROJ_ORG,Project Organizations,Grants Management; Project Financial Management,Project Financial Management,offering default: offering default: Grants Management is built on Projects; Project Financial Management offering,9,9,-
+PJF_PJS_DEPLOYED,Project Performance Reporting,Grants Management; Project Financial Management,Project Financial Management,offering default: offering default: Grants Management is built on Projects; Project Financial Management offering,10,10,-
+PJT_PJR_DEPOLYED,Project Resource Management,Project Execution Management,Project Financial Management,offering default: offering default: Project Execution is part of Projects; tracker has only Project Financial Management,20,13,Common Features 7
+ORA_PSCR_FA_PUBLIC_HEARING,Public Hearing,Public Sector Code Enforcement; Public Sector Planning and Zoning,Unmapped,"offering default: offering has no tracker row (CX, Public Sector or Student Management)",2,2,-
+ORA_PSC_FA_PUBLIC_USERS,Public Users,Public Sector Business Licenses; Public Sector Code Enforcement; Public Sector Permits; Public Sector Planning and Zoning,Unmapped,"offering default: offering has no tracker row (CX, Public Sector or Student Management)",5,5,-
+CUSTOM_PULSE_SURVEY_FOUNDATION,Pulse Survey Foundation,HCM Tool,Global HR,"offering default: offering default: HCM tools (profiles, questionnaires, approvals) are HCM common",1,1,-
+ORA_PO_PURCHASING_CAT_FA,Purchasing Categories,Procurement,Purchasing,area override: Run 32 tag Purchasing,3,0,PLM - Product Hub 3
+ORA_PO_PURCHASING_FOUNDATION,Purchasing Foundation,Procurement,Purchasing,area override: Run 32 tag Purchasing,11,9,Procurement 2
+ORA_ENQ_QUALITY_ISSUE_ACTION,Quality Issue and Action Management,Product Management,PLM - Quality Management,area override: quality issues,5,5,-
+CUSTOM_QUESTIONNAIRE,Questionnaire,HCM Tool,Global HR,"offering default: offering default: HCM tools (profiles, questionnaires, approvals) are HCM common",3,3,-
+ZBS_QUOTAS_DEPLOYED,Quotas,Sales,Unmapped,"offering default: offering has no tracker row (CX, Public Sector or Student Management)",5,5,-
+CUSTOM_QUOTING,Quoting,Configure Price Quote,Unmapped,"offering default: offering has no tracker row (CX, Public Sector or Student Management)",3,3,-
+CMR_RECEIPT_ACCOUNTING,Receipt Accounting,Manufacturing and Supply Chain Materials Management; Procurement,Cost Management,area override: receipt accounting is Cost Management,23,2,General Ledger 21
+FIN_RECEIVABLES_DEPLOYED,Receivables,Financials; Student Management,Receivables,area override: Receivables,51,16,General Ledger 21; Common Features 14
+WSH_ENABLE_RECEIVING,Receiving,Manufacturing and Supply Chain Materials Management; Procurement,Inventory Management,area override: receiving is inventory logistics,6,6,-
+ORA_RECOMMENDATIONS,Recommendations,Learning Management,Learning,offering default: offering default: Learning offering,1,1,-
+ORA_RECRUITING_ADDRESS_VALIDATION,Recruiting Address Validation,Recruiting,Recruiting,offering default: offering default: Recruiting offering,4,0,Common Features 4
+ORA_RECRUITING_BENEFITS_ELIGIBILITY,Recruiting Benefits Eligibility,Recruiting,Recruiting,offering default: offering default: Recruiting offering,4,0,Benefits 4
+ORA_RECRUITING_COMMON,Recruiting Common,Recruiting,Recruiting,offering default: offering default: Recruiting offering,12,0,Common Features 12
+ORA_RECRUITING_CONFIGURATION,Recruiting Configuration,Recruiting,Recruiting,offering default: offering default: Recruiting offering,10,10,-
+ORA_RECRUITING_CONTENT,Recruiting Content,Recruiting,Recruiting,offering default: offering default: Recruiting offering,9,9,-
+ORA_RECRUITING_FOUNDATION_DATA,Recruiting Foundation,Recruiting,Recruiting,offering default: offering default: Recruiting offering,8,8,-
+ORA_RECRUITING_HCM_TOOL,Recruiting HCM Tool,Recruiting,Recruiting,offering default: offering default: Recruiting offering,1,0,Global HR 1
+ORA_RECRUITING_HCM_TREES,Recruiting HCM Trees,Recruiting,Recruiting,offering default: offering default: Recruiting offering,3,0,Common Features 2; Global HR 1
+ORA_RECRUITING_JOBS,Recruiting Jobs,Recruiting,Recruiting,offering default: offering default: Recruiting offering,2,0,Common Features 2
+ORA_RECRUITING_LOCATIONS,Recruiting Locations,Recruiting,Recruiting,offering default: offering default: Recruiting offering,1,0,Common Features 1
+ORA_RECRUITING_PAYROLL_TOOLS,Recruiting Payroll Tools,Recruiting,Recruiting,offering default: offering default: Recruiting offering,1,0,Global Payroll 1
+ORA_PSC_FA_REFERENCE_ENTITIES,Reference Entities,Public Sector Business Licenses; Public Sector Code Enforcement; Public Sector Permits; Public Sector Planning and Zoning,Unmapped,"offering default: offering has no tracker row (CX, Public Sector or Student Management)",8,8,-
+CUSTOM_RENEWAL_SETUP,Renewal Setup,Subscriptions,Unmapped,"offering default: offering has no tracker row (CX, Public Sector or Student Management)",1,1,-
+ORA_REQUESTED_FEEDBACK_TEMPLATE,Requested Feedback Template,Performance Management,Performance and Goal Management,offering default: offering default: Performance offering,1,1,-
+ORA_CRM_RESOURCES,Resources,Customer Data Management; Financials; Sales Marketing; Student Management,Receivables,area override: resources used as salespersons/collectors in Financials,16,0,Common Features 16
+ORA_VRM_REVENUE_MANAGEMENT,Revenue Management,Financials,Revenue Management,area override: Revenue Management,131,22,Receivables 65; General Ledger 21; Common Features 20; Unmapped 3
+ORA_FIN_REV_REC,Revenue Recognition,Financials,Revenue Management,area override: revenue recognition,23,20,Receivables 3
+ORA_REVIEW_PERIOD,Review Period,Goal Management,Performance and Goal Management,offering default: offering default: Goal offering,1,1,-
+ORA_SALARY_AND_BASE_PAY,Salary and Base Pay,Compensation,Workforce Compensation,offering default: offering default: Compensation offering,4,4,-
+ORA_MKT_CONFIGURE_SALES_CAMPAIGNS,Sales Campaigns,Sales,Unmapped,"offering default: offering has no tracker row (CX, Public Sector or Student Management)",5,5,-
+ZBS_CATALOG_DEPLOYED,Sales Catalog,Sales Marketing,Unmapped,"offering default: offering has no tracker row (CX, Public Sector or Student Management)",7,7,-
+ORA_LOY_PRODUCTS_AND_PARTNERS,Sales Catalog and Partners,Customer Loyalty,Unmapped,"offering default: offering has no tracker row (CX, Public Sector or Student Management)",32,16,PLM - Product Hub 12; Inventory Management 4
+ORA_QSC_DEFINE_SALES_CATALOG_AND_PRODUCTS,Sales Catalog and Products,Sales,Unmapped,"offering default: offering has no tracker row (CX, Public Sector or Student Management)",25,9,PLM - Product Hub 12; Inventory Management 4
+ORA_OKC_SALES_CONTRACTS,Sales Contracts,Enterprise Contracts; Sales,Unmapped,"offering default: offering has no tracker row (CX, Public Sector or Student Management)",68,4,PLM - Product Hub 19; Order Management 15; Project Financial Management 11; Inventory Management 8; Common Features 5; Procurement 5; Receivables 1
+ZBS_FORECAST_DEPLOYED,Sales Forecasting,Sales,Unmapped,"offering default: offering has no tracker row (CX, Public Sector or Student Management)",4,4,-
+ORA_ZBS_SALES_FOUNDATION,Sales Foundation,Sales,Unmapped,"offering default: offering has no tracker row (CX, Public Sector or Student Management)",50,18,Common Features 31; Receivables 1
+CUSTOM_SALES_ORCHESTRATION,Sales Orchestration,Sales,Unmapped,"offering default: offering has no tracker row (CX, Public Sector or Student Management)",4,4,-
+ORA_SCHEDULING,Scheduling,Workforce Scheduling Management,Time and Labor,offering default: offering default: Workforce scheduling sits with Time and Labor,2,2,-
+ORA_FFS_FA_SCHEDULING_AND_DISPATCH,Scheduling and Dispatch,Field Service,Unmapped,"offering default: offering has no tracker row (CX, Public Sector or Student Management)",12,12,-
+PO_SSP_DEPLOYED,Self Service Procurement,Procurement,Procurement,area override: Run 32 tag Procurement,11,8,Expenses 3
+ORA_SENIORITY_DATES,Seniority Dates,Global Human Resources,Global HR,offering default: offering default: Global Human Resources offering,1,1,-
+ORA_SVC_SERVICE_CATALOG,Service Catalog,Help Desk; Service,Unmapped,"offering default: offering has no tracker row (CX, Public Sector or Student Management)",2,2,-
+ORA_SVC_ENTITLEMENTS,Service Entitlements,Help Desk; Service,Unmapped,"offering default: offering has no tracker row (CX, Public Sector or Student Management)",3,3,-
+ORA_RCL,Service Logistics,Manufacturing and Supply Chain Materials Management,Unmapped,area override: Service Logistics has no tracker row,17,17,-
+ORA_SVC_SERVICE_REQUEST,Service Request,Service,Unmapped,"offering default: offering has no tracker row (CX, Public Sector or Student Management)",15,15,-
+WSH_ENABLE_SHIPPING,Shipping,Manufacturing and Supply Chain Materials Management,Inventory Management,area override: shipping is inventory logistics,27,25,Logistics - Transportation Management 1; Common Features 1
+PO_SOURCING_DEPLOYED,Sourcing,Procurement,Sourcing and Supplier Management,area override: Run 32 tag Sourcing and Supplier Management,20,20,-
+EGO_ADVANCED_PRODUCT_STRUCT,Structures,Manufacturing and Supply Chain Materials Management; Product Management,PLM - Product Development,area override: item structures (engineering BOM),7,7,-
+ORA_HEY_STUDENT_STRUCTURES,Student Structures,Student Management,Unmapped,"offering default: offering has no tracker row (CX, Public Sector or Student Management)",41,39,Receivables 2
+ORA_OSS_SUBSCRIPTIONS,Subscriptions,Sales,Unmapped,"offering default: offering has no tracker row (CX, Public Sector or Student Management)",15,8,Receivables 6; Order Management 1
+ORA_SUCCESSION_MANAGEMENT_BUSINESS_UNIT,Succession Management and Talent Pool Business Unit,Succession Management and Talent Pool,Talent Review and Succession,offering default: offering default: Succession offering,2,0,Common Features 2
+ORA_SUCCESSION_MANAGEMENT_COMMON,Succession Management and Talent Pool Common,Succession Management and Talent Pool,Talent Review and Succession,offering default: offering default: Succession offering,9,0,Common Features 8; Project Financial Management 1
+ORA_SUCCESSION_MANAGEMENT_DEPARTMENTS,Succession Management and Talent Pool Departments,Succession Management and Talent Pool,Talent Review and Succession,offering default: offering default: Succession offering,1,0,Common Features 1
+ORA_SUCCESSION_MANAGEMENT_HCM_TOOL,Succession Management and Talent Pool HCM Tool,Succession Management and Talent Pool,Talent Review and Succession,offering default: offering default: Succession offering,7,0,Global HR 7
+ORA_SUCCESSION_MANAGEMENT_JOBS,Succession Management and Talent Pool Jobs,Succession Management and Talent Pool,Talent Review and Succession,offering default: offering default: Succession offering,2,0,Common Features 2
+ORA_SUCCESSION_MANAGEMENT_POSITIONS,Succession Management and Talent Pool Positions,Succession Management and Talent Pool,Talent Review and Succession,offering default: offering default: Succession offering,2,0,Global HR 2
+ORA_SUPPLEMENTARY_ORGANIZATIONS,Supplementary Organizations,Global Human Resources,Global HR,offering default: offering default: Global Human Resources offering,3,2,Common Features 1
+ORA_CJM_SUPPLIER_INCENTIVES,Supplier Incentives,Procurement,Procurement,area override: supplier rebates; Run 32 left it out (borderline),39,1,General Ledger 21; Order Management 16; Receivables 1
+PO_SUP_PORTAL_DEPLOYED,Supplier Portal,Procurement; Product Management,Sourcing and Supplier Management,area override: Run 32 tag Sourcing and Supplier Management,7,7,-
+ORA_PO_QUALIFICATION_DEPLOYED,Supplier Qualification,Procurement,Sourcing and Supplier Management,area override: Run 32 tag Sourcing and Supplier Management,19,19,-
+ORA_EGP_SUPPLIERS,Suppliers,Manufacturing and Supply Chain Materials Management; Procurement,Sourcing and Supplier Management,"area override: supplier model; the inventory org, GL, legal entity, TCA tasks listed here go by family (Run 34)",100,22,Common Features 33; Inventory Management 18; Receivables 9; Procurement 6; Cost Management 4; Manufacturing 3; Project Financial Management 2; Unmapped 2; PLM - Product Hub 1
+ORA_EGP_SUPPLIER_FOR_PIM,Suppliers for Product Management,Product Management,Sourcing and Supplier Management,area override: suppliers referenced by product data,14,10,Unmapped 2; Common Features 1; Receivables 1
+ORA_VCS_SUPPLY_COLLABORATION,Supply Chain Collaboration,Manufacturing and Supply Chain Materials Management,Supply Planning,area override: supply collaboration on forecasts,5,5,-
+ORA_FOS_SUPPLY_CHAIN_FIN_FLOW,Supply Chain Financial Flows,Manufacturing and Supply Chain Materials Management,Cost Management,area override: transfer pricing and financial flows,31,18,General Ledger 10; Order Management 1; Common Features 1; Receivables 1
+ORA_DOS_SUPPLY_CHAIN_ORCH,Supply Chain Orchestration,Manufacturing and Supply Chain Materials Management,Supply Planning,area override: supply orchestration,4,4,-
+ORA_MSC_VC_PLANNING_CONFIGURAT,Supply Chain Planning Configuration,Supply Chain Planning,Supply Planning,offering default: offering default: Supply Chain Planning offering,8,7,Receivables 1
+ORA_SUS_SUSTAINABILITY,Sustainability,Manufacturing and Supply Chain Materials Management; Procurement; Product Management,Unmapped,area override: Sustainability (emissions) has no tracker row,7,7,-
+ORA_PSC_FA_SYSADMIN,System Administration,Public Sector Business Licenses; Public Sector Code Enforcement; Public Sector Permits; Public Sector Planning and Zoning,Unmapped,"offering default: offering has no tracker row (CX, Public Sector or Student Management)",24,24,-
+CUSTOM_TALENT_PROFILE_NOTIFICATIONS_AND_ALERTS,Talent Profile Notifications and Alerts Configuration,HCM Tool,Global HR,"offering default: offering default: HCM tools (profiles, questionnaires, approvals) are HCM common",1,1,-
+ORA_TALENT_REVIEW_COMMON,Talent Review Common,Talent Review Setup,Talent Review and Succession,offering default: offering default: Talent Review offering,7,0,Common Features 7
+ORA_TALENT_REVIEW_DEPARTMENTS,Talent Review Departments,Talent Review Setup,Talent Review and Succession,offering default: offering default: Talent Review offering,1,0,Common Features 1
+ORA_TALENT_REVIEW_HCM_TOOL,Talent Review HCM Tool,Talent Review Setup,Talent Review and Succession,offering default: offering default: Talent Review offering,12,0,Global HR 12
+ORA_TALENT_REVIEW_JOBS,Talent Review Jobs,Talent Review Setup,Talent Review and Succession,offering default: offering default: Talent Review offering,1,0,Common Features 1
+ORA_TALENT_REVIEW_POTENTIAL_ASSESSMENT,Talent Review Potential Assessment,Talent Review Setup,Talent Review and Succession,offering default: offering default: Talent Review offering,1,1,-
+ORA_TALENT_REVIEW_TALENT_REVIEW_TEMPLATE,Talent Review Talent Review Template,Talent Review Setup,Talent Review and Succession,offering default: offering default: Talent Review offering,1,1,-
+ORA_OKC_TERMS_CLAUSE_LIBRARY,Terms And Clauses Library,Enterprise Contracts,Unmapped,"offering default: offering has no tracker row (CX, Public Sector or Student Management)",7,3,Procurement 4
+ORA_TRT_TERRITORIES,Territories,Sales; Sales Marketing,Unmapped,"offering default: offering has no tracker row (CX, Public Sector or Student Management)",24,22,Receivables 2
+ORA_TIME_CLOCK_DEVICE,Time Clock Device,Workforce Time Management,Time and Labor,offering default: offering default: Time offering,4,4,-
+ORA_TIME_AND_LABOR_ADDITIONAL,Time and Labor Additional,Workforce Time Management,Time and Labor,offering default: offering default: Time offering,6,6,-
+ORA_TIME_AND_LABOR_COMMON,Time and Labor Common,Workforce Time Management,Time and Labor,offering default: offering default: Time offering,8,0,Common Features 8
+ORA_TIME_AND_LABOR_ELEMENTS_EARNINGS_AND_DEDUCTIONS,"Time and Labor Elements, Earnings and Deductions",Workforce Time Management,Time and Labor,offering default: offering default: Time offering,2,0,Global Payroll 2
+ORA_TIME_AND_LABOR_EMPLOYMENT_ACTIONS_FRAMEWORK,Time and Labor Employment Actions Framework,Workforce Time Management,Time and Labor,offering default: offering default: Time offering,3,0,Global HR 3
+ORA_TIME_AND_LABOR_ENTERPRISE,Time and Labor Enterprise,Workforce Time Management,Time and Labor,offering default: offering default: Time offering,1,0,Common Features 1
+ORA_TIME_AND_LABOR_FOUNDATION,Time and Labor Foundation,Workforce Time Management,Time and Labor,offering default: offering default: Time offering,6,6,-
+ORA_TIME_AND_LABOR_HCM_TOOL,Time and Labor HCM Tool,Workforce Time Management,Time and Labor,offering default: offering default: Time offering,4,0,Global HR 4
+ORA_TIME_AND_LABOR_LEGAL_AND_LEGISLATIVE_ORGANIZATIONS,Time and Labor Legal and Legislative Organizations,Workforce Time Management,Time and Labor,offering default: offering default: Time offering,3,0,Common Features 2; Global HR 1
+ORA_TIME_AND_LABOR_PAYROLL_TOOLS,Time and Labor Payroll Tools,Workforce Time Management,Time and Labor,offering default: offering default: Time offering,1,0,Global Payroll 1
+ORA_TIME_AND_LABOR_PERSON_RECORD,Time and Labor Person Record,Workforce Time Management,Time and Labor,offering default: offering default: Time offering,3,0,Global HR 3
+ORA_TIME_AND_LABOR_RULES,Time and Labor Rules,Workforce Time Management,Time and Labor,offering default: offering default: Time offering,3,3,-
+ORA_TIME_AND_LABOR_WFM_COMMON,Time and Labor WFM Common,Workforce Time Management,Time and Labor,offering default: offering default: Time offering,5,4,Global HR 1
+ORA_TOTAL_REWARDS_STATEMENT,Total Rewards Statement,Compensation,Workforce Compensation,offering default: offering default: Compensation offering,4,4,-
+CUSTOM_TOUCHPOINTS_AGGREGATE_DATA_PROCESS,Touchpoints Aggregate Data Process,HCM Tool,Global HR,"offering default: offering default: HCM tools (profiles, questionnaires, approvals) are HCM common",1,1,-
+ORA_HZ_CDM_FOUNDATION,Trading Community Foundation,Customer Data Management; Sales Marketing,Unmapped,"offering default: offering has no tracker row (CX, Public Sector or Student Management)",65,1,Receivables 59; Common Features 5
+FIN_APPLICABILITY_ZX,Transaction Tax,Financials; Grants Management; Procurement; Project Financial Management,Common Features,"area override: Transaction Tax is shared by Payables, Receivables, Procurement and Projects",35,35,-
+ORA_FV_US_FEDERAL_FINANCIALS,U.S. Federal Financials,Financials,General Ledger,area override: federal financials extend GL,18,18,-
+CUSTOM_USAGE_RATING_SETUP,Usage Rating Setup,Subscriptions,Unmapped,"offering default: offering has no tracker row (CX, Public Sector or Student Management)",3,3,-
+ORA_ASK_USERS_AND_SECURITY,Users and Security,Configure Price Quote; Customer Data Management; Customer Loyalty; Enterprise Contracts; Field Service; Financials; Fusion Accounting Hub; Grants Management; Help Desk; Manufacturing and Supply Chain Materials Management; Marketing; Order Management; Procurement; Product Management; Project Financial Management; Sales; Sales Marketing; Service; Student Management; Subscriptions; Supply Chain Planning,Common Features,ORA_ASK_: ORA_ASK_ shared setup area (Run 29 rule),53,46,Unmapped 3; Global HR 2; Sourcing and Supplier Management 2
+ORA_WFM_COMMON,WFM Common,Workforce Scheduling Management,Time and Labor,offering default: offering default: Workforce scheduling sits with Time and Labor,5,4,Global HR 1
+ORA_WFM_PROCESSES,WFM Processes,Workforce Time Management,Time and Labor,offering default: offering default: Time offering,1,1,-
+ORA_SVC_WORK_ORDER,Work Order,Service,Unmapped,"offering default: offering has no tracker row (CX, Public Sector or Student Management)",4,4,-
+ORA_WORKFORCE_COMPENSATION_PLAN,Workforce Compensation Plan,Compensation,Workforce Compensation,offering default: offering default: Compensation offering,3,3,-
+ORA_HRT_WRK_PROFILES,Workforce Profiles,Sales Marketing,Unmapped,"offering default: offering has no tracker row (CX, Public Sector or Student Management)",10,0,Global HR 10
+ORA_WORKFORCE_SCHEDULING_ABSENCE,Workforce Scheduling Absence,Workforce Scheduling Management,Time and Labor,offering default: offering default: Workforce scheduling sits with Time and Labor,1,0,Absence Management 1
+ORA_WORKFORCE_SCHEDULING_COMMON,Workforce Scheduling Common,Workforce Scheduling Management,Time and Labor,offering default: offering default: Workforce scheduling sits with Time and Labor,8,0,Common Features 8
+ORA_WORKFORCE_SCHEDULING_EMPLOYMENT_ACTIONS_FRAMEWORK,Workforce Scheduling Employment Actions Framework,Workforce Scheduling Management,Time and Labor,offering default: offering default: Workforce scheduling sits with Time and Labor,3,0,Global HR 3
+ORA_WORKFORCE_SCHEDULING_ENTERPRISE,Workforce Scheduling Enterprise,Workforce Scheduling Management,Time and Labor,offering default: offering default: Workforce scheduling sits with Time and Labor,1,0,Common Features 1
+ORA_WORKFORCE_SCHEDULING_HCM_TOOL,Workforce Scheduling HCM Tool,Workforce Scheduling Management,Time and Labor,offering default: offering default: Workforce scheduling sits with Time and Labor,1,0,Global HR 1
+ORA_WORKFORCE_SCHEDULING_LEGAL_AND_LEGISLATIVE_ORGANIZATIONS,Workforce Scheduling Legal and Legislative Organizations,Workforce Scheduling Management,Time and Labor,offering default: offering default: Workforce scheduling sits with Time and Labor,3,0,Common Features 2; Global HR 1
+ORA_WORKFORCE_SCHEDULING_PERSON_RECORD,Workforce Scheduling Person Record,Workforce Scheduling Management,Time and Labor,offering default: offering default: Workforce scheduling sits with Time and Labor,3,0,Global HR 3
+ORA_WORKFORCE_SCHEDULING_TIME_AND_LABOR,Workforce Scheduling Time and Labor,Workforce Scheduling Management,Time and Labor,offering default: offering default: Workforce scheduling sits with Time and Labor,1,1,-
+ORA_ASK_WORKFORCE_STRUCTURE,Workforce Structures,Customer Data Management; Enterprise Contracts; Financials; Grants Management; Procurement; Project Financial Management; Sales Marketing; Student Management,Common Features,ORA_ASK_: ORA_ASK_ shared setup area (Run 29 rule),7,7,-

@@ -1,0 +1,17 @@
+[
+ {"id":"fsm_imports_collection","path":"setupTaskCSVImports","q":{"limit":"1"}},
+ {"id":"fsm_exports_collection","path":"setupTaskCSVExports","q":{"limit":"1"}},
+ {"id":"fsm_template_exports_collection","path":"setupTaskCSVTemplateExports","q":{"limit":"1"}},
+ {"id":"rest_journalCategoriesLOV","path":"journalCategoriesLOV","q":{"limit":"3"}},
+ {"id":"rest_journalSourcesLOV","path":"journalSourcesLOV","q":{"limit":"3"}},
+ {"id":"rest_statementCyclesLOV","path":"statementCyclesLOV","q":{"limit":"3"}},
+ {"id":"rest_standardMemoLinesLOV","path":"standardMemoLinesLOV","q":{"limit":"3"}},
+ {"id":"rest_memoLinesLOV","path":"memoLinesLOV","q":{"limit":"3"}},
+ {"id":"rest_hazardClassesLOV","path":"hazardClassesLOV","q":{"limit":"3"}},
+ {"id":"rest_hazardClasses","path":"hazardClasses","q":{"limit":"3"}},
+ {"id":"rest_shippingCostTypes","path":"shippingCostTypes","q":{"limit":"3"}},
+ {"id":"rest_shippingCostTypesLOV","path":"shippingCostTypesLOV","q":{"limit":"3"}},
+ {"id":"rest_supplierQualificationAreas","path":"supplierQualificationAreas","q":{"limit":"3"}},
+ {"id":"rest_costElements","path":"costElements","q":{"limit":"3"}},
+ {"id":"rest_collectorsLOV","path":"collectorsLOV","q":{"limit":"3"}}
+]

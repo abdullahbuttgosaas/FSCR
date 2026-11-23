@@ -1,0 +1,231 @@
+== AP_MANAGE_PAYMENT_TERMS --template-only start 08:52:45
+Started setup task CSV template export process: 100004733447113
+ProcessCompletedFlag: False; StatusCode: (no result yet); ResultCount: 0
+ProcessCompletedFlag: False; StatusCode: (no result yet); ResultCount: 0
+ProcessCompletedFlag: True; StatusCode: (no result yet); ResultCount: 0
+StatusCode: (unknown)
+Wrote E:\GoSaaS\Configuration Automation v2.1\fscr-main\_fscr_run_04_create16\evidence\exports\AP_MANAGE_PAYMENT_TERMS\ETIA-TEST_setup_task_csv_template_export_ap_manage_payment_terms_100004733447113.zip (2526 bytes)
+== AP_MANAGE_PAYMENT_TERMS --template-only end 08:53:21
+== AP_MANAGE_PAYMENT_TERMS --data start 08:53:21
+Started setup task CSV export process: 100004733440852
+ProcessCompletedFlag: False; StatusCode: (no result yet); ResultCount: 0
+ProcessCompletedFlag: False; StatusCode: (no result yet); ResultCount: 0
+ProcessCompletedFlag: True; StatusCode: (no result yet); ResultCount: 0
+StatusCode: (unknown)
+Wrote E:\GoSaaS\Configuration Automation v2.1\fscr-main\_fscr_run_04_create16\evidence\exports\AP_MANAGE_PAYMENT_TERMS\ETIA-TEST_setup_task_csv_export_ap_manage_payment_terms_100004733440852.zip (34346 bytes)
+== AP_MANAGE_PAYMENT_TERMS --data end 08:53:56
+== AP_MANAGE_PAYABLES_CALENDARS --template-only start 08:53:56
+Started setup task CSV template export process: 100004733446510
+ProcessCompletedFlag: False; StatusCode: (no result yet); ResultCount: 0
+ProcessCompletedFlag: False; StatusCode: (no result yet); ResultCount: 0
+ProcessCompletedFlag: True; StatusCode: (no result yet); ResultCount: 0
+StatusCode: (unknown)
+Wrote E:\GoSaaS\Configuration Automation v2.1\fscr-main\_fscr_run_04_create16\evidence\exports\AP_MANAGE_PAYABLES_CALENDARS\ETIA-TEST_setup_task_csv_template_export_ap_manage_payables_calendars_100004733446510.zip (1740 bytes)
+== AP_MANAGE_PAYABLES_CALENDARS --template-only end 08:54:30
+== AP_MANAGE_PAYABLES_CALENDARS --data start 08:54:30
+Started setup task CSV export process: 100004733446521
+ProcessCompletedFlag: False; StatusCode: (no result yet); ResultCount: 0
+ProcessCompletedFlag: False; StatusCode: (no result yet); ResultCount: 0
+ProcessCompletedFlag: True; StatusCode: (no result yet); ResultCount: 0
+StatusCode: (unknown)
+Wrote E:\GoSaaS\Configuration Automation v2.1\fscr-main\_fscr_run_04_create16\evidence\exports\AP_MANAGE_PAYABLES_CALENDARS\ETIA-TEST_setup_task_csv_export_ap_manage_payables_calendars_100004733446521.zip (2513 bytes)
+== AP_MANAGE_PAYABLES_CALENDARS --data end 08:55:06
+== AR_MANAGE_AUTOINVOICE_GROUPING_RULES --template-only start 08:55:06
+Started setup task CSV template export process: 100004734412680
+ProcessCompletedFlag: False; StatusCode: (no result yet); ResultCount: 0
+ProcessCompletedFlag: True; StatusCode: (no result yet); ResultCount: 0
+StatusCode: (unknown)
+Wrote E:\GoSaaS\Configuration Automation v2.1\fscr-main\_fscr_run_04_create16\evidence\exports\AR_MANAGE_AUTOINVOICE_GROUPING_RULES\ETIA-TEST_setup_task_csv_template_export_ar_manage_autoinvoice_grouping_rules_100004734412680.zip (1880 bytes)
+== AR_MANAGE_AUTOINVOICE_GROUPING_RULES --template-only end 08:55:48
+== AR_MANAGE_AUTOINVOICE_GROUPING_RULES --data start 08:55:48
+Started setup task CSV export process: 100004733446533
+ProcessCompletedFlag: False; StatusCode: (no result yet); ResultCount: 0
+ProcessCompletedFlag: True; StatusCode: (no result yet); ResultCount: 0
+StatusCode: (unknown)
+Wrote E:\GoSaaS\Configuration Automation v2.1\fscr-main\_fscr_run_04_create16\evidence\exports\AR_MANAGE_AUTOINVOICE_GROUPING_RULES\ETIA-TEST_setup_task_csv_export_ar_manage_autoinvoice_grouping_rules_100004733446533.zip (2708 bytes)
+== AR_MANAGE_AUTOINVOICE_GROUPING_RULES --data end 08:56:10
+== AR_MANAGE_REMIT_TO_ADDRESSES --template-only start 08:56:10
+Started setup task CSV template export process: 100004733440863
+ProcessCompletedFlag: False; StatusCode: (no result yet); ResultCount: 0
+ProcessCompletedFlag: False; StatusCode: (no result yet); ResultCount: 0
+ProcessCompletedFlag: True; StatusCode: (no result yet); ResultCount: 0
+StatusCode: (unknown)
+Wrote E:\GoSaaS\Configuration Automation v2.1\fscr-main\_fscr_run_04_create16\evidence\exports\AR_MANAGE_REMIT_TO_ADDRESSES\ETIA-TEST_setup_task_csv_template_export_ar_manage_remit_to_addresses_100004733440863.zip (2013 bytes)
+== AR_MANAGE_REMIT_TO_ADDRESSES --template-only end 08:56:42
+== AR_MANAGE_REMIT_TO_ADDRESSES --data start 08:56:42
+Started setup task CSV export process: 100004733440873
+ProcessCompletedFlag: False; StatusCode: (no result yet); ResultCount: 0
+ProcessCompletedFlag: True; StatusCode: (no result yet); ResultCount: 0
+StatusCode: (unknown)
+Wrote E:\GoSaaS\Configuration Automation v2.1\fscr-main\_fscr_run_04_create16\evidence\exports\AR_MANAGE_REMIT_TO_ADDRESSES\ETIA-TEST_setup_task_csv_export_ar_manage_remit_to_addresses_100004733440873.zip (3052 bytes)
+== AR_MANAGE_REMIT_TO_ADDRESSES --data end 08:57:03
+== AR_MANAGE_RECEIPT_CLASSES_AND_METHODS --template-only start 08:57:03
+Started setup task CSV template export process: 100004733447126
+ProcessCompletedFlag: False; StatusCode: (no result yet); ResultCount: 0
+ProcessCompletedFlag: False; StatusCode: (no result yet); ResultCount: 0
+ProcessCompletedFlag: True; StatusCode: (no result yet); ResultCount: 0
+StatusCode: (unknown)
+Wrote E:\GoSaaS\Configuration Automation v2.1\fscr-main\_fscr_run_04_create16\evidence\exports\AR_MANAGE_RECEIPT_CLASSES_AND_METHODS\ETIA-TEST_setup_task_csv_template_export_ar_manage_receipt_classes_and_methods_100004733447126.zip (3467 bytes)
+== AR_MANAGE_RECEIPT_CLASSES_AND_METHODS --template-only end 08:57:57
+== AR_MANAGE_RECEIPT_CLASSES_AND_METHODS --data start 08:57:57
+Started setup task CSV export process: 100004733439934
+ProcessCompletedFlag: False; StatusCode: (no result yet); ResultCount: 0
+ProcessCompletedFlag: False; StatusCode: (no result yet); ResultCount: 0
+ProcessCompletedFlag: True; StatusCode: (no result yet); ResultCount: 0
+StatusCode: (unknown)
+Wrote E:\GoSaaS\Configuration Automation v2.1\fscr-main\_fscr_run_04_create16\evidence\exports\AR_MANAGE_RECEIPT_CLASSES_AND_METHODS\ETIA-TEST_setup_task_csv_export_ar_manage_receipt_classes_and_methods_100004733439934.zip (4437 bytes)
+== AR_MANAGE_RECEIPT_CLASSES_AND_METHODS --data end 08:58:29
+== AR_MANAGE_TRANSACTION_TYPES --template-only start 08:58:30
+Started setup task CSV template export process: 100004733446592
+ProcessCompletedFlag: False; StatusCode: (no result yet); ResultCount: 0
+ProcessCompletedFlag: True; StatusCode: (no result yet); ResultCount: 0
+StatusCode: (unknown)
+Wrote E:\GoSaaS\Configuration Automation v2.1\fscr-main\_fscr_run_04_create16\evidence\exports\AR_MANAGE_TRANSACTION_TYPES\ETIA-TEST_setup_task_csv_template_export_ar_manage_transaction_types_100004733446592.zip (2431 bytes)
+== AR_MANAGE_TRANSACTION_TYPES --template-only end 08:58:51
+== AR_MANAGE_TRANSACTION_TYPES --data start 08:58:51
+Started setup task CSV export process: 100004733446604
+ProcessCompletedFlag: False; StatusCode: (no result yet); ResultCount: 0
+ProcessCompletedFlag: False; StatusCode: (no result yet); ResultCount: 0
+ProcessCompletedFlag: True; StatusCode: (no result yet); ResultCount: 0
+StatusCode: (unknown)
+Wrote E:\GoSaaS\Configuration Automation v2.1\fscr-main\_fscr_run_04_create16\evidence\exports\AR_MANAGE_TRANSACTION_TYPES\ETIA-TEST_setup_task_csv_export_ar_manage_transaction_types_100004733446604.zip (3912 bytes)
+== AR_MANAGE_TRANSACTION_TYPES --data end 08:59:24
+== ORA_AP_MANAGE_BANK_CHARGES --template-only start 08:59:24
+Started setup task CSV template export process: 100004733447147
+ProcessCompletedFlag: False; StatusCode: (no result yet); ResultCount: 0
+ProcessCompletedFlag: True; StatusCode: (no result yet); ResultCount: 0
+StatusCode: (unknown)
+Wrote E:\GoSaaS\Configuration Automation v2.1\fscr-main\_fscr_run_04_create16\evidence\exports\ORA_AP_MANAGE_BANK_CHARGES\ETIA-TEST_setup_task_csv_template_export_ora_ap_manage_bank_charges_100004733447147.zip (1905 bytes)
+== ORA_AP_MANAGE_BANK_CHARGES --template-only end 09:00:08
+== ORA_AP_MANAGE_BANK_CHARGES --data start 09:00:08
+Started setup task CSV export process: 100004733448016
+ProcessCompletedFlag: False; StatusCode: (no result yet); ResultCount: 0
+ProcessCompletedFlag: False; StatusCode: (no result yet); ResultCount: 0
+ProcessCompletedFlag: True; StatusCode: (no result yet); ResultCount: 0
+StatusCode: (unknown)
+Wrote E:\GoSaaS\Configuration Automation v2.1\fscr-main\_fscr_run_04_create16\evidence\exports\ORA_AP_MANAGE_BANK_CHARGES\ETIA-TEST_setup_task_csv_export_ora_ap_manage_bank_charges_100004733448016.zip (1902 bytes)
+== ORA_AP_MANAGE_BANK_CHARGES --data end 09:01:24
+== AR_MANAGE_TRANSACTION_SOURCES --template-only start 09:01:24
+Started setup task CSV template export process: 100004734412701
+ProcessCompletedFlag: False; StatusCode: (no result yet); ResultCount: 0
+ProcessCompletedFlag: False; StatusCode: (no result yet); ResultCount: 0
+ProcessCompletedFlag: True; StatusCode: (no result yet); ResultCount: 0
+StatusCode: (unknown)
+Wrote E:\GoSaaS\Configuration Automation v2.1\fscr-main\_fscr_run_04_create16\evidence\exports\AR_MANAGE_TRANSACTION_SOURCES\ETIA-TEST_setup_task_csv_template_export_ar_manage_transaction_sources_100004734412701.zip (3212 bytes)
+== AR_MANAGE_TRANSACTION_SOURCES --template-only end 09:01:57
+== AR_MANAGE_TRANSACTION_SOURCES --data start 09:01:57
+Started setup task CSV export process: 100004733440898
+ProcessCompletedFlag: False; StatusCode: (no result yet); ResultCount: 0
+ProcessCompletedFlag: False; StatusCode: (no result yet); ResultCount: 0
+ProcessCompletedFlag: True; StatusCode: (no result yet); ResultCount: 0
+StatusCode: (unknown)
+Wrote E:\GoSaaS\Configuration Automation v2.1\fscr-main\_fscr_run_04_create16\evidence\exports\AR_MANAGE_TRANSACTION_SOURCES\ETIA-TEST_setup_task_csv_export_ar_manage_transaction_sources_100004733440898.zip (3781 bytes)
+== AR_MANAGE_TRANSACTION_SOURCES --data end 09:02:30
+== AR_MANAGE_RECEIPT_SOURCES --template-only start 09:02:30
+Error: Failed calling https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com/fscmRestApi/resources/11.13.18.05/setupTaskCSVTemplateExports/AR_MANAGE_RECEIPT_SOURCES/child/SetupTaskCSVTemplateExportProcess/100004733440920?onlyData=true: [Errno 11002] getaddrin
+Started setup task CSV template export process: 100004733440920
+ProcessCompletedFlag: False; StatusCode: (no result yet); ResultCount: 0
+== AR_MANAGE_RECEIPT_SOURCES --template-only end 09:02:53
+== AR_MANAGE_RECEIPT_SOURCES --data start 09:02:53
+Started setup task CSV export process: 100004734412713
+ProcessCompletedFlag: False; StatusCode: (no result yet); ResultCount: 0
+ProcessCompletedFlag: False; StatusCode: (no result yet); ResultCount: 0
+ProcessCompletedFlag: True; StatusCode: (no result yet); ResultCount: 0
+StatusCode: (unknown)
+Wrote E:\GoSaaS\Configuration Automation v2.1\fscr-main\_fscr_run_04_create16\evidence\exports\AR_MANAGE_RECEIPT_SOURCES\ETIA-TEST_setup_task_csv_export_ar_manage_receipt_sources_100004734412713.zip (1867 bytes)
+== AR_MANAGE_RECEIPT_SOURCES --data end 09:03:26
+== AR_MANAGE_AUTOACCOUNTING_RULES --template-only start 09:03:26
+Started setup task CSV template export process: 100004733440930
+ProcessCompletedFlag: False; StatusCode: (no result yet); ResultCount: 0
+ProcessCompletedFlag: False; StatusCode: (no result yet); ResultCount: 0
+ProcessCompletedFlag: True; StatusCode: (no result yet); ResultCount: 0
+StatusCode: (unknown)
+Wrote E:\GoSaaS\Configuration Automation v2.1\fscr-main\_fscr_run_04_create16\evidence\exports\AR_MANAGE_AUTOACCOUNTING_RULES\ETIA-TEST_setup_task_csv_template_export_ar_manage_autoaccounting_rules_100004733440930.zip (1558 bytes)
+== AR_MANAGE_AUTOACCOUNTING_RULES --template-only end 09:03:59
+== AR_MANAGE_AUTOACCOUNTING_RULES --data start 09:03:59
+Started setup task CSV export process: 100004733448086
+ProcessCompletedFlag: False; StatusCode: (no result yet); ResultCount: 0
+ProcessCompletedFlag: True; StatusCode: (no result yet); ResultCount: 0
+StatusCode: (unknown)
+Wrote E:\GoSaaS\Configuration Automation v2.1\fscr-main\_fscr_run_04_create16\evidence\exports\AR_MANAGE_AUTOACCOUNTING_RULES\ETIA-TEST_setup_task_csv_export_ar_manage_autoaccounting_rules_100004733448086.zip (6072 bytes)
+== AR_MANAGE_AUTOACCOUNTING_RULES --data end 09:04:20
+== AR_MANAGE_RECEIVABLES_SYSTEM_OPTIONS --template-only start 09:04:20
+Started setup task CSV template export process: 100004733448111
+ProcessCompletedFlag: False; StatusCode: (no result yet); ResultCount: 0
+ProcessCompletedFlag: False; StatusCode: (no result yet); ResultCount: 0
+ProcessCompletedFlag: False; StatusCode: (no result yet); ResultCount: 0
+ProcessCompletedFlag: True; StatusCode: (no result yet); ResultCount: 0
+StatusCode: (unknown)
+Wrote E:\GoSaaS\Configuration Automation v2.1\fscr-main\_fscr_run_04_create16\evidence\exports\AR_MANAGE_RECEIVABLES_SYSTEM_OPTIONS\ETIA-TEST_setup_task_csv_template_export_ar_manage_receivables_system_options_100004733448111.zip (3919 bytes)
+== AR_MANAGE_RECEIVABLES_SYSTEM_OPTIONS --template-only end 09:05:04
+== AR_MANAGE_RECEIVABLES_SYSTEM_OPTIONS --data start 09:05:04
+Started setup task CSV export process: 100004733446700
+ProcessCompletedFlag: False; StatusCode: (no result yet); ResultCount: 0
+ProcessCompletedFlag: False; StatusCode: (no result yet); ResultCount: 0
+ProcessCompletedFlag: True; StatusCode: (no result yet); ResultCount: 0
+StatusCode: (unknown)
+Wrote E:\GoSaaS\Configuration Automation v2.1\fscr-main\_fscr_run_04_create16\evidence\exports\AR_MANAGE_RECEIVABLES_SYSTEM_OPTIONS\ETIA-TEST_setup_task_csv_export_ar_manage_receivables_system_options_100004733446700.zip (5264 bytes)
+== AR_MANAGE_RECEIVABLES_SYSTEM_OPTIONS --data end 09:05:37
+== AP_MANAGE_COMMON_OPTIONS_FOR_PAYABLES_AND_PROCUREMENT --template-only start 09:05:37
+Started setup task CSV template export process: 100004733446715
+ProcessCompletedFlag: False; StatusCode: (no result yet); ResultCount: 0
+ProcessCompletedFlag: False; StatusCode: (no result yet); ResultCount: 0
+ProcessCompletedFlag: True; StatusCode: (no result yet); ResultCount: 0
+StatusCode: (unknown)
+Wrote E:\GoSaaS\Configuration Automation v2.1\fscr-main\_fscr_run_04_create16\evidence\exports\AP_MANAGE_COMMON_OPTIONS_FOR_PAYABLES_AND_PROCUREMENT\ETIA-TEST_setup_task_csv_template_export_ap_manage_common_options_for_payables_and_procurement_100004733446715.
+== AP_MANAGE_COMMON_OPTIONS_FOR_PAYABLES_AND_PROCUREMENT --template-only end 09:06:11
+== AP_MANAGE_COMMON_OPTIONS_FOR_PAYABLES_AND_PROCUREMENT --data start 09:06:11
+Started setup task CSV export process: 100004733448139
+ProcessCompletedFlag: False; StatusCode: (no result yet); ResultCount: 0
+ProcessCompletedFlag: False; StatusCode: (no result yet); ResultCount: 0
+ProcessCompletedFlag: True; StatusCode: (no result yet); ResultCount: 0
+StatusCode: (unknown)
+Wrote E:\GoSaaS\Configuration Automation v2.1\fscr-main\_fscr_run_04_create16\evidence\exports\AP_MANAGE_COMMON_OPTIONS_FOR_PAYABLES_AND_PROCUREMENT\ETIA-TEST_setup_task_csv_export_ap_manage_common_options_for_payables_and_procurement_100004733448139.zip (3438
+== AP_MANAGE_COMMON_OPTIONS_FOR_PAYABLES_AND_PROCUREMENT --data end 09:06:43
+== AP_MANAGE_INVOICE_OPTIONS --template-only start 09:06:43
+Started setup task CSV template export process: 100004733440949
+ProcessCompletedFlag: False; StatusCode: (no result yet); ResultCount: 0
+ProcessCompletedFlag: False; StatusCode: (no result yet); ResultCount: 0
+ProcessCompletedFlag: True; StatusCode: (no result yet); ResultCount: 0
+StatusCode: (unknown)
+Wrote E:\GoSaaS\Configuration Automation v2.1\fscr-main\_fscr_run_04_create16\evidence\exports\AP_MANAGE_INVOICE_OPTIONS\ETIA-TEST_setup_task_csv_template_export_ap_manage_invoice_options_100004733440949.zip (3080 bytes)
+== AP_MANAGE_INVOICE_OPTIONS --template-only end 09:07:58
+== AP_MANAGE_INVOICE_OPTIONS --data start 09:07:58
+Started setup task CSV export process: 100004734412733
+ProcessCompletedFlag: False; StatusCode: (no result yet); ResultCount: 0
+ProcessCompletedFlag: False; StatusCode: (no result yet); ResultCount: 0
+ProcessCompletedFlag: True; StatusCode: (no result yet); ResultCount: 0
+StatusCode: (unknown)
+Wrote E:\GoSaaS\Configuration Automation v2.1\fscr-main\_fscr_run_04_create16\evidence\exports\AP_MANAGE_INVOICE_OPTIONS\ETIA-TEST_setup_task_csv_export_ap_manage_invoice_options_100004734412733.zip (4201 bytes)
+== AP_MANAGE_INVOICE_OPTIONS --data end 09:08:34
+== AP_MANAGE_PAYMENT_OPTIONS --template-only start 09:08:34
+Started setup task CSV template export process: 100004734412761
+ProcessCompletedFlag: False; StatusCode: (no result yet); ResultCount: 0
+ProcessCompletedFlag: True; StatusCode: (no result yet); ResultCount: 0
+StatusCode: (unknown)
+Wrote E:\GoSaaS\Configuration Automation v2.1\fscr-main\_fscr_run_04_create16\evidence\exports\AP_MANAGE_PAYMENT_OPTIONS\ETIA-TEST_setup_task_csv_template_export_ap_manage_payment_options_100004734412761.zip (3081 bytes)
+== AP_MANAGE_PAYMENT_OPTIONS --template-only end 09:08:55
+== AP_MANAGE_PAYMENT_OPTIONS --data start 09:08:55
+Started setup task CSV export process: 100004733440965
+ProcessCompletedFlag: False; StatusCode: (no result yet); ResultCount: 0
+ProcessCompletedFlag: False; StatusCode: (no result yet); ResultCount: 0
+ProcessCompletedFlag: True; StatusCode: (no result yet); ResultCount: 0
+StatusCode: (unknown)
+Wrote E:\GoSaaS\Configuration Automation v2.1\fscr-main\_fscr_run_04_create16\evidence\exports\AP_MANAGE_PAYMENT_OPTIONS\ETIA-TEST_setup_task_csv_export_ap_manage_payment_options_100004733440965.zip (4201 bytes)
+== AP_MANAGE_PAYMENT_OPTIONS --data end 09:09:28
+== EXM_MANAGE_CONVERSION_RATES_AND_POLICIES --template-only start 09:09:28
+Started setup task CSV template export process: 100004733448216
+ProcessCompletedFlag: False; StatusCode: (no result yet); ResultCount: 0
+ProcessCompletedFlag: False; StatusCode: (no result yet); ResultCount: 0
+ProcessCompletedFlag: True; StatusCode: (no result yet); ResultCount: 0
+StatusCode: (unknown)
+Wrote E:\GoSaaS\Configuration Automation v2.1\fscr-main\_fscr_run_04_create16\evidence\exports\EXM_MANAGE_CONVERSION_RATES_AND_POLICIES\ETIA-TEST_setup_task_csv_template_export_exm_manage_conversion_rates_and_policies_100004733448216.zip (1538 bytes)
+== EXM_MANAGE_CONVERSION_RATES_AND_POLICIES --template-only end 09:10:01
+== EXM_MANAGE_CONVERSION_RATES_AND_POLICIES --data start 09:10:01
+Started setup task CSV export process: 100004733440975
+ProcessCompletedFlag: False; StatusCode: (no result yet); ResultCount: 0
+ProcessCompletedFlag: False; StatusCode: (no result yet); ResultCount: 0
+ProcessCompletedFlag: True; StatusCode: (no result yet); ResultCount: 0
+StatusCode: (unknown)
+Wrote E:\GoSaaS\Configuration Automation v2.1\fscr-main\_fscr_run_04_create16\evidence\exports\EXM_MANAGE_CONVERSION_RATES_AND_POLICIES\ETIA-TEST_setup_task_csv_export_exm_manage_conversion_rates_and_policies_100004733440975.zip (1994 bytes)
+== EXM_MANAGE_CONVERSION_RATES_AND_POLICIES --data end 09:10:36

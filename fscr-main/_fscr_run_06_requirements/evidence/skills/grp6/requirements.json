@@ -1,0 +1,68 @@
+[
+  {
+    "entity": "AR_AI_GROUPING_RULE",
+    "id": "REQ-001",
+    "kind": "target",
+    "operationId": "g1",
+    "requirement": "create exactly one AR_AI_GROUPING_RULE record identified by {\"Name\":\"FSCRT_GRP6\"}",
+    "targetKey": {
+      "Name": "FSCRT_GRP6"
+    }
+  },
+  {
+    "entity": "AR_AI_GROUPING_RULE",
+    "field": "Description",
+    "id": "REQ-002",
+    "kind": "value",
+    "operationId": "g1",
+    "requestedValue": "FSCRT Run06 consignment grouping rule",
+    "requirement": "Persist AR_AI_GROUPING_RULE.Description=FSCRT Run06 consignment grouping rule",
+    "targetKey": {
+      "Name": "FSCRT_GRP6"
+    }
+  },
+  {
+    "entity": "AR_AI_GROUPING_RULE",
+    "field": "StartDate",
+    "id": "REQ-003",
+    "kind": "value",
+    "operationId": "g1",
+    "requestedValue": "2026-11-03",
+    "requirement": "Persist AR_AI_GROUPING_RULE.StartDate=2026-11-03",
+    "targetKey": {
+      "Name": "FSCRT_GRP6"
+    }
+  },
+  {
+    "entity": "AR_AI_GROUPING_RULE",
+    "id": "REQ-004",
+    "kind": "preserve_rows",
+    "operationId": "g1",
+    "requirement": "Preserve every unspecified record and non-audit value",
+    "targetKey": {
+      "Name": "FSCRT_GRP6"
+    }
+  },
+  {
+    "entity": "ORA_AR_AI_GRP_TXN_TYPE",
+    "id": "REQ-005",
+    "kind": "target",
+    "operationId": "c1",
+    "requirement": "create exactly one ORA_AR_AI_GRP_TXN_TYPE record identified by {\"AR_AI_GROUPING_RULE.Name\":\"FSCRT_GRP6\",\"Class11\":\"I\"}",
+    "targetKey": {
+      "AR_AI_GROUPING_RULE.Name": "FSCRT_GRP6",
+      "Class11": "I"
+    }
+  },
+  {
+    "entity": "ORA_AR_AI_GRP_TXN_TYPE",
+    "id": "REQ-006",
+    "kind": "preserve_rows",
+    "operationId": "c1",
+    "requirement": "Preserve every unspecified record and non-audit value",
+    "targetKey": {
+      "AR_AI_GROUPING_RULE.Name": "FSCRT_GRP6",
+      "Class11": "I"
+    }
+  }
+]

@@ -1,0 +1,43 @@
+{
+  "items" : [ {
+    "CurrencyCode" : "28ULD",
+    "Name" : "28 UltraLandDollars",
+    "Description" : "Currency for UltraLand",
+    "EnabledFlag" : "Y",
+    "StartDateActive" : "2026-01-01",
+    "EndDateActive" : null,
+    "ActiveDate" : null,
+    "CurrencyFormat" : "#,##0.00;-#,##0.00",
+    "CurrencyFormatWithSymbol" : "'28ULD'#,##0.00;-'28ULD'#,##0.00",
+    "CurrencyFormatWithCode" : "'28ULD' #,##0.00;'28ULD' -#,##0.00",
+    "IssuingTerritoryCode" : null,
+    "Symbol" : null,
+    "Precision" : 2,
+    "ExtendedPrecision" : 5,
+    "CurrencyFlag" : "Y",
+    "@context" : {
+      "key" : "28ULD",
+      "links" : [ {
+        "rel" : "self",
+        "href" : "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/currenciesLOV/28ULD",
+        "name" : "currenciesLOV",
+        "kind" : "item"
+      }, {
+        "rel" : "canonical",
+        "href" : "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/currenciesLOV/28ULD",
+        "name" : "currenciesLOV",
+        "kind" : "item"
+      } ]
+    }
+  } ],
+  "count" : 1,
+  "hasMore" : true,
+  "limit" : 1,
+  "offset" : 0,
+  "links" : [ {
+    "rel" : "self",
+    "href" : "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/currenciesLOV",
+    "name" : "currenciesLOV",
+    "kind" : "collection"
+  } ]
+}

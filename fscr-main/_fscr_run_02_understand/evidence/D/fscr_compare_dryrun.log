@@ -1,0 +1,52 @@
+{
+  "ok": true,
+  "dryRun": {
+    "environmentResourceRoot": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com/fscmRestApi/resources/latest",
+    "auth": {
+      "type": "FSCR OAuth bearer token",
+      "value": "<redacted>"
+    },
+    "objectName": "Manage Receivables Payment Terms",
+    "entityType": "TASK",
+    "steps": [
+      {
+        "operation": "create file blob",
+        "fileName": "ETIA-TEST_setup_task_csv_export_ar_manage_receivables_payment_terms_100004733439700.zip"
+      },
+      {
+        "operation": "upload file blob",
+        "zip": "E:\\GoSaaS\\Configuration Automation v2.1\\fscr-main\\_fscr_run_02_understand\\fscr-work2\\project\\fscrt-run01-om-setup\\exports\\financials\\customer-billing\\manage-receivables-payment-terms\\ETIA-TEST_setup_task_csv_export_ar_manage_receivables_payment_terms_100004733439700.zip"
+      },
+      {
+        "operation": "create file blob",
+        "fileName": "ETIA-TEST_setup_task_csv_export_ar_manage_receivables_payment_terms_100004733440719.zip"
+      },
+      {
+        "operation": "upload file blob",
+        "zip": "E:\\GoSaaS\\Configuration Automation v2.1\\fscr-main\\_fscr_run_02_understand\\evidence\\D\\exports\\ETIA-TEST_setup_task_csv_export_ar_manage_receivables_payment_terms_100004733440719.zip"
+      },
+      {
+        "operation": "create upload",
+        "payloadShape": {
+          "type": "COMPARE_REQUEST",
+          "taskCode": "AR_MANAGE_RECEIVABLES_PAYMENT_TERMS",
+          "offeringCode": null,
+          "functionalAreaCode": null,
+          "fileBlobId": "<fileBlobId>"
+        }
+      },
+      {
+        "operation": "retrieve compare process name"
+      },
+      {
+        "operation": "submit compare"
+      },
+      {
+        "operation": "poll compare process"
+      },
+      {
+        "operation": "download compare artifacts"
+      }
+    ]
+  }
+}

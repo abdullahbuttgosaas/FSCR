@@ -1,0 +1,9 @@
+TaskCode: FND_MANAGE_REFERENCE_DATA_SETS (Manage Reference Data Sets); CSVExportImportSupportedFlag: Y
+No matching pillar setup-task metadata found; using supplied or Fusion task context for export path.
+Started setup task CSV export process: 100004737391041
+ProcessCompletedFlag: False; StatusCode: (no result yet); ResultCount: 0
+ProcessCompletedFlag: False; StatusCode: (no result yet); ResultCount: 0
+ProcessCompletedFlag: True; StatusCode: (no result yet); ResultCount: 0
+StatusCode: (unknown)
+Retrieved: FileContent
+Wrote ..\export_before\FND_MANAGE_REFERENCE_DATA_SETS\ETIA-TEST_setup_task_csv_export_fnd_manage_reference_data_sets_100004737391041.zip (2978 bytes)

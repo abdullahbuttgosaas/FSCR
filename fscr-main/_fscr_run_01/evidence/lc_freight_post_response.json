@@ -1,0 +1,41 @@
+{
+  "LookupCode" : "FSCRT_FREIGHT",
+  "Meaning" : "FSCRT_Pallet freight",
+  "Description" : null,
+  "EnabledFlag" : "N",
+  "StartDateActive" : null,
+  "EndDateActive" : null,
+  "DisplaySequence" : null,
+  "Tag" : null,
+  "CreatedBy" : "Configuration.TEST",
+  "CreationDate" : "2026-11-02T19:53:57+00:00",
+  "LastUpdateDate" : "2026-11-02T19:53:57.220+00:00",
+  "LastUpdateLogin" : "5F4DC7E142359A4FE0631C65310A9E63",
+  "LastUpdatedBy" : "Configuration.TEST",
+  "links" : [ {
+    "rel" : "self",
+    "href" : "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/FSCRT_CARRIER_SERVICE_TIER_F01/child/lookupCodes/FSCRT_FREIGHT",
+    "name" : "lookupCodes",
+    "kind" : "item"
+  }, {
+    "rel" : "canonical",
+    "href" : "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/FSCRT_CARRIER_SERVICE_TIER_F01/child/lookupCodes/FSCRT_FREIGHT",
+    "name" : "lookupCodes",
+    "kind" : "item"
+  }, {
+    "rel" : "parent",
+    "href" : "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/FSCRT_CARRIER_SERVICE_TIER_F01",
+    "name" : "standardLookups",
+    "kind" : "item"
+  }, {
+    "rel" : "child",
+    "href" : "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/FSCRT_CARRIER_SERVICE_TIER_F01/child/lookupCodes/FSCRT_FREIGHT/child/lookupsDFF",
+    "name" : "lookupsDFF",
+    "kind" : "collection"
+  }, {
+    "rel" : "child",
+    "href" : "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/FSCRT_CARRIER_SERVICE_TIER_F01/child/lookupCodes/FSCRT_FREIGHT/child/translations",
+    "name" : "translations",
+    "kind" : "collection"
+  } ]
+}

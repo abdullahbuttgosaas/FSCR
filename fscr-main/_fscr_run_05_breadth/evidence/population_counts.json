@@ -1,0 +1,42 @@
+{
+ "seed": 20261103,
+ "total": 1123,
+ "excluded": 32,
+ "by_area_type": {
+  "ERP": {
+   "planning": 87,
+   "verification": 1,
+   "orchestration": 15
+  },
+  "SCM": {
+   "planning": 222,
+   "orchestration": 6,
+   "import": 15,
+   "advisory": 1
+  },
+  "HCM": {
+   "orchestration": 41,
+   "planning": 397,
+   "advisory": 1,
+   "import": 18
+  },
+  "CX": {
+   "planning": 125,
+   "orchestration": 47,
+   "import": 10,
+   "verification": 6,
+   "advisory": 7
+  },
+  "SHARED": {
+   "validation": 5,
+   "import": 20,
+   "orchestration": 29,
+   "support": 1,
+   "assessment": 14,
+   "advisory": 23,
+   "verification": 6,
+   "export": 5,
+   "planning": 21
+  }
+ }
+}

@@ -1,0 +1,21 @@
+| Data Set | Status | Total | Loaded | Failed |
+|---|---|---:|---:|---:|
+| fscrt-ttype-candidate.zip | ❌ Failed | 2 | 0 | 2 |
+
+Errors:
+
+| # | Business Object | Stage | Error |
+|---:|---|---|---|
+| 1 | Receivables Transaction Type Reference Account | FSM Import | TransactionType: A total of 1 rows were processed. 1 rows of them failed and 0 rows completed with warnings.. Started: 11\/3\/26 4:13 AM. Ended: 11\/3\/26 4:13 AM. \t\tRow Identifier: 300000394623090. Status: Error. Message Code: . Message Text: \t\tThe data row that caused the exception exists in the AR_TRANSACTION_TYPE.csv file. \t\tJBO-25026: Row oracle.jbo.Key[300000394623090 ] with XML tag TransactionTypeVORow cannot be loaded.JBO-27024: Failed to validate a row with key oracle.jbo.Key[300000394623092 ] in TransactionTypeEO__DefCustomizer__JBO-27014: Attribute CreationSign in TransactionTypeEO__DefCustomizer__ is required. |
+
+| Next action | Details |
+|---|---|
+| Correct the source data | Address the listed diagnostics, validate the corrected source, and resubmit it. |
+
+FSM Process Logs:
+
+| Data Set | File |
+|---|---|
+| fscrt-ttype-candidate.zip | [fscrt-ttype-candidate.zip-fsm-100004734412772-1.log](C:\Users\PC\.codex\data-loader-status-logs\requestid-4432190\fscrt-ttype-candidate.zip-fsm-100004734412772-1.log) |
+
+--stderr--

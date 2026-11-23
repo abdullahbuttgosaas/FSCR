@@ -1,0 +1,3779 @@
+{
+  "schema_version": "1.0",
+  "tasks": [
+    {
+      "sequence": 1,
+      "task_name": "Run User and Roles Synchronization Process",
+      "offering": "Financials",
+      "functional_area": "Initial Users",
+      "task_code": "PER_USER_AND_ROLES_SYNCHRONIZE_DETAILS",
+      "skill_path": "pillars/common/security-console/user-security-common/run-user-and-roles-synchronization-process.md",
+      "skill_selection": {
+        "status": "selected",
+        "selected_by": "LEXICOGRAPHIC_PATH",
+        "candidates": [
+          "pillars/common/security-console/user-security-common/run-user-and-roles-synchronization-process.md",
+          "pillars/cx/field-service/users-and-security/run-user-and-roles-synchronization-process/SKILL.md"
+        ],
+        "context_relation": "unscoped-guidance",
+        "project_context": {
+          "offering": "Financials",
+          "functional_area": "Initial Users"
+        },
+        "skill_context": null
+      },
+      "match_status": "matched",
+      "business_objects": []
+    },
+    {
+      "sequence": 2,
+      "task_name": "Manage Applications Security Preferences",
+      "offering": "Financials",
+      "functional_area": "Initial Users",
+      "task_code": "ORA_ASE_MANAGE_SECURITY_PREFERENCES",
+      "skill_path": "pillars/common/security-console/user-security-common/manage-applications-security-preferences.md",
+      "skill_selection": {
+        "status": "selected",
+        "selected_by": "FLAT_TASK_GUIDANCE_FILE",
+        "candidates": [
+          "pillars/common/security-console/user-security-common/manage-applications-security-preferences.md"
+        ],
+        "context_relation": "unscoped-guidance",
+        "project_context": {
+          "offering": "Financials",
+          "functional_area": "Initial Users"
+        },
+        "skill_context": null
+      },
+      "match_status": "matched",
+      "business_objects": []
+    },
+    {
+      "sequence": 3,
+      "task_name": "Import Users and Roles into Application Security",
+      "offering": "Financials",
+      "functional_area": "Initial Users",
+      "task_code": "ORA_ASE_IMPORT_USERS_AND_ROLES",
+      "skill_path": "pillars/common/security-console/user-security-common/import-users-and-roles-into-application-security.md",
+      "skill_selection": {
+        "status": "selected",
+        "selected_by": "LEXICOGRAPHIC_PATH",
+        "candidates": [
+          "pillars/common/security-console/user-security-common/import-users-and-roles-into-application-security.md",
+          "pillars/cx/field-service/users-and-security/import-users-and-roles-into-application-security/SKILL.md"
+        ],
+        "context_relation": "unscoped-guidance",
+        "project_context": {
+          "offering": "Financials",
+          "functional_area": "Initial Users"
+        },
+        "skill_context": null
+      },
+      "match_status": "matched",
+      "business_objects": []
+    },
+    {
+      "sequence": 4,
+      "task_name": "Import User Login History",
+      "offering": "Financials",
+      "functional_area": "Initial Users",
+      "task_code": "ORA_ASE_IMPORT_USER_LOGIN_HISTORY",
+      "skill_path": "pillars/common/security-console/user-security-common/import-user-login-history.md",
+      "skill_selection": {
+        "status": "selected",
+        "selected_by": "LEXICOGRAPHIC_PATH",
+        "candidates": [
+          "pillars/common/security-console/user-security-common/import-user-login-history.md",
+          "pillars/cx/field-service/users-and-security/import-user-login-history/SKILL.md"
+        ],
+        "context_relation": "unscoped-guidance",
+        "project_context": {
+          "offering": "Financials",
+          "functional_area": "Initial Users"
+        },
+        "skill_context": null
+      },
+      "match_status": "matched",
+      "business_objects": []
+    },
+    {
+      "sequence": 5,
+      "task_name": "Create Implementation Users",
+      "offering": "Financials",
+      "functional_area": "Initial Users",
+      "task_code": "FND_CREATE_IMPLEMENTATION_USERS",
+      "skill_path": null,
+      "skill_selection": {
+        "status": "missing",
+        "selected_by": "FLAT_TASK_GUIDANCE_MISSING",
+        "candidates": [],
+        "context_relation": "missing",
+        "project_context": {
+          "offering": "Financials",
+          "functional_area": "Initial Users"
+        },
+        "skill_context": null
+      },
+      "execution_mode": "manual",
+      "execution_route": "manual-tasks",
+      "execution_skill_path": "shared/common/manual-tasks/SKILL.md",
+      "match_status": "matched",
+      "match_reason": "No task skill or flat task guidance exists in FSCR; route this catalog task to the shared Manual Tasks skill.",
+      "business_objects": [],
+      "task_description": "Create user accounts for implementation users."
+    },
+    {
+      "sequence": 6,
+      "task_name": "Create Data Role for Implementation Users",
+      "offering": "Financials",
+      "functional_area": "Initial Users",
+      "task_code": "FND_CREATE_DATA_ROLE_FOR_IMPLEMENTATION_USERS",
+      "skill_path": null,
+      "skill_selection": {
+        "status": "missing",
+        "selected_by": "FLAT_TASK_GUIDANCE_MISSING",
+        "candidates": [],
+        "context_relation": "missing",
+        "project_context": {
+          "offering": "Financials",
+          "functional_area": "Initial Users"
+        },
+        "skill_context": null
+      },
+      "execution_mode": "manual",
+      "execution_route": "manual-tasks",
+      "execution_skill_path": "shared/common/manual-tasks/SKILL.md",
+      "match_status": "matched",
+      "match_reason": "No task skill or flat task guidance exists in FSCR; route this catalog task to the shared Manual Tasks skill.",
+      "business_objects": [],
+      "task_description": "Create a data role based on the Human Capital Management Application Administrator job role to view all security profiles so a single user will be able to perform all required Human Capital Management setup steps. This role combines granted entitlements with unrestricted access to the setup data relevant to the tasks performed by this role."
+    },
+    {
+      "sequence": 7,
+      "task_name": "Establish Enterprise Structures",
+      "offering": "Financials",
+      "functional_area": "Enterprise Profile",
+      "task_code": "HRW_ESTABLISH_ENTERPRISE_STRUCTURES",
+      "skill_path": null,
+      "skill_selection": {
+        "status": "missing",
+        "selected_by": "FLAT_TASK_GUIDANCE_MISSING",
+        "candidates": [],
+        "context_relation": "missing",
+        "project_context": {
+          "offering": "Financials",
+          "functional_area": "Enterprise Profile"
+        },
+        "skill_context": null
+      },
+      "execution_mode": "manual",
+      "execution_route": "manual-tasks",
+      "execution_skill_path": "shared/common/manual-tasks/SKILL.md",
+      "match_status": "matched",
+      "match_reason": "No task skill or flat task guidance exists in FSCR; route this catalog task to the shared Manual Tasks skill.",
+      "business_objects": [],
+      "task_description": "Determine the high-level structures of the enterprise using an interview style process."
+    },
+    {
+      "sequence": 8,
+      "task_name": "Manage Reference Data Sets",
+      "offering": "Financials",
+      "functional_area": "Enterprise Profile",
+      "task_code": "FND_MANAGE_REFERENCE_DATA_SETS",
+      "skill_path": "pillars/hcm/goal-management/goal-management-common/manage-reference-data-sets/SKILL.md",
+      "skill_selection": {
+        "status": "selected",
+        "selected_by": "LEXICOGRAPHIC_PATH",
+        "candidates": [
+          "pillars/hcm/goal-management/goal-management-common/manage-reference-data-sets/SKILL.md",
+          "pillars/hcm/performance-management/performance-management-common/manage-reference-data-sets/SKILL.md"
+        ],
+        "context_relation": "cross-context-fallback",
+        "project_context": {
+          "offering": "Financials",
+          "functional_area": "Enterprise Profile"
+        },
+        "skill_context": {
+          "offering": "Goal Management",
+          "functional_area": "Goal Management Common"
+        }
+      },
+      "match_status": "matched",
+      "business_objects": []
+    },
+    {
+      "sequence": 9,
+      "task_name": "Manage Set Assignments for Set Determinant Type",
+      "offering": "Financials",
+      "functional_area": "Enterprise Profile",
+      "task_code": "FND_MANAGE_REFERENCE_DATA_SET_ASSIGNMENTS",
+      "skill_path": null,
+      "skill_selection": {
+        "status": "missing",
+        "selected_by": "FLAT_TASK_GUIDANCE_MISSING",
+        "candidates": [],
+        "context_relation": "missing",
+        "project_context": {
+          "offering": "Financials",
+          "functional_area": "Enterprise Profile"
+        },
+        "skill_context": null
+      },
+      "execution_mode": "manual",
+      "execution_route": "manual-tasks",
+      "execution_skill_path": "shared/common/manual-tasks/SKILL.md",
+      "match_status": "matched",
+      "match_reason": "No task skill or flat task guidance exists in FSCR; route this catalog task to the shared Manual Tasks skill.",
+      "business_objects": [],
+      "task_description": "Specify the reference data set assignments for determinant type of Set."
+    },
+    {
+      "sequence": 10,
+      "task_name": "Manage Reference Data Set Data Access for Users",
+      "offering": "Financials",
+      "functional_area": "Enterprise Profile",
+      "task_code": "ORA_FUN_MANAGE_REFERENCE_DATA_SET_DATA_ACCESS_FOR_USERS",
+      "skill_path": null,
+      "skill_selection": {
+        "status": "missing",
+        "selected_by": "FLAT_TASK_GUIDANCE_MISSING",
+        "candidates": [],
+        "context_relation": "missing",
+        "project_context": {
+          "offering": "Financials",
+          "functional_area": "Enterprise Profile"
+        },
+        "skill_context": null
+      },
+      "execution_mode": "manual",
+      "execution_route": "manual-tasks",
+      "execution_skill_path": "shared/common/manual-tasks/SKILL.md",
+      "match_status": "matched",
+      "match_reason": "No task skill or flat task guidance exists in FSCR; route this catalog task to the shared Manual Tasks skill.",
+      "business_objects": [],
+      "task_description": "Manage reference data set data access for user provisioned roles."
+    },
+    {
+      "sequence": 11,
+      "task_name": "Manage Geographies",
+      "offering": "Financials",
+      "functional_area": "Enterprise Profile",
+      "task_code": "HZ_MANAGE_GEOGRAPHIES",
+      "skill_path": "pillars/cx/customer-data-management/enterprise-profile/manage-geographies/SKILL.md",
+      "skill_selection": {
+        "status": "selected",
+        "selected_by": "EXACT_TASK_CODE_AND_NAME",
+        "candidates": [
+          "pillars/cx/customer-data-management/enterprise-profile/manage-geographies/SKILL.md"
+        ],
+        "context_relation": "canonical-task-reuse",
+        "project_context": {
+          "offering": "Financials",
+          "functional_area": "Enterprise Profile"
+        },
+        "skill_context": {
+          "offering": "Customer Data Management",
+          "functional_area": "Enterprise Profile"
+        },
+        "context_note": "The unique task-code-and-name skill is canonical and reusable across Oracle offering and functional-area contexts."
+      },
+      "match_status": "matched",
+      "business_objects": []
+    },
+    {
+      "sequence": 12,
+      "task_name": "Load Geography Interface Data",
+      "offering": "Financials",
+      "functional_area": "Enterprise Profile",
+      "task_code": "HZ_LOAD_GEOGRAPHY_INTERFACE_DATA",
+      "skill_path": null,
+      "skill_selection": {
+        "status": "missing",
+        "selected_by": "FLAT_TASK_GUIDANCE_MISSING",
+        "candidates": [],
+        "context_relation": "missing",
+        "project_context": {
+          "offering": "Financials",
+          "functional_area": "Enterprise Profile"
+        },
+        "skill_context": null
+      },
+      "execution_mode": "manual",
+      "execution_route": "manual-tasks",
+      "execution_skill_path": "shared/common/manual-tasks/SKILL.md",
+      "match_status": "matched",
+      "match_reason": "No task skill or flat task guidance exists in FSCR; route this catalog task to the shared Manual Tasks skill.",
+      "business_objects": [],
+      "task_description": "Manually load geography interface data before running the geography loader."
+    },
+    {
+      "sequence": 13,
+      "task_name": "Run Geography Loader",
+      "offering": "Financials",
+      "functional_area": "Enterprise Profile",
+      "task_code": "HZ_RUN_GEOGRAPHY_LOADER",
+      "skill_path": null,
+      "skill_selection": {
+        "status": "missing",
+        "selected_by": "FLAT_TASK_GUIDANCE_MISSING",
+        "candidates": [],
+        "context_relation": "missing",
+        "project_context": {
+          "offering": "Financials",
+          "functional_area": "Enterprise Profile"
+        },
+        "skill_context": null
+      },
+      "execution_mode": "manual",
+      "execution_route": "manual-tasks",
+      "execution_skill_path": "shared/common/manual-tasks/SKILL.md",
+      "match_status": "matched",
+      "match_reason": "No task skill or flat task guidance exists in FSCR; route this catalog task to the shared Manual Tasks skill.",
+      "business_objects": [],
+      "task_description": "Schedule and monitor the process to load geography data from external data providers."
+    },
+    {
+      "sequence": 14,
+      "task_name": "Run Maintain Geography Name Referencing",
+      "offering": "Financials",
+      "functional_area": "Enterprise Profile",
+      "task_code": "HZ_RUN_MAINTAIN_GEOGRAPHY_NAME_REFERENCING",
+      "skill_path": "pillars/cx/customer-data-management/enterprise-profile/run-maintain-geography-name-referencing/SKILL.md",
+      "skill_selection": {
+        "status": "selected",
+        "selected_by": "EXACT_TASK_CODE_AND_NAME",
+        "candidates": [
+          "pillars/cx/customer-data-management/enterprise-profile/run-maintain-geography-name-referencing/SKILL.md"
+        ],
+        "context_relation": "canonical-task-reuse",
+        "project_context": {
+          "offering": "Financials",
+          "functional_area": "Enterprise Profile"
+        },
+        "skill_context": {
+          "offering": "Customer Data Management",
+          "functional_area": "Enterprise Profile"
+        },
+        "context_note": "The unique task-code-and-name skill is canonical and reusable across Oracle offering and functional-area contexts."
+      },
+      "match_status": "matched",
+      "business_objects": []
+    },
+    {
+      "sequence": 15,
+      "task_name": "Run Geocode Generation",
+      "offering": "Financials",
+      "functional_area": "Enterprise Profile",
+      "task_code": "ORA_HZ_RUN_GEOCODE_LOADER",
+      "skill_path": "pillars/cx/customer-data-management/enterprise-profile/run-geocode-generation/SKILL.md",
+      "skill_selection": {
+        "status": "selected",
+        "selected_by": "EXACT_TASK_CODE_AND_NAME",
+        "candidates": [
+          "pillars/cx/customer-data-management/enterprise-profile/run-geocode-generation/SKILL.md"
+        ],
+        "context_relation": "canonical-task-reuse",
+        "project_context": {
+          "offering": "Financials",
+          "functional_area": "Enterprise Profile"
+        },
+        "skill_context": {
+          "offering": "Customer Data Management",
+          "functional_area": "Enterprise Profile"
+        },
+        "context_note": "The unique task-code-and-name skill is canonical and reusable across Oracle offering and functional-area contexts."
+      },
+      "match_status": "matched",
+      "business_objects": []
+    },
+    {
+      "sequence": 16,
+      "task_name": "Manage Geography Lookups",
+      "offering": "Financials",
+      "functional_area": "Enterprise Profile",
+      "task_code": "HZ_MANAGE_GEOGRAPHY_LOOKUPS",
+      "skill_path": null,
+      "skill_selection": {
+        "status": "missing",
+        "selected_by": "FLAT_TASK_GUIDANCE_MISSING",
+        "candidates": [],
+        "context_relation": "missing",
+        "project_context": {
+          "offering": "Financials",
+          "functional_area": "Enterprise Profile"
+        },
+        "skill_context": null
+      },
+      "execution_mode": "manual",
+      "execution_route": "manual-tasks",
+      "execution_skill_path": "shared/common/manual-tasks/SKILL.md",
+      "match_status": "matched",
+      "match_reason": "No task skill or flat task guidance exists in FSCR; route this catalog task to the shared Manual Tasks skill.",
+      "business_objects": [],
+      "task_description": "Review and define lookup values that provide choices related to geographies, such as address validation methods."
+    },
+    {
+      "sequence": 17,
+      "task_name": "Manage Enterprise HCM Information",
+      "offering": "Financials",
+      "functional_area": "Enterprise Profile",
+      "task_code": "PER_MANAGE_ENTERPRISE_HCM_INFORMATION",
+      "skill_path": "pillars/hcm/global-human-resources/enterprise/manage-enterprise-hcm-information/SKILL.md",
+      "skill_selection": {
+        "status": "selected",
+        "selected_by": "EXACT_TASK_CODE_AND_NAME",
+        "candidates": [
+          "pillars/hcm/global-human-resources/enterprise/manage-enterprise-hcm-information/SKILL.md"
+        ],
+        "context_relation": "canonical-task-reuse",
+        "project_context": {
+          "offering": "Financials",
+          "functional_area": "Enterprise Profile"
+        },
+        "skill_context": {
+          "offering": "Global Human Resources",
+          "functional_area": "Enterprise"
+        },
+        "context_note": "The unique task-code-and-name skill is canonical and reusable across Oracle offering and functional-area contexts."
+      },
+      "match_status": "matched",
+      "business_objects": [
+        "Organization"
+      ]
+    },
+    {
+      "sequence": 18,
+      "task_name": "Manage Locations",
+      "offering": "Financials",
+      "functional_area": "Enterprise Profile",
+      "task_code": "PER_MANAGE_LOCATIONS",
+      "skill_path": "pillars/hcm/global-human-resources/locations/manage-locations/SKILL.md",
+      "skill_selection": {
+        "status": "selected",
+        "selected_by": "EXACT_TASK_CODE_AND_NAME",
+        "candidates": [
+          "pillars/hcm/global-human-resources/locations/manage-locations/SKILL.md"
+        ],
+        "context_relation": "canonical-task-reuse",
+        "project_context": {
+          "offering": "Financials",
+          "functional_area": "Enterprise Profile"
+        },
+        "skill_context": {
+          "offering": "Global Human Resources",
+          "functional_area": "Locations"
+        },
+        "context_note": "The unique task-code-and-name skill is canonical and reusable across Oracle offering and functional-area contexts."
+      },
+      "match_status": "matched",
+      "business_objects": [
+        "Location"
+      ]
+    },
+    {
+      "sequence": 19,
+      "task_name": "Manage Calendar Profile Option",
+      "offering": "Financials",
+      "functional_area": "Enterprise Profile",
+      "task_code": "ZCA_MANAGE_CALENDAR_PROFILE_OPTION",
+      "skill_path": "pillars/cx/customer-data-management/trading-community-foundation/manage-calendar-profile-option/SKILL.md",
+      "skill_selection": {
+        "status": "selected",
+        "selected_by": "EXACT_TASK_CODE_AND_NAME",
+        "candidates": [
+          "pillars/cx/customer-data-management/trading-community-foundation/manage-calendar-profile-option/SKILL.md"
+        ],
+        "context_relation": "canonical-task-reuse",
+        "project_context": {
+          "offering": "Financials",
+          "functional_area": "Enterprise Profile"
+        },
+        "skill_context": {
+          "offering": "Customer Data Management",
+          "functional_area": "Trading Community Foundation"
+        },
+        "context_note": "The unique task-code-and-name skill is canonical and reusable across Oracle offering and functional-area contexts."
+      },
+      "match_status": "matched",
+      "business_objects": []
+    },
+    {
+      "sequence": 20,
+      "task_name": "Manage Data Warehouse Profile Option",
+      "offering": "Financials",
+      "functional_area": "Enterprise Profile",
+      "task_code": "ZCA_MANAGE_WAREHOUSE_ENABLE_PROFILE",
+      "skill_path": "pillars/cx/customer-data-management/trading-community-foundation/manage-data-warehouse-profile-option/SKILL.md",
+      "skill_selection": {
+        "status": "selected",
+        "selected_by": "EXACT_TASK_CODE_AND_NAME",
+        "candidates": [
+          "pillars/cx/customer-data-management/trading-community-foundation/manage-data-warehouse-profile-option/SKILL.md"
+        ],
+        "context_relation": "canonical-task-reuse",
+        "project_context": {
+          "offering": "Financials",
+          "functional_area": "Enterprise Profile"
+        },
+        "skill_context": {
+          "offering": "Customer Data Management",
+          "functional_area": "Trading Community Foundation"
+        },
+        "context_note": "The unique task-code-and-name skill is canonical and reusable across Oracle offering and functional-area contexts."
+      },
+      "match_status": "matched",
+      "business_objects": []
+    },
+    {
+      "sequence": 21,
+      "task_name": "Manage Public Unique Identifier Profile Options",
+      "offering": "Financials",
+      "functional_area": "Enterprise Profile",
+      "task_code": "ZCA_MANAGE_PUBLIC_UNIQUE_IDENTIFIER_PROFILE_OPTIONS",
+      "skill_path": "pillars/cx/customer-data-management/trading-community-foundation/manage-public-unique-identifier-profile-options/SKILL.md",
+      "skill_selection": {
+        "status": "selected",
+        "selected_by": "EXACT_TASK_CODE_AND_NAME",
+        "candidates": [
+          "pillars/cx/customer-data-management/trading-community-foundation/manage-public-unique-identifier-profile-options/SKILL.md"
+        ],
+        "context_relation": "canonical-task-reuse",
+        "project_context": {
+          "offering": "Financials",
+          "functional_area": "Enterprise Profile"
+        },
+        "skill_context": {
+          "offering": "Customer Data Management",
+          "functional_area": "Trading Community Foundation"
+        },
+        "context_note": "The unique task-code-and-name skill is canonical and reusable across Oracle offering and functional-area contexts."
+      },
+      "match_status": "matched",
+      "business_objects": []
+    },
+    {
+      "sequence": 22,
+      "task_name": "Manage Legal Jurisdictions",
+      "offering": "Financials",
+      "functional_area": "Legal Structures",
+      "task_code": "XLE_MANAGE_LEGAL_JURISDICTIONS",
+      "skill_path": "pillars/erp/financials/legal-structures/manage-legal-jurisdictions/SKILL.md",
+      "skill_selection": {
+        "status": "selected",
+        "selected_by": "EXACT_TASK_CODE_AND_NAME",
+        "candidates": [
+          "pillars/erp/financials/legal-structures/manage-legal-jurisdictions/SKILL.md"
+        ],
+        "context_relation": "same-context",
+        "project_context": {
+          "offering": "Financials",
+          "functional_area": "Legal Structures"
+        },
+        "skill_context": {
+          "offering": "Financials",
+          "functional_area": "Legal Structures"
+        }
+      },
+      "match_status": "matched",
+      "business_objects": []
+    },
+    {
+      "sequence": 23,
+      "task_name": "Manage Legal Authorities",
+      "offering": "Financials",
+      "functional_area": "Legal Structures",
+      "task_code": "XLE_MANAGE_LEGAL_AUTHORITIES",
+      "skill_path": null,
+      "skill_selection": {
+        "status": "missing",
+        "selected_by": "FLAT_TASK_GUIDANCE_MISSING",
+        "candidates": [],
+        "context_relation": "missing",
+        "project_context": {
+          "offering": "Financials",
+          "functional_area": "Legal Structures"
+        },
+        "skill_context": null
+      },
+      "execution_mode": "manual",
+      "execution_route": "manual-tasks",
+      "execution_skill_path": "shared/common/manual-tasks/SKILL.md",
+      "match_status": "matched",
+      "match_reason": "No task skill or flat task guidance exists in FSCR; route this catalog task to the shared Manual Tasks skill.",
+      "business_objects": [],
+      "task_description": "Associate a governing legal body that operates within a jurisdiction to a legal entity for purposes of providing legal reports and financial statements."
+    },
+    {
+      "sequence": 24,
+      "task_name": "Manage Legal Addresses",
+      "offering": "Financials",
+      "functional_area": "Legal Structures",
+      "task_code": "XLE_MANAGE_LEGAL_ADDRESSES",
+      "skill_path": "pillars/erp/financials/legal-structures/manage-legal-addresses/SKILL.md",
+      "skill_selection": {
+        "status": "selected",
+        "selected_by": "EXACT_TASK_CODE_AND_NAME",
+        "candidates": [
+          "pillars/erp/financials/legal-structures/manage-legal-addresses/SKILL.md"
+        ],
+        "context_relation": "same-context",
+        "project_context": {
+          "offering": "Financials",
+          "functional_area": "Legal Structures"
+        },
+        "skill_context": {
+          "offering": "Financials",
+          "functional_area": "Legal Structures"
+        }
+      },
+      "match_status": "matched",
+      "business_objects": []
+    },
+    {
+      "sequence": 25,
+      "task_name": "Manage Legal Entity Configurator Lookups",
+      "offering": "Financials",
+      "functional_area": "Legal Structures",
+      "task_code": "XLE_MANAGE_APPLICATION_LOOKUP",
+      "skill_path": null,
+      "skill_selection": {
+        "status": "missing",
+        "selected_by": "FLAT_TASK_GUIDANCE_MISSING",
+        "candidates": [],
+        "context_relation": "missing",
+        "project_context": {
+          "offering": "Financials",
+          "functional_area": "Legal Structures"
+        },
+        "skill_context": null
+      },
+      "execution_mode": "manual",
+      "execution_route": "manual-tasks",
+      "execution_skill_path": "shared/common/manual-tasks/SKILL.md",
+      "match_status": "matched",
+      "match_reason": "No task skill or flat task guidance exists in FSCR; route this catalog task to the shared Manual Tasks skill.",
+      "business_objects": [],
+      "task_description": "Review and maintain lookup values for legal entities, such as registration codes and legal functions."
+    },
+    {
+      "sequence": 26,
+      "task_name": "Manage Legal Entity Configurator Descriptive Flexfield",
+      "offering": "Financials",
+      "functional_area": "Legal Structures",
+      "task_code": "XLE_MANAGE_APPLICATION_DESCRIPTIVE_FLEXFIELD",
+      "skill_path": null,
+      "skill_selection": {
+        "status": "missing",
+        "selected_by": "FLAT_TASK_GUIDANCE_MISSING",
+        "candidates": [],
+        "context_relation": "missing",
+        "project_context": {
+          "offering": "Financials",
+          "functional_area": "Legal Structures"
+        },
+        "skill_context": null
+      },
+      "execution_mode": "manual",
+      "execution_route": "manual-tasks",
+      "execution_skill_path": "shared/common/manual-tasks/SKILL.md",
+      "match_status": "matched",
+      "match_reason": "No task skill or flat task guidance exists in FSCR; route this catalog task to the shared Manual Tasks skill.",
+      "business_objects": [],
+      "task_description": "Define validation and display properties of descriptive flexfields for ledgers. Descriptive flexfields are used to add user-defined attributes to entities."
+    },
+    {
+      "sequence": 27,
+      "task_name": "Manage Legal Entity Configurator Profile Options",
+      "offering": "Financials",
+      "functional_area": "Legal Structures",
+      "task_code": "XLE_MANAGE_LEGAL_ENITTY_PROFILE_OPTIONS",
+      "skill_path": null,
+      "skill_selection": {
+        "status": "missing",
+        "selected_by": "FLAT_TASK_GUIDANCE_MISSING",
+        "candidates": [],
+        "context_relation": "missing",
+        "project_context": {
+          "offering": "Financials",
+          "functional_area": "Legal Structures"
+        },
+        "skill_context": null
+      },
+      "execution_mode": "manual",
+      "execution_route": "manual-tasks",
+      "execution_skill_path": "shared/common/manual-tasks/SKILL.md",
+      "match_status": "matched",
+      "match_reason": "No task skill or flat task guidance exists in FSCR; route this catalog task to the shared Manual Tasks skill.",
+      "business_objects": [],
+      "task_description": "Define profile option settings and values to control the time zone based on the legal entity location."
+    },
+    {
+      "sequence": 28,
+      "task_name": "Manage Legal Entity",
+      "offering": "Financials",
+      "functional_area": "Legal Structures",
+      "task_code": "XLE_MANAGE_LEGAL_ENTITY",
+      "skill_path": "pillars/erp/financials/legal-structures/manage-legal-entity/SKILL.md",
+      "skill_selection": {
+        "status": "selected",
+        "selected_by": "EXACT_TASK_CODE_AND_NAME",
+        "candidates": [
+          "pillars/erp/financials/legal-structures/manage-legal-entity/SKILL.md"
+        ],
+        "context_relation": "same-context",
+        "project_context": {
+          "offering": "Financials",
+          "functional_area": "Legal Structures"
+        },
+        "skill_context": {
+          "offering": "Financials",
+          "functional_area": "Legal Structures"
+        }
+      },
+      "match_status": "matched",
+      "business_objects": []
+    },
+    {
+      "sequence": 29,
+      "task_name": "Manage Legal Entity Registrations",
+      "offering": "Financials",
+      "functional_area": "Legal Structures",
+      "task_code": "XLE_MANAGE_LEGAL_ENTITY_REGISTRATIONS",
+      "skill_path": "pillars/erp/financials/legal-structures/manage-legal-entity-registrations/skill.md",
+      "skill_selection": {
+        "status": "selected",
+        "selected_by": "FLAT_TASK_GUIDANCE_FILE",
+        "candidates": [
+          "pillars/erp/financials/legal-structures/manage-legal-entity-registrations/skill.md"
+        ],
+        "context_relation": "unscoped-guidance",
+        "project_context": {
+          "offering": "Financials",
+          "functional_area": "Legal Structures"
+        },
+        "skill_context": null
+      },
+      "match_status": "matched",
+      "business_objects": []
+    },
+    {
+      "sequence": 30,
+      "task_name": "Manage Intercompany Exceptions",
+      "offering": "Financials",
+      "functional_area": "Legal Structures",
+      "task_code": "XLE_MANAGE_INTERCOMPANY_EXCEPTIONS",
+      "skill_path": null,
+      "skill_selection": {
+        "status": "missing",
+        "selected_by": "FLAT_TASK_GUIDANCE_MISSING",
+        "candidates": [],
+        "context_relation": "missing",
+        "project_context": {
+          "offering": "Financials",
+          "functional_area": "Legal Structures"
+        },
+        "skill_context": null
+      },
+      "execution_mode": "manual",
+      "execution_route": "manual-tasks",
+      "execution_skill_path": "shared/common/manual-tasks/SKILL.md",
+      "match_status": "matched",
+      "match_reason": "No task skill or flat task guidance exists in FSCR; route this catalog task to the shared Manual Tasks skill.",
+      "business_objects": [],
+      "task_description": "Define legal entities that cannot have an intercompany relationship with the legal entity being created or updated."
+    },
+    {
+      "sequence": 31,
+      "task_name": "Manage Legal Entity Financial Information",
+      "offering": "Financials",
+      "functional_area": "Legal Structures",
+      "task_code": "XLE_MANAGE_LEGAL_ENTITY_FINANCIAL_INFORMATION",
+      "skill_path": null,
+      "skill_selection": {
+        "status": "missing",
+        "selected_by": "FLAT_TASK_GUIDANCE_MISSING",
+        "candidates": [],
+        "context_relation": "missing",
+        "project_context": {
+          "offering": "Financials",
+          "functional_area": "Legal Structures"
+        },
+        "skill_context": null
+      },
+      "execution_mode": "manual",
+      "execution_route": "manual-tasks",
+      "execution_skill_path": "shared/common/manual-tasks/SKILL.md",
+      "match_status": "matched",
+      "match_reason": "No task skill or flat task guidance exists in FSCR; route this catalog task to the shared Manual Tasks skill.",
+      "business_objects": [],
+      "task_description": "Create country-specific financial data for legal entities for reporting purposes."
+    },
+    {
+      "sequence": 32,
+      "task_name": "Manage Legal Entity HCM Information",
+      "offering": "Financials",
+      "functional_area": "Legal Structures",
+      "task_code": "PER_MANAGE_LEGAL_ENTITY_HCM_INFORMATION",
+      "skill_path": "pillars/hcm/global-human-resources/legal-and-legislative-organizations/manage-legal-entity-hcm-information/SKILL.md",
+      "skill_selection": {
+        "status": "selected",
+        "selected_by": "EXACT_TASK_CODE_AND_NAME",
+        "candidates": [
+          "pillars/hcm/global-human-resources/legal-and-legislative-organizations/manage-legal-entity-hcm-information/SKILL.md"
+        ],
+        "context_relation": "canonical-task-reuse",
+        "project_context": {
+          "offering": "Financials",
+          "functional_area": "Legal Structures"
+        },
+        "skill_context": {
+          "offering": "Global Human Resources",
+          "functional_area": "Legal and Legislative Organizations"
+        },
+        "context_note": "The unique task-code-and-name skill is canonical and reusable across Oracle offering and functional-area contexts."
+      },
+      "match_status": "matched",
+      "business_objects": [
+        "ManageLegalEntity",
+        "legalEmployersEFF",
+        "payrollStatutoryUnitsEFF",
+        "DeleteOrganizationUnitForDTDelete"
+      ]
+    },
+    {
+      "sequence": 33,
+      "task_name": "Manage Legal Entity Tax Profiles",
+      "offering": "Financials",
+      "functional_area": "Legal Structures",
+      "task_code": "ZX_MANAGE_LEGAL_ENTITY_TAX_PROFILES",
+      "skill_path": null,
+      "skill_selection": {
+        "status": "missing",
+        "selected_by": "FLAT_TASK_GUIDANCE_MISSING",
+        "candidates": [],
+        "context_relation": "missing",
+        "project_context": {
+          "offering": "Financials",
+          "functional_area": "Legal Structures"
+        },
+        "skill_context": null
+      },
+      "execution_mode": "manual",
+      "execution_route": "manual-tasks",
+      "execution_skill_path": "shared/common/manual-tasks/SKILL.md",
+      "match_status": "matched",
+      "match_reason": "No task skill or flat task guidance exists in FSCR; route this catalog task to the shared Manual Tasks skill.",
+      "business_objects": [],
+      "task_description": "Create and maintain tax profiles that contain tax information that relate to a legal entity's transaction tax activities."
+    },
+    {
+      "sequence": 34,
+      "task_name": "Manage Legal Reporting Unit",
+      "offering": "Financials",
+      "functional_area": "Legal Structures",
+      "task_code": "XLE_MANAGE_LEGAL_REPORTING_UNIT",
+      "skill_path": "pillars/erp/financials/legal-structures/manage-legal-reporting-unit/SKILL.md",
+      "skill_selection": {
+        "status": "selected",
+        "selected_by": "EXACT_TASK_CODE_AND_NAME",
+        "candidates": [
+          "pillars/erp/financials/legal-structures/manage-legal-reporting-unit/SKILL.md"
+        ],
+        "context_relation": "same-context",
+        "project_context": {
+          "offering": "Financials",
+          "functional_area": "Legal Structures"
+        },
+        "skill_context": {
+          "offering": "Financials",
+          "functional_area": "Legal Structures"
+        }
+      },
+      "match_status": "matched",
+      "business_objects": []
+    },
+    {
+      "sequence": 35,
+      "task_name": "Manage Legal Reporting Unit Registrations",
+      "offering": "Financials",
+      "functional_area": "Legal Structures",
+      "task_code": "XLE_MANAGE_LEGAL_REPORTING_UNIT_REGISTRATIONS",
+      "skill_path": "pillars/erp/financials/legal-structures/manage-legal-reporting-unit-registrations/skill.md",
+      "skill_selection": {
+        "status": "selected",
+        "selected_by": "FLAT_TASK_GUIDANCE_FILE",
+        "candidates": [
+          "pillars/erp/financials/legal-structures/manage-legal-reporting-unit-registrations/skill.md"
+        ],
+        "context_relation": "unscoped-guidance",
+        "project_context": {
+          "offering": "Financials",
+          "functional_area": "Legal Structures"
+        },
+        "skill_context": null
+      },
+      "match_status": "matched",
+      "business_objects": []
+    },
+    {
+      "sequence": 36,
+      "task_name": "Manage Associated Business Entities",
+      "offering": "Financials",
+      "functional_area": "Legal Structures",
+      "task_code": "XLE_MANAGE_ASSOCIATED_BUSINESS_ENTITIES",
+      "skill_path": null,
+      "skill_selection": {
+        "status": "missing",
+        "selected_by": "FLAT_TASK_GUIDANCE_MISSING",
+        "candidates": [],
+        "context_relation": "missing",
+        "project_context": {
+          "offering": "Financials",
+          "functional_area": "Legal Structures"
+        },
+        "skill_context": null
+      },
+      "execution_mode": "manual",
+      "execution_route": "manual-tasks",
+      "execution_skill_path": "shared/common/manual-tasks/SKILL.md",
+      "match_status": "matched",
+      "match_reason": "No task skill or flat task guidance exists in FSCR; route this catalog task to the shared Manual Tasks skill.",
+      "business_objects": [],
+      "task_description": "Define associations between business entities and legal entities or legal reporting units for tax calculation purposes."
+    },
+    {
+      "sequence": 37,
+      "task_name": "Manage Legal Reporting Unit Tax Profiles",
+      "offering": "Financials",
+      "functional_area": "Legal Structures",
+      "task_code": "ZX_MANAGE_LEGAL_REPORTING_UNIT_TAX_PROFILES",
+      "skill_path": null,
+      "skill_selection": {
+        "status": "missing",
+        "selected_by": "FLAT_TASK_GUIDANCE_MISSING",
+        "candidates": [],
+        "context_relation": "missing",
+        "project_context": {
+          "offering": "Financials",
+          "functional_area": "Legal Structures"
+        },
+        "skill_context": null
+      },
+      "execution_mode": "manual",
+      "execution_route": "manual-tasks",
+      "execution_skill_path": "shared/common/manual-tasks/SKILL.md",
+      "match_status": "matched",
+      "match_reason": "No task skill or flat task guidance exists in FSCR; route this catalog task to the shared Manual Tasks skill.",
+      "business_objects": [],
+      "task_description": "Create and maintain tax profiles that contain tax information that relate to a legal reporting unit's transaction tax activities."
+    },
+    {
+      "sequence": 38,
+      "task_name": "Manage Legal Reporting Unit Financial Information",
+      "offering": "Financials",
+      "functional_area": "Legal Structures",
+      "task_code": "XLE_MANAGE_LEGAL_REPORTING_UNIT_FINANCIAL_INFORMATION",
+      "skill_path": null,
+      "skill_selection": {
+        "status": "missing",
+        "selected_by": "FLAT_TASK_GUIDANCE_MISSING",
+        "candidates": [],
+        "context_relation": "missing",
+        "project_context": {
+          "offering": "Financials",
+          "functional_area": "Legal Structures"
+        },
+        "skill_context": null
+      },
+      "execution_mode": "manual",
+      "execution_route": "manual-tasks",
+      "execution_skill_path": "shared/common/manual-tasks/SKILL.md",
+      "match_status": "matched",
+      "match_reason": "No task skill or flat task guidance exists in FSCR; route this catalog task to the shared Manual Tasks skill.",
+      "business_objects": [],
+      "task_description": "Create country-specific financial data for legal reporting units for reporting purposes."
+    },
+    {
+      "sequence": 39,
+      "task_name": "Manage Associated Balancing Segments",
+      "offering": "Financials",
+      "functional_area": "Legal Structures",
+      "task_code": "XLE_MANAGE_ASSOCIATED_BALANCING_SEGMENTS",
+      "skill_path": null,
+      "skill_selection": {
+        "status": "missing",
+        "selected_by": "FLAT_TASK_GUIDANCE_MISSING",
+        "candidates": [],
+        "context_relation": "missing",
+        "project_context": {
+          "offering": "Financials",
+          "functional_area": "Legal Structures"
+        },
+        "skill_context": null
+      },
+      "execution_mode": "manual",
+      "execution_route": "manual-tasks",
+      "execution_skill_path": "shared/common/manual-tasks/SKILL.md",
+      "match_status": "matched",
+      "match_reason": "No task skill or flat task guidance exists in FSCR; route this catalog task to the shared Manual Tasks skill.",
+      "business_objects": [],
+      "task_description": "Associate one or multiple balancing segment values to a legal reporting unit to meet the legal reporting requirements of specific countries."
+    },
+    {
+      "sequence": 40,
+      "task_name": "Manage Legislative Data Groups",
+      "offering": "Grants Management",
+      "functional_area": "Legal Structures",
+      "task_code": "PER_MANAGE_LEGISLATIVE_DATA_GROUPS",
+      "skill_path": "pillars/hcm/global-human-resources/legal-and-legislative-organizations/manage-legislative-data-groups/SKILL.md",
+      "skill_selection": {
+        "status": "selected",
+        "selected_by": "EXACT_TASK_CODE_AND_NAME",
+        "candidates": [
+          "pillars/hcm/global-human-resources/legal-and-legislative-organizations/manage-legislative-data-groups/SKILL.md"
+        ],
+        "context_relation": "canonical-task-reuse",
+        "project_context": {
+          "offering": "Grants Management",
+          "functional_area": "Legal Structures"
+        },
+        "skill_context": {
+          "offering": "Global Human Resources",
+          "functional_area": "Legal and Legislative Organizations"
+        },
+        "context_note": "The unique task-code-and-name skill is canonical and reusable across Oracle offering and functional-area contexts."
+      },
+      "match_status": "matched",
+      "business_objects": [
+        "LegislativeDataGroup"
+      ]
+    },
+    {
+      "sequence": 41,
+      "task_name": "Manage Chart of Accounts Value Sets",
+      "offering": "Financials",
+      "functional_area": "Financial Reporting Structures",
+      "task_code": "GL_MANAGE_CHART_OF_ACCOUNTS_VALUE_SETS",
+      "skill_path": "pillars/erp/financials/financial-reporting-structures/manage-chart-of-accounts-value-sets/SKILL.md",
+      "skill_selection": {
+        "status": "selected",
+        "selected_by": "EXACT_TASK_CODE_AND_NAME",
+        "candidates": [
+          "pillars/erp/financials/financial-reporting-structures/manage-chart-of-accounts-value-sets/SKILL.md"
+        ],
+        "context_relation": "same-context",
+        "project_context": {
+          "offering": "Financials",
+          "functional_area": "Financial Reporting Structures"
+        },
+        "skill_context": {
+          "offering": "Financials",
+          "functional_area": "Financial Reporting Structures"
+        }
+      },
+      "match_status": "matched",
+      "business_objects": []
+    },
+    {
+      "sequence": 42,
+      "task_name": "Manage Chart of Accounts Structures",
+      "offering": "Financials",
+      "functional_area": "Financial Reporting Structures",
+      "task_code": "GL_MANAGE_CHARTS_OF_ACCOUNTS",
+      "skill_path": "pillars/erp/financials/financial-reporting-structures/manage-chart-of-accounts-structures/SKILL.md",
+      "skill_selection": {
+        "status": "selected",
+        "selected_by": "EXACT_TASK_CODE_AND_NAME",
+        "candidates": [
+          "pillars/erp/financials/financial-reporting-structures/manage-chart-of-accounts-structures/SKILL.md"
+        ],
+        "context_relation": "same-context",
+        "project_context": {
+          "offering": "Financials",
+          "functional_area": "Financial Reporting Structures"
+        },
+        "skill_context": {
+          "offering": "Financials",
+          "functional_area": "Financial Reporting Structures"
+        }
+      },
+      "match_status": "matched",
+      "business_objects": []
+    },
+    {
+      "sequence": 43,
+      "task_name": "Manage Chart of Accounts Structure Instances",
+      "offering": "Financials",
+      "functional_area": "Financial Reporting Structures",
+      "task_code": "GL_MANAGE_CHARTS_OF_ACCOUNTS_STRUCTURE_INSTANCES",
+      "skill_path": "pillars/erp/financials/financial-reporting-structures/manage-chart-of-accounts-structure-instances/SKILL.md",
+      "skill_selection": {
+        "status": "selected",
+        "selected_by": "EXACT_TASK_CODE_AND_NAME",
+        "candidates": [
+          "pillars/erp/financials/financial-reporting-structures/manage-chart-of-accounts-structure-instances/SKILL.md"
+        ],
+        "context_relation": "same-context",
+        "project_context": {
+          "offering": "Financials",
+          "functional_area": "Financial Reporting Structures"
+        },
+        "skill_context": {
+          "offering": "Financials",
+          "functional_area": "Financial Reporting Structures"
+        }
+      },
+      "match_status": "matched",
+      "business_objects": []
+    },
+    {
+      "sequence": 44,
+      "task_name": "Manage Chart of Accounts Configurations",
+      "offering": "Financials",
+      "functional_area": "Financial Reporting Structures",
+      "task_code": "ORA_MANAGE_COA_CONFIG",
+      "skill_path": null,
+      "skill_selection": {
+        "status": "missing",
+        "selected_by": "FLAT_TASK_GUIDANCE_MISSING",
+        "candidates": [],
+        "context_relation": "missing",
+        "project_context": {
+          "offering": "Financials",
+          "functional_area": "Financial Reporting Structures"
+        },
+        "skill_context": null
+      },
+      "execution_mode": "manual",
+      "execution_route": "manual-tasks",
+      "execution_skill_path": "shared/common/manual-tasks/SKILL.md",
+      "match_status": "matched",
+      "match_reason": "No task skill or flat task guidance exists in FSCR; route this catalog task to the shared Manual Tasks skill.",
+      "business_objects": [],
+      "task_description": "Maintain a chart of accounts and related components such as account values and hierarchies."
+    },
+    {
+      "sequence": 45,
+      "task_name": "Manage Chart of Accounts Value Set Values",
+      "offering": "Financials",
+      "functional_area": "Financial Reporting Structures",
+      "task_code": "GL_MANAGE_CHART_OF_ACCOUNTS_VALUE_SET_VALUES",
+      "skill_path": "pillars/erp/financials/financial-reporting-structures/manage-chart-of-accounts-value-set-values/SKILL.md",
+      "skill_selection": {
+        "status": "selected",
+        "selected_by": "EXACT_TASK_CODE_AND_NAME",
+        "candidates": [
+          "pillars/erp/financials/financial-reporting-structures/manage-chart-of-accounts-value-set-values/SKILL.md"
+        ],
+        "context_relation": "same-context",
+        "project_context": {
+          "offering": "Financials",
+          "functional_area": "Financial Reporting Structures"
+        },
+        "skill_context": {
+          "offering": "Financials",
+          "functional_area": "Financial Reporting Structures"
+        }
+      },
+      "match_status": "matched",
+      "business_objects": []
+    },
+    {
+      "sequence": 46,
+      "task_name": "Manage Account Hierarchy Labels",
+      "offering": "Financials",
+      "functional_area": "Financial Reporting Structures",
+      "task_code": "ORA_GL_MANAGE_ACCOUNT_HIERARCHY_LABELS",
+      "skill_path": null,
+      "skill_selection": {
+        "status": "missing",
+        "selected_by": "FLAT_TASK_GUIDANCE_MISSING",
+        "candidates": [],
+        "context_relation": "missing",
+        "project_context": {
+          "offering": "Financials",
+          "functional_area": "Financial Reporting Structures"
+        },
+        "skill_context": null
+      },
+      "execution_mode": "manual",
+      "execution_route": "manual-tasks",
+      "execution_skill_path": "shared/common/manual-tasks/SKILL.md",
+      "match_status": "matched",
+      "match_reason": "No task skill or flat task guidance exists in FSCR; route this catalog task to the shared Manual Tasks skill.",
+      "business_objects": [],
+      "task_description": "Review existing labels or create labels to assign them to parent nodes of an account hierarchy"
+    },
+    {
+      "sequence": 47,
+      "task_name": "Manage Account Hierarchies",
+      "offering": "Financials",
+      "functional_area": "Financial Reporting Structures",
+      "task_code": "GL_MANAGE_ACCOUNT_HIERARCHIES",
+      "skill_path": null,
+      "skill_selection": {
+        "status": "missing",
+        "selected_by": "FLAT_TASK_GUIDANCE_MISSING",
+        "candidates": [],
+        "context_relation": "missing",
+        "project_context": {
+          "offering": "Financials",
+          "functional_area": "Financial Reporting Structures"
+        },
+        "skill_context": null
+      },
+      "execution_mode": "manual",
+      "execution_route": "manual-tasks",
+      "execution_skill_path": "shared/common/manual-tasks/SKILL.md",
+      "match_status": "matched",
+      "match_reason": "No task skill or flat task guidance exists in FSCR; route this catalog task to the shared Manual Tasks skill.",
+      "business_objects": [],
+      "task_description": "Review and update existing ordered groupings of accounts, and create new groupings."
+    },
+    {
+      "sequence": 48,
+      "task_name": "Publish Account Hierarchies",
+      "offering": "Financials",
+      "functional_area": "Financial Reporting Structures",
+      "task_code": "GL_SELECT_AGGREGATION_OPTIONS_FOR_ACCOUNT_HIERARCHIES",
+      "skill_path": null,
+      "skill_selection": {
+        "status": "missing",
+        "selected_by": "FLAT_TASK_GUIDANCE_MISSING",
+        "candidates": [],
+        "context_relation": "missing",
+        "project_context": {
+          "offering": "Financials",
+          "functional_area": "Financial Reporting Structures"
+        },
+        "skill_context": null
+      },
+      "execution_mode": "manual",
+      "execution_route": "manual-tasks",
+      "execution_skill_path": "shared/common/manual-tasks/SKILL.md",
+      "match_status": "matched",
+      "match_reason": "No task skill or flat task guidance exists in FSCR; route this catalog task to the shared Manual Tasks skill.",
+      "business_objects": [],
+      "task_description": "Generate the ordered groupings of accounts."
+    },
+    {
+      "sequence": 49,
+      "task_name": "Manage Account Combinations",
+      "offering": "Financials",
+      "functional_area": "Financial Reporting Structures",
+      "task_code": "GL_MANAGE_ACCOUNT_COMBINATIONS",
+      "skill_path": "pillars/erp/financials/financial-reporting-structures/manage-account-combinations/SKILL.md",
+      "skill_selection": {
+        "status": "selected",
+        "selected_by": "EXACT_TASK_CODE_AND_NAME",
+        "candidates": [
+          "pillars/erp/financials/financial-reporting-structures/manage-account-combinations/SKILL.md"
+        ],
+        "context_relation": "same-context",
+        "project_context": {
+          "offering": "Financials",
+          "functional_area": "Financial Reporting Structures"
+        },
+        "skill_context": {
+          "offering": "Financials",
+          "functional_area": "Financial Reporting Structures"
+        }
+      },
+      "match_status": "matched",
+      "business_objects": []
+    },
+    {
+      "sequence": 50,
+      "task_name": "Manage Shorthand Aliases",
+      "offering": "Financials",
+      "functional_area": "Financial Reporting Structures",
+      "task_code": "ORA_GL_MANAGE_SHORTHAND_ALIASES",
+      "skill_path": null,
+      "skill_selection": {
+        "status": "missing",
+        "selected_by": "FLAT_TASK_GUIDANCE_MISSING",
+        "candidates": [],
+        "context_relation": "missing",
+        "project_context": {
+          "offering": "Financials",
+          "functional_area": "Financial Reporting Structures"
+        },
+        "skill_context": null
+      },
+      "execution_mode": "manual",
+      "execution_route": "manual-tasks",
+      "execution_skill_path": "shared/common/manual-tasks/SKILL.md",
+      "match_status": "matched",
+      "match_reason": "No task skill or flat task guidance exists in FSCR; route this catalog task to the shared Manual Tasks skill.",
+      "business_objects": [],
+      "task_description": "Manage Shorthand Aliases."
+    },
+    {
+      "sequence": 51,
+      "task_name": "Manage Segment Value Security Rules",
+      "offering": "Financials",
+      "functional_area": "Financial Reporting Structures",
+      "task_code": "GL_MANAGE_SEGMENT_VALUE_SECURITY_RULES",
+      "skill_path": null,
+      "skill_selection": {
+        "status": "missing",
+        "selected_by": "FLAT_TASK_GUIDANCE_MISSING",
+        "candidates": [],
+        "context_relation": "missing",
+        "project_context": {
+          "offering": "Financials",
+          "functional_area": "Financial Reporting Structures"
+        },
+        "skill_context": null
+      },
+      "execution_mode": "manual",
+      "execution_route": "manual-tasks",
+      "execution_skill_path": "shared/common/manual-tasks/SKILL.md",
+      "match_status": "matched",
+      "match_reason": "No task skill or flat task guidance exists in FSCR; route this catalog task to the shared Manual Tasks skill.",
+      "business_objects": [],
+      "task_description": "Review and update security rules for chart of accounts segment values"
+    },
+    {
+      "sequence": 52,
+      "task_name": "Manage Cross-Validation Rules",
+      "offering": "Financials",
+      "functional_area": "Financial Reporting Structures",
+      "task_code": "GL_MANAGE_CROSS-VALIDATION_RULES",
+      "skill_path": null,
+      "skill_selection": {
+        "status": "missing",
+        "selected_by": "FLAT_TASK_GUIDANCE_MISSING",
+        "candidates": [],
+        "context_relation": "missing",
+        "project_context": {
+          "offering": "Financials",
+          "functional_area": "Financial Reporting Structures"
+        },
+        "skill_context": null
+      },
+      "execution_mode": "manual",
+      "execution_route": "manual-tasks",
+      "execution_skill_path": "shared/common/manual-tasks/SKILL.md",
+      "match_status": "matched",
+      "match_reason": "No task skill or flat task guidance exists in FSCR; route this catalog task to the shared Manual Tasks skill.",
+      "business_objects": [],
+      "task_description": "Review and update existing restrictions that prevent particular account combinations from being newly created, and create new restrictions."
+    },
+    {
+      "sequence": 53,
+      "task_name": "Manage Chart of Accounts Mappings",
+      "offering": "Financials",
+      "functional_area": "Financial Reporting Structures",
+      "task_code": "GL_MANAGE_CHART_OF_ACCOUNTS_MAPPING",
+      "skill_path": "pillars/erp/financials/financial-reporting-structures/manage-chart-of-accounts-mappings/SKILL.md",
+      "skill_selection": {
+        "status": "selected",
+        "selected_by": "EXACT_TASK_CODE_AND_NAME",
+        "candidates": [
+          "pillars/erp/financials/financial-reporting-structures/manage-chart-of-accounts-mappings/SKILL.md"
+        ],
+        "context_relation": "same-context",
+        "project_context": {
+          "offering": "Financials",
+          "functional_area": "Financial Reporting Structures"
+        },
+        "skill_context": {
+          "offering": "Financials",
+          "functional_area": "Financial Reporting Structures"
+        }
+      },
+      "match_status": "matched",
+      "business_objects": []
+    },
+    {
+      "sequence": 54,
+      "task_name": "Manage Chart of Accounts Synchronization with DRM",
+      "offering": "Financials",
+      "functional_area": "Financial Reporting Structures",
+      "task_code": "GL_MANAGE_CHART_OF_ACCOUNTS_SYNCHRONIZATION_WITH_DRM",
+      "skill_path": null,
+      "skill_selection": {
+        "status": "missing",
+        "selected_by": "FLAT_TASK_GUIDANCE_MISSING",
+        "candidates": [],
+        "context_relation": "missing",
+        "project_context": {
+          "offering": "Financials",
+          "functional_area": "Financial Reporting Structures"
+        },
+        "skill_context": null
+      },
+      "execution_mode": "manual",
+      "execution_route": "manual-tasks",
+      "execution_skill_path": "shared/common/manual-tasks/SKILL.md",
+      "match_status": "matched",
+      "match_reason": "No task skill or flat task guidance exists in FSCR; route this catalog task to the shared Manual Tasks skill.",
+      "business_objects": [],
+      "task_description": "Define chart of accounts values using Hyperion Data Relationship Management. Use integration programs to integrate the values from Hyperion Data Relationship Management to the Fusion General Ledger."
+    },
+    {
+      "sequence": 55,
+      "task_name": "Manage Messages for General Ledger",
+      "offering": "Financials",
+      "functional_area": "Financial Reporting Structures",
+      "task_code": "ORA_GL_MANAGE_APPLCORE_MESSAGES",
+      "skill_path": null,
+      "skill_selection": {
+        "status": "missing",
+        "selected_by": "FLAT_TASK_GUIDANCE_MISSING",
+        "candidates": [],
+        "context_relation": "missing",
+        "project_context": {
+          "offering": "Financials",
+          "functional_area": "Financial Reporting Structures"
+        },
+        "skill_context": null
+      },
+      "execution_mode": "manual",
+      "execution_route": "manual-tasks",
+      "execution_skill_path": "shared/common/manual-tasks/SKILL.md",
+      "match_status": "matched",
+      "match_reason": "No task skill or flat task guidance exists in FSCR; route this catalog task to the shared Manual Tasks skill.",
+      "business_objects": [],
+      "task_description": "Review and edit messages that are used for Oracle Fusion General Ledger."
+    },
+    {
+      "sequence": 56,
+      "task_name": "Manage Accounting Calendars",
+      "offering": "Financials",
+      "functional_area": "Financial Reporting Structures",
+      "task_code": "GL_MANAGE_ACCOUNTING_CALENDARS",
+      "skill_path": "pillars/erp/financials/financial-reporting-structures/manage-accounting-calendars/SKILL.md",
+      "skill_selection": {
+        "status": "selected",
+        "selected_by": "EXACT_TASK_CODE_AND_NAME",
+        "candidates": [
+          "pillars/erp/financials/financial-reporting-structures/manage-accounting-calendars/SKILL.md"
+        ],
+        "context_relation": "same-context",
+        "project_context": {
+          "offering": "Financials",
+          "functional_area": "Financial Reporting Structures"
+        },
+        "skill_context": {
+          "offering": "Financials",
+          "functional_area": "Financial Reporting Structures"
+        }
+      },
+      "match_status": "matched",
+      "business_objects": []
+    },
+    {
+      "sequence": 57,
+      "task_name": "Manage Transaction Calendars",
+      "offering": "Financials",
+      "functional_area": "Financial Reporting Structures",
+      "task_code": "GL_MANAGE_TRANSACTION_CALENDARS",
+      "skill_path": null,
+      "skill_selection": {
+        "status": "missing",
+        "selected_by": "FLAT_TASK_GUIDANCE_MISSING",
+        "candidates": [],
+        "context_relation": "missing",
+        "project_context": {
+          "offering": "Financials",
+          "functional_area": "Financial Reporting Structures"
+        },
+        "skill_context": null
+      },
+      "execution_mode": "manual",
+      "execution_route": "manual-tasks",
+      "execution_skill_path": "shared/common/manual-tasks/SKILL.md",
+      "match_status": "matched",
+      "match_reason": "No task skill or flat task guidance exists in FSCR; route this catalog task to the shared Manual Tasks skill.",
+      "business_objects": [],
+      "task_description": "Review and update existing groupings of accounting periods for daily balances, and create new groupings."
+    },
+    {
+      "sequence": 58,
+      "task_name": "Manage Currencies",
+      "offering": "Financials",
+      "functional_area": "Financial Reporting Structures",
+      "task_code": "FND_MANAGE_CURRENCIES",
+      "skill_path": "pillars/hcm/goal-management/goal-management-common/manage-currencies/SKILL.md",
+      "skill_selection": {
+        "status": "selected",
+        "selected_by": "EXACT_TASK_CODE_AND_NAME",
+        "candidates": [
+          "pillars/hcm/goal-management/goal-management-common/manage-currencies/SKILL.md"
+        ],
+        "context_relation": "canonical-task-reuse",
+        "project_context": {
+          "offering": "Financials",
+          "functional_area": "Financial Reporting Structures"
+        },
+        "skill_context": {
+          "offering": "Goal Management",
+          "functional_area": "Goal Management Common"
+        },
+        "context_note": "The unique task-code-and-name skill is canonical and reusable across Oracle offering and functional-area contexts."
+      },
+      "match_status": "matched",
+      "business_objects": []
+    },
+    {
+      "sequence": 59,
+      "task_name": "Manage Conversion Rate Types",
+      "offering": "Financials",
+      "functional_area": "Financial Reporting Structures",
+      "task_code": "GL_MANAGE_CONVERSION_RATE_TYPES",
+      "skill_path": null,
+      "skill_selection": {
+        "status": "missing",
+        "selected_by": "FLAT_TASK_GUIDANCE_MISSING",
+        "candidates": [],
+        "context_relation": "missing",
+        "project_context": {
+          "offering": "Financials",
+          "functional_area": "Financial Reporting Structures"
+        },
+        "skill_context": null
+      },
+      "execution_mode": "manual",
+      "execution_route": "manual-tasks",
+      "execution_skill_path": "shared/common/manual-tasks/SKILL.md",
+      "match_status": "matched",
+      "match_reason": "No task skill or flat task guidance exists in FSCR; route this catalog task to the shared Manual Tasks skill.",
+      "business_objects": [],
+      "task_description": "Review and update existing currency conversion relationships, and create new relationships."
+    },
+    {
+      "sequence": 60,
+      "task_name": "Manage Daily Rates",
+      "offering": "Financials",
+      "functional_area": "Financial Reporting Structures",
+      "task_code": "GL_MANAGE_DAILY_RATES",
+      "skill_path": null,
+      "skill_selection": {
+        "status": "missing",
+        "selected_by": "FLAT_TASK_GUIDANCE_MISSING",
+        "candidates": [],
+        "context_relation": "missing",
+        "project_context": {
+          "offering": "Financials",
+          "functional_area": "Financial Reporting Structures"
+        },
+        "skill_context": null
+      },
+      "execution_mode": "manual",
+      "execution_route": "manual-tasks",
+      "execution_skill_path": "shared/common/manual-tasks/SKILL.md",
+      "match_status": "matched",
+      "match_reason": "No task skill or flat task guidance exists in FSCR; route this catalog task to the shared Manual Tasks skill.",
+      "business_objects": [],
+      "task_description": "Review and update existing currency daily conversion information, and create new conversion information."
+    },
+    {
+      "sequence": 61,
+      "task_name": "Create Enterprise Additional Account Attributes for China",
+      "offering": "Financials",
+      "functional_area": "Financial Reporting Structures",
+      "task_code": "ORA_JA_CN_CREATE_ADDITIONAL_ACC_ATTRIBUTES_FOR_CHINA",
+      "skill_path": null,
+      "skill_selection": {
+        "status": "missing",
+        "selected_by": "FLAT_TASK_GUIDANCE_MISSING",
+        "candidates": [],
+        "context_relation": "missing",
+        "project_context": {
+          "offering": "Financials",
+          "functional_area": "Financial Reporting Structures"
+        },
+        "skill_context": null
+      },
+      "execution_mode": "manual",
+      "execution_route": "manual-tasks",
+      "execution_skill_path": "shared/common/manual-tasks/SKILL.md",
+      "match_status": "matched",
+      "match_reason": "No task skill or flat task guidance exists in FSCR; route this catalog task to the shared Manual Tasks skill.",
+      "business_objects": [],
+      "task_description": "Create additional account attributes under natural account segment."
+    },
+    {
+      "sequence": 62,
+      "task_name": "Manage Enterprise Financial Data Export Options for China",
+      "offering": "Financials",
+      "functional_area": "Financial Reporting Structures",
+      "task_code": "JA_MANAGE_ENTERPRISE_FINANCIAL_DATA_EXPORT_OPTIONS_FOR_CHINA",
+      "skill_path": null,
+      "skill_selection": {
+        "status": "missing",
+        "selected_by": "FLAT_TASK_GUIDANCE_MISSING",
+        "candidates": [],
+        "context_relation": "missing",
+        "project_context": {
+          "offering": "Financials",
+          "functional_area": "Financial Reporting Structures"
+        },
+        "skill_context": null
+      },
+      "execution_mode": "manual",
+      "execution_route": "manual-tasks",
+      "execution_skill_path": "shared/common/manual-tasks/SKILL.md",
+      "match_status": "matched",
+      "match_reason": "No task skill or flat task guidance exists in FSCR; route this catalog task to the shared Manual Tasks skill.",
+      "business_objects": [],
+      "task_description": "Define financial data export related options for enterprise."
+    },
+    {
+      "sequence": 63,
+      "task_name": "Manage Archive and Purge Policies",
+      "offering": "Financials",
+      "functional_area": "Financial Reporting Structures",
+      "task_code": "ORA_MANAGE_FINANCIALS_BUSINESS_OBJECTS_ARCHIVE",
+      "skill_path": null,
+      "skill_selection": {
+        "status": "missing",
+        "selected_by": "FLAT_TASK_GUIDANCE_MISSING",
+        "candidates": [],
+        "context_relation": "missing",
+        "project_context": {
+          "offering": "Financials",
+          "functional_area": "Financial Reporting Structures"
+        },
+        "skill_context": null
+      },
+      "execution_mode": "manual",
+      "execution_route": "manual-tasks",
+      "execution_skill_path": "shared/common/manual-tasks/SKILL.md",
+      "match_status": "matched",
+      "match_reason": "No task skill or flat task guidance exists in FSCR; route this catalog task to the shared Manual Tasks skill.",
+      "business_objects": [],
+      "task_description": "Users can archive and purge the inactive data from the transactional system and can move it to cold storage according to their retention policies."
+    },
+    {
+      "sequence": 64,
+      "task_name": "Manage Currency Profile Options",
+      "offering": "Financials",
+      "functional_area": "Financial Reporting Structures",
+      "task_code": "ZCA_MANAGE_CURRENCY_PROFILE_OPTIONS",
+      "skill_path": "pillars/cx/customer-data-management/trading-community-foundation/manage-currency-profile-options/SKILL.md",
+      "skill_selection": {
+        "status": "selected",
+        "selected_by": "EXACT_TASK_CODE_AND_NAME",
+        "candidates": [
+          "pillars/cx/customer-data-management/trading-community-foundation/manage-currency-profile-options/SKILL.md"
+        ],
+        "context_relation": "canonical-task-reuse",
+        "project_context": {
+          "offering": "Financials",
+          "functional_area": "Financial Reporting Structures"
+        },
+        "skill_context": {
+          "offering": "Customer Data Management",
+          "functional_area": "Trading Community Foundation"
+        },
+        "context_note": "The unique task-code-and-name skill is canonical and reusable across Oracle offering and functional-area contexts."
+      },
+      "match_status": "matched",
+      "business_objects": []
+    },
+    {
+      "sequence": 65,
+      "task_name": "Manage Primary Ledgers",
+      "offering": "Grants Management",
+      "functional_area": "Financial Reporting Structures",
+      "task_code": "GL_MANAGE_PRIMARY_LEDGERS",
+      "skill_path": "pillars/erp/financials/general-ledger/manage-primary-ledgers/SKILL.md",
+      "skill_selection": {
+        "status": "selected",
+        "selected_by": "EXACT_TASK_CODE_AND_NAME",
+        "candidates": [
+          "pillars/erp/financials/general-ledger/manage-primary-ledgers/SKILL.md"
+        ],
+        "context_relation": "canonical-task-reuse",
+        "project_context": {
+          "offering": "Grants Management",
+          "functional_area": "Financial Reporting Structures"
+        },
+        "skill_context": {
+          "offering": "Financials",
+          "functional_area": "General Ledger"
+        },
+        "context_note": "The unique task-code-and-name skill is canonical and reusable across Oracle offering and functional-area contexts."
+      },
+      "match_status": "matched",
+      "business_objects": []
+    },
+    {
+      "sequence": 66,
+      "task_name": "Assign Legal Entities",
+      "offering": "Grants Management",
+      "functional_area": "Financial Reporting Structures",
+      "task_code": "GL_ASSIGN_LEGAL_ENTITIES",
+      "skill_path": "pillars/erp/financials/general-ledger/assign-legal-entities/SKILL.md",
+      "skill_selection": {
+        "status": "selected",
+        "selected_by": "EXACT_TASK_CODE_AND_NAME",
+        "candidates": [
+          "pillars/erp/financials/general-ledger/assign-legal-entities/SKILL.md"
+        ],
+        "context_relation": "canonical-task-reuse",
+        "project_context": {
+          "offering": "Grants Management",
+          "functional_area": "Financial Reporting Structures"
+        },
+        "skill_context": {
+          "offering": "Financials",
+          "functional_area": "General Ledger"
+        },
+        "context_note": "The unique task-code-and-name skill is canonical and reusable across Oracle offering and functional-area contexts."
+      },
+      "match_status": "matched",
+      "business_objects": []
+    },
+    {
+      "sequence": 67,
+      "task_name": "Specify Ledger Options",
+      "offering": "Grants Management",
+      "functional_area": "Financial Reporting Structures",
+      "task_code": "GL_SPECIFY_LEDGER_OPTIONS",
+      "skill_path": "pillars/erp/financials/general-ledger/specify-ledger-options-primary-ledger/SKILL.md",
+      "skill_selection": {
+        "status": "selected",
+        "selected_by": "LEXICOGRAPHIC_PATH",
+        "candidates": [
+          "pillars/erp/financials/general-ledger/specify-ledger-options-primary-ledger/SKILL.md",
+          "pillars/erp/financials/general-ledger/specify-ledger-options-secondary-ledger/SKILL.md"
+        ],
+        "context_relation": "cross-context-fallback",
+        "project_context": {
+          "offering": "Grants Management",
+          "functional_area": "Financial Reporting Structures"
+        },
+        "skill_context": {
+          "offering": "Financials",
+          "functional_area": "General Ledger"
+        }
+      },
+      "match_status": "matched",
+      "business_objects": []
+    },
+    {
+      "sequence": 68,
+      "task_name": "Assign Balancing Segment Values to Legal Entities",
+      "offering": "Grants Management",
+      "functional_area": "Financial Reporting Structures",
+      "task_code": "GL_ASSIGN_BALANCING_SEGMENT_VALUES_TO_LEGAL_ENTITIES",
+      "skill_path": "pillars/erp/financials/general-ledger/assign-balancing-segment-values-to-legal-entities/SKILL.md",
+      "skill_selection": {
+        "status": "selected",
+        "selected_by": "EXACT_TASK_CODE_AND_NAME",
+        "candidates": [
+          "pillars/erp/financials/general-ledger/assign-balancing-segment-values-to-legal-entities/SKILL.md"
+        ],
+        "context_relation": "canonical-task-reuse",
+        "project_context": {
+          "offering": "Grants Management",
+          "functional_area": "Financial Reporting Structures"
+        },
+        "skill_context": {
+          "offering": "Financials",
+          "functional_area": "General Ledger"
+        },
+        "context_note": "The unique task-code-and-name skill is canonical and reusable across Oracle offering and functional-area contexts."
+      },
+      "match_status": "matched",
+      "business_objects": []
+    },
+    {
+      "sequence": 69,
+      "task_name": "Assign Balancing Segment Values to Ledger",
+      "offering": "Grants Management",
+      "functional_area": "Financial Reporting Structures",
+      "task_code": "GL_ASSIGN_BALANCING_SEGMENT_VALUES_TO_LEDGER",
+      "skill_path": "pillars/erp/financials/general-ledger/assign-balancing-segment-values-to-ledger/SKILL.md",
+      "skill_selection": {
+        "status": "selected",
+        "selected_by": "EXACT_TASK_CODE_AND_NAME",
+        "candidates": [
+          "pillars/erp/financials/general-ledger/assign-balancing-segment-values-to-ledger/SKILL.md"
+        ],
+        "context_relation": "canonical-task-reuse",
+        "project_context": {
+          "offering": "Grants Management",
+          "functional_area": "Financial Reporting Structures"
+        },
+        "skill_context": {
+          "offering": "Financials",
+          "functional_area": "General Ledger"
+        },
+        "context_note": "The unique task-code-and-name skill is canonical and reusable across Oracle offering and functional-area contexts."
+      },
+      "match_status": "matched",
+      "business_objects": []
+    },
+    {
+      "sequence": 70,
+      "task_name": "Review and Submit Accounting Configuration",
+      "offering": "Grants Management",
+      "functional_area": "Financial Reporting Structures",
+      "task_code": "GL_REVIEW_AND_SUBMIT_ACCOUNTING_CONFIGURATION",
+      "skill_path": "pillars/erp/financials/general-ledger/review-and-submit-accounting-configuration/SKILL.md",
+      "skill_selection": {
+        "status": "selected",
+        "selected_by": "EXACT_TASK_CODE_AND_NAME",
+        "candidates": [
+          "pillars/erp/financials/general-ledger/review-and-submit-accounting-configuration/SKILL.md"
+        ],
+        "context_relation": "canonical-task-reuse",
+        "project_context": {
+          "offering": "Grants Management",
+          "functional_area": "Financial Reporting Structures"
+        },
+        "skill_context": {
+          "offering": "Financials",
+          "functional_area": "General Ledger"
+        },
+        "context_note": "The unique task-code-and-name skill is canonical and reusable across Oracle offering and functional-area contexts."
+      },
+      "match_status": "matched",
+      "business_objects": []
+    },
+    {
+      "sequence": 71,
+      "task_name": "Manage Business Unit",
+      "offering": "Financials",
+      "functional_area": "Organization Structures",
+      "task_code": "FUN_MANAGE_BUSINESS_UNIT",
+      "skill_path": "pillars/erp/financials/organization-structures/manage-business-unit.md",
+      "skill_selection": {
+        "status": "selected",
+        "selected_by": "FLAT_TASK_GUIDANCE_FILE",
+        "candidates": [
+          "pillars/erp/financials/organization-structures/manage-business-unit.md"
+        ],
+        "context_relation": "unscoped-guidance",
+        "project_context": {
+          "offering": "Financials",
+          "functional_area": "Organization Structures"
+        },
+        "skill_context": null
+      },
+      "match_status": "matched",
+      "business_objects": []
+    },
+    {
+      "sequence": 72,
+      "task_name": "Assign Business Unit Business Function",
+      "offering": "Financials",
+      "functional_area": "Organization Structures",
+      "task_code": "FUN_ASSIGN_BUSINESS_UNIT_BUSINESS_FUNCTION",
+      "skill_path": "pillars/erp/financials/organization-structures/assign-business-unit-business-function.md",
+      "skill_selection": {
+        "status": "selected",
+        "selected_by": "FLAT_TASK_GUIDANCE_FILE",
+        "candidates": [
+          "pillars/erp/financials/organization-structures/assign-business-unit-business-function.md"
+        ],
+        "context_relation": "unscoped-guidance",
+        "project_context": {
+          "offering": "Financials",
+          "functional_area": "Organization Structures"
+        },
+        "skill_context": null
+      },
+      "match_status": "matched",
+      "business_objects": []
+    },
+    {
+      "sequence": 73,
+      "task_name": "Manage Business Unit Data Access for Users",
+      "offering": "Financials",
+      "functional_area": "Organization Structures",
+      "task_code": "ORA_FUN_MANAGE_BUSINESS_UNIT_DATA_ACCESS_FOR_USERS",
+      "skill_path": null,
+      "skill_selection": {
+        "status": "missing",
+        "selected_by": "FLAT_TASK_GUIDANCE_MISSING",
+        "candidates": [],
+        "context_relation": "missing",
+        "project_context": {
+          "offering": "Financials",
+          "functional_area": "Organization Structures"
+        },
+        "skill_context": null
+      },
+      "execution_mode": "manual",
+      "execution_route": "manual-tasks",
+      "execution_skill_path": "shared/common/manual-tasks/SKILL.md",
+      "match_status": "matched",
+      "match_reason": "No task skill or flat task guidance exists in FSCR; route this catalog task to the shared Manual Tasks skill.",
+      "business_objects": [],
+      "task_description": "Manage business unit data access for user provisioned roles, an example would be to assign a business unit to a user with the Accounts Receivable Manager job role."
+    },
+    {
+      "sequence": 74,
+      "task_name": "Manage Business Unit Set Assignment",
+      "offering": "Financials",
+      "functional_area": "Organization Structures",
+      "task_code": "FUN_MANAGE_BUSINESS_UNIT_SET_ASSIGNMENT",
+      "skill_path": "pillars/erp/financials/organization-structures/manage-business-unit-set-assignment.md",
+      "skill_selection": {
+        "status": "selected",
+        "selected_by": "FLAT_TASK_GUIDANCE_FILE",
+        "candidates": [
+          "pillars/erp/financials/organization-structures/manage-business-unit-set-assignment.md"
+        ],
+        "context_relation": "unscoped-guidance",
+        "project_context": {
+          "offering": "Financials",
+          "functional_area": "Organization Structures"
+        },
+        "skill_context": null
+      },
+      "match_status": "matched",
+      "business_objects": []
+    },
+    {
+      "sequence": 75,
+      "task_name": "Manage Service Provider Relationships",
+      "offering": "Financials",
+      "functional_area": "Organization Structures",
+      "task_code": "FUN_MANAGE_SERVICE_PROVIDER_RELATIONSHIPS",
+      "skill_path": "pillars/erp/financials/organization-structures/manage-service-provider-relationships.md",
+      "skill_selection": {
+        "status": "selected",
+        "selected_by": "FLAT_TASK_GUIDANCE_FILE",
+        "candidates": [
+          "pillars/erp/financials/organization-structures/manage-service-provider-relationships.md"
+        ],
+        "context_relation": "unscoped-guidance",
+        "project_context": {
+          "offering": "Financials",
+          "functional_area": "Organization Structures"
+        },
+        "skill_context": null
+      },
+      "match_status": "matched",
+      "business_objects": []
+    },
+    {
+      "sequence": 76,
+      "task_name": "View Service Clients",
+      "offering": "Financials",
+      "functional_area": "Organization Structures",
+      "task_code": "FUN_VIEW_SERVICE_CLIENTS",
+      "skill_path": null,
+      "skill_selection": {
+        "status": "missing",
+        "selected_by": "FLAT_TASK_GUIDANCE_MISSING",
+        "candidates": [],
+        "context_relation": "missing",
+        "project_context": {
+          "offering": "Financials",
+          "functional_area": "Organization Structures"
+        },
+        "skill_context": null
+      },
+      "execution_mode": "manual",
+      "execution_route": "manual-tasks",
+      "execution_skill_path": "shared/common/manual-tasks/SKILL.md",
+      "match_status": "matched",
+      "match_reason": "No task skill or flat task guidance exists in FSCR; route this catalog task to the shared Manual Tasks skill.",
+      "business_objects": [],
+      "task_description": "View client business units that use business functions provided by a service provider business unit."
+    },
+    {
+      "sequence": 77,
+      "task_name": "View Available Asset Books",
+      "offering": "Financials",
+      "functional_area": "Organization Structures",
+      "task_code": "FUN_VIEW_AVAILABLE_ASSET_BOOKS",
+      "skill_path": null,
+      "skill_selection": {
+        "status": "missing",
+        "selected_by": "FLAT_TASK_GUIDANCE_MISSING",
+        "candidates": [],
+        "context_relation": "missing",
+        "project_context": {
+          "offering": "Financials",
+          "functional_area": "Organization Structures"
+        },
+        "skill_context": null
+      },
+      "execution_mode": "manual",
+      "execution_route": "manual-tasks",
+      "execution_skill_path": "shared/common/manual-tasks/SKILL.md",
+      "match_status": "matched",
+      "match_reason": "No task skill or flat task guidance exists in FSCR; route this catalog task to the shared Manual Tasks skill.",
+      "business_objects": [],
+      "task_description": "View asset books where assets can be transferred. The original and destination books must have the same ledger assigned."
+    },
+    {
+      "sequence": 78,
+      "task_name": "Manage Facility Shifts",
+      "offering": "Financials",
+      "functional_area": "Organization Structures",
+      "task_code": "RCS_MANAGE_FACILITY_SHIFTS",
+      "skill_path": "pillars/scm/manufacturing-and-supply-chain-materials-management/facilities/manage-facility-shifts/SKILL.md",
+      "skill_selection": {
+        "status": "selected",
+        "selected_by": "EXACT_TASK_CODE_AND_NAME",
+        "candidates": [
+          "pillars/scm/manufacturing-and-supply-chain-materials-management/facilities/manage-facility-shifts/SKILL.md"
+        ],
+        "context_relation": "canonical-task-reuse",
+        "project_context": {
+          "offering": "Financials",
+          "functional_area": "Organization Structures"
+        },
+        "skill_context": {
+          "offering": "Manufacturing and Supply Chain Materials Management",
+          "functional_area": "Facilities"
+        },
+        "context_note": "The unique task-code-and-name skill is canonical and reusable across Oracle offering and functional-area contexts."
+      },
+      "match_status": "matched",
+      "business_objects": [
+        "shifts"
+      ]
+    },
+    {
+      "sequence": 79,
+      "task_name": "Manage Facility Workday Patterns",
+      "offering": "Financials",
+      "functional_area": "Organization Structures",
+      "task_code": "RCS_MANAGE_FACILITY_WORKDAY_PATTERNS",
+      "skill_path": "pillars/scm/manufacturing-and-supply-chain-materials-management/facilities/manage-facility-workday-patterns/SKILL.md",
+      "skill_selection": {
+        "status": "selected",
+        "selected_by": "EXACT_TASK_CODE_AND_NAME",
+        "candidates": [
+          "pillars/scm/manufacturing-and-supply-chain-materials-management/facilities/manage-facility-workday-patterns/SKILL.md"
+        ],
+        "context_relation": "canonical-task-reuse",
+        "project_context": {
+          "offering": "Financials",
+          "functional_area": "Organization Structures"
+        },
+        "skill_context": {
+          "offering": "Manufacturing and Supply Chain Materials Management",
+          "functional_area": "Facilities"
+        },
+        "context_note": "The unique task-code-and-name skill is canonical and reusable across Oracle offering and functional-area contexts."
+      },
+      "match_status": "matched",
+      "business_objects": [
+        "workdayPatterns"
+      ]
+    },
+    {
+      "sequence": 80,
+      "task_name": "Manage Facility Schedule Exceptions",
+      "offering": "Financials",
+      "functional_area": "Organization Structures",
+      "task_code": "RCS_MANAGE_FACILITY_SCHEDULE_EXCEPTIONS",
+      "skill_path": "pillars/scm/manufacturing-and-supply-chain-materials-management/facilities/manage-facility-schedule-exceptions/SKILL.md",
+      "skill_selection": {
+        "status": "selected",
+        "selected_by": "EXACT_TASK_CODE_AND_NAME",
+        "candidates": [
+          "pillars/scm/manufacturing-and-supply-chain-materials-management/facilities/manage-facility-schedule-exceptions/SKILL.md"
+        ],
+        "context_relation": "canonical-task-reuse",
+        "project_context": {
+          "offering": "Financials",
+          "functional_area": "Organization Structures"
+        },
+        "skill_context": {
+          "offering": "Manufacturing and Supply Chain Materials Management",
+          "functional_area": "Facilities"
+        },
+        "context_note": "The unique task-code-and-name skill is canonical and reusable across Oracle offering and functional-area contexts."
+      },
+      "match_status": "matched",
+      "business_objects": [
+        "scheduleExceptions"
+      ]
+    },
+    {
+      "sequence": 81,
+      "task_name": "Manage Facility Schedules",
+      "offering": "Financials",
+      "functional_area": "Organization Structures",
+      "task_code": "RCS_MANAGE_FACILITY_SCHEDULES",
+      "skill_path": "pillars/scm/manufacturing-and-supply-chain-materials-management/facilities/manage-facility-schedules/SKILL.md",
+      "skill_selection": {
+        "status": "selected",
+        "selected_by": "EXACT_TASK_CODE_AND_NAME",
+        "candidates": [
+          "pillars/scm/manufacturing-and-supply-chain-materials-management/facilities/manage-facility-schedules/SKILL.md"
+        ],
+        "context_relation": "canonical-task-reuse",
+        "project_context": {
+          "offering": "Financials",
+          "functional_area": "Organization Structures"
+        },
+        "skill_context": {
+          "offering": "Manufacturing and Supply Chain Materials Management",
+          "functional_area": "Facilities"
+        },
+        "context_note": "The unique task-code-and-name skill is canonical and reusable across Oracle offering and functional-area contexts."
+      },
+      "match_status": "matched",
+      "business_objects": [
+        "schedules"
+      ]
+    },
+    {
+      "sequence": 82,
+      "task_name": "Manage Inventory Organizations",
+      "offering": "Financials",
+      "functional_area": "Organization Structures",
+      "task_code": "INV_MANAGE_INVENTORY_ORGANIZATIONS",
+      "skill_path": "pillars/scm/manufacturing-and-supply-chain-materials-management/facilities/manage-inventory-organizations/SKILL.md",
+      "skill_selection": {
+        "status": "selected",
+        "selected_by": "EXACT_TASK_CODE_AND_NAME",
+        "candidates": [
+          "pillars/scm/manufacturing-and-supply-chain-materials-management/facilities/manage-inventory-organizations/SKILL.md"
+        ],
+        "context_relation": "canonical-task-reuse",
+        "project_context": {
+          "offering": "Financials",
+          "functional_area": "Organization Structures"
+        },
+        "skill_context": {
+          "offering": "Manufacturing and Supply Chain Materials Management",
+          "functional_area": "Facilities"
+        },
+        "context_note": "The unique task-code-and-name skill is canonical and reusable across Oracle offering and functional-area contexts."
+      },
+      "match_status": "matched",
+      "business_objects": [
+        "inventoryOrganizations"
+      ]
+    },
+    {
+      "sequence": 83,
+      "task_name": "Manage Inventory Organization Data Access for Users",
+      "offering": "Financials",
+      "functional_area": "Organization Structures",
+      "task_code": "ORA_FUN_MANAGE_INVENTORY_ORGANIZATION_DATA_ACCESS_FOR_USERS",
+      "skill_path": null,
+      "skill_selection": {
+        "status": "missing",
+        "selected_by": "FLAT_TASK_GUIDANCE_MISSING",
+        "candidates": [],
+        "context_relation": "missing",
+        "project_context": {
+          "offering": "Financials",
+          "functional_area": "Organization Structures"
+        },
+        "skill_context": null
+      },
+      "execution_mode": "manual",
+      "execution_route": "manual-tasks",
+      "execution_skill_path": "shared/common/manual-tasks/SKILL.md",
+      "match_status": "matched",
+      "match_reason": "No task skill or flat task guidance exists in FSCR; route this catalog task to the shared Manual Tasks skill.",
+      "business_objects": [],
+      "task_description": "Manage inventory organization data access for user provisioned roles with a security context of inventory organization."
+    },
+    {
+      "sequence": 84,
+      "task_name": "Manage Internal Resource Organizations",
+      "offering": "Financials",
+      "functional_area": "Organization Structures",
+      "task_code": "HZ_MANAGE_RESOURCE_ORGANIZATIONS",
+      "skill_path": null,
+      "skill_selection": {
+        "status": "missing",
+        "selected_by": "FLAT_TASK_GUIDANCE_MISSING",
+        "candidates": [],
+        "context_relation": "missing",
+        "project_context": {
+          "offering": "Financials",
+          "functional_area": "Organization Structures"
+        },
+        "skill_context": null
+      },
+      "execution_mode": "manual",
+      "execution_route": "manual-tasks",
+      "execution_skill_path": "shared/common/manual-tasks/SKILL.md",
+      "match_status": "matched",
+      "match_reason": "No task skill or flat task guidance exists in FSCR; route this catalog task to the shared Manual Tasks skill.",
+      "business_objects": [],
+      "task_description": "Define sales or marketing organizations."
+    },
+    {
+      "sequence": 85,
+      "task_name": "Manage Partner Organizations",
+      "offering": "Financials",
+      "functional_area": "Organization Structures",
+      "task_code": "HZ_MANAGE_PARTNER_ORGANIZATIONS",
+      "skill_path": null,
+      "skill_selection": {
+        "status": "missing",
+        "selected_by": "FLAT_TASK_GUIDANCE_MISSING",
+        "candidates": [],
+        "context_relation": "missing",
+        "project_context": {
+          "offering": "Financials",
+          "functional_area": "Organization Structures"
+        },
+        "skill_context": null
+      },
+      "execution_mode": "manual",
+      "execution_route": "manual-tasks",
+      "execution_skill_path": "shared/common/manual-tasks/SKILL.md",
+      "match_status": "matched",
+      "match_reason": "No task skill or flat task guidance exists in FSCR; route this catalog task to the shared Manual Tasks skill.",
+      "business_objects": [],
+      "task_description": "Define partner resource organizations used to create partner organization hierarchies."
+    },
+    {
+      "sequence": 86,
+      "task_name": "Manage Resource Organization Hierarchies",
+      "offering": "Financials",
+      "functional_area": "Organization Structures",
+      "task_code": "HZ_MANAGE_RESOURCE_ORGANIZATION_HIERARCHIES",
+      "skill_path": null,
+      "skill_selection": {
+        "status": "missing",
+        "selected_by": "FLAT_TASK_GUIDANCE_MISSING",
+        "candidates": [],
+        "context_relation": "missing",
+        "project_context": {
+          "offering": "Financials",
+          "functional_area": "Organization Structures"
+        },
+        "skill_context": null
+      },
+      "execution_mode": "manual",
+      "execution_route": "manual-tasks",
+      "execution_skill_path": "shared/common/manual-tasks/SKILL.md",
+      "match_status": "matched",
+      "match_reason": "No task skill or flat task guidance exists in FSCR; route this catalog task to the shared Manual Tasks skill.",
+      "business_objects": [],
+      "task_description": "Manage organization hierarchies for sales, marketing, or partner organizations."
+    },
+    {
+      "sequence": 87,
+      "task_name": "Manage Resource Organization Members",
+      "offering": "Financials",
+      "functional_area": "Organization Structures",
+      "task_code": "HZ_MANAGE_RESOURCE_ORGANIZATION_MEMBERS",
+      "skill_path": null,
+      "skill_selection": {
+        "status": "missing",
+        "selected_by": "FLAT_TASK_GUIDANCE_MISSING",
+        "candidates": [],
+        "context_relation": "missing",
+        "project_context": {
+          "offering": "Financials",
+          "functional_area": "Organization Structures"
+        },
+        "skill_context": null
+      },
+      "execution_mode": "manual",
+      "execution_route": "manual-tasks",
+      "execution_skill_path": "shared/common/manual-tasks/SKILL.md",
+      "match_status": "matched",
+      "match_reason": "No task skill or flat task guidance exists in FSCR; route this catalog task to the shared Manual Tasks skill.",
+      "business_objects": [],
+      "task_description": "Manage resource members of sales, marketing, or partner organizations."
+    },
+    {
+      "sequence": 88,
+      "task_name": "Run Reporting Hierarchy Generation",
+      "offering": "Financials",
+      "functional_area": "Organization Structures",
+      "task_code": "HZ_RUN_REPORTING_HIERARCHY_GENERATION",
+      "skill_path": "pillars/cx/customer-data-management/resources/run-reporting-hierarchy-generation/SKILL.md",
+      "skill_selection": {
+        "status": "selected",
+        "selected_by": "EXACT_TASK_CODE_AND_NAME",
+        "candidates": [
+          "pillars/cx/customer-data-management/resources/run-reporting-hierarchy-generation/SKILL.md"
+        ],
+        "context_relation": "canonical-task-reuse",
+        "project_context": {
+          "offering": "Financials",
+          "functional_area": "Organization Structures"
+        },
+        "skill_context": {
+          "offering": "Customer Data Management",
+          "functional_area": "Resources"
+        },
+        "context_note": "The unique task-code-and-name skill is canonical and reusable across Oracle offering and functional-area contexts."
+      },
+      "match_status": "matched",
+      "business_objects": []
+    },
+    {
+      "sequence": 89,
+      "task_name": "Manage Common CRM Business Unit Profile Options",
+      "offering": "Grants Management",
+      "functional_area": "Organization Structures",
+      "task_code": "ORA_ZCA_MANAGE_COMMON_CRM_BUSINESS_UNIT_PROFILE_OPTIONS",
+      "skill_path": null,
+      "skill_selection": {
+        "status": "missing",
+        "selected_by": "FLAT_TASK_GUIDANCE_MISSING",
+        "candidates": [],
+        "context_relation": "missing",
+        "project_context": {
+          "offering": "Grants Management",
+          "functional_area": "Organization Structures"
+        },
+        "skill_context": null
+      },
+      "execution_mode": "manual",
+      "execution_route": "manual-tasks",
+      "execution_skill_path": "shared/common/manual-tasks/SKILL.md",
+      "match_status": "matched",
+      "match_reason": "No task skill or flat task guidance exists in FSCR; route this catalog task to the shared Manual Tasks skill.",
+      "business_objects": [],
+      "task_description": "Review and define options to enable business units in CRM applications."
+    },
+    {
+      "sequence": 90,
+      "task_name": "Manage Divisions",
+      "offering": "Financials",
+      "functional_area": "Workforce Structures",
+      "task_code": "PER_MANAGE_DIVISION",
+      "skill_path": "pillars/hcm/global-human-resources/supplementary-organizations/manage-divisions/SKILL.md",
+      "skill_selection": {
+        "status": "selected",
+        "selected_by": "EXACT_TASK_CODE_AND_NAME",
+        "candidates": [
+          "pillars/hcm/global-human-resources/supplementary-organizations/manage-divisions/SKILL.md"
+        ],
+        "context_relation": "canonical-task-reuse",
+        "project_context": {
+          "offering": "Financials",
+          "functional_area": "Workforce Structures"
+        },
+        "skill_context": {
+          "offering": "Global Human Resources",
+          "functional_area": "Supplementary Organizations"
+        },
+        "context_note": "The unique task-code-and-name skill is canonical and reusable across Oracle offering and functional-area contexts."
+      },
+      "match_status": "matched",
+      "business_objects": [
+        "Organization"
+      ]
+    },
+    {
+      "sequence": 91,
+      "task_name": "Manage Departments",
+      "offering": "Financials",
+      "functional_area": "Workforce Structures",
+      "task_code": "PER_MANAGE_DEPARTMENT",
+      "skill_path": "pillars/hcm/global-human-resources/departments/manage-departments/SKILL.md",
+      "skill_selection": {
+        "status": "selected",
+        "selected_by": "EXACT_TASK_CODE_AND_NAME",
+        "candidates": [
+          "pillars/hcm/global-human-resources/departments/manage-departments/SKILL.md"
+        ],
+        "context_relation": "canonical-task-reuse",
+        "project_context": {
+          "offering": "Financials",
+          "functional_area": "Workforce Structures"
+        },
+        "skill_context": {
+          "offering": "Global Human Resources",
+          "functional_area": "Departments"
+        },
+        "context_note": "The unique task-code-and-name skill is canonical and reusable across Oracle offering and functional-area contexts."
+      },
+      "match_status": "matched",
+      "business_objects": [
+        "Organization"
+      ]
+    },
+    {
+      "sequence": 92,
+      "task_name": "Manage Job Families",
+      "offering": "Financials",
+      "functional_area": "Workforce Structures",
+      "task_code": "PER_MANAGE_JOB_FAMILY",
+      "skill_path": "pillars/hcm/global-human-resources/jobs/manage-job-families/SKILL.md",
+      "skill_selection": {
+        "status": "selected",
+        "selected_by": "EXACT_TASK_CODE_AND_NAME",
+        "candidates": [
+          "pillars/hcm/global-human-resources/jobs/manage-job-families/SKILL.md"
+        ],
+        "context_relation": "canonical-task-reuse",
+        "project_context": {
+          "offering": "Financials",
+          "functional_area": "Workforce Structures"
+        },
+        "skill_context": {
+          "offering": "Global Human Resources",
+          "functional_area": "Jobs"
+        },
+        "context_note": "The unique task-code-and-name skill is canonical and reusable across Oracle offering and functional-area contexts."
+      },
+      "match_status": "matched",
+      "business_objects": [
+        "Job Family"
+      ]
+    },
+    {
+      "sequence": 93,
+      "task_name": "Manage Job",
+      "offering": "Financials",
+      "functional_area": "Workforce Structures",
+      "task_code": "PER_MANAGE_JOB",
+      "skill_path": "pillars/hcm/global-human-resources/jobs/manage-job/SKILL.md",
+      "skill_selection": {
+        "status": "selected",
+        "selected_by": "EXACT_TASK_CODE_AND_NAME",
+        "candidates": [
+          "pillars/hcm/global-human-resources/jobs/manage-job/SKILL.md"
+        ],
+        "context_relation": "canonical-task-reuse",
+        "project_context": {
+          "offering": "Financials",
+          "functional_area": "Workforce Structures"
+        },
+        "skill_context": {
+          "offering": "Global Human Resources",
+          "functional_area": "Jobs"
+        },
+        "context_note": "The unique task-code-and-name skill is canonical and reusable across Oracle offering and functional-area contexts."
+      },
+      "match_status": "matched",
+      "business_objects": [
+        "Job"
+      ]
+    },
+    {
+      "sequence": 94,
+      "task_name": "Manage Department Trees",
+      "offering": "Grants Management",
+      "functional_area": "Workforce Structures",
+      "task_code": "PER_MANAGE_DEPARTMENT_TREE",
+      "skill_path": "pillars/hcm/global-human-resources/hcm-trees/manage-department-trees/SKILL.md",
+      "skill_selection": {
+        "status": "selected",
+        "selected_by": "EXACT_TASK_CODE_AND_NAME",
+        "candidates": [
+          "pillars/hcm/global-human-resources/hcm-trees/manage-department-trees/SKILL.md"
+        ],
+        "context_relation": "canonical-task-reuse",
+        "project_context": {
+          "offering": "Grants Management",
+          "functional_area": "Workforce Structures"
+        },
+        "skill_context": {
+          "offering": "Global Human Resources",
+          "functional_area": "HCM Trees"
+        },
+        "context_note": "The unique task-code-and-name skill is canonical and reusable across Oracle offering and functional-area contexts."
+      },
+      "match_status": "matched",
+      "business_objects": []
+    },
+    {
+      "sequence": 95,
+      "task_name": "Manage Organization Trees",
+      "offering": "Grants Management",
+      "functional_area": "Workforce Structures",
+      "task_code": "PER_MANAGE_ORGANIZATION_TREE",
+      "skill_path": "pillars/hcm/global-human-resources/hcm-trees/manage-organization-trees/SKILL.md",
+      "skill_selection": {
+        "status": "selected",
+        "selected_by": "EXACT_TASK_CODE_AND_NAME",
+        "candidates": [
+          "pillars/hcm/global-human-resources/hcm-trees/manage-organization-trees/SKILL.md"
+        ],
+        "context_relation": "canonical-task-reuse",
+        "project_context": {
+          "offering": "Grants Management",
+          "functional_area": "Workforce Structures"
+        },
+        "skill_context": {
+          "offering": "Global Human Resources",
+          "functional_area": "HCM Trees"
+        },
+        "context_note": "The unique task-code-and-name skill is canonical and reusable across Oracle offering and functional-area contexts."
+      },
+      "match_status": "matched",
+      "business_objects": []
+    },
+    {
+      "sequence": 96,
+      "task_name": "Manage Job Roles",
+      "offering": "Financials",
+      "functional_area": "Users and Security",
+      "task_code": "ASXS_MANAGE_JOB_ROLES",
+      "skill_path": "pillars/common/security-console/manage-job-roles/SKILL.md",
+      "skill_selection": {
+        "status": "selected",
+        "selected_by": "LEXICOGRAPHIC_PATH",
+        "candidates": [
+          "pillars/common/security-console/manage-job-roles/SKILL.md",
+          "pillars/common/security-console/manage-security-fsm-skill/SKILL.md"
+        ],
+        "context_relation": "cross-context-fallback",
+        "project_context": {
+          "offering": "Financials",
+          "functional_area": "Users and Security"
+        },
+        "skill_context": {
+          "offering": null,
+          "functional_area": null
+        }
+      },
+      "match_status": "matched",
+      "business_objects": []
+    },
+    {
+      "sequence": 97,
+      "task_name": "Manage Duties",
+      "offering": "Financials",
+      "functional_area": "Users and Security",
+      "task_code": "ASXS_MANAGE_DUTIES",
+      "skill_path": "pillars/common/security-console/manage-duties/SKILL.md",
+      "skill_selection": {
+        "status": "selected",
+        "selected_by": "EXACT_TASK_CODE_AND_NAME",
+        "candidates": [
+          "pillars/common/security-console/manage-duties/SKILL.md"
+        ],
+        "context_relation": "canonical-task-reuse",
+        "project_context": {
+          "offering": "Financials",
+          "functional_area": "Users and Security"
+        },
+        "skill_context": {
+          "offering": null,
+          "functional_area": null
+        },
+        "context_note": "The unique task-code-and-name skill is canonical and reusable across Oracle offering and functional-area contexts."
+      },
+      "match_status": "matched",
+      "business_objects": []
+    },
+    {
+      "sequence": 98,
+      "task_name": "Manage Data Access Sets",
+      "offering": "Financials",
+      "functional_area": "Users and Security",
+      "task_code": "GL_MANAGE_DATA_ACCESS_SETS",
+      "skill_path": null,
+      "skill_selection": {
+        "status": "missing",
+        "selected_by": "FLAT_TASK_GUIDANCE_MISSING",
+        "candidates": [],
+        "context_relation": "missing",
+        "project_context": {
+          "offering": "Financials",
+          "functional_area": "Users and Security"
+        },
+        "skill_context": null
+      },
+      "execution_mode": "manual",
+      "execution_route": "manual-tasks",
+      "execution_skill_path": "shared/common/manual-tasks/SKILL.md",
+      "match_status": "matched",
+      "match_reason": "No task skill or flat task guidance exists in FSCR; route this catalog task to the shared Manual Tasks skill.",
+      "business_objects": [],
+      "task_description": "Review and update existing collections of ledgers intended for data security, and create new collections."
+    },
+    {
+      "sequence": 99,
+      "task_name": "Manage Data Security Policies",
+      "offering": "Financials",
+      "functional_area": "Users and Security",
+      "task_code": "ASXS_MANAGE_DATA_SECURITY_POLICIES",
+      "skill_path": "pillars/common/security-console/manage-data-security-policies/SKILL.md",
+      "skill_selection": {
+        "status": "selected",
+        "selected_by": "EXACT_TASK_CODE_AND_NAME",
+        "candidates": [
+          "pillars/common/security-console/manage-data-security-policies/SKILL.md"
+        ],
+        "context_relation": "canonical-task-reuse",
+        "project_context": {
+          "offering": "Financials",
+          "functional_area": "Users and Security"
+        },
+        "skill_context": {
+          "offering": null,
+          "functional_area": null
+        },
+        "context_note": "The unique task-code-and-name skill is canonical and reusable across Oracle offering and functional-area contexts."
+      },
+      "match_status": "matched",
+      "business_objects": []
+    },
+    {
+      "sequence": 100,
+      "task_name": "Manage Data Role and Security Profiles",
+      "offering": "Financials",
+      "functional_area": "Users and Security",
+      "task_code": "PER_MANAGE_DATA_ROLE_AND_SECURITY_PROFILES",
+      "skill_path": null,
+      "skill_selection": {
+        "status": "missing",
+        "selected_by": "FLAT_TASK_GUIDANCE_MISSING",
+        "candidates": [],
+        "context_relation": "missing",
+        "project_context": {
+          "offering": "Financials",
+          "functional_area": "Users and Security"
+        },
+        "skill_context": null
+      },
+      "execution_mode": "manual",
+      "execution_route": "manual-tasks",
+      "execution_skill_path": "shared/common/manual-tasks/SKILL.md",
+      "match_status": "matched",
+      "match_reason": "No task skill or flat task guidance exists in FSCR; route this catalog task to the shared Manual Tasks skill.",
+      "business_objects": [],
+      "task_description": "Create HCM data roles to enable users, such as human resource specialists, benefits specialists, and payroll managers, to access the HCM data required by their job roles. Assign security profiles to abstract roles, such as employee and line manager, to enable users to access standard data for those roles."
+    },
+    {
+      "sequence": 101,
+      "task_name": "Manage HCM Role Provisioning Rules",
+      "offering": "Financials",
+      "functional_area": "Users and Security",
+      "task_code": "PER_MANAGE_HCM_ROLE_PROVISIONING_RULES",
+      "skill_path": "pillars/common/security-console/manage-hcm-role-provisioning-rules/SKILL.md",
+      "skill_selection": {
+        "status": "selected",
+        "selected_by": "LEXICOGRAPHIC_PATH",
+        "candidates": [
+          "pillars/common/security-console/manage-hcm-role-provisioning-rules/SKILL.md",
+          "pillars/cx/field-service/users-and-security/manage-hcm-role-provisioning-rules/SKILL.md"
+        ],
+        "context_relation": "cross-context-fallback",
+        "project_context": {
+          "offering": "Financials",
+          "functional_area": "Users and Security"
+        },
+        "skill_context": {
+          "offering": null,
+          "functional_area": null
+        }
+      },
+      "match_status": "matched",
+      "business_objects": []
+    },
+    {
+      "sequence": 102,
+      "task_name": "Import Worker Users",
+      "offering": "Financials",
+      "functional_area": "Users and Security",
+      "task_code": "HRC_IMPORT_WORKER_USERS",
+      "skill_path": null,
+      "skill_selection": {
+        "status": "missing",
+        "selected_by": "FLAT_TASK_GUIDANCE_MISSING",
+        "candidates": [],
+        "context_relation": "missing",
+        "project_context": {
+          "offering": "Financials",
+          "functional_area": "Users and Security"
+        },
+        "skill_context": null
+      },
+      "execution_mode": "manual",
+      "execution_route": "manual-tasks",
+      "execution_skill_path": "shared/common/manual-tasks/SKILL.md",
+      "match_status": "matched",
+      "match_reason": "No task skill or flat task guidance exists in FSCR; route this catalog task to the shared Manual Tasks skill.",
+      "business_objects": [],
+      "task_description": "Import Worker users as HCM Workers from legacy applications. The import process will automatically create user accounts and assign roles to workers using HCM role provisioning rules."
+    },
+    {
+      "sequence": 103,
+      "task_name": "Manage Users",
+      "offering": "Financials",
+      "functional_area": "Users and Security",
+      "task_code": "PER_MANAGE_USERS",
+      "skill_path": "pillars/cx/service/users-and-security/manage-users/SKILL.md",
+      "skill_selection": {
+        "status": "selected",
+        "selected_by": "EXACT_TASK_CODE_AND_NAME",
+        "candidates": [
+          "pillars/cx/service/users-and-security/manage-users/SKILL.md"
+        ],
+        "context_relation": "canonical-task-reuse",
+        "project_context": {
+          "offering": "Financials",
+          "functional_area": "Users and Security"
+        },
+        "skill_context": {
+          "offering": "Service",
+          "functional_area": "Users and Security"
+        },
+        "context_note": "The unique task-code-and-name skill is canonical and reusable across Oracle offering and functional-area contexts."
+      },
+      "match_status": "matched",
+      "business_objects": []
+    },
+    {
+      "sequence": 104,
+      "task_name": "Manage Data Access for Users",
+      "offering": "Financials",
+      "functional_area": "Users and Security",
+      "task_code": "ORA_FUN_MANAGE_DATA_ACCESS_FOR_USERS",
+      "skill_path": null,
+      "skill_selection": {
+        "status": "missing",
+        "selected_by": "FLAT_TASK_GUIDANCE_MISSING",
+        "candidates": [],
+        "context_relation": "missing",
+        "project_context": {
+          "offering": "Financials",
+          "functional_area": "Users and Security"
+        },
+        "skill_context": null
+      },
+      "execution_mode": "manual",
+      "execution_route": "manual-tasks",
+      "execution_skill_path": "shared/common/manual-tasks/SKILL.md",
+      "match_status": "matched",
+      "match_reason": "No task skill or flat task guidance exists in FSCR; route this catalog task to the shared Manual Tasks skill.",
+      "business_objects": [],
+      "task_description": "Manage data access for user provisioned roles."
+    },
+    {
+      "sequence": 105,
+      "task_name": "Set Help Options",
+      "offering": "Financials",
+      "functional_area": "Application Extensions",
+      "task_code": "ATK_CONFIGURE_HELP_SETTINGS",
+      "skill_path": null,
+      "skill_selection": {
+        "status": "missing",
+        "selected_by": "FLAT_TASK_GUIDANCE_MISSING",
+        "candidates": [],
+        "context_relation": "missing",
+        "project_context": {
+          "offering": "Financials",
+          "functional_area": "Application Extensions"
+        },
+        "skill_context": null
+      },
+      "execution_mode": "manual",
+      "execution_route": "manual-tasks",
+      "execution_skill_path": "shared/common/manual-tasks/SKILL.md",
+      "match_status": "matched",
+      "match_reason": "No task skill or flat task guidance exists in FSCR; route this catalog task to the shared Manual Tasks skill.",
+      "business_objects": [],
+      "task_description": "Set options for help windows, including whether help icons used to open the windows are shown or hidden by default."
+    },
+    {
+      "sequence": 106,
+      "task_name": "Assign Help Text Administration Duty",
+      "offering": "Financials",
+      "functional_area": "Application Extensions",
+      "task_code": "ATK_ASSIGN_FUSION_HELP_TEXT_ADMINISTRATION_DUTY",
+      "skill_path": null,
+      "skill_selection": {
+        "status": "missing",
+        "selected_by": "FLAT_TASK_GUIDANCE_MISSING",
+        "candidates": [],
+        "context_relation": "missing",
+        "project_context": {
+          "offering": "Financials",
+          "functional_area": "Application Extensions"
+        },
+        "skill_context": null
+      },
+      "execution_mode": "manual",
+      "execution_route": "manual-tasks",
+      "execution_skill_path": "shared/common/manual-tasks/SKILL.md",
+      "match_status": "matched",
+      "match_reason": "No task skill or flat task guidance exists in FSCR; route this catalog task to the shared Manual Tasks skill.",
+      "business_objects": [],
+      "task_description": "Make sure that users who need to add and edit help have roles with the privilege that gives them access to do so."
+    },
+    {
+      "sequence": 107,
+      "task_name": "Manage Help Security Groups",
+      "offering": "Financials",
+      "functional_area": "Application Extensions",
+      "task_code": "ATK_MANAGE_HELP_SECURITY_GROUPS",
+      "skill_path": "pillars/common/security-console/user-security-common/manage-help-security-groups.md",
+      "skill_selection": {
+        "status": "selected",
+        "selected_by": "FLAT_TASK_GUIDANCE_FILE",
+        "candidates": [
+          "pillars/common/security-console/user-security-common/manage-help-security-groups.md"
+        ],
+        "context_relation": "unscoped-guidance",
+        "project_context": {
+          "offering": "Financials",
+          "functional_area": "Application Extensions"
+        },
+        "skill_context": null
+      },
+      "match_status": "matched",
+      "business_objects": []
+    },
+    {
+      "sequence": 108,
+      "task_name": "Manage Help Content",
+      "offering": "Financials",
+      "functional_area": "Application Extensions",
+      "task_code": "ORA_ATK_MANAGE_HELP_CONTENT",
+      "skill_path": null,
+      "skill_selection": {
+        "status": "missing",
+        "selected_by": "FLAT_TASK_GUIDANCE_MISSING",
+        "candidates": [],
+        "context_relation": "missing",
+        "project_context": {
+          "offering": "Financials",
+          "functional_area": "Application Extensions"
+        },
+        "skill_context": null
+      },
+      "execution_mode": "manual",
+      "execution_route": "manual-tasks",
+      "execution_skill_path": "shared/common/manual-tasks/SKILL.md",
+      "match_status": "matched",
+      "match_reason": "No task skill or flat task guidance exists in FSCR; route this catalog task to the shared Manual Tasks skill.",
+      "business_objects": [],
+      "task_description": "Manage Help Content"
+    },
+    {
+      "sequence": 109,
+      "task_name": "Manage Taxonomy Hierarchy",
+      "offering": "Financials",
+      "functional_area": "Application Extensions",
+      "task_code": "FND_MANAGE_TAXONOMY_HIERARCHY",
+      "skill_path": null,
+      "skill_selection": {
+        "status": "missing",
+        "selected_by": "FLAT_TASK_GUIDANCE_MISSING",
+        "candidates": [],
+        "context_relation": "missing",
+        "project_context": {
+          "offering": "Financials",
+          "functional_area": "Application Extensions"
+        },
+        "skill_context": null
+      },
+      "execution_mode": "manual",
+      "execution_route": "manual-tasks",
+      "execution_skill_path": "shared/common/manual-tasks/SKILL.md",
+      "match_status": "matched",
+      "match_reason": "No task skill or flat task guidance exists in FSCR; route this catalog task to the shared Manual Tasks skill.",
+      "business_objects": [],
+      "task_description": "Review and edit the hierarchy of functional units that make up Oracle Fusion Applications, from product families and applications to functional components."
+    },
+    {
+      "sequence": 110,
+      "task_name": "Manage ISO Languages",
+      "offering": "Financials",
+      "functional_area": "Application Extensions",
+      "task_code": "FND_MANAGE_ISO_LANGUAGES",
+      "skill_path": null,
+      "skill_selection": {
+        "status": "missing",
+        "selected_by": "FLAT_TASK_GUIDANCE_MISSING",
+        "candidates": [],
+        "context_relation": "missing",
+        "project_context": {
+          "offering": "Financials",
+          "functional_area": "Application Extensions"
+        },
+        "skill_context": null
+      },
+      "execution_mode": "manual",
+      "execution_route": "manual-tasks",
+      "execution_skill_path": "shared/common/manual-tasks/SKILL.md",
+      "match_status": "matched",
+      "match_reason": "No task skill or flat task guidance exists in FSCR; route this catalog task to the shared Manual Tasks skill.",
+      "business_objects": [],
+      "task_description": "Review and edit ISO standard languages."
+    },
+    {
+      "sequence": 111,
+      "task_name": "Manage Territories",
+      "offering": "Financials",
+      "functional_area": "Application Extensions",
+      "task_code": "FND_MANAGE_TERRITORIES",
+      "skill_path": null,
+      "skill_selection": {
+        "status": "missing",
+        "selected_by": "FLAT_TASK_GUIDANCE_MISSING",
+        "candidates": [],
+        "context_relation": "missing",
+        "project_context": {
+          "offering": "Financials",
+          "functional_area": "Application Extensions"
+        },
+        "skill_context": null
+      },
+      "execution_mode": "manual",
+      "execution_route": "manual-tasks",
+      "execution_skill_path": "shared/common/manual-tasks/SKILL.md",
+      "match_status": "matched",
+      "match_reason": "No task skill or flat task guidance exists in FSCR; route this catalog task to the shared Manual Tasks skill.",
+      "business_objects": [],
+      "task_description": "Review and edit ISO standard territories."
+    },
+    {
+      "sequence": 112,
+      "task_name": "Manage Languages",
+      "offering": "Financials",
+      "functional_area": "Application Extensions",
+      "task_code": "FND_MANAGE_LANGUAGES",
+      "skill_path": null,
+      "skill_selection": {
+        "status": "missing",
+        "selected_by": "FLAT_TASK_GUIDANCE_MISSING",
+        "candidates": [],
+        "context_relation": "missing",
+        "project_context": {
+          "offering": "Financials",
+          "functional_area": "Application Extensions"
+        },
+        "skill_context": null
+      },
+      "execution_mode": "manual",
+      "execution_route": "manual-tasks",
+      "execution_skill_path": "shared/common/manual-tasks/SKILL.md",
+      "match_status": "matched",
+      "match_reason": "No task skill or flat task guidance exists in FSCR; route this catalog task to the shared Manual Tasks skill.",
+      "business_objects": [],
+      "task_description": "Review and edit the installed languages."
+    },
+    {
+      "sequence": 113,
+      "task_name": "Manage Industries",
+      "offering": "Financials",
+      "functional_area": "Application Extensions",
+      "task_code": "FND_MANAGE_INDUSTRIES",
+      "skill_path": null,
+      "skill_selection": {
+        "status": "missing",
+        "selected_by": "FLAT_TASK_GUIDANCE_MISSING",
+        "candidates": [],
+        "context_relation": "missing",
+        "project_context": {
+          "offering": "Financials",
+          "functional_area": "Application Extensions"
+        },
+        "skill_context": null
+      },
+      "execution_mode": "manual",
+      "execution_route": "manual-tasks",
+      "execution_skill_path": "shared/common/manual-tasks/SKILL.md",
+      "match_status": "matched",
+      "match_reason": "No task skill or flat task guidance exists in FSCR; route this catalog task to the shared Manual Tasks skill.",
+      "business_objects": [],
+      "task_description": "Review and edit ISO standard industries."
+    },
+    {
+      "sequence": 114,
+      "task_name": "Manage Natural Languages",
+      "offering": "Financials",
+      "functional_area": "Application Extensions",
+      "task_code": "FND_MANAGE_NATURAL_LANGUAGES",
+      "skill_path": null,
+      "skill_selection": {
+        "status": "missing",
+        "selected_by": "FLAT_TASK_GUIDANCE_MISSING",
+        "candidates": [],
+        "context_relation": "missing",
+        "project_context": {
+          "offering": "Financials",
+          "functional_area": "Application Extensions"
+        },
+        "skill_context": null
+      },
+      "execution_mode": "manual",
+      "execution_route": "manual-tasks",
+      "execution_skill_path": "shared/common/manual-tasks/SKILL.md",
+      "match_status": "matched",
+      "match_reason": "No task skill or flat task guidance exists in FSCR; route this catalog task to the shared Manual Tasks skill.",
+      "business_objects": [],
+      "task_description": "Review and edit natural, spoken languages."
+    },
+    {
+      "sequence": 115,
+      "task_name": "Manage Time Zones",
+      "offering": "Financials",
+      "functional_area": "Application Extensions",
+      "task_code": "FND_MANAGE_TIMEZONES",
+      "skill_path": null,
+      "skill_selection": {
+        "status": "missing",
+        "selected_by": "FLAT_TASK_GUIDANCE_MISSING",
+        "candidates": [],
+        "context_relation": "missing",
+        "project_context": {
+          "offering": "Financials",
+          "functional_area": "Application Extensions"
+        },
+        "skill_context": null
+      },
+      "execution_mode": "manual",
+      "execution_route": "manual-tasks",
+      "execution_skill_path": "shared/common/manual-tasks/SKILL.md",
+      "match_status": "matched",
+      "match_reason": "No task skill or flat task guidance exists in FSCR; route this catalog task to the shared Manual Tasks skill.",
+      "business_objects": [],
+      "task_description": "Review and edit time zones."
+    },
+    {
+      "sequence": 116,
+      "task_name": "Set User General Preferences",
+      "offering": "Financials",
+      "functional_area": "Application Extensions",
+      "task_code": "FND_SET_USER_GENERAL_PREFERENCES",
+      "skill_path": null,
+      "skill_selection": {
+        "status": "missing",
+        "selected_by": "FLAT_TASK_GUIDANCE_MISSING",
+        "candidates": [],
+        "context_relation": "missing",
+        "project_context": {
+          "offering": "Financials",
+          "functional_area": "Application Extensions"
+        },
+        "skill_context": null
+      },
+      "execution_mode": "manual",
+      "execution_route": "manual-tasks",
+      "execution_skill_path": "shared/common/manual-tasks/SKILL.md",
+      "match_status": "matched",
+      "match_reason": "No task skill or flat task guidance exists in FSCR; route this catalog task to the shared Manual Tasks skill.",
+      "business_objects": [],
+      "task_description": "Specify the general preferences settings for all users, for example language and date format."
+    },
+    {
+      "sequence": 117,
+      "task_name": "Manage Audit Policies",
+      "offering": "Financials",
+      "functional_area": "Application Extensions",
+      "task_code": "FND_MANAGE_AUDIT_POLICIES",
+      "skill_path": "pillars/cx/sales/sales-foundation/manage-audit-policies/SKILL.md",
+      "skill_selection": {
+        "status": "selected",
+        "selected_by": "LEXICOGRAPHIC_PATH",
+        "candidates": [
+          "pillars/cx/sales/sales-foundation/manage-audit-policies/SKILL.md",
+          "pillars/hcm/global-payroll/payroll-common/manage-audit-policies/SKILL.md",
+          "pillars/hcm/learning-management/learning-management-common/manage-audit-policies.md"
+        ],
+        "context_relation": "cross-context-fallback",
+        "project_context": {
+          "offering": "Financials",
+          "functional_area": "Application Extensions"
+        },
+        "skill_context": {
+          "offering": "Sales",
+          "functional_area": "Sales Foundation"
+        }
+      },
+      "match_status": "matched",
+      "business_objects": []
+    },
+    {
+      "sequence": 118,
+      "task_name": "Manage Applications Core Messages",
+      "offering": "Financials",
+      "functional_area": "Application Extensions",
+      "task_code": "FND_MANAGE_APPLCORE_MESSAGES",
+      "skill_path": null,
+      "skill_selection": {
+        "status": "missing",
+        "selected_by": "FLAT_TASK_GUIDANCE_MISSING",
+        "candidates": [],
+        "context_relation": "missing",
+        "project_context": {
+          "offering": "Financials",
+          "functional_area": "Application Extensions"
+        },
+        "skill_context": null
+      },
+      "execution_mode": "manual",
+      "execution_route": "manual-tasks",
+      "execution_skill_path": "shared/common/manual-tasks/SKILL.md",
+      "match_status": "matched",
+      "match_reason": "No task skill or flat task guidance exists in FSCR; route this catalog task to the shared Manual Tasks skill.",
+      "business_objects": [],
+      "task_description": "Review and edit messages that are used for Oracle Middleware Extensions for Applications."
+    },
+    {
+      "sequence": 119,
+      "task_name": "Manage Applications Core Standard Lookups",
+      "offering": "Financials",
+      "functional_area": "Application Extensions",
+      "task_code": "FND_MANAGE_APPLCORE_STANDARD_LOOKUPS",
+      "skill_path": null,
+      "skill_selection": {
+        "status": "missing",
+        "selected_by": "FLAT_TASK_GUIDANCE_MISSING",
+        "candidates": [],
+        "context_relation": "missing",
+        "project_context": {
+          "offering": "Financials",
+          "functional_area": "Application Extensions"
+        },
+        "skill_context": null
+      },
+      "execution_mode": "manual",
+      "execution_route": "manual-tasks",
+      "execution_skill_path": "shared/common/manual-tasks/SKILL.md",
+      "match_status": "matched",
+      "match_reason": "No task skill or flat task guidance exists in FSCR; route this catalog task to the shared Manual Tasks skill.",
+      "business_objects": [],
+      "task_description": "Review and manage lookup values for Oracle Middleware Extensions for Applications."
+    },
+    {
+      "sequence": 120,
+      "task_name": "Manage Applications Core Profile Options",
+      "offering": "Financials",
+      "functional_area": "Application Extensions",
+      "task_code": "FND_MANAGE_APPLICATIONS_CORE_PROFILE_OPTIONS",
+      "skill_path": null,
+      "skill_selection": {
+        "status": "missing",
+        "selected_by": "FLAT_TASK_GUIDANCE_MISSING",
+        "candidates": [],
+        "context_relation": "missing",
+        "project_context": {
+          "offering": "Financials",
+          "functional_area": "Application Extensions"
+        },
+        "skill_context": null
+      },
+      "execution_mode": "manual",
+      "execution_route": "manual-tasks",
+      "execution_skill_path": "shared/common/manual-tasks/SKILL.md",
+      "match_status": "matched",
+      "match_reason": "No task skill or flat task guidance exists in FSCR; route this catalog task to the shared Manual Tasks skill.",
+      "business_objects": [],
+      "task_description": "Review and manage profile options that affect Oracle Middleware Extensions for Applications behavior, and specify the levels at which they can be set."
+    },
+    {
+      "sequence": 121,
+      "task_name": "Manage Applications Core Administrator Profile Values",
+      "offering": "Financials",
+      "functional_area": "Application Extensions",
+      "task_code": "FND_MANAGE_APPLICATIONS_CORE_ADMINISTRATOR_PROFILE_VALUES",
+      "skill_path": null,
+      "skill_selection": {
+        "status": "missing",
+        "selected_by": "FLAT_TASK_GUIDANCE_MISSING",
+        "candidates": [],
+        "context_relation": "missing",
+        "project_context": {
+          "offering": "Financials",
+          "functional_area": "Application Extensions"
+        },
+        "skill_context": null
+      },
+      "execution_mode": "manual",
+      "execution_route": "manual-tasks",
+      "execution_skill_path": "shared/common/manual-tasks/SKILL.md",
+      "match_status": "matched",
+      "match_reason": "No task skill or flat task guidance exists in FSCR; route this catalog task to the shared Manual Tasks skill.",
+      "business_objects": [],
+      "task_description": "Specify profile option settings and values to control Oracle Middleware Extensions for Applications behavior."
+    },
+    {
+      "sequence": 122,
+      "task_name": "Manage Applications Core Profile Categories",
+      "offering": "Financials",
+      "functional_area": "Application Extensions",
+      "task_code": "FND_MANAGE_APPLICATIONS_CORE_PROFILE_CATEGORIES",
+      "skill_path": null,
+      "skill_selection": {
+        "status": "missing",
+        "selected_by": "FLAT_TASK_GUIDANCE_MISSING",
+        "candidates": [],
+        "context_relation": "missing",
+        "project_context": {
+          "offering": "Financials",
+          "functional_area": "Application Extensions"
+        },
+        "skill_context": null
+      },
+      "execution_mode": "manual",
+      "execution_route": "manual-tasks",
+      "execution_skill_path": "shared/common/manual-tasks/SKILL.md",
+      "match_status": "matched",
+      "match_reason": "No task skill or flat task guidance exists in FSCR; route this catalog task to the shared Manual Tasks skill.",
+      "business_objects": [],
+      "task_description": "Review and manage categories to group profile options that are used in Oracle Middleware Extensions for Applications, based on their functional area. Categories can be used to search for related profiles and to define data security rules."
+    },
+    {
+      "sequence": 123,
+      "task_name": "Manage Applications Core Value Sets",
+      "offering": "Financials",
+      "functional_area": "Application Extensions",
+      "task_code": "FND_MANAGE_APPLCORE_VALUE_SETS",
+      "skill_path": null,
+      "skill_selection": {
+        "status": "missing",
+        "selected_by": "FLAT_TASK_GUIDANCE_MISSING",
+        "candidates": [],
+        "context_relation": "missing",
+        "project_context": {
+          "offering": "Financials",
+          "functional_area": "Application Extensions"
+        },
+        "skill_context": null
+      },
+      "execution_mode": "manual",
+      "execution_route": "manual-tasks",
+      "execution_skill_path": "shared/common/manual-tasks/SKILL.md",
+      "match_status": "matched",
+      "match_reason": "No task skill or flat task guidance exists in FSCR; route this catalog task to the shared Manual Tasks skill.",
+      "business_objects": [],
+      "task_description": "Review and manage value sets for Oracle Middleware Extensions for Applications."
+    },
+    {
+      "sequence": 124,
+      "task_name": "Manage Applications Core Descriptive Flexfields",
+      "offering": "Financials",
+      "functional_area": "Application Extensions",
+      "task_code": "FND_MANAGE_APPLCORE_DESCRIPTIVE_FLEXFIELDS",
+      "skill_path": null,
+      "skill_selection": {
+        "status": "missing",
+        "selected_by": "FLAT_TASK_GUIDANCE_MISSING",
+        "candidates": [],
+        "context_relation": "missing",
+        "project_context": {
+          "offering": "Financials",
+          "functional_area": "Application Extensions"
+        },
+        "skill_context": null
+      },
+      "execution_mode": "manual",
+      "execution_route": "manual-tasks",
+      "execution_skill_path": "shared/common/manual-tasks/SKILL.md",
+      "match_status": "matched",
+      "match_reason": "No task skill or flat task guidance exists in FSCR; route this catalog task to the shared Manual Tasks skill.",
+      "business_objects": [],
+      "task_description": "Review and edit descriptive flexfields that are used for Oracle Middleware Extensions for Applications."
+    },
+    {
+      "sequence": 125,
+      "task_name": "Manage Applications Core Attachment Entities",
+      "offering": "Financials",
+      "functional_area": "Application Extensions",
+      "task_code": "FND_MANAGE_APPLICATIONS_CORE_ATTACHMENT_ENTITIES",
+      "skill_path": null,
+      "skill_selection": {
+        "status": "missing",
+        "selected_by": "FLAT_TASK_GUIDANCE_MISSING",
+        "candidates": [],
+        "context_relation": "missing",
+        "project_context": {
+          "offering": "Financials",
+          "functional_area": "Application Extensions"
+        },
+        "skill_context": null
+      },
+      "execution_mode": "manual",
+      "execution_route": "manual-tasks",
+      "execution_skill_path": "shared/common/manual-tasks/SKILL.md",
+      "match_status": "matched",
+      "match_reason": "No task skill or flat task guidance exists in FSCR; route this catalog task to the shared Manual Tasks skill.",
+      "business_objects": [],
+      "task_description": "Review and manage attachment entities for Oracle Middleware Extensions for Applications."
+    },
+    {
+      "sequence": 126,
+      "task_name": "Manage Applications Core Attachment Categories",
+      "offering": "Financials",
+      "functional_area": "Application Extensions",
+      "task_code": "FND_MANAGE_APPLICATIONS_CORE_ATTACHMENT_CATEGORIES",
+      "skill_path": null,
+      "skill_selection": {
+        "status": "missing",
+        "selected_by": "FLAT_TASK_GUIDANCE_MISSING",
+        "candidates": [],
+        "context_relation": "missing",
+        "project_context": {
+          "offering": "Financials",
+          "functional_area": "Application Extensions"
+        },
+        "skill_context": null
+      },
+      "execution_mode": "manual",
+      "execution_route": "manual-tasks",
+      "execution_skill_path": "shared/common/manual-tasks/SKILL.md",
+      "match_status": "matched",
+      "match_reason": "No task skill or flat task guidance exists in FSCR; route this catalog task to the shared Manual Tasks skill.",
+      "business_objects": [],
+      "task_description": "Review and manage attachment categories for Oracle Middleware Extensions for Applications."
+    },
+    {
+      "sequence": 127,
+      "task_name": "Manage Applications Core Global Search Configurations",
+      "offering": "Financials",
+      "functional_area": "Application Extensions",
+      "task_code": "ORA_FND_GLOBAL_SEARCH_CONFIGURATIONS",
+      "skill_path": "pillars/hcm/learning-management/learning-management-common/manage-applications-core-global-search-configurations.md",
+      "skill_selection": {
+        "status": "selected",
+        "selected_by": "LEXICOGRAPHIC_PATH",
+        "candidates": [
+          "pillars/hcm/learning-management/learning-management-common/manage-applications-core-global-search-configurations.md",
+          "pillars/hcm/recruiting/recruiting-common/manage-applications-core-global-search-configurations/SKILL.md"
+        ],
+        "context_relation": "unscoped-guidance",
+        "project_context": {
+          "offering": "Financials",
+          "functional_area": "Application Extensions"
+        },
+        "skill_context": null
+      },
+      "match_status": "matched",
+      "business_objects": []
+    },
+    {
+      "sequence": 128,
+      "task_name": "Manage Applications Core Global Search Suggestion Groups",
+      "offering": "Financials",
+      "functional_area": "Application Extensions",
+      "task_code": "ORA_FND_SUGGESTION_GROUPS",
+      "skill_path": "pillars/hcm/learning-management/learning-management-common/manage-applications-core-global-search-suggestion-groups.md",
+      "skill_selection": {
+        "status": "selected",
+        "selected_by": "LEXICOGRAPHIC_PATH",
+        "candidates": [
+          "pillars/hcm/learning-management/learning-management-common/manage-applications-core-global-search-suggestion-groups.md",
+          "pillars/hcm/recruiting/recruiting-common/manage-applications-core-global-search-suggestion-groups/SKILL.md"
+        ],
+        "context_relation": "unscoped-guidance",
+        "project_context": {
+          "offering": "Financials",
+          "functional_area": "Application Extensions"
+        },
+        "skill_context": null
+      },
+      "match_status": "matched",
+      "business_objects": []
+    },
+    {
+      "sequence": 129,
+      "task_name": "Migrate Enterprise Roles and Assignments to PaaS Identity Store",
+      "offering": "Financials",
+      "functional_area": "Application Extensions",
+      "task_code": "ORA_FND_MANAGE_ROLES_TO_SYNCHRONIZE",
+      "skill_path": null,
+      "skill_selection": {
+        "status": "missing",
+        "selected_by": "FLAT_TASK_GUIDANCE_MISSING",
+        "candidates": [],
+        "context_relation": "missing",
+        "project_context": {
+          "offering": "Financials",
+          "functional_area": "Application Extensions"
+        },
+        "skill_context": null
+      },
+      "execution_mode": "manual",
+      "execution_route": "manual-tasks",
+      "execution_skill_path": "shared/common/manual-tasks/SKILL.md",
+      "match_status": "matched",
+      "match_reason": "No task skill or flat task guidance exists in FSCR; route this catalog task to the shared Manual Tasks skill.",
+      "business_objects": [],
+      "task_description": "Select the enterprise roles to migrate from Oracle Fusion Applications to the PaaS identity store."
+    },
+    {
+      "sequence": 130,
+      "task_name": "Manage Configuration Set Migration Target Security Policy",
+      "offering": "Financials",
+      "functional_area": "Application Extensions",
+      "task_code": "ORA_FND_SET_CSM_TARGET_SECURITY",
+      "skill_path": "pillars/common/security-console/user-security-common/manage-configuration-set-migration-target-security-policy.md",
+      "skill_selection": {
+        "status": "selected",
+        "selected_by": "FLAT_TASK_GUIDANCE_FILE",
+        "candidates": [
+          "pillars/common/security-console/user-security-common/manage-configuration-set-migration-target-security-policy.md"
+        ],
+        "context_relation": "unscoped-guidance",
+        "project_context": {
+          "offering": "Financials",
+          "functional_area": "Application Extensions"
+        },
+        "skill_context": null
+      },
+      "match_status": "matched",
+      "business_objects": []
+    },
+    {
+      "sequence": 131,
+      "task_name": "Manage User Identity Synchronization to PaaS Identity Store",
+      "offering": "Financials",
+      "functional_area": "Application Extensions",
+      "task_code": "ORA_FND_USER_IDENTITY_SYNCHRONIZATION_REPORT",
+      "skill_path": null,
+      "skill_selection": {
+        "status": "missing",
+        "selected_by": "FLAT_TASK_GUIDANCE_MISSING",
+        "candidates": [],
+        "context_relation": "missing",
+        "project_context": {
+          "offering": "Financials",
+          "functional_area": "Application Extensions"
+        },
+        "skill_context": null
+      },
+      "execution_mode": "manual",
+      "execution_route": "manual-tasks",
+      "execution_skill_path": "shared/common/manual-tasks/SKILL.md",
+      "match_status": "matched",
+      "match_reason": "No task skill or flat task guidance exists in FSCR; route this catalog task to the shared Manual Tasks skill.",
+      "business_objects": [],
+      "task_description": "Synchronize PaaS user identities, review the results, and export the details to Excel."
+    },
+    {
+      "sequence": 132,
+      "task_name": "Configure Guided Learning",
+      "offering": "Financials",
+      "functional_area": "Application Extensions",
+      "task_code": "ORA_FND_GUIDED_LEARNING_ENABLED",
+      "skill_path": null,
+      "skill_selection": {
+        "status": "missing",
+        "selected_by": "FLAT_TASK_GUIDANCE_MISSING",
+        "candidates": [],
+        "context_relation": "missing",
+        "project_context": {
+          "offering": "Financials",
+          "functional_area": "Application Extensions"
+        },
+        "skill_context": null
+      },
+      "execution_mode": "manual",
+      "execution_route": "manual-tasks",
+      "execution_skill_path": "shared/common/manual-tasks/SKILL.md",
+      "match_status": "matched",
+      "match_reason": "No task skill or flat task guidance exists in FSCR; route this catalog task to the shared Manual Tasks skill.",
+      "business_objects": [],
+      "task_description": "Set up Oracle Custom Guided Learning Service to create in-app guidance that's personalized and contextual, to help onboard and train users."
+    },
+    {
+      "sequence": 133,
+      "task_name": "Manage Search Indexes",
+      "offering": "Financials",
+      "functional_area": "Application Extensions",
+      "task_code": "ORA_FND_MANAGE_INDEX_CONFIGURATION",
+      "skill_path": "pillars/hcm/learning-management/learning-management-common/manage-search-indexes.md",
+      "skill_selection": {
+        "status": "selected",
+        "selected_by": "LEXICOGRAPHIC_PATH",
+        "candidates": [
+          "pillars/hcm/learning-management/learning-management-common/manage-search-indexes.md",
+          "pillars/hcm/recruiting/recruiting-common/manage-search-indexes/SKILL.md"
+        ],
+        "context_relation": "unscoped-guidance",
+        "project_context": {
+          "offering": "Financials",
+          "functional_area": "Application Extensions"
+        },
+        "skill_context": null
+      },
+      "match_status": "matched",
+      "business_objects": []
+    },
+    {
+      "sequence": 134,
+      "task_name": "Manage Enterprise Scheduler Job Definitions and Job Sets for Financial, Supply Chain Management, and Related Applications",
+      "offering": "Grants Management",
+      "functional_area": "Application Extensions",
+      "task_code": "ORA_ATK_CUSTOM_ESS_FSCM",
+      "skill_path": null,
+      "skill_selection": {
+        "status": "missing",
+        "selected_by": "FLAT_TASK_GUIDANCE_MISSING",
+        "candidates": [],
+        "context_relation": "missing",
+        "project_context": {
+          "offering": "Grants Management",
+          "functional_area": "Application Extensions"
+        },
+        "skill_context": null
+      },
+      "execution_mode": "manual",
+      "execution_route": "manual-tasks",
+      "execution_skill_path": "shared/common/manual-tasks/SKILL.md",
+      "match_status": "matched",
+      "match_reason": "No task skill or flat task guidance exists in FSCR; route this catalog task to the shared Manual Tasks skill.",
+      "business_objects": [],
+      "task_description": "Manage the Enterprise Scheduler job definitions and job sets used for running scheduled processes, as well as the lists of values used for job definitions."
+    },
+    {
+      "sequence": 135,
+      "task_name": "Manage Billing Extensions",
+      "offering": "Grants Management",
+      "functional_area": "Application Extensions",
+      "task_code": "PJB_MANAGE_BILLING_EXTENSIONS",
+      "skill_path": null,
+      "skill_selection": {
+        "status": "missing",
+        "selected_by": "FLAT_TASK_GUIDANCE_MISSING",
+        "candidates": [],
+        "context_relation": "missing",
+        "project_context": {
+          "offering": "Grants Management",
+          "functional_area": "Application Extensions"
+        },
+        "skill_context": null
+      },
+      "execution_mode": "manual",
+      "execution_route": "manual-tasks",
+      "execution_skill_path": "shared/common/manual-tasks/SKILL.md",
+      "match_status": "matched",
+      "match_reason": "No task skill or flat task guidance exists in FSCR; route this catalog task to the shared Manual Tasks skill.",
+      "business_objects": [],
+      "task_description": "Specify when the billing extensions are called, which processes call them, and what information is required."
+    },
+    {
+      "sequence": 136,
+      "task_name": "Manage Revenue Methods: Billing Extension Assignments",
+      "offering": "Grants Management",
+      "functional_area": "Application Extensions",
+      "task_code": "PJB_MANAGE_REVENUE_METHOD_BILLING_EXTENSION_ASSIGNMENTS",
+      "skill_path": null,
+      "skill_selection": {
+        "status": "missing",
+        "selected_by": "FLAT_TASK_GUIDANCE_MISSING",
+        "candidates": [],
+        "context_relation": "missing",
+        "project_context": {
+          "offering": "Grants Management",
+          "functional_area": "Application Extensions"
+        },
+        "skill_context": null
+      },
+      "execution_mode": "manual",
+      "execution_route": "manual-tasks",
+      "execution_skill_path": "shared/common/manual-tasks/SKILL.md",
+      "match_status": "matched",
+      "match_reason": "No task skill or flat task guidance exists in FSCR; route this catalog task to the shared Manual Tasks skill.",
+      "business_objects": [],
+      "task_description": "Assign which billing extensions are used by each revenue method."
+    },
+    {
+      "sequence": 137,
+      "task_name": "Manage Invoice Methods: Billing Extension Assignments",
+      "offering": "Grants Management",
+      "functional_area": "Application Extensions",
+      "task_code": "PJB_MANAGE_INVOICE_METHOD_BILLING_EXTENSION_ASSIGNMENTS",
+      "skill_path": null,
+      "skill_selection": {
+        "status": "missing",
+        "selected_by": "FLAT_TASK_GUIDANCE_MISSING",
+        "candidates": [],
+        "context_relation": "missing",
+        "project_context": {
+          "offering": "Grants Management",
+          "functional_area": "Application Extensions"
+        },
+        "skill_context": null
+      },
+      "execution_mode": "manual",
+      "execution_route": "manual-tasks",
+      "execution_skill_path": "shared/common/manual-tasks/SKILL.md",
+      "match_status": "matched",
+      "match_reason": "No task skill or flat task guidance exists in FSCR; route this catalog task to the shared Manual Tasks skill.",
+      "business_objects": [],
+      "task_description": "Assign which billing extensions are used by each invoice method."
+    },
+    {
+      "sequence": 138,
+      "task_name": "Manage Project Process Configurator",
+      "offering": "Grants Management",
+      "functional_area": "Application Extensions",
+      "task_code": "ORA_PJF_MANAGE_PROJECT_PROC_CONFIGURATOR",
+      "skill_path": null,
+      "skill_selection": {
+        "status": "missing",
+        "selected_by": "FLAT_TASK_GUIDANCE_MISSING",
+        "candidates": [],
+        "context_relation": "missing",
+        "project_context": {
+          "offering": "Grants Management",
+          "functional_area": "Application Extensions"
+        },
+        "skill_context": null
+      },
+      "execution_mode": "manual",
+      "execution_route": "manual-tasks",
+      "execution_skill_path": "shared/common/manual-tasks/SKILL.md",
+      "match_status": "matched",
+      "match_reason": "No task skill or flat task guidance exists in FSCR; route this catalog task to the shared Manual Tasks skill.",
+      "business_objects": [],
+      "task_description": "Create and edit project process configurator to meet specific business requirements."
+    },
+    {
+      "sequence": 139,
+      "task_name": "Manage Digital Assistant",
+      "offering": "Grants Management",
+      "functional_area": "Application Extensions",
+      "task_code": "ORA_MANAGE_DIGITAL_ASSISTANT",
+      "skill_path": null,
+      "skill_selection": {
+        "status": "missing",
+        "selected_by": "FLAT_TASK_GUIDANCE_MISSING",
+        "candidates": [],
+        "context_relation": "missing",
+        "project_context": {
+          "offering": "Grants Management",
+          "functional_area": "Application Extensions"
+        },
+        "skill_context": null
+      },
+      "execution_mode": "manual",
+      "execution_route": "manual-tasks",
+      "execution_skill_path": "shared/common/manual-tasks/SKILL.md",
+      "match_status": "matched",
+      "match_reason": "No task skill or flat task guidance exists in FSCR; route this catalog task to the shared Manual Tasks skill.",
+      "business_objects": [],
+      "task_description": "Use the Oracle Digital Assistant platform to view and manage the digital assistant for Oracle Cloud"
+    },
+    {
+      "sequence": 140,
+      "task_name": "Manage User-Defined Rules for Project Management",
+      "offering": "Grants Management",
+      "functional_area": "Application Extensions",
+      "task_code": "ORA_PJF_MANAGE_USER_DEFINED_RULES",
+      "skill_path": null,
+      "skill_selection": {
+        "status": "missing",
+        "selected_by": "FLAT_TASK_GUIDANCE_MISSING",
+        "candidates": [],
+        "context_relation": "missing",
+        "project_context": {
+          "offering": "Grants Management",
+          "functional_area": "Application Extensions"
+        },
+        "skill_context": null
+      },
+      "execution_mode": "manual",
+      "execution_route": "manual-tasks",
+      "execution_skill_path": "shared/common/manual-tasks/SKILL.md",
+      "match_status": "matched",
+      "match_reason": "No task skill or flat task guidance exists in FSCR; route this catalog task to the shared Manual Tasks skill.",
+      "business_objects": [],
+      "task_description": "Use the Excel templates available on the Manage User-Defined Rules for Project Management page to configure business rules related to various Project Management business objects and processes. For example, configure rules to determine the initial status of project contract bill transactions, enabling project teams to manage transactions by exception."
+    },
+    {
+      "sequence": 141,
+      "task_name": "Manage Messages",
+      "offering": "Public Sector Business Licenses",
+      "functional_area": "Application Extensions",
+      "task_code": "FND_MANAGE_MESSAGES",
+      "skill_path": null,
+      "skill_selection": {
+        "status": "missing",
+        "selected_by": "FLAT_TASK_GUIDANCE_MISSING",
+        "candidates": [],
+        "context_relation": "missing",
+        "project_context": {
+          "offering": "Public Sector Business Licenses",
+          "functional_area": "Application Extensions"
+        },
+        "skill_context": null
+      },
+      "execution_mode": "manual",
+      "execution_route": "manual-tasks",
+      "execution_skill_path": "shared/common/manual-tasks/SKILL.md",
+      "match_status": "matched",
+      "match_reason": "No task skill or flat task guidance exists in FSCR; route this catalog task to the shared Manual Tasks skill.",
+      "business_objects": [],
+      "task_description": "Review and edit messages that are used in any specific application."
+    },
+    {
+      "sequence": 142,
+      "task_name": "Manage Attachment Entities",
+      "offering": "Public Sector Business Licenses",
+      "functional_area": "Application Extensions",
+      "task_code": "FND_MANAGE_ATTACHMENT_ENTITIES",
+      "skill_path": "pillars/hcm/recruiting/recruiting-common/manage-attachment-entities/SKILL.md",
+      "skill_selection": {
+        "status": "selected",
+        "selected_by": "EXACT_TASK_CODE_AND_NAME",
+        "candidates": [
+          "pillars/hcm/recruiting/recruiting-common/manage-attachment-entities/SKILL.md"
+        ],
+        "context_relation": "canonical-task-reuse",
+        "project_context": {
+          "offering": "Public Sector Business Licenses",
+          "functional_area": "Application Extensions"
+        },
+        "skill_context": {
+          "offering": "Recruiting",
+          "functional_area": "Recruiting Common"
+        },
+        "context_note": "The unique task-code-and-name skill is canonical and reusable across Oracle offering and functional-area contexts."
+      },
+      "match_status": "matched",
+      "business_objects": []
+    },
+    {
+      "sequence": 143,
+      "task_name": "Manage Attachment Categories",
+      "offering": "Public Sector Business Licenses",
+      "functional_area": "Application Extensions",
+      "task_code": "FND_MANAGE_ATTACHMENT_CATEGORIES",
+      "skill_path": "pillars/hcm/recruiting/recruiting-common/manage-attachment-categories/SKILL.md",
+      "skill_selection": {
+        "status": "selected",
+        "selected_by": "EXACT_TASK_CODE_AND_NAME",
+        "candidates": [
+          "pillars/hcm/recruiting/recruiting-common/manage-attachment-categories/SKILL.md"
+        ],
+        "context_relation": "canonical-task-reuse",
+        "project_context": {
+          "offering": "Public Sector Business Licenses",
+          "functional_area": "Application Extensions"
+        },
+        "skill_context": {
+          "offering": "Recruiting",
+          "functional_area": "Recruiting Common"
+        },
+        "context_note": "The unique task-code-and-name skill is canonical and reusable across Oracle offering and functional-area contexts."
+      },
+      "match_status": "matched",
+      "business_objects": []
+    },
+    {
+      "sequence": 144,
+      "task_name": "Enable Click to Dial",
+      "offering": "Fusion Accounting Hub",
+      "functional_area": "Application Extensions",
+      "task_code": "MCT_ENABLE_CLICK_TO_DIAL",
+      "skill_path": null,
+      "skill_selection": {
+        "status": "missing",
+        "selected_by": "FLAT_TASK_GUIDANCE_MISSING",
+        "candidates": [],
+        "context_relation": "missing",
+        "project_context": {
+          "offering": "Fusion Accounting Hub",
+          "functional_area": "Application Extensions"
+        },
+        "skill_context": null
+      },
+      "execution_mode": "manual",
+      "execution_route": "manual-tasks",
+      "execution_skill_path": "shared/common/manual-tasks/SKILL.md",
+      "match_status": "matched",
+      "match_reason": "No task skill or flat task guidance exists in FSCR; route this catalog task to the shared Manual Tasks skill.",
+      "business_objects": [],
+      "task_description": "Enable automated dialing by clicking a phone number."
+    }
+  ]
+}

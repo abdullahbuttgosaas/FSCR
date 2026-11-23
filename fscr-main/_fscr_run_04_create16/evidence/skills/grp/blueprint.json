@@ -1,0 +1,40 @@
+{
+  "evidenceUnresolvedUpdateOverrides": [],
+  "explicitDefaults": [],
+  "operations": [
+    {
+      "action": "create",
+      "entity": "AR_AI_GROUPING_RULE",
+      "id": "g1",
+      "preserveOtherValues": true,
+      "preserveUnspecifiedRows": true,
+      "targetKey": {
+        "Name": "FSCRT_GRP1"
+      },
+      "values": {
+        "Description": "FSCRT Run04 grouping rule",
+        "StartDate": "2026-11-03"
+      }
+    },
+    {
+      "action": "create",
+      "entity": "ORA_AR_AI_GRP_TXN_TYPE",
+      "id": "c1",
+      "preserveOtherValues": true,
+      "preserveUnspecifiedRows": true,
+      "targetKey": {
+        "AR_AI_GROUPING_RULE.Name": "FSCRT_GRP1",
+        "Class11": "I"
+      },
+      "values": {}
+    }
+  ],
+  "prerequisites": [],
+  "preservedValues": [],
+  "resolvedScope": {},
+  "task": {
+    "code": "AR_MANAGE_AUTOINVOICE_GROUPING_RULES",
+    "name": "Manage AutoInvoice Grouping Rules"
+  },
+  "warnings": []
+}

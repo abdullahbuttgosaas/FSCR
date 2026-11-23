@@ -1,0 +1,256 @@
+{
+ "term": "ZZRPT 9721",
+ "progress": [
+  {
+   "at": "2026-10-30T05:15:12+00:00",
+   "state": "running",
+   "text": "Receivables payment term 1 of 1",
+   "items": [
+    {
+     "name": "ZZRPT 9721",
+     "state": "running",
+     "text": null
+    }
+   ]
+  },
+  {
+   "at": "2026-10-30T05:17:34+00:00",
+   "state": "done",
+   "text": "Created 1 of 1 receivables payment term.",
+   "items": [
+    {
+     "name": "ZZRPT 9721",
+     "state": "done",
+     "text": "Created the Receivables payment term ZZRPT 9721 in set COMMON with 2 installments, and checked it in Oracle: every value as sent."
+    }
+   ]
+  }
+ ],
+ "console_errors": [],
+ "check_start": "2026-10-30T05:13:50+00:00",
+ "check_end": "2026-10-30T05:15:03+00:00",
+ "check_seconds": 73,
+ "check": {
+  "ok": true,
+  "stops": [],
+  "problems": [],
+  "notes": [],
+  "records": [
+   {
+    "name": "ZZRPT 9721",
+    "ok": true,
+    "skipped": null,
+    "summary": "Oracle will get: 2 installments: 50 in 30 days; 50 in 45 days. Base Amount 100, Print Lead Days 1, tax and freight: include in the first installment, discount basis: invoice amount, discount date basis: application date. Set COMMON (Common Set), name language US. From 2026-10-30. Also set: In Use No, Allow Discount on Partial Payments No, no billing cycle (not on the sheet).",
+    "fields": [
+     [
+      "Name",
+      "ZZRPT 9721",
+      "ZZRPT 9721",
+      null
+     ],
+     [
+      "Set Code",
+      "COMMON",
+      "COMMON (Common Set)",
+      null
+     ],
+     [
+      "Item Description",
+      "ZZ RPT test 9721",
+      "ZZ RPT test 9721",
+      null
+     ],
+     [
+      "From Date",
+      "2026-10-30",
+      "2026-10-30",
+      null
+     ],
+     [
+      "To Date",
+      null,
+      "(left empty)",
+      null
+     ],
+     [
+      "Base Amount",
+      null,
+      "100 (the installments are then percentages)",
+      "Filled in by the automation"
+     ],
+     [
+      "Print Lead Days",
+      "1",
+      "1",
+      null
+     ],
+     [
+      "Tax and Freight",
+      "Include in the first installment",
+      "Include in the first installment",
+      null
+     ],
+     [
+      "Discount Basis",
+      null,
+      "Invoice amount",
+      "Filled in by the automation"
+     ],
+     [
+      "Discount Date Basis",
+      null,
+      "Application date",
+      "Filled in by the automation"
+     ],
+     [
+      "Cutoff Day",
+      null,
+      "(left empty)",
+      null
+     ],
+     [
+      "Credit Check",
+      null,
+      "No",
+      "Filled in by the automation"
+     ],
+     [
+      "Prepayment",
+      null,
+      "No",
+      "Filled in by the automation"
+     ]
+    ]
+   }
+  ]
+ },
+ "create_start": "2026-10-30T05:15:04+00:00",
+ "job": "08f057a009",
+ "create_end": "2026-10-30T05:17:34+00:00",
+ "create_seconds": 149,
+ "job_final": {
+  "id": "08f057a009",
+  "folder": "Receivables Payment Terms",
+  "title": "Receivables payment term ZZRPT 9721",
+  "upload": "b3ddf3be57",
+  "state": "done",
+  "step": null,
+  "percent": 100,
+  "text": "Created 1 of 1 receivables payment term.",
+  "result": {
+   "ok": true,
+   "text": "Created 1 of 1 receivables payment term."
+  },
+  "ask": null,
+  "repairs": 0,
+  "done_lines": [],
+  "total": 1,
+  "items": [
+   {
+    "n": 1,
+    "name": "ZZRPT 9721",
+    "title": "Receivables payment term ZZRPT 9721",
+    "state": "done",
+    "repairs": 0,
+    "what": "receivables payment term",
+    "text": "Created the Receivables payment term ZZRPT 9721 in set COMMON with 2 installments, and checked it in Oracle: every value as sent.",
+    "created": {
+     "name": "ZZRPT 9721",
+     "set_code": "COMMON",
+     "description": "ZZ RPT test 9721",
+     "from_date": "2026-10-30",
+     "to_date": null,
+     "base_amount": "100",
+     "print_lead_days": "1",
+     "tax_freight": "Include in the first installment",
+     "discount_basis": "Invoice amount",
+     "discount_date_basis": "Application date",
+     "installments": [
+      {
+       "sequence": "1",
+       "relative_amount": "50",
+       "days": "30"
+      },
+      {
+       "sequence": "2",
+       "relative_amount": "50",
+       "days": "45"
+      }
+     ],
+     "discounts": []
+    },
+    "where": "Setup and Maintenance > Financials > Customer Billing > Manage Receivables Payment Terms, search for ZZRPT 9721 (set COMMON)",
+    "repaired": false
+   }
+  ],
+  "failed_sheet": false,
+  "created": 1,
+  "words": [
+   "receivables payment term"
+  ],
+  "questions": 0,
+  "failed_name": "Failed receivables payment terms.xlsx",
+  "summary": {
+   "numbers": {
+    "run": "08f057a009",
+    "started": "2026-10-30 10:15:12",
+    "ended": "2026-10-30 10:17:32",
+    "seconds": 140,
+    "check_seconds": 72,
+    "upload_file": "ZZRPT_9721.xlsx",
+    "from_failed_sheet": false,
+    "records": [
+     {
+      "n": 1,
+      "name": "ZZRPT 9721",
+      "what": "receivables payment term",
+      "state": "created",
+      "saved": null,
+      "registry_id": null,
+      "started": "2026-10-30 10:15:12",
+      "ended": "2026-10-30 10:17:32",
+      "seconds": 140
+     }
+    ],
+    "created": 1,
+    "skipped": 0,
+    "failed": 0,
+    "saved_not_checked": 0,
+    "repairs": [],
+    "repair_tokens": 0,
+    "repair_cost_usd": 0,
+    "questions": []
+   },
+   "sections": [
+    {
+     "heading": "Time",
+     "lines": [
+      "The whole run took 2 min 20 s (10:15 to 10:17).",
+      "ZZRPT 9721: 2 min 20 s (10:15 to 10:17).",
+      "Checking the sheet before Create took 1 min 12 s."
+     ]
+    },
+    {
+     "heading": "Results",
+     "lines": [
+      "Created: 1 of 1.",
+      "Failed: 0.",
+      "Saved but not fully checked: 0."
+     ]
+    },
+    {
+     "heading": "Repairs",
+     "lines": [
+      "No repairs. Claude was not used: 0 tokens, $0."
+     ]
+    },
+    {
+     "heading": null,
+     "lines": [
+      "Creating receivables payment terms uses no Claude tokens. Claude is only used when a run fails and an automatic repair starts."
+     ]
+    }
+   ]
+  }
+ }
+}

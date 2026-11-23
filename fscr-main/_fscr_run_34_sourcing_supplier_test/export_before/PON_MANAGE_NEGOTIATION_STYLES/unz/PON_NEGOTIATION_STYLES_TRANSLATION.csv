@@ -1,0 +1,5 @@
+"PON_NEGOTIATION_STYLES.StyleCode","StyleName","Description","Language","SourceLang","CreationDate","CreatedBy","LastUpdateDate","LastUpdatedBy","LastUpdateLogin"
+"Standard_Negotiation","Standard Negotiation","Standard negotiation style seeded in the sourcing application","US","US","2021/03/07 04:31:22.073","SEED_DATA_FROM_APPLICATION","2025/01/02 13:57:17.318501","SEED_DATA_FROM_APPLICATION","-1"
+"Simple_Negotiation","Simple Negotiation","Simple negotiation style seeded in the sourcing application","US","US","2021/03/07 04:31:22.588","SEED_DATA_FROM_APPLICATION","2025/01/02 13:57:17.318501","SEED_DATA_FROM_APPLICATION","-1"
+"ORA_Two_Stage_Negotiation","Two Stage Negotiation","Two stage negotiation style seeded in the sourcing application","US","US","2021/03/07 04:31:22.676","SEED_DATA_FROM_APPLICATION","2025/01/02 13:57:17.318501","SEED_DATA_FROM_APPLICATION","-1"
+"Zaynab two stage","Zaynab two stage style","","US","US","2026/07/21 15:40:29.063","Configuration","2026/07/21 15:42:40.488","Configuration","571DFC894FFB65D1E0631C65310AF9D6"

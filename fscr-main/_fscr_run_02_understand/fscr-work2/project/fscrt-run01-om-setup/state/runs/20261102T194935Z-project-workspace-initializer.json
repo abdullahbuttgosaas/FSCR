@@ -1,0 +1,41 @@
+{
+  "$schema": "../../../../schemas/skill-run.schema.json",
+  "run_id": "20261102T194935Z-project-workspace-initializer",
+  "skill_id": "core.project-mgmt.project-workspace-initializer",
+  "started_at": "2026-11-02T19:49:35Z",
+  "completed_at": "2026-11-02T19:49:35Z",
+  "status": "completed",
+  "inputs": [
+    "project_id=fscrt-run01-om-setup",
+    "project_name=FSCRT Run01 OM Setup",
+    "customer=GoSaaS",
+    "implementation_objective=FSCR capability test run 01: create OM and Financials test records on ETIA-TEST",
+    "workspace_root=project/fscrt-run01-om-setup"
+  ],
+  "outputs": [
+    "project_state",
+    "artifact_index",
+    "workspace_folder_structure",
+    "objective",
+    "project_readme",
+    "runbook_plan"
+  ],
+  "artifact_refs": [
+    "project/fscrt-run01-om-setup/state/project-state.json",
+    "project/fscrt-run01-om-setup/artifacts/artifact-index.json",
+    "project/fscrt-run01-om-setup/artifacts/router/project-objective-classifier/current/objective.json",
+    "project/fscrt-run01-om-setup/state/runs/20261102T194935Z-project-workspace-initializer.json",
+    "project/fscrt-run01-om-setup/README.md"
+  ],
+  "notes": "Initialized a local implementation project workspace from project/_template. Run Book creation is requested; the Run Book skill must create it from the persisted plan.",
+  "token_usage": {
+    "estimation_method": "chars/4 estimate",
+    "estimated_input_tokens": 193,
+    "estimated_output_tokens": 2496,
+    "estimated_total_tokens": 2689,
+    "artifacts_written": 6,
+    "files_read": 2,
+    "log_ref": "project\\fscrt-run01-om-setup\\artifacts\\shared\\token-usage\\current\\token-usage-log.md",
+    "notes": "Default token usage estimate for project workspace initialization."
+  }
+}

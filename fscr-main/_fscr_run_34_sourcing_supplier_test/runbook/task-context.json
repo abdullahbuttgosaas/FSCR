@@ -1,0 +1,2405 @@
+{
+  "schema_version": "1.0",
+  "tasks": [
+    {
+      "sequence": 1,
+      "task_name": "Manage Item Organizations",
+      "offering": "Procurement",
+      "functional_area": "Suppliers",
+      "task_code": "EGP_MANAGE_ITEM_ORGANIZATIONS",
+      "skill_path": "pillars/scm/manufacturing-and-supply-chain-materials-management/facilities/manage-item-organizations/SKILL.md",
+      "skill_selection": {
+        "status": "selected",
+        "selected_by": "EXACT_TASK_CODE_AND_NAME",
+        "candidates": [
+          "pillars/scm/manufacturing-and-supply-chain-materials-management/facilities/manage-item-organizations/SKILL.md"
+        ],
+        "context_relation": "canonical-task-reuse",
+        "project_context": {
+          "offering": "Procurement",
+          "functional_area": "Suppliers"
+        },
+        "skill_context": {
+          "offering": "Manufacturing and Supply Chain Materials Management",
+          "functional_area": "Facilities"
+        },
+        "context_note": "The unique task-code-and-name skill is canonical and reusable across Oracle offering and functional-area contexts."
+      },
+      "match_status": "matched",
+      "business_objects": [
+        "inventoryOrganizations"
+      ]
+    },
+    {
+      "sequence": 2,
+      "task_name": "Manage Supplier User Roles",
+      "offering": "Procurement",
+      "functional_area": "Supplier Portal",
+      "task_code": "POZ_MANAGE_SUPPLIER_USER_ROLES",
+      "skill_path": "pillars/scm/procurement/supplier-portal/manage-supplier-user-roles/SKILL.md",
+      "skill_selection": {
+        "status": "selected",
+        "selected_by": "EXACT_TASK_CODE_AND_NAME",
+        "candidates": [
+          "pillars/scm/procurement/supplier-portal/manage-supplier-user-roles/SKILL.md"
+        ],
+        "context_relation": "same-context",
+        "project_context": {
+          "offering": "Procurement",
+          "functional_area": "Supplier Portal"
+        },
+        "skill_context": {
+          "offering": "Procurement",
+          "functional_area": "Supplier Portal"
+        }
+      },
+      "match_status": "matched",
+      "business_objects": [
+        "supplierUserRoles"
+      ]
+    },
+    {
+      "sequence": 3,
+      "task_name": "Manage Supplier User Role Usages",
+      "offering": "Procurement",
+      "functional_area": "Supplier Portal",
+      "task_code": "POZ_MANAGE_SUPPLIER_USER_ROLE_USAGES",
+      "skill_path": "pillars/scm/procurement/supplier-portal/manage-supplier-user-role-usages/SKILL.md",
+      "skill_selection": {
+        "status": "selected",
+        "selected_by": "EXACT_TASK_CODE_AND_NAME",
+        "candidates": [
+          "pillars/scm/procurement/supplier-portal/manage-supplier-user-role-usages/SKILL.md"
+        ],
+        "context_relation": "same-context",
+        "project_context": {
+          "offering": "Procurement",
+          "functional_area": "Supplier Portal"
+        },
+        "skill_context": {
+          "offering": "Procurement",
+          "functional_area": "Supplier Portal"
+        }
+      },
+      "match_status": "matched",
+      "business_objects": [
+        "supplierUserRoles"
+      ]
+    },
+    {
+      "sequence": 4,
+      "task_name": "Specify Supplier Numbering",
+      "offering": "Procurement",
+      "functional_area": "Suppliers",
+      "task_code": "POZ_SPECIFY_SUPPLIER_NUMBERING",
+      "skill_path": "pillars/scm/procurement/suppliers/specify-supplier-numbering/SKILL.md",
+      "skill_selection": {
+        "status": "selected",
+        "selected_by": "EXACT_TASK_CODE_AND_NAME",
+        "candidates": [
+          "pillars/scm/procurement/suppliers/specify-supplier-numbering/SKILL.md"
+        ],
+        "context_relation": "same-context",
+        "project_context": {
+          "offering": "Procurement",
+          "functional_area": "Suppliers"
+        },
+        "skill_context": {
+          "offering": "Procurement",
+          "functional_area": "Suppliers"
+        }
+      },
+      "match_status": "matched",
+      "business_objects": [
+        "supplierNumberingInitializeSetup",
+        "supplierNumbering"
+      ]
+    },
+    {
+      "sequence": 5,
+      "task_name": "Manage Supplier Type Lookup",
+      "offering": "Procurement",
+      "functional_area": "Suppliers",
+      "task_code": "POZ_MANAGE_SUPPLIER_TYPE_LOOKUP",
+      "skill_path": "pillars/scm/procurement/suppliers/manage-supplier-type-lookup/SKILL.md",
+      "skill_selection": {
+        "status": "selected",
+        "selected_by": "EXACT_TASK_CODE_AND_NAME",
+        "candidates": [
+          "pillars/scm/procurement/suppliers/manage-supplier-type-lookup/SKILL.md"
+        ],
+        "context_relation": "same-context",
+        "project_context": {
+          "offering": "Procurement",
+          "functional_area": "Suppliers"
+        },
+        "skill_context": {
+          "offering": "Procurement",
+          "functional_area": "Suppliers"
+        }
+      },
+      "match_status": "matched",
+      "business_objects": []
+    },
+    {
+      "sequence": 6,
+      "task_name": "Manage Tax Organization Type Lookup",
+      "offering": "Procurement",
+      "functional_area": "Suppliers",
+      "task_code": "POZ_MANAGE_TAX_ORGANIZATION_TYPE_LOOKUP",
+      "skill_path": "pillars/scm/procurement/suppliers/manage-tax-organization-type-lookup/SKILL.md",
+      "skill_selection": {
+        "status": "selected",
+        "selected_by": "EXACT_TASK_CODE_AND_NAME",
+        "candidates": [
+          "pillars/scm/procurement/suppliers/manage-tax-organization-type-lookup/SKILL.md"
+        ],
+        "context_relation": "same-context",
+        "project_context": {
+          "offering": "Procurement",
+          "functional_area": "Suppliers"
+        },
+        "skill_context": {
+          "offering": "Procurement",
+          "functional_area": "Suppliers"
+        }
+      },
+      "match_status": "matched",
+      "business_objects": []
+    },
+    {
+      "sequence": 7,
+      "task_name": "Manage Supplier Profile Options",
+      "offering": "Procurement",
+      "functional_area": "Suppliers",
+      "task_code": "ORA_POZ_MANAGE_SUPPLIER_PROFILE_OPTIONS",
+      "skill_path": "pillars/scm/procurement/suppliers/manage-supplier-profile-options/SKILL.md",
+      "skill_selection": {
+        "status": "selected",
+        "selected_by": "EXACT_TASK_CODE_AND_NAME",
+        "candidates": [
+          "pillars/scm/procurement/suppliers/manage-supplier-profile-options/SKILL.md"
+        ],
+        "context_relation": "same-context",
+        "project_context": {
+          "offering": "Procurement",
+          "functional_area": "Suppliers"
+        },
+        "skill_context": {
+          "offering": "Procurement",
+          "functional_area": "Suppliers"
+        }
+      },
+      "match_status": "matched",
+      "business_objects": []
+    },
+    {
+      "sequence": 8,
+      "task_name": "Manage Supplier Products and Services Category Hierarchy",
+      "offering": "Procurement",
+      "functional_area": "Suppliers",
+      "task_code": "POR_MANAGE_SUPPLIER_PRODUCTS_AND_SERVICES_CATEGORY_HIERARCHY",
+      "skill_path": "pillars/scm/procurement/suppliers/manage-supplier-products-and-services-category-hierarchy/SKILL.md",
+      "skill_selection": {
+        "status": "selected",
+        "selected_by": "EXACT_TASK_CODE_AND_NAME",
+        "candidates": [
+          "pillars/scm/procurement/suppliers/manage-supplier-products-and-services-category-hierarchy/SKILL.md"
+        ],
+        "context_relation": "same-context",
+        "project_context": {
+          "offering": "Procurement",
+          "functional_area": "Suppliers"
+        },
+        "skill_context": {
+          "offering": "Procurement",
+          "functional_area": "Suppliers"
+        }
+      },
+      "match_status": "matched",
+      "business_objects": []
+    },
+    {
+      "sequence": 9,
+      "task_name": "Manage Supplier Value Sets",
+      "offering": "Procurement",
+      "functional_area": "Suppliers",
+      "task_code": "POZ_MANAGE_SUPPLIER_VALUE_SETS",
+      "skill_path": "pillars/scm/procurement/suppliers/manage-supplier-value-sets/SKILL.md",
+      "skill_selection": {
+        "status": "selected",
+        "selected_by": "EXACT_TASK_CODE_AND_NAME",
+        "candidates": [
+          "pillars/scm/procurement/suppliers/manage-supplier-value-sets/SKILL.md"
+        ],
+        "context_relation": "same-context",
+        "project_context": {
+          "offering": "Procurement",
+          "functional_area": "Suppliers"
+        },
+        "skill_context": {
+          "offering": "Procurement",
+          "functional_area": "Suppliers"
+        }
+      },
+      "match_status": "matched",
+      "business_objects": []
+    },
+    {
+      "sequence": 10,
+      "task_name": "Manage Supplier Descriptive Flexfields",
+      "offering": "Procurement",
+      "functional_area": "Suppliers",
+      "task_code": "POZ_MANAGE_SUPPLIER_DESCRIPTIVE_FLEXFIELDS",
+      "skill_path": "pillars/scm/procurement/suppliers/manage-supplier-descriptive-flexfields/SKILL.md",
+      "skill_selection": {
+        "status": "selected",
+        "selected_by": "EXACT_TASK_CODE_AND_NAME",
+        "candidates": [
+          "pillars/scm/procurement/suppliers/manage-supplier-descriptive-flexfields/SKILL.md"
+        ],
+        "context_relation": "same-context",
+        "project_context": {
+          "offering": "Procurement",
+          "functional_area": "Suppliers"
+        },
+        "skill_context": {
+          "offering": "Procurement",
+          "functional_area": "Suppliers"
+        }
+      },
+      "match_status": "matched",
+      "business_objects": []
+    },
+    {
+      "sequence": 11,
+      "task_name": "Manage Supplier Bank Account Descriptive Flexfields",
+      "offering": "Procurement",
+      "functional_area": "Suppliers",
+      "task_code": "ORA_MANAGE_SUPPLIER_BANK_ACCOUNT_DESCRIPTIVE_FLEXFIELDS",
+      "skill_path": "pillars/scm/procurement/suppliers/manage-supplier-bank-account-descriptive-flexfields/SKILL.md",
+      "skill_selection": {
+        "status": "selected",
+        "selected_by": "EXACT_TASK_CODE_AND_NAME",
+        "candidates": [
+          "pillars/scm/procurement/suppliers/manage-supplier-bank-account-descriptive-flexfields/SKILL.md"
+        ],
+        "context_relation": "same-context",
+        "project_context": {
+          "offering": "Procurement",
+          "functional_area": "Suppliers"
+        },
+        "skill_context": {
+          "offering": "Procurement",
+          "functional_area": "Suppliers"
+        }
+      },
+      "match_status": "matched",
+      "business_objects": []
+    },
+    {
+      "sequence": 12,
+      "task_name": "Manage Supplier Messages",
+      "offering": "Procurement",
+      "functional_area": "Suppliers",
+      "task_code": "ORA_POZ_MANAGE_SUPPLIER_MESSAGES",
+      "skill_path": "pillars/scm/procurement/suppliers/manage-supplier-messages/SKILL.md",
+      "skill_selection": {
+        "status": "selected",
+        "selected_by": "EXACT_TASK_CODE_AND_NAME",
+        "candidates": [
+          "pillars/scm/procurement/suppliers/manage-supplier-messages/SKILL.md"
+        ],
+        "context_relation": "same-context",
+        "project_context": {
+          "offering": "Procurement",
+          "functional_area": "Suppliers"
+        },
+        "skill_context": {
+          "offering": "Procurement",
+          "functional_area": "Suppliers"
+        }
+      },
+      "match_status": "matched",
+      "business_objects": []
+    },
+    {
+      "sequence": 13,
+      "task_name": "Configure Supplier Outbound Synchronization Service",
+      "offering": "Procurement",
+      "functional_area": "Suppliers",
+      "task_code": "ORA_POZ_CONFIGURE_SUPPLIER_OUTBOUND_SYNCHRONIZATION_SERVICE",
+      "skill_path": "pillars/scm/procurement/suppliers/configure-supplier-outbound-synchronization-service.md",
+      "skill_selection": {
+        "status": "selected",
+        "selected_by": "FLAT_TASK_GUIDANCE_FILE",
+        "candidates": [
+          "pillars/scm/procurement/suppliers/configure-supplier-outbound-synchronization-service.md"
+        ],
+        "context_relation": "unscoped-guidance",
+        "project_context": {
+          "offering": "Procurement",
+          "functional_area": "Suppliers"
+        },
+        "skill_context": null
+      },
+      "match_status": "matched",
+      "business_objects": []
+    },
+    {
+      "sequence": 14,
+      "task_name": "Configure Supplier Registration",
+      "offering": "Procurement",
+      "functional_area": "Suppliers",
+      "task_code": "POZ_CONFIGURE_SUPPLIER_REGISTRATION",
+      "skill_path": "pillars/scm/procurement/suppliers/configure-supplier-registration/SKILL.md",
+      "skill_selection": {
+        "status": "selected",
+        "selected_by": "EXACT_TASK_CODE_AND_NAME",
+        "candidates": [
+          "pillars/scm/procurement/suppliers/configure-supplier-registration/SKILL.md"
+        ],
+        "context_relation": "same-context",
+        "project_context": {
+          "offering": "Procurement",
+          "functional_area": "Suppliers"
+        },
+        "skill_context": {
+          "offering": "Procurement",
+          "functional_area": "Suppliers"
+        }
+      },
+      "match_status": "matched",
+      "business_objects": [
+        "supplierEntityConfigurations",
+        "supplierOptions"
+      ]
+    },
+    {
+      "sequence": 15,
+      "task_name": "Configure Supplier Profile Change Request",
+      "offering": "Procurement",
+      "functional_area": "Suppliers",
+      "task_code": "ORA_POZ_CONFIGURE_SUPPLIER_PROFILE_CHANGE_REQUEST",
+      "skill_path": "pillars/scm/procurement/suppliers/configure-supplier-profile-change-request/SKILL.md",
+      "skill_selection": {
+        "status": "selected",
+        "selected_by": "EXACT_TASK_CODE_AND_NAME",
+        "candidates": [
+          "pillars/scm/procurement/suppliers/configure-supplier-profile-change-request/SKILL.md"
+        ],
+        "context_relation": "same-context",
+        "project_context": {
+          "offering": "Procurement",
+          "functional_area": "Suppliers"
+        },
+        "skill_context": {
+          "offering": "Procurement",
+          "functional_area": "Suppliers"
+        }
+      },
+      "match_status": "matched",
+      "business_objects": [
+        "supplierEntityConfigurations",
+        "supplierOptions"
+      ]
+    },
+    {
+      "sequence": 16,
+      "task_name": "Configure New Supplier Notification",
+      "offering": "Procurement",
+      "functional_area": "Suppliers",
+      "task_code": "ORA_POZ_CONFIGURE_NEW_SUPPLIER_NOTIFICATION",
+      "skill_path": "pillars/scm/procurement/suppliers/configure-new-supplier-notification/SKILL.md",
+      "skill_selection": {
+        "status": "selected",
+        "selected_by": "EXACT_TASK_CODE_AND_NAME",
+        "candidates": [
+          "pillars/scm/procurement/suppliers/configure-new-supplier-notification/SKILL.md"
+        ],
+        "context_relation": "same-context",
+        "project_context": {
+          "offering": "Procurement",
+          "functional_area": "Suppliers"
+        },
+        "skill_context": {
+          "offering": "Procurement",
+          "functional_area": "Suppliers"
+        }
+      },
+      "match_status": "matched",
+      "business_objects": [
+        "supplierOptions",
+        "newSupplierNotification"
+      ]
+    },
+    {
+      "sequence": 17,
+      "task_name": "Manage Integration with Oracle Verification Services",
+      "offering": "Procurement",
+      "functional_area": "Suppliers",
+      "task_code": "ORA_MANAGE_ADDRESS_VERIFICATION_CLOUD_TO_CX_CLOUD_INTEGRATION",
+      "skill_path": null,
+      "skill_selection": {
+        "status": "missing",
+        "selected_by": "FLAT_TASK_GUIDANCE_MISSING",
+        "candidates": [],
+        "context_relation": "missing",
+        "project_context": {
+          "offering": "Procurement",
+          "functional_area": "Suppliers"
+        },
+        "skill_context": null
+      },
+      "execution_mode": "manual",
+      "execution_route": "manual-tasks",
+      "execution_skill_path": "shared/common/manual-tasks/SKILL.md",
+      "match_status": "matched",
+      "match_reason": "No task skill or flat task guidance exists in FSCR; route this catalog task to the shared Manual Tasks skill.",
+      "business_objects": [],
+      "task_description": "Establish Oracle Verification Services for Address, Phone and Email verification with CX Cloud Integration."
+    },
+    {
+      "sequence": 18,
+      "task_name": "Manage Supplier Registration Value Sets",
+      "offering": "Procurement",
+      "functional_area": "Suppliers",
+      "task_code": "POZ_MANAGE_SUPPLIER_REGISTRATION_VALUE_SETS",
+      "skill_path": "pillars/scm/procurement/suppliers/manage-supplier-registration-value-sets/SKILL.md",
+      "skill_selection": {
+        "status": "selected",
+        "selected_by": "EXACT_TASK_CODE_AND_NAME",
+        "candidates": [
+          "pillars/scm/procurement/suppliers/manage-supplier-registration-value-sets/SKILL.md"
+        ],
+        "context_relation": "same-context",
+        "project_context": {
+          "offering": "Procurement",
+          "functional_area": "Suppliers"
+        },
+        "skill_context": {
+          "offering": "Procurement",
+          "functional_area": "Suppliers"
+        }
+      },
+      "match_status": "matched",
+      "business_objects": []
+    },
+    {
+      "sequence": 19,
+      "task_name": "Manage Supplier Registration Descriptive Flexfields",
+      "offering": "Procurement",
+      "functional_area": "Suppliers",
+      "task_code": "POZ_MANAGE_SUPPLIER_REGISTRATION_DESCRIPTIVE_FLEXFIELDS",
+      "skill_path": "pillars/scm/procurement/suppliers/manage-supplier-registration-descriptive-flexfields/SKILL.md",
+      "skill_selection": {
+        "status": "selected",
+        "selected_by": "EXACT_TASK_CODE_AND_NAME",
+        "candidates": [
+          "pillars/scm/procurement/suppliers/manage-supplier-registration-descriptive-flexfields/SKILL.md"
+        ],
+        "context_relation": "same-context",
+        "project_context": {
+          "offering": "Procurement",
+          "functional_area": "Suppliers"
+        },
+        "skill_context": {
+          "offering": "Procurement",
+          "functional_area": "Suppliers"
+        }
+      },
+      "match_status": "matched",
+      "business_objects": []
+    },
+    {
+      "sequence": 20,
+      "task_name": "Manage Trading Community Person Descriptive Flexfields",
+      "offering": "Procurement",
+      "functional_area": "Suppliers",
+      "task_code": "HZ_MANAGE_TRADING_COMMUNITY_PERSON_DESCRIPTIVE_FLEXFIELDS",
+      "skill_path": "pillars/cx/customer-data-management/trading-community-foundation/manage-trading-community-person-descriptive-flexfields/SKILL.md",
+      "skill_selection": {
+        "status": "selected",
+        "selected_by": "EXACT_TASK_CODE_AND_NAME",
+        "candidates": [
+          "pillars/cx/customer-data-management/trading-community-foundation/manage-trading-community-person-descriptive-flexfields/SKILL.md"
+        ],
+        "context_relation": "canonical-task-reuse",
+        "project_context": {
+          "offering": "Procurement",
+          "functional_area": "Suppliers"
+        },
+        "skill_context": {
+          "offering": "Customer Data Management",
+          "functional_area": "Trading Community Foundation"
+        },
+        "context_note": "The unique task-code-and-name skill is canonical and reusable across Oracle offering and functional-area contexts."
+      },
+      "match_status": "matched",
+      "business_objects": []
+    },
+    {
+      "sequence": 21,
+      "task_name": "Manage Trading Community Organization Site Descriptive Flexfields",
+      "offering": "Procurement",
+      "functional_area": "Suppliers",
+      "task_code": "HZ_TRADING_COMMUNITY_ORGANIZATION_SITE_DESC_FLEXFIELDS",
+      "skill_path": "pillars/cx/customer-data-management/trading-community-foundation/manage-trading-community-organization-site-descriptive-flexfields/SKILL.md",
+      "skill_selection": {
+        "status": "selected",
+        "selected_by": "EXACT_TASK_CODE_AND_NAME",
+        "candidates": [
+          "pillars/cx/customer-data-management/trading-community-foundation/manage-trading-community-organization-site-descriptive-flexfields/SKILL.md"
+        ],
+        "context_relation": "canonical-task-reuse",
+        "project_context": {
+          "offering": "Procurement",
+          "functional_area": "Suppliers"
+        },
+        "skill_context": {
+          "offering": "Customer Data Management",
+          "functional_area": "Trading Community Foundation"
+        },
+        "context_note": "The unique task-code-and-name skill is canonical and reusable across Oracle offering and functional-area contexts."
+      },
+      "match_status": "matched",
+      "business_objects": []
+    },
+    {
+      "sequence": 22,
+      "task_name": "Configure Party Relationships for Supplier Match",
+      "offering": "Procurement",
+      "functional_area": "Suppliers",
+      "task_code": "ORA_POZ_CONFIGURE_PARTY_RELATIONSHIPS_FOR_SUPPLIER_MATCH",
+      "skill_path": null,
+      "skill_selection": {
+        "status": "missing",
+        "selected_by": "FLAT_TASK_GUIDANCE_MISSING",
+        "candidates": [],
+        "context_relation": "missing",
+        "project_context": {
+          "offering": "Procurement",
+          "functional_area": "Suppliers"
+        },
+        "skill_context": null
+      },
+      "execution_mode": "manual",
+      "execution_route": "manual-tasks",
+      "execution_skill_path": "shared/common/manual-tasks/SKILL.md",
+      "match_status": "matched",
+      "match_reason": "No task skill or flat task guidance exists in FSCR; route this catalog task to the shared Manual Tasks skill.",
+      "business_objects": [],
+      "task_description": "Configure party relationships for matching suppliers during deduplication process."
+    },
+    {
+      "sequence": 23,
+      "task_name": "Manage Server Configurations",
+      "offering": "Procurement",
+      "functional_area": "Suppliers",
+      "task_code": "ZCQ_MANAGE_SERVER_CONFIGURATIONS",
+      "skill_path": "pillars/cx/customer-data-management/data-quality-foundation/manage-server-configurations/SKILL.md",
+      "skill_selection": {
+        "status": "selected",
+        "selected_by": "EXACT_TASK_CODE_AND_NAME",
+        "candidates": [
+          "pillars/cx/customer-data-management/data-quality-foundation/manage-server-configurations/SKILL.md"
+        ],
+        "context_relation": "canonical-task-reuse",
+        "project_context": {
+          "offering": "Procurement",
+          "functional_area": "Suppliers"
+        },
+        "skill_context": {
+          "offering": "Customer Data Management",
+          "functional_area": "Data Quality Foundation"
+        },
+        "context_note": "The unique task-code-and-name skill is canonical and reusable across Oracle offering and functional-area contexts."
+      },
+      "match_status": "matched",
+      "business_objects": []
+    },
+    {
+      "sequence": 24,
+      "task_name": "Manage Enterprise Data Quality Matching Configurations",
+      "offering": "Procurement",
+      "functional_area": "Suppliers",
+      "task_code": "ORA_ZCQ_EDQ_MATCH_CONFIGURATIONS",
+      "skill_path": null,
+      "skill_selection": {
+        "status": "missing",
+        "selected_by": "FLAT_TASK_GUIDANCE_MISSING",
+        "candidates": [],
+        "context_relation": "missing",
+        "project_context": {
+          "offering": "Procurement",
+          "functional_area": "Suppliers"
+        },
+        "skill_context": null
+      },
+      "execution_mode": "manual",
+      "execution_route": "manual-tasks",
+      "execution_skill_path": "shared/common/manual-tasks/SKILL.md",
+      "match_status": "matched",
+      "match_reason": "No task skill or flat task guidance exists in FSCR; route this catalog task to the shared Manual Tasks skill.",
+      "business_objects": [],
+      "task_description": "Allows management of matching configurations associated with enterprise data quality integration."
+    },
+    {
+      "sequence": 25,
+      "task_name": "Manage Business Classification Lookup",
+      "offering": "Procurement",
+      "functional_area": "Suppliers",
+      "task_code": "POZ_MANAGE_BUSINESS_CLASSIFICATION_LOOKUP",
+      "skill_path": "pillars/scm/procurement/suppliers/manage-business-classification-lookup/SKILL.md",
+      "skill_selection": {
+        "status": "selected",
+        "selected_by": "EXACT_TASK_CODE_AND_NAME",
+        "candidates": [
+          "pillars/scm/procurement/suppliers/manage-business-classification-lookup/SKILL.md"
+        ],
+        "context_relation": "same-context",
+        "project_context": {
+          "offering": "Procurement",
+          "functional_area": "Suppliers"
+        },
+        "skill_context": {
+          "offering": "Procurement",
+          "functional_area": "Suppliers"
+        }
+      },
+      "match_status": "matched",
+      "business_objects": []
+    },
+    {
+      "sequence": 26,
+      "task_name": "Manage Minority Group Lookup",
+      "offering": "Procurement",
+      "functional_area": "Suppliers",
+      "task_code": "POZ_MANAGE_MINORITY_GROUP_LOOKUP",
+      "skill_path": "pillars/scm/procurement/suppliers/manage-minority-group-lookup/SKILL.md",
+      "skill_selection": {
+        "status": "selected",
+        "selected_by": "EXACT_TASK_CODE_AND_NAME",
+        "candidates": [
+          "pillars/scm/procurement/suppliers/manage-minority-group-lookup/SKILL.md"
+        ],
+        "context_relation": "same-context",
+        "project_context": {
+          "offering": "Procurement",
+          "functional_area": "Suppliers"
+        },
+        "skill_context": {
+          "offering": "Procurement",
+          "functional_area": "Suppliers"
+        }
+      },
+      "match_status": "matched",
+      "business_objects": []
+    },
+    {
+      "sequence": 27,
+      "task_name": "Manage Certifying Agencies",
+      "offering": "Procurement",
+      "functional_area": "Suppliers",
+      "task_code": "ORA_POZ_MANAGE_CERTIFYING_AGENCIES",
+      "skill_path": "pillars/scm/procurement/suppliers/manage-certifying-agencies/SKILL.md",
+      "skill_selection": {
+        "status": "selected",
+        "selected_by": "EXACT_TASK_CODE_AND_NAME",
+        "candidates": [
+          "pillars/scm/procurement/suppliers/manage-certifying-agencies/SKILL.md"
+        ],
+        "context_relation": "same-context",
+        "project_context": {
+          "offering": "Procurement",
+          "functional_area": "Suppliers"
+        },
+        "skill_context": {
+          "offering": "Procurement",
+          "functional_area": "Suppliers"
+        }
+      },
+      "match_status": "matched",
+      "business_objects": [
+        "certifyingAgencies"
+      ]
+    },
+    {
+      "sequence": 28,
+      "task_name": "Manage Address Formats",
+      "offering": "Procurement",
+      "functional_area": "Suppliers",
+      "task_code": "HZ_MANAGE_ADDRESS_FORMATS",
+      "skill_path": "pillars/cx/customer-data-management/trading-community-foundation/manage-address-formats/SKILL.md",
+      "skill_selection": {
+        "status": "selected",
+        "selected_by": "EXACT_TASK_CODE_AND_NAME",
+        "candidates": [
+          "pillars/cx/customer-data-management/trading-community-foundation/manage-address-formats/SKILL.md"
+        ],
+        "context_relation": "canonical-task-reuse",
+        "project_context": {
+          "offering": "Procurement",
+          "functional_area": "Suppliers"
+        },
+        "skill_context": {
+          "offering": "Customer Data Management",
+          "functional_area": "Trading Community Foundation"
+        },
+        "context_note": "The unique task-code-and-name skill is canonical and reusable across Oracle offering and functional-area contexts."
+      },
+      "match_status": "matched",
+      "business_objects": []
+    },
+    {
+      "sequence": 29,
+      "task_name": "Manage Collaboration Messaging Service Providers",
+      "offering": "Procurement",
+      "functional_area": "Suppliers",
+      "task_code": "ORA_CMK_COLLAB_MESG_SERVICE_PROVIDER",
+      "skill_path": "pillars/scm/procurement/suppliers/manage-collaboration-messaging-service-providers/SKILL.md",
+      "skill_selection": {
+        "status": "selected",
+        "selected_by": "EXACT_TASK_CODE_AND_NAME",
+        "candidates": [
+          "pillars/scm/procurement/suppliers/manage-collaboration-messaging-service-providers/SKILL.md"
+        ],
+        "context_relation": "same-context",
+        "project_context": {
+          "offering": "Procurement",
+          "functional_area": "Suppliers"
+        },
+        "skill_context": {
+          "offering": "Procurement",
+          "functional_area": "Suppliers"
+        }
+      },
+      "match_status": "matched",
+      "business_objects": []
+    },
+    {
+      "sequence": 30,
+      "task_name": "Manage Collaboration Messaging Domain Value Map",
+      "offering": "Procurement",
+      "functional_area": "Suppliers",
+      "task_code": "ORA_CMK_MANAGE_COLLAB_MESG_DVM",
+      "skill_path": null,
+      "skill_selection": {
+        "status": "missing",
+        "selected_by": "FLAT_TASK_GUIDANCE_MISSING",
+        "candidates": [],
+        "context_relation": "missing",
+        "project_context": {
+          "offering": "Procurement",
+          "functional_area": "Suppliers"
+        },
+        "skill_context": null
+      },
+      "execution_mode": "manual",
+      "execution_route": "manual-tasks",
+      "execution_skill_path": "shared/common/manual-tasks/SKILL.md",
+      "match_status": "matched",
+      "match_reason": "No task skill or flat task guidance exists in FSCR; route this catalog task to the shared Manual Tasks skill.",
+      "business_objects": [],
+      "task_description": "Populate the domain value maps that are setup for documents processed by the collaboration messaging framework."
+    },
+    {
+      "sequence": 31,
+      "task_name": "Manage Task Configurations for Supply Chain Management",
+      "offering": "Procurement",
+      "functional_area": "Suppliers",
+      "task_code": "INV_MANAGE_TASK_CONFIGURATIONS",
+      "skill_path": null,
+      "skill_selection": {
+        "status": "missing",
+        "selected_by": "FLAT_TASK_GUIDANCE_MISSING",
+        "candidates": [],
+        "context_relation": "missing",
+        "project_context": {
+          "offering": "Procurement",
+          "functional_area": "Suppliers"
+        },
+        "skill_context": null
+      },
+      "execution_mode": "manual",
+      "execution_route": "manual-tasks",
+      "execution_skill_path": "shared/common/manual-tasks/SKILL.md",
+      "match_status": "matched",
+      "match_reason": "No task skill or flat task guidance exists in FSCR; route this catalog task to the shared Manual Tasks skill.",
+      "business_objects": [],
+      "task_description": "Review and edit approval flow rules for workflow tasks."
+    },
+    {
+      "sequence": 32,
+      "task_name": "Manage B2B Configuration",
+      "offering": "Procurement",
+      "functional_area": "Suppliers",
+      "task_code": "ORA_CMK_MANAGE_B2B_CONFIG",
+      "skill_path": null,
+      "skill_selection": {
+        "status": "missing",
+        "selected_by": "FLAT_TASK_GUIDANCE_MISSING",
+        "candidates": [],
+        "context_relation": "missing",
+        "project_context": {
+          "offering": "Procurement",
+          "functional_area": "Suppliers"
+        },
+        "skill_context": null
+      },
+      "execution_mode": "manual",
+      "execution_route": "manual-tasks",
+      "execution_skill_path": "shared/common/manual-tasks/SKILL.md",
+      "match_status": "matched",
+      "match_reason": "No task skill or flat task guidance exists in FSCR; route this catalog task to the shared Manual Tasks skill.",
+      "business_objects": [],
+      "task_description": "Manage B2B e-commerce gateway setups in Oracle B2B console."
+    },
+    {
+      "sequence": 33,
+      "task_name": "Manage Simplified Collaboration Messaging Configuration",
+      "offering": "Procurement",
+      "functional_area": "Suppliers",
+      "task_code": "ORA_CMK_MNGE_SIMPLIFIED_COLLAB_MSG_CONFIG",
+      "skill_path": "pillars/scm/procurement/suppliers/manage-simplified-collaboration-messaging-configuration/SKILL.md",
+      "skill_selection": {
+        "status": "selected",
+        "selected_by": "EXACT_TASK_CODE_AND_NAME",
+        "candidates": [
+          "pillars/scm/procurement/suppliers/manage-simplified-collaboration-messaging-configuration/SKILL.md"
+        ],
+        "context_relation": "same-context",
+        "project_context": {
+          "offering": "Procurement",
+          "functional_area": "Suppliers"
+        },
+        "skill_context": {
+          "offering": "Procurement",
+          "functional_area": "Suppliers"
+        }
+      },
+      "match_status": "matched",
+      "business_objects": []
+    },
+    {
+      "sequence": 34,
+      "task_name": "Upload Supplier Import File",
+      "offering": "Procurement",
+      "functional_area": "Suppliers",
+      "task_code": "ORA_POZ_UPLOAD_SUPPLIER_IMPORT_FILE",
+      "skill_path": null,
+      "skill_selection": {
+        "status": "missing",
+        "selected_by": "FLAT_TASK_GUIDANCE_MISSING",
+        "candidates": [],
+        "context_relation": "missing",
+        "project_context": {
+          "offering": "Procurement",
+          "functional_area": "Suppliers"
+        },
+        "skill_context": null
+      },
+      "execution_mode": "manual",
+      "execution_route": "manual-tasks",
+      "execution_skill_path": "shared/common/manual-tasks/SKILL.md",
+      "match_status": "matched",
+      "match_reason": "No task skill or flat task guidance exists in FSCR; route this catalog task to the shared Manual Tasks skill.",
+      "business_objects": [],
+      "task_description": "Upload supplier import file through UCM."
+    },
+    {
+      "sequence": 35,
+      "task_name": "Load Supplier Interface through Scheduled Process",
+      "offering": "Procurement",
+      "functional_area": "Suppliers",
+      "task_code": "ORA_POZ_LOAD_SUPPLIER_INTERFACE_VIA_SCHEDULED_PROCESS",
+      "skill_path": null,
+      "skill_selection": {
+        "status": "missing",
+        "selected_by": "FLAT_TASK_GUIDANCE_MISSING",
+        "candidates": [],
+        "context_relation": "missing",
+        "project_context": {
+          "offering": "Procurement",
+          "functional_area": "Suppliers"
+        },
+        "skill_context": null
+      },
+      "execution_mode": "manual",
+      "execution_route": "manual-tasks",
+      "execution_skill_path": "shared/common/manual-tasks/SKILL.md",
+      "match_status": "matched",
+      "match_reason": "No task skill or flat task guidance exists in FSCR; route this catalog task to the shared Manual Tasks skill.",
+      "business_objects": [],
+      "task_description": "Load supplier import interface through scheduled process."
+    },
+    {
+      "sequence": 36,
+      "task_name": "Import Suppliers",
+      "offering": "Procurement",
+      "functional_area": "Suppliers",
+      "task_code": "POZ_IMPORT_SUPPLIERS",
+      "skill_path": "pillars/scm/procurement/suppliers/import-suppliers/SKILL.md",
+      "skill_selection": {
+        "status": "selected",
+        "selected_by": "EXACT_TASK_CODE_AND_NAME",
+        "candidates": [
+          "pillars/scm/procurement/suppliers/import-suppliers/SKILL.md"
+        ],
+        "context_relation": "same-context",
+        "project_context": {
+          "offering": "Procurement",
+          "functional_area": "Suppliers"
+        },
+        "skill_context": {
+          "offering": "Procurement",
+          "functional_area": "Suppliers"
+        }
+      },
+      "match_status": "matched",
+      "business_objects": [
+        "Supplier"
+      ]
+    },
+    {
+      "sequence": 37,
+      "task_name": "Specify User Category for New Supplier Users",
+      "offering": "Procurement",
+      "functional_area": "Supplier Portal",
+      "task_code": "ORA_POZ_SPECIFY_SUP_USER_CATEGORY",
+      "skill_path": null,
+      "skill_selection": {
+        "status": "missing",
+        "selected_by": "FLAT_TASK_GUIDANCE_MISSING",
+        "candidates": [],
+        "context_relation": "missing",
+        "project_context": {
+          "offering": "Procurement",
+          "functional_area": "Supplier Portal"
+        },
+        "skill_context": null
+      },
+      "execution_mode": "manual",
+      "execution_route": "manual-tasks",
+      "execution_skill_path": "shared/common/manual-tasks/SKILL.md",
+      "match_status": "matched",
+      "match_reason": "No task skill or flat task guidance exists in FSCR; route this catalog task to the shared Manual Tasks skill.",
+      "business_objects": [],
+      "task_description": "Specify user category with the name SUPPLIER_USER in the Security Console. This user category will be assigned to new supplier user account."
+    },
+    {
+      "sequence": 38,
+      "task_name": "Specify Supplier News Content",
+      "offering": "Procurement",
+      "functional_area": "Supplier Portal",
+      "task_code": "POZ_SPECIFY_SUPPLIER_NEWS_CONTENT",
+      "skill_path": "pillars/scm/procurement/supplier-portal/specify-supplier-news-content/SKILL.md",
+      "skill_selection": {
+        "status": "selected",
+        "selected_by": "EXACT_TASK_CODE_AND_NAME",
+        "candidates": [
+          "pillars/scm/procurement/supplier-portal/specify-supplier-news-content/SKILL.md"
+        ],
+        "context_relation": "same-context",
+        "project_context": {
+          "offering": "Procurement",
+          "functional_area": "Supplier Portal"
+        },
+        "skill_context": {
+          "offering": "Procurement",
+          "functional_area": "Supplier Portal"
+        }
+      },
+      "match_status": "matched",
+      "business_objects": [
+        "supplierNewsContentInitializeSetup",
+        "supplierNewsContent"
+      ]
+    },
+    {
+      "sequence": 39,
+      "task_name": "Manage Supplier Portal Messages",
+      "offering": "Procurement",
+      "functional_area": "Supplier Portal",
+      "task_code": "ORA_POZ_MANAGE_SUPPLIER_PORTAL_MESSAGES",
+      "skill_path": "pillars/scm/procurement/supplier-portal/manage-supplier-portal-messages/SKILL.md",
+      "skill_selection": {
+        "status": "selected",
+        "selected_by": "EXACT_TASK_CODE_AND_NAME",
+        "candidates": [
+          "pillars/scm/procurement/supplier-portal/manage-supplier-portal-messages/SKILL.md"
+        ],
+        "context_relation": "same-context",
+        "project_context": {
+          "offering": "Procurement",
+          "functional_area": "Supplier Portal"
+        },
+        "skill_context": {
+          "offering": "Procurement",
+          "functional_area": "Supplier Portal"
+        }
+      },
+      "match_status": "matched",
+      "business_objects": []
+    },
+    {
+      "sequence": 40,
+      "task_name": "Configure Supplier Notifications",
+      "offering": "Procurement",
+      "functional_area": "Supplier Portal",
+      "task_code": "ORA_POZ_CONFIGURE_SUPPLIER_NOTIFICATIONS_FOR_PROFILE_MGMT",
+      "skill_path": "pillars/scm/procurement/supplier-portal/configure-supplier-notifications/SKILL.md",
+      "skill_selection": {
+        "status": "selected",
+        "selected_by": "EXACT_TASK_CODE_AND_NAME",
+        "candidates": [
+          "pillars/scm/procurement/supplier-portal/configure-supplier-notifications/SKILL.md"
+        ],
+        "context_relation": "same-context",
+        "project_context": {
+          "offering": "Procurement",
+          "functional_area": "Supplier Portal"
+        },
+        "skill_context": {
+          "offering": "Procurement",
+          "functional_area": "Supplier Portal"
+        }
+      },
+      "match_status": "matched",
+      "business_objects": [
+        "supplierOptions"
+      ]
+    },
+    {
+      "sequence": 41,
+      "task_name": "Manage Negotiation Styles",
+      "offering": "Procurement",
+      "functional_area": "Sourcing",
+      "task_code": "PON_MANAGE_NEGOTIATION_STYLES",
+      "skill_path": null,
+      "skill_selection": {
+        "status": "missing",
+        "selected_by": "FLAT_TASK_GUIDANCE_MISSING",
+        "candidates": [],
+        "context_relation": "missing",
+        "project_context": {
+          "offering": "Procurement",
+          "functional_area": "Sourcing"
+        },
+        "skill_context": null
+      },
+      "execution_mode": "manual",
+      "execution_route": "manual-tasks",
+      "execution_skill_path": "shared/common/manual-tasks/SKILL.md",
+      "match_status": "matched",
+      "match_reason": "No task skill or flat task guidance exists in FSCR; route this catalog task to the shared Manual Tasks skill.",
+      "business_objects": [],
+      "task_description": "Define negotiation styles that category managers can use during negotiation document creation."
+    },
+    {
+      "sequence": 42,
+      "task_name": "Manage Sourcing Lookups",
+      "offering": "Procurement",
+      "functional_area": "Sourcing",
+      "task_code": "ORA_PON_MANAGE_SOURCING_LOOKUPS",
+      "skill_path": null,
+      "skill_selection": {
+        "status": "missing",
+        "selected_by": "FLAT_TASK_GUIDANCE_MISSING",
+        "candidates": [],
+        "context_relation": "missing",
+        "project_context": {
+          "offering": "Procurement",
+          "functional_area": "Sourcing"
+        },
+        "skill_context": null
+      },
+      "execution_mode": "manual",
+      "execution_route": "manual-tasks",
+      "execution_skill_path": "shared/common/manual-tasks/SKILL.md",
+      "match_status": "matched",
+      "match_reason": "No task skill or flat task guidance exists in FSCR; route this catalog task to the shared Manual Tasks skill.",
+      "business_objects": [],
+      "task_description": "Review and maintain lookup values for supplier negotiations, such as requirement section, attribute group name, and standard organization."
+    },
+    {
+      "sequence": 43,
+      "task_name": "Manage Supplier Questions",
+      "offering": "Procurement",
+      "functional_area": "Sourcing",
+      "task_code": "ORA_POQ_MANAGE_SUPPLIER_QUALIFICATION_QUESTIONS",
+      "skill_path": "pillars/scm/procurement/supplier-qualification/manage-supplier-questions/SKILL.md",
+      "skill_selection": {
+        "status": "selected",
+        "selected_by": "EXACT_TASK_CODE_AND_NAME",
+        "candidates": [
+          "pillars/scm/procurement/supplier-qualification/manage-supplier-questions/SKILL.md"
+        ],
+        "context_relation": "canonical-task-reuse",
+        "project_context": {
+          "offering": "Procurement",
+          "functional_area": "Sourcing"
+        },
+        "skill_context": {
+          "offering": "Procurement",
+          "functional_area": "Supplier Qualification"
+        },
+        "context_note": "The unique task-code-and-name skill is canonical and reusable across Oracle offering and functional-area contexts."
+      },
+      "match_status": "matched",
+      "business_objects": [
+        "supplierQualificationQuestions"
+      ]
+    },
+    {
+      "sequence": 44,
+      "task_name": "Manage Attribute Lists",
+      "offering": "Procurement",
+      "functional_area": "Sourcing",
+      "task_code": "PON_MANAGE_ATTRIBUTE_LISTS",
+      "skill_path": null,
+      "skill_selection": {
+        "status": "missing",
+        "selected_by": "FLAT_TASK_GUIDANCE_MISSING",
+        "candidates": [],
+        "context_relation": "missing",
+        "project_context": {
+          "offering": "Procurement",
+          "functional_area": "Sourcing"
+        },
+        "skill_context": null
+      },
+      "execution_mode": "manual",
+      "execution_route": "manual-tasks",
+      "execution_skill_path": "shared/common/manual-tasks/SKILL.md",
+      "match_status": "matched",
+      "match_reason": "No task skill or flat task guidance exists in FSCR; route this catalog task to the shared Manual Tasks skill.",
+      "business_objects": [],
+      "task_description": "Define the public attribute lists. Attribute lists contain related line attributes. Category managers can use attribute lists when creating new negotiation lines."
+    },
+    {
+      "sequence": 45,
+      "task_name": "Manage Cost Factors",
+      "offering": "Procurement",
+      "functional_area": "Sourcing",
+      "task_code": "PON_MANAGE_COST_FACTORS",
+      "skill_path": "pillars/scm/procurement/sourcing/manage-cost-factors/SKILL.md",
+      "skill_selection": {
+        "status": "selected",
+        "selected_by": "EXACT_TASK_CODE_AND_NAME",
+        "candidates": [
+          "pillars/scm/procurement/sourcing/manage-cost-factors/SKILL.md"
+        ],
+        "context_relation": "same-context",
+        "project_context": {
+          "offering": "Procurement",
+          "functional_area": "Sourcing"
+        },
+        "skill_context": {
+          "offering": "Procurement",
+          "functional_area": "Sourcing"
+        }
+      },
+      "match_status": "matched",
+      "business_objects": [
+        "supplierNegotiationCostFactors"
+      ]
+    },
+    {
+      "sequence": 46,
+      "task_name": "Manage Cost Factor Lists",
+      "offering": "Procurement",
+      "functional_area": "Sourcing",
+      "task_code": "PON_MANAGE_COST_FACTOR_LISTS",
+      "skill_path": "pillars/scm/procurement/sourcing/manage-cost-factor-lists/SKILL.md",
+      "skill_selection": {
+        "status": "selected",
+        "selected_by": "EXACT_TASK_CODE_AND_NAME",
+        "candidates": [
+          "pillars/scm/procurement/sourcing/manage-cost-factor-lists/SKILL.md"
+        ],
+        "context_relation": "same-context",
+        "project_context": {
+          "offering": "Procurement",
+          "functional_area": "Sourcing"
+        },
+        "skill_context": {
+          "offering": "Procurement",
+          "functional_area": "Sourcing"
+        }
+      },
+      "match_status": "matched",
+      "business_objects": [
+        "supplierNegotiationCostFactorLists"
+      ]
+    },
+    {
+      "sequence": 47,
+      "task_name": "Manage Sourcing Value Sets",
+      "offering": "Procurement",
+      "functional_area": "Sourcing",
+      "task_code": "PON_MANAGE_SOURCING_VALUE_SETS",
+      "skill_path": null,
+      "skill_selection": {
+        "status": "missing",
+        "selected_by": "FLAT_TASK_GUIDANCE_MISSING",
+        "candidates": [],
+        "context_relation": "missing",
+        "project_context": {
+          "offering": "Procurement",
+          "functional_area": "Sourcing"
+        },
+        "skill_context": null
+      },
+      "execution_mode": "manual",
+      "execution_route": "manual-tasks",
+      "execution_skill_path": "shared/common/manual-tasks/SKILL.md",
+      "match_status": "matched",
+      "match_reason": "No task skill or flat task guidance exists in FSCR; route this catalog task to the shared Manual Tasks skill.",
+      "business_objects": [],
+      "task_description": "Define and maintain the Sourcing value sets for Sourcing flexfields."
+    },
+    {
+      "sequence": 48,
+      "task_name": "Manage Sourcing Descriptive Flexfields",
+      "offering": "Procurement",
+      "functional_area": "Sourcing",
+      "task_code": "PON_MANAGE_SOURCING_DESCRIPTIVE_FLEXFIELDS",
+      "skill_path": null,
+      "skill_selection": {
+        "status": "missing",
+        "selected_by": "FLAT_TASK_GUIDANCE_MISSING",
+        "candidates": [],
+        "context_relation": "missing",
+        "project_context": {
+          "offering": "Procurement",
+          "functional_area": "Sourcing"
+        },
+        "skill_context": null
+      },
+      "execution_mode": "manual",
+      "execution_route": "manual-tasks",
+      "execution_skill_path": "shared/common/manual-tasks/SKILL.md",
+      "match_status": "matched",
+      "match_reason": "No task skill or flat task guidance exists in FSCR; route this catalog task to the shared Manual Tasks skill.",
+      "business_objects": [],
+      "task_description": "Define and maintain the optional Sourcing descriptive flexfields."
+    },
+    {
+      "sequence": 49,
+      "task_name": "Manage Sourcing Notifications",
+      "offering": "Procurement",
+      "functional_area": "Sourcing",
+      "task_code": "ORA_PON_MANAGE_NOTIFICATIONS",
+      "skill_path": "pillars/scm/procurement/sourcing/manage-sourcing-notifications/SKILL.md",
+      "skill_selection": {
+        "status": "selected",
+        "selected_by": "EXACT_TASK_CODE_AND_NAME",
+        "candidates": [
+          "pillars/scm/procurement/sourcing/manage-sourcing-notifications/SKILL.md"
+        ],
+        "context_relation": "same-context",
+        "project_context": {
+          "offering": "Procurement",
+          "functional_area": "Sourcing"
+        },
+        "skill_context": {
+          "offering": "Procurement",
+          "functional_area": "Sourcing"
+        }
+      },
+      "match_status": "matched",
+      "business_objects": [
+        "sourcingNotificationSubscriptions"
+      ]
+    },
+    {
+      "sequence": 50,
+      "task_name": "Configure Negotiation Award Outbound Service",
+      "offering": "Procurement",
+      "functional_area": "Sourcing",
+      "task_code": "ORA_PON_CONFIGURE_OUTBOUND_PURCHASING_SERVICE",
+      "skill_path": null,
+      "skill_selection": {
+        "status": "missing",
+        "selected_by": "FLAT_TASK_GUIDANCE_MISSING",
+        "candidates": [],
+        "context_relation": "missing",
+        "project_context": {
+          "offering": "Procurement",
+          "functional_area": "Sourcing"
+        },
+        "skill_context": null
+      },
+      "execution_mode": "manual",
+      "execution_route": "manual-tasks",
+      "execution_skill_path": "shared/common/manual-tasks/SKILL.md",
+      "match_status": "matched",
+      "match_reason": "No task skill or flat task guidance exists in FSCR; route this catalog task to the shared Manual Tasks skill.",
+      "business_objects": [],
+      "task_description": "Configure the service that allows customers to create purchasing documents in their applications from the supplier negotiation award information."
+    },
+    {
+      "sequence": 51,
+      "task_name": "Manage Sourcing Messages",
+      "offering": "Procurement",
+      "functional_area": "Sourcing",
+      "task_code": "ORA_PON_MANAGE_SOURCING_MESSAGES",
+      "skill_path": null,
+      "skill_selection": {
+        "status": "missing",
+        "selected_by": "FLAT_TASK_GUIDANCE_MISSING",
+        "candidates": [],
+        "context_relation": "missing",
+        "project_context": {
+          "offering": "Procurement",
+          "functional_area": "Sourcing"
+        },
+        "skill_context": null
+      },
+      "execution_mode": "manual",
+      "execution_route": "manual-tasks",
+      "execution_skill_path": "shared/common/manual-tasks/SKILL.md",
+      "match_status": "matched",
+      "match_reason": "No task skill or flat task guidance exists in FSCR; route this catalog task to the shared Manual Tasks skill.",
+      "business_objects": [],
+      "task_description": "Review and edit Sourcing messages."
+    },
+    {
+      "sequence": 52,
+      "task_name": "Manage Subject Lookup",
+      "offering": "Procurement",
+      "functional_area": "Supplier Qualification",
+      "task_code": "ORA_POQ_MANAGE_SUBJECT_LOOKUP",
+      "skill_path": null,
+      "skill_selection": {
+        "status": "missing",
+        "selected_by": "FLAT_TASK_GUIDANCE_MISSING",
+        "candidates": [],
+        "context_relation": "missing",
+        "project_context": {
+          "offering": "Procurement",
+          "functional_area": "Supplier Qualification"
+        },
+        "skill_context": null
+      },
+      "execution_mode": "manual",
+      "execution_route": "manual-tasks",
+      "execution_skill_path": "shared/common/manual-tasks/SKILL.md",
+      "match_status": "matched",
+      "match_reason": "No task skill or flat task guidance exists in FSCR; route this catalog task to the shared Manual Tasks skill.",
+      "business_objects": [],
+      "task_description": "Define subjects to organize questions into different categories."
+    },
+    {
+      "sequence": 53,
+      "task_name": "Manage Standards Organization Lookup",
+      "offering": "Procurement",
+      "functional_area": "Supplier Qualification",
+      "task_code": "ORA_POQ_MANAGE_STANDARDS_ORGANIZATION_LOOKUP",
+      "skill_path": null,
+      "skill_selection": {
+        "status": "missing",
+        "selected_by": "FLAT_TASK_GUIDANCE_MISSING",
+        "candidates": [],
+        "context_relation": "missing",
+        "project_context": {
+          "offering": "Procurement",
+          "functional_area": "Supplier Qualification"
+        },
+        "skill_context": null
+      },
+      "execution_mode": "manual",
+      "execution_route": "manual-tasks",
+      "execution_skill_path": "shared/common/manual-tasks/SKILL.md",
+      "match_status": "matched",
+      "match_reason": "No task skill or flat task guidance exists in FSCR; route this catalog task to the shared Manual Tasks skill.",
+      "business_objects": [],
+      "task_description": "Define standards organizations to associate questions with specific standards organization."
+    },
+    {
+      "sequence": 54,
+      "task_name": "Manage Qualification Areas",
+      "offering": "Procurement",
+      "functional_area": "Supplier Qualification",
+      "task_code": "ORA_POQ_MANAGE_SUPPLIER_QUALIFICATION_AREAS",
+      "skill_path": null,
+      "skill_selection": {
+        "status": "missing",
+        "selected_by": "FLAT_TASK_GUIDANCE_MISSING",
+        "candidates": [],
+        "context_relation": "missing",
+        "project_context": {
+          "offering": "Procurement",
+          "functional_area": "Supplier Qualification"
+        },
+        "skill_context": null
+      },
+      "execution_mode": "manual",
+      "execution_route": "manual-tasks",
+      "execution_skill_path": "shared/common/manual-tasks/SKILL.md",
+      "match_status": "matched",
+      "match_reason": "No task skill or flat task guidance exists in FSCR; route this catalog task to the shared Manual Tasks skill.",
+      "business_objects": [],
+      "task_description": "Define qualification areas for supplier qualification managers and category managers to use during supplier qualification or sourcing processes."
+    },
+    {
+      "sequence": 55,
+      "task_name": "Manage Qualification Models",
+      "offering": "Procurement",
+      "functional_area": "Supplier Qualification",
+      "task_code": "ORA_POQ_MANAGE_SUPPLIER_QUALIFICATION_MODELS",
+      "skill_path": null,
+      "skill_selection": {
+        "status": "missing",
+        "selected_by": "FLAT_TASK_GUIDANCE_MISSING",
+        "candidates": [],
+        "context_relation": "missing",
+        "project_context": {
+          "offering": "Procurement",
+          "functional_area": "Supplier Qualification"
+        },
+        "skill_context": null
+      },
+      "execution_mode": "manual",
+      "execution_route": "manual-tasks",
+      "execution_skill_path": "shared/common/manual-tasks/SKILL.md",
+      "match_status": "matched",
+      "match_reason": "No task skill or flat task guidance exists in FSCR; route this catalog task to the shared Manual Tasks skill.",
+      "business_objects": [],
+      "task_description": "Define qualification models for supplier qualification managers to use during supplier qualification process."
+    },
+    {
+      "sequence": 56,
+      "task_name": "Manage Supplier Qualification Rule Sets",
+      "offering": "Procurement",
+      "functional_area": "Supplier Qualification",
+      "task_code": "ORA_POQ_MANAGE_SUPPLIER_REG_RULE_SETS",
+      "skill_path": null,
+      "skill_selection": {
+        "status": "missing",
+        "selected_by": "FLAT_TASK_GUIDANCE_MISSING",
+        "candidates": [],
+        "context_relation": "missing",
+        "project_context": {
+          "offering": "Procurement",
+          "functional_area": "Supplier Qualification"
+        },
+        "skill_context": null
+      },
+      "execution_mode": "manual",
+      "execution_route": "manual-tasks",
+      "execution_skill_path": "shared/common/manual-tasks/SKILL.md",
+      "match_status": "matched",
+      "match_reason": "No task skill or flat task guidance exists in FSCR; route this catalog task to the shared Manual Tasks skill.",
+      "business_objects": [],
+      "task_description": "Define supplier qualification rule sets that establish the conditions and questions to be asked to suppliers either during the supplier registration process or on an initiative that is automatically created based on certain events."
+    },
+    {
+      "sequence": 57,
+      "task_name": "Configure Supplier Qualification Controls",
+      "offering": "Procurement",
+      "functional_area": "Supplier Qualification",
+      "task_code": "ORA_POQ_CONFIGURE_SUPPLIER_QUALIFICATION_CONTROLS",
+      "skill_path": null,
+      "skill_selection": {
+        "status": "missing",
+        "selected_by": "FLAT_TASK_GUIDANCE_MISSING",
+        "candidates": [],
+        "context_relation": "missing",
+        "project_context": {
+          "offering": "Procurement",
+          "functional_area": "Supplier Qualification"
+        },
+        "skill_context": null
+      },
+      "execution_mode": "manual",
+      "execution_route": "manual-tasks",
+      "execution_skill_path": "shared/common/manual-tasks/SKILL.md",
+      "match_status": "matched",
+      "match_reason": "No task skill or flat task guidance exists in FSCR; route this catalog task to the shared Manual Tasks skill.",
+      "business_objects": [],
+      "task_description": "Configure options and defaults for Supplier Qualification."
+    },
+    {
+      "sequence": 58,
+      "task_name": "Manage Qualification Outcome Lookup",
+      "offering": "Procurement",
+      "functional_area": "Supplier Qualification",
+      "task_code": "ORA_POQ_MANAGE_QUALIFICATION_OUTCOME_LOOKUP",
+      "skill_path": null,
+      "skill_selection": {
+        "status": "missing",
+        "selected_by": "FLAT_TASK_GUIDANCE_MISSING",
+        "candidates": [],
+        "context_relation": "missing",
+        "project_context": {
+          "offering": "Procurement",
+          "functional_area": "Supplier Qualification"
+        },
+        "skill_context": null
+      },
+      "execution_mode": "manual",
+      "execution_route": "manual-tasks",
+      "execution_skill_path": "shared/common/manual-tasks/SKILL.md",
+      "match_status": "matched",
+      "match_reason": "No task skill or flat task guidance exists in FSCR; route this catalog task to the shared Manual Tasks skill.",
+      "business_objects": [],
+      "task_description": "Define the qualification outcomes that will default on new qualification areas."
+    },
+    {
+      "sequence": 59,
+      "task_name": "Manage Assessment Outcome Lookup",
+      "offering": "Procurement",
+      "functional_area": "Supplier Qualification",
+      "task_code": "ORA_POQ_MANAGE_ASSESSMENT_OUTCOME_LOOKUP",
+      "skill_path": null,
+      "skill_selection": {
+        "status": "missing",
+        "selected_by": "FLAT_TASK_GUIDANCE_MISSING",
+        "candidates": [],
+        "context_relation": "missing",
+        "project_context": {
+          "offering": "Procurement",
+          "functional_area": "Supplier Qualification"
+        },
+        "skill_context": null
+      },
+      "execution_mode": "manual",
+      "execution_route": "manual-tasks",
+      "execution_skill_path": "shared/common/manual-tasks/SKILL.md",
+      "match_status": "matched",
+      "match_reason": "No task skill or flat task guidance exists in FSCR; route this catalog task to the shared Manual Tasks skill.",
+      "business_objects": [],
+      "task_description": "Define the assessment outcomes that supplier qualification managers assign to suppliers at the end of an assessment evaluation process."
+    },
+    {
+      "sequence": 60,
+      "task_name": "Manage Supplier Qualification Value Sets",
+      "offering": "Procurement",
+      "functional_area": "Supplier Qualification",
+      "task_code": "ORA_POQ_MANAGE_SUPPLIER_QUALIFICATION_VALUE_SETS",
+      "skill_path": null,
+      "skill_selection": {
+        "status": "missing",
+        "selected_by": "FLAT_TASK_GUIDANCE_MISSING",
+        "candidates": [],
+        "context_relation": "missing",
+        "project_context": {
+          "offering": "Procurement",
+          "functional_area": "Supplier Qualification"
+        },
+        "skill_context": null
+      },
+      "execution_mode": "manual",
+      "execution_route": "manual-tasks",
+      "execution_skill_path": "shared/common/manual-tasks/SKILL.md",
+      "match_status": "matched",
+      "match_reason": "No task skill or flat task guidance exists in FSCR; route this catalog task to the shared Manual Tasks skill.",
+      "business_objects": [],
+      "task_description": "Define and maintain the Supplier Qualification value sets for Supplier Qualification flexfields."
+    },
+    {
+      "sequence": 61,
+      "task_name": "Manage Supplier Qualification Descriptive Flexfields",
+      "offering": "Procurement",
+      "functional_area": "Supplier Qualification",
+      "task_code": "ORA_POQ_MANAGE_SUPPLIER_QUALIFICATION_DESCRIPTIVE_FLEXFIELDS",
+      "skill_path": null,
+      "skill_selection": {
+        "status": "missing",
+        "selected_by": "FLAT_TASK_GUIDANCE_MISSING",
+        "candidates": [],
+        "context_relation": "missing",
+        "project_context": {
+          "offering": "Procurement",
+          "functional_area": "Supplier Qualification"
+        },
+        "skill_context": null
+      },
+      "execution_mode": "manual",
+      "execution_route": "manual-tasks",
+      "execution_skill_path": "shared/common/manual-tasks/SKILL.md",
+      "match_status": "matched",
+      "match_reason": "No task skill or flat task guidance exists in FSCR; route this catalog task to the shared Manual Tasks skill.",
+      "business_objects": [],
+      "task_description": "Define and maintain the Supplier Qualification descriptive flexfields."
+    },
+    {
+      "sequence": 62,
+      "task_name": "Manage Supplier Qualification Messages",
+      "offering": "Procurement",
+      "functional_area": "Supplier Qualification",
+      "task_code": "ORA_POQ_MANAGE_SUPPLIER_QUALIFICATION_MESSAGES",
+      "skill_path": null,
+      "skill_selection": {
+        "status": "missing",
+        "selected_by": "FLAT_TASK_GUIDANCE_MISSING",
+        "candidates": [],
+        "context_relation": "missing",
+        "project_context": {
+          "offering": "Procurement",
+          "functional_area": "Supplier Qualification"
+        },
+        "skill_context": null
+      },
+      "execution_mode": "manual",
+      "execution_route": "manual-tasks",
+      "execution_skill_path": "shared/common/manual-tasks/SKILL.md",
+      "match_status": "matched",
+      "match_reason": "No task skill or flat task guidance exists in FSCR; route this catalog task to the shared Manual Tasks skill.",
+      "business_objects": [],
+      "task_description": "Review and edit Supplier Qualification messages."
+    },
+    {
+      "sequence": 63,
+      "task_name": "Manage Trading Community Source Systems",
+      "offering": "Procurement",
+      "functional_area": "Suppliers",
+      "task_code": "HZ_MANAGE_TRADING_COMMUNITY_SOURCE_SYSTEMS",
+      "skill_path": "pillars/cx/customer-data-management/trading-community-foundation/manage-trading-community-source-systems/SKILL.md",
+      "skill_selection": {
+        "status": "selected",
+        "selected_by": "EXACT_TASK_CODE_AND_NAME",
+        "candidates": [
+          "pillars/cx/customer-data-management/trading-community-foundation/manage-trading-community-source-systems/SKILL.md"
+        ],
+        "context_relation": "canonical-task-reuse",
+        "project_context": {
+          "offering": "Procurement",
+          "functional_area": "Suppliers"
+        },
+        "skill_context": {
+          "offering": "Customer Data Management",
+          "functional_area": "Trading Community Foundation"
+        },
+        "context_note": "The unique task-code-and-name skill is canonical and reusable across Oracle offering and functional-area contexts."
+      },
+      "match_status": "matched",
+      "business_objects": []
+    },
+    {
+      "sequence": 64,
+      "task_name": "Manage Source System Entities",
+      "offering": "Procurement",
+      "functional_area": "Suppliers",
+      "task_code": "HZ_MANAGE_SOURCE_SYSTEM_ENTITIES",
+      "skill_path": "pillars/cx/customer-data-management/trading-community-foundation/manage-source-system-entities/SKILL.md",
+      "skill_selection": {
+        "status": "selected",
+        "selected_by": "EXACT_TASK_CODE_AND_NAME",
+        "candidates": [
+          "pillars/cx/customer-data-management/trading-community-foundation/manage-source-system-entities/SKILL.md"
+        ],
+        "context_relation": "canonical-task-reuse",
+        "project_context": {
+          "offering": "Procurement",
+          "functional_area": "Suppliers"
+        },
+        "skill_context": {
+          "offering": "Customer Data Management",
+          "functional_area": "Trading Community Foundation"
+        },
+        "context_note": "The unique task-code-and-name skill is canonical and reusable across Oracle offering and functional-area contexts."
+      },
+      "match_status": "matched",
+      "business_objects": []
+    },
+    {
+      "sequence": 65,
+      "task_name": "Manage Source System Lookups",
+      "offering": "Procurement",
+      "functional_area": "Suppliers",
+      "task_code": "HZ_MANAGE_SOURCE_SYSTEM_LOOKUPS",
+      "skill_path": "pillars/cx/customer-data-management/trading-community-foundation/manage-source-system-lookups/SKILL.md",
+      "skill_selection": {
+        "status": "selected",
+        "selected_by": "EXACT_TASK_CODE_AND_NAME",
+        "candidates": [
+          "pillars/cx/customer-data-management/trading-community-foundation/manage-source-system-lookups/SKILL.md"
+        ],
+        "context_relation": "canonical-task-reuse",
+        "project_context": {
+          "offering": "Procurement",
+          "functional_area": "Suppliers"
+        },
+        "skill_context": {
+          "offering": "Customer Data Management",
+          "functional_area": "Trading Community Foundation"
+        },
+        "context_note": "The unique task-code-and-name skill is canonical and reusable across Oracle offering and functional-area contexts."
+      },
+      "match_status": "matched",
+      "business_objects": []
+    },
+    {
+      "sequence": 66,
+      "task_name": "Manage Source System Descriptive Flexfields",
+      "offering": "Procurement",
+      "functional_area": "Suppliers",
+      "task_code": "HZ_MANAGE_SOURCE_SYSTEM_DESCRIPTIVE_FLEXFIELDS",
+      "skill_path": "pillars/cx/customer-data-management/trading-community-foundation/manage-source-system-descriptive-flexfields/SKILL.md",
+      "skill_selection": {
+        "status": "selected",
+        "selected_by": "EXACT_TASK_CODE_AND_NAME",
+        "candidates": [
+          "pillars/cx/customer-data-management/trading-community-foundation/manage-source-system-descriptive-flexfields/SKILL.md"
+        ],
+        "context_relation": "canonical-task-reuse",
+        "project_context": {
+          "offering": "Procurement",
+          "functional_area": "Suppliers"
+        },
+        "skill_context": {
+          "offering": "Customer Data Management",
+          "functional_area": "Trading Community Foundation"
+        },
+        "context_note": "The unique task-code-and-name skill is canonical and reusable across Oracle offering and functional-area contexts."
+      },
+      "match_status": "matched",
+      "business_objects": []
+    },
+    {
+      "sequence": 67,
+      "task_name": "Import Person and Organization",
+      "offering": "Procurement",
+      "functional_area": "Suppliers",
+      "task_code": "HZ_IMPORT_PARTNERS",
+      "skill_path": null,
+      "skill_selection": {
+        "status": "missing",
+        "selected_by": "FLAT_TASK_GUIDANCE_MISSING",
+        "candidates": [],
+        "context_relation": "missing",
+        "project_context": {
+          "offering": "Procurement",
+          "functional_area": "Suppliers"
+        },
+        "skill_context": null
+      },
+      "execution_mode": "manual",
+      "execution_route": "manual-tasks",
+      "execution_skill_path": "shared/common/manual-tasks/SKILL.md",
+      "match_status": "matched",
+      "match_reason": "No task skill or flat task guidance exists in FSCR; route this catalog task to the shared Manual Tasks skill.",
+      "business_objects": [],
+      "task_description": ""
+    },
+    {
+      "sequence": 68,
+      "task_name": "Manage Import Lookups",
+      "offering": "Procurement",
+      "functional_area": "Suppliers",
+      "task_code": "HZ_MANAGE_IMPORT_LOOKUPS",
+      "skill_path": "pillars/cx/customer-data-management/trading-community-foundation/manage-import-lookups/SKILL.md",
+      "skill_selection": {
+        "status": "selected",
+        "selected_by": "EXACT_TASK_CODE_AND_NAME",
+        "candidates": [
+          "pillars/cx/customer-data-management/trading-community-foundation/manage-import-lookups/SKILL.md"
+        ],
+        "context_relation": "canonical-task-reuse",
+        "project_context": {
+          "offering": "Procurement",
+          "functional_area": "Suppliers"
+        },
+        "skill_context": {
+          "offering": "Customer Data Management",
+          "functional_area": "Trading Community Foundation"
+        },
+        "context_note": "The unique task-code-and-name skill is canonical and reusable across Oracle offering and functional-area contexts."
+      },
+      "match_status": "matched",
+      "business_objects": []
+    },
+    {
+      "sequence": 69,
+      "task_name": "Search Legal Entities",
+      "offering": "Procurement",
+      "functional_area": "Suppliers",
+      "task_code": "XLE_SEARCH_LEGAL_ENTITIES",
+      "skill_path": null,
+      "skill_selection": {
+        "status": "missing",
+        "selected_by": "FLAT_TASK_GUIDANCE_MISSING",
+        "candidates": [],
+        "context_relation": "missing",
+        "project_context": {
+          "offering": "Procurement",
+          "functional_area": "Suppliers"
+        },
+        "skill_context": null
+      },
+      "execution_mode": "manual",
+      "execution_route": "manual-tasks",
+      "execution_skill_path": "shared/common/manual-tasks/SKILL.md",
+      "match_status": "matched",
+      "match_reason": "No task skill or flat task guidance exists in FSCR; route this catalog task to the shared Manual Tasks skill.",
+      "business_objects": [],
+      "task_description": ""
+    },
+    {
+      "sequence": 70,
+      "task_name": "View Accounting Configuration Summary",
+      "offering": "Procurement",
+      "functional_area": "Suppliers",
+      "task_code": "GL_VIEW_ACCOUNTING_CONFIGURATION_SUMMARY",
+      "skill_path": null,
+      "skill_selection": {
+        "status": "missing",
+        "selected_by": "FLAT_TASK_GUIDANCE_MISSING",
+        "candidates": [],
+        "context_relation": "missing",
+        "project_context": {
+          "offering": "Procurement",
+          "functional_area": "Suppliers"
+        },
+        "skill_context": null
+      },
+      "execution_mode": "manual",
+      "execution_route": "manual-tasks",
+      "execution_skill_path": "shared/common/manual-tasks/SKILL.md",
+      "match_status": "matched",
+      "match_reason": "No task skill or flat task guidance exists in FSCR; route this catalog task to the shared Manual Tasks skill.",
+      "business_objects": [],
+      "task_description": ""
+    },
+    {
+      "sequence": 71,
+      "task_name": "Manage Intercompany and Contract Manufacturing Suppliers",
+      "offering": "Procurement",
+      "functional_area": "Suppliers",
+      "task_code": "ORA_RCS_MANAGE_SUPPLIER",
+      "skill_path": null,
+      "skill_selection": {
+        "status": "missing",
+        "selected_by": "FLAT_TASK_GUIDANCE_MISSING",
+        "candidates": [],
+        "context_relation": "missing",
+        "project_context": {
+          "offering": "Procurement",
+          "functional_area": "Suppliers"
+        },
+        "skill_context": null
+      },
+      "execution_mode": "manual",
+      "execution_route": "manual-tasks",
+      "execution_skill_path": "shared/common/manual-tasks/SKILL.md",
+      "match_status": "matched",
+      "match_reason": "No task skill or flat task guidance exists in FSCR; route this catalog task to the shared Manual Tasks skill.",
+      "business_objects": [],
+      "task_description": ""
+    },
+    {
+      "sequence": 72,
+      "task_name": "Manage SCM Enterprise Calendar Profile Option",
+      "offering": "Procurement",
+      "functional_area": "Suppliers",
+      "task_code": "ORA_RCS_MANAGE_CALENDAR_PROFILE_OPTION",
+      "skill_path": "pillars/scm/manufacturing-and-supply-chain-materials-management/facilities/manage-scm-enterprise-calendar-profile-option.md",
+      "skill_selection": {
+        "status": "selected",
+        "selected_by": "FLAT_TASK_GUIDANCE_FILE",
+        "candidates": [
+          "pillars/scm/manufacturing-and-supply-chain-materials-management/facilities/manage-scm-enterprise-calendar-profile-option.md"
+        ],
+        "context_relation": "unscoped-guidance",
+        "project_context": {
+          "offering": "Procurement",
+          "functional_area": "Suppliers"
+        },
+        "skill_context": null
+      },
+      "match_status": "matched",
+      "business_objects": []
+    },
+    {
+      "sequence": 73,
+      "task_name": "Manage Item Organizations Value Sets",
+      "offering": "Procurement",
+      "functional_area": "Suppliers",
+      "task_code": "ORA_RCS_MANAGE_ITEM_ORG_VALUE_SETS",
+      "skill_path": "pillars/scm/manufacturing-and-supply-chain-materials-management/facilities/manage-item-organizations-value-sets.md",
+      "skill_selection": {
+        "status": "selected",
+        "selected_by": "FLAT_TASK_GUIDANCE_FILE",
+        "candidates": [
+          "pillars/scm/manufacturing-and-supply-chain-materials-management/facilities/manage-item-organizations-value-sets.md"
+        ],
+        "context_relation": "unscoped-guidance",
+        "project_context": {
+          "offering": "Procurement",
+          "functional_area": "Suppliers"
+        },
+        "skill_context": null
+      },
+      "match_status": "matched",
+      "business_objects": []
+    },
+    {
+      "sequence": 74,
+      "task_name": "Manage Item Organizations Descriptive Flexfields",
+      "offering": "Procurement",
+      "functional_area": "Suppliers",
+      "task_code": "ORA_RCS_MANAGE_ITEM_ORG_FLEXFIELDS",
+      "skill_path": null,
+      "skill_selection": {
+        "status": "missing",
+        "selected_by": "FLAT_TASK_GUIDANCE_MISSING",
+        "candidates": [],
+        "context_relation": "missing",
+        "project_context": {
+          "offering": "Procurement",
+          "functional_area": "Suppliers"
+        },
+        "skill_context": null
+      },
+      "execution_mode": "manual",
+      "execution_route": "manual-tasks",
+      "execution_skill_path": "shared/common/manual-tasks/SKILL.md",
+      "match_status": "matched",
+      "match_reason": "No task skill or flat task guidance exists in FSCR; route this catalog task to the shared Manual Tasks skill.",
+      "business_objects": [],
+      "task_description": ""
+    },
+    {
+      "sequence": 75,
+      "task_name": "Manage Inventory Organizations Value Sets",
+      "offering": "Procurement",
+      "functional_area": "Suppliers",
+      "task_code": "ORA_RCS_MANAGE_INV_ORG_VALUE_SETS",
+      "skill_path": "pillars/scm/manufacturing-and-supply-chain-materials-management/facilities/manage-inventory-organizations-value-sets.md",
+      "skill_selection": {
+        "status": "selected",
+        "selected_by": "FLAT_TASK_GUIDANCE_FILE",
+        "candidates": [
+          "pillars/scm/manufacturing-and-supply-chain-materials-management/facilities/manage-inventory-organizations-value-sets.md"
+        ],
+        "context_relation": "unscoped-guidance",
+        "project_context": {
+          "offering": "Procurement",
+          "functional_area": "Suppliers"
+        },
+        "skill_context": null
+      },
+      "match_status": "matched",
+      "business_objects": []
+    },
+    {
+      "sequence": 76,
+      "task_name": "Manage Inventory Organizations Descriptive Flexfields",
+      "offering": "Procurement",
+      "functional_area": "Suppliers",
+      "task_code": "ORA_RCS_MANAGE_INV_ORG_FLEXFIELDS",
+      "skill_path": null,
+      "skill_selection": {
+        "status": "missing",
+        "selected_by": "FLAT_TASK_GUIDANCE_MISSING",
+        "candidates": [],
+        "context_relation": "missing",
+        "project_context": {
+          "offering": "Procurement",
+          "functional_area": "Suppliers"
+        },
+        "skill_context": null
+      },
+      "execution_mode": "manual",
+      "execution_route": "manual-tasks",
+      "execution_skill_path": "shared/common/manual-tasks/SKILL.md",
+      "match_status": "matched",
+      "match_reason": "No task skill or flat task guidance exists in FSCR; route this catalog task to the shared Manual Tasks skill.",
+      "business_objects": [],
+      "task_description": ""
+    },
+    {
+      "sequence": 77,
+      "task_name": "Associate Supplier with Contract Manufacturing Plant",
+      "offering": "Procurement",
+      "functional_area": "Suppliers",
+      "task_code": "ORA_RCS_ASSOCIATE_SUPPLIER_W_MFG_ORG",
+      "skill_path": null,
+      "skill_selection": {
+        "status": "missing",
+        "selected_by": "FLAT_TASK_GUIDANCE_MISSING",
+        "candidates": [],
+        "context_relation": "missing",
+        "project_context": {
+          "offering": "Procurement",
+          "functional_area": "Suppliers"
+        },
+        "skill_context": null
+      },
+      "execution_mode": "manual",
+      "execution_route": "manual-tasks",
+      "execution_skill_path": "shared/common/manual-tasks/SKILL.md",
+      "match_status": "matched",
+      "match_reason": "No task skill or flat task guidance exists in FSCR; route this catalog task to the shared Manual Tasks skill.",
+      "business_objects": [],
+      "task_description": ""
+    },
+    {
+      "sequence": 78,
+      "task_name": "Manage Plant Profiles",
+      "offering": "Procurement",
+      "functional_area": "Suppliers",
+      "task_code": "ORA_RCS_MANAGE_MFG_PLANT_PROFILE",
+      "skill_path": "pillars/scm/manufacturing-and-supply-chain-materials-management/facilities/manage-plant-profiles.md",
+      "skill_selection": {
+        "status": "selected",
+        "selected_by": "FLAT_TASK_GUIDANCE_FILE",
+        "candidates": [
+          "pillars/scm/manufacturing-and-supply-chain-materials-management/facilities/manage-plant-profiles.md"
+        ],
+        "context_relation": "unscoped-guidance",
+        "project_context": {
+          "offering": "Procurement",
+          "functional_area": "Suppliers"
+        },
+        "skill_context": null
+      },
+      "match_status": "matched",
+      "business_objects": []
+    },
+    {
+      "sequence": 79,
+      "task_name": "Manage SCM Common Lookups",
+      "offering": "Procurement",
+      "functional_area": "Suppliers",
+      "task_code": "ORA_RCS_MANAGE_SCM_COMMON_LOOKUPS",
+      "skill_path": null,
+      "skill_selection": {
+        "status": "missing",
+        "selected_by": "FLAT_TASK_GUIDANCE_MISSING",
+        "candidates": [],
+        "context_relation": "missing",
+        "project_context": {
+          "offering": "Procurement",
+          "functional_area": "Suppliers"
+        },
+        "skill_context": null
+      },
+      "execution_mode": "manual",
+      "execution_route": "manual-tasks",
+      "execution_skill_path": "shared/common/manual-tasks/SKILL.md",
+      "match_status": "matched",
+      "match_reason": "No task skill or flat task guidance exists in FSCR; route this catalog task to the shared Manual Tasks skill.",
+      "business_objects": [],
+      "task_description": ""
+    },
+    {
+      "sequence": 80,
+      "task_name": "Configure Electronic Signature Preferences",
+      "offering": "Procurement",
+      "functional_area": "Suppliers",
+      "task_code": "ORA_EDR_ELECTRONIC_SIGN_PREF",
+      "skill_path": null,
+      "skill_selection": {
+        "status": "missing",
+        "selected_by": "FLAT_TASK_GUIDANCE_MISSING",
+        "candidates": [],
+        "context_relation": "missing",
+        "project_context": {
+          "offering": "Procurement",
+          "functional_area": "Suppliers"
+        },
+        "skill_context": null
+      },
+      "execution_mode": "manual",
+      "execution_route": "manual-tasks",
+      "execution_skill_path": "shared/common/manual-tasks/SKILL.md",
+      "match_status": "matched",
+      "match_reason": "No task skill or flat task guidance exists in FSCR; route this catalog task to the shared Manual Tasks skill.",
+      "business_objects": [],
+      "task_description": ""
+    },
+    {
+      "sequence": 81,
+      "task_name": "Associate Source Organization with Inventory Organization",
+      "offering": "Procurement",
+      "functional_area": "Suppliers",
+      "task_code": "ORA_RCS_ASSOCIATE_SOURCE_ORGANIZATION_WITH_INVENTORY_ORGANIZATION",
+      "skill_path": null,
+      "skill_selection": {
+        "status": "missing",
+        "selected_by": "FLAT_TASK_GUIDANCE_MISSING",
+        "candidates": [],
+        "context_relation": "missing",
+        "project_context": {
+          "offering": "Procurement",
+          "functional_area": "Suppliers"
+        },
+        "skill_context": null
+      },
+      "execution_mode": "manual",
+      "execution_route": "manual-tasks",
+      "execution_skill_path": "shared/common/manual-tasks/SKILL.md",
+      "match_status": "matched",
+      "match_reason": "No task skill or flat task guidance exists in FSCR; route this catalog task to the shared Manual Tasks skill.",
+      "business_objects": [],
+      "task_description": ""
+    },
+    {
+      "sequence": 82,
+      "task_name": "Manage Default Expenditure Types Lookups",
+      "offering": "Procurement",
+      "functional_area": "Suppliers",
+      "task_code": "ORA_RCS_MANAGE_DEFAULT_EXPENDITURE_TYPES_LOOKUPS",
+      "skill_path": null,
+      "skill_selection": {
+        "status": "missing",
+        "selected_by": "FLAT_TASK_GUIDANCE_MISSING",
+        "candidates": [],
+        "context_relation": "missing",
+        "project_context": {
+          "offering": "Procurement",
+          "functional_area": "Suppliers"
+        },
+        "skill_context": null
+      },
+      "execution_mode": "manual",
+      "execution_route": "manual-tasks",
+      "execution_skill_path": "shared/common/manual-tasks/SKILL.md",
+      "match_status": "matched",
+      "match_reason": "No task skill or flat task guidance exists in FSCR; route this catalog task to the shared Manual Tasks skill.",
+      "business_objects": [],
+      "task_description": ""
+    },
+    {
+      "sequence": 83,
+      "task_name": "Manage Default Expenditure Types",
+      "offering": "Procurement",
+      "functional_area": "Suppliers",
+      "task_code": "ORA_RCS_MANAGE_DEFAULT_EXPENDITURE_TYPES",
+      "skill_path": null,
+      "skill_selection": {
+        "status": "missing",
+        "selected_by": "FLAT_TASK_GUIDANCE_MISSING",
+        "candidates": [],
+        "context_relation": "missing",
+        "project_context": {
+          "offering": "Procurement",
+          "functional_area": "Suppliers"
+        },
+        "skill_context": null
+      },
+      "execution_mode": "manual",
+      "execution_route": "manual-tasks",
+      "execution_skill_path": "shared/common/manual-tasks/SKILL.md",
+      "match_status": "matched",
+      "match_reason": "No task skill or flat task guidance exists in FSCR; route this catalog task to the shared Manual Tasks skill.",
+      "business_objects": [],
+      "task_description": ""
+    },
+    {
+      "sequence": 84,
+      "task_name": "Manage Project Type Cost Exclusions",
+      "offering": "Procurement",
+      "functional_area": "Suppliers",
+      "task_code": "ORA_RCS_MANAGE_PROJECT_TYPE_COST_EXCLUSIONS",
+      "skill_path": null,
+      "skill_selection": {
+        "status": "missing",
+        "selected_by": "FLAT_TASK_GUIDANCE_MISSING",
+        "candidates": [],
+        "context_relation": "missing",
+        "project_context": {
+          "offering": "Procurement",
+          "functional_area": "Suppliers"
+        },
+        "skill_context": null
+      },
+      "execution_mode": "manual",
+      "execution_route": "manual-tasks",
+      "execution_skill_path": "shared/common/manual-tasks/SKILL.md",
+      "match_status": "matched",
+      "match_reason": "No task skill or flat task guidance exists in FSCR; route this catalog task to the shared Manual Tasks skill.",
+      "business_objects": [],
+      "task_description": ""
+    },
+    {
+      "sequence": 85,
+      "task_name": "Manage Project Costing Descriptive Flexfields",
+      "offering": "Procurement",
+      "functional_area": "Suppliers",
+      "task_code": "PJC_MANAGE_PROJECT_COSTING_DESCRIPTIVE_FLEXFIELDS",
+      "skill_path": null,
+      "skill_selection": {
+        "status": "missing",
+        "selected_by": "FLAT_TASK_GUIDANCE_MISSING",
+        "candidates": [],
+        "context_relation": "missing",
+        "project_context": {
+          "offering": "Procurement",
+          "functional_area": "Suppliers"
+        },
+        "skill_context": null
+      },
+      "execution_mode": "manual",
+      "execution_route": "manual-tasks",
+      "execution_skill_path": "shared/common/manual-tasks/SKILL.md",
+      "match_status": "matched",
+      "match_reason": "No task skill or flat task guidance exists in FSCR; route this catalog task to the shared Manual Tasks skill.",
+      "business_objects": [],
+      "task_description": ""
+    },
+    {
+      "sequence": 86,
+      "task_name": "Manage Project Attribute Defaults",
+      "offering": "Procurement",
+      "functional_area": "Suppliers",
+      "task_code": "ORA_RCS_MANAGE_PROJECT_ATTRIBUTE_DEFAULTS",
+      "skill_path": null,
+      "skill_selection": {
+        "status": "missing",
+        "selected_by": "FLAT_TASK_GUIDANCE_MISSING",
+        "candidates": [],
+        "context_relation": "missing",
+        "project_context": {
+          "offering": "Procurement",
+          "functional_area": "Suppliers"
+        },
+        "skill_context": null
+      },
+      "execution_mode": "manual",
+      "execution_route": "manual-tasks",
+      "execution_skill_path": "shared/common/manual-tasks/SKILL.md",
+      "match_status": "matched",
+      "match_reason": "No task skill or flat task guidance exists in FSCR; route this catalog task to the shared Manual Tasks skill.",
+      "business_objects": [],
+      "task_description": ""
+    },
+    {
+      "sequence": 87,
+      "task_name": "Manage Project Organization Classifications",
+      "offering": "Procurement",
+      "functional_area": "Suppliers",
+      "task_code": "PJF_MANAGE_PROJECT_ORGANIZATION_CLASSIFICATIONS",
+      "skill_path": "pillars/erp/project-financial-management/project-organizations/manage-project-organization-classifications/SKILL.md",
+      "skill_selection": {
+        "status": "selected",
+        "selected_by": "EXACT_TASK_CODE_AND_NAME",
+        "candidates": [
+          "pillars/erp/project-financial-management/project-organizations/manage-project-organization-classifications/SKILL.md"
+        ],
+        "context_relation": "canonical-task-reuse",
+        "project_context": {
+          "offering": "Procurement",
+          "functional_area": "Suppliers"
+        },
+        "skill_context": {
+          "offering": "Project Financial Management",
+          "functional_area": "Project Organizations"
+        },
+        "context_note": "The unique task-code-and-name skill is canonical and reusable across Oracle offering and functional-area contexts."
+      },
+      "match_status": "matched",
+      "business_objects": [
+        "Organization"
+      ]
+    },
+    {
+      "sequence": 88,
+      "task_name": "Associate Customer with Inventory Organization",
+      "offering": "Procurement",
+      "functional_area": "Suppliers",
+      "task_code": "ORA_RCS_ASSOCIATE_CUSTOMER_WITH_INVENTORY_ORGANIZATION",
+      "skill_path": null,
+      "skill_selection": {
+        "status": "missing",
+        "selected_by": "FLAT_TASK_GUIDANCE_MISSING",
+        "candidates": [],
+        "context_relation": "missing",
+        "project_context": {
+          "offering": "Procurement",
+          "functional_area": "Suppliers"
+        },
+        "skill_context": null
+      },
+      "execution_mode": "manual",
+      "execution_route": "manual-tasks",
+      "execution_skill_path": "shared/common/manual-tasks/SKILL.md",
+      "match_status": "matched",
+      "match_reason": "No task skill or flat task guidance exists in FSCR; route this catalog task to the shared Manual Tasks skill.",
+      "business_objects": [],
+      "task_description": ""
+    },
+    {
+      "sequence": 89,
+      "task_name": "Associate Fixed Asset Books with Inventory Organizations",
+      "offering": "Procurement",
+      "functional_area": "Suppliers",
+      "task_code": "ORA_RCS_ASSOCIATE_FABOOK_WITH_INVENTORY_ORGANIZATION",
+      "skill_path": null,
+      "skill_selection": {
+        "status": "missing",
+        "selected_by": "FLAT_TASK_GUIDANCE_MISSING",
+        "candidates": [],
+        "context_relation": "missing",
+        "project_context": {
+          "offering": "Procurement",
+          "functional_area": "Suppliers"
+        },
+        "skill_context": null
+      },
+      "execution_mode": "manual",
+      "execution_route": "manual-tasks",
+      "execution_skill_path": "shared/common/manual-tasks/SKILL.md",
+      "match_status": "matched",
+      "match_reason": "No task skill or flat task guidance exists in FSCR; route this catalog task to the shared Manual Tasks skill.",
+      "business_objects": [],
+      "task_description": ""
+    },
+    {
+      "sequence": 90,
+      "task_name": "Copy Inventory Organizations",
+      "offering": "Procurement",
+      "functional_area": "Suppliers",
+      "task_code": "ORA_RCS_COPY_INVENTORY_ORGANIZATIONS",
+      "skill_path": null,
+      "skill_selection": {
+        "status": "missing",
+        "selected_by": "FLAT_TASK_GUIDANCE_MISSING",
+        "candidates": [],
+        "context_relation": "missing",
+        "project_context": {
+          "offering": "Procurement",
+          "functional_area": "Suppliers"
+        },
+        "skill_context": null
+      },
+      "execution_mode": "manual",
+      "execution_route": "manual-tasks",
+      "execution_skill_path": "shared/common/manual-tasks/SKILL.md",
+      "match_status": "matched",
+      "match_reason": "No task skill or flat task guidance exists in FSCR; route this catalog task to the shared Manual Tasks skill.",
+      "business_objects": [],
+      "task_description": ""
+    },
+    {
+      "sequence": 91,
+      "task_name": "Associate Expired Lot Subinventories and Locators with Inventory Organizations",
+      "offering": "Procurement",
+      "functional_area": "Suppliers",
+      "task_code": "ORA_RCS_ASSOCIATE_EXPIRED_LOT_SUBINVLOC_WITH_INVENTORY_ORGANIZATIONS",
+      "skill_path": null,
+      "skill_selection": {
+        "status": "missing",
+        "selected_by": "FLAT_TASK_GUIDANCE_MISSING",
+        "candidates": [],
+        "context_relation": "missing",
+        "project_context": {
+          "offering": "Procurement",
+          "functional_area": "Suppliers"
+        },
+        "skill_context": null
+      },
+      "execution_mode": "manual",
+      "execution_route": "manual-tasks",
+      "execution_skill_path": "shared/common/manual-tasks/SKILL.md",
+      "match_status": "matched",
+      "match_reason": "No task skill or flat task guidance exists in FSCR; route this catalog task to the shared Manual Tasks skill.",
+      "business_objects": [],
+      "task_description": ""
+    }
+  ]
+}

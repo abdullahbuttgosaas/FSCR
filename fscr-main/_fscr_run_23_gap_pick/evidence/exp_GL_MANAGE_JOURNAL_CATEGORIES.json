@@ -1,0 +1,28 @@
+{
+  "TaskCode" : "GL_MANAGE_JOURNAL_CATEGORIES",
+  "ExportSupportedFlag" : true,
+  "@context" : {
+    "key" : "GL_MANAGE_JOURNAL_CATEGORIES",
+    "links" : [ {
+      "rel" : "self",
+      "href" : "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/setupTaskCSVExports/GL_MANAGE_JOURNAL_CATEGORIES",
+      "name" : "setupTaskCSVExports",
+      "kind" : "item"
+    }, {
+      "rel" : "canonical",
+      "href" : "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/setupTaskCSVExports/GL_MANAGE_JOURNAL_CATEGORIES",
+      "name" : "setupTaskCSVExports",
+      "kind" : "item"
+    }, {
+      "rel" : "child",
+      "href" : "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/setupTaskCSVExports/GL_MANAGE_JOURNAL_CATEGORIES/child/SetupTaskCSVExportCriteria",
+      "name" : "SetupTaskCSVExportCriteria",
+      "kind" : "collection"
+    }, {
+      "rel" : "child",
+      "href" : "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/setupTaskCSVExports/GL_MANAGE_JOURNAL_CATEGORIES/child/SetupTaskCSVExportProcess",
+      "name" : "SetupTaskCSVExportProcess",
+      "kind" : "collection"
+    } ]
+  }
+}

@@ -1,0 +1,13 @@
+{
+ "attempt": "1a",
+ "time": "2026-11-15T16:51:44+05:00",
+ "method": "POST",
+ "path": "/fscmRestApi/resources/11.13.18.05/alternateNameMappingRules",
+ "request_body": {
+  "AlternatePayerName": "FSCRT_R25 Payer A",
+  "CustomerAccountNumber": "21541",
+  "Active": "Y"
+ },
+ "status": 201,
+ "response": "{\n  \"AlternateNameId\" : \"300000395050002\",\n  \"AlternatePayerName\" : \"FSCRT_R25 Payer A\",\n  \"ZenginCustomerBankName\" : null,\n  \"ZenginCustomerBankBranchName\" : null,\n  \"CustomerName\" : null,\n  \"CustomerAccountNumber\" : \"21541\",\n  \"BillToSite\" : null,\n  \"RemittanceBankName\" : null,\n  \"RemittanceBankNumber\" : null,\n  \"RemittanceBankBranchNumber\" : null,\n  \"VirtualAccountNumber\" : null,\n  \"Active\" : \"Y\",\n  \"CreatedBy\" : \"Configuration.TEST\",\n  \"CreationDate\" : \"2026-11-15T11:51:43+00:00\",\n  \"LastUpdateDate\" : \"2026-11-15T11:51:43.131+00:00\",\n  \"LastUpdateLogin\" : \"6048A8F532399650E0631C65310A359A\",\n  \"LastUpdatedBy\" : \"Configuration.TEST\",\n  \"ObjectVersionNumber\" : 1,\n  \"@context\" : {\n    \"key\" : \"300000395050002\",\n    \"headers\" : {\n      \"ETag\" : \"ACED0005737200136A6176612E7574696C2E41727261794C6973747881D21D99C7619D03000149000473697A65787000000001770400000001737200116A6176612E6C616E672E496E746567657212E2A0A4F781873802000149000576616C7565787200106A6176612E6C616E672E4E756D62657286AC951D0B94E08B02000078700000000178\"\n    },\n    \"links\" : [ {\n      \"rel\" : \"self\",\n      \"href\" : \"https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/alternateNameMappingRules/300000395050002\",\n      \"name\" : \"alternateNameMappingRules\",\n      \"kind\" : \"item\"\n    }, {\n      \"rel\" : \"canonical\",\n      \"href\" : \"https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/alternateNameMappingRules/300000395050002\",\n      \"name\" : \"alternateNameMappingRules\",\n      \"kind\" : \"item\"\n    } ]\n  }\n}"
+}

@@ -1,0 +1,13 @@
+[
+ {
+  "id": "verify_rest_journalCategoriesLOV",
+  "path": "journalCategoriesLOV",
+  "q": {
+   "q": "UserJeCategoryName LIKE 'FSCRT_%'",
+   "limit": "50"
+  },
+  "status": 200,
+  "summary": "items=3 hasMore=False",
+  "file": "evidence/verify_rest_journalCategoriesLOV.json"
+ }
+]

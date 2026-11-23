@@ -1,0 +1,8 @@
+TaskCode: GL_MANAGE_CONVERSION_RATE_TYPES (Manage Conversion Rate Types); CSVExportImportSupportedFlag: Y
+Started setup task CSV import process: 100004736427700
+ProcessCompletedFlag: False; StatusCode: (no result yet); ResultCount: 0
+ProcessCompletedFlag: False; StatusCode: (no result yet); ResultCount: 0
+ProcessCompletedFlag: True; StatusCode: (no result yet); ResultCount: 0
+StatusCode: (unknown)
+Wrote ..\import_result\GL_MANAGE_CONVERSION_RATE_TYPES\ETIA-TEST_setup_task_csv_import_gl_manage_conversion_rate_types_100004736427700.json
+Wrote ..\import_result\GL_MANAGE_CONVERSION_RATE_TYPES\ETIA-TEST_setup_task_csv_import_gl_manage_conversion_rate_types_100004736427700_process_log.txt (1330 bytes)

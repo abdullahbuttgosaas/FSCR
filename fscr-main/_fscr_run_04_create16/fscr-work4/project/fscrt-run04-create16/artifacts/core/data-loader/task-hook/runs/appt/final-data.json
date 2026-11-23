@@ -1,0 +1,13 @@
+{
+ "archiveName": "fscrt-appt-candidate.zip",
+ "rowCounts": {
+  "AP_TERM_HEADER.csv": 1,
+  "AP_TERM_LINE.csv": 1,
+  "AP_TERM_SUBSCRIPTION.csv": 1,
+  "AP_TERM_HEADER_TRANSLATION.csv": 1
+ },
+ "operation": "create",
+ "names": [
+  "FSCRT_AP_N45"
+ ]
+}

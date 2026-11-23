@@ -1,0 +1,52 @@
+<MigrationProcessCSVMetadataVO>
+   <MigrationProcessCSVMetadataVORow>
+      <ProcessId>-999</ProcessId>
+      <ProcessName>Manage Hazard Classes_20261117_084810_261</ProcessName>
+      <ProcessDescription>Manage Hazard Classes_20261117_084810_261</ProcessDescription>
+      <ProcessDate>2026-11-17 08:48:33.911</ProcessDate>
+      <ObjectShortName>PO_MANAGE_HAZARD_CLASSES</ObjectShortName>
+      <ObjectType>TASK</ObjectType>
+      <CreatedByFlow>TASK_CSV_SERVICE</CreatedByFlow>
+      <ProcessType>EXPORT</ProcessType>
+      <ProcessStatus>COMPLETED</ProcessStatus>
+      <ProcessEnv>etia-test</ProcessEnv>
+      <ProcessStartDate>2026-11-17 08:48:10.133</ProcessStartDate>
+      <ProcessEndDate>2026-11-17 08:48:33.911</ProcessEndDate>
+      <ProcessRelease>11.13.26.10.0</ProcessRelease>
+      <SubmittedBy>Configuration.TEST</SubmittedBy>
+      <ESSRequestId>4466250</ESSRequestId>
+      <MigrationProcessBusinessObjectCSVMetadata1>
+         <MigrationProcessBusinessObjectCSVMetadataVORow>
+            <ProcessId>-999</ProcessId>
+            <BusinessObjectShortName>PO_HAZARD_CLASS</BusinessObjectShortName>
+            <BatchName null="true"/>
+            <XmlAttributeList>Attribute1,Attribute10,Attribute11,Attribute12,Attribute13,Attribute14,Attribute15,Attribute2,Attribute3,Attribute4,Attribute5,Attribute6,Attribute7,Attribute8,Attribute9,AttributeCategory,CreatedBy,CreationDate,Description,HazardClass,HazardClassCode,InactiveDate,LastUpdateDate,LastUpdateLogin,LastUpdatedBy</XmlAttributeList>
+            <XmlAttributeTypeList>string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,dateTime,string,string,string,date,dateTime,string,string</XmlAttributeTypeList>
+            <XmlNodePath>/PurchasingHazardClassMigratorVO/PurchasingHazardClassMigratorVORow</XmlNodePath>
+            <NodeSequence>1</NodeSequence>
+         </MigrationProcessBusinessObjectCSVMetadataVORow>
+         <MigrationProcessBusinessObjectCSVMetadataVORow>
+            <ProcessId>-999</ProcessId>
+            <BusinessObjectShortName>PO_HAZARD_CLASS_TRANSLATION</BusinessObjectShortName>
+            <BatchName null="true"/>
+            <XmlAttributeList>CreatedBy,CreationDate,Description,HazardClass,Language,LastUpdateDate,LastUpdateLogin,LastUpdatedBy,SourceLang</XmlAttributeList>
+            <XmlAttributeTypeList>string,dateTime,string,string,string,dateTime,string,string,string</XmlAttributeTypeList>
+            <XmlNodePath>/PurchasingHazardClassMigratorVO/PurchasingHazardClassMigratorVORow/PurchasingHazardClassMigratorTranslation/PurchasingHazardClassMigratorTranslationVORow</XmlNodePath>
+            <NodeSequence>1</NodeSequence>
+         </MigrationProcessBusinessObjectCSVMetadataVORow>
+      </MigrationProcessBusinessObjectCSVMetadata1>
+      <MigrationProcessBatchCSVMetadata null="true"/>
+      <MigrationProcessScopeValueCSVMetadata null="true"/>
+      <MigrationProcessMigrationObjectCSVMetadata>
+         <MigrationProcessMigrationObjectCSVMetadataVORow>
+            <ProcessId>-999</ProcessId>
+            <BusinessObjectShortName>PO_HAZARD_CLASS</BusinessObjectShortName>
+            <MigrateFlag>Y</MigrateFlag>
+            <IncludeExternalDataFlag>Y</IncludeExternalDataFlag>
+            <ServiceType null="true"/>
+         </MigrationProcessMigrationObjectCSVMetadataVORow>
+      </MigrationProcessMigrationObjectCSVMetadata>
+      <MigrationProcessTaskCSVMetadata null="true"/>
+      <MigrationProcessServiceVersionCSVMetadata null="true"/>
+   </MigrationProcessCSVMetadataVORow>
+</MigrationProcessCSVMetadataVO>

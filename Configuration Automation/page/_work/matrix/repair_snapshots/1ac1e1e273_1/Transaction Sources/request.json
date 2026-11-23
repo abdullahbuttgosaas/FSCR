@@ -1,0 +1,9 @@
+{
+  "sources": [
+    {"name": "ZZ_TEST_TS_7731", "set_code": "COMMON", "description": "ZZ test transaction source (manual)",
+     "source_type": "Manual", "from_date": "2026-11-01", "auto_numbering": "Yes", "last_number": 1},
+    {"name": "ZZ_TEST_TS_7732", "set_code": "COMMON", "description": "ZZ test transaction source (autoinvoice)",
+     "source_type": "Imported", "from_date": "2026-11-01", "auto_numbering": "Yes", "last_number": 1,
+     "grouping_rule": "DEFAULT"}
+  ]
+}

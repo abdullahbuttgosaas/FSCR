@@ -1,0 +1,10 @@
+{
+  "terms": [
+    {"name": "ZZ_TEST_AR_4821", "set_code": "COMMON", "description": "ZZ test 60/40 with 2% discount",
+     "print_lead_days": 1, "tax_freight": "Include in the first installment", "discount_basis": "Invoice amount",
+     "installments": [
+       {"relative_amount": 60, "days": 30, "discount_percent": 2, "discount_days": 10},
+       {"relative_amount": 40, "days": 60}
+     ]}
+  ]
+}

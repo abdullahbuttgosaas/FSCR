@@ -1,0 +1,17 @@
+seq,task,task_code,stage,oracle_type,has_route,says_manual,manual_but_catalog_csv,has_prerequisite,plan_depends_on,status
+1,Manage Functional Area Catalogs,EGP_MANAGE_DEFAULT_CATALOGS,Procurement - Purchasing Categories,Import and Load Data,True,False,False,False,0,INI
+2,Manage Catalog Descriptive Flexfields,EGP_MANAGE_CATALOG_ATTRIBUTES,Procurement - Purchasing Categories,Import and Load Data,True,False,False,False,0,INI
+3,Manage Category Descriptive Flexfields,EGP_MANAGE_CATEGORY_ATTRIBUTES,Procurement - Purchasing Categories,Import and Load Data,True,False,False,False,0,INI
+4,Manage Change Order Templates,PO_MANAGE_CHANGE_ORDER_TEMPLATES,Procurement - Purchasing Foundation,Manual Task,False,True,True,False,0,INI
+5,Manage Purchasing Value Sets,PO_MANAGE_PURCHASING_VALUE_SETS,Procurement - Purchasing Foundation,Manual Task,False,True,True,False,0,INI
+6,Manage Purchasing Descriptive Flexfields,PO_MANAGE_PURCHASING_DESCRIPTIVE_FLEXFIELDS,Procurement - Purchasing Foundation,Manual Task,False,True,True,False,0,INI
+7,Manage Buyer Assignment Rule Sets Lookup,ORA_PO_MANAGE_ASSIGNMENT_RULE_SETS_LOOKUP,Procurement - Purchasing Foundation,Manual Task,False,True,True,False,0,INI
+8,Manage Buyer Assignment Rules,ORA_PO_MANAGE_BUYER_ASSIGNMENT_RULES,Procurement - Purchasing Foundation,Manual Task,False,True,True,False,0,INI
+9,Manage Purchasing Messages,ORA_PO_MANAGE_PURCHASING_MESSAGES,Procurement - Purchasing Foundation,Manual Task,False,True,False,False,0,INI
+10,Manage Hazard Classes,PO_MANAGE_HAZARD_CLASSES,Procurement - Purchasing Foundation,Manual Task,False,True,True,False,0,INI
+11,Manage UN Numbers,PO_MANAGE_UN_NUMBERS,Procurement - Purchasing Foundation,Manual Task,False,True,True,False,0,INI
+12,Manage Approved Supplier List Statuses,PO_MANAGE_APPROVED_SUPPLIER_LIST_STATUSES,Procurement - Purchasing Foundation,Manual Task,False,True,True,False,0,INI
+13,Manage External Purchase Prices Requisitioning BU Mapping,ORA_MANAGE_EXTERNAL_PURCHASE_PRICES_REQBU_MAPPING,Procurement - External Purchase Prices,Import and Load Data,True,False,False,False,0,INI
+14,Manage External Purchase Prices Selection Criteria,ORA_MANAGE_EXTERNAL_PURCHASE_PRICES_SELECTION_CRITERIA,Procurement - External Purchase Prices,Import and Load Data,True,False,False,False,0,INI
+15,Manage External Purchase Prices Purchase Agreement Defaults,ORA_MANAGE_EXTERNAL_PURCHASE_PRICES_PA_DEFAULTS,Procurement - External Purchase Prices,Import and Load Data,True,False,False,False,0,INI
+16,Manage External Purchase Prices Lookups,ORA_MANAGE_EXTERNAL_PURCHASE_PRICES_LOOKUPS,Procurement - External Purchase Prices,Manual Task,False,True,True,False,0,INI

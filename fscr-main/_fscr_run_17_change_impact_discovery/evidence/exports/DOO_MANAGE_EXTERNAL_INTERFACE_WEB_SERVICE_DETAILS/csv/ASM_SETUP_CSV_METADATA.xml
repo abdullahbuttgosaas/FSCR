@@ -1,0 +1,60 @@
+<MigrationProcessCSVMetadataVO>
+   <MigrationProcessCSVMetadataVORow>
+      <ProcessId>-999</ProcessId>
+      <ProcessName>Manage External Interface Web Service Details_20261109_123101_001</ProcessName>
+      <ProcessDescription>Manage External Interface Web Service Details_20261109_123101_001</ProcessDescription>
+      <ProcessDate>2026-11-09 12:31:18.728</ProcessDate>
+      <ObjectShortName>DOO_MANAGE_EXTERNAL_INTERFACE_WEB_SERVICE_DETAILS</ObjectShortName>
+      <ObjectType>TASK</ObjectType>
+      <CreatedByFlow>TASK_CSV_SERVICE</CreatedByFlow>
+      <ProcessType>EXPORT</ProcessType>
+      <ProcessStatus>COMPLETED</ProcessStatus>
+      <ProcessEnv>etia-test</ProcessEnv>
+      <ProcessStartDate>2026-11-09 12:31:01.14</ProcessStartDate>
+      <ProcessEndDate>2026-11-09 12:31:18.728</ProcessEndDate>
+      <ProcessRelease>11.13.26.10.0</ProcessRelease>
+      <SubmittedBy>Configuration.TEST</SubmittedBy>
+      <ESSRequestId>4447501</ESSRequestId>
+      <MigrationProcessBusinessObjectCSVMetadata1>
+         <MigrationProcessBusinessObjectCSVMetadataVORow>
+            <ProcessId>-999</ProcessId>
+            <BusinessObjectShortName>DOO_WEB_SERVICE_DETAILS</BusinessObjectShortName>
+            <BatchName null="true"/>
+            <XmlAttributeList>CreatedBy,LastUpdatedBy,OrchestrationApplicationCode,ServiceName,Description,OrigSystemName,ResponseProcessPartialMode,SendAttachmentsFlag,InvocationMode</XmlAttributeList>
+            <XmlAttributeTypeList>string,string,string,string,string,string,string,string,string</XmlAttributeTypeList>
+            <XmlNodePath>/WebServiceDetailsMigrationVO/WebServiceDetailsMigrationVORow</XmlNodePath>
+            <NodeSequence>1</NodeSequence>
+         </MigrationProcessBusinessObjectCSVMetadataVORow>
+      </MigrationProcessBusinessObjectCSVMetadata1>
+      <MigrationProcessBatchCSVMetadata null="true"/>
+      <MigrationProcessScopeValueCSVMetadata>
+         <MigrationProcessScopeValueCSVMetadataVORow>
+            <ProcessId>-999</ProcessId>
+            <MigScopeValueSetId>100004733484033</MigScopeValueSetId>
+            <BusinessObjectShortName>DOO_WEB_SERVICE_DETAILS</BusinessObjectShortName>
+            <ScopeValueBoAttributeId>OrchestrationApplicationId</ScopeValueBoAttributeId>
+            <ScopeValueBoAttributeValue>10008</ScopeValueBoAttributeValue>
+            <ScopeValueBoAttributeValueCode>10008</ScopeValueBoAttributeValueCode>
+         </MigrationProcessScopeValueCSVMetadataVORow>
+         <MigrationProcessScopeValueCSVMetadataVORow>
+            <ProcessId>-999</ProcessId>
+            <MigScopeValueSetId>100004733484033</MigScopeValueSetId>
+            <BusinessObjectShortName>DOO_WEB_SERVICE_DETAILS</BusinessObjectShortName>
+            <ScopeValueBoAttributeId>OrchestrationApplicationCode</ScopeValueBoAttributeId>
+            <ScopeValueBoAttributeValue>DOO</ScopeValueBoAttributeValue>
+            <ScopeValueBoAttributeValueCode>DOO</ScopeValueBoAttributeValueCode>
+         </MigrationProcessScopeValueCSVMetadataVORow>
+      </MigrationProcessScopeValueCSVMetadata>
+      <MigrationProcessMigrationObjectCSVMetadata>
+         <MigrationProcessMigrationObjectCSVMetadataVORow>
+            <ProcessId>-999</ProcessId>
+            <BusinessObjectShortName>DOO_WEB_SERVICE_DETAILS</BusinessObjectShortName>
+            <MigrateFlag>Y</MigrateFlag>
+            <IncludeExternalDataFlag>Y</IncludeExternalDataFlag>
+            <ServiceType null="true"/>
+         </MigrationProcessMigrationObjectCSVMetadataVORow>
+      </MigrationProcessMigrationObjectCSVMetadata>
+      <MigrationProcessTaskCSVMetadata null="true"/>
+      <MigrationProcessServiceVersionCSVMetadata null="true"/>
+   </MigrationProcessCSVMetadataVORow>
+</MigrationProcessCSVMetadataVO>

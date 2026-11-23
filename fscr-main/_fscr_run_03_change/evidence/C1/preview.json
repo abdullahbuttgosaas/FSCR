@@ -1,0 +1,117 @@
+{
+  "baselineSha256": "4157828be71418d8ac7b057973fb0a75348d0c66cf25772ec1544a65bd1fd8e1",
+  "businessSummary": {
+    "action": "end-date",
+    "allowDiscountOnPartialPayments": "N",
+    "appliedDefaults": {},
+    "baseAmount": "100",
+    "baseAmountMeaning": "Ratio denominator for installment RelativeAmount values; not a transaction currency amount.",
+    "billingCycle": "",
+    "changeSummary": {
+      "addedRows": [],
+      "changedFields": [
+        {
+          "after": "2026-11-02",
+          "before": "2026/11/02",
+          "entity": "AR_PAYMENT_TERM.csv",
+          "field": "StartDateActive",
+          "key": [
+            "FSCRT_D25B75AF1",
+            "ENTERPRISE"
+          ]
+        },
+        {
+          "after": "2028-12-31",
+          "before": "",
+          "entity": "AR_PAYMENT_TERM.csv",
+          "field": "EndDateActive",
+          "key": [
+            "FSCRT_D25B75AF1",
+            "ENTERPRISE"
+          ]
+        }
+      ],
+      "preservedFieldCount": 86,
+      "removedRows": []
+    },
+    "creditCheck": "N",
+    "description": "25 percent deposit at 15 days, balance at 60 days",
+    "discountBasis": {
+      "code": "I",
+      "meaning": "Invoice amount"
+    },
+    "discountBasisDateType": "APPLICATION_DATE",
+    "discounts": [],
+    "endDateActive": "2028-12-31",
+    "flexfields": {},
+    "installmentOption": {
+      "code": "ALLOCATE",
+      "meaning": "Allocate tax and freight across all installments"
+    },
+    "lines": [
+      {
+        "dueMethod": "DueDays",
+        "dueMonthsForward": "",
+        "dueValue": "15",
+        "relativeAmount": "25",
+        "sequence": "1"
+      },
+      {
+        "dueMethod": "DueDays",
+        "dueMonthsForward": "",
+        "dueValue": "60",
+        "relativeAmount": "75",
+        "sequence": "2"
+      }
+    ],
+    "name": "FSCRT_D25B75AF1",
+    "operationId": "c1",
+    "operationIndex": 1,
+    "prepayment": "N",
+    "printingLeadDays": "1",
+    "setCode": "ENTERPRISE",
+    "startDateActive": "2026-11-02",
+    "translations": [
+      {
+        "description": "25 percent deposit at 15 days, balance at 60 days",
+        "language": "US",
+        "name": "FSCRT_D25B75AF1",
+        "sourceLanguage": "US"
+      }
+    ]
+  },
+  "confirmationInstruction": "Show the business summary and ask the customer to reply exactly confirm before generating the local ZIP.",
+  "designSha256": "06089bee006bb428690759da474fb447178ff0915f402fad2ba6ec27abe4067f",
+  "externalCalls": 0,
+  "mode": "offline_preview",
+  "mutationAuthorized": false,
+  "resolution": {
+    "action": "end-date",
+    "appliedDefaults": {},
+    "baselineMatchCount": 1,
+    "name": "FSCRT_D25B75AF1",
+    "operationId": "c1",
+    "operationIndex": 1,
+    "requestedChildRows": {
+      "AR_PAYMENT_TERM_DISCOUNT.csv": 0,
+      "AR_PAYMENT_TERM_LINE.csv": 0,
+      "AR_PAYMENT_TERM_TRANSLATION.csv": 0
+    },
+    "requestedHeaderFields": [
+      "EndDateActive",
+      "Name",
+      "SetCode"
+    ],
+    "setCode": "ENTERPRISE",
+    "setResolution": "supplied_exact"
+  },
+  "rowCounts": {
+    "AR_PAYMENT_TERM.csv": 1,
+    "AR_PAYMENT_TERM_DISCOUNT.csv": 0,
+    "AR_PAYMENT_TERM_LINE.csv": 2,
+    "AR_PAYMENT_TERM_TRANSLATION.csv": 1
+  },
+  "status": "confirmation_required",
+  "taskCode": "AR_MANAGE_RECEIVABLES_PAYMENT_TERMS",
+  "templateSha256": "12e38553ec71ac984807d49283e033ab3a285f764da3b030e99e41b3bfe7f803"
+}

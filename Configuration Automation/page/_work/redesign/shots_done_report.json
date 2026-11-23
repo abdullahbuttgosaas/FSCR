@@ -1,0 +1,59 @@
+{
+ "console_errors": [
+  "dark-390: Failed to load resource: net::ERR_EMPTY_RESPONSE",
+  "dark-390: Failed to fetch"
+ ],
+ "hscroll": {
+  "mixed-dark-1360": 0,
+  "clean-dark-1360": 0,
+  "mixed-light-1360": 0,
+  "clean-light-1360": 0,
+  "mixed-dark-390": 0,
+  "clean-dark-390": 0
+ },
+ "checks": {
+  "groups": [
+   "Order Types",
+   "Payment Terms",
+   "Lookup Types",
+   "Business Units"
+  ],
+  "first_cards_in_order_types": [
+   "Created",
+   "Created",
+   "Created"
+  ],
+  "search_net": [
+   "Payment Terms"
+  ],
+  "search_nothing": "No result matches that search.",
+  "filter_skipped": [
+   "Lookup Types"
+  ],
+  "collapse_pt": {
+   "aria": "false",
+   "grid_hidden": true
+  },
+  "after_collapse_all": {
+   "label": "Expand all",
+   "expanded": [
+    "false",
+    "false",
+    "false",
+    "false"
+   ]
+  },
+  "after_expand_all": {
+   "label": "Collapse all",
+   "expanded": [
+    "true",
+    "true",
+    "true",
+    "true"
+   ]
+  },
+  "head_min_height": 44,
+  "export_button": 0,
+  "failed_sheet_button": "Failed-only sheet"
+ }
+}

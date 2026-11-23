@@ -1,0 +1,31 @@
+{
+  "items" : [ {
+    "SetId" : "300000000003463",
+    "SetCode" : "ENTERPRISE",
+    "SetName" : "Enterprise Set",
+    "@context" : {
+      "key" : "ENTERPRISE",
+      "links" : [ {
+        "rel" : "self",
+        "href" : "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/setIdSets/ENTERPRISE",
+        "name" : "setIdSets",
+        "kind" : "item"
+      }, {
+        "rel" : "canonical",
+        "href" : "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/setIdSets/ENTERPRISE",
+        "name" : "setIdSets",
+        "kind" : "item"
+      } ]
+    }
+  } ],
+  "count" : 1,
+  "hasMore" : false,
+  "limit" : 25,
+  "offset" : 0,
+  "links" : [ {
+    "rel" : "self",
+    "href" : "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/setIdSets",
+    "name" : "setIdSets",
+    "kind" : "collection"
+  } ]
+}

@@ -1,0 +1,157 @@
+{
+  "archiveMembers": [
+    "AR_PAYMENT_TERM.csv",
+    "AR_PAYMENT_TERM_LINE.csv",
+    "AR_PAYMENT_TERM_TRANSLATION.csv",
+    "AR_PAYMENT_TERM_DISCOUNT.csv",
+    "ASM_SETUP_CSV_METADATA.xml"
+  ],
+  "businessSummary": {
+    "action": "create",
+    "allowDiscountOnPartialPayments": "N",
+    "appliedDefaults": {
+      "BaseAmount": "100",
+      "CalcDiscountOnLinesFlag": "I",
+      "CreditCheckFlag": "N",
+      "DiscountBasisDateType": "APPLICATION_DATE",
+      "FirstInstallmentCode": "INCLUDE",
+      "InUse": "N",
+      "PartialDiscountFlag": "N",
+      "PrepaymentFlag": "N"
+    },
+    "baseAmount": "100",
+    "baseAmountMeaning": "Ratio denominator for installment RelativeAmount values; not a transaction currency amount.",
+    "billingCycle": "",
+    "changeSummary": {
+      "addedRows": [
+        {
+          "entity": "AR_PAYMENT_TERM.csv",
+          "key": [
+            "FSCRT_N20D1",
+            "ENTERPRISE"
+          ]
+        },
+        {
+          "entity": "AR_PAYMENT_TERM_LINE.csv",
+          "key": [
+            "1"
+          ]
+        },
+        {
+          "entity": "AR_PAYMENT_TERM_TRANSLATION.csv",
+          "key": [
+            "US"
+          ]
+        }
+      ],
+      "changedFields": [],
+      "preservedFieldCount": 0,
+      "removedRows": []
+    },
+    "creditCheck": "N",
+    "description": "FSCRT demo payment term 1",
+    "discountBasis": {
+      "code": "I",
+      "meaning": "Invoice amount"
+    },
+    "discountBasisDateType": "APPLICATION_DATE",
+    "discounts": [],
+    "endDateActive": "",
+    "flexfields": {},
+    "installmentOption": {
+      "code": "INCLUDE",
+      "meaning": "Include tax and freight in the first installment"
+    },
+    "lines": [
+      {
+        "dueMethod": "DueDays",
+        "dueMonthsForward": "",
+        "dueValue": "20",
+        "relativeAmount": "100",
+        "sequence": "1"
+      }
+    ],
+    "name": "FSCRT_N20D1",
+    "operationId": "pt1",
+    "operationIndex": 1,
+    "prepayment": "N",
+    "printingLeadDays": "",
+    "setCode": "ENTERPRISE",
+    "startDateActive": "2026-11-04",
+    "translations": [
+      {
+        "description": "FSCRT demo payment term 1",
+        "language": "US",
+        "name": "FSCRT_N20D1",
+        "sourceLanguage": "US"
+      }
+    ]
+  },
+  "confirmationVerified": true,
+  "designSha256": "d77df98e38642508806831481870711b1291e87c30680b8f2acb7794a1cb888a",
+  "deterministic": true,
+  "externalCalls": 0,
+  "mode": "offline_prepare",
+  "mutationAuthorized": false,
+  "output": "E:\\GoSaaS\\Configuration Automation v2.1\\fscr-main\\_fscr_run_demo_FSCR_Demo_Sheet_1_Run_Now\\fscr-work-demo\\project\\fscrt-run01-om-setup\\exports\\demo-pt\\fscrt-demo-pt-candidate.zip",
+  "repeatedSha256": "ff80cbd98c7025049c796279da999cc9e34bd20ddf3e65f270ed1e3388e591ce",
+  "resolution": {
+    "action": "create",
+    "appliedDefaults": {
+      "BaseAmount": "100",
+      "CalcDiscountOnLinesFlag": "I",
+      "CreditCheckFlag": "N",
+      "DiscountBasisDateType": "APPLICATION_DATE",
+      "FirstInstallmentCode": "INCLUDE",
+      "InUse": "N",
+      "PartialDiscountFlag": "N",
+      "PrepaymentFlag": "N"
+    },
+    "baselineMatchCount": 0,
+    "name": "FSCRT_N20D1",
+    "operationId": "pt1",
+    "operationIndex": 1,
+    "requestedChildRows": {
+      "AR_PAYMENT_TERM_DISCOUNT.csv": 0,
+      "AR_PAYMENT_TERM_LINE.csv": 1,
+      "AR_PAYMENT_TERM_TRANSLATION.csv": 1
+    },
+    "requestedHeaderFields": [
+      "BaseAmount",
+      "CalcDiscountOnLinesFlag",
+      "CreditCheckFlag",
+      "Description",
+      "DiscountBasisDateType",
+      "InUse",
+      "Name",
+      "PartialDiscountFlag",
+      "PrepaymentFlag",
+      "SetCode",
+      "StartDateActive"
+    ],
+    "setCode": "ENTERPRISE",
+    "setResolution": "supplied_exact"
+  },
+  "rowCounts": {
+    "AR_PAYMENT_TERM.csv": 1,
+    "AR_PAYMENT_TERM_DISCOUNT.csv": 0,
+    "AR_PAYMENT_TERM_LINE.csv": 1,
+    "AR_PAYMENT_TERM_TRANSLATION.csv": 1
+  },
+  "sha256": "ff80cbd98c7025049c796279da999cc9e34bd20ddf3e65f270ed1e3388e591ce",
+  "status": "ready",
+  "targetEnvironment": "etia-test",
+  "targetRelease": "11.13.26.10.0",
+  "taskCode": "AR_MANAGE_RECEIVABLES_PAYMENT_TERMS",
+  "taskName": "Manage Receivables Payment Terms",
+  "uploadHandoff": {
+    "approvalState": "Not approved or uploaded by offline preparation.",
+    "fileName": "fscrt-demo-pt-candidate.zip",
+    "requiredSurface": "Open the exact Manage Receivables Payment Terms setup task and use its Import from CSV File action.",
+    "sha256": "ff80cbd98c7025049c796279da999cc9e34bd20ddf3e65f270ed1e3388e591ce",
+    "taskCode": "AR_MANAGE_RECEIVABLES_PAYMENT_TERMS",
+    "taskName": "Manage Receivables Payment Terms",
+    "wrongSurfaceWarning": "Do not upload this task-level ZIP from an offering-level or functional-area-level import page."
+  },
+  "warnings": []
+}

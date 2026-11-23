@@ -1,0 +1,67 @@
+{
+  "items" : [ {
+    "JeSourceName" : "Allocations",
+    "UserJeSourceName" : "Allocations",
+    "Description" : "Allocation process.",
+    "@context" : {
+      "key" : "Allocations",
+      "links" : [ {
+        "rel" : "self",
+        "href" : "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/journalSourcesLOV/Allocations",
+        "name" : "journalSourcesLOV",
+        "kind" : "item"
+      }, {
+        "rel" : "canonical",
+        "href" : "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/journalSourcesLOV/Allocations",
+        "name" : "journalSourcesLOV",
+        "kind" : "item"
+      } ]
+    }
+  }, {
+    "JeSourceName" : "Assets",
+    "UserJeSourceName" : "Assets",
+    "Description" : "Oracle Fusion Assets subledger.",
+    "@context" : {
+      "key" : "Assets",
+      "links" : [ {
+        "rel" : "self",
+        "href" : "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/journalSourcesLOV/Assets",
+        "name" : "journalSourcesLOV",
+        "kind" : "item"
+      }, {
+        "rel" : "canonical",
+        "href" : "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/journalSourcesLOV/Assets",
+        "name" : "journalSourcesLOV",
+        "kind" : "item"
+      } ]
+    }
+  }, {
+    "JeSourceName" : "AutoCopy",
+    "UserJeSourceName" : "AutoCopy",
+    "Description" : "Journal entry copied from another.",
+    "@context" : {
+      "key" : "AutoCopy",
+      "links" : [ {
+        "rel" : "self",
+        "href" : "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/journalSourcesLOV/AutoCopy",
+        "name" : "journalSourcesLOV",
+        "kind" : "item"
+      }, {
+        "rel" : "canonical",
+        "href" : "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/journalSourcesLOV/AutoCopy",
+        "name" : "journalSourcesLOV",
+        "kind" : "item"
+      } ]
+    }
+  } ],
+  "count" : 3,
+  "hasMore" : true,
+  "limit" : 3,
+  "offset" : 0,
+  "links" : [ {
+    "rel" : "self",
+    "href" : "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/journalSourcesLOV",
+    "name" : "journalSourcesLOV",
+    "kind" : "collection"
+  } ]
+}

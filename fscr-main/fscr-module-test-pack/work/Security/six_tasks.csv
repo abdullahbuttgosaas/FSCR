@@ -1,0 +1,7 @@
+task_code,task,area,group,result,record_or_reason
+ORA_GTG_ACTIVATE_AUDIT_POLICIES,Activate Audit Policies,Activate Algorithms,Skill + route,Not done,"Read back only: 8 of 8 audit-status reads returned 200 (2 ON, 6 not on). Turning auditing on changes an existing environment-wide setting, so it was not run."
+ORA_GTG_ACTIVATE_ALGORITHMS,Activate Algorithms,Activate Algorithms,Skill + route,Not done,"Needs the BOSS sign-in scope (boss_scope is blank, read stopped with Missing required OAuth scope). Live publish also changes existing algorithms."
+ORA_GTG_ADD_EPM_DATA_SOURCES,Add EPM Data Sources,Add Other Data Sources,Skill + route,Not done,"Needs the BOSS scope and a Risk Cloud client; it also needs a seeded EPM connector and real EPM details. No FSCRT_ record could be created safely."
+ORA_GTG_ADD_OTHER_DATA_SOURCES,Add Other Data Sources,Add Other Data Sources,Skill + route,Not done,"Needs the BOSS scope and Risk Cloud REST access; neither is set up for this sign-in. Nothing was created."
+ORA_GTG_ASSIGN_DEFAULT_PROCESS_OWNERS,Assign Default Process Owners,Assign Initial Users,Skill + route,Not done,"Needs existing Oracle users and the BOSS scope; assigning would change existing process owners."
+ORA_GTG_ASSIGN_RISK_POWER_USER_ROLE,Assign Risk Power User Role,Assign Initial Users,Skill + route,Not done,"Needs existing users and an access request on their accounts, plus the BOSS scope. Risky change to existing users."

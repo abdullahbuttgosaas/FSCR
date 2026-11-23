@@ -1,0 +1,11 @@
+Run 33 probe: the two 'neither' tasks (no FSCR skill/guide, no catalog CSV flag)
+
+ORA_MANAGE_APPROVAL_GROUPS | Manage Approval Groups | level=c | skill=none | catalog CSV flag=N | routes declared=-
+EXM_MANAGE_CORPORATE_CARDS | Manage Corporate Cards | level=c | skill=none | catalog CSV flag=N | routes declared=-
+
+REST probes on ETIA-TEST (GET, limit 1): corporateCards, expenseCorporateCards, corporateCardPrograms, corporateCardIssuers, creditCards, expenseCreditCards,
+approvalGroups, procurementApprovalGroups, bpmApprovalGroups, taskConfigurations, requisitionApprovals, approvalGroupsLOV -> all 404 (no such resource).
+Oracle REST endpoint lists read: Procurement 26C (docs.oracle.com/en/cloud/saas/procurement/26c/fapra/rest-endpoints.html) and Financials 26C (docs.oracle.com/en/cloud/saas/financials/26c/farfa/rest-endpoints.html):
+approvals appear only as history / activity GETs; corporate cards appear only as 'Get corporate card transactions' and a procurement-cards list of values (GET).
+Oracle Procurement 25D 'Overview of Managing Approvals and Notifications' says approval groups and task configuration are done in the BPM Worklist administration page (screen work).
+Result: Oracle itself has no CSV and no create API for these two tasks. Not attempted; nothing created.

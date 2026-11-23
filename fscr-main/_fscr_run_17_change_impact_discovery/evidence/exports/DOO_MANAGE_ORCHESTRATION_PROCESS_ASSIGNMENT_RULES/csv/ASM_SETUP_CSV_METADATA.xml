@@ -1,0 +1,79 @@
+<MigrationProcessCSVMetadataVO>
+   <MigrationProcessCSVMetadataVORow>
+      <ProcessId>-999</ProcessId>
+      <ProcessName>Manage Orchestration Process Assignment Rules_20261109_122659_706</ProcessName>
+      <ProcessDescription>Manage Orchestration Process Assignment Rules_20261109_122659_706</ProcessDescription>
+      <ProcessDate>2026-11-09 12:27:30.766</ProcessDate>
+      <ObjectShortName>DOO_MANAGE_ORCHESTRATION_PROCESS_ASSIGNMENT_RULES</ObjectShortName>
+      <ObjectType>TASK</ObjectType>
+      <CreatedByFlow>TASK_CSV_SERVICE</CreatedByFlow>
+      <ProcessType>EXPORT</ProcessType>
+      <ProcessStatus>COMPLETED</ProcessStatus>
+      <ProcessEnv>etia-test</ProcessEnv>
+      <ProcessStartDate>2026-11-09 12:26:59.98</ProcessStartDate>
+      <ProcessEndDate>2026-11-09 12:27:30.766</ProcessEndDate>
+      <ProcessRelease>11.13.26.10.0</ProcessRelease>
+      <SubmittedBy>Configuration.TEST</SubmittedBy>
+      <ESSRequestId>4447493</ESSRequestId>
+      <MigrationProcessBusinessObjectCSVMetadata1>
+         <MigrationProcessBusinessObjectCSVMetadataVORow>
+            <ProcessId>-999</ProcessId>
+            <BusinessObjectShortName>DOO_TRANSFORMATION_RULES</BusinessObjectShortName>
+            <BatchName null="true"/>
+            <XmlAttributeList>RuleDictionaryId,RuleDictionary,RuleDictionaryName,RuleDictionaryOwner,RuleDictionaryVersion</XmlAttributeList>
+            <XmlAttributeTypeList>long,clob,string,string,int</XmlAttributeTypeList>
+            <XmlNodePath>/RuleDictionarySetupVO/RuleDictionarySetupVORow</XmlNodePath>
+            <NodeSequence>1</NodeSequence>
+         </MigrationProcessBusinessObjectCSVMetadataVORow>
+         <MigrationProcessBusinessObjectCSVMetadataVORow>
+            <ProcessId>-999</ProcessId>
+            <BusinessObjectShortName>DOO_PROCESS_ASSIGNMENT_RULES</BusinessObjectShortName>
+            <BatchName null="true"/>
+            <XmlAttributeList>RuleDictionaryId,RuleDictionary,RuleDictionaryName,RuleDictionaryOwner,RuleDictionaryVersion</XmlAttributeList>
+            <XmlAttributeTypeList>long,clob,string,string,int</XmlAttributeTypeList>
+            <XmlNodePath>/RuleDictionarySetupVO/RuleDictionarySetupVORow</XmlNodePath>
+            <NodeSequence>1</NodeSequence>
+         </MigrationProcessBusinessObjectCSVMetadataVORow>
+         <MigrationProcessBusinessObjectCSVMetadataVORow>
+            <ProcessId>-999</ProcessId>
+            <BusinessObjectShortName>ORA_FOM_ORDER_APPROVAL_RULE</BusinessObjectShortName>
+            <BatchName null="true"/>
+            <XmlAttributeList>RuleDictionaryId,RuleDictionary,RuleDictionaryName,RuleDictionaryOwner,RuleDictionaryVersion</XmlAttributeList>
+            <XmlAttributeTypeList>long,clob,string,string,int</XmlAttributeTypeList>
+            <XmlNodePath>/RuleDictionarySetupVO/RuleDictionarySetupVORow</XmlNodePath>
+            <NodeSequence>1</NodeSequence>
+         </MigrationProcessBusinessObjectCSVMetadataVORow>
+         <MigrationProcessBusinessObjectCSVMetadataVORow>
+            <ProcessId>-999</ProcessId>
+            <BusinessObjectShortName>ORA_DOO_EXTERNAL_INTERFACE</BusinessObjectShortName>
+            <BatchName null="true"/>
+            <XmlAttributeList>RuleDictionaryId,RuleDictionary,RuleDictionaryName,RuleDictionaryOwner,RuleDictionaryVersion</XmlAttributeList>
+            <XmlAttributeTypeList>long,clob,string,string,int</XmlAttributeTypeList>
+            <XmlNodePath>/RuleDictionarySetupVO/RuleDictionarySetupVORow</XmlNodePath>
+            <NodeSequence>1</NodeSequence>
+         </MigrationProcessBusinessObjectCSVMetadataVORow>
+      </MigrationProcessBusinessObjectCSVMetadata1>
+      <MigrationProcessBatchCSVMetadata null="true"/>
+      <MigrationProcessScopeValueCSVMetadata>
+         <MigrationProcessScopeValueCSVMetadataVORow>
+            <ProcessId>-999</ProcessId>
+            <MigScopeValueSetId>100004733484007</MigScopeValueSetId>
+            <BusinessObjectShortName>DOO_PROCESS_ASSIGNMENT_RULES</BusinessObjectShortName>
+            <ScopeValueBoAttributeId>dictionaryName</ScopeValueBoAttributeId>
+            <ScopeValueBoAttributeValue>AssignLaunch</ScopeValueBoAttributeValue>
+            <ScopeValueBoAttributeValueCode>AssignLaunch</ScopeValueBoAttributeValueCode>
+         </MigrationProcessScopeValueCSVMetadataVORow>
+      </MigrationProcessScopeValueCSVMetadata>
+      <MigrationProcessMigrationObjectCSVMetadata>
+         <MigrationProcessMigrationObjectCSVMetadataVORow>
+            <ProcessId>-999</ProcessId>
+            <BusinessObjectShortName>DOO_PROCESS_ASSIGNMENT_RULES</BusinessObjectShortName>
+            <MigrateFlag>Y</MigrateFlag>
+            <IncludeExternalDataFlag>Y</IncludeExternalDataFlag>
+            <ServiceType null="true"/>
+         </MigrationProcessMigrationObjectCSVMetadataVORow>
+      </MigrationProcessMigrationObjectCSVMetadata>
+      <MigrationProcessTaskCSVMetadata null="true"/>
+      <MigrationProcessServiceVersionCSVMetadata null="true"/>
+   </MigrationProcessCSVMetadataVORow>
+</MigrationProcessCSVMetadataVO>

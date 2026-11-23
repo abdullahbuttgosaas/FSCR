@@ -1,0 +1,193 @@
+{
+ "tasks": 2616,
+ "tasks_with_skill": 848,
+ "csv_flag": {
+  "N": 520,
+  "Y": 2076,
+  "UNKNOWN": 20
+ },
+ "area_counts": {
+  "Multiple": 233,
+  "ERP": 730,
+  "Common": 7,
+  "CX": 490,
+  "HCM": 337,
+  "No offering": 220,
+  "SCM": 518,
+  "Unmapped offering": 81
+ },
+ "area_basis": {
+  "catalog offering pillars": 227,
+  "FSCR skill pillar": 848,
+  "catalog offering pillar (also in an unmapped offering)": 58,
+  "catalog offering pillar": 1182,
+  "task not in any enabled offering": 220,
+  "only in offerings with no pillar in pillars-offerings-mapping.json": 81
+ },
+ "status_by_area": {
+  "1 Adapter: created a record in our tests": {
+   "ERP": 6
+  },
+  "2 Adapter: failed or blocked in our tests": {
+   "ERP": 4
+  },
+  "3 Adapter: not tested (no safe target)": {
+   "ERP": 6
+  },
+  "4 Skill: route named, no create recipe": {
+   "Common": 4,
+   "HCM": 285,
+   "SCM": 237,
+   "ERP": 63,
+   "Multiple": 6,
+   "CX": 212
+  },
+  "5 Skill: manual steps or no route": {
+   "Common": 3,
+   "SCM": 12,
+   "HCM": 4,
+   "CX": 6
+  },
+  "6 No skill: FSCR export/read only (CSV flag Y)": {
+   "Multiple": 169,
+   "ERP": 539,
+   "CX": 209,
+   "No offering": 139,
+   "HCM": 14,
+   "SCM": 222,
+   "Unmapped offering": 81
+  },
+  "7 No skill: no FSCR route (CSV flag N/UNKNOWN)": {
+   "Multiple": 58,
+   "ERP": 112,
+   "CX": 63,
+   "HCM": 34,
+   "No offering": 81,
+   "SCM": 47
+  }
+ },
+ "route_tasks_by_area": {
+  "CX_IMPORT": {
+   "CX": 5
+  },
+  "ESS": {
+   "HCM": 8,
+   "ERP": 2,
+   "CX": 13,
+   "Multiple": 3,
+   "SCM": 1
+  },
+  "FBDI": {
+   "SCM": 6,
+   "ERP": 3
+  },
+  "FSM_CSV": {
+   "ERP": 63,
+   "Common": 4,
+   "HCM": 221,
+   "SCM": 218,
+   "Multiple": 3,
+   "CX": 163
+  },
+  "HDL": {
+   "HCM": 40,
+   "ERP": 2
+  },
+  "MANUAL_ONLY": {
+   "SCM": 10,
+   "HCM": 1,
+   "CX": 1
+  },
+  "NONE_DECLARED": {
+   "Common": 3,
+   "Multiple": 4,
+   "SCM": 2,
+   "HCM": 3,
+   "CX": 5
+  },
+  "REST": {
+   "ERP": 45,
+   "HCM": 141,
+   "SCM": 193,
+   "Multiple": 1,
+   "CX": 81
+  },
+  "UNCLEAR": {
+   "HCM": 1
+  }
+ },
+ "no_skill_by_flag": {
+  "N": 389,
+  "Y": 1373,
+  "UNKNOWN": 6
+ },
+ "no_skill_flag_by_area": {
+  "Y": {
+   "Multiple": 169,
+   "ERP": 539,
+   "CX": 209,
+   "No offering": 139,
+   "HCM": 14,
+   "SCM": 222,
+   "Unmapped offering": 81
+  },
+  "N": {
+   "Multiple": 58,
+   "ERP": 112,
+   "CX": 57,
+   "HCM": 34,
+   "No offering": 81,
+   "SCM": 47
+  },
+  "UNKNOWN": {
+   "CX": 6
+  }
+ },
+ "tasks_own_script": 99,
+ "tasks_adapter": 16,
+ "fsm_no_adapter": 656,
+ "rest_no_adapter": 459,
+ "rest_only_tasks": 98,
+ "hdl_tasks": 42,
+ "fbdi_tasks": 9,
+ "release_drift_adapters": null,
+ "leaf_skills": 934,
+ "leaf_by_area": {
+  "Core": 31,
+  "Common": 8,
+  "CX": 166,
+  "ERP": 84,
+  "HCM": 359,
+  "SCM": 202,
+  "Router": 3,
+  "Shared": 81
+ },
+ "leaf_own_script": 124,
+ "leaf_own_script_by_area": {
+  "Core": 13,
+  "CX": 26,
+  "ERP": 35,
+  "HCM": 27,
+  "SCM": 5,
+  "Shared": 18
+ },
+ "leaf_with_task_code": 795,
+ "leaf_types": {
+  "validation": 5,
+  "import": 60,
+  "orchestration": 102,
+  "support": 1,
+  "assessment": 14,
+  "advisory": 32,
+  "verification": 14,
+  "export": 5,
+  "planning": 701
+ },
+ "leaf_modes": {
+  "assisted": 718,
+  "hybrid": 181,
+  "automated": 7,
+  "advisory": 28
+ },
+ "skill_dirs_total": 1126
+}

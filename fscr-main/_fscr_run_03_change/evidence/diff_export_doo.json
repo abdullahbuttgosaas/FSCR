@@ -1,0 +1,92 @@
+{
+ "old": "evidence/before/exports/ETIA-TEST_setup_task_csv_export_doo_manage_orchestration_lookups_100004733446425.zip",
+ "new": "evidence/after/exports/ETIA-TEST_setup_task_csv_export_doo_manage_orchestration_lookups_100004733440794.zip",
+ "files": {
+  "FND_APP_STANDARD_LOOKUP.csv": {
+   "rows_old": 6,
+   "rows_new": 6,
+   "key_columns": [
+    "LookupType",
+    "BossAppPackageName",
+    "BossModuleName"
+   ],
+   "added": [],
+   "removed": [],
+   "changed": []
+  },
+  "ORA_FND_APP_STANDARD_LOOKUP_CODE.csv": {
+   "rows_old": 68,
+   "rows_new": 68,
+   "key_columns": [
+    "LookupCode"
+   ],
+   "added": [],
+   "removed": [],
+   "changed": [
+    {
+     "key": {
+      "LookupCode": "FSCRT_STANDARD"
+     },
+     "diff": {
+      "EnabledFlag": [
+       "Y",
+       "N"
+      ]
+     }
+    },
+    {
+     "key": {
+      "LookupCode": "FSCRT_HIKING"
+     },
+     "diff": {
+      "Description": [
+       "",
+       "Day hikes and multi-day treks"
+      ],
+      "Meaning": [
+       "FSCRT_Hiking",
+       "FSCRT_Hiking and trekking"
+      ]
+     }
+    },
+    {
+     "key": {
+      "LookupCode": "FSCRT_SO_TRAIL_DEALER_F01"
+     },
+     "diff": {
+      "Description": [
+       "Stock refills for trail dealers",
+       "Stock refills for trail dealers, retired after October 2027"
+      ],
+      "EndDateActive": [
+       "",
+       "2027/10/31"
+      ]
+     }
+    },
+    {
+     "key": {
+      "LookupCode": "FSCRT_FREIGHT"
+     },
+     "diff": {
+      "EnabledFlag": [
+       "N",
+       "Y"
+      ]
+     }
+    },
+    {
+     "key": {
+      "LookupCode": "FSCRT_SO_WARRANTY_SWAP_F01"
+     },
+     "diff": {
+      "EnabledFlag": [
+       "N",
+       "Y"
+      ]
+     }
+    }
+   ]
+  }
+ }
+}

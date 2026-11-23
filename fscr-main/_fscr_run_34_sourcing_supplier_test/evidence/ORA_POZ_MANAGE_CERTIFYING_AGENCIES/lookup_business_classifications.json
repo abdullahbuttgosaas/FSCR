@@ -1,0 +1,86 @@
+200
+{
+  "items" : [ {
+    "LookupCode" : "ABD_LookUp",
+    "Meaning" : "LookupAbd",
+    "EnabledFlag" : "Y",
+    "StartDateActive" : "2026-07-21",
+    "EndDateActive" : "2027-07-20"
+  }, {
+    "LookupCode" : "Momina_lookup_supplies",
+    "Meaning" : "to lookup for all office supplies",
+    "EnabledFlag" : "Y",
+    "StartDateActive" : "2026-07-12",
+    "EndDateActive" : null
+  }, {
+    "LookupCode" : "ZAYNAB_COMPUTER_CONSULTING",
+    "Meaning" : "Zaynab computer consulting services",
+    "EnabledFlag" : "Y",
+    "StartDateActive" : "2026-07-09",
+    "EndDateActive" : null
+  }, {
+    "LookupCode" : "ZAID_LOOKUP",
+    "Meaning" : "Lookup Made for Zaid",
+    "EnabledFlag" : "Y",
+    "StartDateActive" : null,
+    "EndDateActive" : null
+  }, {
+    "LookupCode" : "DISABLED_VETERAN_OWNED",
+    "Meaning" : "Service-disabled Veteran Owned",
+    "EnabledFlag" : "Y",
+    "StartDateActive" : "2009-12-31",
+    "EndDateActive" : null
+  }, {
+    "LookupCode" : "HUB_ZONE",
+    "Meaning" : "Hub Zone",
+    "EnabledFlag" : "Y",
+    "StartDateActive" : "2009-12-31",
+    "EndDateActive" : null
+  }, {
+    "LookupCode" : "MINORITY_OWNED",
+    "Meaning" : "Minority Owned",
+    "EnabledFlag" : "Y",
+    "StartDateActive" : "2009-12-31",
+    "EndDateActive" : null
+  }, {
+    "LookupCode" : "ORA_DISABILITY_OWNED_PERSON",
+    "Meaning" : "Person with Disability Owned",
+    "EnabledFlag" : "N",
+    "StartDateActive" : "2009-12-31",
+    "EndDateActive" : null
+  }, {
+    "LookupCode" : "ORA_LGBTQ_OWNED",
+    "Meaning" : "LGBTQ+ Owned",
+    "EnabledFlag" : "N",
+    "StartDateActive" : "2009-12-31",
+    "EndDateActive" : null
+  }, {
+    "LookupCode" : "SMALL_BUSINESS",
+    "Meaning" : "Small Business",
+    "EnabledFlag" : "Y",
+    "StartDateActive" : "2009-12-31",
+    "EndDateActive" : null
+  }, {
+    "LookupCode" : "VETERAN_OWNED",
+    "Meaning" : "Veteran Owned",
+    "EnabledFlag" : "Y",
+    "StartDateActive" : "2009-12-31",
+    "EndDateActive" : null
+  }, {
+    "LookupCode" : "WOMAN_OWNED",
+    "Meaning" : "Woman Owned",
+    "EnabledFlag" : "Y",
+    "StartDateActive" : "2009-12-31",
+    "EndDateActive" : null
+  } ],
+  "count" : 12,
+  "hasMore" : false,
+  "limit" : 50,
+  "offset" : 0,
+  "links" : [ {
+    "rel" : "self",
+    "href" : "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/POZ_BUSINESS_CLASSIFICATIONS/child/lookupCodes",
+    "name" : "lookupCodes",
+    "kind" : "collection"
+  } ]
+}

@@ -1,0 +1,242 @@
+{
+  "artifact_type": "setup_task_sequence",
+  "generated_by": "shared.implementation-planning.task-dependency-resolver",
+  "source": "knowledge/setup-task-catalog/release/offering-functional-area-task-catalog.json",
+  "catalog_generated_at": "2026-10-15T05:06:18+00:00",
+  "offering_scope": [
+    "XLE_FINANCIALS_JUR"
+  ],
+  "functional_area_scope": [
+    "ORA_FIN_CUST_BILL"
+  ],
+  "diagnostics": [
+    {
+      "type": "graph_enrichment",
+      "status": "not_applied",
+      "detail": "Dependency-graph enrichment not applied; release catalog order retained (graph is non-blocking per resolver contract)."
+    }
+  ],
+  "setup_task_sequence": [
+    {
+      "sequence": 1,
+      "task_code": "AR_MANAGE_AUTOINVOICE_LINE_ORDERING_RULES",
+      "task_name": "Manage AutoInvoice Line Ordering Rules",
+      "task_list_item_id": "AR_DEFINE_CUSTOMER_BILLING_CONFIGURATIONAR_MANAGE_AUTOINVOICE_LINE_ORDERING_RULES",
+      "offering": "Financials",
+      "offering_code": "XLE_FINANCIALS_JUR",
+      "functional_area": "Customer Billing",
+      "functional_area_code": "ORA_FIN_CUST_BILL",
+      "catalog_display_sequence": "433",
+      "sequence_source": "release_catalog",
+      "depends_on": []
+    },
+    {
+      "sequence": 2,
+      "task_code": "AR_MANAGE_AUTOINVOICE_GROUPING_RULES",
+      "task_name": "Manage AutoInvoice Grouping Rules",
+      "task_list_item_id": "AR_DEFINE_CUSTOMER_BILLING_CONFIGURATIONAR_MANAGE_AUTOINVOICE_GROUPING_RULES",
+      "offering": "Financials",
+      "offering_code": "XLE_FINANCIALS_JUR",
+      "functional_area": "Customer Billing",
+      "functional_area_code": "ORA_FIN_CUST_BILL",
+      "catalog_display_sequence": "434",
+      "sequence_source": "release_catalog",
+      "depends_on": []
+    },
+    {
+      "sequence": 3,
+      "task_code": "AR_MANAGE_BALANCE_FORWARD_BILLING_CYCLES",
+      "task_name": "Manage Balance Forward Billing Cycles",
+      "task_list_item_id": "AR_DEFINE_CUSTOMER_BILLING_CONFIGURATIONAR_MANAGE_BALANCE_FORWARD_BILLING_CYCLES",
+      "offering": "Financials",
+      "offering_code": "XLE_FINANCIALS_JUR",
+      "functional_area": "Customer Billing",
+      "functional_area_code": "ORA_FIN_CUST_BILL",
+      "catalog_display_sequence": "435",
+      "sequence_source": "release_catalog",
+      "depends_on": []
+    },
+    {
+      "sequence": 4,
+      "task_code": "AR_MANAGE_RECEIVABLES_PAYMENT_TERMS",
+      "task_name": "Manage Receivables Payment Terms",
+      "task_list_item_id": "AR_DEFINE_CUSTOMER_BILLING_CONFIGURATIONAR_MANAGE_RECEIVABLES_PAYMENT_TERMS",
+      "offering": "Financials",
+      "offering_code": "XLE_FINANCIALS_JUR",
+      "functional_area": "Customer Billing",
+      "functional_area_code": "ORA_FIN_CUST_BILL",
+      "catalog_display_sequence": "436",
+      "sequence_source": "release_catalog",
+      "depends_on": []
+    },
+    {
+      "sequence": 5,
+      "task_code": "AR_MANAGE_REVENUE_SCHEDULING_RULES",
+      "task_name": "Manage Revenue Scheduling Rules",
+      "task_list_item_id": "AR_DEFINE_CUSTOMER_BILLING_CONFIGURATIONAR_MANAGE_REVENUE_SCHEDULING_RULES",
+      "offering": "Financials",
+      "offering_code": "XLE_FINANCIALS_JUR",
+      "functional_area": "Customer Billing",
+      "functional_area_code": "ORA_FIN_CUST_BILL",
+      "catalog_display_sequence": "437",
+      "sequence_source": "release_catalog",
+      "depends_on": []
+    },
+    {
+      "sequence": 6,
+      "task_code": "AR_MANAGE_AUTOACCOUNTING_RULES",
+      "task_name": "Manage AutoAccounting Rules",
+      "task_list_item_id": "AR_DEFINE_CUSTOMER_BILLING_CONFIGURATIONAR_MANAGE_AUTOACCOUNTING_RULES",
+      "offering": "Financials",
+      "offering_code": "XLE_FINANCIALS_JUR",
+      "functional_area": "Customer Billing",
+      "functional_area_code": "ORA_FIN_CUST_BILL",
+      "catalog_display_sequence": "438",
+      "sequence_source": "release_catalog",
+      "depends_on": []
+    },
+    {
+      "sequence": 7,
+      "task_code": "AR_MANAGE_TRANSACTION_TYPES",
+      "task_name": "Manage Transaction Types",
+      "task_list_item_id": "AR_DEFINE_CUSTOMER_BILLING_CONFIGURATIONAR_MANAGE_TRANSACTION_TYPES",
+      "offering": "Financials",
+      "offering_code": "XLE_FINANCIALS_JUR",
+      "functional_area": "Customer Billing",
+      "functional_area_code": "ORA_FIN_CUST_BILL",
+      "catalog_display_sequence": "439",
+      "sequence_source": "release_catalog",
+      "depends_on": []
+    },
+    {
+      "sequence": 8,
+      "task_code": "AR_MANAGE_TRANSACTION_SOURCES",
+      "task_name": "Manage Transaction Sources",
+      "task_list_item_id": "AR_DEFINE_CUSTOMER_BILLING_CONFIGURATIONAR_MANAGE_TRANSACTION_SOURCES",
+      "offering": "Financials",
+      "offering_code": "XLE_FINANCIALS_JUR",
+      "functional_area": "Customer Billing",
+      "functional_area_code": "ORA_FIN_CUST_BILL",
+      "catalog_display_sequence": "440",
+      "sequence_source": "release_catalog",
+      "depends_on": []
+    },
+    {
+      "sequence": 9,
+      "task_code": "AR_MANAGE_SALESPERSON_ACCOUNT_REFERENCES",
+      "task_name": "Manage Salesperson Account References",
+      "task_list_item_id": "AR_DEFINE_CUSTOMER_BILLING_CONFIGURATIONAR_MANAGE_SALESPERSON_ACCOUNT_REFERENCES",
+      "offering": "Financials",
+      "offering_code": "XLE_FINANCIALS_JUR",
+      "functional_area": "Customer Billing",
+      "functional_area_code": "ORA_FIN_CUST_BILL",
+      "catalog_display_sequence": "441",
+      "sequence_source": "release_catalog",
+      "depends_on": []
+    },
+    {
+      "sequence": 10,
+      "task_code": "AR_MANAGE_REMIT_TO_ADDRESSES",
+      "task_name": "Manage Remit to Addresses",
+      "task_list_item_id": "AR_DEFINE_CUSTOMER_BILLING_CONFIGURATIONAR_MANAGE_REMIT_TO_ADDRESSES",
+      "offering": "Financials",
+      "offering_code": "XLE_FINANCIALS_JUR",
+      "functional_area": "Customer Billing",
+      "functional_area_code": "ORA_FIN_CUST_BILL",
+      "catalog_display_sequence": "442",
+      "sequence_source": "release_catalog",
+      "depends_on": []
+    },
+    {
+      "sequence": 11,
+      "task_code": "AR_MANAGE_STANDARD_MEMO_LINES",
+      "task_name": "Manage Standard Memo Lines",
+      "task_list_item_id": "AR_DEFINE_CUSTOMER_BILLING_CONFIGURATIONAR_MANAGE_STANDARD_MEMO_LINES",
+      "offering": "Financials",
+      "offering_code": "XLE_FINANCIALS_JUR",
+      "functional_area": "Customer Billing",
+      "functional_area_code": "ORA_FIN_CUST_BILL",
+      "catalog_display_sequence": "443",
+      "sequence_source": "release_catalog",
+      "depends_on": []
+    },
+    {
+      "sequence": 12,
+      "task_code": "AR_MANAGE_RECEIVABLES_NOTE_TYPE",
+      "task_name": "Manage Receivables Note Type",
+      "task_list_item_id": "AR_DEFINE_CUSTOMER_BILLING_CONFIGURATION:DEFINE_RECEIVABLES_NOTESAR_MANAGE_RECEIVABLES_NOTE_TYPE",
+      "offering": "Financials",
+      "offering_code": "XLE_FINANCIALS_JUR",
+      "functional_area": "Customer Billing",
+      "functional_area_code": "ORA_FIN_CUST_BILL",
+      "catalog_display_sequence": "444",
+      "sequence_source": "release_catalog",
+      "depends_on": []
+    },
+    {
+      "sequence": 13,
+      "task_code": "AR_MANAGE_RECEIVABLES_NOTE_TYPE_MAPPING",
+      "task_name": "Manage Receivables Note Type Mapping",
+      "task_list_item_id": "AR_DEFINE_CUSTOMER_BILLING_CONFIGURATION:DEFINE_RECEIVABLES_NOTESAR_MANAGE_RECEIVABLES_NOTE_TYPE_MAPPING",
+      "offering": "Financials",
+      "offering_code": "XLE_FINANCIALS_JUR",
+      "functional_area": "Customer Billing",
+      "functional_area_code": "ORA_FIN_CUST_BILL",
+      "catalog_display_sequence": "445",
+      "sequence_source": "release_catalog",
+      "depends_on": []
+    },
+    {
+      "sequence": 14,
+      "task_code": "AR_MANAGE_RECEIVABLES_NOTE_DESCRIPTIVE_FLEXFIELDS",
+      "task_name": "Manage Receivables Note Descriptive Flexfields",
+      "task_list_item_id": "AR_DEFINE_CUSTOMER_BILLING_CONFIGURATION:DEFINE_RECEIVABLES_NOTESAR_MANAGE_RECEIVABLES_NOTE_DESCRIPTIVE_FLEXFIELDS",
+      "offering": "Financials",
+      "offering_code": "XLE_FINANCIALS_JUR",
+      "functional_area": "Customer Billing",
+      "functional_area_code": "ORA_FIN_CUST_BILL",
+      "catalog_display_sequence": "446",
+      "sequence_source": "release_catalog",
+      "depends_on": []
+    },
+    {
+      "sequence": 15,
+      "task_code": "JA_CN_MANAGE_GOLDEN_TAX_TRANSFER_RULES",
+      "task_name": "Manage Golden Tax Transfer Rules for China",
+      "task_list_item_id": "AR_DEFINE_CUSTOMER_BILLING_CONFIGURATION:DEFINE_SETUP_OPTIONS_FOR_CHINAJA_CN_MANAGE_GOLDEN_TAX_TRANSFER_RULES",
+      "offering": "Financials",
+      "offering_code": "XLE_FINANCIALS_JUR",
+      "functional_area": "Customer Billing",
+      "functional_area_code": "ORA_FIN_CUST_BILL",
+      "catalog_display_sequence": "447",
+      "sequence_source": "release_catalog",
+      "depends_on": []
+    },
+    {
+      "sequence": 16,
+      "task_code": "JA_CN_MANAGE_GOLDEN_TAX_SYSTEM_OPTIONS",
+      "task_name": "Manage Golden Tax System Options for China",
+      "task_list_item_id": "AR_DEFINE_CUSTOMER_BILLING_CONFIGURATION:DEFINE_SETUP_OPTIONS_FOR_CHINAJA_CN_MANAGE_GOLDEN_TAX_SYSTEM_OPTIONS",
+      "offering": "Financials",
+      "offering_code": "XLE_FINANCIALS_JUR",
+      "functional_area": "Customer Billing",
+      "functional_area_code": "ORA_FIN_CUST_BILL",
+      "catalog_display_sequence": "448",
+      "sequence_source": "release_catalog",
+      "depends_on": []
+    },
+    {
+      "sequence": 17,
+      "task_code": "ORA_MANAGE_USER_DEFINED_RULES_FOR_RECEIVABLES",
+      "task_name": "Manage User-Defined Rules for Receivables",
+      "task_list_item_id": "ORA_AR_DEFINE_CUSTOMER_BILLING_CONFIGURATION_ORA_MANAGE_USER_DEFINED_RULES_FOR_RECEIVABLES",
+      "offering": "Financials",
+      "offering_code": "XLE_FINANCIALS_JUR",
+      "functional_area": "Customer Billing",
+      "functional_area_code": "ORA_FIN_CUST_BILL",
+      "catalog_display_sequence": "449",
+      "sequence_source": "release_catalog",
+      "depends_on": []
+    }
+  ]
+}

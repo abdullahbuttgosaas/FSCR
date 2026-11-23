@@ -1,0 +1,1 @@
+Create a manual Receivables transaction source FSCRT_TS1 in set ENTERPRISE, active from 2026-11-03, automatic transaction numbering starting after 0, standard transaction type FSCRT_TT1 (set ENTERPRISE).

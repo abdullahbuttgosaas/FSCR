@@ -1,0 +1,11 @@
+{
+ "archiveName": "po_manage_hazard_classes_fscrt.zip",
+ "rowCounts": {
+  "PO_HAZARD_CLASS.csv": 1,
+  "PO_HAZARD_CLASS_TRANSLATION.csv": 1
+ },
+ "operation": "create",
+ "names": [
+  "FSCRT_R35_HC"
+ ]
+}

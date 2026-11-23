@@ -1,0 +1,44 @@
+{
+  "items" : [ {
+    "LookupType" : "FSCRT_CARRIER_SERVICE_TIER_F01",
+    "ModuleId" : "61ECAF4AAB00E990E040449821C61C97",
+    "Meaning" : "FSCRT_Carrier service tier F01",
+    "Description" : "Shipping service levels offered to dealers",
+    "CustomizationLevel" : "U",
+    "RestAccessSecured" : "AUTH",
+    "CreatedBy" : "Configuration.TEST",
+    "CreationDate" : "2026-11-02T19:53:38+00:00",
+    "LastUpdateDate" : "2026-11-02T19:53:38.188+00:00",
+    "LastUpdateLogin" : "5F4DC615B8ADA793E0631C65310A696A",
+    "LastUpdatedBy" : "Configuration.TEST",
+    "@context" : {
+      "key" : "FSCRT_CARRIER_SERVICE_TIER_F01"
+    }
+  }, {
+    "LookupType" : "FSCRT_OUTDOOR_ACTIVITY_F01",
+    "ModuleId" : "61ECAF4AAB00E990E040449821C61C97",
+    "Meaning" : "FSCRT_Outdoor activity F01",
+    "Description" : "Activities a product is sold for",
+    "CustomizationLevel" : "U",
+    "RestAccessSecured" : "SECURE",
+    "CreatedBy" : "Configuration.TEST",
+    "CreationDate" : "2026-11-02T19:53:36+00:00",
+    "LastUpdateDate" : "2026-11-02T19:53:36.268+00:00",
+    "LastUpdateLogin" : "5F4DD5A7CB610AE7E0631C65310A4BA1",
+    "LastUpdatedBy" : "Configuration.TEST",
+    "@context" : {
+      "key" : "FSCRT_OUTDOOR_ACTIVITY_F01"
+    }
+  } ],
+  "totalResults" : 2,
+  "count" : 2,
+  "hasMore" : false,
+  "limit" : 50,
+  "offset" : 0,
+  "links" : [ {
+    "rel" : "self",
+    "href" : "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups",
+    "name" : "standardLookups",
+    "kind" : "collection"
+  } ]
+}

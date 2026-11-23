@@ -1,0 +1,2 @@
+URL: https://docs.oracle.com/en/cloud/saas/financials/26c/faiex/index.html
+ Next JavaScript must be enabled to correctly display this content Implementing Expenses Oracle Fusion Cloud Financials Implementing Expenses G56230-01 26C Title and Copyright Information Oracle Fusion Cloud Financials Implementing Expenses G56230-01 Copyright © 2011, 2026, Oracle and/or its affiliates. Author: Irene Rodda Curran 

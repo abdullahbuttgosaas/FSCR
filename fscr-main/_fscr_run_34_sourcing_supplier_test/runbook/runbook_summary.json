@@ -1,0 +1,25 @@
+{
+ "steps": 91,
+ "with_route": 45,
+ "manual": 46,
+ "with_prerequisite": 0,
+ "plan_depends_on_total": 0,
+ "links_checked": 14,
+ "respected_local_plan": 14,
+ "respected_in_oracle_runbook": 13,
+ "same_order_as_plan": false,
+ "stages": {
+  "Procurement - Suppliers": 63,
+  "Procurement - Supplier Portal": 6,
+  "Procurement - Sourcing": 11,
+  "Procurement - Supplier Qualification": 11
+ },
+ "oracle_runbook_violations": [
+  [
+   "POZ_MANAGE_SUPPLIER_USER_ROLE_USAGES",
+   65,
+   "POZ_CONFIGURE_SUPPLIER_REGISTRATION",
+   12
+  ]
+ ]
+}

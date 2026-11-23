@@ -1,0 +1,367 @@
+SOURCE (read in browser via docs.google.com viewer): Twelve Updated Plan.pptx | id=1ZehGEzJKwGOUlGcD9irw60wseak9Uegz | kind=slides | chars=3799
+Twelve Updated Plan.pptx - Google Slides
+
+  1 of 5
+Twelve SCM Project - Updates
+​
+​
+May 15, 2025
+
+© 2025 GoSaaS, Inc. - Confidential or our internal use only
+
+2 of 5
+Topics
+
+>	Original Timeline for reference
+>	Updated Timeline to include Airplant Financials�	and close out solution
+>	Future/Additional Items after solution closeout
+​
+​
+​
+
+Page 2
+
+© 2025 GoSaaS, Inc. - Confidential or our internal use only
+
+3 of 5
+Original Timeline thru week of June 2
+
+Page 3
+
+© 2025 GoSaaS, Inc. - Confidential or our internal use only
+
+4 of 5
+Timeline Update: Accelerated Timeline to include�Airplant Financials and Close Out Solution
+
+​
+
+	​
+
+	​
+
+	​
+
+	​
+
+	2025
+
+	​
+
+	​
+
+	​
+
+	​
+
+	​
+
+	​
+
+	​
+
+	​
+
+	​
+
+	​
+
+	​
+
+	​
+
+	​
+
+	​
+
+​
+
+	APRIL
+
+	MAY
+
+	JUNE
+
+	JULY
+
+	AUGUST
+
+​
+
+	7
+
+	14
+
+	21
+
+	28
+
+	5
+
+	12
+
+	19
+
+	26
+
+	2
+
+	9
+
+	16
+
+	23
+
+	30
+
+	7
+
+	14
+
+	21
+
+	28
+
+	4
+
+	11
+
+CRP
+
+	​
+
+	​
+
+	​
+
+	​
+
+	​
+
+	​
+
+	​
+
+	​
+
+	​
+
+	​
+
+	​
+
+	​
+
+	​
+
+	​
+
+	​
+
+	​
+
+	​
+
+	​
+
+	​
+
+CRP1
+
+CRP 1 Prep
+
+UAT
+
+UAT Prep
+
+Project Financials Summary
+Consumed Through May 12		[amount masked]Estimate to Complete			[amount masked]Budget Remaining				  [amount masked]​
+**Overage						[amount masked]​
+**Total cost is presented.  GoSaaS will make an investment to cover �   most of the overage.
+​
+
+Prep*
+
+Defer CRP 1 start date by 1 week to reflect AirPlant Financials
+
+Train the Trainer
+
+End User Training
+
+*Extend CRP Prep to address:
+AirPlant One Business and Project Unit
+Re-Creating the Moses Lake and Blender Organization to the AirPlant One BU
+Regression testing the new BU prior to CRP
+
+Ready to Use
+
+Page 4
+
+© 2025 GoSaaS, Inc. - Confidential or our internal use only
+
+5 of 5
+Reference: Future/Additional Items after Solution Closeout
+
+Current Status
+
+	Grouping
+
+	Scoping Items
+
+	Type
+
+	Details
+
+Out
+
+	Coupa Close Out
+
+	Open PO Conversion
+
+	Conversion
+
+	Convert PO’s to Oracle
+
+Out
+
+	Coupa Close Out
+
+	Closed PO Conversion
+
+	Conversion
+
+	Extract from Coupa for long term access
+
+Out
+
+	Coupa Close Out
+
+	On-Hand Balance Conversion
+
+	Conversion
+
+	Convert Alameda on-hand inventory from Coupa to Oracle Inventory
+
+Out
+
+	Coupa Close Out
+
+	Open Invoice Conversion
+
+	Conversion
+
+	Confirm if any invoices are in Coupa which are not in Oracle Payables
+
+Out
+
+	Payables
+
+	Payable International Wire Transfer
+
+	Integration
+
+	Potential issues with the bank account setup between Twelve, the Suppliers and Intermediary
+
+Future
+
+	AirPlant Financials
+
+	Fixed Assets Migration
+
+	Conversion
+
+	Migrate AirPlant fixed assets from the Twelve Operations BU to the AirPlant One BU
+
+Future
+
+	AirPlant Financials
+
+	Open Projects Migration
+
+	Conversion
+
+	Migrate AirPlant projects from the Twelve Operations BU to the AirPlant One BU
+
+Future
+
+	Hypercare
+
+	Support for post go-live
+
+	Hypercare
+
+	Focused on the Financials and Project Management through the first month end close ( TBD Sept)
+
+Future
+
+	Stacks
+
+	Full Inventory & Manufacturing
+
+	Alameda
+
+	Implementation of full Inventory and Manufacturing for the Alameda facility
+
+Future
+
+	Stacks
+
+	Maintenance
+
+	Alameda
+
+	Implementation of Maintenance for the Alameda facility
+
+Future
+
+	Stacks
+
+	Configure to Order
+
+	Alameda
+
+	The design and implementation of a Configure to Order solution for the Stacks product line
+
+Future
+
+	Reporting
+
+	OTBI and FRS Training
+
+	Reporting
+
+	Training for the Oracle OTBI and FRS functionality
+
+Future
+
+	Reporting
+
+	OBTI  and FRS Report Build
+
+	Reporting
+
+	Support for designing and developing OTBI and FRS reports
+
+Future
+
+	Financials
+
+	Deployment of Oracle Enterprise Performance Management (EPM) Cloud
+
+	Finance
+
+	Discovery, Design and Deployment of EPM.  Specific modules and functionality are TBD.
+
+Future
+
+	Financials
+
+	Deployment of the Oracle Joint Venture Management
+
+	Finance
+
+	Discovery, Design and Deployment of JVM for the AirPlant (eFuel) business.
+
+Page 5
+
+© 2025 GoSaaS, Inc. - Confidential or our internal use only
+

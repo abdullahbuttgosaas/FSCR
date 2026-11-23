@@ -1,0 +1,11 @@
+{
+  "price_lists": [
+    {
+      "name": "ZZ_TEST_4832",
+      "business_unit": "ABD",
+      "currency": "USD",
+      "start_date": "2026-10-18",
+      "access_sets": ["001 CUSTOMER SITE"]
+    }
+  ]
+}

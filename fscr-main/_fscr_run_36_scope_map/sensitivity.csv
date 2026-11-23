@@ -1,0 +1,42 @@
+kind,key,name,tasks_affected,chosen_row,alternative_row,affected_a_b_c,note
+area,ORA_ASK_INITIAL_USER,Initial Users,6,Common Features,Security,4/0/2,Run 29 kept Initial Users in Common Features; tracker has a Security row
+area,ORA_ASK_USERS_AND_SECURITY,Users and Security,46,Common Features,Security,34/7/5,Run 29 kept Users and Security in Common Features; tracker has a Security row
+area,ORA_ASK_FIN_REPORTING_STRUCT,Financial Reporting Structures,32,Common Features,General Ledger,16/14/2,"chart of accounts, calendars and ledgers; Run 29 flagged that some teams count them under GL"
+area,ORA_ASK_WORKFORCE_STRUCTURE,Workforce Structures,7,Common Features,Global HR,7/0/0,departments and jobs are HCM objects (Run 29 flag)
+area,ORA_ASK_ORGANIZATION_STRUCTURE,Organization Structures,13,Common Features,Unmapped,5/2/6,CX resource and partner organizations stay in Common Features; no CX row
+area,FIN_APPLICABILITY_ZX,Transaction Tax,35,Common Features,Payables,0/28/7,tax could sit with Payables/Receivables; Run 29 did not count it
+family,XLA,task family XLA_,26,General Ledger,Common Features,0/19/7,subledger accounting rules are shared by every subledger; Procurement Transaction Account Rules (Run 32: Procurement) move here
+family,HZ,task family HZ_,59,Receivables,Common Features,58/0/1,trading community model is shared by customers and suppliers
+family,FUN,task family FUN_,23,General Ledger,Common Features,0/15/8,intercompany FUN tasks; BU tasks already Common Features
+family,FND,task family FND_,23,Common Features,Unmapped,10/9/4,FND lookups/profiles listed only in HCM or CX common areas
+family,HRT,task family HRT_,17,Global HR,Talent Review and Succession,12/5/0,"talent profiles feed performance, talent review and succession"
+family,IRC,task family IRC_,49,Recruiting,Global HR,40/5/4,HCM Communicate (employee communications) uses IRC codes
+family,CMK,task family CMK_,5,Procurement,Order Management,2/1/2,B2B collaboration messaging also serves inbound sales orders; Run 32 had them in Sourcing and Supplier Management
+family,CJM,task family CJM_,12,Order Management,Procurement,9/1/2,supplier incentives share CJM codes with channel revenue
+family,FOS,task family FOS_,17,Cost Management,Inventory Management,9/7/1,supply chain financial orchestration could be Inventory or Order Management
+family,DOS,task family DOS_,4,Supply Planning,Inventory Management,3/1/0,supply chain orchestration executes inventory transfers
+family,VCS,task family VCS_,5,Supply Planning,Sourcing and Supplier Management,3/0/2,supply collaboration is with suppliers
+family,FLA,task family FLA_,4,Fixed Assets,General Ledger,0/4/0,lease accounting
+family,FV,task family FV_,18,General Ledger,Unmapped,0/18/0,US Federal Financials
+family,FIN,task family FIN_,31,General Ledger,Unmapped,0/31/0,Joint Venture Management
+family,GMS,task family GMS_,22,Project Financial Management,Unmapped,1/18/3,Grants Management is its own product
+family,PJT,task family PJT_,24,Project Financial Management,Unmapped,0/19/5,Project Execution Management (not financial)
+family,PJR,task family PJR_,12,Project Financial Management,Unmapped,0/7/5,Project Resource Management (not financial)
+family,WSH,task family WSH_,16,Inventory Management,Logistics - Transportation Management,2/14/0,shipping and carriers could be read as transportation
+family,RCV,task family RCV_,4,Inventory Management,Purchasing,0/4/0,receiving could be read as purchasing
+family,JMF,task family JMF_,4,Logistics - Global Trade Management,Unmapped,0/4/0,Intrastat is not Oracle Global Trade Management
+family,EGP,task family EGP_,26,PLM - Product Development; PLM - Product Hub; Sourcing and Supplier Management,Inventory Management,20/2/4,items and catalogs; Run 32 counted Purchasing Categories (EGP) under Purchasing
+family,RCL,task family RCL_,17,Unmapped,Inventory Management,0/17/0,service logistics parts inventory
+family,SUS,task family SUS_,3,Unmapped,Procurement,0/3/0,sustainability appears in the Procurement offering
+family,GTG,task family GTG_,6,Security,Unmapped,6/0/0,advanced access controls is a separate product
+family,IBY,task family IBY_,27,Payables; Receivables,Receivables,0/22/5,"shared payment setup (formats, payment systems) could be Receivables"
+family,HNS,task family HNS_,3,Unmapped,Global HR,0/3/0,"Environment, Health and Safety"
+offering,ORA_WORKFORCE_SCHEDULING_MANAGEMENT,Workforce Scheduling Management (offering),7,Time and Labor,Unmapped,6/1/0,workforce scheduling is a separate product
+area,ORA_ENQ_PRODUCT_RECALL_MANAGEMENT,Product Recall Management,4,Inventory Management,PLM - Quality Management,2/1/1,recall could be quality
+area,ORA_CJM_SUPPLIER_INCENTIVES,Supplier Incentives,1,Procurement,Unmapped,0/1/0,Run 32 left it out of scope
+task,INV_MANAGE_INVENTORY_ORGANIZATIONS,Manage Inventory Organizations,1,Inventory Management,Common Features,1/0/0,Run 29 counted it in Common Features (Organization Structures)
+task,EGP_MANAGE_ITEM_ORGANIZATIONS,Manage Item Organizations,1,PLM - Product Hub,Inventory Management,1/0/0,item organizations are organizations
+rule,OKC tie (Procurement Contracts and Project Contracts),OKC tie (Procurement Contracts and Project Contracts),3,Procurement,Project Financial Management,0/3/0,contract setup shared by procurement and project contracts
+rule,"no offering, no family rule","no offering, no family rule",33,Unmapped,any,1/13/19,task in no enabled offering; product unclear from code alone
+task,ORA_EDR_ELECTRONIC_SIGN_PREF,Configure Electronic Signature Preferences,1,Inventory Management,Common Features,0/1/0,e-records preferences are shared by SCM and PLM
+rule,ORA_ASK_ area in a non-ERP offering only,ORA_ASK_ area in a non-ERP offering only,24,Common Features,"family row (e.g. HZ resources -> Receivables, ATK -> Common Features)",9/10/5,outside Run 29 scope; sent to Common Features as shared setup

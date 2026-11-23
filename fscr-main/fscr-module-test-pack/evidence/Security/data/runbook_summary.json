@@ -1,0 +1,20 @@
+{
+ "source": "Oracle Run Book read back",
+ "steps": 6,
+ "with_route": 6,
+ "manual": 0,
+ "manual_with_csv_route": 0,
+ "with_prerequisite": 0,
+ "plan_depends_on_total": 0,
+ "module_tasks": 6,
+ "module_tasks_missing_from_runbook": [],
+ "steps_outside_module": 0,
+ "sourced_links": 0,
+ "sourced_links_found_in_runbook": 0,
+ "respected_in_runbook": 0,
+ "runbook_violations": [],
+ "unverified_out_of_order_in_runbook": 0,
+ "statuses": {
+  "INI": 6
+ }
+}

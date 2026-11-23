@@ -1,0 +1,38 @@
+Traceback (most recent call last):
+  File "E:\GoSaaS\Configuration Automation v2.1\fscr-main\fscr-main\core\auth\fusion-oauth-authentication\scripts\windows_private_storage.py", line 19, in _windows_api
+    import win32api
+ModuleNotFoundError: No module named 'win32api'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "E:\GoSaaS\Configuration Automation v2.1\fscr-main\_gap_fills\journal-categories\scripts\rest_read_categories.py", line 16, in <module>
+    token = fa.load_cached_access_token(props) or sys.exit("TOKEN_EXPIRED: sign in again (see SKILL.md step 1)")
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\GoSaaS\Configuration Automation v2.1\fscr-main\fscr-main\core\auth\fusion-oauth-authentication\scripts\fusion_auth.py", line 1052, in load_cached_access_token
+    return load_keychain_access_token(props) or load_file_cached_access_token(token_cache_path(props), props)
+                                                                              ^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\GoSaaS\Configuration Automation v2.1\fscr-main\fscr-main\core\auth\fusion-oauth-authentication\scripts\fusion_auth.py", line 861, in token_cache_path
+    return validate_cache_path(AUTH_HOME / f"{token_cache_key(props)}_token.json")
+                                              ^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\GoSaaS\Configuration Automation v2.1\fscr-main\fscr-main\core\auth\fusion-oauth-authentication\scripts\fusion_auth.py", line 825, in token_cache_key
+    endpoints = oauth_endpoints(props)
+                ^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\GoSaaS\Configuration Automation v2.1\fscr-main\fscr-main\core\auth\fusion-oauth-authentication\scripts\fusion_auth.py", line 107, in oauth_endpoints
+    return _oauth_endpoints_for_policy(props, load_oauth_trust_policy())
+                                              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\GoSaaS\Configuration Automation v2.1\fscr-main\fscr-main\core\auth\fusion-oauth-authentication\scripts\fusion_auth.py", line 88, in load_oauth_trust_policy
+    value = read_private_json(OAUTH_TRUST_POLICY)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\GoSaaS\Configuration Automation v2.1\fscr-main\fscr-main\core\auth\fusion-oauth-authentication\scripts\fusion_auth.py", line 890, in read_private_json
+    return read_private_json_windows(path, AUTH_HOME)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\GoSaaS\Configuration Automation v2.1\fscr-main\fscr-main\core\auth\fusion-oauth-authentication\scripts\windows_private_storage.py", line 147, in read_private_json_windows
+    path, api, sid = _private_path(path, home, create=False)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\GoSaaS\Configuration Automation v2.1\fscr-main\fscr-main\core\auth\fusion-oauth-authentication\scripts\windows_private_storage.py", line 110, in _private_path
+    api = _windows_api()
+          ^^^^^^^^^^^^^^
+  File "E:\GoSaaS\Configuration Automation v2.1\fscr-main\fscr-main\core\auth\fusion-oauth-authentication\scripts\windows_private_storage.py", line 24, in _windows_api
+    raise RuntimeError("Windows Fusion OAuth storage requires pywin32") from exc
+RuntimeError: Windows Fusion OAuth storage requires pywin32

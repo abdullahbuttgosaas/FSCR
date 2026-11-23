@@ -1,0 +1,7 @@
+{
+  "environment": "ETIA-TEST",
+  "taskCode": "FND_MANAGE_REFERENCE_DATA_SETS",
+  "taskName": "Manage Reference Data Sets",
+  "zipFile": "..\\payload\\FND_MANAGE_REFERENCE_DATA_SETS\\fnd_manage_reference_data_sets_fscrt.zip",
+  "processId": "100004736418702"
+}

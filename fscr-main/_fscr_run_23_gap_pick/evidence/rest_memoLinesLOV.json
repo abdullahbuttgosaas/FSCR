@@ -1,0 +1,79 @@
+{
+  "items" : [ {
+    "MemoLineId" : "3",
+    "Name" : "Chargeback Line",
+    "Description" : "Chargeback for a specific transaction line.",
+    "TaxCode" : null,
+    "TaxProductCategory" : null,
+    "UOMCode" : null,
+    "SetName" : "Common Set",
+    "@context" : {
+      "key" : "3",
+      "links" : [ {
+        "rel" : "self",
+        "href" : "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/memoLinesLOV/3",
+        "name" : "memoLinesLOV",
+        "kind" : "item"
+      }, {
+        "rel" : "canonical",
+        "href" : "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/memoLinesLOV/3",
+        "name" : "memoLinesLOV",
+        "kind" : "item"
+      } ]
+    }
+  }, {
+    "MemoLineId" : "4",
+    "Name" : "Debit Memo Receipt Reversal",
+    "Description" : "Debit memo reversal for a specific payment.",
+    "TaxCode" : null,
+    "TaxProductCategory" : null,
+    "UOMCode" : null,
+    "SetName" : "Common Set",
+    "@context" : {
+      "key" : "4",
+      "links" : [ {
+        "rel" : "self",
+        "href" : "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/memoLinesLOV/4",
+        "name" : "memoLinesLOV",
+        "kind" : "item"
+      }, {
+        "rel" : "canonical",
+        "href" : "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/memoLinesLOV/4",
+        "name" : "memoLinesLOV",
+        "kind" : "item"
+      } ]
+    }
+  }, {
+    "MemoLineId" : "5",
+    "Name" : "Intercompany Freight",
+    "Description" : "Intercompany freight memo line.",
+    "TaxCode" : null,
+    "TaxProductCategory" : null,
+    "UOMCode" : null,
+    "SetName" : "Common Set",
+    "@context" : {
+      "key" : "5",
+      "links" : [ {
+        "rel" : "self",
+        "href" : "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/memoLinesLOV/5",
+        "name" : "memoLinesLOV",
+        "kind" : "item"
+      }, {
+        "rel" : "canonical",
+        "href" : "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/memoLinesLOV/5",
+        "name" : "memoLinesLOV",
+        "kind" : "item"
+      } ]
+    }
+  } ],
+  "count" : 3,
+  "hasMore" : true,
+  "limit" : 3,
+  "offset" : 0,
+  "links" : [ {
+    "rel" : "self",
+    "href" : "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/memoLinesLOV",
+    "name" : "memoLinesLOV",
+    "kind" : "collection"
+  } ]
+}

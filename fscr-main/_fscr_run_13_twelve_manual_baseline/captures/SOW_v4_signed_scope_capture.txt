@@ -1,0 +1,54 @@
+SOURCE: "Twelve - Oracle Cloud SCM Implementation SOW v4 (signed)" (Google Doc)
+Drive path: Twelve Projects/Cloud SCM Expansion 2024/08 Project Management/SOW
+Drive id: 1X1fSvSKrzykH0IDTeRui5szEd_zaq2nIczAA2v_RtEU | created 2025-02-05 | modified 2025-02-05 (document itself dated January 24, 2025)
+Read: VERIFIED (full text read in browser, mobilebasic view). Costs section: rates, hours-cost and totals present -> masked here as "present".
+Signed PDF twin: "Twelve - Oracle Cloud SCM Implementation SOW v4 (signed).pdf" (same folder, list date Jan 29, 2025) - NOT opened (PDF).
+
+A. Project Objective
+Implement Oracle Cloud SCM modules (core functionality, future readiness, common design across modules); provide input into updates to production
+Financials modules natively integrated with the new SCM modules; create a Reporting Strategy; document configurations.
+
+B. Scope - Oracle Cloud Modules & Process Scope (Product Management, Materials Management, Procurement; TBD updates to Financials incl. GL).
+Documentation of Business Scenarios, Requirements, Process Flows, Key Design Decisions, Configuration Templates.
+ 1 Product Information Management: 1.1 items for maintainable equipment, assets, spare parts; 1.2 items for manufactured product; 1.3 enable manufacturing & maintenance structures
+ 2 Inventory and Cost Management: 2.1 inventoriable items (spares, bulk, VMI, manufactured), receiving vs PO, return to vendor, putaway;
+   2.2 current Plant locations configured as Inventory Organizations; 2.3 Costing Organization Structure and Cost Books;
+   2.4 costing for manufactured inventory; 2.5 costing for maintenance equipment; 2.6 costing for inventoried material
+ 3 Self-Service Procurement: 3.1 non-catalog requisitioning; 3.2 requisitioning of inventory materials for maintenance/manufacturing;
+   3.3 PO delegation of authority (approvals); 3.4 project and non-project accounting rules for POs and receipts; 3.5 reuse Coupa configuration values/concepts where applicable
+ 4 Purchasing: 4.1 project and non-project requisitions and POs; 4.2 DOA of requisitions and POs
+ 5 Supplier Portal: 5.1 supplier registration; 5.2 P2P inquiry; 5.3 supplier invoice creation; 5.4 supplier self-maintenance; 5.5 supplier onboarding managed by Twelve
+ 6 Manufacturing: "ready to use" (structures, work definitions, work centers, work areas, operations); no structures/work definitions configured or migrated;
+   process manufacturing only (discrete NOT in scope); manual release/complete of WOs, issue/receive; MES integration NOT in scope (future vision only)
+ 7 Maintenance: "ready to use"; no assets/equipment configured or migrated; equipment & structures, work definitions/centers/areas/operations,
+   maintenance WOs, meters, maintenance programs (preventive), Installed Base trackable
+
+B. Scope - Oracle Cloud Financials and Reporting
+ In-scope Financials for remediation: GL, AR, Project Management, Grants Management, AP, Cash Management, Fixed Assets. Implementation of Supply Chain
+ Sustainability and Expenses. Scope of production Financials updates "will be determined during the project".
+ 1 Project Cost Management: commitments for reqs & POs; PO receipts and AP invoices for project transactions
+ 2 Asset Management: updates to AP and Projects resulting from new SCM and Expenses modules
+ 3 Confirm Enterprise (Business Unit) Structure: add Requisitioning and Purchasing BUs into existing BU structure; centralized/decentralized/shared service
+ 4 Sustainability: data from AP supplier invoices and manual uploads; seeded reporting; EPM-enabled sustainability reporting NOT in scope
+ 5 Expenses: design session to confirm in/out of scope; if in: T&E, DOA for expense reports, project/non-project accounting rules
+ 6 Reporting Approach: OTBI / BIP / Fusion Data Intelligence / EPM usage; financial reporting for EPM Planning & Budgeting, month-end close, GL reporting
+ 7 General Ledger: support on accounting/journals from Inventory, Costing, Manufacturing, Maintenance, Purchasing, Expenses
+
+RICE scope
+ Reports: 1 object - printable Purchase Order (FDD, TDD)
+ Conversions: Suppliers (FDD, TDD)
+ "No extensions and integrations are part of the target scope"
+
+Configurations scope (document configurations): 1 PIM - New; 2 Self-Service Purchasing - New; 3 Purchasing - New; 4 Supplier Portal - New;
+ 5 Payables (incremental); 6 Inventory & Cost Management - New; 7 GL / Subledger Accounting (incremental); 8 Project Management (incremental);
+ 9 Sustainability - New; 10 Maintenance - New; 11 Manufacturing - New; 12 Security and Roles   (12 configuration areas)
+
+Change Management: training material for new modules; Train-the-Trainer.
+
+C. Assumptions (11): no productive effort from Twelve resources in estimate; implement known scope, "Ready to Use" for future; go-live & ready-to-use
+ criteria refined during project; common design for all modules, future location-specific phase rollouts; Twelve manages change management; minimal data
+ migration (employees in Prod or onboarded post go-live); GoSaaS training materials + TTT; 1 country (US), 2 plant locations; duration 12 weeks;
+ complexity/duration changes impact cost; approved configurations migrated to Production by Twelve; no travel planned.
+
+D. Project Costs: role table with hourly rates, hours and subtotals, Finance vs Supply Chain split - PRESENT (masked). Billing monthly T&M.
+E. Client Responsibilities: 11 items (availability, decisions, testing, data, access, project lead, delays may increase cost, reference calls).

@@ -1,0 +1,31 @@
+{
+ "items": [
+  {
+   "LookupCode": "SMALL_BUSINESS",
+   "Meaning": "Small Business",
+   "Description": "Business that is privately owned with a small number of employees and relatively low volume of sales.",
+   "EnabledFlag": "Y",
+   "StartDateActive": "2009-12-31",
+   "EndDateActive": null,
+   "DisplaySequence": null,
+   "Tag": null,
+   "CreatedBy": "SEED_DATA_FROM_APPLICATION",
+   "CreationDate": "2021-03-07T03:53:59.456+00:00",
+   "LastUpdateDate": "2026-04-02T12:45:55.132+00:00",
+   "LastUpdateLogin": "-1",
+   "LastUpdatedBy": "SEED_DATA_FROM_APPLICATION"
+  }
+ ],
+ "count": 1,
+ "hasMore": false,
+ "limit": 25,
+ "offset": 0,
+ "links": [
+  {
+   "rel": "self",
+   "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/POZ_BUSINESS_CLASSIFICATIONS/child/lookupCodes",
+   "name": "lookupCodes",
+   "kind": "collection"
+  }
+ ]
+}

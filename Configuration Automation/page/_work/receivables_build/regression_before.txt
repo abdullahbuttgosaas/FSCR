@@ -1,0 +1,14 @@
+(a) file hashes against E:\GoSaaS\Configuration Automation v2.1\Configuration Automation\_frozen\customers_v2\manifest.json:
+  page: 15 file(s) in the snapshot, all identical
+  common: 9 file(s) in the snapshot, 1 difference(s): changed common/created_business_units.json
+  Customers: 8 file(s) in the snapshot, 2 difference(s): changed Customers/CLAUDE.md; changed Customers/browser_flow.py
+  CLAUDE.md: 1 file(s) in the snapshot, all identical
+    Customers folder: CHANGED (page/, common/ or CLAUDE.md differences above are for information)
+(b) the customer sheet's preview, current page code, saved Oracle answers:
+    compared 1415 values (3 record(s)); 0 difference(s)
+(c) the same sheet with the other modules' tabs added, empty (e.g. Order Types):
+    compared 1415 values; 0 difference(s)
+(d) the same sheet's preview, v1 versus v2, field by field:
+    compared 1382 values; 1 intended difference(s), 0 other
+    INTENDED /modules: added in v2 = [{"name": "Customers", "record": "customer", "count": 3, "minutes_each": 3, "text": null}, {"name": "Order Types", "record": "order type", "count": 0,
+RESULT: FAIL (hashes changed, preview identical, v1 versus v2 only the intended differences)

@@ -1,0 +1,375 @@
+{
+ "chain1": {
+  "AKLedger": {
+   "ledgers": 6,
+   "bus": 4,
+   "ar_option_bus": [
+    "AKBusiness Unit Corporate",
+    "AKBusiness Unit Domestic",
+    "AKBusiness Unit South Asia "
+   ],
+   "ledger_names": [
+    "29PLedger",
+    "AKLedger US",
+    "AALedger",
+    "YEN",
+    "AKLedger IN",
+    "AH reporting currency"
+   ]
+  },
+  "DSSLedger": {
+   "ledgers": 5,
+   "bus": 4,
+   "ar_option_bus": [
+    "DSSBusiness Unit Corporate",
+    "DSSBusiness Unit Domestic",
+    "DSSBusiness Unit South Asia "
+   ],
+   "ledger_names": [
+    "DS Primary Ledger",
+    "DSSLedger US",
+    "DS2 Secondary Ledger",
+    "DSSLedger IN",
+    "DSS Secondary Ledger"
+   ]
+  },
+  "N24Ledger": {
+   "ledgers": 3,
+   "bus": 3,
+   "ar_option_bus": [
+    "Demascus BU",
+    "HELLO BU",
+    "KLI Business Unit"
+   ],
+   "ledger_names": [
+    "N24Ledger US",
+    "N24 Secondary Ledger",
+    "N24Ledger IN"
+   ]
+  },
+  "GoSaaS MFG": {
+   "ledgers": 13,
+   "bus": 37,
+   "ar_option_bus": [
+    "AMNA BU",
+    "BUU1"
+   ],
+   "ledger_names": [
+    "GoSaaS MFG US",
+    "S-3",
+    "Ash Ledger",
+    "NN2_Primary_Ledger",
+    "AG-81209",
+    "T2 Ledger",
+    "Duck",
+    "Mannan Ledger",
+    "DK ledger",
+    "AG Primary Ledger",
+    "EBS-Testing-AI",
+    "USAMA LEDGER"
+   ]
+  },
+  "28Ledger": {
+   "ledgers": 2,
+   "bus": 6,
+   "ar_option_bus": [
+    "28Business Unit",
+    "USA Business Unit1"
+   ],
+   "ledger_names": [
+    "28Ledger US",
+    "28 Secondary Ledger"
+   ]
+  },
+  "TM Ledger": {
+   "ledgers": 2,
+   "bus": 2,
+   "ar_option_bus": [
+    "Canada Business Unit1",
+    "USA Business Unit2"
+   ],
+   "ledger_names": [
+    "TM Ledger US",
+    "TM Ledger CA"
+   ]
+  },
+  "HAHALedger": {
+   "ledgers": 3,
+   "bus": 2,
+   "ar_option_bus": [
+    "HAHABusiness Unit Domestic",
+    "HAHABusiness Unit South Asia "
+   ],
+   "ledger_names": [
+    "HAHALedger US",
+    "HAHA secondary ledger",
+    "HAHALedger IN"
+   ]
+  },
+  "Vision01": {
+   "ledgers": 1,
+   "bus": 2,
+   "ar_option_bus": [
+    "HAHABusiness Unit Corporate"
+   ],
+   "ledger_names": [
+    "AMNAN_LEDGER"
+   ]
+  },
+  "PPLedger": {
+   "ledgers": 3,
+   "bus": 1,
+   "ar_option_bus": [
+    "PPBusiness Unit"
+   ],
+   "ledger_names": [
+    "PPLedger US",
+    "PP secondary",
+    "PP Ledger"
+   ]
+  },
+  "GS Account": {
+   "ledgers": 9,
+   "bus": 28,
+   "ar_option_bus": [],
+   "ledger_names": [
+    "TEST GL LEDGER",
+    "GoSaaS Labs Ledger",
+    "TestLedger",
+    "S-1",
+    "GS  PL",
+    "S-400",
+    "S-401",
+    "KHO GL",
+    "NN_Primary_Ledger"
+   ]
+  },
+  "KR Monthly Cale": {
+   "ledgers": 1,
+   "bus": 2,
+   "ar_option_bus": [],
+   "ledger_names": [
+    "KR US Primary Ledger"
+   ]
+  },
+  "MG Calendar": {
+   "ledgers": 4,
+   "bus": 1,
+   "ar_option_bus": [],
+   "ledger_names": [
+    "MG Primary ledger",
+    "MG final Secondary Ledger",
+    "MG Secondary Ledger",
+    "MG GBP Reporting currency"
+   ]
+  },
+  "AMN Calendar": {
+   "ledgers": 2,
+   "bus": 0,
+   "ar_option_bus": [],
+   "ledger_names": [
+    "AMN Ledgers",
+    "amn ledger"
+   ]
+  },
+  "001": {
+   "ledgers": 3,
+   "bus": 0,
+   "ar_option_bus": [],
+   "ledger_names": [
+    "MM Primary Ledger",
+    "MMM Secondary Ledger",
+    "Gosaas Primary Ledger"
+   ]
+  },
+  "MM-Calender": {
+   "ledgers": 1,
+   "bus": 0,
+   "ar_option_bus": [],
+   "ledger_names": [
+    "MM Secondary Ledger"
+   ]
+  },
+  "001Calendar": {
+   "ledgers": 2,
+   "bus": 0,
+   "ar_option_bus": [],
+   "ledger_names": [
+    "A-1",
+    "Ascend Group"
+   ]
+  },
+  "TESTCALENDAR": {
+   "ledgers": 2,
+   "bus": 0,
+   "ar_option_bus": [],
+   "ledger_names": [
+    "araprimaryledgerr",
+    "abcusama"
+   ]
+  },
+  "ASCEND_001": {
+   "ledgers": 2,
+   "bus": 0,
+   "ar_option_bus": [],
+   "ledger_names": [
+    "ASCEND_001",
+    "S-2"
+   ]
+  },
+  "MWBK A Calendar": {
+   "ledgers": 1,
+   "bus": 0,
+   "ar_option_bus": [],
+   "ledger_names": [
+    "MWBK Primary Ledger Pakistan"
+   ]
+  }
+ },
+ "chain1_ar_options_ledger_check": [
+  {
+   "BU": "USA Business Unit1",
+   "LedgerName": "TM Ledger US",
+   "calendar": "TM Ledger"
+  },
+  {
+   "BU": "USA Business Unit2",
+   "LedgerName": "TM Ledger US",
+   "calendar": "TM Ledger"
+  },
+  {
+   "BU": "Canada Business Unit1",
+   "LedgerName": "TM Ledger CA",
+   "calendar": "TM Ledger"
+  },
+  {
+   "BU": "PPBusiness Unit",
+   "LedgerName": "PPLedger US",
+   "calendar": "PPLedger"
+  },
+  {
+   "BU": "KLI Business Unit",
+   "LedgerName": "N24Ledger US",
+   "calendar": "N24Ledger"
+  },
+  {
+   "BU": "HELLO BU",
+   "LedgerName": "N24Ledger US",
+   "calendar": "N24Ledger"
+  },
+  {
+   "BU": "Demascus BU",
+   "LedgerName": "N24Ledger IN",
+   "calendar": "N24Ledger"
+  },
+  {
+   "BU": "28Business Unit",
+   "LedgerName": "28Ledger US",
+   "calendar": "28Ledger"
+  },
+  {
+   "BU": "BUU1",
+   "LedgerName": "GoSaaS MFG US",
+   "calendar": "GoSaaS MFG"
+  },
+  {
+   "BU": "DSSBusiness Unit Corporate",
+   "LedgerName": "DSSLedger US",
+   "calendar": "DSSLedger"
+  },
+  {
+   "BU": "DSSBusiness Unit Domestic",
+   "LedgerName": "DSSLedger US",
+   "calendar": "DSSLedger"
+  },
+  {
+   "BU": "DSSBusiness Unit South Asia ",
+   "LedgerName": "DSSLedger IN",
+   "calendar": "DSSLedger"
+  },
+  {
+   "BU": "HAHABusiness Unit Corporate",
+   "LedgerName": "HAHALedger US",
+   "calendar": "HAHALedger"
+  },
+  {
+   "BU": "HAHABusiness Unit Domestic",
+   "LedgerName": "HAHALedger US",
+   "calendar": "HAHALedger"
+  },
+  {
+   "BU": "HAHABusiness Unit South Asia ",
+   "LedgerName": "HAHALedger IN",
+   "calendar": "HAHALedger"
+  },
+  {
+   "BU": "AMNA BU",
+   "LedgerName": "EBS-Testing-AI",
+   "calendar": "GoSaaS MFG"
+  },
+  {
+   "BU": "AKBusiness Unit Corporate",
+   "LedgerName": "AKLedger US",
+   "calendar": "AKLedger"
+  },
+  {
+   "BU": "AKBusiness Unit Domestic",
+   "LedgerName": "AKLedger US",
+   "calendar": "AKLedger"
+  },
+  {
+   "BU": "AKBusiness Unit South Asia ",
+   "LedgerName": "AKLedger IN",
+   "calendar": "AKLedger"
+  }
+ ],
+ "chain2_ar": {
+  "Corporate": 17,
+  "(blank)": 2
+ },
+ "chain2_ar_bus_corporate": [
+  "USA Business Unit1",
+  "USA Business Unit2",
+  "Canada Business Unit1",
+  "PPBusiness Unit",
+  "KLI Business Unit",
+  "HELLO BU",
+  "Demascus BU",
+  "28Business Unit",
+  "DSSBusiness Unit Corporate",
+  "DSSBusiness Unit Domestic",
+  "DSSBusiness Unit South Asia ",
+  "HAHABusiness Unit Corporate",
+  "HAHABusiness Unit Domestic",
+  "HAHABusiness Unit South Asia ",
+  "AKBusiness Unit Corporate",
+  "AKBusiness Unit Domestic",
+  "AKBusiness Unit South Asia "
+ ],
+ "chain2_gl": [
+  {
+   "ledger": "MM Secondary Ledger",
+   "avg": "Corporate",
+   "end": "Corporate"
+  },
+  {
+   "ledger": "MMM Secondary Ledger",
+   "avg": "Corporate",
+   "end": "Corporate"
+  }
+ ],
+ "chain3_segments": {
+  "segment2=000": 14,
+  "segment3=2640": 13,
+  "segment1=01": 5,
+  "segment4=01": 5,
+  "segment1=00": 5,
+  "segment4=00": 5,
+  "segment1=02": 4,
+  "segment4=02": 4,
+  "segment2=10": 3,
+  "segment3=21530": 3,
+  "segment4=000": 3,
+  "segment5=0000": 3
+ }
+}

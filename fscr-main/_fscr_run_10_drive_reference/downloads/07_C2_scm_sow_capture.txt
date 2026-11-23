@@ -1,0 +1,13 @@
+Pair A (masked: C2 / "SCM Expansion") — SOW read in full via Google Docs text export (read-only).
+Original: Customers / Twelve Projects / Cloud SCM Expansion 2024 / 08 Project Management / SOW / "Twelve - Oracle Cloud SCM Implementation SOW v4 (signed)" (Google Doc id 1X1fSvSKrzykH0IDTeRui5szEd_zaq2nIczAA2v_RtEU; PDF twin id 1gZRwy4rdCc2lWCHKST0zCw8eSd2C2r0N). Dated January 24, 2025.
+
+Sections: A Project Objective, B Scope, C Assumptions, D Project Costs, E Client Responsibilities.
+Objective: implement Oracle Cloud SCM with common design across modules; feed updates to production Financials; create Reporting Strategy.
+SCM modules in scope (configs "New"): Product Information Management; Inventory & Cost Management (Inventory Orgs = current plants, cost org structure + cost books, costing for manufactured inventory / maintenance equipment / inventoried material); Self-Service Procurement; Purchasing; Supplier Portal; Manufacturing (process manufacturing only, "ready to use", no structures/work definitions migrated; MES integration out of scope); Maintenance ("ready to use", meters, maintenance programs, installed base).
+Financials touched (incremental): GL/SLA, AR, Project Management/Project Cost, Grants, AP, Cash Mgmt, Fixed Assets; plus Sustainability (new) and Expenses (design session decides in/out).
+Enterprise structure: confirm Business Unit structure; add Requisitioning and Purchasing BUs; consider centralized/decentralized/shared service.
+RICE: Reports = 1 (printable PO; FDD + TDD); Conversions = Suppliers (FDD + TDD); "No extensions and integrations are part of the target scope".
+Change management: training material for new modules; Train-the-Trainer.
+Assumptions: 1 country (US), 2 plant locations; duration 12 weeks; minimal data migration; common design for future location rollouts; customer moves approved configs to Production.
+Costs: T&M, 10 roles (Finance/SCM/Reporting architects, Inventory, PMO, DEV, Finance, Mfg/Maintenance, Procurement, PIM consultants); total 4,800 hours. (Rates and amounts are in the original; not repeated here.)
+Environments: not stated in SOW.

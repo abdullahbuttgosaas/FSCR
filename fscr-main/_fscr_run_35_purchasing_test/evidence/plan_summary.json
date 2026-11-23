@@ -1,0 +1,123 @@
+{
+ "tasks": 16,
+ "levels": {
+  "b": 9,
+  "a": 6,
+  "c": 1
+ },
+ "missing": "10/16",
+ "skills_read": 6,
+ "graph_links_used": 0,
+ "a_sourced_links": 4,
+ "a_respected": 3,
+ "a_stated_by_fscr_skills": 0,
+ "a_violations": [
+  [
+   "ORA_MANAGE_EXTERNAL_PURCHASE_PRICES_PA_DEFAULTS",
+   15,
+   "ORA_MANAGE_EXTERNAL_PURCHASE_PRICES_SELECTION_CRITERIA",
+   14
+  ]
+ ],
+ "b_unverified": 4,
+ "b_unverified_out_of_order": 2,
+ "b_out_of_order": [
+  [
+   "ORA_MANAGE_EXTERNAL_PURCHASE_PRICES_LOOKUPS",
+   16,
+   "ORA_MANAGE_EXTERNAL_PURCHASE_PRICES_REQBU_MAPPING",
+   13
+  ],
+  [
+   "ORA_MANAGE_EXTERNAL_PURCHASE_PRICES_LOOKUPS",
+   16,
+   "ORA_MANAGE_EXTERNAL_PURCHASE_PRICES_SELECTION_CRITERIA",
+   14
+  ]
+ ],
+ "c_fscr_skill_prereqs": 0,
+ "c_out_of_order": 0,
+ "c_pairs": [],
+ "order": [
+  [
+   1,
+   "EGP_MANAGE_DEFAULT_CATALOGS",
+   "Purchasing Categories"
+  ],
+  [
+   2,
+   "EGP_MANAGE_CATALOG_ATTRIBUTES",
+   "Purchasing Categories"
+  ],
+  [
+   3,
+   "EGP_MANAGE_CATEGORY_ATTRIBUTES",
+   "Purchasing Categories"
+  ],
+  [
+   4,
+   "PO_MANAGE_CHANGE_ORDER_TEMPLATES",
+   "Purchasing Foundation"
+  ],
+  [
+   5,
+   "PO_MANAGE_PURCHASING_VALUE_SETS",
+   "Purchasing Foundation"
+  ],
+  [
+   6,
+   "PO_MANAGE_PURCHASING_DESCRIPTIVE_FLEXFIELDS",
+   "Purchasing Foundation"
+  ],
+  [
+   7,
+   "ORA_PO_MANAGE_ASSIGNMENT_RULE_SETS_LOOKUP",
+   "Purchasing Foundation"
+  ],
+  [
+   8,
+   "ORA_PO_MANAGE_BUYER_ASSIGNMENT_RULES",
+   "Purchasing Foundation"
+  ],
+  [
+   9,
+   "ORA_PO_MANAGE_PURCHASING_MESSAGES",
+   "Purchasing Foundation"
+  ],
+  [
+   10,
+   "PO_MANAGE_HAZARD_CLASSES",
+   "Purchasing Foundation"
+  ],
+  [
+   11,
+   "PO_MANAGE_UN_NUMBERS",
+   "Purchasing Foundation"
+  ],
+  [
+   12,
+   "PO_MANAGE_APPROVED_SUPPLIER_LIST_STATUSES",
+   "Purchasing Foundation"
+  ],
+  [
+   13,
+   "ORA_MANAGE_EXTERNAL_PURCHASE_PRICES_REQBU_MAPPING",
+   "External Purchase Prices"
+  ],
+  [
+   14,
+   "ORA_MANAGE_EXTERNAL_PURCHASE_PRICES_SELECTION_CRITERIA",
+   "External Purchase Prices"
+  ],
+  [
+   15,
+   "ORA_MANAGE_EXTERNAL_PURCHASE_PRICES_PA_DEFAULTS",
+   "External Purchase Prices"
+  ],
+  [
+   16,
+   "ORA_MANAGE_EXTERNAL_PURCHASE_PRICES_LOOKUPS",
+   "External Purchase Prices"
+  ]
+ ]
+}

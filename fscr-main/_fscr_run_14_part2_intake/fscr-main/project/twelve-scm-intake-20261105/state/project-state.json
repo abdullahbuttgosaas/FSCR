@@ -1,0 +1,19 @@
+{
+  "$schema": "../../../schemas/project-state.schema.json",
+  "project_id": "twelve-scm-intake-20261105",
+  "project_name": "Twelve Oracle Cloud SCM Implementation - Intake (run 14)",
+  "customer": "Twelve Benefit Corporation",
+  "implementation_phase": "discovery",
+  "state_version": "0.1.0",
+  "created_at": "2026-11-05T19:28:00+05:00",
+  "updated_at": "2026-11-05T19:28:00+05:00",
+  "current_objective_ref": "artifacts/router/project-objective-classifier/current/objective.json",
+  "current_scope_ref": "artifacts/router/project-objective-classifier/current/scope.json",
+  "artifact_index_ref": "project/twelve-scm-intake-20261105/artifacts/artifact-index.json",
+  "latest_run_ref": "state/runs/20261105-intake-classification.json",
+  "baseline_refs": [],
+  "decision_refs": [],
+  "active_skill_path": ["router.implementation-router", "router.project-objective-classifier", "pillars.erp.financials.organization-structures (advisory only)"],
+  "status": "initialized",
+  "notes": "Paper run. No Fusion calls, no OAuth, no Run Book. Run Book status not applicable (no mutation routed). Project id chosen per AGENTS.md naming freedom instead of draft_impl_project_<date>."
+}

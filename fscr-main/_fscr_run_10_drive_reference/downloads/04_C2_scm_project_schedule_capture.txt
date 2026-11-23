@@ -1,0 +1,29 @@
+READ-ONLY CAPTURE (not the original file). Masked: C2 = SCM expansion customer.
+Original: Customers / Twelve Projects / Cloud SCM Expansion 2024 / 08 Project Management / "Twelve SCM Project Schedule.xlsx" (id 12Y-DAC9PPVoA9AL26F1gUGquHoDfOdDv, mod 2025-07-10)
+Captured from Google Sheets HTML view 2026-11-05. Each sheet is a weekly Gantt grid: row 2 = week-start dates, row 3 = week number, then one row per bar; bars are filled cell runs (C=column index = week).
+
+=== SHEET: SOW Timeline (16 weeks, Feb-17 .. Jun-02 2025)
+wk1 [#c9daf8] Kick-off / Pre-Imp Training
+wk2-4 [#c9daf8] Design Activities ; wk2-4 As-Is Cloud Finance Knowledge Capture
+wk2-7 [#6aa84f] Conference Room Pilot
+wk5-6 CRP 1 | wk9-10 CRP 2 | wk13 UAT   [#b6d7a8]
+wk7-8 CRP 2 Prep | wk11-12 UAT Prep [#b6d7a8] | wk14-15 [#cccccc] Data Migrations
+wk13-14 [#6aa84f] Train-the-Trainer
+wk13-15 End User Training | wk16 [#00ff00] Go-Live
+
+=== SHEET: SCM SOW (15 weeks, Feb-17 .. May-26)
+wk1 Kick-off & Pre-Implementation Training; wk2-4 Design Workshops ("Include overview of Cloud Financials, Prod Dev, Prod Data Hub & Coupa");
+wk2-9 CRP "conducted in an iterative approach based on the Business Scenarios"; wk5 UAT (as drawn); wk14 Migrations; Mock 1 wk6, Mock 2 wk10;
+wk13-14 Train-the-Trainer; wk13-14 End User Training; wk15 [#92d050] "Ready to Use"; footer: "F&A Resources Available" in 4-week blocks.
+
+=== SHEET: SCM Current ("Project Schedule as of May 14, 2025"; "accounts for what has been done and budget till the week of june 2")
+wk1-3 Kick-off/Pre-Implementation Training; wk2-9 Design Workshops; wk6-7 CRP0 Prep; wk10-13 CRP1 Prep; wk8-9 CRP0; wk10 CRP0 Fix; wk14-15 CRP1; wk16 CRP1 Fix.
+
+=== SHEET: CR to AUG (change request re-plan; three scenarios, weekly to 25-Aug)
+Scenario "With CRP2 and 3 week UAT": CRP0 Prep wk6-7, CRP0 wk8-9, CRP0 Fix wk10, CRP1 Prep wk10-13, CRP1 wk14-15, CRP1 Fix wk16, CRP2 Prep wk16-17, CRP2 wk17-18, CRP2 Fix wk19, UAT Prep wk19,
+  User Acceptance Testing wk20-22, UAT Fix wk23, Go-Live Ready wk24, HyperCare wk25-32; Train-the-Trainer wk20-22; Production Data Load Coordination wk20-23; Config Migration wk22-23.
+Scenario "without CRP2, 2 week UAT": ... UAT wk18-20, UAT Fix wk21-22, Go-Live Ready wk23, HyperCare wk24-27; Prod Data Load wk20-22; Config Migration wk21-22.
+Scenario 3 (to 28-Jul): Design wk2-9; CRP0 wk8-9; CRP1 Prep wk10-13 + Extended CRP1 Prep wk14; CRP1 wk15-16; Training and Process Flows Prep wk17-20; TTT & UAT Prep wk21-22; Train the Trainer wk22 ("actually an extension of CRP to close off the design"); UAT wk23-25; UAT Fix wk26-27; Go-Live Ready wk28; HyperCare wk29-32; Prod data load wk25-27; Config migration wk26-27.
+
+=== SHEET: SCM Accelerated — same as "SCM SOW".
+=== SHEET: SCM Old (12 weeks, Jan-13 .. Mar-31): Kick-off wk1 (overview of Cloud Financials, Coupa & Expensify); Design wk2-4; CRP1 wk5-6; CRP1 Update / CRP2 Prep wk7; CRP2 wk8; CRP2 Update / UAT Prep wk9; UAT wk10; Migrations wk9; Mock1 wk5-6, Mock2 wk7; TTT + EUT wk10-11; Ready to Use wk12.

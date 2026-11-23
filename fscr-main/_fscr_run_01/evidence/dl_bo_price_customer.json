@@ -1,0 +1,43 @@
+{
+  "items" : [ ],
+  "count" : 0,
+  "hasMore" : false,
+  "limit" : 100,
+  "offset" : 0,
+  "links" : [ {
+    "rel" : "self",
+    "href" : "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/hcmRestApi/resources/11.13.18.05/dataLoaderBusinessObjects",
+    "name" : "dataLoaderBusinessObjects",
+    "kind" : "collection"
+  }, {
+    "rel" : "action",
+    "href" : "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/hcmRestApi/resources/11.13.18.05/dataLoaderBusinessObjects/action/getConfigurationParameters",
+    "name" : "getConfigurationParameters",
+    "kind" : "other"
+  }, {
+    "rel" : "action",
+    "href" : "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/hcmRestApi/resources/11.13.18.05/dataLoaderBusinessObjects/action/refreshProdAreBOAttributes",
+    "name" : "refreshProdAreBOAttributes",
+    "kind" : "other"
+  }, {
+    "rel" : "action",
+    "href" : "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/hcmRestApi/resources/11.13.18.05/dataLoaderBusinessObjects/action/findByFileName",
+    "name" : "findByFileName",
+    "kind" : "other"
+  }, {
+    "rel" : "action",
+    "href" : "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/hcmRestApi/resources/11.13.18.05/dataLoaderBusinessObjects/action/findFbdiObjectsByFileName",
+    "name" : "findFbdiObjectsByFileName",
+    "kind" : "other"
+  }, {
+    "rel" : "action",
+    "href" : "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/hcmRestApi/resources/11.13.18.05/dataLoaderBusinessObjects/action/registerBusinessObject",
+    "name" : "registerBusinessObject",
+    "kind" : "other"
+  }, {
+    "rel" : "action",
+    "href" : "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/hcmRestApi/resources/11.13.18.05/dataLoaderBusinessObjects/action/deleteRegisteredBusinessObject",
+    "name" : "deleteRegisteredBusinessObject",
+    "kind" : "other"
+  } ]
+}

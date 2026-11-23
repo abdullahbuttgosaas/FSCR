@@ -1,0 +1,159 @@
+{
+ "items": [
+  {
+   "PaymentTermsId": "300000332869077",
+   "Name": "001 PT",
+   "Description": null,
+   "SetName": "Common Set",
+   "@context": {
+    "key": "300000332869077"
+   }
+  },
+  {
+   "PaymentTermsId": "300000130871899",
+   "Name": "15NET",
+   "Description": null,
+   "SetName": "Common Set",
+   "@context": {
+    "key": "300000130871899"
+   }
+  },
+  {
+   "PaymentTermsId": "4",
+   "Name": "30 Net",
+   "Description": "Payment of the transaction balance is due within 30 days of the transaction date.",
+   "SetName": "Common Set",
+   "@context": {
+    "key": "4"
+   }
+  },
+  {
+   "PaymentTermsId": "300000394374145",
+   "Name": "ABC",
+   "Description": null,
+   "SetName": "001 Customer Site",
+   "@context": {
+    "key": "300000394374145"
+   }
+  },
+  {
+   "PaymentTermsId": "300000394625030",
+   "Name": "ABDULLAH NET 30",
+   "Description": "Abdullah payment term, net 30",
+   "SetName": "Common Set",
+   "@context": {
+    "key": "300000394625030"
+   }
+  },
+  {
+   "PaymentTermsId": "300000335505074",
+   "Name": "Ahsan PT",
+   "Description": null,
+   "SetName": "Common Set",
+   "@context": {
+    "key": "300000335505074"
+   }
+  },
+  {
+   "PaymentTermsId": "300000394625047",
+   "Name": "FSCRT_2P10N30F1",
+   "Description": "2 percent off if paid in 10 days, otherwise due in 30",
+   "SetName": "Enterprise Set",
+   "@context": {
+    "key": "300000394625047"
+   }
+  },
+  {
+   "PaymentTermsId": "300000394625048",
+   "Name": "FSCRT_D25B75AF1",
+   "Description": "25 percent deposit at 15 days, balance at 60 days",
+   "SetName": "Enterprise Set",
+   "@context": {
+    "key": "300000394625048"
+   }
+  },
+  {
+   "PaymentTermsId": "5",
+   "Name": "IMMEDIATE",
+   "Description": "Payment of the transaction balance is due on the transaction date.",
+   "SetName": "Common Set",
+   "@context": {
+    "key": "5"
+   }
+  },
+  {
+   "PaymentTermsId": "300000130871897",
+   "Name": "Net15",
+   "Description": null,
+   "SetName": "Common Set",
+   "@context": {
+    "key": "300000130871897"
+   }
+  },
+  {
+   "PaymentTermsId": "6",
+   "Name": "ORA_HES",
+   "Description": "Payment term for HES balance forward billing.",
+   "SetName": "Common Set",
+   "@context": {
+    "key": "6"
+   }
+  },
+  {
+   "PaymentTermsId": "300000394356313",
+   "Name": "ZZFSCR N45 4203",
+   "Description": "ZZ FSCR Test Net 45 4203",
+   "SetName": "Common Set",
+   "@context": {
+    "key": "300000394356313"
+   }
+  },
+  {
+   "PaymentTermsId": "300000394373514",
+   "Name": "ZZRPT 9721",
+   "Description": "ZZ RPT test 9721",
+   "SetName": "Common Set",
+   "@context": {
+    "key": "300000394373514"
+   }
+  },
+  {
+   "PaymentTermsId": "300000394623018",
+   "Name": "ZZ_TEST_PT_311",
+   "Description": "ZZ test term, net 30",
+   "SetName": "Common Set",
+   "@context": {
+    "key": "300000394623018"
+   }
+  },
+  {
+   "PaymentTermsId": "300000334731608",
+   "Name": "custom pt",
+   "Description": "custom pt",
+   "SetName": "Common Set",
+   "@context": {
+    "key": "300000334731608"
+   }
+  },
+  {
+   "PaymentTermsId": "300000357551233",
+   "Name": "test",
+   "Description": null,
+   "SetName": "Common Set",
+   "@context": {
+    "key": "300000357551233"
+   }
+  },
+  {
+   "PaymentTermsId": "300000357551275",
+   "Name": "test2",
+   "Description": null,
+   "SetName": "Common Set",
+   "@context": {
+    "key": "300000357551275"
+   }
+  }
+ ],
+ "count": 17,
+ "pages": 1
+}

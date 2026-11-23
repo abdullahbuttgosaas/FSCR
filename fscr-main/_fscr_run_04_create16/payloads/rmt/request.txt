@@ -1,0 +1,1 @@
+Create a remit-to address in reference set ENTERPRISE: FSCRT_1 Remit Way, Boston, MA 02110, US, short description FSCRT_RMT1. No receipt-from criteria (to avoid changing remit-to selection for existing customers).

@@ -1,0 +1,73 @@
+{
+  "explicitDefaults": [],
+  "operations": [
+    {
+      "action": "create",
+      "entity": "AP_TERM_HEADER",
+      "id": "h1",
+      "preserveOtherValues": true,
+      "preserveUnspecifiedRows": true,
+      "targetKey": {
+        "Name": "FSCRT_AP_N45"
+      },
+      "values": {
+        "Description": "FSCRT Run04 net 45",
+        "EnabledFlag": "Y",
+        "StartDateActive": "2026-11-03",
+        "Type": "STD"
+      }
+    },
+    {
+      "action": "create",
+      "entity": "AP_TERM_LINE",
+      "id": "l1",
+      "preserveOtherValues": true,
+      "preserveUnspecifiedRows": true,
+      "targetKey": {
+        "AP_TERM_HEADER.Name": "FSCRT_AP_N45",
+        "SequenceNum": "1"
+      },
+      "values": {
+        "DueDays": "45",
+        "DuePercent": "100"
+      }
+    },
+    {
+      "action": "create",
+      "entity": "AP_TERM_SUBSCRIPTION",
+      "id": "s1",
+      "preserveOtherValues": true,
+      "preserveUnspecifiedRows": true,
+      "targetKey": {
+        "AP_TERM_HEADER.Name": "FSCRT_AP_N45",
+        "SetCode": "ENTERPRISE"
+      },
+      "values": {}
+    },
+    {
+      "action": "create",
+      "entity": "AP_TERM_HEADER_TRANSLATION",
+      "id": "t1",
+      "preserveOtherValues": true,
+      "preserveUnspecifiedRows": true,
+      "targetKey": {
+        "AP_TERM_HEADER.Name": "FSCRT_AP_N45",
+        "Language": "US"
+      },
+      "values": {
+        "Description": "FSCRT Run04 net 45",
+        "Name": "FSCRT_AP_N45",
+        "SourceLang": "US"
+      }
+    }
+  ],
+  "prerequisites": [],
+  "preservedValues": [],
+  "resolvedScope": {},
+  "resolverFindings": [],
+  "task": {
+    "code": "AP_MANAGE_PAYMENT_TERMS",
+    "name": "Manage Payment Terms"
+  },
+  "warnings": []
+}

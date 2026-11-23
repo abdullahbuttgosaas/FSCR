@@ -1,0 +1,27 @@
+group,in_scope,tasks,a_skill_and_route,b_route_no_skill,c_neither,a_but_skill_names_no_csv_rest_route,missing_no_skill,missing_N_of_total
+Purchasing Foundation [Purchasing],Y,11,2,8,1,0,9,9/11
+Purchasing Categories [Purchasing],Y,3,3,0,0,0,0,0/3
+External Purchase Prices [Purchasing],Y,5,3,1,1,0,2,2/5
+Procurement Foundation [Procurement],Y,15,10,5,0,0,5,5/15
+Approval Management [Procurement],Y,14,5,0,9,5,9,9/14
+Procurement Transaction Account Rules [Procurement],Y,9,0,8,1,0,9,9/9
+Self Service Procurement [Procurement],Y,11,6,2,3,0,5,5/11
+Procurement Contracts [Procurement],Y,10,0,7,3,0,10,10/10
+Compliance Checklists [Procurement],Y,3,0,3,0,0,3,3/3
+Suppliers [Sourcing and Supplier Management],Y,65,37,20,8,3,28,28/65
+Sourcing [Sourcing and Supplier Management],Y,20,10,5,5,2,10,10/20
+Supplier Qualification [Sourcing and Supplier Management],Y,19,7,10,2,2,12,12/19
+Supplier Portal [Sourcing and Supplier Management],Y,7,6,0,1,2,1,1/7
+TAG Procurement,Y,52,17,25,10,4,35,35/52
+TAG Sourcing and Supplier Management,Y,91,45,35,11,4,46,46/91
+TAG Purchasing,Y,16,6,9,1,0,10,10/16
+TAG Shared,Y,8,4,0,4,1,4,4/8
+ROW Procurement (SCM 24) = Procurement + Shared,Y,60,21,25,14,5,39,39/60
+ALL in-scope unique tasks,Y,167,72,69,26,9,95,95/167
+"Items (borderline, not counted)",N,36,27,4,5,0,9,9/36
+"Receiving (borderline, not counted)",N,6,2,4,0,0,4,4/6
+"Receipt Accounting (borderline, not counted)",N,16,2,11,3,0,14,14/16
+"Supplier Incentives (borderline, not counted)",N,32,13,14,5,0,19,19/32
+"Sustainability (borderline, not counted)",N,7,0,7,0,0,7,7/7
+"Suppliers for Product Management (borderline, not counted)",N,1,0,0,1,0,1,1/1
+"Payables (borderline, not counted)",N,38,4,29,5,0,34,34/38

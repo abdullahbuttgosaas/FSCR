@@ -1,0 +1,449 @@
+{
+ "1": {
+  "export": "template ok, data ok",
+  "pids": [
+   "100004733448280",
+   "100004734412839"
+  ],
+  "matched": 1,
+  "missing": [
+   "FileContent",
+   "LookupTypeIsActiveEnabledFinder"
+  ],
+  "unnamed": 48,
+  "coverage": 0.02,
+  "n_missing": 2,
+  "template_cols": 49
+ },
+ "2": {
+  "export": "no setup task (functional-area, advisory or core skill)",
+  "pids": [],
+  "matched": null,
+  "missing": null,
+  "unnamed": null,
+  "coverage": null
+ },
+ "3": {
+  "export": "template ok, data ok",
+  "pids": [
+   "100004734413014",
+   "100004733447172"
+  ],
+  "matched": 9,
+  "missing": [
+   "AllowImpairmentFlag",
+   "AssetCategoryBook",
+   "AssetCategoryBookDefault",
+   "BookName",
+   "CatStructureInstanceCode",
+   "ChartOfAccountsId",
+   "ComponentN",
+   "ComponentNDescription",
+   "CurrencyCode",
+   "DateIneffective",
+   "DatePlacedInService",
+   "DeprnCalendar",
+   "FlexbuilderCcidSegments",
+   "GlPostingAllowedFlag",
+   "StructureInstanceIdentifier"
+  ],
+  "unnamed": 186,
+  "coverage": 0.05,
+  "n_missing": 17,
+  "template_cols": 195
+ },
+ "4": {
+  "export": "not possible: catalog CSV export flag UNKNOWN (route REST)",
+  "pids": [],
+  "matched": null,
+  "missing": null,
+  "unnamed": null,
+  "coverage": null
+ },
+ "5": {
+  "export": "template ok, data ok",
+  "pids": [
+   "100004733447186",
+   "100004733448403"
+  ],
+  "matched": 12,
+  "missing": [],
+  "unnamed": 49,
+  "coverage": 0.2,
+  "n_missing": 0,
+  "template_cols": 61
+ },
+ "6": {
+  "export": "no setup task (functional-area, advisory or core skill)",
+  "pids": [],
+  "matched": null,
+  "missing": null,
+  "unnamed": null,
+  "coverage": null
+ },
+ "7": {
+  "export": "no setup task (functional-area, advisory or core skill)",
+  "pids": [],
+  "matched": null,
+  "missing": null,
+  "unnamed": null,
+  "coverage": null
+ },
+ "8": {
+  "export": "template ok, data ok",
+  "pids": [
+   "100004734413061",
+   "100004733448480"
+  ],
+  "matched": 0,
+  "missing": [],
+  "unnamed": 181,
+  "coverage": 0.0,
+  "n_missing": 0,
+  "template_cols": 181
+ },
+ "9": {
+  "export": "template ok, data ok",
+  "pids": [
+   "100004733447195",
+   "100004734413121"
+  ],
+  "matched": 0,
+  "missing": [],
+  "unnamed": 113,
+  "coverage": 0.0,
+  "n_missing": 0,
+  "template_cols": 113
+ },
+ "10": {
+  "export": "no setup task (functional-area, advisory or core skill)",
+  "pids": [],
+  "matched": null,
+  "missing": null,
+  "unnamed": null,
+  "coverage": null
+ },
+ "11": {
+  "export": "not possible: catalog CSV export flag None (route none)",
+  "pids": [],
+  "matched": null,
+  "missing": null,
+  "unnamed": null,
+  "coverage": null
+ },
+ "12": {
+  "export": "template ok, data ok",
+  "pids": [
+   "100004733446806",
+   "100004734412904"
+  ],
+  "matched": 1,
+  "missing": [],
+  "unnamed": 52,
+  "coverage": 0.02,
+  "n_missing": 0,
+  "template_cols": 53
+ },
+ "13": {
+  "export": "no setup task (functional-area, advisory or core skill)",
+  "pids": [],
+  "matched": null,
+  "missing": null,
+  "unnamed": null,
+  "coverage": null
+ },
+ "14": {
+  "export": "template ok, data ok",
+  "pids": [
+   "100004734412991",
+   "100004733447232"
+  ],
+  "matched": 0,
+  "missing": [],
+  "unnamed": 133,
+  "coverage": 0.0,
+  "n_missing": 0,
+  "template_cols": 133
+ },
+ "15": {
+  "export": "template ok, data ok",
+  "pids": [
+   "100004733447248",
+   "100004734413143"
+  ],
+  "matched": 0,
+  "missing": [],
+  "unnamed": 32,
+  "coverage": 0.0,
+  "n_missing": 0,
+  "template_cols": 32
+ },
+ "16": {
+  "export": "no setup task (functional-area, advisory or core skill)",
+  "pids": [],
+  "matched": null,
+  "missing": null,
+  "unnamed": null,
+  "coverage": null
+ },
+ "17": {
+  "export": "template ok, data ok",
+  "pids": [
+   "100004733448618",
+   "100004734413218"
+  ],
+  "matched": 0,
+  "missing": [],
+  "unnamed": 53,
+  "coverage": 0.0,
+  "n_missing": 0,
+  "template_cols": 53
+ },
+ "18": {
+  "export": "template ok, data missing; error: Error: Failed calling https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com/fscmRestApi/resources/11.13.18.05/setupTaskCSVExports/ORA_INVENTORY_ZONES/child/Se",
+  "pids": [
+   "100004733446816",
+   "100004733448689"
+  ],
+  "matched": 0,
+  "missing": [],
+  "unnamed": 10,
+  "coverage": 0.0,
+  "n_missing": 0,
+  "template_cols": 10
+ },
+ "19": {
+  "export": "template ok, data ok",
+  "pids": [
+   "100004734413257",
+   "100004734413290"
+  ],
+  "matched": 1,
+  "missing": [],
+  "unnamed": 12,
+  "coverage": 0.08,
+  "n_missing": 0,
+  "template_cols": 13
+ },
+ "20": {
+  "export": "template ok, data ok",
+  "pids": [
+   "100004733447262",
+   "100004733448749"
+  ],
+  "matched": 0,
+  "missing": [],
+  "unnamed": 11,
+  "coverage": 0.0,
+  "n_missing": 0,
+  "template_cols": 11
+ },
+ "21": {
+  "export": "not possible: catalog CSV export flag N (route REST)",
+  "pids": [],
+  "matched": null,
+  "missing": null,
+  "unnamed": null,
+  "coverage": null
+ },
+ "22": {
+  "export": "template ok, data ok",
+  "pids": [
+   "100004734414054",
+   "100004733446832"
+  ],
+  "matched": 0,
+  "missing": [],
+  "unnamed": 16,
+  "coverage": 0.0,
+  "n_missing": 0,
+  "template_cols": 16
+ },
+ "23": {
+  "export": "not possible: catalog CSV export flag UNKNOWN (route REST)",
+  "pids": [],
+  "matched": null,
+  "missing": null,
+  "unnamed": null,
+  "coverage": null
+ },
+ "24": {
+  "export": "template ok, data ok",
+  "pids": [
+   "100004734414162",
+   "100004733446938"
+  ],
+  "matched": 0,
+  "missing": [],
+  "unnamed": 61,
+  "coverage": 0.0,
+  "n_missing": 0,
+  "template_cols": 61
+ },
+ "25": {
+  "export": "no setup task (functional-area, advisory or core skill)",
+  "pids": [],
+  "matched": null,
+  "missing": null,
+  "unnamed": null,
+  "coverage": null
+ },
+ "26": {
+  "export": "no setup task (functional-area, advisory or core skill)",
+  "pids": [],
+  "matched": null,
+  "missing": null,
+  "unnamed": null,
+  "coverage": null
+ },
+ "27": {
+  "export": "template ok, data ok",
+  "pids": [
+   "100004734413419",
+   "100004734413562"
+  ],
+  "matched": 0,
+  "missing": [],
+  "unnamed": 28,
+  "coverage": 0.0,
+  "n_missing": 0,
+  "template_cols": 28
+ },
+ "28": {
+  "export": "no setup task (functional-area, advisory or core skill)",
+  "pids": [],
+  "matched": null,
+  "missing": null,
+  "unnamed": null,
+  "coverage": null
+ },
+ "29": {
+  "export": "template ok, data ok",
+  "pids": [
+   "100004734414172",
+   "100004733446980"
+  ],
+  "matched": 0,
+  "missing": [],
+  "unnamed": 13,
+  "coverage": 0.0,
+  "n_missing": 0,
+  "template_cols": 13
+ },
+ "30": {
+  "export": "no setup task (functional-area, advisory or core skill)",
+  "pids": [],
+  "matched": null,
+  "missing": null,
+  "unnamed": null,
+  "coverage": null
+ },
+ "31": {
+  "export": "template ok, data ok",
+  "pids": [
+   "100004733447316",
+   "100004733448884"
+  ],
+  "matched": 1,
+  "missing": [
+   "ProfileOptionCode"
+  ],
+  "unnamed": 12,
+  "coverage": 0.08,
+  "n_missing": 1,
+  "template_cols": 13
+ },
+ "32": {
+  "export": "template ok, data ok",
+  "pids": [
+   "100004733447330",
+   "100004734414186"
+  ],
+  "matched": 0,
+  "missing": [],
+  "unnamed": 31,
+  "coverage": 0.0,
+  "n_missing": 0,
+  "template_cols": 31
+ },
+ "33": {
+  "export": "not possible: catalog CSV export flag N (route REST)",
+  "pids": [],
+  "matched": null,
+  "missing": null,
+  "unnamed": null,
+  "coverage": null
+ },
+ "34": {
+  "export": "template ok, data ok",
+  "pids": [
+   "100004734413620",
+   "100004733447341"
+  ],
+  "matched": 0,
+  "missing": [],
+  "unnamed": 13,
+  "coverage": 0.0,
+  "n_missing": 0,
+  "template_cols": 13
+ },
+ "35": {
+  "export": "template ok, data ok",
+  "pids": [
+   "100004733449061",
+   "100004734414256"
+  ],
+  "matched": 9,
+  "missing": [
+   "CreatedBy",
+   "FileContent",
+   "LastUpdatedBy",
+   "ProcessId",
+   "ProcessLog"
+  ],
+  "unnamed": 7,
+  "coverage": 0.56,
+  "n_missing": 5,
+  "template_cols": 16
+ },
+ "36": {
+  "export": "no setup task (functional-area, advisory or core skill)",
+  "pids": [],
+  "matched": null,
+  "missing": null,
+  "unnamed": null,
+  "coverage": null
+ },
+ "37": {
+  "export": "no setup task (functional-area, advisory or core skill)",
+  "pids": [],
+  "matched": null,
+  "missing": null,
+  "unnamed": null,
+  "coverage": null
+ },
+ "38": {
+  "export": "no setup task (functional-area, advisory or core skill)",
+  "pids": [],
+  "matched": null,
+  "missing": null,
+  "unnamed": null,
+  "coverage": null
+ },
+ "39": {
+  "export": "no setup task (functional-area, advisory or core skill)",
+  "pids": [],
+  "matched": null,
+  "missing": null,
+  "unnamed": null,
+  "coverage": null
+ },
+ "40": {
+  "export": "no setup task (functional-area, advisory or core skill)",
+  "pids": [],
+  "matched": null,
+  "missing": null,
+  "unnamed": null,
+  "coverage": null
+ }
+}

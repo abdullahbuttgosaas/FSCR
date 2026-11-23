@@ -1,0 +1,129 @@
+{
+ "shots": [
+  "upload_order_management_dark_1360.png",
+  "upload_receivables_dark_1360.png",
+  "upload_order_management_light_1360.png",
+  "upload_receivables_light_1360.png",
+  "upload_order_management_dark_390.png",
+  "upload_receivables_dark_390.png",
+  "check_problems_dark_1360.png",
+  "check_problems_dark_390.png",
+  "check_clean_dark_1360.png",
+  "create_result_dark_1360.png",
+  "create_question_dark_1360.png",
+  "create_question_answered_dark_1360.png"
+ ],
+ "console_errors": [],
+ "request_hosts": {
+  "127.0.0.1": 74,
+  "fonts.googleapis.com": 11,
+  "fonts.gstatic.com": 22
+ },
+ "outbound_from_server": [],
+ "checks": {
+  "default side dark_1360": true,
+  "Order Management cards dark_1360": [
+   "Customers",
+   "Order Types",
+   "Payment Terms",
+   "Lookup Types",
+   "Business Units",
+   "Price Lists"
+  ],
+  "Order Management template dark_1360": "/api/sheet/template?area=Order%20Management",
+  "Receivables cards dark_1360": [
+   "Receivables Payment Terms"
+  ],
+  "Receivables template dark_1360": "/api/sheet/template?area=Receivables",
+  "side kept after reload dark_1360": true,
+  "default side light_1360": true,
+  "Order Management cards light_1360": [
+   "Customers",
+   "Order Types",
+   "Payment Terms",
+   "Lookup Types",
+   "Business Units",
+   "Price Lists"
+  ],
+  "Order Management template light_1360": "/api/sheet/template?area=Order%20Management",
+  "Receivables cards light_1360": [
+   "Receivables Payment Terms"
+  ],
+  "Receivables template light_1360": "/api/sheet/template?area=Receivables",
+  "side kept after reload light_1360": true,
+  "default side dark_390": true,
+  "Order Management cards dark_390": [
+   "Customers",
+   "Order Types",
+   "Payment Terms",
+   "Lookup Types",
+   "Business Units",
+   "Price Lists"
+  ],
+  "Order Management template dark_390": "/api/sheet/template?area=Order%20Management",
+  "no sideways scroll Order Management 390": true,
+  "Receivables cards dark_390": [
+   "Receivables Payment Terms"
+  ],
+  "Receivables template dark_390": "/api/sheet/template?area=Receivables",
+  "no sideways scroll Receivables 390": true,
+  "side kept after reload dark_390": true,
+  "template tabs Order Management": [
+   "Read me",
+   "Organization Customers",
+   "Person Customers",
+   "Address Purposes",
+   "Order Types",
+   "Payment Terms",
+   "Payment Term Lines",
+   "Payment Term Sets",
+   "Lists",
+   "Lookup Types",
+   "Lookup Codes",
+   "Business Units",
+   "Price Lists",
+   "Price List Access Sets"
+  ],
+  "template file name Order Management": "Upload sheet.xlsx",
+  "template tabs Receivables": [
+   "Read me",
+   "Receivables Payment Terms",
+   "Lists",
+   "Receivables Term Lines"
+  ],
+  "template file name Receivables": "Upload sheet - Receivables.xlsx",
+  "problems check: Create disabled 1360": true,
+  "problems check: Create disabled 390": true,
+  "no sideways scroll check problems 390": true,
+  "clean check: Create enabled": true,
+  "create result text": "RT\nReceivables Payment Terms\n3 items\n3 Created\nCollapse Receivables Payment Terms\nRT\nCreated\nZZ_TEST_AR_4821\nCreated the Receivables payment term ZZ_TEST_AR_4821 in set COMMON with 2 installments and 1 discount, and checked it in Oracle: every value as sent.\nRT\nCreated\nZZ_TEST_AR_N30\nCreated the Receivables payment term ZZ_TEST_AR_N30 in set COMMON with 1 installment, and checked it in Oracle: every value as sent.\nRT\nCreated\nZZ_TEST_AR_DOM\nCreated the Receivables payment term ZZ_TEST_AR_DOM in set COMMON with 2 installments, and checked it in Oracle: every value as sent.",
+  "storage blocked: default Order Management, switch works": true
+ },
+ "server_log_tail": [
+  "2026-10-30 09:49:22  job b2b2a59aa2: receivables payment term 2 of 3: ZZ_TEST_AR_N30",
+  "2026-10-30 09:49:22  job b2b2a59aa2: receivables payment term 3 of 3: ZZ_TEST_AR_DOM",
+  "2026-10-30 09:49:23  job b2b2a59aa2_1 done: Created the Receivables payment term ZZ_TEST_AR_4821 in set COMMON with 2 installments and 1 discount, and checked it in Oracle: every value as sent.",
+  "2026-10-30 09:49:23  job b2b2a59aa2: ZZ_TEST_AR_4821 done",
+  "2026-10-30 09:49:23  job b2b2a59aa2_2 done: Created the Receivables payment term ZZ_TEST_AR_N30 in set COMMON with 1 installment, and checked it in Oracle: every value as sent.",
+  "2026-10-30 09:49:23  job b2b2a59aa2: ZZ_TEST_AR_N30 done",
+  "2026-10-30 09:49:23  job b2b2a59aa2_3 done: Created the Receivables payment term ZZ_TEST_AR_DOM in set COMMON with 2 installments, and checked it in Oracle: every value as sent.",
+  "2026-10-30 09:49:23  job b2b2a59aa2: ZZ_TEST_AR_DOM done",
+  "2026-10-30 09:49:26  upload 763b60e62a (Receivables_refused_set.xlsx): ready, 3 record(s), 0 problem(s), checked",
+  "2026-10-30 09:49:26  job 2040c69805 queued: Receivables Payment Terms (upload 763b60e62a)",
+  "2026-10-30 09:49:26  job 2040c69805: receivables payment term 1 of 3: ZZ_TEST_AR_ASK",
+  "2026-10-30 09:49:26  job 2040c69805: receivables payment term 2 of 3: ZZ_TEST_AR_N30",
+  "2026-10-30 09:49:26  job 2040c69805: receivables payment term 3 of 3: ZZ_TEST_AR_DOM",
+  "2026-10-30 09:49:27  job 2040c69805_1 stopped (INVALID_REQUEST): Oracle refused the Receivables payment term ZZ_TEST_AR_ASK: Oracle has no matching value for Set Code. Nothing was saved in Oracle.",
+  "2026-10-30 09:49:27  job 2040c69805: ZZ_TEST_AR_ASK failed",
+  "2026-10-30 09:49:27  job 2040c69805_2 done: The Receivables payment term ZZ_TEST_AR_N30 is already in set COMMON in Oracle, so it was skipped; nothing was changed.",
+  "2026-10-30 09:49:27  job 2040c69805: ZZ_TEST_AR_N30 done",
+  "2026-10-30 09:49:27  job 2040c69805_3 done: The Receivables payment term ZZ_TEST_AR_DOM is already in set COMMON in Oracle, so it was skipped; nothing was changed.",
+  "2026-10-30 09:49:27  job 2040c69805: ZZ_TEST_AR_DOM done",
+  "2026-10-30 09:49:27  job 2040c69805: question 1 (ZZ_TEST_AR_ASK): Set Code 'ZZ_NOT_FOR_AR' refused: Oracle has no matching value for Set Code; suggested: COMMON, ENTERPRISE, S1",
+  "2026-10-30 09:49:29  job 2040c69805: question 1 (ZZ_TEST_AR_ASK) answered: Set Code = COMMON; trying again",
+  "2026-10-30 09:49:29  job 2040c69805: receivables payment term 1 of 3: ZZ_TEST_AR_ASK",
+  "2026-10-30 09:49:30  job 2040c69805_1 done: Created the Receivables payment term ZZ_TEST_AR_ASK in set COMMON with 2 installments and 1 discount, and checked it in Oracle: every value as sent.",
+  "2026-10-30 09:49:30  job 2040c69805: ZZ_TEST_AR_ASK done",
+  "2026-10-30 09:49:30  job 2040c69805: question 1 (ZZ_TEST_AR_ASK) answered: Set Code = COMMON; done"
+ ]
+}

@@ -1,0 +1,148 @@
+{
+  "baselineSha256": "8fe75896b8ed83d1d12e3c15a400859810feeb0e70ad79d0fbe1039f861e3f58",
+  "businessSummary": {
+    "action": "create",
+    "allowDiscountOnPartialPayments": "N",
+    "appliedDefaults": {
+      "BaseAmount": "100",
+      "CalcDiscountOnLinesFlag": "I",
+      "CreditCheckFlag": "N",
+      "DiscountBasisDateType": "APPLICATION_DATE",
+      "InUse": "N",
+      "PartialDiscountFlag": "N",
+      "PrepaymentFlag": "N"
+    },
+    "baseAmount": "100",
+    "baseAmountMeaning": "Ratio denominator for installment RelativeAmount values; not a transaction currency amount.",
+    "billingCycle": "",
+    "changeSummary": {
+      "addedRows": [
+        {
+          "entity": "AR_PAYMENT_TERM.csv",
+          "key": [
+            "ZZFSCR N45 4203",
+            "COMMON"
+          ]
+        },
+        {
+          "entity": "AR_PAYMENT_TERM_LINE.csv",
+          "key": [
+            "1"
+          ]
+        },
+        {
+          "entity": "AR_PAYMENT_TERM_LINE.csv",
+          "key": [
+            "2"
+          ]
+        },
+        {
+          "entity": "AR_PAYMENT_TERM_TRANSLATION.csv",
+          "key": [
+            "US"
+          ]
+        }
+      ],
+      "changedFields": [],
+      "preservedFieldCount": 0,
+      "removedRows": []
+    },
+    "creditCheck": "N",
+    "description": "ZZ FSCR Test Net 45 4203",
+    "discountBasis": {
+      "code": "I",
+      "meaning": "Invoice amount"
+    },
+    "discountBasisDateType": "APPLICATION_DATE",
+    "discounts": [],
+    "endDateActive": "",
+    "flexfields": {},
+    "installmentOption": {
+      "code": "INCLUDE",
+      "meaning": "Include tax and freight in the first installment"
+    },
+    "lines": [
+      {
+        "dueMethod": "DueDays",
+        "dueMonthsForward": "",
+        "dueValue": "30",
+        "relativeAmount": "50",
+        "sequence": "1"
+      },
+      {
+        "dueMethod": "DueDays",
+        "dueMonthsForward": "",
+        "dueValue": "45",
+        "relativeAmount": "50",
+        "sequence": "2"
+      }
+    ],
+    "name": "ZZFSCR N45 4203",
+    "operationId": "operation-1",
+    "operationIndex": 1,
+    "prepayment": "N",
+    "printingLeadDays": "1",
+    "setCode": "COMMON",
+    "startDateActive": "2026-10-28",
+    "translations": [
+      {
+        "description": "ZZ FSCR Test Net 45 4203",
+        "language": "US",
+        "name": "ZZFSCR N45 4203",
+        "sourceLanguage": "US"
+      }
+    ]
+  },
+  "confirmationInstruction": "Show the business summary and ask the customer to reply exactly confirm before generating the local ZIP.",
+  "designSha256": "1ccd2ec10a29c3a21114362179e6af9d69099aaeca0ee4f8d0e2807aabb8a42b",
+  "externalCalls": 0,
+  "mode": "offline_preview",
+  "mutationAuthorized": false,
+  "resolution": {
+    "action": "create",
+    "appliedDefaults": {
+      "BaseAmount": "100",
+      "CalcDiscountOnLinesFlag": "I",
+      "CreditCheckFlag": "N",
+      "DiscountBasisDateType": "APPLICATION_DATE",
+      "InUse": "N",
+      "PartialDiscountFlag": "N",
+      "PrepaymentFlag": "N"
+    },
+    "baselineMatchCount": 0,
+    "name": "ZZFSCR N45 4203",
+    "operationId": "operation-1",
+    "operationIndex": 1,
+    "requestedChildRows": {
+      "AR_PAYMENT_TERM_DISCOUNT.csv": 0,
+      "AR_PAYMENT_TERM_LINE.csv": 2,
+      "AR_PAYMENT_TERM_TRANSLATION.csv": 1
+    },
+    "requestedHeaderFields": [
+      "BaseAmount",
+      "CalcDiscountOnLinesFlag",
+      "CreditCheckFlag",
+      "Description",
+      "DiscountBasisDateType",
+      "FirstInstallmentCode",
+      "InUse",
+      "Name",
+      "PartialDiscountFlag",
+      "PrepaymentFlag",
+      "PrintingLeadDays",
+      "SetCode",
+      "StartDateActive"
+    ],
+    "setCode": "COMMON",
+    "setResolution": "supplied_exact"
+  },
+  "rowCounts": {
+    "AR_PAYMENT_TERM.csv": 1,
+    "AR_PAYMENT_TERM_DISCOUNT.csv": 0,
+    "AR_PAYMENT_TERM_LINE.csv": 2,
+    "AR_PAYMENT_TERM_TRANSLATION.csv": 1
+  },
+  "status": "confirmation_required",
+  "taskCode": "AR_MANAGE_RECEIVABLES_PAYMENT_TERMS",
+  "templateSha256": "ffb208b7f12e2b3fb983cb7eb20bc69570031c6db6fa10de7dbeb56bbe5dc0fa"
+}

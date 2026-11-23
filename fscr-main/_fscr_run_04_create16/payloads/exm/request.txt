@@ -1,0 +1,1 @@
+Create expense conversion rate options for business unit FSCRT_Quillon Ridge Outfitters West F01: default exchange rate Y, conversion rate type Corporate, warning tolerance 5, error tolerance 10, display warning to user Y.

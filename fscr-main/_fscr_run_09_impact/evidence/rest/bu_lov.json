@@ -1,0 +1,25 @@
+{
+  "items" : [ {
+    "BusinessUnitId" : "300000394664009",
+    "BusinessUnitName" : "FSCRT_Brindle Harbor Marine Supply F01",
+    "ActiveFlag" : true,
+    "PrimaryLedgerId" : null,
+    "LocationId" : "300000389039489",
+    "ManagerId" : "300000002688269",
+    "LegalEntityId" : null,
+    "ProfitCenterFlag" : null,
+    "@context" : {
+      "key" : "300000394664009"
+    }
+  } ],
+  "count" : 1,
+  "hasMore" : false,
+  "limit" : 25,
+  "offset" : 0,
+  "links" : [ {
+    "rel" : "self",
+    "href" : "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/finBusinessUnitsLOV",
+    "name" : "finBusinessUnitsLOV",
+    "kind" : "collection"
+  } ]
+}

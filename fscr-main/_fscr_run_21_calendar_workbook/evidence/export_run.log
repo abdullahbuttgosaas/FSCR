@@ -1,0 +1,35 @@
+== AP_MANAGE_COMMON_OPTIONS_FOR_PAYABLES_AND_PROCUREMENT start 18:55:13
+Started setup task CSV export process: 100004733483284
+ProcessCompletedFlag: False; StatusCode: (no result yet); ResultCount: 0
+ProcessCompletedFlag: False; StatusCode: (no result yet); ResultCount: 0
+ProcessCompletedFlag: True; StatusCode: (no result yet); ResultCount: 0
+StatusCode: (unknown)
+Wrote E:\GoSaaS\Configuration Automation v2.1\fscr-main\_fscr_run_21_calendar_workbook\evidence\exports\AP_MANAGE_COMMON_OPTIONS_FOR_PAYABLES_AND_PROCUREMENT\ETIA-TEST_setup_task_csv_export_ap_manage_common_options_for_payables_and_procurement_100004733483284.
+== AP_MANAGE_COMMON_OPTIONS_FOR_PAYABLES_AND_PROCUREMENT end 18:55:45
+== AP_MANAGE_INVOICE_OPTIONS start 18:55:45
+Started setup task CSV export process: 100004733481417
+ProcessCompletedFlag: False; StatusCode: (no result yet); ResultCount: 0
+ProcessCompletedFlag: False; StatusCode: (no result yet); ResultCount: 0
+ProcessCompletedFlag: False; StatusCode: (no result yet); ResultCount: 0
+ProcessCompletedFlag: True; StatusCode: (no result yet); ResultCount: 0
+StatusCode: (unknown)
+Wrote E:\GoSaaS\Configuration Automation v2.1\fscr-main\_fscr_run_21_calendar_workbook\evidence\exports\AP_MANAGE_INVOICE_OPTIONS\ETIA-TEST_setup_task_csv_export_ap_manage_invoice_options_100004733481417.zip (4196 bytes)
+== AP_MANAGE_INVOICE_OPTIONS end 18:56:51
+== AP_MANAGE_PAYMENT_OPTIONS start 18:56:51
+Started setup task CSV export process: 100004733482153
+ProcessCompletedFlag: False; StatusCode: (no result yet); ResultCount: 0
+ProcessCompletedFlag: False; StatusCode: (no result yet); ResultCount: 0
+ProcessCompletedFlag: True; StatusCode: (no result yet); ResultCount: 0
+StatusCode: (unknown)
+Wrote E:\GoSaaS\Configuration Automation v2.1\fscr-main\_fscr_run_21_calendar_workbook\evidence\exports\AP_MANAGE_PAYMENT_OPTIONS\ETIA-TEST_setup_task_csv_export_ap_manage_payment_options_100004733482153.zip (4200 bytes)
+== AP_MANAGE_PAYMENT_OPTIONS end 18:57:22
+== PO_CONFIGURE_PROCUREMENT_BUSINESS_FUNCTION start 18:57:22
+Started setup task CSV export process: 100004733482163
+ProcessCompletedFlag: False; StatusCode: (no result yet); ResultCount: 0
+ProcessCompletedFlag: False; StatusCode: (no result yet); ResultCount: 0
+ProcessCompletedFlag: False; StatusCode: (no result yet); ResultCount: 0
+ProcessCompletedFlag: False; StatusCode: (no result yet); ResultCount: 0
+ProcessCompletedFlag: True; StatusCode: (no result yet); ResultCount: 0
+StatusCode: (unknown)
+Wrote E:\GoSaaS\Configuration Automation v2.1\fscr-main\_fscr_run_21_calendar_workbook\evidence\exports\PO_CONFIGURE_PROCUREMENT_BUSINESS_FUNCTION\ETIA-TEST_setup_task_csv_export_po_configure_procurement_business_function_100004733482163.zip (10430 bytes)
+== PO_CONFIGURE_PROCUREMENT_BUSINESS_FUNCTION end 18:58:17

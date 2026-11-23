@@ -1,0 +1,12 @@
+{
+ "archiveName": "fscrt-grp6-candidate.zip",
+ "rowCounts": {
+  "AR_AI_GROUPING_RULE.csv": 1,
+  "ORA_AR_AI_GRP_TXN_TYPE.csv": 1,
+  "ORA_AR_AI_GRP_TXN_REQUEST.csv": 0
+ },
+ "operation": "create",
+ "names": [
+  "FSCRT_GRP6"
+ ]
+}

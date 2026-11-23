@@ -1,0 +1,19 @@
+## Business Object Validation
+
+| Source | Type |
+|---|---|
+| fscrt-bu-c4-manager-candidate.zip | FSM Setup |
+
+### Validated upload
+
+| Item | Value |
+|---|---|
+| Validated ZIP | [fscrt-bu-c4-manager-candidate.zip](<E:\GoSaaS\Configuration Automation v2.1\fscr-main\_fscr_run_03_change\fscr-work3\project\fscrt-run01-om-setup\exports\financials\organization-structures\manage-business-unit\fscrt-bu-c4-manager-candidate.zip>) |
+
+### Validation complete
+
+fscrt-bu-c4-manager-candidate.zip passed validation. No data was uploaded.
+
+### Approval required
+
+Reply with an approval to upload and initiate this exact validated load.

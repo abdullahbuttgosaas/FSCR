@@ -1,0 +1,1 @@
+Create a manual receipt class FSCRT_RC1 (no confirmation, no clearance, no remittance) with one receipt method FSCRT_RM1 starting 2026-11-03, printed name FSCRT Run04, payment type NONE. No remittance bank account.

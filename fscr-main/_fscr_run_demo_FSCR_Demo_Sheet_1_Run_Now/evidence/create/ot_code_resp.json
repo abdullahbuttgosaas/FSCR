@@ -1,0 +1,41 @@
+{
+  "LookupCode" : "FSCRT_SO_DEMO1_F11",
+  "Meaning" : "FSCRT_Demo One Order Type F11",
+  "Description" : "FSCRT demo order type 1",
+  "EnabledFlag" : "Y",
+  "StartDateActive" : "2026-11-04",
+  "EndDateActive" : null,
+  "DisplaySequence" : 9,
+  "Tag" : null,
+  "CreatedBy" : "Configuration.TEST",
+  "CreationDate" : "2026-11-04T16:47:43+00:00",
+  "LastUpdateDate" : "2026-11-04T16:47:43.060+00:00",
+  "LastUpdateLogin" : "5F71F97C78D1A112E0631C65310AF7EE",
+  "LastUpdatedBy" : "Configuration.TEST",
+  "links" : [ {
+    "rel" : "self",
+    "href" : "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/ORA_DOO_ORDER_TYPES/child/lookupCodes/FSCRT_SO_DEMO1_F11",
+    "name" : "lookupCodes",
+    "kind" : "item"
+  }, {
+    "rel" : "canonical",
+    "href" : "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/ORA_DOO_ORDER_TYPES/child/lookupCodes/FSCRT_SO_DEMO1_F11",
+    "name" : "lookupCodes",
+    "kind" : "item"
+  }, {
+    "rel" : "parent",
+    "href" : "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/ORA_DOO_ORDER_TYPES",
+    "name" : "standardLookups",
+    "kind" : "item"
+  }, {
+    "rel" : "child",
+    "href" : "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/ORA_DOO_ORDER_TYPES/child/lookupCodes/FSCRT_SO_DEMO1_F11/child/lookupsDFF",
+    "name" : "lookupsDFF",
+    "kind" : "collection"
+  }, {
+    "rel" : "child",
+    "href" : "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/ORA_DOO_ORDER_TYPES/child/lookupCodes/FSCRT_SO_DEMO1_F11/child/translations",
+    "name" : "translations",
+    "kind" : "collection"
+  } ]
+}

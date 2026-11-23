@@ -1,0 +1,7 @@
+Outputs frozen at: 2026-11-05 10:24:53 PST
+Nothing in ../_fscr_run_10_drive_reference had been opened before this time.
+4fbc530e488043d124d706150f2df253 *outputs/01_offering_task_map.csv
+7ee2752eea1df16d650ab5ef9a96a0cd *outputs/01_offering_task_map.md
+ccfe58bc238fa0d2d477cefde46daf57 *outputs/02_wave_plan.xlsx
+52949565717928f79549d45c8f20cc10 *outputs/03_task_dependencies.md
+1eab8ae8cdec8b3e9638d2a3cb164458 *outputs/04_readiness_checklist.md

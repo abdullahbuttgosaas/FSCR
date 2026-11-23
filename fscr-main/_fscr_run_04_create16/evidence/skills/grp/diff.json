@@ -1,0 +1,46 @@
+{
+ "old": "evidence/exports/AR_MANAGE_AUTOINVOICE_GROUPING_RULES/ETIA-TEST_setup_task_csv_export_ar_manage_autoinvoice_grouping_rules_100004733446533.zip",
+ "new": "evidence/skills/grp/after_export/ETIA-TEST_setup_task_csv_export_ar_manage_autoinvoice_grouping_rules_100004734412743.zip",
+ "files": {
+  "AR_AI_GROUPING_RULE.csv": {
+   "rows_old": 11,
+   "rows_new": 12,
+   "key_columns": [
+    "Name",
+    "LineOrderingRuleName"
+   ],
+   "added": [
+    {
+     "Name": "FSCRT_GRP1"
+    }
+   ],
+   "removed": [],
+   "changed": []
+  },
+  "ORA_AR_AI_GRP_TXN_REQUEST.csv": {
+   "rows_old": 23,
+   "rows_new": 23,
+   "key_columns": [
+    "AR_AI_GROUPING_RULE.Name",
+    "FromColumnName"
+   ],
+   "added": [],
+   "removed": [],
+   "changed": []
+  },
+  "ORA_AR_AI_GRP_TXN_TYPE.csv": {
+   "rows_old": 15,
+   "rows_new": 16,
+   "key_columns": [
+    "AR_AI_GROUPING_RULE.Name"
+   ],
+   "added": [
+    {
+     "AR_AI_GROUPING_RULE.Name": "FSCRT_GRP1"
+    }
+   ],
+   "removed": [],
+   "changed": []
+  }
+ }
+}

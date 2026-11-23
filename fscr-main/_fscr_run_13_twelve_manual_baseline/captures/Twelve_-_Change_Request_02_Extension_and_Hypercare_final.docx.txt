@@ -1,0 +1,173 @@
+SOURCE (read in browser via docs.google.com viewer): Twelve - Change Request 02 Extension and Hypercare_final.docx | id=1v1rLF8tAiyViOuzul8EJyAqVveihjPNx | kind=doc | chars=4369
+Twelve - Change Request 02 Extension and Hypercare_final.docxChange Order #02
+
+To Statement of Work Oracle Cloud SCM Implementation #4 (“Project”)
+
+This Change Order (“Change Order”) modifies the existing Statement of Work for Oracle Cloud SCM Implementation #4 (“SOW”) between Twelve (“Client”) and GoSaaS, Inc (“GoSaaS”). This Change Order shall be incorporated into and made part of the SOW as if fully set forth therein.
+
+Unless expressly stated otherwise herein, the provisions, terms and expressions set out in the Master Subscription and License Agreement (the "Agreement) shall apply equally in the Change Order and the terms and expressions defined in Agreement shall bear the same meaning when used herein.
+
+As part of this engagement, both the Client and GoSaaS agree on the following:
+​
+Description of the Scope Change:
+Inclusion in Scope
+Project Go-Live Date Extension
+     The approach is to extend all current resources through the following dates:
+Project date will be updated to:
+Go-Live Date - September 1, 2025
+Final Project Date, inclusive of Hypercare consisting of 6 weeks of Post Go-Live Support through September and the September Month End Close through October 10, 2025.
+ A reduced team will be planned to remain through Hypercare.
+
+Finance Hypercare:
+Modules: General Ledger, Accounts Receivable, Fixed Assets, Cash Management, Payables, and PPM.
+Scope
+GoSaaS to provide support for the above listed modules for six weeks through the September 2024 close.  
+International Payables Bank Wire Transfers: Discovery / analysis and remediation of the existing international bank wire transfers.
+
+Supply Chain Hypercare
+Modules: Procurement, Self-Service Procurement, Inventory, Manufacturing, and Maintenance
+Scope
+GoSaaS to provide support for the above listed modules for six weeks through the September 2024 close.
+Fees
+Date extension
+
+Change *
+	Resource Type
+	Hourly Rate
+	Hours
+	Sub-Total
+
+Date Extension
+	Project Manager
+	[amount masked]	80
+	[amount masked]
+Date Extension
+	PMO Analyst - Offshore
+	[amount masked]	80
+	[amount masked]
+Date Extension
+	Test Coordinator
+	[amount masked]	56
+	[amount masked]
+Date Extension
+	SCM Architect
+	[amount masked]	80
+	[amount masked]
+Date Extension
+	Finance Consultant
+	[amount masked]	200
+	[amount masked]
+Date Extension
+	Cost, Inventory, PIM Consultant
+	[amount masked]	200
+	[amount masked]
+Date Extension
+	Procurement, Manufacturing Consultant
+	[amount masked]	200
+	[amount masked]
+Date Extension
+	Maintenance Consultant
+	[amount masked]	200
+	[amount masked]
+Date Extension
+	Project Portfolio Management (PPM) Consultant
+	[amount masked]	200
+	[amount masked]
+Sub-Total
+
+	1296
+	[amount masked]
+New Sub-Total
+	*Effective Extension Discount: 33%.  
+
+	[amount masked]
+*For every three hours worked, GoSaaS consultants will bill Twelve two hours.  The GoSaaS investment will be clearly indicated on our invoices.  
+
+ Finance Hypercare
+
+Change *
+	Resource Type
+	Hourly Rate
+	Hours
+	Sub-Total
+
+Financials
+	Finance Architect
+	[amount masked]	48
+	[amount masked]
+Financials
+	PMO Analyst - Offshore
+	[amount masked]	24
+	[amount masked]
+Financials
+	Finance Consultant
+	[amount masked]	144
+	[amount masked]
+Financials
+	Project Portfolio Management (PPM) Consultant
+	[amount masked]	144
+	[amount masked]
+Sub-Total
+
+	360
+	[amount masked]
+Supply Chain Hypercare
+
+Change
+	Resource Type
+	Hourly Rate
+	Hours
+	Sub-Total
+
+Supply Chain
+	Supply Chain Architect
+	[amount masked]	48
+	[amount masked]
+Supply Chain
+	PMO Analyst - Offshore
+	[amount masked]	24
+	[amount masked]
+Supply Chain
+	Procurement Consultant
+	[amount masked]	240
+	[amount masked]
+Sub-Total
+
+	312
+	[amount masked]
+The roles and hours listed above are estimates. The number of hours for each role may vary during
+the project, within the project budget.
+
+Fees Summary
+
+Change
+	Hours
+	Total
+
+Extension
+	1296
+	[amount masked]
+Finance Hypercare
+	360
+	[amount masked]
+Supply Chain Hypercare
+	312
+	[amount masked]
+Change Request Total
+	1968
+	[amount masked]
+Upon signature of an authorized representative of the parties, the parties agree to and accept the contents of this Addendum.
+
+ Twelve                                                                                       GoSaaS
+
+Name:                                                                                            Name:
+                                                                                             
+Title:                                                                                                Title:
+
+Date:                                                                                                Date:
+​
+
+GoSaaS representative is required to enter the following document number upon signature.
+​
+Document Number:
+

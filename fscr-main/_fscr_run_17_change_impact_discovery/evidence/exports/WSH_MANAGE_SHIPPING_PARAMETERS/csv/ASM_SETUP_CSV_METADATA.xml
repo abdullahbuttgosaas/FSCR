@@ -1,0 +1,43 @@
+<MigrationProcessCSVMetadataVO>
+   <MigrationProcessCSVMetadataVORow>
+      <ProcessId>-999</ProcessId>
+      <ProcessName>Manage Shipping Parameters_20261109_123414_971</ProcessName>
+      <ProcessDescription>Manage Shipping Parameters_20261109_123414_971</ProcessDescription>
+      <ProcessDate>2026-11-09 12:34:42.866</ProcessDate>
+      <ObjectShortName>WSH_MANAGE_SHIPPING_PARAMETERS</ObjectShortName>
+      <ObjectType>TASK</ObjectType>
+      <CreatedByFlow>TASK_CSV_SERVICE</CreatedByFlow>
+      <ProcessType>EXPORT</ProcessType>
+      <ProcessStatus>COMPLETED</ProcessStatus>
+      <ProcessEnv>etia-test</ProcessEnv>
+      <ProcessStartDate>2026-11-09 12:34:14.166</ProcessStartDate>
+      <ProcessEndDate>2026-11-09 12:34:42.866</ProcessEndDate>
+      <ProcessRelease>11.13.26.10.0</ProcessRelease>
+      <SubmittedBy>Configuration.TEST</SubmittedBy>
+      <ESSRequestId>4447510</ESSRequestId>
+      <MigrationProcessBusinessObjectCSVMetadata1>
+         <MigrationProcessBusinessObjectCSVMetadataVORow>
+            <ProcessId>-999</ProcessId>
+            <BusinessObjectShortName>WSH_SHIPPING_PARAMETER</BusinessObjectShortName>
+            <BatchName null="true"/>
+            <XmlAttributeList>PercentFillBasisFlag,PrintPickSlipMode,AutocreateDelOrdersFlag,DefaultStageSubinventory,AutodetailPrFlag,EnforcePackingFlag,GroupByFobFlag,GroupByFreightTermsFlag,GroupByShipMethodFlag,AttributeCategory,Attribute1,Attribute2,Attribute3,Attribute4,Attribute5,Attribute6,Attribute7,Attribute8,Attribute9,Attribute10,Attribute11,Attribute12,Attribute13,Attribute14,Attribute15,PickSlipLines,AutocreateDeliveriesFlag,EnforceShipSetAndSmc,DeferInterface,EnforceShipMethod,AllowFutureShipDate,AutopackLevel,AppendingLimit,CheckOnHand,GuCurrencyUom,CarrierManifestFlag,ConsolidateBoLines,GroupBySoldCustFlag,ShipConfirmRuleName,PickSequenceRuleName,PickGroupingRuleName,DefaultStageLocatorConcatenated,DeferInvProcessOnline,InvInterfaceBatchSize,PickReleaseChildProcessNum,PickReleaseBatchSize,OverpickEnabled,ExpressPick,AttributeDate1,AttributeDate2,AttributeDate3,AttributeDate4,AttributeDate5,AttributeNumber1,AttributeNumber10,AttributeNumber2,AttributeNumber3,AttributeNumber4,AttributeNumber5,AttributeNumber6,AttributeNumber7,AttributeNumber8,AttributeNumber9,AttributeTimestamp1,AttributeTimestamp2,AttributeTimestamp3,AttributeTimestamp4,AttributeTimestamp5,OrgCode,UomClassTl,UomClassTl1,ShipSetBreakingOption,PackingSlipStatusRequired,ShipmentDescriptionRequired,TransportationReasonRequired,PackDocSeqCategoryCode,BolDocSeqCategoryCode,InvoiceDocSeqCategoryCode,TradeComplianceScreeningMethod,PublishTransactionalEvents,PtOptInFlag,QsEnabledFlag,QsDefaultPickFromSubinv,QsDefaultPickFromLocator,AutoshipOnFdApproval,ShippingToleranceBehavior,WmsReservationFlag,WmsItemSubstitutionFlag,ObjectVersionNumber3,ObjectVersionNumber4,ShipToleranceAbove,ShipToleranceBelow,ProcessGsrImmediate,StagedReturnToWms,AutoShipOnPickConfirmFlag,ShipGoodsVerificationFlag,SendOSPLinesToWMSFlag,WMSGroupByOrderTypeFlag,WMSGroupByOrderFlag,WMSGroupByCustomerFlag,WMSGroupByShipToLocationFlag,WMSGroupByShippingMethodFlag,WMSGroupByItemFlag,WMSGroupByShipmentSetFlag,OverrideShipShelfLifeFlag,OverrideInvAttributesFlag</XmlAttributeList>
+            <XmlAttributeTypeList>string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,long,string,string,string,string,string,long,string,string,string,string,string,string,string,string,string,string,string,int,int,int,string,string,date,date,date,date,date,decimal,decimal,decimal,decimal,decimal,decimal,decimal,decimal,decimal,decimal,dateTime,dateTime,dateTime,dateTime,dateTime,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,long,string,string,string,string,int,int,decimal,decimal,string,string,string,string,string,string,string,string,string,string,string,string,string,string</XmlAttributeTypeList>
+            <XmlNodePath>/ShippingParameterVO/ShippingParameterVORow</XmlNodePath>
+            <NodeSequence>1</NodeSequence>
+         </MigrationProcessBusinessObjectCSVMetadataVORow>
+      </MigrationProcessBusinessObjectCSVMetadata1>
+      <MigrationProcessBatchCSVMetadata null="true"/>
+      <MigrationProcessScopeValueCSVMetadata null="true"/>
+      <MigrationProcessMigrationObjectCSVMetadata>
+         <MigrationProcessMigrationObjectCSVMetadataVORow>
+            <ProcessId>-999</ProcessId>
+            <BusinessObjectShortName>WSH_SHIPPING_PARAMETER</BusinessObjectShortName>
+            <MigrateFlag>Y</MigrateFlag>
+            <IncludeExternalDataFlag>Y</IncludeExternalDataFlag>
+            <ServiceType null="true"/>
+         </MigrationProcessMigrationObjectCSVMetadataVORow>
+      </MigrationProcessMigrationObjectCSVMetadata>
+      <MigrationProcessTaskCSVMetadata null="true"/>
+      <MigrationProcessServiceVersionCSVMetadata null="true"/>
+   </MigrationProcessCSVMetadataVORow>
+</MigrationProcessCSVMetadataVO>

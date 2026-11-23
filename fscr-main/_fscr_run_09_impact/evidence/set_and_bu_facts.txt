@@ -1,0 +1,15 @@
+TERM FSCRT_2P10N30F1 set ENTERPRISE InUse N start 2026/11/03 end 2028/12/31
+TERM FSCRT_D25B75AF1 set ENTERPRISE InUse N start 2026/11/02 end 2028/12/31
+term reference groups: {'AP_PAYMENT_TERMS': 124, 'AR_PAYMENT_TERMS': 124}
+AP_PAYMENT_TERMS : explicit rows 124 | explicit ENTERPRISE 3 | active BUs resolving to ENTERPRISE (explicit or default set) 15 of 178
+  FSCRT BUs among them: ['FSCRT_Brindle Harbor Marine Supply F01', 'FSCRT_Quillon Ridge Outfitters West F01']
+AR_PAYMENT_TERMS : explicit rows 124 | explicit ENTERPRISE 3 | active BUs resolving to ENTERPRISE (explicit or default set) 15 of 178
+  FSCRT BUs among them: ['FSCRT_Brindle Harbor Marine Supply F01', 'FSCRT_Quillon Ridge Outfitters West F01']
+BU {'DefaultSetCode': 'ENTERPRISE', 'PrimaryLedgerName': '', 'LegalEntityName': '', 'InternalLocationCode': 'LHR_WH', 'Status': 'A', 'ManagerListName': 'Yaqub, Younas', 'LocationSetCode': 'COMMON'}
+BU business functions (FUN_BU_USAGE): 0
+BU service providers: 0
+BU explicit set assignments: 0
+BUs with DefaultSetCode ENTERPRISE: 15 of 184
+transaction types with a default term: 5 | FSCRT term: []
+profile classes: [('ORA_HED_BFB', 'ORA_HES'), ('GS Labs Class', '001 PT'), ('Ahsan Profile Class', 'Ahsan PT'), ('DEFAULT', ''), ('custom pc', '')]
+AR system options rows 19 | Brindle: 0

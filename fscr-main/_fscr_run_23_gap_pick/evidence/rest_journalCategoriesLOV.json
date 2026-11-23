@@ -1,0 +1,70 @@
+{
+  "items" : [ {
+    "JeCategoryName" : "Accrual",
+    "Description" : "Month end accruals.",
+    "UserJeCategoryName" : "Accrual",
+    "DisallowMjeFlag" : null,
+    "@context" : {
+      "key" : "Accrual",
+      "links" : [ {
+        "rel" : "self",
+        "href" : "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/journalCategoriesLOV/Accrual",
+        "name" : "journalCategoriesLOV",
+        "kind" : "item"
+      }, {
+        "rel" : "canonical",
+        "href" : "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/journalCategoriesLOV/Accrual",
+        "name" : "journalCategoriesLOV",
+        "kind" : "item"
+      } ]
+    }
+  }, {
+    "JeCategoryName" : "Accrual Clearing",
+    "Description" : "Accrual clearing transactions.",
+    "UserJeCategoryName" : "Accrual Clearing",
+    "DisallowMjeFlag" : null,
+    "@context" : {
+      "key" : "Accrual%20Clearing",
+      "links" : [ {
+        "rel" : "self",
+        "href" : "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/journalCategoriesLOV/Accrual%2520Clearing",
+        "name" : "journalCategoriesLOV",
+        "kind" : "item"
+      }, {
+        "rel" : "canonical",
+        "href" : "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/journalCategoriesLOV/Accrual%2520Clearing",
+        "name" : "journalCategoriesLOV",
+        "kind" : "item"
+      } ]
+    }
+  }, {
+    "JeCategoryName" : "Acquisition Cost Adj",
+    "Description" : "Acquisition cost adjustment transactions.",
+    "UserJeCategoryName" : "Acquisition Cost",
+    "DisallowMjeFlag" : null,
+    "@context" : {
+      "key" : "Acquisition%20Cost%20Adj",
+      "links" : [ {
+        "rel" : "self",
+        "href" : "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/journalCategoriesLOV/Acquisition%2520Cost%2520Adj",
+        "name" : "journalCategoriesLOV",
+        "kind" : "item"
+      }, {
+        "rel" : "canonical",
+        "href" : "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/journalCategoriesLOV/Acquisition%2520Cost%2520Adj",
+        "name" : "journalCategoriesLOV",
+        "kind" : "item"
+      } ]
+    }
+  } ],
+  "count" : 3,
+  "hasMore" : true,
+  "limit" : 3,
+  "offset" : 0,
+  "links" : [ {
+    "rel" : "self",
+    "href" : "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/journalCategoriesLOV",
+    "name" : "journalCategoriesLOV",
+    "kind" : "collection"
+  } ]
+}

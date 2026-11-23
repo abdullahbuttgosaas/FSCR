@@ -1,0 +1,14 @@
+ot_lookup_type: HTTP 200 rows=1 pages=1 -> evidence/rest/ot_lookup_type.json
+ot_lookup_codes: HTTP 200 rows=62 pages=1 -> evidence/rest/ot_lookup_codes.json
+so_total: HTTP 200 rows=0 pages=1 -> evidence/rest/so_total.json
+pl_all: HTTP 200 rows=55 pages=1 -> evidence/rest/pl_all.json
+ps_strategies: HTTP 200 rows=0 pages=1 -> evidence/rest/ps_strategies.json
+ps_strategy_pl: HTTP 400 rows=0 pages=1 -> evidence/rest/ps_strategy_pl.json
+{
+  "title" : "Bad Request",
+cpd_definitions: HTTP 200 rows=0 pages=1 -> evidence/rest/cpd_definitions.json
+pricing_segments: HTTP 200 rows=2 pages=1 -> evidence/rest/pricing_segments.json
+src_systems: HTTP 404 rows=non-JSON pages=1 -> evidence/rest/src_systems.json
+
+hz_src_systems: HTTP 404 rows=non-JSON pages=1 -> evidence/rest/hz_src_systems.json
+

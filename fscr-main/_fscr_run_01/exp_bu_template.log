@@ -1,0 +1,13 @@
+TaskCode: FUN_MANAGE_BUSINESS_UNIT (Manage Business Unit); CSVExportImportSupportedFlag: Y
+Resolved pillar skill metadata:
+  offering: pillars\erp\financials\SKILL.md
+  functional_area: pillars\erp\financials\organization-structures\SKILL.md
+  task: pillars\erp\financials\organization-structures\manage-business-unit.md
+Started setup task CSV template export process: 100004733440567
+ProcessCompletedFlag: False; StatusCode: (no result yet); ResultCount: 0
+ProcessCompletedFlag: False; StatusCode: (no result yet); ResultCount: 0
+ProcessCompletedFlag: True; StatusCode: (no result yet); ResultCount: 0
+TokenUsageLog: E:\GoSaaS\Configuration Automation v2.1\fscr-main\fscr-main\project\draft-impl-project-20261028\artifacts\shared\token-usage\current\token-usage-log.md
+StatusCode: (unknown)
+Retrieved: FileContent
+Wrote E:\GoSaaS\Configuration Automation v2.1\fscr-main\fscr-main\project\draft-impl-project-20261028\exports\financials\organization-structures\manage-business-unit\ETIA-TEST_setup_task_csv_template_export_fun_manage_business_unit_100004733440567.zip (2454 bytes)

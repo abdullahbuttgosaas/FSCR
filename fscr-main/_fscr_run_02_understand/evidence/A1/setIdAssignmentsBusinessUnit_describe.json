@@ -1,0 +1,381 @@
+{
+  "Resources" : {
+    "setIdAssignmentsBusinessUnit" : {
+      "discrColumnType" : false,
+      "title" : "Set ID Assignments Business Unit VO",
+      "titlePlural" : "Set ID Assignments for Business Units",
+      "usage" : "BusinessObject",
+      "attributes" : [ {
+        "name" : "DeterminantType",
+        "type" : "string",
+        "updatable" : true,
+        "mandatory" : true,
+        "inputRequired" : true,
+        "queryable" : true,
+        "allowChanges" : "always",
+        "precision" : 30,
+        "annotations" : {
+          "description" : "The unique identifier of the determinant type."
+        }
+      }, {
+        "name" : "ReferenceGroupName",
+        "type" : "string",
+        "updatable" : true,
+        "mandatory" : true,
+        "inputRequired" : true,
+        "queryable" : true,
+        "allowChanges" : "always",
+        "precision" : 30,
+        "title" : "Reference Group Name",
+        "maxLength" : "30",
+        "annotations" : {
+          "description" : "The unique identifier of the set ID reference group."
+        }
+      }, {
+        "name" : "DeterminantValue",
+        "type" : "integer",
+        "updatable" : true,
+        "mandatory" : true,
+        "inputRequired" : true,
+        "queryable" : true,
+        "allowChanges" : "always",
+        "precision" : 15,
+        "title" : "Determinant Value",
+        "annotations" : {
+          "description" : "The unique identifier of the determinant value."
+        }
+      }, {
+        "name" : "CreatedBy",
+        "type" : "string",
+        "updatable" : false,
+        "mandatory" : true,
+        "queryable" : true,
+        "allowChanges" : "never",
+        "precision" : 64,
+        "annotations" : {
+          "description" : "The user who created the record."
+        }
+      }, {
+        "name" : "CreationDate",
+        "type" : "datetime",
+        "updatable" : false,
+        "mandatory" : true,
+        "queryable" : true,
+        "allowChanges" : "never",
+        "annotations" : {
+          "description" : "The date when the record was created."
+        }
+      }, {
+        "name" : "LastUpdateDate",
+        "type" : "datetime",
+        "updatable" : false,
+        "mandatory" : true,
+        "queryable" : true,
+        "allowChanges" : "never",
+        "annotations" : {
+          "description" : "The date when the record was last updated."
+        }
+      }, {
+        "name" : "LastUpdateLogin",
+        "type" : "string",
+        "updatable" : false,
+        "mandatory" : false,
+        "queryable" : true,
+        "allowChanges" : "never",
+        "precision" : 32,
+        "annotations" : {
+          "description" : "The login credentials of the person who last updated the record."
+        }
+      }, {
+        "name" : "LastUpdatedBy",
+        "type" : "string",
+        "updatable" : false,
+        "mandatory" : true,
+        "queryable" : true,
+        "allowChanges" : "never",
+        "precision" : 64,
+        "annotations" : {
+          "description" : "The user who last updated the record."
+        }
+      }, {
+        "name" : "SetId",
+        "type" : "string",
+        "format" : "BigInt",
+        "updatable" : true,
+        "mandatory" : true,
+        "inputRequired" : true,
+        "queryable" : true,
+        "allowChanges" : "always",
+        "precision" : 18,
+        "operators" : [ "=", "<>", "<", "<=", ">", ">=", "BETWEEN", "NOTBETWEEN", "ISBLANK", "ISNOTBLANK" ],
+        "title" : "Reference Data Set",
+        "annotations" : {
+          "description" : "The unique identifier of the set ID set."
+        }
+      }, {
+        "name" : "SetCode",
+        "type" : "string",
+        "updatable" : true,
+        "mandatory" : true,
+        "inputRequired" : true,
+        "queryable" : true,
+        "allowChanges" : "always",
+        "precision" : 30,
+        "title" : "Set Code",
+        "controlType" : "choice",
+        "maxLength" : "30",
+        "lov" : {
+          "attributeMap" : [ {
+            "source" : "SetCode",
+            "target" : "SetCode"
+          }, {
+            "source" : "SetId",
+            "target" : "SetId",
+            "derived" : true
+          } ],
+          "displayAttributes" : [ "SetCode", "SetId" ]
+        },
+        "annotations" : {
+          "description" : "The unique code that identifies the set ID set."
+        }
+      }, {
+        "name" : "OrganizationCode",
+        "type" : "string",
+        "updatable" : true,
+        "mandatory" : false,
+        "queryable" : true,
+        "allowChanges" : "always",
+        "precision" : 240,
+        "controlType" : "choice",
+        "maxLength" : "240",
+        "lov" : {
+          "attributeMap" : [ {
+            "source" : "OrganizationCode",
+            "target" : "OrganizationCode"
+          }, {
+            "source" : "OrganizationId",
+            "target" : "DeterminantValue",
+            "derived" : true
+          } ],
+          "displayAttributes" : [ "OrganizationCode", "OrganizationId" ]
+        },
+        "annotations" : {
+          "description" : "The unique code that identifies the set ID organization."
+        }
+      }, {
+        "name" : "OrganizationId",
+        "type" : "string",
+        "format" : "BigInt",
+        "updatable" : false,
+        "mandatory" : true,
+        "queryable" : true,
+        "allowChanges" : "never",
+        "precision" : 18,
+        "operators" : [ "=", "<>", "<", "<=", ">", ">=", "BETWEEN", "NOTBETWEEN", "ISBLANK", "ISNOTBLANK" ],
+        "annotations" : {
+          "description" : "The unique identifier of the set ID organization."
+        }
+      } ],
+      "collection" : {
+        "rangeSize" : 25,
+        "finders" : [ {
+          "name" : "AssignmentFinder",
+          "title" : "AssignmentCriteria",
+          "annotations" : {
+            "description" : "Finds the set ID assignment business unit for the given assignment."
+          },
+          "attributes" : [ {
+            "name" : "DeterminantValue",
+            "type" : "string",
+            "format" : "BigInt",
+            "updatable" : true,
+            "required" : "Optional",
+            "queryable" : false,
+            "allowChanges" : "always",
+            "annotations" : {
+              "description" : "The unique determinant value that identifies the set ID assignment business unit."
+            }
+          }, {
+            "name" : "ReferenceGroupName",
+            "type" : "string",
+            "updatable" : true,
+            "required" : "Optional",
+            "queryable" : false,
+            "allowChanges" : "always",
+            "annotations" : {
+              "description" : "The unique identifier of the set ID reference group."
+            }
+          } ]
+        }, {
+          "name" : "DeterminantFinder",
+          "title" : "DeterminantCriteria",
+          "annotations" : {
+            "description" : "Finds all of the set ID assignments for the given business unit code."
+          },
+          "attributes" : [ {
+            "name" : "bindBusinessUnitCode",
+            "type" : "string",
+            "updatable" : true,
+            "required" : "Optional",
+            "queryable" : false,
+            "allowChanges" : "always",
+            "annotations" : {
+              "description" : "The unique identifier of the business unit."
+            }
+          } ]
+        }, {
+          "name" : "PrimaryKey",
+          "annotations" : {
+            "description" : "Finds the set ID assignment for the given primary key."
+          },
+          "attributes" : [ {
+            "name" : "DeterminantType",
+            "type" : "string",
+            "updatable" : true,
+            "mandatory" : true,
+            "inputRequired" : true,
+            "queryable" : true,
+            "allowChanges" : "always",
+            "precision" : 30,
+            "annotations" : {
+              "description" : "The unique identifier of the determinant type."
+            }
+          }, {
+            "name" : "DeterminantValue",
+            "type" : "integer",
+            "updatable" : true,
+            "mandatory" : true,
+            "inputRequired" : true,
+            "queryable" : true,
+            "allowChanges" : "always",
+            "precision" : 15,
+            "title" : "Determinant Value",
+            "annotations" : {
+              "description" : "The unique identifier of the determinant value."
+            }
+          }, {
+            "name" : "OrganizationId",
+            "type" : "string",
+            "format" : "BigInt",
+            "updatable" : true,
+            "mandatory" : true,
+            "queryable" : true,
+            "allowChanges" : "never",
+            "precision" : 18,
+            "annotations" : {
+              "description" : "The unique identifier of the set ID organization."
+            }
+          }, {
+            "name" : "ReferenceGroupName",
+            "type" : "string",
+            "updatable" : true,
+            "mandatory" : true,
+            "inputRequired" : true,
+            "queryable" : true,
+            "allowChanges" : "always",
+            "precision" : 30,
+            "title" : "Reference Group Name",
+            "maxLength" : "30",
+            "annotations" : {
+              "description" : "The unique identifier of the set ID reference group."
+            }
+          } ]
+        }, {
+          "name" : "ReferenceGroupFinder",
+          "title" : "ReferenceGroupCriteria",
+          "annotations" : {
+            "description" : "Finds all of the set ID assignments asset books for the given reference group name."
+          },
+          "attributes" : [ {
+            "name" : "bindReferenceGroupName",
+            "type" : "string",
+            "updatable" : true,
+            "required" : "Optional",
+            "queryable" : false,
+            "allowChanges" : "always",
+            "annotations" : {
+              "description" : "The unique identifier of the set ID reference group."
+            }
+          } ]
+        } ],
+        "links" : [ {
+          "rel" : "self",
+          "href" : "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/setIdAssignmentsBusinessUnit",
+          "name" : "self",
+          "kind" : "collection"
+        } ],
+        "actions" : [ {
+          "name" : "get",
+          "method" : "GET",
+          "responseType" : [ "application/vnd.oracle.adf.resourcecollection+json", "application/json" ],
+          "annotations" : {
+            "title" : "Get all set ID business unit assignments"
+          }
+        }, {
+          "name" : "create",
+          "method" : "POST",
+          "requestType" : [ "application/vnd.oracle.adf.resourceitem+json", "application/json" ],
+          "responseType" : [ "application/vnd.oracle.adf.resourceitem+json", "application/json" ],
+          "annotations" : {
+            "title" : "Create a set ID business unit assignment"
+          }
+        }, {
+          "name" : "upsert",
+          "method" : "POST",
+          "header" : "Upsert-Mode=true",
+          "requestType" : [ "application/vnd.oracle.adf.resourceitem+json", "application/json" ],
+          "responseType" : [ "application/vnd.oracle.adf.resourceitem+json", "application/json" ]
+        } ]
+      },
+      "item" : {
+        "links" : [ {
+          "rel" : "self",
+          "href" : "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/setIdAssignmentsBusinessUnit/{id}",
+          "name" : "self",
+          "kind" : "item"
+        }, {
+          "rel" : "canonical",
+          "href" : "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/setIdAssignmentsBusinessUnit/{id}",
+          "name" : "canonical",
+          "kind" : "item"
+        } ],
+        "actions" : [ {
+          "name" : "get",
+          "method" : "GET",
+          "responseType" : [ "application/vnd.oracle.adf.resourceitem+json", "application/json" ],
+          "annotations" : {
+            "title" : "Get a set ID business unit assignment"
+          }
+        }, {
+          "name" : "update",
+          "method" : "PATCH",
+          "requestType" : [ "application/vnd.oracle.adf.resourceitem+json", "application/json" ],
+          "responseType" : [ "application/vnd.oracle.adf.resourceitem+json", "application/json" ],
+          "annotations" : {
+            "title" : "Update a set ID business unit assignment"
+          }
+        }, {
+          "name" : "delete",
+          "method" : "DELETE",
+          "annotations" : {
+            "title" : "Delete a set ID business unit assignment"
+          }
+        } ]
+      },
+      "annotations" : {
+        "description" : "The set ID assignments for business unit resource is used to view, create, and update business unit assignments for set ID sets."
+      },
+      "links" : [ {
+        "rel" : "self",
+        "href" : "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/setIdAssignmentsBusinessUnit/describe",
+        "name" : "self",
+        "kind" : "describe"
+      }, {
+        "rel" : "canonical",
+        "href" : "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/setIdAssignmentsBusinessUnit/describe",
+        "name" : "canonical",
+        "kind" : "describe"
+      } ]
+    }
+  }
+}

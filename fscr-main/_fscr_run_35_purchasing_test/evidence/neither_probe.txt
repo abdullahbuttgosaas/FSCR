@@ -1,0 +1,7 @@
+GET /fscmRestApi/resources/11.13.18.05/messages?limit=1 -> 200
+GET /fscmRestApi/resources/11.13.18.05/setupMessages?limit=1 -> 404
+GET /fscmRestApi/resources/11.13.18.05/applicationMessages?limit=1 -> 404
+GET /fscmRestApi/resources/11.13.18.05/fndMessages?limit=1 -> 404
+GET /fscmRestApi/resources/11.13.18.05/purchasingMessages?limit=1 -> 404
+messages describe actions: ['get']
+setupTasks ORA_PO_MANAGE_PURCHASING_MESSAGES -> 200 {'TaskName': 'Manage Purchasing Messages', 'AvailableFlag': 'Y', 'ExportImportSupportedFlag': 'Y', 'CSVExportImportSupportedFlag': 'N'}

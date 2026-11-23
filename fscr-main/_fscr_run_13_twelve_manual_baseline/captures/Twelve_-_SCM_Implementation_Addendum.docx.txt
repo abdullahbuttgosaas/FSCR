@@ -1,0 +1,55 @@
+SOURCE (read in browser via docs.google.com viewer): Twelve - SCM Implementation Addendum.docx | id=1HR-0gn0YtyYXOwLDXIesEWQwojDtrMqi | kind=doc | chars=3173
+Twelve - SCM Implementation Addendum.docxAddendum[a][b][c] [Document Number]
+
+To Statement of Work titled [SOW Title]
+
+This addendum shall be part of the [SOW Title] between [Client Name] (“Client”) and GoSaaS, Inc. (“GoSaaS”) as if it was incorporated into such Product Order Form.
+
+Unless expressly stated otherwise herein, the provisions, terms and expressions set out in the Master Subscription and License Agreement (the "Agreement) shall apply equally in the Addendum and the terms and expressions defined in Agreement shall bear the same meaning when used in this Addendum.
+
+As part of this engagement, both the client and GoSaaS agree on the following:
+​
+[Add a section for scope change, if more than one]
+Description of Change
+Briefly describe the change being requested (addition to or removal from scope)
+Explain the reason for the change
+Identify the impact of the change on the project schedule, budget, and scope
+Justification from Change
+Provide a detailed justification for the change
+Explain why the change is necessary and beneficial to the project
+Identify any risks associated with the change and how they will be mitigated
+Proposed Solution
+Describe the proposed solution to the change
+Explain how the solution will address the need for change and mitigate any risks
+Identify any resources required to implement the solution.  This can include FTE (+ / -) changes and effort hours changes (+ / -).
+Approvals (If needed for specific scope change)
+Implementation Plan [Cover all change items or one for each change item, as applicable]
+
+Upon signature of an authorized representative of the parties, the parties agree to and accept the contents of this Addendum.
+
+ [Client Name]                                                                             GoSaaS
+
+Name:                                                                                            Name:
+                                                                                             
+Title:                                                                                                Title:
+
+Date:                                                                                                Date:
+​
+
+GoSaaS representative is required to enter the following document number upon signature.
+​
+Document Number:
+[a]We should be clear on the different between an Addendum and a Change Request.  
+An Addendum is a change the Terms and Conditions of an MSA or Contract.
+A Change Request is an update the the scope or deliverables of a Project.
+
+[b]@[email masked] thank you for clarifying that. We have been using addendum for all sorts of changes. 
+
+If there is an extension of scope or addition in the timeline, we'll create a change request?
+
+If there is a change in e.g. net payments or the resource rates etc then it would be ab addendum?
+
+[c]Yes.  Scope change is a CR.  Change to an MSA, TSA or Terms and Conditions(Non-specific SOW related) is an Addendum.
+Good question on the rate change.  Usually the rates are in the MSA/TSA.  If for some reason they are in the SOW, I have still treated this as a CR.  
+Might be worth checking with Bob Hart in how he has managed this.
+

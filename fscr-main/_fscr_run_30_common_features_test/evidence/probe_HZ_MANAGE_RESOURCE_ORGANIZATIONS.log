@@ -1,0 +1,3 @@
+TaskCode: HZ_MANAGE_RESOURCE_ORGANIZATIONS (Manage Internal Resource Organizations); CSVExportImportSupportedFlag: N
+No matching pillar setup-task metadata found; using supplied or Fusion task context for export path.
+CSVExportImportSupportedFlag is N for HZ_MANAGE_RESOURCE_ORGANIZATIONS (Manage Internal Resource Organizations). The setup task CSV export may not work, so no setup task CSV export was created.

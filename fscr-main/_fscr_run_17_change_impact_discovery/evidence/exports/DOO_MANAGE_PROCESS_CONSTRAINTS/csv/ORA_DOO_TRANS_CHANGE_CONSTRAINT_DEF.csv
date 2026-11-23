@@ -1,0 +1,7 @@
+"DOO_CHANGE_CONSTRAINT_DEF.OrchestrationApplicationCode","DOO_CHANGE_CONSTRAINT_DEF.RecordSetShortName","Language","Description","DisplayName","SourceLang"
+"DOO","T002","US","","Test002","US"
+"DOO","MNCDAT","US","Record set created on fulillment lines ","MNC Fulfillment line","US"
+"DOO","T003","US","Testing Record Set","Test003","US"
+"DOO","SNOBER","US","A  record set created ","Fulfillment lines that belong to the same lines snober","US"
+"DOO","FLSL10","US","A record set created on fulfillment lines that belong to the same orchestration order line. The lines are grouped together for processing constraint validation","Fulfillment Lines that Belong to the same Line 10 ","US"
+"DOO","FLSL_ZS","US"," A record set created on fulfilment lines that belong to the same orchestration order line. the lines are grouped  together for processing  constraint validation","Fulfilment lines that belong to the same line ZS","US"

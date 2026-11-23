@@ -1,0 +1,24 @@
+Kickoff (1 Kickoff) and Project Management (10 Project Management) folders of "000 Reference Project Setup" — read-only, via Google Sheets HTML view. Personal names/emails/phones seen in some sheets are NOT copied here.
+
+1 Kickoff
+- Default RACI (Google Sheet 1Ib7c3wZ...): matrix of Client groups (Management, PMO, Implementation team, IT) and GoSaaS groups (Management, PMO, SME, Lead, Integration, Configuration, Validation, Training) x activities (OCM, Task Mgmt, Project Mgmt, Pre-UAT Training, End User Training, Requirements Definition, Configuration Definition, Data Extraction, Data Transformation, Data Load, Validation CRP/UAT, Validation FDA). Summary block: Client vs GoSaaS: OCM A/R; Data Extraction R/I; Data Transformation R/R; Data Load I/R; Validation CRP/UAT R/A; Validation FDA C/R.
+- Deliverable Workstream RACI (1wUTm1VT...): Client roles (PM, Core Team, Document Control, Engineering, Quality, Manufacturing/Operations, IT) and GoSaaS roles (PM, Implementation Lead, Techno-Functional, Data Migration, ERP Integration, CAD Integration) x deliverables (Pre-Implementation Training, PD Design Workshops & sign-off, Quality Design Workshops & sign-off, Data Migration Workshops & sign-off, ERP Integration ..., etc.).
+- Default Team List (2 copies): contact list (Name, Role, Email, Mobile, Team) + Resources sheet. Contains personal data — not copied.
+- Key Pain Points Log: columns Functional Area | Issue Name | Issue Description | Client Owner(s) | GoSaaS Binning; lookup areas: KPIs, Senior Management, Product Data Management, Product Quality Management, Data Reporting, Manufacturing Interaction.
+- Resource Plan - Internal Use (sheet "Phase 1: PLM Modernization"): weekly grid (~38 weeks) with phase bars: Kick-off & PIT; Design & System Mapping Workshops + sign-off; Implementation of approved design and integrations (wk1-15); CRP 1 (wk7-8); CRP 2 (wk16-17); UAT (wk28-29); Partial DM (wk4-6); Full DM (wk9-15); Full Test DM (wk18-27); Production Migration (wk32-34); feedback incorporation after CRP/UAT; Train-the-Trainer (wk30-31); End User Training & Validation (wk24-34). Below: resource types x hourly rate x hours x weekly hours (rates not copied).
+- Risk Register (Google Sheet + .xlsx): PLM Gaps sheet with Work-around (Y/N), Productivity/Schedule/Cost impact (1-3), Priority (P1-P3), Final Rating.
+- Session Schedule Template.xlsx: workshop calendar grid (weekdays x dates) with ET/PT time-zone rows.
+- Oracle_Cloud_Environment_Usage_Assessment_v5_rev2 (2).xlsx: Oracle's form (v5.2, 27-Sep-21) "Required Environment Plan and Milestones": project phase, product families in scope (ERP/HCM/Sales/SCM), list of ALL Fusion environments (Production, Standard Test, 1st/2nd Additional Test Environments) with product types, primary/secondary use, load %. Filled for a customer (masked).
+- Instance Plan 2022/2023/2024/2025.xlsx: see instance-plan notes. 2022 version has extra legend rows "Sizing" and "Concurrent Patching" and sheet "Instance Cohort C".
+- 2025 GoSaaS Template Theme, Default Kick Off (presentations): not opened (slides).
+
+10 Project Management
+- Cutover Plan (Google Sheet 1aD2xhkn...): sheet "Production Cutover" (188 rows): Responsible Party | Stream | Responsible Person | Activity | Object Type | Duration (hrs) | Start Time (Pak Time) | End Time (Pak Time) | Status; sections e.g. "PLM Dataload and Configuration Before Cutover" (disable notifications, OTBI/BIP migration, attachments, SSO, org/BU/LE setup, configuration migration, data QA reports ...). It is a real 2022 customer cutover, reused as template.
+- Project Risk Register: # | Risk Description | Risk Impact | Impact Severity | Probability | Overall Rating | Owner | Mitigations; seeded risks: delay in sign-offs, business continuity at cutover, business impairment post go-live, poor performance at go-live, legacy replacement, data quality/timeliness, ...
+- Project Status Update Sheet: sheets Status and Decisions (empty in HTML view).
+- PMO Renesas.xlsx: daily resource availability calendar (codes S/V/F/X per person per day, Sep 2024 onward) — personal names, not copied.
+- Oracle Cloud Product Ideas (...).xlsx: not opened (not planning-related).
+- Project Plans/ "Project Plan" and "Copy of Project Plan": see project-plan notes (MS Project export, 124 rows).
+- Templates/: "Project Plan Template" (Google Sheet), "Project Template Blank.mpp", "Project Template Standard.docx": listed, not opened (.mpp cannot be rendered in browser).
+- Status Reports/: two "Default GoSaaS Status" .pptx: not opened.
+- Tasks/: "My Tasks", "MyTasks", "Resource Pool", SubFolder: listed, not opened.

@@ -1,0 +1,239 @@
+{
+  "environmentResourceRoot": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com/fscmRestApi/resources/latest",
+  "objectName": "Manage Receivables Payment Terms",
+  "entityType": "TASK",
+  "codes": {
+    "taskCode": "AR_MANAGE_RECEIVABLES_PAYMENT_TERMS",
+    "offeringCode": null,
+    "functionalAreaCode": null
+  },
+  "codeResolution": [],
+  "zipFiles": [
+    "E:\\GoSaaS\\Configuration Automation v2.1\\fscr-main\\_fscr_run_03_change\\evidence\\before\\exports\\ETIA-TEST_setup_task_csv_export_ar_manage_receivables_payment_terms_100004733446385.zip",
+    "E:\\GoSaaS\\Configuration Automation v2.1\\fscr-main\\_fscr_run_03_change\\evidence\\after\\exports\\ETIA-TEST_setup_task_csv_export_ar_manage_receivables_payment_terms_100004733440780.zip"
+  ],
+  "fileBlobs": [
+    {
+      "source": 1,
+      "zip": "E:\\GoSaaS\\Configuration Automation v2.1\\fscr-main\\_fscr_run_03_change\\evidence\\before\\exports\\ETIA-TEST_setup_task_csv_export_ar_manage_receivables_payment_terms_100004733446385.zip",
+      "fileBlobId": "100004733440796",
+      "response": {
+        "FileKey": "100004733440796",
+        "ProcessType": "MIGRATOR_UPLOAD_VB_FLOW",
+        "ProcessId": 100004733440796,
+        "ObjectType": null,
+        "ObjectId": null,
+        "ObjectName": null,
+        "ObjectCode": null,
+        "FileName": "ETIA-TEST_setup_task_csv_export_ar_manage_receivables_payment_terms_100004733446385.zip",
+        "FileType": null,
+        "links": [
+          {
+            "rel": "self",
+            "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/setupMigrationProcessFiles/100004733440796",
+            "name": "setupMigrationProcessFiles",
+            "kind": "item"
+          },
+          {
+            "rel": "canonical",
+            "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/setupMigrationProcessFiles/100004733440796",
+            "name": "setupMigrationProcessFiles",
+            "kind": "item"
+          },
+          {
+            "rel": "enclosure",
+            "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/setupMigrationProcessFiles/100004733440796/enclosure/FileContentClob",
+            "name": "FileContentClob",
+            "kind": "other"
+          },
+          {
+            "rel": "enclosure",
+            "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/setupMigrationProcessFiles/100004733440796/enclosure/FileContentBlob",
+            "name": "FileContentBlob",
+            "kind": "other"
+          }
+        ]
+      },
+      "uploadResponse": {
+        "httpStatus": 204
+      }
+    },
+    {
+      "source": 2,
+      "zip": "E:\\GoSaaS\\Configuration Automation v2.1\\fscr-main\\_fscr_run_03_change\\evidence\\after\\exports\\ETIA-TEST_setup_task_csv_export_ar_manage_receivables_payment_terms_100004733440780.zip",
+      "fileBlobId": "100004733439804",
+      "response": {
+        "FileKey": "100004733439804",
+        "ProcessType": "MIGRATOR_UPLOAD_VB_FLOW",
+        "ProcessId": 100004733439804,
+        "ObjectType": null,
+        "ObjectId": null,
+        "ObjectName": null,
+        "ObjectCode": null,
+        "FileName": "ETIA-TEST_setup_task_csv_export_ar_manage_receivables_payment_terms_100004733440780.zip",
+        "FileType": null,
+        "links": [
+          {
+            "rel": "self",
+            "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/setupMigrationProcessFiles/100004733439804",
+            "name": "setupMigrationProcessFiles",
+            "kind": "item"
+          },
+          {
+            "rel": "canonical",
+            "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/setupMigrationProcessFiles/100004733439804",
+            "name": "setupMigrationProcessFiles",
+            "kind": "item"
+          },
+          {
+            "rel": "enclosure",
+            "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/setupMigrationProcessFiles/100004733439804/enclosure/FileContentClob",
+            "name": "FileContentClob",
+            "kind": "other"
+          },
+          {
+            "rel": "enclosure",
+            "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/setupMigrationProcessFiles/100004733439804/enclosure/FileContentBlob",
+            "name": "FileContentBlob",
+            "kind": "other"
+          }
+        ]
+      },
+      "uploadResponse": {
+        "httpStatus": 204
+      }
+    }
+  ],
+  "uploads": [
+    {
+      "source": 1,
+      "uploadProcessId": "100004733440805",
+      "sourceName": "Manage Receivables Payment Terms_20261103_025225_057",
+      "response": {
+        "processStatus": "COMPLETED",
+        "cfgPackageId": "100004733440801",
+        "format": "CSV",
+        "processRelease": "11.13.26.10.0",
+        "cfgPackageName": "Manage Receivables Payment Terms_20261103_025225_057_1",
+        "processDesc": "Manage Receivables Payment Terms_20261103_025225_057",
+        "sourceTargetReleaseDiff": "false",
+        "objectType": "TASK",
+        "cfgCreatedByFlow": "TASK_CSV",
+        "migRequestId": "100004733440805",
+        "processId": "100004733440805",
+        "processName": "Manage Receivables Payment Terms_20261103_025225_057",
+        "processDate": "2026-11-03 02:52:46.076",
+        "cfgPackageShortName": "MANAGE_REC_20261103_025225_0_1"
+      }
+    },
+    {
+      "source": 2,
+      "uploadProcessId": "100004733446477",
+      "sourceName": "Manage Receivables Payment Terms_20261103_025918_882",
+      "response": {
+        "processStatus": "COMPLETED",
+        "cfgPackageId": "100004733446473",
+        "format": "CSV",
+        "processRelease": "11.13.26.10.0",
+        "cfgPackageName": "Manage Receivables Payment Terms_20261103_025918_882_1",
+        "processDesc": "Manage Receivables Payment Terms_20261103_025918_882",
+        "sourceTargetReleaseDiff": "false",
+        "objectType": "TASK",
+        "cfgCreatedByFlow": "TASK_CSV",
+        "migRequestId": "100004733446477",
+        "processId": "100004733446477",
+        "processName": "Manage Receivables Payment Terms_20261103_025918_882",
+        "processDate": "2026-11-03 02:59:31.019",
+        "cfgPackageShortName": "MANAGE_REC_20261103_025918_8_1"
+      }
+    }
+  ],
+  "warnings": [],
+  "compareProcessName": "Manage Receivables Payment Terms_20261103_025225_057 compared to Manage Receivables Payment Terms_20261103_025918_882",
+  "retrieveCompareProcessNameResponse": {
+    "compareProcessName": "Manage Receivables Payment Terms_20261103_025225_057 compared to Manage Receivables Payment Terms_20261103_025918_882"
+  },
+  "compareProcessId": "162140984",
+  "submitCompareResponse": {
+    "processId": "162140984"
+  },
+  "finalStatus": "COMPLETED",
+  "statusDetail": {
+    "source": "COMPARISON_PROCESS_STATUS_DETAILS",
+    "status": "COMPLETED",
+    "preview": "The file format conversion from CSV to XML started at: 11/3/26 3:02 AM.\r\n\r\nThe file format conversion from CSV to XML completed at: 11/3/26 3:02 AM.\r\n\r\nThe file format conversion from CSV to XML started at: 11/3/26 3:02 AM.\r\n\r\nThe file format conversion from CSV to XML completed at: 11/3/26 3:02 AM.\r\n\r\nSource 1: The configuration package Manage Receivables Payment Terms_20261103_025225_057 was generated using setup data from environment etia-test with 11.13.26.10.0 revision.\r\nSource 2: The configuration package Manage Receivables Payment Terms_20261103_025918_882 was generated using setup data from environment etia-test with 11.13.26.10.0 revision.\r\n\r\nRequest ID: 4,432,033. Status: In progress. Submitted By: Configuration.TEST. Process Date: 11/3/26 3:02 AM.\r\n\r\nStaging data for business object Receivables Payment Terms from source 1 in progress.\r\n\r\nStaging data from source 1 completed with status Source 1 data staging completed. Started at 2026-11-03 03:02:23.684 and ended at 2026-11-03 03:02:24.178.\r\n\r\nThe business object Receivables Payment Terms Discount was already processed for source 1. The status details were listed under the Receivables Payment Terms business object.\r\n\r\nThe business object Receivables Payment Terms Payment Schedule was already processed for source 1. The status details were listed under the Receivables Payment Terms business object.\r\n\r\nStaging data for business object Receivables Payment Terms from source 2 in progress.\r\n\r\nStaging data from source 2 completed with status Source 2 data staging completed. Started at 2026-11-03 03:02:24.236 and ended at 2026-11-03 03:02:24.655.\r\n\r\nThe business object Receivables Payment Terms Discount was already processed for source 2. The status details were listed under the Receivables Payment Terms business object.\r\n\r\nThe business object Receivables Payment Terms Payment Schedule was already processed for source 2. The status details were listed under the Receivables Payment Terms business object.\r\n\r\nData c"
+  },
+  "artifacts": [
+    {
+      "fileType": "COMPARISON_RESULTS_XML",
+      "enclosure": "FileContentBlob",
+      "path": "E:\\GoSaaS\\Configuration Automation v2.1\\fscr-main\\_fscr_run_03_change\\evidence\\compare\\compare_162140984_COMPARISON_RESULTS_XML.xml",
+      "bytes": 2706,
+      "httpStatus": 200
+    },
+    {
+      "fileType": "COMPARISON_REPORT",
+      "enclosure": "FileContentBlob",
+      "path": "E:\\GoSaaS\\Configuration Automation v2.1\\fscr-main\\_fscr_run_03_change\\evidence\\compare\\compare_162140984_COMPARISON_REPORT.bin",
+      "bytes": 1547,
+      "httpStatus": 200
+    },
+    {
+      "fileType": "COMPARISON_RESULTS_REPORT",
+      "enclosure": "FileContentBlob",
+      "path": "E:\\GoSaaS\\Configuration Automation v2.1\\fscr-main\\_fscr_run_03_change\\evidence\\compare\\compare_162140984_COMPARISON_RESULTS_REPORT.bin",
+      "bytes": 6229,
+      "httpStatus": 200
+    },
+    {
+      "fileType": "COMPARISON_PROCESS_SUMMARY_REPORT",
+      "enclosure": "FileContentBlob",
+      "path": "E:\\GoSaaS\\Configuration Automation v2.1\\fscr-main\\_fscr_run_03_change\\evidence\\compare\\compare_162140984_COMPARISON_PROCESS_SUMMARY_REPORT.bin",
+      "bytes": 7676,
+      "httpStatus": 200
+    },
+    {
+      "fileType": "COMPARISON_PROCESS_STATUS_DETAILS",
+      "enclosure": "FileContentClob",
+      "path": "E:\\GoSaaS\\Configuration Automation v2.1\\fscr-main\\_fscr_run_03_change\\evidence\\compare\\compare_162140984_COMPARISON_PROCESS_STATUS_DETAILS.log",
+      "bytes": 2611,
+      "httpStatus": 200
+    }
+  ],
+  "objectCounts": [
+    {
+      "businessObject": "Receivables Payment Terms",
+      "source1Count": 0,
+      "source2Count": 0,
+      "mismatchCount": 0,
+      "matchCount": 17,
+      "totalCount": 17
+    },
+    {
+      "businessObject": "Receivables Payment Terms Discount",
+      "source1Count": 0,
+      "source2Count": 0,
+      "mismatchCount": 0,
+      "matchCount": 2,
+      "totalCount": 2
+    },
+    {
+      "businessObject": "Receivables Payment Terms Payment Schedule",
+      "source1Count": 0,
+      "source2Count": 0,
+      "mismatchCount": 0,
+      "matchCount": 20,
+      "totalCount": 20
+    },
+    {
+      "businessObject": "Receivables Payment Terms Translation",
+      "source1Count": 0,
+      "source2Count": 0,
+      "mismatchCount": 0,
+      "matchCount": 17,
+      "totalCount": 17
+    }
+  ],
+  "processOutputPath": "E:\\GoSaaS\\Configuration Automation v2.1\\fscr-main\\_fscr_run_03_change\\evidence\\compare\\compare_162140984_process_output.json",
+  "standardReportPath": "E:\\GoSaaS\\Configuration Automation v2.1\\fscr-main\\_fscr_run_03_change\\evidence\\compare\\compare_162140984_standard_report.md"
+}

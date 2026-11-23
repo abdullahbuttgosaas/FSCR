@@ -1,0 +1,61 @@
+READ-ONLY CAPTURE (not the original file). Source: Customers / 000 Reference Project Setup / 0 Pre Implementation Checklist / 01. Checklists
+Captured from the Google Sheets HTML view on 2026-11-05. Notation R=row, C=column (0-based), [#hex]=fill. Rows whose first column was merged vertically shift left by one column in this capture.
+
+############ 01. Scoping Checklist / "Scoping CheckList" (Google Sheet 1eUJgHQSIjPymazUw5fltD51_JWdzLI3MkwBy6TYsRJQ, mod 2026-08-24)
+Sheets: Customer Information (16 rows), SOW and RACI (empty), Scope (70 rows), Planning (54 rows), Project Management (22 rows)
+-- Customer Information: Annual Revenue; Legacy PLM System; Industry; Number of Locations; ERP; Employees; Restrictions (citizenship/ITAR); Regulations (FDA regulated?); Business Objectives for Project; What systems/functions will be replaced?
+-- Scope: columns Implementation Overview | Responses | PD | PIM | Quality | EG&C | IM | Others
+   Overview: PLM modules being implemented; number of users; approvers/changers; view-only users; number of divisions.
+   PD: item classes; attributes per subclass; change workflow types (MCO, ECO, ...); attributes per workflow; steps per workflow.
+   PIM: trading partner integration; DAM; catalog mgmt; operational attributes; child orgs; needed for ERP (EBS) integration?
+   Quality: object types (CAPA, SCAR, NCR); attributes per type; workflows per type.
+   IM: ideation; requirements/concept BOM; portfolio analysis; external data integration.
+   EG&C: items + manufacturer parts; source system; supplier communication; regulations count/list (REACH, RoHS, Conflict Minerals); FMD source/count/format.
+   GoSaaS Tools: Power Tools (BOM/Workflow/Security Manager), Read-Only Portal, Archiver, Employee Training System.
+   Customizations & Custom Reports ("GoSaaS typically includes 5").  Security (trade secrets / restricted viewing).
+   Integration: ECAD | MCAD | ERP | Other; end-point system name; middleware (OIC / GoSaaS Integrator / Other); one- or two-way;
+     "Number of environments (e.g. Test/Production = 2, Dev/Test/Production = 3 [recommended])"; object types pushed; item classes.
+   Data Migration: source systems; objects; manual sources; latest vs historical revisions; Archiver; item count; attachment count; when source file is provided.
+   Post Go-Live: in-house IT; extended hypercare.
+-- Planning: test environments ("highly recommended to have 2 test environments unless the implementation is small"); data volumes;
+   workshops 8am-noon PST: Configuration Design 1 wk/module, Data Migration 1 wk, Integrations 1 wk/integration, Reports 1 wk, Security 1 wk, Sign-off 1 wk.
+   Timeline extenders: regions in workshops (+1 wk), decision owner, decision process, user time zone.
+   Data migration: history (Cloud keeps BOM & AML history only), Archiver, Portal, Archiver reporting, cutover days, delta migration (=> extra DM test).
+   Test cycles: CRP1 2 wks Partial Data (bulk data issues) | CRP2 2 wks Full Data | CRP3 mock data migration, Full+Delta (timings) | UAT 2 wks Full+Delta (go-live rehearsal, cutover plan) | Go Live 1 wk cutover, Full+Delta.
+   Activities between test cycles (weeks): fix config 2-4 (3); fix/cleanse data 3; configure new env 1; extract 0; validate 1; load 2; smoke test 1; total 7.
+   Company quarter end / freeze period.
+-- Project Management: GoSaaS vs Client: High level Project Plan, Instance Plan, Detailed project plan, Weekly Status Reports, Budget, ...
+
+############ 02. GoSaaS Project Implementation Methodology (Google Sheet 1OouGdKDicqSwQehSd-mXfWxKHDG5bfpbozVMOkke2c4, mod 2026-09-03), 99 rows
+Columns: Sr. No | Tasks | Description | Sub-Tasks | Responsibility (GS / Client / GS-Client / Client-Oracle)
+1 Scoping Calls: PM & work restrictions; Number of Environments; Legacy System; Data Volume; Latest Revision vs Revision History; Configuration volume/complexity; Customization; Integration; OTBI.
+2 SOW Signing: contacts; responsibilities; milestones; select resources (GS internal).
+3 Pre-implementation Workshops: demo Oracle Cloud processes; client shares legacy docs/access; map legacy process to Cloud; OOTB vs customization; create project plan.
+  Implementation Kickoff: individual responsibilities; revisit project schedule.
+4 Cloud Provisioning: basic setup; accounts for GoSaaS (Client); Oracle Support details (Client); evaluate config & data volume; environment resize requests to Oracle;
+  "Inquire the upgrade plan and schedule from Oracle so that it doesn't affect the implementation milestones" (Client/Oracle).
+5 Documentation of Requirements: Best Start template; client review/approve; prepare GS Migrator for configurations; data migration strategy.
+6 FBDI Training (when client extracts data).
+7 CRP Preparation: configure test env per Best Start; optional attachments subset; export+load partial data; test configs; OTBI reports; coordinate parallel modules; CRP scripts; CRP attendees/users; deploy customizations & integrations; test system.
+8 CRP Execution: client executes scripts; GS support; defect tracker; change suggestions; review defects; update Best Start; client sign-off.
+9 UAT Preparation: implement updated Best Start in UAT env; attachments; full data export/load; test; OTBI; data validation reports; UAT scripts; users; deploy custom/integrations; test.
+10 UAT Execution: client executes; defects; update Best Start; sign-off.
+11 Production Migration: implement Best Start in Prod; freeze period or delta approach; full data load; attachments; review; OTBI; validation reports; deploy customizations/integrations; user/admin training; user accounts; notify completion.
+12 Go Live: client review; immediate fixes; client declares live.
+14 Support and Maintenance: per contract; next phases; lessons learnt.
+
+############ 03. PM Check List / "PM check list.xlsx" (id 1EhGrdR0bIExeSdLbTC0kKPGXdTbWb88U, mod 2024-03-28)
+Kick off list for PM: understand SOW, talk to SOW team; offshore leads assign team; high level plan in MS Project based on SOW; kickoff with client; kickoff deck; client contact list; weekly client meeting; workshop & training plan with names; weekly internal meeting; offshore access to Oracle env + SRs;
+"Open SRs to get the update schedule and create instance plan for the client."; integration access requirements document; meeting-minutes template; budget tracker and Harvest.
+
+############ Archive / "Pre-Implementation Checklist" (Google Sheet 19pG5rDwIxlqIfuwHM2AneyCfH4diC2MtJXDln6zdRZo, mod 2021-06-28)
+Access to Cloud Environments: administrator + backup; Oracle Support Identifier; admin access via support identifier; list environments (Development, Test, Production); get Oracle Cloud upgrade plan.
+Access to Customer Environment: internal env access for dev team (data migration, integration); source system access (e.g. Agile PLM); access to each integrated application.
+Resources: GoSaaS Project Implementation Methodology.
+
+############ Archive / "Pre-Sales Checklist" (Google Sheet 1OS9OAdziXdjXurDP3kyqJ_krQUlgqEQdb2Gn44bfb4E, mod 2022-06-08)
+Scope sheet (questions that should be in SOW): PIM definition (operational attributes, child orgs, ERP/EBS); integrations (object types, use cases e.g. new item / item maintenance / change order completion, "best-practice" use cases, approx attribute count); customizations (limit); reports (limit); security; data migration (sources, objects, not-in-scope, history/Archiver/Portal, delta + blackout); "Partial should be 50% target"; client OCM (as-is vs to-be, process changes, procedures).
+Timeline sheet: workshop durations (as Scoping Checklist); PM activities GoSaaS/Client (High level plan, Instance Plan, Detailed plan, Status reports, Budget, Meetings, Action items, Issues, SRs, Cutover plan);
+other projects/resource availability; other Oracle Cloud projects; is Production clean?; test cycle length (2 wks, more for several modules); "if only 1 [test environment], then we need an extra 1 to 2 weeks in between test cycle";
+data sources/volumes; test cycles CRP1 Partial, CRP2 Full, CRP3 Full+Delta, UAT Full+Delta, Go Live; between-cycle activities total 7 weeks;
+"What are the quarter end months? Is there a quarter end freeze"; "Move to concurrent patching"; "Right Size environments".

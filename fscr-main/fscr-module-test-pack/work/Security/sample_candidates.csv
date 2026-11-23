@@ -1,0 +1,7 @@
+sample_group,task_code,task_name,functional_area,csv_flag,routes_declared,first_skill_path
+Skill + route,ORA_GTG_ACTIVATE_ALGORITHMS,Activate Algorithms,Activate Algorithms,UNKNOWN,REST,pillars/erp/risk-and-security/activate-algorithms/activate-algorithms/SKILL.md
+Skill + route,ORA_GTG_ACTIVATE_AUDIT_POLICIES,Activate Audit Policies,Activate Algorithms,UNKNOWN,REST,pillars/erp/risk-and-security/activate-algorithms/activate-audit-policies/SKILL.md
+Skill + route,ORA_GTG_ADD_EPM_DATA_SOURCES,Add EPM Data Sources,Add Other Data Sources,UNKNOWN,REST,pillars/erp/risk-and-security/add-other-data-sources/add-epm-data-sources/SKILL.md
+Skill + route,ORA_GTG_ADD_OTHER_DATA_SOURCES,Add Other Data Sources,Add Other Data Sources,UNKNOWN,REST,pillars/erp/risk-and-security/add-other-data-sources/add-other-data-sources/SKILL.md
+Skill + route,ORA_GTG_ASSIGN_DEFAULT_PROCESS_OWNERS,Assign Default Process Owners,Assign Initial Users,UNKNOWN,REST,pillars/erp/risk-and-security/assign-initial-users/assign-default-process-owners/SKILL.md
+Skill + route,ORA_GTG_ASSIGN_RISK_POWER_USER_ROLE,Assign Risk Power User Role,Assign Initial Users,UNKNOWN,REST,pillars/erp/risk-and-security/assign-initial-users/assign-risk-power-user-role/SKILL.md

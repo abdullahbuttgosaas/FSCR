@@ -1,0 +1,8 @@
+HTTP 200
+{'JeCategoryName': 'FSCRT_Run24 Accrual', 'UserJeCategoryName': 'FSCRT_Run24 Accrual', 'Description': 'FSCR test category for accrual journals. Run 24.'}
+{'JeCategoryName': 'FSCRT_Run24 Payroll', 'UserJeCategoryName': 'FSCRT_Run24 Payroll', 'Description': 'FSCR test category for payroll journals. Run 24.'}
+{'JeCategoryName': 'FSCRT_Run24 Reclass', 'UserJeCategoryName': 'FSCRT_Run24 Reclass', 'Description': 'FSCR test category for reclass journals. Run 24.'}
+{'JeCategoryName': 'FSCRT_Run26 Accrual', 'UserJeCategoryName': 'FSCRT_Run26 Accrual', 'Description': 'FSCR test category for accrual journals. Run 26b.'}
+{'JeCategoryName': 'FSCRT_Run26 Payroll', 'UserJeCategoryName': 'FSCRT_Run26 Payroll', 'Description': 'FSCR test category for payroll journals. Run 26b.'}
+{'JeCategoryName': 'FSCRT_Run26 Reclass', 'UserJeCategoryName': 'FSCRT_Run26 Reclass', 'Description': 'FSCR test category for reclass journals. Run 26b.'}
+rows: 6

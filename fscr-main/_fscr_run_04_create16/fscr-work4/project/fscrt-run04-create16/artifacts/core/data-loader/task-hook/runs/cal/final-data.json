@@ -1,0 +1,11 @@
+{
+ "archiveName": "fscrt-cal-candidate.zip",
+ "rowCounts": {
+  "AP_OTHER_PERIOD_TYPE.csv": 1,
+  "AP_OTHER_PERIOD_PERIOD.csv": 12
+ },
+ "operation": "create",
+ "names": [
+  "FSCRT_CAL1"
+ ]
+}

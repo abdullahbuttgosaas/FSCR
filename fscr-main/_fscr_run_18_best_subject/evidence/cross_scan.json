@@ -1,0 +1,89 @@
+{
+ "AR_MANAGE_RECEIVABLES_PAYMENT_TERMS": {
+  "BU": {},
+  "SET": {
+   "AR_PAYMENT_TERM.csv | SetCode": 18,
+   "AR_PAYMENT_TERM_DISCOUNT.csv | AR_PAYMENT_TERM.SetCode": 2,
+   "AR_PAYMENT_TERM_DISCOUNT.csv | SetCode": 2,
+   "AR_PAYMENT_TERM_LINE.csv | AR_PAYMENT_TERM.SetCode": 21,
+   "AR_PAYMENT_TERM_LINE.csv | SetCode": 21,
+   "AR_PAYMENT_TERM_TRANSLATION.csv | AR_PAYMENT_TERM.SetCode": 18
+  },
+  "CUR": {},
+  "files": {
+   "AR_PAYMENT_TERM.csv": 18,
+   "AR_PAYMENT_TERM_DISCOUNT.csv": 2,
+   "AR_PAYMENT_TERM_LINE.csv": 21,
+   "AR_PAYMENT_TERM_TRANSLATION.csv": 18
+  }
+ },
+ "AP_MANAGE_PAYMENT_TERMS": {
+  "BU": {},
+  "SET": {
+   "AP_TERM_SUBSCRIPTION.csv | SetCode": 61
+  },
+  "CUR": {},
+  "files": {
+   "AP_TERM_HEADER.csv": 122,
+   "AP_TERM_HEADER_TRANSLATION.csv": 122,
+   "AP_TERM_LINE.csv": 1270,
+   "AP_TERM_SUBSCRIPTION.csv": 61
+  }
+ },
+ "AR_MANAGE_TRANSACTION_TYPES": {
+  "BU": {
+   "AR_REF_ACCT_TRX_TYPE.csv | BuName": 3
+  },
+  "SET": {
+   "AR_REF_ACCT_TRX_TYPE.csv | AR_TRANSACTION_TYPE.SetCode": 3,
+   "AR_TRANSACTION_TYPE.csv | SetCode": 25,
+   "AR_TRANSACTION_TYPE.csv | CreditMemoTypeSetCode": 9,
+   "AR_TRANSACTION_TYPE.csv | DefaultTermSetCode": 5
+  },
+  "CUR": {},
+  "files": {
+   "AR_REF_ACCT_TRX_TYPE.csv": 3,
+   "AR_TRANSACTION_TYPE.csv": 25
+  },
+  "ABD": 0
+ },
+ "GL_MANAGE_PRIMARY_LEDGERS": {
+  "BU": {},
+  "SET": {
+   "GL_PRIMARY_LEDGER.csv | PeriodSetName": 2,
+   "GL_PRIMARY_LEDGER.csv | UserPeriodSetName": 2,
+   "GL_SECONDARY_LEDGER.csv | PeriodSetName": 2,
+   "GL_SECONDARY_LEDGER.csv | UserPeriodSetName": 2
+  },
+  "CUR": {
+   "GL_PRIMARY_LEDGER.csv | CurrencyCode": 65,
+   "GL_SECONDARY_LEDGER.csv | CurrencyCode": 65,
+   "ORA_GL_JOUNAL_CONVERSION_RULES.csv | ORA_GL_LEDGER_RELATIONSHIP.TargetCurrencyCode": 17,
+   "ORA_GL_LEDGER_RELATIONSHIP.csv | TargetCurrencyCode": 17
+  },
+  "files": {
+   "GL_LEDGER.csv": 49,
+   "GL_LEDGER_SEG_VAL_ASSIGNMENT.csv": 0,
+   "GL_PRIMARY_LEDGER.csv": 65,
+   "GL_SECONDARY_LEDGER.csv": 65,
+   "ORA_GL_JOUNAL_CONVERSION_RULES.csv": 17,
+   "ORA_GL_JOURNAL_CONFIG_DETAIL.csv": 47,
+   "ORA_GL_LEDGER_RELATIONSHIP.csv": 17,
+   "ORA_GL_PRIMARY_LEDGER_CONFIG.csv": 49,
+   "ORA_LEGAL_ENTITY_BAL_SEG_VAL_DEF.csv": 38,
+   "ORA_PRIMARY_BALANCING_SEGMENT_VALUE_CONVERSION_RULES.csv": 0
+  },
+  "USD": 120
+ },
+ "AR_MANAGE_RECEIVABLES_SYSTEM_OPTIONS": {
+  "BU": {
+   "AR_SYSTEM_OPTIONS.csv | BUName": 19
+  },
+  "SET": {},
+  "CUR": {},
+  "files": {
+   "AR_SYSTEM_OPTIONS.csv": 19
+  },
+  "ABD": 0
+ }
+}

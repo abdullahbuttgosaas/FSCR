@@ -1,0 +1,19 @@
+Run 34 probe: the two 'neither' tasks (no FSCR skill/guide, catalog CSV flag N)
+
+ORA_POZ_SPECIFY_SUP_USER_CATEGORY | Specify User Category for New Supplier Users | Supplier Portal | level=c | skill=none | catalog CSV flag=N | export/import flag=N
+ORA_POQ_MANAGE_SUPPLIER_QUALIFICATION_MESSAGES | Manage Supplier Qualification Messages | Supplier Qualification | level=c | skill=none | catalog CSV flag=N | export/import flag=Y (whole-offering migration only)
+
+REST probes on ETIA-TEST (GET, limit 1), see neither_probe_rest.txt:
+- userCategories, securityUserCategories (hcmRestApi and fscmRestApi) -> 404 (no such resource).
+- messages -> 200, but /messages/describe lists only the GET action (collection and item): read-only. messageTokens child is also read-only.
+
+Oracle docs read:
+- Implementing Procurement 26D "Specify User Category for New Supplier Users"
+  (https://docs.oracle.com/en/cloud/saas/procurement/26d/oapro/specify-user-category-for-new-supplier-users.html):
+  the task is done in the Security Console; "This manual task doesn't support migration service"; the category name must be exactly SUPPLIER_USER.
+  -> Oracle has no CSV and no API for it. Also the name cannot start with FSCRT_, so it cannot be created under this run's naming rule.
+- Supplier qualification messages are FND messages owned by application POQ. Oracle exposes them only through the Manage Messages page and a
+  read-only REST resource; the catalog has no CSV import for this task (or for FND_MANAGE_MESSAGES).
+  -> Oracle has no CSV and no create API for it.
+
+Result: neither task attempted; nothing created. Both are "Oracle has no CSV or API" (screen work only), not FSCR gaps.

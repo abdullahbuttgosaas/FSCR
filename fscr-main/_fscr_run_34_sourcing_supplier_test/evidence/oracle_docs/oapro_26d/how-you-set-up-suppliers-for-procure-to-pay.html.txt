@@ -1,0 +1,2 @@
+URL: https://docs.oracle.com/en/cloud/saas/procurement/26d/oapro/how-you-set-up-suppliers-for-procure-to-pay.html
+ Previous Next JavaScript must be enabled to correctly display this content Implementing Procurement How You Set Up Suppliers for Procure-to-Pay How You Set Up Suppliers for Procure-to-Pay To set up suppliers for the procure-to-pay business process, you need to complete these high-level tasks: Enable the procure-to-pay business process. Associate your suppliers with one or more trading partners, and enable the documents that you want to exchange with them. 

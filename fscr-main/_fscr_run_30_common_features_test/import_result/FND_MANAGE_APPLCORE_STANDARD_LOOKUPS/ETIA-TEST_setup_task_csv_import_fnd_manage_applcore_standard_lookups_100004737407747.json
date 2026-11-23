@@ -1,0 +1,7 @@
+{
+  "environment": "ETIA-TEST",
+  "taskCode": "FND_MANAGE_APPLCORE_STANDARD_LOOKUPS",
+  "taskName": "Manage Applications Core Standard Lookups",
+  "zipFile": "..\\payload\\FND_MANAGE_APPLCORE_STANDARD_LOOKUPS\\fnd_manage_applcore_standard_lookups_fscrt.zip",
+  "processId": "100004737407747"
+}

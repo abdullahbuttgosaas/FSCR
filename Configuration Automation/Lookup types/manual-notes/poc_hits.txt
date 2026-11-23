@@ -1,0 +1,26 @@
+
+----- SETUP_DATA_REPORT.zip!/Application Standard Lookup.zip!/9abd6f82-4444-426e-bdbe-186be47e6b8c/FND_APP_STANDARD_LOOKUP/StandardLookupType1/1_BATCH.zip!/FND_APP_STANDARD_LOOKUP/StandardLookupType1/FOM/StandardLookupTypeSD.xls @ char 4251 -----
+</td>
+<td valign="top" class="c6"><p class="c7"><span class="c3"><b> BossAppPackageVersion</b></span></p>
+</td>
+<td valign="top" class="c6"><p class="c7"><span class="c3"><b> BossModuleName</b></span></p>
+</td>
+<td valign="top" class="c6"><p class="c7"><span class="c3"><b> BossIdentifier</b></span></p>
+</td>
+</tr>
+<tr class="c5">
+<td valign="top" class="c6"><p class="c8"><span class="c3">ZZ_POC_TEST</span></p>
+</td>
+<td valign="top" class="c6"><p class="c7"><span class="c3">0</span></p>
+</td>
+<td valign="top" class="c6"><p class="c8"><span class="c3">ZZ POC Test</span></p>
+</td>
+<td valign="top" class="c6"><p class="c8"><span class="c3">POC Test Lookup Type</span></p>
+</td>
+<td valign="top" class="c6"><p class="c8"><span class="c3">CUSTOMIZED_USER</span></p>
+</td>
+<td valign="top" class="c6"><p class="c7"><span class="c3">15/10/26 2:40 PM</span></p>
+</td>
+<td valign="top" class="c6"><p class="c8"><span class="c3">CUSTOMIZED_USER</span></p>
+</td>
+<td valign="top" 

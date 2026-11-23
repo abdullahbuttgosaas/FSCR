@@ -1,0 +1,9 @@
+{
+  "rules": [
+    {"name": "ZZ_TEST_AG_5317", "description": "ZZ test grouping rule: invoices by line attribute 1",
+     "from_date": "2026-11-01",
+     "classes": [
+       {"transaction_class": "Invoice", "characteristic": "L.INTERFACE_LINE_ATTRIBUTE1"}
+     ]}
+  ]
+}

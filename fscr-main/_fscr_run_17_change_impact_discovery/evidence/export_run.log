@@ -1,0 +1,99 @@
+== DOO_MANAGE_ORCHESTRATION_LOOKUPS start 17:24:21
+Started setup task CSV export process: 100004733481011
+ProcessCompletedFlag: False; StatusCode: (no result yet); ResultCount: 0
+ProcessCompletedFlag: False; StatusCode: (no result yet); ResultCount: 0
+ProcessCompletedFlag: True; StatusCode: (no result yet); ResultCount: 0
+StatusCode: (unknown)
+Wrote E:\GoSaaS\Configuration Automation v2.1\fscr-main\_fscr_run_17_change_impact_discovery\evidence\exports\DOO_MANAGE_ORCHESTRATION_LOOKUPS\ETIA-TEST_setup_task_csv_export_doo_manage_orchestration_lookups_100004733481011.zip (6353 bytes)
+== DOO_MANAGE_ORCHESTRATION_LOOKUPS end 17:26:44
+== DOO_MANAGE_ORCHESTRATION_PROCESS_ASSIGNMENT_RULES start 17:26:44
+Started setup task CSV export process: 100004733484009
+ProcessCompletedFlag: False; StatusCode: (no result yet); ResultCount: 0
+ProcessCompletedFlag: False; StatusCode: (no result yet); ResultCount: 0
+ProcessCompletedFlag: True; StatusCode: (no result yet); ResultCount: 0
+StatusCode: (unknown)
+Wrote E:\GoSaaS\Configuration Automation v2.1\fscr-main\_fscr_run_17_change_impact_discovery\evidence\exports\DOO_MANAGE_ORCHESTRATION_PROCESS_ASSIGNMENT_RULES\ETIA-TEST_setup_task_csv_export_doo_manage_orchestration_process_assignment_rules_100004733484009.zi
+== DOO_MANAGE_ORCHESTRATION_PROCESS_ASSIGNMENT_RULES end 17:27:38
+== DOO_MANAGE_ORCHESTRATION_PROCESS_DEFINITIONS start 17:27:39
+Started setup task CSV export process: 100004733481096
+ProcessCompletedFlag: False; StatusCode: (no result yet); ResultCount: 0
+ProcessCompletedFlag: False; StatusCode: (no result yet); ResultCount: 0
+ProcessCompletedFlag: False; StatusCode: (no result yet); ResultCount: 0
+ProcessCompletedFlag: False; StatusCode: (no result yet); ResultCount: 0
+ProcessCompletedFlag: False; StatusCode: (no result yet); ResultCount: 0
+ProcessCompletedFlag: False; StatusCode: (no result yet); ResultCount: 0
+ProcessCompletedFlag: True; StatusCode: (no result yet); ResultCount: 0
+StatusCode: (unknown)
+Wrote E:\GoSaaS\Configuration Automation v2.1\fscr-main\_fscr_run_17_change_impact_discovery\evidence\exports\DOO_MANAGE_ORCHESTRATION_PROCESS_DEFINITIONS\ETIA-TEST_setup_task_csv_export_doo_manage_orchestration_process_definitions_100004733481096.zip (49154 b
+== DOO_MANAGE_ORCHESTRATION_PROCESS_DEFINITIONS end 17:29:07
+== DOO_ORCHESTRATION_MANAGE_SOURCE_SYSTEMS start 17:29:07
+Started setup task CSV export process: 100004733484021
+ProcessCompletedFlag: False; StatusCode: (no result yet); ResultCount: 0
+ProcessCompletedFlag: False; StatusCode: (no result yet); ResultCount: 0
+ProcessCompletedFlag: False; StatusCode: (no result yet); ResultCount: 0
+ProcessCompletedFlag: True; StatusCode: (no result yet); ResultCount: 0
+StatusCode: (unknown)
+Wrote E:\GoSaaS\Configuration Automation v2.1\fscr-main\_fscr_run_17_change_impact_discovery\evidence\exports\DOO_ORCHESTRATION_MANAGE_SOURCE_SYSTEMS\ETIA-TEST_setup_task_csv_export_doo_orchestration_manage_source_systems_100004733484021.zip (7204 bytes)
+== DOO_ORCHESTRATION_MANAGE_SOURCE_SYSTEMS end 17:30:11
+== DOO_MANAGE_EXTERNAL_INTERFACE_ROUTING_RULES start 17:30:11
+Started setup task CSV export process: 100004733483062
+ProcessCompletedFlag: False; StatusCode: (no result yet); ResultCount: 0
+ProcessCompletedFlag: False; StatusCode: (no result yet); ResultCount: 0
+ProcessCompletedFlag: True; StatusCode: (no result yet); ResultCount: 0
+StatusCode: (unknown)
+Wrote E:\GoSaaS\Configuration Automation v2.1\fscr-main\_fscr_run_17_change_impact_discovery\evidence\exports\DOO_MANAGE_EXTERNAL_INTERFACE_ROUTING_RULES\ETIA-TEST_setup_task_csv_export_doo_manage_external_interface_routing_rules_100004733483062.zip (15774 byt
+== DOO_MANAGE_EXTERNAL_INTERFACE_ROUTING_RULES end 17:30:55
+== DOO_MANAGE_EXTERNAL_INTERFACE_WEB_SERVICE_DETAILS start 17:30:55
+Started setup task CSV export process: 100004733484036
+ProcessCompletedFlag: False; StatusCode: (no result yet); ResultCount: 0
+ProcessCompletedFlag: False; StatusCode: (no result yet); ResultCount: 0
+ProcessCompletedFlag: True; StatusCode: (no result yet); ResultCount: 0
+StatusCode: (unknown)
+Wrote E:\GoSaaS\Configuration Automation v2.1\fscr-main\_fscr_run_17_change_impact_discovery\evidence\exports\DOO_MANAGE_EXTERNAL_INTERFACE_WEB_SERVICE_DETAILS\ETIA-TEST_setup_task_csv_export_doo_manage_external_interface_web_service_details_100004733484036.zi
+== DOO_MANAGE_EXTERNAL_INTERFACE_WEB_SERVICE_DETAILS end 17:31:30
+== DOO_MANAGE_TRANSFORMATION_RULE_SETS start 17:31:30
+Started setup task CSV export process: 100004733485010
+ProcessCompletedFlag: False; StatusCode: (no result yet); ResultCount: 0
+ProcessCompletedFlag: False; StatusCode: (no result yet); ResultCount: 0
+ProcessCompletedFlag: True; StatusCode: (no result yet); ResultCount: 0
+StatusCode: (unknown)
+Wrote E:\GoSaaS\Configuration Automation v2.1\fscr-main\_fscr_run_17_change_impact_discovery\evidence\exports\DOO_MANAGE_TRANSFORMATION_RULE_SETS\ETIA-TEST_setup_task_csv_export_doo_manage_transformation_rule_sets_100004733485010.zip (9506 bytes)
+== DOO_MANAGE_TRANSFORMATION_RULE_SETS end 17:32:04
+== DOO_MANAGE_PROCESS_CONSTRAINTS start 17:32:04
+Started setup task CSV export process: 100004733485065
+ProcessCompletedFlag: False; StatusCode: (no result yet); ResultCount: 0
+ProcessCompletedFlag: False; StatusCode: (no result yet); ResultCount: 0
+ProcessCompletedFlag: False; StatusCode: (no result yet); ResultCount: 0
+ProcessCompletedFlag: True; StatusCode: (no result yet); ResultCount: 0
+StatusCode: (unknown)
+Wrote E:\GoSaaS\Configuration Automation v2.1\fscr-main\_fscr_run_17_change_impact_discovery\evidence\exports\DOO_MANAGE_PROCESS_CONSTRAINTS\ETIA-TEST_setup_task_csv_export_doo_manage_process_constraints_100004733485065.zip (8899 bytes)
+== DOO_MANAGE_PROCESS_CONSTRAINTS end 17:32:48
+== ORA_FOM_MANAGE_ORDER_MANAGEMENT_SYSTEM_PARAMETERS start 17:32:48
+Error: Failed calling https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com/fscmRestApi/resources/11.13.18.05/setupTaskCSVExports/ORA_FOM_MANAGE_ORDER_MANAGEMENT_SYSTEM_PARAMETERS/child/SetupTaskCSVExportProcess/100004733485089/child/SetupTaskCSVExportProces
+Started setup task CSV export process: 100004733485089
+ProcessCompletedFlag: False; StatusCode: (no result yet); ResultCount: 0
+ProcessCompletedFlag: True; StatusCode: (no result yet); ResultCount: 0
+== ORA_FOM_MANAGE_ORDER_MANAGEMENT_SYSTEM_PARAMETERS end 17:34:11
+== WSH_MANAGE_SHIPPING_PARAMETERS start 17:34:11
+Started setup task CSV export process: 100004733485098
+ProcessCompletedFlag: False; StatusCode: (no result yet); ResultCount: 0
+ProcessCompletedFlag: False; StatusCode: (no result yet); ResultCount: 0
+ProcessCompletedFlag: False; StatusCode: (no result yet); ResultCount: 0
+ProcessCompletedFlag: True; StatusCode: (no result yet); ResultCount: 0
+StatusCode: (unknown)
+Wrote E:\GoSaaS\Configuration Automation v2.1\fscr-main\_fscr_run_17_change_impact_discovery\evidence\exports\WSH_MANAGE_SHIPPING_PARAMETERS\ETIA-TEST_setup_task_csv_export_wsh_manage_shipping_parameters_100004733485098.zip (3193 bytes)
+== WSH_MANAGE_SHIPPING_PARAMETERS end 17:34:55
+== WSH_MANAGE_CARRIERS start 17:34:55
+Started setup task CSV export process: 100004733483132
+ProcessCompletedFlag: False; StatusCode: (no result yet); ResultCount: 0
+ProcessCompletedFlag: True; StatusCode: (no result yet); ResultCount: 0
+StatusCode: (unknown)
+Wrote E:\GoSaaS\Configuration Automation v2.1\fscr-main\_fscr_run_17_change_impact_discovery\evidence\exports\WSH_MANAGE_CARRIERS\ETIA-TEST_setup_task_csv_export_wsh_manage_carriers_100004733483132.zip (3982 bytes)
+== WSH_MANAGE_CARRIERS end 17:36:22
+== WSH_MANAGE_PICK_WAVE_RELEASE_RULES start 17:36:22
+Started setup task CSV export process: 100004733484044
+ProcessCompletedFlag: False; StatusCode: (no result yet); ResultCount: 0
+ProcessCompletedFlag: True; StatusCode: (no result yet); ResultCount: 0
+StatusCode: (unknown)
+Wrote E:\GoSaaS\Configuration Automation v2.1\fscr-main\_fscr_run_17_change_impact_discovery\evidence\exports\WSH_MANAGE_PICK_WAVE_RELEASE_RULES\ETIA-TEST_setup_task_csv_export_wsh_manage_pick_wave_release_rules_100004733484044.zip (3436 bytes)
+== WSH_MANAGE_PICK_WAVE_RELEASE_RULES end 17:37:24

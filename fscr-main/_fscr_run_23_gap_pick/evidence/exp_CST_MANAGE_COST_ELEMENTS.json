@@ -1,0 +1,28 @@
+{
+  "TaskCode" : "CST_MANAGE_COST_ELEMENTS",
+  "ExportSupportedFlag" : true,
+  "@context" : {
+    "key" : "CST_MANAGE_COST_ELEMENTS",
+    "links" : [ {
+      "rel" : "self",
+      "href" : "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/setupTaskCSVExports/CST_MANAGE_COST_ELEMENTS",
+      "name" : "setupTaskCSVExports",
+      "kind" : "item"
+    }, {
+      "rel" : "canonical",
+      "href" : "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/setupTaskCSVExports/CST_MANAGE_COST_ELEMENTS",
+      "name" : "setupTaskCSVExports",
+      "kind" : "item"
+    }, {
+      "rel" : "child",
+      "href" : "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/setupTaskCSVExports/CST_MANAGE_COST_ELEMENTS/child/SetupTaskCSVExportCriteria",
+      "name" : "SetupTaskCSVExportCriteria",
+      "kind" : "collection"
+    }, {
+      "rel" : "child",
+      "href" : "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/setupTaskCSVExports/CST_MANAGE_COST_ELEMENTS/child/SetupTaskCSVExportProcess",
+      "name" : "SetupTaskCSVExportProcess",
+      "kind" : "collection"
+    } ]
+  }
+}

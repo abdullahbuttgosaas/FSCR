@@ -1,0 +1,18 @@
+{
+  "items" : [ ],
+  "count" : 0,
+  "hasMore" : false,
+  "limit" : 25,
+  "offset" : 0,
+  "links" : [ {
+    "rel" : "self",
+    "href" : "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/crmRestApi/resources/11.13.18.05/contacts",
+    "name" : "contacts",
+    "kind" : "collection"
+  }, {
+    "rel" : "action",
+    "href" : "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/crmRestApi/resources/11.13.18.05/contacts/action/findDuplicates",
+    "name" : "findDuplicates",
+    "kind" : "other"
+  } ]
+}

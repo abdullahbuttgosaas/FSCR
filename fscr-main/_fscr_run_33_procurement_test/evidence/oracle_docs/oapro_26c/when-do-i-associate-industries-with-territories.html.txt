@@ -1,0 +1,2 @@
+URL: https://docs.oracle.com/en/cloud/saas/procurement/26c/oapro/when-do-i-associate-industries-with-territories.html
+ Previous Next JavaScript must be enabled to correctly display this content Implementing Procurement When do I associate industries with territories? When do I associate industries with territories? To meet specific business needs, you can associate industries with territories. For example, administrators can configure a page in different ways for different sets of users of the same industry, but residing in different countries. 

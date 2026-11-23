@@ -1,0 +1,3416 @@
+{
+ "skill_files": 1126,
+ "frontmatter_unreadable": {},
+ "frontmatter_keys": [
+  [
+   "skill_id",
+   1126
+  ],
+  [
+   "name",
+   1126
+  ],
+  [
+   "description",
+   1126
+  ],
+  [
+   "layer",
+   1126
+  ],
+  [
+   "type",
+   1126
+  ],
+  [
+   "execution_mode",
+   1126
+  ],
+  [
+   "owner_team",
+   1126
+  ],
+  [
+   "inputs",
+   1125
+  ],
+  [
+   "outputs",
+   1125
+  ],
+  [
+   "version",
+   1122
+  ],
+  [
+   "uses_core",
+   1122
+  ],
+  [
+   "side_effects",
+   1122
+  ],
+  [
+   "required_privileges",
+   1122
+  ],
+  [
+   "pillar",
+   1121
+  ],
+  [
+   "applicability",
+   1104
+  ],
+  [
+   "token_usage_tracking",
+   1093
+  ],
+  [
+   "persists_project_state",
+   1064
+  ],
+  [
+   "workspace_outputs",
+   1058
+  ],
+  [
+   "state_updates",
+   1042
+  ],
+  [
+   "depends_on",
+   1016
+  ],
+  [
+   "offering",
+   997
+  ],
+  [
+   "functional_area",
+   956
+  ],
+  [
+   "functional_area_code",
+   956
+  ],
+  [
+   "source_catalog",
+   781
+  ],
+  [
+   "task_name",
+   776
+  ],
+  [
+   "parent_skill_id",
+   775
+  ],
+  [
+   "task_code",
+   769
+  ],
+  [
+   "available_flag",
+   767
+  ],
+  [
+   "export_import_supported_flag",
+   766
+  ],
+  [
+   "csv_export_import_supported_flag",
+   766
+  ],
+  [
+   "dataloader_import_mode",
+   720
+  ],
+  [
+   "businessObject",
+   693
+  ],
+  [
+   "required_setup_tasks",
+   186
+  ],
+  [
+   "oracle_supplied_guidance_files",
+   74
+  ],
+  [
+   "oracle_supplied_guidance_status",
+   32
+  ],
+  [
+   "businessObjects",
+   20
+  ],
+  [
+   "setup_task_code",
+   3
+  ],
+  [
+   "setup_task_name",
+   3
+  ],
+  [
+   "offering_code",
+   3
+  ]
+ ],
+ "route_like_values": [
+  [
+   "layer = \"pillar\"",
+   1008
+  ],
+  [
+   "execution_mode = \"assisted\"",
+   899
+  ],
+  [
+   "required_privileges = []",
+   853
+  ],
+  [
+   "type = \"planning\"",
+   851
+  ],
+  [
+   "side_effects = []",
+   812
+  ],
+  [
+   "export_import_supported_flag = \"Y\"",
+   657
+  ],
+  [
+   "csv_export_import_supported_flag = \"Y\"",
+   649
+  ],
+  [
+   "businessObject = \"\"",
+   470
+  ],
+  [
+   "pillar = \"HCM\"",
+   457
+  ],
+  [
+   "dataloader_import_mode = \"FSM\"",
+   424
+  ],
+  [
+   "pillar = \"SCM\"",
+   243
+  ],
+  [
+   "dataloader_import_mode = \"REST\"",
+   222
+  ],
+  [
+   "pillar = \"CX\"",
+   196
+  ],
+  [
+   "execution_mode = \"hybrid\"",
+   192
+  ],
+  [
+   "type = \"orchestration\"",
+   141
+  ],
+  [
+   "pillar = \"ERP\"",
+   103
+  ],
+  [
+   "csv_export_import_supported_flag = \"N\"",
+   96
+  ],
+  [
+   "pillar = \"Common\"",
+   89
+  ],
+  [
+   "export_import_supported_flag = \"N\"",
+   88
+  ],
+  [
+   "layer = \"shared\"",
+   82
+  ],
+  [
+   "type = \"import\"",
+   63
+  ],
+  [
+   "dataloader_import_mode = \"HDL\"",
+   41
+  ],
+  [
+   "layer = \"core\"",
+   33
+  ],
+  [
+   "type = \"advisory\"",
+   32
+  ],
+  [
+   "pillar = \"Core\"",
+   30
+  ],
+  [
+   "execution_mode = \"advisory\"",
+   28
+  ],
+  [
+   "export_import_supported_flag = \"UNKNOWN\"",
+   21
+  ],
+  [
+   "csv_export_import_supported_flag = \"UNKNOWN\"",
+   21
+  ],
+  [
+   "dataloader_import_mode = \"FBDI\"",
+   16
+  ],
+  [
+   "side_effects = [\"After explicit approval, creates and polls one whole-task FSM export process and writes its ZIP or process log to the ",
+   15
+  ],
+  [
+   "required_privileges = [\"Fusion privileges to discover the setup task and run setup task CSV exports.\", \"Fusion privileges to submit, inspect, ",
+   15
+  ],
+  [
+   "type = \"assessment\"",
+   14
+  ],
+  [
+   "type = \"verification\"",
+   14
+  ],
+  [
+   "required_privileges = [\"FND_APP_MANAGE_ALL_PROFILE_VALUES_PRIV to create or update profile option values through core.fusion-api.apps-common\",",
+   13
+  ],
+  [
+   "side_effects = [\"Reads profile option definitions and configured values through core.fusion-api.apps-common when view is selected.\", \"A",
+   12
+  ],
+  [
+   "dataloader_import_mode = \"ESS\"",
+   12
+  ],
+  [
+   "businessObject = \"Organization\"",
+   11
+  ],
+  [
+   "required_privileges = [\"Fusion privileges appropriate to the requested operation\"]",
+   10
+  ],
+  [
+   "side_effects = [\"May route an approved task-level export to the shared export skill.\", \"May route an approved immutable FSM archive to ",
+   8
+  ],
+  [
+   "required_privileges = [\"Access to the selected Fusion environment through the configured Data Loader connection.\"]",
+   8
+  ],
+  [
+   "execution_mode = \"automated\"",
+   7
+  ],
+  [
+   "type = \"validation\"",
+   5
+  ],
+  [
+   "type = \"export\"",
+   5
+  ],
+  [
+   "dataloader_import_mode = \"CXIMPORT\"",
+   5
+  ],
+  [
+   "side_effects = [\"Writes task plans, validation/preview evidence, execution receipts and redacted diagnostics to the selected project wo",
+   5
+  ],
+  [
+   "side_effects = [\"May connect to a Fusion environment when implemented and approved.\"]",
+   4
+  ],
+  [
+   "side_effects = [\"May create local review-only proposal, validation, and traceability artifacts.\", \"May request a routed read-only FSM t",
+   4
+  ],
+  [
+   "side_effects = [\"Reads supplied source artifacts and current target HDL metadata and reference data through authorized read-only routes",
+   4
+  ],
+  [
+   "businessObject = \"configureDocumentOutputPreferences\"",
+   4
+  ],
+  [
+   "side_effects = [\"Connects to a Fusion environment when approved.\", \"Uploads two local setup ZIP packages to Fusion setup migration proc",
+   4
+  ],
+  [
+   "required_privileges = [\"ORA_ZBS_SALES_ADMINISTRATOR_JOB, or a custom job role with ORA_DR_FAI_GENERATIVE_AI_AGENT_RUNTIME_DUTY and ORA_ZCA_ACC",
+   3
+  ],
+  [
+   "side_effects = [\"Writes declared functional-area project artifacts, artifact registrations, state updates, skill-run records and token-",
+   3
+  ],
+  [
+   "side_effects = [\"Reads live Organization metadata and organization references through shared core services.\", \"Prepares local loader ar",
+   3
+  ],
+  [
+   "required_privileges = [\"Access to selected-environment Organization metadata and required organization references.\", \"Fusion UCM upload and HC",
+   3
+  ],
+  [
+   "side_effects = [\"May enable the required Oracle Search profile values through their owning task.\", \"May submit and monitor the declared",
+   3
+  ],
+  [
+   "businessObject = \"learningCommunities\"",
+   3
+  ],
+  [
+   "layer = \"router\"",
+   3
+  ],
+  [
+   "pillar = \"Router\"",
+   3
+  ],
+  [
+   "side_effects = [\"Connects to a Fusion environment when approved.\", \"May PATCH Fusion Common feature selections when not run with --dry-",
+   3
+  ],
+  [
+   "required_privileges = [\"Fusion privileges required by the selected setup-task export, Data Loader, and EFF deployment workflows\"]",
+   2
+  ],
+  [
+   "side_effects = [\"Creates a staged immutable HDL ZIP from a validated plain-text source after user validation.\", \"Requests read-only rol",
+   2
+  ],
+  [
+   "required_privileges = [\"Privileges required by core.data-loader for the selected HCM Data Loader operation.\", \"Read access to Fusion role, per",
+   2
+  ],
+  [
+   "required_privileges = [\"Verified Functional Setup Manager privileges to export the Manage Data Security Policies setup task.\", \"Verified targe",
+   2
+  ],
+  [
+   "side_effects = [\"May route an approved task-level export to shared.setup-export.task-level-export.\", \"May route an approved immutable F",
+   2
+  ],
+  [
+   "required_privileges = [\"Functional Setup Manager privileges to export Manage Duties.\", \"Target-environment privileges to upload and initiate t",
+   2
+  ],
+  [
+   "required_privileges = [\"Verified Functional Setup Manager privileges to export the Manage HCM LDAP User Account Options setup task.\", \"Verifie",
+   2
+  ],
+  [
+   "required_privileges = [\"Verified Functional Setup Manager privileges to export the Manage HCM Role Provisioning Rules setup task.\", \"Verified ",
+   2
+  ],
+  [
+   "required_privileges = [\"Verified Functional Setup Manager privileges to export the Manage Job Roles setup task.\", \"Verified target-environment",
+   2
+  ],
+  [
+   "side_effects = [\"May route approved export or import execution to owning shared/core skills; this skill performs no direct Fusion mutat",
+   2
+  ],
+  [
+   "required_privileges = [\"Verified Security Console access appropriate to the requested role-management scope.\", \"Verified Functional Setup Mana",
+   2
+  ],
+  [
+   "side_effects = [\"Writes an ESS job plan and execution audit to the active project workspace when project context is supplied.\", \"Submit",
+   2
+  ],
+  [
+   "required_privileges = [\"Fusion privileges appropriate to submit and monitor the approved ESS job\"]",
+   2
+  ],
+  [
+   "side_effects = [\"Submits and downloads a task-level CSV export for Inventory and Review reconciliation.\", \"Reads configured and effecti",
+   2
+  ],
+  [
+   "businessObject = \"benefitsPlanCopyImports\"",
+   2
+  ],
+  [
+   "businessObject = \"CalculationCard\"",
+   2
+  ],
+  [
+   "side_effects = [\"Delegates one explicitly approved supported Common Lookup type or lookup-code create, update, or delete.\", \"Delegates ",
+   2
+  ],
+  [
+   "required_privileges = [\"Read and applicable lookup mutation access required by core.fusion-api.apps-common.lookups in the selected Fusion envi",
+   2
+  ],
+  [
+   "required_privileges = [\"Fusion privileges sufficient to read and update HCM approval task configuration.\"]",
+   2
+  ],
+  [
+   "required_privileges = [\"Authenticated Data Loader access to the registered learningCommunities business object and supported components\", \"Rea",
+   2
+  ],
+  [
+   "side_effects = [\"Delegates an explicitly requested, validated, and approved FSM CSV import to core.data-loader.\"]",
+   2
+  ],
+  [
+   "required_privileges = [\"FSM import privileges are required only for an explicitly requested package import.\"]",
+   2
+  ],
+  [
+   "side_effects = [\"Persists local configuration drafts, validation evidence, and skill-run records; approved Fusion mutations are delegat",
+   2
+  ],
+  [
+   "businessObject = \"inventoryOrganizations\"",
+   2
+  ],
+  [
+   "businessObject = \"productionResources\"",
+   2
+  ],
+  [
+   "required_privileges = [\"Privilege to access the named Setup and Maintenance task\"]",
+   2
+  ],
+  [
+   "businessObject = \"supplierUserRoles\"",
+   2
+  ],
+  [
+   "businessObject = \"item\"",
+   2
+  ],
+  [
+   "side_effects = [\"Connects to a Fusion environment when approved.\", \"Uses the shared FSM CSV export engine to create a setup offering CS",
+   2
+  ],
+  [
+   "required_privileges = [\"Fusion privileges appropriate to find setup feature codes and run setup offering CSV export\"]",
+   2
+  ],
+  [
+   "side_effects = [\"On first use, prompts for the Fusion URL, environment name and OAuth client ID, follows credential-free Fusion HTTPS l",
+   1
+  ],
+  [
+   "side_effects = [\"Updates business-object attributes through the advertised findBusinessObjectsForFSCR finder during sample/attribute re",
+   1
+  ],
+  [
+   "required_privileges = [\"Privileges to update business-object attributes through findBusinessObjectsForFSCR when advertised.\", \"Access to the t",
+   1
+  ],
+  [
+   "side_effects = [\"Reads the supplied task context, task-rule results, and local Data Loader validation artifacts.\", \"Creates or verifies",
+   1
+  ],
+  [
+   "type = \"support\"",
+   1
+  ],
+  [
+   "side_effects = [\"Connects to Oracle Fusion AI Agent Team REST endpoints when invoked.\", \"Submits an asynchronous workflow agent request",
+   1
+  ],
+  [
+   "required_privileges = [\"Fusion privileges appropriate to invoke the selected AI Studio workflow agent\"]",
+   1
+  ],
+  [
+   "side_effects = [\"May export attachment-entity or attachment-category setup data or submit an approved FSM CSV import through the select",
+   1
+  ],
+  [
+   "required_privileges = [\"Fusion privileges required by the selected setup-task export and Data Loader workflows\", \"Privilege to access the Atta",
+   1
+  ],
+  [
+   "side_effects = [\"May read value-set definitions, export DFF setup data, submit an approved FSM CSV import, or submit an approval-gated ",
+   1
+  ],
+  [
+   "required_privileges = [\"Fusion privileges required by the selected setup-task export, Data Loader, and DFF deployment workflows\"]",
+   1
+  ],
+  [
+   "side_effects = [\"May export EFF setup data, submit an approved FSM CSV import, or submit an approval-gated EFF deployment request.\"]",
+   1
+  ],
+  [
+   "side_effects = [\"May export KFF setup data, submit an approved FSM CSV import, or submit an approval-gated KFF deployment request.\"]",
+   1
+  ],
+  [
+   "required_privileges = [\"Fusion privileges required by the selected setup-task export, Data Loader, and KFF deployment workflows\"]",
+   1
+  ],
+  [
+   "side_effects = [\"May read or mutate lookup resources after explicit approval.\"]",
+   1
+  ],
+  [
+   "required_privileges = [\"Fusion privileges appropriate to the requested lookup resource\"]",
+   1
+  ],
+  [
+   "side_effects = [\"May read or mutate profile-option values after explicit approval.\"]",
+   1
+  ],
+  [
+   "required_privileges = [\"FND_APP_MANAGE_ALL_PROFILE_VALUES_PRIV to create, update, or delete profile option values\"]",
+   1
+  ],
+  [
+   "side_effects = [\"Routes to a nested Application Common Features skill; the selected skill declares any external operation.\"]",
+   1
+  ],
+  [
+   "required_privileges = [\"Privileges appropriate to the selected Application Common Feature\"]",
+   1
+  ],
+  [
+   "side_effects = [\"Approved REST mutations\", \"Routed read-only REST calls and shared OAuth authentication\", \"Project run and artifact per",
+   1
+  ],
+  [
+   "side_effects = [\"May mutate supported value-set values after explicit approval.\"]",
+   1
+  ],
+  [
+   "required_privileges = [\"Fusion privileges appropriate to the requested value-set resource\"]",
+   1
+  ],
+  [
+   "side_effects = [\"Connects to Fusion Audit Setup REST APIs when invoked.\", \"May change product-level audit levels when set-level is invo",
+   1
+  ],
+  [
+   "required_privileges = [\"Fusion privileges appropriate to manage audit setup\"]",
+   1
+  ],
+  [
+   "side_effects = [\"Connects to Oracle CX REST APIs when invoked.\", \"Stores owner-private import approval records outside the repository u",
+   1
+  ],
+  [
+   "required_privileges = [\"Fusion CX privileges to create and monitor Import Management or Export Management jobs for the target object\"]",
+   1
+  ],
+  [
+   "side_effects = [\"Connects to Fusion ESS REST APIs when invoked.\", \"Submits ESS job requests when invoked without an existing requestId.",
+   1
+  ],
+  [
+   "side_effects = [\"Connects to Fusion REST APIs when invoked.\", \"May refresh the OAuth token cache when the cached token is unavailable o",
+   1
+  ],
+  [
+   "side_effects = [\"Connects to Oracle UCM HTTP IdcService endpoints when invoked.\", \"Uploads local files to UCM only when --execute is us",
+   1
+  ],
+  [
+   "required_privileges = [\"Fusion privileges to access UCM content in the target security group and document account\"]",
+   1
+  ],
+  [
+   "side_effects = [\"Creates or updates Fusion users and the configured implementation-user job-role assignments only after explicit user a",
+   1
+  ],
+  [
+   "required_privileges = [\"Oracle HCM Cloud service administrator or TechAdmin-equivalent user\", \"IT Security Manager\", \"Application Implementati",
+   1
+  ],
+  [
+   "side_effects = [\"Updates the local project artifact index.\"]",
+   1
+  ],
+  [
+   "side_effects = [\"May supersede an artifact version or update the current artifact after user confirmation.\"]",
+   1
+  ],
+  [
+   "side_effects = [\"Registers local baseline artifacts created from exported setup data.\"]",
+   1
+  ],
+  [
+   "required_privileges = [\"Fusion privileges required to export setup and configuration data\"]",
+   1
+  ],
+  [
+   "side_effects = [\"Updates local project state after user-approved workflow changes.\"]",
+   1
+  ],
+  [
+   "side_effects = [\"Creates local project workspace folders and initial state files.\"]",
+   1
+  ],
+  [
+   "side_effects = [\"Reads Oracle Fusion Run Book journeys, tasks, task details, attachments, documents, and Data Loader status when reques",
+   1
+  ],
+  [
+   "required_privileges = [\"Access to the target Oracle Fusion environment and required OAuth scope.\", \"Privileges to view Oracle Fusion Run Book ",
+   1
+  ],
+  [
+   "side_effects = [\"Retains exact recovery snapshots in owner-private local storage outside the repository and project before approval con",
+   1
+  ],
+  [
+   "required_privileges = [\"Valid Fusion OAuth access for the selected CPQ Setup Assistant environment.\"]",
+   1
+  ],
+  [
+   "side_effects = [\"Reads Standard lookup type ZMM_NOTE_TYPE and its codes through core.fusion-api.apps-common.\", \"After an immutable prev",
+   1
+  ],
+  [
+   "side_effects = [\"Reads effective note-type mappings through the documented CRM noteTypes list-of-values resource.\"]",
+   1
+  ],
+  [
+   "side_effects = [\"Creates and downloads a task-scoped FSM CSV export through shared.setup-export.task-level-export.\", \"After Core Data L",
+   1
+  ],
+  [
+   "required_privileges = [\"Fusion privileges to export and import setup task CSV data.\", \"FND_APP_MANAGE_ALL_PROFILE_VALUES_PRIV for a direct sit",
+   1
+  ],
+  [
+   "side_effects = [\"Reads all 10 validated data-cleansing Standard lookup types and their codes through core.fusion-api.apps-common.\", \"Af",
+   1
+  ],
+  [
+   "side_effects = [\"Reads all 17 validated duplicate-management Standard lookup types and their codes through core.fusion-api.apps-common.",
+   1
+  ],
+  [
+   "side_effects = [\"After the technical job identity is validated, an immutable preview is approved, and the exact target is confirmed, ma",
+   1
+  ],
+  [
+   "required_privileges = [\"ZCH_RUN_TRADING_COMMUNITY_REQUEST_DISPATCH_JOB_PRIV\"]",
+   1
+  ],
+  [
+   "side_effects = [\"Uses the configured Fusion authentication flow automatically and may refresh or replace an expired cache-managed sessi",
+   1
+  ],
+  [
+   "required_privileges = [\"Master Data Management Applications Administrator role\", \"FND_APP_MANAGE_ALL_PROFILE_VALUES_PRIV to create or update s",
+   1
+  ],
+  [
+   "side_effects = [\"When directly requested, submits the HZ-HZGEOCODER ESS process once to the selected Fusion environment.\", \"The process",
+   1
+  ],
+  [
+   "required_privileges = [\"Application Implementation Consultant role or a role containing the Run Geocode Loader privilege\", \"Fusion ESS privile",
+   1
+  ],
+  [
+   "side_effects = [\"Connects to the configured Oracle Fusion ESS Scheduler REST API.\", \"Submits Validate Geographies of Addresses Against ",
+   1
+  ],
+  [
+   "required_privileges = [\"Application Implementation Consultant role or equivalent access\", \"Run Trading Community Geography Name Referencing Ma",
+   1
+  ],
+  [
+   "side_effects = [\"Delegates approved ResourceUser CX Import initiation to core.data-loader.\", \"Delegates approved ResourceUser Export Ma",
+   1
+  ],
+  [
+   "side_effects = [\"Submits the Reporting Hierarchy Generation ESS process after explicit approval.\", \"Tracks the submitted ESS request un",
+   1
+  ],
+  [
+   "required_privileges = [\"Run Trading Community Resource Reporting Hierarchy Generation\"]",
+   1
+  ],
+  [
+   "side_effects = [\"After an exact immutable preview and standalone approval, submits the Audit Party Hierarchy ESS scheduled process once",
+   1
+  ],
+  [
+   "required_privileges = [\"Manage Trading Community Import Batch Duty (ORA_MANAGE_TRADING_COMMUNITY_IMPORT_BATCH_DUTY).\", \"Manage Trading Communi",
+   1
+  ],
+  [
+   "side_effects = [\"Creates local CSV files outside the tracked project workspace and may persist redacted validation and run metadata.\", ",
+   1
+  ],
+  [
+   "required_privileges = [\"Access to the exact target Oracle Fusion environment and required OAuth scope.\", \"Privileges to upload to the target-m",
+   1
+  ],
+  [
+   "side_effects = [\"After explicit approval, creates one task-scoped FSM CSV import process that can change Fusion configuration.\"]",
+   1
+  ],
+  [
+   "required_privileges = [\"Fusion privileges to submit and inspect setup task CSV imports.\"]",
+   1
+  ],
+  [
+   "side_effects = [\"Reads profile option definitions and configured values through core.fusion-api.apps-common when the view operation is ",
+   1
+  ],
+  [
+   "side_effects = [\"Uploads each approved user-supplied hierarchy CSV unchanged through the shared Trading Community CX Import workflow.\",",
+   1
+  ],
+  [
+   "required_privileges = [\"Fusion privileges to view Trees Management resources and the selected hierarchy.\", \"Privileges to upload to the live m",
+   1
+  ],
+  [
+   "side_effects = [\"After an exact immutable preview and standalone approval, submits the Classification Hierarchy Generation ESS schedule",
+   1
+  ],
+  [
+   "required_privileges = [\"Administrator access to the Manage Classification Categories setup task.\", \"Run Trading Community Classification Hiera",
+   1
+  ],
+  [
+   "side_effects = [\"Connects to the configured Oracle Fusion ESS Scheduler REST API after exact-target checks and explicit execution appro",
+   1
+  ],
+  [
+   "required_privileges = [\"Run Trading Community Current Record Information Maintenance privilege\", \"Application Implementation Consultant or Mas",
+   1
+  ],
+  [
+   "side_effects = [\"For any documented hierarchy type and flattening method, connects to the configured Oracle Fusion ESS Scheduler REST A",
+   1
+  ],
+  [
+   "required_privileges = [\"ORA_ZCA_CUSTOMER_RELATIONSHIP_MANAGEMENT_APPLICATION_ADMINISTRATOR_JOB or ORA_ZCH_MASTER_DATA_MANAGEMENT_APPLICATION_A",
+   1
+  ],
+  [
+   "side_effects = [\"Performs OFSC Metadata PUT operations only after read-only preflight, immutable preview, and explicit approval.\"]",
+   1
+  ],
+  [
+   "required_privileges = [\"Environment-approved Oracle Field Service metadata read and Activity Type update permission\"]",
+   1
+  ],
+  [
+   "side_effects = [\"Delegates default Core Task REST work without fallback; performs explicit approved Resource Type PUTs only through ora",
+   1
+  ],
+  [
+   "required_privileges = [\"Access to the target Oracle Field Service environment and required OAuth scope.\", \"Privilege to read Resource Type met",
+   1
+  ],
+  [
+   "side_effects = [\"Writes individual Shift Item records only after an immutable preview and explicit approval\"]",
+   1
+  ],
+  [
+   "required_privileges = [\"Field Service configuration read access for baseline and verification GETs\", \"Field Service configuration write access",
+   1
+  ],
+  [
+   "side_effects = [\"When execution_direction=ora_rest_execution is explicitly selected, performs Time Slots PUT operations only after read",
+   1
+  ],
+  [
+   "side_effects = [\"Delegates default Task REST requests without fallback and performs explicit REST PUTs only after immutable preview and",
+   1
+  ],
+  [
+   "side_effects = [\"Performs approval-bound Work Zone POST creates or PUT replacements through the Field Service shared workflow.\"]",
+   1
+  ],
+  [
+   "side_effects = [\"Delegates Import User Login History ESS scheduling and execution to common.security-console.user-security-common; that",
+   1
+  ],
+  [
+   "required_privileges = [\"Fusion privileges appropriate to submit and monitor the approved Import User Login History ESS job\"]",
+   1
+  ],
+  [
+   "side_effects = [\"Delegates approved Resource Type Preparation Process ESS submissions and status tracking to core.fusion-api.ess-job-su",
+   1
+  ],
+  [
+   "required_privileges = [\"Fusion privileges required to submit and view the configured ESS job.\"]",
+   1
+  ],
+  [
+   "businessObject = \"domains\"",
+   1
+  ],
+  [
+   "side_effects = [\"Reads Marketing Domains through BOSS GET operations.\", \"Delegates every Marketing Domain write to core.data-loader usi",
+   1
+  ],
+  [
+   "required_privileges = [\"Authorized BOSS read access for Marketing Domains.\", \"Fusion privileges to upload and initiate an approved Data Loader",
+   1
+  ],
+  [
+   "side_effects = [\"Creates a task-level FSM export process when approved and writes export artifacts to the project workspace.\", \"Reads t",
+   1
+  ],
+  [
+   "required_privileges = [\"Fusion privileges appropriate to export and import setup task CSV data\", \"Fusion privileges to read Sales object metad",
+   1
+  ],
+  [
+   "side_effects = [\"May read DaaS Smart Data configuration through the Fusion CRM REST API when the user requests a status check.\", \"May r",
+   1
+  ],
+  [
+   "required_privileges = [\"Fusion setup access for the Manage Data Enrichment Integration task when following configuration guidance\", \"DATASERVI",
+   1
+  ],
+  [
+   "required_privileges = [\"Privileges to export setup data for MKL_MANAGE_SALES_LEAD_PROFILE_OPTIONS when Inventory or Review requires export rec",
+   1
+  ],
+  [
+   "side_effects = [\"Submits and downloads a read-only task-level CSV export from the selected Oracle Fusion environment.\", \"Reads the asse",
+   1
+  ],
+  [
+   "required_privileges = [\"Access to the selected Oracle Fusion environment and privileges to export setup task data.\", \"Privileges to read Asses",
+   1
+  ],
+  [
+   "side_effects = [\"Submits and downloads a task-level CSV export for Inventory and Review reconciliation.\", \"Reads standard lookup types,",
+   1
+  ],
+  [
+   "required_privileges = [\"Privileges to export setup data for MKL_MANAGE_SALES_LEAD_STANDARD_LOOKUPS when Inventory or Review requires reconcili",
+   1
+  ],
+  [
+   "side_effects = [\"Reads the fixed MOO_SETID_DEAL_HORIZION lookup type and its reference-set assignment through core.fusion-api.apps-comm",
+   1
+  ],
+  [
+   "required_privileges = [\"Fusion privileges appropriate to view or manage Estimated Deal Duration lookup codes and the selected reference data s",
+   1
+  ],
+  [
+   "side_effects = [\"Reads the fixed MOO_SETID_DECISION_LEVEL lookup type and its reference-set assignment through core.fusion-api.apps-com",
+   1
+  ],
+  [
+   "required_privileges = [\"Fusion privileges appropriate to view or manage Decision Level lookup codes and the selected reference data set.\", \"Pr",
+   1
+  ],
+  [
+   "side_effects = [\"Reads the fixed MOO_SETID_RISK_LEVEL lookup type and its reference-set assignment through core.fusion-api.apps-common.",
+   1
+  ],
+  [
+   "required_privileges = [\"Fusion privileges appropriate to view or manage Level of Risk lookup codes and the selected reference data set.\", \"Pri",
+   1
+  ],
+  [
+   "side_effects = [\"For Inventory or mutation routing, may submit an approved task-level CSV export; exact-code Review uses Apps Common GE",
+   1
+  ],
+  [
+   "required_privileges = [\"Export privileges for Inventory/mutation routing of MOO_MANAGE_OPPORTUNITY_PROFILE_OPTIONS; import privileges only for",
+   1
+  ],
+  [
+   "side_effects = [\"Reads standard lookup MOO_REVN_CATEGORY through core.fusion-api.apps-common.\", \"May hand an exact immutable MOO_MANAGE",
+   1
+  ],
+  [
+   "required_privileges = [\"Fusion privileges to view or manage standard lookup MOO_REVN_CATEGORY.\", \"Privileges to export or import MOO_MANAGE_RE",
+   1
+  ],
+  [
+   "side_effects = [\"Reads the fixed MOO_SETID_REVENUE_TYPE lookup type and its reference-set assignment through core.fusion-api.apps-commo",
+   1
+  ],
+  [
+   "required_privileges = [\"Fusion privileges appropriate to view or manage Sales Revenue Type lookup codes and the selected reference data set.\",",
+   1
+  ],
+  [
+   "side_effects = [\"Reads only the exact MOO_STAGE_PHASE_CD standard lookup parent and codes through Apps Common.\", \"May hand an immutable",
+   1
+  ],
+  [
+   "required_privileges = [\"Privileges to view/manage MOO_STAGE_PHASE_CD and export/import this exact task.\", \"Standard Lookups REST write privile",
+   1
+  ],
+  [
+   "side_effects = [\"Reads Opportunity set-enabled lookup types, reference data sets, and lookup codes through core.fusion-api.apps-common.",
+   1
+  ],
+  [
+   "required_privileges = [\"Fusion privileges appropriate to view or manage the selected set-enabled lookup type and reference data set.\", \"Privil",
+   1
+  ],
+  [
+   "side_effects = [\"Reads the fixed MOO_SETID_STRATEGIC_VALUE lookup type and its reference-set assignment through core.fusion-api.apps-co",
+   1
+  ],
+  [
+   "required_privileges = [\"Fusion privileges appropriate to view or manage Strategic Value lookup codes and the selected reference data set.\", \"P",
+   1
+  ],
+  [
+   "side_effects = [\"Reads the fixed MOO_SETID_WIN_LOSS_REASON lookup type and its reference-set assignment through core.fusion-api.apps-co",
+   1
+  ],
+  [
+   "required_privileges = [\"Fusion privileges appropriate to view or manage Win/Loss Reason lookup codes and the selected reference data set.\", \"P",
+   1
+  ],
+  [
+   "side_effects = [\"Submits and downloads approved FSM exports at task, functional-area, or offering scope.\", \"Reads QSC profile definitio",
+   1
+  ],
+  [
+   "required_privileges = [\"Privileges to export and import setup data for QSC_MANAGE_PRODUCT_GROUP_PROFILE_OPTIONS.\", \"FND_APP_MANAGE_ALL_PROFILE",
+   1
+  ],
+  [
+   "side_effects = [\"Prepares a contained, assignment-only FSM package for delegated SCM validation and persists a non-secret Manage Sales ",
+   1
+  ],
+  [
+   "side_effects = [\"Resolves the active Run Book's Manage Product Management Indexes task before persisting an independent or Sales-origin",
+   1
+  ],
+  [
+   "businessObject = \"publish\"",
+   1
+  ],
+  [
+   "side_effects = [\"Enables the approved Adaptive Search business objects together with Fusion-mandated internal objects.\", \"Creates or up",
+   1
+  ],
+  [
+   "required_privileges = [\"Authenticated access to the target Oracle Fusion environment.\", \"Adaptive Search configuration and publish authorizati",
+   1
+  ],
+  [
+   "required_privileges = [\"Privileges to export setup data for ORA_ZMM_MANAGE_ACTIVITY_PROFILE_OPTIONS when Inventory or Review requires export r",
+   1
+  ],
+  [
+   "side_effects = [\"Reads Standard Lookup types and lookup codes from the configured Fusion environment.\", \"After an exact immutable previ",
+   1
+  ],
+  [
+   "required_privileges = [\"Fusion task and REST privileges appropriate to view or manage Manage Activity Standard Lookups.\", \"ORA_ASM_FUNCTIONAL_",
+   1
+  ],
+  [
+   "side_effects = [\"Reads Account, Contact, Household, or a live-resolved child object's audit setup through core.fusion-api.audit-setup.\"",
+   1
+  ],
+  [
+   "required_privileges = [\"Access to the exact target Oracle Fusion environment and required OAuth scope.\", \"Fusion privileges appropriate to vie",
+   1
+  ],
+  [
+   "side_effects = [\"Reads Data Capture Rule setup data through Fusion BOSS REST APIs.\", \"May refresh the local gitignored BOSS OAuth token",
+   1
+  ],
+  [
+   "side_effects = [\"Reads Sales Motion setup data through Fusion BOSS REST APIs.\", \"May refresh the local gitignored BOSS OAuth token cach",
+   1
+  ],
+  [
+   "side_effects = [\"Reads Sales Play and content-artifact setup data through Fusion BOSS REST APIs.\", \"Searches published Sales Play conte",
+   1
+  ],
+  [
+   "side_effects = [\"Creates local CSV, validation, and Data Loader handoff artifacts.\", \"Reads declared Import Management metadata during ",
+   1
+  ],
+  [
+   "required_privileges = [\"Geography Administration duty (ORA_GEO_ADMIN_DUTY)\", \"Fusion Data Loader CX Import metadata and initiation privileges\"",
+   1
+  ],
+  [
+   "side_effects = [\"Creates a local Algorithm_BO.xml and SubscriptionManagementandOrderManagementIntegration.zip only after explicit appro",
+   1
+  ],
+  [
+   "side_effects = [\"Writes approved local algorithm artifact and project records; no Fusion mutation\"]",
+   1
+  ],
+  [
+   "side_effects = [\"May perform an authorized read-only Order Management or Subscription Management REST describe lookup when a mapping re",
+   1
+  ],
+  [
+   "required_privileges = [\"Fusion REST metadata read access appropriate to Sales Orders for Order Hub and Subscription Management CRM REST descri",
+   1
+  ],
+  [
+   "side_effects = [\"Optional authorized describe GET and redacted project records; no Fusion mutation\"]",
+   1
+  ],
+  [
+   "side_effects = [\"Generates local Data Loader workbook artifacts in the selected project workspace.\", \"Performs approved read-only Fusio",
+   1
+  ],
+  [
+   "required_privileges = [\"Fusion REST access for CX Subscriptions balance codes, balance profiles, usage entitlements, entitlement plans, and en",
+   1
+  ],
+  [
+   "side_effects = [\"After the active Run Book and Core Data Loader complete their required preview and approval gates, the authorized FSM ",
+   1
+  ],
+  [
+   "required_privileges = [\"AR_SET_UP_RECEIVABLES_DEFAULT_DISTRIBUTION_RULE_PRIV or an equivalent privilege inherited through ORA_AR_RECEIVABLES_A",
+   1
+  ],
+  [
+   "side_effects = [\"After Core Data Loader creates an immutable preview and the customer replies with the required standalone approval, th",
+   1
+  ],
+  [
+   "required_privileges = [\"AR_SET_UP_RECEIVABLES_PAYMENT_TERM_PRIV or an equivalent seeded role for payment-term setup.\", \"AR_MANAGE_RECEIVABLES_",
+   1
+  ],
+  [
+   "side_effects = [\"After Core Data Loader creates an immutable preview and the customer supplies the required standalone approval, the au",
+   1
+  ],
+  [
+   "side_effects = [\"After Core Data Loader creates an immutable preview and the customer supplies its current candidate-specific approval,",
+   1
+  ],
+  [
+   "businessObject = \"customers\"",
+   1
+  ],
+  [
+   "side_effects = [\"Writes local offline preview ZIP and validation report to a new caller-selected directory.\", \"May request selected rea",
+   1
+  ],
+  [
+   "side_effects = [\"Writes a local candidate ZIP to a new explicitly selected protected path before core validation and approval.\", \"Deleg",
+   1
+  ],
+  [
+   "required_privileges = [\"Task-specific Fusion setup export/import privileges in the selected environment.\", \"Visibility to verify the requested",
+   1
+  ],
+  [
+   "side_effects = [\"Writes a local review-only FSM ZIP when workbook candidate preparation is requested\"]",
+   1
+  ],
+  [
+   "side_effects = [\"After local intake validation, creates a task CSV export process for baseline and schema verification; this does not c",
+   1
+  ],
+  [
+   "required_privileges = [\"Export Import Functional Setups User\", \"Task-specific Functional Setup Manager privileges for Manage Expense Report Te",
+   1
+  ],
+  [
+   "side_effects = [\"Reads current Fusion references and BOSS Asset Key state; when BOSS duplicate reads fail, reads a current FSM setup-da",
+   1
+  ],
+  [
+   "required_privileges = [\"Read access to the selected System Controls, KFF, value-set, controlled-configuration, BOSS Asset Key, and setup-task ",
+   1
+  ],
+  [
+   "businessObject = \"Fixed Asset Location to HR Location Mapping\"",
+   1
+  ],
+  [
+   "side_effects = [\"Reads current Fusion references and BOSS Asset Location state; when BOSS duplicate reads fail, reads a current FSM set",
+   1
+  ],
+  [
+   "required_privileges = [\"Read access to the selected System Controls, KFF, value-set, DFF, BOSS Asset Location, mapping, controlled-configurati",
+   1
+  ],
+  [
+   "side_effects = [\"Reads Fusion value sets and values through the shared REST client; imports remain approval-gated through core.data-loa",
+   1
+  ],
+  [
+   "required_privileges = [\"Fusion privileges to read the requested value sets and values\"]",
+   1
+  ],
+  [
+   "side_effects = [\"Performs read-only target lookups for Reference Data Set identity, SetCode, and fiscal-year dates.\", \"May refresh loca",
+   1
+  ],
+  [
+   "required_privileges = [\"Fusion access for FA_MANAGE_PRORATE_CONVENTION export and import.\", \"Fusion BOSS read access to assetFiscalYearDatesVi",
+   1
+  ],
+  [
+   "side_effects = [\"Performs declared read-only ledger and legal-entity lookups through core.fusion-api.rest-api-client.\", \"Creates one ap",
+   1
+  ],
+  [
+   "required_privileges = [\"Read ledger reference data through ledgersLOV in the selected Fusion environment.\", \"Read legal-entity reference data ",
+   1
+  ],
+  [
+   "side_effects = [\"Prepares task-specific FSM package changes locally; delegated export can create an export process and delegated core.d",
+   1
+  ],
+  [
+   "required_privileges = [\"Endpoint privileges for FSCR task export/import GL_MANAGE_LEDGER_SETS and ledger-scoped GL_MANAGE_PRIMARY_LEDGERS expo",
+   1
+  ],
+  [
+   "side_effects = [\"Queries read-only Fusion ledger, accounting-calendar, and chart-of-accounts LOV resources.\", \"Creates filtered Specify",
+   1
+  ],
+  [
+   "required_privileges = [\"Fusion privileges to read ledger, accounting-calendar, and chart-of-accounts LOVs\", \"Fusion privileges to run and down",
+   1
+  ],
+  [
+   "side_effects = [\"Performs routed read-only Fusion reference lookups and prepares local FSM archives; core.data-loader owns approved upl",
+   1
+  ],
+  [
+   "required_privileges = [\"Read access to the territory, address-geography, jurisdiction, legal-entity, and optional parent PSU references used b",
+   1
+  ],
+  [
+   "side_effects = [\"Reads current Fusion geography and lookup LOVs through the OAuth-backed REST client.\"]",
+   1
+  ],
+  [
+   "side_effects = [\"Creates scoped export processes and downloads baseline packages through the selected shared export workflow.\", \"Perfor",
+   1
+  ],
+  [
+   "required_privileges = [\"Fusion privileges to create and retrieve setup task CSV exports.\", \"Read access to the legal-entity, territory, addres",
+   1
+  ],
+  [
+   "side_effects = [\"Routes approved native reference-set creation through the core REST client.\", \"Routes approved BU and assignment impor",
+   1
+  ],
+  [
+   "side_effects = [\"Writes local preparation artifacts, validation receipts and execution evidence.\", \"Selected read-only GL validation se",
+   1
+  ],
+  [
+   "required_privileges = [\"Fusion privileges and OAuth scope authorizing the selected GL AccountCombinationService operation and ledger.\", \"Separ",
+   1
+  ],
+  [
+   "required_privileges = [\"Authorized access to Manage Project Plan Types and its FSM task export/import operations in the selected Fusion enviro",
+   1
+  ],
+  [
+   "side_effects = [\"Writes declared task planning/validation artifacts and the task-owned immutable create package through the documented ",
+   1
+  ],
+  [
+   "side_effects = [\"Writes declared task planning/validation artifacts, artifact registrations, state updates, skill-run records and token",
+   1
+  ],
+  [
+   "side_effects = [\"Writes local task blueprints, validation results, skill-run records and token-usage entries, and updates their project",
+   1
+  ],
+  [
+   "required_privileges = [\"Read access to projectStatusesLOV for current status identity and workflow-code resolution.\", \"Task export, UCM upload",
+   1
+  ],
+  [
+   "side_effects = [\"Reads Project Templates REST resources for discovery and verification.\", \"Executes approved REST create, update, end-d",
+   1
+  ],
+  [
+   "required_privileges = [\"Project Templates REST read access\", \"Project Templates REST create/update/delete-child access for the requested opera",
+   1
+  ],
+  [
+   "side_effects = [\"Reads workflow-selected rate-schedule baselines, operation metadata and supported references through the shared REST/e",
+   1
+  ],
+  [
+   "required_privileges = [\"Rate Schedules and requested subtype/reference REST read access for the selected workflow\", \"Public Workers REST read ",
+   1
+  ],
+  [
+   "side_effects = [\"Persists declared task plans, validation evidence, state and token-usage records through the listed core project servi",
+   1
+  ],
+  [
+   "side_effects = [\"Reads declared organization/classification, lookup and HDL metadata through core clients; consumes already registered ",
+   1
+  ],
+  [
+   "required_privileges = [\"Read organization classifications, lookup codes and HDL metadata.\", \"Upload and load Organization HDL when approved.\",",
+   1
+  ],
+  [
+   "side_effects = [\"Routes each explicitly approved immutable Organization HDL archive through core.data-loader.\", \"Performs read-only Dat",
+   1
+  ],
+  [
+   "required_privileges = [\"Fusion privileges required by core.data-loader for Organization HDL upload, initiation, status, and diagnostic retriev",
+   1
+  ],
+  [
+   "side_effects = [\"May submit one fixed parameterless OrgDenormJob after explicit approval and monitor only its returned request ID.\", \"W",
+   1
+  ],
+  [
+   "required_privileges = [\"Project Application Administrator or equivalent privilege to schedule and monitor Maintain Project Organizations\"]",
+   1
+  ],
+  [
+   "side_effects = [\"Writes offering-owned project artifacts, artifact registrations, declared state updates, skill-run records and token-u",
+   1
+  ],
+  [
+   "side_effects = [\"Preview \\u2014 GET-only BOSS reads and project artifact writes.\", \"Live \\u2014 ordered, approval-gated BOSS context bu",
+   1
+  ],
+  [
+   "required_privileges = [\"BOSS read access to provided algorithms and algorithm contexts\", \"BOSS create/update access to algorithm contexts for ",
+   1
+  ],
+  [
+   "side_effects = [\"Preview \\u2014 read-only Fusion Audit inventory and object-status checks through core.fusion-api.audit-setup.\", \"Live ",
+   1
+  ],
+  [
+   "required_privileges = [\"Fusion privileges appropriate to view and manage audit setup.\"]",
+   1
+  ],
+  [
+   "side_effects = [\"Reads seeded Data Integrator connector definitions through the approved Fusion BOSS REST client.\", \"May refresh the lo",
+   1
+  ],
+  [
+   "required_privileges = [\"BOSS read access for Data Integrator connector definitions\", \"Fusion REST access to create Data Integrator connector d",
+   1
+  ],
+  [
+   "side_effects = [\"Reads Data Integrator connector definitions through the approved Fusion BOSS REST client for exact post-registration v",
+   1
+  ],
+  [
+   "required_privileges = [\"BOSS read access for Data Integrator connector definitions\", \"Risk Cloud REST access to create connector definitions\"]",
+   1
+  ],
+  [
+   "side_effects = [\"Reads the Core-managed Risk Management search setting before owner coverage retrieval.\", \"Reads BOSS process, hierarch",
+   1
+  ],
+  [
+   "required_privileges = [\"Core-managed search-setting change requires the profile-option value management privilege.\", \"BOSS read access to Busi",
+   1
+  ],
+  [
+   "side_effects = [\"Reads BOSS Risk Management process-owner configuration and Fusion SCIM users and roles.\", \"After fresh customer approv",
+   1
+  ],
+  [
+   "required_privileges = [\"BOSS read access to Risk Management reference data and owner properties.\", \"Fusion SCIM read access and Advanced Acces",
+   1
+  ],
+  [
+   "side_effects = [\"Reads Fusion SCIM role memberships and user records during Risk Administrator coverage verification.\", \"Writes redacte",
+   1
+  ],
+  [
+   "required_privileges = [\"Read access to Fusion SCIM Roles and Users resources.\", \"Privilege to update membership of the Risk Administrator role",
+   1
+  ],
+  [
+   "side_effects = [\"Reads Core-managed FSM promotion-code and feature-choice evidence without changing Fusion setup.\", \"Writes redacted pr",
+   1
+  ],
+  [
+   "required_privileges = [\"Read access to Fusion FSM promotion-code and feature metadata.\"]",
+   1
+  ],
+  [
+   "side_effects = [\"Delegates read-only alert resolution to Alert Foundation.\", \"May enable or disable an allowlisted existing alert only ",
+   1
+  ],
+  [
+   "required_privileges = [\"Target-environment access to inspect and update the selected alerts, validated by Alert Foundation.\"]",
+   1
+  ],
+  [
+   "side_effects = [\"Writes a local BEN_ELIGY_PRFL.xml preparation artifact when conversion succeeds.\", \"Writes local BEN_PSTL_ZIP_RNG.xml ",
+   1
+  ],
+  [
+   "required_privileges = [\"GET access to /fscmRestApi/resources/11.13.18.05/commonLookupsLOV\", \"GET access to /fscmRestApi/resources/11.13.18.05/",
+   1
+  ],
+  [
+   "side_effects = [\"After explicit approval, submits one confirmed Benefits Extract ESS request through core.fusion-api.ess-job-submitter.",
+   1
+  ],
+  [
+   "required_privileges = [\"Fusion privileges to submit and monitor the confirmed Benefits Extract scheduled process.\"]",
+   1
+  ],
+  [
+   "businessObject = \"benefitBalances\"",
+   1
+  ],
+  [
+   "side_effects = [\"Reads selected-environment LOV resources when the active workflow authorizes reference validation.\"]",
+   1
+  ],
+  [
+   "required_privileges = [\"Read access to selected-environment LOV resources for supplied reference fields.\"]",
+   1
+  ],
+  [
+   "businessObject = \"benefitGroups\"",
+   1
+  ],
+  [
+   "side_effects = [\"Reads the selected-environment legalEmployersLov when the active workflow authorizes reference validation.\"]",
+   1
+  ],
+  [
+   "required_privileges = [\"Read access to the selected-environment legalEmployersLov for supplied LegalEmployer values.\"]",
+   1
+  ],
+  [
+   "businessObject = \"benefitReportingGroups\"",
+   1
+  ],
+  [
+   "side_effects = [\"Reads selected-environment LOV resources when the active workflow authorizes reference validation.\", \"Prepares local H",
+   1
+  ],
+  [
+   "required_privileges = [\"Read access to selected-environment LOV resources for supplied reference fields.\", \"HCM Data Loader privileges for an ",
+   1
+  ],
+  [
+   "businessObject = \"benefitSelfServiceConfigurations\"",
+   1
+  ],
+  [
+   "side_effects = [\"Reads selected-environment commonLookupsLOV when the active workflow authorizes reference validation.\"]",
+   1
+  ],
+  [
+   "required_privileges = [\"Read access to selected-environment commonLookupsLOV for supplied reference fields.\"]",
+   1
+  ],
+  [
+   "side_effects = [\"Reads selected-environment lookup and territory LOVs for supplied Update preferences values when the active workflow a",
+   1
+  ],
+  [
+   "required_privileges = [\"Read access to selected-environment commonLookupsLOV and territoriesLOV for supplied fields.\"]",
+   1
+  ],
+  [
+   "businessObject = \"benefitLegalDisclaimers\"",
+   1
+  ],
+  [
+   "side_effects = [\"Reads selected-environment benefitProgramsLOV and benefitPlansLOV when the active workflow authorizes reference valida",
+   1
+  ],
+  [
+   "required_privileges = [\"Read access to selected-environment benefit program and plan LOVs for supplied names.\"]",
+   1
+  ],
+  [
+   "side_effects = [\"Reads live Organization metadata and references through core services.\", \"Prepares local loader artifacts; uploads onl",
+   1
+  ],
+  [
+   "required_privileges = [\"Organization metadata, reference, UCM, and HCM Data Loader privileges.\"]",
+   1
+  ],
+  [
+   "businessObject = \"benefitRegulations\"",
+   1
+  ],
+  [
+   "businessObject = \"benefitYearPeriods\"",
+   1
+  ],
+  [
+   "side_effects = [\"Creates local validation, preview, and diagnostic artifacts.\", \"Reads selected-environment commonLookupsLOV when the a",
+   1
+  ],
+  [
+   "required_privileges = [\"Access to the target Fusion environment and privileges for the registered benefitYearPeriods Data Loader business obje",
+   1
+  ],
+  [
+   "businessObject = \"benefitPlanCopyParameters\"",
+   1
+  ],
+  [
+   "side_effects = [\"When required for a requested plan, merges the catalog-resolved Benefit Programs task into the selected active Run Boo",
+   1
+  ],
+  [
+   "required_privileges = [\"OAuth write access to /hcmRestApi/resources/latest/benefitPlanCopyParameters\", \"OAuth write access to the PackageConte",
+   1
+  ],
+  [
+   "businessObject = \"individualCompensationPlans\"",
+   1
+  ],
+  [
+   "businessObject = \"SalaryBasis\"",
+   1
+  ],
+  [
+   "businessObject = \"SalaryRangeDifferential\"",
+   1
+  ],
+  [
+   "businessObject = \"compensationGlobalSettings\"",
+   1
+  ],
+  [
+   "businessObject = \"CollectiveAgreements\"",
+   1
+  ],
+  [
+   "businessObject = \"DocumentType\"",
+   1
+  ],
+  [
+   "side_effects = [\"Reads Document Types, Delivery Preferences, countries, payroll statutory units, legal employers, and live API metadata",
+   1
+  ],
+  [
+   "required_privileges = [\"View or Manage Document Types and Document Type Delivery Preferences, as required by the operation\", \"HCM Data Loader ",
+   1
+  ],
+  [
+   "businessObject = \"ExtendedLookupCode\"",
+   1
+  ],
+  [
+   "businessObject = \"ActionReasons\"",
+   1
+  ],
+  [
+   "businessObject = \"Actions\"",
+   1
+  ],
+  [
+   "side_effects = [\"After exact approval, creates, edits, or deletes the selected profile value through core.fusion-api.apps-common.\"]",
+   1
+  ],
+  [
+   "required_privileges = [\"Access to read and change the selected profile option value.\"]",
+   1
+  ],
+  [
+   "side_effects = [\"After exact approval, creates, edits, or deletes the selected common lookup value through core.fusion-api.apps-common.",
+   1
+  ],
+  [
+   "required_privileges = [\"Access to read and change the selected common lookup value.\"]",
+   1
+  ],
+  [
+   "side_effects = [\"After exact approval, creates, edits, or deletes the selected descriptive flexfield configuration through core.fusion-",
+   1
+  ],
+  [
+   "required_privileges = [\"Access to read and change the selected descriptive flexfield configuration.\"]",
+   1
+  ],
+  [
+   "side_effects = [\"After exact approval, creates, edits, or deletes the selected extensible flexfield configuration through core.fusion-a",
+   1
+  ],
+  [
+   "required_privileges = [\"Access to read and change the selected extensible flexfield configuration.\"]",
+   1
+  ],
+  [
+   "side_effects = [\"After exact approval, creates, edits, or deletes the selected key flexfield configuration through core.fusion-api.apps",
+   1
+  ],
+  [
+   "required_privileges = [\"Access to read and change the selected key flexfield configuration.\"]",
+   1
+  ],
+  [
+   "side_effects = [\"After exact approval, creates, edits, or deletes the selected profile option through core.fusion-api.apps-common.\"]",
+   1
+  ],
+  [
+   "required_privileges = [\"Access to read and change the selected profile option.\"]",
+   1
+  ],
+  [
+   "side_effects = [\"After exact approval, creates, edits, or deletes the selected standard lookup value through core.fusion-api.apps-commo",
+   1
+  ],
+  [
+   "required_privileges = [\"Access to read and change the selected standard lookup value.\"]",
+   1
+  ],
+  [
+   "side_effects = [\"After exact approval, creates, edits, or deletes the selected value set configuration through core.fusion-api.apps-com",
+   1
+  ],
+  [
+   "required_privileges = [\"Access to read and change the selected value set configuration.\"]",
+   1
+  ],
+  [
+   "businessObject = \"Grade Ladder\"",
+   1
+  ],
+  [
+   "businessObject = \"Grade Rate\"",
+   1
+  ],
+  [
+   "businessObject = \"Grade\"",
+   1
+  ],
+  [
+   "businessObject = \"AORTemplate\"",
+   1
+  ],
+  [
+   "businessObject = \"Job\"",
+   1
+  ],
+  [
+   "businessObject = \"Job Family\"",
+   1
+  ],
+  [
+   "side_effects = [\"Hands the mandatory ManageLegalEntity synchronization for the uniquely resolved Legal Entity to core.data-loader befor",
+   1
+  ],
+  [
+   "required_privileges = [\"Read access to Legal Entity, Legal Employer, Payroll Statutory Unit, EFF metadata, and date-effective history resource",
+   1
+  ],
+  [
+   "side_effects = [\"Hands mandatory ManageLegalReportingUnit synchronization for the uniquely resolved LRU to core.data-loader before bran",
+   1
+  ],
+  [
+   "required_privileges = [\"Read access to LRU, Tax Reporting Unit, Reporting Establishment, EFF metadata, and history resources.\", \"Core Data Loa",
+   1
+  ],
+  [
+   "businessObject = \"LegislativeDataGroup\"",
+   1
+  ],
+  [
+   "businessObject = \"Location\"",
+   1
+  ],
+  [
+   "businessObject = \"NameFormat\"",
+   1
+  ],
+  [
+   "required_privileges = [\"Fusion privileges appropriate to read the requested person name style and import approved FSM setup data\"]",
+   1
+  ],
+  [
+   "businessObject = \"PersonType\"",
+   1
+  ],
+  [
+   "businessObject = \"AssignmentFlexfieldsMapping\"",
+   1
+  ],
+  [
+   "businessObject = \"Position Hierarchy\"",
+   1
+  ],
+  [
+   "side_effects = [\"Reads effective Position and hierarchy data from the confirmed Fusion environment.\", \"Authors a Position Hierarchy XLS",
+   1
+  ],
+  [
+   "required_privileges = [\"Access to positionsLov and positionsV2; Position Searches access when descendant or cycle evidence is required\", \"Mana",
+   1
+  ],
+  [
+   "businessObject = \"Position\"",
+   1
+  ],
+  [
+   "businessObject = \"PositionBudget\"",
+   1
+  ],
+  [
+   "businessObject = \"employmentSeniorityDateConfigurations\"",
+   1
+  ],
+  [
+   "businessObject = \"Payroll Balance Definition\"",
+   1
+  ],
+  [
+   "side_effects = [\"Read-only reference GET requests to the configured Fusion pod when live resolution is selected.\", \"Writes redacted res",
+   1
+  ],
+  [
+   "required_privileges = [\"Fusion privileges to view the selected LDG, defined balances, or balance groups.\"]",
+   1
+  ],
+  [
+   "businessObject = \"Balance Group Usage\"",
+   1
+  ],
+  [
+   "businessObject = \"PayrollConsolidationGroup\"",
+   1
+  ],
+  [
+   "businessObject = \"PayrollDefinition\"",
+   1
+  ],
+  [
+   "businessObject = \"PayrollTimeDefinition\"",
+   1
+  ],
+  [
+   "businessObject = \"Event Action\"",
+   1
+  ],
+  [
+   "businessObject = \"Event Group\"",
+   1
+  ],
+  [
+   "businessObject = \"OrganizationPaymentMethod\"",
+   1
+  ],
+  [
+   "businessObject = \"PaymentMethodOptions\"",
+   1
+  ],
+  [
+   "businessObject = \"ProcessFlows\"",
+   1
+  ],
+  [
+   "businessObject = \"RateDefinitionV2\"",
+   1
+  ],
+  [
+   "businessObject = \"ValuesDefinedByCriteria\"",
+   1
+  ],
+  [
+   "businessObject = \"FastFormula\"",
+   1
+  ],
+  [
+   "businessObject = \"UserDefinedTable\"",
+   1
+  ],
+  [
+   "side_effects = [\"After explicit approval, may submit one Assign Goal Plans ESS request through core.fusion-api.ess-job-submitter and po",
+   1
+  ],
+  [
+   "required_privileges = [\"Fusion privileges appropriate to manage the selected Goal Plan.\", \"Fusion privileges appropriate to submit and monitor",
+   1
+  ],
+  [
+   "side_effects = [\"After an exact preview and fresh explicit approval, may activate one exact Draft Communication Team only through the c",
+   1
+  ],
+  [
+   "required_privileges = [\"Authenticated access to Manage Communication Teams and the selected task import route\"]",
+   1
+  ],
+  [
+   "side_effects = [\"May prepare one FSM import archive that creates Campaign Communication Templates and/or changes only DesignStatusCode ",
+   1
+  ],
+  [
+   "required_privileges = [\"Fusion privileges to create and retrieve Manage Email Templates FSM imports and exports.\"]",
+   1
+  ],
+  [
+   "side_effects = [\"May submit one JSON batch-create POST for all included workbook Alert hierarchies after provider gates and one exact a",
+   1
+  ],
+  [
+   "required_privileges = [\"Fusion privileges appropriate to the selected eventAlerts operation; the product owner states the authenticated role u",
+   1
+  ],
+  [
+   "businessObject = \"alertInitiatorOnError\"",
+   1
+  ],
+  [
+   "businessObject = \"archiveTransactions\"",
+   1
+  ],
+  [
+   "businessObject = \"bypassApprovalsCases\"",
+   1
+  ],
+  [
+   "businessObject = \"businessProcessApprovalRules\"",
+   1
+  ],
+  [
+   "businessObject = \"businessProcessApprovalRulesTasks\"",
+   1
+  ],
+  [
+   "side_effects = [\"May execute an explicitly approved writeTaskConfiguration action through the registered businessProcessApprovalRulesTa",
+   1
+  ],
+  [
+   "side_effects = [\"May route an explicitly approved task-configuration write through the nested Configure task skill.\"]",
+   1
+  ],
+  [
+   "businessObject = \"personNotesVisibilityConfigurations\"",
+   1
+  ],
+  [
+   "required_privileges = [\"View access to Content Items when live read-only evidence is requested.\", \"Content Items task CSV import, plus Fusion ",
+   1
+  ],
+  [
+   "required_privileges = [\"View access to Content Types when live read-only evidence is requested.\", \"Content Types task CSV import and Fusion Do",
+   1
+  ],
+  [
+   "required_privileges = [\"View and export access to Educational Establishments when live read-only evidence is requested.\", \"Educational Establi",
+   1
+  ],
+  [
+   "side_effects = [\"May create local review-only proposal, validation, and traceability artifacts.\", \"May request a routed read-only stand",
+   1
+  ],
+  [
+   "required_privileges = [\"View access to Instance Qualifiers when live read-only evidence is requested.\"]",
+   1
+  ],
+  [
+   "required_privileges = [\"View access to Item Catalogs when live read-only evidence is requested.\", \"Item Catalogs task CSV import and Fusion Do",
+   1
+  ],
+  [
+   "side_effects = [\"May create local review-only input-normalization, requirement, proposal, validation, traceability, and skill-run artif",
+   1
+  ],
+  [
+   "required_privileges = [\"View and export access for the selected Profile Management setup tasks when live read-only evidence is requested.\", \"F",
+   1
+  ],
+  [
+   "side_effects = [\"Prepares and validates supported Profile Management HCM Data Loader artifacts.\", \"Submits an approved HCM Data Loader ",
+   1
+  ],
+  [
+   "required_privileges = [\"Read access required to validate target dependencies and exact target state.\", \"HCM Data Loader upload and initiation ",
+   1
+  ],
+  [
+   "side_effects = [\"May generate a standalone fillable guidance workbook without accessing Fusion or requiring an implementation project.\"",
+   1
+  ],
+  [
+   "required_privileges = [\"HRT_MANAGE_TALENT_PROFILE_RATING_MODEL_PRIV for the source-backed Profile Rating Models UI and REST resource in releas",
+   1
+  ],
+  [
+   "side_effects = [\"For an explicit current-state verification request, performs only GET calls against allowlisted HCM REST resources and",
+   1
+  ],
+  [
+   "required_privileges = [\"For read-only verification, Use REST Service - Talent Profile Types Read Only and the GET privileges required for the ",
+   1
+  ],
+  [
+   "required_privileges = [\"Read access to the target Data Loader metadata, templates, and required Question Library reference data when DAT gener",
+   1
+  ],
+  [
+   "required_privileges = [\"Read access to the target Data Loader metadata, templates, and required Questionnaire Templates reference data when DA",
+   1
+  ],
+  [
+   "required_privileges = [\"Read access to the target Data Loader metadata, templates, and required Questionnaires reference data when DAT generat",
+   1
+  ],
+  [
+   "required_privileges = [\"Read access to the target Data Loader metadata, templates, and required Questionnaire reference data when DAT generati",
+   1
+  ],
+  [
+   "side_effects = [\"For an explicit implementation request only, performs one bounded read-only Talent Notifications REST capability check",
+   1
+  ],
+  [
+   "required_privileges = [\"For implementation only, Manage Talent Notifications (HRT_MANAGE_TALENT_NOTIFICATIONS_PRIV)\"]",
+   1
+  ],
+  [
+   "side_effects = [\"Submits the Aggregate Oracle Touchpoints Data ESS request after an exact preview and explicit approval.\", \"Polls the s",
+   1
+  ],
+  [
+   "required_privileges = [\"Fusion access to submit and monitor Aggregate Oracle Touchpoints Data.\"]",
+   1
+  ],
+  [
+   "side_effects = [\"Synchronizes local generated task contexts and owner handoffs from verified Run Book bindings; no Fusion write in this",
+   1
+  ],
+  [
+   "required_privileges = [\"Run Book task read, add, and update privileges for the selected operations.\", \"Access to read the selected Touchpoints",
+   1
+  ],
+  [
+   "side_effects = [\"May submit an explicitly approved Learning Audience mutation through the selected Data Loader workflow.\", \"May create ",
+   1
+  ],
+  [
+   "required_privileges = [\"Access to the target Fusion environment and privileges for the selected read or mutation operation.\"]",
+   1
+  ],
+  [
+   "side_effects = [\"After live registration validation, exact preview, dependency validation, and fresh explicit approval, may create or u",
+   1
+  ],
+  [
+   "businessObject = \"learningCourses\"",
+   1
+  ],
+  [
+   "side_effects = [\"After live registration validation, an exact preview, applicable dependency resolution, and fresh explicit approval, m",
+   1
+  ],
+  [
+   "required_privileges = [\"Authenticated Data Loader access to the registered learningCourses business object\", \"Read-only access to learningCour",
+   1
+  ],
+  [
+   "businessObject = \"learningEvents\"",
+   1
+  ],
+  [
+   "side_effects = [\"After live registration validation, an exact row-scoped preview, and fresh explicit approval, may create or update eli",
+   1
+  ],
+  [
+   "required_privileges = [\"Authenticated Data Loader access to the registered learningEvents business object and supported components\", \"Read-onl",
+   1
+  ],
+  [
+   "businessObject = \"learningPaths\"",
+   1
+  ],
+  [
+   "side_effects = [\"After live registration validation, an exact preview, applicable activity resolution, and fresh explicit approval, may",
+   1
+  ],
+  [
+   "required_privileges = [\"Authenticated Data Loader access to the registered learningPaths business object and supported components\", \"Read-only",
+   1
+  ],
+  [
+   "businessObject = \"learningCatalogProfiles\"",
+   1
+  ],
+  [
+   "side_effects = [\"After separate exact-payload approval, one sparse name/description/visibility ADF batch update through unchanged share",
+   1
+  ],
+  [
+   "required_privileges = [\"Retrieval requires authenticated CAP root metadata/collection read and record-level visibility; HTTP success does not ",
+   1
+  ],
+  [
+   "side_effects = [\"After exact approval, may update an applicable supported profile-option value through the Application Profile Option F",
+   1
+  ],
+  [
+   "required_privileges = [\"Authenticated Data Loader access to the registered learningCommunities business object and supported components\", \"Aut",
+   1
+  ],
+  [
+   "businessObject = \"learningSelfPacedItems\"",
+   1
+  ],
+  [
+   "side_effects = [\"After Data Loader registration and contract validation, an immutable preview, and exact approval, may submit one suppo",
+   1
+  ],
+  [
+   "required_privileges = [\"Authenticated Data Loader access to the registered learningSelfPacedItems business object and its supported operations",
+   1
+  ],
+  [
+   "side_effects = [\"After task validation, an immutable preview, and fresh explicit approval, a child skill may submit one supported Learn",
+   1
+  ],
+  [
+   "required_privileges = [\"Authenticated access to the selected Data Loader BC REST business object through core.data-loader\", \"Read-only access ",
+   1
+  ],
+  [
+   "side_effects = [\"After live registration validation, an exact preview, request-scoped dependency resolution, current-state recheck, and",
+   1
+  ],
+  [
+   "side_effects = [\"Persists sanitized inventory, proposal, readiness and results in the active project.\", \"Intended configuration mutatio",
+   1
+  ],
+  [
+   "side_effects = [\"Writes sanitized plans, decisions, validation results and run records in the active implementation project.\", \"Externa",
+   1
+  ],
+  [
+   "required_privileges = [\"None for offline planning; exact environment and operation privileges must pass the selected provider's preflight befo",
+   1
+  ],
+  [
+   "businessObject = \"learningClassrooms\"",
+   1
+  ],
+  [
+   "side_effects = [\"May create one approved classroom through POST /hcmRestApi/resources/latest/learningClassrooms.\", \"May route an approv",
+   1
+  ],
+  [
+   "required_privileges = [\"Fusion privileges to read locations and classroom duplicate-check finders.\", \"Fusion privilege to create Learning Clas",
+   1
+  ],
+  [
+   "businessObject = \"learningInstructors\"",
+   1
+  ],
+  [
+   "side_effects = [\"Declared shared GETs may authenticate and read accessible people and instructors only after readiness.\", \"Creation use",
+   1
+  ],
+  [
+   "required_privileges = [\"WLF_MANAGE_TRAINING_RESOURCES\", \"WLF_MANAGE_TRAINING_RESOURCES_DATA\", \"PublicPerson data access and applicable shared ",
+   1
+  ],
+  [
+   "businessObject = \"learningTrainingSuppliers\"",
+   1
+  ],
+  [
+   "side_effects = [\"Persists offering scope, routing decisions and child work-product references in the active project; does not execute F",
+   1
+  ],
+  [
+   "side_effects = [\"Creates or updates Feedback Templates through explicitly approved REST POST or PATCH.\"]",
+   1
+  ],
+  [
+   "required_privileges = [\"Authenticated target-tenant Feedback Templates read before preview; Fusion authorizes the selected POST or PATCH at di",
+   1
+  ],
+  [
+   "businessObject = \"recruitingCESites\"",
+   1
+  ],
+  [
+   "side_effects = [\"May create and download a read-only Gig Descriptive Flexfields task CSV export through shared.setup-export.task-level-",
+   1
+  ],
+  [
+   "required_privileges = [\"Fusion privileges appropriate to export Gig Descriptive Flexfields setup data.\", \"Fusion privileges appropriate to upl",
+   1
+  ],
+  [
+   "side_effects = [\"Writes generated XML, packages, and immutable approval previews in the selected project workspace.\", \"Performs read-on",
+   1
+  ],
+  [
+   "required_privileges = [\"GET access to eligibilityProfilesLOV and the parent skill's declared target lookup resources.\", \"Parent skill Plan Cop",
+   1
+  ],
+  [
+   "side_effects = [\"Delegates one explicitly approved supported Site-, Product-, or User-level configured-value create, update, or delete ",
+   1
+  ],
+  [
+   "required_privileges = [\"FND_APP_MANAGE_ALL_PROFILE_VALUES_PRIV for configured-value mutation in the selected Fusion environment.\", \"Read acces",
+   1
+  ],
+  [
+   "side_effects = [\"May create and download a read-only Referral Descriptive Flexfields task CSV export through shared.setup-export.task-l",
+   1
+  ],
+  [
+   "required_privileges = [\"Fusion privileges appropriate to export Referral Descriptive Flexfields setup data.\", \"Fusion privileges appropriate t",
+   1
+  ],
+  [
+   "side_effects = [\"Delegates fresh Fusion setup task export creation, polling, and download to shared.setup-export.task-level-export.\", \"",
+   1
+  ],
+  [
+   "required_privileges = [\"Fusion privileges to discover and export Candidate Dimension Source Names setup data\", \"Fusion privileges to import se",
+   1
+  ],
+  [
+   "side_effects = [\"Delegates one explicitly approved lookup-code create or update to the shared Common Lookups capability.\", \"Delegates o",
+   1
+  ],
+  [
+   "required_privileges = [\"Read and applicable mutation access required by core.fusion-api.apps-common.lookups in the selected Fusion environment",
+   1
+  ],
+  [
+   "side_effects = [\"Delegates one explicitly approved supported child-value create, update, or delete to core.fusion-api.apps-common.value",
+   1
+  ],
+  [
+   "required_privileges = [\"Read and applicable child-value mutation access required by core.fusion-api.apps-common.value-sets in the selected Fus",
+   1
+  ],
+  [
+   "businessObject = \"absenceCategories\"",
+   1
+  ],
+  [
+   "businessObject = \"absencePlans\"",
+   1
+  ],
+  [
+   "businessObject = \"absenceReasons\"",
+   1
+  ],
+  [
+   "businessObject = \"absenceTypes\"",
+   1
+  ],
+  [
+   "businessObject = \"absenceCertifications\"",
+   1
+  ],
+  [
+   "businessObject = \"absenceLeaveAgreementTemplates\"",
+   1
+  ],
+  [
+   "businessObject = \"scheduleCommonSetups\"",
+   1
+  ],
+  [
+   "businessObject = \"scheduleGenerationProfiles\"",
+   1
+  ],
+  [
+   "businessObject = \"enterpriseShifts\"",
+   1
+  ],
+  [
+   "businessObject = \"workPatternTemplates\"",
+   1
+  ],
+  [
+   "businessObject = \"workDayDefinitions\"",
+   1
+  ],
+  [
+   "businessObject = \"timeConsumerSets\"",
+   1
+  ],
+  [
+   "businessObject = \"timeLayoutSetsV2\"",
+   1
+  ],
+  [
+   "businessObject = \"timeProfiles\"",
+   1
+  ],
+  [
+   "businessObject = \"timeDeviceMappingSets\"",
+   1
+  ],
+  [
+   "businessObject = \"timeDeviceMappings\"",
+   1
+  ],
+  [
+   "businessObject = \"timeDeviceExportDataDefinitions\"",
+   1
+  ],
+  [
+   "businessObject = \"advancedInventoryParameters\"",
+   1
+  ],
+  [
+   "businessObject = \"inventoryZoneTaskConfigurations\"",
+   1
+  ],
+  [
+   "businessObject = \"carriers\"",
+   1
+  ],
+  [
+   "businessObject = \"transitTimes\"",
+   1
+  ],
+  [
+   "businessObject = \"costAccountingCostAnalysisGroups\"",
+   1
+  ],
+  [
+   "businessObject = \"costAccountingCostBooks\"",
+   1
+  ],
+  [
+   "businessObject = \"costAccountingCostComponentMappingGroups\"",
+   1
+  ],
+  [
+   "businessObject = \"costAccountingCostElements\"",
+   1
+  ],
+  [
+   "businessObject = \"costOrganizations\"",
+   1
+  ],
+  [
+   "businessObject = \"costProfileDetails\"",
+   1
+  ],
+  [
+   "businessObject = \"costAccountingCostProfileDefaultingRules\"",
+   1
+  ],
+  [
+   "businessObject = \"costAccountingItemCostProfiles\"",
+   1
+  ],
+  [
+   "businessObject = \"costAccountingOverheadCostElementGroups\"",
+   1
+  ],
+  [
+   "businessObject = \"costAccountingOverheadExpensePools\"",
+   1
+  ],
+  [
+   "businessObject = \"costAccountingValuationStructures\"",
+   1
+  ],
+  [
+   "businessObject = \"costAccountingValuationUnits\"",
+   1
+  ],
+  [
+   "businessObject = \"scheduleExceptions\"",
+   1
+  ],
+  [
+   "businessObject = \"schedules\"",
+   1
+  ],
+  [
+   "businessObject = \"shifts\"",
+   1
+  ],
+  [
+   "businessObject = \"workdayPatterns\"",
+   1
+  ],
+  [
+   "businessObject = \"intrastatParameters\"",
+   1
+  ],
+  [
+   "businessObject = \"inventoryBarcodeFormats\"",
+   1
+  ],
+  [
+   "businessObject = \"inventoryAttributeExceptions\"",
+   1
+  ],
+  [
+   "businessObject = \"ruleConfigurationHeaders\"",
+   1
+  ],
+  [
+   "businessObject = \"Item Transaction Defaults\"",
+   1
+  ],
+  [
+   "businessObject = \"inventoryConsumptionRules\"",
+   1
+  ],
+  [
+   "businessObject = \"interOrganizationParameters\"",
+   1
+  ],
+  [
+   "businessObject = \"interSubinventoryParameters\"",
+   1
+  ],
+  [
+   "businessObject = \"inventoryBusinessEventConfigurations\"",
+   1
+  ],
+  [
+   "businessObject = \"inventoryTransactionReasonsV2\"",
+   1
+  ],
+  [
+   "businessObject = \"inventoryTransactionSources\"",
+   1
+  ],
+  [
+   "businessObject = \"inventoryZones\"",
+   1
+  ],
+  [
+   "businessObject = \"Inventory Descriptive Flexfield Context Mappings\"",
+   1
+  ],
+  [
+   "businessObject = \"inventoryLotExpirationActions\"",
+   1
+  ],
+  [
+   "businessObject = \"Inventory Lot Grades\"",
+   1
+  ],
+  [
+   "businessObject = \"inventorySearchViews\"",
+   1
+  ],
+  [
+   "businessObject = \"inventoryMaterialStatuses\"",
+   1
+  ],
+  [
+   "businessObject = \"pickSlipGroupingRules\"",
+   1
+  ],
+  [
+   "businessObject = \"inventoryPickingRuleAssignments\"",
+   1
+  ],
+  [
+   "businessObject = \"inventoryPickingRules\"",
+   1
+  ],
+  [
+   "businessObject = \"minMaxPolicyProfiles\"",
+   1
+  ],
+  [
+   "businessObject = \"unitOfMeasureUsages\"",
+   1
+  ],
+  [
+   "businessObject = \"landedCostCharges\"",
+   1
+  ],
+  [
+   "businessObject = \"landedCostReferenceTypes\"",
+   1
+  ],
+  [
+   "businessObject = \"landedCostRoutes\"",
+   1
+  ],
+  [
+   "businessObject = \"assetSystemOptions\"",
+   1
+  ],
+  [
+   "businessObject = \"assetConditionEventCodes\"",
+   1
+  ],
+  [
+   "businessObject = \"maintenanceOrganizationRelationships\"",
+   1
+  ],
+  [
+   "businessObject = \"workDefinitionDataSecurityObjects\"",
+   1
+  ],
+  [
+   "businessObject = \"plantParameters\"",
+   1
+  ],
+  [
+   "businessObject = \"workOrderStatuses\"",
+   1
+  ],
+  [
+   "businessObject = \"workAreas\"",
+   1
+  ],
+  [
+   "businessObject = \"workCenters\"",
+   1
+  ],
+  [
+   "businessObject = \"workOrderGroups\"",
+   1
+  ],
+  [
+   "businessObject = \"workstations\"",
+   1
+  ],
+  [
+   "businessObject = \"receivingOrganizationParameters\"",
+   1
+  ],
+  [
+   "businessObject = \"configureDefaultPackingUnits\"",
+   1
+  ],
+  [
+   "businessObject = \"releaseRules\"",
+   1
+  ],
+  [
+   "businessObject = \"releaseSequenceRules\"",
+   1
+  ],
+  [
+   "required_privileges = [\"Fusion read access to standard lookups when a friendly priority or sort value requires resolution.\"]",
+   1
+  ],
+  [
+   "businessObject = \"shipConfirmRules\"",
+   1
+  ],
+  [
+   "businessObject = \"configureShippingCostTypes\"",
+   1
+  ],
+  [
+   "businessObject = \"shippingExceptionConfigurations\"",
+   1
+  ],
+  [
+   "businessObject = \"configureShippingParameters\"",
+   1
+  ],
+  [
+   "side_effects = [\"Reads Shipping Parameters Data Loader metadata and approved standard lookup values through authorized read-only routes",
+   1
+  ],
+  [
+   "required_privileges = [\"Read access to Shipping Parameters metadata and the referenced standard lookup values in the selected Fusion environme",
+   1
+  ],
+  [
+   "businessObject = \"collaborationParameters\"",
+   1
+  ],
+  [
+   "businessObject = \"financialOrchestrationDocumentationAndAccountingRules\"",
+   1
+  ],
+  [
+   "businessObject = \"financialOrchestrationTradeAgreements\"",
+   1
+  ],
+  [
+   "businessObject = \"financialOrchestrationSystemOptions\"",
+   1
+  ],
+  [
+   "businessObject = \"financialOrchestrationQualifiers\"",
+   1
+  ],
+  [
+   "businessObject = \"financialOrchestrationManageDropshipAgreements\"",
+   1
+  ],
+  [
+   "side_effects = [\"Delegates supported DFF exports, approved FSM imports, and approved deployments to Apps Common.\"]",
+   1
+  ],
+  [
+   "required_privileges = [\"Fusion privileges appropriate to the selected FOS DFF and action\"]",
+   1
+  ],
+  [
+   "side_effects = [\"Delegates approved FOS lookup mutations and supported setup-data export/import to common workflows.\"]",
+   1
+  ],
+  [
+   "required_privileges = [\"Fusion privileges appropriate to the selected FOS Lookup Type or Lookup Code\"]",
+   1
+  ],
+  [
+   "businessObject = \"financialOrchestrationProfitCenterPartyRelations\"",
+   1
+  ],
+  [
+   "side_effects = [\"May register or update the third-party transfer-pricing service after explicit approval.\"]",
+   1
+  ],
+  [
+   "required_privileges = [\"Fusion setup privilege for the selected task and Topology Manager endpoint write access\"]",
+   1
+  ],
+  [
+   "businessObject = \"financialOrchestrationTransferPricingRules\"",
+   1
+  ],
+  [
+   "businessObject = \"channelClaimReasons\"",
+   1
+  ],
+  [
+   "businessObject = \"channelClaimSources\"",
+   1
+  ],
+  [
+   "businessObject = \"channelClaimTypes\"",
+   1
+  ],
+  [
+   "businessObject = \"omWebServiceDefinitions\"",
+   1
+  ],
+  [
+   "businessObject = \"omHoldDefinitions\"",
+   1
+  ],
+  [
+   "side_effects = [\"Reads Fusion hold-definition, role, set, and task metadata when the active workflow selects the documented read-only d",
+   1
+  ],
+  [
+   "required_privileges = [\"Privileges to view Order Management hold definitions and the referenced roles, reference sets, and task definitions in",
+   1
+  ],
+  [
+   "businessObject = \"qpParameterValues\"",
+   1
+  ],
+  [
+   "businessObject = \"omSalesOrderAttributePreferences\"",
+   1
+  ],
+  [
+   "side_effects = [\"Reads the current Revision Preferences attribute catalog when the active workflow selects the documented read-only RES",
+   1
+  ],
+  [
+   "required_privileges = [\"Manage Revision Preferences (FOM_MANAGE_REVISION_PREFERENCES)\", \"Privileges required by core.data-loader to validate, ",
+   1
+  ],
+  [
+   "businessObject = \"Price List\"",
+   1
+  ],
+  [
+   "side_effects = [\"Runs the approved Oracle workbook macro on a disposable copy to create a local Price Lists FBDI ZIP when requested.\", ",
+   1
+  ],
+  [
+   "required_privileges = [\"Fusion privileges required by core.data-loader for live Price List FBDI validation and submission.\", \"Fusion privilege",
+   1
+  ],
+  [
+   "side_effects = [\"Read-only pricing message and token attribute inventory calls connect to the selected Fusion environment and may refre",
+   1
+  ],
+  [
+   "required_privileges = [\"Read access to Pricing Messages and Pricing Message Token Attribute Definitions for live inventory requests\", \"Data Lo",
+   1
+  ],
+  [
+   "businessObject = \"externalPurchasePricesPurchaseAgreementDefaults\"",
+   1
+  ],
+  [
+   "side_effects = [\"Uses core.fusion-api.rest-api-client for selected read-only GET requests.\", \"Routes imports and all mutations to core.",
+   1
+  ],
+  [
+   "required_privileges = [\"Read privileges for current default-record retrieval.\", \"Applicable Procurement maintenance privileges for Data Loader",
+   1
+  ],
+  [
+   "businessObject = \"externalPurchasePricesBusinessUnits\"",
+   1
+  ],
+  [
+   "side_effects = [\"Delegates read-only Fusion metadata and mapping lookups to the declared core services after the selected workflow's pr",
+   1
+  ],
+  [
+   "required_privileges = [\"Offline planning requires no Fusion privilege; local artifact generation requires write access to the selected safe ou",
+   1
+  ],
+  [
+   "businessObject = \"externalPurchasePricesSelectionCriteria\"",
+   1
+  ],
+  [
+   "side_effects = [\"An explicitly selected task-local review may issue read-only Fusion GET requests and persist sanitized review evidence",
+   1
+  ],
+  [
+   "required_privileges = [\"View External Purchase Prices Selection Criteria privilege (or an equivalent grant) and access to the intended requisi",
+   1
+  ],
+  [
+   "businessObject = \"purchasingDocumentStyles\"",
+   1
+  ],
+  [
+   "businessObject = \"procurementAgents\"",
+   1
+  ],
+  [
+   "businessObject = \"procurementDocumentNumberings\"",
+   1
+  ],
+  [
+   "businessObject = \"purchasingLineTypes\"",
+   1
+  ],
+  [
+   "businessObject = \"supplierNegotiationCostFactorLists\"",
+   1
+  ],
+  [
+   "businessObject = \"supplierNegotiationCostFactors\"",
+   1
+  ],
+  [
+   "businessObject = \"sourcingNotificationSubscriptions\"",
+   1
+  ],
+  [
+   "businessObject = \"supplierOptions\"",
+   1
+  ],
+  [
+   "businessObject = \"supplierQualificationQuestions\"",
+   1
+  ],
+  [
+   "side_effects = [\"Reads notification settings, country document rows, attachment contracts, and country references from the selected Fus",
+   1
+  ],
+  [
+   "required_privileges = [\"Access to view and manage Supplier Notification configuration and attachments, as required by the operation.\", \"Data L",
+   1
+  ],
+  [
+   "businessObject = \"Supplier Address\"",
+   1
+  ],
+  [
+   "side_effects = [\"Prepares Supplier Address FBDI packages; local sample deliverables are created only when explicitly requested.\", \"Afte",
+   1
+  ],
+  [
+   "businessObject = \"Supplier Attachment\"",
+   1
+  ],
+  [
+   "side_effects = [\"Prepares Supplier Attachment FBDI packages; local sample deliverables are created only when explicitly requested.\", \"A",
+   1
+  ],
+  [
+   "businessObject = \"Supplier Business Classifications\"",
+   1
+  ],
+  [
+   "side_effects = [\"Prepares Supplier Business Classification FBDI packages; local sample deliverables are created only when explicitly re",
+   1
+  ],
+  [
+   "businessObject = \"Supplier Contact\"",
+   1
+  ],
+  [
+   "side_effects = [\"Prepares Supplier Contact FBDI packages; local sample deliverables are created only when explicitly requested.\", \"Afte",
+   1
+  ],
+  [
+   "businessObject = \"Supplier Products and Services Category\"",
+   1
+  ],
+  [
+   "side_effects = [\"Prepares Supplier Products and Services Category FBDI packages; local sample deliverables are created only when explic",
+   1
+  ],
+  [
+   "businessObject = \"Supplier Site Assignment\"",
+   1
+  ],
+  [
+   "side_effects = [\"Prepares Supplier Site Assignment FBDI packages; local sample deliverables are created only when explicitly requested.",
+   1
+  ],
+  [
+   "businessObject = \"Supplier Site\"",
+   1
+  ],
+  [
+   "side_effects = [\"Prepares Supplier Site FBDI packages; local sample deliverables are created only when explicitly requested.\", \"After a",
+   1
+  ],
+  [
+   "businessObject = \"Supplier\"",
+   1
+  ],
+  [
+   "side_effects = [\"Prepares Supplier FBDI packages; local sample deliverables are created only when explicitly requested.\", \"After approv",
+   1
+  ],
+  [
+   "businessObject = \"certifyingAgencies\"",
+   1
+  ],
+  [
+   "businessObject = \"Change Order\"",
+   1
+  ],
+  [
+   "side_effects = [\"Reads the current public Oracle template page, workbook, and linked control files over the network.\", \"Creates transie",
+   1
+  ],
+  [
+   "side_effects = [\"Creates project-local FSM CSV files and a ZIP package from Oracle task templates and the requested attribute definitio",
+   1
+  ],
+  [
+   "businessObject = \"productManagementESIndexedAttributes\"",
+   1
+  ],
+  [
+   "side_effects = [\"Persists the selected single-index request and its validation evidence under the project workspace; does not create or",
+   1
+  ],
+  [
+   "required_privileges = [\"Target-environment OAuth access and privileges to view productManagementESIndexedAttributes metadata and Data Loader d",
+   1
+  ],
+  [
+   "side_effects = [\"May delegate a read-only task-level CSV baseline export, which writes an export artifact under the selected project wo",
+   1
+  ],
+  [
+   "required_privileges = [\"Fusion privileges required by the selected task-level export workflow for a new category preflight\"]",
+   1
+  ],
+  [
+   "businessObject = \"itemImportMaps\"",
+   1
+  ],
+  [
+   "side_effects = [\"Reads itemClasses through core.fusion-api.rest-api-client for create-only ROOT_ICC defaulting on the REST Data Loader ",
+   1
+  ],
+  [
+   "required_privileges = [\"Fusion privileges to read itemClasses in the selected target environment.\", \"Fusion privileges to read standardLookups",
+   1
+  ],
+  [
+   "side_effects = [\"After exact approval, may submit deployment of the selected Item Extensible Flexfield through core.fusion-api.apps-com",
+   1
+  ],
+  [
+   "required_privileges = [\"Fusion privileges required by the selected setup-task export, Data Loader, and Item Extensible Flexfield deployment wo",
+   1
+  ],
+  [
+   "businessObject = \"itemStatuses\"",
+   1
+  ],
+  [
+   "businessObject = \"itemOperationalAttributeControlLevels\"",
+   1
+  ],
+  [
+   "businessObject = \"relatedItemTypes\"",
+   1
+  ],
+  [
+   "businessObject = \"unitOfMeasureClasses\"",
+   1
+  ],
+  [
+   "businessObject = \"unitsOfMeasure\"",
+   1
+  ],
+  [
+   "businessObject = \"interclassConversions\"",
+   1
+  ],
+  [
+   "businessObject = \"intraclassConversions\"",
+   1
+  ],
+  [
+   "businessObject = \"Planning Common\"",
+   1
+  ],
+  [
+   "side_effects = [\"Creates local CSV/ZIP preparation artifacts outside the repository; supplied files and existing outputs are never over",
+   1
+  ],
+  [
+   "side_effects = [\"Connects to each approved source Fusion environment and creates setup export processes when a source ZIP is not suppli",
+   1
+  ],
+  [
+   "required_privileges = [\"Fusion privileges appropriate to create and retrieve FSM CSV export packages in each source environment.\", \"Fusion pri",
+   1
+  ],
+  [
+   "required_privileges = [\"Fusion privileges appropriate to upload setup migration process files and run setup compare\"]",
+   1
+  ],
+  [
+   "required_privileges = [\"Fusion privileges appropriate to upload setup migration process files and run functional-area setup compare\"]",
+   1
+  ],
+  [
+   "required_privileges = [\"Fusion privileges appropriate to upload setup migration process files and run offering setup compare\"]",
+   1
+  ],
+  [
+   "required_privileges = [\"Fusion privileges appropriate to upload setup migration process files and run setup task compare\"]",
+   1
+  ],
+  [
+   "side_effects = [\"Read operations retrieve Topology Manager application endpoint configuration.\", \"Approved create, patch, and delete op",
+   1
+  ],
+  [
+   "required_privileges = [\"Authenticated access with the Topology Manager resource scope required by the selected route\"]",
+   1
+  ],
+  [
+   "side_effects = [\"Read operations retrieve target-environment information.\", \"FDOS OAuth may refresh its local gitignored token cache.\"]",
+   1
+  ],
+  [
+   "required_privileges = [\"Authenticated access to Topology Manager environment information and BOSS previous-release data\"]",
+   1
+  ],
+  [
+   "side_effects = [\"Writes security role guidance to the active project workspace.\", \"Registers the guidance report in the project artifac",
+   1
+  ],
+  [
+   "side_effects = [\"Makes approved read-only Fusion REST requests through the core REST client.\", \"Downloads fixed-origin Oracle App UI bu",
+   1
+  ],
+  [
+   "required_privileges = [\"Fusion privileges to read App UI metadata, setup values, and selected REST descriptions\", \"Fusion privileges to upload",
+   1
+  ],
+  [
+   "side_effects = [\"Connects to a Fusion environment when approved.\", \"Uses BOSS and Fusion REST read APIs to resolve setup targets and ch",
+   1
+  ],
+  [
+   "required_privileges = [\"Fusion privileges appropriate to read BOSS setup feature metadata, update Fusion Common feature selections, and refres",
+   1
+  ],
+  [
+   "required_privileges = [\"Fusion privileges appropriate to update feature opt-in choices and refresh setup feature selections\"]",
+   1
+  ],
+  [
+   "required_privileges = [\"Fusion privileges appropriate to update functional-area opt-in selections and refresh setup feature selections\"]",
+   1
+  ],
+  [
+   "required_privileges = [\"Fusion privileges appropriate to update offering opt-in selections and refresh setup feature selections\"]",
+   1
+  ],
+  [
+   "side_effects = [\"Updates local project state with confirmed implementation scope.\"]",
+   1
+  ],
+  [
+   "side_effects = [\"Creates project-local CSV extracts, a mapping CSV, and run metadata; does not change Fusion.\"]",
+   1
+  ],
+  [
+   "side_effects = [\"Connects to a Fusion environment when approved.\", \"Creates setup task or setup offering CSV export or template export ",
+   1
+  ],
+  [
+   "required_privileges = [\"Fusion privileges appropriate to create and retrieve FSM CSV export packages\"]",
+   1
+  ],
+  [
+   "side_effects = [\"Connects to a Fusion environment when approved.\", \"Uses the shared FSM CSV export engine to create setup task CSV expo",
+   1
+  ],
+  [
+   "required_privileges = [\"Fusion privileges appropriate to discover setup tasks and run setup task CSV export\"]",
+   1
+  ],
+  [
+   "side_effects = [\"Connects to a Fusion environment when approved.\", \"Submits setup task or setup offering CSV import processes that can ",
+   1
+  ],
+  [
+   "required_privileges = [\"Fusion privileges appropriate to create and retrieve FSM CSV import processes\"]",
+   1
+  ],
+  [
+   "side_effects = [\"Connects to a Fusion environment when approved.\", \"Submits setup functional-area CSV import processes that can change ",
+   1
+  ],
+  [
+   "required_privileges = [\"Fusion privileges appropriate to discover setup feature codes and run setup offering CSV import scoped by FunctionalAr",
+   1
+  ],
+  [
+   "side_effects = [\"Connects to a Fusion environment when approved.\", \"Submits setup offering CSV import processes that can change Fusion ",
+   1
+  ],
+  [
+   "required_privileges = [\"Fusion privileges appropriate to discover setup feature codes and run setup offering CSV import\"]",
+   1
+  ],
+  [
+   "side_effects = [\"Connects to a Fusion environment when approved.\", \"Submits setup task CSV import processes that can change Fusion conf",
+   1
+  ],
+  [
+   "required_privileges = [\"Fusion privileges appropriate to discover setup tasks and run setup task CSV import\"]",
+   1
+  ]
+ ],
+ "fscr_comment_tags": [
+  [
+   "fscr-supported-operations",
+   18
+  ],
+  [
+   "fscr-create-fields",
+   16
+  ],
+  [
+   "fscr-update-fields",
+   16
+  ],
+  [
+   "fscr-evidence-unresolved-operations",
+   1
+  ]
+ ],
+ "files_next_to_SKILL_md": [
+  [
+   "SKILL.md",
+   1124
+  ],
+  [
+   "ora-resource/",
+   603
+  ],
+  [
+   "scripts/",
+   136
+  ],
+  [
+   "references/",
+   86
+  ],
+  [
+   "assets/",
+   20
+  ],
+  [
+   "e2e-adapter.json",
+   16
+  ],
+  [
+   "agents/",
+   10
+  ],
+  [
+   "manage-common-lookups/",
+   10
+  ],
+  [
+   "manage-administrator-profile-values/",
+   9
+  ],
+  [
+   "manage-descriptive-flexfields/",
+   9
+  ],
+  [
+   "manage-profile-options/",
+   9
+  ],
+  [
+   "manage-value-sets/",
+   9
+  ],
+  [
+   "manage-extensible-flexfields/",
+   8
+  ],
+  [
+   "manage-key-flexfields/",
+   7
+  ],
+  [
+   "manage-standard-lookups/",
+   7
+  ],
+  [
+   "schemas/",
+   5
+  ],
+  [
+   "manage-hcm-role-provisioning-rules/",
+   3
+  ],
+  [
+   "resources/",
+   3
+  ],
+  [
+   "sample-run-input.yaml",
+   2
+  ],
+  [
+   "bulk-user-role-provisioning/",
+   2
+  ],
+  [
+   "manage-data-security-policies/",
+   2
+  ],
+  [
+   "manage-duties/",
+   2
+  ],
+  [
+   "manage-hcm-ldap-user-account-options/",
+   2
+  ],
+  [
+   "manage-job-roles/",
+   2
+  ],
+  [
+   "manage-security-fsm-skill/",
+   2
+  ],
+  [
+   "user-security-common/",
+   2
+  ],
+  [
+   "manage-help-security-groups.md",
+   2
+  ],
+  [
+   "users-and-security/",
+   2
+  ],
+  [
+   "manage-audit-policies/",
+   2
+  ],
+  [
+   "accounts-and-contacts/",
+   2
+  ],
+  [
+   "skill.md",
+   2
+  ],
+  [
+   "activate-algorithms/",
+   2
+  ],
+  [
+   "add-other-data-sources/",
+   2
+  ],
+  [
+   "document-types/",
+   2
+  ],
+  [
+   "manage-extended-lookup-codes/",
+   2
+  ],
+  [
+   "goal-library/",
+   2
+  ],
+  [
+   "best-practice-rules/",
+   2
+  ],
+  [
+   "manage-reference-data-sets/",
+   2
+  ],
+  [
+   "templates/",
+   2
+  ],
+  [
+   "items/",
+   2
+  ],
+  [
+   "product-recall-management/",
+   2
+  ],
+  [
+   "manage-change-order-and-new-item-request-header-descriptive-flexfields/",
+   2
+  ],
+  [
+   "config/",
+   1
+  ],
+  [
+   "fscr-task-rest/",
+   1
+  ],
+  [
+   "task-hook/",
+   1
+  ],
+  [
+   "task-rest/",
+   1
+  ],
+  [
+   "task-validator/",
+   1
+  ],
+  [
+   "attachments/",
+   1
+  ],
+  [
+   "descriptive-flexfields/",
+   1
+  ],
+  [
+   "extensible-flexfields/",
+   1
+  ],
+  [
+   "key-flexfields/",
+   1
+  ],
+  [
+   "lookups/",
+   1
+  ],
+  [
+   "profile-options/",
+   1
+  ],
+  [
+   "trees/",
+   1
+  ],
+  [
+   "value-sets/",
+   1
+  ],
+  [
+   "examples/",
+   1
+  ],
+  [
+   "import-user-login-history.md",
+   1
+  ],
+  [
+   "import-users-and-roles-into-application-security.md",
+   1
+  ],
+  [
+   "manage-applications-security-preferences.md",
+   1
+  ],
+  [
+   "manage-configuration-set-migration-target-security-policy.md",
+   1
+  ]
+ ],
+ "e2e_adapter_top_keys": [
+  [
+   "capabilities",
+   16
+  ],
+  [
+   "deletionPolicy",
+   16
+  ],
+  [
+   "entrypoints",
+   16
+  ],
+  [
+   "generation",
+   16
+  ],
+  [
+   "normalization",
+   16
+  ],
+  [
+   "package",
+   16
+  ],
+  [
+   "protocol",
+   16
+  ],
+  [
+   "schemaVersion",
+   16
+  ],
+  [
+   "semanticModel",
+   16
+  ],
+  [
+   "task",
+   16
+  ],
+  [
+   "reconciliationPolicy",
+   15
+  ],
+  [
+   "classification",
+   10
+  ],
+  [
+   "cleanupPolicy",
+   1
+  ]
+ ],
+ "scripts_names": [
+  [
+   "fsm_task_adapter.py",
+   16
+  ],
+  [
+   "task_adapter.py",
+   6
+  ],
+  [
+   "fusion_skill_paths.py",
+   4
+  ],
+  [
+   "resolve_lookup_prerequisites.py",
+   2
+  ],
+  [
+   "openapi_output_formatter.py",
+   2
+  ],
+  [
+   "library_goal_payload.py",
+   2
+  ],
+  [
+   "find_setup_task_code.py",
+   2
+  ],
+  [
+   "setup_task_csv_support.py",
+   2
+  ],
+  [
+   "fusion_auth.py",
+   1
+  ],
+  [
+   "fusion_auth_setup.py",
+   1
+  ],
+  [
+   "fusion_login.py",
+   1
+  ],
+  [
+   "linux_private_storage.py",
+   1
+  ],
+  [
+   "windows_private_storage.py",
+   1
+  ],
+  [
+   "artifact_xlsx_writer.cjs",
+   1
+  ],
+  [
+   "cx_import_integrity.py",
+   1
+  ],
+  [
+   "data_loader_metadata.py",
+   1
+  ],
+  [
+   "data_loader_report.py",
+   1
+  ],
+  [
+   "data_loader_visual.py",
+   1
+  ],
+  [
+   "generate_sample_dat.py",
+   1
+  ],
+  [
+   "get_data_load_info.py",
+   1
+  ],
+  [
+   "get_key_attributes.py",
+   1
+  ],
+  [
+   "get_mandatory_attributes.py",
+   1
+  ],
+  [
+   "rest_sample_data.py",
+   1
+  ],
+  [
+   "upload_and_initiate.py",
+   1
+  ],
+  [
+   "validate_data_load_file.py",
+   1
+  ],
+  [
+   "xlsx_sample_workbook.py",
+   1
+  ],
+  [
+   "task_hook.py",
+   1
+  ],
+  [
+   "workflow_agent_invoker.py",
+   1
+  ],
+  [
+   "trees.py",
+   1
+  ],
+  [
+   "audit_setup.py",
+   1
+  ],
+  [
+   "cx_import_approval.py",
+   1
+  ],
+  [
+   "cx_import_export_job.py",
+   1
+  ],
+  [
+   "ess_job_submitter.py",
+   1
+  ],
+  [
+   "available-setup-entities.py",
+   1
+  ],
+  [
+   "fa-feature-tl-tasks.py",
+   1
+  ],
+  [
+   "merge_offering_fa_feature_tl_task_bo_batches.py",
+   1
+  ],
+  [
+   "offering-fa-feature-tasks.py",
+   1
+  ],
+  [
+   "offering-fa-feature-tl-task-bo.py",
+   1
+  ],
+  [
+   "offering-fa-feature.py",
+   1
+  ],
+  [
+   "parent-child-feature-hierarchy.py",
+   1
+  ]
+ ]
+}

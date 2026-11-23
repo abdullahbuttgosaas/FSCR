@@ -1,0 +1,61 @@
+seq,task,task_code,stage,oracle_type,has_route,says_manual,has_prerequisite,plan_depends_on
+1,Manage Approval Groups,ORA_MANAGE_APPROVAL_GROUPS,Procurement - Suppliers,Manual Task,False,True,False,0
+2,Manage Procurement Agents,PO_MANAGE_PROCUREMENT_AGENTS,Procurement - Suppliers,Import and Load Data,True,False,False,0
+3,Manage Procurement Category Hierarchy,POR_MANAGE_AGENT_ASSIGNMENTS_CATEGORY_HIERARCHY,Procurement - Procurement Foundation,Import and Load Data,True,False,False,0
+4,Manage Payment Terms,AP_MANAGE_PAYMENT_TERMS,Procurement - Procurement Foundation,Import and Load Data,True,False,False,0
+5,Manage Units of Measure,INV_MANAGE_UNITS_OF_MEASURE,Procurement - Procurement Foundation,Import and Load Data,True,False,False,0
+6,Manage Carriers Lookups,ORA_RCS_MANAGE_SHIPPING_LOOKUPS,Procurement - Procurement Foundation,Manual Task,False,True,False,0
+7,Manage Carriers,WSH_MANAGE_CARRIERS,Procurement - Procurement Foundation,Import and Load Data,True,False,False,0
+8,Manage FOB Lookup,PO_MANAGE_FOB_LOOKUP,Procurement - Procurement Foundation,Manual Task,False,True,False,0
+9,Manage Freight Terms Lookup,PO_MANAGE_FREIGHT_TERM_LOOKUP,Procurement - Procurement Foundation,Manual Task,False,True,False,0
+10,Manage Purchasing Profile Options,PO_MANAGE_PURCHASING_PROFILE_OPTIONS,Procurement - Procurement Foundation,Manual Task,False,True,False,0
+11,Manage Procurement Document Numbering,ORA_PO_MANAGE_PROCUREMENT_DOCUMENT_NUMBERING,Procurement - Procurement Foundation,Import and Load Data,True,False,False,0
+12,Manage Purchasing Line Types,PO_MANAGE_PURCHASING_LINE_TYPES,Procurement - Procurement Foundation,Import and Load Data,True,False,False,0
+13,Manage Document Styles,PO_MANAGE_DOCUMENT_STYLES,Procurement - Procurement Foundation,Import and Load Data,True,False,False,0
+14,Configure Procurement Business Function,PO_CONFIGURE_PROCUREMENT_BUSINESS_FUNCTION,Procurement - Procurement Foundation,Manual Task,False,True,False,0
+15,Configure Requisitioning Business Function,POR_CONFIGURE_REQUISITIONING_BUSINESS_FUNCTION,Procurement - Procurement Foundation,Import and Load Data,True,False,False,0
+16,Manage Common Options for Payables and Procurement,AP_MANAGE_COMMON_OPTIONS_FOR_PAYABLES_AND_PROCUREMENT,Procurement - Procurement Foundation,Import and Load Data,True,False,False,0
+17,Manage Requisition Approvals,POR_MANAGE_REQUISITION_APPROVALS,Procurement - Approval Management,Manual Task,False,True,False,0
+18,Manage Supplier Negotiation Approvals,ORA_PON_MANAGE_NEG_APPROVALS,Procurement - Approval Management,Manual Task,False,True,False,0
+19,Manage Supplier Negotiation Award Approvals,ORA_PON_MANAGE_NEG_AWARD_APPROVALS,Procurement - Approval Management,Manual Task,False,True,False,0
+20,Manage Purchasing Document Approvals,PO_MANAGE_PURCHASING_DOCUMENT_APPROVALS,Procurement - Approval Management,Manual Task,False,True,False,0
+21,Manage Internal Supplier Registration Approvals,ORA_POZ_MANAGE_INTERNAL_SUPPLIER_REGISTRATION_APPROVALS,Procurement - Approval Management,Import and Load Data,True,False,False,0
+22,Manage Supplier Registration Approvals,ORA_POZ_MANAGE_SUPPLIER_REGISTRATION_APPROVALS,Procurement - Approval Management,Import and Load Data,True,False,False,0
+23,Manage Supplier Spend Authorization Approvals,ORA_POZ_MANAGE_SUPPLIER_SPEND_AUTHORIZATION_APPROVALS,Procurement - Approval Management,Import and Load Data,True,False,False,0
+24,Manage Internal Supplier Profile Change Approvals,ORA_POZ_MANAGE_INTERNAL_SUPPLIER_PROFILE_CHANGE_APPROVALS,Procurement - Approval Management,Import and Load Data,True,False,False,0
+25,Manage Supplier Profile Change Approvals,ORA_POZ_MANAGE_SUPPLIER_PROFILE_CHANGE_APPROVALS,Procurement - Approval Management,Import and Load Data,True,False,False,0
+26,Manage External Purchase Price Approvals,ORA_SCH_MANAGE_EXTERNAL_PURCHASE_PRICE_APPROVALS,Procurement - Approval Management,Manual Task,False,True,False,0
+27,Manage Task Configurations for Procurement,PO_MANAGE_TASK_CONFIGURATIONS,Procurement - Approval Management,Manual Task,False,True,False,0
+28,Manage Work Confirmation Approvals,ORA_PO_MANAGE_WORK_CONFIRMATION_APPROVALS,Procurement - Approval Management,Manual Task,False,True,False,0
+29,Manage Intake Request Approvals,ORA_PO_MANAGE_INTAKE_REQUEST_APPROVALS,Procurement - Approval Management,Manual Task,False,True,False,0
+30,Manage Subledger Application,XLA_MANAGE_SUBLEDGER_APPLICATION,Procurement - Procurement Transaction Account Rules,Manual Task,False,True,False,0
+31,Update Subledger Application Options,XLA_UPDATE_SUBLEDGER_APPLICATION_OPTIONS,Procurement - Procurement Transaction Account Rules,Manual Task,False,True,False,0
+32,Manage Sources,XLA_MANAGE_SOURCES,Procurement - Procurement Transaction Account Rules,Manual Task,False,True,False,0
+33,Manage User-Defined Formulas,ORA_XLA_MANAGE_FORMULA,Procurement - Procurement Transaction Account Rules,Manual Task,False,True,False,0
+34,Manage Mapping Sets,XLA_MANAGE_MAPPING_SET,Procurement - Procurement Transaction Account Rules,Manual Task,False,True,False,0
+35,Manage Account Rules,XLA_MANAGE_ACCOUNT_RULE,Procurement - Procurement Transaction Account Rules,Manual Task,False,True,False,0
+36,Manage Transaction Account Types,XLA_MANAGE_TRANSACTION_ACCOUNT_TYPES,Procurement - Procurement Transaction Account Rules,Manual Task,False,True,False,0
+37,Manage Transaction Account Definitions,XLA_MANAGE_TRANSACTION_ACCOUNT_DEFINITION,Procurement - Procurement Transaction Account Rules,Manual Task,False,True,False,0
+38,Manage Subledger Accounting Options,XLA_MANAGE_SUBLEDGER_ACCOUNTING_OPTIONS,Procurement - Procurement Transaction Account Rules,Manual Task,False,True,False,0
+39,Manage Requisition Descriptive Flexfields,POR_MANAGE_REQUISITION_DESCRIPTIVE_FLEXFIELDS,Procurement - Purchasing Foundation,Import and Load Data,True,False,False,0
+40,Manage Requisition Value Sets,POR_MANAGE_REQUISITION_VALUE_SETS,Procurement - Purchasing Foundation,Import and Load Data,True,False,False,0
+41,Manage Information Template Descriptive Flexfields,POR_MANAGE_INFORMATION_TEMPLATE_DESCRIPTIVE_FLEXFIELDS,Procurement - Self Service Procurement,Import and Load Data,True,False,False,0
+42,Manage Information Template Value Sets,POR_MANAGE_INFORMATION_TEMPLATE_VALUE_SETS,Procurement - Self Service Procurement,Import and Load Data,True,False,False,0
+43,Manage Self Service Procurement Profile Options,POR_MANAGE_SELF_SERVICE_PROCUREMENT_PROFILE_OPTIONS,Procurement - Self Service Procurement,Import and Load Data,True,False,False,0
+44,Manage Catalog Category Hierarchy,POR_MANAGE_CATALOG_CATEGORY_HIERARCHY,Procurement - Self Service Procurement,Import and Load Data,True,False,False,0
+45,Manage Self Service Procurement Messages,ORA_POR_MANAGE_SELF_SERVICE_PROCUREMENT_MESSAGES,Procurement - Self Service Procurement,Manual Task,False,True,False,0
+46,Manage Corporate Card Issuers,EXM_MANAGE_CORPORATE_CARD_ISSUERS,Procurement - Self Service Procurement,Manual Task,False,True,False,0
+47,Manage Corporate Card Programs,EXM_MANAGE_CORPORATE_CARD_PROGRAMS,Procurement - Self Service Procurement,Manual Task,False,True,False,0
+48,Manage Corporate Cards,EXM_MANAGE_CORPORATE_CARDS,Procurement - Self Service Procurement,Manual Task,False,True,False,0
+49,Specify Supplier Contract Management Business Function Properties,OKC_SPECIFY_PROCUREMENT_CONTRACT_MGMT_BUSINESS_FUNC_PROP,Procurement - Procurement Contracts,Manual Task,False,True,False,0
+50,Manage Task Configurations for Customer Relationship Management,ZBS_MANAGE_TASK_CONFIGURATIONS,Procurement - Procurement Contracts,Manual Task,False,True,False,0
+51,Manage Task Configurations for Incentive Compensation,CN_MANAGE_TASK_CONFIGURATIONS,Procurement - Procurement Contracts,Manual Task,False,True,False,0
+52,Manage Contract Terms Value Sets,OKC_MANAGE_CONTRACT_TERMS_VALUE_SETS,Procurement - Procurement Contracts,Manual Task,False,True,False,0
+53,Manage Contract Clause Types,OKC_MANAGE_CLAUSE_AND_TEMPLATE_MANAGEMENT_LOOKUPS,Procurement - Procurement Contracts,Manual Task,False,True,False,0
+54,Manage Contract Terms Descriptive Flexfields,ORA_OKC_MANAGE_CONTRACT_TERMS_DESCRIPTIVE_FLEXFIELDS,Procurement - Procurement Contracts,Manual Task,False,True,False,0
+55,Specify Contract Clause Import XML File Location,OKC_MANAGE_CLAUSE_AND_TEMPLATE_MANAGEMENT_PROFILES,Procurement - Procurement Contracts,Manual Task,False,True,False,0
+56,Manage Contract and Procurement System Integrations,OKC_MANAGE_CONTRACTS_DELIVERABLE_PROCUREMENT_SYSTEM_LOOKUPS,Procurement - Procurement Contracts,Manual Task,False,True,False,0
+57,Manage Contract Line Types,OKC_MANAGE_CONTRACT_LINE_TYPES,Procurement - Procurement Contracts,Manual Task,False,True,False,0
+58,Manage Compliance Checklist Questions,ORA_PO_COMPLIANCE_CHECKLIST_QUESTIONS,Procurement - Compliance Checklists,Manual Task,False,True,False,0
+59,Manage Compliance Checklist Sections,ORA_PO_COMPLIANCE_CHECKLIST_SECTIONS,Procurement - Compliance Checklists,Manual Task,False,True,False,0
+60,Manage Compliance Checklist Templates,ORA_PO_COMPLIANCE_CHECKLIST_TEMPLATES,Procurement - Compliance Checklists,Manual Task,False,True,False,0

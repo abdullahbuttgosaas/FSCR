@@ -1,0 +1,302 @@
+# Evidence pack index
+
+Copies of FSCR run outputs that support the Common Features result (Run 29), the calendar ripple test (Runs 21-22) and the gap fills (Runs 24-28). Originals are untouched. Repo copies (`fscr-work*`) and the sign-in `work/auth` folder of Run 25 were left out. Run 30 results are not copied here; they are in `_fscr_run_30_common_features_test` and are shown in `screenshots/`.
+
+- `LIFECYCLE.md` : which of the 7 GoSaaS delivery lifecycle phases FSCR helped in, with evidence
+
+## coverage
+
+- `coverage/area_counts.csv` : Run 29: Common Features tasks per functional area, by coverage level (route+instructions / route only / none)
+- `coverage/common_features_tasks.csv` : Run 29: all 144 Common Features tasks, one row each, with level, skill paths and CSV/REST flags
+- `coverage/tracker_row.csv` : Run 29: proposed tracker row for ERP / Common Features
+- `coverage/unlinked_mentions.csv` : Run 29: 17 no-skill tasks that FSCR files still mention
+
+## gap_fills
+
+- `gap_fills/_gap_fills/README.md` : Gap-fill index: the 2 skills we wrote, what gap each fills, and test dates
+- `gap_fills/_gap_fills/alternate-name-mapping-rules/CHANGELOG.md` : Gap-fill skill change history after the cold tests
+- `gap_fills/_gap_fills/alternate-name-mapping-rules/SKILL.md` : Gap-fill skill: instructions FSCR was missing
+- `gap_fills/_gap_fills/alternate-name-mapping-rules/scripts/verify_rules.py` : Script used in this run
+- `gap_fills/_gap_fills/journal-categories/CHANGELOG.md` : Gap-fill skill change history after the cold tests
+- `gap_fills/_gap_fills/journal-categories/SKILL.md` : Gap-fill skill: instructions FSCR was missing
+- `gap_fills/_gap_fills/journal-categories/scripts/build_package.py` : Script used in this run
+- `gap_fills/_gap_fills/journal-categories/scripts/compare_exports.py` : Script used in this run
+- `gap_fills/_gap_fills/journal-categories/scripts/rest_read_categories.py` : Script used in this run
+- `gap_fills/run_24_fill_route_only/RUN_REPORT.md` : Run report: result, numbers and proof for this run
+- `gap_fills/run_24_fill_route_only/finish_time.txt` : Time log for this run
+- `gap_fills/run_24_fill_route_only/start_time.txt` : Time log for this run
+- `gap_fills/run_24_fill_route_only/verify_rows.csv` : Read-back proof that the new test records exist in ETIA-TEST
+- `gap_fills/run_24_fill_route_only/evidence/export_existing.log` : Oracle setup export (journal categories) before/after the change, proving 3 rows were added
+- `gap_fills/run_24_fill_route_only/evidence/export_verify.log` : Oracle setup export (journal categories) before/after the change, proving 3 rows were added
+- `gap_fills/run_24_fill_route_only/evidence/fscr_hashes_start.md5` : Evidence file for the gap-fill run (probe, log or response)
+- `gap_fills/run_24_fill_route_only/evidence/import_attempt1.log` : Oracle import run and its result/log
+- `gap_fills/run_24_fill_route_only/evidence/import_attempt1_start.txt` : Oracle import run and its result/log
+- `gap_fills/run_24_fill_route_only/evidence/probe_results.json` : Evidence file for the gap-fill run (probe, log or response)
+- `gap_fills/run_24_fill_route_only/evidence/verify_rest_journalCategoriesLOV.json` : Read-back proof that the new test records exist in ETIA-TEST
+- `gap_fills/run_24_fill_route_only/evidence/import_attempt1/ETIA-TEST_setup_task_csv_import_gl_manage_journal_categories_100004736418670.json` : Oracle import run and its result/log
+- `gap_fills/run_24_fill_route_only/evidence/import_attempt1/ETIA-TEST_setup_task_csv_import_gl_manage_journal_categories_100004736418670_process_log.txt` : Oracle import run and its result/log
+- `gap_fills/run_24_fill_route_only/export_existing/ETIA-TEST_setup_task_csv_export_gl_manage_journal_categories_100004736427669.zip` : Oracle setup export (journal categories) before/after the change, proving 3 rows were added
+- `gap_fills/run_24_fill_route_only/export_existing/unz/ASM_SETUP_CSV_METADATA.xml` : Oracle setup export (journal categories) before/after the change, proving 3 rows were added
+- `gap_fills/run_24_fill_route_only/export_existing/unz/GL_JOURNAL_CATEGORY_DEF.csv` : Oracle setup export (journal categories) before/after the change, proving 3 rows were added
+- `gap_fills/run_24_fill_route_only/export_existing/unz/GL_JOURNAL_CATEGORY_DEF_TRANSLATION.csv` : Oracle setup export (journal categories) before/after the change, proving 3 rows were added
+- `gap_fills/run_24_fill_route_only/export_verify/ETIA-TEST_setup_task_csv_export_gl_manage_journal_categories_100004737393007.zip` : Oracle setup export (journal categories) before/after the change, proving 3 rows were added
+- `gap_fills/run_24_fill_route_only/export_verify/unz/ASM_SETUP_CSV_METADATA.xml` : Oracle setup export (journal categories) before/after the change, proving 3 rows were added
+- `gap_fills/run_24_fill_route_only/export_verify/unz/GL_JOURNAL_CATEGORY_DEF.csv` : Oracle setup export (journal categories) before/after the change, proving 3 rows were added
+- `gap_fills/run_24_fill_route_only/export_verify/unz/GL_JOURNAL_CATEGORY_DEF_TRANSLATION.csv` : Oracle setup export (journal categories) before/after the change, proving 3 rows were added
+- `gap_fills/run_24_fill_route_only/payload/ASM_SETUP_CSV_METADATA.xml` : Payload sent to Oracle for the test records
+- `gap_fills/run_24_fill_route_only/payload/GL_JOURNAL_CATEGORY_DEF.csv` : Payload sent to Oracle for the test records
+- `gap_fills/run_24_fill_route_only/payload/GL_JOURNAL_CATEGORY_DEF_TRANSLATION.csv` : Payload sent to Oracle for the test records
+- `gap_fills/run_24_fill_route_only/payload/gl_journal_categories_fscrt.zip` : Payload sent to Oracle for the test records
+- `gap_fills/run_24_fill_route_only/scripts/build_package.py` : Script used in this run
+- `gap_fills/run_24_fill_route_only/scripts/probe.py` : Script used in this run
+- `gap_fills/run_24_fill_route_only/scripts/verify.json` : Script used in this run
+- `gap_fills/run_25_fill_no_route/RUN_REPORT.md` : Run report: result, numbers and proof for this run
+- `gap_fills/run_25_fill_no_route/finish_time.txt` : Time log for this run
+- `gap_fills/run_25_fill_no_route/login_25.log` : Evidence file for the gap-fill run (probe, log or response)
+- `gap_fills/run_25_fill_no_route/start_time.txt` : Time log for this run
+- `gap_fills/run_25_fill_no_route/verify_rows.csv` : Read-back proof that the new test records exist in ETIA-TEST
+- `gap_fills/run_25_fill_no_route/evidence/anmr_all.json` : Evidence file for the gap-fill run (probe, log or response)
+- `gap_fills/run_25_fill_no_route/evidence/anmr_describe.json` : Evidence file for the gap-fill run (probe, log or response)
+- `gap_fills/run_25_fill_no_route/evidence/anmr_fscrt_before.json` : Evidence file for the gap-fill run (probe, log or response)
+- `gap_fills/run_25_fill_no_route/evidence/attempt_1a.json` : Evidence file for the gap-fill run (probe, log or response)
+- `gap_fills/run_25_fill_no_route/evidence/attempt_2a.json` : Evidence file for the gap-fill run (probe, log or response)
+- `gap_fills/run_25_fill_no_route/evidence/csv_support_probe.csv` : Evidence file for the gap-fill run (probe, log or response)
+- `gap_fills/run_25_fill_no_route/evidence/csv_support_probe.json` : Evidence file for the gap-fill run (probe, log or response)
+- `gap_fills/run_25_fill_no_route/evidence/csv_support_probe.log` : Evidence file for the gap-fill run (probe, log or response)
+- `gap_fills/run_25_fill_no_route/evidence/neither_erp_scm.csv` : Evidence file for the gap-fill run (probe, log or response)
+- `gap_fills/run_25_fill_no_route/evidence/rest_receivablesCustomerAccountActivities.json` : Evidence file for the gap-fill run (probe, log or response)
+- `gap_fills/run_25_fill_no_route/evidence/verify_all_rules.json` : Read-back proof that the new test records exist in ETIA-TEST
+- `gap_fills/run_25_fill_no_route/evidence/verify_by_id_300000395048006.json` : Read-back proof that the new test records exist in ETIA-TEST
+- `gap_fills/run_25_fill_no_route/evidence/verify_by_id_300000395050002.json` : Read-back proof that the new test records exist in ETIA-TEST
+- `gap_fills/run_25_fill_no_route/evidence/verify_fscrt_query.json` : Read-back proof that the new test records exist in ETIA-TEST
+- `gap_fills/run_25_fill_no_route/evidence/verify_time.txt` : Read-back proof that the new test records exist in ETIA-TEST
+- `gap_fills/run_25_fill_no_route/payload/rule1.json` : Payload sent to Oracle for the test records
+- `gap_fills/run_25_fill_no_route/payload/rule2.json` : Payload sent to Oracle for the test records
+- `gap_fills/run_25_fill_no_route/scripts/api.py` : Script used in this run
+- `gap_fills/run_25_fill_no_route/scripts/create.py` : Script used in this run
+- `gap_fills/run_25_fill_no_route/scripts/probe_csv_support.py` : Script used in this run
+- `gap_fills/run_25_fill_no_route/scripts/readonly_checks.py` : Script used in this run
+- `gap_fills/run_26b_skill_test/RUN_LOG.md` : Evidence file for the gap-fill run (probe, log or response)
+- `gap_fills/run_26b_skill_test/RUN_REPORT.md` : Run report: result, numbers and proof for this run
+- `gap_fills/run_26b_skill_test/fscr_filecount_after.txt` : Evidence file for the gap-fill run (probe, log or response)
+- `gap_fills/run_26b_skill_test/fscr_filecount_before.txt` : Evidence file for the gap-fill run (probe, log or response)
+- `gap_fills/run_26b_skill_test/step2_export_before.log` : Oracle setup export (journal categories) before/after the change, proving 3 rows were added
+- `gap_fills/run_26b_skill_test/step4_build.log` : Evidence file for the gap-fill run (probe, log or response)
+- `gap_fills/run_26b_skill_test/step5_import.log` : Oracle import run and its result/log
+- `gap_fills/run_26b_skill_test/step7a_rest.log` : Evidence file for the gap-fill run (probe, log or response)
+- `gap_fills/run_26b_skill_test/step7a_rest_attempt2.log` : Evidence file for the gap-fill run (probe, log or response)
+- `gap_fills/run_26b_skill_test/step7b_compare.log` : Evidence file for the gap-fill run (probe, log or response)
+- `gap_fills/run_26b_skill_test/step7b_export_after.log` : Oracle setup export (journal categories) before/after the change, proving 3 rows were added
+- `gap_fills/run_26b_skill_test/verify_rest.json` : Read-back proof that the new test records exist in ETIA-TEST
+- `gap_fills/run_26b_skill_test/verify_rows.csv` : Read-back proof that the new test records exist in ETIA-TEST
+- `gap_fills/run_26b_skill_test/export_after/ETIA-TEST_setup_task_csv_export_gl_manage_journal_categories_100004736418683.zip` : Oracle setup export (journal categories) before/after the change, proving 3 rows were added
+- `gap_fills/run_26b_skill_test/export_after/unz/ASM_SETUP_CSV_METADATA.xml` : Oracle setup export (journal categories) before/after the change, proving 3 rows were added
+- `gap_fills/run_26b_skill_test/export_after/unz/GL_JOURNAL_CATEGORY_DEF.csv` : Oracle setup export (journal categories) before/after the change, proving 3 rows were added
+- `gap_fills/run_26b_skill_test/export_after/unz/GL_JOURNAL_CATEGORY_DEF_TRANSLATION.csv` : Oracle setup export (journal categories) before/after the change, proving 3 rows were added
+- `gap_fills/run_26b_skill_test/export_before/ETIA-TEST_setup_task_csv_export_gl_manage_journal_categories_100004736427677.zip` : Oracle setup export (journal categories) before/after the change, proving 3 rows were added
+- `gap_fills/run_26b_skill_test/export_before/unz/ASM_SETUP_CSV_METADATA.xml` : Oracle setup export (journal categories) before/after the change, proving 3 rows were added
+- `gap_fills/run_26b_skill_test/export_before/unz/GL_JOURNAL_CATEGORY_DEF.csv` : Oracle setup export (journal categories) before/after the change, proving 3 rows were added
+- `gap_fills/run_26b_skill_test/export_before/unz/GL_JOURNAL_CATEGORY_DEF_TRANSLATION.csv` : Oracle setup export (journal categories) before/after the change, proving 3 rows were added
+- `gap_fills/run_26b_skill_test/import_result/ETIA-TEST_setup_task_csv_import_gl_manage_journal_categories_100004737392040.json` : Oracle import run and its result/log
+- `gap_fills/run_26b_skill_test/import_result/ETIA-TEST_setup_task_csv_import_gl_manage_journal_categories_100004737392040_process_log.txt` : Oracle import run and its result/log
+- `gap_fills/run_26b_skill_test/payload/ASM_SETUP_CSV_METADATA.xml` : Payload sent to Oracle for the test records
+- `gap_fills/run_26b_skill_test/payload/GL_JOURNAL_CATEGORY_DEF.csv` : Payload sent to Oracle for the test records
+- `gap_fills/run_26b_skill_test/payload/GL_JOURNAL_CATEGORY_DEF_TRANSLATION.csv` : Payload sent to Oracle for the test records
+- `gap_fills/run_26b_skill_test/payload/gl_journal_categories_fscrt.zip` : Payload sent to Oracle for the test records
+- `gap_fills/run_26b_skill_test/proof/ETIA-TEST_setup_task_csv_import_gl_manage_journal_categories_100004737392040_process_log.txt` : Evidence file for the gap-fill run (probe, log or response)
+- `gap_fills/run_26b_skill_test/proof/step7a_rest_attempt2.log` : Evidence file for the gap-fill run (probe, log or response)
+- `gap_fills/run_26b_skill_test/proof/step7b_compare.log` : Evidence file for the gap-fill run (probe, log or response)
+- `gap_fills/run_26b_skill_test/proof/verify_rest.json` : Read-back proof that the new test records exist in ETIA-TEST
+- `gap_fills/run_26b_skill_test/proof/verify_rows.csv` : Read-back proof that the new test records exist in ETIA-TEST
+- `gap_fills/run_27b_skill_test/RUN_REPORT.md` : Run report: result, numbers and proof for this run
+- `gap_fills/run_27b_skill_test/accounts.json` : Evidence file for the gap-fill run (probe, log or response)
+- `gap_fills/run_27b_skill_test/after_all.json` : Evidence file for the gap-fill run (probe, log or response)
+- `gap_fills/run_27b_skill_test/before_all.json` : Evidence file for the gap-fill run (probe, log or response)
+- `gap_fills/run_27b_skill_test/describe.json` : Evidence file for the gap-fill run (probe, log or response)
+- `gap_fills/run_27b_skill_test/fresh_get_before_post2.json` : Evidence file for the gap-fill run (probe, log or response)
+- `gap_fills/run_27b_skill_test/login_27b.log` : Evidence file for the gap-fill run (probe, log or response)
+- `gap_fills/run_27b_skill_test/login_27b_try2.log` : Evidence file for the gap-fill run (probe, log or response)
+- `gap_fills/run_27b_skill_test/post_rule1.json` : Evidence file for the gap-fill run (probe, log or response)
+- `gap_fills/run_27b_skill_test/post_rule2.json` : Evidence file for the gap-fill run (probe, log or response)
+- `gap_fills/run_27b_skill_test/precheck.txt` : Evidence file for the gap-fill run (probe, log or response)
+- `gap_fills/run_27b_skill_test/run_log.md` : Evidence file for the gap-fill run (probe, log or response)
+- `gap_fills/run_27b_skill_test/unchanged_check.txt` : Evidence file for the gap-fill run (probe, log or response)
+- `gap_fills/run_27b_skill_test/verify_by_id_1.json` : Read-back proof that the new test records exist in ETIA-TEST
+- `gap_fills/run_27b_skill_test/verify_by_id_2.json` : Read-back proof that the new test records exist in ETIA-TEST
+- `gap_fills/run_27b_skill_test/verify_result.txt` : Read-back proof that the new test records exist in ETIA-TEST
+- `gap_fills/run_27b_skill_test/verify_rows.csv` : Read-back proof that the new test records exist in ETIA-TEST
+- `gap_fills/run_27b_skill_test/payload/rule1.json` : Payload sent to Oracle for the test records
+- `gap_fills/run_27b_skill_test/payload/rule2.json` : Payload sent to Oracle for the test records
+- `gap_fills/run_28_token_estimate/RUN_REPORT.md` : Run report: result, numbers and proof for this run
+- `gap_fills/run_28_token_estimate/token_estimate.csv` : Run 28: measured token use of runs 24, 25, 26b, 27b
+
+## ripple_test
+
+- `ripple_test/run_21_calendar_workbook/RUN_REPORT.md` : Run report: result, numbers and proof for this run
+- `ripple_test/run_21_calendar_workbook/calendar_chain_workbook_ETIA-TEST.xlsx` : Run 21: calendar chain workbook (live read of ETIA-TEST)
+- `ripple_test/run_21_calendar_workbook/calendar_chain_workbook_ETIA-TEST_BASELINE.xlsx` : Run 21: frozen baseline workbook of calendar > ledgers > business units > Receivables
+- `ripple_test/run_21_calendar_workbook/calendar_chain_workbook_ETIA-TEST_EDIT.xlsx` : Run 21/22: editable copy of the calendar chain workbook
+- `ripple_test/run_21_calendar_workbook/evidence/all_md5.txt` : Checksum proof that baseline files were unchanged
+- `ripple_test/run_21_calendar_workbook/evidence/baseline_md5.txt` : Checksum proof that baseline files were unchanged
+- `ripple_test/run_21_calendar_workbook/evidence/check_results.json` : Run 21/22: check results, counts or logs for the workbook
+- `ripple_test/run_21_calendar_workbook/evidence/export_run.log` : Run 21/22: check results, counts or logs for the workbook
+- `ripple_test/run_21_calendar_workbook/evidence/finish_time.txt` : Time log for this run
+- `ripple_test/run_21_calendar_workbook/evidence/ledger_ids.tsv` : Run 21/22: check results, counts or logs for the workbook
+- `ripple_test/run_21_calendar_workbook/evidence/period_status_run.log` : Log of the period-status reads from ETIA-TEST (read only)
+- `ripple_test/run_21_calendar_workbook/evidence/start_time.txt` : Time log for this run
+- `ripple_test/run_21_calendar_workbook/evidence/tool_call_count.txt` : Run 21/22: check results, counts or logs for the workbook
+- `ripple_test/run_21_calendar_workbook/evidence/workbook_counts.json` : Run 21/22: check results, counts or logs for the workbook
+- `ripple_test/run_21_calendar_workbook/evidence/exports/AP_MANAGE_COMMON_OPTIONS_FOR_PAYABLES_AND_PROCUREMENT/ETIA-TEST_setup_task_csv_export_ap_manage_common_options_for_payables_and_procurement_100004733483284.zip` : Run 21: setup-export outputs from ETIA-TEST (read only)
+- `ripple_test/run_21_calendar_workbook/evidence/exports/AP_MANAGE_COMMON_OPTIONS_FOR_PAYABLES_AND_PROCUREMENT/csv/AP_FINANCIAL_SYS_PARAM.csv` : Run 21: setup-export outputs from ETIA-TEST (read only)
+- `ripple_test/run_21_calendar_workbook/evidence/exports/AP_MANAGE_COMMON_OPTIONS_FOR_PAYABLES_AND_PROCUREMENT/csv/ASM_SETUP_CSV_METADATA.xml` : Run 21: setup-export outputs from ETIA-TEST (read only)
+- `ripple_test/run_21_calendar_workbook/evidence/exports/AP_MANAGE_INVOICE_OPTIONS/ETIA-TEST_setup_task_csv_export_ap_manage_invoice_options_100004733481417.zip` : Run 21: setup-export outputs from ETIA-TEST (read only)
+- `ripple_test/run_21_calendar_workbook/evidence/exports/AP_MANAGE_INVOICE_OPTIONS/csv/AP_SYSTEM_PARAMETER.csv` : Run 21: setup-export outputs from ETIA-TEST (read only)
+- `ripple_test/run_21_calendar_workbook/evidence/exports/AP_MANAGE_INVOICE_OPTIONS/csv/ASM_SETUP_CSV_METADATA.xml` : Run 21: setup-export outputs from ETIA-TEST (read only)
+- `ripple_test/run_21_calendar_workbook/evidence/exports/AP_MANAGE_PAYMENT_OPTIONS/ETIA-TEST_setup_task_csv_export_ap_manage_payment_options_100004733482153.zip` : Run 21: setup-export outputs from ETIA-TEST (read only)
+- `ripple_test/run_21_calendar_workbook/evidence/exports/AP_MANAGE_PAYMENT_OPTIONS/csv/AP_SYSTEM_PARAMETER.csv` : Run 21: setup-export outputs from ETIA-TEST (read only)
+- `ripple_test/run_21_calendar_workbook/evidence/exports/AP_MANAGE_PAYMENT_OPTIONS/csv/ASM_SETUP_CSV_METADATA.xml` : Run 21: setup-export outputs from ETIA-TEST (read only)
+- `ripple_test/run_21_calendar_workbook/evidence/exports/PO_CONFIGURE_PROCUREMENT_BUSINESS_FUNCTION/ETIA-TEST_setup_task_csv_export_po_configure_procurement_business_function_100004733482163.zip` : Run 21: setup-export outputs from ETIA-TEST (read only)
+- `ripple_test/run_21_calendar_workbook/evidence/exports/PO_CONFIGURE_PROCUREMENT_BUSINESS_FUNCTION/csv/ASM_SETUP_CSV_METADATA.xml` : Run 21: setup-export outputs from ETIA-TEST (read only)
+- `ripple_test/run_21_calendar_workbook/evidence/exports/PO_CONFIGURE_PROCUREMENT_BUSINESS_FUNCTION/csv/PON_CONTRACTS.csv` : Run 21: setup-export outputs from ETIA-TEST (read only)
+- `ripple_test/run_21_calendar_workbook/evidence/exports/PO_CONFIGURE_PROCUREMENT_BUSINESS_FUNCTION/csv/PON_CONTRACTS_TRANSLATION.csv` : Run 21: setup-export outputs from ETIA-TEST (read only)
+- `ripple_test/run_21_calendar_workbook/evidence/exports/PO_CONFIGURE_PROCUREMENT_BUSINESS_FUNCTION/csv/PO_DOCUMENT_TYPE.csv` : Run 21: setup-export outputs from ETIA-TEST (read only)
+- `ripple_test/run_21_calendar_workbook/evidence/exports/PO_CONFIGURE_PROCUREMENT_BUSINESS_FUNCTION/csv/PO_DOCUMENT_TYPE_TRANSLATION.csv` : Run 21: setup-export outputs from ETIA-TEST (read only)
+- `ripple_test/run_21_calendar_workbook/evidence/exports/PO_CONFIGURE_PROCUREMENT_BUSINESS_FUNCTION/csv/PO_SYSTEM_PARAMETER.csv` : Run 21: setup-export outputs from ETIA-TEST (read only)
+- `ripple_test/run_21_calendar_workbook/evidence/rest/probe_accountingPeriodStatusLOV.json` : Run 21/22: raw read-only REST responses from ETIA-TEST used to build the workbook
+- `ripple_test/run_21_calendar_workbook/evidence/rest/probe_accountingPeriodsLOV.json` : Run 21/22: raw read-only REST responses from ETIA-TEST used to build the workbook
+- `ripple_test/run_21_calendar_workbook/evidence/rest/probe_glPeriodStatuses.json` : Run 21/22: raw read-only REST responses from ETIA-TEST used to build the workbook
+- `ripple_test/run_21_calendar_workbook/evidence/rest/probe_ledgerPeriodStatuses.json` : Run 21/22: raw read-only REST responses from ETIA-TEST used to build the workbook
+- `ripple_test/run_21_calendar_workbook/evidence/rest/probe_periodStatuses.json` : Run 21/22: raw read-only REST responses from ETIA-TEST used to build the workbook
+- `ripple_test/run_21_calendar_workbook/evidence/rest/token_probe.json` : Run 21/22: REST read of the currencies list (a probe; no credentials in it)
+- `ripple_test/run_21_calendar_workbook/evidence/rest/period_status/300000002286040.json` : Run 21/22: raw read-only REST responses from ETIA-TEST used to build the workbook
+- `ripple_test/run_21_calendar_workbook/evidence/rest/period_status/300000327019422.json` : Run 21/22: raw read-only REST responses from ETIA-TEST used to build the workbook
+- `ripple_test/run_21_calendar_workbook/evidence/rest/period_status/300000327478575.json` : Run 21/22: raw read-only REST responses from ETIA-TEST used to build the workbook
+- `ripple_test/run_21_calendar_workbook/evidence/rest/period_status/300000327526346.json` : Run 21/22: raw read-only REST responses from ETIA-TEST used to build the workbook
+- `ripple_test/run_21_calendar_workbook/evidence/rest/period_status/300000327609001.json` : Run 21/22: raw read-only REST responses from ETIA-TEST used to build the workbook
+- `ripple_test/run_21_calendar_workbook/evidence/rest/period_status/300000328239293.json` : Run 21/22: raw read-only REST responses from ETIA-TEST used to build the workbook
+- `ripple_test/run_21_calendar_workbook/evidence/rest/period_status/300000328999989.json` : Run 21/22: raw read-only REST responses from ETIA-TEST used to build the workbook
+- `ripple_test/run_21_calendar_workbook/evidence/rest/period_status/300000329119446.json` : Run 21/22: raw read-only REST responses from ETIA-TEST used to build the workbook
+- `ripple_test/run_21_calendar_workbook/evidence/rest/period_status/300000329151068.json` : Run 21/22: raw read-only REST responses from ETIA-TEST used to build the workbook
+- `ripple_test/run_21_calendar_workbook/evidence/rest/period_status/300000329151076.json` : Run 21/22: raw read-only REST responses from ETIA-TEST used to build the workbook
+- `ripple_test/run_21_calendar_workbook/evidence/rest/period_status/300000329151112.json` : Run 21/22: raw read-only REST responses from ETIA-TEST used to build the workbook
+- `ripple_test/run_21_calendar_workbook/evidence/rest/period_status/300000329151132.json` : Run 21/22: raw read-only REST responses from ETIA-TEST used to build the workbook
+- `ripple_test/run_21_calendar_workbook/evidence/rest/period_status/300000329151240.json` : Run 21/22: raw read-only REST responses from ETIA-TEST used to build the workbook
+- `ripple_test/run_21_calendar_workbook/evidence/rest/period_status/300000329239045.json` : Run 21/22: raw read-only REST responses from ETIA-TEST used to build the workbook
+- `ripple_test/run_21_calendar_workbook/evidence/rest/period_status/300000333835040.json` : Run 21/22: raw read-only REST responses from ETIA-TEST used to build the workbook
+- `ripple_test/run_21_calendar_workbook/evidence/rest/period_status/300000337168008.json` : Run 21/22: raw read-only REST responses from ETIA-TEST used to build the workbook
+- `ripple_test/run_21_calendar_workbook/evidence/rest/period_status/300000337168013.json` : Run 21/22: raw read-only REST responses from ETIA-TEST used to build the workbook
+- `ripple_test/run_21_calendar_workbook/evidence/rest/period_status/300000337170053.json` : Run 21/22: raw read-only REST responses from ETIA-TEST used to build the workbook
+- `ripple_test/run_21_calendar_workbook/evidence/rest/period_status/300000337726017.json` : Run 21/22: raw read-only REST responses from ETIA-TEST used to build the workbook
+- `ripple_test/run_21_calendar_workbook/evidence/rest/period_status/300000384796713.json` : Run 21/22: raw read-only REST responses from ETIA-TEST used to build the workbook
+- `ripple_test/run_21_calendar_workbook/evidence/rest/period_status/300000385583001.json` : Run 21/22: raw read-only REST responses from ETIA-TEST used to build the workbook
+- `ripple_test/run_21_calendar_workbook/evidence/rest/period_status/300000386471253.json` : Run 21/22: raw read-only REST responses from ETIA-TEST used to build the workbook
+- `ripple_test/run_21_calendar_workbook/evidence/rest/period_status/300000386471254.json` : Run 21/22: raw read-only REST responses from ETIA-TEST used to build the workbook
+- `ripple_test/run_21_calendar_workbook/evidence/rest/period_status/300000386780769.json` : Run 21/22: raw read-only REST responses from ETIA-TEST used to build the workbook
+- `ripple_test/run_21_calendar_workbook/evidence/rest/period_status/300000394686036.json` : Run 21/22: raw read-only REST responses from ETIA-TEST used to build the workbook
+- `ripple_test/run_21_calendar_workbook/scripts/build_workbook.py` : Script used in this run
+- `ripple_test/run_21_calendar_workbook/scripts/check_workbook.py` : Script used in this run
+- `ripple_test/run_21_calendar_workbook/scripts/count_tool_calls.py` : Script used in this run
+- `ripple_test/run_21_calendar_workbook/scripts/export_all.sh` : Script used in this run
+- `ripple_test/run_21_calendar_workbook/scripts/period_status_reads.sh` : Script used in this run
+- `ripple_test/run_21_calendar_workbook/scripts/rget.py` : Script used in this run
+- `ripple_test/run_22_calendar_change_impact/RUN_REPORT.md` : Run report: result, numbers and proof for this run
+- `ripple_test/run_22_calendar_change_impact/calendar_chain_workbook_ETIA-TEST_EDIT.xlsx` : Run 21/22: editable copy of the calendar chain workbook
+- `ripple_test/run_22_calendar_change_impact/calendar_chain_workbook_ETIA-TEST_EDITED.xlsx` : Run 22: workbook copy with the December calendar change applied (not in Oracle)
+- `ripple_test/run_22_calendar_change_impact/impact_map.csv` : Run 22: ripple of the calendar change through ledgers, business units and Receivables
+- `ripple_test/run_22_calendar_change_impact/evidence/baseline_check.txt` : Checksum proof that baseline files were unchanged
+- `ripple_test/run_22_calendar_change_impact/evidence/baseline_check_end.txt` : Checksum proof that baseline files were unchanged
+- `ripple_test/run_22_calendar_change_impact/evidence/detect_results.json` : Run 22: change detection / impact facts (JSON)
+- `ripple_test/run_22_calendar_change_impact/evidence/diff_cells.csv` : Run 22: the 66 cells that differ between edited copy and baseline
+- `ripple_test/run_22_calendar_change_impact/evidence/finish_time.txt` : Time log for this run
+- `ripple_test/run_22_calendar_change_impact/evidence/impact_facts.json` : Run 22: change detection / impact facts (JSON)
+- `ripple_test/run_22_calendar_change_impact/evidence/output_md5.txt` : Checksum proof that baseline files were unchanged
+- `ripple_test/run_22_calendar_change_impact/evidence/period_status_run.log` : Log of the period-status reads from ETIA-TEST (read only)
+- `ripple_test/run_22_calendar_change_impact/evidence/start_time.txt` : Time log for this run
+- `ripple_test/run_22_calendar_change_impact/evidence/tool_call_count.txt` : Run 21/22: check results, counts or logs for the workbook
+- `ripple_test/run_22_calendar_change_impact/evidence/rest/ap_acctdate.json` : Run 21/22: raw read-only REST responses from ETIA-TEST used to build the workbook
+- `ripple_test/run_22_calendar_change_impact/evidence/rest/ap_invdate.json` : Run 21/22: raw read-only REST responses from ETIA-TEST used to build the workbook
+- `ripple_test/run_22_calendar_change_impact/evidence/rest/ap_total.json` : Run 21/22: raw read-only REST responses from ETIA-TEST used to build the workbook
+- `ripple_test/run_22_calendar_change_impact/evidence/rest/ar_acctdate.json` : Run 21/22: raw read-only REST responses from ETIA-TEST used to build the workbook
+- `ripple_test/run_22_calendar_change_impact/evidence/rest/ar_all_visible.json` : Run 21/22: raw read-only REST responses from ETIA-TEST used to build the workbook
+- `ripple_test/run_22_calendar_change_impact/evidence/rest/ar_any_2026q4.json` : Run 21/22: raw read-only REST responses from ETIA-TEST used to build the workbook
+- `ripple_test/run_22_calendar_change_impact/evidence/rest/ar_total.json` : Run 21/22: raw read-only REST responses from ETIA-TEST used to build the workbook
+- `ripple_test/run_22_calendar_change_impact/evidence/rest/ar_trxdate.json` : Run 21/22: raw read-only REST responses from ETIA-TEST used to build the workbook
+- `ripple_test/run_22_calendar_change_impact/evidence/rest/live_periods_GS_Account.json` : Run 21/22: raw read-only REST responses from ETIA-TEST used to build the workbook
+- `ripple_test/run_22_calendar_change_impact/evidence/rest/live_periods_GoSaaS_MFG.json` : Run 21/22: raw read-only REST responses from ETIA-TEST used to build the workbook
+- `ripple_test/run_22_calendar_change_impact/evidence/rest/live_periods_N24Ledger.json` : Run 21/22: raw read-only REST responses from ETIA-TEST used to build the workbook
+- `ripple_test/run_22_calendar_change_impact/evidence/rest/receipts_dec.json` : Run 21/22: raw read-only REST responses from ETIA-TEST used to build the workbook
+- `ripple_test/run_22_calendar_change_impact/evidence/rest/token_probe.json` : Run 21/22: REST read of the currencies list (a probe; no credentials in it)
+- `ripple_test/run_22_calendar_change_impact/evidence/rest/period_status/300000002286040.json` : Run 21/22: raw read-only REST responses from ETIA-TEST used to build the workbook
+- `ripple_test/run_22_calendar_change_impact/evidence/rest/period_status/300000327019422.json` : Run 21/22: raw read-only REST responses from ETIA-TEST used to build the workbook
+- `ripple_test/run_22_calendar_change_impact/evidence/rest/period_status/300000327478575.json` : Run 21/22: raw read-only REST responses from ETIA-TEST used to build the workbook
+- `ripple_test/run_22_calendar_change_impact/evidence/rest/period_status/300000327526346.json` : Run 21/22: raw read-only REST responses from ETIA-TEST used to build the workbook
+- `ripple_test/run_22_calendar_change_impact/evidence/rest/period_status/300000327609001.json` : Run 21/22: raw read-only REST responses from ETIA-TEST used to build the workbook
+- `ripple_test/run_22_calendar_change_impact/evidence/rest/period_status/300000328239293.json` : Run 21/22: raw read-only REST responses from ETIA-TEST used to build the workbook
+- `ripple_test/run_22_calendar_change_impact/evidence/rest/period_status/300000328999989.json` : Run 21/22: raw read-only REST responses from ETIA-TEST used to build the workbook
+- `ripple_test/run_22_calendar_change_impact/evidence/rest/period_status/300000329119446.json` : Run 21/22: raw read-only REST responses from ETIA-TEST used to build the workbook
+- `ripple_test/run_22_calendar_change_impact/evidence/rest/period_status/300000329151068.json` : Run 21/22: raw read-only REST responses from ETIA-TEST used to build the workbook
+- `ripple_test/run_22_calendar_change_impact/evidence/rest/period_status/300000329151076.json` : Run 21/22: raw read-only REST responses from ETIA-TEST used to build the workbook
+- `ripple_test/run_22_calendar_change_impact/evidence/rest/period_status/300000329151112.json` : Run 21/22: raw read-only REST responses from ETIA-TEST used to build the workbook
+- `ripple_test/run_22_calendar_change_impact/evidence/rest/period_status/300000329151132.json` : Run 21/22: raw read-only REST responses from ETIA-TEST used to build the workbook
+- `ripple_test/run_22_calendar_change_impact/evidence/rest/period_status/300000329151240.json` : Run 21/22: raw read-only REST responses from ETIA-TEST used to build the workbook
+- `ripple_test/run_22_calendar_change_impact/evidence/rest/period_status/300000329239045.json` : Run 21/22: raw read-only REST responses from ETIA-TEST used to build the workbook
+- `ripple_test/run_22_calendar_change_impact/evidence/rest/period_status/300000333835040.json` : Run 21/22: raw read-only REST responses from ETIA-TEST used to build the workbook
+- `ripple_test/run_22_calendar_change_impact/evidence/rest/period_status/300000337168008.json` : Run 21/22: raw read-only REST responses from ETIA-TEST used to build the workbook
+- `ripple_test/run_22_calendar_change_impact/evidence/rest/period_status/300000337168013.json` : Run 21/22: raw read-only REST responses from ETIA-TEST used to build the workbook
+- `ripple_test/run_22_calendar_change_impact/evidence/rest/period_status/300000337170053.json` : Run 21/22: raw read-only REST responses from ETIA-TEST used to build the workbook
+- `ripple_test/run_22_calendar_change_impact/evidence/rest/period_status/300000337726017.json` : Run 21/22: raw read-only REST responses from ETIA-TEST used to build the workbook
+- `ripple_test/run_22_calendar_change_impact/evidence/rest/period_status/300000384796713.json` : Run 21/22: raw read-only REST responses from ETIA-TEST used to build the workbook
+- `ripple_test/run_22_calendar_change_impact/evidence/rest/period_status/300000385583001.json` : Run 21/22: raw read-only REST responses from ETIA-TEST used to build the workbook
+- `ripple_test/run_22_calendar_change_impact/evidence/rest/period_status/300000386471253.json` : Run 21/22: raw read-only REST responses from ETIA-TEST used to build the workbook
+- `ripple_test/run_22_calendar_change_impact/evidence/rest/period_status/300000386471254.json` : Run 21/22: raw read-only REST responses from ETIA-TEST used to build the workbook
+- `ripple_test/run_22_calendar_change_impact/evidence/rest/period_status/300000386780769.json` : Run 21/22: raw read-only REST responses from ETIA-TEST used to build the workbook
+- `ripple_test/run_22_calendar_change_impact/evidence/rest/period_status/300000394686036.json` : Run 21/22: raw read-only REST responses from ETIA-TEST used to build the workbook
+- `ripple_test/run_22_calendar_change_impact/scripts/count_tool_calls.py` : Script used in this run
+- `ripple_test/run_22_calendar_change_impact/scripts/detect.py` : Script used in this run
+- `ripple_test/run_22_calendar_change_impact/scripts/impact.py` : Script used in this run
+- `ripple_test/run_22_calendar_change_impact/scripts/ledger_ids.tsv` : Run 21/22: check results, counts or logs for the workbook
+- `ripple_test/run_22_calendar_change_impact/scripts/make_edits.py` : Script used in this run
+- `ripple_test/run_22_calendar_change_impact/scripts/period_status_reads.sh` : Script used in this run
+- `ripple_test/run_22_calendar_change_impact/scripts/rget.py` : Script used in this run
+
+## runs
+
+- `runs/run_29_common_features/RUN_REPORT.md` : Run 29 main report: FSCR covers 65 of 144 Common Features tasks, proposed tracker row, findings
+- `runs/run_29_common_features/area_counts.csv` : Run 29 output CSV (same as in coverage/)
+- `runs/run_29_common_features/common_features_tasks.csv` : Run 29 output CSV (same as in coverage/)
+- `runs/run_29_common_features/finish_time.txt` : Run 29 time log (start / finish)
+- `runs/run_29_common_features/start_time.txt` : Run 29 time log (start / finish)
+- `runs/run_29_common_features/tracker_row.csv` : Run 29 output CSV (same as in coverage/)
+- `runs/run_29_common_features/unlinked_mentions.csv` : Run 29 output CSV (same as in coverage/)
+- `runs/run_29_common_features/scripts/build.py` : Run 29: read-only script that produced the coverage CSVs
+- `runs/run_29_common_features/scripts/tracker_row.py` : Run 29: read-only script that produced the coverage CSVs
+- `runs/run_29_common_features/scripts/unlinked.py` : Run 29: read-only script that produced the coverage CSVs
+
+## screenshots
+
+PNG tables at 2x resolution. Every number is read from the run files by `screenshots/scripts/make_screenshots.py` (read-only).
+
+- `screenshots/01_coverage.png` : Run 29: the 144 Common Features tasks by coverage level (route + instructions / route only / neither), in total and per functional area
+- `screenshots/02_plan.png` : Run 30: FSCR plan vs Oracle order; 138 of 144 tasks in a matching order, 37 of 40 links respected, the 3 misses
+- `screenshots/03_runbook.png` : Run 30: FSCR runbook's 144 steps; how many have a route, how many say manual, and how many have a prerequisite, validation and owner
+- `screenshots/04_six_tasks.png` : Run 30: the 6-task test on ETIA-TEST with group, result and reason
+- `screenshots/05_calendar_ripple.png` : Runs 21 and 22: the calendar end-date change and how many ledgers, business units and module setups it reaches
+- `screenshots/06_gap_fills.png` : Runs 24, 25, 26b and 27b: for each of the 2 gaps, what FSCR had, what Claude did, and the result
+- `screenshots/07_tokens.png` : Run 28: measured input, output and cache-read tokens for Runs 24, 25, 26b and 27b
+- `screenshots/08_tracker_row.png` : Runs 29 and 30: tracker row values (tracker_row.csv plus Run 30 scores, verdict and date)
+- `screenshots/scripts/make_screenshots.py` : script that builds the 8 images from the run files
+
+- `procurement/01_procurement_coverage.png` : Run 33: Procurement coverage from Run 32 (tasks by level a/b/c, missing N/total)
+- `procurement/02_plan_result.png` : Run 33: plan vs 21 Oracle-sourced dependency links (16 respected, 0 stated by FSCR skills)
+- `procurement/03_runbook_result.png` : Run 33: Run Book FSCRT_R33 Procurement (60 steps, 21 route, 39 manual, 0 prerequisites)
+- `procurement/04_six_task_table.png` : Run 33: the 6 tasks on ETIA-TEST (2 Done with a fix, 4 Not done, with reasons)
+- `procurement/05_tracker_row_values.png` : Run 33: tracker row values for Procurement (SCM 24)
+- `procurement/scripts`: built by `_fscr_run_33_procurement_test/scripts/gen_images.py`
+- `sourcing_supplier/01_coverage.png` : Run 34: Sourcing and Supplier Management coverage from Run 32 (a 45 / b 35 / c 11, Missing 46/91)
+- `sourcing_supplier/02_plan_result.png` : Run 34: plan vs 14 Oracle-sourced links (14 respected, FSCR skills state 1; Run Book 13 of 14)
+- `sourcing_supplier/03_six_task_table.png` : Run 34: the 6 tasks on ETIA-TEST (3 Done with a fix, 3 Not done, with reasons)
+- `sourcing_supplier/04_tracker_row_values.png` : Run 34: tracker row values for Sourcing and Supplier Management (SCM 25), same scores as RESULT.md
+- `purchasing/01_coverage.png` : Run 35: Purchasing coverage from Run 32 (a 6 / b 9 / c 1, Missing 10/16)
+- `purchasing/02_plan_result.png` : Run 35: plan vs Oracle links ((a) 3 of 4 sourced in order, (b) 2 of 4 unverified out of order, (c) 0 skill prerequisites) and Run Book (16 steps, 0 prerequisites)
+- `purchasing/03_six_task_table.png` : Run 35: the 6 tasks on ETIA-TEST (2 Done, 1 Done with a fix, 3 Not done, with reasons)
+- `purchasing/04_tracker_row_values.png` : Run 35: tracker row values for Purchasing (ERP row 13), same scores as RESULT.md

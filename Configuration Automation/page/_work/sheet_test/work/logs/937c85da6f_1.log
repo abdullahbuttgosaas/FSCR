@@ -1,0 +1,14 @@
+Host: https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com
+ORACLE_ENV: test
+Exporting AR_MANAGE_RECEIVABLES_PAYMENT_TERMS ...
+  ProcessId=100004734401652
+  [export]   11s  StatusCode=NOT_STARTED
+  [export]   22s  StatusCode=IN_PROGRESS
+  [export]   33s  StatusCode=COMPLETED
+  saved E:\GoSaaS\Configuration Automation v2.1\Configuration Automation\Receivables Payment Terms\_work\AR_MANAGE_RECEIVABLES_PAYMENT_TERMS_20261102_063904_before.zip
+  [template]   10s  StatusCode=IN_PROGRESS
+  [template]   21s  StatusCode=COMPLETED
+  ZZ_TEST_PT_311 (COMMON): exists
+Whole run: 61 s
+
+===== run 06:38:26

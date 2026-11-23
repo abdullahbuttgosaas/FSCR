@@ -1,0 +1,66 @@
+{
+ "Test status": [
+  "Tested, Run 33 (2026-11-17): partial",
+  "2 of 4 loadable tasks created and read back",
+  "2 tasks cannot be loaded: Oracle has no CSV or API"
+ ],
+ "FSCR coverage": [
+  "Partial",
+  "60 tasks in this row: 21 have a skill and route, 25 route only, 14 neither"
+ ],
+ "Fit rating": [
+  "Medium: usable with GoSaaS adaptation"
+ ],
+ "Plan accuracy": [
+  "3",
+  "All 60 tasks planned; 16 of 21 Oracle-sourced links in order (76%)",
+  "FSCR skills state 0 of the 21 links"
+ ],
+ "Missing (N/total, from Run 32)": [
+  "39/60"
+ ],
+ "Runbook quality": [
+  "2",
+  "60 steps, 21 with a route, 39 manual, 0 prerequisites",
+  "Needed a hand fix after the create call timed out"
+ ],
+ "Execution & validation": [
+  "3",
+  "Document Styles and Document Numbering loaded and read back",
+  "Oracle's own checks caught 2 real errors; FSCR's checks caught none"
+ ],
+ "FSCR skills / workflows used": [
+  "Planning (task dependency resolver)",
+  "Run Book creation",
+  "Setup guides",
+  "Data loading (Data Loader, FSM)",
+  "Safety checks before loading (Task Hook)",
+  "Setup export (CSV templates)",
+  "REST API (read-back)"
+ ],
+ "Test scenario": [
+  "Plan the 60 Procurement + Shared tasks",
+  "Check the order against 21 Oracle-sourced links",
+  "Create Run Book FSCRT_R33 Procurement",
+  "Load 6 tasks on ETIA-TEST with FSCRT_ names: 2 skill + route, 2 route only, 2 neither",
+  "Read every record back"
+ ],
+ "Fusion env / release": [
+  "ETIA-TEST, release 26D (11.13.26.10.0)"
+ ],
+ "Last tested": [
+  "2026-11-17"
+ ],
+ "Key findings": [
+  "FSCR planned all 60 tasks and built a Run Book in one pass; 76% of Oracle-sourced links are in order",
+  "Document Styles and Document Numbering went in through Data Loader with Task Hook and read back correct",
+  "Oracle caught two real problems: compliance questions need an ID the CSV lacks; sections need a Procurement BU",
+  "Approval Groups and Corporate Cards have no Oracle CSV or API; the Run Book shows no prerequisites and FSCR states no dependency links"
+ ],
+ "GoSaaS gap / build needed": [
+  "Procurement dependency-link skill, sourced from Oracle pages (this run's 21 links are a start)",
+  "Run Book builder that adds prerequisites and a route for CSV-only tasks, plus a repair step after a timeout",
+  "Row builders and checks for Document Styles, Numbering, Questions and Sections (Procurement BU check first)",
+  "Screen-automation recipes for Approval Groups, task configuration and Corporate Cards"
+ ]
+}

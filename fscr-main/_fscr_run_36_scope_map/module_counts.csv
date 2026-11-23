@@ -1,0 +1,37 @@
+pillar,row,total_tasks,a_skill_or_guide,b_route_no_skill,c_neither,a_strict_skill_and_route,skill_but_no_route,missing_N_of_total,proposed_coverage,coverage_basis
+ERP,Common Features,227,79,99,49,69,10,148/227,Partial,79/227 (35%) tasks have a skill or guide (rule: 1-74% = Partial)
+ERP,Security,6,6,0,0,6,0,0/6,Full,6/6 (100%) tasks have a skill or guide (rule: >=75% = Full)
+ERP,General Ledger,158,3,117,38,3,0,155/158,Partial,3/158 (2%) tasks have a skill or guide (rule: 1-74% = Partial)
+ERP,Payables,46,6,33,7,6,0,40/46,Partial,6/46 (13%) tasks have a skill or guide (rule: 1-74% = Partial)
+ERP,Receivables,142,68,66,8,65,3,74/142,Partial,68/142 (48%) tasks have a skill or guide (rule: 1-74% = Partial)
+ERP,Cash Management,19,0,17,2,0,0,19/19,None,no task in this row has an FSCR skill or guide
+ERP,Fixed Assets,28,10,18,0,10,0,18/28,Partial,10/28 (36%) tasks have a skill or guide (rule: 1-74% = Partial)
+ERP,Expenses,39,6,28,5,6,0,33/39,Partial,6/39 (15%) tasks have a skill or guide (rule: 1-74% = Partial)
+ERP,Revenue Management,22,0,21,1,0,0,22/22,None,no task in this row has an FSCR skill or guide
+ERP,Project Financial Management,214,15,171,28,14,1,199/214,Partial,15/214 (7%) tasks have a skill or guide (rule: 1-74% = Partial)
+ERP,Purchasing,14,3,9,2,3,0,11/14,Partial,3/14 (21%) tasks have a skill or guide (rule: 1-74% = Partial)
+HCM,Global HR,167,82,50,35,80,2,85/167,Partial,82/167 (49%) tasks have a skill or guide (rule: 1-74% = Partial)
+HCM,Absence Management,10,8,2,0,8,0,2/10,Full,8/10 (80%) tasks have a skill or guide (rule: >=75% = Full)
+HCM,Time and Labor,37,27,7,3,27,0,10/37,Partial,27/37 (73%) tasks have a skill or guide (rule: 1-74% = Partial)
+HCM,Global Payroll,47,42,5,0,39,3,5/47,Full,42/47 (89%) tasks have a skill or guide (rule: >=75% = Full)
+HCM,Benefits,36,16,6,14,14,2,20/36,Partial,16/36 (44%) tasks have a skill or guide (rule: 1-74% = Partial)
+HCM,Workforce Compensation,17,17,0,0,17,0,0/17,Full,17/17 (100%) tasks have a skill or guide (rule: >=75% = Full)
+HCM,Performance and Goal Management,23,14,8,1,14,0,9/23,Partial,14/23 (61%) tasks have a skill or guide (rule: 1-74% = Partial)
+HCM,Talent Review and Succession,9,0,9,0,0,0,9/9,None,no task in this row has an FSCR skill or guide
+HCM,Recruiting,50,41,5,4,40,1,9/50,Full,41/50 (82%) tasks have a skill or guide (rule: >=75% = Full)
+HCM,Learning,20,15,0,5,15,0,5/20,Full,15/20 (75%) tasks have a skill or guide (rule: >=75% = Full)
+SCM,Procurement,41,15,18,8,15,0,26/41,Partial,15/41 (37%) tasks have a skill or guide (rule: 1-74% = Partial)
+SCM,Sourcing and Supplier Management,58,32,16,10,23,9,26/58,Partial,32/58 (55%) tasks have a skill or guide (rule: 1-74% = Partial)
+SCM,Inventory Management,134,61,68,5,61,0,73/134,Partial,61/134 (46%) tasks have a skill or guide (rule: 1-74% = Partial)
+SCM,Order Management,68,33,26,9,32,1,35/68,Partial,33/68 (49%) tasks have a skill or guide (rule: 1-74% = Partial)
+SCM,Manufacturing,18,13,3,2,13,0,5/18,Partial,13/18 (72%) tasks have a skill or guide (rule: 1-74% = Partial)
+SCM,Cost Management,62,32,27,3,31,1,30/62,Partial,32/62 (52%) tasks have a skill or guide (rule: 1-74% = Partial)
+SCM,Supply Planning,17,11,2,4,8,3,6/17,Partial,11/17 (65%) tasks have a skill or guide (rule: 1-74% = Partial)
+SCM,Maintenance,19,4,10,5,4,0,15/19,Partial,4/19 (21%) tasks have a skill or guide (rule: 1-74% = Partial)
+SCM,Logistics - Transportation Management,1,0,1,0,0,0,1/1,None,no task in this row has an FSCR skill or guide
+SCM,Logistics - Global Trade Management,7,1,6,0,1,0,6/7,Partial,1/7 (14%) tasks have a skill or guide (rule: 1-74% = Partial)
+SCM,PLM - Product Hub,44,29,10,5,29,0,15/44,Partial,29/44 (66%) tasks have a skill or guide (rule: 1-74% = Partial)
+SCM,PLM - Product Development,37,15,19,3,15,0,22/37,Partial,15/37 (41%) tasks have a skill or guide (rule: 1-74% = Partial)
+SCM,PLM - Quality Management,5,0,5,0,0,0,5/5,None,no task in this row has an FSCR skill or guide
+-,Unmapped,774,144,491,139,137,7,630/774,-,not a tracker row
+ALL,All catalog tasks,2616,848,1373,395,805,43,1768/2616,-,

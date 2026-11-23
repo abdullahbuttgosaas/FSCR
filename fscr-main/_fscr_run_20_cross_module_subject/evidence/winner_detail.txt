@@ -1,0 +1,15 @@
+calendar | ledgers | BUs (primary ledger) | AR option rows | AR txn-type BU rows
+('AKLedger', 6, 4, 3, 0, ['AKBusiness Unit Corporate', 'AKBusiness Unit Domestic', 'AKBusiness Unit South Asia '])
+('DSSLedger', 5, 4, 3, 0, ['DSSBusiness Unit Corporate', 'DSSBusiness Unit Domestic', 'DSSBusiness Unit South Asia '])
+('N24Ledger', 3, 3, 3, 0, ['KLI Business Unit', 'HELLO BU', 'Demascus BU'])
+('HAHALedger', 3, 2, 3, 0, ['HAHABusiness Unit Corporate', 'HAHABusiness Unit Domestic', 'HAHABusiness Unit South Asia '])
+('TM Ledger', 2, 2, 3, 0, ['USA Business Unit1', 'USA Business Unit2', 'Canada Business Unit1'])
+('GoSaaS MFG', 13, 37, 2, 3, ['BUU1', 'AMNA BU'])
+('28Ledger', 2, 6, 1, 0, ['28Business Unit'])
+('PPLedger', 3, 1, 1, 0, ['PPBusiness Unit'])
+('GS Account', 9, 28, 0, 0, [])
+('Vision01', 1, 2, 0, 0, [])
+calendars with >=1 ledger: 19 | with AR link: 8 | AR option rows reached in total: 19
+GoSaaS MFG set: {'UserPeriodSetName': 'GoSaaS MFG', 'PeriodSetName': 'GoSaaS MFG', 'Description': '', 'AdjPeriodsNum': '1', 'NonAdjPeriodsNum': '12', 'CalendarStartDate': '2023/01/01', 'CalendarTypeCode': 'ACCOUNTING', 'LatestYearStartDate': '2026/01/01'}
+GoSaaS MFG periods 52 [('Aug-26', '2026/08/01', '2026/08/31', 'N'), ('Sep-26', '2026/09/01', '2026/09/30', 'N'), ('Oct-26', '2026/10/01', '2026/10/31', 'N'), ('Nov-26', '2026/11/01', '2026/11/30', 'N'), ('Dec-26', '2026/12/01', '2026/12/31', 'N'), ('13_Dec-26', '2026/12/31', '2026/12/31', 'Y')]
+N24 periods [('Nov-26', '2026/11/01', '2026/11/30'), ('Dec-26', '2026/12/01', '2026/12/31'), ('13_Dec-26', '2026/12/31', '2026/12/31')]

@@ -1,0 +1,18 @@
+SOURCE (read in browser via docs.google.com viewer): Twelve Instance Plan 2025.xlsx | id=1yzKzXjUWqRVscbBOM3tHIIzhhVJWn1IB | kind=sheet | chars=799
+
+### SHEET: 2024 All (8 non-empty rows)
+"Twelve","30-Dec","6-Jan","13-Jan","20-Jan","27-Jan","3-Feb","10-Feb","17-Feb","24-Feb","3-Mar","10-Mar","17-Mar","24-Mar","31-Mar","7-Apr","14-Apr","21-Apr","28-Apr","5-May","12-May","19-May","26-May","2-Jun","9-Jun","16-Jun","23-Jun","30-Jun","7-Jul","14-Jul","21-Jul","28-Jul","4-Aug","11-Aug","18-Aug","25-Aug","1-Sep","8-Sep","15-Sep","22-Sep","29-Sep","6-Oct","13-Oct","20-Oct","27-Oct","3-Nov","10-Nov","17-Nov","24-Nov"
+"Production"
+"Test"
+"Development (Dev 2)"
+"Patch"
+"Refresh"
+"Data Extract"
+"Cutover"
+### SHEET: Key (6 non-empty rows)
+"","A = ","Feb, May, August, November"
+"","B ="," March, June, September, December"
+"","C = ","April, July, October, January"
+"","LS =","A (Dev) + B (Test& Prod)"
+"","Non-Prod = 1st Friday"
+"","Prod = 3rd Friday"

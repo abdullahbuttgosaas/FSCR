@@ -1,0 +1,10 @@
+fscr-work/project/fscrt-run01-om-setup/artifacts/core/data-loader/task-hook/runs/bu-c4/final-data.json
+fscr-work/project/fscrt-run01-om-setup/artifacts/core/data-loader/task-hook/runs/bu-c4/rule-results.json
+fscr-work/project/fscrt-run01-om-setup/artifacts/core/data-loader/task-hook/runs/pt-c1/approval.json
+fscr-work/project/fscrt-run01-om-setup/artifacts/core/data-loader/task-hook/runs/pt-c1/final-data.json
+fscr-work/project/fscrt-run01-om-setup/artifacts/core/data-loader/task-hook/runs/pt-c1/preview-input.json
+fscr-work/project/fscrt-run01-om-setup/artifacts/core/data-loader/task-hook/runs/pt-c1/preview.json
+fscr-work/project/fscrt-run01-om-setup/artifacts/core/data-loader/task-hook/runs/pt-c1/rule-results.json
+fscr-work/project/fscrt-run01-om-setup/artifacts/core/data-loader/task-hook/runs/pt-c1/validation-result.json
+fscr-work/project/fscrt-run01-om-setup/exports/financials/customer-billing/manage-receivables-payment-terms/fscrt-pt-c1-enddate-candidate.zip
+fscr-work/project/fscrt-run01-om-setup/exports/financials/organization-structures/manage-business-unit/fscrt-bu-c4-manager-candidate.zip

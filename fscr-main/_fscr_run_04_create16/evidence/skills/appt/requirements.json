@@ -1,0 +1,201 @@
+[
+  {
+    "entity": "AP_TERM_HEADER",
+    "id": "REQ-001",
+    "kind": "target",
+    "operationId": "h1",
+    "requirement": "create exactly one AP_TERM_HEADER record identified by {\"Name\":\"FSCRT_AP_N45\"}",
+    "targetKey": {
+      "Name": "FSCRT_AP_N45"
+    }
+  },
+  {
+    "entity": "AP_TERM_HEADER",
+    "field": "Description",
+    "id": "REQ-002",
+    "kind": "value",
+    "operationId": "h1",
+    "requestedValue": "FSCRT Run04 net 45",
+    "requirement": "Persist AP_TERM_HEADER.Description=FSCRT Run04 net 45",
+    "targetKey": {
+      "Name": "FSCRT_AP_N45"
+    }
+  },
+  {
+    "entity": "AP_TERM_HEADER",
+    "field": "EnabledFlag",
+    "id": "REQ-003",
+    "kind": "value",
+    "operationId": "h1",
+    "requestedValue": "Y",
+    "requirement": "Persist AP_TERM_HEADER.EnabledFlag=Y",
+    "targetKey": {
+      "Name": "FSCRT_AP_N45"
+    }
+  },
+  {
+    "entity": "AP_TERM_HEADER",
+    "field": "StartDateActive",
+    "id": "REQ-004",
+    "kind": "value",
+    "operationId": "h1",
+    "requestedValue": "2026-11-03",
+    "requirement": "Persist AP_TERM_HEADER.StartDateActive=2026-11-03",
+    "targetKey": {
+      "Name": "FSCRT_AP_N45"
+    }
+  },
+  {
+    "entity": "AP_TERM_HEADER",
+    "field": "Type",
+    "id": "REQ-005",
+    "kind": "value",
+    "operationId": "h1",
+    "requestedValue": "STD",
+    "requirement": "Persist AP_TERM_HEADER.Type=STD",
+    "targetKey": {
+      "Name": "FSCRT_AP_N45"
+    }
+  },
+  {
+    "entity": "AP_TERM_HEADER",
+    "id": "REQ-006",
+    "kind": "preserve_rows",
+    "operationId": "h1",
+    "requirement": "Preserve every unspecified record and non-audit value",
+    "targetKey": {
+      "Name": "FSCRT_AP_N45"
+    }
+  },
+  {
+    "entity": "AP_TERM_LINE",
+    "id": "REQ-007",
+    "kind": "target",
+    "operationId": "l1",
+    "requirement": "create exactly one AP_TERM_LINE record identified by {\"AP_TERM_HEADER.Name\":\"FSCRT_AP_N45\",\"SequenceNum\":\"1\"}",
+    "targetKey": {
+      "AP_TERM_HEADER.Name": "FSCRT_AP_N45",
+      "SequenceNum": "1"
+    }
+  },
+  {
+    "entity": "AP_TERM_LINE",
+    "field": "DueDays",
+    "id": "REQ-008",
+    "kind": "value",
+    "operationId": "l1",
+    "requestedValue": "45",
+    "requirement": "Persist AP_TERM_LINE.DueDays=45",
+    "targetKey": {
+      "AP_TERM_HEADER.Name": "FSCRT_AP_N45",
+      "SequenceNum": "1"
+    }
+  },
+  {
+    "entity": "AP_TERM_LINE",
+    "field": "DuePercent",
+    "id": "REQ-009",
+    "kind": "value",
+    "operationId": "l1",
+    "requestedValue": "100",
+    "requirement": "Persist AP_TERM_LINE.DuePercent=100",
+    "targetKey": {
+      "AP_TERM_HEADER.Name": "FSCRT_AP_N45",
+      "SequenceNum": "1"
+    }
+  },
+  {
+    "entity": "AP_TERM_LINE",
+    "id": "REQ-010",
+    "kind": "preserve_rows",
+    "operationId": "l1",
+    "requirement": "Preserve every unspecified record and non-audit value",
+    "targetKey": {
+      "AP_TERM_HEADER.Name": "FSCRT_AP_N45",
+      "SequenceNum": "1"
+    }
+  },
+  {
+    "entity": "AP_TERM_SUBSCRIPTION",
+    "id": "REQ-011",
+    "kind": "target",
+    "operationId": "s1",
+    "requirement": "create exactly one AP_TERM_SUBSCRIPTION record identified by {\"AP_TERM_HEADER.Name\":\"FSCRT_AP_N45\",\"SetCode\":\"ENTERPRISE\"}",
+    "targetKey": {
+      "AP_TERM_HEADER.Name": "FSCRT_AP_N45",
+      "SetCode": "ENTERPRISE"
+    }
+  },
+  {
+    "entity": "AP_TERM_SUBSCRIPTION",
+    "id": "REQ-012",
+    "kind": "preserve_rows",
+    "operationId": "s1",
+    "requirement": "Preserve every unspecified record and non-audit value",
+    "targetKey": {
+      "AP_TERM_HEADER.Name": "FSCRT_AP_N45",
+      "SetCode": "ENTERPRISE"
+    }
+  },
+  {
+    "entity": "AP_TERM_HEADER_TRANSLATION",
+    "id": "REQ-013",
+    "kind": "target",
+    "operationId": "t1",
+    "requirement": "create exactly one AP_TERM_HEADER_TRANSLATION record identified by {\"AP_TERM_HEADER.Name\":\"FSCRT_AP_N45\",\"Language\":\"US\"}",
+    "targetKey": {
+      "AP_TERM_HEADER.Name": "FSCRT_AP_N45",
+      "Language": "US"
+    }
+  },
+  {
+    "entity": "AP_TERM_HEADER_TRANSLATION",
+    "field": "Description",
+    "id": "REQ-014",
+    "kind": "value",
+    "operationId": "t1",
+    "requestedValue": "FSCRT Run04 net 45",
+    "requirement": "Persist AP_TERM_HEADER_TRANSLATION.Description=FSCRT Run04 net 45",
+    "targetKey": {
+      "AP_TERM_HEADER.Name": "FSCRT_AP_N45",
+      "Language": "US"
+    }
+  },
+  {
+    "entity": "AP_TERM_HEADER_TRANSLATION",
+    "field": "Name",
+    "id": "REQ-015",
+    "kind": "value",
+    "operationId": "t1",
+    "requestedValue": "FSCRT_AP_N45",
+    "requirement": "Persist AP_TERM_HEADER_TRANSLATION.Name=FSCRT_AP_N45",
+    "targetKey": {
+      "AP_TERM_HEADER.Name": "FSCRT_AP_N45",
+      "Language": "US"
+    }
+  },
+  {
+    "entity": "AP_TERM_HEADER_TRANSLATION",
+    "field": "SourceLang",
+    "id": "REQ-016",
+    "kind": "value",
+    "operationId": "t1",
+    "requestedValue": "US",
+    "requirement": "Persist AP_TERM_HEADER_TRANSLATION.SourceLang=US",
+    "targetKey": {
+      "AP_TERM_HEADER.Name": "FSCRT_AP_N45",
+      "Language": "US"
+    }
+  },
+  {
+    "entity": "AP_TERM_HEADER_TRANSLATION",
+    "id": "REQ-017",
+    "kind": "preserve_rows",
+    "operationId": "t1",
+    "requirement": "Preserve every unspecified record and non-audit value",
+    "targetKey": {
+      "AP_TERM_HEADER.Name": "FSCRT_AP_N45",
+      "Language": "US"
+    }
+  }
+]

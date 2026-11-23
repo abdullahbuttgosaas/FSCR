@@ -1,0 +1,282 @@
+{
+  "about": "Which configuration folder runs which tabs of the upload sheet (page/sheet_definition.json). page/workbook.py builds one request per record row and the page runs it through that folder's --run. A tab that is in no group here is reported as not set up yet. See the root CLAUDE.md > The upload sheet.",
+  "ignore_tabs": ["Read me"],
+  "groups": [
+    {
+      "name": "Customers",
+      "folder": "Customers",
+      "record": "customer",
+      "max_records": 100,
+      "same_name_check": "--existing",
+      "address_check": "--check-address",
+      "address_check_hold": true,
+      "oracle_check": "--plan",
+      "plan_skips_red_fields": true,
+      "answer_check": "--answer-check",
+      "ask_on_refusal": {"fields": ["state", "city", "postal_code", "account_address_set", "account_type", "customer_class",
+                                    "country", "site_language", "customer_category_code", "responsible_mineral_status", "prefix"],
+                         "about": "Customers v2 (2026-10-26): a customer refused for one of these values is parked and the panel asks; the answer is checked with --answer-check (same path as Create)"},
+      "record_tabs": {
+        "Organization Customers": {"what": "organization customer", "fixed": {"customer_type": "Organization"},
+                                   "name_from": ["Name"], "link_name": ["Name"]},
+        "Person Customers": {"what": "person customer", "fixed": {"customer_type": "Person"},
+                             "name_from": ["First Name", "Middle Name", "Last Name", "Suffix"],
+                             "link_name": ["First Name", "Last Name"]}
+      },
+      "child_tabs": {
+        "Address Purposes": {
+          "into": "purposes",
+          "what": "address purpose",
+          "link": {"column": "Customer Name",
+                   "about": "A purpose row belongs to the customer whose link_name (record tab: Name; First Name + space + Last Name) equals Customer Name, ignoring case and extra spaces. Names must be unique within one sheet (never assumed unique in Oracle)."},
+          "unique": ["Purpose"],
+          "one_yes_per": {"flag": "Primary", "per": "Purpose"},
+          "within_parent": {"start": "From Date", "end": "To Date",
+                            "parent_start": "From Date", "parent_end": "To Date", "parent_what": "address"},
+          "address_pick": {
+            "about": "Bill-to Site is a list in Oracle holding only this customer's one address, shown on Ship to rows only. Empty = picked automatically; a typed value must match the text built from the record's address (case and extra spaces ignored).",
+            "column": "Bill-to Site", "only_on": {"Purpose": "Ship to"}, "needs_row": {"Purpose": "Bill to"},
+            "text": [{"column": "Address Line 1"}, {"column": "Address Line 2", "sep": ","},
+                     {"column": "City", "sep": ",", "upper": true}, {"column": "State", "sep": ", "},
+                     {"column": "Postal Code", "sep": " "}]
+          }
+        }
+      }
+    },
+    {
+      "name": "Order Types",
+      "folder": "Order Types",
+      "record": "order type",
+      "max_records": 100,
+      "minutes_each": 1,
+      "oracle_check": "--plan",
+      "ask_on_refusal": {"fields": ["meaning", "code", "description", "tag", "display_sequence", "start_date", "end_date"],
+        "about": "An order type Oracle refuses for a value (nothing saved): the run asks right after it (suggestions, another value, or skip) and tries only that one again (2026-10-26)"},
+      "record_tabs": {
+        "Order Types": {"what": "order type", "name_from": ["Lookup Code"]}
+      },
+      "child_tabs": {},
+      "unique_records": [
+        {"column": "Lookup Code", "ignore_case": false, "about": "Oracle tells codes apart by case (Subscription exists in mixed case)"},
+        {"column": "Meaning", "ignore_case": true, "about": "Oracle needs meanings unique within the list, capitals ignored"}
+      ]
+    },
+    {
+      "name": "Payment Terms",
+      "folder": "Payment Terms",
+      "record": "payment term",
+      "max_records": 100,
+      "minutes_each": 1,
+      "minutes_total": 3,
+      "batch_run": "--run-batch",
+      "oracle_check": "--plan",
+      "ask_on_refusal": {"fields": ["name", "description", "rank", "cutoff_day", "from_date", "to_date", "due_percent", "due_amount", "days", "fixed_date", "day_of_month", "months_ahead", "calendar", "discount_percent", "discount_days", "discount_day_of_month", "discount_months_ahead", "discount2_percent", "discount2_days", "discount2_day_of_month", "discount2_months_ahead", "discount3_percent", "discount3_days", "discount3_day_of_month", "discount3_months_ahead"],
+        "about": "A payment term Oracle's import refuses for a value (nothing saved): after the others, the run asks (suggestions, another value, or skip); an installment value goes into that installment; only that term is imported again (2026-10-26)"},
+      "record_tabs": {
+        "Payment Terms": {"what": "payment term", "name_from": ["Name"], "link_name": ["Name"]}
+      },
+      "child_tabs": {
+        "Payment Term Lines": {"into": "installments", "what": "payment term line",
+                               "link": {"column": "Payment Term Name", "exact": true,
+                                        "about": "Exact: capitals and spaces count, as Oracle's own name check"}},
+        "Payment Term Sets": {"into": "set_assignments", "what": "payment term set",
+                              "link": {"column": "Payment Term Name", "exact": true}}
+      }
+    },
+    {
+      "name": "Lookup Types",
+      "folder": "Lookup types",
+      "record": "lookup type",
+      "max_records": 100,
+      "minutes_each": 1,
+      "minutes_total": 2,
+      "batch_run": "--run-batch",
+      "oracle_check": "--plan",
+      "ask_on_refusal": {"fields": ["lookup_type", "meaning", "description", "code", "start_date", "end_date", "display_sequence", "tag"],
+        "about": "A lookup type or code Oracle refuses for a value (nothing saved): after the others, the run asks; a code value goes into that code row; only that one is sent again (2026-10-26)"},
+      "record_tabs": {
+        "Lookup Types": {"what": "lookup type", "name_from": ["Lookup Type"], "link_name": ["Lookup Type"]}
+      },
+      "child_tabs": {
+        "Lookup Codes": {"into": "codes", "what": "lookup code",
+                         "link": {"column": "Lookup Type", "exact": true,
+                                  "orphans": {"what": "codes for lookup type", "key": "lookup_type",
+                                              "fixed": {"existing_only": true},
+                                              "about": "Code rows whose type isn't on the Lookup Types tab: codes added to a type that exists in Oracle; the folder's --plan checks it exists and isn't a System type"}}}
+      },
+      "reserved": [
+        {"column": "Lookup Type", "values": ["ORA_DOO_ORDER_TYPES", "DOO_ORDER_TYPES"],
+         "text": "{value} is the order type list: use the Order Types tab for these.",
+         "fix": "Move these rows to the Order Types tab."}
+      ]
+    },
+    {
+      "name": "Business Units",
+      "folder": "Business Units",
+      "record": "business unit",
+      "max_records": 100,
+      "minutes_each": 1,
+      "minutes_total": 3,
+      "batch_run": "--run-batch",
+      "oracle_check": "--plan",
+      "plan_skips_red_fields": true,
+      "ask_on_refusal": {"fields": ["name", "location", "manager", "default_set", "active"],
+                         "about": "A business unit Oracle refuses for a value: after the others are made, the run asks the user (suggested values, another value, or skip) and retries only that one (2026-10-26)"},
+      "record_tabs": {"Business Units": {"what": "business unit", "name_from": ["Name"]}},
+      "child_tabs": {}
+    },
+    {
+      "name": "Price Lists",
+      "folder": "Price Lists",
+      "record": "price list",
+      "max_records": 100,
+      "minutes_each": 1,
+      "batch_run": "--run-batch",
+      "oracle_check": "--plan",
+      "plan_skips_red_fields": true,
+      "depends_on": {"group": "Business Units", "column": "Business Unit", "match_column": "Name",
+                     "key": "business_unit_pending", "request_key": "business_unit",
+                     "note": "On the Business Units tab of this sheet: {value} is created first; the price list waits until Oracle shows it for pricing.",
+                     "about": "A price list on a business unit from the same upload runs after it (2026-10-26): it waits while that business unit waits for a decision, and is not sent when it failed or was skipped"},
+      "ask_on_refusal": {"fields": ["name", "description", "type", "currency", "business_unit", "start_date", "end_date",
+                                    "charge_definition", "line_type", "calculation_method"],
+                         "about": "As Business Units: a price list Oracle refuses for a value gets a question after the others are made"},
+      "record_tabs": {"Price Lists": {"what": "price list", "name_from": ["Name"], "link_name": ["Name"]}},
+      "child_tabs": {
+        "Price List Access Sets": {"into": "access_sets", "what": "price list access set",
+                                   "link": {"column": "Price List Name", "exact": true,
+                                            "about": "Exact: capitals and spaces count, as Oracle's own name check"}}
+      }
+    },
+    {
+      "name": "Receivables Payment Terms",
+      "area": "Receivables",
+      "uses_browser": false,
+      "about": "2026-10-30: Oracle's Manage Receivables Payment Terms through the setup task process without a browser (the folder's run.py); the page's Receivables area. A group with \"area\" is listed on the Upload screen only under that area; a group without it is Order Management.",
+      "folder": "Receivables Payment Terms",
+      "record": "receivables payment term",
+      "max_records": 100,
+      "minutes_each": 1,
+      "minutes_total": 4,
+      "batch_run": "--run-batch",
+      "oracle_check": "--plan",
+      "plan_skips_red_fields": true,
+      "ask_on_refusal": {"fields": ["name", "description", "set_code", "from_date", "to_date", "base_amount", "print_lead_days", "tax_freight", "discount_basis", "discount_date_basis", "cutoff_day", "relative_amount", "days", "fixed_date", "day_of_month", "months_ahead", "discount_percent", "discount_days", "discount_fixed_date", "discount_day_of_month", "discount_months_ahead", "discount2_percent", "discount2_days", "discount2_fixed_date", "discount2_day_of_month", "discount2_months_ahead", "discount3_percent", "discount3_days", "discount3_fixed_date", "discount3_day_of_month", "discount3_months_ahead"],
+                         "about": "A term Oracle refuses for a value (nothing saved): after the others, the run asks (suggestions, another value, or skip); an installment value goes into that installment; only that term is sent again"},
+      "record_tabs": {
+        "Receivables Payment Terms": {"what": "receivables payment term", "name_from": ["Name"], "link_name": ["Name"]}
+      },
+      "child_tabs": {
+        "Receivables Term Lines": {"into": "installments", "what": "receivables term line",
+                                   "link": {"column": "Payment Term Name", "exact": true,
+                                            "about": "Exact: capitals and spaces count, as Oracle's own name check"}}
+      }
+    },
+    {
+      "name": "AutoInvoice Grouping Rules",
+      "area": "Receivables",
+      "uses_browser": false,
+      "about": "2026-11-01: Oracle's Manage AutoInvoice Grouping Rules through the setup task process without a browser (the folder's run.py; UNTESTED on Oracle). Kept before any future Transaction Sources group: a transaction source may name a grouping rule (registry order = run order).",
+      "folder": "AutoInvoice Grouping Rules",
+      "record": "autoinvoice grouping rule",
+      "max_records": 100,
+      "minutes_each": 1,
+      "minutes_total": 4,
+      "batch_run": "--run-batch",
+      "oracle_check": "--plan",
+      "plan_skips_red_fields": true,
+      "ask_on_refusal": {"fields": ["name", "description", "from_date", "to_date", "transaction_class", "characteristic"],
+                         "about": "A rule Oracle refuses for a value (nothing saved): after the others, the run asks (suggestions, another value, or skip); a class row value goes into that row; only that rule is sent again"},
+      "record_tabs": {
+        "AutoInvoice Grouping Rules": {"what": "autoinvoice grouping rule", "name_from": ["Name"], "link_name": ["Name"]}
+      },
+      "child_tabs": {
+        "Grouping Rule Classes": {"into": "classes", "what": "grouping rule class",
+                                  "link": {"column": "Grouping Rule Name", "exact": true,
+                                           "about": "Exact: capitals and spaces count, as Oracle's own name check"}}
+      }
+    },
+    {
+      "name": "Transaction Types",
+      "area": "Receivables",
+      "uses_browser": false,
+      "about": "2026-11-02: Oracle's Manage Transaction Types through the setup task process without a browser (the folder's run.py; header only, Create UNTESTED on Oracle). After AutoInvoice Grouping Rules and before Transaction Sources (a source will later name a type); a type may name a Receivables payment term from the same upload (depends_on).",
+      "folder": "Transaction Types",
+      "record": "transaction type",
+      "max_records": 100,
+      "minutes_each": 1,
+      "minutes_total": 4,
+      "batch_run": "--run-batch",
+      "oracle_check": "--plan",
+      "plan_skips_red_fields": true,
+      "depends_on": {
+        "group": "Receivables Payment Terms",
+        "column": "Payment Term",
+        "match_column": "Name",
+        "key": "payment_term_pending",
+        "request_key": "payment_term",
+        "note": "On the Receivables Payment Terms tab of this sheet: {value} is created first; the transaction type waits for it.",
+        "about": "A type naming a payment term from the same upload runs after it; it is not sent when that term failed or was skipped"
+      },
+      "ask_on_refusal": {
+        "fields": [
+          "name",
+          "set_code",
+          "description",
+          "trx_class",
+          "status",
+          "from_date",
+          "to_date",
+          "open_receivable",
+          "post_to_gl",
+          "allow_freight",
+          "tax_calculation",
+          "natural_application",
+          "allow_overapplication",
+          "creation_sign",
+          "transaction_status",
+          "printing_option",
+          "payment_term",
+          "payment_term_set"
+        ],
+        "about": "A type Oracle refuses for a value (nothing saved): after the others, the run asks (suggestions, another value, or skip); only that type is sent again"
+      },
+      "record_tabs": {
+        "Transaction Types": {
+          "what": "transaction type",
+          "name_from": [
+            "Name"
+          ],
+          "link_name": [
+            "Name"
+          ]
+        }
+      },
+      "child_tabs": {}
+    },
+    {
+      "name": "Transaction Sources",
+      "area": "Receivables",
+      "uses_browser": false,
+      "about": "2026-11-01: Oracle's Manage Transaction Sources through the setup task process without a browser (the folder's run.py; Create UNTESTED on Oracle). After AutoInvoice Grouping Rules: a source may name a grouping rule from the same upload (depends_on).",
+      "folder": "Transaction Sources",
+      "record": "transaction source",
+      "max_records": 100,
+      "minutes_each": 1,
+      "minutes_total": 4,
+      "batch_run": "--run-batch",
+      "oracle_check": "--plan",
+      "plan_skips_red_fields": true,
+      "depends_on": {"group": "AutoInvoice Grouping Rules", "column": "Grouping Rule", "match_column": "Name",
+                     "key": "grouping_rule_pending", "request_key": "grouping_rule",
+                     "note": "On the AutoInvoice Grouping Rules tab of this sheet: {value} is created first; the source waits for it.",
+                     "about": "A source naming a grouping rule from the same upload runs after it; it is not sent when that rule failed or was skipped"},
+      "ask_on_refusal": {"fields": ["name", "set_code", "description", "source_type", "from_date", "status", "last_number", "invalid_lines", "grouping_rule"],
+                         "about": "A source Oracle refuses for a value (nothing saved): after the others, the run asks (suggestions, another value, or skip); only that source is sent again"},
+      "record_tabs": {
+        "Transaction Sources": {"what": "transaction source", "name_from": ["Name"], "link_name": ["Name"]}
+      },
+      "child_tabs": {}
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "$schema": "../../../schemas/project-state.schema.json",
+  "project_id": "twelve-scm-project-intake-20261105",
+  "project_name": "Twelve Oracle Cloud SCM - Project Intake (paper)",
+  "customer": "Twelve Benefit Corporation",
+  "implementation_phase": "discovery",
+  "state_version": "0.1.0",
+  "created_at": "2026-11-05T10:03:55+05:00",
+  "updated_at": "2026-11-05T10:03:55+05:00",
+  "current_objective_ref": null,
+  "current_scope_ref": "project/twelve-scm-project-intake-20261105/artifacts/shared/project-intake/scope-definition/current/scope.md",
+  "artifact_index_ref": "project/twelve-scm-project-intake-20261105/artifacts/artifact-index.json",
+  "latest_run_ref": null,
+  "baseline_refs": [],
+  "decision_refs": [],
+  "active_skill_path": [
+    "router.implementation-router",
+    "router.project-objective-classifier",
+    "shared.project-intake.implementation-scope-intake",
+    "shared.project-intake.enterprise-structure-intake",
+    "shared.project-intake.integration-landscape-intake",
+    "shared.project-intake.scope-definition"
+  ],
+  "status": "initialized",
+  "notes": "Paper-only intake. NOT initialized via core.project-mgmt.project-workspace-initializer: it requires a non-empty identified-task-mapping (setup-task level), which a SOW does not provide. No runbook_control; no Fusion calls."
+}

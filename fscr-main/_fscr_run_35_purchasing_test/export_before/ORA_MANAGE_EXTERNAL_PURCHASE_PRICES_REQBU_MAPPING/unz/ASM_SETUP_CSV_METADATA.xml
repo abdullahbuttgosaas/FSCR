@@ -1,0 +1,67 @@
+<MigrationProcessCSVMetadataVO>
+   <MigrationProcessCSVMetadataVORow>
+      <ProcessId>-999</ProcessId>
+      <ProcessName>Manage External Purchase Prices Requisitioning BU Mapping_20261117_085004_046</ProcessName>
+      <ProcessDescription>Manage External Purchase Prices Requisitioning BU Mapping_20261117_085004_046</ProcessDescription>
+      <ProcessDate>2026-11-17 08:50:21.665</ProcessDate>
+      <ObjectShortName>ORA_MANAGE_EXTERNAL_PURCHASE_PRICES_REQBU_MAPPING</ObjectShortName>
+      <ObjectType>TASK</ObjectType>
+      <CreatedByFlow>TASK_CSV_SERVICE</CreatedByFlow>
+      <ProcessType>EXPORT</ProcessType>
+      <ProcessStatus>COMPLETED</ProcessStatus>
+      <ProcessEnv>etia-test</ProcessEnv>
+      <ProcessStartDate>2026-11-17 08:50:04.15</ProcessStartDate>
+      <ProcessEndDate>2026-11-17 08:50:21.665</ProcessEndDate>
+      <ProcessRelease>11.13.26.10.0</ProcessRelease>
+      <SubmittedBy>Configuration.TEST</SubmittedBy>
+      <ESSRequestId>4466253</ESSRequestId>
+      <MigrationProcessBusinessObjectCSVMetadata1>
+         <MigrationProcessBusinessObjectCSVMetadataVORow>
+            <ProcessId>-999</ProcessId>
+            <BusinessObjectShortName>ORA_SCH_EPP_MAPPING</BusinessObjectShortName>
+            <BatchName>EppReqBuMapping</BatchName>
+            <XmlAttributeList>ActiveFlag,SourceOrganizationName,ReqGroupName,MappingTypeCode,ProcurementBusinessUnitName</XmlAttributeList>
+            <XmlAttributeTypeList>string,string,string,string,string</XmlAttributeTypeList>
+            <XmlNodePath>/EppReqBuMappingVO/EppReqBuMappingVORow</XmlNodePath>
+            <NodeSequence>1</NodeSequence>
+         </MigrationProcessBusinessObjectCSVMetadataVORow>
+         <MigrationProcessBusinessObjectCSVMetadataVORow>
+            <ProcessId>-999</ProcessId>
+            <BusinessObjectShortName>ORA_SCH_EPP_MAP_REQ_BUS</BusinessObjectShortName>
+            <BatchName>EppReqBuMapping</BatchName>
+            <XmlAttributeList>RequisitioningBUName</XmlAttributeList>
+            <XmlAttributeTypeList>string</XmlAttributeTypeList>
+            <XmlNodePath>/EppReqBuMappingVO/EppReqBuMappingVORow/EppReqBuGrouping/EppReqBuGroupingVORow</XmlNodePath>
+            <NodeSequence>2</NodeSequence>
+         </MigrationProcessBusinessObjectCSVMetadataVORow>
+      </MigrationProcessBusinessObjectCSVMetadata1>
+      <MigrationProcessBatchCSVMetadata>
+         <MigrationProcessBatchCSVMetadataVORow>
+            <ProcessId>-999</ProcessId>
+            <BatchName>EppReqBuMapping</BatchName>
+            <ImportSequence>0</ImportSequence>
+            <ServiceName>oracle.apps.scm.sch.externalPurchasePrice.mappingService.EppReqBuMappingService</ServiceName>
+            <BatchSize>500</BatchSize>
+         </MigrationProcessBatchCSVMetadataVORow>
+      </MigrationProcessBatchCSVMetadata>
+      <MigrationProcessScopeValueCSVMetadata null="true"/>
+      <MigrationProcessMigrationObjectCSVMetadata>
+         <MigrationProcessMigrationObjectCSVMetadataVORow>
+            <ProcessId>-999</ProcessId>
+            <BusinessObjectShortName>ORA_SCH_EPP_MAPPING</BusinessObjectShortName>
+            <MigrateFlag>Y</MigrateFlag>
+            <IncludeExternalDataFlag>Y</IncludeExternalDataFlag>
+            <ServiceType null="true"/>
+         </MigrationProcessMigrationObjectCSVMetadataVORow>
+         <MigrationProcessMigrationObjectCSVMetadataVORow>
+            <ProcessId>-999</ProcessId>
+            <BusinessObjectShortName>ORA_SCH_EPP_MAP_REQ_BUS</BusinessObjectShortName>
+            <MigrateFlag>Y</MigrateFlag>
+            <IncludeExternalDataFlag>Y</IncludeExternalDataFlag>
+            <ServiceType null="true"/>
+         </MigrationProcessMigrationObjectCSVMetadataVORow>
+      </MigrationProcessMigrationObjectCSVMetadata>
+      <MigrationProcessTaskCSVMetadata null="true"/>
+      <MigrationProcessServiceVersionCSVMetadata null="true"/>
+   </MigrationProcessCSVMetadataVORow>
+</MigrationProcessCSVMetadataVO>

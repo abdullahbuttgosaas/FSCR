@@ -1,0 +1,48 @@
+tasks 2616 unique codes 2616 | Run 07 mismatches: 0 []
+Common Features: old 144 (79 missing) -> new 227 (148 missing); left 6, joined 89
+   left to: [('Inventory Management', 6)]
+   joined by basis: [('family ZX', 30), ('ORA_ASK_ (non-ERP offering)', 24), ('family FND', 23), ('area vote', 4), ('family MCT', 3), ('task override', 2), ('family JE', 2), ('family ATK', 1)]
+Procurement: old 60 (39 missing) -> new 41 (26 missing); left 28, joined 9
+   left to: [('General Ledger', 9), ('Sourcing and Supplier Management', 7), ('Expenses', 3), ('Inventory Management', 3), ('Payables', 2), ('Unmapped', 2), ('Common Features', 1), ('Purchasing', 1)]
+   joined by basis: [('family CMK', 5), ('task override', 2), ('area vote', 1), ('family POR', 1)]
+Sourcing and Supplier Management: old 91 (46 missing) -> new 58 (26 missing); left 41, joined 8
+   left to: [('Inventory Management', 12), ('Receivables', 9), ('Procurement', 5), ('Cost Management', 4), ('Manufacturing', 3), ('Common Features', 3), ('Project Financial Management', 2), ('Unmapped', 2), ('PLM - Product Hub', 1)]
+   joined by basis: [('family POZ', 5), ('family PON', 2), ('family EGP', 1)]
+Run 32 S&SM tasks listed under Suppliers that moved out: 41 [('Inventory Management', 12), ('Receivables', 9), ('Procurement', 5), ('Cost Management', 4), ('Manufacturing', 3), ('Common Features', 3), ('Unmapped', 2), ('Project Financial Management', 2), ('PLM - Product Hub', 1)]
+ERP Common Features 227 79 99 49 10 148/227 Partial
+ERP Security 6 6 0 0 0 0/6 Full
+ERP General Ledger 158 3 117 38 0 155/158 Partial
+ERP Payables 46 6 33 7 0 40/46 Partial
+ERP Receivables 142 68 66 8 3 74/142 Partial
+ERP Cash Management 19 0 17 2 0 19/19 None
+ERP Fixed Assets 28 10 18 0 0 18/28 Partial
+ERP Expenses 39 6 28 5 0 33/39 Partial
+ERP Revenue Management 22 0 21 1 0 22/22 None
+ERP Project Financial Management 214 15 171 28 1 199/214 Partial
+ERP Purchasing 14 3 9 2 0 11/14 Partial
+HCM Global HR 167 82 50 35 2 85/167 Partial
+HCM Absence Management 10 8 2 0 0 2/10 Full
+HCM Time and Labor 37 27 7 3 0 10/37 Partial
+HCM Global Payroll 47 42 5 0 3 5/47 Full
+HCM Benefits 36 16 6 14 2 20/36 Partial
+HCM Workforce Compensation 17 17 0 0 0 0/17 Full
+HCM Performance and Goal Management 23 14 8 1 0 9/23 Partial
+HCM Talent Review and Succession 9 0 9 0 0 9/9 None
+HCM Recruiting 50 41 5 4 1 9/50 Full
+HCM Learning 20 15 0 5 0 5/20 Full
+SCM Procurement 41 15 18 8 0 26/41 Partial
+SCM Sourcing and Supplier Management 58 32 16 10 9 26/58 Partial
+SCM Inventory Management 134 61 68 5 0 73/134 Partial
+SCM Order Management 68 33 26 9 1 35/68 Partial
+SCM Manufacturing 18 13 3 2 0 5/18 Partial
+SCM Cost Management 62 32 27 3 1 30/62 Partial
+SCM Supply Planning 17 11 2 4 3 6/17 Partial
+SCM Maintenance 19 4 10 5 0 15/19 Partial
+SCM Logistics - Transportation Management 1 0 1 0 0 1/1 None
+SCM Logistics - Global Trade Management 7 1 6 0 0 6/7 Partial
+SCM PLM - Product Hub 44 29 10 5 0 15/44 Partial
+SCM PLM - Product Development 37 15 19 3 0 22/37 Partial
+SCM PLM - Quality Management 5 0 5 0 0 5/5 None
+- Unmapped 774 144 491 139 7 630/774 -
+ALL All catalog tasks 2616 848 1373 395 43 1768/2616 -
+basis counts Counter({'family': 2124, 'area': 262, 'Run': 136, 'task': 37, 'no': 33, 'ORA_ASK_': 24})

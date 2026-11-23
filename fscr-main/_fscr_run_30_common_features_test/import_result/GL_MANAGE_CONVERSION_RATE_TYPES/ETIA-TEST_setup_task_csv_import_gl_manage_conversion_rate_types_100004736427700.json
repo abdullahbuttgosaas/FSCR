@@ -1,0 +1,7 @@
+{
+  "environment": "ETIA-TEST",
+  "taskCode": "GL_MANAGE_CONVERSION_RATE_TYPES",
+  "taskName": "Manage Conversion Rate Types",
+  "zipFile": "..\\payload\\GL_MANAGE_CONVERSION_RATE_TYPES\\gl_manage_conversion_rate_types_fscrt.zip",
+  "processId": "100004736427700"
+}

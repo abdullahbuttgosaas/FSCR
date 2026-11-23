@@ -1,0 +1,40 @@
+{
+  "baselineSha256": "3ef1092d7e044806ae84511b816d3c43927d45f08cfa9e0bf278320658283f26",
+  "candidateSha256": "8df257c9bb374b738f1cec6a26890f0edb3f190e2976b8d16491dd38e72ab27d",
+  "designSha256": "4cf7172594b15f439575e1c80180a933489925e4e51c7812f47c0f1368bc8585",
+  "errors": [],
+  "memberInventory": [
+    "ORA_AR_TXN_BATCH_SOURCE.csv",
+    "AR_BATCH_SOURCE.csv",
+    "ASM_SETUP_CSV_METADATA.xml"
+  ],
+  "requirementIds": [
+    "REQ-001",
+    "REQ-002",
+    "REQ-003",
+    "REQ-004",
+    "REQ-005",
+    "REQ-006",
+    "REQ-007",
+    "REQ-008",
+    "REQ-009"
+  ],
+  "rowCounts": {
+    "AR_BATCH_SOURCE.csv": 0,
+    "ORA_AR_TXN_BATCH_SOURCE.csv": 1
+  },
+  "schemaFingerprint": "be277ef5dcf08201e1dddedf8cb27a87842ab4ed17f3abfeb87109e8e336e1f4",
+  "schemaVersion": "fscr-fsm-task-adapter-v1",
+  "status": "PASS",
+  "task": {
+    "code": "AR_MANAGE_TRANSACTION_SOURCES",
+    "csvSupported": true,
+    "functionalArea": "Customer Billing",
+    "importMode": "FSM",
+    "name": "Manage Transaction Sources",
+    "offering": "Financials"
+  },
+  "templateSha256": "6f33581349dfbfebcbb8cdccdb1e9fb0fb25e270c8229aa4ad7ec8bd8c3b06fe",
+  "unresolvedWarnings": [],
+  "warnings": []
+}

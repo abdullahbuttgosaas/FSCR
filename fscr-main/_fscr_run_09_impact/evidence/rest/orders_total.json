@@ -1,0 +1,39 @@
+{
+  "items" : [ ],
+  "totalResults" : 0,
+  "count" : 0,
+  "hasMore" : false,
+  "limit" : 1,
+  "offset" : 0,
+  "links" : [ {
+    "rel" : "self",
+    "href" : "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/salesOrdersForOrderHub",
+    "name" : "salesOrdersForOrderHub",
+    "kind" : "collection"
+  }, {
+    "rel" : "action",
+    "href" : "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/salesOrdersForOrderHub/action/applyHold",
+    "name" : "applyHold",
+    "kind" : "other"
+  }, {
+    "rel" : "action",
+    "href" : "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/salesOrdersForOrderHub/action/releaseHold",
+    "name" : "releaseHold",
+    "kind" : "other"
+  }, {
+    "rel" : "action",
+    "href" : "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/salesOrdersForOrderHub/action/splitFulfillmentLine",
+    "name" : "splitFulfillmentLine",
+    "kind" : "other"
+  }, {
+    "rel" : "action",
+    "href" : "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/salesOrdersForOrderHub/action/updateSchedulingAttribute",
+    "name" : "updateSchedulingAttribute",
+    "kind" : "other"
+  }, {
+    "rel" : "action",
+    "href" : "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/salesOrdersForOrderHub/action/updateActualDeliveryDate",
+    "name" : "updateActualDeliveryDate",
+    "kind" : "other"
+  } ]
+}

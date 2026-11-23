@@ -1,0 +1,33 @@
+{
+ "old": "evidence/exports/AR_MANAGE_TRANSACTION_SOURCES/ETIA-TEST_setup_task_csv_export_ar_manage_transaction_sources_100004733440898.zip",
+ "new": "evidence/skills/tsrc/after_export/ETIA-TEST_setup_task_csv_export_ar_manage_transaction_sources_100004733441000.zip",
+ "files": {
+  "AR_BATCH_SOURCE.csv": {
+   "rows_old": 5,
+   "rows_new": 6,
+   "key_columns": [
+    "Name",
+    "SetCode",
+    "GroupName",
+    "LegalEntityName",
+    "TrxTypeName"
+   ],
+   "added": [
+    {
+     "Name": "FSCRT_TS1",
+     "SetCode": "ENTERPRISE"
+    }
+   ],
+   "removed": [],
+   "changed": []
+  },
+  "ORA_AR_TXN_BATCH_SOURCE.csv": {
+   "rows_old": 0,
+   "rows_new": 0,
+   "key_columns": [],
+   "added": [],
+   "removed": [],
+   "changed": []
+  }
+ }
+}

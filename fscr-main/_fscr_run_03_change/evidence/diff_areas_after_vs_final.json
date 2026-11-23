@@ -1,0 +1,51 @@
+{
+ "priceLists_all.json": {
+  "before": 55,
+  "after": 55,
+  "added": [],
+  "removed": [],
+  "changed": {}
+ },
+ "order_types_all.json": {
+  "before": 60,
+  "after": 60,
+  "added": [],
+  "removed": [],
+  "changed": {}
+ },
+ "finBusinessUnitsLOV.json": {
+  "before": 183,
+  "after": 183,
+  "added": [],
+  "removed": [],
+  "changed": {}
+ },
+ "customerAccountSitesLOV_all.json": {
+  "before": 212,
+  "after": 212,
+  "added": [],
+  "removed": [],
+  "changed": {}
+ },
+ "hubOrganizations_fscrt.json": {
+  "before": 2,
+  "after": 2,
+  "added": [],
+  "removed": [],
+  "changed": {}
+ },
+ "hubPersons_fscrt.json": {
+  "before": 2,
+  "after": 2,
+  "added": [],
+  "removed": [],
+  "changed": {}
+ },
+ "standardLookups_fscrt.json": {
+  "before": 6,
+  "after": 6,
+  "added": [],
+  "removed": [],
+  "changed": {}
+ }
+}

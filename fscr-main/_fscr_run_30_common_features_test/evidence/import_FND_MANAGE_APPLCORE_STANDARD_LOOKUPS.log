@@ -1,0 +1,8 @@
+TaskCode: FND_MANAGE_APPLCORE_STANDARD_LOOKUPS (Manage Applications Core Standard Lookups); CSVExportImportSupportedFlag: Y
+Started setup task CSV import process: 100004737407747
+ProcessCompletedFlag: False; StatusCode: (no result yet); ResultCount: 0
+ProcessCompletedFlag: False; StatusCode: (no result yet); ResultCount: 0
+ProcessCompletedFlag: True; StatusCode: (no result yet); ResultCount: 0
+StatusCode: (unknown)
+Wrote ..\import_result\FND_MANAGE_APPLCORE_STANDARD_LOOKUPS\ETIA-TEST_setup_task_csv_import_fnd_manage_applcore_standard_lookups_100004737407747.json
+Wrote ..\import_result\FND_MANAGE_APPLCORE_STANDARD_LOOKUPS\ETIA-TEST_setup_task_csv_import_fnd_manage_applcore_standard_lookups_100004737407747_process_log.txt (1137 bytes)

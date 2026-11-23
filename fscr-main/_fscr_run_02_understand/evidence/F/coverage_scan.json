@@ -1,0 +1,306 @@
+{
+ "A1 Business units (ERP)": {
+  "path": "pillars/erp/financials/organization-structures/manage-business-unit.md",
+  "exists": true,
+  "skill_id": "erp.financials.organization-structures",
+  "execution_mode": null,
+  "task_code": "FUN_MANAGE_BUSINESS_UNIT",
+  "csv_export_supported": "Y",
+  "dataloader_mode": null,
+  "scripts": 0,
+  "read_like_scripts": [],
+  "declared_rest_endpoints": [],
+  "files_scanned": 1
+ },
+ "A2 Price lists (SCM)": {
+  "path": "pillars/scm/order-management/pricing/import-price-lists",
+  "exists": true,
+  "skill_id": "scm.order-management.pricing.import-price-lists",
+  "execution_mode": "hybrid",
+  "task_code": "CUSTOM_IMPORT_PRICE_LISTS",
+  "csv_export_supported": "N",
+  "dataloader_mode": "FBDI",
+  "scripts": 0,
+  "read_like_scripts": [],
+  "declared_rest_endpoints": [],
+  "files_scanned": 4
+ },
+ "A3 Payment terms (ERP)": {
+  "path": "pillars/erp/financials/customer-billing/manage-receivables-payment-terms",
+  "exists": true,
+  "skill_id": "erp.financials.customer-billing.manage-receivables-payment-terms",
+  "execution_mode": "assisted",
+  "task_code": "AR_MANAGE_RECEIVABLES_PAYMENT_TERMS",
+  "csv_export_supported": null,
+  "dataloader_mode": "FSM",
+  "scripts": 2,
+  "read_like_scripts": [],
+  "declared_rest_endpoints": [],
+  "files_scanned": 12
+ },
+ "A4 Lookup types/codes (SCM)": {
+  "path": "core/fusion-api/apps-common/lookups",
+  "exists": true,
+  "skill_id": "core.fusion-api.apps-common.lookups",
+  "execution_mode": "hybrid",
+  "task_code": null,
+  "csv_export_supported": null,
+  "dataloader_mode": null,
+  "scripts": 0,
+  "read_like_scripts": [],
+  "declared_rest_endpoints": [
+   "/fscmRestApi/resources/11.13.18.05/commonLookups",
+   "/fscmRestApi/resources/11.13.18.05/commonLookups/{LookupType}",
+   "/fscmRestApi/resources/11.13.18.05/commonLookups/{LookupType}/child/lookupCodes",
+   "/fscmRestApi/resources/11.13.18.05/commonLookups/{LookupType}/child/lookupCodes/{LookupCode}",
+   "/fscmRestApi/resources/11.13.18.05/commonLookups/{LookupType}/child/lookupCodes/{LookupCode}/child/translations",
+   "/fscmRestApi/resources/11.13.18.05/commonLookups/{LookupType}/child/lookupCodes/{LookupCode}/child/translations/{Language}",
+   "/fscmRestApi/resources/11.13.18.05/genericLookups",
+   "/fscmRestApi/resources/11.13.18.05/genericLookups/{genericLookups_Id}",
+   "/fscmRestApi/resources/11.13.18.05/genericLookups/{genericLookups_Id}/child/lookupCodes",
+   "/fscmRestApi/resources/11.13.18.05/genericLookups/{genericLookups_Id}/child/lookupCodes/{LookupCode}",
+   "/fscmRestApi/resources/11.13.18.05/setEnabledLookups",
+   "/fscmRestApi/resources/11.13.18.05/setEnabledLookups/{LookupType}",
+   "/fscmRestApi/resources/11.13.18.05/setEnabledLookups/{LookupType}/child/lookupCodes",
+   "/fscmRestApi/resources/11.13.18.05/setEnabledLookups/{LookupType}/child/lookupCodes/{setEnabledLookups_lookupCodes_Id}",
+   "/fscmRestApi/resources/11.13.18.05/standardLookups"
+  ],
+  "files_scanned": 5
+ },
+ "A5 Order types (SCM)": {
+  "path": "pillars/scm/order-management/orders/manage-order-lookups",
+  "exists": true,
+  "skill_id": "scm.order-management.orders.manage-order-lookups",
+  "execution_mode": "assisted",
+  "task_code": "DOO_MANAGE_ORCHESTRATION_LOOKUPS",
+  "csv_export_supported": "Y",
+  "dataloader_mode": "FSM",
+  "scripts": 0,
+  "read_like_scripts": [],
+  "declared_rest_endpoints": [],
+  "files_scanned": 1
+ },
+ "A6 Org customers (ERP)": {
+  "path": "pillars/erp/financials/customers/manage-customer-uploads",
+  "exists": true,
+  "skill_id": "erp.financials.customers.manage-customer-uploads",
+  "execution_mode": "assisted",
+  "task_code": "ORA_AR_MANAGE_CUSTOMER_UPLOADS",
+  "csv_export_supported": "N",
+  "dataloader_mode": "FBDI",
+  "scripts": 37,
+  "read_like_scripts": [
+   "customer_api_new_target_review.py",
+   "customer_api_snapshot.py",
+   "customer_api_target_review.py",
+   "customer_reconciliation_scope.py",
+   "customer_soap_read.py",
+   "customer_target_review.py"
+  ],
+  "declared_rest_endpoints": [
+   "/crmRestApi/resources/11.13.18.05/hubOrganizations/{PartyNumber}/child/Address",
+   "/crmRestApi/resources/11.13.18.05/hubSourceSystemReferences",
+   "/fscmRestApi/resources/11.13.18.05/erpintegrations",
+   "/fscmRestApi/resources/11.13.18.05/partyTaxProfiles",
+   "/fscmRestApi/resources/11.13.18.05/partyTaxProfiles/describe",
+   "/fscmRestApi/resources/11.13.18.05/receiptMethodAssignments",
+   "/hcmRestApi/resources/latest/dataLoaderDataSets"
+  ],
+  "files_scanned": 76
+ },
+ "A7 Person customers (ERP)": {
+  "path": "pillars/erp/financials/customers/manage-customer-uploads",
+  "exists": true,
+  "skill_id": "erp.financials.customers.manage-customer-uploads",
+  "execution_mode": "assisted",
+  "task_code": "ORA_AR_MANAGE_CUSTOMER_UPLOADS",
+  "csv_export_supported": "N",
+  "dataloader_mode": "FBDI",
+  "scripts": 37,
+  "read_like_scripts": [
+   "customer_api_new_target_review.py",
+   "customer_api_snapshot.py",
+   "customer_api_target_review.py",
+   "customer_reconciliation_scope.py",
+   "customer_soap_read.py",
+   "customer_target_review.py"
+  ],
+  "declared_rest_endpoints": [
+   "/crmRestApi/resources/11.13.18.05/hubOrganizations/{PartyNumber}/child/Address",
+   "/crmRestApi/resources/11.13.18.05/hubSourceSystemReferences",
+   "/fscmRestApi/resources/11.13.18.05/erpintegrations",
+   "/fscmRestApi/resources/11.13.18.05/partyTaxProfiles",
+   "/fscmRestApi/resources/11.13.18.05/partyTaxProfiles/describe",
+   "/fscmRestApi/resources/11.13.18.05/receiptMethodAssignments",
+   "/hcmRestApi/resources/latest/dataLoaderDataSets"
+  ],
+  "files_scanned": 76
+ },
+ "A8 Address purposes (ERP)": {
+  "path": "pillars/erp/financials/customers/manage-customer-uploads",
+  "exists": true,
+  "skill_id": "erp.financials.customers.manage-customer-uploads",
+  "execution_mode": "assisted",
+  "task_code": "ORA_AR_MANAGE_CUSTOMER_UPLOADS",
+  "csv_export_supported": "N",
+  "dataloader_mode": "FBDI",
+  "scripts": 37,
+  "read_like_scripts": [
+   "customer_api_new_target_review.py",
+   "customer_api_snapshot.py",
+   "customer_api_target_review.py",
+   "customer_reconciliation_scope.py",
+   "customer_soap_read.py",
+   "customer_target_review.py"
+  ],
+  "declared_rest_endpoints": [
+   "/crmRestApi/resources/11.13.18.05/hubOrganizations/{PartyNumber}/child/Address",
+   "/crmRestApi/resources/11.13.18.05/hubSourceSystemReferences",
+   "/fscmRestApi/resources/11.13.18.05/erpintegrations",
+   "/fscmRestApi/resources/11.13.18.05/partyTaxProfiles",
+   "/fscmRestApi/resources/11.13.18.05/partyTaxProfiles/describe",
+   "/fscmRestApi/resources/11.13.18.05/receiptMethodAssignments",
+   "/hcmRestApi/resources/latest/dataLoaderDataSets"
+  ],
+  "files_scanned": 76
+ },
+ "F1 Inventory orgs (SCM Inventory)": {
+  "path": "pillars/scm/manufacturing-and-supply-chain-materials-management/facilities/manage-inventory-organizations",
+  "exists": true,
+  "skill_id": "scm.manufacturing-and-supply-chain-materials-management.facilities.manage-inventory-organizations",
+  "execution_mode": "assisted",
+  "task_code": "INV_MANAGE_INVENTORY_ORGANIZATIONS",
+  "csv_export_supported": "Y",
+  "dataloader_mode": "REST",
+  "scripts": 0,
+  "read_like_scripts": [],
+  "declared_rest_endpoints": [],
+  "files_scanned": 6
+ },
+ "F2 Advanced inventory parameters (SCM Inventory)": {
+  "path": "pillars/scm/manufacturing-and-supply-chain-materials-management/advanced-inventory-management/advanced-inventory-parameters",
+  "exists": true,
+  "skill_id": "scm.manufacturing-and-supply-chain-materials-management.advanced-inventory-management.advanced-inventory-parameters",
+  "execution_mode": "assisted",
+  "task_code": "ORA_ADVANCED_INVENTORY_PARAMETERS",
+  "csv_export_supported": "Y",
+  "dataloader_mode": "REST",
+  "scripts": 0,
+  "read_like_scripts": [],
+  "declared_rest_endpoints": [
+   "/fscmRestApi/resources/11.13.18.05/standardLookupsLOV?q=LookupType="
+  ],
+  "files_scanned": 7
+ },
+ "F3 Procurement agents (SCM Procurement)": {
+  "path": "pillars/scm/procurement/procurement-foundation/manage-procurement-agents",
+  "exists": true,
+  "skill_id": "scm.procurement.procurement-foundation.manage-procurement-agents",
+  "execution_mode": "assisted",
+  "task_code": "PO_MANAGE_PROCUREMENT_AGENTS",
+  "csv_export_supported": "Y",
+  "dataloader_mode": "REST",
+  "scripts": 0,
+  "read_like_scripts": [],
+  "declared_rest_endpoints": [],
+  "files_scanned": 6
+ },
+ "F4 Supplier registration (SCM Procurement)": {
+  "path": "pillars/scm/procurement/suppliers/configure-supplier-registration",
+  "exists": true,
+  "skill_id": "scm.procurement.suppliers.configure-supplier-registration",
+  "execution_mode": "assisted",
+  "task_code": "POZ_CONFIGURE_SUPPLIER_REGISTRATION",
+  "csv_export_supported": "Y",
+  "dataloader_mode": "REST",
+  "scripts": 0,
+  "read_like_scripts": [],
+  "declared_rest_endpoints": [
+   "/fscmRestApi/resources/11.13.18.05/supplierEntityConfigurations",
+   "/fscmRestApi/resources/11.13.18.05/supplierOptions"
+  ],
+  "files_scanned": 7
+ },
+ "F5 Functional area catalogs (SCM Product Mgmt)": {
+  "path": "pillars/scm/product-management/catalogs/manage-functional-area-catalogs",
+  "exists": true,
+  "skill_id": "scm.product-management.catalogs.manage-functional-area-catalogs",
+  "execution_mode": "assisted",
+  "task_code": "EGP_MANAGE_DEFAULT_CATALOGS",
+  "csv_export_supported": "Y",
+  "dataloader_mode": "FSM",
+  "scripts": 0,
+  "read_like_scripts": [],
+  "declared_rest_endpoints": [
+   "/fscmRestApi/resources/11.13.18.05/standardLookups/EGP_CATALOG_FUNCTIONAL_AREAS/child/lookupCodes"
+  ],
+  "files_scanned": 7
+ },
+ "F6 Catalog mappings (SCM Product Mgmt)": {
+  "path": "pillars/scm/product-management/advanced-catalogs/manage-catalog-mappings",
+  "exists": true,
+  "skill_id": "scm.product-management.advanced-catalogs.manage-catalog-mappings",
+  "execution_mode": "assisted",
+  "task_code": "EGI_MANAGE_CATALOG_MAPPINGS",
+  "csv_export_supported": "Y",
+  "dataloader_mode": "FSM",
+  "scripts": 0,
+  "read_like_scripts": [],
+  "declared_rest_endpoints": [],
+  "files_scanned": 5
+ },
+ "F7 Ship confirm rules (SCM Shipping)": {
+  "path": "pillars/scm/manufacturing-and-supply-chain-materials-management/shipping/ship-confirm-rules",
+  "exists": true,
+  "skill_id": "scm.manufacturing-and-supply-chain-materials-management.shipping.ship-confirm-rules",
+  "execution_mode": "assisted",
+  "task_code": "ORA_SHIP_CONFIRM_RULES",
+  "csv_export_supported": "Y",
+  "dataloader_mode": "REST",
+  "scripts": 0,
+  "read_like_scripts": [],
+  "declared_rest_endpoints": [],
+  "files_scanned": 6
+ },
+ "F8 Pick wave release rules (SCM Shipping)": {
+  "path": "pillars/scm/manufacturing-and-supply-chain-materials-management/shipping/pick-wave-release-rules",
+  "exists": true,
+  "skill_id": "scm.manufacturing-and-supply-chain-materials-management.shipping.pick-wave-release-rules",
+  "execution_mode": "assisted",
+  "task_code": "ORA_PICK_WAVE_RELEASE_RULES",
+  "csv_export_supported": "Y",
+  "dataloader_mode": "REST",
+  "scripts": 0,
+  "read_like_scripts": [],
+  "declared_rest_endpoints": [],
+  "files_scanned": 7
+ },
+ "F9 Departments (HCM)": {
+  "path": "pillars/hcm/global-human-resources/departments/manage-departments",
+  "exists": true,
+  "skill_id": "hcm.global-human-resources.departments.manage-departments",
+  "execution_mode": "assisted",
+  "task_code": "PER_MANAGE_DEPARTMENT",
+  "csv_export_supported": "Y",
+  "dataloader_mode": "REST",
+  "scripts": 0,
+  "read_like_scripts": [],
+  "declared_rest_endpoints": [
+   "/hcmRestApi/resources/{version}/departments"
+  ],
+  "files_scanned": 8
+ },
+ "F10 Collective agreements (HCM)": {
+  "path": "pillars/hcm/global-human-resources/collective-agreements/manage-collective-agreements",
+  "exists": true,
+  "skill_id": "hcm.global-human-resources.collective-agreements.manage-collective-agreements",
+  "execution_mode": "assisted",
+  "task_code": "ORA_MANAGE_COLLECTIVE_AGGREMENTS",
+  "csv_export_supported": "Y",
+  "dataloader_mode": "REST",
+  "scripts": 0,
+  "read_like_scripts": [],
+  "declared_rest_endpoints": [],
+  "files_scanned": 8
+ }
+}

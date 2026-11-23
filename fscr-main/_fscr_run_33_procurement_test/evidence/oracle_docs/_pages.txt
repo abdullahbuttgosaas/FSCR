@@ -1,0 +1,6 @@
+index.html
+get-help-FA.html
+implement-procurement.html
+purchase-and-activation-of-oracle-cloud-application-services.html
+get-started-with-your-procurement-rapid-implementation.html
+enterprise-structure-for-procurement-rapid-implementation.html

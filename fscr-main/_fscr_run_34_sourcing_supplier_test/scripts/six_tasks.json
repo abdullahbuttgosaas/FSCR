@@ -1,0 +1,44 @@
+[
+ {
+  "task": "Manage Cost Factors",
+  "area": "Sourcing",
+  "group": "Skill + route",
+  "result": "Done with a fix",
+  "note": "FSCRT_R34_CF (FSCRT_R34 Freight, fixed amount) read back. Fix: FSM CSV package, because the skill's REST object is not a Data Loader object."
+ },
+ {
+  "task": "Manage Certifying Agencies",
+  "area": "Suppliers",
+  "group": "Skill + route",
+  "result": "Not done",
+  "note": "Oracle's CSV import needs an internal AgencyId: blank fails, column removed fails. 2 tries, 0 created. Cause: CSV limit + FSCR gap (Oracle's REST create is not in FSCR's Data Loader)."
+ },
+ {
+  "task": "Manage Negotiation Styles",
+  "area": "Sourcing",
+  "group": "Route only",
+  "result": "Done with a fix",
+  "note": "FSCRT_R34_STYLE with Auction, RFQ, RFI read back (setup export; no REST). Fix: Run Book bound by hand."
+ },
+ {
+  "task": "Manage Supplier Qualification Value Sets",
+  "area": "Supplier Qualification",
+  "group": "Route only",
+  "result": "Done with a fix",
+  "note": "FSCRT_R34_VS + values FSCRT_A, FSCRT_B read back. Fix: Oracle rejected type INDEPENDENT; resent as INDEP. Module ID found by REST."
+ },
+ {
+  "task": "Specify User Category for New Supplier Users",
+  "area": "Supplier Portal",
+  "group": "Neither",
+  "result": "Not done",
+  "note": "Oracle has no CSV or API: Security Console only; the name must be SUPPLIER_USER (not FSCRT_)."
+ },
+ {
+  "task": "Manage Supplier Qualification Messages",
+  "area": "Supplier Qualification",
+  "group": "Neither",
+  "result": "Not done",
+  "note": "Oracle has no CSV or create API: the messages REST is read-only."
+ }
+]

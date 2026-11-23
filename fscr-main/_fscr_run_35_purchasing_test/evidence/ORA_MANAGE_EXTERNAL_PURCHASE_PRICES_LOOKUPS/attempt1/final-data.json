@@ -1,0 +1,12 @@
+{
+ "archiveName": "ora_manage_external_purchase_prices_lookups_fscrt.zip",
+ "rowCounts": {
+  "FND_APP_STANDARD_LOOKUP.csv": 1,
+  "ORA_FND_APP_STANDARD_LOOKUP_CODE.csv": 1
+ },
+ "operation": "create",
+ "names": [
+  "FSCRT_R35_EPP_LKP",
+  "FSCRT_A"
+ ]
+}

@@ -1,0 +1,11 @@
+{
+ "console_errors": [
+  "dark-390: Failed to load resource: net::ERR_EMPTY_RESPONSE",
+  "dark-390: Failed to fetch"
+ ],
+ "hscroll": {
+  "mixed-dark-390": 0,
+  "clean-dark-390": 0
+ },
+ "checks": {}
+}

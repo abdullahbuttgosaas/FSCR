@@ -1,0 +1,1 @@
+Create Receivables transaction type FSCRT_TT1 in set ENTERPRISE: class Invoice, active from 2026-11-03, open receivable, not posted to GL, no tax calculation, no freight, no overapplication, default status Open, print. No accounting child rows.

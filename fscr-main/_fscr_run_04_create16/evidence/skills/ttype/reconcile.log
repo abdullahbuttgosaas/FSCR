@@ -1,0 +1,12 @@
+
+--stderr--
+{
+  "errors": [
+    {
+      "code": "ADAPTER_ERROR",
+      "message": "Metadata node sequence for AR_TRANSACTION_TYPE is '2', expected '1' from e2e-adapter.json."
+    }
+  ],
+  "schemaVersion": "fscr-fsm-task-adapter-v1",
+  "status": "FAIL"
+}

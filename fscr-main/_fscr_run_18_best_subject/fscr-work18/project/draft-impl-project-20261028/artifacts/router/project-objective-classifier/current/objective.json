@@ -1,0 +1,14 @@
+{
+  "$schema": "../../../../../../schemas/implementation-objective.schema.json",
+  "objective": "Test creating one Receivables payment term on ETIA-TEST via FSCR",
+  "customer": "GoSaaS",
+  "pillars": [
+    "ERP"
+  ],
+  "offerings": [
+    "Financials"
+  ],
+  "countries": [],
+  "industry": "TBD",
+  "implementation_phase": "build"
+}

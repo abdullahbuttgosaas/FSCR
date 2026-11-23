@@ -1,0 +1,47 @@
+{
+ "old": "evidence/exports/DOO_MANAGE_ORCHESTRATION_LOOKUPS/ETIA-TEST_setup_task_csv_export_doo_manage_orchestration_lookups_100004734424696.zip",
+ "new": "evidence/exports_after/DOO_MANAGE_ORCHESTRATION_LOOKUPS/ETIA-TEST_setup_task_csv_export_doo_manage_orchestration_lookups_100004733447631.zip",
+ "files": {
+  "FND_APP_STANDARD_LOOKUP.csv": {
+   "rows_old": 6,
+   "rows_new": 6,
+   "key_columns": [
+    "LookupType",
+    "BossAppPackageName",
+    "BossModuleName"
+   ],
+   "added": [],
+   "removed": [],
+   "changed": []
+  },
+  "ORA_FND_APP_STANDARD_LOOKUP_CODE.csv": {
+   "rows_old": 68,
+   "rows_new": 70,
+   "key_columns": [
+    "LookupCode"
+   ],
+   "added": [
+    {
+     "LookupCode": "FSCRT_CLIMBING"
+    },
+    {
+     "LookupCode": "FSCRT_SO_CONSIGN_F06"
+    }
+   ],
+   "removed": [],
+   "changed": [
+    {
+     "key": {
+      "LookupCode": "FSCRT_PADDLING"
+     },
+     "diff": {
+      "Description": [
+       "Kayak and canoe gear",
+       "Kayak, canoe and paddleboard gear"
+      ]
+     }
+    }
+   ]
+  }
+ }
+}

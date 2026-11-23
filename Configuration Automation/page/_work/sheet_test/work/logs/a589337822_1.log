@@ -1,0 +1,27 @@
+Host: https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com
+ORACLE_ENV: test
+Exporting AR_MANAGE_RECEIVABLES_PAYMENT_TERMS ...
+  ProcessId=100004734401408
+  [export]   10s  StatusCode=IN_PROGRESS
+  [export]   22s  StatusCode=COMPLETED
+  saved E:\GoSaaS\Configuration Automation v2.1\Configuration Automation\Receivables Payment Terms\_work\AR_MANAGE_RECEIVABLES_PAYMENT_TERMS_20261102_062315_before.zip
+  [template]   11s  StatusCode=IN_PROGRESS
+  [template]   21s  StatusCode=COMPLETED
+  ZZ_TEST_PT_311 (COMMON): new
+Exporting AR_MANAGE_RECEIVABLES_PAYMENT_TERMS ...
+  ProcessId=100004734400205
+  [export]   10s  StatusCode=IN_PROGRESS
+  [export]   21s  StatusCode=COMPLETED
+  saved E:\GoSaaS\Configuration Automation v2.1\Configuration Automation\Receivables Payment Terms\_work\AR_MANAGE_RECEIVABLES_PAYMENT_TERMS_20261102_062404_names.zip
+  process 100004733439340
+  [Receivables payment terms]   10s  StatusCode=IN_PROGRESS
+  [Receivables payment terms]   21s  StatusCode=COMPLETED
+  Oracle's result: COMPLETED
+Exporting AR_MANAGE_RECEIVABLES_PAYMENT_TERMS ...
+  ProcessId=100004734400217
+  [export]   10s  StatusCode=IN_PROGRESS
+  [export]   21s  StatusCode=COMPLETED
+  saved E:\GoSaaS\Configuration Automation v2.1\Configuration Automation\Receivables Payment Terms\_work\AR_MANAGE_RECEIVABLES_PAYMENT_TERMS_20261102_062455_after.zip
+Whole run: 126 s
+
+===== run 06:22:48

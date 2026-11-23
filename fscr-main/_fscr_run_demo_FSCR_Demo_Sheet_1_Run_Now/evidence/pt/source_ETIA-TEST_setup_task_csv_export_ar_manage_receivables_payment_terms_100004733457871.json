@@ -1,0 +1,79 @@
+{
+  "archiveMembers": [
+    "AR_PAYMENT_TERM.csv",
+    "AR_PAYMENT_TERM_LINE.csv",
+    "AR_PAYMENT_TERM_TRANSLATION.csv",
+    "AR_PAYMENT_TERM_DISCOUNT.csv",
+    "ASM_SETUP_CSV_METADATA.xml"
+  ],
+  "blueprintMatched": false,
+  "businessObjects": [
+    "AR_PAYMENT_TERM_LINE",
+    "AR_PAYMENT_TERM",
+    "AR_PAYMENT_TERM_TRANSLATION",
+    "AR_PAYMENT_TERM_DISCOUNT"
+  ],
+  "errors": [],
+  "externalCalls": 0,
+  "importEligible": false,
+  "metadataFieldContracts": {
+    "AR_PAYMENT_TERM": {
+      "attributeCount": 37,
+      "nodePath": "/PaymentTermVO/PaymentTermVORow",
+      "nodeSequence": "1"
+    },
+    "AR_PAYMENT_TERM_DISCOUNT": {
+      "attributeCount": 28,
+      "nodePath": "/PaymentTermVO/PaymentTermVORow/PaymentTermLine/PaymentTermLineVORow/PaymentTermLineDiscount/PaymentTermLineDiscountVORow",
+      "nodeSequence": "4"
+    },
+    "AR_PAYMENT_TERM_LINE": {
+      "attributeCount": 28,
+      "nodePath": "/PaymentTermVO/PaymentTermVORow/PaymentTermLine/PaymentTermLineVORow",
+      "nodeSequence": "3"
+    },
+    "AR_PAYMENT_TERM_TRANSLATION": {
+      "attributeCount": 9,
+      "nodePath": "/PaymentTermVO/PaymentTermVORow/PaymentTermTranslation/PaymentTermTranslationVORow",
+      "nodeSequence": "1"
+    }
+  },
+  "mode": "offline_review",
+  "mutationAuthorized": false,
+  "objectShortNames": [
+    "AR_MANAGE_RECEIVABLES_PAYMENT_TERMS"
+  ],
+  "objectTypes": [
+    "TASK"
+  ],
+  "otherCsvRowCounts": {},
+  "package": "E:\\GoSaaS\\Configuration Automation v2.1\\fscr-main\\_fscr_run_demo_FSCR_Demo_Sheet_1_Run_Now\\fscr-work-demo\\project\\fscrt-run01-om-setup\\exports\\demo-pt-before\\ETIA-TEST_setup_task_csv_export_ar_manage_receivables_payment_terms_100004733457871.zip",
+  "packageScope": "task",
+  "processEnvironments": [
+    "etia-test"
+  ],
+  "processReleases": [
+    "11.13.26.10.0"
+  ],
+  "processStatuses": [
+    "COMPLETED"
+  ],
+  "processTypes": [
+    "EXPORT"
+  ],
+  "rowCounts": {
+    "AR_PAYMENT_TERM.csv": 17,
+    "AR_PAYMENT_TERM_DISCOUNT.csv": 2,
+    "AR_PAYMENT_TERM_LINE.csv": 20,
+    "AR_PAYMENT_TERM_TRANSLATION.csv": 17
+  },
+  "selectedTasks": [],
+  "sha256": "d247c232c5435b43795b705cce95fc94e4f978186ddf37980f33b8b08044d778",
+  "sourceEvidenceEligible": true,
+  "status": "ready",
+  "taskCode": "AR_MANAGE_RECEIVABLES_PAYMENT_TERMS",
+  "taskLevelCandidate": false,
+  "taskLevelEvidence": true,
+  "validationProfile": "source_evidence",
+  "warnings": []
+}

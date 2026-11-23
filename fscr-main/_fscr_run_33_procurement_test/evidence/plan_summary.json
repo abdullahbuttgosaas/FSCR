@@ -1,0 +1,90 @@
+{
+ "tasks": 60,
+ "skills_read": 21,
+ "graph_links_used": 0,
+ "fscr_tasks_with_any_prereq": 0,
+ "fscr_prereq_links": 0,
+ "oracle_links_total": 32,
+ "oracle_links_sourced_rows": 22,
+ "oracle_pairs_sourced": 21,
+ "oracle_pairs_respected": 16,
+ "oracle_pairs_stated_by_fscr_skills": 0,
+ "unverified": 10,
+ "unverified_but_plan_respects": 5,
+ "violations": [
+  [
+   "OKC_MANAGE_CONTRACT_LINE_TYPES",
+   60,
+   "AP_MANAGE_PAYMENT_TERMS",
+   26
+  ],
+  [
+   "OKC_SPECIFY_PROCUREMENT_CONTRACT_MGMT_BUSINESS_FUNC_PROP",
+   49,
+   "ORA_MANAGE_APPROVAL_GROUPS",
+   1
+  ],
+  [
+   "POR_MANAGE_INFORMATION_TEMPLATE_VALUE_SETS",
+   42,
+   "POR_MANAGE_INFORMATION_TEMPLATE_DESCRIPTIVE_FLEXFIELDS",
+   41
+  ],
+  [
+   "POR_MANAGE_REQUISITION_DESCRIPTIVE_FLEXFIELDS",
+   39,
+   "POR_CONFIGURE_REQUISITIONING_BUSINESS_FUNCTION",
+   37
+  ],
+  [
+   "PO_MANAGE_TASK_CONFIGURATIONS",
+   14,
+   "ORA_MANAGE_APPROVAL_GROUPS",
+   1
+  ]
+ ],
+ "stated_only_pairs": 15,
+ "stated_only_respected": 13,
+ "area_order": [
+  [
+   "Suppliers",
+   1,
+   3
+  ],
+  [
+   "Procurement Foundation",
+   2,
+   38
+  ],
+  [
+   "Approval Management",
+   4,
+   16
+  ],
+  [
+   "Procurement Transaction Account Rules",
+   17,
+   25
+  ],
+  [
+   "Purchasing Foundation",
+   39,
+   40
+  ],
+  [
+   "Self Service Procurement",
+   41,
+   48
+  ],
+  [
+   "Procurement Contracts",
+   49,
+   60
+  ],
+  [
+   "Compliance Checklists",
+   56,
+   58
+  ]
+ ]
+}

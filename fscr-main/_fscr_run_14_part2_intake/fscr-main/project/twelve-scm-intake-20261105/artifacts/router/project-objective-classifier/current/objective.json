@@ -1,0 +1,10 @@
+{
+  "$schema": "../../../../../../schemas/implementation-objective.schema.json",
+  "objective": "Project intake (scope, enterprise structure, integration landscape) for Twelve Oracle Cloud SCM Implementation SOW dated 2025-01-24; planning only",
+  "customer": "Twelve Benefit Corporation",
+  "pillars": ["SCM", "ERP"],
+  "offerings": ["Product Management", "Manufacturing and Supply Chain Materials Management", "Procurement", "Financials", "Project Financial Management", "Grants Management"],
+  "countries": ["US"],
+  "industry": "not stated",
+  "implementation_phase": "discovery"
+}

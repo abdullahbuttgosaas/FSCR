@@ -1,0 +1,639 @@
+200
+{
+  "Resources" : {
+    "messages" : {
+      "discrColumnType" : false,
+      "title" : "Message VO",
+      "usage" : "LOV",
+      "attributes" : [ {
+        "name" : "ApplicationShortName",
+        "type" : "string",
+        "updatable" : false,
+        "mandatory" : true,
+        "queryable" : true,
+        "allowChanges" : "never",
+        "precision" : 50
+      }, {
+        "name" : "ApplicationId",
+        "type" : "integer",
+        "updatable" : true,
+        "mandatory" : false,
+        "queryable" : true,
+        "allowChanges" : "inCreate",
+        "precision" : 15,
+        "hasDefaultValueExpression" : true,
+        "title" : "Application",
+        "controlType" : "input_text_lov"
+      }, {
+        "name" : "MessageName",
+        "type" : "string",
+        "updatable" : true,
+        "mandatory" : true,
+        "inputRequired" : true,
+        "queryable" : true,
+        "allowChanges" : "inCreate",
+        "precision" : 30,
+        "maxLength" : "30",
+        "properties" : {
+          "DISPLAYWIDTH" : "30"
+        }
+      }, {
+        "name" : "ModuleType",
+        "type" : "string",
+        "updatable" : false,
+        "mandatory" : true,
+        "queryable" : true,
+        "allowChanges" : "never",
+        "precision" : 30,
+        "title" : "Module Type",
+        "maxLength" : "30",
+        "properties" : {
+          "DISPLAYWIDTH" : "32"
+        }
+      }, {
+        "name" : "ModuleKey",
+        "type" : "string",
+        "updatable" : false,
+        "mandatory" : false,
+        "queryable" : true,
+        "allowChanges" : "never",
+        "precision" : 100,
+        "title" : "Module Key",
+        "maxLength" : "100",
+        "properties" : {
+          "DISPLAYWIDTH" : "32"
+        }
+      }, {
+        "name" : "ModuleId",
+        "type" : "string",
+        "updatable" : true,
+        "mandatory" : true,
+        "inputRequired" : true,
+        "queryable" : true,
+        "allowChanges" : "always",
+        "precision" : 32,
+        "title" : "Module",
+        "controlType" : "input_text_lov",
+        "maxLength" : "32",
+        "dependencies" : [ "ApplicationId" ]
+      }, {
+        "name" : "MessageNumber",
+        "type" : "integer",
+        "updatable" : true,
+        "mandatory" : false,
+        "queryable" : true,
+        "allowChanges" : "always",
+        "precision" : 15,
+        "title" : "Message Number",
+        "properties" : {
+          "DISPLAYWIDTH" : "30"
+        }
+      }, {
+        "name" : "MessageText",
+        "type" : "string",
+        "updatable" : true,
+        "mandatory" : true,
+        "inputRequired" : true,
+        "queryable" : true,
+        "allowChanges" : "always",
+        "precision" : 240,
+        "title" : "Short Text",
+        "controlType" : "edit",
+        "maxLength" : "240",
+        "properties" : {
+          "DISPLAYHEIGHT" : "3",
+          "DISPLAYWIDTH" : "80"
+        }
+      }, {
+        "name" : "MessageUserDetails",
+        "type" : "string",
+        "updatable" : true,
+        "mandatory" : false,
+        "queryable" : true,
+        "allowChanges" : "always",
+        "precision" : 4000,
+        "title" : "User Details",
+        "controlType" : "edit",
+        "maxLength" : "4000",
+        "properties" : {
+          "DISPLAYHEIGHT" : "3",
+          "DISPLAYWIDTH" : "80"
+        }
+      }, {
+        "name" : "MessageUserAction",
+        "type" : "string",
+        "updatable" : true,
+        "mandatory" : false,
+        "queryable" : true,
+        "allowChanges" : "always",
+        "precision" : 4000,
+        "title" : "User Action",
+        "controlType" : "edit",
+        "maxLength" : "4000",
+        "properties" : {
+          "DISPLAYHEIGHT" : "3",
+          "DISPLAYWIDTH" : "80"
+        }
+      }, {
+        "name" : "MessageAdminDetails",
+        "type" : "string",
+        "updatable" : true,
+        "mandatory" : false,
+        "queryable" : true,
+        "allowChanges" : "always",
+        "precision" : 4000,
+        "title" : "Administrator Details",
+        "controlType" : "edit",
+        "maxLength" : "4000",
+        "properties" : {
+          "DISPLAYHEIGHT" : "3",
+          "DISPLAYWIDTH" : "80"
+        }
+      }, {
+        "name" : "MessageAdminAction",
+        "type" : "string",
+        "updatable" : true,
+        "mandatory" : false,
+        "queryable" : true,
+        "allowChanges" : "always",
+        "precision" : 4000,
+        "title" : "Administrator Action",
+        "controlType" : "edit",
+        "maxLength" : "4000",
+        "properties" : {
+          "DISPLAYHEIGHT" : "3",
+          "DISPLAYWIDTH" : "80"
+        }
+      }, {
+        "name" : "MessageCause",
+        "type" : "string",
+        "updatable" : true,
+        "mandatory" : false,
+        "queryable" : true,
+        "allowChanges" : "always",
+        "precision" : 4000,
+        "title" : "Cause",
+        "controlType" : "edit",
+        "maxLength" : "4000",
+        "properties" : {
+          "DISPLAYHEIGHT" : "3",
+          "DISPLAYWIDTH" : "80"
+        }
+      }, {
+        "name" : "MessageContext",
+        "type" : "string",
+        "updatable" : true,
+        "mandatory" : false,
+        "queryable" : true,
+        "allowChanges" : "always",
+        "precision" : 4000,
+        "title" : "Translation Notes",
+        "controlType" : "edit",
+        "maxLength" : "4000",
+        "properties" : {
+          "DISPLAYHEIGHT" : "3",
+          "DISPLAYWIDTH" : "80"
+        }
+      }, {
+        "name" : "MessageType",
+        "type" : "string",
+        "updatable" : true,
+        "mandatory" : true,
+        "inputRequired" : true,
+        "queryable" : true,
+        "allowChanges" : "always",
+        "precision" : 30,
+        "title" : "Message Type",
+        "controlType" : "choice",
+        "maxLength" : "30",
+        "properties" : {
+          "DISPLAYWIDTH" : "30"
+        }
+      }, {
+        "name" : "MessageSeverity",
+        "type" : "string",
+        "updatable" : true,
+        "mandatory" : false,
+        "queryable" : true,
+        "allowChanges" : "always",
+        "precision" : 30,
+        "title" : "Severity",
+        "controlType" : "choice",
+        "maxLength" : "30",
+        "properties" : {
+          "DISPLAYWIDTH" : "30"
+        }
+      }, {
+        "name" : "MessageCategory",
+        "type" : "string",
+        "updatable" : true,
+        "mandatory" : false,
+        "queryable" : true,
+        "allowChanges" : "always",
+        "precision" : 30,
+        "title" : "Category",
+        "controlType" : "choice",
+        "maxLength" : "30",
+        "properties" : {
+          "DISPLAYWIDTH" : "30"
+        }
+      }, {
+        "name" : "LoggableAlertable",
+        "type" : "string",
+        "updatable" : true,
+        "mandatory" : false,
+        "queryable" : true,
+        "allowChanges" : "always",
+        "precision" : 1,
+        "defaultValue" : "Y",
+        "title" : "Logging Enabled",
+        "controlType" : "choice",
+        "maxLength" : "1",
+        "properties" : {
+          "DISPLAYWIDTH" : "5"
+        }
+      }, {
+        "name" : "CreationDate",
+        "type" : "datetime",
+        "updatable" : false,
+        "mandatory" : true,
+        "queryable" : true,
+        "allowChanges" : "never",
+        "properties" : {
+          "DISPLAYHINT" : "Hide"
+        }
+      }, {
+        "name" : "LastUpdateDate",
+        "type" : "datetime",
+        "updatable" : false,
+        "mandatory" : true,
+        "queryable" : true,
+        "allowChanges" : "never",
+        "properties" : {
+          "DISPLAYHINT" : "Hide"
+        }
+      }, {
+        "name" : "CreatedBy",
+        "type" : "string",
+        "updatable" : false,
+        "mandatory" : true,
+        "queryable" : true,
+        "allowChanges" : "never",
+        "precision" : 64,
+        "maxLength" : "64",
+        "properties" : {
+          "DISPLAYHINT" : "Hide"
+        }
+      }, {
+        "name" : "LastUpdateLogin",
+        "type" : "string",
+        "updatable" : false,
+        "mandatory" : false,
+        "queryable" : true,
+        "allowChanges" : "never",
+        "precision" : 32,
+        "maxLength" : "32",
+        "properties" : {
+          "DISPLAYHINT" : "Hide"
+        }
+      }, {
+        "name" : "LastUpdatedBy",
+        "type" : "string",
+        "updatable" : false,
+        "mandatory" : true,
+        "queryable" : true,
+        "allowChanges" : "never",
+        "precision" : 64,
+        "maxLength" : "64",
+        "properties" : {
+          "DISPLAYHINT" : "Hide"
+        }
+      } ],
+      "collection" : {
+        "rangeSize" : 25,
+        "finders" : [ {
+          "name" : "MessageNameFinder",
+          "title" : "ByMessageName",
+          "attributes" : [ {
+            "name" : "ApplicationShortName",
+            "type" : "string",
+            "updatable" : true,
+            "required" : "Optional",
+            "queryable" : false,
+            "allowChanges" : "always"
+          }, {
+            "name" : "MessageName",
+            "type" : "string",
+            "updatable" : true,
+            "required" : "Optional",
+            "queryable" : false,
+            "allowChanges" : "always"
+          } ]
+        }, {
+          "name" : "PrimaryKey",
+          "attributes" : [ {
+            "name" : "ApplicationId",
+            "type" : "integer",
+            "updatable" : true,
+            "mandatory" : false,
+            "queryable" : true,
+            "allowChanges" : "inCreate",
+            "precision" : 15,
+            "hasDefaultValueExpression" : true,
+            "title" : "Application",
+            "controlType" : "input_text_lov"
+          }, {
+            "name" : "MessageName",
+            "type" : "string",
+            "updatable" : true,
+            "mandatory" : true,
+            "inputRequired" : true,
+            "queryable" : true,
+            "allowChanges" : "inCreate",
+            "precision" : 30,
+            "maxLength" : "30",
+            "properties" : {
+              "DISPLAYWIDTH" : "30"
+            }
+          } ]
+        } ],
+        "links" : [ {
+          "rel" : "self",
+          "href" : "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/messages",
+          "name" : "self",
+          "kind" : "collection"
+        } ],
+        "actions" : [ {
+          "name" : "get",
+          "method" : "GET",
+          "responseType" : [ "application/vnd.oracle.adf.resourcecollection+json", "application/json" ]
+        } ]
+      },
+      "item" : {
+        "links" : [ {
+          "rel" : "child",
+          "href" : "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/messages/{id}/child/messageTokens",
+          "name" : "messageTokens",
+          "kind" : "collection",
+          "cardinality" : {
+            "value" : "1 to *",
+            "sourceAttributes" : "ApplicationId, MessageName",
+            "destinationAttributes" : "ApplicationId, MessageName"
+          }
+        }, {
+          "rel" : "self",
+          "href" : "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/messages/{id}",
+          "name" : "self",
+          "kind" : "item"
+        }, {
+          "rel" : "canonical",
+          "href" : "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/messages/{id}",
+          "name" : "canonical",
+          "kind" : "item"
+        } ],
+        "actions" : [ {
+          "name" : "get",
+          "method" : "GET",
+          "responseType" : [ "application/vnd.oracle.adf.resourceitem+json", "application/json" ]
+        } ]
+      },
+      "children" : {
+        "messageTokens" : {
+          "discrColumnType" : true,
+          "title" : "Message Token VO",
+          "attributes" : [ {
+            "name" : "ApplicationId",
+            "type" : "integer",
+            "updatable" : true,
+            "mandatory" : true,
+            "inputRequired" : true,
+            "queryable" : true,
+            "allowChanges" : "inCreate",
+            "precision" : 15,
+            "properties" : {
+              "DISPLAYHINT" : "Hide"
+            }
+          }, {
+            "name" : "MessageName",
+            "type" : "string",
+            "updatable" : true,
+            "mandatory" : true,
+            "inputRequired" : true,
+            "queryable" : true,
+            "allowChanges" : "inCreate",
+            "precision" : 30,
+            "maxLength" : "30",
+            "properties" : {
+              "DISPLAYHINT" : "Hide"
+            }
+          }, {
+            "name" : "TokenName",
+            "type" : "string",
+            "updatable" : true,
+            "mandatory" : true,
+            "inputRequired" : true,
+            "queryable" : true,
+            "allowChanges" : "inCreate",
+            "precision" : 30,
+            "title" : "Token Name",
+            "maxLength" : "30",
+            "properties" : {
+              "DISPLAYWIDTH" : "30"
+            }
+          }, {
+            "name" : "DataType",
+            "type" : "string",
+            "updatable" : true,
+            "mandatory" : true,
+            "inputRequired" : true,
+            "queryable" : true,
+            "allowChanges" : "always",
+            "precision" : 30,
+            "title" : "Data Type",
+            "controlType" : "choice",
+            "maxLength" : "30"
+          }, {
+            "name" : "Description",
+            "type" : "string",
+            "updatable" : true,
+            "mandatory" : false,
+            "queryable" : true,
+            "allowChanges" : "always",
+            "precision" : 4000,
+            "title" : "Item Description",
+            "maxLength" : "4000"
+          }, {
+            "name" : "CreatedBy",
+            "type" : "string",
+            "updatable" : false,
+            "mandatory" : true,
+            "queryable" : true,
+            "allowChanges" : "never",
+            "precision" : 64,
+            "maxLength" : "64",
+            "properties" : {
+              "DISPLAYHINT" : "Hide"
+            }
+          }, {
+            "name" : "CreationDate",
+            "type" : "datetime",
+            "updatable" : false,
+            "mandatory" : true,
+            "queryable" : true,
+            "allowChanges" : "never",
+            "properties" : {
+              "DISPLAYHINT" : "Hide"
+            }
+          }, {
+            "name" : "LastUpdateDate",
+            "type" : "datetime",
+            "updatable" : false,
+            "mandatory" : true,
+            "queryable" : true,
+            "allowChanges" : "never",
+            "properties" : {
+              "DISPLAYHINT" : "Hide"
+            }
+          }, {
+            "name" : "LastUpdateLogin",
+            "type" : "string",
+            "updatable" : false,
+            "mandatory" : false,
+            "queryable" : true,
+            "allowChanges" : "never",
+            "precision" : 32,
+            "maxLength" : "32",
+            "properties" : {
+              "DISPLAYHINT" : "Hide"
+            }
+          }, {
+            "name" : "LastUpdatedBy",
+            "type" : "string",
+            "updatable" : false,
+            "mandatory" : true,
+            "queryable" : true,
+            "allowChanges" : "never",
+            "precision" : 64,
+            "maxLength" : "64",
+            "properties" : {
+              "DISPLAYHINT" : "Hide"
+            }
+          } ],
+          "collection" : {
+            "rangeSize" : 1,
+            "finders" : [ {
+              "name" : "PrimaryKey",
+              "attributes" : [ {
+                "name" : "ApplicationId",
+                "type" : "integer",
+                "updatable" : true,
+                "mandatory" : true,
+                "inputRequired" : true,
+                "queryable" : true,
+                "allowChanges" : "inCreate",
+                "precision" : 15,
+                "properties" : {
+                  "DISPLAYHINT" : "Hide"
+                }
+              }, {
+                "name" : "MessageName",
+                "type" : "string",
+                "updatable" : true,
+                "mandatory" : true,
+                "inputRequired" : true,
+                "queryable" : true,
+                "allowChanges" : "inCreate",
+                "precision" : 30,
+                "maxLength" : "30",
+                "properties" : {
+                  "DISPLAYHINT" : "Hide"
+                }
+              }, {
+                "name" : "TokenName",
+                "type" : "string",
+                "updatable" : true,
+                "mandatory" : true,
+                "inputRequired" : true,
+                "queryable" : true,
+                "allowChanges" : "inCreate",
+                "precision" : 30,
+                "title" : "Token Name",
+                "maxLength" : "30",
+                "properties" : {
+                  "DISPLAYWIDTH" : "30"
+                }
+              } ]
+            }, {
+              "name" : "TokenNameFinder",
+              "title" : "ByTokenName",
+              "attributes" : [ {
+                "name" : "TokenName",
+                "type" : "string",
+                "updatable" : true,
+                "required" : "Optional",
+                "queryable" : false,
+                "allowChanges" : "always"
+              } ]
+            } ],
+            "links" : [ {
+              "rel" : "self",
+              "href" : "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/messages/{id}/child/messageTokens",
+              "name" : "self",
+              "kind" : "collection"
+            } ],
+            "actions" : [ {
+              "name" : "get",
+              "method" : "GET",
+              "responseType" : [ "application/vnd.oracle.adf.resourcecollection+json", "application/json" ]
+            } ]
+          },
+          "item" : {
+            "links" : [ {
+              "rel" : "self",
+              "href" : "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/messages/{id}/child/messageTokens/{id}",
+              "name" : "self",
+              "kind" : "item"
+            }, {
+              "rel" : "parent",
+              "href" : "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/messages/{id}",
+              "name" : "parent",
+              "kind" : "item"
+            }, {
+              "rel" : "canonical",
+              "href" : "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/messages/{id}/child/messageTokens/{id}",
+              "name" : "canonical",
+              "kind" : "item"
+            } ],
+            "actions" : [ {
+              "name" : "get",
+              "method" : "GET",
+              "responseType" : [ "application/vnd.oracle.adf.resourceitem+json", "application/json" ]
+            } ]
+          },
+          "links" : [ {
+            "rel" : "self",
+            "href" : "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/messages/{id}/child/messageTokens/describe",
+            "name" : "self",
+            "kind" : "describe"
+          }, {
+            "rel" : "canonical",
+            "href" : "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/messages/{id}/child/messageTokens/describe",
+            "name" : "canonical",
+            "kind" : "describe"
+          } ]
+        }
+      },
+      "links" : [ {
+        "rel" : "self",
+        "href" : "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/messages/describe",
+        "name" : "self",
+        "kind" : "describe"
+      }, {
+        "rel" : "canonical",
+        "href" : "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/messages/describe",
+        "name" : "canonical",
+        "kind" : "describe"
+      } ]
+    }
+  }
+}

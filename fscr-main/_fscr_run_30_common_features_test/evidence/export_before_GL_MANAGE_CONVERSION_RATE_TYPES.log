@@ -1,0 +1,8 @@
+TaskCode: GL_MANAGE_CONVERSION_RATE_TYPES (Manage Conversion Rate Types); CSVExportImportSupportedFlag: Y
+No matching pillar setup-task metadata found; using supplied or Fusion task context for export path.
+Started setup task CSV export process: 100004736418693
+ProcessCompletedFlag: False; StatusCode: (no result yet); ResultCount: 0
+ProcessCompletedFlag: True; StatusCode: (no result yet); ResultCount: 0
+StatusCode: (unknown)
+Retrieved: FileContent
+Wrote ..\export_before\GL_MANAGE_CONVERSION_RATE_TYPES\ETIA-TEST_setup_task_csv_export_gl_manage_conversion_rate_types_100004736418693.zip (2794 bytes)

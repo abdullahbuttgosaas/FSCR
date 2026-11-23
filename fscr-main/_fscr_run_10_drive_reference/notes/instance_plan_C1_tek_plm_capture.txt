@@ -1,0 +1,27 @@
+Read-only capture (Google Sheets HTML view: cell values + fills; Excel drawing shapes NOT included).
+Original: Customers / Tektronix - PLM / 10 PMO / "PLM Tektronix Instance Plan (1-31-2025).xlsx" (id 1QAFu0iiFBjWv3PnoCuzEQwbCQXBH0KWm, modified 2026-11-04)
+Masked customer code in report: C1
+
+=== SHEET: InstancePlan-Oct24 (Feb 26 GL)
+R1 small coloured legend swatches C2-4 #d9e2f3, C7-9 #fef2cb, C11-13 #e2efd9, C15-17 #d9e2f3, C20-22 #fef2cb (labels are shapes, not cells) | C27-84: "EA Milestones (Est.)"
+R2 header: C0 customer name; C2..C75 weekly Monday dates 30-Sep-24 .. 23-Feb-26.
+   Header fill pattern: #ffff00 (yellow) weeks = Oracle quarterly update windows (9-Dec..30-Dec-24, 10-Mar..31-Mar-25, 2-Jun..23-Jun-25, 1-Sep..29-Sep-25, 1-Dec..29-Dec-25);
+   #e7e6e6 (grey) weeks 6-Jan..27-Jan-25 and 7-Apr..28-Apr-25.
+R4 "EA Milestones (Est.)" | C31-32 [#666666] "EA: D" | C35-37 [#666666] "EA: T" | C40-42 [#666666] "EA: P"   (Early Adopter Dev/Test/Prod)
+R6  "Production - Fusion (prod)"
+R8-10 notes: "EBS Test on 4/12", "tek fursion test refresh 3/290", "review refresh dates for UAT"
+R11 "Test - Fusion (test)"
+R17 "Development - Fusion (dev1)"
+R24 "Development - Fusion (dev3)"
+R31 Oracle update cohort bar: C2-6 [#b4c6e7] 24C | C7-19 [#5b9bd5] 24D | C20-32 [#d9e2f3] 25A | C33-45 [#5b9bd5] 25B | C46-58 [#d9e2f3] 25C | C59-71 [#5b9bd5] 25D | C72-73 [#e7e6e6] 25A   (each release = 13 weekly columns, alternating fills)
+R32 "EBS - Dev"  full-width bar [#d9ead3]
+R33 "EBS - Test" full-width bar [#ffe599]
+R34 "EBS - Prod" full-width bar [#a4c2f4]
+R36 "Enovia - Test" [#ed7d31]; R37 "Enovia - Prod" [#ffc000]
+R39 "GoCompliance Prod" [#e06666]; R40 "GoCompliance Test" [#ea9999]; R41 "GoCad" [#5b9bd5]; R42 "Archiver" [#ffc000]
+R44 "Patch" ; R46 "Refresh"   (legend rows; symbols are shapes)
+
+=== SHEET: InstancePlan-Dec24 (Earlier GL)
+Same layout; header additionally marks #8eaadb weeks 6-Oct..20-Oct-25 and 5-Jan..19-Jan-26.
+Rows: R4 Production - Fusion (prod); R9 Test - Fusion (test); R15 Development - Fusion (dev1); R22 Development - Fusion (dev3);
+R29 cohort bar 24C|24D|25A|25B|25C|25D|25A (same columns as above); R30-32 EBS Dev/Test/Prod; R34-35 Enovia Test/Prod; R38 Patch; R40 Refresh.

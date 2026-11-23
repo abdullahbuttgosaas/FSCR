@@ -1,0 +1,50 @@
+[
+ {
+  "task": "Manage Hazard Classes",
+  "area": "Purchasing Foundation",
+  "group": "Route only",
+  "result": "Done",
+  "note": "FSCRT_R35_HC read back by export. Request 4466261.",
+  "short": "FSCRT_R35_HC read back."
+ },
+ {
+  "task": "Manage UN Numbers",
+  "area": "Purchasing Foundation",
+  "group": "Route only",
+  "result": "Done",
+  "note": "FSCRT_R35_UN read back, linked to hazard class FSCRT_R35_HC. Request 4466271.",
+  "short": "FSCRT_R35_UN read back, linked to FSCRT_R35_HC."
+ },
+ {
+  "task": "Manage External Purchase Prices Lookups",
+  "area": "External Purchase Prices",
+  "group": "Route only",
+  "result": "Done with a fix",
+  "note": "FSCRT_R35_EPP_LKP + code FSCRT_A read back by REST. Fix: try 1 failed (ORA-01400 NULL); resent with RestAccessSecured=SECURE and a start date (Run 30 values).",
+  "short": "FSCRT_R35_EPP_LKP read back. Fix: Oracle NULL error; added RestAccessSecured + start date."
+ },
+ {
+  "task": "Manage Category Descriptive Flexfields",
+  "area": "Purchasing Categories",
+  "group": "Skill + route",
+  "result": "Not done",
+  "note": "Oracle FSM import failed (NullPointerException); 0 rows created. Likely needs the existing flexfield's parent row in the file; resending it would rewrite an existing record. CSV exists; cause: CSV package shape + FSCR gap (skill has no create recipe).",
+  "short": "Oracle import error, 0 created; file likely needs the existing flexfield row (not resent). CSV exists; FSCR gap."
+ },
+ {
+  "task": "Manage External Purchase Prices Requisitioning BU Mapping",
+  "area": "External Purchase Prices",
+  "group": "Skill + route",
+  "result": "Not done",
+  "note": "Missing prerequisite: no Procurement BU visible to this user (LOV returns 0). A new FSCRT_ BU would also need a ledger, legal entity, an Oracle internal org ID for the service-provider row and Procurement BU setup. CSV exists.",
+  "short": "Missing prerequisite: no usable Procurement BU; a new one needs ledger, legal entity, internal org ID. CSV exists."
+ },
+ {
+  "task": "Manage Purchasing Messages",
+  "area": "Purchasing Foundation",
+  "group": "Neither",
+  "result": "Not done",
+  "note": "Oracle has no CSV (flag N) and its messages REST is read-only (GET only).",
+  "short": "Oracle has no CSV or create API."
+ }
+]

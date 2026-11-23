@@ -1,0 +1,34 @@
+{
+ "old": "evidence/exports/AR_MANAGE_TRANSACTION_TYPES/ETIA-TEST_setup_task_csv_export_ar_manage_transaction_types_100004733446604.zip",
+ "new": "evidence/skills/ttype/after_export/ETIA-TEST_setup_task_csv_export_ar_manage_transaction_types_100004733446782.zip",
+ "files": {
+  "AR_REF_ACCT_TRX_TYPE.csv": {
+   "rows_old": 3,
+   "rows_new": 3,
+   "key_columns": [
+    "Name",
+    "AR_TRANSACTION_TYPE.Name",
+    "BuName",
+    "LedgerName"
+   ],
+   "added": [],
+   "removed": [],
+   "changed": []
+  },
+  "AR_TRANSACTION_TYPE.csv": {
+   "rows_old": 24,
+   "rows_new": 24,
+   "key_columns": [
+    "Name",
+    "SetCode",
+    "RuleSetName",
+    "SubsequentTrxTypeName",
+    "CreditMemoTypeName",
+    "DefaultTermName"
+   ],
+   "added": [],
+   "removed": [],
+   "changed": []
+  }
+ }
+}

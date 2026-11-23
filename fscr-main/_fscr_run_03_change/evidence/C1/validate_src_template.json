@@ -1,0 +1,6 @@
+usage: payment_terms_fsm_package.py validate [-h] --package PACKAGE
+                                             [--allow-broader-review]
+                                             [--source-evidence]
+                                             [--baseline BASELINE]
+                                             [--blueprint BLUEPRINT]
+payment_terms_fsm_package.py validate: error: the following arguments are required: --package

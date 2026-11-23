@@ -1,0 +1,2 @@
+"InstanceCode","ActivationDate","CachedEntries","DbConnections","Description","InstanceName","OrderOrchEnabled","ParallelWorkers","RetryInterval","ShortInstanceId","SubscribeWebService","TimeZone"
+"OPS","","","","Used by Order Orchestration And Planning.","Oracle Fusion Order Orchestration And Planning","1","","","1","","America/Los_Angeles"

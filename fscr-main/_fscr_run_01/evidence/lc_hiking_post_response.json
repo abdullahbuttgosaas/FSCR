@@ -1,0 +1,41 @@
+{
+  "LookupCode" : "FSCRT_HIKING",
+  "Meaning" : "FSCRT_Hiking",
+  "Description" : null,
+  "EnabledFlag" : "Y",
+  "StartDateActive" : null,
+  "EndDateActive" : null,
+  "DisplaySequence" : 1,
+  "Tag" : null,
+  "CreatedBy" : "Configuration.TEST",
+  "CreationDate" : "2026-11-02T19:53:52+00:00",
+  "LastUpdateDate" : "2026-11-02T19:53:52.244+00:00",
+  "LastUpdateLogin" : "5F4DD5EB79FF0B7FE0631C65310AED71",
+  "LastUpdatedBy" : "Configuration.TEST",
+  "links" : [ {
+    "rel" : "self",
+    "href" : "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/FSCRT_OUTDOOR_ACTIVITY_F01/child/lookupCodes/FSCRT_HIKING",
+    "name" : "lookupCodes",
+    "kind" : "item"
+  }, {
+    "rel" : "canonical",
+    "href" : "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/FSCRT_OUTDOOR_ACTIVITY_F01/child/lookupCodes/FSCRT_HIKING",
+    "name" : "lookupCodes",
+    "kind" : "item"
+  }, {
+    "rel" : "parent",
+    "href" : "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/FSCRT_OUTDOOR_ACTIVITY_F01",
+    "name" : "standardLookups",
+    "kind" : "item"
+  }, {
+    "rel" : "child",
+    "href" : "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/FSCRT_OUTDOOR_ACTIVITY_F01/child/lookupCodes/FSCRT_HIKING/child/lookupsDFF",
+    "name" : "lookupsDFF",
+    "kind" : "collection"
+  }, {
+    "rel" : "child",
+    "href" : "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/FSCRT_OUTDOOR_ACTIVITY_F01/child/lookupCodes/FSCRT_HIKING/child/translations",
+    "name" : "translations",
+    "kind" : "collection"
+  } ]
+}

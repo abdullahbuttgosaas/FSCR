@@ -1,0 +1,7 @@
+Template for fscr-signin-values.txt (labels only, no values). The real file is shared by Abdullah
+with one person at a time and is never committed. See fscr-access-requirements.md.
+
+  Fusion URL       : 
+  Environment name : 
+  Oauth Client ID  : 
+  Redirect         : http://127.0.0.1:8765/oauth/callback   (fixed; from the sign-in steps)

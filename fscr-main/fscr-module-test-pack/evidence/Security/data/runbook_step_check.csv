@@ -1,0 +1,7 @@
+seq,task,task_code,stage,type,has_route,says_manual,manual_but_catalog_csv,has_prerequisite,plan_depends_on,in_module_scope,status
+1,Activate Audit Policies,ORA_GTG_ACTIVATE_AUDIT_POLICIES,Risk and Security - Activate Algorithms,ORA_CHK_DATA_LOADER,True,False,False,False,0,True,INI
+2,Activate Algorithms,ORA_GTG_ACTIVATE_ALGORITHMS,Risk and Security - Activate Algorithms,ORA_CHK_DATA_LOADER,True,False,False,False,0,True,INI
+3,Add EPM Data Sources,ORA_GTG_ADD_EPM_DATA_SOURCES,Risk and Security - Add Other Data Sources,ORA_CHK_DATA_LOADER,True,False,False,False,0,True,INI
+4,Add Other Data Sources,ORA_GTG_ADD_OTHER_DATA_SOURCES,Risk and Security - Add Other Data Sources,ORA_CHK_DATA_LOADER,True,False,False,False,0,True,INI
+5,Assign Default Process Owners,ORA_GTG_ASSIGN_DEFAULT_PROCESS_OWNERS,Risk and Security - Assign Initial Users,ORA_CHK_DATA_LOADER,True,False,False,False,0,True,INI
+6,Assign Risk Power User Role,ORA_GTG_ASSIGN_RISK_POWER_USER_ROLE,Risk and Security - Assign Initial Users,ORA_CHK_DATA_LOADER,True,False,False,False,0,True,INI

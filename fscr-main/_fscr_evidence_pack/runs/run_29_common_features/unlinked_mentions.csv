@@ -1,0 +1,18 @@
+task_code,task_name,files_naming_code
+FND_CREATE_DATA_ROLE_FOR_IMPLEMENTATION_USERS,Create Data Role for Implementation Users,core/getting-started/implementation-users/references/oracle-26b-hcm-implementation-users.md
+FND_CREATE_IMPLEMENTATION_USERS,Create Implementation Users,core/getting-started/implementation-users/references/oracle-26b-hcm-implementation-users.md
+ATK_ASSIGN_FUSION_HELP_TEXT_ADMINISTRATION_DUTY,Assign Help Text Administration Duty,shared/common/manual-tasks/assign-help-text-administration-duty.md
+FND_MANAGE_APPLICATIONS_CORE_ATTACHMENT_CATEGORIES,Manage Applications Core Attachment Categories,core/fusion-api/apps-common/attachments/references/attachment-categories.md
+FND_MANAGE_APPLICATIONS_CORE_ATTACHMENT_ENTITIES,Manage Applications Core Attachment Entities,core/fusion-api/apps-common/attachments/references/attachment-entities.md
+FND_MANAGE_APPLCORE_MESSAGES,Manage Applications Core Messages,shared/common/manual-tasks/manage-applications-core-messages.md
+FND_MANAGE_APPLICATIONS_CORE_PROFILE_CATEGORIES,Manage Applications Core Profile Categories,shared/common/manual-tasks/manage-applications-core-profile-categories.md
+ORA_ATK_MANAGE_HELP_CONTENT,Manage Help Content,shared/common/manual-tasks/manage-help-content.md
+FND_MANAGE_ISO_LANGUAGES,Manage ISO Languages,shared/common/manual-tasks/manage-iso-languages.md
+FND_MANAGE_INDUSTRIES,Manage Industries,shared/common/manual-tasks/manage-industries.md
+FND_MANAGE_LANGUAGES,Manage Languages,shared/common/manual-tasks/manage-languages.md
+FND_MANAGE_MESSAGES,Manage Messages,shared/common/manual-tasks/manage-messages.md
+FND_MANAGE_NATURAL_LANGUAGES,Manage Natural Languages,shared/common/manual-tasks/manage-natural-languages.md
+FND_MANAGE_TAXONOMY_HIERARCHY,Manage Taxonomy Hierarchy,shared/common/manual-tasks/manage-taxonomy-hierarchy.md
+FND_MANAGE_TERRITORIES,Manage Territories,shared/common/manual-tasks/manage-territories.md
+FND_MANAGE_TIMEZONES,Manage Time Zones,shared/common/manual-tasks/manage-time-zones.md
+ATK_CONFIGURE_HELP_SETTINGS,Set Help Options,shared/common/manual-tasks/set-help-options.md

@@ -1,0 +1,1 @@
+Create AutoInvoice grouping rule FSCRT_GRP1 starting 2026-11-03 with description, applying to the Invoice transaction class, no line ordering rule.

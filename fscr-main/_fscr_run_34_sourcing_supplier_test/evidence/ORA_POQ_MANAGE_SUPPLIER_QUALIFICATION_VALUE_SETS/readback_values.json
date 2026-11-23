@@ -1,0 +1,22 @@
+200
+{
+  "items" : [ {
+    "Value" : "FSCRT_A",
+    "Description" : "FSCR Run 34 value FSCRT_A",
+    "EnabledFlag" : "Y"
+  }, {
+    "Value" : "FSCRT_B",
+    "Description" : "FSCR Run 34 value FSCRT_B",
+    "EnabledFlag" : "Y"
+  } ],
+  "count" : 2,
+  "hasMore" : false,
+  "limit" : 25,
+  "offset" : 0,
+  "links" : [ {
+    "rel" : "self",
+    "href" : "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/valueSets/FSCRT_R34_VS/child/values",
+    "name" : "values",
+    "kind" : "collection"
+  } ]
+}

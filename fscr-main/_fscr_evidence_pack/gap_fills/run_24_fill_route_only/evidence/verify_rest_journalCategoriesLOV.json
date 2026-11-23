@@ -1,0 +1,70 @@
+{
+  "items" : [ {
+    "JeCategoryName" : "FSCRT_Run24 Accrual",
+    "Description" : "FSCR test category for accrual journals. Run 24.",
+    "UserJeCategoryName" : "FSCRT_Run24 Accrual",
+    "DisallowMjeFlag" : null,
+    "@context" : {
+      "key" : "FSCRT_Run24%20Accrual",
+      "links" : [ {
+        "rel" : "self",
+        "href" : "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/journalCategoriesLOV/FSCRT_Run24%2520Accrual",
+        "name" : "journalCategoriesLOV",
+        "kind" : "item"
+      }, {
+        "rel" : "canonical",
+        "href" : "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/journalCategoriesLOV/FSCRT_Run24%2520Accrual",
+        "name" : "journalCategoriesLOV",
+        "kind" : "item"
+      } ]
+    }
+  }, {
+    "JeCategoryName" : "FSCRT_Run24 Payroll",
+    "Description" : "FSCR test category for payroll journals. Run 24.",
+    "UserJeCategoryName" : "FSCRT_Run24 Payroll",
+    "DisallowMjeFlag" : null,
+    "@context" : {
+      "key" : "FSCRT_Run24%20Payroll",
+      "links" : [ {
+        "rel" : "self",
+        "href" : "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/journalCategoriesLOV/FSCRT_Run24%2520Payroll",
+        "name" : "journalCategoriesLOV",
+        "kind" : "item"
+      }, {
+        "rel" : "canonical",
+        "href" : "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/journalCategoriesLOV/FSCRT_Run24%2520Payroll",
+        "name" : "journalCategoriesLOV",
+        "kind" : "item"
+      } ]
+    }
+  }, {
+    "JeCategoryName" : "FSCRT_Run24 Reclass",
+    "Description" : "FSCR test category for reclass journals. Run 24.",
+    "UserJeCategoryName" : "FSCRT_Run24 Reclass",
+    "DisallowMjeFlag" : null,
+    "@context" : {
+      "key" : "FSCRT_Run24%20Reclass",
+      "links" : [ {
+        "rel" : "self",
+        "href" : "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/journalCategoriesLOV/FSCRT_Run24%2520Reclass",
+        "name" : "journalCategoriesLOV",
+        "kind" : "item"
+      }, {
+        "rel" : "canonical",
+        "href" : "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/journalCategoriesLOV/FSCRT_Run24%2520Reclass",
+        "name" : "journalCategoriesLOV",
+        "kind" : "item"
+      } ]
+    }
+  } ],
+  "count" : 3,
+  "hasMore" : false,
+  "limit" : 50,
+  "offset" : 0,
+  "links" : [ {
+    "rel" : "self",
+    "href" : "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/journalCategoriesLOV",
+    "name" : "journalCategoriesLOV",
+    "kind" : "collection"
+  } ]
+}

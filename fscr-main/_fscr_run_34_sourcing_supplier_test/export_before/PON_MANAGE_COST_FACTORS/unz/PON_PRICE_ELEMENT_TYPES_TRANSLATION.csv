@@ -1,0 +1,5 @@
+"PON_PRICE_ELEMENT_TYPES.PriceElementCode","Name","Description","Language","SourceLang","CreationDate","CreatedBy","LastUpdateDate","LastUpdatedBy","LastUpdateLogin"
+"ITEM_PRICE","Line Price","Individual cost of the sourced product or service without additional cost components such as freight, tax, or insurance","US","US","2021/03/07 04:30:29.063","SEED_DATA_FROM_APPLICATION","2024/04/06 03:59:13.750521","SEED_DATA_FROM_APPLICATION","-1"
+"0000","Zaynab Shipping","","US","US","2026/07/21 15:52:15.533","Configuration","2026/07/21 15:53:29.72","Configuration","571DFC894FFB65D1E0631C65310AF9D6"
+"001","Zaynab Hazard Materials","","US","US","2026/07/21 15:52:36.858","Configuration","2026/07/21 15:53:29.72","Configuration","571DFC894FFB65D1E0631C65310AF9D6"
+"002","Zaynab Import Tax","","US","US","2026/07/21 15:53:09.065","Configuration","2026/07/21 15:53:29.72","Configuration","571DFC894FFB65D1E0631C65310AF9D6"

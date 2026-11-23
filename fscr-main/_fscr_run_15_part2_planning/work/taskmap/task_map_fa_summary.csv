@@ -1,0 +1,30 @@
+offering_code,offering,fa_code,functional_area,sow_ref,scope_class,catalog_tasks,tasks_in_map,note
+XLE_FINANCIALS_JUR,Financials,ORA_ASK_ORGANIZATION_STRUCTURE,Organization Structures,Fin 3.1-3.2,INCR,18,18,pending in Run 14 classifier; SUGGESTED owner Financials (Run 14 Q-S4)
+XLE_FINANCIALS_JUR,Financials,ORA_ASK_USERS_AND_SECURITY,Users and Security,Cfg 12,NEW,9,9,pending in Run 14 classifier (21 offerings); SUGGESTED owner Financials (Run 14 Q-S4)
+PIM_PROD_MNG,Product Management,ORA_EGP_FA_ITEM_ORGANIZATIONS,Item Organizations,B 1.1-1.3,NEW,26,26,resolved
+PIM_PROD_MNG,Product Management,ORA_EGP_FA_ITEMS,Items,B 1.1-1.2,NEW,35,35,resolved
+PIM_PROD_MNG,Product Management,EGO_ADVANCED_PRODUCT_STRUCT,Structures,B 1.3,NEW,7,7,resolved
+ORA_MANUFACTURING_AND_SUPPLY_C,Manufacturing and Supply Chain Materials Management,ORA_RCS_FACILITIES,Facilities,B 2.2,NEW,29,29,resolved
+ORA_MANUFACTURING_AND_SUPPLY_C,Manufacturing and Supply Chain Materials Management,ORA_WSH_INVENTORY_MGMT,Inventory Management,B 2.1-2.2,NEW,63,63,resolved
+ORA_MANUFACTURING_AND_SUPPLY_C,Manufacturing and Supply Chain Materials Management,WSH_ENABLE_RECEIVING,Receiving,B 2.1,NEW,6,6,resolved
+ORA_MANUFACTURING_AND_SUPPLY_C,Manufacturing and Supply Chain Materials Management,CMR_RECEIPT_ACCOUNTING,Receipt Accounting,"B 2.1, 3.4",NEW,44,44,resolved
+ORA_MANUFACTURING_AND_SUPPLY_C,Manufacturing and Supply Chain Materials Management,CST_DEFINE_COST_MANAGEMENT,Cost Accounting,B 2.3-2.6,NEW,63,63,resolved
+ORA_MANUFACTURING_AND_SUPPLY_C,Manufacturing and Supply Chain Materials Management,ORA_WIS_COMMON_MFG_WORK_SETUP,Manufacturing Master Data,B 6.1-6.4,NEW,26,26,resolved; process vs discrete not separated in catalog
+ORA_MANUFACTURING_AND_SUPPLY_C,Manufacturing and Supply Chain Materials Management,ORA_MNT_MGMT,Maintenance Management,B 7.1-7.7,NEW,23,23,resolved
+ORA_MANUFACTURING_AND_SUPPLY_C,Manufacturing and Supply Chain Materials Management,ORA_SUS_SUSTAINABILITY,Sustainability,Fin 4.1-4.3,NEW,7,7,pending in Run 14 (3 offerings); SUGGESTED owner MSCMM (Run 14 Q-S4)
+PO_PROCUREMENT,Procurement,ORA_PO_PROC_FOUNDATION_FA,Procurement Foundation,B 4.1,NEW,16,16,resolved
+PO_PROCUREMENT,Procurement,ORA_EGP_SUPPLIERS,Suppliers,"B 5.4, RICE 2",NEW,35,35,resolved
+PO_PROCUREMENT,Procurement,ORA_PO_APPROVAL_MANAGEMENT_FA,Approval Management,"B 3.3, 4.2",NEW,14,14,resolved
+PO_PROCUREMENT,Procurement,ORA_PO_PURCHASING_FOUNDATION,Purchasing Foundation,B 4.1-4.2,NEW,11,11,resolved
+PO_PROCUREMENT,Procurement,ORA_PO_PRC_TRX_ACC_RULES_FA,Procurement Transaction Account Rules,B 3.4,NEW,9,9,resolved
+PO_PROCUREMENT,Procurement,PO_SSP_DEPLOYED,Self Service Procurement,B 3.1-3.5,NEW,11,11,resolved
+PO_PROCUREMENT,Procurement,PO_SUP_PORTAL_DEPLOYED,Supplier Portal,B 5.1-5.5,NEW,7,7,resolved
+XLE_FINANCIALS_JUR,Financials,ORA_FIN_GENERAL_LEDGER,General Ledger,"Fin 7, Cfg 7",INCR,42,42,resolved
+XLE_FINANCIALS_JUR,Financials,FIN_PAYABLES_DEPLOYED,Payables,Cfg 5,INCR,50,50,pending in Run 14 (Financials or Procurement); SUGGESTED owner Financials
+PJF_PROJ_MNG,Project Financial Management,ORA_PJC_PROJ_COSTING_BASE_FA,Project Costing Base,"Fin 1, Cfg 8",INCR,33,33,resolved
+XLE_FINANCIALS_JUR,Financials,FIN_FIXED_ASSETS_DEPLOYED,Fixed Assets,Fin 2,INCR,47,47,resolved
+XLE_FINANCIALS_JUR,Financials,FIN_EXPENSES_DEPLOYED,Expenses,Fin 5.1-5.4,COND,40,40,resolved; in/out decided by Expenses design session
+XLE_FINANCIALS_JUR,Financials,FIN_RECEIVABLES_DEPLOYED,Receivables,Fin intro,TBD,51,0,remediation; extent 'determined during the project'
+XLE_FINANCIALS_JUR,Financials,ORA_CE_CASH_MGMT_BANK,Cash Management,Fin intro,TBD,39,0,remediation; pending owner in Run 14; SUGGESTED Financials
+ORA_GMS_GRANTS_MANAGEMENT,Grants Management,ORA_GMS_GRANTS_BASE_FA,Grants Management Foundation,Fin intro,TBD,27,0,remediation; extent TBD
+XLE_FINANCIALS_JUR,Financials,ORA_FIN_REPORT_CENTER,Financial Reporting Center,Fin 6,TBD,16,0,"reporting approach is a strategy deliverable, not configuration"

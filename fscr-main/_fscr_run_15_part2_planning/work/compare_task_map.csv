@@ -1,0 +1,387 @@
+Sheet,Manual task,Manual owner,Status,Reason
+Financials,Manage Reference Data Sets,General Ledger,missed,"in catalog FA(s) not selected: Agency Profile, Application Extensions, Enterprise Profile, Goal Management Common"
+Financials,Manage Set Assignments for Set Determinant Type,General Ledger,covered,same task name in Run 15 map: Fixed Assets
+Financials,Manage Reference Data Set Data Access for Users,General Ledger,missed,"in catalog FA(s) not selected: Application Extensions, Enterprise Profile"
+Financials,Manage Geographies,General Ledger,covered,same task name in Run 15 map: Suppliers
+Financials,Load Geography Interface Data,General Ledger,missed,"in catalog FA(s) not selected: Customers, Enterprise Profile, Global Human Resources HCM Tool, HCM Security HCM Tool"
+Financials,Run Geography Loader,General Ledger,missed,"in catalog FA(s) not selected: Customers, Enterprise Profile, Global Human Resources HCM Tool, HCM Security HCM Tool"
+Financials,Run Maintain Geography Name Referencing,General Ledger,missed,"in catalog FA(s) not selected: Customers, Enterprise Profile, Global Human Resources HCM Tool, HCM Security HCM Tool"
+Financials,Run Geocode Generation,General Ledger,missed,"in catalog FA(s) not selected: Customers, Enterprise Profile, Loyalty Foundation, Sales Foundation"
+Financials,Manage Geography Lookups,General Ledger,missed,"in catalog FA(s) not selected: Customers, Enterprise Profile, Loyalty Foundation, Sales Foundation"
+Financials,Manage Legal Jurisdictions,General Ledger,missed,"in catalog FA(s) not selected: Agency Profile, Company Profile, Customers, Enterprise Profile"
+Financials,Manage Legal Authorities,General Ledger,missed,"in catalog FA(s) not selected: Agency Profile, Customers, Global Human Resources Legal Jurisdiction and Authority, Legal Structures"
+Financials,Manage Legal Addresses,General Ledger,missed,"in catalog FA(s) not selected: Agency Profile, Company Profile, Customers, Enterprise Profile"
+Financials,Manage Legal Entity Configurator Lookups,General Ledger,missed,"in catalog FA(s) not selected: Customers, Enterprise Profile, Legal Structures, Suppliers"
+Financials,Manage Legal Entity Configurator Descriptive Flexfield,General Ledger,missed,"in catalog FA(s) not selected: Customers, Enterprise Profile, Legal Structures, Suppliers"
+Financials,Manage Legal Entity Configurator Profile Options,General Ledger,missed,"in catalog FA(s) not selected: Customers, Enterprise Profile, Legal Structures, Suppliers"
+Financials,Manage Legal Entity,General Ledger,covered,same task name in Run 15 map: Item Organizations
+Financials,Manage Legal Entity Registrations,General Ledger,missed,"in catalog FA(s) not selected: Agency Profile, Global Human Resources Legal Entity, Legal Structures"
+Financials,Manage Chart of Accounts Value Sets,General Ledger,covered,same task name in Run 15 map: Item Organizations
+Financials,Manage Chart of Accounts Structures,General Ledger,covered,same task name in Run 15 map: Item Organizations
+Financials,Manage Chart of Accounts Structure Instances,General Ledger,covered,same task name in Run 15 map: Item Organizations
+Financials,Manage Chart of Accounts Configurations,General Ledger,missed,in catalog FA(s) not selected: Financial Reporting Structures
+Financials,Manage Chart of Accounts Value Set Values,General Ledger,covered,same task name in Run 15 map: Item Organizations
+Financials,Manage Accounting Calendars,General Ledger,covered,same task name in Run 15 map: Item Organizations
+Financials,Manage Currencies,General Ledger,missed,"in catalog FA(s) not selected: Application Extensions, Company Profile, Financial Reporting Structures, Global Human Resources Common"
+Financials,Manage Conversion Rate Types,General Ledger,missed,"in catalog FA(s) not selected: Company Profile, Financial Reporting Structures"
+Financials,Manage Daily Rates,General Ledger,missed,"in catalog FA(s) not selected: Company Profile, Financial Reporting Structures"
+Financials,Define Accounting Configurations,General Ledger,missed,name not in FSCR effective catalog (custom / renamed / Redwood)
+Financials,Manage Primary Ledgers,General Ledger,covered,"same task name in Run 15 map: General Ledger, Item Organizations"
+Financials,Assign Legal Entities,General Ledger,covered,"same task name in Run 15 map: General Ledger, Item Organizations"
+Financials,Specify Ledger Options,General Ledger,covered,"same task name in Run 15 map: General Ledger, Item Organizations"
+Financials,Manage Secondary Ledgers,General Ledger,covered,same task name in Run 15 map: General Ledger
+Financials,Specify Ledger Options,General Ledger,covered,"same task name in Run 15 map: General Ledger, Item Organizations"
+Financials,Complete Primary to Secondary Ledger Mapping,General Ledger,covered,same task name in Run 15 map: General Ledger
+Financials,Manage Business Unit,General Ledger,covered,"same task name in Run 15 map: Item Organizations, Organization Structures"
+Financials,Assign Business Unit Business Function,General Ledger,covered,"same task name in Run 15 map: Item Organizations, Organization Structures"
+Financials,Manage Business Unit Data Access for Users,General Ledger,covered,same task name in Run 15 map: Organization Structures
+Financials,Manage Business Unit Set Assignment,General Ledger,covered,"same task name in Run 15 map: Item Organizations, Organization Structures"
+Financials,Manage Tax Regimes,General Ledger,missed,in catalog FA(s) not selected: Transaction Tax
+Financials,Run Jurisdiction and Rates Upload Program,General Ledger,missed,in catalog FA(s) not selected: Transaction Tax
+Financials,Manage Taxes,General Ledger,missed,in catalog FA(s) not selected: Transaction Tax
+Financials,Manage Tax Rates and Tax Recovery Rates,General Ledger,missed,in catalog FA(s) not selected: Transaction Tax
+Financials,Manage Standard Banking Configurations,General Ledger,missed,in catalog FA(s) not selected: Banking Configurations
+Financials,Manage Embedded Banking Configurations,General Ledger,missed,in catalog FA(s) not selected: Banking Configurations
+Financials,Specify Supplier Numbering,Procurement,covered,same task name in Run 15 map: Suppliers
+Financials,Manage Supplier Type Lookup,Procurement,covered,same task name in Run 15 map: Suppliers
+Financials,Manage Tax Organization Type Lookup,Procurement,covered,same task name in Run 15 map: Suppliers
+Financials,Manage Supplier Value Sets,Procurement,covered,same task name in Run 15 map: Suppliers
+Financials,Manage Supplier Descriptive Flexfields,Procurement,covered,same task name in Run 15 map: Suppliers
+Financials,Manage Supplier Bank Account Descriptive Flexfields,Procurement,covered,same task name in Run 15 map: Suppliers
+Financials,Manage Supplier Messages,Procurement,covered,same task name in Run 15 map: Suppliers
+Financials,Configure New Supplier Notification,Procurement,covered,same task name in Run 15 map: Suppliers
+Financials,Manage Supplier User Roles,Procurement,covered,same task name in Run 15 map: Supplier Portal
+Financials,Define Automated Invoice Processing Configuration,Payables,covered,same task name in Run 15 map: Payables
+Financials,Manage Intelligent Document Recognition Options,Payables,covered,same task name in Run 15 map: Payables
+Financials,Manage Payment Terms,Payables,covered,"same task name in Run 15 map: Payables, Procurement Foundation"
+Financials,Manage Invoice Tolerances,Payables,covered,same task name in Run 15 map: Payables
+Financials,Manage Procurement Agents,Payables,covered,"same task name in Run 15 map: Payables, Procurement Foundation"
+Financials,Manage Common Options for Payables and Procurement,Payables,covered,"same task name in Run 15 map: Payables, Procurement Foundation"
+Financials,Manage Invoice Options,Payables,covered,same task name in Run 15 map: Payables
+Financials,Manage Payment Options,Payables,covered,same task name in Run 15 map: Payables
+Financials,Manage Payables Profile Options,Payables,covered,same task name in Run 15 map: Payables
+Financials,Manage Payables Document Sequences,Payables,covered,same task name in Run 15 map: Payables
+Financials,Manage Distribution Sets,Payables,covered,"same task name in Run 15 map: Payables, Project Costing Base"
+Financials,Manage Aging Periods,Payables,covered,same task name in Run 15 map: Payables
+Financials,Manage Sources,Payables,covered,"same task name in Run 15 map: Cost Accounting, Fixed Assets, Payables, Procurement Transaction Account Rules, Receipt Accounting"
+Financials,Manage Journal Line Rules,Payables,covered,"same task name in Run 15 map: Cost Accounting, Fixed Assets, Payables, Receipt Accounting"
+Financials,Manage Description Rules,Payables,covered,"same task name in Run 15 map: Cost Accounting, Fixed Assets, Payables, Receipt Accounting"
+Financials,Manage MappingSets,Payables,covered,"same task name in Run 15 map: Cost Accounting, Fixed Assets, Payables, Procurement Transaction Account Rules, Receipt Accounting"
+Financials,Manage Account Rules,Payables,covered,"same task name in Run 15 map: Cost Accounting, Fixed Assets, Payables, Procurement Transaction Account Rules, Receipt Accounting"
+Financials,Manage Subledger Journal Entry RuleSets,Payables,covered,"same task name in Run 15 map: Cost Accounting, Fixed Assets, Payables, Receipt Accounting"
+Financials,Manage Accounting Methods,Payables,covered,"same task name in Run 15 map: Cost Accounting, Fixed Assets, Payables, Receipt Accounting"
+Financials,Manage Transaction Account Types,Payables,covered,"same task name in Run 15 map: Cost Accounting, Fixed Assets, Payables, Procurement Transaction Account Rules"
+Financials,Manage Transaction Account Definitions,Payables,covered,"same task name in Run 15 map: Cost Accounting, Fixed Assets, Payables, Procurement Transaction Account Rules"
+Financials,Create Payment Process Request Templates,Payables,covered,same task name in Run 15 map: Payables
+Financials,Manage Application Rule Sets Task,Receivables,partly,in an FA listed as TBD (not expanded): Receivables
+Financials,Manage Receivables Activities Task,Receivables,partly,in an FA listed as TBD (not expanded): Receivables
+Financials,Manage Approval Limits Task,Receivables,partly,in an FA listed as TBD (not expanded): Receivables
+Financials,Manage Receivables Profile Options Task,Receivables,partly,in an FA listed as TBD (not expanded): Receivables
+Financials,Manage AutoCash Rule Sets Task,Receivables,partly,in an FA listed as TBD (not expanded): Receivables
+Financials,Manage Receivables Distribution Sets Task,Receivables,partly,in an FA listed as TBD (not expanded): Receivables
+Financials,Manage Receivables Descriptive Flexfields Task,Receivables,partly,in an FA listed as TBD (not expanded): Receivables
+Financials,Manage Receivables Lookups Task,Receivables,partly,in an FA listed as TBD (not expanded): Receivables
+Financials,Manage Receivables Document Sequences Task,Receivables,partly,in an FA listed as TBD (not expanded): Receivables
+Financials,Manage Internal Resource Organization s Task,Receivables,covered,same task name in Run 15 map: Organization Structures
+Financials,Manage Partner Organization s Task,Receivables,covered,same task name in Run 15 map: Organization Structures
+Financials,Manage Resource Organization Hierarchies Task,Receivables,covered,same task name in Run 15 map: Organization Structures
+Financials,Manage Resource Organization Members Task,Receivables,covered,same task name in Run 15 map: Organization Structures
+Financials,Run Reporting Hierarchy Generation Task,Receivables,covered,same task name in Run 15 map: Organization Structures
+Financials,Manage Resource Note Type Task,Receivables,partly,in an FA listed as TBD (not expanded): Receivables
+Financials,Manage Resource Note Type Mapping Task,Receivables,partly,in an FA listed as TBD (not expanded): Receivables
+Financials,Manage Resource Note Descriptive Flexfields Task,Receivables,partly,in an FA listed as TBD (not expanded): Receivables
+Financials,Manage Resource Lookups Task,Receivables,partly,in an FA listed as TBD (not expanded): Receivables
+Financials,Manage Resource Profile Options Task,Receivables,partly,in an FA listed as TBD (not expanded): Receivables
+Financials,Manage Resources Task,Receivables,partly,"in an FA listed as TBD (not expanded): Grants Management Foundation, Receivables"
+Financials,Manage Resource Roles Task,Receivables,partly,in an FA listed as TBD (not expanded): Receivables
+Financials,Manage Resource Role Lookups Task,Receivables,partly,in an FA listed as TBD (not expanded): Receivables
+Financials,Manage Resource Role Descriptive Flexfields Task,Receivables,partly,in an FA listed as TBD (not expanded): Receivables
+Financials,Manage Credit Scoring Models Task,Receivables,partly,in an FA listed as TBD (not expanded): Receivables
+Financials,Manage Credit Case Folder Templates Task,Receivables,partly,in an FA listed as TBD (not expanded): Receivables
+Financials,Manage Statement Cycles Task,Receivables,partly,in an FA listed as TBD (not expanded): Receivables
+Financials,Manage Standard Messages Task,Receivables,partly,in an FA listed as TBD (not expanded): Receivables
+Financials,Manage Interest Tiers Task,Receivables,partly,in an FA listed as TBD (not expanded): Receivables
+Financials,Manage Late Charge Schedules Task,Receivables,partly,in an FA listed as TBD (not expanded): Receivables
+Financials,Manage Receivables System Options Task,Receivables,partly,in an FA listed as TBD (not expanded): Receivables
+Financials,Manage Subledger Application Task,Receivables,covered,"same task name in Run 15 map: Cost Accounting, Fixed Assets, Payables, Procurement Transaction Account Rules, Receipt Accounting"
+Financials,Update Subledger Application Options Task,Receivables,covered,"same task name in Run 15 map: Cost Accounting, Fixed Assets, Payables, Procurement Transaction Account Rules, Receipt Accounting"
+Financials,Manage Subledger Application Transaction Objects Task,Receivables,covered,"same task name in Run 15 map: Cost Accounting, Fixed Assets, Payables, Receipt Accounting"
+Financials,Create and Assign Sources Task,Receivables,covered,"same task name in Run 15 map: Cost Accounting, Fixed Assets, Payables, Receipt Accounting"
+Financials,Manage Sources Task,Receivables,covered,"same task name in Run 15 map: Cost Accounting, Fixed Assets, Payables, Procurement Transaction Account Rules, Receipt Accounting"
+Financials,Manage User-Defined Formulas Task,Receivables,covered,"same task name in Run 15 map: Cost Accounting, Fixed Assets, Payables, Procurement Transaction Account Rules, Receipt Accounting"
+Financials,Manage Accounting Attributes Task,Receivables,covered,"same task name in Run 15 map: Cost Accounting, Fixed Assets, Payables, Receipt Accounting"
+Financials,Manage Journal Line Rules Task,Receivables,covered,"same task name in Run 15 map: Cost Accounting, Fixed Assets, Payables, Receipt Accounting"
+Financials,Manage Description Rules Task,Receivables,covered,"same task name in Run 15 map: Cost Accounting, Fixed Assets, Payables, Receipt Accounting"
+Financials,Manage Mapping Sets Task,Receivables,covered,"same task name in Run 15 map: Cost Accounting, Fixed Assets, Payables, Procurement Transaction Account Rules, Receipt Accounting"
+Financials,Manage Account Rules Task,Receivables,covered,"same task name in Run 15 map: Cost Accounting, Fixed Assets, Payables, Procurement Transaction Account Rules, Receipt Accounting"
+Financials,Manage Supporting References Task,Receivables,covered,"same task name in Run 15 map: Cost Accounting, Fixed Assets, Payables, Receipt Accounting"
+Financials,Manage Subledger Journal Entry Rule Sets Task,Receivables,covered,"same task name in Run 15 map: Cost Accounting, Fixed Assets, Payables, Receipt Accounting"
+Financials,Manage Accounting Methods Task,Receivables,covered,"same task name in Run 15 map: Cost Accounting, Fixed Assets, Payables, Receipt Accounting"
+Financials,Activate Subledger Journal Entry Rule Set Assignments Task,Receivables,covered,"same task name in Run 15 map: Cost Accounting, Fixed Assets, Payables, Receipt Accounting"
+Financials,Import Supporting Reference Initial Balances Task,Receivables,covered,"same task name in Run 15 map: Cost Accounting, Fixed Assets, Payables, Receipt Accounting"
+Financials,Manage Subledger Accounting Options Task,Receivables,covered,"same task name in Run 15 map: Cost Accounting, Fixed Assets, Payables, Procurement Transaction Account Rules, Receipt Accounting"
+Financials,Manage Accounting Class Usages Task,Receivables,covered,"same task name in Run 15 map: Cost Accounting, Fixed Assets, Payables, Receipt Accounting"
+Financials,Manage Subledger Accounting Lookups Task,Receivables,covered,"same task name in Run 15 map: Cost Accounting, Fixed Assets, Payables, Receipt Accounting"
+Financials,Manage Subledger Accounting Profile Options Task,Receivables,covered,"same task name in Run 15 map: Cost Accounting, Fixed Assets, Payables, Receipt Accounting"
+Financials,Manage Subledger Accounting Descriptive Flexfields Task,Receivables,covered,"same task name in Run 15 map: Cost Accounting, Fixed Assets, Payables, Receipt Accounting"
+Financials,Manage Cash Management Descriptive Flexfields,Cash Management,partly,in an FA listed as TBD (not expanded): Cash Management
+Financials,Manage Cash Management Profile Options,Cash Management,partly,in an FA listed as TBD (not expanded): Cash Management
+Financials,Manage Cash Management Lookups,Cash Management,partly,in an FA listed as TBD (not expanded): Cash Management
+Financials,Manage Bank Statement Transaction Codes,Cash Management,partly,in an FA listed as TBD (not expanded): Cash Management
+Financials,Manage Parse Rule Sets,Cash Management,partly,in an FA listed as TBD (not expanded): Cash Management
+Financials,Manage Bank Statement Transaction Creation Rules,Cash Management,partly,in an FA listed as TBD (not expanded): Cash Management
+Financials,Manage Cash Transaction Type Mapping,Cash Management,partly,in an FA listed as TBD (not expanded): Cash Management
+Financials,Manage Bank Statement Reconciliation Tolerance Rules,Cash Management,partly,in an FA listed as TBD (not expanded): Cash Management
+Financials,Manage Bank Statement Reconciliation Matching Rules,Cash Management,partly,in an FA listed as TBD (not expanded): Cash Management
+Financials,Manage Bank Statement Reconciliation Rule Sets,Cash Management,partly,in an FA listed as TBD (not expanded): Cash Management
+Financials,Manage Banks,Cash Management,partly,in an FA listed as TBD (not expanded): Cash Management
+Financials,Manage Bank Branches,Cash Management,partly,in an FA listed as TBD (not expanded): Cash Management
+Financials,Manage Bank Accounts,Cash Management,partly,in an FA listed as TBD (not expanded): Cash Management
+Financials,Manage Payment Instruments,Cash Management,partly,in an FA listed as TBD (not expanded): Cash Management
+Financials,Specify Cash Positioning and Forecasting Options,Cash Management,partly,in an FA listed as TBD (not expanded): Cash Management
+Financials,Manage Cash Positioning and Forecasting Transaction Grouping,Cash Management,partly,in an FA listed as TBD (not expanded): Cash Management
+Financials,Create Cash Positioning Report,Cash Management,partly,in an FA listed as TBD (not expanded): Cash Management
+Financials,Manage Subledger Application,Cash Management,covered,"same task name in Run 15 map: Cost Accounting, Fixed Assets, Payables, Procurement Transaction Account Rules, Receipt Accounting"
+Financials,Update Subledger Application Options,Cash Management,covered,"same task name in Run 15 map: Cost Accounting, Fixed Assets, Payables, Procurement Transaction Account Rules, Receipt Accounting"
+Financials,Manage Subledger Application Transaction Objects,Cash Management,covered,"same task name in Run 15 map: Cost Accounting, Fixed Assets, Payables, Receipt Accounting"
+Financials,Create and Assign Sources,Cash Management,covered,"same task name in Run 15 map: Cost Accounting, Fixed Assets, Payables, Receipt Accounting"
+Financials,Manage Sources,Cash Management,covered,"same task name in Run 15 map: Cost Accounting, Fixed Assets, Payables, Procurement Transaction Account Rules, Receipt Accounting"
+Financials,Manage User-Defined Formulas,Cash Management,covered,"same task name in Run 15 map: Cost Accounting, Fixed Assets, Payables, Procurement Transaction Account Rules, Receipt Accounting"
+Financials,Manage Accounting Attributes,Cash Management,covered,"same task name in Run 15 map: Cost Accounting, Fixed Assets, Payables, Receipt Accounting"
+Financials,Manage Journal Line Rules,Cash Management,covered,"same task name in Run 15 map: Cost Accounting, Fixed Assets, Payables, Receipt Accounting"
+Financials,Manage Description Rules,Cash Management,covered,"same task name in Run 15 map: Cost Accounting, Fixed Assets, Payables, Receipt Accounting"
+Financials,Manage Mapping Sets,Cash Management,covered,"same task name in Run 15 map: Cost Accounting, Fixed Assets, Payables, Procurement Transaction Account Rules, Receipt Accounting"
+Financials,Manage Account Rules,Cash Management,covered,"same task name in Run 15 map: Cost Accounting, Fixed Assets, Payables, Procurement Transaction Account Rules, Receipt Accounting"
+Financials,Manage Supporting References,Cash Management,covered,"same task name in Run 15 map: Cost Accounting, Fixed Assets, Payables, Receipt Accounting"
+Financials,Manage Subledger Journal Entry Rule Sets,Cash Management,covered,"same task name in Run 15 map: Cost Accounting, Fixed Assets, Payables, Receipt Accounting"
+Financials,Manage Accounting Methods,Cash Management,covered,"same task name in Run 15 map: Cost Accounting, Fixed Assets, Payables, Receipt Accounting"
+Financials,Activate Subledger Journal Entry Rule Set Assignments,Cash Management,covered,"same task name in Run 15 map: Cost Accounting, Fixed Assets, Payables, Receipt Accounting"
+Financials,Import Supporting Reference Initial Balances,Cash Management,covered,"same task name in Run 15 map: Cost Accounting, Fixed Assets, Payables, Receipt Accounting"
+Financials,Manage Subledger Accounting Options,Cash Management,covered,"same task name in Run 15 map: Cost Accounting, Fixed Assets, Payables, Procurement Transaction Account Rules, Receipt Accounting"
+Financials,Manage Accounting Class Usages,Cash Management,covered,"same task name in Run 15 map: Cost Accounting, Fixed Assets, Payables, Receipt Accounting"
+Financials,Manage Subledger Accounting Lookups,Cash Management,covered,"same task name in Run 15 map: Cost Accounting, Fixed Assets, Payables, Receipt Accounting"
+Financials,Manage Subledger Accounting Profile Options,Cash Management,covered,"same task name in Run 15 map: Cost Accounting, Fixed Assets, Payables, Receipt Accounting"
+Financials,Manage Subledger Accounting Descriptive Flexfields,Cash Management,covered,"same task name in Run 15 map: Cost Accounting, Fixed Assets, Payables, Receipt Accounting"
+Financials,Manage Fixed Assets Flexfield Value Sets,Assets,covered,same task name in Run 15 map: Fixed Assets
+Financials,Manage Fixed Assets Key Flexfields,Assets,covered,same task name in Run 15 map: Fixed Assets
+Financials,Manage System Controls,Assets,covered,same task name in Run 15 map: Fixed Assets
+Financials,Manage Fiscal Years,Assets,covered,same task name in Run 15 map: Fixed Assets
+Financials,Manage Asset Keys,Assets,covered,same task name in Run 15 map: Fixed Assets
+Financials,Manage Asset Locations,Assets,covered,same task name in Run 15 map: Fixed Assets
+Financials,Manage Asset Calendars,Assets,covered,same task name in Run 15 map: Fixed Assets
+Financials,Manage Prorate Conventions,Assets,covered,same task name in Run 15 map: Fixed Assets
+Financials,Manage Depreciation Methods,Assets,covered,same task name in Run 15 map: Fixed Assets
+Financials,Manage Bonus Rules,Assets,covered,same task name in Run 15 map: Fixed Assets
+Financials,Manage Ceilings,Assets,covered,same task name in Run 15 map: Fixed Assets
+Financials,Manage Asset Books,Assets,covered,same task name in Run 15 map: Fixed Assets
+Financials,Manage Asset Book Data Access for Users,Assets,covered,same task name in Run 15 map: Fixed Assets
+Financials,Manage Set Assignments for Set Determinant Type,Assets,covered,same task name in Run 15 map: Fixed Assets
+Financials,Manage Cash Generating Units,Assets,covered,same task name in Run 15 map: Fixed Assets
+Financials,Manage Asset Price Indexes,Assets,covered,same task name in Run 15 map: Fixed Assets
+Financials,Manage Asset Distribution Sets,Assets,covered,same task name in Run 15 map: Fixed Assets
+Financials,Manage Fixed Assets Profile Options,Assets,covered,same task name in Run 15 map: Fixed Assets
+Financials,Manage Fixed Assets Lookups,Assets,covered,same task name in Run 15 map: Fixed Assets
+Financials,Manage Fixed Assets Descriptive Flexfields,Assets,covered,same task name in Run 15 map: Fixed Assets
+Financials,Manage Subledger Application,Assets,covered,"same task name in Run 15 map: Cost Accounting, Fixed Assets, Payables, Procurement Transaction Account Rules, Receipt Accounting"
+Financials,Update Subledger Application Options,Assets,covered,"same task name in Run 15 map: Cost Accounting, Fixed Assets, Payables, Procurement Transaction Account Rules, Receipt Accounting"
+Financials,Manage Subledger Application Transaction Objects,Assets,covered,"same task name in Run 15 map: Cost Accounting, Fixed Assets, Payables, Receipt Accounting"
+Financials,Create and Assign Sources,Assets,covered,"same task name in Run 15 map: Cost Accounting, Fixed Assets, Payables, Receipt Accounting"
+Financials,Manage Sources,Assets,covered,"same task name in Run 15 map: Cost Accounting, Fixed Assets, Payables, Procurement Transaction Account Rules, Receipt Accounting"
+Financials,Manage User-Defined Formulas,Assets,covered,"same task name in Run 15 map: Cost Accounting, Fixed Assets, Payables, Procurement Transaction Account Rules, Receipt Accounting"
+Financials,Update Subledger Application Options,Assets,covered,"same task name in Run 15 map: Cost Accounting, Fixed Assets, Payables, Procurement Transaction Account Rules, Receipt Accounting"
+Financials,Manage Subledger Application Transaction Objects,Assets,covered,"same task name in Run 15 map: Cost Accounting, Fixed Assets, Payables, Receipt Accounting"
+Financials,Create and Assign Sources,Assets,covered,"same task name in Run 15 map: Cost Accounting, Fixed Assets, Payables, Receipt Accounting"
+Financials,Manage Sources,Assets,covered,"same task name in Run 15 map: Cost Accounting, Fixed Assets, Payables, Procurement Transaction Account Rules, Receipt Accounting"
+Financials,Manage User-Defined Formulas,Assets,covered,"same task name in Run 15 map: Cost Accounting, Fixed Assets, Payables, Procurement Transaction Account Rules, Receipt Accounting"
+Financials,Manage Accounting Attributes,Assets,covered,"same task name in Run 15 map: Cost Accounting, Fixed Assets, Payables, Receipt Accounting"
+Financials,Manage Journal Line Rules,Assets,covered,"same task name in Run 15 map: Cost Accounting, Fixed Assets, Payables, Receipt Accounting"
+Financials,Manage Description Rules,Assets,covered,"same task name in Run 15 map: Cost Accounting, Fixed Assets, Payables, Receipt Accounting"
+Financials,Manage Mapping Sets,Assets,covered,"same task name in Run 15 map: Cost Accounting, Fixed Assets, Payables, Procurement Transaction Account Rules, Receipt Accounting"
+Financials,Manage Account Rules,Assets,covered,"same task name in Run 15 map: Cost Accounting, Fixed Assets, Payables, Procurement Transaction Account Rules, Receipt Accounting"
+Financials,Manage Supporting References,Assets,covered,"same task name in Run 15 map: Cost Accounting, Fixed Assets, Payables, Receipt Accounting"
+Financials,Manage Subledger Journal Entry Rule Sets,Assets,covered,"same task name in Run 15 map: Cost Accounting, Fixed Assets, Payables, Receipt Accounting"
+Financials,Manage Accounting Methods,Assets,covered,"same task name in Run 15 map: Cost Accounting, Fixed Assets, Payables, Receipt Accounting"
+Financials,Activate Subledger Journal Entry Rule Set Assignments,Assets,covered,"same task name in Run 15 map: Cost Accounting, Fixed Assets, Payables, Receipt Accounting"
+Financials,Import Supporting Reference Initial Balances,Assets,covered,"same task name in Run 15 map: Cost Accounting, Fixed Assets, Payables, Receipt Accounting"
+Financials,Manage Subledger Accounting Options,Assets,covered,"same task name in Run 15 map: Cost Accounting, Fixed Assets, Payables, Procurement Transaction Account Rules, Receipt Accounting"
+Financials,Manage Accounting Class Usages,Assets,covered,"same task name in Run 15 map: Cost Accounting, Fixed Assets, Payables, Receipt Accounting"
+Financials,Manage Subledger Accounting Lookups,Assets,covered,"same task name in Run 15 map: Cost Accounting, Fixed Assets, Payables, Receipt Accounting"
+Financials,Manage Subledger Accounting Profile Options,Assets,covered,"same task name in Run 15 map: Cost Accounting, Fixed Assets, Payables, Receipt Accounting"
+Financials,Manage Subledger Accounting Descriptive Flexfields,Assets,covered,"same task name in Run 15 map: Cost Accounting, Fixed Assets, Payables, Receipt Accounting"
+Financials,Manage Asset Categories,Assets,covered,same task name in Run 15 map: Fixed Assets
+Financials,Manage Asset Category Aliases,Assets,covered,same task name in Run 15 map: Fixed Assets
+Financials,Manage Asset Key Aliases,Assets,covered,same task name in Run 15 map: Fixed Assets
+Financials,Manage Asset Location Aliases,Assets,covered,same task name in Run 15 map: Fixed Assets
+Financials,Manage Tax Regimes,Tax,missed,in catalog FA(s) not selected: Transaction Tax
+Financials,Run Jurisdiction and Rates Upload Program,Tax,missed,in catalog FA(s) not selected: Transaction Tax
+Financials,Manage Taxes,Tax,missed,in catalog FA(s) not selected: Transaction Tax
+Financials,Manage Tax Rates and Tax Recovery Rates,Tax,missed,in catalog FA(s) not selected: Transaction Tax
+Financials,Manage Tax Exceptions,Tax,missed,in catalog FA(s) not selected: Transaction Tax
+Financials,Manage Party Tax Profiles,Tax,missed,in catalog FA(s) not selected: Transaction Tax
+Financials,Manage Tax Registrations,Tax,missed,in catalog FA(s) not selected: Transaction Tax
+Financials,Manage Tax Exemptions,Tax,missed,in catalog FA(s) not selected: Transaction Tax
+Financials,Manage Transaction-Based Fiscal Classifications,Tax,missed,in catalog FA(s) not selected: Transaction Tax
+Financials,Manage Tax Classification Codes,Tax,missed,name not in FSCR effective catalog (custom / renamed / Redwood)
+Financials,Manage Product Fiscal Classifications,Tax,missed,name not in FSCR effective catalog (custom / renamed / Redwood)
+Financials,Manage Intend Use Fiscal Classifications,Tax,missed,name not in FSCR effective catalog (custom / renamed / Redwood)
+Financials,Manage Place of Supply Rules,Tax,missed,name not in FSCR effective catalog (custom / renamed / Redwood)
+Financials,Manage Tax Rules,Tax,missed,in catalog FA(s) not selected: Transaction Tax
+Financials,Manage Tax Statuses,Tax,missed,in catalog FA(s) not selected: Transaction Tax
+Financials,Manage Tax Reporting Types,Tax,missed,in catalog FA(s) not selected: Transaction Tax
+Financials,Manage Tax Recovery Rates,Tax,missed,name not in FSCR effective catalog (custom / renamed / Redwood)
+Financials,Manage Tax Zone Types,Tax,missed,in catalog FA(s) not selected: Transaction Tax
+Financials,Manage Tax Zones,Tax,missed,name not in FSCR effective catalog (custom / renamed / Redwood)
+Financials,Manage Tax Jurisdictions,Tax,missed,in catalog FA(s) not selected: Transaction Tax
+Financials,Manage Party Tax Profiles (Customers),Tax,missed,name not in FSCR effective catalog (custom / renamed / Redwood)
+Financials,Manage Party Tax Profiles (Suppliers),Tax,missed,name not in FSCR effective catalog (custom / renamed / Redwood)
+Financials,Manage Tax Content Subscription,Tax,missed,name not in FSCR effective catalog (custom / renamed / Redwood)
+Financials,Manage Tax Regime to Party Associations,Tax,missed,name not in FSCR effective catalog (custom / renamed / Redwood)
+Financials,Manage Legal Reporting Unit Tax Profile,Tax,missed,name not in FSCR effective catalog (custom / renamed / Redwood)
+Financials,Manage Transaction Tax Options,Tax,missed,name not in FSCR effective catalog (custom / renamed / Redwood)
+Financials,Manage Tax Accounting,Tax,missed,name not in FSCR effective catalog (custom / renamed / Redwood)
+Financials,Manage Default Recovery Rates,Tax,missed,name not in FSCR effective catalog (custom / renamed / Redwood)
+Financials,Manage Tax Configuration Diagnostics,Tax,missed,name not in FSCR effective catalog (custom / renamed / Redwood)
+Financials,Manage Configuration Owners and Subscriptions,Tax,missed,name not in FSCR effective catalog (custom / renamed / Redwood)
+Financials,Manage Tax Document Sequencing,Tax,missed,name not in FSCR effective catalog (custom / renamed / Redwood)
+Financials,Manage Tax Reporting Codes,Tax,missed,name not in FSCR effective catalog (custom / renamed / Redwood)
+Financials,Manage Tax Event Classes,Tax,missed,name not in FSCR effective catalog (custom / renamed / Redwood)
+Financials,Manage Tax Status Defaults,Tax,missed,name not in FSCR effective catalog (custom / renamed / Redwood)
+Financials,Manage Geography Data for Tax,Tax,missed,name not in FSCR effective catalog (custom / renamed / Redwood)
+Financials,Manage Tax Reporting Entity Registrations,Tax,missed,name not in FSCR effective catalog (custom / renamed / Redwood)
+Financials,Run Tax Configuration Diagnostics,Tax,missed,name not in FSCR effective catalog (custom / renamed / Redwood)
+Financials,Manage Deferred Tax Rules,Tax,missed,name not in FSCR effective catalog (custom / renamed / Redwood)
+Financials,Manage Tax Deductibility,Tax,missed,name not in FSCR effective catalog (custom / renamed / Redwood)
+Procurement,Manage Locations,Y,missed,"in catalog FA(s) not selected: Benefits Locations, Company Profile, Compensation Locations, Customers"
+Procurement,*Manage Legal Entity,Y,covered,same task name in Run 15 map: Item Organizations
+Procurement,Manage Business Unit,Y,covered,"same task name in Run 15 map: Item Organizations, Organization Structures"
+Procurement,Assign Business Unit Business Function,Y,covered,"same task name in Run 15 map: Item Organizations, Organization Structures"
+Procurement,Manage Business Unit Set Assignment,N,covered,"same task name in Run 15 map: Item Organizations, Organization Structures"
+Procurement,Manage Service Provider Relationships,N,covered,same task name in Run 15 map: Organization Structures
+Procurement,Manage Facility Shifts,Y,covered,"same task name in Run 15 map: Facilities, Item Organizations, Organization Structures"
+Procurement,Manage Facility Workday Patterns,Y,covered,"same task name in Run 15 map: Facilities, Item Organizations, Organization Structures"
+Procurement,Manage Facility Schedules,Y,covered,"same task name in Run 15 map: Facilities, Item Organizations, Organization Structures"
+Procurement,Manage Inventory Organization,Y,missed,name not in FSCR effective catalog (custom / renamed / Redwood)
+Procurement,Manage Inventory Organization Data Access for Users,Y,covered,"same task name in Run 15 map: Facilities, Maintenance Management, Organization Structures"
+Procurement,Manage Inventory Organization Locations,Y,missed,in catalog FA(s) not selected: Organization Structures
+Procurement,Manage Item Organizations,Y,covered,"same task name in Run 15 map: Facilities, Item Organizations"
+Procurement,Manage Job Roles,Y,covered,same task name in Run 15 map: Users and Security
+Procurement,Manage Duties,Y,covered,same task name in Run 15 map: Users and Security
+Procurement,Manage Data Security Policies,N,covered,same task name in Run 15 map: Users and Security
+Procurement,Manage Data Role and Security Profiles,N,covered,same task name in Run 15 map: Users and Security
+Procurement,Manage Supplier User Roles,Y,covered,same task name in Run 15 map: Supplier Portal
+Procurement,Manage Supplier User Role Usages,N,covered,same task name in Run 15 map: Supplier Portal
+Procurement,Manage Users,Y,covered,same task name in Run 15 map: Users and Security
+Procurement,Manage Business Unit Data Access for Users,Y,covered,same task name in Run 15 map: Organization Structures
+Procurement,Manage Procurement Agents,Y,covered,"same task name in Run 15 map: Payables, Procurement Foundation"
+Procurement,Manage Payment Terms,Y,covered,"same task name in Run 15 map: Payables, Procurement Foundation"
+Procurement,Manage Units of Measure,Y,covered,"same task name in Run 15 map: Items, Procurement Foundation"
+Procurement,Manage Procurement Document Numbering,N,covered,same task name in Run 15 map: Procurement Foundation
+Procurement,Manage Purchasing Line Types,N,covered,same task name in Run 15 map: Procurement Foundation
+Procurement,Manage Document Styles,N,covered,same task name in Run 15 map: Procurement Foundation
+Procurement,Configure Procurement Business Function,Y,covered,same task name in Run 15 map: Procurement Foundation
+Procurement,Configure Requisitioning Business Function,Y,covered,same task name in Run 15 map: Procurement Foundation
+Procurement,Manage Common Options for Payables and Procurement,N,covered,"same task name in Run 15 map: Payables, Procurement Foundation"
+Procurement,Manage Functional Area Catalogs,Y,missed,"in catalog FA(s) not selected: Catalogs, Purchasing Categories"
+Procurement,Manage Requisition Approvals,Y,covered,"same task name in Run 15 map: Approval Management, Self Service Procurement"
+Procurement,Manage Purchasing Document Approvals,Y,covered,same task name in Run 15 map: Approval Management
+Procurement,Manage Internal Supplier Registration Approvals,N,covered,same task name in Run 15 map: Approval Management
+Procurement,Manage Supplier Registration Approvals,N,covered,"same task name in Run 15 map: Approval Management, Supplier Portal"
+Procurement,Manage Supplier Profile Change Approvals,N,covered,same task name in Run 15 map: Approval Management
+Procurement,Manage Change Order Templates,N,covered,same task name in Run 15 map: Purchasing Foundation
+Procurement,Manage Purchasing Messages,N,covered,same task name in Run 15 map: Purchasing Foundation
+Procurement,Manage Hazard Classes,N,covered,same task name in Run 15 map: Purchasing Foundation
+Procurement,Manage UN Numbers,N,covered,same task name in Run 15 map: Purchasing Foundation
+Procurement,Manage Self Service Procurement Profile Options,N,covered,same task name in Run 15 map: Self Service Procurement
+Procurement,Manage Catalog Category Hierarchy,N,covered,same task name in Run 15 map: Self Service Procurement
+Procurement,Manage Mapping Sets,N,covered,"same task name in Run 15 map: Cost Accounting, Fixed Assets, Payables, Procurement Transaction Account Rules, Receipt Accounting"
+Procurement,Manage Account Rules,N,covered,"same task name in Run 15 map: Cost Accounting, Fixed Assets, Payables, Procurement Transaction Account Rules, Receipt Accounting"
+Procurement,Manage Transaction Account Types,N,covered,"same task name in Run 15 map: Cost Accounting, Fixed Assets, Payables, Procurement Transaction Account Rules"
+Procurement,Manage Transaction Account Definitions,N,covered,"same task name in Run 15 map: Cost Accounting, Fixed Assets, Payables, Procurement Transaction Account Rules"
+Procurement,Specify Supplier Numbering,N,covered,same task name in Run 15 map: Suppliers
+Procurement,Manage Supplier Profile Options,N,covered,same task name in Run 15 map: Suppliers
+Procurement,Manage Supplier News Content,,missed,name not in FSCR effective catalog (custom / renamed / Redwood)
+Procurement,Configure New Supplier Notification,,covered,same task name in Run 15 map: Suppliers
+Procurement,Manage Supplier User Roles,,covered,same task name in Run 15 map: Supplier Portal
+Inventory,Manage Inventory Organizations,Y,covered,"same task name in Run 15 map: Facilities, Organization Structures"
+Inventory,Manage Item Organizations,Y,covered,"same task name in Run 15 map: Facilities, Item Organizations"
+Inventory,Manage Inventory Profile Options,N,covered,same task name in Run 15 map: Inventory Management
+Inventory,Manage Inventory Lookups,N,covered,same task name in Run 15 map: Inventory Management
+Inventory,Manage Inventory Value Sets,N,covered,same task name in Run 15 map: Inventory Management
+Inventory,Manage Inventory Descriptive Flexfields,N,covered,same task name in Run 15 map: Inventory Management
+Inventory,Manage Inventory Account Alias Key Flexfield,N,covered,same task name in Run 15 map: Inventory Management
+Inventory,Manage Inventory Locator Key Flexfield,N,covered,same task name in Run 15 map: Inventory Management
+Inventory,Manage Inventory Transaction Sources and Types,N,covered,"same task name in Run 15 map: Inventory Management, Project Costing Base"
+Inventory,Manage Material Statuses,N,covered,same task name in Run 15 map: Inventory Management
+Inventory,Manage Subinventories and Locators,N,covered,same task name in Run 15 map: Inventory Management
+Inventory,Manage ABC Classes,N,covered,same task name in Run 15 map: Inventory Management
+Inventory,Manage ABC Classification Sets,N,covered,same task name in Run 15 map: Inventory Management
+Inventory,Manage ABC Assignment Groups,N,covered,same task name in Run 15 map: Inventory Management
+Inventory,Manage Interorganization Parameters,N,covered,same task name in Run 15 map: Inventory Management
+Inventory,Manage Intersubinventory Parameters,N,covered,same task name in Run 15 map: Inventory Management
+Inventory,Manage Account Aliases,N,covered,same task name in Run 15 map: Inventory Management
+Inventory,Manage Lot Expiration Actions,N,covered,same task name in Run 15 map: Inventory Management
+Inventory,Pick Slip Grouping Rules,N,covered,same task name in Run 15 map: Inventory Management
+Inventory,Manage Pick Slip Grouping Rules,N,covered,same task name in Run 15 map: Inventory Management
+Inventory,Manage Picking Rules,N,covered,same task name in Run 15 map: Inventory Management
+Inventory,Picking Rule Assignments,N,covered,same task name in Run 15 map: Inventory Management
+Inventory,Manage Picking Rule Assignments,N,covered,same task name in Run 15 map: Inventory Management
+Inventory,Manage Min-Max Planning Classification Groups,N,covered,same task name in Run 15 map: Inventory Management
+Inventory,Manage Min-Max Planning Policy Profiles,N,covered,same task name in Run 15 map: Inventory Management
+Inventory,Manage Min-Max Planning Policy Profile Assignments,N,covered,same task name in Run 15 map: Inventory Management
+Inventory,Associate Source Organization with Inventory Organization,N,covered,"same task name in Run 15 map: Facilities, Inventory Management"
+Inventory,Associate Customer with Inventory Organization,N,covered,"same task name in Run 15 map: Facilities, Inventory Management"
+Inventory,Manage Inventory Document Output Preferences,N,missed,name not in FSCR effective catalog (custom / renamed / Redwood)
+Costing,Define Cost Accounting,No,missed,name not in FSCR effective catalog (custom / renamed / Redwood)
+Costing,Manage Cost Organizations,Y,covered,same task name in Run 15 map: Cost Accounting
+Costing,Manage Cost Organization Data Access for Users,Y,covered,same task name in Run 15 map: Cost Accounting
+Costing,Manage Cost Books,Y,covered,same task name in Run 15 map: Cost Accounting
+Costing,Manage Cost Organization Relationships,Y,covered,same task name in Run 15 map: Cost Accounting
+Costing,Manage Cost Analysis Groups,N,covered,same task name in Run 15 map: Cost Accounting
+Costing,Define Cost Accounting Policies,Yes,missed,name not in FSCR effective catalog (custom / renamed / Redwood)
+Costing,Manage Valuation Structures,Y,covered,same task name in Run 15 map: Cost Accounting
+Costing,Manage Cost Elements,Y,covered,same task name in Run 15 map: Cost Accounting
+Costing,Manage Cost Component Mappings,Y,covered,same task name in Run 15 map: Cost Accounting
+Costing,Manage Cost Profiles,Y,covered,same task name in Run 15 map: Cost Accounting
+Costing,Define Cost Accounting Book Policies,Yes,missed,name not in FSCR effective catalog (custom / renamed / Redwood)
+Costing,Manage Default Cost Profiles,Y,covered,same task name in Run 15 map: Cost Accounting
+Costing,Manage Item Cost Profiles,N,covered,same task name in Run 15 map: Cost Accounting
+Costing,Manage Valuation Units,Y,covered,same task name in Run 15 map: Cost Accounting
+Costing,Define Overheads Absorption Policies,No,missed,name not in FSCR effective catalog (custom / renamed / Redwood)
+Costing,Manage Overhead Expense Pools,N,covered,same task name in Run 15 map: Cost Accounting
+Costing,Manage Overhead Cost Element Groups,N,covered,same task name in Run 15 map: Cost Accounting
+Manufacturing,Define Common Production Configuration,Y,missed,name not in FSCR effective catalog (custom / renamed / Redwood)
+Manufacturing,Manage Plant Parameters,Y,covered,"same task name in Run 15 map: Maintenance Management, Manufacturing Master Data"
+Manufacturing,Manage Plant Profiles,Y,covered,"same task name in Run 15 map: Facilities, Maintenance Management, Manufacturing Master Data"
+Manufacturing,Manage Production Value Sets,N,covered,same task name in Run 15 map: Manufacturing Master Data
+Manufacturing,Manage Production Lookups,N,covered,same task name in Run 15 map: Manufacturing Master Data
+Manufacturing,Manage Work Areas,Y,missed,name not in FSCR effective catalog (custom / renamed / Redwood)
+Manufacturing,Manage Production Resources,N,missed,name not in FSCR effective catalog (custom / renamed / Redwood)
+Manufacturing,Manage Work Centers,Y,missed,name not in FSCR effective catalog (custom / renamed / Redwood)
+Manufacturing,Define Common Production Configuration,Y,missed,name not in FSCR effective catalog (custom / renamed / Redwood)
+Manufacturing,Manage Production Resource Instances,N,missed,name not in FSCR effective catalog (custom / renamed / Redwood)
+Manufacturing,Manage Manufacturing and Maintenance Work Order Statuses,N,missed,name not in FSCR effective catalog (custom / renamed / Redwood)
+Maintenance,Manage Plant Parameters,Y,covered,"same task name in Run 15 map: Maintenance Management, Manufacturing Master Data"
+Maintenance,Manage Inventory Organization Data Access for Users,Y,covered,"same task name in Run 15 map: Facilities, Maintenance Management, Organization Structures"
+Maintenance,Manage Plant Profiles,Y,covered,"same task name in Run 15 map: Facilities, Maintenance Management, Manufacturing Master Data"
+Maintenance,Manage Maintenance Lookups,Y,covered,same task name in Run 15 map: Maintenance Management
+Maintenance,Manage Maintenance Value Sets,N,covered,same task name in Run 15 map: Maintenance Management
+Maintenance,Manage Maintenance Descriptive Flexfields,N,covered,same task name in Run 15 map: Maintenance Management
+Maintenance,Manage Maintenance Work Areas,Y,covered,same task name in Run 15 map: Maintenance Management
+Maintenance,Manage Maintenance Resources,Y,covered,same task name in Run 15 map: Maintenance Management
+Maintenance,Manage Maintenance Work Centers,Y,covered,same task name in Run 15 map: Maintenance Management
+Maintenance,Download Asset Import Template,N,covered,"same task name in Run 15 map: Maintenance Management, Manufacturing Master Data"
+Maintenance,Upload Asset Data,N,covered,"same task name in Run 15 map: Maintenance Management, Manufacturing Master Data"
+Maintenance,Load Interface File for Asset Import,N,covered,"same task name in Run 15 map: Maintenance Management, Manufacturing Master Data"
+Maintenance,Import Assets,N,covered,"same task name in Run 15 map: Maintenance Management, Manufacturing Master Data"
+Maintenance,Manage Maintenance Resource Instances,N,covered,same task name in Run 15 map: Maintenance Management
+Maintenance,Manage Asset Maintenance Parameters,N,covered,same task name in Run 15 map: Maintenance Management
+Maintenance,Manage Condition Event Codes,N,covered,same task name in Run 15 map: Maintenance Management
+Maintenance,Manage Maintenance Organization Relationships,N,covered,same task name in Run 15 map: Maintenance Management
+Maintenance,Manage Manufacturing and Maintenance Work Order Statuses,N,missed,name not in FSCR effective catalog (custom / renamed / Redwood)
+Maintenance,Manage Asset Group Rules,N,covered,same task name in Run 15 map: Maintenance Management
+Maintenance,Manage Failure Sets,N,covered,same task name in Run 15 map: Maintenance Management
+Maintenance,Manage Asset Tracking Descriptive Flexfields,N,covered,same task name in Run 15 map: Maintenance Management
+PIM,Offering,Description,missed,name not in FSCR effective catalog (custom / renamed / Redwood)
+PIM,Product Management,,missed,name not in FSCR effective catalog (custom / renamed / Redwood)
+PIM,Product Management,,missed,name not in FSCR effective catalog (custom / renamed / Redwood)
+PIM,Product Management,,missed,name not in FSCR effective catalog (custom / renamed / Redwood)

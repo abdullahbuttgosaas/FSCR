@@ -1,0 +1,395 @@
+{
+  "schema_version": "1.0",
+  "tasks": [
+    {
+      "sequence": 1,
+      "task_name": "Manage Payables Calendars",
+      "offering": "Financials",
+      "functional_area": "Payables",
+      "task_code": "AP_MANAGE_PAYABLES_CALENDARS",
+      "skill_path": "pillars/erp/financials/payables/manage-payables-calendars/SKILL.md",
+      "skill_selection": {
+        "status": "selected",
+        "selected_by": "EXACT_TASK_CODE_AND_NAME",
+        "candidates": [
+          "pillars/erp/financials/payables/manage-payables-calendars/SKILL.md"
+        ],
+        "context_relation": "same-context",
+        "project_context": {
+          "offering": "Financials",
+          "functional_area": "Payables"
+        },
+        "skill_context": {
+          "offering": "Financials",
+          "functional_area": "Payables"
+        }
+      },
+      "match_status": "matched",
+      "business_objects": []
+    },
+    {
+      "sequence": 2,
+      "task_name": "Manage Payment Terms",
+      "offering": "Financials",
+      "functional_area": "Payables",
+      "task_code": "AP_MANAGE_PAYMENT_TERMS",
+      "skill_path": "pillars/erp/financials/payables/manage-payment-terms/SKILL.md",
+      "skill_selection": {
+        "status": "selected",
+        "selected_by": "EXACT_TASK_CODE_AND_NAME",
+        "candidates": [
+          "pillars/erp/financials/payables/manage-payment-terms/SKILL.md"
+        ],
+        "context_relation": "same-context",
+        "project_context": {
+          "offering": "Financials",
+          "functional_area": "Payables"
+        },
+        "skill_context": {
+          "offering": "Financials",
+          "functional_area": "Payables"
+        }
+      },
+      "match_status": "matched",
+      "business_objects": []
+    },
+    {
+      "sequence": 3,
+      "task_name": "Manage Bank Charges",
+      "offering": "Financials",
+      "functional_area": "Payables",
+      "task_code": "ORA_AP_MANAGE_BANK_CHARGES",
+      "skill_path": "pillars/erp/financials/payables/manage-bank-charges/SKILL.md",
+      "skill_selection": {
+        "status": "selected",
+        "selected_by": "EXACT_TASK_CODE_AND_NAME",
+        "candidates": [
+          "pillars/erp/financials/payables/manage-bank-charges/SKILL.md"
+        ],
+        "context_relation": "same-context",
+        "project_context": {
+          "offering": "Financials",
+          "functional_area": "Payables"
+        },
+        "skill_context": {
+          "offering": "Financials",
+          "functional_area": "Payables"
+        }
+      },
+      "match_status": "matched",
+      "business_objects": []
+    },
+    {
+      "sequence": 4,
+      "task_name": "Manage Common Options for Payables and Procurement",
+      "offering": "Financials",
+      "functional_area": "Payables",
+      "task_code": "AP_MANAGE_COMMON_OPTIONS_FOR_PAYABLES_AND_PROCUREMENT",
+      "skill_path": "pillars/erp/financials/payables/manage-common-options-for-payables-and-procurement/SKILL.md",
+      "skill_selection": {
+        "status": "selected",
+        "selected_by": "EXACT_TASK_CODE_AND_NAME",
+        "candidates": [
+          "pillars/erp/financials/payables/manage-common-options-for-payables-and-procurement/SKILL.md"
+        ],
+        "context_relation": "same-context",
+        "project_context": {
+          "offering": "Financials",
+          "functional_area": "Payables"
+        },
+        "skill_context": {
+          "offering": "Financials",
+          "functional_area": "Payables"
+        }
+      },
+      "match_status": "matched",
+      "business_objects": []
+    },
+    {
+      "sequence": 5,
+      "task_name": "Manage Invoice Options",
+      "offering": "Financials",
+      "functional_area": "Payables",
+      "task_code": "AP_MANAGE_INVOICE_OPTIONS",
+      "skill_path": "pillars/erp/financials/payables/manage-invoice-options/SKILL.md",
+      "skill_selection": {
+        "status": "selected",
+        "selected_by": "EXACT_TASK_CODE_AND_NAME",
+        "candidates": [
+          "pillars/erp/financials/payables/manage-invoice-options/SKILL.md"
+        ],
+        "context_relation": "same-context",
+        "project_context": {
+          "offering": "Financials",
+          "functional_area": "Payables"
+        },
+        "skill_context": {
+          "offering": "Financials",
+          "functional_area": "Payables"
+        }
+      },
+      "match_status": "matched",
+      "business_objects": []
+    },
+    {
+      "sequence": 6,
+      "task_name": "Manage Payment Options",
+      "offering": "Financials",
+      "functional_area": "Payables",
+      "task_code": "AP_MANAGE_PAYMENT_OPTIONS",
+      "skill_path": "pillars/erp/financials/payables/manage-payment-options/SKILL.md",
+      "skill_selection": {
+        "status": "selected",
+        "selected_by": "EXACT_TASK_CODE_AND_NAME",
+        "candidates": [
+          "pillars/erp/financials/payables/manage-payment-options/SKILL.md"
+        ],
+        "context_relation": "same-context",
+        "project_context": {
+          "offering": "Financials",
+          "functional_area": "Payables"
+        },
+        "skill_context": {
+          "offering": "Financials",
+          "functional_area": "Payables"
+        }
+      },
+      "match_status": "matched",
+      "business_objects": []
+    },
+    {
+      "sequence": 7,
+      "task_name": "Manage Conversion Rates and Policies",
+      "offering": "Financials",
+      "functional_area": "Expenses",
+      "task_code": "EXM_MANAGE_CONVERSION_RATES_AND_POLICIES",
+      "skill_path": "pillars/erp/financials/expenses/manage-conversion-rates-and-policies/SKILL.md",
+      "skill_selection": {
+        "status": "selected",
+        "selected_by": "EXACT_TASK_CODE_AND_NAME",
+        "candidates": [
+          "pillars/erp/financials/expenses/manage-conversion-rates-and-policies/SKILL.md"
+        ],
+        "context_relation": "same-context",
+        "project_context": {
+          "offering": "Financials",
+          "functional_area": "Expenses"
+        },
+        "skill_context": {
+          "offering": "Financials",
+          "functional_area": "Expenses"
+        }
+      },
+      "match_status": "matched",
+      "business_objects": []
+    },
+    {
+      "sequence": 8,
+      "task_name": "Manage AutoInvoice Grouping Rules",
+      "offering": "Financials",
+      "functional_area": "Customer Billing",
+      "task_code": "AR_MANAGE_AUTOINVOICE_GROUPING_RULES",
+      "skill_path": "pillars/erp/financials/customer-billing/manage-autoinvoice-grouping-rules/SKILL.md",
+      "skill_selection": {
+        "status": "selected",
+        "selected_by": "EXACT_TASK_CODE_AND_NAME",
+        "candidates": [
+          "pillars/erp/financials/customer-billing/manage-autoinvoice-grouping-rules/SKILL.md"
+        ],
+        "context_relation": "same-context",
+        "project_context": {
+          "offering": "Financials",
+          "functional_area": "Customer Billing"
+        },
+        "skill_context": {
+          "offering": "Financials",
+          "functional_area": "Customer Billing"
+        }
+      },
+      "match_status": "matched",
+      "business_objects": []
+    },
+    {
+      "sequence": 9,
+      "task_name": "Manage Remit to Addresses",
+      "offering": "Financials",
+      "functional_area": "Customer Billing",
+      "task_code": "AR_MANAGE_REMIT_TO_ADDRESSES",
+      "skill_path": "pillars/erp/financials/customer-billing/manage-remit-to-addresses/SKILL.md",
+      "skill_selection": {
+        "status": "selected",
+        "selected_by": "EXACT_TASK_CODE_AND_NAME",
+        "candidates": [
+          "pillars/erp/financials/customer-billing/manage-remit-to-addresses/SKILL.md"
+        ],
+        "context_relation": "same-context",
+        "project_context": {
+          "offering": "Financials",
+          "functional_area": "Customer Billing"
+        },
+        "skill_context": {
+          "offering": "Financials",
+          "functional_area": "Customer Billing"
+        }
+      },
+      "match_status": "matched",
+      "business_objects": []
+    },
+    {
+      "sequence": 10,
+      "task_name": "Manage Receipt Classes and Methods",
+      "offering": "Financials",
+      "functional_area": "Customer Payments",
+      "task_code": "AR_MANAGE_RECEIPT_CLASSES_AND_METHODS",
+      "skill_path": "pillars/erp/financials/customer-payments/manage-receipt-classes-and-methods/SKILL.md",
+      "skill_selection": {
+        "status": "selected",
+        "selected_by": "EXACT_TASK_CODE_AND_NAME",
+        "candidates": [
+          "pillars/erp/financials/customer-payments/manage-receipt-classes-and-methods/SKILL.md"
+        ],
+        "context_relation": "same-context",
+        "project_context": {
+          "offering": "Financials",
+          "functional_area": "Customer Payments"
+        },
+        "skill_context": {
+          "offering": "Financials",
+          "functional_area": "Customer Payments"
+        }
+      },
+      "match_status": "matched",
+      "business_objects": []
+    },
+    {
+      "sequence": 11,
+      "task_name": "Manage Transaction Types",
+      "offering": "Financials",
+      "functional_area": "Customer Billing",
+      "task_code": "AR_MANAGE_TRANSACTION_TYPES",
+      "skill_path": "pillars/erp/financials/customer-billing/manage-transaction-types/SKILL.md",
+      "skill_selection": {
+        "status": "selected",
+        "selected_by": "EXACT_TASK_CODE_AND_NAME",
+        "candidates": [
+          "pillars/erp/financials/customer-billing/manage-transaction-types/SKILL.md"
+        ],
+        "context_relation": "same-context",
+        "project_context": {
+          "offering": "Financials",
+          "functional_area": "Customer Billing"
+        },
+        "skill_context": {
+          "offering": "Financials",
+          "functional_area": "Customer Billing"
+        }
+      },
+      "match_status": "matched",
+      "business_objects": []
+    },
+    {
+      "sequence": 12,
+      "task_name": "Manage AutoAccounting Rules",
+      "offering": "Financials",
+      "functional_area": "Customer Billing",
+      "task_code": "AR_MANAGE_AUTOACCOUNTING_RULES",
+      "skill_path": "pillars/erp/financials/customer-billing/manage-autoaccounting-rules/SKILL.md",
+      "skill_selection": {
+        "status": "selected",
+        "selected_by": "EXACT_TASK_CODE_AND_NAME",
+        "candidates": [
+          "pillars/erp/financials/customer-billing/manage-autoaccounting-rules/SKILL.md"
+        ],
+        "context_relation": "same-context",
+        "project_context": {
+          "offering": "Financials",
+          "functional_area": "Customer Billing"
+        },
+        "skill_context": {
+          "offering": "Financials",
+          "functional_area": "Customer Billing"
+        }
+      },
+      "match_status": "matched",
+      "business_objects": []
+    },
+    {
+      "sequence": 13,
+      "task_name": "Manage Transaction Sources",
+      "offering": "Financials",
+      "functional_area": "Customer Billing",
+      "task_code": "AR_MANAGE_TRANSACTION_SOURCES",
+      "skill_path": "pillars/erp/financials/customer-billing/manage-transaction-sources/SKILL.md",
+      "skill_selection": {
+        "status": "selected",
+        "selected_by": "EXACT_TASK_CODE_AND_NAME",
+        "candidates": [
+          "pillars/erp/financials/customer-billing/manage-transaction-sources/SKILL.md"
+        ],
+        "context_relation": "same-context",
+        "project_context": {
+          "offering": "Financials",
+          "functional_area": "Customer Billing"
+        },
+        "skill_context": {
+          "offering": "Financials",
+          "functional_area": "Customer Billing"
+        }
+      },
+      "match_status": "matched",
+      "business_objects": []
+    },
+    {
+      "sequence": 14,
+      "task_name": "Manage Receipt Sources",
+      "offering": "Financials",
+      "functional_area": "Customer Payments",
+      "task_code": "AR_MANAGE_RECEIPT_SOURCES",
+      "skill_path": "pillars/erp/financials/customer-payments/manage-receipt-sources/SKILL.md",
+      "skill_selection": {
+        "status": "selected",
+        "selected_by": "EXACT_TASK_CODE_AND_NAME",
+        "candidates": [
+          "pillars/erp/financials/customer-payments/manage-receipt-sources/SKILL.md"
+        ],
+        "context_relation": "same-context",
+        "project_context": {
+          "offering": "Financials",
+          "functional_area": "Customer Payments"
+        },
+        "skill_context": {
+          "offering": "Financials",
+          "functional_area": "Customer Payments"
+        }
+      },
+      "match_status": "matched",
+      "business_objects": []
+    },
+    {
+      "sequence": 15,
+      "task_name": "Manage Receivables System Options",
+      "offering": "Financials",
+      "functional_area": "Receivables",
+      "task_code": "AR_MANAGE_RECEIVABLES_SYSTEM_OPTIONS",
+      "skill_path": "pillars/erp/financials/receivables/manage-receivables-system-options/SKILL.md",
+      "skill_selection": {
+        "status": "selected",
+        "selected_by": "EXACT_TASK_CODE_AND_NAME",
+        "candidates": [
+          "pillars/erp/financials/receivables/manage-receivables-system-options/SKILL.md"
+        ],
+        "context_relation": "same-context",
+        "project_context": {
+          "offering": "Financials",
+          "functional_area": "Receivables"
+        },
+        "skill_context": {
+          "offering": "Financials",
+          "functional_area": "Receivables"
+        }
+      },
+      "match_status": "matched",
+      "business_objects": []
+    }
+  ]
+}

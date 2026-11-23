@@ -1,0 +1,414 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<schema elementFormDefault="qualified" targetNamespace="http://xmlns.oracle.com/apps/cdm/foundation/parties/customerAccountService/applicationModule/types/"
+     xmlns:ns0="http://xmlns.oracle.com/apps/cdm/foundation/parties/customerAccountService/"
+     xmlns:ns1="http://xmlns.oracle.com/adf/svc/types/" xmlns:tns="http://xmlns.oracle.com/apps/cdm/foundation/parties/customerAccountService/applicationModule/types/"
+     xmlns="http://www.w3.org/2001/XMLSchema">
+    <import namespace="http://xmlns.oracle.com/apps/cdm/foundation/parties/customerAccountService/"
+         schemaLocation="https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/crmService/CustomerAccountService?XSD=/oracle/apps/cdm/foundation/parties/customerAccountService/CustomerAccount.xsd"/>
+    <import namespace="http://xmlns.oracle.com/adf/svc/types/" schemaLocation="https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/crmService/CustomerAccountService?XSD=/META-INF/wsdl/BC4JService.xsd"/>
+    <import namespace="http://xmlns.oracle.com/adf/svc/types/" schemaLocation="https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/crmService/CustomerAccountService?XSD=/META-INF/wsdl/BC4JServiceCS.xsd"/>
+    <import namespace="http://xmlns.oracle.com/apps/cdm/foundation/parties/customerAccountService/"
+         schemaLocation="https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/crmService/CustomerAccountService?XSD=/oracle/apps/cdm/foundation/parties/customerAccountService/CustomerAccountSiteUse.xsd"/>
+    <element name="createCustomerAccount">
+        <complexType>
+            <sequence>
+                <element name="customerAccount" type="ns0:CustomerAccount"/>
+            </sequence>
+        </complexType>
+    </element>
+    <element name="createCustomerAccountResponse">
+        <complexType>
+            <sequence>
+                <element name="result" type="ns0:CustomerAccountResult"/>
+            </sequence>
+        </complexType>
+    </element>
+    <element name="updateCustomerAccount">
+        <complexType>
+            <sequence>
+                <element name="customerAccount" type="ns0:CustomerAccount"/>
+            </sequence>
+        </complexType>
+    </element>
+    <element name="updateCustomerAccountResponse">
+        <complexType>
+            <sequence>
+                <element name="result" type="ns0:CustomerAccountResult"/>
+            </sequence>
+        </complexType>
+    </element>
+    <element name="mergeCustomerAccount">
+        <complexType>
+            <sequence>
+                <element name="customerAccount" type="ns0:CustomerAccount"/>
+            </sequence>
+        </complexType>
+    </element>
+    <element name="mergeCustomerAccountResponse">
+        <complexType>
+            <sequence>
+                <element name="result" type="ns0:CustomerAccountResult"/>
+            </sequence>
+        </complexType>
+    </element>
+    <element name="findCustomerAccount">
+        <complexType>
+            <sequence>
+                <element name="findCriteria" type="ns1:FindCriteria"/>
+                <element name="findControl" type="ns1:FindControl"/>
+            </sequence>
+        </complexType>
+    </element>
+    <element name="findCustomerAccountResponse">
+        <complexType>
+            <sequence>
+                <element name="result" type="ns0:CustomerAccountResult"/>
+            </sequence>
+        </complexType>
+    </element>
+    <element name="processCustomerAccount">
+        <complexType>
+            <sequence>
+                <element name="changeOperation" type="string"/>
+                <element maxOccurs="unbounded" minOccurs="0" name="customerAccount" type="ns0:CustomerAccount"/>
+                <element name="processControl" type="ns1:ProcessControl"/>
+            </sequence>
+        </complexType>
+    </element>
+    <element name="processCustomerAccountResponse">
+        <complexType>
+            <sequence>
+                <element name="result" type="ns0:CustomerAccountResult"/>
+            </sequence>
+        </complexType>
+    </element>
+    <element name="getCustomerAccountByOriginalSystemReference">
+        <complexType>
+            <sequence>
+                <element name="findCriteria" type="ns1:FindCriteria"/>
+                <element name="bindOrigSystem" type="string"/>
+                <element name="bindOrigSystemReference" type="string"/>
+                <element name="findControl" type="ns1:FindControl"/>
+            </sequence>
+        </complexType>
+    </element>
+    <element name="getCustomerAccountByOriginalSystemReferenceResponse">
+        <complexType>
+            <sequence>
+                <element name="result" type="ns0:CustomerAccountResult"/>
+            </sequence>
+        </complexType>
+    </element>
+    <element name="getCustomerAccountSiteUseByKey">
+        <complexType>
+            <sequence>
+                <element name="siteUseId" type="long"/>
+            </sequence>
+        </complexType>
+    </element>
+    <element name="getCustomerAccountSiteUseByKeyResponse">
+        <complexType>
+            <sequence>
+                <element name="result" type="ns0:CustomerAccountSiteUse"/>
+            </sequence>
+        </complexType>
+    </element>
+    <element name="deleteCustomerAccount">
+        <complexType>
+            <sequence>
+                <element name="customerAccount" type="ns0:CustomerAccount"/>
+            </sequence>
+        </complexType>
+    </element>
+    <element name="deleteCustomerAccountResponse">
+        <complexType>
+            <sequence>
+                <element name="result" type="ns1:MethodResult"/>
+            </sequence>
+        </complexType>
+    </element>
+    <element name="processCSCustomerAccount">
+        <complexType>
+            <sequence>
+                <element name="processData" type="ns1:ProcessData"/>
+                <element name="processControl" type="ns1:ProcessControl"/>
+            </sequence>
+        </complexType>
+    </element>
+    <element name="processCSCustomerAccountResponse">
+        <complexType>
+            <sequence>
+                <element name="result" type="ns1:ProcessData"/>
+            </sequence>
+        </complexType>
+    </element>
+    <element name="findCustomerAccountSiteUse">
+        <complexType>
+            <sequence>
+                <element name="findCriteria" type="ns1:FindCriteria"/>
+                <element name="findControl" type="ns1:FindControl"/>
+            </sequence>
+        </complexType>
+    </element>
+    <element name="findCustomerAccountSiteUseResponse">
+        <complexType>
+            <sequence>
+                <element maxOccurs="unbounded" minOccurs="0" name="result" type="ns0:CustomerAccountSiteUse"/>
+            </sequence>
+        </complexType>
+    </element>
+    <element name="getCustomerAccountSiteUseByKeyAsync">
+        <complexType>
+            <sequence>
+                <element name="siteUseId" type="long"/>
+            </sequence>
+        </complexType>
+    </element>
+    <element name="getCustomerAccountSiteUseByKeyAsyncResponse">
+        <complexType>
+            <sequence>
+                <element name="result" type="ns0:CustomerAccountSiteUse"/>
+            </sequence>
+        </complexType>
+    </element>
+    <element name="getCustomerAccountByOriginalSystemReferenceAsync">
+        <complexType>
+            <sequence>
+                <element name="findCriteria" type="ns1:FindCriteria"/>
+                <element name="bindOrigSystem" type="string"/>
+                <element name="bindOrigSystemReference" type="string"/>
+                <element name="findControl" type="ns1:FindControl"/>
+            </sequence>
+        </complexType>
+    </element>
+    <element name="getCustomerAccountByOriginalSystemReferenceAsyncResponse">
+        <complexType>
+            <sequence>
+                <element name="result" type="ns0:CustomerAccountResult"/>
+            </sequence>
+        </complexType>
+    </element>
+    <element name="processCSCustomerAccountAsync">
+        <complexType>
+            <sequence>
+                <element name="processData" type="ns1:ProcessData"/>
+                <element name="processControl" type="ns1:ProcessControl"/>
+            </sequence>
+        </complexType>
+    </element>
+    <element name="processCSCustomerAccountAsyncResponse">
+        <complexType>
+            <sequence>
+                <element name="result" type="ns1:ProcessData"/>
+            </sequence>
+        </complexType>
+    </element>
+    <element name="findCustomerAccountSiteUseAsync">
+        <complexType>
+            <sequence>
+                <element name="findCriteria" type="ns1:FindCriteria"/>
+                <element name="findControl" type="ns1:FindControl"/>
+            </sequence>
+        </complexType>
+    </element>
+    <element name="findCustomerAccountSiteUseAsyncResponse">
+        <complexType>
+            <sequence>
+                <element maxOccurs="unbounded" minOccurs="0" name="result" type="ns0:CustomerAccountSiteUse"/>
+            </sequence>
+        </complexType>
+    </element>
+    <element name="deleteCustomerAccountAsync">
+        <complexType>
+            <sequence>
+                <element name="customerAccount" type="ns0:CustomerAccount"/>
+            </sequence>
+        </complexType>
+    </element>
+    <element name="deleteCustomerAccountAsyncResponse">
+        <complexType>
+            <sequence>
+                <element name="result" type="ns1:MethodResult"/>
+            </sequence>
+        </complexType>
+    </element>
+    <element name="findCustomerAccountAsync">
+        <complexType>
+            <sequence>
+                <element name="findCriteria" type="ns1:FindCriteria"/>
+                <element name="findControl" type="ns1:FindControl"/>
+            </sequence>
+        </complexType>
+    </element>
+    <element name="findCustomerAccountAsyncResponse">
+        <complexType>
+            <sequence>
+                <element name="result" type="ns0:CustomerAccountResult"/>
+            </sequence>
+        </complexType>
+    </element>
+    <element name="mergeCustomerAccountAsync">
+        <complexType>
+            <sequence>
+                <element name="customerAccount" type="ns0:CustomerAccount"/>
+            </sequence>
+        </complexType>
+    </element>
+    <element name="mergeCustomerAccountAsyncResponse">
+        <complexType>
+            <sequence>
+                <element name="result" type="ns0:CustomerAccountResult"/>
+            </sequence>
+        </complexType>
+    </element>
+    <element name="updateCustomerAccountAsync">
+        <complexType>
+            <sequence>
+                <element name="customerAccount" type="ns0:CustomerAccount"/>
+            </sequence>
+        </complexType>
+    </element>
+    <element name="updateCustomerAccountAsyncResponse">
+        <complexType>
+            <sequence>
+                <element name="result" type="ns0:CustomerAccountResult"/>
+            </sequence>
+        </complexType>
+    </element>
+    <element name="createCustomerAccountAsync">
+        <complexType>
+            <sequence>
+                <element name="customerAccount" type="ns0:CustomerAccount"/>
+            </sequence>
+        </complexType>
+    </element>
+    <element name="createCustomerAccountAsyncResponse">
+        <complexType>
+            <sequence>
+                <element name="result" type="ns0:CustomerAccountResult"/>
+            </sequence>
+        </complexType>
+    </element>
+    <element name="processCustomerAccountAsync">
+        <complexType>
+            <sequence>
+                <element name="changeOperation" type="string"/>
+                <element maxOccurs="unbounded" minOccurs="0" name="customerAccount" type="ns0:CustomerAccount"/>
+                <element name="processControl" type="ns1:ProcessControl"/>
+            </sequence>
+        </complexType>
+    </element>
+    <element name="processCustomerAccountAsyncResponse">
+        <complexType>
+            <sequence>
+                <element name="result" type="ns0:CustomerAccountResult"/>
+            </sequence>
+        </complexType>
+    </element>
+    <element name="getCustomerAccount">
+        <complexType>
+            <sequence>
+                <element name="customerAccountId" type="long"/>
+            </sequence>
+        </complexType>
+    </element>
+    <element name="getCustomerAccountResponse">
+        <complexType>
+            <sequence>
+                <element name="result" type="ns0:CustomerAccount"/>
+            </sequence>
+        </complexType>
+    </element>
+    <element name="getCustomerAccountAsync">
+        <complexType>
+            <sequence>
+                <element name="customerAccountId" type="long"/>
+            </sequence>
+        </complexType>
+    </element>
+    <element name="getCustomerAccountAsyncResponse">
+        <complexType>
+            <sequence>
+                <element name="result" type="ns0:CustomerAccount"/>
+            </sequence>
+        </complexType>
+    </element>
+    <element name="getDfltObjAttrHints">
+        <complexType>
+            <sequence>
+                <element name="viewName" type="string"/>
+                <element name="localeName" type="string"/>
+            </sequence>
+        </complexType>
+    </element>
+    <element name="getDfltObjAttrHintsResponse">
+        <complexType>
+            <sequence>
+                <element name="result" type="ns1:ObjAttrHints"/>
+            </sequence>
+        </complexType>
+    </element>
+    <element name="getServiceLastUpdateTime">
+        <complexType>
+            <sequence/>
+        </complexType>
+    </element>
+    <element name="getServiceLastUpdateTimeResponse">
+        <complexType>
+            <sequence>
+                <element name="result" type="ns1:dateTime-Timestamp"/>
+            </sequence>
+        </complexType>
+    </element>
+    <element name="getEntityList">
+        <complexType>
+            <sequence/>
+        </complexType>
+    </element>
+    <element name="getEntityListResponse">
+        <complexType>
+            <sequence>
+                <element maxOccurs="unbounded" minOccurs="0" name="result" type="ns1:ServiceViewInfo"/>
+            </sequence>
+        </complexType>
+    </element>
+    <element name="getEntityListAsync">
+        <complexType>
+            <sequence/>
+        </complexType>
+    </element>
+    <element name="getEntityListAsyncResponse">
+        <complexType>
+            <sequence>
+                <element maxOccurs="unbounded" minOccurs="0" name="result" type="ns1:ServiceViewInfo"/>
+            </sequence>
+        </complexType>
+    </element>
+    <element name="getDfltObjAttrHintsAsync">
+        <complexType>
+            <sequence>
+                <element name="viewName" type="string"/>
+                <element name="localeName" type="string"/>
+            </sequence>
+        </complexType>
+    </element>
+    <element name="getDfltObjAttrHintsAsyncResponse">
+        <complexType>
+            <sequence>
+                <element name="result" type="ns1:ObjAttrHints"/>
+            </sequence>
+        </complexType>
+    </element>
+    <element name="getServiceLastUpdateTimeAsync">
+        <complexType>
+            <sequence/>
+        </complexType>
+    </element>
+    <element name="getServiceLastUpdateTimeAsyncResponse">
+        <complexType>
+            <sequence>
+                <element name="result" type="ns1:dateTime-Timestamp"/>
+            </sequence>
+        </complexType>
+    </element>
+</schema>

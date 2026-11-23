@@ -1,0 +1,14 @@
+REST (3):
+
+Lookup types: REST export/import of CSV files.
+Price Lists: REST end to end.
+Order Types: REST, with Playwright export/import as the fallback.
+
+Playwright (2):
+
+Payment Terms: export/import through the screens.
+Customers: form fill. REST can’t create the whole customer.
+
+Mixed (1):
+
+Business Units: creation through an import in the browser, and the two data access rows through REST.

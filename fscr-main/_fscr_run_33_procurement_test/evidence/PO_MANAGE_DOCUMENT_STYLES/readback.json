@@ -1,0 +1,41 @@
+{
+  "items" : [ {
+    "StyleId" : 300000395047095,
+    "StyleName" : "FSCRT_R33 Style",
+    "StyleDescription" : "FSCR Run 33 test document style",
+    "StyleType" : null,
+    "Status" : "Active",
+    "StatusCode" : "ACTIVE",
+    "QuantityPurchaseBasisEnabledFlag" : true,
+    "AmountPurchaseBasisEnabledFlag" : true,
+    "ConsignmentTermsEnabledFlag" : false,
+    "ConfigurationOrderingEnabledFlag" : false,
+    "OutsideProcessingEnabledFlag" : false,
+    "CreditLineTypesEnabledFlag" : true,
+    "LineTypeAllowed" : "All",
+    "LineTypeAllowedCode" : "ALL",
+    "RetainageEnabledFlag" : false,
+    "ProgressPaymentEnabledFlag" : false,
+    "WorkConfirmationEnabledFlag" : false,
+    "PriceBreaksEnabledFlag" : true,
+    "StandardDocumentStyleTypeDisplayName" : "FSCRT_R33 Standard",
+    "BlanketDocumentStyleTypeDisplayName" : "FSCRT_R33 Blanket",
+    "BlanketDocumentStyleTypeEnabledFlag" : true,
+    "ContractDocumentStyleTypeDisplayName" : "FSCRT_R33 Contract",
+    "ContractDocumentStyleTypeEnabledFlag" : true,
+    "LastUpdateDate" : "2026-11-16T20:45:02.314+00:00",
+    "LastUpdatedBy" : "<user>",
+    "CreationDate" : "2026-11-16T20:45:02+00:00",
+    "CreatedBy" : "<user>"
+  } ],
+  "count" : 1,
+  "hasMore" : false,
+  "limit" : 10,
+  "offset" : 0,
+  "links" : [ {
+    "rel" : "self",
+    "href" : "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/purchasingDocumentStyles",
+    "name" : "purchasingDocumentStyles",
+    "kind" : "collection"
+  } ]
+}

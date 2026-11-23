@@ -1,0 +1,25 @@
+{
+ "modules": {
+  "Order Management": {
+   "name": "Order Management",
+   "type": null,
+   "key": null,
+   "id": "EDC7E0B04D5D8CD9E040F00A172014AD",
+   "found": "CLAUDE.md Module list"
+  },
+  "Concepts": {
+   "name": "Concepts",
+   "type": "LBA",
+   "key": "AcdConcepts",
+   "id": "C64FF81360AA6C68E040F00A17206780",
+   "found": "learned from lookup ACD_BUSINESS_UNIT"
+  },
+  "Oracle Middleware Extensions for Applications": {
+   "name": "Oracle Middleware Extensions for Applications",
+   "type": "APPLICATION",
+   "key": "FND",
+   "id": "40B3FA7250D19380E040449823C67A1A",
+   "found": "learned from lookup APPLCORE_SETID_PATTERN"
+  }
+ }
+}

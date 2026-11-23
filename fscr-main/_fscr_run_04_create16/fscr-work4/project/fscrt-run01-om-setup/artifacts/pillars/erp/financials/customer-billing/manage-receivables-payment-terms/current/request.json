@@ -1,0 +1,84 @@
+{
+  "operations": [
+    {
+      "operation_id": "pt1",
+      "action": "create",
+      "header": {
+        "Name": "FSCRT_2P10N30F1",
+        "SetCode": "ENTERPRISE",
+        "Description": "2 percent off if paid in 10 days, otherwise due in 30",
+        "StartDateActive": "2026-11-03",
+        "EndDateActive": "2028-12-31",
+        "CalcDiscountOnLinesFlag": "I"
+      },
+      "lines": [
+        {
+          "SequenceNum": "1",
+          "RelativeAmount": "100",
+          "DueDays": "30"
+        }
+      ],
+      "translations": [
+        {
+          "Language": "US",
+          "SourceLang": "US",
+          "Name": "FSCRT_2P10N30F1",
+          "Description": "2 percent off if paid in 10 days, otherwise due in 30"
+        }
+      ],
+      "discounts": [
+        {
+          "AR_PAYMENT_TERM_LINE.SequenceNum": "1",
+          "SequenceNum": "1",
+          "DiscountPercent": "2",
+          "DiscountDays": "10"
+        }
+      ]
+    },
+    {
+      "operation_id": "pt2",
+      "action": "create",
+      "header": {
+        "Name": "FSCRT_D25B75AF1",
+        "SetCode": "ENTERPRISE",
+        "Description": "25 percent deposit at 15 days, balance at 60 days",
+        "StartDateActive": "2026-11-02",
+        "PrintingLeadDays": "1",
+        "FirstInstallmentCode": "ALLOCATE"
+      },
+      "lines": [
+        {
+          "SequenceNum": "1",
+          "RelativeAmount": "25",
+          "DueDays": "15"
+        },
+        {
+          "SequenceNum": "2",
+          "RelativeAmount": "75",
+          "DueDays": "60"
+        }
+      ],
+      "translations": [
+        {
+          "Language": "US",
+          "SourceLang": "US",
+          "Name": "FSCRT_D25B75AF1",
+          "Description": "25 percent deposit at 15 days, balance at 60 days"
+        }
+      ],
+      "discounts": []
+    }
+  ],
+  "evidence": {
+    "reference_data_sets": [
+      "ENTERPRISE"
+    ],
+    "languages": [
+      "US"
+    ]
+  },
+  "confirmation": {
+    "confirmed": true,
+    "design_sha256": "5ef54bef06a184580c197e76f25a1378a2035ec12d7379858c51732fa90c47c8"
+  }
+}

@@ -1,0 +1,139 @@
+{
+  "archiveMembers": [
+    "AR_PAYMENT_TERM.csv",
+    "AR_PAYMENT_TERM_LINE.csv",
+    "AR_PAYMENT_TERM_TRANSLATION.csv",
+    "AR_PAYMENT_TERM_DISCOUNT.csv",
+    "ASM_SETUP_CSV_METADATA.xml"
+  ],
+  "businessSummary": {
+    "action": "end-date",
+    "allowDiscountOnPartialPayments": "N",
+    "appliedDefaults": {},
+    "baseAmount": "100",
+    "baseAmountMeaning": "Ratio denominator for installment RelativeAmount values; not a transaction currency amount.",
+    "billingCycle": "",
+    "changeSummary": {
+      "addedRows": [],
+      "changedFields": [
+        {
+          "after": "2026-11-02",
+          "before": "2026/11/02",
+          "entity": "AR_PAYMENT_TERM.csv",
+          "field": "StartDateActive",
+          "key": [
+            "FSCRT_D25B75AF1",
+            "ENTERPRISE"
+          ]
+        },
+        {
+          "after": "2028-12-31",
+          "before": "",
+          "entity": "AR_PAYMENT_TERM.csv",
+          "field": "EndDateActive",
+          "key": [
+            "FSCRT_D25B75AF1",
+            "ENTERPRISE"
+          ]
+        }
+      ],
+      "preservedFieldCount": 86,
+      "removedRows": []
+    },
+    "creditCheck": "N",
+    "description": "25 percent deposit at 15 days, balance at 60 days",
+    "discountBasis": {
+      "code": "I",
+      "meaning": "Invoice amount"
+    },
+    "discountBasisDateType": "APPLICATION_DATE",
+    "discounts": [],
+    "endDateActive": "2028-12-31",
+    "flexfields": {},
+    "installmentOption": {
+      "code": "ALLOCATE",
+      "meaning": "Allocate tax and freight across all installments"
+    },
+    "lines": [
+      {
+        "dueMethod": "DueDays",
+        "dueMonthsForward": "",
+        "dueValue": "15",
+        "relativeAmount": "25",
+        "sequence": "1"
+      },
+      {
+        "dueMethod": "DueDays",
+        "dueMonthsForward": "",
+        "dueValue": "60",
+        "relativeAmount": "75",
+        "sequence": "2"
+      }
+    ],
+    "name": "FSCRT_D25B75AF1",
+    "operationId": "c1",
+    "operationIndex": 1,
+    "prepayment": "N",
+    "printingLeadDays": "1",
+    "setCode": "ENTERPRISE",
+    "startDateActive": "2026-11-02",
+    "translations": [
+      {
+        "description": "25 percent deposit at 15 days, balance at 60 days",
+        "language": "US",
+        "name": "FSCRT_D25B75AF1",
+        "sourceLanguage": "US"
+      }
+    ]
+  },
+  "confirmationVerified": true,
+  "designSha256": "06089bee006bb428690759da474fb447178ff0915f402fad2ba6ec27abe4067f",
+  "deterministic": true,
+  "externalCalls": 0,
+  "mode": "offline_prepare",
+  "mutationAuthorized": false,
+  "output": "E:\\GoSaaS\\Configuration Automation v2.1\\fscr-main\\_fscr_run_03_change\\fscr-work3\\project\\fscrt-run01-om-setup\\exports\\financials\\customer-billing\\manage-receivables-payment-terms\\fscrt-pt-c1-enddate-candidate.zip",
+  "repeatedSha256": "b2425e0196ea7e27e97e0173a77b319636a50592a28d99843563f723df189354",
+  "resolution": {
+    "action": "end-date",
+    "appliedDefaults": {},
+    "baselineMatchCount": 1,
+    "name": "FSCRT_D25B75AF1",
+    "operationId": "c1",
+    "operationIndex": 1,
+    "requestedChildRows": {
+      "AR_PAYMENT_TERM_DISCOUNT.csv": 0,
+      "AR_PAYMENT_TERM_LINE.csv": 0,
+      "AR_PAYMENT_TERM_TRANSLATION.csv": 0
+    },
+    "requestedHeaderFields": [
+      "EndDateActive",
+      "Name",
+      "SetCode"
+    ],
+    "setCode": "ENTERPRISE",
+    "setResolution": "supplied_exact"
+  },
+  "rowCounts": {
+    "AR_PAYMENT_TERM.csv": 1,
+    "AR_PAYMENT_TERM_DISCOUNT.csv": 0,
+    "AR_PAYMENT_TERM_LINE.csv": 2,
+    "AR_PAYMENT_TERM_TRANSLATION.csv": 1
+  },
+  "sha256": "b2425e0196ea7e27e97e0173a77b319636a50592a28d99843563f723df189354",
+  "status": "ready",
+  "targetEnvironment": "etia-test",
+  "targetRelease": "11.13.26.10.0",
+  "taskCode": "AR_MANAGE_RECEIVABLES_PAYMENT_TERMS",
+  "taskName": "Manage Receivables Payment Terms",
+  "uploadHandoff": {
+    "approvalState": "Not approved or uploaded by offline preparation.",
+    "fileName": "fscrt-pt-c1-enddate-candidate.zip",
+    "requiredSurface": "Open the exact Manage Receivables Payment Terms setup task and use its Import from CSV File action.",
+    "sha256": "b2425e0196ea7e27e97e0173a77b319636a50592a28d99843563f723df189354",
+    "taskCode": "AR_MANAGE_RECEIVABLES_PAYMENT_TERMS",
+    "taskName": "Manage Receivables Payment Terms",
+    "wrongSurfaceWarning": "Do not upload this task-level ZIP from an offering-level or functional-area-level import page."
+  },
+  "warnings": []
+}

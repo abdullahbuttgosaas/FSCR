@@ -1,0 +1,52 @@
+{
+  "baseUrl": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com",
+  "definedTaskCodes": [
+    "EXM_MANAGE_CONVERSION_RATES_AND_POLICIES"
+  ],
+  "environment": "ETIA-TEST",
+  "headers": {
+    "EXM_EXCHANGE_RATE_OPTION.csv": [
+      "BuName",
+      "DfltExchangeRateFlag",
+      "ErrorTolerance",
+      "WarningTolerance",
+      "DispWarningToUser",
+      "CreationDate",
+      "CreatedBy",
+      "LastUpdateLogin",
+      "LastUpdateDate",
+      "LastUpdatedBy",
+      "UserConversionType"
+    ],
+    "EXM_EXCH_RATE_TOLERANCE.csv": [
+      "EXM_EXCHANGE_RATE_OPTION.BuName",
+      "CurrencyCode",
+      "DfltExchangeRateFlag",
+      "ErrorTolerance",
+      "WarningTolerance",
+      "DispWarningToUser",
+      "CreationDate",
+      "CreatedBy",
+      "LastUpdateLogin",
+      "LastUpdateDate",
+      "LastUpdatedBy"
+    ]
+  },
+  "members": [
+    "EXM_EXCHANGE_RATE_OPTION.csv",
+    "EXM_EXCH_RATE_TOLERANCE.csv",
+    "ASM_SETUP_CSV_METADATA.xml"
+  ],
+  "populatedMembers": [],
+  "processId": "4432181",
+  "release": "11.13.26.10.0",
+  "schemaFingerprint": "fe5c6296a62875b3f7f3bba30a85b9dcf181fb8e153825d36fa0db21364daf04",
+  "selectedTaskCodes": [
+    "EXM_MANAGE_CONVERSION_RATES_AND_POLICIES"
+  ],
+  "status": "COMPLETED",
+  "taskCode": "EXM_MANAGE_CONVERSION_RATES_AND_POLICIES",
+  "taskName": "Manage Conversion Rates and Policies",
+  "templateOnly": true,
+  "unrelatedPopulatedMembers": []
+}

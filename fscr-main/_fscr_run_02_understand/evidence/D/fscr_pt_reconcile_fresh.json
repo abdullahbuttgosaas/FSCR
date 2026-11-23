@@ -1,0 +1,70 @@
+{
+  "additionalSystemTranslationLanguages": [],
+  "candidateRowCounts": {
+    "AR_PAYMENT_TERM.csv": 2,
+    "AR_PAYMENT_TERM_DISCOUNT.csv": 1,
+    "AR_PAYMENT_TERM_LINE.csv": 3,
+    "AR_PAYMENT_TERM_TRANSLATION.csv": 2
+  },
+  "candidateSha256": "e4a344096aeac1f32d599d5142a9d7d1f42899c4c07fe2df2295c0239d41d1cc",
+  "errors": [],
+  "externalCalls": 0,
+  "freshExportSha256": "0c67852482c8fbec2a0b0cc56f1d18f8c544f2a047a4a93fe44800cc32278cd0",
+  "mismatches": [],
+  "mode": "offline_persisted_state_reconciliation",
+  "mutationAuthorized": false,
+  "name": "",
+  "operationCount": 2,
+  "persistedRowCounts": {
+    "AR_PAYMENT_TERM.csv": 2,
+    "AR_PAYMENT_TERM_DISCOUNT.csv": 1,
+    "AR_PAYMENT_TERM_LINE.csv": 3,
+    "AR_PAYMENT_TERM_TRANSLATION.csv": 2
+  },
+  "setCode": "",
+  "status": "verified",
+  "targetEnvironment": "etia-test",
+  "targetRelease": "11.13.26.10.0",
+  "taskCode": "AR_MANAGE_RECEIVABLES_PAYMENT_TERMS",
+  "taskName": "Manage Receivables Payment Terms",
+  "terms": [
+    {
+      "additionalSystemTranslationLanguages": [],
+      "candidateRowCounts": {
+        "AR_PAYMENT_TERM.csv": 1,
+        "AR_PAYMENT_TERM_DISCOUNT.csv": 1,
+        "AR_PAYMENT_TERM_LINE.csv": 1,
+        "AR_PAYMENT_TERM_TRANSLATION.csv": 1
+      },
+      "mismatches": [],
+      "name": "FSCRT_2P10N30F1",
+      "persistedRowCounts": {
+        "AR_PAYMENT_TERM.csv": 1,
+        "AR_PAYMENT_TERM_DISCOUNT.csv": 1,
+        "AR_PAYMENT_TERM_LINE.csv": 1,
+        "AR_PAYMENT_TERM_TRANSLATION.csv": 1
+      },
+      "setCode": "ENTERPRISE",
+      "verified": true
+    },
+    {
+      "additionalSystemTranslationLanguages": [],
+      "candidateRowCounts": {
+        "AR_PAYMENT_TERM.csv": 1,
+        "AR_PAYMENT_TERM_DISCOUNT.csv": 0,
+        "AR_PAYMENT_TERM_LINE.csv": 2,
+        "AR_PAYMENT_TERM_TRANSLATION.csv": 1
+      },
+      "mismatches": [],
+      "name": "FSCRT_D25B75AF1",
+      "persistedRowCounts": {
+        "AR_PAYMENT_TERM.csv": 1,
+        "AR_PAYMENT_TERM_DISCOUNT.csv": 0,
+        "AR_PAYMENT_TERM_LINE.csv": 2,
+        "AR_PAYMENT_TERM_TRANSLATION.csv": 1
+      },
+      "setCode": "ENTERPRISE",
+      "verified": true
+    }
+  ]
+}

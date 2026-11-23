@@ -1,0 +1,54 @@
+{
+ "old": "fscr-work8/project/draft_impl_project_20261104/exports/baseline/FUN_MANAGE_BUSINESS_UNIT/ETIA-TEST_setup_task_csv_export_fun_manage_business_unit_100004733459390.zip",
+ "new": "fscr-work8/project/draft_impl_project_20261104/exports/extra/FUN_MANAGE_BUSINESS_UNIT/ETIA-TEST_setup_task_csv_export_fun_manage_business_unit_100004733458362.zip",
+ "files": {
+  "FUN_BUSINESS_UNIT.csv": {
+   "rows_old": 184,
+   "rows_new": 184,
+   "key_columns": [
+    "Name",
+    "PrimaryLedgerName",
+    "LegalEntityName",
+    "ManagerListName",
+    "FirstName",
+    "LastName"
+   ],
+   "added": [],
+   "removed": [],
+   "changed": []
+  },
+  "FUN_BU_SERVICE_PROVIDERS.csv": {
+   "rows_old": 267,
+   "rows_new": 267,
+   "key_columns": [
+    "ClientBuName",
+    "ProviderBuName"
+   ],
+   "added": [],
+   "removed": [],
+   "changed": []
+  },
+  "FUN_BU_USAGE.csv": {
+   "rows_old": 1075,
+   "rows_new": 1075,
+   "key_columns": [
+    "FUN_BUSINESS_UNIT.Name"
+   ],
+   "added": [],
+   "removed": [],
+   "changed": []
+  },
+  "LE_1214416713655.csv": {
+   "rows_old": 8431,
+   "rows_new": 8431,
+   "key_columns": [
+    "Name",
+    "SetCode",
+    "ReferenceGroupName"
+   ],
+   "added": [],
+   "removed": [],
+   "changed": []
+  }
+ }
+}

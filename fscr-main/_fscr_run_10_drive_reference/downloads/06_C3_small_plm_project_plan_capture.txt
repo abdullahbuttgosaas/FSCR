@@ -1,0 +1,20 @@
+READ-ONLY CAPTURE (not the original file). Masked: C3 = small PLM customer.
+Original: Customers / AMVAC - PLM / 10 Project Management / "AMVAC Project Plan" (Google Sheet 18v6XCiWmXmw77FzR8kYoVxC_QUyn2RWIHAPgs07ULXs, mod 2022-12-14). 1 sheet, 56 rows, ~55 tasks, WBS depth 2.
+Columns: Project | Task ID | WBS | Resource Names | Task Name | Duration | Start | Finish | Status | Predecessors | Successors | % Complete | Resource Group (SME / Techno-Functional / Client / Milestone) | Deadline | Start Slack | Task Mode (Auto/Manually Scheduled)
+Milestones are 0-day tasks with yellow fill (#fff200), resource "Milestone".
+
+1  Kickoff, PM and General Items | 5d | 3/21/22-3/25/22 (governance, planning alignment, onboarding, confirm data volumes) -> MILESTONE KICKOFF COMPLETE 3/22
+2  Infrastructure | 23d | 3/30-4/29 : 2.1 Provision PLM DEV, TEST, PROD (18d) ; 2.2 Confirm Instance Plan (5d, 4/25-4/29)
+3  ARM Database Hosting | 15d | 4/11-4/29 : Establish AWS service ; provision ARM database ; access
+4  Design Workshop Preparation | 1d | 3/23
+5  Pre-Implementation Training | 3d | 3/23-3/25 (PLM Training)
+6  PLM Design Workshops | 2d | 3/17-3/18 (demo existing database)
+7  Design Deliverables | 38d | 5/27-7/19 : configuration working sessions (PD) 36d ; "ARM interface in ORACLE" 15d ; data mapping design doc ; MILESTONE DESIGN COMPLETE 7/19
+8  Configuration | 8d | 7/12-7/21 -> MILESTONE CONFIGURATION COMPLETE
+9  CRP Preparation | 10d | 7/22-8/4 : data preload validation ; data load -> MILESTONE CRP PREPARATION COMPLETE 8/4
+10 Conference Room Pilot Phase (CRP) | 6d | 9/28-10/5 (predecessors 7,16,18,20,25,28) -> MILESTONE CRP COMPLETE
+11 User Acceptance Testing Phase (UAT) | 8d | 10/6-10/17 -> MILESTONE UAT COMPLETE
+12 User Training | 10d | 10/12-10/25
+13 GoLive Phase | 11d | 12/5-12/19/22 (63% at capture) -> MILESTONE GOLIVE COMPLETE 12/19/22
+14 Post GoLive Phase
+Span: 3/17/2022 -> 12/19/2022 (about 40 weeks calendar); one CRP round, one UAT, go-live.

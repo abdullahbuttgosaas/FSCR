@@ -1,0 +1,33 @@
+{
+ "tasks": 144,
+ "not_in_financials_offering": 21,
+ "fscr_tasks_with_any_prereq": 27,
+ "fscr_prereq_links": 53,
+ "graph_links": 3,
+ "oracle_edges": 40,
+ "edges_order_ok": 37,
+ "edges_stated_by_fscr": 9,
+ "tasks_in_oracle_rules": 45,
+ "tasks_in_rules_order_ok": 39,
+ "tasks_order_ok_all": 138,
+ "violations": [
+  [
+   "GL_MANAGE_CROSS-VALIDATION_RULES",
+   52,
+   "GL_MANAGE_ACCOUNT_COMBINATIONS",
+   49
+  ],
+  [
+   "GL_MANAGE_CHART_OF_ACCOUNTS_VALUE_SET_VALUES",
+   45,
+   "XLE_MANAGE_ASSOCIATED_BALANCING_SEGMENTS",
+   39
+  ],
+  [
+   "ASXS_MANAGE_DUTIES",
+   97,
+   "ASXS_MANAGE_JOB_ROLES",
+   96
+  ]
+ ]
+}

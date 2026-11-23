@@ -1,0 +1,91 @@
+<MigrationProcessCSVMetadataVO>
+   <MigrationProcessCSVMetadataVORow>
+      <ProcessId>-999</ProcessId>
+      <ProcessName>Manage Upstream and Fulfillment Source Systems_20261109_122910_663</ProcessName>
+      <ProcessDescription>Manage Upstream and Fulfillment Source Systems_20261109_122910_663</ProcessDescription>
+      <ProcessDate>2026-11-09 12:29:34.834</ProcessDate>
+      <ObjectShortName>DOO_ORCHESTRATION_MANAGE_SOURCE_SYSTEMS</ObjectShortName>
+      <ObjectType>TASK</ObjectType>
+      <CreatedByFlow>TASK_CSV_SERVICE</CreatedByFlow>
+      <ProcessType>EXPORT</ProcessType>
+      <ProcessStatus>COMPLETED</ProcessStatus>
+      <ProcessEnv>etia-test</ProcessEnv>
+      <ProcessStartDate>2026-11-09 12:29:10.208</ProcessStartDate>
+      <ProcessEndDate>2026-11-09 12:29:34.834</ProcessEndDate>
+      <ProcessRelease>11.13.26.10.0</ProcessRelease>
+      <SubmittedBy>Configuration.TEST</SubmittedBy>
+      <ESSRequestId>4447497</ESSRequestId>
+      <MigrationProcessBusinessObjectCSVMetadata1>
+         <MigrationProcessBusinessObjectCSVMetadataVORow>
+            <ProcessId>-999</ProcessId>
+            <BusinessObjectShortName>ORA_MSC_APPS_INSTANCE</BusinessObjectShortName>
+            <BatchName null="true"/>
+            <XmlAttributeList>A2mDblink,ActivationDate,AllowAtpFlag,AllowReleaseFlag,AppsLrn,AppsVer,AssignmentSetId,Attribute1,Attribute10,Attribute11,Attribute12,Attribute13,Attribute14,Attribute15,Attribute2,Attribute3,Attribute4,Attribute5,Attribute6,Attribute7,Attribute8,Attribute9,AttributeCategory,CachedEntries,CalDatesGenerationFlag,CentralizedFlag,CleansedFlag,CollCustRegFromCustHub,CollFflFromOoEnabled,CollItemsFromProdHub,CollectionsStartTime,CompanyId,Currency,CustDataHubEnabled,DbConnections,DbsVer,Description,EnableFlag,Frequency,InstanceCode,InstanceName,InstanceType,LastTgtContCollTime,LbjDetails,Lcid,LrSourcingFlag,Lrid,Lrtype,M2aDblink,NetResAvailCalcFlag,OrderOrchType,ParallelWorkers,PjmEnabled,PlanningEnabled,ProcessBatchSize,ProdDataHubEnabled,ProdTcaEnabled,PublishWebService,RefreshNumber,ReleaseToScoEnabled,ResourceMassUom,ResourceVolumeUom,SoLrtype,SoTblStatus,SourceTimeZone,StStatus,SubscribeWebService,SummaryFlag,SummaryRefreshNumber,SuppliesLoadFlag,ValidationOrgId,XrefEnabled</XmlAttributeList>
+            <XmlAttributeTypeList>string,date,long,long,long,int,long,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,int,int,int,int,string,int,long,date,long,string,int,int,int,string,int,int,string,string,int,date,long,long,long,long,string,string,int,int,int,string,int,int,int,int,string,long,int,string,string,string,long,string,int,string,long,long,long,long,int</XmlAttributeTypeList>
+            <XmlNodePath>/AppsInstanceVO/AppsInstanceVORow</XmlNodePath>
+            <NodeSequence>2</NodeSequence>
+         </MigrationProcessBusinessObjectCSVMetadataVORow>
+         <MigrationProcessBusinessObjectCSVMetadataVORow>
+            <ProcessId>-999</ProcessId>
+            <BusinessObjectShortName>ORA_MSC_APPS_DEST_INSTANCE</BusinessObjectShortName>
+            <BatchName null="true"/>
+            <XmlAttributeList>ActivationDate,CachedEntries,DbConnections,Description,InstanceCode,InstanceName,OrderOrchEnabled,ParallelWorkers,RetryInterval,ShortInstanceId,SubscribeWebService,TimeZone</XmlAttributeList>
+            <XmlAttributeTypeList>date,long,long,string,string,string,int,long,long,long,string,string</XmlAttributeTypeList>
+            <XmlNodePath>/AppsDestInstanceVO/AppsDestInstanceVORow</XmlNodePath>
+            <NodeSequence>1</NodeSequence>
+         </MigrationProcessBusinessObjectCSVMetadataVORow>
+         <MigrationProcessBusinessObjectCSVMetadataVORow>
+            <ProcessId>-999</ProcessId>
+            <BusinessObjectShortName>ORA_MSC_FLEX_FIELD_MAPPING</BusinessObjectShortName>
+            <BatchName null="true"/>
+            <XmlAttributeList>DestColumnName,DestTableName,EntityName,SrColumnName,SrTableName</XmlAttributeList>
+            <XmlAttributeTypeList>string,string,string,string,string</XmlAttributeTypeList>
+            <XmlNodePath>/AppsInstanceVO/AppsInstanceVORow/FlexFieldMapping/FlexFieldMappingVORow</XmlNodePath>
+            <NodeSequence>4</NodeSequence>
+         </MigrationProcessBusinessObjectCSVMetadataVORow>
+         <MigrationProcessBusinessObjectCSVMetadataVORow>
+            <ProcessId>-999</ProcessId>
+            <BusinessObjectShortName>ORA_MSC_INSTANCE_ORG</BusinessObjectShortName>
+            <BatchName null="true"/>
+            <XmlAttributeList>Attribute1,Attribute10,Attribute11,Attribute12,Attribute13,Attribute14,Attribute15,Attribute2,Attribute3,Attribute4,Attribute5,Attribute6,Attribute7,Attribute8,Attribute9,AttributeCategory,BomLrn,BorLrn,CalendarLrn,Description,DpEnabledFlag,DropShipValOrgFlag,EnableAtpWs,EnabledFlag,EroLrn,ForecastLrn,FulfillmentInstanceFlag,InventoryFlag,IroLrn,ItemLrn,LastSuccAslRefTime,LastSuccIroRefTime,LastSuccItemRefTime,LastSuccResRefTime,MdsLrn,MpsLrn,NraLrn,OhLrn,OrgGroup,OrgLrn,OrganizationCode,OrganizationType,PoLrn,ReservationsLrn,SafStockLrn,SoLrn,SrOrganizationCode,SrOrganizationId,SupplierCapacityLrn,TripLrn,UnitNoLrn,UomLrn,UserSupplyDemandLrn,WipLrn</XmlAttributeList>
+            <XmlAttributeTypeList>string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,long,long,long,string,int,int,int,int,long,long,int,string,long,long,dateTime,dateTime,dateTime,dateTime,long,long,long,long,string,long,string,long,long,long,long,long,string,long,long,long,long,long,long,long</XmlAttributeTypeList>
+            <XmlNodePath>/AppsInstanceVO/AppsInstanceVORow/InstanceOrg/InstanceOrgVORow</XmlNodePath>
+            <NodeSequence>3</NodeSequence>
+         </MigrationProcessBusinessObjectCSVMetadataVORow>
+      </MigrationProcessBusinessObjectCSVMetadata1>
+      <MigrationProcessBatchCSVMetadata null="true"/>
+      <MigrationProcessScopeValueCSVMetadata null="true"/>
+      <MigrationProcessMigrationObjectCSVMetadata>
+         <MigrationProcessMigrationObjectCSVMetadataVORow>
+            <ProcessId>-999</ProcessId>
+            <BusinessObjectShortName>ORA_MSC_APPS_DEST_INSTANCE</BusinessObjectShortName>
+            <MigrateFlag>Y</MigrateFlag>
+            <IncludeExternalDataFlag>Y</IncludeExternalDataFlag>
+            <ServiceType null="true"/>
+         </MigrationProcessMigrationObjectCSVMetadataVORow>
+         <MigrationProcessMigrationObjectCSVMetadataVORow>
+            <ProcessId>-999</ProcessId>
+            <BusinessObjectShortName>ORA_MSC_APPS_INSTANCE</BusinessObjectShortName>
+            <MigrateFlag>Y</MigrateFlag>
+            <IncludeExternalDataFlag>Y</IncludeExternalDataFlag>
+            <ServiceType null="true"/>
+         </MigrationProcessMigrationObjectCSVMetadataVORow>
+         <MigrationProcessMigrationObjectCSVMetadataVORow>
+            <ProcessId>-999</ProcessId>
+            <BusinessObjectShortName>ORA_MSC_FLEX_FIELD_MAPPING</BusinessObjectShortName>
+            <MigrateFlag>Y</MigrateFlag>
+            <IncludeExternalDataFlag>Y</IncludeExternalDataFlag>
+            <ServiceType null="true"/>
+         </MigrationProcessMigrationObjectCSVMetadataVORow>
+         <MigrationProcessMigrationObjectCSVMetadataVORow>
+            <ProcessId>-999</ProcessId>
+            <BusinessObjectShortName>ORA_MSC_INSTANCE_ORG</BusinessObjectShortName>
+            <MigrateFlag>Y</MigrateFlag>
+            <IncludeExternalDataFlag>Y</IncludeExternalDataFlag>
+            <ServiceType null="true"/>
+         </MigrationProcessMigrationObjectCSVMetadataVORow>
+      </MigrationProcessMigrationObjectCSVMetadata>
+      <MigrationProcessTaskCSVMetadata null="true"/>
+      <MigrationProcessServiceVersionCSVMetadata null="true"/>
+   </MigrationProcessCSVMetadataVORow>
+</MigrationProcessCSVMetadataVO>

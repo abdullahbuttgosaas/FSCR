@@ -1,0 +1,43 @@
+<MigrationProcessCSVMetadataVO>
+<!-- STAND-IN, not from Oracle: built 2026-11-01 from FSCR e2e-adapter.json package.entities for offline tests only. -->
+   <MigrationProcessCSVMetadataVORow>
+      <ProcessId>-999</ProcessId>
+      <ProcessName>STAND-IN Manage AutoInvoice Grouping Rules</ProcessName>
+      <ObjectShortName>AR_MANAGE_AUTOINVOICE_GROUPING_RULES</ObjectShortName>
+      <ObjectType>TASK</ObjectType>
+      <CreatedByFlow>TASK_CSV_SERVICE</CreatedByFlow>
+      <ProcessType>EXPORT</ProcessType>
+      <ProcessStatus>COMPLETED</ProcessStatus>
+      <ProcessEnv>etia-test</ProcessEnv>
+      <ProcessRelease>11.13.26.10.0</ProcessRelease>
+      <MigrationProcessBusinessObjectCSVMetadata1>
+         <MigrationProcessBusinessObjectCSVMetadataVORow>
+            <ProcessId>-999</ProcessId>
+            <BusinessObjectShortName>AR_AI_GROUPING_RULE</BusinessObjectShortName>
+            <BatchName>TransactionRequestGroupingRule</BatchName>
+            <XmlAttributeList>Name,StartDate,LastUpdatedBy,CreatedBy,Description,EndDate,AttributeCategory,Attribute1,Attribute2,Attribute3,Attribute4,Attribute5,Attribute6,Attribute7,Attribute8,Attribute9,Attribute10,Attribute11,Attribute12,Attribute13,Attribute14,Attribute15,LineOrderingRuleName,ConsBillingUseFlag</XmlAttributeList>
+            <XmlAttributeTypeList>string,date,string,string,string,date,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string</XmlAttributeTypeList>
+            <XmlNodePath>/TransactionRequestGroupingRuleVO/TransactionRequestGroupingRuleVORow</XmlNodePath>
+            <NodeSequence>1</NodeSequence>
+         </MigrationProcessBusinessObjectCSVMetadataVORow>
+         <MigrationProcessBusinessObjectCSVMetadataVORow>
+            <ProcessId>-999</ProcessId>
+            <BusinessObjectShortName>ORA_AR_AI_GRP_TXN_TYPE</BusinessObjectShortName>
+            <BatchName>TransactionRequestGroupingRule</BatchName>
+            <XmlAttributeList>Class11,Attribute1,Attribute10,Attribute11,Attribute12,Attribute13,Attribute14,Attribute15,Attribute2,Attribute3,Attribute4,Attribute5,Attribute6,Attribute7,Attribute8,Attribute9,AttributeCategory,CreatedBy,LastUpdatedBy</XmlAttributeList>
+            <XmlAttributeTypeList>string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string</XmlAttributeTypeList>
+            <XmlNodePath>/TransactionRequestGroupingRuleVO/TransactionRequestGroupingRuleVORow/TransactionRequestGroupingTransactionType/TransactionRequestGroupingTransactionTypeVORow</XmlNodePath>
+            <NodeSequence>2</NodeSequence>
+         </MigrationProcessBusinessObjectCSVMetadataVORow>
+         <MigrationProcessBusinessObjectCSVMetadataVORow>
+            <ProcessId>-999</ProcessId>
+            <BusinessObjectShortName>ORA_AR_AI_GRP_TXN_REQUEST</BusinessObjectShortName>
+            <BatchName>TransactionRequestGroupingRule</BatchName>
+            <XmlAttributeList>FromColumnName,Attribute1,Attribute10,Attribute11,Attribute12,Attribute13,Attribute14,Attribute15,Attribute2,Attribute3,Attribute4,Attribute5,Attribute6,Attribute7,Attribute8,Attribute9,AttributeCategory,CreatedBy,LastUpdatedBy</XmlAttributeList>
+            <XmlAttributeTypeList>string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string</XmlAttributeTypeList>
+            <XmlNodePath>/TransactionRequestGroupingRuleVO/TransactionRequestGroupingRuleVORow/TransactionRequestGroupingTransactionType/TransactionRequestGroupingTransactionTypeVORow/TransactionRequestGroupBy/TransactionRequestGroupByVORow</XmlNodePath>
+            <NodeSequence>3</NodeSequence>
+         </MigrationProcessBusinessObjectCSVMetadataVORow>
+      </MigrationProcessBusinessObjectCSVMetadata1>
+   </MigrationProcessCSVMetadataVORow>
+</MigrationProcessCSVMetadataVO>

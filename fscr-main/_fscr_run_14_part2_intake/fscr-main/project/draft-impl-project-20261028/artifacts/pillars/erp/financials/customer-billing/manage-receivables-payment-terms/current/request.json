@@ -1,0 +1,36 @@
+{
+  "action": "create",
+  "header": {
+    "Name": "ZZFSCR N45 4203",
+    "SetCode": "COMMON",
+    "Description": "ZZ FSCR Test Net 45 4203",
+    "StartDateActive": "2026-10-28",
+    "PrintingLeadDays": "1",
+    "FirstInstallmentCode": "INCLUDE"
+  },
+  "lines": [
+    {
+      "SequenceNum": "1",
+      "RelativeAmount": "50",
+      "DueDays": "30"
+    },
+    {
+      "SequenceNum": "2",
+      "RelativeAmount": "50",
+      "DueDays": "45"
+    }
+  ],
+  "translations": [
+    {
+      "Language": "US",
+      "SourceLang": "US",
+      "Name": "ZZFSCR N45 4203",
+      "Description": "ZZ FSCR Test Net 45 4203"
+    }
+  ],
+  "discounts": [],
+  "confirmation": {
+    "confirmed": true,
+    "design_sha256": "1ccd2ec10a29c3a21114362179e6af9d69099aaeca0ee4f8d0e2807aabb8a42b"
+  }
+}

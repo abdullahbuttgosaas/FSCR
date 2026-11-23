@@ -1,0 +1,56 @@
+{
+ "items": [
+  {
+   "LookupCode": "FSCRT_EXPRESS",
+   "Meaning": "FSCRT_Express",
+   "Description": "FSCRT demo lookup code 1",
+   "EnabledFlag": "Y",
+   "StartDateActive": null,
+   "EndDateActive": null,
+   "DisplaySequence": "1",
+   "Tag": null,
+   "CreatedBy": "Configuration.TEST",
+   "CreationDate": "2026-11-04T16:47:41+00:00",
+   "LastUpdateDate": "2026-11-04T16:47:41.058+00:00",
+   "LastUpdateLogin": "5F76A89DC84800F1E0631C65310A07B7",
+   "LastUpdatedBy": "Configuration.TEST",
+   "@context": {
+    "key": "FSCRT_EXPRESS",
+    "links": [
+     {
+      "rel": "self",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/FSCRT_DEMO_ROUTE_TIER_F11/child/lookupCodes/FSCRT_EXPRESS",
+      "name": "lookupCodes",
+      "kind": "item"
+     },
+     {
+      "rel": "canonical",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/FSCRT_DEMO_ROUTE_TIER_F11/child/lookupCodes/FSCRT_EXPRESS",
+      "name": "lookupCodes",
+      "kind": "item"
+     },
+     {
+      "rel": "parent",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/FSCRT_DEMO_ROUTE_TIER_F11",
+      "name": "standardLookups",
+      "kind": "item"
+     },
+     {
+      "rel": "child",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/FSCRT_DEMO_ROUTE_TIER_F11/child/lookupCodes/FSCRT_EXPRESS/child/lookupsDFF",
+      "name": "lookupsDFF",
+      "kind": "collection"
+     },
+     {
+      "rel": "child",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/FSCRT_DEMO_ROUTE_TIER_F11/child/lookupCodes/FSCRT_EXPRESS/child/translations",
+      "name": "translations",
+      "kind": "collection"
+     }
+    ]
+   }
+  }
+ ],
+ "count": 1,
+ "pages": 1
+}

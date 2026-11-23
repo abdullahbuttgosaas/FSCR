@@ -1,0 +1,36 @@
+{
+  "schemaVersion": "1.0",
+  "preflight": {
+    "eligible": [
+      {
+        "sourceName": "JobFamily.dat",
+        "businessObject": "JobFamily"
+      }
+    ],
+    "sourcePaths": [
+      "E:\\GoSaaS\\Configuration Automation v2.1\\fscr-main\\_fscr_run_30_common_features_test\\payload\\PER_MANAGE_JOB_FAMILY\\JobFamily.dat"
+    ],
+    "archiveName": "JobFamily_2026-11-16_20-41-23.zip",
+    "archiveSha256": "448f36167c8489211d8bb79018ed0d3841c043e2fec2d32e3baa42fab3384f05",
+    "uploadFileName": "JobFamily_2026-11-16_20-41-23.zip",
+    "environment": "ETIA-TEST",
+    "host": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com",
+    "runID": null,
+    "taskRouted": true,
+    "supportsRunBookTaskCode": false,
+    "columnMappings": [],
+    "mappingComplete": true,
+    "sourceType": null,
+    "cxImportObjectCode": null,
+    "cxUcmAccount": null,
+    "cxImportHighVolumeLoad": false,
+    "fbdiBusinessObject": null,
+    "fbdiUcmAccount": null,
+    "fbdiFiles": [],
+    "fbdiLoadAdapterInterfaceId": null,
+    "cxFiles": [],
+    "approvedArtifactPath": "E:\\GoSaaS\\Configuration Automation v2.1\\fscr-main\\_fscr_run_30_common_features_test\\payload\\PER_MANAGE_JOB_FAMILY\\JobFamily_2026-11-16_20-41-23.zip",
+    "archivePath": "E:\\GoSaaS\\Configuration Automation v2.1\\fscr-main\\_fscr_run_30_common_features_test\\payload\\PER_MANAGE_JOB_FAMILY\\JobFamily_2026-11-16_20-41-23.zip"
+  },
+  "fingerprint": "a88a2b5fd23c14d0e128e5d957222ff723fa821090d9e82c9d4f9e82c6433d47"
+}

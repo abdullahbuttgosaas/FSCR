@@ -1,0 +1,35 @@
+{
+ "made": "2026-10-25T04:49:20",
+ "sheet": {
+  "source": "E:\\GoSaaS\\positive cases\\Best Start.xlsx",
+  "sha256": "ec1368b2906cb957c044ac045ab5808b76665b68e9a745516e61325a3d10fa7d"
+ },
+ "files": {
+  "page/look.py": "2c7e328191adb3e365ef2e30cf189b068aefbad33f84fd456c6ed0aa9d63ee4c",
+  "page/oracle_today.py": "1f52211ea7c487e027828b3b3f08daa59a0f221b6e441c4b160e2b04610c672c",
+  "page/regression_customers.py": "f1a42ad7acb71eccd211723f3ee5866f9885b12895c36a6aff7631b6f5627a6d",
+  "page/run_summary.py": "a6e1d4c62c226ed7575ddfbc9fe0566b1cc0f3ed19094d1367b4c3fc1d81ff23",
+  "page/server.py": "74a414b7ab6c889b0bbda4bb70ce32843a0cd7e1261643de5b5a6738ab8e4e39",
+  "page/setup_check.py": "03e262b54ff9811626a00e2993e77d44a3ad5a04d4d1b14e9a6022d032db5433",
+  "page/sheet_definition.json": "3084b792b972a450bca8f6ab4d48513af8708e52376329f6e9d4826bc019e033",
+  "page/sheet_registry.json": "1cbb798dc98c38d6f157ed9c138ff6cae16183827e8244ae41e85ecfeb4e4c14",
+  "page/static/app.js": "523b1de5107115da38b0c4fe7b110719a0095a2a7783323b63de5531578e7b25",
+  "page/static/index.html": "14a100591e70083159992a2156c006fd05ae08cd7551b921093a17cb87be4020",
+  "page/static/style.css": "fc0a9a41a75c221db9ff5b0ffe156364682629b33d747d8e04ee53cb8c9569ce",
+  "page/workbook.py": "b21840186781e761169a4a27509bd2bd42bce6b81651dd09d0475c9c0e84ef63",
+  "common/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "common/browser.py": "7f8aded7093f1aadea68be6ce69839a9587cac765378d1ac0da4b52666750298",
+  "common/check_setup.py": "6cf16fb2031b0ebeb0a7ea1f17cc7e2f74a9da8c0f7fcdbb18ccb9290a944c51",
+  "common/claude_tool.py": "b84b792fcbbb78aa02c1d78302ad4750d3771e78eb19663336b2666ea40429d7",
+  "common/created_business_units.json": "58eecdbb3e5203aeb235bc4acdc2643dc6b4f7c16caef2a3cbd5b96edba88ce6",
+  "common/login_once.py": "66dd996c0ac889c5d18c5718071104a5e0e29a8155aaa29b961d3fa3307cbf28",
+  "common/oracle.py": "3460a50d70a40fddb35748d0754a7d09c50ba403eab29bccf867be1513cb0085",
+  "common/page.py": "689ad028877002bc77e087db563aee931a0bc28f166a761f0d9125a0b51c5f85",
+  "common/session_check.py": "baffcd8561fd786e8e1853ba1ccd82457e822e6843a4a5f5c5696922e1fbaee4",
+  "Customers/browser_flow.py": "36bea6390475e1da12f5e53996eaf597a45d0ff131a00c573eff46df54702a43",
+  "Customers/CLAUDE.md": "9c57a0f8dad7d97675bb17fc8814e4498c56178def4e86639cabd668f98be0c7",
+  "Customers/customers.json": "d93cb2bcee1f63bbc6a14f5cd2e393b926f9ed7bd9daeb417fd4e1192dcca1f9",
+  "Customers/sheet_fields.md": "f1d4a35c058a54860c01352f4f1d6a03c8b3bdac25fe8109af4046739e256e2a",
+  "CLAUDE.md": "6a8c15429b503440df71b06af08ec08a36a29f9043f8a7be71d896a774a608dd"
+ }
+}

@@ -1,0 +1,173 @@
+{
+ "rows_searched": {
+  "AR_MANAGE_RECEIVABLES_CUSTOMER_PROFILE_CLASSES/AR_CUSTOMER_PROFILE_CLASS.csv": 5,
+  "AR_MANAGE_RECEIVABLES_CUSTOMER_PROFILE_CLASSES/AR_CUSTOMER_PROFILE_CLASS_AMT.csv": 0,
+  "AR_MANAGE_RECEIVABLES_PAYMENT_TERMS/AR_PAYMENT_TERM.csv": 17,
+  "AR_MANAGE_RECEIVABLES_PAYMENT_TERMS/AR_PAYMENT_TERM_LINE.csv": 20,
+  "AR_MANAGE_RECEIVABLES_PAYMENT_TERMS/AR_PAYMENT_TERM_TRANSLATION.csv": 17,
+  "AR_MANAGE_RECEIVABLES_PAYMENT_TERMS/AR_PAYMENT_TERM_DISCOUNT.csv": 2,
+  "AR_MANAGE_RECEIVABLES_SYSTEM_OPTIONS/AR_SYSTEM_OPTIONS.csv": 19,
+  "AR_MANAGE_TRANSACTION_SOURCES/AR_BATCH_SOURCE.csv": 6,
+  "AR_MANAGE_TRANSACTION_SOURCES/ORA_AR_TXN_BATCH_SOURCE.csv": 0,
+  "AR_MANAGE_TRANSACTION_TYPES/AR_TRANSACTION_TYPE.csv": 25,
+  "AR_MANAGE_TRANSACTION_TYPES/AR_REF_ACCT_TRX_TYPE.csv": 3,
+  "DOO_MANAGE_ORCHESTRATION_LOOKUPS/FND_APP_STANDARD_LOOKUP.csv": 6,
+  "DOO_MANAGE_ORCHESTRATION_LOOKUPS/ORA_FND_APP_STANDARD_LOOKUP_CODE.csv": 71,
+  "FUN_MANAGE_BUSINESS_UNIT/LE_1214416713655.csv": 8431,
+  "FUN_MANAGE_BUSINESS_UNIT/FUN_BUSINESS_UNIT.csv": 184,
+  "FUN_MANAGE_BUSINESS_UNIT/FUN_BU_USAGE.csv": 1075,
+  "FUN_MANAGE_BUSINESS_UNIT/FUN_BU_SERVICE_PROVIDERS.csv": 267,
+  "FUN_MANAGE_BUSINESS_UNIT_SET_ASSIGNMENT/LE_1214416713655.csv": 8431,
+  "FUN_MANAGE_BUSINESS_UNIT_SET_ASSIGNMENT/FUN_BUSINESS_UNIT.csv": 184,
+  "FUN_MANAGE_BUSINESS_UNIT_SET_ASSIGNMENT/FUN_BU_USAGE.csv": 1075,
+  "FUN_MANAGE_BUSINESS_UNIT_SET_ASSIGNMENT/FUN_BU_SERVICE_PROVIDERS.csv": 267
+ },
+ "hits": {
+  "1_payment_term": [
+   {
+    "source": "AR_MANAGE_RECEIVABLES_PAYMENT_TERMS/AR_PAYMENT_TERM.csv",
+    "row": 16,
+    "column": "Name",
+    "value": "FSCRT_2P10N30F1",
+    "row_key": {
+     "Name": "FSCRT_2P10N30F1",
+     "SetCode": "ENTERPRISE",
+     "LastUpdateDate": "2026/11/02 19:58:18.19"
+    },
+    "role": "self"
+   },
+   {
+    "source": "AR_MANAGE_RECEIVABLES_PAYMENT_TERMS/AR_PAYMENT_TERM_LINE.csv",
+    "row": 18,
+    "column": "AR_PAYMENT_TERM.Name",
+    "value": "FSCRT_2P10N30F1",
+    "row_key": {
+     "AR_PAYMENT_TERM.Name": "FSCRT_2P10N30F1",
+     "AR_PAYMENT_TERM.SetCode": "ENTERPRISE",
+     "SequenceNum": "1"
+    },
+    "role": "self"
+   },
+   {
+    "source": "AR_MANAGE_RECEIVABLES_PAYMENT_TERMS/AR_PAYMENT_TERM_TRANSLATION.csv",
+    "row": 16,
+    "column": "AR_PAYMENT_TERM.Name",
+    "value": "FSCRT_2P10N30F1",
+    "row_key": {
+     "AR_PAYMENT_TERM.Name": "FSCRT_2P10N30F1",
+     "AR_PAYMENT_TERM.SetCode": "ENTERPRISE",
+     "Description": "2 percent off if paid in 10 days, otherwise due in 30"
+    },
+    "role": "self"
+   },
+   {
+    "source": "AR_MANAGE_RECEIVABLES_PAYMENT_TERMS/AR_PAYMENT_TERM_TRANSLATION.csv",
+    "row": 16,
+    "column": "Name",
+    "value": "FSCRT_2P10N30F1",
+    "row_key": {
+     "AR_PAYMENT_TERM.Name": "FSCRT_2P10N30F1",
+     "AR_PAYMENT_TERM.SetCode": "ENTERPRISE",
+     "Description": "2 percent off if paid in 10 days, otherwise due in 30"
+    },
+    "role": "self"
+   },
+   {
+    "source": "AR_MANAGE_RECEIVABLES_PAYMENT_TERMS/AR_PAYMENT_TERM_DISCOUNT.csv",
+    "row": 2,
+    "column": "AR_PAYMENT_TERM.Name",
+    "value": "FSCRT_2P10N30F1",
+    "row_key": {
+     "AR_PAYMENT_TERM.Name": "FSCRT_2P10N30F1",
+     "AR_PAYMENT_TERM.SetCode": "ENTERPRISE",
+     "AR_PAYMENT_TERM_LINE.SequenceNum": "1"
+    },
+    "role": "self"
+   }
+  ],
+  "2_lookup_code": [
+   {
+    "source": "DOO_MANAGE_ORCHESTRATION_LOOKUPS/ORA_FND_APP_STANDARD_LOOKUP_CODE.csv",
+    "row": 19,
+    "column": "LookupCode",
+    "value": "FSCRT_SO_TRAIL_DEALER_F01",
+    "row_key": {
+     "FND_APP_STANDARD_LOOKUP.LookupType": "ORA_DOO_ORDER_TYPES",
+     "LookupCode": "FSCRT_SO_TRAIL_DEALER_F01",
+     "Meaning": "FSCRT_Trail Dealer Replenishment F01"
+    },
+    "role": "self"
+   },
+   {
+    "source": "evidence\\rest\\ot_lookup_now.json",
+    "occurrences": 2,
+    "role": "rest/soap read"
+   }
+  ],
+  "3_business_unit": [
+   {
+    "source": "FUN_MANAGE_BUSINESS_UNIT/FUN_BUSINESS_UNIT.csv",
+    "row": 43,
+    "column": "Name",
+    "value": "FSCRT_Brindle Harbor Marine Supply F01",
+    "row_key": {
+     "Name": "FSCRT_Brindle Harbor Marine Supply F01",
+     "DefaultSetCode": "ENTERPRISE",
+     "PrimaryLedgerName": ""
+    },
+    "role": "self"
+   },
+   {
+    "source": "FUN_MANAGE_BUSINESS_UNIT/FUN_BUSINESS_UNIT.csv",
+    "row": 43,
+    "column": "OrganizationCode",
+    "value": "5F517F2F4559C1B6E0631C65310A0826 300000394664009 2026-11-02 19.53.15.407",
+    "row_key": {
+     "Name": "FSCRT_Brindle Harbor Marine Supply F01",
+     "DefaultSetCode": "ENTERPRISE",
+     "PrimaryLedgerName": ""
+    },
+    "role": "self"
+   },
+   {
+    "source": "FUN_MANAGE_BUSINESS_UNIT_SET_ASSIGNMENT/FUN_BUSINESS_UNIT.csv",
+    "row": 43,
+    "column": "Name",
+    "value": "FSCRT_Brindle Harbor Marine Supply F01",
+    "row_key": {
+     "Name": "FSCRT_Brindle Harbor Marine Supply F01",
+     "DefaultSetCode": "ENTERPRISE",
+     "PrimaryLedgerName": ""
+    },
+    "role": "self"
+   },
+   {
+    "source": "FUN_MANAGE_BUSINESS_UNIT_SET_ASSIGNMENT/FUN_BUSINESS_UNIT.csv",
+    "row": 43,
+    "column": "OrganizationCode",
+    "value": "5F517F2F4559C1B6E0631C65310A0826 300000394664009 2026-11-02 19.53.15.407",
+    "row_key": {
+     "Name": "FSCRT_Brindle Harbor Marine Supply F01",
+     "DefaultSetCode": "ENTERPRISE",
+     "PrimaryLedgerName": ""
+    },
+    "role": "self"
+   },
+   {
+    "source": "evidence\\rest\\bu_datasec.json",
+    "occurrences": 1,
+    "role": "rest/soap read"
+   },
+   {
+    "source": "evidence\\rest\\bu_lov.json",
+    "occurrences": 3,
+    "role": "rest/soap read"
+   },
+   {
+    "source": "evidence\\rest\\bu_pricelists.json",
+    "occurrences": 1,
+    "role": "rest/soap read"
+   }
+  ]
+ }
+}

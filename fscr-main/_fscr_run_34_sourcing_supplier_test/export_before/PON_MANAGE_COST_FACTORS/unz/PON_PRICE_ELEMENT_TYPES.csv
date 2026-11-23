@@ -1,0 +1,5 @@
+"PriceElementCode","Name","Description","PricingBasis","EnabledFlag","SystemFlag","CreationDate","CreatedBy","LastUpdateDate","LastUpdatedBy","LastUpdateLogin","CostFactorType"
+"ITEM_PRICE","Line Price","Individual cost of the sourced product or service without additional cost components such as freight, tax, or insurance","PER_UNIT","Y","Y","2021/03/07 04:30:29.0","SEED_DATA_FROM_APPLICATION","2024/04/06 03:59:13.686408","SEED_DATA_FROM_APPLICATION","-1","EXTERNAL"
+"0000","Zaynab Shipping","","FIXED_AMOUNT","Y","N","2026/07/21 15:52:15.481","Configuration","2026/07/21 15:53:29.72","Configuration","571DFC894FFB65D1E0631C65310AF9D6","EXTERNAL"
+"001","Zaynab Hazard Materials","","PER_UNIT","Y","N","2026/07/21 15:52:36.857","Configuration","2026/07/21 15:53:29.72","Configuration","571DFC894FFB65D1E0631C65310AF9D6","EXTERNAL"
+"002","Zaynab Import Tax","","PERCENTAGE","Y","N","2026/07/21 15:53:09.064","Configuration","2026/07/21 15:53:29.72","Configuration","571DFC894FFB65D1E0631C65310AF9D6","EXTERNAL"

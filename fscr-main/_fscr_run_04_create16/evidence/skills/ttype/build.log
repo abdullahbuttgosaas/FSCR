@@ -1,0 +1,75 @@
+{
+  "baselineSha256": "694029faa84d7d164ec0cafb9baea0fd694dd065a1f9a5c2c423fcfbc223df14",
+  "businessSummary": [
+    {
+      "action": "create",
+      "entity": "AR_TRANSACTION_TYPE",
+      "operationId": "t1",
+      "targetKey": {
+        "Name": "FSCRT_TT1",
+        "SetCode": "ENTERPRISE"
+      },
+      "values": {
+        "AccountingAffectFlag": "Y",
+        "AllowFreightFlag": "N",
+        "AllowOverapplicationFlag": "N",
+        "DefaultPrintingOption": "PRI",
+        "DefaultStatus": "OP",
+        "Description": "FSCRT Run04 invoice type",
+        "NaturalApplicationOnlyFlag": "N",
+        "PostToGl": "N",
+        "StartDate": "2026-11-03",
+        "Status": "A",
+        "TaxCalculationFlag": "N",
+        "Type": "INV"
+      }
+    }
+  ],
+  "candidateSha256": "fd00da86f42843c5784cf2d68f9aa8072912710c66cf0f8c53bb0fc271593590",
+  "designSha256": "9b8a3917b9c6f6701df5ce53d149478b730333b1d08aaf3976649fad0c011a12",
+  "errors": [],
+  "memberInventory": [
+    "AR_TRANSACTION_TYPE.csv",
+    "AR_REF_ACCT_TRX_TYPE.csv",
+    "ASM_SETUP_CSV_METADATA.xml"
+  ],
+  "notImported": true,
+  "requirementIds": [
+    "REQ-001",
+    "REQ-002",
+    "REQ-003",
+    "REQ-004",
+    "REQ-005",
+    "REQ-006",
+    "REQ-007",
+    "REQ-008",
+    "REQ-009",
+    "REQ-010",
+    "REQ-011",
+    "REQ-012",
+    "REQ-013",
+    "REQ-014"
+  ],
+  "rowCounts": {
+    "AR_REF_ACCT_TRX_TYPE.csv": 0,
+    "AR_TRANSACTION_TYPE.csv": 1
+  },
+  "schemaFingerprint": "ca82e0dd0303dceaaa6eed1eba9effaeed5972925d3aaf6948a2315489c5ae5b",
+  "schemaVersion": "fscr-fsm-task-adapter-v1",
+  "semanticValidator": "fsm_task_adapter.py blueprint/baseline validator",
+  "status": "PASS",
+  "structuralValidator": "fsm_task_adapter.py exact-task package reader",
+  "task": {
+    "code": "AR_MANAGE_TRANSACTION_TYPES",
+    "csvSupported": true,
+    "functionalArea": "Customer Billing",
+    "importMode": "FSM",
+    "name": "Manage Transaction Types",
+    "offering": "Financials"
+  },
+  "templateSha256": "8919e913c3fa4601d1a9e899ca214a250f335c0c20f9a03e47b18a7f07ebfee2",
+  "unresolvedWarnings": [],
+  "warnings": []
+}
+
+--stderr--

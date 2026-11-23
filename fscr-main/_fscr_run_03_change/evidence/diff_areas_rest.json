@@ -1,0 +1,156 @@
+{
+ "priceLists_all.json": {
+  "before": 55,
+  "after": 55,
+  "added": [],
+  "removed": [],
+  "changed": {
+   "FSCRT_Brindle Harbor Dock Equipment EUR F01 [300000394623080]": {
+    "business": {
+     "PriceListDescription": [
+      "Dock and mooring equipment prices for European marinas",
+      "Dock and mooring equipment prices for European marinas, 2027 season"
+     ],
+     "EndDate": [
+      "2027-10-31T23:59:59+00:00",
+      "2027-09-30T23:59:59+00:00"
+     ]
+    },
+    "audit_only_fields": [
+     "LastUpdateDate"
+    ]
+   }
+  }
+ },
+ "order_types_all.json": {
+  "before": 60,
+  "after": 60,
+  "added": [],
+  "removed": [],
+  "changed": {
+   "FSCRT_SO_TRAIL_DEALER_F01 [FSCRT_SO_TRAIL_DEALER_F01]": {
+    "business": {
+     "EndDateActive": [
+      null,
+      "2027-10-31"
+     ],
+     "Description": [
+      "Stock refills for trail dealers",
+      "Stock refills for trail dealers, retired after October 2027"
+     ]
+    },
+    "audit_only_fields": [
+     "LastUpdateDate",
+     "LastUpdateLogin"
+    ]
+   },
+   "FSCRT_SO_WARRANTY_SWAP_F01 [FSCRT_SO_WARRANTY_SWAP_F01]": {
+    "business": {
+     "EnabledFlag": [
+      "N",
+      "Y"
+     ]
+    },
+    "audit_only_fields": [
+     "LastUpdateDate",
+     "LastUpdateLogin"
+    ]
+   }
+  }
+ },
+ "finBusinessUnitsLOV.json": {
+  "before": 183,
+  "after": 183,
+  "added": [],
+  "removed": [],
+  "changed": {}
+ },
+ "customerAccountSitesLOV_all.json": {
+  "before": 212,
+  "after": 212,
+  "added": [],
+  "removed": [],
+  "changed": {
+   "FSCRT_Kestrel Basin Trading Cooperative F01 [300000394607184]": {
+    "business": {
+     "AccountDescription": [
+      "Buying cooperative for trail shops",
+      "Buying cooperative for trail and outdoor shops"
+     ]
+    },
+    "audit_only_fields": []
+   },
+   "FSCRT_Kestrel Basin Trading Cooperative F01 [300000394607183]": {
+    "business": {
+     "AccountDescription": [
+      "Buying cooperative for trail shops",
+      "Buying cooperative for trail and outdoor shops"
+     ]
+    },
+    "audit_only_fields": []
+   }
+  }
+ },
+ "hubOrganizations_fscrt.json": {
+  "before": 2,
+  "after": 2,
+  "added": [],
+  "removed": [],
+  "changed": {}
+ },
+ "hubPersons_fscrt.json": {
+  "before": 2,
+  "after": 2,
+  "added": [],
+  "removed": [],
+  "changed": {}
+ },
+ "standardLookups_fscrt.json": {
+  "before": 6,
+  "after": 6,
+  "added": [],
+  "removed": [],
+  "changed": {
+   "FSCRT_CARRIER_SERVICE_TIER_F01 / FSCRT_STANDARD [FSCRT_CARRIER_SERVICE_TIER_F01 / FSCRT_STANDARD]": {
+    "business": {
+     "EnabledFlag": [
+      "Y",
+      "N"
+     ]
+    },
+    "audit_only_fields": [
+     "LastUpdateDate",
+     "LastUpdateLogin"
+    ]
+   },
+   "FSCRT_CARRIER_SERVICE_TIER_F01 / FSCRT_FREIGHT [FSCRT_CARRIER_SERVICE_TIER_F01 / FSCRT_FREIGHT]": {
+    "business": {
+     "EnabledFlag": [
+      "N",
+      "Y"
+     ]
+    },
+    "audit_only_fields": [
+     "LastUpdateDate",
+     "LastUpdateLogin"
+    ]
+   },
+   "FSCRT_OUTDOOR_ACTIVITY_F01 / FSCRT_HIKING [FSCRT_OUTDOOR_ACTIVITY_F01 / FSCRT_HIKING]": {
+    "business": {
+     "Meaning": [
+      "FSCRT_Hiking",
+      "FSCRT_Hiking and trekking"
+     ],
+     "Description": [
+      null,
+      "Day hikes and multi-day treks"
+     ]
+    },
+    "audit_only_fields": [
+     "LastUpdateDate",
+     "LastUpdateLogin"
+    ]
+   }
+  }
+ }
+}

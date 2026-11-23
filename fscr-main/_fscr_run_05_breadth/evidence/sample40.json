@@ -1,0 +1,282 @@
+[
+ {
+  "path": "pillars/erp/financials/legal-structures/manage-legal-jurisdictions/SKILL.md",
+  "skill_id": "erp.financials.legal-structures.manage-legal-jurisdictions",
+  "type": "orchestration",
+  "area": "ERP",
+  "excluded": false
+ },
+ {
+  "path": "pillars/erp/fusion-accounting-hub/SKILL.md",
+  "skill_id": "erp.fusion-accounting-hub",
+  "type": "orchestration",
+  "area": "ERP",
+  "excluded": false
+ },
+ {
+  "path": "pillars/erp/financials/fixed-assets/manage-asset-categories/SKILL.md",
+  "skill_id": "erp.financials.fixed-assets.manage-asset-categories",
+  "type": "planning",
+  "area": "ERP",
+  "excluded": false
+ },
+ {
+  "path": "pillars/erp/risk-and-security/add-other-data-sources/add-other-data-sources/SKILL.md",
+  "skill_id": "erp.risk-and-security.add-other-data-sources.add-other-data-sources",
+  "type": "planning",
+  "area": "ERP",
+  "excluded": false
+ },
+ {
+  "path": "pillars/erp/financials/fixed-assets/manage-fixed-assets-flexfield-value-sets/SKILL.md",
+  "skill_id": "erp.financials.fixed-assets.manage-fixed-assets-flexfield-value-sets",
+  "type": "planning",
+  "area": "ERP",
+  "excluded": false
+ },
+ {
+  "path": "pillars/erp/financials/fixed-assets/SKILL.md",
+  "skill_id": "erp.financials.fixed-assets",
+  "type": "planning",
+  "area": "ERP",
+  "excluded": false
+ },
+ {
+  "path": "pillars/erp/financials/expenses/manage-expense-report-templates/SKILL.md",
+  "skill_id": "erp.financials.expenses.manage-expense-report-templates",
+  "type": "planning",
+  "area": "ERP",
+  "excluded": false
+ },
+ {
+  "path": "pillars/erp/financials/general-ledger/complete-primary-to-secondary-ledger-mapping/SKILL.md",
+  "skill_id": "erp.financials.general-ledger.complete-primary-to-secondary-ledger-mapping",
+  "type": "planning",
+  "area": "ERP",
+  "excluded": false
+ },
+ {
+  "path": "pillars/erp/financials/general-ledger/manage-ledger-sets/SKILL.md",
+  "skill_id": "erp.financials.general-ledger.manage-ledger-sets",
+  "type": "planning",
+  "area": "ERP",
+  "excluded": false
+ },
+ {
+  "path": "pillars/erp/project-financial-management/SKILL.md",
+  "skill_id": "erp.project-financial-management",
+  "type": "planning",
+  "area": "ERP",
+  "excluded": false
+ },
+ {
+  "path": "pillars/scm/product-management/items/import-items/SKILL.md",
+  "skill_id": "scm.product-management.items.import-items",
+  "type": "import",
+  "area": "SCM",
+  "excluded": false
+ },
+ {
+  "path": "pillars/scm/product-management/change-orders/manage-change-attribute-groups-and-attributes/SKILL.md",
+  "skill_id": "scm.product-management.change-orders.manage-change-attribute-groups-and-attributes",
+  "type": "planning",
+  "area": "SCM",
+  "excluded": false
+ },
+ {
+  "path": "pillars/scm/procurement/procurement-foundation/SKILL.md",
+  "skill_id": "scm.procurement.procurement-foundation",
+  "type": "planning",
+  "area": "SCM",
+  "excluded": false
+ },
+ {
+  "path": "pillars/scm/manufacturing-and-supply-chain-materials-management/facilities/manage-inventory-organizations/SKILL.md",
+  "skill_id": "scm.manufacturing-and-supply-chain-materials-management.facilities.manage-inventory-organizations",
+  "type": "planning",
+  "area": "SCM",
+  "excluded": false
+ },
+ {
+  "path": "pillars/scm/manufacturing-and-supply-chain-materials-management/inventory-management/inventory-document-output-preferences/SKILL.md",
+  "skill_id": "scm.manufacturing-and-supply-chain-materials-management.inventory-management.inventory-document-output-preferences",
+  "type": "planning",
+  "area": "SCM",
+  "excluded": false
+ },
+ {
+  "path": "pillars/scm/order-management/orders/SKILL.md",
+  "skill_id": "scm.order-management.orders",
+  "type": "planning",
+  "area": "SCM",
+  "excluded": false
+ },
+ {
+  "path": "pillars/scm/product-management/items/manage-item-relationship-descriptive-flexfields/SKILL.md",
+  "skill_id": "scm.product-management.items.manage-item-relationship-descriptive-flexfields",
+  "type": "planning",
+  "area": "SCM",
+  "excluded": false
+ },
+ {
+  "path": "pillars/scm/manufacturing-and-supply-chain-materials-management/inventory-management/inventory-zones/SKILL.md",
+  "skill_id": "scm.manufacturing-and-supply-chain-materials-management.inventory-management.inventory-zones",
+  "type": "planning",
+  "area": "SCM",
+  "excluded": false
+ },
+ {
+  "path": "pillars/scm/manufacturing-and-supply-chain-materials-management/receipt-accounting/manage-receipt-accounting-profile-options/SKILL.md",
+  "skill_id": "scm.manufacturing-and-supply-chain-materials-management.receipt-accounting.manage-receipt-accounting-profile-options",
+  "type": "planning",
+  "area": "SCM",
+  "excluded": false
+ },
+ {
+  "path": "pillars/scm/procurement/suppliers/manage-supplier-products-and-services-category-hierarchy/SKILL.md",
+  "skill_id": "scm.procurement.suppliers.manage-supplier-products-and-services-category-hierarchy",
+  "type": "planning",
+  "area": "SCM",
+  "excluded": false
+ },
+ {
+  "path": "pillars/hcm/learning-management/learning-resources/manage-classrooms/SKILL.md",
+  "skill_id": "hcm.learning-management.learning-resources.manage-classrooms",
+  "type": "import",
+  "area": "HCM",
+  "excluded": false
+ },
+ {
+  "path": "pillars/hcm/hcm-communicate/employee-communications/manage-communicate-lookups/SKILL.md",
+  "skill_id": "hcm.hcm-communicate.employee-communications.manage-communicate-lookups",
+  "type": "orchestration",
+  "area": "HCM",
+  "excluded": false
+ },
+ {
+  "path": "pillars/hcm/global-payroll/payroll-common/manage-workforce-structures-descriptive-flexfields/SKILL.md",
+  "skill_id": "hcm.global-payroll.payroll-common.manage-workforce-structures-descriptive-flexfields",
+  "type": "planning",
+  "area": "HCM",
+  "excluded": false
+ },
+ {
+  "path": "pillars/hcm/global-payroll/payroll-common/payroll-value-sets/SKILL.md",
+  "skill_id": "hcm.global-payroll.payroll-common.payroll-value-sets",
+  "type": "planning",
+  "area": "HCM",
+  "excluded": false
+ },
+ {
+  "path": "pillars/hcm/hcm-security/hcm-security-common/SKILL.md",
+  "skill_id": "hcm.hcm-security.hcm-security-common",
+  "type": "planning",
+  "area": "HCM",
+  "excluded": false
+ },
+ {
+  "path": "pillars/hcm/workforce-time-management/time-and-labor-foundation/SKILL.md",
+  "skill_id": "hcm.workforce-time-management.time-and-labor-foundation",
+  "type": "planning",
+  "area": "HCM",
+  "excluded": false
+ },
+ {
+  "path": "pillars/hcm/global-payroll/payroll-cost-accounting/costing-of-payment-sources/SKILL.md",
+  "skill_id": "hcm.global-payroll.payroll-cost-accounting.costing-of-payment-sources",
+  "type": "planning",
+  "area": "HCM",
+  "excluded": false
+ },
+ {
+  "path": "pillars/hcm/global-payroll/hcm-extract/SKILL.md",
+  "skill_id": "hcm.global-payroll.hcm-extract",
+  "type": "planning",
+  "area": "HCM",
+  "excluded": false
+ },
+ {
+  "path": "pillars/hcm/global-payroll/payroll-common/manage-administrator-profile-values/SKILL.md",
+  "skill_id": "hcm.global-payroll.payroll-common.manage-administrator-profile-values",
+  "type": "planning",
+  "area": "HCM",
+  "excluded": false
+ },
+ {
+  "path": "pillars/hcm/performance-management/check-in-template/SKILL.md",
+  "skill_id": "hcm.performance-management.check-in-template",
+  "type": "planning",
+  "area": "HCM",
+  "excluded": false
+ },
+ {
+  "path": "pillars/hcm/global-human-resources/global-human-resources-common/manage-profile-options/SKILL.md",
+  "skill_id": "hcm.global-human-resources.global-human-resources-common.manage-profile-options",
+  "type": "planning",
+  "area": "HCM",
+  "excluded": false
+ },
+ {
+  "path": "pillars/hcm/compensation/compensation-common/manage-key-flexfields/SKILL.md",
+  "skill_id": "hcm.compensation.compensation-common.manage-key-flexfields",
+  "type": "planning",
+  "area": "HCM",
+  "excluded": false
+ },
+ {
+  "path": "pillars/cx/customer-data-management/resources/run-reporting-hierarchy-generation/SKILL.md",
+  "skill_id": "cx.customer-data-management.resources.run-reporting-hierarchy-generation",
+  "type": "orchestration",
+  "area": "CX",
+  "excluded": false
+ },
+ {
+  "path": "pillars/cx/customer-data-management/trading-community-foundation/manage-data-warehouse-profile-option/SKILL.md",
+  "skill_id": "cx.customer-data-management.trading-community-foundation.manage-data-warehouse-profile-option",
+  "type": "planning",
+  "area": "CX",
+  "excluded": false
+ },
+ {
+  "path": "pillars/cx/customer-data-management/trading-community-foundation/manage-contact-lookups/SKILL.md",
+  "skill_id": "cx.customer-data-management.trading-community-foundation.manage-contact-lookups",
+  "type": "planning",
+  "area": "CX",
+  "excluded": false
+ },
+ {
+  "path": "pillars/cx/field-service/users-and-security/SKILL.md",
+  "skill_id": "cx.field-service.users-and-security",
+  "type": "planning",
+  "area": "CX",
+  "excluded": false
+ },
+ {
+  "path": "shared/integrations/integration-strategy-advisor/SKILL.md",
+  "skill_id": "shared.integrations.integration-strategy-advisor",
+  "type": "advisory",
+  "area": "SHARED",
+  "excluded": false
+ },
+ {
+  "path": "core/fusion-api/ucm-rest-client/SKILL.md",
+  "skill_id": "core.fusion-api.ucm-rest-client",
+  "type": "import",
+  "area": "SHARED",
+  "excluded": false
+ },
+ {
+  "path": "core/fusion-api/apps-common/extensible-flexfields/SKILL.md",
+  "skill_id": "core.fusion-api.apps-common.extensible-flexfields",
+  "type": "orchestration",
+  "area": "SHARED",
+  "excluded": false
+ },
+ {
+  "path": "shared/implementation-planning/readiness-checklist-generator/SKILL.md",
+  "skill_id": "shared.implementation-planning.readiness-checklist-generator",
+  "type": "planning",
+  "area": "SHARED",
+  "excluded": false
+ }
+]

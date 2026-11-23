@@ -1,0 +1,18 @@
+200
+{
+  "items" : [ {
+    "CertifyingAgencyId" : -1,
+    "CertifyingAgency" : "Other",
+    "Description" : "Other Certifying Agency"
+  } ],
+  "count" : 1,
+  "hasMore" : false,
+  "limit" : 200,
+  "offset" : 0,
+  "links" : [ {
+    "rel" : "self",
+    "href" : "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/supplierRegistrationCertifyingAgenciesLOV",
+    "name" : "supplierRegistrationCertifyingAgenciesLOV",
+    "kind" : "collection"
+  } ]
+}

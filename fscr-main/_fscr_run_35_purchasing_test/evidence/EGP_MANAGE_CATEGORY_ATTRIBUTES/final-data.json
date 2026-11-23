@@ -1,0 +1,12 @@
+{
+ "archiveName": "egp_manage_category_attributes_fscrt.zip",
+ "rowCounts": {
+  "ORA_FND_APP_DESCRIPTIVE_FLEXFIELD_CONTEXT.csv": 1,
+  "ORA_FND_APP_DESCRIPTIVE_FLEXFIELD_SEGMENT.csv": 1
+ },
+ "operation": "create",
+ "names": [
+  "FSCRT_R35_CTX",
+  "FSCRT_R35_SEG"
+ ]
+}

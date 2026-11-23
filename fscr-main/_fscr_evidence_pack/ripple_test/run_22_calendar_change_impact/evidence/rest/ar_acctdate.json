@@ -1,0 +1,8 @@
+{
+  "title" : "Bad Request",
+  "status" : "400",
+  "o:errorDetails" : [ {
+    "detail" : "Failed to build ViewCriteria from expression \"AccountingDate>='2026-12-25' and AccountingDate<='2026-12-31'\" using view object InvoiceHeader. Unable to create criteria item from node: \"AccountingDate\". Unable to create criteria item from node: \"AccountingDate\". ",
+    "o:errorCode" : "29140"
+  } ]
+}

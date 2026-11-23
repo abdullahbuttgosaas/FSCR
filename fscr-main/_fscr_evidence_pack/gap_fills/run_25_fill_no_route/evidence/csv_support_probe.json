@@ -1,0 +1,1592 @@
+[
+ {
+  "area": "ERP",
+  "module": "Banking Configurations",
+  "code": "ORA_FUN_MANAGE_BANKING_CONFIGURATIONS_FOR_JP_MORGAN",
+  "name": "Manage Embedded Banking Configurations",
+  "imp_status": 200,
+  "ImportSupportedFlag": false,
+  "exp_status": 200,
+  "ExportSupportedFlag": false
+ },
+ {
+  "area": "ERP",
+  "module": "Banking Configurations",
+  "code": "ORA_FUN_MANAGE_STANDARD_BANKING_CONFIGURATIONS",
+  "name": "Manage Standard Banking Configurations",
+  "imp_status": 200,
+  "ImportSupportedFlag": false,
+  "exp_status": 200,
+  "ExportSupportedFlag": false
+ },
+ {
+  "area": "ERP",
+  "module": "Bill Management",
+  "code": "ORA_ARB_SETUP_BILL_MANAGEMENT_REGISTRATION",
+  "name": "Manage Bill Management Registration",
+  "imp_status": 200,
+  "ImportSupportedFlag": false,
+  "exp_status": 200,
+  "ExportSupportedFlag": false
+ },
+ {
+  "area": "ERP",
+  "module": "Budgetary Control and Encumbrance Accounting",
+  "code": "ORA_FUN_MANAGE_CONTROL_BUDGET_DATA_ACCESS_FOR_USERS",
+  "name": "Manage Control Budget Data Access for Users",
+  "imp_status": 200,
+  "ImportSupportedFlag": false,
+  "exp_status": 200,
+  "ExportSupportedFlag": false
+ },
+ {
+  "area": "ERP",
+  "module": "Budgetary Control and Encumbrance Accounting",
+  "code": "ORA_XLA_ACCOUNTING_METHOD_SETUP_REPORT",
+  "name": "Submit Subledger Accounting Method Setups Report",
+  "imp_status": 200,
+  "ImportSupportedFlag": false,
+  "exp_status": 200,
+  "ExportSupportedFlag": false
+ },
+ {
+  "area": "ERP",
+  "module": "Customer Billing",
+  "code": "AR_MANAGE_SALESPERSON_ACCOUNT_REFERENCES",
+  "name": "Manage Salesperson Account References",
+  "imp_status": 200,
+  "ImportSupportedFlag": false,
+  "exp_status": 200,
+  "ExportSupportedFlag": false
+ },
+ {
+  "area": "ERP",
+  "module": "Customer Billing",
+  "code": "ORA_MANAGE_USER_DEFINED_RULES_FOR_RECEIVABLES",
+  "name": "Manage User-Defined Rules for Receivables",
+  "imp_status": 200,
+  "ImportSupportedFlag": false,
+  "exp_status": 200,
+  "ExportSupportedFlag": false
+ },
+ {
+  "area": "ERP",
+  "module": "Customer Payments",
+  "code": "AR_MANAGE_RECEIVABLES_SPECIALIST_ASSIGNMENT_RULES",
+  "name": "Manage Receivables Specialist Assignment Rules",
+  "imp_status": 200,
+  "ImportSupportedFlag": false,
+  "exp_status": 200,
+  "ExportSupportedFlag": false
+ },
+ {
+  "area": "ERP",
+  "module": "Customer Payments",
+  "code": "ORA_MANAGE_ALTERNATE_NAME_MAPPING_RULES",
+  "name": "Manage Alternate Name Mapping Rules",
+  "imp_status": 200,
+  "ImportSupportedFlag": false,
+  "exp_status": 200,
+  "ExportSupportedFlag": false
+ },
+ {
+  "area": "ERP",
+  "module": "Customers",
+  "code": "AR_CREATE_CUSTOMER",
+  "name": "Create Customer",
+  "imp_status": 200,
+  "ImportSupportedFlag": false,
+  "exp_status": 200,
+  "ExportSupportedFlag": false
+ },
+ {
+  "area": "ERP",
+  "module": "Expenses",
+  "code": "EXM_LINK_CORPORATE_EXPENSE_POLICIES",
+  "name": "Link Corporate Expense Policies",
+  "imp_status": 200,
+  "ImportSupportedFlag": false,
+  "exp_status": 200,
+  "ExportSupportedFlag": false
+ },
+ {
+  "area": "ERP",
+  "module": "Expenses",
+  "code": "EXM_MANAGE_EXPENSE_AUDIT_LIST_MEMBERS",
+  "name": "Manage Expense Audit List Membership",
+  "imp_status": 200,
+  "ImportSupportedFlag": false,
+  "exp_status": 200,
+  "ExportSupportedFlag": false
+ },
+ {
+  "area": "ERP",
+  "module": "Expenses",
+  "code": "EXM_MANAGE_EXPENSE_REPORT_APPROVAL_RULES",
+  "name": "Manage Expense Approval Rules",
+  "imp_status": 200,
+  "ImportSupportedFlag": false,
+  "exp_status": 200,
+  "ExportSupportedFlag": false
+ },
+ {
+  "area": "ERP",
+  "module": "Expenses",
+  "code": "EXM_MANAGE_TERMS_AND_CONDITIONS_OF_EXPENSE_REIMBURSEMENT",
+  "name": "Manage Terms and Conditions of Expense Reimbursement",
+  "imp_status": 200,
+  "ImportSupportedFlag": false,
+  "exp_status": 200,
+  "ExportSupportedFlag": false
+ },
+ {
+  "area": "ERP",
+  "module": "Financial Reporting Center",
+  "code": "GL_CONFIGURE_DATA_LOAD_METADATA",
+  "name": "Configure Data Load Accounting and Metadata",
+  "imp_status": 200,
+  "ImportSupportedFlag": false,
+  "exp_status": 200,
+  "ExportSupportedFlag": false
+ },
+ {
+  "area": "ERP",
+  "module": "Financial Reporting Center",
+  "code": "GL_CONFIGURE_DATA_LOAD_METADATA_HFM",
+  "name": "Configure Data Load Accounting and Metadata for Hyperion Financial Management Integration",
+  "imp_status": 200,
+  "ImportSupportedFlag": false,
+  "exp_status": 200,
+  "ExportSupportedFlag": false
+ },
+ {
+  "area": "ERP",
+  "module": "Financial Reporting Center",
+  "code": "GL_CONFIGURE_FR_STUDIO_CLIENT",
+  "name": "Configure Financial Reporting Studio Client for Users",
+  "imp_status": 200,
+  "ImportSupportedFlag": false,
+  "exp_status": 200,
+  "ExportSupportedFlag": false
+ },
+ {
+  "area": "ERP",
+  "module": "Financial Reporting Center",
+  "code": "GL_CONFIGURE_MEMBER_MAPPINGS",
+  "name": "Configure Data Load Member and Period Mappings",
+  "imp_status": 200,
+  "ImportSupportedFlag": false,
+  "exp_status": 200,
+  "ExportSupportedFlag": false
+ },
+ {
+  "area": "ERP",
+  "module": "Financial Reporting Center",
+  "code": "GL_CONFIGURE_MEMBER_MAPPINGS_HFM",
+  "name": "Configure Data Load Member and Period Mappings for Hyperion Financial Management Integration",
+  "imp_status": 200,
+  "ImportSupportedFlag": false,
+  "exp_status": 200,
+  "ExportSupportedFlag": false
+ },
+ {
+  "area": "ERP",
+  "module": "Financial Reporting Center",
+  "code": "GL_CONFIGURE_SMARTVIEW_CLIENT",
+  "name": "Configure Smart View Client for Users",
+  "imp_status": 200,
+  "ImportSupportedFlag": false,
+  "exp_status": 200,
+  "ExportSupportedFlag": false
+ },
+ {
+  "area": "ERP",
+  "module": "Financial Reporting Center",
+  "code": "GL_CONFIGURE_WRITEBACK",
+  "name": "Configure Write-Back Mappings",
+  "imp_status": 200,
+  "ImportSupportedFlag": false,
+  "exp_status": 200,
+  "ExportSupportedFlag": false
+ },
+ {
+  "area": "ERP",
+  "module": "Financial Reporting Center",
+  "code": "GL_CREATE_FINANCIAL_STATEMENTS",
+  "name": "Create Financial Statements",
+  "imp_status": 200,
+  "ImportSupportedFlag": false,
+  "exp_status": 200,
+  "ExportSupportedFlag": false
+ },
+ {
+  "area": "ERP",
+  "module": "Financial Reporting Center",
+  "code": "GL_DEFINE_BUDGET_IN_HYP_PLANNING",
+  "name": "Define Budget Configuration in Hyperion Planning",
+  "imp_status": 200,
+  "ImportSupportedFlag": false,
+  "exp_status": 200,
+  "ExportSupportedFlag": false
+ },
+ {
+  "area": "ERP",
+  "module": "Financial Reporting Center",
+  "code": "GL_DEFINE_ESSBASE_DB_CONNECTION_IN_WORKSPACE",
+  "name": "Define Essbase Database Connections in Workspace",
+  "imp_status": 200,
+  "ImportSupportedFlag": false,
+  "exp_status": 200,
+  "ExportSupportedFlag": false
+ },
+ {
+  "area": "ERP",
+  "module": "Financial Reporting Center",
+  "code": "GL_DEFINE_HFM",
+  "name": "Define Hyperion Financial Management Configuration",
+  "imp_status": 200,
+  "ImportSupportedFlag": false,
+  "exp_status": 200,
+  "ExportSupportedFlag": false
+ },
+ {
+  "area": "ERP",
+  "module": "Financial Reporting Center",
+  "code": "GL_REGISTER_SOURCE_APPLICATIONS",
+  "name": "Register Source Applications",
+  "imp_status": 200,
+  "ImportSupportedFlag": false,
+  "exp_status": 200,
+  "ExportSupportedFlag": false
+ },
+ {
+  "area": "ERP",
+  "module": "Financial Reporting Center",
+  "code": "GL_REGISTER_SOURCE_APPLICATIONS_HFM",
+  "name": "Register Source Applications for Hyperion Financial Management Integration",
+  "imp_status": 200,
+  "ImportSupportedFlag": false,
+  "exp_status": 200,
+  "ExportSupportedFlag": false
+ },
+ {
+  "area": "ERP",
+  "module": "Financial Reporting Center",
+  "code": "GL_REGISTER_TARGET_APPLICATIONS",
+  "name": "Register Target Applications",
+  "imp_status": 200,
+  "ImportSupportedFlag": false,
+  "exp_status": 200,
+  "ExportSupportedFlag": false
+ },
+ {
+  "area": "ERP",
+  "module": "Financial Reporting Center",
+  "code": "GL_REGISTER_TARGET_APPLICATIONS_HFM",
+  "name": "Register Target Applications for Hyperion Financial Management Integration",
+  "imp_status": 200,
+  "ImportSupportedFlag": false,
+  "exp_status": 200,
+  "ExportSupportedFlag": false
+ },
+ {
+  "area": "ERP",
+  "module": "Financial Reporting Structures",
+  "code": "ORA_GL_MANAGE_APPLCORE_MESSAGES",
+  "name": "Manage Messages for General Ledger",
+  "imp_status": 200,
+  "ImportSupportedFlag": false,
+  "exp_status": 200,
+  "ExportSupportedFlag": false
+ },
+ {
+  "area": "ERP",
+  "module": "Financial Reporting Structures",
+  "code": "ORA_JA_CN_CREATE_ADDITIONAL_ACC_ATTRIBUTES_FOR_CHINA",
+  "name": "Create Enterprise Additional Account Attributes for China",
+  "imp_status": 200,
+  "ImportSupportedFlag": false,
+  "exp_status": 200,
+  "ExportSupportedFlag": false
+ },
+ {
+  "area": "ERP",
+  "module": "Fixed Assets",
+  "code": "ORA_FUN_MANAGE_ASSET_BOOK_DATA_ACCESS_FOR_USERS",
+  "name": "Manage Asset Book Data Access for Users",
+  "imp_status": 200,
+  "ImportSupportedFlag": false,
+  "exp_status": 200,
+  "ExportSupportedFlag": false
+ },
+ {
+  "area": "ERP",
+  "module": "General Ledger",
+  "code": "GL_LAUNCH_PROCESSING_TO_OPTIMIZE_SYSTEM",
+  "name": "Run Optimization",
+  "imp_status": 200,
+  "ImportSupportedFlag": false,
+  "exp_status": 200,
+  "ExportSupportedFlag": false
+ },
+ {
+  "area": "ERP",
+  "module": "General Ledger",
+  "code": "GL_MANAGE_ALLOCATION_AND_PERIODIC_ENTRIES",
+  "name": "Manage Allocations and Periodic Entries",
+  "imp_status": 200,
+  "ImportSupportedFlag": false,
+  "exp_status": 200,
+  "ExportSupportedFlag": false
+ },
+ {
+  "area": "ERP",
+  "module": "General Ledger",
+  "code": "GL_MANAGE_JOURNAL_APPROVAL_RULES",
+  "name": "Manage Journal Approval Rules",
+  "imp_status": 200,
+  "ImportSupportedFlag": false,
+  "exp_status": 200,
+  "ExportSupportedFlag": false
+ },
+ {
+  "area": "ERP",
+  "module": "General Ledger",
+  "code": "ORA_FUN_MANAGE_DATA_ACCESS_SET_DATA_ACCESS_FOR_USERS",
+  "name": "Manage Data Access Set Data Access for Users",
+  "imp_status": 200,
+  "ImportSupportedFlag": false,
+  "exp_status": 200,
+  "ExportSupportedFlag": false
+ },
+ {
+  "area": "ERP",
+  "module": "General Ledger",
+  "code": "ORA_FUN_MANAGE_LEDGER_DATA_ACCESS_FOR_USERS",
+  "name": "Manage Ledger Data Access for Users",
+  "imp_status": 200,
+  "ImportSupportedFlag": false,
+  "exp_status": 200,
+  "ExportSupportedFlag": false
+ },
+ {
+  "area": "ERP",
+  "module": "Intercompany",
+  "code": "ORA_FUN_MANAGE_INTERCOMPANY_ORGANIZATION_DATA_ACCESS_FOR_USERS",
+  "name": "Manage Intercompany Organization Data Access for Users",
+  "imp_status": 200,
+  "ImportSupportedFlag": false,
+  "exp_status": 200,
+  "ExportSupportedFlag": false
+ },
+ {
+  "area": "ERP",
+  "module": "Organization Structures",
+  "code": "FUN_VIEW_AVAILABLE_ASSET_BOOKS",
+  "name": "View Available Asset Books",
+  "imp_status": 200,
+  "ImportSupportedFlag": false,
+  "exp_status": 200,
+  "ExportSupportedFlag": false
+ },
+ {
+  "area": "ERP",
+  "module": "Revenue Management",
+  "code": "ORA_VRM_MANAGE_RECEIVABLES_SYSTEM_OPTIONS_IN_EBUSINESS_SUITE_FOR_COEXISTENCE",
+  "name": "Manage E-Business Suite Receivables System Options for Coexistence",
+  "imp_status": 200,
+  "ImportSupportedFlag": false,
+  "exp_status": 200,
+  "ExportSupportedFlag": false
+ },
+ {
+  "area": "ERP",
+  "module": "Accounting Transformation",
+  "code": "ORA_XLA_CONFIGURE_ACCOUNTING_RULES",
+  "name": "Configure Accounting Rules",
+  "imp_status": 200,
+  "ImportSupportedFlag": false,
+  "exp_status": 200,
+  "ExportSupportedFlag": false
+ },
+ {
+  "area": "ERP",
+  "module": "Accounting Transformation",
+  "code": "ORA_XLA_CREATE_SUBLEDGER_APPLICATION_SETUPS_IN_SPREADSHEET",
+  "name": "Create Subledger Application Setups in Spreadsheet",
+  "imp_status": 200,
+  "ImportSupportedFlag": false,
+  "exp_status": 200,
+  "ExportSupportedFlag": false
+ },
+ {
+  "area": "ERP",
+  "module": "Grants Management Foundation",
+  "code": "AR_MANAGE_CUSTOMERS",
+  "name": "Manage Customers",
+  "imp_status": 200,
+  "ImportSupportedFlag": false,
+  "exp_status": 200,
+  "ExportSupportedFlag": false
+ },
+ {
+  "area": "ERP",
+  "module": "Grants Management Foundation",
+  "code": "ORA_GMS_MANAGE_MESSAGES",
+  "name": "Manage Grants Management Messages",
+  "imp_status": 200,
+  "ImportSupportedFlag": false,
+  "exp_status": 200,
+  "ExportSupportedFlag": false
+ },
+ {
+  "area": "ERP",
+  "module": "Grants Management Foundation",
+  "code": "ORA_GMS_UPLOAD_AWARD_TEMPLATE_ATTACHMENTS",
+  "name": "Upload Award Template Attachments",
+  "imp_status": 200,
+  "ImportSupportedFlag": false,
+  "exp_status": 200,
+  "ExportSupportedFlag": false
+ },
+ {
+  "area": "ERP",
+  "module": "Grants Management Foundation",
+  "code": "ORA_GMS_VERIFY_IMPLEMENTATION_STATUS",
+  "name": "Verify Grants Management Offering Implementation Status",
+  "imp_status": 200,
+  "ImportSupportedFlag": false,
+  "exp_status": 200,
+  "ExportSupportedFlag": false
+ },
+ {
+  "area": "ERP",
+  "module": "Project Execution",
+  "code": "ORA_PJT_MANAGE_APPLCORE_MESSAGES",
+  "name": "Manage Project Management Messages",
+  "imp_status": 200,
+  "ImportSupportedFlag": false,
+  "exp_status": 200,
+  "ExportSupportedFlag": false
+ },
+ {
+  "area": "ERP",
+  "module": "Project Execution",
+  "code": "PJT_MANAGE_CUSTOM_ATTRIBUTES_FOR_ISSUES_AND_DELIVERABLES",
+  "name": "Manage Attributes for Issues and Deliverables",
+  "imp_status": 200,
+  "ImportSupportedFlag": false,
+  "exp_status": 200,
+  "ExportSupportedFlag": false
+ },
+ {
+  "area": "ERP",
+  "module": "Project Execution",
+  "code": "PJT_MANAGE_PROJECT_USER_REGISTRATIONS",
+  "name": "Manage Project User Provisioning",
+  "imp_status": 200,
+  "ImportSupportedFlag": false,
+  "exp_status": 200,
+  "ExportSupportedFlag": false
+ },
+ {
+  "area": "ERP",
+  "module": "Project Execution",
+  "code": "PJT_MANAGE__CUSTOM_ATTRIBUTES_FOR_REQUIREMENTS",
+  "name": "Manage Attributes for Requirements",
+  "imp_status": 200,
+  "ImportSupportedFlag": false,
+  "exp_status": 200,
+  "ExportSupportedFlag": false
+ },
+ {
+  "area": "ERP",
+  "module": "Project Resource Management",
+  "code": "ORA_PJR_MANAGE_APPLCORE_MESSAGES",
+  "name": "Manage Project Resource Management Messages",
+  "imp_status": 200,
+  "ImportSupportedFlag": false,
+  "exp_status": 200,
+  "ExportSupportedFlag": false
+ },
+ {
+  "area": "ERP",
+  "module": "Project Resource Management",
+  "code": "ORA_PJR_MANAGE_CUSTOM_ATTRIBUTES_FOR_REQUESTS",
+  "name": "Manage Attributes for Project Resource Requests",
+  "imp_status": 200,
+  "ImportSupportedFlag": false,
+  "exp_status": 200,
+  "ExportSupportedFlag": false
+ },
+ {
+  "area": "ERP",
+  "module": "Project Resource Management",
+  "code": "PJR_MANAGE_EMPLOYEES_AND_CONTINGENT_WORKERS_FOR_PROJECT_RESOURCE_MANAGEMENT",
+  "name": "Manage Employees and Contingent Workers for Project Resource Management",
+  "imp_status": 200,
+  "ImportSupportedFlag": false,
+  "exp_status": 200,
+  "ExportSupportedFlag": false
+ },
+ {
+  "area": "ERP",
+  "module": "Project Resource Management",
+  "code": "PJR_SUBMIT_PROCESS_TO_MAINTAIN_PROJECT_ENTERPRISE_LABOR_RESOURCES",
+  "name": "Submit Process to Maintain Project Enterprise Labor Resources",
+  "imp_status": 200,
+  "ImportSupportedFlag": false,
+  "exp_status": 200,
+  "ExportSupportedFlag": false
+ },
+ {
+  "area": "ERP",
+  "module": "Project Resource Management",
+  "code": "PJR_SUBMIT_PROCESS_TO_MAINTAIN_PROJECT_RESOURCE_SEARCH_INDEX",
+  "name": "Submit Process to Maintain Project Resource Search Index",
+  "imp_status": 200,
+  "ImportSupportedFlag": false,
+  "exp_status": 200,
+  "ExportSupportedFlag": false
+ },
+ {
+  "area": "ERP",
+  "module": "Application Extensions",
+  "code": "ORA_MANAGE_DIGITAL_ASSISTANT",
+  "name": "Manage Digital Assistant",
+  "imp_status": 200,
+  "ImportSupportedFlag": false,
+  "exp_status": 200,
+  "ExportSupportedFlag": false
+ },
+ {
+  "area": "ERP",
+  "module": "Burdening",
+  "code": "PJF_SUBMIT_PROCESS_TO_BUILD_NEW_ORGANIZATION_BURDEN_MULTIPLIERS",
+  "name": "Submit Process to Build New Organization Burden Multipliers",
+  "imp_status": 200,
+  "ImportSupportedFlag": false,
+  "exp_status": 200,
+  "ExportSupportedFlag": false
+ },
+ {
+  "area": "ERP",
+  "module": "Project Billing Base",
+  "code": "ORA_PJB_MANAGE_MESSAGES",
+  "name": "Manage Project Billing Messages",
+  "imp_status": 200,
+  "ImportSupportedFlag": false,
+  "exp_status": 200,
+  "ExportSupportedFlag": false
+ },
+ {
+  "area": "ERP",
+  "module": "Project Billing Base",
+  "code": "PJB_MANAGE_EXTENSIBLE_MARKUP_LANGUAGE_PUBLISHER_PRINT_FORMATS",
+  "name": "Manage Invoice Templates",
+  "imp_status": 200,
+  "ImportSupportedFlag": false,
+  "exp_status": 200,
+  "ExportSupportedFlag": false
+ },
+ {
+  "area": "ERP",
+  "module": "Project Control",
+  "code": "ORA_PJO_MANAGE_MESSAGES",
+  "name": "Manage Project Control Messages",
+  "imp_status": 200,
+  "ImportSupportedFlag": false,
+  "exp_status": 200,
+  "ExportSupportedFlag": false
+ },
+ {
+  "area": "ERP",
+  "module": "Project Costing Base",
+  "code": "ORA_PJC_MANAGE_MESSAGES",
+  "name": "Manage Project Costing Messages",
+  "imp_status": 200,
+  "ImportSupportedFlag": false,
+  "exp_status": 200,
+  "ExportSupportedFlag": false
+ },
+ {
+  "area": "ERP",
+  "module": "Project Foundation",
+  "code": "ORA_PJF_MANAGE_MESSAGES",
+  "name": "Manage Project Foundation Messages",
+  "imp_status": 200,
+  "ImportSupportedFlag": false,
+  "exp_status": 200,
+  "ExportSupportedFlag": false
+ },
+ {
+  "area": "ERP",
+  "module": "Project Foundation",
+  "code": "PJF_DISTRIBUTE_AND_INSTALL_DESKTOP_INTEGRATOR_CLIENT",
+  "name": "Distribute and Install Desktop Integrator Client",
+  "imp_status": 200,
+  "ImportSupportedFlag": false,
+  "exp_status": 200,
+  "ExportSupportedFlag": false
+ },
+ {
+  "area": "ERP",
+  "module": "Project Foundation",
+  "code": "PJF_MANAGE_ACCOUNTING_PERIODS",
+  "name": "Manage Accounting Periods for Project Financial Management",
+  "imp_status": 200,
+  "ImportSupportedFlag": false,
+  "exp_status": 200,
+  "ExportSupportedFlag": false
+ },
+ {
+  "area": "ERP",
+  "module": "Project Foundation",
+  "code": "PJF_MANAGE_PROJECT_ACCOUNTING_PERIODS",
+  "name": "Manage Project Accounting Periods",
+  "imp_status": 200,
+  "ImportSupportedFlag": false,
+  "exp_status": 200,
+  "ExportSupportedFlag": false
+ },
+ {
+  "area": "ERP",
+  "module": "Project Foundation",
+  "code": "PJF_SUBMIT_PROCESS_TO_REFRESH_RESOURCE_ELEMENTS",
+  "name": "Submit Process to Refresh Resource Breakdown Structure Element Names",
+  "imp_status": 200,
+  "ImportSupportedFlag": false,
+  "exp_status": 200,
+  "ExportSupportedFlag": false
+ },
+ {
+  "area": "ERP",
+  "module": "Project Foundation",
+  "code": "PJF_SUBMIT_PROCESS_TO_UPDATE_WORK_TYPES",
+  "name": "Submit Process to Update Work Types",
+  "imp_status": 200,
+  "ImportSupportedFlag": false,
+  "exp_status": 200,
+  "ExportSupportedFlag": false
+ },
+ {
+  "area": "ERP",
+  "module": "Project Organizations",
+  "code": "ORA_PJF_MANAGE_ORGANIZATION_DATA_ACCESS_FOR_USERS",
+  "name": "Manage Project Organization Classifications Data Access for Users",
+  "imp_status": 200,
+  "ImportSupportedFlag": false,
+  "exp_status": 200,
+  "ExportSupportedFlag": false
+ },
+ {
+  "area": "ERP",
+  "module": "Project Organizations",
+  "code": "PJF_VERIFY_DEFAULT_ASSET_BOOK_SETUP",
+  "name": "Verify Default Asset Book Setup",
+  "imp_status": 200,
+  "ImportSupportedFlag": false,
+  "exp_status": 200,
+  "ExportSupportedFlag": false
+ },
+ {
+  "area": "ERP",
+  "module": "Project Performance Reporting",
+  "code": "ORA_PJS_MANAGE_MESSAGES",
+  "name": "Manage Project Performance Reporting Messages",
+  "imp_status": 200,
+  "ImportSupportedFlag": false,
+  "exp_status": 200,
+  "ExportSupportedFlag": false
+ },
+ {
+  "area": "ERP",
+  "module": "Business License Types",
+  "code": "ORA_PSC_TSK_BL_RECORD_TYPES",
+  "name": "Manage Business License Types",
+  "imp_status": 200,
+  "ImportSupportedFlag": false,
+  "exp_status": 200,
+  "ExportSupportedFlag": false
+ },
+ {
+  "area": "ERP",
+  "module": "Business License Types",
+  "code": "ORA_PSC_TSK_MANAGE_BL_CONFIGURATION",
+  "name": "Manage Business License Configuration",
+  "imp_status": 200,
+  "ImportSupportedFlag": false,
+  "exp_status": 200,
+  "ExportSupportedFlag": false
+ },
+ {
+  "area": "ERP",
+  "module": "Incidents and Cases",
+  "code": "ORA_PSC_INCIDENT_CASE_CFG",
+  "name": "Manage Incident and Case Configuration",
+  "imp_status": 200,
+  "ImportSupportedFlag": false,
+  "exp_status": 200,
+  "ExportSupportedFlag": false
+ },
+ {
+  "area": "ERP",
+  "module": "Incidents and Cases",
+  "code": "ORA_PSC_TSK_CE_ISSUE_SUBTYPE",
+  "name": "Manage Code Enforcement Issue Subtypes",
+  "imp_status": 200,
+  "ImportSupportedFlag": false,
+  "exp_status": 200,
+  "ExportSupportedFlag": false
+ },
+ {
+  "area": "ERP",
+  "module": "Agency Profile",
+  "code": "ORA_PSC_TSK_CONTRACTOR_INTEGRATION_ICS",
+  "name": "Manage Contractor Integration in Integration Cloud Service",
+  "imp_status": 200,
+  "ImportSupportedFlag": false,
+  "exp_status": 200,
+  "ExportSupportedFlag": false
+ },
+ {
+  "area": "ERP",
+  "module": "Agency Profile",
+  "code": "ORA_PSC_TSK_MANAGE_PARCEL",
+  "name": "Manage Parcels",
+  "imp_status": 200,
+  "ImportSupportedFlag": false,
+  "exp_status": 200,
+  "ExportSupportedFlag": false
+ },
+ {
+  "area": "ERP",
+  "module": "Agency Profile",
+  "code": "ORA_PSC_TSK_MANAGE_PARCEL_ADDRESSES",
+  "name": "Manage Parcel Addresses",
+  "imp_status": 200,
+  "ImportSupportedFlag": false,
+  "exp_status": 200,
+  "ExportSupportedFlag": false
+ },
+ {
+  "area": "ERP",
+  "module": "Agency Profile",
+  "code": "ORA_PSC_TSK_MANAGE_PARCEL_DISTRICT",
+  "name": "Manage Parcel Districts",
+  "imp_status": 200,
+  "ImportSupportedFlag": false,
+  "exp_status": 200,
+  "ExportSupportedFlag": false
+ },
+ {
+  "area": "ERP",
+  "module": "Agency Profile",
+  "code": "ORA_PSC_TSK_MANAGE_PARCEL_OWNERS",
+  "name": "Manage Parcel Owners",
+  "imp_status": 200,
+  "ImportSupportedFlag": false,
+  "exp_status": 200,
+  "ExportSupportedFlag": false
+ },
+ {
+  "area": "ERP",
+  "module": "Agency Profile",
+  "code": "ORA_PSC_TSK_MANAGE_PARCEL_VALUES",
+  "name": "Manage Parcel Values",
+  "imp_status": 200,
+  "ImportSupportedFlag": false,
+  "exp_status": 200,
+  "ExportSupportedFlag": false
+ },
+ {
+  "area": "ERP",
+  "module": "Agency Staff",
+  "code": "ORA_PSCR_TSK_IMPORT_AGENCY_STAFF",
+  "name": "Import Agency Staff Data",
+  "imp_status": 200,
+  "ImportSupportedFlag": false,
+  "exp_status": 200,
+  "ExportSupportedFlag": false
+ },
+ {
+  "area": "ERP",
+  "module": "Agency Staff",
+  "code": "ORA_PSC_TSK_MANAGE_AGENCY_STAFF",
+  "name": "Manage Agency Staff",
+  "imp_status": 200,
+  "ImportSupportedFlag": false,
+  "exp_status": 200,
+  "ExportSupportedFlag": false
+ },
+ {
+  "area": "ERP",
+  "module": "Agency Staff",
+  "code": "ORA_PSC_TSK_MANAGE_AGENCY_STAFF_ACCESS",
+  "name": "Manage Agency Staff Access",
+  "imp_status": 200,
+  "ImportSupportedFlag": false,
+  "exp_status": 200,
+  "ExportSupportedFlag": false
+ },
+ {
+  "area": "ERP",
+  "module": "Application Extensions",
+  "code": "FND_MANAGE_MESSAGES",
+  "name": "Manage Messages",
+  "imp_status": 200,
+  "ImportSupportedFlag": false,
+  "exp_status": 200,
+  "ExportSupportedFlag": false
+ },
+ {
+  "area": "ERP",
+  "module": "Branding",
+  "code": "ORA_PSCR_TSK_APPEARANCE_CONFIGURATION",
+  "name": "Manage Appearance Configuration",
+  "imp_status": 200,
+  "ImportSupportedFlag": false,
+  "exp_status": 200,
+  "ExportSupportedFlag": false
+ },
+ {
+  "area": "ERP",
+  "module": "Branding",
+  "code": "ORA_PSC_TSK_MANAGE_APPEARANCE",
+  "name": "Manage Appearance",
+  "imp_status": 200,
+  "ImportSupportedFlag": false,
+  "exp_status": 200,
+  "ExportSupportedFlag": false
+ },
+ {
+  "area": "ERP",
+  "module": "Fees and Payments",
+  "code": "ORA_PSC_TSK_GLOBAL_FEE_ATTRIBUTES",
+  "name": "Manage Global Fee Attributes",
+  "imp_status": 200,
+  "ImportSupportedFlag": true,
+  "exp_status": 200,
+  "ExportSupportedFlag": true
+ },
+ {
+  "area": "ERP",
+  "module": "Fees and Payments",
+  "code": "ORA_PSC_TSK_MNG_FEE_SCHEDULES",
+  "name": "Manage Fee Schedules",
+  "imp_status": 200,
+  "ImportSupportedFlag": false,
+  "exp_status": 200,
+  "ExportSupportedFlag": false
+ },
+ {
+  "area": "ERP",
+  "module": "GIS",
+  "code": "ORA_PSC_TSK_SECURE_MAP_ACCESS",
+  "name": "Manage Secure Map Access",
+  "imp_status": 200,
+  "ImportSupportedFlag": false,
+  "exp_status": 200,
+  "ExportSupportedFlag": false
+ },
+ {
+  "area": "ERP",
+  "module": "Initial Set Up",
+  "code": "ORA_PSCR_TSK_MANAGE_PSC_SEARCH_INDEXES",
+  "name": "Manage Public Sector Search Indexes",
+  "imp_status": 200,
+  "ImportSupportedFlag": false,
+  "exp_status": 200,
+  "ExportSupportedFlag": false
+ },
+ {
+  "area": "ERP",
+  "module": "Initial Set Up",
+  "code": "ORA_PSCR_TSK_RUN_SEC_SETUP_PRCS",
+  "name": "Run Public Sector Security Setup Process",
+  "imp_status": 200,
+  "ImportSupportedFlag": false,
+  "exp_status": 200,
+  "ExportSupportedFlag": false
+ },
+ {
+  "area": "ERP",
+  "module": "Initial Set Up",
+  "code": "ORA_PSC_TSK_OCI_INTEGRATION_SETUP",
+  "name": "Set Up OCI Process Automation Integration",
+  "imp_status": 200,
+  "ImportSupportedFlag": false,
+  "exp_status": 200,
+  "ExportSupportedFlag": false
+ },
+ {
+  "area": "ERP",
+  "module": "Initial Set Up",
+  "code": "ORA_PSC_TSK_RUN_LOAD_PUBLIC_SECTOR_WORKFLOW_TASKS_JOB",
+  "name": "Run Load Public Sector Workflow Tasks Job",
+  "imp_status": 200,
+  "ImportSupportedFlag": false,
+  "exp_status": 200,
+  "ExportSupportedFlag": false
+ },
+ {
+  "area": "ERP",
+  "module": "Initial Set Up",
+  "code": "ORA_PSC_TSK_UPD_NEXT_URL_DEF_UC",
+  "name": "Update Next URL of Default User Category",
+  "imp_status": 200,
+  "ImportSupportedFlag": false,
+  "exp_status": 200,
+  "ExportSupportedFlag": false
+ },
+ {
+  "area": "ERP",
+  "module": "Permit Inspections",
+  "code": "ORA_PSC_TSK_CREATE_INTEG_VOICE_RESP_PROXY_USER",
+  "name": "Create Interactive Voice Response Proxy User",
+  "imp_status": 200,
+  "ImportSupportedFlag": false,
+  "exp_status": 200,
+  "ExportSupportedFlag": false
+ },
+ {
+  "area": "ERP",
+  "module": "Permit Types",
+  "code": "ORA_PSC_TSK_CREATE_PCS_PROXY_USER",
+  "name": "Create Process Cloud Service Proxy User",
+  "imp_status": 200,
+  "ImportSupportedFlag": false,
+  "exp_status": 200,
+  "ExportSupportedFlag": false
+ },
+ {
+  "area": "ERP",
+  "module": "Permit Types",
+  "code": "ORA_PSC_TSK_MANAGE_PERMIT_CUSTOMIZATION",
+  "name": "Manage Permit Configuration",
+  "imp_status": 200,
+  "ImportSupportedFlag": false,
+  "exp_status": 200,
+  "ExportSupportedFlag": false
+ },
+ {
+  "area": "ERP",
+  "module": "Permit Types",
+  "code": "ORA_PSC_TSK_MANAGE_RECORD_TYPES",
+  "name": "Manage Permit Types",
+  "imp_status": 200,
+  "ImportSupportedFlag": false,
+  "exp_status": 200,
+  "ExportSupportedFlag": false
+ },
+ {
+  "area": "ERP",
+  "module": "Permit Types",
+  "code": "ORA_PSC_TSK_MANAGE_WORKFLOW_IN_PCS",
+  "name": "Manage Workflow in Process Cloud Service",
+  "imp_status": 200,
+  "ImportSupportedFlag": false,
+  "exp_status": 200,
+  "ExportSupportedFlag": false
+ },
+ {
+  "area": "ERP",
+  "module": "Permit Types",
+  "code": "ORA_PSC_TSK_UPD_WORKFL_INTEG_CONNECTOR",
+  "name": "Update Workflow Integration Connector",
+  "imp_status": 200,
+  "ImportSupportedFlag": false,
+  "exp_status": 200,
+  "ExportSupportedFlag": false
+ },
+ {
+  "area": "ERP",
+  "module": "Public Users",
+  "code": "ORA_PSC_TSK_MANAGE_PUBLIC_USER_ACCESS",
+  "name": "Manage Public User Access",
+  "imp_status": 200,
+  "ImportSupportedFlag": false,
+  "exp_status": 200,
+  "ExportSupportedFlag": false
+ },
+ {
+  "area": "ERP",
+  "module": "Public Users",
+  "code": "ORA_PSC_TSK_MANAGE_PUBLIC_USER_ROLES",
+  "name": "Manage Public User Roles",
+  "imp_status": 200,
+  "ImportSupportedFlag": false,
+  "exp_status": 200,
+  "ExportSupportedFlag": false
+ },
+ {
+  "area": "ERP",
+  "module": "Reference Entities",
+  "code": "ORA_PSC_TSK_MANAGE_RE_CUSTOMIZATION",
+  "name": "Manage Reference Entity Configuration",
+  "imp_status": 200,
+  "ImportSupportedFlag": false,
+  "exp_status": 200,
+  "ExportSupportedFlag": false
+ },
+ {
+  "area": "ERP",
+  "module": "System Administration",
+  "code": "ORA_OPAL_INTEGRATION_CLOUD_APP",
+  "name": "Provide Secondary Audience URL for Oracle Integration Cloud",
+  "imp_status": 200,
+  "ImportSupportedFlag": false,
+  "exp_status": 200,
+  "ExportSupportedFlag": false
+ },
+ {
+  "area": "ERP",
+  "module": "System Administration",
+  "code": "ORA_OPAL_INTEGRATION_CLOUD_SCOPE_APP",
+  "name": "Provide Primary Audience URL for Oracle Integration Cloud",
+  "imp_status": 200,
+  "ImportSupportedFlag": false,
+  "exp_status": 200,
+  "ExportSupportedFlag": false
+ },
+ {
+  "area": "ERP",
+  "module": "System Administration",
+  "code": "ORA_PSCR_TSK_INTAKE_FORM_CACHE_GENERATION",
+  "name": "Manage Intake Form Cache Generation",
+  "imp_status": 200,
+  "ImportSupportedFlag": false,
+  "exp_status": 200,
+  "ExportSupportedFlag": false
+ },
+ {
+  "area": "ERP",
+  "module": "System Administration",
+  "code": "ORA_PSCR_TSK_INTAKE_FORM_CACHE_REMOVAL",
+  "name": "Manage Intake Form Cache Removal",
+  "imp_status": 200,
+  "ImportSupportedFlag": false,
+  "exp_status": 200,
+  "ExportSupportedFlag": false
+ },
+ {
+  "area": "ERP",
+  "module": "System Administration",
+  "code": "ORA_PSC_TSK_MNG_TWILIO_SECURITY_ENDPOINT",
+  "name": "Manage Twilio Security Endpoint",
+  "imp_status": 200,
+  "ImportSupportedFlag": false,
+  "exp_status": 200,
+  "ExportSupportedFlag": false
+ },
+ {
+  "area": "ERP",
+  "module": "System Administration",
+  "code": "ORA_PSC_TSK_RUN_WF_FAULTED_PRCS_JOB",
+  "name": "Managing Faulted Workflow Processes",
+  "imp_status": 200,
+  "ImportSupportedFlag": false,
+  "exp_status": 200,
+  "ExportSupportedFlag": false
+ },
+ {
+  "area": "ERP",
+  "module": "System Administration",
+  "code": "ORA_PSC_TSK_RUN_WORKLIST_SYNC",
+  "name": "Run Schedule Worklist Sync Process",
+  "imp_status": 200,
+  "ImportSupportedFlag": false,
+  "exp_status": 200,
+  "ExportSupportedFlag": false
+ },
+ {
+  "area": "ERP",
+  "module": "Planning Application Types",
+  "code": "ORA_PSC_TSK_MNG_PLANG_APPL_CFG",
+  "name": "Manage Planning Application Configuration",
+  "imp_status": 200,
+  "ImportSupportedFlag": false,
+  "exp_status": 200,
+  "ExportSupportedFlag": false
+ },
+ {
+  "area": "ERP",
+  "module": "Planning Application Types",
+  "code": "ORA_PSC_TSK_MNG_PNZ_APPL_TYPES",
+  "name": "Manage Planning and Zoning Application Types",
+  "imp_status": 200,
+  "ImportSupportedFlag": false,
+  "exp_status": 200,
+  "ExportSupportedFlag": false
+ },
+ {
+  "area": "SCM",
+  "module": "Cost Accounting",
+  "code": "ORA_CST_MANAGE_COST_ORG_DATA_ACCESS",
+  "name": "Manage Cost Organization Data Access for Users",
+  "imp_status": 200,
+  "ImportSupportedFlag": false,
+  "exp_status": 200,
+  "ExportSupportedFlag": false
+ },
+ {
+  "area": "SCM",
+  "module": "Cost Accounting",
+  "code": "ORA_CST_QUICK_SETUP",
+  "name": "Quick Setup",
+  "imp_status": 200,
+  "ImportSupportedFlag": false,
+  "exp_status": 200,
+  "ExportSupportedFlag": false
+ },
+ {
+  "area": "SCM",
+  "module": "Customers",
+  "code": "ORA_RCS_MANAGE_SUPPLIER",
+  "name": "Manage Intercompany and Contract Manufacturing Suppliers",
+  "imp_status": 200,
+  "ImportSupportedFlag": false,
+  "exp_status": 200,
+  "ExportSupportedFlag": false
+ },
+ {
+  "area": "SCM",
+  "module": "Maintenance Management",
+  "code": "ORA_ASSET_MAINTENANCE_PARAMETERS",
+  "name": "Asset Maintenance Parameters",
+  "imp_status": 200,
+  "ImportSupportedFlag": false,
+  "exp_status": 200,
+  "ExportSupportedFlag": false
+ },
+ {
+  "area": "SCM",
+  "module": "Manufacturing Master Data",
+  "code": "ORA_MNT_DOWNLOAD_ASSET_IMPORT_TEMPLATE",
+  "name": "Download Asset Import Template",
+  "imp_status": 200,
+  "ImportSupportedFlag": false,
+  "exp_status": 200,
+  "ExportSupportedFlag": false
+ },
+ {
+  "area": "SCM",
+  "module": "Manufacturing Master Data",
+  "code": "ORA_MNT_IMPORT_ASSETS",
+  "name": "Import Assets",
+  "imp_status": 200,
+  "ImportSupportedFlag": false,
+  "exp_status": 200,
+  "ExportSupportedFlag": false
+ },
+ {
+  "area": "SCM",
+  "module": "Manufacturing Master Data",
+  "code": "ORA_MNT_LOAD_INTERFACE_ASSET_IMPORT",
+  "name": "Load Interface File for Asset Import",
+  "imp_status": 200,
+  "ImportSupportedFlag": false,
+  "exp_status": 200,
+  "ExportSupportedFlag": false
+ },
+ {
+  "area": "SCM",
+  "module": "Manufacturing Master Data",
+  "code": "ORA_MNT_UPLOAD_ASSET_DATA",
+  "name": "Upload Asset Data",
+  "imp_status": 200,
+  "ImportSupportedFlag": false,
+  "exp_status": 200,
+  "ExportSupportedFlag": false
+ },
+ {
+  "area": "SCM",
+  "module": "Manufacturing Master Data",
+  "code": "ORA_RCS_MANAGE_MFG_PLANT_DATA_ACCESS_FOR_USERS",
+  "name": "Manage Manufacturing Plant Data Access for Users",
+  "imp_status": 200,
+  "ImportSupportedFlag": false,
+  "exp_status": 200,
+  "ExportSupportedFlag": false
+ },
+ {
+  "area": "SCM",
+  "module": "Product Recall Management",
+  "code": "ORA_MANAGE_REGISTRATION_TO_RECEIVE_RECALL_ALERTS",
+  "name": "Manage Registration to Receive Recall Alerts",
+  "imp_status": 200,
+  "ImportSupportedFlag": false,
+  "exp_status": 200,
+  "ExportSupportedFlag": false
+ },
+ {
+  "area": "SCM",
+  "module": "Shipping",
+  "code": "ORA_MANAGE_SHIPPING_DOCUMENT_JOB_SET_RULES",
+  "name": "Manage Shipping Document Job Set Rules",
+  "imp_status": 200,
+  "ImportSupportedFlag": false,
+  "exp_status": 200,
+  "ExportSupportedFlag": false
+ },
+ {
+  "area": "SCM",
+  "module": "Supply Chain Collaboration",
+  "code": "ORA_VCS_MANAGE_MESSAGES",
+  "name": "Manage Supply Chain Collaboration Messages",
+  "imp_status": 200,
+  "ImportSupportedFlag": false,
+  "exp_status": 200,
+  "ExportSupportedFlag": false
+ },
+ {
+  "area": "SCM",
+  "module": "Supply Chain Collaboration",
+  "code": "ORA_VCS_MANAGE_PROCESS_DEFINTIONS",
+  "name": "Manage Supply Chain Collaboration Orchestration Process Definitions",
+  "imp_status": 200,
+  "ImportSupportedFlag": false,
+  "exp_status": 200,
+  "ExportSupportedFlag": false
+ },
+ {
+  "area": "SCM",
+  "module": "Channel Revenue Management",
+  "code": "ORA_CJM_MANAGE_CHANNEL_MESSAGES",
+  "name": "Manage Channel Messages",
+  "imp_status": 200,
+  "ImportSupportedFlag": false,
+  "exp_status": 200,
+  "ExportSupportedFlag": false
+ },
+ {
+  "area": "SCM",
+  "module": "Channel Revenue Management",
+  "code": "ORA_CJM_RUN_MIGRATE_PENDING_APPROVALS_TO_BPM_WORKFLOW_PROCESS",
+  "name": "Run Migrate Pending Approvals to BPM Workflow Process",
+  "imp_status": 200,
+  "ImportSupportedFlag": false,
+  "exp_status": 200,
+  "ExportSupportedFlag": false
+ },
+ {
+  "area": "SCM",
+  "module": "Customers",
+  "code": "ORA_CMK_MANAGE_B2B_CONFIG",
+  "name": "Manage B2B Configuration",
+  "imp_status": 200,
+  "ImportSupportedFlag": false,
+  "exp_status": 200,
+  "ExportSupportedFlag": false
+ },
+ {
+  "area": "SCM",
+  "module": "Customers",
+  "code": "ORA_CMK_MANAGE_COLLAB_MESG_DVM",
+  "name": "Manage Collaboration Messaging Domain Value Map",
+  "imp_status": 200,
+  "ImportSupportedFlag": false,
+  "exp_status": 200,
+  "ExportSupportedFlag": false
+ },
+ {
+  "area": "SCM",
+  "module": "Orders",
+  "code": "DOO_GENERATE_BUCKET_SETS_FOR_BUSINESS_RULES",
+  "name": "Generate Bucket Sets for Business Rules",
+  "imp_status": 200,
+  "ImportSupportedFlag": false,
+  "exp_status": 200,
+  "ExportSupportedFlag": false
+ },
+ {
+  "area": "SCM",
+  "module": "Orders",
+  "code": "DOO_MANAGE_EXTERNAL_INTERFACE_MEDIATORS",
+  "name": "Manage Integration with Oracle Fusion Distributed Order Orchestration",
+  "imp_status": 200,
+  "ImportSupportedFlag": false,
+  "exp_status": 200,
+  "ExportSupportedFlag": false
+ },
+ {
+  "area": "SCM",
+  "module": "Orders",
+  "code": "DOO_MANAGE_EXTERNAL_INTERFACE_TRANSFORMATION_STYLESHEETS",
+  "name": "Manage External Interface Transformation Style Sheets",
+  "imp_status": 200,
+  "ImportSupportedFlag": false,
+  "exp_status": 200,
+  "ExportSupportedFlag": false
+ },
+ {
+  "area": "SCM",
+  "module": "Orders",
+  "code": "DOO_REVIEW_ORCHESTRATION_COLLECTED_DATA",
+  "name": "Review Collected Order Reference Data",
+  "imp_status": 200,
+  "ImportSupportedFlag": false,
+  "exp_status": 200,
+  "ExportSupportedFlag": false
+ },
+ {
+  "area": "SCM",
+  "module": "Orders",
+  "code": "ORA_DOO_PUBLISH_EFF_ATTRIBUTES",
+  "name": "Publish Extensible Flexfield Attributes",
+  "imp_status": 200,
+  "ImportSupportedFlag": false,
+  "exp_status": 200,
+  "ExportSupportedFlag": false
+ },
+ {
+  "area": "SCM",
+  "module": "Orders",
+  "code": "ORA_FOM_COLLECT_ORDER_REFERENCE_DATA",
+  "name": "Collect Order Reference Data",
+  "imp_status": 200,
+  "ImportSupportedFlag": false,
+  "exp_status": 200,
+  "ExportSupportedFlag": false
+ },
+ {
+  "area": "SCM",
+  "module": "Orders",
+  "code": "ORA_FOM_LOAD_ORDER_REFERENCE_DATA_FROM_FLAT_FILES",
+  "name": "Load Order Reference Data from Flat Files",
+  "imp_status": 200,
+  "ImportSupportedFlag": false,
+  "exp_status": 200,
+  "ExportSupportedFlag": false
+ },
+ {
+  "area": "SCM",
+  "module": "Approval Management",
+  "code": "ORA_PON_MANAGE_NEG_APPROVALS",
+  "name": "Manage Supplier Negotiation Approvals",
+  "imp_status": 200,
+  "ImportSupportedFlag": false,
+  "exp_status": 200,
+  "ExportSupportedFlag": false
+ },
+ {
+  "area": "SCM",
+  "module": "Approval Management",
+  "code": "ORA_PON_MANAGE_NEG_AWARD_APPROVALS",
+  "name": "Manage Supplier Negotiation Award Approvals",
+  "imp_status": 200,
+  "ImportSupportedFlag": false,
+  "exp_status": 200,
+  "ExportSupportedFlag": false
+ },
+ {
+  "area": "SCM",
+  "module": "Approval Management",
+  "code": "ORA_PO_MANAGE_INTAKE_REQUEST_APPROVALS",
+  "name": "Manage Intake Request Approvals",
+  "imp_status": 200,
+  "ImportSupportedFlag": false,
+  "exp_status": 200,
+  "ExportSupportedFlag": false
+ },
+ {
+  "area": "SCM",
+  "module": "Approval Management",
+  "code": "ORA_PO_MANAGE_WORK_CONFIRMATION_APPROVALS",
+  "name": "Manage Work Confirmation Approvals",
+  "imp_status": 200,
+  "ImportSupportedFlag": false,
+  "exp_status": 200,
+  "ExportSupportedFlag": false
+ },
+ {
+  "area": "SCM",
+  "module": "Approval Management",
+  "code": "ORA_SCH_MANAGE_EXTERNAL_PURCHASE_PRICE_APPROVALS",
+  "name": "Manage External Purchase Price Approvals",
+  "imp_status": 200,
+  "ImportSupportedFlag": false,
+  "exp_status": 200,
+  "ExportSupportedFlag": false
+ },
+ {
+  "area": "SCM",
+  "module": "Approval Management",
+  "code": "POR_MANAGE_REQUISITION_APPROVALS",
+  "name": "Manage Requisition Approvals",
+  "imp_status": 200,
+  "ImportSupportedFlag": false,
+  "exp_status": 200,
+  "ExportSupportedFlag": false
+ },
+ {
+  "area": "SCM",
+  "module": "Approval Management",
+  "code": "PO_MANAGE_PURCHASING_DOCUMENT_APPROVALS",
+  "name": "Manage Purchasing Document Approvals",
+  "imp_status": 200,
+  "ImportSupportedFlag": false,
+  "exp_status": 200,
+  "ExportSupportedFlag": false
+ },
+ {
+  "area": "SCM",
+  "module": "Approval Management",
+  "code": "PO_MANAGE_TASK_CONFIGURATIONS",
+  "name": "Manage Task Configurations for Procurement",
+  "imp_status": 200,
+  "ImportSupportedFlag": false,
+  "exp_status": 200,
+  "ExportSupportedFlag": false
+ },
+ {
+  "area": "SCM",
+  "module": "Purchasing Foundation",
+  "code": "ORA_PO_MANAGE_PURCHASING_MESSAGES",
+  "name": "Manage Purchasing Messages",
+  "imp_status": 200,
+  "ImportSupportedFlag": false,
+  "exp_status": 200,
+  "ExportSupportedFlag": false
+ },
+ {
+  "area": "SCM",
+  "module": "Self Service Procurement",
+  "code": "ORA_POR_MANAGE_SELF_SERVICE_PROCUREMENT_MESSAGES",
+  "name": "Manage Self Service Procurement Messages",
+  "imp_status": 200,
+  "ImportSupportedFlag": false,
+  "exp_status": 200,
+  "ExportSupportedFlag": false
+ },
+ {
+  "area": "SCM",
+  "module": "Sourcing",
+  "code": "ORA_PON_CONFIGURE_OUTBOUND_PURCHASING_SERVICE",
+  "name": "Configure Negotiation Award Outbound Service",
+  "imp_status": 200,
+  "ImportSupportedFlag": false,
+  "exp_status": 200,
+  "ExportSupportedFlag": false
+ },
+ {
+  "area": "SCM",
+  "module": "Sourcing",
+  "code": "ORA_PON_MANAGE_SOURCING_MESSAGES",
+  "name": "Manage Sourcing Messages",
+  "imp_status": 200,
+  "ImportSupportedFlag": false,
+  "exp_status": 200,
+  "ExportSupportedFlag": false
+ },
+ {
+  "area": "SCM",
+  "module": "Supplier Qualification",
+  "code": "ORA_POQ_MANAGE_SUPPLIER_QUALIFICATION_MESSAGES",
+  "name": "Manage Supplier Qualification Messages",
+  "imp_status": 200,
+  "ImportSupportedFlag": false,
+  "exp_status": 200,
+  "ExportSupportedFlag": false
+ },
+ {
+  "area": "SCM",
+  "module": "Suppliers",
+  "code": "ORA_POZ_LOAD_SUPPLIER_INTERFACE_VIA_SCHEDULED_PROCESS",
+  "name": "Load Supplier Interface through Scheduled Process",
+  "imp_status": 200,
+  "ImportSupportedFlag": false,
+  "exp_status": 200,
+  "ExportSupportedFlag": false
+ },
+ {
+  "area": "SCM",
+  "module": "Suppliers",
+  "code": "ORA_POZ_UPLOAD_SUPPLIER_IMPORT_FILE",
+  "name": "Upload Supplier Import File",
+  "imp_status": 200,
+  "ImportSupportedFlag": false,
+  "exp_status": 200,
+  "ExportSupportedFlag": false
+ },
+ {
+  "area": "SCM",
+  "module": "Items",
+  "code": "CUSTOM_EGP_FBDI_IMPORT_REF_ORG_ITEMS",
+  "name": "Reference Organization Items Import",
+  "imp_status": 404,
+  "ImportSupportedFlag": null,
+  "exp_status": 404,
+  "ExportSupportedFlag": null
+ },
+ {
+  "area": "SCM",
+  "module": "Product Requirements and Ideation Management",
+  "code": "ORA_ACA_REGISTER_AGILE_EDM_FILESERVER",
+  "name": "Register Agile EDM File Server",
+  "imp_status": 200,
+  "ImportSupportedFlag": false,
+  "exp_status": 200,
+  "ExportSupportedFlag": false
+ },
+ {
+  "area": "SCM",
+  "module": "Product Requirements and Ideation Management",
+  "code": "ORA_ACA_REGISTER_AGILE_EDM_SYSTEM",
+  "name": "Register Agile EDM System",
+  "imp_status": 200,
+  "ImportSupportedFlag": false,
+  "exp_status": 200,
+  "ExportSupportedFlag": false
+ },
+ {
+  "area": "SCM",
+  "module": "Product Requirements and Ideation Management",
+  "code": "ORA_ACA_REGISTER_AGILE_PLM",
+  "name": "Register Agile PLM",
+  "imp_status": 200,
+  "ImportSupportedFlag": false,
+  "exp_status": 200,
+  "ExportSupportedFlag": false
+ },
+ {
+  "area": "SCM",
+  "module": "Product Rules",
+  "code": "ORA_EGO_REGISTER_WEB_SRV_WITH_COMPOSER",
+  "name": "Register Web Services through Oracle CRM Application Composer",
+  "imp_status": 200,
+  "ImportSupportedFlag": false,
+  "exp_status": 200,
+  "ExportSupportedFlag": false
+ },
+ {
+  "area": "SCM",
+  "module": "Supplier Portal",
+  "code": "ORA_POZ_SPECIFY_SUP_USER_CATEGORY",
+  "name": "Specify User Category for New Supplier Users",
+  "imp_status": 200,
+  "ImportSupportedFlag": false,
+  "exp_status": 200,
+  "ExportSupportedFlag": false
+ },
+ {
+  "area": "SCM",
+  "module": "Suppliers for Product Management",
+  "code": "ORA_EGP_CREATE_SUPPLIER_IN_PRC",
+  "name": "Create Supplier in Procurement",
+  "imp_status": 200,
+  "ImportSupportedFlag": false,
+  "exp_status": 200,
+  "ExportSupportedFlag": false
+ },
+ {
+  "area": "SCM",
+  "module": "Supply Chain Planning Configuration",
+  "code": "ORA_MSC_COLLECT_PLANNING_DATA",
+  "name": "Collect Planning Data",
+  "imp_status": 200,
+  "ImportSupportedFlag": false,
+  "exp_status": 200,
+  "ExportSupportedFlag": false
+ }
+]

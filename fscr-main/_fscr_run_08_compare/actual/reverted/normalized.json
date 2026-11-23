@@ -1,0 +1,290 @@
+{
+ "sources": {
+  "payment_term": "ETIA-TEST_setup_task_csv_export_ar_manage_receivables_payment_terms_100004733457698.zip",
+  "lookups": "ETIA-TEST_setup_task_csv_export_doo_manage_orchestration_lookups_100004733458228.zip",
+  "grouping_rule": "ETIA-TEST_setup_task_csv_export_ar_manage_autoinvoice_grouping_rules_100004733457710.zip",
+  "business_unit": "ETIA-TEST_setup_task_csv_export_fun_manage_business_unit_100004733458214.zip",
+  "price_list": "rget.py priceLists (Claude's GET reader)",
+  "org_customer": "rget.py hubOrganizations (party, address) + FSCR customer_soap_read (account, site, uses, DFF)"
+ },
+ "records": {
+  "payment_term|FSCRT_2P10N30F1": {
+   "area": "payment_term",
+   "key": "FSCRT_2P10N30F1",
+   "fields": {
+    "SetCode": "ENTERPRISE",
+    "Description": "2 percent off if paid in 10 days, otherwise due in 30",
+    "StartDateActive": "2026-11-03",
+    "EndDateActive": "2028-12-31",
+    "Lines": "1:100:30",
+    "Discounts": "1:2:10"
+   }
+  },
+  "payment_term|FSCRT_D25B75AF1": {
+   "area": "payment_term",
+   "key": "FSCRT_D25B75AF1",
+   "fields": {
+    "SetCode": "ENTERPRISE",
+    "Description": "25 percent deposit at 15 days, balance at 60 days",
+    "StartDateActive": "2026-11-02",
+    "EndDateActive": "2028-12-31",
+    "Lines": "1:25:15;2:75:60",
+    "Discounts": ""
+   }
+  },
+  "lookup_type|FSCRT_CARRIER_SERVICE_TIER_F01": {
+   "area": "lookup_type",
+   "key": "FSCRT_CARRIER_SERVICE_TIER_F01",
+   "fields": {
+    "Meaning": "FSCRT_Carrier service tier F01",
+    "Description": "Shipping service levels offered to dealers",
+    "ModuleId": "61ECAF4AAB00E990E040449821C61C97",
+    "CustomizationLevel": "U",
+    "RestAccessSecured": "AUTH"
+   }
+  },
+  "lookup_type|FSCRT_OUTDOOR_ACTIVITY_F01": {
+   "area": "lookup_type",
+   "key": "FSCRT_OUTDOOR_ACTIVITY_F01",
+   "fields": {
+    "Meaning": "FSCRT_Outdoor activity F01",
+    "Description": "Activities a product is sold for",
+    "ModuleId": "61ECAF4AAB00E990E040449821C61C97",
+    "CustomizationLevel": "U",
+    "RestAccessSecured": "SECURE"
+   }
+  },
+  "lookup_code|FSCRT_CARRIER_SERVICE_TIER_F01/FSCRT_FREIGHT": {
+   "area": "lookup_code",
+   "key": "FSCRT_CARRIER_SERVICE_TIER_F01/FSCRT_FREIGHT",
+   "fields": {
+    "Meaning": "FSCRT_Pallet freight",
+    "Description": "",
+    "EnabledFlag": "Y",
+    "EndDateActive": "",
+    "DisplaySequence": "",
+    "Tag": ""
+   }
+  },
+  "lookup_code|FSCRT_CARRIER_SERVICE_TIER_F01/FSCRT_STANDARD": {
+   "area": "lookup_code",
+   "key": "FSCRT_CARRIER_SERVICE_TIER_F01/FSCRT_STANDARD",
+   "fields": {
+    "Meaning": "FSCRT_Standard ground",
+    "Description": "",
+    "EnabledFlag": "N",
+    "EndDateActive": "",
+    "DisplaySequence": "",
+    "Tag": ""
+   }
+  },
+  "lookup_code|FSCRT_OUTDOOR_ACTIVITY_F01/FSCRT_CLIMBING": {
+   "area": "lookup_code",
+   "key": "FSCRT_OUTDOOR_ACTIVITY_F01/FSCRT_CLIMBING",
+   "fields": {
+    "Meaning": "FSCRT_Climbing",
+    "Description": "",
+    "EnabledFlag": "Y",
+    "EndDateActive": "",
+    "DisplaySequence": "3",
+    "Tag": ""
+   }
+  },
+  "lookup_code|FSCRT_OUTDOOR_ACTIVITY_F01/FSCRT_HIKING": {
+   "area": "lookup_code",
+   "key": "FSCRT_OUTDOOR_ACTIVITY_F01/FSCRT_HIKING",
+   "fields": {
+    "Meaning": "FSCRT_Hiking and trekking",
+    "Description": "Day hikes and multi-day treks",
+    "EnabledFlag": "Y",
+    "EndDateActive": "",
+    "DisplaySequence": "1",
+    "Tag": ""
+   }
+  },
+  "lookup_code|FSCRT_OUTDOOR_ACTIVITY_F01/FSCRT_PADDLING": {
+   "area": "lookup_code",
+   "key": "FSCRT_OUTDOOR_ACTIVITY_F01/FSCRT_PADDLING",
+   "fields": {
+    "Meaning": "FSCRT_Paddling",
+    "Description": "Kayak, canoe and paddleboard gear",
+    "EnabledFlag": "Y",
+    "EndDateActive": "",
+    "DisplaySequence": "2",
+    "Tag": "water"
+   }
+  },
+  "order_type|FSCRT_SO_CONSIGN_F06": {
+   "area": "order_type",
+   "key": "FSCRT_SO_CONSIGN_F06",
+   "fields": {
+    "Meaning": "FSCRT_Dealer Consignment F06",
+    "Description": "Stock placed at dealers on consignment",
+    "EnabledFlag": "Y",
+    "EndDateActive": "",
+    "DisplaySequence": "",
+    "Tag": ""
+   }
+  },
+  "order_type|FSCRT_SO_TRAIL_DEALER_F01": {
+   "area": "order_type",
+   "key": "FSCRT_SO_TRAIL_DEALER_F01",
+   "fields": {
+    "Meaning": "FSCRT_Trail Dealer Replenishment F01",
+    "Description": "Stock refills for trail dealers, retired after October 2027",
+    "EnabledFlag": "Y",
+    "EndDateActive": "2027-10-31",
+    "DisplaySequence": "",
+    "Tag": ""
+   }
+  },
+  "order_type|FSCRT_SO_WARRANTY_SWAP_F01": {
+   "area": "order_type",
+   "key": "FSCRT_SO_WARRANTY_SWAP_F01",
+   "fields": {
+    "Meaning": "FSCRT_Warranty Swap Order F01",
+    "Description": "Replacement under warranty",
+    "EnabledFlag": "Y",
+    "EndDateActive": "",
+    "DisplaySequence": "",
+    "Tag": ""
+   }
+  },
+  "grouping_rule|FSCRT_GRP1": {
+   "area": "grouping_rule",
+   "key": "FSCRT_GRP1",
+   "fields": {
+    "Description": "FSCRT Run04 grouping rule",
+    "StartDate": "2026-11-03",
+    "EndDate": "",
+    "Classes": "I"
+   }
+  },
+  "grouping_rule|FSCRT_GRP6": {
+   "area": "grouping_rule",
+   "key": "FSCRT_GRP6",
+   "fields": {
+    "Description": "FSCRT Run06 consignment grouping rule",
+    "StartDate": "2026-11-03",
+    "EndDate": "",
+    "Classes": "I"
+   }
+  },
+  "business_unit|FSCRT_Brindle Harbor Marine Supply F01": {
+   "area": "business_unit",
+   "key": "FSCRT_Brindle Harbor Marine Supply F01",
+   "fields": {
+    "DefaultSetCode": "ENTERPRISE",
+    "Status": "A",
+    "ManagerListName": "Yaqub, Younas",
+    "InternalLocationCode": "LHR_WH"
+   }
+  },
+  "business_unit|FSCRT_Quillon Ridge Outfitters West F01": {
+   "area": "business_unit",
+   "key": "FSCRT_Quillon Ridge Outfitters West F01",
+   "fields": {
+    "DefaultSetCode": "ENTERPRISE",
+    "Status": "A",
+    "ManagerListName": "Smith, Aron",
+    "InternalLocationCode": ""
+   }
+  },
+  "price_list|FSCRT_Brindle Harbor Dock Equipment EUR F01": {
+   "area": "price_list",
+   "key": "FSCRT_Brindle Harbor Dock Equipment EUR F01",
+   "fields": {
+    "PriceListDescription": "Dock and mooring equipment prices for European marinas, 2027 season",
+    "PriceListTypeCode": "SEGMENT",
+    "BusinessUnit": "FSCRT_Brindle Harbor Marine Supply F01",
+    "CurrencyCode": "EUR",
+    "StatusCode": "APPROVED",
+    "StartDate": "2026-11-03",
+    "EndDate": "2027-09-30",
+    "PricingChargeDefinitionId": "300000000325736",
+    "LineTypeCode": "ORA_BUY",
+    "CalculationMethodCode": "PRICE",
+    "AccessSets": "ENTERPRISE"
+   }
+  },
+  "price_list|FSCRT_Quillon Ridge Wholesale Tents USD F01": {
+   "area": "price_list",
+   "key": "FSCRT_Quillon Ridge Wholesale Tents USD F01",
+   "fields": {
+    "PriceListDescription": "Wholesale tent and shelter prices for retail dealers",
+    "PriceListTypeCode": "SEGMENT",
+    "BusinessUnit": "FSCRT_Quillon Ridge Outfitters West F01",
+    "CurrencyCode": "USD",
+    "StatusCode": "APPROVED",
+    "StartDate": "2026-11-03",
+    "EndDate": "",
+    "PricingChargeDefinitionId": "300000000325736",
+    "LineTypeCode": "ORA_BUY",
+    "CalculationMethodCode": "PRICE",
+    "AccessSets": "ENTERPRISE"
+   }
+  },
+  "org_customer|FSCRT_Kestrel Basin Trading Cooperative F01": {
+   "area": "org_customer",
+   "key": "FSCRT_Kestrel Basin Trading Cooperative F01",
+   "fields": {
+    "DUNSNumber": "204118306",
+    "TaxpayerIdentificationNumber": "84-2210764",
+    "Address1": "2210 Pearl Street",
+    "Address2": "Unit 5",
+    "City": "Boulder",
+    "State": "CO",
+    "PostalCode": "80302",
+    "Country": "US",
+    "Mailstop": "Bay B",
+    "AccountName": "Buying cooperative for trail and outdoor shops",
+    "CustomerType": "R",
+    "CustomerClassCode": "PUBLIC SECTOR COMPANIES",
+    "AccountEstablishedDate": "2026-11-02",
+    "AccountTerminationDate": "2028-12-31",
+    "DFF_accountNotesOther": "Net 45 account, seasonal volume orders",
+    "DFF_shippingInstrustions": "Deliver to loading bay B, weekdays 7am to 3pm",
+    "DFF_customerAgreement": "Two year dealer supply agreement",
+    "SiteSetId": "300000000003463",
+    "SiteStartDate": "2026-11-02",
+    "SiteEndDate": "2028-12-31",
+    "KeyAccountFlag": "Y",
+    "TpHeaderId": "5502101",
+    "EceTpLocationCode": "KBT-EDI-01",
+    "TranslatedCustomerName": "Kestrel Basin Trading Co-op",
+    "SiteUses": "BILL_TO:Y,SHIP_TO:Y"
+   }
+  },
+  "org_customer|FSCRT_Pemberton Cove Boatworks F01": {
+   "area": "org_customer",
+   "key": "FSCRT_Pemberton Cove Boatworks F01",
+   "fields": {
+    "DUNSNumber": "428351077",
+    "TaxpayerIdentificationNumber": "36-9054187",
+    "Address1": "1740 Wynkoop Street",
+    "Address2": "Suite 110",
+    "City": "Denver",
+    "State": "CO",
+    "PostalCode": "80202",
+    "Country": "US",
+    "Mailstop": "Slip 3",
+    "AccountName": "Boat builder and chandlery",
+    "CustomerType": "R",
+    "CustomerClassCode": "PUBLIC SECTOR COMPANIES",
+    "AccountEstablishedDate": "2026-11-03",
+    "AccountTerminationDate": "2029-06-30",
+    "DFF_accountNotesOther": "Rush orders common in spring",
+    "DFF_shippingInstrustions": "Deliver to the slipway office",
+    "DFF_customerAgreement": "Marine parts framework agreement",
+    "SiteSetId": "300000334604945",
+    "SiteStartDate": "2026-11-03",
+    "SiteEndDate": "2029-06-30",
+    "KeyAccountFlag": "Y",
+    "TpHeaderId": "5502103",
+    "EceTpLocationCode": "PCB-EDI-03",
+    "TranslatedCustomerName": "Pemberton Cove Boatworks LLC",
+    "SiteUses": "BILL_TO:Y,SHIP_TO:Y"
+   }
+  }
+ }
+}

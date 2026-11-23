@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xsd:schema elementFormDefault="qualified" targetNamespace="http://xmlns.oracle.com/apps/cdm/foundation/parties/customerAccountService/"
+     sdoJava:package="oracle.apps.cdm.foundation.parties.customerAccountService" xmlns:ns0="http://xmlns.oracle.com/adf/svc/types/"
+     xmlns:ns1="http://xmlns.oracle.com/apps/cdm/foundation/parties/partyService/" xmlns:ns2="http://xmlns.oracle.com/apps/cdm/foundation/parties/flex/custAccount/"
+     xmlns:ns3="http://xmlns.oracle.com/apps/flex/cdm/foundation/parties/custAccountGdf/"
+     xmlns:sdo="commonj.sdo" xmlns:sdoJava="commonj.sdo/java" xmlns:sdoXML="commonj.sdo/xml"
+     xmlns="http://xmlns.oracle.com/apps/cdm/foundation/parties/customerAccountService/"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <xsd:annotation>
+        <xsd:documentation xmlns:oer="http://xmlns.oracle.com/oer">
+            <name>Trading Community Customer Billing Account</name>
+            <description>A customer account or billing account associated with a trading
+                community member.</description>
+            <oer:category name="lba">
+                <value>CdmTop-Customer Data Management</value>
+                <value>CdmTop-Customer Data Management : FoundationTop-Foundation</value>
+                <value>CdmTop-Customer Data Management : FoundationTop-Foundation : FoundationParties-Parties</value>
+            </oer:category>
+            <oer:attributes>
+                <oer:attribute description="Unique identifier for the account created for a Party. Primary Key for the table"
+                     name="CustomerAccountId"/>
+                <oer:attribute description="A foreign key to the HZ_PARTIES table." name="PartyId"/>
+                <oer:attribute description="Who column: indicates the date and time of the last update of the row."
+                     name="LastUpdateDate"/>
+                <oer:attribute description="Account Number" name="AccountNumber"/>
+                <oer:attribute description="Who column: indicates the user who last updated the row."
+                     name="LastUpdatedBy"/>
+                <oer:attribute description="Who column: indicates the date and time of the creation of the row."
+                     name="CreationDate"/>
+                <oer:attribute description="Who column: indicates the user who created the row." name="CreatedBy"/>
+                <oer:attribute description="Who column: indicates the session login associated to the user who last updated the row."
+                     name="LastUpdateLogin"/>
+                <oer:attribute description="Enterprise Service Scheduler: indicates the request ID of the job that created or last updated the row."
+                     name="RequestId"/>
+                <oer:attribute description="Source system name" name="OrigSystem"/>
+                <oer:attribute description="Unique customer identifier from foreign or legacy system"
+                     name="OrigSystemReference"/>
+                <oer:attribute description="Customer status flag. Lookup code for CODE_STATUS" name="Status"/>
+                <oer:attribute description="Receivables lookup code for the CUSTOMER_TYPE attribute. I for internal customers, R for revenue generating external customers."
+                     name="CustomerType"/>
+                <oer:attribute description="Customer class indentifier. For example, an account created fir a reseller or educational customers would have a customer_class_code as reseller or education."
+                     name="CustomerClassCode"/>
+                <oer:attribute description="Tax Code for the Customer" name="TaxCode"/>
+                <oer:attribute description="Indicate if item is tax header or a line item. Y for records that are headers for tax purposes, N for records that are lines."
+                     name="TaxHeaderLevelFlag"/>
+                <oer:attribute description="Tax amount rounding rule" name="TaxRoundingRule"/>
+                <oer:attribute description="Identifies the date when services ordered by the customer will end. Values for this column will take the form DD-MON."
+                     name="CoterminateDayMonth"/>
+                <oer:attribute description="Date when the customer account was originally established through either an Oracle Application or a legacy system"
+                     name="AccountEstablishedDate"/>
+                <oer:attribute description="Date when the customer account was originally terminated through either an Oracle Application or a legacy system"
+                     name="AccountTerminationDate"/>
+                <oer:attribute description="Held bill expiration date" name="HeldBillExpirationDate"/>
+                <oer:attribute description="Indicates if the bill receivable should be held or not. Y for holding the bill, N for bills receivable should not be held."
+                     name="HoldBillFlag"/>
+                <oer:attribute description="Description chosen by external party (but can be entered internally on behalf on the customer)"
+                     name="AccountName"/>
+                <oer:attribute description="Refund Method" name="DepositRefundMethod"/>
+                <oer:attribute description="Identifies an account with a Number Plan Area (NPA) used in telecommunications."
+                     name="NpaNumber"/>
+                <oer:attribute description="Promotion that was used to make the party a customer"
+                     name="SourceCode"/>
+                <oer:attribute description="Free format information about the customer" name="Comments"/>
+                <oer:attribute description="Preference for ship or arrival dates" name="DateTypePreference"/>
+                <oer:attribute description="Indicates if lines include arrival sets. Y for lines included on arrival sets, N for lines not automatically included in arrival sets"
+                     name="ArrivalsetsIncludeLinesFlag"/>
+                <oer:attribute description="Last status update date" name="StatusUpdateDate"/>
+                <oer:attribute description="Flag to indicate Autopay." name="AutopayFlag"/>
+                <oer:attribute description="Last active batch" name="LastBatchId"/>
+                <oer:attribute description="TCA Who column" name="CreatedByModule"/>
+                <oer:attribute description="Identifier of the party entering a business relationship as a seller. A selling party can be an individual or an organization. The Selling Party represents the external facing organization with which the customer is doing business, and is not necessarily a Legal Entity or Operating Unit. Its usage within the ebusiness suite will be phased: Phase 1:Products can join to HZ_PARTIES using the SELLING_PARTY_ID to retrieve the PARTY_NAME for use in a UI. eg a call center application may run on behalf of several internal organizations - displaying the selling party will allow the user to see context for the customer Phase 2:Products can use SELLING_PARTY_ID as a filtering mechanism. eg a profile controls the selling_party_id that a user has access to. The UI would then show accounts matching this party."
+                     name="SellingPartyId"/>
+                <oer:attribute description="Customer Account Contact Information." name="CustomerAccountContact"/>
+                <oer:attribute description="Customer Account Relationship information." name="CustomerAccountRelationship"/>
+                <oer:attribute description="Customer Account Address information." name="CustomerAccountSite"/>
+                <oer:attribute description="Identifier for this record from foreign or legacy system."
+                     name="OriginalSystemReference"/>
+                <oer:attribute description="Customer Account Information" name="CustAcctInformation"/>
+                <oer:attribute description="Customer Account Regional Information" name="CustAccountGdf"/>
+            </oer:attributes>
+        </xsd:documentation>
+    </xsd:annotation>
+    <xsd:import namespace="http://xmlns.oracle.com/adf/svc/types/" schemaLocation="https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/crmService/CustomerAccountService?XSD=/META-INF/wsdl/BC4JService.xsd"/>
+    <xsd:import namespace="http://xmlns.oracle.com/apps/cdm/foundation/parties/partyService/" schemaLocation="https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/crmService/CustomerAccountService?XSD=/oracle/apps/cdm/foundation/parties/partyService/OriginalSystemReference.xsd"/>
+    <xsd:import namespace="http://xmlns.oracle.com/apps/cdm/foundation/parties/flex/custAccount/"
+         schemaLocation="https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/crmService/CustomerAccountService?XSD=/oracle/apps/cdm/foundation/parties/flex/custAccount/CustAcctInformation.xsd"/>
+    <xsd:import namespace="http://xmlns.oracle.com/apps/flex/cdm/foundation/parties/custAccountGdf/"
+         schemaLocation="https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/crmService/CustomerAccountService?XSD=/oracle/apps/flex/cdm/foundation/parties/custAccountGdf/CustAccountGdf.xsd"/>
+    <xsd:import namespace="commonj.sdo/xml" schemaLocation="https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/crmService/CustomerAccountService?XSD=/xml/sdoXML.xsd"/>
+    <xsd:import namespace="commonj.sdo/java" schemaLocation="https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/crmService/CustomerAccountService?XSD=/xml/sdoJava.xsd"/>
+    <xsd:import namespace="commonj.sdo" schemaLocation="https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/crmService/CustomerAccountService?XSD=/xml/sdoModel.xsd"/>
+    <xsd:include schemaLocation="https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/crmService/CustomerAccountService?XSD=/oracle/apps/cdm/foundation/parties/customerAccountService/CustomerAccountContact.xsd"/>
+    <xsd:include schemaLocation="https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/crmService/CustomerAccountService?XSD=/oracle/apps/cdm/foundation/parties/customerAccountService/CustomerAccountRelationship.xsd"/>
+    <xsd:include schemaLocation="https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/crmService/CustomerAccountService?XSD=/oracle/apps/cdm/foundation/parties/customerAccountService/CustomerAccountSite.xsd"/>
+    <xsd:complexType name="CustomerAccount">
+        <xsd:annotation>
+            <xsd:appinfo source="http://xmlns.oracle.com/adf/svc/metadata/">
+                <key xmlns="http://xmlns.oracle.com/adf/svc/metadata/">
+                    <attribute>CustomerAccountId</attribute>
+                </key>
+            </xsd:appinfo>
+        </xsd:annotation>
+        <xsd:sequence>
+            <xsd:element minOccurs="0" name="CustomerAccountId" type="xsd:long" sdoXML:dataType="sdoJava:LongObject"/>
+            <xsd:element minOccurs="0" name="PartyId" type="xsd:long" sdoXML:dataType="sdoJava:LongObject"/>
+            <xsd:element minOccurs="0" name="LastUpdateDate" type="ns0:dateTime-Timestamp"/>
+            <xsd:element minOccurs="0" name="AccountNumber" type="xsd:string"/>
+            <xsd:element minOccurs="0" name="LastUpdatedBy" type="xsd:string"/>
+            <xsd:element minOccurs="0" name="CreationDate" type="ns0:dateTime-Timestamp"/>
+            <xsd:element minOccurs="0" name="CreatedBy" type="xsd:string"/>
+            <xsd:element minOccurs="0" name="LastUpdateLogin" nillable="true" type="xsd:string"/>
+            <xsd:element minOccurs="0" name="RequestId" nillable="true" type="xsd:long"/>
+            <xsd:element minOccurs="0" name="OrigSystem" nillable="true" type="xsd:string"/>
+            <xsd:element minOccurs="0" name="OrigSystemReference" type="xsd:string"/>
+            <xsd:element minOccurs="0" name="Status" type="xsd:string"/>
+            <xsd:element minOccurs="0" name="CustomerType" nillable="true" type="xsd:string"/>
+            <xsd:element minOccurs="0" name="CustomerClassCode" nillable="true" type="xsd:string"/>
+            <xsd:element minOccurs="0" name="TaxCode" nillable="true" type="xsd:string"/>
+            <xsd:element minOccurs="0" name="TaxHeaderLevelFlag" nillable="true" type="xsd:boolean"/>
+            <xsd:element minOccurs="0" name="TaxRoundingRule" nillable="true" type="xsd:string"/>
+            <xsd:element minOccurs="0" name="CoterminateDayMonth" nillable="true" type="xsd:string"/>
+            <xsd:element minOccurs="0" name="AccountEstablishedDate" nillable="true" type="ns0:date-Date"/>
+            <xsd:element minOccurs="0" name="AccountTerminationDate" nillable="true" type="ns0:date-Date"/>
+            <xsd:element minOccurs="0" name="HeldBillExpirationDate" nillable="true" type="ns0:date-Date"/>
+            <xsd:element minOccurs="0" name="HoldBillFlag" nillable="true" type="xsd:boolean"/>
+            <xsd:element minOccurs="0" name="AccountName" nillable="true" type="xsd:string"/>
+            <xsd:element minOccurs="0" name="DepositRefundMethod" nillable="true" type="xsd:string"/>
+            <xsd:element minOccurs="0" name="NpaNumber" nillable="true" type="xsd:string"/>
+            <xsd:element minOccurs="0" name="SourceCode" nillable="true" type="xsd:string"/>
+            <xsd:element minOccurs="0" name="Comments" nillable="true" type="xsd:string"/>
+            <xsd:element minOccurs="0" name="DateTypePreference" nillable="true" type="xsd:string"/>
+            <xsd:element minOccurs="0" name="ArrivalsetsIncludeLinesFlag" nillable="true" type="xsd:boolean"/>
+            <xsd:element minOccurs="0" name="StatusUpdateDate" nillable="true" type="ns0:date-Date"/>
+            <xsd:element minOccurs="0" name="AutopayFlag" nillable="true" type="xsd:boolean"/>
+            <xsd:element minOccurs="0" name="LastBatchId" nillable="true" type="xsd:long"/>
+            <xsd:element minOccurs="0" name="CreatedByModule" nillable="true" type="xsd:string"/>
+            <xsd:element minOccurs="0" name="SellingPartyId" nillable="true" type="xsd:long"/>
+            <xsd:element maxOccurs="unbounded" minOccurs="0" name="CustomerAccountContact" type="CustomerAccountContact"
+                 sdoXML:dataType="sdo:DataObject"/>
+            <xsd:element maxOccurs="unbounded" minOccurs="0" name="CustomerAccountRelationship" type="CustomerAccountRelationship"/>
+            <xsd:element maxOccurs="unbounded" minOccurs="0" name="CustomerAccountSite" type="CustomerAccountSite"/>
+            <xsd:element maxOccurs="unbounded" minOccurs="0" name="OriginalSystemReference" type="ns1:OriginalSystemReference"/>
+            <xsd:element minOccurs="0" name="CustAcctInformation" type="ns2:CustAcctInformation" sdoXML:dataType="sdo:DataObject"/>
+            <xsd:element minOccurs="0" name="CustAccountGdf" type="ns3:CustAccountGdf" sdoXML:dataType="sdo:DataObject"/>
+        </xsd:sequence>
+    </xsd:complexType>
+    <xsd:complexType name="CustomerAccountResult">
+        <xsd:complexContent>
+            <xsd:extension base="ns0:MethodResult">
+                <xsd:sequence>
+                    <xsd:element maxOccurs="unbounded" minOccurs="0" name="Value" type="CustomerAccount"/>
+                </xsd:sequence>
+            </xsd:extension>
+        </xsd:complexContent>
+    </xsd:complexType>
+    <xsd:element name="customerAccount" type="CustomerAccount"/>
+    <xsd:element name="customerAccountResult" type="CustomerAccountResult"/>
+</xsd:schema>

@@ -1,0 +1,26 @@
+Environment: etia-test
+Revision: 11.13.26.10.0
+
+The configuration package Manage Certifying Agencies_20261117_075842_707 was generated using setup data from environment etia-test with 11.13.26.10.0 revision.
+
+Request ID: 4,466,190. Status: In progress. Submitted By: Configuration.TEST. Process Date: 11/17/26 8:08 AM.
+
+Business object: Supplier Certifying Agency. Status: Completed with errors. Status details: Cannot invoke \"org.w3c.dom.Node.getTextContent()\" because the return value of \"org.w3c.dom.NodeList.item(int)\" is null
+
+
+Review and report the errors for this object to product Supplier Model.
+
+Business object: Supplier Certifying Agency: Business Classifications. Status: Completed with errors. Status details: This object was already processed. The import or export details were listed under the Supplier Certifying Agency business object.
+
+Total Objects Processed: 2
+
+Total Objects Succeeded: 0
+
+Total Objects Failed: 2
+
+Total Objects with Warnings: 0
+
+Total Objects for External Loading: 0
+
+Request ID: 4,466,190. Status: Completed with errors. Submitted By: Configuration.TEST. Process Date: 11/17/26 8:08 AM.
+

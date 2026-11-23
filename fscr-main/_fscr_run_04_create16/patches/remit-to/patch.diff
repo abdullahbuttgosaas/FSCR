@@ -1,0 +1,4 @@
+1773c1773
+<             or parsed.hostname.split(".")[0].casefold() != environment.casefold()
+---
+>             or environment.casefold() not in parsed.hostname.casefold()  # RUN04 PATCH: pod host is fa-<env>-saasfaprod1...

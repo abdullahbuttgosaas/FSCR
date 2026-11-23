@@ -1,0 +1,92 @@
+{
+ "_note": "Claude's selection of offerings and functional areas from the SOW (50513scm). FA codes from knowledge/setup-task-catalog/effective/offering-functional-area-task-catalog.json. status: new | incremental | conditional",
+ "offerings": [
+  {"code":"ORA_MANUFACTURING_AND_SUPPLY_C","pillar":"SCM","status":"new","sow":"SCM 2, 6, 7; Fin 4","fas":[
+    ["ORA_ASK_INITIAL_USER","Common foundation (all new SCM offerings)"],
+    ["ORA_ASK_ENTERPRISE_PROFILE","Common foundation"],
+    ["ORA_ASK_LEGAL_STRUCTURES","Existing LE reused; verify only (Fin 3)"],
+    ["ORA_ASK_FIN_REPORTING_STRUCT","Existing ledger/COA reused; verify only"],
+    ["ORA_ASK_ORGANIZATION_STRUCTURE","Fin 3.1 BU updates"],
+    ["ORA_RCS_FACILITIES","SCM 2.2 plants as inventory orgs; 6.1 plants"],
+    ["ORA_ASK_USERS_AND_SECURITY","Config scope 12 Security and Roles"],
+    ["ORA_EGP_FA_ITEMS","SCM 1.1-1.2, 2.1"],
+    ["ORA_EGP_FA_CATALOGS","SCM 2.1 item categories (Claude inference)"],
+    ["ORA_WSH_INVENTORY_MGMT","SCM 2.1"],
+    ["WSH_ENABLE_RECEIVING","SCM 2.1 receiving, RTV, putaway"],
+    ["CMR_RECEIPT_ACCOUNTING","SCM 3.4 PO receipt accounting; Fin 1.2"],
+    ["CST_DEFINE_COST_MANAGEMENT","SCM 2.3-2.6"],
+    ["ORA_WIS_COMMON_MFG_WORK_SETUP","SCM 6.1-6.4 (process mfg); 7.3 maintenance work definitions"],
+    ["EGO_ADVANCED_PRODUCT_STRUCT","SCM 1.3 manufacturing and maintenance structures"],
+    ["ORA_MNT_MGMT","SCM 7.1-7.7"],
+    ["ORA_SUS_SUSTAINABILITY","Fin 4.1-4.2 (FA is in 3 offerings; placed here, NV)"]
+  ],"excluded":[
+    ["ORA_EGP_CUSTOMER","No customer scope in SOW"],
+    ["ORA_RCS_CARRIERS_TRANSIT_TIMES","No shipping scope"],
+    ["ORA_ADVANCED_INVENTORY_MANAGEMENT","Not named in SOW"],
+    ["WSH_ENABLE_SHIPPING","No outbound shipping scope"],
+    ["CST_COST_AND_PROFIT_PLANNING","Not named"],
+    ["ORA_CML_LANDED_COST_MGMT","Not named"],
+    ["JMF_INTRASTAT","US only (C.7)"],
+    ["ORA_VCS_SUPPLY_COLLABORATION","Not named"],
+    ["ORA_DOS_SUPPLY_CHAIN_ORCH","Not named"],
+    ["ORA_FOS_SUPPLY_CHAIN_FIN_FLOW","1 country; LE count not recorded; revisit if >1 LE"],
+    ["ORA_RCL","Not named"],
+    ["ORA_ENQ_PRODUCT_RECALL_MANAGEMENT","Not named"],
+    ["ORA_EGP_SUPPLIERS","Supplier setup taken under PO_PROCUREMENT"],
+    ["ORA_ASK_APPLICATION_EXTENSIONS","No extensions in scope (RICE 3)"]
+  ]},
+  {"code":"PO_PROCUREMENT","pillar":"SCM","status":"new","sow":"SCM 3, 4, 5; RICE 2 suppliers","fas":[
+    ["ORA_ASK_WORKFORCE_STRUCTURE","Approvals/DOA need jobs/positions (C.5.1 employees exist)"],
+    ["ORA_ASK_USERS_AND_SECURITY","Security and Roles"],
+    ["ORA_PO_PURCHASING_CAT_FA","Purchasing categories (Coupa reuse 3.5)"],
+    ["ORA_EGP_SUPPLIERS","RICE 2 supplier conversion; 5.4"],
+    ["ORA_PO_APPROVAL_MANAGEMENT_FA","3.3, 4.2 DOA"],
+    ["ORA_PO_PROC_FOUNDATION_FA","Procurement BU, agents, line types"],
+    ["ORA_PO_PURCHASING_FOUNDATION","4.1"],
+    ["ORA_PO_PRC_TRX_ACC_RULES_FA","3.4 project and non-project accounting rules"],
+    ["PO_SSP_DEPLOYED","3.1-3.2"],
+    ["PO_SUP_PORTAL_DEPLOYED","5.1-5.4"],
+    ["FIN_PAYABLES_DEPLOYED","Payables incremental (Config scope 5)"]
+  ],"excluded":[
+    ["ORA_ASK_INITIAL_USER","Covered under ORA_MANUFACTURING_AND_SUPPLY_C"],
+    ["ORA_ASK_ENTERPRISE_PROFILE","Covered under ORA_MANUFACTURING_AND_SUPPLY_C"],
+    ["ORA_ASK_LEGAL_STRUCTURES","Covered under ORA_MANUFACTURING_AND_SUPPLY_C"],
+    ["ORA_ASK_FIN_REPORTING_STRUCT","Covered under ORA_MANUFACTURING_AND_SUPPLY_C"],
+    ["ORA_ASK_ORGANIZATION_STRUCTURE","Covered under ORA_MANUFACTURING_AND_SUPPLY_C"],
+    ["ORA_EGP_FA_ITEMS","Covered under ORA_MANUFACTURING_AND_SUPPLY_C"],
+    ["WSH_ENABLE_RECEIVING","Covered under ORA_MANUFACTURING_AND_SUPPLY_C"],
+    ["CMR_RECEIPT_ACCOUNTING","Covered under ORA_MANUFACTURING_AND_SUPPLY_C"],
+    ["ORA_EXTERNAL_PURCHASE_PRICES","Not named"],
+    ["ORA_FIN_PAYMENTS","Existing production; not named for change"],
+    ["ORA_CE_CASH_MGMT_BANK","Remediation TBD (S5); not mapped to tasks"],
+    ["FIN_APPLICABILITY_ZX","Not named"],
+    ["ORA_CJM_SUPPLIER_INCENTIVES","Not named"],
+    ["PO_SOURCING_DEPLOYED","Not named"],
+    ["ORA_PO_QUALIFICATION_DEPLOYED","Not named"],
+    ["OKC_PROC_CONTRACTS_ENABLED","Not named"],
+    ["ORA_PO_COMPLIANCE_CHECKLISTS_FA","Not named"],
+    ["ORA_SUS_SUSTAINABILITY","Covered under ORA_MANUFACTURING_AND_SUPPLY_C"],
+    ["ORA_ASK_APPLICATION_EXTENSIONS","No extensions"]
+  ]},
+  {"code":"PIM_PROD_MNG","pillar":"SCM","status":"new","sow":"SCM 1","fas":[
+    ["ORA_EGP_FA_INVENTORY_ORGANIZAT","SCM 2.2 (inventory orgs)"],
+    ["ORA_EGP_FA_ITEM_ORGANIZATIONS","Item master org (E7 open)"]
+  ],"excluded":[
+    ["ORA_EGP_FA_ITEMS","Covered under ORA_MANUFACTURING_AND_SUPPLY_C"],
+    ["EGO_ADVANCED_PRODUCT_STRUCT","Covered under ORA_MANUFACTURING_AND_SUPPLY_C"],
+    ["EGO_CHANGE_ORDERS","Not named"],
+    ["EGO_NEW_ITEM_REQUESTS","Not named"],
+    ["PO_SUP_PORTAL_DEPLOYED","Covered under PO_PROCUREMENT"],
+    ["other PIM FAs","Not named in SOW"]
+  ]},
+  {"code":"PJF_PROJ_MNG","pillar":"ERP","status":"incremental","sow":"Fin 1.1-1.2; Config scope 8","fas":[
+    ["ORA_PJC_PROJ_COSTING_BASE_FA","Project commitments, PO receipts and AP invoices on projects"]
+  ],"excluded":[["all other PJF FAs","Existing production; changes TBD (S5)"]]},
+  {"code":"XLE_FINANCIALS_JUR","pillar":"ERP","status":"incremental","sow":"Fin intro, 2, 5, 7","fas":[
+    ["ORA_FIN_GENERAL_LEDGER","Fin 7 GL/SLA incremental"],
+    ["FIN_FIXED_ASSETS_DEPLOYED","Fin 2.1 Asset Management incremental"],
+    ["FIN_EXPENSES_DEPLOYED","CONDITIONAL: Fin 5.1 design session decides"]
+  ],"excluded":[["all other XLE FAs","Existing production; changes TBD (S5)"]]},
+  {"code":"ORA_GMS_GRANTS_MANAGEMENT","pillar":"ERP","status":"incremental","sow":"Fin intro","fas":[],"excluded":[["all FAs","Remediation TBD (S5); no tasks mapped"]]}
+ ]
+}

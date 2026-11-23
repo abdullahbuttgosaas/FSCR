@@ -1,0 +1,14 @@
+{
+  "$schema": "../../../../../../schemas/implementation-objective.schema.json",
+  "objective": "Security module test",
+  "customer": "FSCRT_AB_Test",
+  "pillars": [
+    "ERP"
+  ],
+  "offerings": [
+    "Risk and Security"
+  ],
+  "countries": [],
+  "industry": "TBD",
+  "implementation_phase": "discovery"
+}

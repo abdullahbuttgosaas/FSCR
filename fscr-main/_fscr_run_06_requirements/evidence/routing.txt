@@ -1,0 +1,2 @@
+DOO_MANAGE_ORCHESTRATION_LOOKUPS | Manage Order Lookups | CSV Y | offerings mentioning code in catalog: 2
+AR_MANAGE_AUTOINVOICE_GROUPING_RULES | Manage AutoInvoice Grouping Rules | CSV Y | offerings mentioning code in catalog: 5

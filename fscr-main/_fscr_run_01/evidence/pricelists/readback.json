@@ -1,0 +1,151 @@
+{
+  "items" : [ {
+    "PriceListName" : "FSCRT_Brindle Harbor Dock Equipment EUR F01",
+    "PriceListId" : "300000394623080",
+    "PriceListDescription" : "Dock and mooring equipment prices for European marinas",
+    "PriceListType" : "Segment price list",
+    "PriceListTypeCode" : "SEGMENT",
+    "BusinessUnit" : "FSCRT_Brindle Harbor Marine Supply F01",
+    "BusinessUnitId" : "300000394664009",
+    "Currency" : "Euro",
+    "CurrencyCode" : "EUR",
+    "Status" : "In progress",
+    "StatusCode" : "IN_PROGRESS",
+    "StartDate" : "2026-11-03T00:00:00+00:00",
+    "EndDate" : "2027-10-31T23:59:59+00:00",
+    "EntityApprovalStatus" : null,
+    "EntityApprovalStatusCode" : null,
+    "PricingChargeDefinition" : "Sale Price",
+    "PricingChargeDefinitionCode" : "QP_SALE_PRICE",
+    "PricingChargeDefinitionId" : "300000000325736",
+    "LineType" : "Buy",
+    "LineTypeCode" : "ORA_BUY",
+    "CalculationMethod" : "Price",
+    "CalculationMethodCode" : "PRICE",
+    "CreationDate" : "2026-11-03T01:43:16.001+00:00",
+    "CreatedBy" : "Configuration.TEST",
+    "LastUpdateDate" : "2026-11-03T01:43:16.462+00:00",
+    "LastUpdatedBy" : "Configuration.TEST",
+    "ChangeTypeCode" : null,
+    "ChangeType" : null,
+    "accessSets" : {
+      "items" : [ {
+        "PriceListSetId" : "300000394623081",
+        "PriceListId" : "300000394623080",
+        "AccessSetName" : "Enterprise Set",
+        "AccessSetCode" : "ENTERPRISE",
+        "AccessSetId" : "300000000003463",
+        "AccessSetDescription" : null,
+        "EntityApprovalStatus" : null,
+        "EntityApprovalStatusCode" : null,
+        "CreationDate" : "2026-11-03T01:43:16.317+00:00",
+        "CreatedBy" : "Configuration.TEST",
+        "LastUpdateDate" : "2026-11-03T01:43:16.489+00:00",
+        "LastUpdatedBy" : "Configuration.TEST",
+        "ChangeTypeCode" : null,
+        "ChangeType" : null,
+        "@context" : {
+          "key" : "300000394623081",
+          "headers" : {
+            "ETag" : "ACED0005737200136A6176612E7574696C2E41727261794C6973747881D21D99C7619D03000149000473697A65787000000001770400000001737200116A6176612E6C616E672E496E746567657212E2A0A4F781873802000149000576616C7565787200106A6176612E6C616E672E4E756D62657286AC951D0B94E08B02000078700000000178"
+          }
+        }
+      } ],
+      "count" : 1,
+      "hasMore" : false,
+      "limit" : 25,
+      "offset" : 0,
+      "links" : [ {
+        "rel" : "self",
+        "href" : "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/priceLists/300000394623080/child/accessSets",
+        "name" : "accessSets",
+        "kind" : "collection"
+      } ]
+    },
+    "@context" : {
+      "key" : "300000394623080",
+      "headers" : {
+        "ETag" : "ACED0005737200136A6176612E7574696C2E41727261794C6973747881D21D99C7619D03000149000473697A65787000000001770400000001737200116A6176612E6C616E672E496E746567657212E2A0A4F781873802000149000576616C7565787200106A6176612E6C616E672E4E756D62657286AC951D0B94E08B02000078700000000178"
+      }
+    }
+  }, {
+    "PriceListName" : "FSCRT_Quillon Ridge Wholesale Tents USD F01",
+    "PriceListId" : "300000394622041",
+    "PriceListDescription" : "Wholesale tent and shelter prices for retail dealers",
+    "PriceListType" : "Segment price list",
+    "PriceListTypeCode" : "SEGMENT",
+    "BusinessUnit" : "FSCRT_Quillon Ridge Outfitters West F01",
+    "BusinessUnitId" : "300000394664006",
+    "Currency" : "US Dollar",
+    "CurrencyCode" : "USD",
+    "Status" : "In progress",
+    "StatusCode" : "IN_PROGRESS",
+    "StartDate" : "2026-11-03T00:00:00+00:00",
+    "EndDate" : null,
+    "EntityApprovalStatus" : null,
+    "EntityApprovalStatusCode" : null,
+    "PricingChargeDefinition" : "Sale Price",
+    "PricingChargeDefinitionCode" : "QP_SALE_PRICE",
+    "PricingChargeDefinitionId" : "300000000325736",
+    "LineType" : "Buy",
+    "LineTypeCode" : "ORA_BUY",
+    "CalculationMethod" : "Price",
+    "CalculationMethodCode" : "PRICE",
+    "CreationDate" : "2026-11-03T01:43:04.001+00:00",
+    "CreatedBy" : "Configuration.TEST",
+    "LastUpdateDate" : "2026-11-03T01:43:04.607+00:00",
+    "LastUpdatedBy" : "Configuration.TEST",
+    "ChangeTypeCode" : null,
+    "ChangeType" : null,
+    "accessSets" : {
+      "items" : [ {
+        "PriceListSetId" : "300000394622042",
+        "PriceListId" : "300000394622041",
+        "AccessSetName" : "Enterprise Set",
+        "AccessSetCode" : "ENTERPRISE",
+        "AccessSetId" : "300000000003463",
+        "AccessSetDescription" : null,
+        "EntityApprovalStatus" : null,
+        "EntityApprovalStatusCode" : null,
+        "CreationDate" : "2026-11-03T01:43:04.430+00:00",
+        "CreatedBy" : "Configuration.TEST",
+        "LastUpdateDate" : "2026-11-03T01:43:04.633+00:00",
+        "LastUpdatedBy" : "Configuration.TEST",
+        "ChangeTypeCode" : null,
+        "ChangeType" : null,
+        "@context" : {
+          "key" : "300000394622042",
+          "headers" : {
+            "ETag" : "ACED0005737200136A6176612E7574696C2E41727261794C6973747881D21D99C7619D03000149000473697A65787000000001770400000001737200116A6176612E6C616E672E496E746567657212E2A0A4F781873802000149000576616C7565787200106A6176612E6C616E672E4E756D62657286AC951D0B94E08B02000078700000000178"
+          }
+        }
+      } ],
+      "count" : 1,
+      "hasMore" : false,
+      "limit" : 25,
+      "offset" : 0,
+      "links" : [ {
+        "rel" : "self",
+        "href" : "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/priceLists/300000394622041/child/accessSets",
+        "name" : "accessSets",
+        "kind" : "collection"
+      } ]
+    },
+    "@context" : {
+      "key" : "300000394622041",
+      "headers" : {
+        "ETag" : "ACED0005737200136A6176612E7574696C2E41727261794C6973747881D21D99C7619D03000149000473697A65787000000001770400000001737200116A6176612E6C616E672E496E746567657212E2A0A4F781873802000149000576616C7565787200106A6176612E6C616E672E4E756D62657286AC951D0B94E08B02000078700000000178"
+      }
+    }
+  } ],
+  "count" : 2,
+  "hasMore" : false,
+  "limit" : 25,
+  "offset" : 0,
+  "links" : [ {
+    "rel" : "self",
+    "href" : "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/priceLists",
+    "name" : "priceLists",
+    "kind" : "collection"
+  } ]
+}

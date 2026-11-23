@@ -1,0 +1,7 @@
+seq,task_code,task_name,functional_area,level,sample_group,catalog_offering,catalog_functional_area,catalog_display_sequence,fscr_prerequisites_found,oracle_sourced_prerequisites
+1,ORA_GTG_ACTIVATE_AUDIT_POLICIES,Activate Audit Policies,Activate Algorithms,a,Skill + route,Risk and Security,Activate Algorithms,1,ORA_GTG_ACTIVATE_ALGORITHMS,
+2,ORA_GTG_ADD_EPM_DATA_SOURCES,Add EPM Data Sources,Add Other Data Sources,a,Skill + route,Risk and Security,Add Other Data Sources,1,ORA_GTG_ADD_OTHER_DATA_SOURCES,
+3,ORA_GTG_ASSIGN_DEFAULT_PROCESS_OWNERS,Assign Default Process Owners,Assign Initial Users,a,Skill + route,Risk and Security,Assign Initial Users,1,,
+4,ORA_GTG_ACTIVATE_ALGORITHMS,Activate Algorithms,Activate Algorithms,a,Skill + route,Risk and Security,Activate Algorithms,2,ORA_GTG_ACTIVATE_AUDIT_POLICIES,
+5,ORA_GTG_ADD_OTHER_DATA_SOURCES,Add Other Data Sources,Add Other Data Sources,a,Skill + route,Risk and Security,Add Other Data Sources,2,ORA_GTG_ADD_EPM_DATA_SOURCES,
+6,ORA_GTG_ASSIGN_RISK_POWER_USER_ROLE,Assign Risk Power User Role,Assign Initial Users,a,Skill + route,Risk and Security,Assign Initial Users,2,ORA_GTG_ASSIGN_DEFAULT_PROCESS_OWNERS,

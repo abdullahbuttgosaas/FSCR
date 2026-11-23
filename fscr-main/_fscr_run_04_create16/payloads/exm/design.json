@@ -1,0 +1,1 @@
+{"operations":[{"id":"x1","action":"create","entity":"EXM_EXCHANGE_RATE_OPTION","targetKey":{"BuName":"FSCRT_Quillon Ridge Outfitters West F01"},"values":{"DfltExchangeRateFlag":"Y","UserConversionType":"Corporate","WarningTolerance":"5","ErrorTolerance":"10","DispWarningToUser":"Y"}}]}

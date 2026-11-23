@@ -1,0 +1,67 @@
+<MigrationProcessCSVMetadataVO>
+   <MigrationProcessCSVMetadataVORow>
+      <ProcessId>-999</ProcessId>
+      <ProcessName>Manage Conversion Rate Types_20261116_033005_602</ProcessName>
+      <ProcessDescription>Manage Conversion Rate Types_20261116_033005_602</ProcessDescription>
+      <ProcessDate>2026-11-16 15:30:26.971</ProcessDate>
+      <ObjectShortName>GL_MANAGE_CONVERSION_RATE_TYPES</ObjectShortName>
+      <ObjectType>TASK</ObjectType>
+      <CreatedByFlow>TASK_CSV_SERVICE</CreatedByFlow>
+      <ProcessType>EXPORT</ProcessType>
+      <ProcessStatus>COMPLETED</ProcessStatus>
+      <ProcessEnv>etia-test</ProcessEnv>
+      <ProcessStartDate>2026-11-16 15:30:05.683</ProcessStartDate>
+      <ProcessEndDate>2026-11-16 15:30:26.971</ProcessEndDate>
+      <ProcessRelease>11.13.26.10.0</ProcessRelease>
+      <SubmittedBy>Configuration.TEST</SubmittedBy>
+      <ESSRequestId>4464449</ESSRequestId>
+      <MigrationProcessBusinessObjectCSVMetadata1>
+         <MigrationProcessBusinessObjectCSVMetadataVORow>
+            <ProcessId>-999</ProcessId>
+            <BusinessObjectShortName>GL_DAILY_CONVERSION_TYPE</BusinessObjectShortName>
+            <BatchName>DailyConversionType</BatchName>
+            <XmlAttributeList>UserConversionType,LastUpdateDate,LastUpdatedBy,CreationDate,CreatedBy,LastUpdateLogin,Description,Attribute1,Attribute2,Attribute3,Attribute4,Attribute5,Attribute6,Attribute7,Attribute8,Attribute9,Attribute10,Attribute11,Attribute12,Attribute13,Attribute14,Attribute15,FemEnabledFlag,FemScenario,FemRateTypeCode,FemTimeframe,SecurityFlag,PivotCurrencyCode,EnforceInverseRateFlag,UserOverrideCrossRateFlag,EnableCrossRateFlag,AttributeCategory</XmlAttributeList>
+            <XmlAttributeTypeList>string,dateTime,string,dateTime,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,int,string,string,string,string,string,string</XmlAttributeTypeList>
+            <XmlNodePath>/DailyConversionTypeVO/DailyConversionTypeVORow</XmlNodePath>
+            <NodeSequence>1</NodeSequence>
+         </MigrationProcessBusinessObjectCSVMetadataVORow>
+         <MigrationProcessBusinessObjectCSVMetadataVORow>
+            <ProcessId>-999</ProcessId>
+            <BusinessObjectShortName>ORA_GL_CONVERSION_RATE_RULE</BusinessObjectShortName>
+            <BatchName>DailyConversionType</BatchName>
+            <XmlAttributeList>FromCurrency,ToCurrency,EnabledFlag,LastUpdateDate,LastUpdatedBy,CreationDate,CreatedBy,LastUpdateLogin</XmlAttributeList>
+            <XmlAttributeTypeList>string,string,string,dateTime,string,dateTime,string,string</XmlAttributeTypeList>
+            <XmlNodePath>/DailyConversionTypeVO/DailyConversionTypeVORow/CrossRateRule/CrossRateRuleVORow</XmlNodePath>
+            <NodeSequence>2</NodeSequence>
+         </MigrationProcessBusinessObjectCSVMetadataVORow>
+      </MigrationProcessBusinessObjectCSVMetadata1>
+      <MigrationProcessBatchCSVMetadata>
+         <MigrationProcessBatchCSVMetadataVORow>
+            <ProcessId>-999</ProcessId>
+            <BatchName>DailyConversionType</BatchName>
+            <ImportSequence>0</ImportSequence>
+            <ServiceName>oracle.apps.financials.generalLedger.currencies.manageRate.currenciesService.CurrenciesService</ServiceName>
+            <BatchSize>500</BatchSize>
+         </MigrationProcessBatchCSVMetadataVORow>
+      </MigrationProcessBatchCSVMetadata>
+      <MigrationProcessScopeValueCSVMetadata null="true"/>
+      <MigrationProcessMigrationObjectCSVMetadata>
+         <MigrationProcessMigrationObjectCSVMetadataVORow>
+            <ProcessId>-999</ProcessId>
+            <BusinessObjectShortName>GL_DAILY_CONVERSION_TYPE</BusinessObjectShortName>
+            <MigrateFlag>Y</MigrateFlag>
+            <IncludeExternalDataFlag>Y</IncludeExternalDataFlag>
+            <ServiceType null="true"/>
+         </MigrationProcessMigrationObjectCSVMetadataVORow>
+         <MigrationProcessMigrationObjectCSVMetadataVORow>
+            <ProcessId>-999</ProcessId>
+            <BusinessObjectShortName>ORA_GL_CONVERSION_RATE_RULE</BusinessObjectShortName>
+            <MigrateFlag>Y</MigrateFlag>
+            <IncludeExternalDataFlag>Y</IncludeExternalDataFlag>
+            <ServiceType null="true"/>
+         </MigrationProcessMigrationObjectCSVMetadataVORow>
+      </MigrationProcessMigrationObjectCSVMetadata>
+      <MigrationProcessTaskCSVMetadata null="true"/>
+      <MigrationProcessServiceVersionCSVMetadata null="true"/>
+   </MigrationProcessCSVMetadataVORow>
+</MigrationProcessCSVMetadataVO>

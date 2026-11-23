@@ -1,0 +1,7 @@
+area,total,with_skill_or_guide,skill_but_no_csv_rest_route,route_only_csv_no_skill,no_skill_no_route,no_standard_route_total
+ERP,730,79,3,539,112,115
+SCM,518,249,14,222,47,61
+HCM,337,289,9,14,34,43
+CX,490,218,11,209,63,74
+Other,541,13,6,389,139,145
+Total,2616,848,43,1373,395,438

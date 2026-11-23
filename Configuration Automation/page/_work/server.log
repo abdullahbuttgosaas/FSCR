@@ -1,0 +1,1676 @@
+2026-10-21 09:27:33  page started at http://127.0.0.1:8765 (environment test)
+2026-10-21 09:27:38  folders: Lookup types, Price Lists, Payment Terms, Order Types, Customers, Business Units
+2026-10-21 09:28:51  setup step claude not passed: {'ok': False, 'installed': True, 'signed_in': False}
+2026-10-21 09:29:31  setup step claude not passed: {'ok': False, 'installed': True, 'signed_in': False}
+2026-10-21 09:30:21  job a4abfdb561 queued: Price Lists
+2026-10-21 09:30:29  job a4abfdb561 done: Created the price list ZZ_TEST_6183 for ABD in USD, gave it 1 access set, approved it and checked every value in Oracle.
+2026-10-21 09:30:56  job c77eee442f queued: Payment Terms
+2026-10-21 09:30:56  job c77eee442f: test switch - this run is made to fail (no browser)
+2026-10-21 09:30:57  job c77eee442f: repair not possible (Claude's tool installed=True, signed in=False)
+2026-10-21 09:35:00  page started at http://127.0.0.1:8765 (environment test)
+2026-10-21 09:35:04  folders: Lookup types, Price Lists, Payment Terms, Order Types, Customers, Business Units
+2026-10-21 09:35:09  setup step claude not passed: {'ok': False, 'installed': True, 'signed_in': False}
+2026-10-21 09:35:41  Claude sign-in window opened
+2026-10-21 09:36:04  Claude sign-in finished
+2026-10-21 09:36:26  check_setup --final exit 0
+2026-10-21 09:36:48  job 6463bad043 queued: Payment Terms
+2026-10-21 09:36:48  job 6463bad043: test switch - this run is made to fail (no browser)
+2026-10-21 09:41:09  job 6463bad043 repair attempt 1: cost $0.4995 (this run $0.4995), status done: The first try couldn't open the browser, and it stopped before anything was created. On the second try the payment term ZZ_TEST_5027 was created and its details were checked in Oracle.
+2026-10-21 09:41:09  job 6463bad043 done: Created the payment term ZZ_TEST_5027 from 2026/10/20 with 1 installment, and checked every value in Oracle.
+2026-10-21 09:41:42  page started at http://127.0.0.1:8765 (environment test)
+2026-10-21 09:41:47  folders: Lookup types, Price Lists, Payment Terms, Order Types, Customers, Business Units
+2026-10-21 09:49:27  page started at http://127.0.0.1:8765 (environment test)
+2026-10-21 09:49:36  folders: Lookup types, Price Lists, Payment Terms, Order Types, Customers, Business Units
+2026-10-21 09:51:50  job 779f23aa9b queued: Customers
+2026-10-21 09:53:50  job 779f23aa9b stopped (INVALID_REQUEST): Please fill in Customer name (needed for an organization).
+2026-10-21 09:55:32  job 411677da84 queued: Customers
+2026-10-21 09:58:14  job 411677da84 done: Created the organization customer asdqwe (registry ID 130406) with its account and address, and checked every value in Oracle.
+2026-10-21 10:01:05  job e564d50cdb queued: Order Types
+2026-10-21 10:02:37  job e564d50cdb repair attempt 1: cost $0.6263 (this run $0.6263), status done: Your order type "teest" (TESTT) was created and checked in Oracle. Because its end date is set to yesterday, it is already ended, so it won't show up when you create an order.
+2026-10-21 10:02:37  job e564d50cdb done: Order type teest already exists in Oracle, so nothing was changed.
+2026-10-21 10:04:23  job dc9a129568 queued: Order Types
+2026-10-21 10:04:59  job dc9a129568 done: Added order type test123456 (TEST123456), checked every value in Oracle, and it shows on Create Order.
+2026-10-21 10:06:38  job e1b4805871 queued: Lookup types
+2026-10-21 10:06:40  job e1b4805871 stopped (INVALID_REQUEST): Lookup name must be in capital letters (for example TESTLOOKUP1).
+2026-10-21 10:07:01  job 0df480ff50 queued: Lookup types
+2026-10-21 10:08:27  job 0df480ff50 done: Created the lookup TESTLOOKUP1 (TESTLOOKUP1) in Order Management with 2 codes, and checked every value in Oracle.
+2026-10-21 10:10:51  job 6c7b057337 queued: Price Lists
+2026-10-21 10:11:56  job 6c7b057337 repair attempt 1: cost $0.4761 (this run $0.4761), status needs_user: I fixed the currency problem, but Oracle won't let the business unit "Ascend Money" own a price list, so nothing was created. Please pick a different business unit, such as ABD (it has worked before), or ask your Oracle administrator to set up "Ascend Money" for pricing.
+2026-10-21 10:14:06  job 920d3e4246 queued: Price Lists
+2026-10-21 10:14:57  job 920d3e4246 repair attempt 1: cost $0.3761 (this run $0.3761), status needs_user: Oracle has a currency "1214" (BSD), but it won't take it for a price list because the code is too long, so the price list "tyty" was not created. Please choose a different currency, for example a standard three-letter one such as USD, and run the request again.
+2026-10-21 10:16:26  job 205f350f1a queued: Price Lists
+2026-10-21 10:16:37  job 205f350f1a done: Created the price list tyty for ABD in USD, gave it 1 access set, approved it and checked every value in Oracle.
+2026-10-21 10:17:22  job 91562e746c queued: Business Units
+2026-10-21 10:21:59  job 91562e746c done: Created the business unit tyty, gave Configuration.TEST access as Order Manager, and checked it in Oracle; it shows on Create Order.
+2026-10-21 10:25:43  job 66bc692325 queued: Payment Terms
+2026-10-21 10:25:43  job 66bc692325 stopped (INVALID_REQUEST): The installments add up to 67%; they must add up to 100%.
+2026-10-21 10:26:08  job f8a5a67d60 queued: Payment Terms
+2026-10-21 10:28:54  job f8a5a67d60 done: Created the payment term tututu from 2026/10/20 with 2 installments, and checked every value in Oracle.
+2026-10-21 10:41:27  page started at http://127.0.0.1:8765 (environment test)
+2026-10-21 10:41:32  folders: Lookup types, Price Lists, Payment Terms, Order Types, Customers, Business Units
+2026-10-21 10:41:32  saved Oracle sign-in: missing (saved None, 0.0s)
+2026-10-21 10:41:33  saved Oracle sign-in: missing (saved None, 0.0s)
+2026-10-21 10:41:33  Oracle sign-in window opened
+2026-10-21 10:42:19  Oracle sign-in window closed (exit 0)
+2026-10-21 10:42:25  saved Oracle sign-in: valid (saved 2026-10-21T05:42:19+00:00, 5.4s)
+2026-10-21 10:42:26  setup checklist passed; showing the cards
+2026-10-21 10:42:50  page started at http://127.0.0.1:8765 (environment test)
+2026-10-21 10:42:55  folders: Lookup types, Price Lists, Payment Terms, Order Types, Customers, Business Units
+2026-10-21 10:43:00  saved Oracle sign-in: valid (saved 2026-10-20T22:20:14+00:00, 5.2s)
+2026-10-21 10:43:01  setup checklist passed; showing the cards
+2026-10-21 10:50:57  page started at http://127.0.0.1:8765 (environment test)
+2026-10-21 10:51:01  folders: Lookup types, Price Lists, Payment Terms, Order Types, Customers, Business Units
+2026-10-21 10:51:10  saved Oracle sign-in: valid (saved 2026-10-20T22:20:14+00:00, 7.9s)
+2026-10-21 10:51:11  setup checklist passed; showing the cards
+2026-10-21 10:51:11  job 52cb3549d1 queued: Payment Terms
+2026-10-21 10:51:11  job 52cb3549d1: test switch - this run is made to fail (no browser)
+2026-10-21 10:51:19  job 52cb3549d1 repair attempt 1: cost $0.4330 (this run $0.4330), status no_change_needed, changed nothing: The run stopped because the browser it was given for this one try wasn't there, so nothing was created in Oracle. Nothing needs fixing, and the same request can run again now.
+2026-10-21 10:53:56  job 52cb3549d1: rerun after repair attempt 1: ok - Created the payment term ZZ_TEST_1240 from 2026/10/20 with 2 installments, and checked every value in Oracle.
+2026-10-21 10:53:56  job 52cb3549d1: repair finished, total cost $0.4330
+2026-10-21 10:53:56  job 52cb3549d1 done: Created the payment term ZZ_TEST_1240 from 2026/10/20 with 2 installments, and checked every value in Oracle.
+2026-10-21 10:55:10  page started at http://127.0.0.1:8765 (environment test)
+2026-10-21 10:55:14  folders: Lookup types, Price Lists, Payment Terms, Order Types, Customers, Business Units
+2026-10-21 10:55:20  saved Oracle sign-in: valid (saved 2026-10-20T22:20:14+00:00, 4.8s)
+2026-10-21 10:55:20  setup checklist passed; showing the cards
+2026-10-21 11:03:03  page started at http://127.0.0.1:8765 (environment test)
+2026-10-21 11:03:08  folders: Lookup types, Price Lists, Payment Terms, Order Types, Customers, Business Units
+2026-10-21 11:03:14  saved Oracle sign-in: valid (saved 2026-10-20T22:20:14+00:00, 5.7s)
+2026-10-21 11:04:21  check_setup --final exit 0
+2026-10-21 11:04:21  setup checklist passed; showing the cards
+2026-10-21 11:05:03  job 20a4c9a33b queued: ZZ Repair Test Payment Terms
+2026-10-21 11:06:49  job 20a4c9a33b repair attempt 1: cost $0.4319 (this run $0.4319), status fixed, changed ['browser_flow.py']: The button for starting a new payment term has a different name on Oracle's screen now, so the automation couldn't find it. I've updated it to find the button either way, and it will try your request again. Nothing was created before it stopped.
+2026-10-21 11:07:52  job 20a4c9a33b: rerun after repair attempt 1: ok - The payment term ttttttttt already exists in Oracle, so nothing was changed.
+2026-10-21 11:07:52  job 20a4c9a33b: repair finished, total cost $0.4319
+2026-10-21 11:07:52  job 20a4c9a33b done: The payment term ttttttttt already exists in Oracle, so nothing was changed.
+2026-10-21 11:09:03  job b9383140bd queued: ZZ Repair Test Payment Terms
+2026-10-21 11:12:27  job b9383140bd repair attempt 1: cost $0.7144 (this run $0.7144), status fixed, changed ['CLAUDE.md', 'browser_flow.py']: The automation couldn't find the Create button on the payment terms screen because it was looking for the wrong name. I've fixed that, and nothing was created in Oracle before the run stopped, so it's safe to run your request again.
+2026-10-21 11:13:27  job b9383140bd: rerun after repair attempt 1: ok - The payment term ttttttttt already exists in Oracle, so nothing was changed.
+2026-10-21 11:13:27  job b9383140bd: repair finished, total cost $0.7144
+2026-10-21 11:13:27  job b9383140bd done: The payment term ttttttttt already exists in Oracle, so nothing was changed.
+2026-10-21 11:14:08  page started at http://127.0.0.1:8765 (environment test)
+2026-10-21 11:14:12  folders: Lookup types, Price Lists, Payment Terms, Order Types, Customers, Business Units
+2026-10-21 11:14:19  saved Oracle sign-in: valid (saved 2026-10-20T22:20:14+00:00, 6.1s)
+2026-10-21 11:14:19  setup checklist passed; showing the cards
+2026-10-21 11:19:37  page started at http://127.0.0.1:8765 (environment test)
+2026-10-21 11:19:42  folders: Lookup types, Price Lists, Payment Terms, Order Types, Customers, Business Units
+2026-10-21 11:19:46  saved Oracle sign-in: valid (saved 2026-10-20T22:20:14+00:00, 4.7s)
+2026-10-21 11:19:47  setup checklist passed; showing the cards
+2026-10-21 11:24:03  page started at http://127.0.0.1:8765 (environment test)
+2026-10-21 11:24:07  folders: Lookup types, Price Lists, Payment Terms, Order Types, Customers, Business Units
+2026-10-21 11:24:42  saved Oracle sign-in: expired (saved 2026-10-20T22:20:14+00:00, 34.4s)
+2026-10-21 11:24:53  saved Oracle sign-in: expired (saved 2026-10-20T22:20:14+00:00, 9.5s)
+2026-10-21 11:24:53  Oracle sign-in window opened
+2026-10-21 11:25:38  Oracle sign-in window closed (exit 0)
+2026-10-21 11:25:42  saved Oracle sign-in: valid (saved 2026-10-21T06:25:38+00:00, 3.7s)
+2026-10-21 11:25:43  setup checklist passed; showing the cards
+2026-10-21 17:18:16  page started at http://127.0.0.1:8765 (environment test)
+2026-10-21 17:18:20  folders: Lookup types, Price Lists, Payment Terms, Order Types, Customers, Business Units
+2026-10-21 17:18:27  saved Oracle sign-in: valid (saved 2026-10-21T06:25:38+00:00, 5.3s)
+2026-10-21 17:18:27  setup checklist passed; showing the cards
+2026-10-21 17:20:11  folders: Lookup types, Price Lists, Payment Terms, Order Types, Customers, Business Units
+2026-10-21 17:26:39  page started at http://127.0.0.1:8765 (environment test)
+2026-10-21 17:26:44  folders: Lookup types, Price Lists, Payment Terms, Order Types, Customers, Business Units
+2026-10-21 17:26:53  saved Oracle sign-in: valid (saved 2026-10-21T06:25:38+00:00, 8.9s)
+2026-10-21 17:26:53  setup checklist passed; showing the cards
+2026-10-21 17:32:32  page started at http://127.0.0.1:8765 (environment test)
+2026-10-21 17:32:36  folders: Lookup types, Price Lists, Payment Terms, Order Types, Customers, Business Units
+2026-10-21 17:32:42  saved Oracle sign-in: valid (saved 2026-10-21T06:25:38+00:00, 5.4s)
+2026-10-21 17:32:43  setup checklist passed; showing the cards
+2026-10-21 17:34:21  job c54c771668 queued: Lookup types
+2026-10-21 17:35:39  job c54c771668 done: Created the lookup TESTLOOKUP2 (TESTLOOKUP2) in Order Management with 2 codes, and checked every value in Oracle.
+2026-10-21 17:37:42  job 810086882c queued: Price Lists
+2026-10-21 17:37:50  job 810086882c done: Created the price list TESTPRICELIST1 for US1 in PKR, gave it 1 access set, approved it and checked every value in Oracle.
+2026-10-21 17:39:12  job 61be53c5fa queued: Payment Terms
+2026-10-21 17:41:33  job 61be53c5fa done: Created the payment term TESTPAYMENTTterm1 from 2026/10/20 with 2 installments, and checked every value in Oracle.
+2026-10-21 17:44:05  job 5fe5ec33d6 queued: Order Types
+2026-10-21 17:44:41  job 5fe5ec33d6 done: Added order type TESTORDER1 (TESTORDER1), checked every value in Oracle, and it shows on Create Order.
+2026-10-21 17:45:36  job ebcf12ec04 queued: Customers
+2026-10-21 17:46:22  job ebcf12ec04 stopped (NOT_IN_ORACLE): Oracle has no Account address set called 'COMMON'.
+2026-10-21 17:47:15  job 79aa7b939e queued: Customers
+2026-10-21 17:49:39  job 79aa7b939e done: Created the organization customer TESTCUSTOMER1 (registry ID 130439) with its account and address, and checked every value in Oracle.
+2026-10-21 17:50:23  job 5c214fd5c3 queued: Business Units
+2026-10-21 17:54:07  job 5c214fd5c3 done: Created the business unit TESTBU1, gave Configuration.TEST access as Order Manager, and checked it in Oracle; it shows on Create Order.
+2026-10-21 17:56:17  job 5cc9cab2e4 queued: Price Lists
+2026-10-21 17:56:24  job 5cc9cab2e4 done: Created the price list TESTPRICELIST2 for US1 in PKR, gave it 1 access set, approved it and checked every value in Oracle.
+2026-10-21 18:04:02  page started at http://127.0.0.1:8765 (environment test)
+2026-10-21 18:04:07  folders: Lookup types, Price Lists, Payment Terms, Order Types, Customers, Business Units
+2026-10-21 18:04:13  saved Oracle sign-in: valid (saved 2026-10-21T06:25:38+00:00, 5.2s)
+2026-10-21 18:04:13  setup checklist passed; showing the cards
+2026-10-21 18:08:16  page started at http://127.0.0.1:8765 (environment test)
+2026-10-21 18:08:21  folders: Lookup types, Price Lists, Payment Terms, Order Types, Customers, Business Units
+2026-10-21 18:08:27  saved Oracle sign-in: valid (saved 2026-10-21T06:25:38+00:00, 5.2s)
+2026-10-21 18:08:27  setup checklist passed; showing the cards
+2026-10-21 18:11:20  page started at http://127.0.0.1:8765 (environment test)
+2026-10-21 18:11:25  folders: Lookup types, Price Lists, Payment Terms, Order Types, Customers, Business Units
+2026-10-21 18:11:31  saved Oracle sign-in: valid (saved 2026-10-21T06:25:38+00:00, 5.7s)
+2026-10-21 18:11:31  setup checklist passed; showing the cards
+2026-10-21 18:13:54  page started at http://127.0.0.1:8765 (environment test)
+2026-10-21 18:13:58  folders: Lookup types, Price Lists, Payment Terms, Order Types, Customers, Business Units
+2026-10-21 18:14:04  saved Oracle sign-in: valid (saved 2026-10-21T06:25:38+00:00, 5.3s)
+2026-10-21 18:14:04  setup checklist passed; showing the cards
+2026-10-21 18:16:50  page started at http://127.0.0.1:8765 (environment test)
+2026-10-21 18:16:55  folders: Lookup types, Price Lists, Payment Terms, Order Types, Customers, Business Units
+2026-10-21 18:17:02  saved Oracle sign-in: valid (saved 2026-10-21T06:25:38+00:00, 6.0s)
+2026-10-21 18:17:02  setup checklist passed; showing the cards
+2026-10-21 18:19:44  job 9abd94e8c2 queued: Price Lists
+2026-10-21 18:19:52  job 9abd94e8c2 done: Created the price list TESTPRICELIST3 for ABD in USD, gave it 1 access set, approved it and checked every value in Oracle.
+2026-10-21 18:21:16  job ed06c41f5c queued: Order Types
+2026-10-21 18:21:56  job ed06c41f5c done: Added order type TESTORDER2 (TESTORDER2), checked every value in Oracle, and it shows on Create Order.
+2026-10-21 18:22:59  job 9f3b4a1189 queued: Business Units
+2026-10-21 18:26:56  job 9f3b4a1189 done: Created the business unit TESTBU2, gave Configuration.TEST access as Order Manager, and checked it in Oracle; it shows on Create Order.
+2026-10-21 18:28:05  job 6d79b60dca queued: Customers
+2026-10-21 18:30:44  job 6d79b60dca done: Created the organization customer TESTCUSTOMER2 (registry ID 130444) with its account and address, and checked every value in Oracle.
+2026-10-21 19:01:39  job a436e0b6c6 queued: Customers
+2026-10-21 19:04:11  job a436e0b6c6 repair attempt 1: cost $0.7883 (this run $0.7883), status fixed, changed ['CLAUDE.md', 'browser_flow.py']: When the country was changed to Pakistan, Oracle redrew the address part of the form and cleared the street and city that had just been typed. The automation now waits for that redraw and fills those fields again. Nothing was saved, so the same request will simply run again.
+2026-10-21 19:06:35  job a436e0b6c6: rerun after repair attempt 1: VERIFY_FAILED - It was saved, but Oracle doesn't show every value as requested.
+2026-10-21 19:06:59  job a436e0b6c6 repair attempt 2: cost $0.4329 (this run $1.2212), status fixed, changed ['CLAUDE.md', 'browser_flow.py']: The customer was saved correctly. The final check stumbled over one tax field that Oracle doesn't show for Pakistan addresses, and that check is now fixed. Running the request again won't create a second copy; it will simply find the customer that's already there.
+2026-10-21 19:11:55  job a436e0b6c6: rerun after repair attempt 2: FAILED - Something went wrong.
+2026-10-21 19:13:04  job a436e0b6c6 repair attempt 3: cost $0.7553 (this run $1.9764), status fixed, changed ['CLAUDE.md', 'browser_flow.py']: The customer TESTCUSTOMER3 already exists from the earlier attempt, but Oracle's customer search didn't find it, so the automation filled in the form again. When it tried to save, Oracle asked whether this was the same customer, and the automation got stuck on that question. Nothing new was saved. The automation now recognises that question and leaves the existing customer alone, so the next run will report it as already there.
+2026-10-21 19:14:52  job a436e0b6c6: rerun after repair attempt 3: ok - The customer TESTCUSTOMER3 already exists in Oracle, so nothing was changed.
+2026-10-21 19:14:52  job a436e0b6c6: repair finished, total cost $1.9764
+2026-10-21 19:14:52  job a436e0b6c6 done: The customer TESTCUSTOMER3 already exists in Oracle, so nothing was changed.
+2026-10-21 21:13:56  page started at http://127.0.0.1:8765 (environment test)
+2026-10-21 21:14:01  folders: Lookup types, Price Lists, Payment Terms, Order Types, Customers, Business Units
+2026-10-21 21:14:08  saved Oracle sign-in: valid (saved 2026-10-21T15:15:45+00:00, 5.2s)
+2026-10-21 21:14:08  setup checklist passed; showing the cards
+2026-10-21 21:15:38  job b906d23608 queued: Business Units
+2026-10-21 21:20:03  job b906d23608 done: Created the business unit TESTBU4, gave Configuration.TEST access as Order Manager and as Pricing Administrator, and checked it in Oracle; it shows on Create Order and for pricing.
+2026-10-21 21:21:01  job 975ea9e725 queued: Price Lists
+2026-10-21 21:21:09  job 975ea9e725 done: Created the price list TESTPRICELIST4 for TESTBU4 in AFN, gave it 1 access set, approved it and checked every value in Oracle.
+2026-10-21 21:22:31  job 83de24d720 queued: Business Units
+2026-10-21 21:28:18  job 83de24d720 repair attempt 1: cost $0.8171 (this run $0.8171), status fixed, changed ['CLAUDE.md', 'browser_flow.py']: TESTBU5 and its Buyer access were created and checked. The run stopped at the very last check, right after you signed in again, because of a small fault in how that check started. I've fixed it, and the request will now run again without creating anything twice.
+2026-10-21 21:28:30  job 83de24d720: rerun after repair attempt 1: ok - The business unit TESTBU5 already exists in Oracle, so nothing was changed.
+2026-10-21 21:28:30  job 83de24d720: repair finished, total cost $0.8171
+2026-10-21 21:28:30  job 83de24d720 done: The business unit TESTBU5 already exists in Oracle, so nothing was changed.
+2026-10-21 21:46:41  page started at http://127.0.0.1:8765 (environment test)
+2026-10-21 21:46:46  folders: Lookup types, Price Lists, Payment Terms, Order Types, Customers, Business Units
+2026-10-21 21:46:56  saved Oracle sign-in: valid (saved 2026-10-21T16:27:07+00:00, 9.7s)
+2026-10-21 21:46:57  setup checklist passed; showing the cards
+2026-10-21 22:34:44  page started at http://127.0.0.1:8765 (environment test)
+2026-10-21 22:34:49  folders: Lookup types, Price Lists, Payment Terms, Order Types, Customers, Business Units
+2026-10-21 22:34:55  saved Oracle sign-in: valid (saved 2026-10-21T16:27:07+00:00, 4.7s)
+2026-10-21 22:34:56  setup checklist passed; showing the cards
+2026-10-21 22:35:19  job d8adeec5f9 queued: Business Units
+2026-10-21 22:41:28  job d8adeec5f9 done: Created the business unit TESTBU6 and checked it in Oracle. For Configuration.TEST: Order Manager access: done. Pricing Administrator access: done. It shows on Create Order and for pricing.
+2026-10-21 22:42:55  job a67c2b47cd queued: Price Lists
+2026-10-21 22:43:03  job a67c2b47cd done: Created the price list TESTPRICELIST6 for TESTBU6 in PKR, gave it 1 access set, approved it and checked every value in Oracle.
+2026-10-21 23:29:03  page started at http://127.0.0.1:8765 (environment test)
+2026-10-21 23:29:09  folders: Lookup types, Price Lists, Payment Terms, Order Types, Customers, Business Units
+2026-10-21 23:29:17  saved Oracle sign-in: valid (saved 2026-10-21T17:40:50+00:00, 5.6s)
+2026-10-21 23:29:17  setup checklist passed; showing the cards
+2026-10-21 23:29:50  job dbc102be10 queued: Business Units
+2026-10-21 23:31:58  job dbc102be10 repair attempt 1: cost $0.7197 (this run $0.7197), status fixed, changed ['CLAUDE.md', 'classic_setup.py']: Oracle missed a click on one of its setup screens, so the run stopped before creating anything. I've made that step try the click again, and your business unit will now be created.
+2026-10-21 23:34:24  job dbc102be10: rerun after repair attempt 1: FAILED - Something went wrong.
+2026-10-21 23:34:55  job dbc102be10 repair attempt 2: cost $0.5492 (this run $1.2690), status fixed, changed ['CLAUDE.md', 'classic_setup.py']: Oracle missed the Submit click on one of its setup screens, so the run stopped before anything was created. If that happens again, the run now presses Submit a second time and carries on.
+2026-10-21 23:40:05  job dbc102be10: rerun after repair attempt 2: ok - Created the business unit TESTBU7 and checked it in Oracle. For Configuration.TEST: Order Manager access: done. Pricing Administrator access: done. It shows on Create Order and for pricing.
+2026-10-21 23:40:05  job dbc102be10: repair finished, total cost $1.2690
+2026-10-21 23:40:05  job dbc102be10 done: Created the business unit TESTBU7 and checked it in Oracle. For Configuration.TEST: Order Manager access: done. Pricing Administrator access: done. It shows on Create Order and for pricing.
+2026-10-21 23:40:51  job 4d0f66a6ca queued: Price Lists
+2026-10-21 23:40:59  job 4d0f66a6ca done: Created the price list TESTPRICELIST7 for TESTBU7 in AFN, gave it 1 access set, approved it and checked every value in Oracle.
+2026-10-21 23:44:19  job 0e00eb71c1 queued: Customers
+2026-10-21 23:46:52  job 0e00eb71c1 done: Created the organization customer TESTCUSTOMER7 (registry ID 130461) with its account and address, and checked every value in Oracle.
+2026-10-23 02:18:21  page started at http://127.0.0.1:8799 (environment test)
+2026-10-23 02:18:26  folders: Lookup types, Price Lists, Payment Terms, Order Types, Customers, Business Units
+2026-10-23 02:18:39  saved Oracle sign-in: expired (saved 2026-10-21T17:40:50+00:00, 11.4s)
+2026-10-23 02:18:51  saved Oracle sign-in: expired (saved 2026-10-21T17:40:50+00:00, 11.4s)
+2026-10-23 02:18:51  Oracle sign-in window opened
+2026-10-23 02:19:40  Oracle sign-in window closed (exit 0)
+2026-10-23 02:19:46  saved Oracle sign-in: valid (saved 2026-10-22T21:19:40+00:00, 5.0s)
+2026-10-23 02:19:46  claude tool route existing: refused - Node.js isn't installed on this computer (simulated)
+2026-10-23 02:19:46  claude tool route standalone: refused - the network refused downloads from downloads.claude.ai (HTTP 403) (simulated)
+2026-10-23 02:19:46  claude tool route portable: refused - Windows blocks programs in your user folder (company policy) (simulated)
+2026-10-23 02:19:46  claude tool route npm_prefix: refused - Node.js isn't installed on this computer (simulated)
+2026-10-23 02:19:46  Claude's tool: not installed: npm's usual install, as before: Node.js isn't installed on this computer (simulated); Anthropic's own installer for your user only (no Node.js needed): the network refused downloads from downloads.claude.ai (HTTP 403) (simulated); a portable Node.js in your user folder, then npm for your user only: Windows blocks programs in your user folder (company policy) (simulated); the Node.js already on this computer, npm for your user only: Node.js isn't installed on this computer (simulated)
+2026-10-23 02:19:46  setup step claude not passed: {'ok': False, 'installed': False, 'signed_in': False}
+2026-10-23 02:19:49  Claude step: the user chose to continue without automatic fixes
+2026-10-23 02:19:49  setup checklist passed; showing the cards (without automatic fixes)
+2026-10-23 04:52:49  page started at http://127.0.0.1:8765 (environment test)
+2026-10-23 04:52:54  folders: Lookup types, Price Lists, Payment Terms, Order Types, Customers, Business Units
+2026-10-23 04:53:04  saved Oracle sign-in: valid (saved 2026-10-22T21:19:40+00:00, 6.0s)
+2026-10-23 04:53:05  setup checklist passed; showing the cards
+2026-10-23 04:54:09  job 462beb6017 queued: Business Units
+2026-10-23 04:54:50  job 462beb6017 done: Created the business unit TESTBU100 and gave Configuration.TEST Order Manager and Pricing Administrator access on it. Checked in Oracle: the business unit is there and active at Go Saas Lahore Office; Order Manager and Pricing Administrator access for Configuration.TEST are there and active. Not looked at on Oracle's screens this time (Manage Business Units, Users with Data Access, Create Order); choose Check on screen too under More options for that.
+2026-10-23 04:56:10  job 4f761415c0 queued: Price Lists
+2026-10-23 04:56:18  job 4f761415c0 done: Created the price list TESTPRICELIST300 for TESTBU100 in PKR, gave it 1 access set, approved it and checked every value in Oracle.
+2026-10-23 04:57:48  job 23b4949eb6 queued: Lookup types
+2026-10-23 04:59:15  job 23b4949eb6 done: Created the lookup TESTLOOKUP27 (TESTLOOKUP27) in Order Management with 1 code, and checked every value in Oracle.
+2026-10-23 05:01:06  job 2464fbdad5 queued: Payment Terms
+2026-10-23 05:03:32  job 2464fbdad5 done: Created the payment term TESTPRICELIST39 from 2026/10/21 with 3 installments, and checked every value in Oracle.
+2026-10-23 05:05:11  job ddbc96aec0 queued: Order Types
+2026-10-23 05:05:47  job ddbc96aec0 done: Added order type TESTORDER22 (TESTORDER22), checked every value in Oracle, and it shows on Create Order.
+2026-10-23 05:17:22  job 34e2fa66cc queued: Customers
+2026-10-23 05:20:21  job 34e2fa66cc done: Created the organization customer TESTBU2 (registry ID 130472) with its account and address, and checked every value in Oracle.
+2026-10-23 06:48:16  page started at http://127.0.0.1:8765 (environment test)
+2026-10-23 06:48:17  folders: Customers
+2026-10-23 06:48:27  saved Oracle sign-in: valid (saved 2026-10-22T21:19:40+00:00, 5.3s)
+2026-10-23 06:48:29  setup checklist passed; showing the cards
+2026-10-23 06:49:05  upload 3bb092e864 (sheet.xlsx): not ready, 2 record(s), 2 problem(s), 1 stop(s)
+2026-10-23 06:49:05  upload 8e992db5e7 (test_bad.xlsx): not ready, 1 record(s), 13 problem(s), 0 stop(s)
+2026-10-23 13:24:10  upload dac186032b (Dummy organization.xlsx): ready, 1 record(s), 0 problem(s), 0 stop(s)
+2026-10-23 13:24:18  job 72b0d77965 queued: Customers
+2026-10-23 13:24:29  job 72b0d77965 stopped (SIGN_IN_NEEDED): Your Oracle sign-in has expired. Please sign in again, then try once more.
+2026-10-23 13:24:43  saved Oracle sign-in: expired (saved 2026-10-22T21:19:40+00:00, 13.7s)
+2026-10-23 13:24:43  Oracle sign-in window opened
+2026-10-23 13:33:38  Oracle sign-in window closed (exit 0)
+2026-10-23 13:33:38  job 72b0d77965: Oracle sign-in done
+2026-10-23 13:36:34  job 72b0d77965 done: Created the organization customer ZZ_TEST_6183 (registry ID 130508) with its account and address, and checked every value in Oracle.
+2026-10-23 13:38:55  upload e77fde5d4e (Dummy person.xlsx): ready, 1 record(s), 0 problem(s), 0 stop(s)
+2026-10-23 13:39:14  job 4c8d97fc46 queued: Customers
+2026-10-23 13:42:24  job 4c8d97fc46 done: Created the person customer ZZ_TEST_1125 Person (registry ID 130512) with its account and address, and checked every value in Oracle.
+2026-10-23 14:21:26  page started at http://127.0.0.1:8765 (environment test)
+2026-10-23 14:21:26  folders: Customers
+2026-10-23 14:21:37  saved Oracle sign-in: valid (saved 2026-10-23T08:33:37+00:00, 5.2s)
+2026-10-23 14:21:38  setup checklist passed; showing the cards
+2026-10-23 14:21:55  upload 93c86170dc (Customer_upload_sheet (2).xlsx): not ready, 0 record(s), 0 problem(s), 1 stop(s)
+2026-10-23 14:23:49  same-name check failed (1): Oracle couldn't be searched for customers with this name.
+2026-10-23 14:23:49  upload 1149e59c65 (Customer_upload_sheet_organization.xlsx): ready, 1 record(s), 0 problem(s), 0 stop(s)
+2026-10-23 14:25:08  upload 544103d0c9 (Customer_upload_sheet_organization.xlsx): ready, 1 record(s), 0 problem(s), 0 stop(s)
+2026-10-23 14:25:15  job 236dd71da8 queued: Customers
+2026-10-23 14:28:33  job 236dd71da8 repair attempt 1: cost $0.7819 (this run $0.7819), status fixed, changed ['CLAUDE.md', 'browser_flow.py']: Oracle wouldn't let me mark the "Bill to" purpose as Primary on the form, so nothing was saved. Oracle marks each purpose as Primary by itself when the customer is saved, so I've left that step to Oracle. The result is still checked after saving, and the request will now run again.
+2026-10-23 14:31:07  job 236dd71da8: rerun after repair attempt 1: NOT_IN_ORACLE - Bill-to Site '1 Infinite Loop,CUPERTINO, CA 95014' is not one of the screen's values for the Ship to purpose. Oracle offers: 1 Infinite Loop,Suite 5,CUPERTINO, CA 95014. Nothing was saved.
+2026-10-23 14:31:07  job 236dd71da8: repair finished, total cost $0.7819
+2026-10-23 14:31:07  job 236dd71da8 stopped (NOT_IN_ORACLE): Bill-to Site '1 Infinite Loop,CUPERTINO, CA 95014' is not one of the screen's values for the Ship to purpose. Oracle offers: 1 Infinite Loop,Suite 5,CUPERTINO, CA 95014. Nothing was saved.
+2026-10-23 14:31:44  upload 22eaebd5cc (Customer_upload_sheet_organization.xlsx): ready, 1 record(s), 0 problem(s), 0 stop(s)
+2026-10-23 14:31:54  job 6d6ea4c873 queued: Customers
+2026-10-23 14:35:05  job 6d6ea4c873 done: Created the organization customer ZZ_TEST_3727 with Registry ID 130524, with its account and address, and checked every value in Oracle.
+2026-10-23 14:35:41  upload f598613555 (Customer_upload_sheet_organization.xlsx): ready, 1 record(s), 0 problem(s), 0 stop(s)
+2026-10-23 14:35:56  job 16191cbc32 queued: Customers
+2026-10-23 14:39:33  job 16191cbc32 repair attempt 1: cost $0.6722 (this run $0.6722), status fixed, changed ['CLAUDE.md', 'browser_flow.py']: Oracle warned that a customer with this name already exists. The script picked "create a new one" and pressed OK, but it checked again too soon, while Oracle was still saving. It now waits for Oracle to finish, and the same request will run again without making a duplicate.
+2026-10-23 14:42:44  job 16191cbc32: rerun after repair attempt 1: ok - Created the organization customer ZZ_TEST_3727 with Registry ID 130530, with its account and address, and checked every value in Oracle. 2 other customers with this name (Registry IDs 130527, 130524) were not touched.
+2026-10-23 14:42:44  job 16191cbc32: repair finished, total cost $0.6722
+2026-10-23 14:42:44  job 16191cbc32 done: Created the organization customer ZZ_TEST_3727 with Registry ID 130530, with its account and address, and checked every value in Oracle. 2 other customers with this name (Registry IDs 130527, 130524) were not touched.
+2026-10-23 14:46:13  upload abae667a3c (Customer_upload_sheet_person.xlsx): ready, 1 record(s), 0 problem(s), 0 stop(s)
+2026-10-23 14:46:19  job 54f1460d3a queued: Customers
+2026-10-23 14:49:46  job 54f1460d3a done: Created the person customer ZZ_TEST_2536 Q Person Jr with Registry ID 130534, with its account and address, and checked every value in Oracle.
+2026-10-23 15:00:43  page started at http://127.0.0.1:8765 (environment test)
+2026-10-23 15:00:44  folders: Customers
+2026-10-23 15:00:55  saved Oracle sign-in: valid (saved 2026-10-23T08:33:37+00:00, 6.5s)
+2026-10-23 15:00:56  setup checklist passed; showing the cards
+2026-10-23 15:03:16  upload b5e4f4b9ed (Untitled spreadsheet.xlsx): not ready, 0 record(s), 0 problem(s), 1 stop(s)
+2026-10-23 15:05:04  upload 2ed1687eac (Untitled spreadsheet (1).xlsx): ready, 1 record(s), 0 problem(s), 0 stop(s)
+2026-10-23 15:09:27  job 78d17156c1 queued: Customers
+2026-10-23 15:11:55  job 78d17156c1 stopped (NOT_IN_ORACLE): Bill-to Site '1 Infinite Loop,CUPERTINO, CA 95014' is not one of the screen's values for the Ship to purpose. Oracle offers: 1 Infinite Loop,Suite 5,CUPERTINO, CA 95014. Nothing was saved.
+2026-10-23 15:42:47  page started at http://127.0.0.1:8765 (environment test)
+2026-10-23 15:42:48  folders: Customers
+2026-10-23 15:42:58  saved Oracle sign-in: valid (saved 2026-10-23T08:33:37+00:00, 5.6s)
+2026-10-23 15:42:59  setup checklist passed; showing the cards
+2026-10-23 15:43:07  saved Oracle sign-in: valid (saved 2026-10-23T08:33:37+00:00, 5.9s)
+2026-10-23 15:43:10  upload 334410395d (b_wrong_billto.xlsx): not ready, 1 record(s), 1 problem(s), 0 stop(s)
+2026-10-23 15:43:16  saved Oracle sign-in: valid (saved 2026-10-23T08:33:37+00:00, 5.4s)
+2026-10-23 15:43:16  upload 2a4741c5df (c_shipto_only.xlsx): not ready, 1 record(s), 0 problem(s), 1 stop(s)
+2026-10-23 15:43:22  saved Oracle sign-in: valid (saved 2026-10-23T08:33:37+00:00, 4.9s)
+2026-10-23 15:43:52  upload 7aa492e5d5 (d_postal_94105.xlsx): not ready, 1 record(s), 1 problem(s), 0 stop(s)
+2026-10-23 15:44:09  page started at http://127.0.0.1:8765 (environment test)
+2026-10-23 15:44:10  folders: Customers
+2026-10-23 15:44:21  saved Oracle sign-in: valid (saved 2026-10-23T08:33:37+00:00, 5.3s)
+2026-10-23 15:44:22  setup checklist passed; showing the cards
+2026-10-23 15:44:29  saved Oracle sign-in: valid (saved 2026-10-23T08:33:37+00:00, 5.6s)
+2026-10-23 15:45:01  upload 4a5428319d (b_wrong_billto.xlsx): not ready, 1 record(s), 1 problem(s), 0 stop(s)
+2026-10-23 15:45:08  saved Oracle sign-in: valid (saved 2026-10-23T08:33:37+00:00, 6.5s)
+2026-10-23 15:45:35  upload 402dd6a2fc (a_empty_billto.xlsx): ready, 1 record(s), 0 problem(s), 0 stop(s)
+2026-10-23 15:45:50  saved Oracle sign-in: valid (saved 2026-10-23T08:33:37+00:00, 6.0s)
+2026-10-23 15:45:50  job 2db581a39f queued: Customers
+2026-10-23 15:49:01  job 2db581a39f done: Created the organization customer ZZ_TEST_8352 with Registry ID 130554, with its account and address, and checked every value in Oracle.
+2026-10-23 15:49:22  saved Oracle sign-in: valid (saved 2026-10-23T08:33:37+00:00, 6.5s)
+2026-10-23 15:49:51  upload 4a5428319d: signed in; not ready, 1 problem(s)
+2026-10-23 15:59:41  page started at http://127.0.0.1:8765 (environment test)
+2026-10-23 15:59:42  folders: Customers
+2026-10-23 15:59:52  saved Oracle sign-in: valid (saved 2026-10-23T08:33:37+00:00, 5.5s)
+2026-10-23 15:59:53  setup checklist passed; showing the cards
+2026-10-23 16:00:04  saved Oracle sign-in: valid (saved 2026-10-23T08:33:37+00:00, 5.7s)
+2026-10-23 16:00:35  upload 339c66b94f (Customer_upload_sheet_test.xlsx): ready, 1 record(s), 0 problem(s), 0 stop(s)
+2026-10-23 16:00:51  saved Oracle sign-in: valid (saved 2026-10-23T08:33:37+00:00, 5.3s)
+2026-10-23 16:00:51  job 19d8ca0137 queued: Customers
+2026-10-23 16:04:00  job 19d8ca0137 done: Created the organization customer ZZ_TEST_8687 with Registry ID 130561, with its account and address, and checked every value in Oracle.
+2026-10-23 16:11:22  saved Oracle sign-in: valid (saved 2026-10-23T08:33:37+00:00, 6.6s)
+2026-10-23 16:11:53  upload d6f7d45e14 (Customer_upload_sheet_test (1).xlsx): ready, 1 record(s), 0 problem(s), 0 stop(s)
+2026-10-23 16:12:08  saved Oracle sign-in: valid (saved 2026-10-23T08:33:37+00:00, 6.1s)
+2026-10-23 16:12:08  job 67c3d9fea3 queued: Customers
+2026-10-23 16:15:13  job 67c3d9fea3 done: Created the organization customer AbdullahTEST12 with Registry ID 130565, with its account and address, and checked every value in Oracle.
+2026-10-23 16:34:37  saved Oracle sign-in: valid (saved 2026-10-23T08:33:37+00:00, 6.7s)
+2026-10-23 16:35:08  upload 175fa0b76b (Customer_upload_sheet_test (3).xlsx): ready, 1 record(s), 0 problem(s), 0 stop(s)
+2026-10-23 16:41:00  saved Oracle sign-in: valid (saved 2026-10-23T08:33:37+00:00, 5.8s)
+2026-10-23 16:41:00  job 512b692e2d queued: Customers
+2026-10-23 16:44:46  job 512b692e2d done: Created the organization customer AbdullahTEST123 with Registry ID 130570, with its account and address, and checked every value in Oracle.
+2026-10-23 17:06:19  page started at http://127.0.0.1:8765 (environment test)
+2026-10-23 17:06:20  folders: Customers
+2026-10-23 17:06:35  saved Oracle sign-in: valid (saved 2026-10-23T08:33:37+00:00, 9.6s)
+2026-10-23 17:06:35  setup checklist passed; showing the cards
+2026-10-23 17:06:43  saved Oracle sign-in: valid (saved 2026-10-23T08:33:37+00:00, 5.6s)
+2026-10-23 17:07:13  upload 3b0e80bd64 (attached.xlsx): ready, 1 record(s), 0 problem(s), 0 stop(s)
+2026-10-23 17:07:20  saved Oracle sign-in: valid (saved 2026-10-23T08:33:37+00:00, 5.4s)
+2026-10-23 17:07:49  upload 1044bb9541 (b_other_name.xlsx): not ready, 1 record(s), 1 problem(s), 0 stop(s)
+2026-10-23 17:07:56  saved Oracle sign-in: valid (saved 2026-10-23T08:33:37+00:00, 6.2s)
+2026-10-23 17:08:23  upload 2c34161d65 (c_empty_name.xlsx): not ready, 1 record(s), 1 problem(s), 0 stop(s)
+2026-10-23 17:08:29  saved Oracle sign-in: valid (saved 2026-10-23T08:33:37+00:00, 5.1s)
+2026-10-23 17:08:29  upload d12b16e93e (d_two_customers_same_name.xlsx): not ready, 0 record(s), 0 problem(s), 1 stop(s)
+2026-10-23 17:08:34  saved Oracle sign-in: valid (saved 2026-10-23T08:33:37+00:00, 5.0s)
+2026-10-23 17:09:03  upload bdd7d92121 (e_person.xlsx): ready, 1 record(s), 0 problem(s), 0 stop(s)
+2026-10-23 17:09:09  saved Oracle sign-in: valid (saved 2026-10-23T08:33:37+00:00, 5.4s)
+2026-10-23 17:09:36  upload 17be70ae32 (a2_create_ZZ_TEST_6619.xlsx): ready, 1 record(s), 0 problem(s), 0 stop(s)
+2026-10-23 17:10:00  page started at http://127.0.0.1:8765 (environment test)
+2026-10-23 17:10:01  folders: Customers
+2026-10-23 17:10:10  saved Oracle sign-in: valid (saved 2026-10-23T08:33:37+00:00, 5.2s)
+2026-10-23 17:10:10  setup checklist passed; showing the cards
+2026-10-23 17:10:19  saved Oracle sign-in: valid (saved 2026-10-23T08:33:37+00:00, 5.7s)
+2026-10-23 17:10:48  upload c0e36e2496 (b_other_name.xlsx): not ready, 1 record(s), 1 problem(s), 0 stop(s)
+2026-10-23 17:10:55  saved Oracle sign-in: valid (saved 2026-10-23T08:33:37+00:00, 5.9s)
+2026-10-23 17:11:23  upload aa661d4672 (c_empty_name.xlsx): not ready, 1 record(s), 1 problem(s), 0 stop(s)
+2026-10-23 17:11:30  saved Oracle sign-in: valid (saved 2026-10-23T08:33:37+00:00, 6.9s)
+2026-10-23 17:12:00  upload 53045952d6 (a2_create_ZZ_TEST_6619.xlsx): ready, 1 record(s), 0 problem(s), 0 stop(s)
+2026-10-23 17:12:17  saved Oracle sign-in: valid (saved 2026-10-23T08:33:37+00:00, 5.1s)
+2026-10-23 17:12:17  job 6d1ff40a7c queued: Customers
+2026-10-23 17:15:20  job 6d1ff40a7c done: Created the organization customer ZZ_TEST_6619 with Registry ID 130584, with its account and address, and checked every value in Oracle.
+2026-10-23 17:32:48  job 05cb85e607 queued: Customers
+2026-10-23 17:32:48  job 05cb85e607: customer 1 of 3: ZZ_TEST_6842
+2026-10-23 17:32:48  job 05cb85e607_1 done: Created ZZ_TEST_6842 (simulated).
+2026-10-23 17:32:48  job 05cb85e607: ZZ_TEST_6842 done
+2026-10-23 17:32:48  job 05cb85e607: customer 2 of 3: ZZ_TEST_5862
+2026-10-23 17:32:48  job 05cb85e607_2 stopped (NOT_IN_ORACLE): Oracle doesn't have one of the values you chose. Bill-to Site 'X' is not one of the screen's values. Nothing was saved.
+2026-10-23 17:32:48  job 05cb85e607: ZZ_TEST_5862 failed
+2026-10-23 17:32:48  job 05cb85e607: customer 3 of 3: ZZ_TEST_7163
+2026-10-23 17:32:48  job 05cb85e607_3 done: Created ZZ_TEST_7163 (simulated).
+2026-10-23 17:32:48  job 05cb85e607: ZZ_TEST_7163 done
+2026-10-23 17:33:00  job df3443c1ce queued: Customers
+2026-10-23 17:33:00  job df3443c1ce: customer 1 of 3: ZZ_TEST_6842
+2026-10-23 17:33:00  job df3443c1ce_1 done: Created ZZ_TEST_6842 (simulated).
+2026-10-23 17:33:00  job df3443c1ce: ZZ_TEST_6842 done
+2026-10-23 17:33:00  job df3443c1ce: customer 2 of 3: ZZ_TEST_5862
+2026-10-23 17:33:00  job df3443c1ce_2 stopped (NOT_IN_ORACLE): Oracle doesn't have one of the values you chose. Bill-to Site 'X' is not one of the screen's values. Nothing was saved.
+2026-10-23 17:33:00  job df3443c1ce: ZZ_TEST_5862 failed
+2026-10-23 17:33:00  job df3443c1ce: customer 3 of 3: ZZ_TEST_7163
+2026-10-23 17:33:00  job df3443c1ce_3 stopped (NOT_IN_ORACLE): Oracle doesn't have one of the values you chose. Bill-to Site 'X' is not one of the screen's values. Nothing was saved.
+2026-10-23 17:33:00  job df3443c1ce: ZZ_TEST_7163 failed
+2026-10-23 17:33:23  page started at http://127.0.0.1:8765 (environment test)
+2026-10-23 17:33:23  folders: Customers
+2026-10-23 17:33:35  saved Oracle sign-in: valid (saved 2026-10-23T08:33:37+00:00, 5.9s)
+2026-10-23 17:33:35  setup checklist passed; showing the cards
+2026-10-23 17:33:52  saved Oracle sign-in: valid (saved 2026-10-23T08:33:37+00:00, 5.0s)
+2026-10-23 17:33:54  upload 969b1e316c (c_same_name.xlsx): not ready, 0 record(s), 0 problem(s), 1 stop(s)
+2026-10-23 17:34:00  saved Oracle sign-in: valid (saved 2026-10-23T08:33:37+00:00, 5.3s)
+2026-10-23 17:34:00  address check: 2 distinct place(s) for 3 record(s)
+2026-10-23 17:34:41  upload f8947d8e10 (b_postal_and_billto.xlsx): not ready, 3 record(s), 2 problem(s), 0 stop(s)
+2026-10-23 17:34:49  saved Oracle sign-in: valid (saved 2026-10-23T08:33:37+00:00, 6.4s)
+2026-10-23 17:35:29  upload b64fd96d95 (attached.xlsx): ready, 3 record(s), 0 problem(s), 0 stop(s)
+2026-10-23 17:36:13  saved Oracle sign-in: valid (saved 2026-10-23T08:33:37+00:00, 6.2s)
+2026-10-23 17:36:13  job 40156d29fc queued: Customers
+2026-10-23 17:36:13  job 40156d29fc: customer 1 of 3: ZZ_TEST_6842
+2026-10-23 17:39:18  job 40156d29fc_1 done: Created the organization customer ZZ_TEST_6842 with Registry ID 130588, with its account and address, and checked every value in Oracle.
+2026-10-23 17:39:18  job 40156d29fc: ZZ_TEST_6842 done
+2026-10-23 17:39:18  job 40156d29fc: customer 2 of 3: ZZ_TEST_5862
+2026-10-23 17:42:24  job 40156d29fc_2 done: Created the organization customer ZZ_TEST_5862 with Registry ID 130591, with its account and address, and checked every value in Oracle.
+2026-10-23 17:42:24  job 40156d29fc: ZZ_TEST_5862 done
+2026-10-23 17:42:24  job 40156d29fc: customer 3 of 3: ZZ_TEST_7163
+2026-10-23 17:43:31  job 40156d29fc_3 stopped (SIGN_IN_NEEDED): Your Oracle sign-in has expired. Please sign in again, then try once more. Nothing was saved in Oracle.
+2026-10-23 17:43:31  job 40156d29fc: ZZ_TEST_7163 failed
+2026-10-23 17:44:58  saved Oracle sign-in: valid (saved 2026-10-23T08:33:37+00:00, 5.4s)
+2026-10-23 17:45:17  upload e2d86d537a (Failed customers.xlsx): ready, 1 record(s), 0 problem(s), 0 stop(s)
+2026-10-23 17:45:29  saved Oracle sign-in: valid (saved 2026-10-23T08:33:37+00:00, 5.5s)
+2026-10-23 17:45:29  job fb6b7129b6 queued: Customers
+2026-10-23 17:45:29  job fb6b7129b6: customer 1 of 1: ZZ_TEST_7163
+2026-10-23 17:48:35  job fb6b7129b6_1 done: Created the organization customer ZZ_TEST_7163 with Registry ID 130596, with its account and address, and checked every value in Oracle.
+2026-10-23 17:48:35  job fb6b7129b6: ZZ_TEST_7163 done
+2026-10-23 18:15:38  page started at http://127.0.0.1:8765 (environment test)
+2026-10-23 18:15:39  folders: Customers
+2026-10-23 18:15:50  saved Oracle sign-in: valid (saved 2026-10-23T08:33:37+00:00, 5.3s)
+2026-10-23 18:15:51  setup checklist passed; showing the cards
+2026-10-23 18:15:51  saved Oracle sign-in: valid (saved 2026-10-23T08:33:37+00:00, 7.8s)
+2026-10-23 18:16:36  upload a97ede4f8a (Customer_upload_sheet_3customers.xlsx): ready, 3 record(s), 0 problem(s), 0 stop(s)
+2026-10-23 18:17:05  saved Oracle sign-in: valid (saved 2026-10-23T08:33:37+00:00, 6.3s)
+2026-10-23 18:17:05  job 50b78197f1 queued: Customers
+2026-10-23 18:17:05  job 50b78197f1: customer 1 of 3: Testtest1
+2026-10-23 18:20:10  job 50b78197f1_1 done: Created the organization customer Testtest1 with Registry ID 130601, with its account and address, and checked every value in Oracle.
+2026-10-23 18:20:10  job 50b78197f1: Testtest1 done
+2026-10-23 18:20:10  job 50b78197f1: customer 2 of 3: Testtest2
+2026-10-23 18:23:16  job 50b78197f1_2 done: Created the organization customer Testtest2 with Registry ID 130604, with its account and address, and checked every value in Oracle.
+2026-10-23 18:23:16  job 50b78197f1: Testtest2 done
+2026-10-23 18:23:16  job 50b78197f1: customer 3 of 3: Testtest3
+2026-10-23 18:26:24  job 50b78197f1_3 done: Created the organization customer Testtest3 with Registry ID 130607, with its account and address, and checked every value in Oracle.
+2026-10-23 18:26:24  job 50b78197f1: Testtest3 done
+2026-10-23 19:45:39  page started at http://127.0.0.1:8765 (environment test)
+2026-10-23 19:45:40  folders: Customers
+2026-10-23 19:45:50  saved Oracle sign-in: valid (saved 2026-10-23T08:33:37+00:00, 5.5s)
+2026-10-23 19:45:50  setup checklist passed; showing the cards
+2026-10-23 19:58:48  saved Oracle sign-in: valid (saved 2026-10-23T08:33:37+00:00, 7.2s)
+2026-10-23 19:58:51  address check: 1 distinct place(s) for 3 record(s)
+2026-10-23 19:59:32  upload c3adf4fab0 (Customer_upload_sheet_3customers.xlsx): ready, 3 record(s), 0 problem(s), 0 stop(s), checked in 52 s
+2026-10-23 20:00:00  saved Oracle sign-in: valid (saved 2026-10-23T08:33:37+00:00, 5.8s)
+2026-10-23 20:00:00  job 11543ec22a queued: Customers (upload c3adf4fab0)
+2026-10-23 20:00:00  job 11543ec22a: customer 1 of 3: Testtest11
+2026-10-23 20:03:11  job 11543ec22a_1 done: Created the organization customer Testtest11 with Registry ID 130611, with its account and address, and checked every value in Oracle.
+2026-10-23 20:03:11  job 11543ec22a: Testtest11 done
+2026-10-23 20:03:11  job 11543ec22a: customer 2 of 3: Testtest22
+2026-10-23 20:06:36  job 11543ec22a_2 done: Created the organization customer Testtest22 with Registry ID 130614, with its account and address, and checked every value in Oracle.
+2026-10-23 20:06:36  job 11543ec22a: Testtest22 done
+2026-10-23 20:06:36  job 11543ec22a: customer 3 of 3: Testtest33
+2026-10-23 20:09:43  job 11543ec22a_3 done: Created the organization customer Testtest33 with Registry ID 130617, with its account and address, and checked every value in Oracle.
+2026-10-23 20:09:43  job 11543ec22a: Testtest33 done
+2026-10-23 21:20:18  page started at http://127.0.0.1:8765 (environment test)
+2026-10-23 21:20:19  folders: Customers
+2026-10-23 21:20:32  saved Oracle sign-in: valid (saved 2026-10-23T08:33:37+00:00, 6.6s)
+2026-10-23 21:20:33  setup checklist passed; showing the cards
+2026-10-23 21:20:38  saved Oracle sign-in: valid (saved 2026-10-23T08:33:37+00:00, 6.0s)
+2026-10-23 21:20:40  address check: 1 distinct place(s) for 3 record(s)
+2026-10-23 21:21:21  upload 56cbb5f2ac (Customer_upload_sheet_3customers.xlsx): ready, 3 record(s), 0 problem(s), 0 stop(s), checked in 49 s
+2026-10-23 21:21:52  saved Oracle sign-in: valid (saved 2026-10-23T08:33:37+00:00, 6.1s)
+2026-10-23 21:21:52  job 592a537f61 queued: Customers (upload 56cbb5f2ac)
+2026-10-23 21:21:52  job 592a537f61: customer 1 of 3: Testtest111
+2026-10-23 21:25:02  job 592a537f61_1 done: Created the organization customer Testtest111 with Registry ID 130621, with its account and address, and checked every value in Oracle.
+2026-10-23 21:25:02  job 592a537f61: Testtest111 done
+2026-10-23 21:25:02  job 592a537f61: customer 2 of 3: Testtest222
+2026-10-23 21:28:08  job 592a537f61_2 done: Created the organization customer Testtest222 with Registry ID 130624, with its account and address, and checked every value in Oracle.
+2026-10-23 21:28:08  job 592a537f61: Testtest222 done
+2026-10-23 21:28:08  job 592a537f61: customer 3 of 3: Testtest333
+2026-10-23 21:31:41  job 592a537f61_3 done: Created the organization customer Testtest333 with Registry ID 130627, with its account and address, and checked every value in Oracle.
+2026-10-23 21:31:41  job 592a537f61: Testtest333 done
+2026-10-23 21:36:28  saved Oracle sign-in: expired (saved 2026-10-23T08:33:37+00:00, 18.7s)
+2026-10-23 21:36:29  upload 24571a9ea8 (Copy of Customer_upload_sheet_1customers.xlsx): not ready, 1 record(s), 0 problem(s), 0 stop(s), waiting for the Oracle sign-in
+2026-10-23 21:36:38  saved Oracle sign-in: expired (saved 2026-10-23T08:33:37+00:00, 8.9s)
+2026-10-23 21:36:38  Oracle sign-in window opened
+2026-10-23 21:37:10  Oracle sign-in window closed (exit 0)
+2026-10-23 21:37:28  upload 24571a9ea8 (Copy of Customer_upload_sheet_1customers.xlsx): signed in; ready, 0 problem(s)
+2026-10-23 21:40:23  saved Oracle sign-in: valid (saved 2026-10-23T16:37:09+00:00, 4.2s)
+2026-10-23 21:40:23  job 230ce20f25 queued: Customers (upload 24571a9ea8)
+2026-10-23 21:40:23  job 230ce20f25: customer 1 of 1: Testtest100
+2026-10-23 21:43:28  job 230ce20f25_1 done: Created the organization customer Testtest100 with Registry ID 130630, with its account and address, and checked every value in Oracle.
+2026-10-23 21:43:28  job 230ce20f25: Testtest100 done
+2026-10-23 21:50:57  saved Oracle sign-in: valid (saved 2026-10-23T16:37:09+00:00, 11.7s)
+2026-10-23 21:51:14  upload 28628b3b9d (Copy of Customer_upload_sheet_1customers.xlsx): not ready, 1 record(s), 2 problem(s), 0 stop(s), checked in 29 s
+2026-10-23 21:53:47  saved Oracle sign-in: valid (saved 2026-10-23T16:37:09+00:00, 4.4s)
+2026-10-23 21:54:03  upload ef0a34e54c (Copy of Customer_upload_sheet_1customers.xlsx): ready, 1 record(s), 0 problem(s), 0 stop(s), checked in 20 s
+2026-10-23 21:54:11  saved Oracle sign-in: valid (saved 2026-10-23T16:37:09+00:00, 4.1s)
+2026-10-23 21:54:11  job 0dd029ec33 queued: Customers (upload ef0a34e54c)
+2026-10-23 21:54:11  job 0dd029ec33: customer 1 of 1: Testtest101
+2026-10-23 21:57:21  job 0dd029ec33_1 done: Created the organization customer Testtest101 with Registry ID 130633, with its account and address, and checked every value in Oracle.
+2026-10-23 21:57:21  job 0dd029ec33: Testtest101 done
+2026-10-23 22:12:16  saved Oracle sign-in: valid (saved 2026-10-23T16:37:09+00:00, 5.1s)
+2026-10-23 22:12:59  upload bedf5d6d53 (Customer_upload_sheet_3customers.xlsx): ready, 3 record(s), 0 problem(s), 0 stop(s), checked in 48 s
+2026-10-23 22:34:11  saved Oracle sign-in: valid (saved 2026-10-23T16:37:09+00:00, 5.2s)
+2026-10-23 22:34:11  job 5a4490659b queued: Customers (upload bedf5d6d53)
+2026-10-23 22:34:11  job 5a4490659b: customer 1 of 3: Testtest111
+2026-10-23 22:37:20  job 5a4490659b_1 done: Created the organization customer Testtest111 with Registry ID 130636, with its account and address, and checked every value in Oracle. 1 other customer with this name (Registry ID 130621) was not touched.
+2026-10-23 22:37:20  job 5a4490659b: Testtest111 done
+2026-10-23 22:37:20  job 5a4490659b: customer 2 of 3: Testtest222
+2026-10-23 22:40:38  job 5a4490659b_2 done: Created the organization customer Testtest222 with Registry ID 130639, with its account and address, and checked every value in Oracle. 1 other customer with this name (Registry ID 130624) was not touched.
+2026-10-23 22:40:38  job 5a4490659b: Testtest222 done
+2026-10-23 22:40:38  job 5a4490659b: customer 3 of 3: Testtest333
+2026-10-23 22:43:45  job 5a4490659b_3 done: Created the organization customer Testtest333 with Registry ID 130642, with its account and address, and checked every value in Oracle. 1 other customer with this name (Registry ID 130627) was not touched.
+2026-10-23 22:43:45  job 5a4490659b: Testtest333 done
+2026-10-25 00:53:16  page started at http://127.0.0.1:8765 (environment test)
+2026-10-25 00:53:17  folders: Customers
+2026-10-25 00:53:42  saved Oracle sign-in: expired (saved 2026-10-23T16:37:08+00:00, 12.4s)
+2026-10-25 00:53:53  saved Oracle sign-in: expired (saved 2026-10-23T16:37:08+00:00, 10.2s)
+2026-10-25 00:53:53  Oracle sign-in window opened
+2026-10-25 00:54:23  Oracle sign-in window closed (exit 0)
+2026-10-25 00:54:28  saved Oracle sign-in: valid (saved 2026-10-24T19:54:22+00:00, 4.2s)
+2026-10-25 00:54:28  setup checklist passed; showing the cards
+2026-10-25 01:02:19  saved Oracle sign-in: valid (saved 2026-10-24T19:54:22+00:00, 4.5s)
+2026-10-25 01:02:22  address check: 1 distinct place(s) for 1 record(s)
+2026-10-25 01:02:48  upload 0e31a8c11a (Copy of Untitled spreadsheet.xlsx): not ready, 1 record(s), 4 problem(s), 0 stop(s), checked in 34 s
+2026-10-25 01:09:14  saved Oracle sign-in: valid (saved 2026-10-24T19:54:22+00:00, 5.8s)
+2026-10-25 01:09:27  upload 76d02e7220 (Copy of Untitled spreadsheet (1).xlsx): ready, 1 record(s), 0 problem(s), 0 stop(s), checked in 20 s
+2026-10-25 01:13:13  saved Oracle sign-in: valid (saved 2026-10-24T19:54:22+00:00, 4.1s)
+2026-10-25 01:13:13  job 6881e6bf74 queued: Customers (upload 76d02e7220)
+2026-10-25 01:13:13  job 6881e6bf74: customer 1 of 1: Harborview Medical Supplies
+2026-10-25 01:16:35  job 6881e6bf74_1 done: Created the organization customer Harborview Medical Supplies with Registry ID 130710, with its account and address, and checked every value in Oracle.
+2026-10-25 01:16:35  job 6881e6bf74: Harborview Medical Supplies done
+2026-10-25 01:20:25  saved Oracle sign-in: valid (saved 2026-10-24T19:54:22+00:00, 5.9s)
+2026-10-25 01:21:10  address check: 1 distinct place(s) for 2 record(s)
+2026-10-25 01:23:04  upload c2ebf69f86 (Best Start.xlsx): ready, 3 record(s), 0 problem(s), 0 stop(s), checked in 165 s
+2026-10-25 04:51:08  page started at http://127.0.0.1:8765 (environment test)
+2026-10-25 04:51:09  folders: Customers
+2026-10-25 04:51:21  saved Oracle sign-in: valid (saved 2026-10-24T19:54:22+00:00, 5.8s)
+2026-10-25 04:51:21  setup checklist passed; showing the cards
+2026-10-25 04:51:27  saved Oracle sign-in: valid (saved 2026-10-24T19:54:22+00:00, 4.9s)
+2026-10-25 04:51:29  address check: 2 distinct place(s) for 3 record(s)
+2026-10-25 04:52:08  upload c485cadda8 (Best Start.xlsx): ready, 3 record(s), 0 problem(s), 0 stop(s), checked in 46 s
+2026-10-25 04:58:37  page started at http://127.0.0.1:8765 (environment test)
+2026-10-25 04:58:39  folders: Order Types, Customers
+2026-10-25 04:58:49  saved Oracle sign-in: valid (saved 2026-10-24T19:54:22+00:00, 5.8s)
+2026-10-25 04:58:49  setup checklist passed; showing the cards
+2026-10-25 04:58:57  saved Oracle sign-in: valid (saved 2026-10-24T19:54:22+00:00, 5.4s)
+2026-10-25 04:59:04  upload 43e0c29bfd (c_problems.xlsx): not ready, 4 record(s), 8 problem(s), 0 stop(s), checked in 12 s
+2026-10-25 04:59:10  saved Oracle sign-in: valid (saved 2026-10-24T19:54:22+00:00, 4.9s)
+2026-10-25 04:59:10  upload 86a6a2e192 (d_empty.xlsx): not ready, 0 record(s), 0 problem(s), 1 stop(s), checked in 5 s
+2026-10-25 04:59:30  saved Oracle sign-in: valid (saved 2026-10-24T19:54:22+00:00, 5.3s)
+2026-10-25 04:59:35  upload d04c4c1817 (a_order_types.xlsx): ready, 2 record(s), 0 problem(s), 0 stop(s), checked in 11 s
+2026-10-25 05:00:17  saved Oracle sign-in: valid (saved 2026-10-24T19:54:22+00:00, 5.8s)
+2026-10-25 05:00:17  job 6636cfcc47 queued: Order Types (upload d04c4c1817)
+2026-10-25 05:00:17  job 6636cfcc47: order type 1 of 2: ZZ_TEST_3435
+2026-10-25 05:01:06  job 6636cfcc47_1 done: Added order type ZZ_TEST_3435 (ZZ_TEST_3435 Game Pre-Order), checked every value in Oracle, and it shows on Create Order.
+2026-10-25 05:01:06  job 6636cfcc47: ZZ_TEST_3435 done
+2026-10-25 05:01:06  job 6636cfcc47: order type 2 of 2: ZZ_TEST_7981
+2026-10-25 05:01:13  job 6636cfcc47_2 done: Added order type ZZ_TEST_7981 (ZZ_TEST_7981 Disabled Order), checked every value in Oracle, and it shows on Create Order.
+2026-10-25 05:01:13  job 6636cfcc47: ZZ_TEST_7981 done
+2026-10-25 05:01:57  page started at http://127.0.0.1:8765 (environment test)
+2026-10-25 05:01:59  folders: Order Types, Customers
+2026-10-25 05:02:08  saved Oracle sign-in: valid (saved 2026-10-24T19:54:22+00:00, 5.8s)
+2026-10-25 05:02:09  setup checklist passed; showing the cards
+2026-10-25 05:02:14  saved Oracle sign-in: valid (saved 2026-10-24T19:54:22+00:00, 4.8s)
+2026-10-25 05:02:19  upload ea1853223f (b_same_again.xlsx): ready, 2 record(s), 0 problem(s), 0 stop(s), checked in 10 s
+2026-10-25 05:02:37  saved Oracle sign-in: valid (saved 2026-10-24T19:54:22+00:00, 5.5s)
+2026-10-25 05:02:37  job c2e808dcf2 queued: Order Types (upload ea1853223f)
+2026-10-25 05:02:37  job c2e808dcf2: order type 1 of 2: ZZ_TEST_3435
+2026-10-25 05:02:39  job c2e808dcf2_1 done: Order type ZZ_TEST_3435 already exists in Oracle, so nothing was changed.
+2026-10-25 05:02:39  job c2e808dcf2: ZZ_TEST_3435 done
+2026-10-25 05:02:39  job c2e808dcf2: order type 2 of 2: ZZ_TEST_7981
+2026-10-25 05:02:43  job c2e808dcf2_2 done: Order type ZZ_TEST_7981 already exists in Oracle, so nothing was changed.
+2026-10-25 05:02:43  job c2e808dcf2: ZZ_TEST_7981 done
+2026-10-25 05:06:21  saved Oracle sign-in: valid (saved 2026-10-24T19:54:22+00:00, 5.9s)
+2026-10-25 05:06:25  upload 83eaf8b50a (c_problems.xlsx): not ready, 4 record(s), 8 problem(s), 0 stop(s), checked in 10 s
+2026-10-25 05:06:32  saved Oracle sign-in: valid (saved 2026-10-24T19:54:22+00:00, 5.6s)
+2026-10-25 05:06:32  upload 80ef7038e1 (d_empty.xlsx): not ready, 0 record(s), 0 problem(s), 1 stop(s), checked in 6 s
+2026-10-25 05:07:12  saved Oracle sign-in: valid (saved 2026-10-24T19:54:22+00:00, 5.5s)
+2026-10-25 05:07:13  address check: 2 distinct place(s) for 3 record(s)
+2026-10-25 05:07:51  upload 434de6257e (Best Start.xlsx): ready, 3 record(s), 0 problem(s), 0 stop(s), checked in 44 s
+2026-10-25 05:16:53  page started at http://127.0.0.1:8765 (environment test)
+2026-10-25 05:16:55  folders: Order Types, Customers
+2026-10-25 05:17:05  saved Oracle sign-in: valid (saved 2026-10-24T19:54:22+00:00, 5.4s)
+2026-10-25 05:17:05  saved Oracle sign-in: valid (saved 2026-10-24T19:54:22+00:00, 5.5s)
+2026-10-25 05:17:05  setup checklist passed; showing the cards
+2026-10-25 05:17:11  upload 40d82725bd (Best_Start_with_Order_Types.xlsx): ready, 1 record(s), 0 problem(s), 0 stop(s), checked in 12 s
+2026-10-25 05:17:46  saved Oracle sign-in: valid (saved 2026-10-24T19:54:22+00:00, 5.2s)
+2026-10-25 05:17:46  job 0ef5f111a3 queued: Order Types (upload 40d82725bd)
+2026-10-25 05:17:46  job 0ef5f111a3: order type 1 of 1: GAME_PREORDER
+2026-10-25 05:18:24  job 0ef5f111a3_1 done: Added order type GAME_PREORDER (Game Pre-Order), checked every value in Oracle, and it shows on Create Order.
+2026-10-25 05:18:24  job 0ef5f111a3: GAME_PREORDER done
+2026-10-25 05:26:55  saved Oracle sign-in: valid (saved 2026-10-24T19:54:22+00:00, 5.9s)
+2026-10-25 05:26:59  upload dbf1225648 (Copy of Best_Start_with_Order_Types (1).xlsx): not ready, 2 record(s), 1 problem(s), 0 stop(s), checked in 11 s
+2026-10-25 05:28:01  saved Oracle sign-in: valid (saved 2026-10-24T19:54:22+00:00, 5.7s)
+2026-10-25 05:28:07  upload c274bec093 (Copy of Best_Start_with_Order_Types (2).xlsx): ready, 2 record(s), 0 problem(s), 0 stop(s), checked in 13 s
+2026-10-25 05:28:37  saved Oracle sign-in: valid (saved 2026-10-24T19:54:22+00:00, 5.9s)
+2026-10-25 05:28:37  job 9c15747d24 queued: Order Types (upload c274bec093)
+2026-10-25 05:28:37  job 9c15747d24: order type 1 of 2: GAME_PREORDER
+2026-10-25 05:28:40  job 9c15747d24_1 done: Order type GAME_PREORDER already exists in Oracle, so nothing was changed.
+2026-10-25 05:28:40  job 9c15747d24: GAME_PREORDER done
+2026-10-25 05:28:40  job 9c15747d24: order type 2 of 2: IMTENAN_STANDARD_2
+2026-10-25 05:28:43  job 9c15747d24_2 done: Order type IMTENAN_STANDARD_2 already exists in Oracle, so nothing was changed.
+2026-10-25 05:28:43  job 9c15747d24: IMTENAN_STANDARD_2 done
+2026-10-25 05:30:00  saved Oracle sign-in: valid (saved 2026-10-24T19:54:22+00:00, 6.3s)
+2026-10-25 05:30:04  upload 73ecf57a80 (Copy of Best_Start_with_Order_Types (3).xlsx): ready, 2 record(s), 0 problem(s), 0 stop(s), checked in 10 s
+2026-10-25 05:30:12  saved Oracle sign-in: valid (saved 2026-10-24T19:54:22+00:00, 5.1s)
+2026-10-25 05:30:12  job 2ac7746bf7 queued: Order Types (upload 73ecf57a80)
+2026-10-25 05:30:12  job 2ac7746bf7: order type 1 of 2: GAME_PREORDER
+2026-10-25 05:30:16  job 2ac7746bf7_1 done: Order type GAME_PREORDER already exists in Oracle, so nothing was changed.
+2026-10-25 05:30:16  job 2ac7746bf7: GAME_PREORDER done
+2026-10-25 05:30:16  job 2ac7746bf7: order type 2 of 2: GHGH
+2026-10-25 05:30:49  job 2ac7746bf7_2 done: Added order type GHGH (yy), checked every value in Oracle, and it shows on Create Order.
+2026-10-25 05:30:49  job 2ac7746bf7: GHGH done
+2026-10-25 05:31:39  saved Oracle sign-in: valid (saved 2026-10-24T19:54:22+00:00, 6.2s)
+2026-10-25 05:31:43  upload e1d0f40312 (Copy of Best_Start_with_Order_Types (4).xlsx): not ready, 2 record(s), 2 problem(s), 0 stop(s), checked in 10 s
+2026-10-25 05:32:27  saved Oracle sign-in: valid (saved 2026-10-24T19:54:22+00:00, 6.9s)
+2026-10-25 05:32:31  upload c2a7b7f2c3 (Copy of Best_Start_with_Order_Types (5).xlsx): not ready, 2 record(s), 1 problem(s), 0 stop(s), checked in 11 s
+2026-10-25 05:33:28  saved Oracle sign-in: valid (saved 2026-10-24T19:54:22+00:00, 6.1s)
+2026-10-25 05:33:32  upload ff1d276a84 (Copy of Best_Start_with_Order_Types (6).xlsx): not ready, 2 record(s), 1 problem(s), 0 stop(s), checked in 10 s
+2026-10-25 07:01:03  page started at http://127.0.0.1:8765 (environment test)
+2026-10-25 07:01:05  folders: Order Types, Customers
+2026-10-25 07:01:16  saved Oracle sign-in: valid (saved 2026-10-24T19:54:22+00:00, 6.6s)
+2026-10-25 07:01:16  setup checklist passed; showing the cards
+2026-10-25 07:12:25  page started at http://127.0.0.1:8765 (environment test)
+2026-10-25 07:12:27  folders: Payment Terms, Order Types, Customers
+2026-10-25 07:12:37  saved Oracle sign-in: valid (saved 2026-10-24T19:54:22+00:00, 5.5s)
+2026-10-25 07:12:37  setup checklist passed; showing the cards
+2026-10-25 07:12:44  saved Oracle sign-in: valid (saved 2026-10-24T19:54:22+00:00, 5.0s)
+2026-10-25 07:13:50  upload e2c73b7c0f (Payment_Terms_TEST_good.xlsx): ready, 6 record(s), 0 problem(s), 0 stop(s), checked in 70 s
+2026-10-25 07:13:56  saved Oracle sign-in: valid (saved 2026-10-24T19:54:22+00:00, 5.1s)
+2026-10-25 07:14:57  upload 1410bb8021 (Payment_Terms_TEST_bad.xlsx): not ready, 12 record(s), 12 problem(s), 0 stop(s), checked in 67 s
+2026-10-25 07:15:28  page started at http://127.0.0.1:8765 (environment test)
+2026-10-25 07:15:31  folders: Payment Terms, Order Types, Customers
+2026-10-25 07:15:39  saved Oracle sign-in: valid (saved 2026-10-24T19:54:22+00:00, 5.4s)
+2026-10-25 07:15:40  setup checklist passed; showing the cards
+2026-10-25 07:15:47  saved Oracle sign-in: valid (saved 2026-10-24T19:54:22+00:00, 4.6s)
+2026-10-25 07:16:51  upload f4687fb846 (exact_existing.xlsx): ready, 6 record(s), 0 problem(s), 0 stop(s), checked in 69 s
+2026-10-25 07:16:58  saved Oracle sign-in: valid (saved 2026-10-24T19:54:22+00:00, 6.0s)
+2026-10-25 07:18:03  upload a857a509c0 (Payment_Terms_TEST_bad.xlsx): not ready, 12 record(s), 12 problem(s), 0 stop(s), checked in 72 s
+2026-10-25 07:18:51  saved Oracle sign-in: valid (saved 2026-10-24T19:54:22+00:00, 5.9s)
+2026-10-25 07:18:51  address check: 2 distinct place(s) for 3 record(s)
+2026-10-25 07:19:30  upload 16763d7a8e (customer_sheet.xlsx): ready, 3 record(s), 0 problem(s), 0 stop(s), checked in 45 s
+2026-10-25 07:19:36  saved Oracle sign-in: valid (saved 2026-10-24T19:54:22+00:00, 5.1s)
+2026-10-25 07:19:40  upload 62e8b95c0c (Best_Start_with_Order_Types.xlsx): ready, 1 record(s), 0 problem(s), 0 stop(s), checked in 9 s
+2026-10-25 07:20:11  saved Oracle sign-in: valid (saved 2026-10-24T19:54:22+00:00, 5.6s)
+2026-10-25 07:20:50  upload 7824f28cc0 (Best Start.xlsx): ready, 3 record(s), 0 problem(s), 0 stop(s), checked in 44 s
+2026-10-25 07:22:34  saved Oracle sign-in: valid (saved 2026-10-24T19:54:22+00:00, 5.9s)
+2026-10-25 07:23:36  upload 153d8690d3 (Payment_Terms_TEST_good.xlsx): ready, 6 record(s), 0 problem(s), 0 stop(s), checked in 69 s
+2026-10-25 07:23:53  saved Oracle sign-in: valid (saved 2026-10-24T19:54:22+00:00, 15.9s)
+2026-10-25 07:25:01  upload cffd615f0f (Payment_Terms_TEST_bad.xlsx): not ready, 12 record(s), 12 problem(s), 0 stop(s), checked in 84 s
+2026-10-25 07:32:11  page started at http://127.0.0.1:8765 (environment test)
+2026-10-25 07:32:14  folders: Payment Terms, Order Types, Customers
+2026-10-25 07:32:23  saved Oracle sign-in: valid (saved 2026-10-24T19:54:22+00:00, 5.7s)
+2026-10-25 07:32:24  setup checklist passed; showing the cards
+2026-10-25 07:32:24  saved Oracle sign-in: valid (saved 2026-10-24T19:54:22+00:00, 5.4s)
+2026-10-25 07:33:28  upload d5d892dc90 (Payment_Terms_TEST_good.xlsx): ready, 6 record(s), 0 problem(s), 0 stop(s), checked in 70 s
+2026-10-25 07:34:11  saved Oracle sign-in: valid (saved 2026-10-24T19:54:22+00:00, 5.4s)
+2026-10-25 07:34:11  job 17a0935ae8 queued: Payment Terms (upload d5d892dc90)
+2026-10-25 07:34:11  job 17a0935ae8: payment term 1 of 6: ZZ_SHEET_PT_4766_NET45
+2026-10-25 07:34:11  job 17a0935ae8: payment term 2 of 6: ZZ_SHEET_PT_4766_TWO
+2026-10-25 07:34:11  job 17a0935ae8: payment term 3 of 6: ZZ_SHEET_PT_4766_EOM
+2026-10-25 07:34:11  job 17a0935ae8: payment term 4 of 6: ZZ_SHEET_PT_4766_AMT
+2026-10-25 07:34:11  job 17a0935ae8: payment term 5 of 6: ZZ_SHEET_PT_4766_DISC
+2026-10-25 07:34:11  job 17a0935ae8: payment term 6 of 6: ZZ_SHEET_PT_4766_FIXED
+2026-10-25 07:36:41  job 17a0935ae8_1 done: Created the payment term ZZ_SHEET_PT_4766_NET45 from 2026/10/24 with 1 installment, and checked every value in Oracle.
+2026-10-25 07:36:41  job 17a0935ae8: ZZ_SHEET_PT_4766_NET45 done
+2026-10-25 07:36:41  job 17a0935ae8_2 done: Created the payment term ZZ_SHEET_PT_4766_TWO from 2026/10/24 with 2 installments, and checked every value in Oracle.
+2026-10-25 07:36:41  job 17a0935ae8: ZZ_SHEET_PT_4766_TWO done
+2026-10-25 07:36:41  job 17a0935ae8_3 done: Created the payment term ZZ_SHEET_PT_4766_EOM from 2026/10/24 with 1 installment, and checked every value in Oracle.
+2026-10-25 07:36:41  job 17a0935ae8: ZZ_SHEET_PT_4766_EOM done
+2026-10-25 07:36:41  job 17a0935ae8_4 done: Created the payment term ZZ_SHEET_PT_4766_AMT from 2026/10/24 with 2 installments, and checked every value in Oracle.
+2026-10-25 07:36:41  job 17a0935ae8: ZZ_SHEET_PT_4766_AMT done
+2026-10-25 07:36:41  job 17a0935ae8_5 done: Created the payment term ZZ_SHEET_PT_4766_DISC from 2026/10/24 with 1 installment, and checked every value in Oracle.
+2026-10-25 07:36:41  job 17a0935ae8: ZZ_SHEET_PT_4766_DISC done
+2026-10-25 07:36:41  job 17a0935ae8_6 done: Created the payment term ZZ_SHEET_PT_4766_FIXED from 2026/10/24 with 1 installment, and checked every value in Oracle.
+2026-10-25 07:36:41  job 17a0935ae8: ZZ_SHEET_PT_4766_FIXED done
+2026-10-25 07:38:05  saved Oracle sign-in: valid (saved 2026-10-24T19:54:22+00:00, 8.5s)
+2026-10-25 07:39:12  upload 8fcb675b2b (Payment_Terms_TEST_good.xlsx): ready, 6 record(s), 0 problem(s), 0 stop(s), checked in 78 s
+2026-10-25 07:41:38  saved Oracle sign-in: valid (saved 2026-10-24T19:54:22+00:00, 6.0s)
+2026-10-25 07:42:45  upload 0d0fd1c44d (Payment_Terms_TEST_good (1).xlsx): ready, 11 record(s), 0 problem(s), 0 stop(s), checked in 73 s
+2026-10-25 07:43:28  saved Oracle sign-in: valid (saved 2026-10-24T19:54:22+00:00, 5.6s)
+2026-10-25 07:43:28  job 2fe976906f queued: Customers (upload 0d0fd1c44d)
+2026-10-25 07:43:28  job 2fe976906f: customer 1 of 11: Pixel Forge Studios2
+2026-10-25 07:45:29  job 2fe976906f_1 stopped (NOT_IN_ORACLE): City: 'ABSECON' does not exist in Oracle's geography for this country. Oracle only accepts places its geography already has; a missing one cannot be created here. Oracle's search for it found nothing. Nothing was saved.
+2026-10-25 07:45:29  job 2fe976906f: Pixel Forge Studios2 failed
+2026-10-25 07:45:29  job 2fe976906f: customer 2 of 11: Nightfall Interactive2
+2026-10-25 07:47:30  job 2fe976906f_2 stopped (NOT_IN_ORACLE): City: 'ABSECON' does not exist in Oracle's geography for this country. Oracle only accepts places its geography already has; a missing one cannot be created here. Oracle's search for it found nothing. Nothing was saved.
+2026-10-25 07:47:30  job 2fe976906f: Nightfall Interactive2 failed
+2026-10-25 07:47:30  job 2fe976906f: customer 3 of 11: Arcade Horizon Games2
+2026-10-25 07:50:42  job 2fe976906f_3 done: Created the organization customer Arcade Horizon Games2 with Registry ID 130727, with its account and address, and checked every value in Oracle. 1 other customer with this name (Registry ID 130667) was not touched.
+2026-10-25 07:50:42  job 2fe976906f: Arcade Horizon Games2 done
+2026-10-25 07:50:42  job 2fe976906f: order type 4 of 11: RET
+2026-10-25 07:51:18  job 2fe976906f_4 done: Added order type RET (RETT), checked every value in Oracle, and it shows on Create Order.
+2026-10-25 07:51:18  job 2fe976906f: RET done
+2026-10-25 07:51:18  job 2fe976906f: order type 5 of 11: RETT
+2026-10-25 07:51:53  job 2fe976906f_5 done: Added order type RETT (RETTT), checked every value in Oracle, and it shows on Create Order.
+2026-10-25 07:51:53  job 2fe976906f: RETT done
+2026-10-25 07:51:53  job 2fe976906f: payment term 6 of 11: ZZ_SHEET_PT_4766_NET45
+2026-10-25 07:51:53  job 2fe976906f: payment term 7 of 11: ZZ_SHEET_PT_4766_TWO
+2026-10-25 07:51:53  job 2fe976906f: payment term 8 of 11: ZZ_SHEET_PT_4766_EOM
+2026-10-25 07:51:53  job 2fe976906f: payment term 9 of 11: ZZ_SHEET_PT_4766_AMT
+2026-10-25 07:51:53  job 2fe976906f: payment term 10 of 11: ZZ_SHEET_PT_4766_DISC
+2026-10-25 07:51:53  job 2fe976906f: payment term 11 of 11: ZZ_SHEET_PT_4766_FIXED
+2026-10-25 07:53:00  job 2fe976906f_6 done: The payment term ZZ_SHEET_PT_4766_NET45 already exists in Oracle, so nothing was changed.
+2026-10-25 07:53:00  job 2fe976906f: ZZ_SHEET_PT_4766_NET45 done
+2026-10-25 07:53:00  job 2fe976906f_7 done: The payment term ZZ_SHEET_PT_4766_TWO already exists in Oracle, so nothing was changed.
+2026-10-25 07:53:00  job 2fe976906f: ZZ_SHEET_PT_4766_TWO done
+2026-10-25 07:53:00  job 2fe976906f_8 done: The payment term ZZ_SHEET_PT_4766_EOM already exists in Oracle, so nothing was changed.
+2026-10-25 07:53:00  job 2fe976906f: ZZ_SHEET_PT_4766_EOM done
+2026-10-25 07:53:00  job 2fe976906f_9 done: The payment term ZZ_SHEET_PT_4766_AMT already exists in Oracle, so nothing was changed.
+2026-10-25 07:53:00  job 2fe976906f: ZZ_SHEET_PT_4766_AMT done
+2026-10-25 07:53:00  job 2fe976906f_10 done: The payment term ZZ_SHEET_PT_4766_DISC already exists in Oracle, so nothing was changed.
+2026-10-25 07:53:00  job 2fe976906f: ZZ_SHEET_PT_4766_DISC done
+2026-10-25 07:53:00  job 2fe976906f_11 done: The payment term ZZ_SHEET_PT_4766_FIXED already exists in Oracle, so nothing was changed.
+2026-10-25 07:53:00  job 2fe976906f: ZZ_SHEET_PT_4766_FIXED done
+2026-10-25 08:52:30  page started at http://127.0.0.1:8765 (environment test)
+2026-10-25 08:52:33  folders: Lookup types, Payment Terms, Order Types, Customers
+2026-10-25 08:52:42  saved Oracle sign-in: valid (saved 2026-10-24T19:54:22+00:00, 6.1s)
+2026-10-25 08:52:42  setup checklist passed; showing the cards
+2026-10-25 08:52:52  saved Oracle sign-in: valid (saved 2026-10-24T19:54:22+00:00, 5.0s)
+2026-10-25 08:53:00  upload 5a25504596 (Lookup_Types_TEST_good.xlsx): ready, 5 record(s), 0 problem(s), 0 stop(s), checked in 13 s
+2026-10-25 08:53:06  saved Oracle sign-in: valid (saved 2026-10-24T19:54:22+00:00, 4.9s)
+2026-10-25 08:53:59  upload 0c2fed59ab (Lookup_Types_TEST_bad.xlsx): not ready, 14 record(s), 12 problem(s), 0 stop(s), checked in 58 s
+2026-10-25 08:54:35  page started at http://127.0.0.1:8765 (environment test)
+2026-10-25 08:54:38  folders: Lookup types, Payment Terms, Order Types, Customers
+2026-10-25 08:54:49  saved Oracle sign-in: expired (saved 2026-10-24T19:54:22+00:00, 8.6s)
+2026-10-25 08:54:59  saved Oracle sign-in: expired (saved 2026-10-24T19:54:22+00:00, 9.3s)
+2026-10-25 08:54:59  Oracle sign-in window opened
+2026-10-25 08:56:41  Oracle sign-in window closed (exit 0)
+2026-10-25 08:56:55  saved Oracle sign-in: valid (saved 2026-10-25T03:56:40+00:00, 13.6s)
+2026-10-25 08:56:56  setup checklist passed; showing the cards
+2026-10-25 08:56:59  saved Oracle sign-in: valid (saved 2026-10-25T03:56:40+00:00, 3.8s)
+2026-10-25 08:58:14  upload 0719ae9ecd (Lookup_Types_TEST_bad.xlsx): not ready, 14 record(s), 12 problem(s), 0 stop(s), checked in 79 s
+2026-10-25 08:58:20  saved Oracle sign-in: valid (saved 2026-10-25T03:56:40+00:00, 5.0s)
+2026-10-25 08:58:21  address check: 2 distinct place(s) for 3 record(s)
+2026-10-25 08:59:01  upload 3586f7f8f3 (Best Start.xlsx): ready, 3 record(s), 0 problem(s), 0 stop(s), checked in 46 s
+2026-10-25 08:59:40  saved Oracle sign-in: valid (saved 2026-10-25T03:56:40+00:00, 3.6s)
+2026-10-25 08:59:44  upload b735331585 (order_types_sample.xlsx): ready, 1 record(s), 0 problem(s), 0 stop(s), checked in 7 s
+2026-10-25 08:59:49  saved Oracle sign-in: valid (saved 2026-10-25T03:56:40+00:00, 3.7s)
+2026-10-25 09:00:54  upload bda7b9e336 (Payment_Terms_TEST_good.xlsx): ready, 6 record(s), 0 problem(s), 0 stop(s), checked in 69 s
+2026-10-25 09:01:04  saved Oracle sign-in: valid (saved 2026-10-25T03:56:40+00:00, 9.4s)
+2026-10-25 09:02:04  upload 208e107685 (Payment_Terms_TEST_bad.xlsx): not ready, 12 record(s), 12 problem(s), 0 stop(s), checked in 70 s
+2026-10-25 09:02:18  saved Oracle sign-in: valid (saved 2026-10-25T03:56:40+00:00, 5.0s)
+2026-10-25 09:02:24  upload 5fbf6ea18c (Lookup_Types_TEST_good.xlsx): ready, 5 record(s), 0 problem(s), 0 stop(s), checked in 11 s
+2026-10-25 09:10:02  page started at http://127.0.0.1:8765 (environment test)
+2026-10-25 09:10:05  folders: Lookup types, Payment Terms, Order Types, Customers
+2026-10-25 09:10:12  saved Oracle sign-in: valid (saved 2026-10-25T03:56:40+00:00, 3.7s)
+2026-10-25 09:10:12  setup checklist passed; showing the cards
+2026-10-25 09:10:14  saved Oracle sign-in: valid (saved 2026-10-25T03:56:40+00:00, 3.7s)
+2026-10-25 09:10:22  upload 763fcb24af (Lookup_Types_TEST_good.xlsx): ready, 5 record(s), 0 problem(s), 0 stop(s), checked in 12 s
+2026-10-25 09:12:36  saved Oracle sign-in: valid (saved 2026-10-25T03:56:40+00:00, 4.2s)
+2026-10-25 09:12:36  job 9ac116da71 queued: Lookup types (upload 763fcb24af)
+2026-10-25 09:12:36  job 9ac116da71: lookup type 1 of 5: ZZ_SHEET_LK_7495_ALL
+2026-10-25 09:12:36  job 9ac116da71: lookup type 2 of 5: ZZ_SHEET_LK_7495_CON
+2026-10-25 09:12:36  job 9ac116da71: lookup type 3 of 5: ZZ_SHEET_LK_7495_ANON
+2026-10-25 09:12:36  job 9ac116da71: lookup type 4 of 5: ZZ_SHEET_LK_7495 SPACE
+2026-10-25 09:12:36  job 9ac116da71: lookup type 5 of 5: ORA_DGV_SERVICE_TYPE
+2026-10-25 09:13:27  job 9ac116da71_1 done: Created the lookup type ZZ_SHEET_LK_7495_ALL with 3 codes, and checked every value in Oracle.
+2026-10-25 09:13:27  job 9ac116da71: ZZ_SHEET_LK_7495_ALL done
+2026-10-25 09:13:27  job 9ac116da71_2 done: Created the lookup type ZZ_SHEET_LK_7495_CON with 2 codes, and checked every value in Oracle.
+2026-10-25 09:13:27  job 9ac116da71: ZZ_SHEET_LK_7495_CON done
+2026-10-25 09:13:27  job 9ac116da71_3 done: Created the lookup type ZZ_SHEET_LK_7495_ANON with 0 codes, and checked every value in Oracle.
+2026-10-25 09:13:27  job 9ac116da71: ZZ_SHEET_LK_7495_ANON done
+2026-10-25 09:13:27  job 9ac116da71_4 done: Created the lookup type ZZ_SHEET_LK_7495 SPACE with 1 code, and checked every value in Oracle.
+2026-10-25 09:13:27  job 9ac116da71: ZZ_SHEET_LK_7495 SPACE done
+2026-10-25 09:13:27  job 9ac116da71_5 done: Added 2 codes to the existing lookup type ORA_DGV_SERVICE_TYPE. Checked in Oracle.
+2026-10-25 09:13:27  job 9ac116da71: ORA_DGV_SERVICE_TYPE done
+2026-10-26 03:57:14  folders: Lookup types, Payment Terms, Order Types, Customers, Business Units
+2026-10-26 03:57:35  page started at http://127.0.0.1:8765 (environment test)
+2026-10-26 03:57:39  folders: Lookup types, Payment Terms, Order Types, Customers, Business Units
+2026-10-26 03:57:46  saved Oracle sign-in: valid (saved 2026-10-25T20:56:10+00:00, 5.7s)
+2026-10-26 03:57:49  setup checklist passed; showing the cards
+2026-10-26 03:57:54  saved Oracle sign-in: valid (saved 2026-10-25T20:56:10+00:00, 5.5s)
+2026-10-26 03:58:41  upload a82b4b6e66 (Business_Units_TEST_good.xlsx): ready, 4 record(s), 0 problem(s), 0 stop(s), checked in 52 s
+2026-10-26 03:58:53  saved Oracle sign-in: valid (saved 2026-10-25T20:56:10+00:00, 5.4s)
+2026-10-26 03:58:59  upload fef676902f (Business_Units_TEST_bad.xlsx): not ready, 13 record(s), 10 problem(s), 0 stop(s), checked in 11 s
+2026-10-26 03:59:29  saved Oracle sign-in: valid (saved 2026-10-25T20:56:10+00:00, 5.0s)
+2026-10-26 03:59:33  upload 4c332e93e0 (caps_only.xlsx): ready, 1 record(s), 0 problem(s), 0 stop(s), checked in 10 s
+2026-10-26 03:59:39  saved Oracle sign-in: valid (saved 2026-10-25T20:56:10+00:00, 4.7s)
+2026-10-26 03:59:45  upload 07dca6c5cd (Business_Units_TEST_bad.xlsx): not ready, 13 record(s), 10 problem(s), 0 stop(s), checked in 11 s
+2026-10-26 04:04:36  saved Oracle sign-in: valid (saved 2026-10-25T20:56:10+00:00, 6.2s)
+2026-10-26 04:05:33  address check: 2 distinct place(s) for 3 record(s)
+2026-10-26 04:06:17  upload 17ba59b583 (customer_sheet.xlsx): ready, 3 record(s), 0 problem(s), 0 stop(s), checked in 107 s
+2026-10-26 04:06:24  saved Oracle sign-in: valid (saved 2026-10-25T20:56:10+00:00, 5.5s)
+2026-10-26 04:09:06  --plan for 6 record(s) failed (1): ewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.TimeoutError: Page.goto: Timeout 120000ms exceeded.
+Call log:
+  - navigating to "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com/fscmUI/faces/FuseTaskListManagerTop", waiting until "domcontentloaded"
+2026-10-26 04:09:12  upload 65ad584b17 (Test.xlsx): not ready, 13 record(s), 3 problem(s), 1 stop(s), checked in 173 s
+2026-10-26 04:09:19  saved Oracle sign-in: valid (saved 2026-10-25T20:56:10+00:00, 5.9s)
+2026-10-26 04:09:26  upload 004fa070dd (a_order_types.xlsx): ready, 2 record(s), 0 problem(s), 0 stop(s), checked in 12 s
+2026-10-26 04:09:32  saved Oracle sign-in: valid (saved 2026-10-25T20:56:10+00:00, 5.0s)
+2026-10-26 04:10:40  upload 8300701ec2 (Payment_Terms_TEST_good.xlsx): ready, 6 record(s), 0 problem(s), 0 stop(s), checked in 73 s
+2026-10-26 04:10:48  saved Oracle sign-in: valid (saved 2026-10-25T20:56:10+00:00, 5.6s)
+2026-10-26 04:11:55  upload bb1a2f3d0d (Payment_Terms_TEST_bad.xlsx): not ready, 12 record(s), 12 problem(s), 0 stop(s), checked in 73 s
+2026-10-26 04:12:08  saved Oracle sign-in: valid (saved 2026-10-25T20:56:10+00:00, 10.9s)
+2026-10-26 04:12:14  upload 18d56c8022 (Lookup_Types_TEST_good.xlsx): ready, 5 record(s), 0 problem(s), 0 stop(s), checked in 17 s
+2026-10-26 04:12:20  saved Oracle sign-in: valid (saved 2026-10-25T20:56:10+00:00, 5.1s)
+2026-10-26 04:13:16  upload 39084f4841 (Lookup_Types_TEST_bad.xlsx): not ready, 14 record(s), 12 problem(s), 0 stop(s), checked in 61 s
+2026-10-26 04:13:36  saved Oracle sign-in: valid (saved 2026-10-25T20:56:10+00:00, 5.5s)
+2026-10-26 04:14:58  upload a8ccb0b0b6 (Test.xlsx): not ready, 13 record(s), 3 problem(s), 0 stop(s), checked in 88 s
+2026-10-26 04:19:27  page started at http://127.0.0.1:8765 (environment test)
+2026-10-26 04:19:31  folders: Lookup types, Payment Terms, Order Types, Customers, Business Units
+2026-10-26 04:19:37  saved Oracle sign-in: valid (saved 2026-10-25T20:56:10+00:00, 5.3s)
+2026-10-26 04:19:38  setup checklist passed; showing the cards
+2026-10-26 04:26:40  page started at http://127.0.0.1:8765 (environment test)
+2026-10-26 04:26:44  folders: Lookup types, Payment Terms, Order Types, Customers, Business Units
+2026-10-26 04:26:57  saved Oracle sign-in: valid (saved 2026-10-25T20:56:10+00:00, 11.2s)
+2026-10-26 04:26:57  setup checklist passed; showing the cards
+2026-10-26 04:28:39  saved Oracle sign-in: valid (saved 2026-10-25T20:56:10+00:00, 23.3s)
+2026-10-26 04:29:26  upload b4efa40947 (Business_Units_TEST_good.xlsx): ready, 4 record(s), 0 problem(s), 0 stop(s), checked in 70 s
+2026-10-26 04:31:13  saved Oracle sign-in: valid (saved 2026-10-25T20:56:10+00:00, 5.5s)
+2026-10-26 04:31:13  job bac07bb847 queued: Business Units (upload b4efa40947)
+2026-10-26 04:31:13  job bac07bb847: business unit 1 of 4: ZZ_SHEET_BU_8010_ALL
+2026-10-26 04:31:13  job bac07bb847: business unit 2 of 4: ZZ_SHEET_BU_8010_SMITH
+2026-10-26 04:31:13  job bac07bb847: business unit 3 of 4: ZZ_SHEET_BU_8010_NOLOC
+2026-10-26 04:31:13  job bac07bb847: business unit 4 of 4: ZZ_SHEET_BU_8010_OUTSIDE
+2026-10-26 04:33:14  job bac07bb847_1 done: Created the business unit ZZ_SHEET_BU_8010_ALL (location Go Saas Lahore Office, manager Yaqub, Younas, default set 001 Customer Site (001 CUSTOMER SITE), active yes) and gave Configuration.TEST Order Manager and Pricing Administrator access on it. Saved and checked in Oracle, every value as sent.
+2026-10-26 04:33:14  job bac07bb847: ZZ_SHEET_BU_8010_ALL done
+2026-10-26 04:33:14  job bac07bb847_2 done: Created the business unit ZZ_SHEET_BU_8010_SMITH (location Lahore Head Office, manager Smith, Aron, default set 001 Customer Site (001 CUSTOMER SITE), active no) and gave Configuration.TEST Order Manager and Pricing Administrator access on it. Saved and checked in Oracle, every value as sent.
+2026-10-26 04:33:14  job bac07bb847: ZZ_SHEET_BU_8010_SMITH done
+2026-10-26 04:33:14  job bac07bb847_3 done: Created the business unit ZZ_SHEET_BU_8010_NOLOC (location (none), manager (none), default set Common Set (COMMON), active yes) and gave Configuration.TEST Order Manager and Pricing Administrator access on it. Saved and checked in Oracle, every value as sent.
+2026-10-26 04:33:14  job bac07bb847: ZZ_SHEET_BU_8010_NOLOC done
+2026-10-26 04:33:14  job bac07bb847_4 done: Created the business unit ZZ_SHEET_BU_8010_OUTSIDE (location GoSaaS Labs Location, manager (none), default set Enterprise Set (ENTERPRISE), active yes) and gave Configuration.TEST Order Manager and Pricing Administrator access on it. Saved and checked in Oracle, every value as sent.
+2026-10-26 04:33:14  job bac07bb847: ZZ_SHEET_BU_8010_OUTSIDE done
+2026-10-26 05:37:16  folders: Lookup types, Price Lists, Payment Terms, Order Types, Customers, Business Units
+2026-10-26 05:37:48  page started at http://127.0.0.1:8765 (environment test)
+2026-10-26 05:37:53  folders: Lookup types, Price Lists, Payment Terms, Order Types, Customers, Business Units
+2026-10-26 05:38:03  saved Oracle sign-in: valid (saved 2026-10-25T23:51:53+00:00, 12.2s)
+2026-10-26 05:38:05  saved Oracle sign-in: valid (saved 2026-10-25T23:51:53+00:00, 9.1s)
+2026-10-26 05:38:06  setup checklist passed; showing the cards
+2026-10-26 05:38:07  upload 02eb0c54ef (Price_Lists_TEST_good.xlsx): not ready, 4 record(s), 0 problem(s), 3 stop(s), checked in 17 s
+2026-10-26 05:38:21  saved Oracle sign-in: valid (saved 2026-10-25T23:51:53+00:00, 5.9s)
+2026-10-26 05:38:21  upload 57b52fc9a8 (Price_Lists_TEST_good.xlsx): not ready, 4 record(s), 0 problem(s), 3 stop(s), checked in 7 s
+2026-10-26 05:38:32  folders: Lookup types, Price Lists, Payment Terms, Order Types, Customers, Business Units
+2026-10-26 05:38:45  folders: Lookup types, Price Lists, Payment Terms, Order Types, Customers, Business Units
+2026-10-26 05:39:21  saved Oracle sign-in: valid (saved 2026-10-25T23:51:53+00:00, 7.2s)
+2026-10-26 05:39:43  upload c454c98a1f (Price_Lists_TEST_good.xlsx): ready, 4 record(s), 0 problem(s), 0 stop(s), checked in 30 s
+2026-10-26 05:40:05  saved Oracle sign-in: valid (saved 2026-10-25T23:51:53+00:00, 5.0s)
+2026-10-26 05:40:15  upload da18370833 (Price_Lists_TEST_bad.xlsx): not ready, 15 record(s), 15 problem(s), 0 stop(s), checked in 14 s
+2026-10-26 05:40:40  saved Oracle sign-in: valid (saved 2026-10-25T23:51:53+00:00, 5.1s)
+2026-10-26 05:40:40  address check: 2 distinct place(s) for 3 record(s)
+2026-10-26 05:41:35  upload 5815feec2c (customer_sheet.xlsx): ready, 3 record(s), 0 problem(s), 0 stop(s), checked in 61 s
+2026-10-26 05:41:43  saved Oracle sign-in: valid (saved 2026-10-25T23:51:53+00:00, 4.0s)
+2026-10-26 05:41:46  upload 60a93df2fd (a_order_types.xlsx): ready, 2 record(s), 0 problem(s), 0 stop(s), checked in 8 s
+2026-10-26 05:41:59  saved Oracle sign-in: valid (saved 2026-10-25T23:51:53+00:00, 11.7s)
+2026-10-26 05:43:59  upload 439a311bb9 (Payment_Terms_TEST_good.xlsx): ready, 6 record(s), 0 problem(s), 0 stop(s), checked in 131 s
+2026-10-26 05:44:06  saved Oracle sign-in: valid (saved 2026-10-25T23:51:53+00:00, 4.3s)
+2026-10-26 05:45:12  upload 106ea144f9 (Payment_Terms_TEST_bad.xlsx): not ready, 12 record(s), 12 problem(s), 0 stop(s), checked in 71 s
+2026-10-26 05:45:22  saved Oracle sign-in: valid (saved 2026-10-25T23:51:53+00:00, 6.2s)
+2026-10-26 05:45:28  upload 63882b1e9e (Lookup_Types_TEST_good.xlsx): ready, 5 record(s), 0 problem(s), 0 stop(s), checked in 13 s
+2026-10-26 05:45:35  saved Oracle sign-in: valid (saved 2026-10-25T23:51:53+00:00, 5.1s)
+2026-10-26 05:46:28  upload daad335cbb (Lookup_Types_TEST_bad.xlsx): not ready, 14 record(s), 12 problem(s), 0 stop(s), checked in 58 s
+2026-10-26 05:46:55  saved Oracle sign-in: valid (saved 2026-10-25T23:51:53+00:00, 6.7s)
+2026-10-26 05:47:05  upload 2135e46b30 (Business_Units_TEST_good.xlsx): ready, 4 record(s), 0 problem(s), 0 stop(s), checked in 17 s
+2026-10-26 05:47:15  saved Oracle sign-in: valid (saved 2026-10-25T23:51:53+00:00, 7.2s)
+2026-10-26 05:47:20  upload 55f8b3c423 (Business_Units_TEST_bad.xlsx): not ready, 13 record(s), 10 problem(s), 0 stop(s), checked in 13 s
+2026-10-26 05:49:29  saved Oracle sign-in: valid (saved 2026-10-25T23:51:53+00:00, 4.8s)
+2026-10-26 05:49:41  upload b6eaa17c3f (Price_Lists_TEST_bad.xlsx): not ready, 15 record(s), 15 problem(s), 0 stop(s), checked in 17 s
+2026-10-26 05:50:22  page started at http://127.0.0.1:8765 (environment test)
+2026-10-26 05:50:26  folders: Lookup types, Price Lists, Payment Terms, Order Types, Customers, Business Units
+2026-10-26 05:50:31  saved Oracle sign-in: valid (saved 2026-10-25T23:51:53+00:00, 3.8s)
+2026-10-26 05:50:31  setup checklist passed; showing the cards
+2026-10-26 07:14:30  page started at http://127.0.0.1:8765 (environment test)
+2026-10-26 07:14:36  folders: Lookup types, Price Lists, Payment Terms, Order Types, Customers, Business Units
+2026-10-26 07:14:49  saved Oracle sign-in: valid (saved 2026-10-25T23:51:53+00:00, 6.2s)
+2026-10-26 07:14:49  setup checklist passed; showing the cards
+2026-10-26 07:15:46  saved Oracle sign-in: valid (saved 2026-10-25T23:51:53+00:00, 6.2s)
+2026-10-26 07:15:49  address check: 2 distinct place(s) for 3 record(s)
+2026-10-26 07:17:40  upload cd563cee9e (Price_Lists_TEST_good.xlsx): not ready, 20 record(s), 6 problem(s), 0 stop(s), checked in 121 s
+2026-10-26 07:25:21  saved Oracle sign-in: valid (saved 2026-10-25T23:51:53+00:00, 6.2s)
+2026-10-26 07:26:50  upload c23a32f4d8 (Price_Lists_TEST_good.xlsx): ready, 19 record(s), 0 problem(s), 0 stop(s), checked in 96 s
+2026-10-26 07:27:20  saved Oracle sign-in: valid (saved 2026-10-25T23:51:53+00:00, 5.7s)
+2026-10-26 07:27:20  job 1749f5666f queued: Customers (upload c23a32f4d8)
+2026-10-26 07:27:20  job 1749f5666f: customer 1 of 19: Pixel Forge Studios3
+2026-10-26 07:29:21  job 1749f5666f_1 stopped (NOT_IN_ORACLE): City: 'ABSECON' does not exist in Oracle's geography for this country. Oracle only accepts places its geography already has; a missing one cannot be created here. Oracle's search for it found nothing. Nothing was saved.
+2026-10-26 07:29:21  job 1749f5666f: Pixel Forge Studios3 failed
+2026-10-26 07:29:21  job 1749f5666f: customer 2 of 19: Nightfall Interactive3
+2026-10-26 07:31:21  job 1749f5666f_2 stopped (NOT_IN_ORACLE): City: 'ABSECON' does not exist in Oracle's geography for this country. Oracle only accepts places its geography already has; a missing one cannot be created here. Oracle's search for it found nothing. Nothing was saved.
+2026-10-26 07:31:21  job 1749f5666f: Nightfall Interactive3 failed
+2026-10-26 07:31:21  job 1749f5666f: customer 3 of 19: Arcade Horizon Games3
+2026-10-26 07:34:35  job 1749f5666f_3 done: Created the organization customer Arcade Horizon Games3 with Registry ID 130759, with its account and address, and checked every value in Oracle.
+2026-10-26 07:34:35  job 1749f5666f: Arcade Horizon Games3 done
+2026-10-26 07:34:35  job 1749f5666f: order type 4 of 19: RET1
+2026-10-26 07:35:19  job 1749f5666f_4 done: Added order type RET1 (RETT12), checked every value in Oracle, and it shows on Create Order.
+2026-10-26 07:35:19  job 1749f5666f: RET1 done
+2026-10-26 07:35:19  job 1749f5666f: order type 5 of 19: RETT1
+2026-10-26 07:35:56  job 1749f5666f_5 done: Added order type RETT1 (RETTT12), checked every value in Oracle, and it shows on Create Order.
+2026-10-26 07:35:56  job 1749f5666f: RETT1 done
+2026-10-26 07:35:56  job 1749f5666f: payment term 6 of 19: ZZ_SHEET_PT_4766_NET451
+2026-10-26 07:35:56  job 1749f5666f: payment term 7 of 19: ZZ_SHEET_PT_4766_TWO1
+2026-10-26 07:35:56  job 1749f5666f: payment term 8 of 19: ZZ_SHEET_PT_4766_EOM1
+2026-10-26 07:35:56  job 1749f5666f: payment term 9 of 19: ZZ_SHEET_PT_4766_AMT1
+2026-10-26 07:35:56  job 1749f5666f: payment term 10 of 19: ZZ_SHEET_PT_4766_DISC1
+2026-10-26 07:35:56  job 1749f5666f: payment term 11 of 19: ZZ_SHEET_PT_4766_FIXED1
+2026-10-26 07:38:47  job 1749f5666f_6 done: Created the payment term ZZ_SHEET_PT_4766_NET451 from 2026/10/25 with 1 installment, and checked every value in Oracle.
+2026-10-26 07:38:47  job 1749f5666f: ZZ_SHEET_PT_4766_NET451 done
+2026-10-26 07:38:47  job 1749f5666f_7 done: Created the payment term ZZ_SHEET_PT_4766_TWO1 from 2026/10/24 with 2 installments, and checked every value in Oracle.
+2026-10-26 07:38:47  job 1749f5666f: ZZ_SHEET_PT_4766_TWO1 done
+2026-10-26 07:38:47  job 1749f5666f_8 done: Created the payment term ZZ_SHEET_PT_4766_EOM1 from 2026/10/25 with 1 installment, and checked every value in Oracle.
+2026-10-26 07:38:47  job 1749f5666f: ZZ_SHEET_PT_4766_EOM1 done
+2026-10-26 07:38:47  job 1749f5666f_9 done: Created the payment term ZZ_SHEET_PT_4766_AMT1 from 2026/10/25 with 2 installments, and checked every value in Oracle.
+2026-10-26 07:38:47  job 1749f5666f: ZZ_SHEET_PT_4766_AMT1 done
+2026-10-26 07:38:47  job 1749f5666f_10 done: Created the payment term ZZ_SHEET_PT_4766_DISC1 from 2026/10/25 with 1 installment, and checked every value in Oracle.
+2026-10-26 07:38:47  job 1749f5666f: ZZ_SHEET_PT_4766_DISC1 done
+2026-10-26 07:38:47  job 1749f5666f_11 done: Created the payment term ZZ_SHEET_PT_4766_FIXED1 from 2026/10/25 with 1 installment, and checked every value in Oracle.
+2026-10-26 07:38:47  job 1749f5666f: ZZ_SHEET_PT_4766_FIXED1 done
+2026-10-26 07:38:47  job 1749f5666f: lookup type 12 of 19: ZZ_SHEET_LK_7495_ALL1
+2026-10-26 07:38:47  job 1749f5666f: lookup type 13 of 19: ZZ_SHEET_LK_7495_CON1
+2026-10-26 07:38:47  job 1749f5666f: lookup type 14 of 19: ZZ_SHEET_LK_7495_ANON1
+2026-10-26 07:38:47  job 1749f5666f: lookup type 15 of 19: ZZ_SHEET_LK_7495 SPACE1
+2026-10-26 07:39:56  job 1749f5666f_12 done: Created the lookup type ZZ_SHEET_LK_7495_ALL1 with 3 codes, and checked every value in Oracle.
+2026-10-26 07:39:56  job 1749f5666f: ZZ_SHEET_LK_7495_ALL1 done
+2026-10-26 07:39:56  job 1749f5666f_13 done: Created the lookup type ZZ_SHEET_LK_7495_CON1 with 2 codes, and checked every value in Oracle.
+2026-10-26 07:39:56  job 1749f5666f: ZZ_SHEET_LK_7495_CON1 done
+2026-10-26 07:39:56  job 1749f5666f_14 done: Created the lookup type ZZ_SHEET_LK_7495_ANON1 with 0 codes, and checked every value in Oracle.
+2026-10-26 07:39:56  job 1749f5666f: ZZ_SHEET_LK_7495_ANON1 done
+2026-10-26 07:39:56  job 1749f5666f_15 done: Created the lookup type ZZ_SHEET_LK_7495 SPACE1 with 1 code, and checked every value in Oracle.
+2026-10-26 07:39:56  job 1749f5666f: ZZ_SHEET_LK_7495 SPACE1 done
+2026-10-26 07:39:56  job 1749f5666f: business unit 16 of 19: ZZ_SHEET_BU_8970
+2026-10-26 07:41:19  job 1749f5666f_16 done: Created the business unit ZZ_SHEET_BU_8970 (location Go Saas Lahore Office, manager Smith, Aron, default set Common Set (COMMON), active yes) and gave Configuration.TEST Order Manager and Pricing Administrator access on it. Saved and checked in Oracle, every value as sent.
+2026-10-26 07:41:19  job 1749f5666f: ZZ_SHEET_BU_8970 done
+2026-10-26 07:41:19  job 1749f5666f: price list 17 of 19: ZZ_SHEET_PL_8003_ALL
+2026-10-26 07:41:19  job 1749f5666f: price list 18 of 19: ZZ_SHEET_PL_8003_SEG
+2026-10-26 07:41:19  job 1749f5666f: price list 19 of 19: ZZ_SHEET_PL_8003_NEWBU
+2026-10-26 07:41:36  job 1749f5666f_17 done: Created the price list ZZ_SHEET_PL_8003_ALL (FLOOR, USD, business unit ABD, from 11/1/26 12:00 AM to 10/31/27 12:00 AM, access sets 001 CUSTOMER SITE, ENTERPRISE) and approved it. Saved and verified in Oracle, every value as sent.
+2026-10-26 07:41:36  job 1749f5666f: ZZ_SHEET_PL_8003_ALL done
+2026-10-26 07:41:36  job 1749f5666f_18 done: Created the price list ZZ_SHEET_PL_8003_SEG (SEGMENT, PKR, business unit US1, from 11/1/26 12:00 AM, access sets COMMON) and approved it. Saved and verified in Oracle, every value as sent.
+2026-10-26 07:41:36  job 1749f5666f: ZZ_SHEET_PL_8003_SEG done
+2026-10-26 07:41:36  job 1749f5666f_19 done: Created the price list ZZ_SHEET_PL_8003_NEWBU (SEGMENT, USD, business unit ZZ_SHEET_BU_8970, from 11/1/26 12:00 AM, access sets 001 CUSTOMER SITE) and approved it. Saved and verified in Oracle, every value as sent.
+2026-10-26 07:41:36  job 1749f5666f: ZZ_SHEET_PL_8003_NEWBU done
+2026-10-26 08:30:58  page started at http://127.0.0.1:8765 (environment test)
+2026-10-26 08:31:02  folders: Lookup types, Price Lists, Payment Terms, Order Types, Customers, Business Units
+2026-10-26 08:31:09  saved Oracle sign-in: valid (saved 2026-10-25T23:51:53+00:00, 5.3s)
+2026-10-26 08:31:09  setup checklist passed; showing the cards
+2026-10-26 08:31:37  saved Oracle sign-in: valid (saved 2026-10-25T23:51:53+00:00, 5.0s)
+2026-10-26 08:31:41  address check: 8 distinct place(s) for 10 record(s)
+2026-10-26 08:35:09  upload b4fe0c0c82 (CU_TEST_10.xlsx): not ready, 10 record(s), 6 problem(s), 0 stop(s), checked in 217 s
+2026-10-26 08:36:42  saved Oracle sign-in: valid (saved 2026-10-25T23:51:53+00:00, 6.3s)
+2026-10-26 08:37:44  upload 39a07a856c (CU_TEST_valid5.xlsx): ready, 5 record(s), 0 problem(s), 0 stop(s), checked in 69 s
+2026-10-26 08:38:10  saved Oracle sign-in: check failed: Error: Page.goto: net::ERR_NAME_NOT_RESOLVED at https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com/fscmUI/faces/AtkHomePageWelcome (saved 2026-10-25T23:51:53+00:00, 23.4s)
+2026-10-26 08:38:16  saved Oracle sign-in: valid (saved 2026-10-25T23:51:53+00:00, 5.9s)
+2026-10-26 08:39:16  upload 39a07a856c (CU_TEST_valid5.xlsx): signed in; ready, 0 problem(s)
+2026-10-26 08:40:21  saved Oracle sign-in: valid (saved 2026-10-25T23:51:53+00:00, 6.1s)
+2026-10-26 08:41:22  upload a26a385ebf (CU_TEST_valid5.xlsx): ready, 5 record(s), 0 problem(s), 0 stop(s), checked in 68 s
+2026-10-26 08:41:28  saved Oracle sign-in: valid (saved 2026-10-25T23:51:53+00:00, 5.5s)
+2026-10-26 08:41:28  job 252a328778 queued: Customers (upload a26a385ebf)
+2026-10-26 08:41:28  job 252a328778: customer 1 of 5: ZZ_TEST_CU_2589_01_DALLAS
+2026-10-26 08:44:23  job 252a328778_1 done: Created the organization customer ZZ_TEST_CU_2589_01_DALLAS with Registry ID 130783, with its account and address, and checked every value in Oracle.
+2026-10-26 08:44:23  job 252a328778: ZZ_TEST_CU_2589_01_DALLAS done
+2026-10-26 08:44:23  job 252a328778: customer 2 of 5: ZZ_TEST_CU_2589_02_SEATTLE
+2026-10-26 08:47:17  job 252a328778_2 done: Created the organization customer ZZ_TEST_CU_2589_02_SEATTLE with Registry ID 130786, with its account and address, and checked every value in Oracle.
+2026-10-26 08:47:17  job 252a328778: ZZ_TEST_CU_2589_02_SEATTLE done
+2026-10-26 08:47:17  job 252a328778: customer 3 of 5: ZZ_TEST_CU_2589_03_ABSECON
+2026-10-26 08:50:05  job 252a328778_3 done: Created the organization customer ZZ_TEST_CU_2589_03_ABSECON with Registry ID 130789, with its account and address, and checked every value in Oracle.
+2026-10-26 08:50:05  job 252a328778: ZZ_TEST_CU_2589_03_ABSECON done
+2026-10-26 08:50:05  job 252a328778: customer 4 of 5: ZZ_TEST_CU_2589_05_JERSEY
+2026-10-26 08:52:51  job 252a328778_4 done: Created the organization customer ZZ_TEST_CU_2589_05_JERSEY with Registry ID 130792, with its account and address, and checked every value in Oracle.
+2026-10-26 08:52:51  job 252a328778: ZZ_TEST_CU_2589_05_JERSEY done
+2026-10-26 08:52:51  job 252a328778: customer 5 of 5: ZZ_TEST_CU_2589_04 PERSON
+2026-10-26 08:55:51  job 252a328778_5 done: Created the person customer ZZ_TEST_CU_2589_04 PERSON with Registry ID 130796, with its account and address, and checked every value in Oracle.
+2026-10-26 08:55:51  job 252a328778: ZZ_TEST_CU_2589_04 PERSON done
+2026-10-26 08:57:19  page started at http://127.0.0.1:8766 (environment test)
+2026-10-26 08:57:23  folders: Lookup types, Price Lists, Payment Terms, Order Types, Customers, Business Units
+2026-10-26 08:57:31  saved Oracle sign-in: valid (saved 2026-10-25T23:51:53+00:00, 5.2s)
+2026-10-26 08:57:31  setup checklist passed; showing the cards
+2026-10-26 08:57:49  saved Oracle sign-in: valid (saved 2026-10-25T23:51:53+00:00, 5.0s)
+2026-10-26 08:57:53  address check: 2 distinct place(s) for 4 record(s)
+2026-10-26 08:59:26  upload cef62e5acf (CU_TEST_ask.xlsx): ready, 4 record(s), 0 problem(s), 0 stop(s), checked in 102 s
+2026-10-26 08:59:32  saved Oracle sign-in: valid (saved 2026-10-25T23:51:53+00:00, 5.0s)
+2026-10-26 08:59:32  job a562541f41 queued: Customers (upload cef62e5acf)
+2026-10-26 08:59:32  job a562541f41: customer 1 of 4: ZZ_TEST_CU_2589_11_ASKSUG
+2026-10-26 09:01:15  job a562541f41_1 stopped (NOT_IN_ORACLE): test switch: Oracle refused City 'Cupertino'. Nothing was saved.
+2026-10-26 09:01:15  job a562541f41: ZZ_TEST_CU_2589_11_ASKSUG failed
+2026-10-26 09:01:15  job a562541f41: question 1 (ZZ_TEST_CU_2589_11_ASKSUG): City 'Cupertino' refused: test switch: Oracle refused City 'Cupertino'.; suggested: SANTA CLARA, SAN JOSE
+2026-10-26 09:01:15  job a562541f41: customer 2 of 4: ZZ_TEST_CU_2589_12_ASKTYPE
+2026-10-26 09:02:57  job a562541f41_2 stopped (NOT_IN_ORACLE): test switch: Oracle refused City 'Cupertino'. Nothing was saved.
+2026-10-26 09:02:57  job a562541f41: ZZ_TEST_CU_2589_12_ASKTYPE failed
+2026-10-26 09:02:57  job a562541f41: question 2 (ZZ_TEST_CU_2589_12_ASKTYPE): City 'Cupertino' refused: test switch: Oracle refused City 'Cupertino'.; suggested: SANTA CLARA, SAN JOSE
+2026-10-26 09:02:57  job a562541f41: customer 3 of 4: ZZ_TEST_CU_2589_13_ASKSKIP
+2026-10-26 09:04:42  job a562541f41_3 stopped (NOT_IN_ORACLE): test switch: Oracle refused City 'Cupertino'. Nothing was saved.
+2026-10-26 09:04:42  job a562541f41: ZZ_TEST_CU_2589_13_ASKSKIP failed
+2026-10-26 09:04:42  job a562541f41: question 3 (ZZ_TEST_CU_2589_13_ASKSKIP): City 'Cupertino' refused: test switch: Oracle refused City 'Cupertino'.; suggested: SANTA CLARA, SAN JOSE
+2026-10-26 09:04:42  job a562541f41: customer 4 of 4: ZZ_TEST_CU_2589_14_OK
+2026-10-26 09:07:33  job a562541f41_4 done: Created the organization customer ZZ_TEST_CU_2589_14_OK with Registry ID 130810, with its account and address, and checked every value in Oracle.
+2026-10-26 09:07:33  job a562541f41: ZZ_TEST_CU_2589_14_OK done
+2026-10-26 09:08:49  job a562541f41: question 1 (ZZ_TEST_CU_2589_11_ASKSUG) answered: City = SANTA CLARA; trying again
+2026-10-26 09:08:49  job a562541f41: customer 1 of 4: ZZ_TEST_CU_2589_11_ASKSUG
+2026-10-26 09:11:33  job a562541f41_1 done: Created the organization customer ZZ_TEST_CU_2589_11_ASKSUG with Registry ID 130816, with its account and address, and checked every value in Oracle.
+2026-10-26 09:11:33  job a562541f41: ZZ_TEST_CU_2589_11_ASKSUG done
+2026-10-26 09:11:33  job a562541f41: question 1 (ZZ_TEST_CU_2589_11_ASKSUG) answered: City = SANTA CLARA; done
+2026-10-26 09:13:04  job a562541f41: question 2 (ZZ_TEST_CU_2589_12_ASKTYPE): 'Mars City' not accepted: Oracle has no city 'Mars City' in CA.
+2026-10-26 09:14:17  job a562541f41: question 2 (ZZ_TEST_CU_2589_12_ASKTYPE) answered: City = San Jose; trying again
+2026-10-26 09:14:17  job a562541f41: customer 2 of 4: ZZ_TEST_CU_2589_12_ASKTYPE
+2026-10-26 09:17:00  job a562541f41_2 done: Created the organization customer ZZ_TEST_CU_2589_12_ASKTYPE with Registry ID 130825, with its account and address, and checked every value in Oracle.
+2026-10-26 09:17:00  job a562541f41: ZZ_TEST_CU_2589_12_ASKTYPE done
+2026-10-26 09:17:00  job a562541f41: question 2 (ZZ_TEST_CU_2589_12_ASKTYPE) answered: City = San Jose; done
+2026-10-26 09:17:01  job a562541f41: question 3 (ZZ_TEST_CU_2589_13_ASKSKIP) skipped by the user
+2026-10-26 09:22:23  page started at http://127.0.0.1:8766 (environment test)
+2026-10-26 09:22:28  folders: Lookup types, Price Lists, Payment Terms, Order Types, Customers, Business Units
+2026-10-26 09:22:34  saved Oracle sign-in: valid (saved 2026-10-25T23:51:53+00:00, 5.5s)
+2026-10-26 09:22:34  setup checklist passed; showing the cards
+2026-10-26 09:22:53  saved Oracle sign-in: valid (saved 2026-10-25T23:51:53+00:00, 5.3s)
+2026-10-26 09:22:57  address check: 8 distinct place(s) for 10 record(s)
+2026-10-26 09:27:19  upload df875ed057 (CU_TEST_10.xlsx): not ready, 10 record(s), 6 problem(s), 0 stop(s), checked in 271 s
+2026-10-26 09:29:43  page started at http://127.0.0.1:8765 (environment test)
+2026-10-26 09:29:43  page started at http://127.0.0.1:8766 (environment test)
+2026-10-26 09:29:48  folders: Lookup types, Price Lists, Payment Terms, Order Types, Customers, Business Units
+2026-10-26 09:29:48  folders: Lookup types, Price Lists, Payment Terms, Order Types, Customers, Business Units
+2026-10-26 09:29:55  saved Oracle sign-in: valid (saved 2026-10-25T23:51:53+00:00, 6.3s)
+2026-10-26 09:29:55  saved Oracle sign-in: valid (saved 2026-10-25T23:51:53+00:00, 6.3s)
+2026-10-26 09:29:55  setup checklist passed; showing the cards
+2026-10-26 09:29:55  setup checklist passed; showing the cards
+2026-10-26 09:30:11  saved Oracle sign-in: valid (saved 2026-10-25T23:51:53+00:00, 4.8s)
+2026-10-26 09:30:12  saved Oracle sign-in: valid (saved 2026-10-25T23:51:53+00:00, 5.4s)
+2026-10-26 09:30:13  address check: 2 distinct place(s) for 4 record(s)
+2026-10-26 09:30:54  address check: 2 place(s) not checked; one more try in 20 s
+2026-10-26 09:31:55  upload 6448e54226 (CU_TEST_ask.xlsx): ready, 4 record(s), 0 problem(s), 0 stop(s), checked in 109 s
+2026-10-26 09:32:08  upload f66c8fbff3 (CU_TEST_10.xlsx): not ready, 10 record(s), 6 problem(s), 0 stop(s), checked in 122 s
+2026-10-26 09:33:26  page started at http://127.0.0.1:8765 (environment test)
+2026-10-26 09:33:30  folders: Lookup types, Price Lists, Payment Terms, Order Types, Customers, Business Units
+2026-10-26 09:33:37  saved Oracle sign-in: valid (saved 2026-10-25T23:51:53+00:00, 5.4s)
+2026-10-26 09:33:37  setup checklist passed; showing the cards
+2026-10-26 09:33:45  saved Oracle sign-in: valid (saved 2026-10-25T23:51:53+00:00, 5.0s)
+2026-10-26 09:33:49  address check: 8 distinct place(s) for 10 record(s)
+2026-10-26 09:37:17  upload d1bc19c82d (CU_TEST_10.xlsx): not ready, 10 record(s), 5 problem(s), 0 stop(s), checked in 217 s
+2026-10-26 10:10:54  saved Oracle sign-in: valid (saved 2026-10-25T23:51:53+00:00, 5.4s)
+2026-10-26 10:11:59  upload 526f2c011d (Payment_Terms_TEST_good.xlsx): ready, 6 record(s), 0 problem(s), 0 stop(s), checked in 71 s
+2026-10-26 10:12:06  saved Oracle sign-in: valid (saved 2026-10-25T23:51:53+00:00, 5.6s)
+2026-10-26 10:13:10  upload 8f2309c81a (Payment_Terms_TEST_bad.xlsx): not ready, 16 record(s), 16 problem(s), 0 stop(s), checked in 70 s
+2026-10-26 10:23:53  page started at http://127.0.0.1:8765 (environment test)
+2026-10-26 10:23:58  folders: Lookup types, Price Lists, Payment Terms, Order Types, Customers, Business Units
+2026-10-26 10:24:05  saved Oracle sign-in: valid (saved 2026-10-25T23:51:53+00:00, 5.7s)
+2026-10-26 10:24:05  setup checklist passed; showing the cards
+2026-10-26 10:24:31  saved Oracle sign-in: valid (saved 2026-10-25T23:51:53+00:00, 5.4s)
+2026-10-26 10:25:41  upload 75a2298591 (ASK_TEST.xlsx): ready, 4 record(s), 0 problem(s), 0 stop(s), checked in 76 s
+2026-10-26 10:26:46  saved Oracle sign-in: valid (saved 2026-10-25T23:51:53+00:00, 5.1s)
+2026-10-26 10:26:46  job 2b889ed372 queued: Order Types (upload 75a2298591)
+2026-10-26 10:26:46  job 2b889ed372: order type 1 of 4: ZZ_TEST_6142_OTA
+2026-10-26 10:26:48  job 2b889ed372_1 stopped (INVALID_REQUEST): Another order type (ZZ_TEST_6142_OTB) already uses the name 'ZZ OT 6142 A'. Please choose a different name.
+2026-10-26 10:26:48  job 2b889ed372: ZZ_TEST_6142_OTA failed
+2026-10-26 10:26:48  job 2b889ed372: question 1 (ZZ_TEST_6142_OTA): Meaning 'ZZ OT 6142 A' refused: Another order type (ZZ_TEST_6142_OTB) already uses the name 'ZZ OT 6142 A'.; suggested: ZZ OT 6142 A (ZZ_TEST_6142_OTA), ZZ OT 6142 A 2, ZZ OT 6142 A 3
+2026-10-26 10:26:48  job 2b889ed372: payment term 2 of 4: ZZ_TEST_PT_6142_ASK1
+2026-10-26 10:26:48  job 2b889ed372: payment term 3 of 4: ZZ_TEST_PT_6142_ASK2
+2026-10-26 10:29:11  job 2b889ed372_2 done: Created the payment term ZZ_TEST_PT_6142_ASK1 from 2026/10/25 with 1 installment, and checked every value in Oracle.
+2026-10-26 10:29:11  job 2b889ed372: ZZ_TEST_PT_6142_ASK1 done
+2026-10-26 10:29:11  job 2b889ed372_3 done: Created the payment term ZZ_TEST_PT_6142_ASK2 from 2026/10/25 with 1 installment, and checked every value in Oracle.
+2026-10-26 10:29:11  job 2b889ed372: ZZ_TEST_PT_6142_ASK2 done
+2026-10-26 10:29:11  job 2b889ed372: lookup type 4 of 4: ZZ_TEST_LK_8806_ALL
+2026-10-26 10:29:13  job 2b889ed372_4 stopped (INVALID_REQUEST): Code 1: Meaning 'Zulu 6142' is already used by code Z0 of ZZ_TEST_LK_8806_ALL (Oracle FND-7103). Nothing was sent for it.
+2026-10-26 10:29:13  job 2b889ed372: ZZ_TEST_LK_8806_ALL failed
+2026-10-26 10:29:20  job 2b889ed372: question 1 (ZZ_TEST_6142_OTA) answered: Meaning = ZZ OT 6142 A (ZZ_TEST_6142_OTA); trying again
+2026-10-26 10:29:20  job 2b889ed372: order type 1 of 4: ZZ_TEST_6142_OTA
+2026-10-26 10:29:52  job 2b889ed372_1 done: Added order type ZZ_TEST_6142_OTA (ZZ OT 6142 A (ZZ_TEST_6142_OTA)), checked every value in Oracle, and it shows on Create Order.
+2026-10-26 10:29:52  job 2b889ed372: ZZ_TEST_6142_OTA done
+2026-10-26 10:29:52  job 2b889ed372: question 1 (ZZ_TEST_6142_OTA) answered: Meaning = ZZ OT 6142 A (ZZ_TEST_6142_OTA); done
+2026-10-26 10:30:43  saved Oracle sign-in: valid (saved 2026-10-25T23:51:53+00:00, 6.0s)
+2026-10-26 10:31:49  upload d45e5a86ae (ASK_TEST2.xlsx): ready, 4 record(s), 0 problem(s), 0 stop(s), checked in 72 s
+2026-10-26 10:34:23  saved Oracle sign-in: valid (saved 2026-10-25T23:51:53+00:00, 6.0s)
+2026-10-26 10:34:23  job e036e752f2 queued: Payment Terms (upload d45e5a86ae)
+2026-10-26 10:34:23  job e036e752f2: payment term 1 of 4: ZZ_TEST_PT_6142_ASK3
+2026-10-26 10:34:23  job e036e752f2: payment term 2 of 4: ZZ_TEST_PT_6142_ASK4
+2026-10-26 10:34:23  job e036e752f2: payment term 3 of 4: ZZ_TEST_PT_6142_ASK5
+2026-10-26 10:36:47  job e036e752f2_1 stopped (INVALID_REQUEST): Oracle refused the payment term ZZ_TEST_PT_6142_ASK3: A record with the value 883 already exists. Enter a unique value. Nothing was saved in Oracle.
+2026-10-26 10:36:47  job e036e752f2: ZZ_TEST_PT_6142_ASK3 failed
+2026-10-26 10:36:47  job e036e752f2_2 done: Created the payment term ZZ_TEST_PT_6142_ASK4 from 2026/10/25 with 1 installment, and checked every value in Oracle.
+2026-10-26 10:36:47  job e036e752f2: ZZ_TEST_PT_6142_ASK4 done
+2026-10-26 10:36:47  job e036e752f2_3 stopped (INVALID_REQUEST): Oracle refused the payment term ZZ_TEST_PT_6142_ASK5: A record with the value 884 already exists. Enter a unique value. Nothing was saved in Oracle.
+2026-10-26 10:36:47  job e036e752f2: ZZ_TEST_PT_6142_ASK5 failed
+2026-10-26 10:36:47  job e036e752f2: question 1 (ZZ_TEST_PT_6142_ASK3): Rank '883' refused: A record with the value 883 already exists. Enter a unique value; suggested: 885, 886, 887
+2026-10-26 10:36:47  job e036e752f2: question 3 (ZZ_TEST_PT_6142_ASK5): Rank '884' refused: A record with the value 884 already exists. Enter a unique value; suggested: 885, 886, 887
+2026-10-26 10:36:47  job e036e752f2: lookup type 4 of 4: ZZ_TEST_LK_8806_ALL
+2026-10-26 10:36:48  job e036e752f2_4 stopped (INVALID_REQUEST): Code 1: Meaning 'Yankee 6142' is already used by code Y0 of ZZ_TEST_LK_8806_ALL (Oracle FND-7103). Nothing was sent for it.
+2026-10-26 10:36:48  job e036e752f2: ZZ_TEST_LK_8806_ALL failed
+2026-10-26 10:36:48  job e036e752f2: question 4 (ZZ_TEST_LK_8806_ALL): Meaning 'Yankee 6142' refused: Code 1: Meaning 'Yankee 6142' is already used by code Y0 of ZZ_TEST_LK_8806_ALL (Oracle FND-7103).; suggested: Yankee 6142 (Z2), Yankee 6142 2, Yankee 6142 3
+2026-10-26 10:37:54  job e036e752f2: question 1 (ZZ_TEST_PT_6142_ASK3): '881' not accepted: Rank 881 is already used by payment term ZZ_TEST_PT_6142_ASK1; Oracle allows each rank on one payment term only ("A record with the value 881 already exists").
+2026-10-26 10:38:57  job e036e752f2: question 1 (ZZ_TEST_PT_6142_ASK3) answered: Rank = 885; trying again
+2026-10-26 10:38:57  job e036e752f2: payment term 1 of 4: ZZ_TEST_PT_6142_ASK3
+2026-10-26 10:41:23  job e036e752f2_1 done: Created the payment term ZZ_TEST_PT_6142_ASK3 from 2026/10/25 with 1 installment, and checked every value in Oracle.
+2026-10-26 10:41:23  job e036e752f2: ZZ_TEST_PT_6142_ASK3 done
+2026-10-26 10:41:23  job e036e752f2: question 1 (ZZ_TEST_PT_6142_ASK3) answered: Rank = 885; done
+2026-10-26 10:41:25  job e036e752f2: question 3 (ZZ_TEST_PT_6142_ASK5) skipped by the user
+2026-10-26 10:41:33  job e036e752f2: question 4 (ZZ_TEST_LK_8806_ALL) answered: Meaning = Yankee 6142 (Z2); trying again
+2026-10-26 10:41:33  job e036e752f2: lookup type 4 of 4: ZZ_TEST_LK_8806_ALL
+2026-10-26 10:41:37  job e036e752f2_4 done: Added 1 code to the existing lookup type ZZ_TEST_LK_8806_ALL. Checked in Oracle.
+2026-10-26 10:41:37  job e036e752f2: ZZ_TEST_LK_8806_ALL done
+2026-10-26 10:41:37  job e036e752f2: question 4 (ZZ_TEST_LK_8806_ALL) answered: Meaning = Yankee 6142 (Z2); done
+2026-10-26 10:42:13  job t: question 1 (A) answered: Rank = 885; trying again
+2026-10-26 10:42:41  page started at http://127.0.0.1:8765 (environment test)
+2026-10-26 10:42:45  folders: Lookup types, Price Lists, Payment Terms, Order Types, Customers, Business Units
+2026-10-26 10:42:51  saved Oracle sign-in: valid (saved 2026-10-25T23:51:53+00:00, 5.2s)
+2026-10-26 10:42:52  setup checklist passed; showing the cards
+2026-10-26 10:58:50  page started at http://127.0.0.1:8765 (environment test)
+2026-10-26 10:58:55  folders: Lookup types, Price Lists, Payment Terms, Order Types, Customers, Business Units
+2026-10-26 10:59:01  saved Oracle sign-in: valid (saved 2026-10-25T23:51:53+00:00, 5.2s)
+2026-10-26 10:59:01  setup checklist passed; showing the cards
+2026-10-26 11:02:13  saved Oracle sign-in: valid (saved 2026-10-25T23:51:53+00:00, 6.1s)
+2026-10-26 11:02:16  address check: 2 distinct place(s) for 3 record(s)
+2026-10-26 11:04:34  upload 51a11b2887 (Price_Lists_TEST_good.xlsx): ready, 19 record(s), 0 problem(s), 0 stop(s), checked in 148 s
+2026-10-26 11:06:20  saved Oracle sign-in: valid (saved 2026-10-25T23:51:53+00:00, 6.0s)
+2026-10-26 11:06:20  job b74c53483b queued: Customers (upload 51a11b2887)
+2026-10-26 11:06:20  job b74c53483b: customer 1 of 19: Pixel Forge Studios3
+2026-10-26 11:09:28  job b74c53483b_1 done: Created the organization customer Pixel Forge Studios3 with Registry ID 130853, with its account and address, and checked every value in Oracle.
+2026-10-26 11:09:28  job b74c53483b: Pixel Forge Studios3 done
+2026-10-26 11:09:28  job b74c53483b: customer 2 of 19: Nightfall Interactive3
+2026-10-26 11:12:35  job b74c53483b_2 done: Created the organization customer Nightfall Interactive3 with Registry ID 130856, with its account and address, and checked every value in Oracle.
+2026-10-26 11:12:35  job b74c53483b: Nightfall Interactive3 done
+2026-10-26 11:12:35  job b74c53483b: customer 3 of 19: Arcade Horizon Games3
+2026-10-26 11:15:48  job b74c53483b_3 done: Created the organization customer Arcade Horizon Games3 with Registry ID 130859, with its account and address, and checked every value in Oracle. 1 other customer with this name (Registry ID 130759) was not touched.
+2026-10-26 11:15:48  job b74c53483b: Arcade Horizon Games3 done
+2026-10-26 11:15:48  job b74c53483b: order type 4 of 19: RET1
+2026-10-26 11:15:51  job b74c53483b_4 done: Order type RET1 already exists in Oracle, so nothing was changed.
+2026-10-26 11:15:51  job b74c53483b: RET1 done
+2026-10-26 11:15:51  job b74c53483b: order type 5 of 19: RETT1
+2026-10-26 11:15:55  job b74c53483b_5 done: Order type RETT1 already exists in Oracle, so nothing was changed.
+2026-10-26 11:15:55  job b74c53483b: RETT1 done
+2026-10-26 11:15:55  job b74c53483b: payment term 6 of 19: ZZ_SHEET_PT_4766_NET451
+2026-10-26 11:15:55  job b74c53483b: payment term 7 of 19: ZZ_SHEET_PT_4766_TWO1
+2026-10-26 11:15:55  job b74c53483b: payment term 8 of 19: ZZ_SHEET_PT_4766_EOM1
+2026-10-26 11:15:55  job b74c53483b: payment term 9 of 19: ZZ_SHEET_PT_4766_AMT1
+2026-10-26 11:15:55  job b74c53483b: payment term 10 of 19: ZZ_SHEET_PT_4766_DISC1
+2026-10-26 11:15:55  job b74c53483b: payment term 11 of 19: ZZ_SHEET_PT_4766_FIXED1
+2026-10-26 11:17:10  job b74c53483b_6 done: The payment term ZZ_SHEET_PT_4766_NET451 already exists in Oracle, so nothing was changed.
+2026-10-26 11:17:10  job b74c53483b: ZZ_SHEET_PT_4766_NET451 done
+2026-10-26 11:17:10  job b74c53483b_7 done: The payment term ZZ_SHEET_PT_4766_TWO1 already exists in Oracle, so nothing was changed.
+2026-10-26 11:17:10  job b74c53483b: ZZ_SHEET_PT_4766_TWO1 done
+2026-10-26 11:17:10  job b74c53483b_8 done: The payment term ZZ_SHEET_PT_4766_EOM1 already exists in Oracle, so nothing was changed.
+2026-10-26 11:17:10  job b74c53483b: ZZ_SHEET_PT_4766_EOM1 done
+2026-10-26 11:17:10  job b74c53483b_9 done: The payment term ZZ_SHEET_PT_4766_AMT1 already exists in Oracle, so nothing was changed.
+2026-10-26 11:17:10  job b74c53483b: ZZ_SHEET_PT_4766_AMT1 done
+2026-10-26 11:17:10  job b74c53483b_10 done: The payment term ZZ_SHEET_PT_4766_DISC1 already exists in Oracle, so nothing was changed.
+2026-10-26 11:17:10  job b74c53483b: ZZ_SHEET_PT_4766_DISC1 done
+2026-10-26 11:17:10  job b74c53483b_11 done: The payment term ZZ_SHEET_PT_4766_FIXED1 already exists in Oracle, so nothing was changed.
+2026-10-26 11:17:10  job b74c53483b: ZZ_SHEET_PT_4766_FIXED1 done
+2026-10-26 11:17:10  job b74c53483b: lookup type 12 of 19: ZZ_SHEET_LK_7495_ALL1
+2026-10-26 11:17:10  job b74c53483b: lookup type 13 of 19: ZZ_SHEET_LK_7495_CON1
+2026-10-26 11:17:10  job b74c53483b: lookup type 14 of 19: ZZ_SHEET_LK_7495_ANON1
+2026-10-26 11:17:10  job b74c53483b: lookup type 15 of 19: ZZ_SHEET_LK_7495 SPACE1
+2026-10-26 11:17:17  job b74c53483b_12 done: ZZ_SHEET_LK_7495_ALL1 already exists in Oracle (User type), so it will be skipped; nothing is changed (its 3 codes in the request already exist).
+2026-10-26 11:17:17  job b74c53483b: ZZ_SHEET_LK_7495_ALL1 done
+2026-10-26 11:17:17  job b74c53483b_13 done: ZZ_SHEET_LK_7495_CON1 already exists in Oracle (User type), so it will be skipped; nothing is changed (its 2 codes in the request already exist).
+2026-10-26 11:17:17  job b74c53483b: ZZ_SHEET_LK_7495_CON1 done
+2026-10-26 11:17:17  job b74c53483b_14 done: ZZ_SHEET_LK_7495_ANON1 already exists in Oracle (User type), so it will be skipped; nothing is changed.
+2026-10-26 11:17:17  job b74c53483b: ZZ_SHEET_LK_7495_ANON1 done
+2026-10-26 11:17:17  job b74c53483b_15 done: ZZ_SHEET_LK_7495 SPACE1 already exists in Oracle (User type), so it will be skipped; nothing is changed (its 1 code in the request already exists).
+2026-10-26 11:17:17  job b74c53483b: ZZ_SHEET_LK_7495 SPACE1 done
+2026-10-26 11:17:17  job b74c53483b: business unit 16 of 19: ZZ_SHEET_BU_8970
+2026-10-26 11:17:28  job b74c53483b_16 done: The business unit ZZ_SHEET_BU_8970 is already in Oracle with Order Manager and Pricing Administrator access for Configuration.TEST, so nothing was changed. It already exists, so the values in this row are not applied: an existing business unit is never changed.
+2026-10-26 11:17:28  job b74c53483b: ZZ_SHEET_BU_8970 done
+2026-10-26 11:17:28  job b74c53483b: price list 17 of 19: ZZ_SHEET_PL_8003_ALL
+2026-10-26 11:17:28  job b74c53483b: price list 18 of 19: ZZ_SHEET_PL_8003_SEG
+2026-10-26 11:17:28  job b74c53483b: price list 19 of 19: ZZ_SHEET_PL_8003_NEWBU
+2026-10-26 11:17:37  job b74c53483b_17 done: Already in Oracle (approved, access sets ENTERPRISE, 001 CUSTOMER SITE): it is skipped and not changed.
+2026-10-26 11:17:37  job b74c53483b: ZZ_SHEET_PL_8003_ALL done
+2026-10-26 11:17:37  job b74c53483b_18 done: Already in Oracle (approved, access sets COMMON): it is skipped and not changed.
+2026-10-26 11:17:37  job b74c53483b: ZZ_SHEET_PL_8003_SEG done
+2026-10-26 11:17:37  job b74c53483b_19 done: Already in Oracle (approved, access sets 001 CUSTOMER SITE): it is skipped and not changed.
+2026-10-26 11:17:37  job b74c53483b: ZZ_SHEET_PL_8003_NEWBU done
+2026-10-26 13:04:28  page started at http://127.0.0.1:8765 (environment test)
+2026-10-26 13:04:33  folders: Lookup types, Price Lists, Payment Terms, Order Types, Customers, Business Units
+2026-10-26 13:04:45  saved Oracle sign-in: expired (saved 2026-10-25T23:51:53+00:00, 10.1s)
+2026-10-26 13:05:01  saved Oracle sign-in: expired (saved 2026-10-25T23:51:53+00:00, 15.8s)
+2026-10-26 13:05:01  Oracle sign-in window opened
+2026-10-26 13:20:09  Oracle sign-in window closed (exit 1)
+2026-10-26 13:20:09  setup step session not passed: ['expired']
+2026-10-26 16:58:44  saved Oracle sign-in: expired (saved 2026-10-25T23:51:53+00:00, 15.0s)
+2026-10-26 16:58:44  Oracle sign-in window opened
+2026-10-26 16:58:50  saved Oracle sign-in: expired (saved 2026-10-25T23:51:53+00:00, 20.5s)
+2026-10-26 16:59:13  Oracle sign-in window closed (exit 0)
+2026-10-26 16:59:19  saved Oracle sign-in: valid (saved 2026-10-26T11:59:13+00:00, 4.6s)
+2026-10-26 16:59:24  saved Oracle sign-in: valid (saved 2026-10-26T11:59:13+00:00, 4.4s)
+2026-10-26 16:59:24  setup checklist passed; showing the cards
+2026-10-26 17:00:02  saved Oracle sign-in: valid (saved 2026-10-26T11:59:13+00:00, 4.5s)
+2026-10-26 17:00:05  address check: 2 distinct place(s) for 3 record(s)
+2026-10-26 17:01:54  --plan for 3 record(s) failed (1): 106s: Locator.wait_for: Timeout 90000ms exceeded.
+  Screenshot: E:\GoSaaS\Configuration Automation v2.1\Configuration Automation\Customers\_work\fail_step.png
+Files kept for inspection in: E:\GoSaaS\Configuration Automation v2.1\Configuration Automation\Customers\_work
+--plan failed: SystemExit: 1
+2026-10-26 17:03:38  upload 4ee06db6a9 (Price_Lists_TEST_good (1).xlsx): not ready, 19 record(s), 4 problem(s), 1 stop(s), checked in 220 s
+2026-10-26 17:06:31  saved Oracle sign-in: valid (saved 2026-10-26T11:59:13+00:00, 5.8s)
+2026-10-26 17:07:50  --plan for 3 record(s) failed (1): ks showed no results window for 'Create Customer'.
+  Screenshot: E:\GoSaaS\Configuration Automation v2.1\Configuration Automation\Customers\_work\fail_task.png
+Files kept for inspection in: E:\GoSaaS\Configuration Automation v2.1\Configuration Automation\Customers\_work
+--plan failed: SystemExit: 1
+2026-10-26 17:09:28  upload 942d1d194f (Best Start.xlsx): not ready, 19 record(s), 0 problem(s), 1 stop(s), checked in 182 s
+2026-10-26 17:14:37  page started at http://127.0.0.1:8765 (environment test)
+2026-10-26 17:14:46  folders: Lookup types, Price Lists, Payment Terms, Order Types, Customers, Business Units
+2026-10-26 17:15:20  saved Oracle sign-in: valid (saved 2026-10-26T11:59:13+00:00, 20.1s)
+2026-10-26 17:15:21  setup checklist passed; showing the cards
+2026-10-26 17:15:50  saved Oracle sign-in: valid (saved 2026-10-26T11:59:13+00:00, 4.8s)
+2026-10-26 17:15:53  address check: 2 distinct place(s) for 3 record(s)
+2026-10-26 17:17:24  --plan for 3 record(s) failed (1): ks showed no results window for 'Create Customer'.
+  Screenshot: E:\GoSaaS\Configuration Automation v2.1\Configuration Automation\Customers\_work\fail_task.png
+Files kept for inspection in: E:\GoSaaS\Configuration Automation v2.1\Configuration Automation\Customers\_work
+--plan failed: SystemExit: 1
+2026-10-26 17:19:04  upload b832535b5f (Price_Lists_TEST_good (1).xlsx): not ready, 19 record(s), 4 problem(s), 1 stop(s), checked in 200 s
+2026-10-26 17:20:09  saved Oracle sign-in: valid (saved 2026-10-26T11:59:13+00:00, 4.4s)
+2026-10-26 17:22:45  upload d0fc6fda23 (Best Start (1).xlsx): ready, 19 record(s), 0 problem(s), 0 stop(s), checked in 161 s
+2026-10-26 17:23:11  saved Oracle sign-in: valid (saved 2026-10-26T11:59:13+00:00, 4.3s)
+2026-10-26 17:23:11  job fbf955484f queued: Customers (upload d0fc6fda23)
+2026-10-26 17:23:11  job fbf955484f: customer 1 of 19: Pixel Forge Studios4
+2026-10-26 17:26:51  job fbf955484f_1 done: Created the organization customer Pixel Forge Studios4 with Registry ID 130867, with its account and address, and checked every value in Oracle.
+2026-10-26 17:26:51  job fbf955484f: Pixel Forge Studios4 done
+2026-10-26 17:26:51  job fbf955484f: customer 2 of 19: Nightfall Interactive4
+2026-10-26 17:30:17  job fbf955484f_2 done: Created the organization customer Nightfall Interactive4 with Registry ID 130870, with its account and address, and checked every value in Oracle.
+2026-10-26 17:30:17  job fbf955484f: Nightfall Interactive4 done
+2026-10-26 17:30:17  job fbf955484f: customer 3 of 19: Arcade Horizon Games4
+2026-10-26 17:33:34  job fbf955484f_3 done: Created the organization customer Arcade Horizon Games4 with Registry ID 130873, with its account and address, and checked every value in Oracle.
+2026-10-26 17:33:34  job fbf955484f: Arcade Horizon Games4 done
+2026-10-26 17:33:34  job fbf955484f: order type 4 of 19: RET12
+2026-10-26 17:34:15  job fbf955484f_4 done: Added order type RET12 (RETT122), checked every value in Oracle, and it shows on Create Order.
+2026-10-26 17:34:15  job fbf955484f: RET12 done
+2026-10-26 17:34:15  job fbf955484f: order type 5 of 19: RETT12
+2026-10-26 17:34:49  job fbf955484f_5 done: Added order type RETT12 (RETTT122), checked every value in Oracle, and it shows on Create Order.
+2026-10-26 17:34:49  job fbf955484f: RETT12 done
+2026-10-26 17:34:49  job fbf955484f: payment term 6 of 19: ZZ_SHEET_PT_4766_NET4512
+2026-10-26 17:34:49  job fbf955484f: payment term 7 of 19: ZZ_SHEET_PT_4766_TWO12
+2026-10-26 17:34:49  job fbf955484f: payment term 8 of 19: ZZ_SHEET_PT_4766_EOM12
+2026-10-26 17:34:49  job fbf955484f: payment term 9 of 19: ZZ_SHEET_PT_4766_AMT12
+2026-10-26 17:34:49  job fbf955484f: payment term 10 of 19: ZZ_SHEET_PT_4766_DISC12
+2026-10-26 17:34:49  job fbf955484f: payment term 11 of 19: ZZ_SHEET_PT_4766_FIXED12
+2026-10-26 17:37:47  job fbf955484f_6 done: Created the payment term ZZ_SHEET_PT_4766_NET4512 from 2026/10/25 with 1 installment, and checked every value in Oracle.
+2026-10-26 17:37:47  job fbf955484f: ZZ_SHEET_PT_4766_NET4512 done
+2026-10-26 17:37:47  job fbf955484f_7 done: Created the payment term ZZ_SHEET_PT_4766_TWO12 from 2026/10/24 with 2 installments, and checked every value in Oracle.
+2026-10-26 17:37:47  job fbf955484f: ZZ_SHEET_PT_4766_TWO12 done
+2026-10-26 17:37:47  job fbf955484f_8 done: Created the payment term ZZ_SHEET_PT_4766_EOM12 from 2026/10/25 with 1 installment, and checked every value in Oracle.
+2026-10-26 17:37:47  job fbf955484f: ZZ_SHEET_PT_4766_EOM12 done
+2026-10-26 17:37:47  job fbf955484f_9 done: Created the payment term ZZ_SHEET_PT_4766_AMT12 from 2026/10/25 with 2 installments, and checked every value in Oracle.
+2026-10-26 17:37:47  job fbf955484f: ZZ_SHEET_PT_4766_AMT12 done
+2026-10-26 17:37:47  job fbf955484f_10 done: Created the payment term ZZ_SHEET_PT_4766_DISC12 from 2026/10/25 with 1 installment, and checked every value in Oracle.
+2026-10-26 17:37:47  job fbf955484f: ZZ_SHEET_PT_4766_DISC12 done
+2026-10-26 17:37:47  job fbf955484f_11 done: Created the payment term ZZ_SHEET_PT_4766_FIXED12 from 2026/10/25 with 1 installment, and checked every value in Oracle.
+2026-10-26 17:37:47  job fbf955484f: ZZ_SHEET_PT_4766_FIXED12 done
+2026-10-26 17:37:47  job fbf955484f: lookup type 12 of 19: ZZ_SHEET_LK_7495_ALL12
+2026-10-26 17:37:47  job fbf955484f: lookup type 13 of 19: ZZ_SHEET_LK_7495_CON12
+2026-10-26 17:37:47  job fbf955484f: lookup type 14 of 19: ZZ_SHEET_LK_7495_ANON12
+2026-10-26 17:37:47  job fbf955484f: lookup type 15 of 19: ZZ_SHEET_LK_7495 SPACE12
+2026-10-26 17:38:39  job fbf955484f_12 done: Created the lookup type ZZ_SHEET_LK_7495_ALL12 with 3 codes, and checked every value in Oracle.
+2026-10-26 17:38:39  job fbf955484f: ZZ_SHEET_LK_7495_ALL12 done
+2026-10-26 17:38:39  job fbf955484f_13 done: Created the lookup type ZZ_SHEET_LK_7495_CON12 with 2 codes, and checked every value in Oracle.
+2026-10-26 17:38:39  job fbf955484f: ZZ_SHEET_LK_7495_CON12 done
+2026-10-26 17:38:39  job fbf955484f_14 done: Created the lookup type ZZ_SHEET_LK_7495_ANON12 with 0 codes, and checked every value in Oracle.
+2026-10-26 17:38:39  job fbf955484f: ZZ_SHEET_LK_7495_ANON12 done
+2026-10-26 17:38:39  job fbf955484f_15 done: Created the lookup type ZZ_SHEET_LK_7495 SPACE12 with 1 code, and checked every value in Oracle.
+2026-10-26 17:38:39  job fbf955484f: ZZ_SHEET_LK_7495 SPACE12 done
+2026-10-26 17:38:39  job fbf955484f: business unit 16 of 19: ZZ_SHEET_BU_89702
+2026-10-26 17:39:56  job fbf955484f_16 done: Created the business unit ZZ_SHEET_BU_89702 (location Go Saas Lahore Office, manager Smith, Aron, default set Common Set (COMMON), active yes) and gave Configuration.TEST Order Manager and Pricing Administrator access on it. Saved and checked in Oracle, every value as sent.
+2026-10-26 17:39:56  job fbf955484f: ZZ_SHEET_BU_89702 done
+2026-10-26 17:39:56  job fbf955484f: price list 17 of 19: ZZ_SHEET_PL_8003_ALL2
+2026-10-26 17:39:56  job fbf955484f: price list 18 of 19: ZZ_SHEET_PL_8003_SEG2
+2026-10-26 17:39:56  job fbf955484f: price list 19 of 19: ZZ_SHEET_PL_8003_NEWBU2
+2026-10-26 17:40:22  job fbf955484f_17 done: Created the price list ZZ_SHEET_PL_8003_ALL2 (FLOOR, USD, business unit ABD, from 11/1/26 12:00 AM to 10/31/27 12:00 AM, access sets 001 CUSTOMER SITE, ENTERPRISE) and approved it. Saved and verified in Oracle, every value as sent.
+2026-10-26 17:40:22  job fbf955484f: ZZ_SHEET_PL_8003_ALL2 done
+2026-10-26 17:40:22  job fbf955484f_18 done: Created the price list ZZ_SHEET_PL_8003_SEG2 (SEGMENT, PKR, business unit US1, from 11/1/26 12:00 AM, access sets COMMON) and approved it. Saved and verified in Oracle, every value as sent.
+2026-10-26 17:40:22  job fbf955484f: ZZ_SHEET_PL_8003_SEG2 done
+2026-10-26 17:40:22  job fbf955484f_19 done: Created the price list ZZ_SHEET_PL_8003_NEWBU2 (SEGMENT, USD, business unit ZZ_SHEET_BU_8970, from 11/1/26 12:00 AM, access sets 001 CUSTOMER SITE) and approved it. Saved and verified in Oracle, every value as sent.
+2026-10-26 17:40:22  job fbf955484f: ZZ_SHEET_PL_8003_NEWBU2 done
+2026-10-26 18:02:29  page started at http://127.0.0.1:8765 (environment test)
+2026-10-26 18:02:34  folders: Lookup types, Price Lists, Payment Terms, Order Types, Customers, Business Units
+2026-10-26 18:02:40  saved Oracle sign-in: valid (saved 2026-10-26T11:59:13+00:00, 4.6s)
+2026-10-26 18:02:40  setup checklist passed; showing the cards
+2026-10-26 18:10:12  page started at http://127.0.0.1:8765 (environment test)
+2026-10-26 18:10:17  folders: Lookup types, Price Lists, Payment Terms, Order Types, Customers, Business Units
+2026-10-26 18:10:22  saved Oracle sign-in: valid (saved 2026-10-26T11:59:13+00:00, 4.2s)
+2026-10-26 18:10:22  setup checklist passed; showing the cards
+2026-10-26 18:10:38  saved Oracle sign-in: valid (saved 2026-10-26T11:59:13+00:00, 3.8s)
+2026-10-26 18:10:41  address check: 2 distinct place(s) for 3 record(s)
+2026-10-26 18:12:00  --plan for 3 record(s) failed (1): ks showed no results window for 'Create Customer'.
+  Screenshot: E:\GoSaaS\Configuration Automation v2.1\Configuration Automation\Customers\_work\fail_task.png
+Files kept for inspection in: E:\GoSaaS\Configuration Automation v2.1\Configuration Automation\Customers\_work
+--plan failed: SystemExit: 1
+2026-10-26 18:13:39  upload 99717b0718 (Best Start (2).xlsx): not ready, 19 record(s), 0 problem(s), 1 stop(s), checked in 185 s
+2026-10-26 18:33:21  saved Oracle sign-in: valid (saved 2026-10-26T11:59:13+00:00, 4.6s)
+2026-10-26 18:35:59  upload 9ec3c2bc82 (Best Start (2).xlsx): ready, 19 record(s), 0 problem(s), 0 stop(s), checked in 162 s
+2026-10-26 18:39:38  page started at http://127.0.0.1:8765 (environment test)
+2026-10-26 18:39:44  folders: Lookup types, Price Lists, Payment Terms, Order Types, Customers, Business Units
+2026-10-26 18:39:49  saved Oracle sign-in: valid (saved 2026-10-26T11:59:13+00:00, 4.6s)
+2026-10-26 18:39:50  setup checklist passed; showing the cards
+2026-10-26 19:03:21  page started at http://127.0.0.1:8765 (environment test)
+2026-10-26 19:03:27  folders: Lookup types, Price Lists, Payment Terms, Order Types, Customers, Business Units
+2026-10-26 19:03:34  saved Oracle sign-in: valid (saved 2026-10-26T11:59:13+00:00, 4.4s)
+2026-10-26 19:03:34  setup checklist passed; showing the cards
+2026-10-26 19:03:59  page started at http://127.0.0.1:8765 (environment test)
+2026-10-26 19:04:04  folders: Lookup types, Price Lists, Payment Terms, Order Types, Customers, Business Units
+2026-10-26 19:04:09  saved Oracle sign-in: valid (saved 2026-10-26T11:59:13+00:00, 4.4s)
+2026-10-26 19:04:10  setup checklist passed; showing the cards
+2026-10-26 19:05:22  saved Oracle sign-in: valid (saved 2026-10-26T11:59:13+00:00, 5.0s)
+2026-10-26 19:06:10  address check: 2 distinct place(s) for 3 record(s)
+2026-10-26 19:08:43  --plan for 6 record(s) failed (1): out: classic
+
+ERROR: Create Payment Terms showed no default From Date.
+  Screenshot: E:\GoSaaS\Configuration Automation v2.1\Configuration Automation\Payment Terms\_work\fail_today.png
+Files kept for inspection in: E:\GoSaaS\Configuration Automation v2.1\Configuration Automation\Payment Terms\_work
+2026-10-26 19:08:43  --plan for Payment Terms couldn't run (Create Payment Terms showed no default From Date.); running it again in 20 s (re-run 1/2)
+2026-10-26 19:09:35  --plan for 6 record(s) failed (1): out: classic
+
+ERROR: Create Payment Terms showed no default From Date.
+  Screenshot: E:\GoSaaS\Configuration Automation v2.1\Configuration Automation\Payment Terms\_work\fail_today.png
+Files kept for inspection in: E:\GoSaaS\Configuration Automation v2.1\Configuration Automation\Payment Terms\_work
+2026-10-26 19:09:35  --plan for Payment Terms couldn't run (Create Payment Terms showed no default From Date.); running it again in 20 s (re-run 2/2)
+2026-10-26 19:10:29  --plan for 6 record(s) failed (1): out: classic
+
+ERROR: Create Payment Terms showed no default From Date.
+  Screenshot: E:\GoSaaS\Configuration Automation v2.1\Configuration Automation\Payment Terms\_work\fail_today.png
+Files kept for inspection in: E:\GoSaaS\Configuration Automation v2.1\Configuration Automation\Payment Terms\_work
+2026-10-26 19:10:57  upload 468b6d752d (Best Start (2).xlsx): not ready, 19 record(s), 0 problem(s), 1 stop(s), checked in 340 s
+2026-10-26 19:12:14  saved Oracle sign-in: valid (saved 2026-10-26T11:59:13+00:00, 4.7s)
+2026-10-26 19:15:20  upload 292a6bdf78 (Best Start (2).xlsx): ready, 19 record(s), 0 problem(s), 0 stop(s), checked in 192 s
+2026-10-26 19:15:24  saved Oracle sign-in: valid (saved 2026-10-26T11:59:13+00:00, 3.4s)
+2026-10-26 19:18:26  upload 306e437464 (Best Start (2).xlsx): ready, 19 record(s), 0 problem(s), 0 stop(s), checked in 185 s
+2026-10-26 19:18:31  saved Oracle sign-in: valid (saved 2026-10-26T11:59:13+00:00, 4.2s)
+2026-10-26 19:21:34  upload f183e22e82 (Best Start (2).xlsx): ready, 19 record(s), 0 problem(s), 0 stop(s), checked in 187 s
+2026-10-26 19:21:39  saved Oracle sign-in: valid (saved 2026-10-26T11:59:13+00:00, 4.2s)
+2026-10-26 19:24:49  upload dd44a2095c (Best Start (2).xlsx): ready, 19 record(s), 0 problem(s), 0 stop(s), checked in 195 s
+2026-10-26 19:24:54  saved Oracle sign-in: valid (saved 2026-10-26T11:59:13+00:00, 4.2s)
+2026-10-26 19:27:50  upload bc94e9063d (Best Start (2).xlsx): ready, 19 record(s), 0 problem(s), 0 stop(s), checked in 180 s
+2026-10-26 19:27:55  saved Oracle sign-in: valid (saved 2026-10-26T11:59:13+00:00, 4.7s)
+2026-10-26 19:31:22  upload 6d418eba33 (Best Start (2).xlsx): ready, 19 record(s), 0 problem(s), 0 stop(s), checked in 212 s
+2026-10-26 19:31:28  saved Oracle sign-in: valid (saved 2026-10-26T11:59:13+00:00, 5.0s)
+2026-10-26 19:34:32  upload 8663fdc1f6 (Best Start (2).xlsx): ready, 19 record(s), 0 problem(s), 0 stop(s), checked in 190 s
+2026-10-26 19:34:38  saved Oracle sign-in: valid (saved 2026-10-26T11:59:13+00:00, 4.6s)
+2026-10-26 19:37:47  upload 0d8eed940e (Best Start (2).xlsx): ready, 19 record(s), 0 problem(s), 0 stop(s), checked in 194 s
+2026-10-26 19:37:52  saved Oracle sign-in: valid (saved 2026-10-26T11:59:13+00:00, 4.2s)
+2026-10-26 19:41:02  upload 5b0c4febbd (Best Start (2).xlsx): ready, 19 record(s), 0 problem(s), 0 stop(s), checked in 194 s
+2026-10-26 19:41:07  saved Oracle sign-in: valid (saved 2026-10-26T11:59:13+00:00, 4.3s)
+2026-10-26 19:44:15  upload f64a446011 (Best Start (2).xlsx): ready, 19 record(s), 0 problem(s), 0 stop(s), checked in 193 s
+2026-10-26 19:44:21  saved Oracle sign-in: valid (saved 2026-10-26T11:59:13+00:00, 4.7s)
+2026-10-26 19:47:22  upload fd0225be90 (Best Start (2).xlsx): ready, 19 record(s), 0 problem(s), 0 stop(s), checked in 186 s
+2026-10-26 19:47:27  saved Oracle sign-in: valid (saved 2026-10-26T11:59:13+00:00, 4.2s)
+2026-10-26 19:50:33  upload a419df5928 (Best Start (2).xlsx): ready, 19 record(s), 0 problem(s), 0 stop(s), checked in 191 s
+2026-10-26 19:50:39  saved Oracle sign-in: valid (saved 2026-10-26T11:59:13+00:00, 4.3s)
+2026-10-26 19:53:44  upload 31ab401479 (Best Start (2).xlsx): ready, 19 record(s), 0 problem(s), 0 stop(s), checked in 190 s
+2026-10-26 19:53:48  saved Oracle sign-in: valid (saved 2026-10-26T11:59:13+00:00, 3.5s)
+2026-10-26 19:56:51  upload 7fdfa5699d (Best Start (2).xlsx): ready, 19 record(s), 0 problem(s), 0 stop(s), checked in 187 s
+2026-10-26 19:56:57  saved Oracle sign-in: valid (saved 2026-10-26T11:59:13+00:00, 5.5s)
+2026-10-26 20:00:16  upload 2f5b85730e (Best Start (2).xlsx): ready, 19 record(s), 0 problem(s), 0 stop(s), checked in 204 s
+2026-10-26 20:00:20  saved Oracle sign-in: valid (saved 2026-10-26T11:59:13+00:00, 3.9s)
+2026-10-26 20:01:44  address check: 2 distinct place(s) for 5 record(s)
+2026-10-26 20:03:05  upload e5cecd7b6f (Customers_5_4871.xlsx): ready, 5 record(s), 0 problem(s), 0 stop(s), checked in 345 s
+2026-10-26 20:16:49  page started at http://127.0.0.1:8765 (environment test)
+2026-10-26 20:16:56  folders: Lookup types, Price Lists, Payment Terms, Order Types, Customers, Business Units
+2026-10-26 20:17:17  saved Oracle sign-in: valid (saved 2026-10-26T11:59:13+00:00, 8.1s)
+2026-10-26 20:17:17  setup checklist passed; showing the cards
+2026-10-26 20:18:21  saved Oracle sign-in: valid (saved 2026-10-26T11:59:13+00:00, 4.0s)
+2026-10-26 20:19:18  address check: 2 distinct place(s) for 3 record(s)
+2026-10-26 20:23:02  upload 85a4259ead (Best Start.xlsx): ready, 19 record(s), 0 problem(s), 0 stop(s), checked in 285 s
+2026-10-26 20:23:57  saved Oracle sign-in: valid (saved 2026-10-26T11:59:13+00:00, 4.1s)
+2026-10-26 20:23:57  job cbdb904009 queued: Customers (upload 85a4259ead)
+2026-10-26 20:23:57  job cbdb904009: customer 1 of 19: Pixel Forge Studios4
+2026-10-26 20:27:15  job cbdb904009_1 done: Created the organization customer Pixel Forge Studios4 with Registry ID 130931, with its account and address, and checked every value in Oracle. 1 other customer with this name (Registry ID 130867) was not touched.
+2026-10-26 20:27:15  job cbdb904009: Pixel Forge Studios4 done
+2026-10-26 20:27:15  job cbdb904009: customer 2 of 19: Nightfall Interactive4
+2026-10-26 20:30:34  job cbdb904009_2 done: Created the organization customer Nightfall Interactive4 with Registry ID 130934, with its account and address, and checked every value in Oracle. 1 other customer with this name (Registry ID 130870) was not touched.
+2026-10-26 20:30:34  job cbdb904009: Nightfall Interactive4 done
+2026-10-26 20:30:34  job cbdb904009: customer 3 of 19: Arcade Horizon Games4
+2026-10-26 20:33:54  job cbdb904009_3 done: Created the organization customer Arcade Horizon Games4 with Registry ID 130937, with its account and address, and checked every value in Oracle. 1 other customer with this name (Registry ID 130873) was not touched.
+2026-10-26 20:33:54  job cbdb904009: Arcade Horizon Games4 done
+2026-10-26 20:33:54  job cbdb904009: order type 4 of 19: RET12
+2026-10-26 20:33:59  job cbdb904009_4 done: Order type RET12 already exists in Oracle, so nothing was changed.
+2026-10-26 20:33:59  job cbdb904009: RET12 done
+2026-10-26 20:33:59  job cbdb904009: order type 5 of 19: RETT12
+2026-10-26 20:34:02  job cbdb904009_5 done: Order type RETT12 already exists in Oracle, so nothing was changed.
+2026-10-26 20:34:02  job cbdb904009: RETT12 done
+2026-10-26 20:34:02  job cbdb904009: payment term 6 of 19: ZZ_SHEET_PT_4766_NET4512
+2026-10-26 20:34:02  job cbdb904009: payment term 7 of 19: ZZ_SHEET_PT_4766_TWO12
+2026-10-26 20:34:02  job cbdb904009: payment term 8 of 19: ZZ_SHEET_PT_4766_EOM12
+2026-10-26 20:34:02  job cbdb904009: payment term 9 of 19: ZZ_SHEET_PT_4766_AMT12
+2026-10-26 20:34:02  job cbdb904009: payment term 10 of 19: ZZ_SHEET_PT_4766_DISC12
+2026-10-26 20:34:02  job cbdb904009: payment term 11 of 19: ZZ_SHEET_PT_4766_FIXED12
+2026-10-26 20:35:12  job cbdb904009_6 done: The payment term ZZ_SHEET_PT_4766_NET4512 already exists in Oracle, so nothing was changed.
+2026-10-26 20:35:12  job cbdb904009: ZZ_SHEET_PT_4766_NET4512 done
+2026-10-26 20:35:12  job cbdb904009_7 done: The payment term ZZ_SHEET_PT_4766_TWO12 already exists in Oracle, so nothing was changed.
+2026-10-26 20:35:12  job cbdb904009: ZZ_SHEET_PT_4766_TWO12 done
+2026-10-26 20:35:12  job cbdb904009_8 done: The payment term ZZ_SHEET_PT_4766_EOM12 already exists in Oracle, so nothing was changed.
+2026-10-26 20:35:12  job cbdb904009: ZZ_SHEET_PT_4766_EOM12 done
+2026-10-26 20:35:12  job cbdb904009_9 done: The payment term ZZ_SHEET_PT_4766_AMT12 already exists in Oracle, so nothing was changed.
+2026-10-26 20:35:12  job cbdb904009: ZZ_SHEET_PT_4766_AMT12 done
+2026-10-26 20:35:12  job cbdb904009_10 done: The payment term ZZ_SHEET_PT_4766_DISC12 already exists in Oracle, so nothing was changed.
+2026-10-26 20:35:12  job cbdb904009: ZZ_SHEET_PT_4766_DISC12 done
+2026-10-26 20:35:12  job cbdb904009_11 done: The payment term ZZ_SHEET_PT_4766_FIXED12 already exists in Oracle, so nothing was changed.
+2026-10-26 20:35:12  job cbdb904009: ZZ_SHEET_PT_4766_FIXED12 done
+2026-10-26 20:35:12  job cbdb904009: lookup type 12 of 19: ZZ_SHEET_LK_7495_ALL12
+2026-10-26 20:35:12  job cbdb904009: lookup type 13 of 19: ZZ_SHEET_LK_7495_CON12
+2026-10-26 20:35:12  job cbdb904009: lookup type 14 of 19: ZZ_SHEET_LK_7495_ANON12
+2026-10-26 20:35:12  job cbdb904009: lookup type 15 of 19: ZZ_SHEET_LK_7495 SPACE12
+2026-10-26 20:35:18  job cbdb904009_12 done: ZZ_SHEET_LK_7495_ALL12 already exists in Oracle (User type), so it will be skipped; nothing is changed (its 3 codes in the request already exist).
+2026-10-26 20:35:18  job cbdb904009: ZZ_SHEET_LK_7495_ALL12 done
+2026-10-26 20:35:18  job cbdb904009_13 done: ZZ_SHEET_LK_7495_CON12 already exists in Oracle (User type), so it will be skipped; nothing is changed (its 2 codes in the request already exist).
+2026-10-26 20:35:18  job cbdb904009: ZZ_SHEET_LK_7495_CON12 done
+2026-10-26 20:35:18  job cbdb904009_14 done: ZZ_SHEET_LK_7495_ANON12 already exists in Oracle (User type), so it will be skipped; nothing is changed.
+2026-10-26 20:35:18  job cbdb904009: ZZ_SHEET_LK_7495_ANON12 done
+2026-10-26 20:35:18  job cbdb904009_15 done: ZZ_SHEET_LK_7495 SPACE12 already exists in Oracle (User type), so it will be skipped; nothing is changed (its 1 code in the request already exists).
+2026-10-26 20:35:18  job cbdb904009: ZZ_SHEET_LK_7495 SPACE12 done
+2026-10-26 20:35:18  job cbdb904009: business unit 16 of 19: ZZ_SHEET_BU_89702
+2026-10-26 20:35:23  job cbdb904009_16 done: The business unit ZZ_SHEET_BU_89702 is already in Oracle with Order Manager and Pricing Administrator access for Configuration.TEST, so nothing was changed. It already exists, so the values in this row are not applied: an existing business unit is never changed.
+2026-10-26 20:35:23  job cbdb904009: ZZ_SHEET_BU_89702 done
+2026-10-26 20:35:23  job cbdb904009: price list 17 of 19: ZZ_SHEET_PL_8003_ALL2
+2026-10-26 20:35:23  job cbdb904009: price list 18 of 19: ZZ_SHEET_PL_8003_SEG2
+2026-10-26 20:35:23  job cbdb904009: price list 19 of 19: ZZ_SHEET_PL_8003_NEWBU2
+2026-10-26 20:35:32  job cbdb904009_17 done: Already in Oracle (approved, access sets ENTERPRISE, 001 CUSTOMER SITE): it is skipped and not changed.
+2026-10-26 20:35:32  job cbdb904009: ZZ_SHEET_PL_8003_ALL2 done
+2026-10-26 20:35:32  job cbdb904009_18 done: Already in Oracle (approved, access sets COMMON): it is skipped and not changed.
+2026-10-26 20:35:32  job cbdb904009: ZZ_SHEET_PL_8003_SEG2 done
+2026-10-26 20:35:32  job cbdb904009_19 done: Already in Oracle (approved, access sets 001 CUSTOMER SITE): it is skipped and not changed.
+2026-10-26 20:35:32  job cbdb904009: ZZ_SHEET_PL_8003_NEWBU2 done
+2026-10-26 20:41:10  saved Oracle sign-in: valid (saved 2026-10-26T11:59:13+00:00, 4.8s)
+2026-10-26 20:44:39  upload b6e553ad00 (Best Start (1).xlsx): ready, 19 record(s), 0 problem(s), 0 stop(s), checked in 213 s
+2026-10-26 20:45:12  saved Oracle sign-in: valid (saved 2026-10-26T11:59:13+00:00, 4.3s)
+2026-10-26 20:45:12  job 0c3e3a60b5 queued: Customers (upload b6e553ad00)
+2026-10-26 20:45:12  job 0c3e3a60b5: customer 1 of 19: Pixel Forge Studios5
+2026-10-26 20:49:04  job 0c3e3a60b5_1 done: Created the organization customer Pixel Forge Studios5 with Registry ID 130942, with its account and address, and checked every value in Oracle.
+2026-10-26 20:49:04  job 0c3e3a60b5: Pixel Forge Studios5 done
+2026-10-26 20:49:04  job 0c3e3a60b5: customer 2 of 19: Nightfall Interactive5
+2026-10-26 20:52:25  job 0c3e3a60b5_2 done: Created the organization customer Nightfall Interactive5 with Registry ID 130945, with its account and address, and checked every value in Oracle.
+2026-10-26 20:52:25  job 0c3e3a60b5: Nightfall Interactive5 done
+2026-10-26 20:52:25  job 0c3e3a60b5: customer 3 of 19: Arcade Horizon Games5
+2026-10-26 20:55:44  job 0c3e3a60b5_3 done: Created the organization customer Arcade Horizon Games5 with Registry ID 130948, with its account and address, and checked every value in Oracle.
+2026-10-26 20:55:44  job 0c3e3a60b5: Arcade Horizon Games5 done
+2026-10-26 20:55:44  job 0c3e3a60b5: order type 4 of 19: RET125
+2026-10-26 20:56:15  job 0c3e3a60b5_4 done: Added order type RET125 (RETT1225), checked every value in Oracle, and it shows on Create Order.
+2026-10-26 20:56:15  job 0c3e3a60b5: RET125 done
+2026-10-26 20:56:15  job 0c3e3a60b5: order type 5 of 19: RETT125
+2026-10-26 20:56:47  job 0c3e3a60b5_5 done: Added order type RETT125 (RETTT1225), checked every value in Oracle, and it shows on Create Order.
+2026-10-26 20:56:47  job 0c3e3a60b5: RETT125 done
+2026-10-26 20:56:47  job 0c3e3a60b5: payment term 6 of 19: ZZ_SHEET_PT_4766_NET45125
+2026-10-26 20:56:47  job 0c3e3a60b5: payment term 7 of 19: ZZ_SHEET_PT_4766_TWO125
+2026-10-26 20:56:47  job 0c3e3a60b5: payment term 8 of 19: ZZ_SHEET_PT_4766_EOM125
+2026-10-26 20:56:47  job 0c3e3a60b5: payment term 9 of 19: ZZ_SHEET_PT_4766_AMT125
+2026-10-26 20:56:47  job 0c3e3a60b5: payment term 10 of 19: ZZ_SHEET_PT_4766_DISC125
+2026-10-26 20:56:47  job 0c3e3a60b5: payment term 11 of 19: ZZ_SHEET_PT_4766_FIXED125
+2026-10-26 21:00:04  job 0c3e3a60b5_6 done: Created the payment term ZZ_SHEET_PT_4766_NET45125 from 2026/10/25 with 1 installment, and checked every value in Oracle.
+2026-10-26 21:00:04  job 0c3e3a60b5: ZZ_SHEET_PT_4766_NET45125 done
+2026-10-26 21:00:04  job 0c3e3a60b5_7 done: Created the payment term ZZ_SHEET_PT_4766_TWO125 from 2026/10/24 with 2 installments, and checked every value in Oracle.
+2026-10-26 21:00:04  job 0c3e3a60b5: ZZ_SHEET_PT_4766_TWO125 done
+2026-10-26 21:00:04  job 0c3e3a60b5_8 done: Created the payment term ZZ_SHEET_PT_4766_EOM125 from 2026/10/25 with 1 installment, and checked every value in Oracle.
+2026-10-26 21:00:04  job 0c3e3a60b5: ZZ_SHEET_PT_4766_EOM125 done
+2026-10-26 21:00:04  job 0c3e3a60b5_9 done: Created the payment term ZZ_SHEET_PT_4766_AMT125 from 2026/10/25 with 2 installments, and checked every value in Oracle.
+2026-10-26 21:00:04  job 0c3e3a60b5: ZZ_SHEET_PT_4766_AMT125 done
+2026-10-26 21:00:04  job 0c3e3a60b5_10 done: Created the payment term ZZ_SHEET_PT_4766_DISC125 from 2026/10/25 with 1 installment, and checked every value in Oracle.
+2026-10-26 21:00:04  job 0c3e3a60b5: ZZ_SHEET_PT_4766_DISC125 done
+2026-10-26 21:00:04  job 0c3e3a60b5_11 done: Created the payment term ZZ_SHEET_PT_4766_FIXED125 from 2026/10/25 with 1 installment, and checked every value in Oracle.
+2026-10-26 21:00:04  job 0c3e3a60b5: ZZ_SHEET_PT_4766_FIXED125 done
+2026-10-26 21:00:04  job 0c3e3a60b5: lookup type 12 of 19: ZZ_SHEET_LK_7495_ALL125
+2026-10-26 21:00:04  job 0c3e3a60b5: lookup type 13 of 19: ZZ_SHEET_LK_7495_CON125
+2026-10-26 21:00:04  job 0c3e3a60b5: lookup type 14 of 19: ZZ_SHEET_LK_7495_ANON125
+2026-10-26 21:00:04  job 0c3e3a60b5: lookup type 15 of 19: ZZ_SHEET_LK_7495 SPACE125
+2026-10-26 21:00:38  job 0c3e3a60b5_12 repair attempt 1: cost $0.6856 (this run $0.6856), status fixed, changed ['CLAUDE.md', 'run.py']: The connection to Oracle dropped for a moment, so nothing was created. The automation also handled that badly, and that part is now fixed. The run will be tried again.
+2026-10-26 21:01:58  job 0c3e3a60b5_12: rerun after repair attempt 1: ok - Done 4 of 4 lookup types.
+2026-10-26 21:01:58  job 0c3e3a60b5_12: repair finished, total cost $0.6856
+2026-10-26 21:01:58  job 0c3e3a60b5_12 done: Done 4 of 4 lookup types.
+2026-10-26 21:01:58  job 0c3e3a60b5_12 done: Created the lookup type ZZ_SHEET_LK_7495_ALL125 with 3 codes, and checked every value in Oracle.
+2026-10-26 21:01:58  job 0c3e3a60b5: ZZ_SHEET_LK_7495_ALL125 done
+2026-10-26 21:01:58  job 0c3e3a60b5_13 done: Created the lookup type ZZ_SHEET_LK_7495_CON125 with 2 codes, and checked every value in Oracle.
+2026-10-26 21:01:58  job 0c3e3a60b5: ZZ_SHEET_LK_7495_CON125 done
+2026-10-26 21:01:58  job 0c3e3a60b5_14 done: Created the lookup type ZZ_SHEET_LK_7495_ANON125 with 0 codes, and checked every value in Oracle.
+2026-10-26 21:01:58  job 0c3e3a60b5: ZZ_SHEET_LK_7495_ANON125 done
+2026-10-26 21:01:58  job 0c3e3a60b5_15 done: Created the lookup type ZZ_SHEET_LK_7495 SPACE125 with 1 code, and checked every value in Oracle.
+2026-10-26 21:01:58  job 0c3e3a60b5: ZZ_SHEET_LK_7495 SPACE125 done
+2026-10-26 21:01:58  job 0c3e3a60b5: business unit 16 of 19: ZZ_SHEET_BU_897025
+2026-10-26 21:03:12  job 0c3e3a60b5_16 done: Created the business unit ZZ_SHEET_BU_897025 (location Go Saas Lahore Office, manager Smith, Aron, default set Common Set (COMMON), active yes) and gave Configuration.TEST Order Manager and Pricing Administrator access on it. Saved and checked in Oracle, every value as sent.
+2026-10-26 21:03:12  job 0c3e3a60b5: ZZ_SHEET_BU_897025 done
+2026-10-26 21:03:12  job 0c3e3a60b5: price list 17 of 19: ZZ_SHEET_PL_8003_ALL25
+2026-10-26 21:03:12  job 0c3e3a60b5: price list 18 of 19: ZZ_SHEET_PL_8003_SEG25
+2026-10-26 21:03:12  job 0c3e3a60b5: price list 19 of 19: ZZ_SHEET_PL_8003_NEWBU25
+2026-10-26 21:03:33  job 0c3e3a60b5_17 done: Created the price list ZZ_SHEET_PL_8003_ALL25 (FLOOR, USD, business unit ABD, from 11/1/26 12:00 AM to 10/31/27 12:00 AM, access sets 001 CUSTOMER SITE, ENTERPRISE) and approved it. Saved and verified in Oracle, every value as sent.
+2026-10-26 21:03:33  job 0c3e3a60b5: ZZ_SHEET_PL_8003_ALL25 done
+2026-10-26 21:03:33  job 0c3e3a60b5_18 done: Created the price list ZZ_SHEET_PL_8003_SEG25 (SEGMENT, PKR, business unit US1, from 11/1/26 12:00 AM, access sets COMMON) and approved it. Saved and verified in Oracle, every value as sent.
+2026-10-26 21:03:33  job 0c3e3a60b5: ZZ_SHEET_PL_8003_SEG25 done
+2026-10-26 21:03:33  job 0c3e3a60b5_19 done: Created the price list ZZ_SHEET_PL_8003_NEWBU25 (SEGMENT, USD, business unit ZZ_SHEET_BU_897025, from 11/1/26 12:00 AM, access sets 001 CUSTOMER SITE) and approved it. Saved and verified in Oracle, every value as sent.
+2026-10-26 21:03:33  job 0c3e3a60b5: ZZ_SHEET_PL_8003_NEWBU25 done
+2026-10-26 21:11:00  saved Oracle sign-in: valid (saved 2026-10-26T11:59:13+00:00, 4.5s)
+2026-10-26 21:12:59  upload 11cce95df2 (Upload_sheet_DEMO_with_errors.xlsx): not ready, 9 record(s), 3 problem(s), 0 stop(s), checked in 124 s
+2026-10-26 21:15:01  saved Oracle sign-in: valid (saved 2026-10-26T11:59:13+00:00, 4.4s)
+2026-10-26 21:17:01  upload cd7b2b9290 (Upload_sheet_DEMO_with_errors (1).xlsx): not ready, 9 record(s), 2 problem(s), 0 stop(s), checked in 125 s
+2026-10-26 21:17:43  saved Oracle sign-in: valid (saved 2026-10-26T11:59:13+00:00, 3.6s)
+2026-10-26 21:19:34  upload 781bc96874 (Upload_sheet_DEMO_fixed (1).xlsx): ready, 9 record(s), 0 problem(s), 0 stop(s), checked in 115 s
+2026-10-26 21:21:47  saved Oracle sign-in: valid (saved 2026-10-26T11:59:13+00:00, 3.9s)
+2026-10-26 21:22:12  address check: 1 distinct place(s) for 1 record(s)
+2026-10-26 21:24:48  upload 23bd1ab31a (Upload_sheet_DEMO_with_errors (1).xlsx): not ready, 9 record(s), 2 problem(s), 0 stop(s), checked in 185 s
+2026-10-26 21:25:08  saved Oracle sign-in: valid (saved 2026-10-26T11:59:13+00:00, 4.9s)
+2026-10-26 21:27:02  upload c7ee871709 (Upload_sheet_DEMO_fixed (1).xlsx): ready, 9 record(s), 0 problem(s), 0 stop(s), checked in 118 s
+2026-10-26 21:56:27  saved Oracle sign-in: valid (saved 2026-10-26T11:59:13+00:00, 5.5s)
+2026-10-26 21:58:24  upload 4a60a55116 (Upload_sheet_DEMO_with_errors (1).xlsx): not ready, 9 record(s), 2 problem(s), 0 stop(s), checked in 123 s
+2026-10-26 21:58:57  saved Oracle sign-in: valid (saved 2026-10-26T11:59:13+00:00, 4.6s)
+2026-10-26 22:00:46  upload 5d307e419c (Upload_sheet_DEMO_fixed (1).xlsx): ready, 9 record(s), 0 problem(s), 0 stop(s), checked in 113 s
+2026-10-26 22:01:09  saved Oracle sign-in: valid (saved 2026-10-26T11:59:13+00:00, 3.9s)
+2026-10-26 22:01:09  job 72d8292513 queued: Customers (upload 5d307e419c)
+2026-10-26 22:01:09  job 72d8292513: customer 1 of 9: Emberlight Interactive Studios D01
+2026-10-26 22:06:28  job 72d8292513_1 repair attempt 1: cost $1.2001 (this run $1.2001), status fixed, changed ['CLAUDE.md', 'browser_flow.py']: The customer was saved in Oracle (Registry ID 130952). The final check failed because Oracle doesn't list the account and address until their start date, 1 November. The check now allows for start dates in the future, so running it again confirms this customer without creating it a second time.
+2026-10-26 22:08:28  job 72d8292513_1: rerun after repair attempt 1: ok - Created the organization customer Emberlight Interactive Studios D01 with Registry ID 130952, with its account and address, and checked every value in Oracle. It was saved by the first try of this request and not created again.
+2026-10-26 22:08:28  job 72d8292513_1: repair finished, total cost $1.2001
+2026-10-26 22:08:28  job 72d8292513_1 done: Created the organization customer Emberlight Interactive Studios D01 with Registry ID 130952, with its account and address, and checked every value in Oracle. It was saved by the first try of this request and not created again.
+2026-10-26 22:08:28  job 72d8292513: Emberlight Interactive Studios D01 done
+2026-10-26 22:08:28  job 72d8292513: order type 2 of 9: SO_ESPORTS_PRIZE_D01
+2026-10-26 22:08:35  job 72d8292513_2 done: Added order type SO_ESPORTS_PRIZE_D01 (Esports Prize Fulfilment Order D01), checked every value in Oracle. It isn't active today (outside its dates), so Create Order doesn't offer it yet; that check was left out.
+2026-10-26 22:08:35  job 72d8292513: SO_ESPORTS_PRIZE_D01 done
+2026-10-26 22:08:35  job 72d8292513: order type 3 of 9: SO_COLLECTOR_EDITION_D01
+2026-10-26 22:09:12  job 72d8292513_3 done: Added order type SO_COLLECTOR_EDITION_D01 (Collector Edition Pre-Order D01), checked every value in Oracle, and it shows on Create Order.
+2026-10-26 22:09:12  job 72d8292513: SO_COLLECTOR_EDITION_D01 done
+2026-10-26 22:09:12  job 72d8292513: payment term 4 of 9: Net 30 Esports Partners D01
+2026-10-26 22:09:12  job 72d8292513: payment term 5 of 9: Split 50-50 Game Retail D01
+2026-10-26 22:12:00  job 72d8292513_4 done: Created the payment term Net 30 Esports Partners D01 from 2026/10/25 with 1 installment, and checked every value in Oracle.
+2026-10-26 22:12:00  job 72d8292513: Net 30 Esports Partners D01 done
+2026-10-26 22:12:00  job 72d8292513_5 done: Created the payment term Split 50-50 Game Retail D01 from 2026/10/25 with 2 installments, and checked every value in Oracle.
+2026-10-26 22:12:00  job 72d8292513: Split 50-50 Game Retail D01 done
+2026-10-26 22:12:00  job 72d8292513: lookup type 6 of 9: ZZ_GAME_PLATFORM_D01
+2026-10-26 22:12:52  job 72d8292513_6 done: Created the lookup type ZZ_GAME_PLATFORM_D01 with 2 codes, and checked every value in Oracle.
+2026-10-26 22:12:52  job 72d8292513: ZZ_GAME_PLATFORM_D01 done
+2026-10-26 22:12:52  job 72d8292513: business unit 7 of 9: Emberlight Games North America Retail D01
+2026-10-26 22:14:29  job 72d8292513_7 done: Created the business unit Emberlight Games North America Retail D01 (location (none), manager Smith, Aron, default set Enterprise Set (ENTERPRISE), active yes) and gave Configuration.TEST Order Manager and Pricing Administrator access on it. Saved and checked in Oracle, every value as sent.
+2026-10-26 22:14:29  job 72d8292513: Emberlight Games North America Retail D01 done
+2026-10-26 22:14:29  job 72d8292513: price list 8 of 9: Esports Arena Wholesale USD D01
+2026-10-26 22:14:29  job 72d8292513: price list 9 of 9: Collector Retail USD D01
+2026-10-26 22:14:42  job 72d8292513_8 done: Created the price list Esports Arena Wholesale USD D01 (SEGMENT, USD, business unit Emberlight Games North America Retail D01, from 11/1/26 12:00 AM, access sets ENTERPRISE) and approved it. Saved and verified in Oracle, every value as sent.
+2026-10-26 22:14:42  job 72d8292513: Esports Arena Wholesale USD D01 done
+2026-10-26 22:14:42  job 72d8292513_9 done: Created the price list Collector Retail USD D01 (SEGMENT, USD, business unit Emberlight Games North America Retail D01, from 11/1/26 12:00 AM, access sets ENTERPRISE) and approved it. Saved and verified in Oracle, every value as sent.
+2026-10-26 22:14:42  job 72d8292513: Collector Retail USD D01 done
+2026-10-26 22:24:56  saved Oracle sign-in: valid (saved 2026-10-26T11:59:13+00:00, 6.3s)
+2026-10-26 22:25:50  address check: 1 distinct place(s) for 3 record(s)
+2026-10-26 22:28:11  upload b57b07580f (Kingston_demo_with_errors.xlsx): not ready, 14 record(s), 2 problem(s), 0 stop(s), checked in 202 s
+2026-10-26 22:28:32  saved Oracle sign-in: valid (saved 2026-10-26T11:59:13+00:00, 3.9s)
+2026-10-26 22:31:00  upload 20bd287120 (Kingston_demo_fixed.xlsx): ready, 14 record(s), 0 problem(s), 0 stop(s), checked in 153 s
+2026-10-26 22:58:13  saved Oracle sign-in: valid (saved 2026-10-26T11:59:13+00:00, 6.7s)
+2026-10-26 23:00:17  upload 90a8406a39 (Upload_sheet_DEMO_with_errors (1).xlsx): not ready, 9 record(s), 2 problem(s), 0 stop(s), checked in 131 s
+2026-10-26 23:01:20  saved Oracle sign-in: valid (saved 2026-10-26T11:59:13+00:00, 4.4s)
+2026-10-26 23:03:39  upload 3107eafd3f (Kingston_demo_with_errors.xlsx): not ready, 14 record(s), 2 problem(s), 0 stop(s), checked in 144 s
+2026-10-26 23:06:16  saved Oracle sign-in: valid (saved 2026-10-26T11:59:13+00:00, 6.5s)
+2026-10-26 23:08:49  upload 62e55e2941 (Kingston_demo_with_errors (1).xlsx): not ready, 14 record(s), 3 problem(s), 0 stop(s), checked in 159 s
+2026-10-26 23:09:13  saved Oracle sign-in: valid (saved 2026-10-26T11:59:13+00:00, 4.8s)
+2026-10-26 23:11:42  upload c22e507de3 (Kingston_demo_fixed.xlsx): ready, 14 record(s), 0 problem(s), 0 stop(s), checked in 153 s
+2026-10-26 23:32:48  saved Oracle sign-in: valid (saved 2026-10-26T11:59:13+00:00, 5.0s)
+2026-10-26 23:33:38  address check: 1 distinct place(s) for 3 record(s)
+2026-10-26 23:36:07  upload 593e9c3133 (Kingston_demo_with_errors (1).xlsx): not ready, 14 record(s), 3 problem(s), 0 stop(s), checked in 204 s
+2026-10-26 23:37:14  saved Oracle sign-in: valid (saved 2026-10-26T11:59:13+00:00, 5.1s)
+2026-10-26 23:39:32  upload 0e57a17b5f (Kingston_demo_fixed.xlsx): ready, 14 record(s), 0 problem(s), 0 stop(s), checked in 143 s
+2026-10-26 23:40:06  saved Oracle sign-in: valid (saved 2026-10-26T11:59:13+00:00, 4.0s)
+2026-10-26 23:40:06  job b2012fe628 queued: Customers (upload 0e57a17b5f)
+2026-10-26 23:40:06  job b2012fe628: customer 1 of 14: Sony
+2026-10-26 23:45:12  job b2012fe628_1 done: Created the organization customer Sony with Registry ID 130961, with its account and address, and checked every value in Oracle.
+2026-10-26 23:45:12  job b2012fe628: Sony done
+2026-10-26 23:45:12  job b2012fe628: customer 2 of 14: Microsoft
+2026-10-26 23:49:01  job b2012fe628_2 done: Created the organization customer Microsoft with Registry ID 130964, with its account and address, and checked every value in Oracle. 1 other customer with this name (Registry ID 75379) was not touched.
+2026-10-26 23:49:01  job b2012fe628: Microsoft done
+2026-10-26 23:49:01  job b2012fe628: customer 3 of 14: Nintendo
+2026-10-26 23:52:49  job b2012fe628_3 done: Created the organization customer Nintendo with Registry ID 130967, with its account and address, and checked every value in Oracle.
+2026-10-26 23:52:49  job b2012fe628: Nintendo done
+2026-10-26 23:52:49  job b2012fe628: order type 4 of 14: KINGSTON_US_STANDARD
+2026-10-26 23:53:25  job b2012fe628_4 done: Added order type KINGSTON_US_STANDARD (Kingston US Standard), checked every value in Oracle, and it shows on Create Order.
+2026-10-26 23:53:25  job b2012fe628: KINGSTON_US_STANDARD done
+2026-10-26 23:53:25  job b2012fe628: order type 5 of 14: KINGSTON_GB_STANDARD
+2026-10-26 23:53:56  job b2012fe628_5 done: Added order type KINGSTON_GB_STANDARD (Kingston GB Standard), checked every value in Oracle, and it shows on Create Order.
+2026-10-26 23:53:56  job b2012fe628: KINGSTON_GB_STANDARD done
+2026-10-26 23:53:56  job b2012fe628: order type 6 of 14: KINGSTON_JP_STANDARD
+2026-10-26 23:54:30  job b2012fe628_6 done: Added order type KINGSTON_JP_STANDARD (Kingston JP Standard), checked every value in Oracle, and it shows on Create Order.
+2026-10-26 23:54:30  job b2012fe628: KINGSTON_JP_STANDARD done
+2026-10-26 23:54:30  job b2012fe628: payment term 7 of 14: Sony Discount 2/10 Net 30
+2026-10-26 23:54:30  job b2012fe628: payment term 8 of 14: Standard Net 30
+2026-10-26 23:57:13  job b2012fe628_7 done: Created the payment term Sony Discount 2/10 Net 30 from 2026/10/25 with 1 installment, and checked every value in Oracle.
+2026-10-26 23:57:13  job b2012fe628: Sony Discount 2/10 Net 30 done
+2026-10-26 23:57:13  job b2012fe628_8 done: Created the payment term Standard Net 30 from 2026/10/25 with 1 installment, and checked every value in Oracle.
+2026-10-26 23:57:13  job b2012fe628: Standard Net 30 done
+2026-10-26 23:57:13  job b2012fe628: business unit 9 of 14: Kingston US
+2026-10-26 23:57:13  job b2012fe628: business unit 10 of 14: Kingston GB
+2026-10-26 23:57:13  job b2012fe628: business unit 11 of 14: Kingston JP
+2026-10-26 23:58:34  job b2012fe628_9 done: Created the business unit Kingston US (location (none), manager (none), default set Enterprise Set (ENTERPRISE), active yes) and gave Configuration.TEST Order Manager and Pricing Administrator access on it. Saved and checked in Oracle, every value as sent.
+2026-10-26 23:58:34  job b2012fe628: Kingston US done
+2026-10-26 23:58:34  job b2012fe628_10 done: Created the business unit Kingston GB (location (none), manager (none), default set Enterprise Set (ENTERPRISE), active yes) and gave Configuration.TEST Order Manager and Pricing Administrator access on it. Saved and checked in Oracle, every value as sent.
+2026-10-26 23:58:34  job b2012fe628: Kingston GB done
+2026-10-26 23:58:34  job b2012fe628_11 done: Created the business unit Kingston JP (location (none), manager (none), default set Enterprise Set (ENTERPRISE), active yes) and gave Configuration.TEST Order Manager and Pricing Administrator access on it. Saved and checked in Oracle, every value as sent.
+2026-10-26 23:58:34  job b2012fe628: Kingston JP done
+2026-10-26 23:58:34  job b2012fe628: price list 12 of 14: Kingston SSD Price List USD
+2026-10-26 23:58:34  job b2012fe628: price list 13 of 14: Kingston SSD Price List GBP
+2026-10-26 23:58:34  job b2012fe628: price list 14 of 14: Kingston SSD Price List JPY
+2026-10-26 23:58:51  job b2012fe628_12 done: Created the price list Kingston SSD Price List USD (SEGMENT, USD, business unit Kingston US, from 11/1/26 12:00 AM, access sets ENTERPRISE) and approved it. Saved and verified in Oracle, every value as sent.
+2026-10-26 23:58:51  job b2012fe628: Kingston SSD Price List USD done
+2026-10-26 23:58:51  job b2012fe628_13 done: Created the price list Kingston SSD Price List GBP (SEGMENT, GBP, business unit Kingston GB, from 11/1/26 12:00 AM, access sets ENTERPRISE) and approved it. Saved and verified in Oracle, every value as sent.
+2026-10-26 23:58:51  job b2012fe628: Kingston SSD Price List GBP done
+2026-10-26 23:58:51  job b2012fe628_14 done: Created the price list Kingston SSD Price List JPY (SEGMENT, JPY, business unit Kingston JP, from 11/1/26 12:00 AM, access sets ENTERPRISE) and approved it. Saved and verified in Oracle, every value as sent.
+2026-10-26 23:58:51  job b2012fe628: Kingston SSD Price List JPY done
+2026-10-28 04:02:27  page started at http://127.0.0.1:8765 (environment test)
+2026-10-28 04:02:33  folders: Lookup types, Price Lists, Payment Terms, Order Types, Customers, Business Units
+2026-10-28 04:02:53  saved Oracle sign-in: expired (saved 2026-10-26T11:59:13+00:00, 9.2s)
+2026-10-28 04:03:02  saved Oracle sign-in: expired (saved 2026-10-26T11:59:13+00:00, 9.0s)
+2026-10-28 04:03:02  Oracle sign-in window opened
+2026-10-28 04:03:44  Oracle sign-in window closed (exit 0)
+2026-10-28 04:03:50  saved Oracle sign-in: valid (saved 2026-10-27T23:03:44+00:00, 5.0s)
+2026-10-28 04:03:50  setup checklist passed; showing the cards
+2026-10-28 04:06:51  saved Oracle sign-in: valid (saved 2026-10-27T23:03:44+00:00, 3.7s)
+2026-10-28 04:07:00  upload 47a53c0c9f (ZZ_Test_1932_fixed.xlsx): ready, 1 record(s), 0 problem(s), 0 stop(s), checked in 13 s
+2026-10-28 04:07:05  saved Oracle sign-in: valid (saved 2026-10-27T23:03:44+00:00, 3.4s)
+2026-10-28 04:07:05  job 1c68e53ecf queued: Order Types (upload 47a53c0c9f)
+2026-10-28 04:07:05  job 1c68e53ecf: order type 1 of 1: ZZ_TEST_OT_1932_A4554
+2026-10-28 04:07:46  job 1c68e53ecf_1 done: Added order type ZZ_TEST_OT_1932_A4554 (ZZ Test Order Type 1932 A4545), checked every value in Oracle, and it shows on Create Order.
+2026-10-28 04:07:46  job 1c68e53ecf: ZZ_TEST_OT_1932_A4554 done
+2026-10-28 15:44:34  page started at http://127.0.0.1:8765 (environment test)
+2026-10-28 15:44:41  folders: Lookup types, Price Lists, Payment Terms, Order Types, Customers, Business Units
+2026-10-28 15:45:00  saved Oracle sign-in: expired (saved 2026-10-27T23:03:44+00:00, 11.2s)
+2026-10-28 15:45:10  saved Oracle sign-in: expired (saved 2026-10-27T23:03:44+00:00, 9.8s)
+2026-10-28 15:45:10  Oracle sign-in window opened
+2026-10-28 15:45:53  Oracle sign-in window closed (exit 0)
+2026-10-28 15:45:57  saved Oracle sign-in: valid (saved 2026-10-28T10:45:52+00:00, 3.6s)
+2026-10-28 15:45:57  setup checklist passed; showing the cards
+2026-10-29 23:50:32  page started at http://127.0.0.1:8765 (environment test)
+2026-10-29 23:50:41  folders: Lookup types, Price Lists, Payment Terms, Order Types, Customers, Business Units
+2026-10-29 23:51:16  saved Oracle sign-in: expired (saved 2026-10-28T10:45:52+00:00, 19.1s)
+2026-10-29 23:51:47  saved Oracle sign-in: expired (saved 2026-10-28T10:45:52+00:00, 30.1s)
+2026-10-29 23:51:47  Oracle sign-in window opened
+2026-10-29 23:52:35  Oracle sign-in window closed (exit 0)
+2026-10-29 23:52:40  saved Oracle sign-in: valid (saved 2026-10-29T18:52:34+00:00, 4.7s)
+2026-10-29 23:52:41  setup checklist passed; showing the cards
+2026-10-30 10:11:30  page started at http://127.0.0.1:8765 (environment test)
+2026-10-30 10:11:36  folders: Lookup types, Price Lists, Payment Terms, Order Types, Customers, Business Units, Receivables Payment Terms
+2026-10-30 10:11:52  saved Oracle sign-in: expired (saved 2026-10-29T18:52:34+00:00, 14.7s)
+2026-10-30 10:12:03  saved Oracle sign-in: expired (saved 2026-10-29T18:52:34+00:00, 10.5s)
+2026-10-30 10:12:03  Oracle sign-in window opened
+2026-10-30 10:12:44  Oracle sign-in window closed (exit 0)
+2026-10-30 10:12:50  saved Oracle sign-in: valid (saved 2026-10-30T05:12:43+00:00, 5.7s)
+2026-10-30 10:12:51  setup checklist passed; showing the cards
+2026-10-30 10:13:57  saved Oracle sign-in: valid (saved 2026-10-30T05:12:43+00:00, 5.9s)
+2026-10-30 10:15:03  upload b3ddf3be57 (ZZRPT_9721.xlsx): ready, 1 record(s), 0 problem(s), 0 stop(s), checked in 72 s
+2026-10-30 10:15:12  saved Oracle sign-in: valid (saved 2026-10-30T05:12:43+00:00, 7.3s)
+2026-10-30 10:15:12  job 08f057a009 queued: Receivables Payment Terms (upload b3ddf3be57)
+2026-10-30 10:15:12  job 08f057a009: receivables payment term 1 of 1: ZZRPT 9721
+2026-10-30 10:17:32  job 08f057a009_1 done: Created the Receivables payment term ZZRPT 9721 in set COMMON with 2 installments, and checked it in Oracle: every value as sent.
+2026-10-30 10:17:32  job 08f057a009: ZZRPT 9721 done
+2026-10-30 13:00:43  saved Oracle sign-in: valid (saved 2026-10-30T05:12:43+00:00, 9.2s)
+2026-10-30 13:01:39  upload 68167a72c6 (Upload sheet - Receivables.xlsx): not ready, 1 record(s), 1 problem(s), 0 stop(s), checked in 72 s
+2026-10-30 13:04:12  saved Oracle sign-in: valid (saved 2026-10-30T05:12:43+00:00, 6.8s)
+2026-10-30 13:05:01  upload 5ae6bc2073 (Upload sheet - Receivables (1).xlsx): not ready, 1 record(s), 1 problem(s), 0 stop(s), checked in 56 s
+2026-10-30 13:05:31  saved Oracle sign-in: valid (saved 2026-10-30T05:12:43+00:00, 5.9s)
+2026-10-30 13:06:21  upload 8d91f36e8e (Upload sheet - Receivables (2).xlsx): ready, 1 record(s), 0 problem(s), 0 stop(s), checked in 56 s
+2026-10-30 13:07:44  saved Oracle sign-in: valid (saved 2026-10-30T05:12:43+00:00, 5.9s)
+2026-10-30 13:07:44  job 411e380f6c queued: Receivables Payment Terms (upload 8d91f36e8e)
+2026-10-30 13:07:44  job 411e380f6c: receivables payment term 1 of 1: ABC
+2026-10-30 13:09:37  job 411e380f6c_1 done: Created the Receivables payment term ABC in set 001 CUSTOMER SITE with 1 installment, and checked it in Oracle: every value as sent.
+2026-10-30 13:09:37  job 411e380f6c: ABC done
+2026-11-02 08:42:45  page started at http://127.0.0.1:8765 (environment test)
+2026-11-02 08:42:54  folders: Lookup types, Price Lists, Payment Terms, Order Types, Customers, Business Units, Receivables Payment Terms, AutoInvoice Grouping Rules, Transaction Sources, Transaction Types
+2026-11-02 08:43:10  saved Oracle sign-in: expired (saved 2026-10-30T05:12:43+00:00, 14.4s)
+2026-11-02 08:43:30  saved Oracle sign-in: expired (saved 2026-10-30T05:12:43+00:00, 17.4s)
+2026-11-02 08:43:30  Oracle sign-in window opened
+2026-11-02 08:44:09  Oracle sign-in window closed (exit 0)
+2026-11-02 08:44:20  saved Oracle sign-in: valid (saved 2026-11-02T03:44:09+00:00, 10.4s)
+2026-11-02 08:44:21  setup checklist passed; showing the cards
+2026-11-02 20:23:02  upload 26ed30ff83: no module of this sheet uses the browser, so the Oracle sign-in isn't checked
+2026-11-02 20:27:36  upload 3fc732ec7b: no module of this sheet uses the browser, so the Oracle sign-in isn't checked
+2026-11-02 20:27:39  upload 26ed30ff83 (Receivables_sheet_test_B_Abdullah.xlsx): ready, 5 record(s), 0 problem(s), 0 stop(s), checked in 277 s
+2026-11-02 20:27:46  --plan for 1 record(s) failed (3221225786): mmon\oracle.py", line 272, in export_task
+    result = poll_result(result_url, "export")
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\GoSaaS\Configuration Automation v2.1\Configuration Automation\common\oracle.py", line 225, in poll_result
+    time.sleep(POLL_SECONDS)
+KeyboardInterrupt
+2026-11-02 20:27:46  --plan for Receivables Payment Terms couldn't run (no answer); running it again in 20 s (re-run 1/2)
+2026-11-02 20:28:12  page started at http://127.0.0.1:8765 (environment test)
+2026-11-02 20:28:21  folders: Lookup types, Price Lists, Payment Terms, Order Types, Customers, Business Units, Receivables Payment Terms, AutoInvoice Grouping Rules, Transaction Sources, Transaction Types
+2026-11-02 20:28:46  saved Oracle sign-in: expired (saved 2026-11-02T03:44:09+00:00, 14.4s)
+2026-11-02 20:29:02  saved Oracle sign-in: expired (saved 2026-11-02T03:44:09+00:00, 15.3s)
+2026-11-02 20:29:02  Oracle sign-in window opened
+2026-11-02 20:29:53  Oracle sign-in window closed (exit 0)
+2026-11-02 20:29:59  saved Oracle sign-in: valid (saved 2026-11-02T15:29:52+00:00, 5.8s)
+2026-11-02 20:29:59  setup checklist passed; showing the cards
+2026-11-02 20:30:51  upload 57a235aa17: no module of this sheet uses the browser, so the Oracle sign-in isn't checked
+2026-11-02 20:31:21  page started at http://127.0.0.1:8765 (environment test)
+2026-11-02 20:31:29  folders: Lookup types, Price Lists, Payment Terms, Order Types, Customers, Business Units, Receivables Payment Terms, AutoInvoice Grouping Rules, Transaction Sources, Transaction Types
+2026-11-02 20:31:30  saved Oracle sign-in: valid (saved 2026-11-02T15:29:52+00:00, 4.1s)
+2026-11-02 20:31:31  setup checklist passed; showing the cards
+2026-11-02 20:31:41  upload 14a34998b1: no module of this sheet uses the browser, so the Oracle sign-in isn't checked
+2026-11-02 20:33:56  --plan for 2 record(s) failed (1): ies exceeded with url: /fscmRestApi/resources/11.13.18.05/setIdSetsLOV?onlyData=true&limit=500 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000002B9B3982270>: Failed to resolve 'fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com' ([Errno 11002] getaddrinfo failed)"))
+2026-11-02 20:33:56  --plan for Transaction Types couldn't run (Oracle couldn't be read just now for transaction types.); running it again in 20 s (re-run 1/2)
+2026-11-02 20:36:34  upload 14a34998b1 (Receivables_sheet_test_B_Abdullah.xlsx): ready, 5 record(s), 0 problem(s), 0 stop(s), checked in 293 s
+2026-11-02 20:37:35  job e2a229ab03 queued: Receivables Payment Terms (upload 14a34998b1)
+2026-11-02 20:37:35  job e2a229ab03: receivables payment term 1 of 5: ABDULLAH NET 30
+2026-11-02 20:39:44  job e2a229ab03_1 done: Created the Receivables payment term ABDULLAH NET 30 in set COMMON with 1 installment, and checked it in Oracle: every value as sent.
+2026-11-02 20:39:44  job e2a229ab03: ABDULLAH NET 30 done
+2026-11-02 20:39:44  job e2a229ab03: autoinvoice grouping rule 2 of 5: ABDULLAH BY LINE
+2026-11-02 20:42:13  job e2a229ab03_2 done: Created the AutoInvoice grouping rule ABDULLAH BY LINE with 1 transaction class and 1 characteristic, and checked it in Oracle: every value as sent.
+2026-11-02 20:42:13  job e2a229ab03: ABDULLAH BY LINE done
+2026-11-02 20:42:13  job e2a229ab03: transaction type 3 of 5: ABDULLAH INVOICE
+2026-11-02 20:42:13  job e2a229ab03: transaction type 4 of 5: ZZ_TEST_TT_6421
+2026-11-02 20:45:16  job e2a229ab03_3 done: Created the transaction type ABDULLAH INVOICE (Invoice) in set COMMON with payment term ABDULLAH NET 30, and checked it in Oracle: every value as sent.
+2026-11-02 20:45:16  job e2a229ab03: ABDULLAH INVOICE done
+2026-11-02 20:45:16  job e2a229ab03_4 done: The transaction type ZZ_TEST_TT_6421 is already in set COMMON in Oracle, so it was skipped; nothing was changed.
+2026-11-02 20:45:16  job e2a229ab03: ZZ_TEST_TT_6421 done
+2026-11-02 20:45:16  job e2a229ab03: transaction source 5 of 5: ABDULLAH SOURCE
+2026-11-02 20:48:53  job e2a229ab03_5 done: Created the transaction source ABDULLAH SOURCE in set COMMON for AutoInvoice with grouping rule ABDULLAH BY LINE, and checked it in Oracle: every value as sent.
+2026-11-02 20:48:53  job e2a229ab03: ABDULLAH SOURCE done
+2026-11-02 20:50:17  upload 4e7d5f2417: no module of this sheet uses the browser, so the Oracle sign-in isn't checked
+2026-11-02 20:54:52  upload 4e7d5f2417 (Receivables_sheet_test_B2_Abdullah.xlsx): ready, 5 record(s), 0 problem(s), 0 stop(s), checked in 275 s
+2026-11-02 21:25:36  upload faa702756a: no module of this sheet uses the browser, so the Oracle sign-in isn't checked
+2026-11-02 21:29:38  upload faa702756a (Receivables_sheet_test_B2_Abdullah.xlsx): ready, 5 record(s), 0 problem(s), 0 stop(s), checked in 242 s

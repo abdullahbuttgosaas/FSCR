@@ -1,0 +1,85 @@
+<MigrationProcessCSVMetadataVO>
+   <MigrationProcessCSVMetadataVORow>
+      <ProcessId>-999</ProcessId>
+      <ProcessName>Manage External Purchase Prices Lookups_20261117_085325_820</ProcessName>
+      <ProcessDescription>Manage External Purchase Prices Lookups_20261117_085325_820</ProcessDescription>
+      <ProcessDate>2026-11-17 08:53:54.737</ProcessDate>
+      <ObjectShortName>ORA_MANAGE_EXTERNAL_PURCHASE_PRICES_LOOKUPS</ObjectShortName>
+      <ObjectType>TASK</ObjectType>
+      <CreatedByFlow>TASK_CSV_SERVICE</CreatedByFlow>
+      <ProcessType>EXPORT</ProcessType>
+      <ProcessStatus>COMPLETED</ProcessStatus>
+      <ProcessEnv>etia-test</ProcessEnv>
+      <ProcessStartDate>2026-11-17 08:53:25.228</ProcessStartDate>
+      <ProcessEndDate>2026-11-17 08:53:54.737</ProcessEndDate>
+      <ProcessRelease>11.13.26.10.0</ProcessRelease>
+      <SubmittedBy>Configuration.TEST</SubmittedBy>
+      <ESSRequestId>4466267</ESSRequestId>
+      <MigrationProcessBusinessObjectCSVMetadata1>
+         <MigrationProcessBusinessObjectCSVMetadataVORow>
+            <ProcessId>-999</ProcessId>
+            <BusinessObjectShortName>ORA_FND_APP_STANDARD_LOOKUP_CODE</BusinessObjectShortName>
+            <BatchName>f95cd781-6207-49fd-95ea-b16aa225e267/FND_APP_STANDARD_LOOKUP/StandardLookupType1</BatchName>
+            <XmlAttributeList>LookupCode,Meaning,Description,EnabledFlag,StartDateActive,EndDateActive,DisplaySequence,CreatedBy,CreationDate,LastUpdatedBy,LastUpdateDate,LastUpdateLogin,Tag</XmlAttributeList>
+            <XmlAttributeTypeList>string,string,string,string,date,date,long,string,dateTime,string,dateTime,string,string</XmlAttributeTypeList>
+            <XmlNodePath>/StandardLookupType1VO/StandardLookupType1VORow/Lookup1VO/Lookup1VORow</XmlNodePath>
+            <NodeSequence>2</NodeSequence>
+         </MigrationProcessBusinessObjectCSVMetadataVORow>
+         <MigrationProcessBusinessObjectCSVMetadataVORow>
+            <ProcessId>-999</ProcessId>
+            <BusinessObjectShortName>FND_APP_STANDARD_LOOKUP</BusinessObjectShortName>
+            <BatchName>f95cd781-6207-49fd-95ea-b16aa225e267/FND_APP_STANDARD_LOOKUP/StandardLookupType1</BatchName>
+            <XmlAttributeList>LookupType,Meaning,Description,CreatedBy,CreationDate,LastUpdatedBy,LastUpdateDate,LastUpdateLogin,ModuleId,CustomizationLevel,RestAccessSecured,BossAppPackageName,BossAppPackageVersion,BossModuleName,BossIdentifier</XmlAttributeList>
+            <XmlAttributeTypeList>string,string,string,string,dateTime,string,dateTime,string,string,string,string,string,string,string,string</XmlAttributeTypeList>
+            <XmlNodePath>/StandardLookupType1VO/StandardLookupType1VORow</XmlNodePath>
+            <NodeSequence>1</NodeSequence>
+         </MigrationProcessBusinessObjectCSVMetadataVORow>
+      </MigrationProcessBusinessObjectCSVMetadata1>
+      <MigrationProcessBatchCSVMetadata>
+         <MigrationProcessBatchCSVMetadataVORow>
+            <ProcessId>-999</ProcessId>
+            <BatchName>f95cd781-6207-49fd-95ea-b16aa225e267/FND_APP_STANDARD_LOOKUP/StandardLookupType1</BatchName>
+            <ImportSequence>0</ImportSequence>
+            <ServiceName>oracle.apps.fnd.applcore.lookups.webservice.LookupWS</ServiceName>
+            <BatchSize>500</BatchSize>
+         </MigrationProcessBatchCSVMetadataVORow>
+      </MigrationProcessBatchCSVMetadata>
+      <MigrationProcessScopeValueCSVMetadata>
+         <MigrationProcessScopeValueCSVMetadataVORow>
+            <ProcessId>-999</ProcessId>
+            <MigScopeValueSetId>100004737407901</MigScopeValueSetId>
+            <BusinessObjectShortName>FND_APP_STANDARD_LOOKUP</BusinessObjectShortName>
+            <ScopeValueBoAttributeId>moduleType</ScopeValueBoAttributeId>
+            <ScopeValueBoAttributeValue>LBA</ScopeValueBoAttributeValue>
+            <ScopeValueBoAttributeValueCode>LBA</ScopeValueBoAttributeValueCode>
+         </MigrationProcessScopeValueCSVMetadataVORow>
+         <MigrationProcessScopeValueCSVMetadataVORow>
+            <ProcessId>-999</ProcessId>
+            <MigScopeValueSetId>100004737407901</MigScopeValueSetId>
+            <BusinessObjectShortName>FND_APP_STANDARD_LOOKUP</BusinessObjectShortName>
+            <ScopeValueBoAttributeId>moduleKey</ScopeValueBoAttributeId>
+            <ScopeValueBoAttributeValue>SchExternalPurchasePrice</ScopeValueBoAttributeValue>
+            <ScopeValueBoAttributeValueCode>SchExternalPurchasePrice</ScopeValueBoAttributeValueCode>
+         </MigrationProcessScopeValueCSVMetadataVORow>
+         <MigrationProcessScopeValueCSVMetadataVORow>
+            <ProcessId>-999</ProcessId>
+            <MigScopeValueSetId>100004737407901</MigScopeValueSetId>
+            <BusinessObjectShortName>FND_APP_STANDARD_LOOKUP</BusinessObjectShortName>
+            <ScopeValueBoAttributeId>mode</ScopeValueBoAttributeId>
+            <ScopeValueBoAttributeValue>search</ScopeValueBoAttributeValue>
+            <ScopeValueBoAttributeValueCode>search</ScopeValueBoAttributeValueCode>
+         </MigrationProcessScopeValueCSVMetadataVORow>
+      </MigrationProcessScopeValueCSVMetadata>
+      <MigrationProcessMigrationObjectCSVMetadata>
+         <MigrationProcessMigrationObjectCSVMetadataVORow>
+            <ProcessId>-999</ProcessId>
+            <BusinessObjectShortName>FND_APP_STANDARD_LOOKUP</BusinessObjectShortName>
+            <MigrateFlag>Y</MigrateFlag>
+            <IncludeExternalDataFlag>Y</IncludeExternalDataFlag>
+            <ServiceType null="true"/>
+         </MigrationProcessMigrationObjectCSVMetadataVORow>
+      </MigrationProcessMigrationObjectCSVMetadata>
+      <MigrationProcessTaskCSVMetadata null="true"/>
+      <MigrationProcessServiceVersionCSVMetadata null="true"/>
+   </MigrationProcessCSVMetadataVORow>
+</MigrationProcessCSVMetadataVO>

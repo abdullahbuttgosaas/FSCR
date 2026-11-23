@@ -1,0 +1,308 @@
+[
+ {
+  "offering": "ORA_MANUFACTURING_AND_SUPPLY_C",
+  "offering_name": "Manufacturing and Supply Chain Materials Management",
+  "status": "new",
+  "fa": "ORA_ASK_INITIAL_USER",
+  "fa_name": "Initial Users",
+  "tasks": 6,
+  "sow_basis": "Common foundation (all new SCM offerings)"
+ },
+ {
+  "offering": "ORA_MANUFACTURING_AND_SUPPLY_C",
+  "offering_name": "Manufacturing and Supply Chain Materials Management",
+  "status": "new",
+  "fa": "ORA_ASK_ENTERPRISE_PROFILE",
+  "fa_name": "Enterprise Profile",
+  "tasks": 12,
+  "sow_basis": "Common foundation"
+ },
+ {
+  "offering": "ORA_MANUFACTURING_AND_SUPPLY_C",
+  "offering_name": "Manufacturing and Supply Chain Materials Management",
+  "status": "new",
+  "fa": "ORA_ASK_LEGAL_STRUCTURES",
+  "fa_name": "Legal Structures",
+  "tasks": 8,
+  "sow_basis": "Existing LE reused; verify only (Fin 3)"
+ },
+ {
+  "offering": "ORA_MANUFACTURING_AND_SUPPLY_C",
+  "offering_name": "Manufacturing and Supply Chain Materials Management",
+  "status": "new",
+  "fa": "ORA_ASK_FIN_REPORTING_STRUCT",
+  "fa_name": "Financial Reporting Structures",
+  "tasks": 12,
+  "sow_basis": "Existing ledger/COA reused; verify only"
+ },
+ {
+  "offering": "ORA_MANUFACTURING_AND_SUPPLY_C",
+  "offering_name": "Manufacturing and Supply Chain Materials Management",
+  "status": "new",
+  "fa": "ORA_ASK_ORGANIZATION_STRUCTURE",
+  "fa_name": "Organization Structures",
+  "tasks": 4,
+  "sow_basis": "Fin 3.1 BU updates"
+ },
+ {
+  "offering": "ORA_MANUFACTURING_AND_SUPPLY_C",
+  "offering_name": "Manufacturing and Supply Chain Materials Management",
+  "status": "new",
+  "fa": "ORA_RCS_FACILITIES",
+  "fa_name": "Facilities",
+  "tasks": 29,
+  "sow_basis": "SCM 2.2 plants as inventory orgs; 6.1 plants"
+ },
+ {
+  "offering": "ORA_MANUFACTURING_AND_SUPPLY_C",
+  "offering_name": "Manufacturing and Supply Chain Materials Management",
+  "status": "new",
+  "fa": "ORA_ASK_USERS_AND_SECURITY",
+  "fa_name": "Users and Security",
+  "tasks": 7,
+  "sow_basis": "Config scope 12 Security and Roles"
+ },
+ {
+  "offering": "ORA_MANUFACTURING_AND_SUPPLY_C",
+  "offering_name": "Manufacturing and Supply Chain Materials Management",
+  "status": "new",
+  "fa": "ORA_EGP_FA_ITEMS",
+  "fa_name": "Items",
+  "tasks": 28,
+  "sow_basis": "SCM 1.1-1.2, 2.1"
+ },
+ {
+  "offering": "ORA_MANUFACTURING_AND_SUPPLY_C",
+  "offering_name": "Manufacturing and Supply Chain Materials Management",
+  "status": "new",
+  "fa": "ORA_EGP_FA_CATALOGS",
+  "fa_name": "Catalogs",
+  "tasks": 3,
+  "sow_basis": "SCM 2.1 item categories (Claude inference)"
+ },
+ {
+  "offering": "ORA_MANUFACTURING_AND_SUPPLY_C",
+  "offering_name": "Manufacturing and Supply Chain Materials Management",
+  "status": "new",
+  "fa": "ORA_WSH_INVENTORY_MGMT",
+  "fa_name": "Inventory Management",
+  "tasks": 63,
+  "sow_basis": "SCM 2.1"
+ },
+ {
+  "offering": "ORA_MANUFACTURING_AND_SUPPLY_C",
+  "offering_name": "Manufacturing and Supply Chain Materials Management",
+  "status": "new",
+  "fa": "WSH_ENABLE_RECEIVING",
+  "fa_name": "Receiving",
+  "tasks": 6,
+  "sow_basis": "SCM 2.1 receiving, RTV, putaway"
+ },
+ {
+  "offering": "ORA_MANUFACTURING_AND_SUPPLY_C",
+  "offering_name": "Manufacturing and Supply Chain Materials Management",
+  "status": "new",
+  "fa": "CMR_RECEIPT_ACCOUNTING",
+  "fa_name": "Receipt Accounting",
+  "tasks": 44,
+  "sow_basis": "SCM 3.4 PO receipt accounting; Fin 1.2"
+ },
+ {
+  "offering": "ORA_MANUFACTURING_AND_SUPPLY_C",
+  "offering_name": "Manufacturing and Supply Chain Materials Management",
+  "status": "new",
+  "fa": "CST_DEFINE_COST_MANAGEMENT",
+  "fa_name": "Cost Accounting",
+  "tasks": 63,
+  "sow_basis": "SCM 2.3-2.6"
+ },
+ {
+  "offering": "ORA_MANUFACTURING_AND_SUPPLY_C",
+  "offering_name": "Manufacturing and Supply Chain Materials Management",
+  "status": "new",
+  "fa": "ORA_WIS_COMMON_MFG_WORK_SETUP",
+  "fa_name": "Manufacturing Master Data",
+  "tasks": 26,
+  "sow_basis": "SCM 6.1-6.4 (process mfg); 7.3 maintenance work definitions"
+ },
+ {
+  "offering": "ORA_MANUFACTURING_AND_SUPPLY_C",
+  "offering_name": "Manufacturing and Supply Chain Materials Management",
+  "status": "new",
+  "fa": "EGO_ADVANCED_PRODUCT_STRUCT",
+  "fa_name": "Structures",
+  "tasks": 5,
+  "sow_basis": "SCM 1.3 manufacturing and maintenance structures"
+ },
+ {
+  "offering": "ORA_MANUFACTURING_AND_SUPPLY_C",
+  "offering_name": "Manufacturing and Supply Chain Materials Management",
+  "status": "new",
+  "fa": "ORA_MNT_MGMT",
+  "fa_name": "Maintenance Management",
+  "tasks": 23,
+  "sow_basis": "SCM 7.1-7.7"
+ },
+ {
+  "offering": "ORA_MANUFACTURING_AND_SUPPLY_C",
+  "offering_name": "Manufacturing and Supply Chain Materials Management",
+  "status": "new",
+  "fa": "ORA_SUS_SUSTAINABILITY",
+  "fa_name": "Sustainability",
+  "tasks": 7,
+  "sow_basis": "Fin 4.1-4.2 (FA is in 3 offerings; placed here, NV)"
+ },
+ {
+  "offering": "PO_PROCUREMENT",
+  "offering_name": "Procurement",
+  "status": "new",
+  "fa": "ORA_ASK_WORKFORCE_STRUCTURE",
+  "fa_name": "Workforce Structures",
+  "tasks": 4,
+  "sow_basis": "Approvals/DOA need jobs/positions (C.5.1 employees exist)"
+ },
+ {
+  "offering": "PO_PROCUREMENT",
+  "offering_name": "Procurement",
+  "status": "new",
+  "fa": "ORA_ASK_USERS_AND_SECURITY",
+  "fa_name": "Users and Security",
+  "tasks": 10,
+  "sow_basis": "Security and Roles"
+ },
+ {
+  "offering": "PO_PROCUREMENT",
+  "offering_name": "Procurement",
+  "status": "new",
+  "fa": "ORA_PO_PURCHASING_CAT_FA",
+  "fa_name": "Purchasing Categories",
+  "tasks": 3,
+  "sow_basis": "Purchasing categories (Coupa reuse 3.5)"
+ },
+ {
+  "offering": "PO_PROCUREMENT",
+  "offering_name": "Procurement",
+  "status": "new",
+  "fa": "ORA_EGP_SUPPLIERS",
+  "fa_name": "Suppliers",
+  "tasks": 35,
+  "sow_basis": "RICE 2 supplier conversion; 5.4"
+ },
+ {
+  "offering": "PO_PROCUREMENT",
+  "offering_name": "Procurement",
+  "status": "new",
+  "fa": "ORA_PO_APPROVAL_MANAGEMENT_FA",
+  "fa_name": "Approval Management",
+  "tasks": 14,
+  "sow_basis": "3.3, 4.2 DOA"
+ },
+ {
+  "offering": "PO_PROCUREMENT",
+  "offering_name": "Procurement",
+  "status": "new",
+  "fa": "ORA_PO_PROC_FOUNDATION_FA",
+  "fa_name": "Procurement Foundation",
+  "tasks": 16,
+  "sow_basis": "Procurement BU, agents, line types"
+ },
+ {
+  "offering": "PO_PROCUREMENT",
+  "offering_name": "Procurement",
+  "status": "new",
+  "fa": "ORA_PO_PURCHASING_FOUNDATION",
+  "fa_name": "Purchasing Foundation",
+  "tasks": 11,
+  "sow_basis": "4.1"
+ },
+ {
+  "offering": "PO_PROCUREMENT",
+  "offering_name": "Procurement",
+  "status": "new",
+  "fa": "ORA_PO_PRC_TRX_ACC_RULES_FA",
+  "fa_name": "Procurement Transaction Account Rules",
+  "tasks": 9,
+  "sow_basis": "3.4 project and non-project accounting rules"
+ },
+ {
+  "offering": "PO_PROCUREMENT",
+  "offering_name": "Procurement",
+  "status": "new",
+  "fa": "PO_SSP_DEPLOYED",
+  "fa_name": "Self Service Procurement",
+  "tasks": 11,
+  "sow_basis": "3.1-3.2"
+ },
+ {
+  "offering": "PO_PROCUREMENT",
+  "offering_name": "Procurement",
+  "status": "new",
+  "fa": "PO_SUP_PORTAL_DEPLOYED",
+  "fa_name": "Supplier Portal",
+  "tasks": 7,
+  "sow_basis": "5.1-5.4"
+ },
+ {
+  "offering": "PO_PROCUREMENT",
+  "offering_name": "Procurement",
+  "status": "new",
+  "fa": "FIN_PAYABLES_DEPLOYED",
+  "fa_name": "Payables",
+  "tasks": 50,
+  "sow_basis": "Payables incremental (Config scope 5)"
+ },
+ {
+  "offering": "PIM_PROD_MNG",
+  "offering_name": "Product Management",
+  "status": "new",
+  "fa": "ORA_EGP_FA_INVENTORY_ORGANIZAT",
+  "fa_name": "Inventory Organizations",
+  "tasks": 24,
+  "sow_basis": "SCM 2.2 (inventory orgs)"
+ },
+ {
+  "offering": "PIM_PROD_MNG",
+  "offering_name": "Product Management",
+  "status": "new",
+  "fa": "ORA_EGP_FA_ITEM_ORGANIZATIONS",
+  "fa_name": "Item Organizations",
+  "tasks": 26,
+  "sow_basis": "Item master org (E7 open)"
+ },
+ {
+  "offering": "PJF_PROJ_MNG",
+  "offering_name": "Project Financial Management",
+  "status": "incremental",
+  "fa": "ORA_PJC_PROJ_COSTING_BASE_FA",
+  "fa_name": "Project Costing Base",
+  "tasks": 33,
+  "sow_basis": "Project commitments, PO receipts and AP invoices on projects"
+ },
+ {
+  "offering": "XLE_FINANCIALS_JUR",
+  "offering_name": "Financials",
+  "status": "incremental",
+  "fa": "ORA_FIN_GENERAL_LEDGER",
+  "fa_name": "General Ledger",
+  "tasks": 42,
+  "sow_basis": "Fin 7 GL/SLA incremental"
+ },
+ {
+  "offering": "XLE_FINANCIALS_JUR",
+  "offering_name": "Financials",
+  "status": "incremental",
+  "fa": "FIN_FIXED_ASSETS_DEPLOYED",
+  "fa_name": "Fixed Assets",
+  "tasks": 47,
+  "sow_basis": "Fin 2.1 Asset Management incremental"
+ },
+ {
+  "offering": "XLE_FINANCIALS_JUR",
+  "offering_name": "Financials",
+  "status": "incremental",
+  "fa": "FIN_EXPENSES_DEPLOYED",
+  "fa_name": "Expenses",
+  "tasks": 40,
+  "sow_basis": "CONDITIONAL: Fin 5.1 design session decides"
+ }
+]

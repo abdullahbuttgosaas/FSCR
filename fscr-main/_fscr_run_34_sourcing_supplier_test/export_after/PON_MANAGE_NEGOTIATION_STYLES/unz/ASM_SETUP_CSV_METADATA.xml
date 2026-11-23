@@ -1,0 +1,77 @@
+<MigrationProcessCSVMetadataVO>
+   <MigrationProcessCSVMetadataVORow>
+      <ProcessId>-999</ProcessId>
+      <ProcessName>Manage Negotiation Styles_20261117_080946_399</ProcessName>
+      <ProcessDescription>Manage Negotiation Styles_20261117_080946_399</ProcessDescription>
+      <ProcessDate>2026-11-17 08:10:02.645</ProcessDate>
+      <ObjectShortName>PON_MANAGE_NEGOTIATION_STYLES</ObjectShortName>
+      <ObjectType>TASK</ObjectType>
+      <CreatedByFlow>TASK_CSV_SERVICE</CreatedByFlow>
+      <ProcessType>EXPORT</ProcessType>
+      <ProcessStatus>COMPLETED</ProcessStatus>
+      <ProcessEnv>etia-test</ProcessEnv>
+      <ProcessStartDate>2026-11-17 08:09:46.139</ProcessStartDate>
+      <ProcessEndDate>2026-11-17 08:10:02.645</ProcessEndDate>
+      <ProcessRelease>11.13.26.10.0</ProcessRelease>
+      <SubmittedBy>Configuration.TEST</SubmittedBy>
+      <ESSRequestId>4466193</ESSRequestId>
+      <MigrationProcessBusinessObjectCSVMetadata1>
+         <MigrationProcessBusinessObjectCSVMetadataVORow>
+            <ProcessId>-999</ProcessId>
+            <BusinessObjectShortName>PON_DOCTYPE_STYLES</BusinessObjectShortName>
+            <BatchName null="true"/>
+            <XmlAttributeList>EnabledFlag,NegotiationDisplayName,ResponseDisplayName,CoverPageText,IntroductionText,LinesText,RequirementsText,TermsText,CreationDate,CreatedBy,LastUpdateDate,LastUpdatedBy,LastUpdateLogin,InternalName,InvalidVariables,InternalName1,DoctypeId1</XmlAttributeList>
+            <XmlAttributeTypeList>string,string,string,clob,clob,clob,clob,clob,dateTime,string,dateTime,string,string,string,string,string,long</XmlAttributeTypeList>
+            <XmlNodePath>/NegotiationStyleMigratorVO/NegotiationStyleMigratorVORow/NegotiationStyleDocumentTypeMigrator/NegotiationStyleDocumentTypeMigratorVORow</XmlNodePath>
+            <NodeSequence>3</NodeSequence>
+         </MigrationProcessBusinessObjectCSVMetadataVORow>
+         <MigrationProcessBusinessObjectCSVMetadataVORow>
+            <ProcessId>-999</ProcessId>
+            <BusinessObjectShortName>PON_DOCTYPE_STYLES_TRANSLATION</BusinessObjectShortName>
+            <BatchName null="true"/>
+            <XmlAttributeList>Language,SourceLang,NegotiationDisplayName,ResponseDisplayName,CoverPageText,IntroductionText,TermsText,RequirementsText,LinesText,CreationDate,CreatedBy,LastUpdateDate,LastUpdatedBy,LastUpdateLogin</XmlAttributeList>
+            <XmlAttributeTypeList>string,string,string,string,clob,clob,clob,clob,clob,dateTime,string,dateTime,string,string</XmlAttributeTypeList>
+            <XmlNodePath>/NegotiationStyleMigratorVO/NegotiationStyleMigratorVORow/NegotiationStyleDocumentTypeMigrator/NegotiationStyleDocumentTypeMigratorVORow/NegotiationStyleDocumentTypeMigratorTranslation/NegotiationStyleDocumentTypeMigratorTranslationVORow</XmlNodePath>
+            <NodeSequence>3</NodeSequence>
+         </MigrationProcessBusinessObjectCSVMetadataVORow>
+         <MigrationProcessBusinessObjectCSVMetadataVORow>
+            <ProcessId>-999</ProcessId>
+            <BusinessObjectShortName>PON_NEGOTIATION_STYLES</BusinessObjectShortName>
+            <BatchName null="true"/>
+            <XmlAttributeList>Status,StyleName,Description,SystemFlag,AbstractEnabledFlag,AutoExtendEnabledFlag,ContermsEnabledFlag,CoverPageEnabledFlag,GeneralIntroEnabledFlag,GroupEnabledFlag,HdrAttributeEnabledFlag,LargeNegEnabledFlag,LineAttributeEnabledFlag,LineMasEnabledFlag,LinesInstrEnabledFlag,LotEnabledFlag,NegTeamEnabledFlag,PriceElementEnabledFlag,ProxyBiddingEnabledFlag,PowerBiddingEnabledFlag,ReqmntsInstrEnabledFlag,RfiLineEnabledFlag,QtyPriceTiersEnabledFlag,StagCloseEnabledFlag,TeamScoringEnabledFlag,TermsInstrEnabledFlag,TwostageEvalEnabledFlag,CreationDate,CreatedBy,LastUpdateDate,LastUpdatedBy,LastUpdateLogin,StyleCode,AlternateLinesEnabledFlag,ProjectsEnabledFlag,LineDefaultsEnabledFlag,RespSPSheetEnabledFlag,RespXMLSPSheetEnabledFlag,RespLinesSPSheetEnabledFlag,RespReqtSPSheetEnabledFlag,InternalCfEnabledFlag,OverallRespRankEnabledFlag,InternalCfLinesEnabledFlag,InternalCfSumEnabledFlag,LineDecrementEnabledFlag,PrebidEnabledFlag,SplitNegPdfEnabledFlag,CoverTextGenAIEnabledFlag,ReqtsGenAiEnabledFlag</XmlAttributeList>
+            <XmlAttributeTypeList>string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,dateTime,string,dateTime,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string</XmlAttributeTypeList>
+            <XmlNodePath>/NegotiationStyleMigratorVO/NegotiationStyleMigratorVORow</XmlNodePath>
+            <NodeSequence>1</NodeSequence>
+         </MigrationProcessBusinessObjectCSVMetadataVORow>
+         <MigrationProcessBusinessObjectCSVMetadataVORow>
+            <ProcessId>-999</ProcessId>
+            <BusinessObjectShortName>PON_NEGOTIATION_STYLES_TRANSLATION</BusinessObjectShortName>
+            <BatchName null="true"/>
+            <XmlAttributeList>StyleName,Description,Language,SourceLang,CreationDate,CreatedBy,LastUpdateDate,LastUpdatedBy,LastUpdateLogin</XmlAttributeList>
+            <XmlAttributeTypeList>string,string,string,string,dateTime,string,dateTime,string,string</XmlAttributeTypeList>
+            <XmlNodePath>/NegotiationStyleMigratorVO/NegotiationStyleMigratorVORow/NegotiationStyleMigratorTranslation/NegotiationStyleMigratorTranslationVORow</XmlNodePath>
+            <NodeSequence>1</NodeSequence>
+         </MigrationProcessBusinessObjectCSVMetadataVORow>
+      </MigrationProcessBusinessObjectCSVMetadata1>
+      <MigrationProcessBatchCSVMetadata null="true"/>
+      <MigrationProcessScopeValueCSVMetadata null="true"/>
+      <MigrationProcessMigrationObjectCSVMetadata>
+         <MigrationProcessMigrationObjectCSVMetadataVORow>
+            <ProcessId>-999</ProcessId>
+            <BusinessObjectShortName>PON_DOCTYPE_STYLES</BusinessObjectShortName>
+            <MigrateFlag>Y</MigrateFlag>
+            <IncludeExternalDataFlag>Y</IncludeExternalDataFlag>
+            <ServiceType null="true"/>
+         </MigrationProcessMigrationObjectCSVMetadataVORow>
+         <MigrationProcessMigrationObjectCSVMetadataVORow>
+            <ProcessId>-999</ProcessId>
+            <BusinessObjectShortName>PON_NEGOTIATION_STYLES</BusinessObjectShortName>
+            <MigrateFlag>Y</MigrateFlag>
+            <IncludeExternalDataFlag>Y</IncludeExternalDataFlag>
+            <ServiceType null="true"/>
+         </MigrationProcessMigrationObjectCSVMetadataVORow>
+      </MigrationProcessMigrationObjectCSVMetadata>
+      <MigrationProcessTaskCSVMetadata null="true"/>
+      <MigrationProcessServiceVersionCSVMetadata null="true"/>
+   </MigrationProcessCSVMetadataVORow>
+</MigrationProcessCSVMetadataVO>

@@ -1,0 +1,90 @@
+# .gitignore for the FSCR work folder (repo root = "Configuration Automation v2.1")
+# Classes come from E:\GoSaaS\FSCR_INVENTORY\INVENTORY.md:
+#   A = small and important -> tracked      B = big but meaningful -> tracked (unless a file is over 50 MB)
+#   C = Oracle FSCR, download again -> ignored    D = secrets -> ignored, NEVER commit    E = junk/caches -> ignored
+# Git cannot ignore by size. Files over 50 MB must be kept out by hand (see SYNC_RULES.md, BIG_FILES.md).
+# Note: "Configuration Automation\.gitignore" (that project's own file) also applies inside that folder;
+# it ignores _work/, *.zip, .session/ there. The B files in "Configuration Automation\page\_work" were
+# added with "git add -f" and stay tracked; NEW files there need "git add -f" too.
+
+# ---------- D: secrets, never sync ----------
+fscr-signin-values.txt
+.env
+.env.*
+!.env.example
+.session/
+**/fusionEnv.properties
+*.pem
+*.key
+*.pfx
+*.p12
+id_rsa*
+**/signin*.raw
+# token and credential caches
+*.token
+**/token_cache*
+**/*token-cache*
+**/.fusion_tokens*
+**/credentials.json
+**/auth.json
+**/cookies.json
+
+# ---------- C: Oracle's official FSCR repo and its copies ----------
+# HOW TO RESTORE any of these:
+#   git clone https://github.com/oracle/fscr.git <folder>
+#   cd <folder> && git checkout 2801695703b909891753790b60a694d2b270724e   ("FSCR 26D Release")
+#   then copy _patches\payment_terms_fsm_package.py over
+#   pillars\erp\financials\customer-billing\manage-receivables-payment-terms\scripts\payment_terms_fsm_package.py
+#   and fill core\auth\fusionEnv.properties from _patches\fusionEnv.properties.example (by hand, never commit).
+# Restore targets: fscr-official-clone\, fscr-main\fscr-main\, the Oracle part of fscr-main\fscr-module-test-pack\,
+# and the fscr-workNN\ / fscr-main\ / repo\ copy inside each run folder (each run's project\ folder IS tracked).
+fscr-official-clone/
+fscr-main/fscr-main/
+# full copies inside run folders: ignore everything in them except project\
+fscr-main/_fscr_run_*/fscr-work*/*
+!fscr-main/_fscr_run_*/fscr-work*/project/
+fscr-main/_fscr_run_*/fscr-main/*
+!fscr-main/_fscr_run_*/fscr-main/project/
+fscr-main/_fscr_run_*/repo/*
+!fscr-main/_fscr_run_*/repo/project/
+!fscr-main/_fscr_run_*/fscr-work*/evidence/
+# Oracle's own files inside each project\ folder (identical to the official repo)
+fscr-main/_fscr_run_*/*/project/README.md
+fscr-main/_fscr_run_*/*/project/_template/
+fscr-main/fscr-module-test-pack/project/README.md
+fscr-main/fscr-module-test-pack/project/_template/
+# run 25 partial copy of Oracle's auth code
+fscr-main/_fscr_run_25_fill_no_route/work/auth/
+# test pack: keep only our kit (the rest is the Oracle repo, restore as above)
+fscr-main/fscr-module-test-pack/*
+!fscr-main/fscr-module-test-pack/module-test-kit/
+!fscr-main/fscr-module-test-pack/work/
+!fscr-main/fscr-module-test-pack/evidence/
+!fscr-main/fscr-module-test-pack/project/
+!fscr-main/fscr-module-test-pack/CHANGES.md
+!fscr-main/fscr-module-test-pack/CLAUDE.md
+!fscr-main/fscr-module-test-pack/SETUP.md
+!fscr-main/fscr-module-test-pack/README_PACK.md
+!fscr-main/fscr-module-test-pack/PACK_VERSION.txt
+!fscr-main/fscr-module-test-pack/check_boss_scope.md
+
+# ---------- E: junk, duplicates, caches ----------
+__pycache__/
+*.pyc
+.pytest_cache/
+*.before
+*.before_signin_change
+*_backup_*.csv
+.setup_ok
+Thumbs.db
+desktop.ini
+~$*
+# superseded test-pack zips (v3 is kept)
+fscr-main/fscr-module-test-pack.zip
+fscr-main/fscr-module-test-pack_v2.zip
+# Configuration Automation page work: logs, cache, snapshots
+Configuration Automation/page/_work/logs/
+Configuration Automation/page/_work/cache/
+Configuration Automation/page/_work/repair_snapshots/
+Configuration Automation/page/_work/matrix/logs/
+Configuration Automation/page/_work/redesign/demo/work/logs/

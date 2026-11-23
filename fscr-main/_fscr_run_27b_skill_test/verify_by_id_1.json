@@ -1,0 +1,20 @@
+{
+  "AlternateNameId" : 300000395049051,
+  "AlternatePayerName" : "FSCRT_R27 Payer A",
+  "ZenginCustomerBankName" : null,
+  "ZenginCustomerBankBranchName" : null,
+  "CustomerName" : "ZZ_TEST_CU_2589_14_OK",
+  "CustomerAccountNumber" : "21541",
+  "BillToSite" : null,
+  "RemittanceBankName" : null,
+  "RemittanceBankNumber" : null,
+  "RemittanceBankBranchNumber" : null,
+  "VirtualAccountNumber" : null,
+  "Active" : "Y",
+  "CreatedBy" : "Configuration.TEST",
+  "CreationDate" : "2026-11-16T07:18:50+00:00",
+  "LastUpdateDate" : "2026-11-16T07:18:50.042+00:00",
+  "LastUpdateLogin" : "606096E5504EE23FE0631C65310A8CC1",
+  "LastUpdatedBy" : "Configuration.TEST",
+  "ObjectVersionNumber" : 1
+}

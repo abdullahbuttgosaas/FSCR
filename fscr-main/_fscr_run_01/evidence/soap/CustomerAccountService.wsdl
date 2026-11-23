@@ -1,0 +1,1543 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<wsdl:definitions
+     name="CustomerAccountService"
+     targetNamespace="http://xmlns.oracle.com/apps/cdm/foundation/parties/customerAccountService/applicationModule/"
+     xmlns:plnk="http://schemas.xmlsoap.org/ws/2003/05/partner-link/"
+     xmlns:errors="http://xmlns.oracle.com/adf/svc/errors/"
+     xmlns:orafault="http://xmlns.oracle.com/oracleas/schema/oracle-fault-11_0"
+     xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/"
+     xmlns:tns="http://xmlns.oracle.com/apps/cdm/foundation/parties/customerAccountService/applicationModule/"
+     xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/"
+     xmlns:types="http://xmlns.oracle.com/apps/cdm/foundation/parties/customerAccountService/applicationModule/types/"
+    >
+    <wsdl:documentation xmlns:oer="http://xmlns.oracle.com/oer">
+        <name>Trading Community Customer Account</name>
+        <description>A financial arrangement that a person or organization has with
+            deploying company to buy products and services e.g. John&apos;s buying
+            account at Amazon, Dell&apos;s buying account at Oracle.</description>
+        <docCategories>
+            <category>Integration</category>
+        </docCategories>
+        <oer:lifecycle>Active</oer:lifecycle>
+        <oer:compatibility>Supported - Backward Compatibility Assured</oer:compatibility>
+        <oer:category name="lba">
+            <value>CdmTop-Customer Data Management</value>
+            <value>CdmTop-Customer Data Management : FoundationTop-Foundation</value>
+            <value>CdmTop-Customer Data Management : FoundationTop-Foundation :
+                FoundationParties-Parties</value>
+        </oer:category>
+        <oer:category name="lbo">
+            <value>CRM-CRM : HZ-Trading Community Model :
+                HZ_CUSTOMER_ACCOUNT-Customer Account</value>
+        </oer:category>
+        <oer:operation name="createCustomerAccount">
+            <description>Create operation for Trading Community Customer Account SDO</description>
+            <oer:parameters>
+                <oer:parameter name="customerAccount" description="Trading Community Customer Account SDO to be created"/>
+                <oer:return description="Result of the operation includes the successfully created Trading Community Customer Account SDO and/or a list of warnings or informational messages."/>
+            </oer:parameters>
+        </oer:operation>
+        <oer:operation name="updateCustomerAccount">
+            <description>Update operation for Trading Community Customer Account SDO</description>
+            <oer:parameters>
+                <oer:parameter name="customerAccount" description="Trading Community Customer Account SDO to be updated"/>
+                <oer:return description="Result of the operation includes the successfully updated Trading Community Customer Account SDO and/or a list of warnings or informational messages."/>
+            </oer:parameters>
+        </oer:operation>
+        <oer:operation name="mergeCustomerAccount">
+            <description>Merge operation for Trading Community Customer Account SDO. It
+                will perform an update if the object exists, or an insert if the
+                object doesn&apos;t already exist.</description>
+            <oer:parameters>
+                <oer:parameter name="customerAccount" description="Trading Community Customer Account SDO to be merged"/>
+                <oer:return description="Result of the operation includes the successfully merged Trading Community Customer Account SDO and/or a list of warnings or informational messages."/>
+            </oer:parameters>
+        </oer:operation>
+        <oer:operation name="findCustomerAccount">
+            <description>Find operation for Trading Community Customer Account SDO</description>
+            <oer:parameters>
+                <oer:parameter name="findCriteria" description="The criteria used to limit your query result, such as the filter (where clause), the fetch size, etc."/>
+                <oer:parameter name="findControl" description="Find Control. Not currently used."/>
+                <oer:return description="Result of the operation including a list of Trading Community Customer Account SDO that satisfy the inbound criteria and any warnings or informational messages encountered during the invocation."/>
+            </oer:parameters>
+        </oer:operation>
+        <oer:operation name="processCustomerAccount">
+            <description>Bulk load operation for Trading Community Customer Account SDO</description>
+            <oer:parameters>
+                <oer:parameter name="changeOperation" description="Indicates what action shall be performed, such as Create, Update, Merge, or Delete"/>
+                <oer:parameter name="customerAccount" description="A list of Trading Community Customer Account SDO to be processed"/>
+                <oer:parameter name="processControl" description="Control your bulk upload behavior, such as whether the valid data will be committed if there are other invalid data in the same batch, and whether the outbound will contain the key attributes only or the full object."/>
+                <oer:return description="Result of the operation including a list of Trading Community Customer Account SDO that are successfully processed and any warnings or informational messages encountered during the invocation."/>
+            </oer:parameters>
+        </oer:operation>
+        <oer:operation name="getCustomerAccountByOriginalSystemReference">
+            <description>Get operation for Trading Community Customer Account filtered by
+                Source System Reference</description>
+            <oer:parameters>
+                <oer:parameter name="findCriteria" description="The criteria used to limit your query result, such as the filter (where clause), the fetch size, etc."/>
+                <oer:parameter name="bindOrigSystem" description="Unique Original System Code"/>
+                <oer:parameter name="bindOrigSystemReference" description="Unique Original System Reference Identifier"/>
+                <oer:parameter name="findControl" description="Find Control. Not currently used."/>
+                <oer:return description="Result of the operation including a list of Trading Community Classification Category for the given source system reference that are successfully processed and any warnings or informational messages encountered during the invocation."/>
+            </oer:parameters>
+        </oer:operation>
+        <oer:operation name="getCustomerAccountSiteUseByKey">
+            <description>Get operation for Trading Community Customer Account Site Use</description>
+            <oer:parameters>
+                <oer:parameter name="siteUseId" description="Site use identifier"/>
+                <oer:return description="Trading Community Customer Account Site Use that matches the inbound key attributes."/>
+            </oer:parameters>
+        </oer:operation>
+        <oer:operation name="deleteCustomerAccount">
+            <description>Delete operation for Trading Community Customer Account SDO</description>
+            <oer:parameters>
+                <oer:parameter name="customerAccount" description="Trading Community Customer Account SDO to be deleted"/>
+                <oer:return description="A list of warnings or informational messages encountered when deleting the object."/>
+            </oer:parameters>
+        </oer:operation>
+        <oer:operation name="processCSCustomerAccount">
+            <description>An operation to apply the changes back to the data source for
+                Trading Community Customer Account SDO</description>
+            <oer:parameters>
+                <oer:parameter name="processData" description="The object that is used to represent the changes that have been made."/>
+                <oer:parameter name="processControl" description="Control your bulk upload behavior, such as whether the valid data will be committed if there are other invalid data in the same batch, and whether the outbound will contain the key attributes only or the full object."/>
+                <oer:return description="Result of the operation including a list of created/updated data objects, and all warning and informational messages."/>
+            </oer:parameters>
+        </oer:operation>
+        <oer:operation name="findCustomerAccountSiteUse">
+            <description>Find operation for Trading Community Customer Account Site Use</description>
+            <oer:parameters>
+                <oer:parameter name="findCriteria" description="The criteria used to limit your query result, such as the filter (where clause), the fetch size, etc."/>
+                <oer:parameter name="findControl" description="Find Control. Not currently used."/>
+                <oer:return description="A list of Trading Community Customer Account Site Use that satisfy the inbound criteria."/>
+            </oer:parameters>
+        </oer:operation>
+        <oer:operation name="getCustomerAccount">
+            <description>Get operation for Trading Community Customer Account SDO</description>
+            <oer:parameters>
+                <oer:parameter name="customerAccountId" description="Unique identifier for the account created for a Party. Primary Key for the table"/>
+                <oer:return description="Trading Community Customer Account SDO that matches the inbound key attributes."/>
+            </oer:parameters>
+        </oer:operation>
+        <oer:operation name="getDfltObjAttrHints">
+            <description>An operation to retrieve user interface hints, such as the
+                service data object label and object attribute labels, for the
+                specified service data object and locale.  As a prerequisite,
+                invoke the getEntityList operation defined on this service to
+                get the list of possible values for the viewName request payload
+                element.</description>
+            <oer:parameters>
+                <oer:parameter name="viewName" description="The service view usage name, an internal name for the service data object.  Specify the value of the &lt;name&gt; element from the getEntityList operation response payload."/>
+                <oer:parameter name="localeName" description="The locale to use when evaluating locale-based user interface hints.  The localeName is in ISO 639-1 format."/>
+                <oer:return description="The label and user interface hints for the specified service data object and its attributes in a name-value pair format"/>
+            </oer:parameters>
+        </oer:operation>
+        <oer:operation name="getServiceLastUpdateTime">
+            <description>An operation that returns the date and time when the schema
+                files referenced in the service definition last changed.</description>
+            <oer:parameters>
+                <oer:return description="The date and time when the service definition last changed in ISO 8601 format."/>
+            </oer:parameters>
+        </oer:operation>
+        <oer:operation name="getEntityList">
+            <description>An operation to get the list of service data objects defined on
+                this service.</description>
+            <oer:parameters>
+                <oer:return description="A list of service data objects defined on this service.  For each service data object, the result includes the QName, internal name, and Boolean values indicating whether create, update, merge, and delete operations can be performed on the object."/>
+            </oer:parameters>
+        </oer:operation>
+    </wsdl:documentation>
+    <plnk:partnerLinkType name="CustomerAccountService">
+        <plnk:role name="CustomerAccountServiceProvider">
+            <plnk:portType name="tns:CustomerAccountService"/>
+        </plnk:role>
+        <plnk:role name="CustomerAccountServiceRequestor">
+            <plnk:portType name="tns:CustomerAccountServiceResponse"/>
+        </plnk:role>
+    </plnk:partnerLinkType>
+<wsp:Policy xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" wsu:Id="CustomerAccountServiceResponse_Fault_Policy" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy"/><wsp:Policy xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" wsu:Id="CustomerAccountServiceResponse_Input_Policy" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy">
+   <sp:SignedParts xmlns:sp="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy">
+      <sp:Body/>
+      <sp:Header Namespace="http://www.w3.org/2005/08/addressing"/>
+      <sp:Header Namespace="http://schemas.xmlsoap.org/ws/2004/08/addressing"/>
+      <sp:Header Name="fmw-context" Namespace="http://xmlns.oracle.com/fmw/context/1.0"/>
+   </sp:SignedParts>
+   <sp:EncryptedParts xmlns:sp="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy">
+      <sp:Body/>
+      <sp:Header Name="fmw-context" Namespace="http://xmlns.oracle.com/fmw/context/1.0"/>
+   </sp:EncryptedParts>
+</wsp:Policy><wsp:Policy xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" wsu:Id="CustomerAccountServiceResponse_Output_Policy" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy">
+   <sp:SignedParts xmlns:sp="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy">
+      <sp:Body/>
+   </sp:SignedParts>
+   <sp:EncryptedParts xmlns:sp="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy">
+      <sp:Body/>
+   </sp:EncryptedParts>
+</wsp:Policy><wsp:Policy xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" wsu:Id="CustomerAccountServiceSoapHttpPort_Fault_Policy" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy">
+   <wsp:ExactlyOne>
+      <wsp:All/>
+      <wsp:All/>
+      <wsp:All/>
+      <wsp:All/>
+   </wsp:ExactlyOne>
+</wsp:Policy><wsp:Policy xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" wsu:Id="CustomerAccountServiceSoapHttpPort_Input_Policy" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy">
+   <wsp:ExactlyOne>
+      <wsp:All>
+         <sp:SignedParts xmlns:sp="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy">
+            <sp:Body/>
+            <sp:Header Namespace="http://www.w3.org/2005/08/addressing"/>
+            <sp:Header Namespace="http://schemas.xmlsoap.org/ws/2004/08/addressing"/>
+            <sp:Header Name="fmw-context" Namespace="http://xmlns.oracle.com/fmw/context/1.0"/>
+            <sp:Header Name="SignatureConfirmation" Namespace="http://docs.oasis-open.org/wss/oasis-wss-wssecurity-secext-1.1.xsd"/>
+         </sp:SignedParts>
+         <sp:EncryptedParts xmlns:sp="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy">
+            <sp:Body/>
+            <sp:Header Name="fmw-context" Namespace="http://xmlns.oracle.com/fmw/context/1.0"/>
+         </sp:EncryptedParts>
+      </wsp:All>
+      <wsp:All>
+         <sp:SignedParts xmlns:sp="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy">
+            <sp:Body/>
+            <sp:Header Namespace="http://www.w3.org/2005/08/addressing"/>
+            <sp:Header Namespace="http://schemas.xmlsoap.org/ws/2004/08/addressing"/>
+            <sp:Header Name="fmw-context" Namespace="http://xmlns.oracle.com/fmw/context/1.0"/>
+         </sp:SignedParts>
+         <sp:EncryptedParts xmlns:sp="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy">
+            <sp:Body/>
+            <sp:Header Name="fmw-context" Namespace="http://xmlns.oracle.com/fmw/context/1.0"/>
+         </sp:EncryptedParts>
+      </wsp:All>
+      <wsp:All>
+         <sp:SignedParts xmlns:sp="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy">
+            <sp:Body/>
+            <sp:Header Namespace="http://www.w3.org/2005/08/addressing"/>
+            <sp:Header Namespace="http://schemas.xmlsoap.org/ws/2004/08/addressing"/>
+            <sp:Header Name="fmw-context" Namespace="http://xmlns.oracle.com/fmw/context/1.0"/>
+         </sp:SignedParts>
+         <sp:EncryptedParts xmlns:sp="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy">
+            <sp:Body/>
+            <sp:Header Name="fmw-context" Namespace="http://xmlns.oracle.com/fmw/context/1.0"/>
+         </sp:EncryptedParts>
+      </wsp:All>
+      <wsp:All>
+         <sp:SignedParts xmlns:sp="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy">
+            <sp:Body/>
+            <sp:Header Namespace="http://www.w3.org/2005/08/addressing"/>
+            <sp:Header Namespace="http://schemas.xmlsoap.org/ws/2004/08/addressing"/>
+            <sp:Header Name="fmw-context" Namespace="http://xmlns.oracle.com/fmw/context/1.0"/>
+         </sp:SignedParts>
+         <sp:EncryptedParts xmlns:sp="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy">
+            <sp:Body/>
+            <sp:Header Name="fmw-context" Namespace="http://xmlns.oracle.com/fmw/context/1.0"/>
+         </sp:EncryptedParts>
+      </wsp:All>
+   </wsp:ExactlyOne>
+</wsp:Policy><wsp:Policy xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" wsu:Id="CustomerAccountServiceSoapHttpPort_Output_Policy" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy">
+   <wsp:ExactlyOne>
+      <wsp:All>
+         <sp:SignedParts xmlns:sp="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy">
+            <sp:Body/>
+         </sp:SignedParts>
+         <sp:EncryptedParts xmlns:sp="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy">
+            <sp:Body/>
+         </sp:EncryptedParts>
+      </wsp:All>
+      <wsp:All>
+         <sp:SignedParts xmlns:sp="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy">
+            <sp:Body/>
+         </sp:SignedParts>
+         <sp:EncryptedParts xmlns:sp="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy">
+            <sp:Body/>
+         </sp:EncryptedParts>
+      </wsp:All>
+      <wsp:All>
+         <sp:SignedParts xmlns:sp="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy">
+            <sp:Body/>
+         </sp:SignedParts>
+         <sp:EncryptedParts xmlns:sp="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy">
+            <sp:Body/>
+         </sp:EncryptedParts>
+      </wsp:All>
+      <wsp:All>
+         <sp:SignedParts xmlns:sp="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy">
+            <sp:Body/>
+         </sp:SignedParts>
+         <sp:EncryptedParts xmlns:sp="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy">
+            <sp:Body/>
+         </sp:EncryptedParts>
+      </wsp:All>
+   </wsp:ExactlyOne>
+</wsp:Policy><wsp:Policy xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" wsu:Id="fast_infoset_service_policy" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy">
+   <wsOptfiser:OptimizedFastInfosetSerialization enabled="true" xmlns:wsOptfiser="http://java.sun.com/xml/ns/wsit/2006/09/policy/fastinfoset/service"/>
+</wsp:Policy><wsp:Policy xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" wsu:Id="wsaddr_policy" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy">
+   <wsaw:UsingAddressing xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl"/>
+</wsp:Policy><wsp:Policy xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" wsu:Id="wss11_saml_or_username_token_with_message_protection_service_policy">
+   <wsp:ExactlyOne>
+      <wsp:All>
+         <sp:SymmetricBinding xmlns:sp="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy">
+            <wsp:Policy>
+               <sp:ProtectionToken>
+                  <wsp:Policy>
+                     <sp:X509Token sp:IncludeToken="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy/IncludeToken/Never">
+                        <wsp:Policy>
+                           <sp:RequireThumbprintReference/>
+                           <sp:WssX509V3Token11/>
+                        </wsp:Policy>
+                     </sp:X509Token>
+                  </wsp:Policy>
+               </sp:ProtectionToken>
+               <sp:AlgorithmSuite>
+                  <wsp:Policy>
+                     <sp:Basic128/>
+                  </wsp:Policy>
+               </sp:AlgorithmSuite>
+               <sp:Layout>
+                  <wsp:Policy>
+                     <sp:Lax/>
+                  </wsp:Policy>
+               </sp:Layout>
+               <sp:IncludeTimestamp/>
+               <sp:ProtectTokens/>
+               <sp:OnlySignEntireHeadersAndBody/>
+            </wsp:Policy>
+         </sp:SymmetricBinding>
+         <sp:SignedSupportingTokens xmlns:sp="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy">
+            <wsp:Policy>
+               <sp:SamlToken sp:IncludeToken="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy/IncludeToken/AlwaysToRecipient">
+                  <wsp:Policy>
+                     <sp:WssSamlV11Token11/>
+                  </wsp:Policy>
+               </sp:SamlToken>
+            </wsp:Policy>
+         </sp:SignedSupportingTokens>
+         <sp:EndorsingSupportingTokens xmlns:sp="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy">
+            <wsp:Policy>
+               <sp:X509Token sp:IncludeToken="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy/IncludeToken/AlwaysToRecipient">
+                  <wsp:Policy>
+                     <sp:WssX509V3Token11/>
+                  </wsp:Policy>
+               </sp:X509Token>
+            </wsp:Policy>
+         </sp:EndorsingSupportingTokens>
+         <sp:Wss11 xmlns:sp="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy">
+            <wsp:Policy>
+               <sp:MustSupportRefKeyIdentifier/>
+               <sp:MustSupportRefIssuerSerial/>
+               <sp:MustSupportRefThumbprint/>
+               <sp:MustSupportRefEncryptedKey/>
+               <sp:RequireSignatureConfirmation/>
+            </wsp:Policy>
+         </sp:Wss11>
+      </wsp:All>
+      <wsp:All>
+         <sp:SymmetricBinding xmlns:sp="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy">
+            <wsp:Policy>
+               <sp:ProtectionToken>
+                  <wsp:Policy>
+                     <sp:X509Token sp:IncludeToken="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy/IncludeToken/Never">
+                        <wsp:Policy>
+                           <sp:RequireThumbprintReference/>
+                           <sp:WssX509V3Token11/>
+                        </wsp:Policy>
+                     </sp:X509Token>
+                  </wsp:Policy>
+               </sp:ProtectionToken>
+               <sp:AlgorithmSuite>
+                  <wsp:Policy>
+                     <sp:Basic128Exn256/>
+                  </wsp:Policy>
+               </sp:AlgorithmSuite>
+               <sp:Layout>
+                  <wsp:Policy>
+                     <sp:Lax/>
+                  </wsp:Policy>
+               </sp:Layout>
+               <sp:IncludeTimestamp/>
+               <sp:ProtectTokens/>
+               <sp:OnlySignEntireHeadersAndBody/>
+            </wsp:Policy>
+         </sp:SymmetricBinding>
+         <sp:SignedSupportingTokens xmlns:sp="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy">
+            <wsp:Policy>
+               <sp:SamlToken sp:IncludeToken="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy/IncludeToken/AlwaysToRecipient">
+                  <wsp:Policy>
+                     <sp:WssSamlV11Token11/>
+                  </wsp:Policy>
+               </sp:SamlToken>
+            </wsp:Policy>
+         </sp:SignedSupportingTokens>
+         <sp:EndorsingSupportingTokens xmlns:sp="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy">
+            <wsp:Policy>
+               <sp:X509Token sp:IncludeToken="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy/IncludeToken/AlwaysToRecipient">
+                  <wsp:Policy>
+                     <sp:WssX509V3Token11/>
+                  </wsp:Policy>
+               </sp:X509Token>
+            </wsp:Policy>
+         </sp:EndorsingSupportingTokens>
+         <sp:Wss11 xmlns:sp="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy">
+            <wsp:Policy>
+               <sp:MustSupportRefKeyIdentifier/>
+               <sp:MustSupportRefIssuerSerial/>
+               <sp:MustSupportRefThumbprint/>
+               <sp:MustSupportRefEncryptedKey/>
+               <sp:RequireSignatureConfirmation/>
+            </wsp:Policy>
+         </sp:Wss11>
+      </wsp:All>
+      <wsp:All>
+         <sp:SymmetricBinding xmlns:sp="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy">
+            <wsp:Policy>
+               <sp:ProtectionToken>
+                  <wsp:Policy>
+                     <sp:X509Token sp:IncludeToken="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy/IncludeToken/Never">
+                        <wsp:Policy>
+                           <sp:RequireThumbprintReference/>
+                           <sp:WssX509V3Token11/>
+                        </wsp:Policy>
+                     </sp:X509Token>
+                  </wsp:Policy>
+               </sp:ProtectionToken>
+               <sp:AlgorithmSuite>
+                  <wsp:Policy>
+                     <sp:Basic128/>
+                  </wsp:Policy>
+               </sp:AlgorithmSuite>
+               <sp:Layout>
+                  <wsp:Policy>
+                     <sp:Lax/>
+                  </wsp:Policy>
+               </sp:Layout>
+               <sp:IncludeTimestamp/>
+               <sp:OnlySignEntireHeadersAndBody/>
+            </wsp:Policy>
+         </sp:SymmetricBinding>
+         <sp:SignedSupportingTokens xmlns:sp="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy">
+            <wsp:Policy>
+               <sp:UsernameToken sp:IncludeToken="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy/IncludeToken/AlwaysToRecipient">
+                  <wsp:Policy>
+                     <sp:WssUsernameToken10/>
+                  </wsp:Policy>
+               </sp:UsernameToken>
+            </wsp:Policy>
+         </sp:SignedSupportingTokens>
+         <sp:Wss11 xmlns:sp="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy">
+            <wsp:Policy>
+               <sp:MustSupportRefKeyIdentifier/>
+               <sp:MustSupportRefIssuerSerial/>
+               <sp:MustSupportRefThumbprint/>
+               <sp:MustSupportRefEncryptedKey/>
+               <sp:RequireSignatureConfirmation/>
+            </wsp:Policy>
+         </sp:Wss11>
+      </wsp:All>
+      <wsp:All>
+         <sp:SymmetricBinding xmlns:sp="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy">
+            <wsp:Policy>
+               <sp:ProtectionToken>
+                  <wsp:Policy>
+                     <sp:X509Token sp:IncludeToken="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy/IncludeToken/Never">
+                        <wsp:Policy>
+                           <sp:RequireThumbprintReference/>
+                           <sp:WssX509V3Token11/>
+                        </wsp:Policy>
+                     </sp:X509Token>
+                  </wsp:Policy>
+               </sp:ProtectionToken>
+               <sp:AlgorithmSuite>
+                  <wsp:Policy>
+                     <sp:Basic128Exn256/>
+                  </wsp:Policy>
+               </sp:AlgorithmSuite>
+               <sp:Layout>
+                  <wsp:Policy>
+                     <sp:Lax/>
+                  </wsp:Policy>
+               </sp:Layout>
+               <sp:IncludeTimestamp/>
+               <sp:OnlySignEntireHeadersAndBody/>
+            </wsp:Policy>
+         </sp:SymmetricBinding>
+         <sp:SignedSupportingTokens xmlns:sp="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy">
+            <wsp:Policy>
+               <sp:UsernameToken sp:IncludeToken="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy/IncludeToken/AlwaysToRecipient">
+                  <wsp:Policy>
+                     <sp:WssUsernameToken10/>
+                  </wsp:Policy>
+               </sp:UsernameToken>
+            </wsp:Policy>
+         </sp:SignedSupportingTokens>
+         <sp:Wss11 xmlns:sp="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy">
+            <wsp:Policy>
+               <sp:MustSupportRefKeyIdentifier/>
+               <sp:MustSupportRefIssuerSerial/>
+               <sp:MustSupportRefThumbprint/>
+               <sp:MustSupportRefEncryptedKey/>
+               <sp:RequireSignatureConfirmation/>
+            </wsp:Policy>
+         </sp:Wss11>
+      </wsp:All>
+      <wsp:All>
+         <sp:TransportBinding xmlns:sp="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy">
+            <wsp:Policy>
+               <sp:AlgorithmSuite>
+                  <wsp:Policy>
+                     <sp:Basic128/>
+                  </wsp:Policy>
+               </sp:AlgorithmSuite>
+               <sp:TransportToken>
+                  <wsp:Policy>
+                     <sp:HttpsToken RequireClientCertificate="false">
+                        <wsp:Policy/>
+                     </sp:HttpsToken>
+                  </wsp:Policy>
+               </sp:TransportToken>
+               <sp:Layout>
+                  <wsp:Policy>
+                     <sp:Lax/>
+                  </wsp:Policy>
+               </sp:Layout>
+               <sp:IncludeTimestamp/>
+            </wsp:Policy>
+         </sp:TransportBinding>
+         <sp:SupportingTokens xmlns:sp="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy">
+            <wsp:Policy>
+               <sp:SamlToken sp:IncludeToken="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy/IncludeToken/AlwaysToRecipient">
+                  <wsp:Policy>
+                     <sp:WssSamlV11Token10/>
+                  </wsp:Policy>
+               </sp:SamlToken>
+            </wsp:Policy>
+         </sp:SupportingTokens>
+      </wsp:All>
+      <wsp:All>
+         <sp:TransportBinding xmlns:sp="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy">
+            <wsp:Policy>
+               <sp:AlgorithmSuite>
+                  <wsp:Policy>
+                     <sp:Basic128/>
+                  </wsp:Policy>
+               </sp:AlgorithmSuite>
+               <sp:TransportToken>
+                  <wsp:Policy>
+                     <sp:HttpsToken RequireClientCertificate="false">
+                        <wsp:Policy/>
+                     </sp:HttpsToken>
+                  </wsp:Policy>
+               </sp:TransportToken>
+               <sp:Layout>
+                  <wsp:Policy>
+                     <sp:Lax/>
+                  </wsp:Policy>
+               </sp:Layout>
+               <sp:IncludeTimestamp/>
+            </wsp:Policy>
+         </sp:TransportBinding>
+         <sp:SupportingTokens xmlns:sp="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy">
+            <wsp:Policy>
+               <sp:SamlToken sp:IncludeToken="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy/IncludeToken/AlwaysToRecipient">
+                  <wsp:Policy>
+                     <sp:WssSamlV20Token11/>
+                  </wsp:Policy>
+               </sp:SamlToken>
+            </wsp:Policy>
+         </sp:SupportingTokens>
+      </wsp:All>
+      <wsp:All>
+         <sp:TransportBinding xmlns:sp="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy">
+            <wsp:Policy>
+               <sp:AlgorithmSuite>
+                  <wsp:Policy>
+                     <sp:Basic128/>
+                  </wsp:Policy>
+               </sp:AlgorithmSuite>
+               <sp:TransportToken>
+                  <wsp:Policy>
+                     <sp:HttpsToken RequireClientCertificate="false">
+                        <wsp:Policy/>
+                     </sp:HttpsToken>
+                  </wsp:Policy>
+               </sp:TransportToken>
+               <sp:Layout>
+                  <wsp:Policy>
+                     <sp:Lax/>
+                  </wsp:Policy>
+               </sp:Layout>
+               <sp:IncludeTimestamp/>
+            </wsp:Policy>
+         </sp:TransportBinding>
+         <sp:SupportingTokens xmlns:sp="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy">
+            <wsp:Policy>
+               <sp:UsernameToken sp:IncludeToken="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy/IncludeToken/AlwaysToRecipient">
+                  <wsp:Policy>
+                     <sp:WssUsernameToken10/>
+                  </wsp:Policy>
+               </sp:UsernameToken>
+            </wsp:Policy>
+         </sp:SupportingTokens>
+      </wsp:All>
+      <wsp:All>
+         <sp:TransportBinding xmlns:sp="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy">
+            <wsp:Policy>
+               <sp:AlgorithmSuite>
+                  <wsp:Policy>
+                     <sp:Basic128/>
+                  </wsp:Policy>
+               </sp:AlgorithmSuite>
+               <sp:TransportToken>
+                  <wsp:Policy>
+                     <sp:HttpsToken RequireClientCertificate="false">
+                        <wsp:Policy/>
+                     </sp:HttpsToken>
+                  </wsp:Policy>
+               </sp:TransportToken>
+               <sp:Layout>
+                  <wsp:Policy>
+                     <sp:Lax/>
+                  </wsp:Policy>
+               </sp:Layout>
+            </wsp:Policy>
+         </sp:TransportBinding>
+      </wsp:All>
+      <wsp:All>
+         <sp:TransportBinding xmlns:sp="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy">
+            <wsp:Policy>
+               <sp:AlgorithmSuite>
+                  <wsp:Policy>
+                     <sp:Basic128/>
+                  </wsp:Policy>
+               </sp:AlgorithmSuite>
+               <sp:TransportToken>
+                  <wsp:Policy>
+                     <sp:HttpsToken RequireClientCertificate="false">
+                        <wsp:Policy>
+                           <osp:HttpJwtAuthentication xmlns:osp="http://schemas.oracle.com/ws/2012/01/wssecuritypolicy"/>
+                        </wsp:Policy>
+                     </sp:HttpsToken>
+                  </wsp:Policy>
+               </sp:TransportToken>
+               <sp:Layout>
+                  <wsp:Policy>
+                     <sp:Lax/>
+                  </wsp:Policy>
+               </sp:Layout>
+            </wsp:Policy>
+         </sp:TransportBinding>
+      </wsp:All>
+   </wsp:ExactlyOne>
+</wsp:Policy><wsp:Policy xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" wsu:Id="wss11_saml_token_with_message_protection_client_policy">
+   <sp:SymmetricBinding xmlns:sp="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy">
+      <wsp:Policy>
+         <sp:ProtectionToken>
+            <wsp:Policy>
+               <sp:X509Token sp:IncludeToken="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy/IncludeToken/Never">
+                  <wsp:Policy>
+                     <sp:RequireThumbprintReference/>
+                     <sp:WssX509V3Token11/>
+                  </wsp:Policy>
+               </sp:X509Token>
+            </wsp:Policy>
+         </sp:ProtectionToken>
+         <sp:AlgorithmSuite>
+            <wsp:Policy>
+               <sp:Basic128/>
+            </wsp:Policy>
+         </sp:AlgorithmSuite>
+         <sp:Layout>
+            <wsp:Policy>
+               <sp:Lax/>
+            </wsp:Policy>
+         </sp:Layout>
+         <sp:IncludeTimestamp/>
+         <sp:ProtectTokens/>
+         <sp:OnlySignEntireHeadersAndBody/>
+      </wsp:Policy>
+   </sp:SymmetricBinding>
+   <sp:SignedSupportingTokens xmlns:sp="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy">
+      <wsp:Policy>
+         <sp:SamlToken sp:IncludeToken="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy/IncludeToken/AlwaysToRecipient">
+            <wsp:Policy>
+               <sp:WssSamlV11Token11/>
+            </wsp:Policy>
+         </sp:SamlToken>
+      </wsp:Policy>
+   </sp:SignedSupportingTokens>
+   <sp:EndorsingSupportingTokens xmlns:sp="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy">
+      <wsp:Policy>
+         <sp:X509Token sp:IncludeToken="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy/IncludeToken/AlwaysToRecipient">
+            <wsp:Policy>
+               <sp:WssX509V3Token11/>
+            </wsp:Policy>
+         </sp:X509Token>
+      </wsp:Policy>
+   </sp:EndorsingSupportingTokens>
+   <sp:Wss11 xmlns:sp="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy">
+      <wsp:Policy>
+         <sp:MustSupportRefKeyIdentifier/>
+         <sp:MustSupportRefIssuerSerial/>
+         <sp:MustSupportRefThumbprint/>
+         <sp:MustSupportRefEncryptedKey/>
+         <sp:RequireSignatureConfirmation/>
+      </wsp:Policy>
+   </sp:Wss11>
+</wsp:Policy>    <wsdl:import namespace="http://xmlns.oracle.com/adf/svc/errors/" location="https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/crmService/CustomerAccountService?WSDL=/META-INF/wsdl/ServiceException.wsdl"/>
+    <wsdl:types>
+        <schema xmlns="http://www.w3.org/2001/XMLSchema">
+            <import namespace="http://xmlns.oracle.com/oracleas/schema/oracle-fault-11_0" schemaLocation="https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/crmService/CustomerAccountService?XSD=/META-INF/oracle-webservices-async-fault-11_0.xsd"/>
+            <import namespace="http://xmlns.oracle.com/apps/cdm/foundation/parties/customerAccountService/applicationModule/types/"
+                 schemaLocation="https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/crmService/CustomerAccountService?XSD=/oracle/apps/cdm/foundation/parties/customerAccountService/CustomerAccountService.xsd"/>
+        </schema>
+    </wsdl:types>
+    <wsdl:message name="CustomerAccountService_onFault">
+        <wsdl:part name="parameters" element="orafault:Fault"/>
+    </wsdl:message>
+    <wsdl:message name="CustomerAccountService_getCustomerAccountSiteUseByKeyAsyncResponse">
+        <wsdl:part name="parameters" element="types:getCustomerAccountSiteUseByKeyAsyncResponse"/>
+    </wsdl:message>
+    <wsdl:message name="CustomerAccountService_getCustomerAccountByOriginalSystemReferenceAsyncResponse">
+        <wsdl:part name="parameters" element="types:getCustomerAccountByOriginalSystemReferenceAsyncResponse"/>
+    </wsdl:message>
+    <wsdl:message name="CustomerAccountService_processCSCustomerAccountAsyncResponse">
+        <wsdl:part name="parameters" element="types:processCSCustomerAccountAsyncResponse"/>
+    </wsdl:message>
+    <wsdl:message name="CustomerAccountService_findCustomerAccountSiteUseAsyncResponse">
+        <wsdl:part name="parameters" element="types:findCustomerAccountSiteUseAsyncResponse"/>
+    </wsdl:message>
+    <wsdl:message name="CustomerAccountService_deleteCustomerAccountAsyncResponse">
+        <wsdl:part name="parameters" element="types:deleteCustomerAccountAsyncResponse"/>
+    </wsdl:message>
+    <wsdl:message name="CustomerAccountService_findCustomerAccountAsyncResponse">
+        <wsdl:part name="parameters" element="types:findCustomerAccountAsyncResponse"/>
+    </wsdl:message>
+    <wsdl:message name="CustomerAccountService_mergeCustomerAccountAsyncResponse">
+        <wsdl:part name="parameters" element="types:mergeCustomerAccountAsyncResponse"/>
+    </wsdl:message>
+    <wsdl:message name="CustomerAccountService_updateCustomerAccountAsyncResponse">
+        <wsdl:part name="parameters" element="types:updateCustomerAccountAsyncResponse"/>
+    </wsdl:message>
+    <wsdl:message name="CustomerAccountService_createCustomerAccountAsyncResponse">
+        <wsdl:part name="parameters" element="types:createCustomerAccountAsyncResponse"/>
+    </wsdl:message>
+    <wsdl:message name="CustomerAccountService_processCustomerAccountAsyncResponse">
+        <wsdl:part name="parameters" element="types:processCustomerAccountAsyncResponse"/>
+    </wsdl:message>
+    <wsdl:message name="CustomerAccountService_getCustomerAccountAsyncResponse">
+        <wsdl:part name="parameters" element="types:getCustomerAccountAsyncResponse"/>
+    </wsdl:message>
+    <wsdl:message name="CustomerAccountService_getEntityListAsyncResponse">
+        <wsdl:part name="parameters" element="types:getEntityListAsyncResponse"/>
+    </wsdl:message>
+    <wsdl:message name="CustomerAccountService_getDfltObjAttrHintsAsyncResponse">
+        <wsdl:part name="parameters" element="types:getDfltObjAttrHintsAsyncResponse"/>
+    </wsdl:message>
+    <wsdl:message name="CustomerAccountService_getServiceLastUpdateTimeAsyncResponse">
+        <wsdl:part name="parameters" element="types:getServiceLastUpdateTimeAsyncResponse"/>
+    </wsdl:message>
+    <wsdl:message name="CustomerAccountService_createCustomerAccount">
+        <wsdl:part name="parameters" element="types:createCustomerAccount"/>
+    </wsdl:message>
+    <wsdl:message name="CustomerAccountService_createCustomerAccountResponse">
+        <wsdl:part name="parameters" element="types:createCustomerAccountResponse"/>
+    </wsdl:message>
+    <wsdl:message name="CustomerAccountService_updateCustomerAccount">
+        <wsdl:part name="parameters" element="types:updateCustomerAccount"/>
+    </wsdl:message>
+    <wsdl:message name="CustomerAccountService_updateCustomerAccountResponse">
+        <wsdl:part name="parameters" element="types:updateCustomerAccountResponse"/>
+    </wsdl:message>
+    <wsdl:message name="CustomerAccountService_mergeCustomerAccount">
+        <wsdl:part name="parameters" element="types:mergeCustomerAccount"/>
+    </wsdl:message>
+    <wsdl:message name="CustomerAccountService_mergeCustomerAccountResponse">
+        <wsdl:part name="parameters" element="types:mergeCustomerAccountResponse"/>
+    </wsdl:message>
+    <wsdl:message name="CustomerAccountService_findCustomerAccount">
+        <wsdl:part name="parameters" element="types:findCustomerAccount"/>
+    </wsdl:message>
+    <wsdl:message name="CustomerAccountService_findCustomerAccountResponse">
+        <wsdl:part name="parameters" element="types:findCustomerAccountResponse"/>
+    </wsdl:message>
+    <wsdl:message name="CustomerAccountService_processCustomerAccount">
+        <wsdl:part name="parameters" element="types:processCustomerAccount"/>
+    </wsdl:message>
+    <wsdl:message name="CustomerAccountService_processCustomerAccountResponse">
+        <wsdl:part name="parameters" element="types:processCustomerAccountResponse"/>
+    </wsdl:message>
+    <wsdl:message name="CustomerAccountService_getCustomerAccountByOriginalSystemReference">
+        <wsdl:part name="parameters" element="types:getCustomerAccountByOriginalSystemReference"/>
+    </wsdl:message>
+    <wsdl:message name="CustomerAccountService_getCustomerAccountByOriginalSystemReferenceResponse">
+        <wsdl:part name="parameters" element="types:getCustomerAccountByOriginalSystemReferenceResponse"/>
+    </wsdl:message>
+    <wsdl:message name="CustomerAccountService_getCustomerAccountSiteUseByKey">
+        <wsdl:part name="parameters" element="types:getCustomerAccountSiteUseByKey"/>
+    </wsdl:message>
+    <wsdl:message name="CustomerAccountService_getCustomerAccountSiteUseByKeyResponse">
+        <wsdl:part name="parameters" element="types:getCustomerAccountSiteUseByKeyResponse"/>
+    </wsdl:message>
+    <wsdl:message name="CustomerAccountService_deleteCustomerAccount">
+        <wsdl:part name="parameters" element="types:deleteCustomerAccount"/>
+    </wsdl:message>
+    <wsdl:message name="CustomerAccountService_deleteCustomerAccountResponse">
+        <wsdl:part name="parameters" element="types:deleteCustomerAccountResponse"/>
+    </wsdl:message>
+    <wsdl:message name="CustomerAccountService_processCSCustomerAccount">
+        <wsdl:part name="parameters" element="types:processCSCustomerAccount"/>
+    </wsdl:message>
+    <wsdl:message name="CustomerAccountService_processCSCustomerAccountResponse">
+        <wsdl:part name="parameters" element="types:processCSCustomerAccountResponse"/>
+    </wsdl:message>
+    <wsdl:message name="CustomerAccountService_findCustomerAccountSiteUse">
+        <wsdl:part name="parameters" element="types:findCustomerAccountSiteUse"/>
+    </wsdl:message>
+    <wsdl:message name="CustomerAccountService_findCustomerAccountSiteUseResponse">
+        <wsdl:part name="parameters" element="types:findCustomerAccountSiteUseResponse"/>
+    </wsdl:message>
+    <wsdl:message name="CustomerAccountService_getCustomerAccountSiteUseByKeyAsync">
+        <wsdl:part name="parameters" element="types:getCustomerAccountSiteUseByKeyAsync"/>
+    </wsdl:message>
+    <wsdl:message name="CustomerAccountService_getCustomerAccountByOriginalSystemReferenceAsync">
+        <wsdl:part name="parameters" element="types:getCustomerAccountByOriginalSystemReferenceAsync"/>
+    </wsdl:message>
+    <wsdl:message name="CustomerAccountService_processCSCustomerAccountAsync">
+        <wsdl:part name="parameters" element="types:processCSCustomerAccountAsync"/>
+    </wsdl:message>
+    <wsdl:message name="CustomerAccountService_findCustomerAccountSiteUseAsync">
+        <wsdl:part name="parameters" element="types:findCustomerAccountSiteUseAsync"/>
+    </wsdl:message>
+    <wsdl:message name="CustomerAccountService_deleteCustomerAccountAsync">
+        <wsdl:part name="parameters" element="types:deleteCustomerAccountAsync"/>
+    </wsdl:message>
+    <wsdl:message name="CustomerAccountService_findCustomerAccountAsync">
+        <wsdl:part name="parameters" element="types:findCustomerAccountAsync"/>
+    </wsdl:message>
+    <wsdl:message name="CustomerAccountService_mergeCustomerAccountAsync">
+        <wsdl:part name="parameters" element="types:mergeCustomerAccountAsync"/>
+    </wsdl:message>
+    <wsdl:message name="CustomerAccountService_updateCustomerAccountAsync">
+        <wsdl:part name="parameters" element="types:updateCustomerAccountAsync"/>
+    </wsdl:message>
+    <wsdl:message name="CustomerAccountService_createCustomerAccountAsync">
+        <wsdl:part name="parameters" element="types:createCustomerAccountAsync"/>
+    </wsdl:message>
+    <wsdl:message name="CustomerAccountService_processCustomerAccountAsync">
+        <wsdl:part name="parameters" element="types:processCustomerAccountAsync"/>
+    </wsdl:message>
+    <wsdl:message name="CustomerAccountService_getCustomerAccount">
+        <wsdl:part name="parameters" element="types:getCustomerAccount"/>
+    </wsdl:message>
+    <wsdl:message name="CustomerAccountService_getCustomerAccountResponse">
+        <wsdl:part name="parameters" element="types:getCustomerAccountResponse"/>
+    </wsdl:message>
+    <wsdl:message name="CustomerAccountService_getCustomerAccountAsync">
+        <wsdl:part name="parameters" element="types:getCustomerAccountAsync"/>
+    </wsdl:message>
+    <wsdl:message name="CustomerAccountService_getDfltObjAttrHints">
+        <wsdl:part name="parameters" element="types:getDfltObjAttrHints"/>
+    </wsdl:message>
+    <wsdl:message name="CustomerAccountService_getDfltObjAttrHintsResponse">
+        <wsdl:part name="parameters" element="types:getDfltObjAttrHintsResponse"/>
+    </wsdl:message>
+    <wsdl:message name="CustomerAccountService_getServiceLastUpdateTime">
+        <wsdl:part name="parameters" element="types:getServiceLastUpdateTime"/>
+    </wsdl:message>
+    <wsdl:message name="CustomerAccountService_getServiceLastUpdateTimeResponse">
+        <wsdl:part name="parameters" element="types:getServiceLastUpdateTimeResponse"/>
+    </wsdl:message>
+    <wsdl:message name="CustomerAccountService_getEntityList">
+        <wsdl:part name="parameters" element="types:getEntityList"/>
+    </wsdl:message>
+    <wsdl:message name="CustomerAccountService_getEntityListResponse">
+        <wsdl:part name="parameters" element="types:getEntityListResponse"/>
+    </wsdl:message>
+    <wsdl:message name="CustomerAccountService_getEntityListAsync">
+        <wsdl:part name="parameters" element="types:getEntityListAsync"/>
+    </wsdl:message>
+    <wsdl:message name="CustomerAccountService_getDfltObjAttrHintsAsync">
+        <wsdl:part name="parameters" element="types:getDfltObjAttrHintsAsync"/>
+    </wsdl:message>
+    <wsdl:message name="CustomerAccountService_getServiceLastUpdateTimeAsync">
+        <wsdl:part name="parameters" element="types:getServiceLastUpdateTimeAsync"/>
+    </wsdl:message>
+    <wsdl:portType name="CustomerAccountServiceResponse">
+        <wsdl:operation name="onFault">
+            <wsdl:input message="tns:CustomerAccountService_onFault" xmlns:ns1="http://www.w3.org/2006/05/addressing/wsdl"
+                 ns1:Action="http://xmlns.oracle.com/oracleas/schema/oracle-fault-11_0/Fault"/>
+        </wsdl:operation>
+        <wsdl:operation name="getCustomerAccountSiteUseByKeyAsyncResponse">
+            <wsdl:input message="tns:CustomerAccountService_getCustomerAccountSiteUseByKeyAsyncResponse"
+                 xmlns:ns1="http://www.w3.org/2006/05/addressing/wsdl" ns1:Action="http://xmlns.oracle.com/apps/cdm/foundation/parties/customerAccountService/applicationModule/getCustomerAccountSiteUseByKeyAsyncResponse"/>
+        </wsdl:operation>
+        <wsdl:operation name="getCustomerAccountByOriginalSystemReferenceAsyncResponse">
+            <wsdl:input message="tns:CustomerAccountService_getCustomerAccountByOriginalSystemReferenceAsyncResponse"
+                 xmlns:ns1="http://www.w3.org/2006/05/addressing/wsdl" ns1:Action="http://xmlns.oracle.com/apps/cdm/foundation/parties/customerAccountService/applicationModule/getCustomerAccountByOriginalSystemReferenceAsyncResponse"/>
+        </wsdl:operation>
+        <wsdl:operation name="processCSCustomerAccountAsyncResponse">
+            <wsdl:input message="tns:CustomerAccountService_processCSCustomerAccountAsyncResponse"
+                 xmlns:ns1="http://www.w3.org/2006/05/addressing/wsdl" ns1:Action="http://xmlns.oracle.com/apps/cdm/foundation/parties/customerAccountService/applicationModule/processCSCustomerAccountAsyncResponse"/>
+        </wsdl:operation>
+        <wsdl:operation name="findCustomerAccountSiteUseAsyncResponse">
+            <wsdl:input message="tns:CustomerAccountService_findCustomerAccountSiteUseAsyncResponse"
+                 xmlns:ns1="http://www.w3.org/2006/05/addressing/wsdl" ns1:Action="http://xmlns.oracle.com/apps/cdm/foundation/parties/customerAccountService/applicationModule/findCustomerAccountSiteUseAsyncResponse"/>
+        </wsdl:operation>
+        <wsdl:operation name="deleteCustomerAccountAsyncResponse">
+            <wsdl:input message="tns:CustomerAccountService_deleteCustomerAccountAsyncResponse" xmlns:ns1="http://www.w3.org/2006/05/addressing/wsdl"
+                 ns1:Action="http://xmlns.oracle.com/apps/cdm/foundation/parties/customerAccountService/applicationModule/deleteCustomerAccountAsyncResponse"/>
+        </wsdl:operation>
+        <wsdl:operation name="findCustomerAccountAsyncResponse">
+            <wsdl:input message="tns:CustomerAccountService_findCustomerAccountAsyncResponse" xmlns:ns1="http://www.w3.org/2006/05/addressing/wsdl"
+                 ns1:Action="http://xmlns.oracle.com/apps/cdm/foundation/parties/customerAccountService/applicationModule/findCustomerAccountAsyncResponse"/>
+        </wsdl:operation>
+        <wsdl:operation name="mergeCustomerAccountAsyncResponse">
+            <wsdl:input message="tns:CustomerAccountService_mergeCustomerAccountAsyncResponse" xmlns:ns1="http://www.w3.org/2006/05/addressing/wsdl"
+                 ns1:Action="http://xmlns.oracle.com/apps/cdm/foundation/parties/customerAccountService/applicationModule/mergeCustomerAccountAsyncResponse"/>
+        </wsdl:operation>
+        <wsdl:operation name="updateCustomerAccountAsyncResponse">
+            <wsdl:input message="tns:CustomerAccountService_updateCustomerAccountAsyncResponse" xmlns:ns1="http://www.w3.org/2006/05/addressing/wsdl"
+                 ns1:Action="http://xmlns.oracle.com/apps/cdm/foundation/parties/customerAccountService/applicationModule/updateCustomerAccountAsyncResponse"/>
+        </wsdl:operation>
+        <wsdl:operation name="createCustomerAccountAsyncResponse">
+            <wsdl:input message="tns:CustomerAccountService_createCustomerAccountAsyncResponse" xmlns:ns1="http://www.w3.org/2006/05/addressing/wsdl"
+                 ns1:Action="http://xmlns.oracle.com/apps/cdm/foundation/parties/customerAccountService/applicationModule/createCustomerAccountAsyncResponse"/>
+        </wsdl:operation>
+        <wsdl:operation name="processCustomerAccountAsyncResponse">
+            <wsdl:input message="tns:CustomerAccountService_processCustomerAccountAsyncResponse" xmlns:ns1="http://www.w3.org/2006/05/addressing/wsdl"
+                 ns1:Action="http://xmlns.oracle.com/apps/cdm/foundation/parties/customerAccountService/applicationModule/processCustomerAccountAsyncResponse"/>
+        </wsdl:operation>
+        <wsdl:operation name="getCustomerAccountAsyncResponse">
+            <wsdl:input message="tns:CustomerAccountService_getCustomerAccountAsyncResponse" xmlns:ns1="http://www.w3.org/2006/05/addressing/wsdl"
+                 ns1:Action="http://xmlns.oracle.com/apps/cdm/foundation/parties/customerAccountService/applicationModule/getCustomerAccountAsyncResponse"/>
+        </wsdl:operation>
+        <wsdl:operation name="getEntityListAsyncResponse">
+            <wsdl:input message="tns:CustomerAccountService_getEntityListAsyncResponse" xmlns:ns1="http://www.w3.org/2006/05/addressing/wsdl"
+                 ns1:Action="http://xmlns.oracle.com/apps/cdm/foundation/parties/customerAccountService/applicationModule/getEntityListAsyncResponse"/>
+        </wsdl:operation>
+        <wsdl:operation name="getDfltObjAttrHintsAsyncResponse">
+            <wsdl:input message="tns:CustomerAccountService_getDfltObjAttrHintsAsyncResponse" xmlns:ns1="http://www.w3.org/2006/05/addressing/wsdl"
+                 ns1:Action="http://xmlns.oracle.com/apps/cdm/foundation/parties/customerAccountService/applicationModule/getDfltObjAttrHintsAsyncResponse"/>
+        </wsdl:operation>
+        <wsdl:operation name="getServiceLastUpdateTimeAsyncResponse">
+            <wsdl:input message="tns:CustomerAccountService_getServiceLastUpdateTimeAsyncResponse"
+                 xmlns:ns1="http://www.w3.org/2006/05/addressing/wsdl" ns1:Action="http://xmlns.oracle.com/apps/cdm/foundation/parties/customerAccountService/applicationModule/getServiceLastUpdateTimeAsyncResponse"/>
+        </wsdl:operation>
+    </wsdl:portType>
+    <wsdl:portType name="CustomerAccountService">
+        <wsdl:documentation>
+            <ViewInstance xmlns="http://xmlns.oracle.com/adf/svc/metadata/" Name="CustomerAccount" xmlns:ns0="http://xmlns.oracle.com/apps/cdm/foundation/parties/customerAccountService/"
+                 SDOName="ns0:CustomerAccount" CreateOpName="createCustomerAccount" UpdateOpName="updateCustomerAccount"
+                 DeleteOpName="deleteCustomerAccount" MergeOpName="mergeCustomerAccount" GetOpName="getCustomerAccount"
+                 FindOpName="findCustomerAccount" ProcessOpName="processCustomerAccount" ProcessCSOpName="processCSCustomerAccount"/>
+            <ViewInstance xmlns="http://xmlns.oracle.com/adf/svc/metadata/" Name="CustomerAccountSiteUseVO"
+                 xmlns:ns0="http://xmlns.oracle.com/apps/cdm/foundation/parties/customerAccountService/"
+                 SDOName="ns0:CustomerAccountSiteUse" GetOpName="getCustomerAccountSiteUseByKey"
+                 FindOpName="findCustomerAccountSiteUse"/>
+        </wsdl:documentation>
+        <wsdl:operation name="createCustomerAccount">
+            <wsdl:input message="tns:CustomerAccountService_createCustomerAccount"/>
+            <wsdl:output message="tns:CustomerAccountService_createCustomerAccountResponse"/>
+            <wsdl:fault name="ServiceException" message="errors:ServiceException"/>
+        </wsdl:operation>
+        <wsdl:operation name="updateCustomerAccount">
+            <wsdl:input message="tns:CustomerAccountService_updateCustomerAccount"/>
+            <wsdl:output message="tns:CustomerAccountService_updateCustomerAccountResponse"/>
+            <wsdl:fault name="ServiceException" message="errors:ServiceException"/>
+        </wsdl:operation>
+        <wsdl:operation name="mergeCustomerAccount">
+            <wsdl:input message="tns:CustomerAccountService_mergeCustomerAccount"/>
+            <wsdl:output message="tns:CustomerAccountService_mergeCustomerAccountResponse"/>
+            <wsdl:fault name="ServiceException" message="errors:ServiceException"/>
+        </wsdl:operation>
+        <wsdl:operation name="findCustomerAccount">
+            <wsdl:input message="tns:CustomerAccountService_findCustomerAccount"/>
+            <wsdl:output message="tns:CustomerAccountService_findCustomerAccountResponse"/>
+            <wsdl:fault name="ServiceException" message="errors:ServiceException"/>
+        </wsdl:operation>
+        <wsdl:operation name="processCustomerAccount">
+            <wsdl:input message="tns:CustomerAccountService_processCustomerAccount"/>
+            <wsdl:output message="tns:CustomerAccountService_processCustomerAccountResponse"/>
+            <wsdl:fault name="ServiceException" message="errors:ServiceException"/>
+        </wsdl:operation>
+        <wsdl:operation name="getCustomerAccountByOriginalSystemReference">
+            <wsdl:input message="tns:CustomerAccountService_getCustomerAccountByOriginalSystemReference"/>
+            <wsdl:output message="tns:CustomerAccountService_getCustomerAccountByOriginalSystemReferenceResponse"/>
+            <wsdl:fault name="ServiceException" message="errors:ServiceException"/>
+        </wsdl:operation>
+        <wsdl:operation name="getCustomerAccountSiteUseByKey">
+            <wsdl:input message="tns:CustomerAccountService_getCustomerAccountSiteUseByKey"/>
+            <wsdl:output message="tns:CustomerAccountService_getCustomerAccountSiteUseByKeyResponse"/>
+            <wsdl:fault name="ServiceException" message="errors:ServiceException"/>
+        </wsdl:operation>
+        <wsdl:operation name="deleteCustomerAccount">
+            <wsdl:input message="tns:CustomerAccountService_deleteCustomerAccount"/>
+            <wsdl:output message="tns:CustomerAccountService_deleteCustomerAccountResponse"/>
+            <wsdl:fault name="ServiceException" message="errors:ServiceException"/>
+        </wsdl:operation>
+        <wsdl:operation name="processCSCustomerAccount">
+            <wsdl:input message="tns:CustomerAccountService_processCSCustomerAccount"/>
+            <wsdl:output message="tns:CustomerAccountService_processCSCustomerAccountResponse"/>
+            <wsdl:fault name="ServiceException" message="errors:ServiceException"/>
+        </wsdl:operation>
+        <wsdl:operation name="findCustomerAccountSiteUse">
+            <wsdl:input message="tns:CustomerAccountService_findCustomerAccountSiteUse"/>
+            <wsdl:output message="tns:CustomerAccountService_findCustomerAccountSiteUseResponse"/>
+            <wsdl:fault name="ServiceException" message="errors:ServiceException"/>
+        </wsdl:operation>
+        <wsdl:operation name="getCustomerAccountSiteUseByKeyAsync">
+            <wsdl:input message="tns:CustomerAccountService_getCustomerAccountSiteUseByKeyAsync" xmlns:ns1="http://www.w3.org/2006/05/addressing/wsdl"
+                 ns1:Action="http://xmlns.oracle.com/apps/cdm/foundation/parties/customerAccountService/applicationModule/getCustomerAccountSiteUseByKeyAsync"/>
+        </wsdl:operation>
+        <wsdl:operation name="getCustomerAccountByOriginalSystemReferenceAsync">
+            <wsdl:input message="tns:CustomerAccountService_getCustomerAccountByOriginalSystemReferenceAsync"
+                 xmlns:ns1="http://www.w3.org/2006/05/addressing/wsdl" ns1:Action="http://xmlns.oracle.com/apps/cdm/foundation/parties/customerAccountService/applicationModule/getCustomerAccountByOriginalSystemReferenceAsync"/>
+        </wsdl:operation>
+        <wsdl:operation name="processCSCustomerAccountAsync">
+            <wsdl:input message="tns:CustomerAccountService_processCSCustomerAccountAsync" xmlns:ns1="http://www.w3.org/2006/05/addressing/wsdl"
+                 ns1:Action="http://xmlns.oracle.com/apps/cdm/foundation/parties/customerAccountService/applicationModule/processCSCustomerAccountAsync"/>
+        </wsdl:operation>
+        <wsdl:operation name="findCustomerAccountSiteUseAsync">
+            <wsdl:input message="tns:CustomerAccountService_findCustomerAccountSiteUseAsync" xmlns:ns1="http://www.w3.org/2006/05/addressing/wsdl"
+                 ns1:Action="http://xmlns.oracle.com/apps/cdm/foundation/parties/customerAccountService/applicationModule/findCustomerAccountSiteUseAsync"/>
+        </wsdl:operation>
+        <wsdl:operation name="deleteCustomerAccountAsync">
+            <wsdl:input message="tns:CustomerAccountService_deleteCustomerAccountAsync" xmlns:ns1="http://www.w3.org/2006/05/addressing/wsdl"
+                 ns1:Action="http://xmlns.oracle.com/apps/cdm/foundation/parties/customerAccountService/applicationModule/deleteCustomerAccountAsync"/>
+        </wsdl:operation>
+        <wsdl:operation name="findCustomerAccountAsync">
+            <wsdl:input message="tns:CustomerAccountService_findCustomerAccountAsync" xmlns:ns1="http://www.w3.org/2006/05/addressing/wsdl"
+                 ns1:Action="http://xmlns.oracle.com/apps/cdm/foundation/parties/customerAccountService/applicationModule/findCustomerAccountAsync"/>
+        </wsdl:operation>
+        <wsdl:operation name="mergeCustomerAccountAsync">
+            <wsdl:input message="tns:CustomerAccountService_mergeCustomerAccountAsync" xmlns:ns1="http://www.w3.org/2006/05/addressing/wsdl"
+                 ns1:Action="http://xmlns.oracle.com/apps/cdm/foundation/parties/customerAccountService/applicationModule/mergeCustomerAccountAsync"/>
+        </wsdl:operation>
+        <wsdl:operation name="updateCustomerAccountAsync">
+            <wsdl:input message="tns:CustomerAccountService_updateCustomerAccountAsync" xmlns:ns1="http://www.w3.org/2006/05/addressing/wsdl"
+                 ns1:Action="http://xmlns.oracle.com/apps/cdm/foundation/parties/customerAccountService/applicationModule/updateCustomerAccountAsync"/>
+        </wsdl:operation>
+        <wsdl:operation name="createCustomerAccountAsync">
+            <wsdl:input message="tns:CustomerAccountService_createCustomerAccountAsync" xmlns:ns1="http://www.w3.org/2006/05/addressing/wsdl"
+                 ns1:Action="http://xmlns.oracle.com/apps/cdm/foundation/parties/customerAccountService/applicationModule/createCustomerAccountAsync"/>
+        </wsdl:operation>
+        <wsdl:operation name="processCustomerAccountAsync">
+            <wsdl:input message="tns:CustomerAccountService_processCustomerAccountAsync" xmlns:ns1="http://www.w3.org/2006/05/addressing/wsdl"
+                 ns1:Action="http://xmlns.oracle.com/apps/cdm/foundation/parties/customerAccountService/applicationModule/processCustomerAccountAsync"/>
+        </wsdl:operation>
+        <wsdl:operation name="getCustomerAccount">
+            <wsdl:input message="tns:CustomerAccountService_getCustomerAccount"/>
+            <wsdl:output message="tns:CustomerAccountService_getCustomerAccountResponse"/>
+            <wsdl:fault name="ServiceException" message="errors:ServiceException"/>
+        </wsdl:operation>
+        <wsdl:operation name="getCustomerAccountAsync">
+            <wsdl:input message="tns:CustomerAccountService_getCustomerAccountAsync" xmlns:ns1="http://www.w3.org/2006/05/addressing/wsdl"
+                 ns1:Action="http://xmlns.oracle.com/apps/cdm/foundation/parties/customerAccountService/applicationModule/getCustomerAccountAsync"/>
+        </wsdl:operation>
+        <wsdl:operation name="getDfltObjAttrHints">
+            <wsdl:input message="tns:CustomerAccountService_getDfltObjAttrHints"/>
+            <wsdl:output message="tns:CustomerAccountService_getDfltObjAttrHintsResponse"/>
+            <wsdl:fault name="ServiceException" message="errors:ServiceException"/>
+        </wsdl:operation>
+        <wsdl:operation name="getServiceLastUpdateTime">
+            <wsdl:input message="tns:CustomerAccountService_getServiceLastUpdateTime"/>
+            <wsdl:output message="tns:CustomerAccountService_getServiceLastUpdateTimeResponse"/>
+            <wsdl:fault name="ServiceException" message="errors:ServiceException"/>
+        </wsdl:operation>
+        <wsdl:operation name="getEntityList">
+            <wsdl:input message="tns:CustomerAccountService_getEntityList"/>
+            <wsdl:output message="tns:CustomerAccountService_getEntityListResponse"/>
+            <wsdl:fault name="ServiceException" message="errors:ServiceException"/>
+        </wsdl:operation>
+        <wsdl:operation name="getEntityListAsync">
+            <wsdl:input message="tns:CustomerAccountService_getEntityListAsync" xmlns:ns1="http://www.w3.org/2006/05/addressing/wsdl"
+                 ns1:Action="http://xmlns.oracle.com/apps/cdm/foundation/parties/customerAccountService/applicationModule/getEntityListAsync"/>
+        </wsdl:operation>
+        <wsdl:operation name="getDfltObjAttrHintsAsync">
+            <wsdl:input message="tns:CustomerAccountService_getDfltObjAttrHintsAsync" xmlns:ns1="http://www.w3.org/2006/05/addressing/wsdl"
+                 ns1:Action="http://xmlns.oracle.com/apps/cdm/foundation/parties/customerAccountService/applicationModule/getDfltObjAttrHintsAsync"/>
+        </wsdl:operation>
+        <wsdl:operation name="getServiceLastUpdateTimeAsync">
+            <wsdl:input message="tns:CustomerAccountService_getServiceLastUpdateTimeAsync" xmlns:ns1="http://www.w3.org/2006/05/addressing/wsdl"
+                 ns1:Action="http://xmlns.oracle.com/apps/cdm/foundation/parties/customerAccountService/applicationModule/getServiceLastUpdateTimeAsync"/>
+        </wsdl:operation>
+    </wsdl:portType>
+    <wsdl:binding name="CustomerAccountServiceResponseBinding" type="tns:CustomerAccountServiceResponse">
+        <soap:binding style="document" transport="http://schemas.xmlsoap.org/soap/http"/>
+      <wsp:PolicyReference xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" URI="#wss11_saml_token_with_message_protection_client_policy" wsdl:required="false"/>
+        <wsdl:operation name="onFault">
+            <soap:operation soapAction="http://xmlns.oracle.com/oracleas/schema/oracle-fault-11_0/Fault"/>
+            <wsdl:input>
+                <soap:body use="literal"/>
+      <wsp:PolicyReference xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" URI="#CustomerAccountServiceResponse_Input_Policy" wsdl:required="false"/>
+            </wsdl:input>
+        </wsdl:operation>
+        <wsdl:operation name="getCustomerAccountSiteUseByKeyAsyncResponse">
+            <soap:operation soapAction="http://xmlns.oracle.com/apps/cdm/foundation/parties/customerAccountService/applicationModule/getCustomerAccountSiteUseByKeyAsyncResponse"/>
+            <wsdl:input>
+                <soap:body use="literal"/>
+      <wsp:PolicyReference xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" URI="#CustomerAccountServiceResponse_Input_Policy" wsdl:required="false"/>
+            </wsdl:input>
+        </wsdl:operation>
+        <wsdl:operation name="getCustomerAccountByOriginalSystemReferenceAsyncResponse">
+            <soap:operation soapAction="http://xmlns.oracle.com/apps/cdm/foundation/parties/customerAccountService/applicationModule/getCustomerAccountByOriginalSystemReferenceAsyncResponse"/>
+            <wsdl:input>
+                <soap:body use="literal"/>
+      <wsp:PolicyReference xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" URI="#CustomerAccountServiceResponse_Input_Policy" wsdl:required="false"/>
+            </wsdl:input>
+        </wsdl:operation>
+        <wsdl:operation name="processCSCustomerAccountAsyncResponse">
+            <soap:operation soapAction="http://xmlns.oracle.com/apps/cdm/foundation/parties/customerAccountService/applicationModule/processCSCustomerAccountAsyncResponse"/>
+            <wsdl:input>
+                <soap:body use="literal"/>
+      <wsp:PolicyReference xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" URI="#CustomerAccountServiceResponse_Input_Policy" wsdl:required="false"/>
+            </wsdl:input>
+        </wsdl:operation>
+        <wsdl:operation name="findCustomerAccountSiteUseAsyncResponse">
+            <soap:operation soapAction="http://xmlns.oracle.com/apps/cdm/foundation/parties/customerAccountService/applicationModule/findCustomerAccountSiteUseAsyncResponse"/>
+            <wsdl:input>
+                <soap:body use="literal"/>
+      <wsp:PolicyReference xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" URI="#CustomerAccountServiceResponse_Input_Policy" wsdl:required="false"/>
+            </wsdl:input>
+        </wsdl:operation>
+        <wsdl:operation name="deleteCustomerAccountAsyncResponse">
+            <soap:operation soapAction="http://xmlns.oracle.com/apps/cdm/foundation/parties/customerAccountService/applicationModule/deleteCustomerAccountAsyncResponse"/>
+            <wsdl:input>
+                <soap:body use="literal"/>
+      <wsp:PolicyReference xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" URI="#CustomerAccountServiceResponse_Input_Policy" wsdl:required="false"/>
+            </wsdl:input>
+        </wsdl:operation>
+        <wsdl:operation name="findCustomerAccountAsyncResponse">
+            <soap:operation soapAction="http://xmlns.oracle.com/apps/cdm/foundation/parties/customerAccountService/applicationModule/findCustomerAccountAsyncResponse"/>
+            <wsdl:input>
+                <soap:body use="literal"/>
+      <wsp:PolicyReference xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" URI="#CustomerAccountServiceResponse_Input_Policy" wsdl:required="false"/>
+            </wsdl:input>
+        </wsdl:operation>
+        <wsdl:operation name="mergeCustomerAccountAsyncResponse">
+            <soap:operation soapAction="http://xmlns.oracle.com/apps/cdm/foundation/parties/customerAccountService/applicationModule/mergeCustomerAccountAsyncResponse"/>
+            <wsdl:input>
+                <soap:body use="literal"/>
+      <wsp:PolicyReference xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" URI="#CustomerAccountServiceResponse_Input_Policy" wsdl:required="false"/>
+            </wsdl:input>
+        </wsdl:operation>
+        <wsdl:operation name="updateCustomerAccountAsyncResponse">
+            <soap:operation soapAction="http://xmlns.oracle.com/apps/cdm/foundation/parties/customerAccountService/applicationModule/updateCustomerAccountAsyncResponse"/>
+            <wsdl:input>
+                <soap:body use="literal"/>
+      <wsp:PolicyReference xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" URI="#CustomerAccountServiceResponse_Input_Policy" wsdl:required="false"/>
+            </wsdl:input>
+        </wsdl:operation>
+        <wsdl:operation name="createCustomerAccountAsyncResponse">
+            <soap:operation soapAction="http://xmlns.oracle.com/apps/cdm/foundation/parties/customerAccountService/applicationModule/createCustomerAccountAsyncResponse"/>
+            <wsdl:input>
+                <soap:body use="literal"/>
+      <wsp:PolicyReference xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" URI="#CustomerAccountServiceResponse_Input_Policy" wsdl:required="false"/>
+            </wsdl:input>
+        </wsdl:operation>
+        <wsdl:operation name="processCustomerAccountAsyncResponse">
+            <soap:operation soapAction="http://xmlns.oracle.com/apps/cdm/foundation/parties/customerAccountService/applicationModule/processCustomerAccountAsyncResponse"/>
+            <wsdl:input>
+                <soap:body use="literal"/>
+      <wsp:PolicyReference xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" URI="#CustomerAccountServiceResponse_Input_Policy" wsdl:required="false"/>
+            </wsdl:input>
+        </wsdl:operation>
+        <wsdl:operation name="getCustomerAccountAsyncResponse">
+            <soap:operation soapAction="http://xmlns.oracle.com/apps/cdm/foundation/parties/customerAccountService/applicationModule/getCustomerAccountAsyncResponse"/>
+            <wsdl:input>
+                <soap:body use="literal"/>
+      <wsp:PolicyReference xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" URI="#CustomerAccountServiceResponse_Input_Policy" wsdl:required="false"/>
+            </wsdl:input>
+        </wsdl:operation>
+        <wsdl:operation name="getEntityListAsyncResponse">
+            <soap:operation soapAction="http://xmlns.oracle.com/apps/cdm/foundation/parties/customerAccountService/applicationModule/getEntityListAsyncResponse"/>
+            <wsdl:input>
+                <soap:body use="literal"/>
+      <wsp:PolicyReference xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" URI="#CustomerAccountServiceResponse_Input_Policy" wsdl:required="false"/>
+            </wsdl:input>
+        </wsdl:operation>
+        <wsdl:operation name="getDfltObjAttrHintsAsyncResponse">
+            <soap:operation soapAction="http://xmlns.oracle.com/apps/cdm/foundation/parties/customerAccountService/applicationModule/getDfltObjAttrHintsAsyncResponse"/>
+            <wsdl:input>
+                <soap:body use="literal"/>
+      <wsp:PolicyReference xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" URI="#CustomerAccountServiceResponse_Input_Policy" wsdl:required="false"/>
+            </wsdl:input>
+        </wsdl:operation>
+        <wsdl:operation name="getServiceLastUpdateTimeAsyncResponse">
+            <soap:operation soapAction="http://xmlns.oracle.com/apps/cdm/foundation/parties/customerAccountService/applicationModule/getServiceLastUpdateTimeAsyncResponse"/>
+            <wsdl:input>
+                <soap:body use="literal"/>
+      <wsp:PolicyReference xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" URI="#CustomerAccountServiceResponse_Input_Policy" wsdl:required="false"/>
+            </wsdl:input>
+        </wsdl:operation>
+    </wsdl:binding>
+    <wsdl:binding name="CustomerAccountServiceSoapHttp" type="tns:CustomerAccountService">
+        <soap:binding style="document" transport="http://schemas.xmlsoap.org/soap/http"/>
+      <wsp:PolicyReference xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" URI="#wss11_saml_or_username_token_with_message_protection_service_policy" wsdl:required="false"/>
+      <wsp:PolicyReference xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" URI="#fast_infoset_service_policy" wsdl:required="false"/>
+      <wsp:PolicyReference xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" URI="#wsaddr_policy" wsdl:required="false"/>
+        <wsdl:operation name="createCustomerAccount">
+            <soap:operation soapAction="http://xmlns.oracle.com/apps/cdm/foundation/parties/customerAccountService/applicationModule/createCustomerAccount"/>
+            <wsdl:input>
+                <soap:body use="literal"/>
+      <wsp:PolicyReference xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" URI="#CustomerAccountServiceSoapHttpPort_Input_Policy" wsdl:required="false"/>
+            </wsdl:input>
+            <wsdl:output>
+                <soap:body use="literal"/>
+      <wsp:PolicyReference xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" URI="#CustomerAccountServiceSoapHttpPort_Output_Policy" wsdl:required="false"/>
+            </wsdl:output>
+            <wsdl:fault name="ServiceException">
+                <soap:fault name="ServiceException" use="literal"/>
+      <wsp:PolicyReference xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" URI="#CustomerAccountServiceSoapHttpPort_Fault_Policy" wsdl:required="false"/>
+            </wsdl:fault>
+        </wsdl:operation>
+        <wsdl:operation name="updateCustomerAccount">
+            <soap:operation soapAction="http://xmlns.oracle.com/apps/cdm/foundation/parties/customerAccountService/applicationModule/updateCustomerAccount"/>
+            <wsdl:input>
+                <soap:body use="literal"/>
+      <wsp:PolicyReference xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" URI="#CustomerAccountServiceSoapHttpPort_Input_Policy" wsdl:required="false"/>
+            </wsdl:input>
+            <wsdl:output>
+                <soap:body use="literal"/>
+      <wsp:PolicyReference xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" URI="#CustomerAccountServiceSoapHttpPort_Output_Policy" wsdl:required="false"/>
+            </wsdl:output>
+            <wsdl:fault name="ServiceException">
+                <soap:fault name="ServiceException" use="literal"/>
+      <wsp:PolicyReference xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" URI="#CustomerAccountServiceSoapHttpPort_Fault_Policy" wsdl:required="false"/>
+            </wsdl:fault>
+        </wsdl:operation>
+        <wsdl:operation name="mergeCustomerAccount">
+            <soap:operation soapAction="http://xmlns.oracle.com/apps/cdm/foundation/parties/customerAccountService/applicationModule/mergeCustomerAccount"/>
+            <wsdl:input>
+                <soap:body use="literal"/>
+      <wsp:PolicyReference xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" URI="#CustomerAccountServiceSoapHttpPort_Input_Policy" wsdl:required="false"/>
+            </wsdl:input>
+            <wsdl:output>
+                <soap:body use="literal"/>
+      <wsp:PolicyReference xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" URI="#CustomerAccountServiceSoapHttpPort_Output_Policy" wsdl:required="false"/>
+            </wsdl:output>
+            <wsdl:fault name="ServiceException">
+                <soap:fault name="ServiceException" use="literal"/>
+      <wsp:PolicyReference xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" URI="#CustomerAccountServiceSoapHttpPort_Fault_Policy" wsdl:required="false"/>
+            </wsdl:fault>
+        </wsdl:operation>
+        <wsdl:operation name="findCustomerAccount">
+            <soap:operation soapAction="http://xmlns.oracle.com/apps/cdm/foundation/parties/customerAccountService/applicationModule/findCustomerAccount"/>
+            <wsdl:input>
+                <soap:body use="literal"/>
+      <wsp:PolicyReference xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" URI="#CustomerAccountServiceSoapHttpPort_Input_Policy" wsdl:required="false"/>
+            </wsdl:input>
+            <wsdl:output>
+                <soap:body use="literal"/>
+      <wsp:PolicyReference xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" URI="#CustomerAccountServiceSoapHttpPort_Output_Policy" wsdl:required="false"/>
+            </wsdl:output>
+            <wsdl:fault name="ServiceException">
+                <soap:fault name="ServiceException" use="literal"/>
+      <wsp:PolicyReference xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" URI="#CustomerAccountServiceSoapHttpPort_Fault_Policy" wsdl:required="false"/>
+            </wsdl:fault>
+        </wsdl:operation>
+        <wsdl:operation name="processCustomerAccount">
+            <soap:operation soapAction="http://xmlns.oracle.com/apps/cdm/foundation/parties/customerAccountService/applicationModule/processCustomerAccount"/>
+            <wsdl:input>
+                <soap:body use="literal"/>
+      <wsp:PolicyReference xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" URI="#CustomerAccountServiceSoapHttpPort_Input_Policy" wsdl:required="false"/>
+            </wsdl:input>
+            <wsdl:output>
+                <soap:body use="literal"/>
+      <wsp:PolicyReference xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" URI="#CustomerAccountServiceSoapHttpPort_Output_Policy" wsdl:required="false"/>
+            </wsdl:output>
+            <wsdl:fault name="ServiceException">
+                <soap:fault name="ServiceException" use="literal"/>
+      <wsp:PolicyReference xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" URI="#CustomerAccountServiceSoapHttpPort_Fault_Policy" wsdl:required="false"/>
+            </wsdl:fault>
+        </wsdl:operation>
+        <wsdl:operation name="getCustomerAccountByOriginalSystemReference">
+            <soap:operation soapAction="http://xmlns.oracle.com/apps/cdm/foundation/parties/customerAccountService/applicationModule/getCustomerAccountByOriginalSystemReference"/>
+            <wsdl:input>
+                <soap:body use="literal"/>
+      <wsp:PolicyReference xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" URI="#CustomerAccountServiceSoapHttpPort_Input_Policy" wsdl:required="false"/>
+            </wsdl:input>
+            <wsdl:output>
+                <soap:body use="literal"/>
+      <wsp:PolicyReference xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" URI="#CustomerAccountServiceSoapHttpPort_Output_Policy" wsdl:required="false"/>
+            </wsdl:output>
+            <wsdl:fault name="ServiceException">
+                <soap:fault name="ServiceException" use="literal"/>
+      <wsp:PolicyReference xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" URI="#CustomerAccountServiceSoapHttpPort_Fault_Policy" wsdl:required="false"/>
+            </wsdl:fault>
+        </wsdl:operation>
+        <wsdl:operation name="getCustomerAccountSiteUseByKey">
+            <soap:operation soapAction="http://xmlns.oracle.com/apps/cdm/foundation/parties/customerAccountService/applicationModule/getCustomerAccountSiteUseByKey"/>
+            <wsdl:input>
+                <soap:body use="literal"/>
+      <wsp:PolicyReference xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" URI="#CustomerAccountServiceSoapHttpPort_Input_Policy" wsdl:required="false"/>
+            </wsdl:input>
+            <wsdl:output>
+                <soap:body use="literal"/>
+      <wsp:PolicyReference xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" URI="#CustomerAccountServiceSoapHttpPort_Output_Policy" wsdl:required="false"/>
+            </wsdl:output>
+            <wsdl:fault name="ServiceException">
+                <soap:fault name="ServiceException" use="literal"/>
+      <wsp:PolicyReference xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" URI="#CustomerAccountServiceSoapHttpPort_Fault_Policy" wsdl:required="false"/>
+            </wsdl:fault>
+        </wsdl:operation>
+        <wsdl:operation name="deleteCustomerAccount">
+            <soap:operation soapAction="http://xmlns.oracle.com/apps/cdm/foundation/parties/customerAccountService/applicationModule/deleteCustomerAccount"/>
+            <wsdl:input>
+                <soap:body use="literal"/>
+      <wsp:PolicyReference xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" URI="#CustomerAccountServiceSoapHttpPort_Input_Policy" wsdl:required="false"/>
+            </wsdl:input>
+            <wsdl:output>
+                <soap:body use="literal"/>
+      <wsp:PolicyReference xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" URI="#CustomerAccountServiceSoapHttpPort_Output_Policy" wsdl:required="false"/>
+            </wsdl:output>
+            <wsdl:fault name="ServiceException">
+                <soap:fault name="ServiceException" use="literal"/>
+      <wsp:PolicyReference xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" URI="#CustomerAccountServiceSoapHttpPort_Fault_Policy" wsdl:required="false"/>
+            </wsdl:fault>
+        </wsdl:operation>
+        <wsdl:operation name="processCSCustomerAccount">
+            <soap:operation soapAction="http://xmlns.oracle.com/apps/cdm/foundation/parties/customerAccountService/applicationModule/processCSCustomerAccount"/>
+            <wsdl:input>
+                <soap:body use="literal"/>
+      <wsp:PolicyReference xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" URI="#CustomerAccountServiceSoapHttpPort_Input_Policy" wsdl:required="false"/>
+            </wsdl:input>
+            <wsdl:output>
+                <soap:body use="literal"/>
+      <wsp:PolicyReference xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" URI="#CustomerAccountServiceSoapHttpPort_Output_Policy" wsdl:required="false"/>
+            </wsdl:output>
+            <wsdl:fault name="ServiceException">
+                <soap:fault name="ServiceException" use="literal"/>
+      <wsp:PolicyReference xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" URI="#CustomerAccountServiceSoapHttpPort_Fault_Policy" wsdl:required="false"/>
+            </wsdl:fault>
+        </wsdl:operation>
+        <wsdl:operation name="findCustomerAccountSiteUse">
+            <soap:operation soapAction="http://xmlns.oracle.com/apps/cdm/foundation/parties/customerAccountService/applicationModule/findCustomerAccountSiteUse"/>
+            <wsdl:input>
+                <soap:body use="literal"/>
+      <wsp:PolicyReference xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" URI="#CustomerAccountServiceSoapHttpPort_Input_Policy" wsdl:required="false"/>
+            </wsdl:input>
+            <wsdl:output>
+                <soap:body use="literal"/>
+      <wsp:PolicyReference xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" URI="#CustomerAccountServiceSoapHttpPort_Output_Policy" wsdl:required="false"/>
+            </wsdl:output>
+            <wsdl:fault name="ServiceException">
+                <soap:fault name="ServiceException" use="literal"/>
+      <wsp:PolicyReference xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" URI="#CustomerAccountServiceSoapHttpPort_Fault_Policy" wsdl:required="false"/>
+            </wsdl:fault>
+        </wsdl:operation>
+        <wsdl:operation name="getCustomerAccountSiteUseByKeyAsync">
+            <soap:operation soapAction="http://xmlns.oracle.com/apps/cdm/foundation/parties/customerAccountService/applicationModule/getCustomerAccountSiteUseByKeyAsync"/>
+            <wsdl:input>
+                <soap:body use="literal"/>
+      <wsp:PolicyReference xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" URI="#CustomerAccountServiceSoapHttpPort_Input_Policy" wsdl:required="false"/>
+            </wsdl:input>
+        </wsdl:operation>
+        <wsdl:operation name="getCustomerAccountByOriginalSystemReferenceAsync">
+            <soap:operation soapAction="http://xmlns.oracle.com/apps/cdm/foundation/parties/customerAccountService/applicationModule/getCustomerAccountByOriginalSystemReferenceAsync"/>
+            <wsdl:input>
+                <soap:body use="literal"/>
+      <wsp:PolicyReference xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" URI="#CustomerAccountServiceSoapHttpPort_Input_Policy" wsdl:required="false"/>
+            </wsdl:input>
+        </wsdl:operation>
+        <wsdl:operation name="processCSCustomerAccountAsync">
+            <soap:operation soapAction="http://xmlns.oracle.com/apps/cdm/foundation/parties/customerAccountService/applicationModule/processCSCustomerAccountAsync"/>
+            <wsdl:input>
+                <soap:body use="literal"/>
+      <wsp:PolicyReference xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" URI="#CustomerAccountServiceSoapHttpPort_Input_Policy" wsdl:required="false"/>
+            </wsdl:input>
+        </wsdl:operation>
+        <wsdl:operation name="findCustomerAccountSiteUseAsync">
+            <soap:operation soapAction="http://xmlns.oracle.com/apps/cdm/foundation/parties/customerAccountService/applicationModule/findCustomerAccountSiteUseAsync"/>
+            <wsdl:input>
+                <soap:body use="literal"/>
+      <wsp:PolicyReference xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" URI="#CustomerAccountServiceSoapHttpPort_Input_Policy" wsdl:required="false"/>
+            </wsdl:input>
+        </wsdl:operation>
+        <wsdl:operation name="deleteCustomerAccountAsync">
+            <soap:operation soapAction="http://xmlns.oracle.com/apps/cdm/foundation/parties/customerAccountService/applicationModule/deleteCustomerAccountAsync"/>
+            <wsdl:input>
+                <soap:body use="literal"/>
+      <wsp:PolicyReference xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" URI="#CustomerAccountServiceSoapHttpPort_Input_Policy" wsdl:required="false"/>
+            </wsdl:input>
+        </wsdl:operation>
+        <wsdl:operation name="findCustomerAccountAsync">
+            <soap:operation soapAction="http://xmlns.oracle.com/apps/cdm/foundation/parties/customerAccountService/applicationModule/findCustomerAccountAsync"/>
+            <wsdl:input>
+                <soap:body use="literal"/>
+      <wsp:PolicyReference xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" URI="#CustomerAccountServiceSoapHttpPort_Input_Policy" wsdl:required="false"/>
+            </wsdl:input>
+        </wsdl:operation>
+        <wsdl:operation name="mergeCustomerAccountAsync">
+            <soap:operation soapAction="http://xmlns.oracle.com/apps/cdm/foundation/parties/customerAccountService/applicationModule/mergeCustomerAccountAsync"/>
+            <wsdl:input>
+                <soap:body use="literal"/>
+      <wsp:PolicyReference xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" URI="#CustomerAccountServiceSoapHttpPort_Input_Policy" wsdl:required="false"/>
+            </wsdl:input>
+        </wsdl:operation>
+        <wsdl:operation name="updateCustomerAccountAsync">
+            <soap:operation soapAction="http://xmlns.oracle.com/apps/cdm/foundation/parties/customerAccountService/applicationModule/updateCustomerAccountAsync"/>
+            <wsdl:input>
+                <soap:body use="literal"/>
+      <wsp:PolicyReference xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" URI="#CustomerAccountServiceSoapHttpPort_Input_Policy" wsdl:required="false"/>
+            </wsdl:input>
+        </wsdl:operation>
+        <wsdl:operation name="createCustomerAccountAsync">
+            <soap:operation soapAction="http://xmlns.oracle.com/apps/cdm/foundation/parties/customerAccountService/applicationModule/createCustomerAccountAsync"/>
+            <wsdl:input>
+                <soap:body use="literal"/>
+      <wsp:PolicyReference xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" URI="#CustomerAccountServiceSoapHttpPort_Input_Policy" wsdl:required="false"/>
+            </wsdl:input>
+        </wsdl:operation>
+        <wsdl:operation name="processCustomerAccountAsync">
+            <soap:operation soapAction="http://xmlns.oracle.com/apps/cdm/foundation/parties/customerAccountService/applicationModule/processCustomerAccountAsync"/>
+            <wsdl:input>
+                <soap:body use="literal"/>
+      <wsp:PolicyReference xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" URI="#CustomerAccountServiceSoapHttpPort_Input_Policy" wsdl:required="false"/>
+            </wsdl:input>
+        </wsdl:operation>
+        <wsdl:operation name="getCustomerAccount">
+            <soap:operation soapAction="http://xmlns.oracle.com/apps/cdm/foundation/parties/customerAccountService/applicationModule/getCustomerAccount"/>
+            <wsdl:input>
+                <soap:body use="literal"/>
+      <wsp:PolicyReference xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" URI="#CustomerAccountServiceSoapHttpPort_Input_Policy" wsdl:required="false"/>
+            </wsdl:input>
+            <wsdl:output>
+                <soap:body use="literal"/>
+      <wsp:PolicyReference xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" URI="#CustomerAccountServiceSoapHttpPort_Output_Policy" wsdl:required="false"/>
+            </wsdl:output>
+            <wsdl:fault name="ServiceException">
+                <soap:fault name="ServiceException" use="literal"/>
+      <wsp:PolicyReference xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" URI="#CustomerAccountServiceSoapHttpPort_Fault_Policy" wsdl:required="false"/>
+            </wsdl:fault>
+        </wsdl:operation>
+        <wsdl:operation name="getCustomerAccountAsync">
+            <soap:operation soapAction="http://xmlns.oracle.com/apps/cdm/foundation/parties/customerAccountService/applicationModule/getCustomerAccountAsync"/>
+            <wsdl:input>
+                <soap:body use="literal"/>
+      <wsp:PolicyReference xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" URI="#CustomerAccountServiceSoapHttpPort_Input_Policy" wsdl:required="false"/>
+            </wsdl:input>
+        </wsdl:operation>
+        <wsdl:operation name="getDfltObjAttrHints">
+            <soap:operation soapAction="http://xmlns.oracle.com/apps/cdm/foundation/parties/customerAccountService/applicationModule/getDfltObjAttrHints"/>
+            <wsdl:input>
+                <soap:body use="literal"/>
+      <wsp:PolicyReference xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" URI="#CustomerAccountServiceSoapHttpPort_Input_Policy" wsdl:required="false"/>
+            </wsdl:input>
+            <wsdl:output>
+                <soap:body use="literal"/>
+      <wsp:PolicyReference xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" URI="#CustomerAccountServiceSoapHttpPort_Output_Policy" wsdl:required="false"/>
+            </wsdl:output>
+            <wsdl:fault name="ServiceException">
+                <soap:fault name="ServiceException" use="literal"/>
+      <wsp:PolicyReference xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" URI="#CustomerAccountServiceSoapHttpPort_Fault_Policy" wsdl:required="false"/>
+            </wsdl:fault>
+        </wsdl:operation>
+        <wsdl:operation name="getServiceLastUpdateTime">
+            <soap:operation soapAction="http://xmlns.oracle.com/apps/cdm/foundation/parties/customerAccountService/applicationModule/getServiceLastUpdateTime"/>
+            <wsdl:input>
+                <soap:body use="literal"/>
+      <wsp:PolicyReference xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" URI="#CustomerAccountServiceSoapHttpPort_Input_Policy" wsdl:required="false"/>
+            </wsdl:input>
+            <wsdl:output>
+                <soap:body use="literal"/>
+      <wsp:PolicyReference xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" URI="#CustomerAccountServiceSoapHttpPort_Output_Policy" wsdl:required="false"/>
+            </wsdl:output>
+            <wsdl:fault name="ServiceException">
+                <soap:fault name="ServiceException" use="literal"/>
+      <wsp:PolicyReference xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" URI="#CustomerAccountServiceSoapHttpPort_Fault_Policy" wsdl:required="false"/>
+            </wsdl:fault>
+        </wsdl:operation>
+        <wsdl:operation name="getEntityList">
+            <soap:operation soapAction="http://xmlns.oracle.com/apps/cdm/foundation/parties/customerAccountService/applicationModule/getEntityList"/>
+            <wsdl:input>
+                <soap:body use="literal"/>
+      <wsp:PolicyReference xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" URI="#CustomerAccountServiceSoapHttpPort_Input_Policy" wsdl:required="false"/>
+            </wsdl:input>
+            <wsdl:output>
+                <soap:body use="literal"/>
+      <wsp:PolicyReference xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" URI="#CustomerAccountServiceSoapHttpPort_Output_Policy" wsdl:required="false"/>
+            </wsdl:output>
+            <wsdl:fault name="ServiceException">
+                <soap:fault name="ServiceException" use="literal"/>
+      <wsp:PolicyReference xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" URI="#CustomerAccountServiceSoapHttpPort_Fault_Policy" wsdl:required="false"/>
+            </wsdl:fault>
+        </wsdl:operation>
+        <wsdl:operation name="getEntityListAsync">
+            <soap:operation soapAction="http://xmlns.oracle.com/apps/cdm/foundation/parties/customerAccountService/applicationModule/getEntityListAsync"/>
+            <wsdl:input>
+                <soap:body use="literal"/>
+      <wsp:PolicyReference xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" URI="#CustomerAccountServiceSoapHttpPort_Input_Policy" wsdl:required="false"/>
+            </wsdl:input>
+        </wsdl:operation>
+        <wsdl:operation name="getDfltObjAttrHintsAsync">
+            <soap:operation soapAction="http://xmlns.oracle.com/apps/cdm/foundation/parties/customerAccountService/applicationModule/getDfltObjAttrHintsAsync"/>
+            <wsdl:input>
+                <soap:body use="literal"/>
+      <wsp:PolicyReference xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" URI="#CustomerAccountServiceSoapHttpPort_Input_Policy" wsdl:required="false"/>
+            </wsdl:input>
+        </wsdl:operation>
+        <wsdl:operation name="getServiceLastUpdateTimeAsync">
+            <soap:operation soapAction="http://xmlns.oracle.com/apps/cdm/foundation/parties/customerAccountService/applicationModule/getServiceLastUpdateTimeAsync"/>
+            <wsdl:input>
+                <soap:body use="literal"/>
+      <wsp:PolicyReference xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" URI="#CustomerAccountServiceSoapHttpPort_Input_Policy" wsdl:required="false"/>
+            </wsdl:input>
+        </wsdl:operation>
+    </wsdl:binding>
+    <wsdl:service name="CustomerAccountService">
+        <wsdl:port name="CustomerAccountServiceSoapHttpPort" binding="tns:CustomerAccountServiceSoapHttp">
+            <soap:address location="https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/crmService/CustomerAccountService"/>
+            <wsa:EndpointReference xmlns:wsa="http://www.w3.org/2005/08/addressing">
+                <wsa:Address xmlns:wsa="http://www.w3.org/2005/08/addressing">https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/crmService/CustomerAccountService</wsa:Address>
+                <wsid:Identity xmlns:wsid="http://schemas.xmlsoap.org/ws/2006/02/addressingidentity">
+                    <dsig:KeyInfo xmlns:dsig="http://www.w3.org/2000/09/xmldsig#">
+                        <dsig:X509Data>
+                            <dsig:X509Certificate>MIIDYjCCAkqgAwIBAgIGAXk0U+w/MA0GCSqGSIb3DQEBCwUAMFkxEzARBgoJkiaJ
+k/IsZAEZFgNjb20xFjAUBgoJkiaJk/IsZAEZFgZvcmFjbGUxFTATBgoJkiaJk/Is
+ZAEZFgVjbG91ZDETMBEGA1UEAxMKQ2xvdWQ5Q0EtMjAeFw0yMTA1MDMyMjIzMDVa
+Fw0zMTA1MDMyMjIzMDVaMFcxEzARBgNVBAMTCnNzbERvbWFpbnMxDzANBgNVBAMT
+BkNsb3VkOTEvMC0GA1UEAxMmRVJQU0ktMmVmNWY4OWNmODk0NDJhOTlkNjRjNDU4
+MjExNWNkNTgwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQC3f7yyMucA
+ksXWuQd+i4HrrD3m4KHROjkxGj5/L6VFmoroJtjU9ibqgVkb+Ww3YF5PSNVKXGvU
+YQj1jIpBKSlZ7HPHmH+MAOmP49oQUJEGCFmqO1ha5aDNYkcOspMqynLtNJcYPwXe
+U4R+cbt5nnIhPM5FGIyWJAWnScmjvMCJLQtYNpoK9B1LIVgSgLxoFhN3zAfdODHb
+Crqf5IWBctegzR+BE4TwG2yUgQGjzISVqeuHtQhjDK2ulS3hKuSOONPYD16q1BmK
+JSL75+e6lbASfW0/cD2fco72gAdTt/4LuZLuLcHhnh2LYXPt/RaUR1lanI5eJb2M
+nqRnmk/NWY5xAgMBAAGjMjAwMA8GA1UdDwEB/wQFAwMH+AAwHQYDVR0OBBYEFPH2
+ei5drX5pWnTQw21IlR1y+TGGMA0GCSqGSIb3DQEBCwUAA4IBAQBZ2EzKmm1OS4Hl
+1HioGUbbErcarpmA74/U8Y8l5EVYkRtPcohbXaF3oq+JV/CCGxXL4VfDH631DhL/
+jNaNzdcTCt5BD4YZIMnLxXBE8GS+ZeVNX7WkUjumbunfBcf5teOrbp3NSBE3ZwNz
+LbW0AYnEu4xkAYUBVNzzDk/FU2WGx+ZDHdfPlKXu7HOQN2VZDw+qsa7x+979DwU5
+wt0FvF8hRWI/zFgxtklcSBXsJpUe7mZP49JfAvVc7RlVL8zgjwJogZfpt2CgJcHi
+MQJpRxaU07GPigsMddlsHBR1OcOHUN9vdR1oHz04wQwCXRO8aN4t5SVSdgoabAeA
+23mwJIF4</dsig:X509Certificate>
+                            <dsig:X509IssuerSerial>
+                                <dsig:X509IssuerName>CN=Cloud9CA-2, DC=cloud, DC=oracle, DC=com</dsig:X509IssuerName>
+                                <dsig:X509SerialNumber>1620080585791</dsig:X509SerialNumber>
+                            </dsig:X509IssuerSerial>
+                            <dsig:X509SubjectName>CN=ERPSI-2ef5f89cf89442a99d64c4582115cd58, CN=Cloud9, CN=sslDomains</dsig:X509SubjectName>
+                            <dsig:X509SKI>8fZ6Ll2tfmladNDDbUiVHXL5MYY=</dsig:X509SKI>
+                            <dsig:X509Certificate>MIIDazCCAlOgAwIBAgIIMdQl7kIMrv0wDQYJKoZIhvcNAQELBQAwWTETMBEGCgmS
+JomT8ixkARkWA2NvbTEWMBQGCgmSJomT8ixkARkWBm9yYWNsZTEVMBMGCgmSJomT
+8ixkARkWBWNsb3VkMRMwEQYDVQQDEwpDbG91ZDlDQS0yMCAXDTE2MDUyMTAyMTgw
+OVoYDzIxMTYwNDI3MDIxODA5WjBZMRMwEQYKCZImiZPyLGQBGRYDY29tMRYwFAYK
+CZImiZPyLGQBGRYGb3JhY2xlMRUwEwYKCZImiZPyLGQBGRYFY2xvdWQxEzARBgNV
+BAMTCkNsb3VkOUNBLTIwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDP
+Zn2VAoMsIfWmIJks9exzK+DXaX6qYyBc12dRqDrRpC48v3CBeBchV/GT2E+mjcDp
+8Hzq8oIpwr9W5kwMja4PU3SPd4/0LB6WKbtLfHOnJxLg9EaT992UpbUGHaHlEq4o
+RAuVvPgDLp5sSspLZYEBKUh4vJXOyLitE1qsXn7mJNXRKTJZvrJKdfbs1dyTge3V
+3wk1rwY/wCWMKVgkqCgSzzWCGju8EZWoOrnzlR6BHkA0qZqeV4F7jDW8ucdv+Y20
+pOlOiaEbIg/ZFYGrZd5VWjlNvgLfU8P4C/YJLSkkcPHgoet3w4jI0S26efu59rVz
+gU9VsKnKtnqbDL99t81vAgMBAAGjNTAzMBIGA1UdEwEB/wQIMAYBAf8CAQAwHQYD
+VR0OBBYEFDMA8e55FI5kC12+guIE9xtcIXpFMA0GCSqGSIb3DQEBCwUAA4IBAQC4
+5tOVeqHxA8Bo/Rnv1SHHpULge3HyTC1XV9nmUdrj6g/U6rmbA5hVJ5LshgQ77qop
+O/YsaNHj5Ru1u/+8VOlZWpbn+kt3CDOuBUCe89CKBZT/KWEDkvtNl2qu16gOkhFn
+uTQk8NsARvwZZ6KtyPDmsbW4Nc/I5fKwPhdTaMjCV6Lh9RCG4kU77lbdwY3SaXlC
+BXXQyfPWMouCi7z1thJaF3cNGW4tnsibMR5ej9fJ9j6UvShxNgAIgjNDoihPlC6k
+0kW3QDR3bBjCHJX47505aIhckojH/eKsP2Or0eE/Ma4WNbndj0IXPE2ae5AVmC8/
+GRtwAmnoZPnt3g/I2m5j</dsig:X509Certificate>
+                        </dsig:X509Data>
+                    </dsig:KeyInfo>
+                </wsid:Identity>
+            </wsa:EndpointReference>
+        </wsdl:port>
+    </wsdl:service>
+</wsdl:definitions>

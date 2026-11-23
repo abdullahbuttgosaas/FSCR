@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Oracle Setup Assistant</title>
+<link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+<header class="top">
+  <a class="brand" href="#" id="home-link">
+    <span class="dot"></span> Oracle Setup Assistant
+  </a>
+  <span class="top-right">
+    <button class="btn small-btn" id="claude-signin" hidden>Sign in to Claude</button>
+    <span class="muted small" id="claude-wait" hidden><span class="spinner tiny"></span> Waiting for your Claude sign-in ...</span>
+    <span class="env" id="env" hidden></span>
+  </span>
+</header>
+<div class="banner" id="banner" hidden></div>
+<main id="app"><p class="muted center pad">Loading ...</p></main>
+<script src="/static/app.js"></script>
+</body>
+</html>

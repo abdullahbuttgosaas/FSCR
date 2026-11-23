@@ -1,0 +1,51 @@
+{
+  "execution_result": {
+    "http_status": 200,
+    "actionName": "check-auditstatus",
+    "status": "SUCCESS",
+    "auditData": [
+      {
+        "businessObject": "oracle.apps.prc.poz.suppliers.protectedModel.core.view.AuditExternalBankAccountVO",
+        "parentBusinessObject": "oracle.apps.prc.poz.suppliers.protectedModel.core.view.AuditSupplierVO",
+        "auditSwitch": "ON",
+        "lastUpdatedTime": "2026-07-10 07:53:42"
+      }
+    ],
+    "raw_response": {
+      "actionName": "check-auditstatus",
+      "status": "SUCCESS",
+      "auditData": [
+        {
+          "businessObject": "oracle.apps.prc.poz.suppliers.protectedModel.core.view.AuditExternalBankAccountVO",
+          "parentBusinessObject": "oracle.apps.prc.poz.suppliers.protectedModel.core.view.AuditSupplierVO",
+          "auditSwitch": "ON",
+          "lastUpdatedTime": "2026-07-10 07:53:42"
+        }
+      ]
+    }
+  },
+  "diagnostics": {
+    "endpoint": "/fscmRestApi/fndAuditRESTService/audittrail/check-auditstatus",
+    "query_params": null,
+    "request_payload": {
+      "auditData": [
+        {
+          "businessObject": "oracle.apps.prc.poz.suppliers.protectedModel.core.view.AuditExternalBankAccountVO",
+          "parentBusinessObject": "oracle.apps.prc.poz.suppliers.protectedModel.core.view.AuditSupplierVO"
+        }
+      ]
+    },
+    "response_keys": [
+      "actionName",
+      "auditData",
+      "status"
+    ]
+  },
+  "audit_summary": {
+    "environment": "ETIA-TEST",
+    "rest_host": "fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com",
+    "endpoint": "/fscmRestApi/fndAuditRESTService/audittrail/check-auditstatus",
+    "actionName": "check-auditstatus",
+    "status": "SUCCESS"
+  }
+}

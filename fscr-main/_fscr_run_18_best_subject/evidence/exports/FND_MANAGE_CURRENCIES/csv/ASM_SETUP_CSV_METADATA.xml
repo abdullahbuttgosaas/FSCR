@@ -1,0 +1,51 @@
+<MigrationProcessCSVMetadataVO>
+   <MigrationProcessCSVMetadataVORow>
+      <ProcessId>-999</ProcessId>
+      <ProcessName>Manage Currencies_20261109_125307_247</ProcessName>
+      <ProcessDescription>Manage Currencies_20261109_125307_247</ProcessDescription>
+      <ProcessDate>2026-11-09 12:53:32.622</ProcessDate>
+      <ObjectShortName>FND_MANAGE_CURRENCIES</ObjectShortName>
+      <ObjectType>TASK</ObjectType>
+      <CreatedByFlow>TASK_CSV_SERVICE</CreatedByFlow>
+      <ProcessType>EXPORT</ProcessType>
+      <ProcessStatus>COMPLETED</ProcessStatus>
+      <ProcessEnv>etia-test</ProcessEnv>
+      <ProcessStartDate>2026-11-09 12:53:07.129</ProcessStartDate>
+      <ProcessEndDate>2026-11-09 12:53:32.622</ProcessEndDate>
+      <ProcessRelease>11.13.26.10.0</ProcessRelease>
+      <SubmittedBy>Configuration.TEST</SubmittedBy>
+      <ESSRequestId>4447543</ESSRequestId>
+      <MigrationProcessBusinessObjectCSVMetadata1>
+         <MigrationProcessBusinessObjectCSVMetadataVORow>
+            <ProcessId>-999</ProcessId>
+            <BusinessObjectShortName>FND_APP_REF_CURRENCY</BusinessObjectShortName>
+            <BatchName>896c951d-65d3-4a19-878d-554be54103ed/FND_APP_REF_CURRENCY/Currency</BatchName>
+            <XmlAttributeList>CurrencyCode,Name,Description,EnabledFlag,StartDateActive,EndDateActive,IssuingTerritoryCode,Symbol,Precision,ExtendedPrecision,MinimumAccountableUnit,CurrencyFlag,IsoFlag,DeriveEffective,DeriveType,DeriveFactor,DigitalCurrencyCode,CreatedBy,CreationDate,LastUpdatedBy,LastUpdateDate,LastUpdateLogin</XmlAttributeList>
+            <XmlAttributeTypeList>string,string,string,string,date,date,string,string,int,int,decimal,string,string,date,string,decimal,int,string,dateTime,string,dateTime,string</XmlAttributeTypeList>
+            <XmlNodePath>/CurrencyVO/CurrencyVORow</XmlNodePath>
+            <NodeSequence>1</NodeSequence>
+         </MigrationProcessBusinessObjectCSVMetadataVORow>
+      </MigrationProcessBusinessObjectCSVMetadata1>
+      <MigrationProcessBatchCSVMetadata>
+         <MigrationProcessBatchCSVMetadataVORow>
+            <ProcessId>-999</ProcessId>
+            <BatchName>896c951d-65d3-4a19-878d-554be54103ed/FND_APP_REF_CURRENCY/Currency</BatchName>
+            <ImportSequence>0</ImportSequence>
+            <ServiceName>oracle.apps.fnd.applcore.nls.webservice.CurrencyWS</ServiceName>
+            <BatchSize>500</BatchSize>
+         </MigrationProcessBatchCSVMetadataVORow>
+      </MigrationProcessBatchCSVMetadata>
+      <MigrationProcessScopeValueCSVMetadata null="true"/>
+      <MigrationProcessMigrationObjectCSVMetadata>
+         <MigrationProcessMigrationObjectCSVMetadataVORow>
+            <ProcessId>-999</ProcessId>
+            <BusinessObjectShortName>FND_APP_REF_CURRENCY</BusinessObjectShortName>
+            <MigrateFlag>Y</MigrateFlag>
+            <IncludeExternalDataFlag>Y</IncludeExternalDataFlag>
+            <ServiceType null="true"/>
+         </MigrationProcessMigrationObjectCSVMetadataVORow>
+      </MigrationProcessMigrationObjectCSVMetadata>
+      <MigrationProcessTaskCSVMetadata null="true"/>
+      <MigrationProcessServiceVersionCSVMetadata null="true"/>
+   </MigrationProcessCSVMetadataVORow>
+</MigrationProcessCSVMetadataVO>

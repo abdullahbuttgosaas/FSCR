@@ -1,0 +1,2 @@
+URL: https://docs.oracle.com/en/cloud/saas/procurement/26d/oapro/what-s-a-statistical-unit-currency-type.html
+ Previous Next JavaScript must be enabled to correctly display this content Implementing Procurement What's a statistical unit currency type? What's a statistical unit currency type? The statistical unit currency type denotes the Statistical (STAT) currency used to record financial statistics in the financial reports, allocation formulas, and other calculations. 

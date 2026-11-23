@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xsd:schema elementFormDefault="qualified" targetNamespace="http://xmlns.oracle.com/apps/cdm/foundation/parties/flex/sourceSystemRef/"
+     xmlns="http://xmlns.oracle.com/apps/cdm/foundation/parties/flex/sourceSystemRef/" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <xsd:include schemaLocation="https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/crmService/FoundationPartiesOrganizationService?XSD=/oracle/apps/cdm/foundation/parties/flex/sourceSystemRef/SourceSystemRefInformation.xsd"/>
+    <xsd:complexType name="Newdff">
+        <xsd:annotation>
+            <xsd:appinfo source="http://xmlns.oracle.com/adf/svc/metadata/">
+                <key xmlns="http://xmlns.oracle.com/adf/svc/metadata/">
+                    <attribute>OrigSystemRefId</attribute>
+                </key>
+            </xsd:appinfo>
+        </xsd:annotation>
+        <xsd:complexContent>
+            <xsd:extension base="SourceSystemRefInformation">
+                <xsd:sequence>
+                    <xsd:element minOccurs="0" name="trying" nillable="true" type="xsd:string"/>
+                    <xsd:element minOccurs="0" name="notTryingg" nillable="true" type="xsd:string"/>
+                </xsd:sequence>
+            </xsd:extension>
+        </xsd:complexContent>
+    </xsd:complexType>
+    <xsd:element name="newdff" type="Newdff"/>
+</xsd:schema>

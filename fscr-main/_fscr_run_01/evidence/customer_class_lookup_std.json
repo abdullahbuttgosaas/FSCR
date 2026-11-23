@@ -1,0 +1,75 @@
+{
+  "items" : [ {
+    "LookupType" : "CUSTOMER CLASS",
+    "ModuleId" : "47110F64ABE908E2E040449823C60DB6",
+    "Meaning" : "Customer Class",
+    "Description" : "Customer account class.",
+    "CustomizationLevel" : "U",
+    "RestAccessSecured" : "AUTH",
+    "CreatedBy" : "SEED_DATA_FROM_APPLICATION",
+    "CreationDate" : "2021-03-07T03:51:25.693+00:00",
+    "LastUpdateDate" : "2026-04-02T12:45:52.613+00:00",
+    "LastUpdateLogin" : "-1",
+    "LastUpdatedBy" : "SEED_DATA_FROM_APPLICATION",
+    "lookupCodes" : {
+      "items" : [ {
+        "LookupCode" : "FEDERAL",
+        "Meaning" : "Federal class",
+        "Description" : null,
+        "EnabledFlag" : "Y",
+        "StartDateActive" : "1951-01-01",
+        "EndDateActive" : null,
+        "DisplaySequence" : null,
+        "Tag" : null,
+        "CreatedBy" : "SEED_DATA_FROM_APPLICATION",
+        "CreationDate" : "2021-03-07T03:51:25.713+00:00",
+        "LastUpdateDate" : "2026-04-02T12:45:55.132+00:00",
+        "LastUpdateLogin" : "-1",
+        "LastUpdatedBy" : "SEED_DATA_FROM_APPLICATION",
+        "@context" : {
+          "key" : "FEDERAL"
+        }
+      }, {
+        "LookupCode" : "PUBLIC SECTOR COMPANIES",
+        "Meaning" : "Public sector companies",
+        "Description" : null,
+        "EnabledFlag" : "Y",
+        "StartDateActive" : "1951-01-01",
+        "EndDateActive" : null,
+        "DisplaySequence" : null,
+        "Tag" : null,
+        "CreatedBy" : "SEED_DATA_FROM_APPLICATION",
+        "CreationDate" : "2021-03-07T03:51:25.756+00:00",
+        "LastUpdateDate" : "2026-04-02T12:45:55.132+00:00",
+        "LastUpdateLogin" : "-1",
+        "LastUpdatedBy" : "SEED_DATA_FROM_APPLICATION",
+        "@context" : {
+          "key" : "PUBLIC%20SECTOR%20COMPANIES"
+        }
+      } ],
+      "count" : 2,
+      "hasMore" : false,
+      "limit" : 25,
+      "offset" : 0,
+      "links" : [ {
+        "rel" : "self",
+        "href" : "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/CUSTOMER%2520CLASS/child/lookupCodes",
+        "name" : "lookupCodes",
+        "kind" : "collection"
+      } ]
+    },
+    "@context" : {
+      "key" : "CUSTOMER%20CLASS"
+    }
+  } ],
+  "count" : 1,
+  "hasMore" : false,
+  "limit" : 25,
+  "offset" : 0,
+  "links" : [ {
+    "rel" : "self",
+    "href" : "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups",
+    "name" : "standardLookups",
+    "kind" : "collection"
+  } ]
+}

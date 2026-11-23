@@ -1,0 +1,12 @@
+{
+  "terms": [
+    {
+      "name": "ttttttttt",
+      "from_date": "2026-10-18",
+      "installments": [
+        {"due_percent": 50, "days": 30},
+        {"due_percent": 50, "days": 60}
+      ]
+    }
+  ]
+}

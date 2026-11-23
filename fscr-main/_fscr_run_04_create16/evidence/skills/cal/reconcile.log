@@ -1,0 +1,1838 @@
+{
+  "baselineSha256": "a29c8279591d3c3290375b69e906f0232e040fc8d2cc804cab41620c06c66d72",
+  "candidateSha256": "faf8c52cc82f6549b2f08d8c468f52749e08753381ac1fc203d91a9d7866e3fd",
+  "exportSha256": "e68dae5e8c1d95780cec38e8a7b37f327e6cdcee2b02bcd838cf6b680c8987cc",
+  "mismatchCount": 0,
+  "requirementMatrix": [
+    {
+      "candidate": "present",
+      "detail": "",
+      "passed": true,
+      "persisted": "present",
+      "requested": "record present",
+      "requirement": "create exactly one AP_OTHER_PERIOD_TYPE record identified by {\"CalendarName\":\"FSCRT_CAL1\",\"CalendarType\":\"GENERAL\"}",
+      "requirementId": "REQ-001"
+    },
+    {
+      "candidate": "FSCRT Run04 test calendar",
+      "detail": "",
+      "passed": true,
+      "persisted": "FSCRT Run04 test calendar",
+      "requested": "FSCRT Run04 test calendar",
+      "requirement": "Persist AP_OTHER_PERIOD_TYPE.Description=FSCRT Run04 test calendar",
+      "requirementId": "REQ-002"
+    },
+    {
+      "candidate": "MONTHLY",
+      "detail": "",
+      "passed": true,
+      "persisted": "MONTHLY",
+      "requested": "MONTHLY",
+      "requirement": "Persist AP_OTHER_PERIOD_TYPE.PeriodFrequency=MONTHLY",
+      "requirementId": "REQ-003"
+    },
+    {
+      "candidate": "MMM",
+      "detail": "",
+      "passed": true,
+      "persisted": "MMM",
+      "requested": "MMM",
+      "requirement": "Persist AP_OTHER_PERIOD_TYPE.PeriodNameFormat=MMM",
+      "requirementId": "REQ-004"
+    },
+    {
+      "candidate": "12",
+      "detail": "",
+      "passed": true,
+      "persisted": "12",
+      "requested": "12",
+      "requirement": "Persist AP_OTHER_PERIOD_TYPE.PeriodsPerYear=12",
+      "requirementId": "REQ-005"
+    },
+    {
+      "candidate": "2027-01-01",
+      "detail": "Retained the raw declared-date format difference under FSCR.TYPE.DATE.STRICT_ISO_TO_SLASH.",
+      "passed": true,
+      "persisted": "2027/01/01",
+      "rawDifferences": [
+        {
+          "candidate": "2027-01-01",
+          "field": "StartDate",
+          "persisted": "2027/01/01",
+          "requested": "2027-01-01"
+        }
+      ],
+      "requested": "2027-01-01",
+      "requirement": "Persist AP_OTHER_PERIOD_TYPE.StartDate=2027-01-01",
+      "requirementId": "REQ-006",
+      "semanticEquivalences": [
+        {
+          "canonicalValue": "2027-01-01",
+          "contractEvidence": [
+            "e2e-adapter.json package.entities[AP_OTHER_PERIOD_TYPE].types[StartDate]=date",
+            "Exact ASM_SETUP_CSV_METADATA.xml XmlAttributeTypeList date contract"
+          ],
+          "declaredType": "date",
+          "entity": "AP_OTHER_PERIOD_TYPE",
+          "field": "StartDate",
+          "rawValues": {
+            "candidate": "2027-01-01",
+            "persisted": "2027/01/01",
+            "requested": "2027-01-01"
+          },
+          "ruleId": "FSCR.TYPE.DATE.STRICT_ISO_TO_SLASH",
+          "semanticValue": "same Gregorian calendar date"
+        }
+      ]
+    },
+    {
+      "candidate": "not populated by design",
+      "detail": "Unexpected difference count: 0.",
+      "passed": true,
+      "persisted": "unchanged",
+      "requested": "unchanged",
+      "requirement": "Preserve every unspecified record and non-audit value",
+      "requirementId": "REQ-007"
+    },
+    {
+      "candidate": "present",
+      "detail": "",
+      "passed": true,
+      "persisted": "present",
+      "requested": "record present",
+      "requirement": "create exactly one AP_OTHER_PERIOD_PERIOD record identified by {\"CalendarName\":\"FSCRT_CAL1\",\"CalendarType\":\"GENERAL\",\"PeriodName\":\"Jan-27\"}",
+      "requirementId": "REQ-008"
+    },
+    {
+      "candidate": "FSCRT_CAL1",
+      "detail": "",
+      "passed": true,
+      "persisted": "FSCRT_CAL1",
+      "requested": "FSCRT_CAL1",
+      "requirement": "Persist AP_OTHER_PERIOD_PERIOD.AP_OTHER_PERIOD_TYPE.CalendarName=FSCRT_CAL1",
+      "requirementId": "REQ-009"
+    },
+    {
+      "candidate": "GENERAL",
+      "detail": "",
+      "passed": true,
+      "persisted": "GENERAL",
+      "requested": "GENERAL",
+      "requirement": "Persist AP_OTHER_PERIOD_PERIOD.AP_OTHER_PERIOD_TYPE.CalendarType=GENERAL",
+      "requirementId": "REQ-010"
+    },
+    {
+      "candidate": "200",
+      "detail": "",
+      "passed": true,
+      "persisted": "200",
+      "requested": "200",
+      "requirement": "Persist AP_OTHER_PERIOD_PERIOD.ApplicationId=200",
+      "requirementId": "REQ-011"
+    },
+    {
+      "candidate": "2027-01-31",
+      "detail": "Retained the raw declared-date format difference under FSCR.TYPE.DATE.STRICT_ISO_TO_SLASH.",
+      "passed": true,
+      "persisted": "2027/01/31",
+      "rawDifferences": [
+        {
+          "candidate": "2027-01-31",
+          "field": "EndDate",
+          "persisted": "2027/01/31",
+          "requested": "2027-01-31"
+        }
+      ],
+      "requested": "2027-01-31",
+      "requirement": "Persist AP_OTHER_PERIOD_PERIOD.EndDate=2027-01-31",
+      "requirementId": "REQ-012",
+      "semanticEquivalences": [
+        {
+          "canonicalValue": "2027-01-31",
+          "contractEvidence": [
+            "e2e-adapter.json package.entities[AP_OTHER_PERIOD_PERIOD].types[EndDate]=date",
+            "Exact ASM_SETUP_CSV_METADATA.xml XmlAttributeTypeList date contract"
+          ],
+          "declaredType": "date",
+          "entity": "AP_OTHER_PERIOD_PERIOD",
+          "field": "EndDate",
+          "rawValues": {
+            "candidate": "2027-01-31",
+            "persisted": "2027/01/31",
+            "requested": "2027-01-31"
+          },
+          "ruleId": "FSCR.TYPE.DATE.STRICT_ISO_TO_SLASH",
+          "semanticValue": "same Gregorian calendar date"
+        }
+      ]
+    },
+    {
+      "candidate": "Jan",
+      "detail": "",
+      "passed": true,
+      "persisted": "Jan",
+      "requested": "Jan",
+      "requirement": "Persist AP_OTHER_PERIOD_PERIOD.EnteredPeriodName=Jan",
+      "requirementId": "REQ-013"
+    },
+    {
+      "candidate": "1",
+      "detail": "",
+      "passed": true,
+      "persisted": "1",
+      "requested": "1",
+      "requirement": "Persist AP_OTHER_PERIOD_PERIOD.PeriodNum=1",
+      "requirementId": "REQ-014"
+    },
+    {
+      "candidate": "2027",
+      "detail": "",
+      "passed": true,
+      "persisted": "2027",
+      "requested": "2027",
+      "requirement": "Persist AP_OTHER_PERIOD_PERIOD.PeriodYear=2027",
+      "requirementId": "REQ-015"
+    },
+    {
+      "candidate": "2027-01-01",
+      "detail": "Retained the raw declared-date format difference under FSCR.TYPE.DATE.STRICT_ISO_TO_SLASH.",
+      "passed": true,
+      "persisted": "2027/01/01",
+      "rawDifferences": [
+        {
+          "candidate": "2027-01-01",
+          "field": "StartDate",
+          "persisted": "2027/01/01",
+          "requested": "2027-01-01"
+        }
+      ],
+      "requested": "2027-01-01",
+      "requirement": "Persist AP_OTHER_PERIOD_PERIOD.StartDate=2027-01-01",
+      "requirementId": "REQ-016",
+      "semanticEquivalences": [
+        {
+          "canonicalValue": "2027-01-01",
+          "contractEvidence": [
+            "e2e-adapter.json package.entities[AP_OTHER_PERIOD_PERIOD].types[StartDate]=date",
+            "Exact ASM_SETUP_CSV_METADATA.xml XmlAttributeTypeList date contract"
+          ],
+          "declaredType": "date",
+          "entity": "AP_OTHER_PERIOD_PERIOD",
+          "field": "StartDate",
+          "rawValues": {
+            "candidate": "2027-01-01",
+            "persisted": "2027/01/01",
+            "requested": "2027-01-01"
+          },
+          "ruleId": "FSCR.TYPE.DATE.STRICT_ISO_TO_SLASH",
+          "semanticValue": "same Gregorian calendar date"
+        }
+      ]
+    },
+    {
+      "candidate": "not populated by design",
+      "detail": "Unexpected difference count: 0.",
+      "passed": true,
+      "persisted": "unchanged",
+      "requested": "unchanged",
+      "requirement": "Preserve every unspecified record and non-audit value",
+      "requirementId": "REQ-017"
+    },
+    {
+      "candidate": "present",
+      "detail": "",
+      "passed": true,
+      "persisted": "present",
+      "requested": "record present",
+      "requirement": "create exactly one AP_OTHER_PERIOD_PERIOD record identified by {\"CalendarName\":\"FSCRT_CAL1\",\"CalendarType\":\"GENERAL\",\"PeriodName\":\"Feb-27\"}",
+      "requirementId": "REQ-018"
+    },
+    {
+      "candidate": "FSCRT_CAL1",
+      "detail": "",
+      "passed": true,
+      "persisted": "FSCRT_CAL1",
+      "requested": "FSCRT_CAL1",
+      "requirement": "Persist AP_OTHER_PERIOD_PERIOD.AP_OTHER_PERIOD_TYPE.CalendarName=FSCRT_CAL1",
+      "requirementId": "REQ-019"
+    },
+    {
+      "candidate": "GENERAL",
+      "detail": "",
+      "passed": true,
+      "persisted": "GENERAL",
+      "requested": "GENERAL",
+      "requirement": "Persist AP_OTHER_PERIOD_PERIOD.AP_OTHER_PERIOD_TYPE.CalendarType=GENERAL",
+      "requirementId": "REQ-020"
+    },
+    {
+      "candidate": "200",
+      "detail": "",
+      "passed": true,
+      "persisted": "200",
+      "requested": "200",
+      "requirement": "Persist AP_OTHER_PERIOD_PERIOD.ApplicationId=200",
+      "requirementId": "REQ-021"
+    },
+    {
+      "candidate": "2027-02-28",
+      "detail": "Retained the raw declared-date format difference under FSCR.TYPE.DATE.STRICT_ISO_TO_SLASH.",
+      "passed": true,
+      "persisted": "2027/02/28",
+      "rawDifferences": [
+        {
+          "candidate": "2027-02-28",
+          "field": "EndDate",
+          "persisted": "2027/02/28",
+          "requested": "2027-02-28"
+        }
+      ],
+      "requested": "2027-02-28",
+      "requirement": "Persist AP_OTHER_PERIOD_PERIOD.EndDate=2027-02-28",
+      "requirementId": "REQ-022",
+      "semanticEquivalences": [
+        {
+          "canonicalValue": "2027-02-28",
+          "contractEvidence": [
+            "e2e-adapter.json package.entities[AP_OTHER_PERIOD_PERIOD].types[EndDate]=date",
+            "Exact ASM_SETUP_CSV_METADATA.xml XmlAttributeTypeList date contract"
+          ],
+          "declaredType": "date",
+          "entity": "AP_OTHER_PERIOD_PERIOD",
+          "field": "EndDate",
+          "rawValues": {
+            "candidate": "2027-02-28",
+            "persisted": "2027/02/28",
+            "requested": "2027-02-28"
+          },
+          "ruleId": "FSCR.TYPE.DATE.STRICT_ISO_TO_SLASH",
+          "semanticValue": "same Gregorian calendar date"
+        }
+      ]
+    },
+    {
+      "candidate": "Feb",
+      "detail": "",
+      "passed": true,
+      "persisted": "Feb",
+      "requested": "Feb",
+      "requirement": "Persist AP_OTHER_PERIOD_PERIOD.EnteredPeriodName=Feb",
+      "requirementId": "REQ-023"
+    },
+    {
+      "candidate": "2",
+      "detail": "",
+      "passed": true,
+      "persisted": "2",
+      "requested": "2",
+      "requirement": "Persist AP_OTHER_PERIOD_PERIOD.PeriodNum=2",
+      "requirementId": "REQ-024"
+    },
+    {
+      "candidate": "2027",
+      "detail": "",
+      "passed": true,
+      "persisted": "2027",
+      "requested": "2027",
+      "requirement": "Persist AP_OTHER_PERIOD_PERIOD.PeriodYear=2027",
+      "requirementId": "REQ-025"
+    },
+    {
+      "candidate": "2027-02-01",
+      "detail": "Retained the raw declared-date format difference under FSCR.TYPE.DATE.STRICT_ISO_TO_SLASH.",
+      "passed": true,
+      "persisted": "2027/02/01",
+      "rawDifferences": [
+        {
+          "candidate": "2027-02-01",
+          "field": "StartDate",
+          "persisted": "2027/02/01",
+          "requested": "2027-02-01"
+        }
+      ],
+      "requested": "2027-02-01",
+      "requirement": "Persist AP_OTHER_PERIOD_PERIOD.StartDate=2027-02-01",
+      "requirementId": "REQ-026",
+      "semanticEquivalences": [
+        {
+          "canonicalValue": "2027-02-01",
+          "contractEvidence": [
+            "e2e-adapter.json package.entities[AP_OTHER_PERIOD_PERIOD].types[StartDate]=date",
+            "Exact ASM_SETUP_CSV_METADATA.xml XmlAttributeTypeList date contract"
+          ],
+          "declaredType": "date",
+          "entity": "AP_OTHER_PERIOD_PERIOD",
+          "field": "StartDate",
+          "rawValues": {
+            "candidate": "2027-02-01",
+            "persisted": "2027/02/01",
+            "requested": "2027-02-01"
+          },
+          "ruleId": "FSCR.TYPE.DATE.STRICT_ISO_TO_SLASH",
+          "semanticValue": "same Gregorian calendar date"
+        }
+      ]
+    },
+    {
+      "candidate": "not populated by design",
+      "detail": "Unexpected difference count: 0.",
+      "passed": true,
+      "persisted": "unchanged",
+      "requested": "unchanged",
+      "requirement": "Preserve every unspecified record and non-audit value",
+      "requirementId": "REQ-027"
+    },
+    {
+      "candidate": "present",
+      "detail": "",
+      "passed": true,
+      "persisted": "present",
+      "requested": "record present",
+      "requirement": "create exactly one AP_OTHER_PERIOD_PERIOD record identified by {\"CalendarName\":\"FSCRT_CAL1\",\"CalendarType\":\"GENERAL\",\"PeriodName\":\"Mar-27\"}",
+      "requirementId": "REQ-028"
+    },
+    {
+      "candidate": "FSCRT_CAL1",
+      "detail": "",
+      "passed": true,
+      "persisted": "FSCRT_CAL1",
+      "requested": "FSCRT_CAL1",
+      "requirement": "Persist AP_OTHER_PERIOD_PERIOD.AP_OTHER_PERIOD_TYPE.CalendarName=FSCRT_CAL1",
+      "requirementId": "REQ-029"
+    },
+    {
+      "candidate": "GENERAL",
+      "detail": "",
+      "passed": true,
+      "persisted": "GENERAL",
+      "requested": "GENERAL",
+      "requirement": "Persist AP_OTHER_PERIOD_PERIOD.AP_OTHER_PERIOD_TYPE.CalendarType=GENERAL",
+      "requirementId": "REQ-030"
+    },
+    {
+      "candidate": "200",
+      "detail": "",
+      "passed": true,
+      "persisted": "200",
+      "requested": "200",
+      "requirement": "Persist AP_OTHER_PERIOD_PERIOD.ApplicationId=200",
+      "requirementId": "REQ-031"
+    },
+    {
+      "candidate": "2027-03-31",
+      "detail": "Retained the raw declared-date format difference under FSCR.TYPE.DATE.STRICT_ISO_TO_SLASH.",
+      "passed": true,
+      "persisted": "2027/03/31",
+      "rawDifferences": [
+        {
+          "candidate": "2027-03-31",
+          "field": "EndDate",
+          "persisted": "2027/03/31",
+          "requested": "2027-03-31"
+        }
+      ],
+      "requested": "2027-03-31",
+      "requirement": "Persist AP_OTHER_PERIOD_PERIOD.EndDate=2027-03-31",
+      "requirementId": "REQ-032",
+      "semanticEquivalences": [
+        {
+          "canonicalValue": "2027-03-31",
+          "contractEvidence": [
+            "e2e-adapter.json package.entities[AP_OTHER_PERIOD_PERIOD].types[EndDate]=date",
+            "Exact ASM_SETUP_CSV_METADATA.xml XmlAttributeTypeList date contract"
+          ],
+          "declaredType": "date",
+          "entity": "AP_OTHER_PERIOD_PERIOD",
+          "field": "EndDate",
+          "rawValues": {
+            "candidate": "2027-03-31",
+            "persisted": "2027/03/31",
+            "requested": "2027-03-31"
+          },
+          "ruleId": "FSCR.TYPE.DATE.STRICT_ISO_TO_SLASH",
+          "semanticValue": "same Gregorian calendar date"
+        }
+      ]
+    },
+    {
+      "candidate": "Mar",
+      "detail": "",
+      "passed": true,
+      "persisted": "Mar",
+      "requested": "Mar",
+      "requirement": "Persist AP_OTHER_PERIOD_PERIOD.EnteredPeriodName=Mar",
+      "requirementId": "REQ-033"
+    },
+    {
+      "candidate": "3",
+      "detail": "",
+      "passed": true,
+      "persisted": "3",
+      "requested": "3",
+      "requirement": "Persist AP_OTHER_PERIOD_PERIOD.PeriodNum=3",
+      "requirementId": "REQ-034"
+    },
+    {
+      "candidate": "2027",
+      "detail": "",
+      "passed": true,
+      "persisted": "2027",
+      "requested": "2027",
+      "requirement": "Persist AP_OTHER_PERIOD_PERIOD.PeriodYear=2027",
+      "requirementId": "REQ-035"
+    },
+    {
+      "candidate": "2027-03-01",
+      "detail": "Retained the raw declared-date format difference under FSCR.TYPE.DATE.STRICT_ISO_TO_SLASH.",
+      "passed": true,
+      "persisted": "2027/03/01",
+      "rawDifferences": [
+        {
+          "candidate": "2027-03-01",
+          "field": "StartDate",
+          "persisted": "2027/03/01",
+          "requested": "2027-03-01"
+        }
+      ],
+      "requested": "2027-03-01",
+      "requirement": "Persist AP_OTHER_PERIOD_PERIOD.StartDate=2027-03-01",
+      "requirementId": "REQ-036",
+      "semanticEquivalences": [
+        {
+          "canonicalValue": "2027-03-01",
+          "contractEvidence": [
+            "e2e-adapter.json package.entities[AP_OTHER_PERIOD_PERIOD].types[StartDate]=date",
+            "Exact ASM_SETUP_CSV_METADATA.xml XmlAttributeTypeList date contract"
+          ],
+          "declaredType": "date",
+          "entity": "AP_OTHER_PERIOD_PERIOD",
+          "field": "StartDate",
+          "rawValues": {
+            "candidate": "2027-03-01",
+            "persisted": "2027/03/01",
+            "requested": "2027-03-01"
+          },
+          "ruleId": "FSCR.TYPE.DATE.STRICT_ISO_TO_SLASH",
+          "semanticValue": "same Gregorian calendar date"
+        }
+      ]
+    },
+    {
+      "candidate": "not populated by design",
+      "detail": "Unexpected difference count: 0.",
+      "passed": true,
+      "persisted": "unchanged",
+      "requested": "unchanged",
+      "requirement": "Preserve every unspecified record and non-audit value",
+      "requirementId": "REQ-037"
+    },
+    {
+      "candidate": "present",
+      "detail": "",
+      "passed": true,
+      "persisted": "present",
+      "requested": "record present",
+      "requirement": "create exactly one AP_OTHER_PERIOD_PERIOD record identified by {\"CalendarName\":\"FSCRT_CAL1\",\"CalendarType\":\"GENERAL\",\"PeriodName\":\"Apr-27\"}",
+      "requirementId": "REQ-038"
+    },
+    {
+      "candidate": "FSCRT_CAL1",
+      "detail": "",
+      "passed": true,
+      "persisted": "FSCRT_CAL1",
+      "requested": "FSCRT_CAL1",
+      "requirement": "Persist AP_OTHER_PERIOD_PERIOD.AP_OTHER_PERIOD_TYPE.CalendarName=FSCRT_CAL1",
+      "requirementId": "REQ-039"
+    },
+    {
+      "candidate": "GENERAL",
+      "detail": "",
+      "passed": true,
+      "persisted": "GENERAL",
+      "requested": "GENERAL",
+      "requirement": "Persist AP_OTHER_PERIOD_PERIOD.AP_OTHER_PERIOD_TYPE.CalendarType=GENERAL",
+      "requirementId": "REQ-040"
+    },
+    {
+      "candidate": "200",
+      "detail": "",
+      "passed": true,
+      "persisted": "200",
+      "requested": "200",
+      "requirement": "Persist AP_OTHER_PERIOD_PERIOD.ApplicationId=200",
+      "requirementId": "REQ-041"
+    },
+    {
+      "candidate": "2027-04-30",
+      "detail": "Retained the raw declared-date format difference under FSCR.TYPE.DATE.STRICT_ISO_TO_SLASH.",
+      "passed": true,
+      "persisted": "2027/04/30",
+      "rawDifferences": [
+        {
+          "candidate": "2027-04-30",
+          "field": "EndDate",
+          "persisted": "2027/04/30",
+          "requested": "2027-04-30"
+        }
+      ],
+      "requested": "2027-04-30",
+      "requirement": "Persist AP_OTHER_PERIOD_PERIOD.EndDate=2027-04-30",
+      "requirementId": "REQ-042",
+      "semanticEquivalences": [
+        {
+          "canonicalValue": "2027-04-30",
+          "contractEvidence": [
+            "e2e-adapter.json package.entities[AP_OTHER_PERIOD_PERIOD].types[EndDate]=date",
+            "Exact ASM_SETUP_CSV_METADATA.xml XmlAttributeTypeList date contract"
+          ],
+          "declaredType": "date",
+          "entity": "AP_OTHER_PERIOD_PERIOD",
+          "field": "EndDate",
+          "rawValues": {
+            "candidate": "2027-04-30",
+            "persisted": "2027/04/30",
+            "requested": "2027-04-30"
+          },
+          "ruleId": "FSCR.TYPE.DATE.STRICT_ISO_TO_SLASH",
+          "semanticValue": "same Gregorian calendar date"
+        }
+      ]
+    },
+    {
+      "candidate": "Apr",
+      "detail": "",
+      "passed": true,
+      "persisted": "Apr",
+      "requested": "Apr",
+      "requirement": "Persist AP_OTHER_PERIOD_PERIOD.EnteredPeriodName=Apr",
+      "requirementId": "REQ-043"
+    },
+    {
+      "candidate": "4",
+      "detail": "",
+      "passed": true,
+      "persisted": "4",
+      "requested": "4",
+      "requirement": "Persist AP_OTHER_PERIOD_PERIOD.PeriodNum=4",
+      "requirementId": "REQ-044"
+    },
+    {
+      "candidate": "2027",
+      "detail": "",
+      "passed": true,
+      "persisted": "2027",
+      "requested": "2027",
+      "requirement": "Persist AP_OTHER_PERIOD_PERIOD.PeriodYear=2027",
+      "requirementId": "REQ-045"
+    },
+    {
+      "candidate": "2027-04-01",
+      "detail": "Retained the raw declared-date format difference under FSCR.TYPE.DATE.STRICT_ISO_TO_SLASH.",
+      "passed": true,
+      "persisted": "2027/04/01",
+      "rawDifferences": [
+        {
+          "candidate": "2027-04-01",
+          "field": "StartDate",
+          "persisted": "2027/04/01",
+          "requested": "2027-04-01"
+        }
+      ],
+      "requested": "2027-04-01",
+      "requirement": "Persist AP_OTHER_PERIOD_PERIOD.StartDate=2027-04-01",
+      "requirementId": "REQ-046",
+      "semanticEquivalences": [
+        {
+          "canonicalValue": "2027-04-01",
+          "contractEvidence": [
+            "e2e-adapter.json package.entities[AP_OTHER_PERIOD_PERIOD].types[StartDate]=date",
+            "Exact ASM_SETUP_CSV_METADATA.xml XmlAttributeTypeList date contract"
+          ],
+          "declaredType": "date",
+          "entity": "AP_OTHER_PERIOD_PERIOD",
+          "field": "StartDate",
+          "rawValues": {
+            "candidate": "2027-04-01",
+            "persisted": "2027/04/01",
+            "requested": "2027-04-01"
+          },
+          "ruleId": "FSCR.TYPE.DATE.STRICT_ISO_TO_SLASH",
+          "semanticValue": "same Gregorian calendar date"
+        }
+      ]
+    },
+    {
+      "candidate": "not populated by design",
+      "detail": "Unexpected difference count: 0.",
+      "passed": true,
+      "persisted": "unchanged",
+      "requested": "unchanged",
+      "requirement": "Preserve every unspecified record and non-audit value",
+      "requirementId": "REQ-047"
+    },
+    {
+      "candidate": "present",
+      "detail": "",
+      "passed": true,
+      "persisted": "present",
+      "requested": "record present",
+      "requirement": "create exactly one AP_OTHER_PERIOD_PERIOD record identified by {\"CalendarName\":\"FSCRT_CAL1\",\"CalendarType\":\"GENERAL\",\"PeriodName\":\"May-27\"}",
+      "requirementId": "REQ-048"
+    },
+    {
+      "candidate": "FSCRT_CAL1",
+      "detail": "",
+      "passed": true,
+      "persisted": "FSCRT_CAL1",
+      "requested": "FSCRT_CAL1",
+      "requirement": "Persist AP_OTHER_PERIOD_PERIOD.AP_OTHER_PERIOD_TYPE.CalendarName=FSCRT_CAL1",
+      "requirementId": "REQ-049"
+    },
+    {
+      "candidate": "GENERAL",
+      "detail": "",
+      "passed": true,
+      "persisted": "GENERAL",
+      "requested": "GENERAL",
+      "requirement": "Persist AP_OTHER_PERIOD_PERIOD.AP_OTHER_PERIOD_TYPE.CalendarType=GENERAL",
+      "requirementId": "REQ-050"
+    },
+    {
+      "candidate": "200",
+      "detail": "",
+      "passed": true,
+      "persisted": "200",
+      "requested": "200",
+      "requirement": "Persist AP_OTHER_PERIOD_PERIOD.ApplicationId=200",
+      "requirementId": "REQ-051"
+    },
+    {
+      "candidate": "2027-05-31",
+      "detail": "Retained the raw declared-date format difference under FSCR.TYPE.DATE.STRICT_ISO_TO_SLASH.",
+      "passed": true,
+      "persisted": "2027/05/31",
+      "rawDifferences": [
+        {
+          "candidate": "2027-05-31",
+          "field": "EndDate",
+          "persisted": "2027/05/31",
+          "requested": "2027-05-31"
+        }
+      ],
+      "requested": "2027-05-31",
+      "requirement": "Persist AP_OTHER_PERIOD_PERIOD.EndDate=2027-05-31",
+      "requirementId": "REQ-052",
+      "semanticEquivalences": [
+        {
+          "canonicalValue": "2027-05-31",
+          "contractEvidence": [
+            "e2e-adapter.json package.entities[AP_OTHER_PERIOD_PERIOD].types[EndDate]=date",
+            "Exact ASM_SETUP_CSV_METADATA.xml XmlAttributeTypeList date contract"
+          ],
+          "declaredType": "date",
+          "entity": "AP_OTHER_PERIOD_PERIOD",
+          "field": "EndDate",
+          "rawValues": {
+            "candidate": "2027-05-31",
+            "persisted": "2027/05/31",
+            "requested": "2027-05-31"
+          },
+          "ruleId": "FSCR.TYPE.DATE.STRICT_ISO_TO_SLASH",
+          "semanticValue": "same Gregorian calendar date"
+        }
+      ]
+    },
+    {
+      "candidate": "May",
+      "detail": "",
+      "passed": true,
+      "persisted": "May",
+      "requested": "May",
+      "requirement": "Persist AP_OTHER_PERIOD_PERIOD.EnteredPeriodName=May",
+      "requirementId": "REQ-053"
+    },
+    {
+      "candidate": "5",
+      "detail": "",
+      "passed": true,
+      "persisted": "5",
+      "requested": "5",
+      "requirement": "Persist AP_OTHER_PERIOD_PERIOD.PeriodNum=5",
+      "requirementId": "REQ-054"
+    },
+    {
+      "candidate": "2027",
+      "detail": "",
+      "passed": true,
+      "persisted": "2027",
+      "requested": "2027",
+      "requirement": "Persist AP_OTHER_PERIOD_PERIOD.PeriodYear=2027",
+      "requirementId": "REQ-055"
+    },
+    {
+      "candidate": "2027-05-01",
+      "detail": "Retained the raw declared-date format difference under FSCR.TYPE.DATE.STRICT_ISO_TO_SLASH.",
+      "passed": true,
+      "persisted": "2027/05/01",
+      "rawDifferences": [
+        {
+          "candidate": "2027-05-01",
+          "field": "StartDate",
+          "persisted": "2027/05/01",
+          "requested": "2027-05-01"
+        }
+      ],
+      "requested": "2027-05-01",
+      "requirement": "Persist AP_OTHER_PERIOD_PERIOD.StartDate=2027-05-01",
+      "requirementId": "REQ-056",
+      "semanticEquivalences": [
+        {
+          "canonicalValue": "2027-05-01",
+          "contractEvidence": [
+            "e2e-adapter.json package.entities[AP_OTHER_PERIOD_PERIOD].types[StartDate]=date",
+            "Exact ASM_SETUP_CSV_METADATA.xml XmlAttributeTypeList date contract"
+          ],
+          "declaredType": "date",
+          "entity": "AP_OTHER_PERIOD_PERIOD",
+          "field": "StartDate",
+          "rawValues": {
+            "candidate": "2027-05-01",
+            "persisted": "2027/05/01",
+            "requested": "2027-05-01"
+          },
+          "ruleId": "FSCR.TYPE.DATE.STRICT_ISO_TO_SLASH",
+          "semanticValue": "same Gregorian calendar date"
+        }
+      ]
+    },
+    {
+      "candidate": "not populated by design",
+      "detail": "Unexpected difference count: 0.",
+      "passed": true,
+      "persisted": "unchanged",
+      "requested": "unchanged",
+      "requirement": "Preserve every unspecified record and non-audit value",
+      "requirementId": "REQ-057"
+    },
+    {
+      "candidate": "present",
+      "detail": "",
+      "passed": true,
+      "persisted": "present",
+      "requested": "record present",
+      "requirement": "create exactly one AP_OTHER_PERIOD_PERIOD record identified by {\"CalendarName\":\"FSCRT_CAL1\",\"CalendarType\":\"GENERAL\",\"PeriodName\":\"Jun-27\"}",
+      "requirementId": "REQ-058"
+    },
+    {
+      "candidate": "FSCRT_CAL1",
+      "detail": "",
+      "passed": true,
+      "persisted": "FSCRT_CAL1",
+      "requested": "FSCRT_CAL1",
+      "requirement": "Persist AP_OTHER_PERIOD_PERIOD.AP_OTHER_PERIOD_TYPE.CalendarName=FSCRT_CAL1",
+      "requirementId": "REQ-059"
+    },
+    {
+      "candidate": "GENERAL",
+      "detail": "",
+      "passed": true,
+      "persisted": "GENERAL",
+      "requested": "GENERAL",
+      "requirement": "Persist AP_OTHER_PERIOD_PERIOD.AP_OTHER_PERIOD_TYPE.CalendarType=GENERAL",
+      "requirementId": "REQ-060"
+    },
+    {
+      "candidate": "200",
+      "detail": "",
+      "passed": true,
+      "persisted": "200",
+      "requested": "200",
+      "requirement": "Persist AP_OTHER_PERIOD_PERIOD.ApplicationId=200",
+      "requirementId": "REQ-061"
+    },
+    {
+      "candidate": "2027-06-30",
+      "detail": "Retained the raw declared-date format difference under FSCR.TYPE.DATE.STRICT_ISO_TO_SLASH.",
+      "passed": true,
+      "persisted": "2027/06/30",
+      "rawDifferences": [
+        {
+          "candidate": "2027-06-30",
+          "field": "EndDate",
+          "persisted": "2027/06/30",
+          "requested": "2027-06-30"
+        }
+      ],
+      "requested": "2027-06-30",
+      "requirement": "Persist AP_OTHER_PERIOD_PERIOD.EndDate=2027-06-30",
+      "requirementId": "REQ-062",
+      "semanticEquivalences": [
+        {
+          "canonicalValue": "2027-06-30",
+          "contractEvidence": [
+            "e2e-adapter.json package.entities[AP_OTHER_PERIOD_PERIOD].types[EndDate]=date",
+            "Exact ASM_SETUP_CSV_METADATA.xml XmlAttributeTypeList date contract"
+          ],
+          "declaredType": "date",
+          "entity": "AP_OTHER_PERIOD_PERIOD",
+          "field": "EndDate",
+          "rawValues": {
+            "candidate": "2027-06-30",
+            "persisted": "2027/06/30",
+            "requested": "2027-06-30"
+          },
+          "ruleId": "FSCR.TYPE.DATE.STRICT_ISO_TO_SLASH",
+          "semanticValue": "same Gregorian calendar date"
+        }
+      ]
+    },
+    {
+      "candidate": "Jun",
+      "detail": "",
+      "passed": true,
+      "persisted": "Jun",
+      "requested": "Jun",
+      "requirement": "Persist AP_OTHER_PERIOD_PERIOD.EnteredPeriodName=Jun",
+      "requirementId": "REQ-063"
+    },
+    {
+      "candidate": "6",
+      "detail": "",
+      "passed": true,
+      "persisted": "6",
+      "requested": "6",
+      "requirement": "Persist AP_OTHER_PERIOD_PERIOD.PeriodNum=6",
+      "requirementId": "REQ-064"
+    },
+    {
+      "candidate": "2027",
+      "detail": "",
+      "passed": true,
+      "persisted": "2027",
+      "requested": "2027",
+      "requirement": "Persist AP_OTHER_PERIOD_PERIOD.PeriodYear=2027",
+      "requirementId": "REQ-065"
+    },
+    {
+      "candidate": "2027-06-01",
+      "detail": "Retained the raw declared-date format difference under FSCR.TYPE.DATE.STRICT_ISO_TO_SLASH.",
+      "passed": true,
+      "persisted": "2027/06/01",
+      "rawDifferences": [
+        {
+          "candidate": "2027-06-01",
+          "field": "StartDate",
+          "persisted": "2027/06/01",
+          "requested": "2027-06-01"
+        }
+      ],
+      "requested": "2027-06-01",
+      "requirement": "Persist AP_OTHER_PERIOD_PERIOD.StartDate=2027-06-01",
+      "requirementId": "REQ-066",
+      "semanticEquivalences": [
+        {
+          "canonicalValue": "2027-06-01",
+          "contractEvidence": [
+            "e2e-adapter.json package.entities[AP_OTHER_PERIOD_PERIOD].types[StartDate]=date",
+            "Exact ASM_SETUP_CSV_METADATA.xml XmlAttributeTypeList date contract"
+          ],
+          "declaredType": "date",
+          "entity": "AP_OTHER_PERIOD_PERIOD",
+          "field": "StartDate",
+          "rawValues": {
+            "candidate": "2027-06-01",
+            "persisted": "2027/06/01",
+            "requested": "2027-06-01"
+          },
+          "ruleId": "FSCR.TYPE.DATE.STRICT_ISO_TO_SLASH",
+          "semanticValue": "same Gregorian calendar date"
+        }
+      ]
+    },
+    {
+      "candidate": "not populated by design",
+      "detail": "Unexpected difference count: 0.",
+      "passed": true,
+      "persisted": "unchanged",
+      "requested": "unchanged",
+      "requirement": "Preserve every unspecified record and non-audit value",
+      "requirementId": "REQ-067"
+    },
+    {
+      "candidate": "present",
+      "detail": "",
+      "passed": true,
+      "persisted": "present",
+      "requested": "record present",
+      "requirement": "create exactly one AP_OTHER_PERIOD_PERIOD record identified by {\"CalendarName\":\"FSCRT_CAL1\",\"CalendarType\":\"GENERAL\",\"PeriodName\":\"Jul-27\"}",
+      "requirementId": "REQ-068"
+    },
+    {
+      "candidate": "FSCRT_CAL1",
+      "detail": "",
+      "passed": true,
+      "persisted": "FSCRT_CAL1",
+      "requested": "FSCRT_CAL1",
+      "requirement": "Persist AP_OTHER_PERIOD_PERIOD.AP_OTHER_PERIOD_TYPE.CalendarName=FSCRT_CAL1",
+      "requirementId": "REQ-069"
+    },
+    {
+      "candidate": "GENERAL",
+      "detail": "",
+      "passed": true,
+      "persisted": "GENERAL",
+      "requested": "GENERAL",
+      "requirement": "Persist AP_OTHER_PERIOD_PERIOD.AP_OTHER_PERIOD_TYPE.CalendarType=GENERAL",
+      "requirementId": "REQ-070"
+    },
+    {
+      "candidate": "200",
+      "detail": "",
+      "passed": true,
+      "persisted": "200",
+      "requested": "200",
+      "requirement": "Persist AP_OTHER_PERIOD_PERIOD.ApplicationId=200",
+      "requirementId": "REQ-071"
+    },
+    {
+      "candidate": "2027-07-31",
+      "detail": "Retained the raw declared-date format difference under FSCR.TYPE.DATE.STRICT_ISO_TO_SLASH.",
+      "passed": true,
+      "persisted": "2027/07/31",
+      "rawDifferences": [
+        {
+          "candidate": "2027-07-31",
+          "field": "EndDate",
+          "persisted": "2027/07/31",
+          "requested": "2027-07-31"
+        }
+      ],
+      "requested": "2027-07-31",
+      "requirement": "Persist AP_OTHER_PERIOD_PERIOD.EndDate=2027-07-31",
+      "requirementId": "REQ-072",
+      "semanticEquivalences": [
+        {
+          "canonicalValue": "2027-07-31",
+          "contractEvidence": [
+            "e2e-adapter.json package.entities[AP_OTHER_PERIOD_PERIOD].types[EndDate]=date",
+            "Exact ASM_SETUP_CSV_METADATA.xml XmlAttributeTypeList date contract"
+          ],
+          "declaredType": "date",
+          "entity": "AP_OTHER_PERIOD_PERIOD",
+          "field": "EndDate",
+          "rawValues": {
+            "candidate": "2027-07-31",
+            "persisted": "2027/07/31",
+            "requested": "2027-07-31"
+          },
+          "ruleId": "FSCR.TYPE.DATE.STRICT_ISO_TO_SLASH",
+          "semanticValue": "same Gregorian calendar date"
+        }
+      ]
+    },
+    {
+      "candidate": "Jul",
+      "detail": "",
+      "passed": true,
+      "persisted": "Jul",
+      "requested": "Jul",
+      "requirement": "Persist AP_OTHER_PERIOD_PERIOD.EnteredPeriodName=Jul",
+      "requirementId": "REQ-073"
+    },
+    {
+      "candidate": "7",
+      "detail": "",
+      "passed": true,
+      "persisted": "7",
+      "requested": "7",
+      "requirement": "Persist AP_OTHER_PERIOD_PERIOD.PeriodNum=7",
+      "requirementId": "REQ-074"
+    },
+    {
+      "candidate": "2027",
+      "detail": "",
+      "passed": true,
+      "persisted": "2027",
+      "requested": "2027",
+      "requirement": "Persist AP_OTHER_PERIOD_PERIOD.PeriodYear=2027",
+      "requirementId": "REQ-075"
+    },
+    {
+      "candidate": "2027-07-01",
+      "detail": "Retained the raw declared-date format difference under FSCR.TYPE.DATE.STRICT_ISO_TO_SLASH.",
+      "passed": true,
+      "persisted": "2027/07/01",
+      "rawDifferences": [
+        {
+          "candidate": "2027-07-01",
+          "field": "StartDate",
+          "persisted": "2027/07/01",
+          "requested": "2027-07-01"
+        }
+      ],
+      "requested": "2027-07-01",
+      "requirement": "Persist AP_OTHER_PERIOD_PERIOD.StartDate=2027-07-01",
+      "requirementId": "REQ-076",
+      "semanticEquivalences": [
+        {
+          "canonicalValue": "2027-07-01",
+          "contractEvidence": [
+            "e2e-adapter.json package.entities[AP_OTHER_PERIOD_PERIOD].types[StartDate]=date",
+            "Exact ASM_SETUP_CSV_METADATA.xml XmlAttributeTypeList date contract"
+          ],
+          "declaredType": "date",
+          "entity": "AP_OTHER_PERIOD_PERIOD",
+          "field": "StartDate",
+          "rawValues": {
+            "candidate": "2027-07-01",
+            "persisted": "2027/07/01",
+            "requested": "2027-07-01"
+          },
+          "ruleId": "FSCR.TYPE.DATE.STRICT_ISO_TO_SLASH",
+          "semanticValue": "same Gregorian calendar date"
+        }
+      ]
+    },
+    {
+      "candidate": "not populated by design",
+      "detail": "Unexpected difference count: 0.",
+      "passed": true,
+      "persisted": "unchanged",
+      "requested": "unchanged",
+      "requirement": "Preserve every unspecified record and non-audit value",
+      "requirementId": "REQ-077"
+    },
+    {
+      "candidate": "present",
+      "detail": "",
+      "passed": true,
+      "persisted": "present",
+      "requested": "record present",
+      "requirement": "create exactly one AP_OTHER_PERIOD_PERIOD record identified by {\"CalendarName\":\"FSCRT_CAL1\",\"CalendarType\":\"GENERAL\",\"PeriodName\":\"Aug-27\"}",
+      "requirementId": "REQ-078"
+    },
+    {
+      "candidate": "FSCRT_CAL1",
+      "detail": "",
+      "passed": true,
+      "persisted": "FSCRT_CAL1",
+      "requested": "FSCRT_CAL1",
+      "requirement": "Persist AP_OTHER_PERIOD_PERIOD.AP_OTHER_PERIOD_TYPE.CalendarName=FSCRT_CAL1",
+      "requirementId": "REQ-079"
+    },
+    {
+      "candidate": "GENERAL",
+      "detail": "",
+      "passed": true,
+      "persisted": "GENERAL",
+      "requested": "GENERAL",
+      "requirement": "Persist AP_OTHER_PERIOD_PERIOD.AP_OTHER_PERIOD_TYPE.CalendarType=GENERAL",
+      "requirementId": "REQ-080"
+    },
+    {
+      "candidate": "200",
+      "detail": "",
+      "passed": true,
+      "persisted": "200",
+      "requested": "200",
+      "requirement": "Persist AP_OTHER_PERIOD_PERIOD.ApplicationId=200",
+      "requirementId": "REQ-081"
+    },
+    {
+      "candidate": "2027-08-31",
+      "detail": "Retained the raw declared-date format difference under FSCR.TYPE.DATE.STRICT_ISO_TO_SLASH.",
+      "passed": true,
+      "persisted": "2027/08/31",
+      "rawDifferences": [
+        {
+          "candidate": "2027-08-31",
+          "field": "EndDate",
+          "persisted": "2027/08/31",
+          "requested": "2027-08-31"
+        }
+      ],
+      "requested": "2027-08-31",
+      "requirement": "Persist AP_OTHER_PERIOD_PERIOD.EndDate=2027-08-31",
+      "requirementId": "REQ-082",
+      "semanticEquivalences": [
+        {
+          "canonicalValue": "2027-08-31",
+          "contractEvidence": [
+            "e2e-adapter.json package.entities[AP_OTHER_PERIOD_PERIOD].types[EndDate]=date",
+            "Exact ASM_SETUP_CSV_METADATA.xml XmlAttributeTypeList date contract"
+          ],
+          "declaredType": "date",
+          "entity": "AP_OTHER_PERIOD_PERIOD",
+          "field": "EndDate",
+          "rawValues": {
+            "candidate": "2027-08-31",
+            "persisted": "2027/08/31",
+            "requested": "2027-08-31"
+          },
+          "ruleId": "FSCR.TYPE.DATE.STRICT_ISO_TO_SLASH",
+          "semanticValue": "same Gregorian calendar date"
+        }
+      ]
+    },
+    {
+      "candidate": "Aug",
+      "detail": "",
+      "passed": true,
+      "persisted": "Aug",
+      "requested": "Aug",
+      "requirement": "Persist AP_OTHER_PERIOD_PERIOD.EnteredPeriodName=Aug",
+      "requirementId": "REQ-083"
+    },
+    {
+      "candidate": "8",
+      "detail": "",
+      "passed": true,
+      "persisted": "8",
+      "requested": "8",
+      "requirement": "Persist AP_OTHER_PERIOD_PERIOD.PeriodNum=8",
+      "requirementId": "REQ-084"
+    },
+    {
+      "candidate": "2027",
+      "detail": "",
+      "passed": true,
+      "persisted": "2027",
+      "requested": "2027",
+      "requirement": "Persist AP_OTHER_PERIOD_PERIOD.PeriodYear=2027",
+      "requirementId": "REQ-085"
+    },
+    {
+      "candidate": "2027-08-01",
+      "detail": "Retained the raw declared-date format difference under FSCR.TYPE.DATE.STRICT_ISO_TO_SLASH.",
+      "passed": true,
+      "persisted": "2027/08/01",
+      "rawDifferences": [
+        {
+          "candidate": "2027-08-01",
+          "field": "StartDate",
+          "persisted": "2027/08/01",
+          "requested": "2027-08-01"
+        }
+      ],
+      "requested": "2027-08-01",
+      "requirement": "Persist AP_OTHER_PERIOD_PERIOD.StartDate=2027-08-01",
+      "requirementId": "REQ-086",
+      "semanticEquivalences": [
+        {
+          "canonicalValue": "2027-08-01",
+          "contractEvidence": [
+            "e2e-adapter.json package.entities[AP_OTHER_PERIOD_PERIOD].types[StartDate]=date",
+            "Exact ASM_SETUP_CSV_METADATA.xml XmlAttributeTypeList date contract"
+          ],
+          "declaredType": "date",
+          "entity": "AP_OTHER_PERIOD_PERIOD",
+          "field": "StartDate",
+          "rawValues": {
+            "candidate": "2027-08-01",
+            "persisted": "2027/08/01",
+            "requested": "2027-08-01"
+          },
+          "ruleId": "FSCR.TYPE.DATE.STRICT_ISO_TO_SLASH",
+          "semanticValue": "same Gregorian calendar date"
+        }
+      ]
+    },
+    {
+      "candidate": "not populated by design",
+      "detail": "Unexpected difference count: 0.",
+      "passed": true,
+      "persisted": "unchanged",
+      "requested": "unchanged",
+      "requirement": "Preserve every unspecified record and non-audit value",
+      "requirementId": "REQ-087"
+    },
+    {
+      "candidate": "present",
+      "detail": "",
+      "passed": true,
+      "persisted": "present",
+      "requested": "record present",
+      "requirement": "create exactly one AP_OTHER_PERIOD_PERIOD record identified by {\"CalendarName\":\"FSCRT_CAL1\",\"CalendarType\":\"GENERAL\",\"PeriodName\":\"Sep-27\"}",
+      "requirementId": "REQ-088"
+    },
+    {
+      "candidate": "FSCRT_CAL1",
+      "detail": "",
+      "passed": true,
+      "persisted": "FSCRT_CAL1",
+      "requested": "FSCRT_CAL1",
+      "requirement": "Persist AP_OTHER_PERIOD_PERIOD.AP_OTHER_PERIOD_TYPE.CalendarName=FSCRT_CAL1",
+      "requirementId": "REQ-089"
+    },
+    {
+      "candidate": "GENERAL",
+      "detail": "",
+      "passed": true,
+      "persisted": "GENERAL",
+      "requested": "GENERAL",
+      "requirement": "Persist AP_OTHER_PERIOD_PERIOD.AP_OTHER_PERIOD_TYPE.CalendarType=GENERAL",
+      "requirementId": "REQ-090"
+    },
+    {
+      "candidate": "200",
+      "detail": "",
+      "passed": true,
+      "persisted": "200",
+      "requested": "200",
+      "requirement": "Persist AP_OTHER_PERIOD_PERIOD.ApplicationId=200",
+      "requirementId": "REQ-091"
+    },
+    {
+      "candidate": "2027-09-30",
+      "detail": "Retained the raw declared-date format difference under FSCR.TYPE.DATE.STRICT_ISO_TO_SLASH.",
+      "passed": true,
+      "persisted": "2027/09/30",
+      "rawDifferences": [
+        {
+          "candidate": "2027-09-30",
+          "field": "EndDate",
+          "persisted": "2027/09/30",
+          "requested": "2027-09-30"
+        }
+      ],
+      "requested": "2027-09-30",
+      "requirement": "Persist AP_OTHER_PERIOD_PERIOD.EndDate=2027-09-30",
+      "requirementId": "REQ-092",
+      "semanticEquivalences": [
+        {
+          "canonicalValue": "2027-09-30",
+          "contractEvidence": [
+            "e2e-adapter.json package.entities[AP_OTHER_PERIOD_PERIOD].types[EndDate]=date",
+            "Exact ASM_SETUP_CSV_METADATA.xml XmlAttributeTypeList date contract"
+          ],
+          "declaredType": "date",
+          "entity": "AP_OTHER_PERIOD_PERIOD",
+          "field": "EndDate",
+          "rawValues": {
+            "candidate": "2027-09-30",
+            "persisted": "2027/09/30",
+            "requested": "2027-09-30"
+          },
+          "ruleId": "FSCR.TYPE.DATE.STRICT_ISO_TO_SLASH",
+          "semanticValue": "same Gregorian calendar date"
+        }
+      ]
+    },
+    {
+      "candidate": "Sep",
+      "detail": "",
+      "passed": true,
+      "persisted": "Sep",
+      "requested": "Sep",
+      "requirement": "Persist AP_OTHER_PERIOD_PERIOD.EnteredPeriodName=Sep",
+      "requirementId": "REQ-093"
+    },
+    {
+      "candidate": "9",
+      "detail": "",
+      "passed": true,
+      "persisted": "9",
+      "requested": "9",
+      "requirement": "Persist AP_OTHER_PERIOD_PERIOD.PeriodNum=9",
+      "requirementId": "REQ-094"
+    },
+    {
+      "candidate": "2027",
+      "detail": "",
+      "passed": true,
+      "persisted": "2027",
+      "requested": "2027",
+      "requirement": "Persist AP_OTHER_PERIOD_PERIOD.PeriodYear=2027",
+      "requirementId": "REQ-095"
+    },
+    {
+      "candidate": "2027-09-01",
+      "detail": "Retained the raw declared-date format difference under FSCR.TYPE.DATE.STRICT_ISO_TO_SLASH.",
+      "passed": true,
+      "persisted": "2027/09/01",
+      "rawDifferences": [
+        {
+          "candidate": "2027-09-01",
+          "field": "StartDate",
+          "persisted": "2027/09/01",
+          "requested": "2027-09-01"
+        }
+      ],
+      "requested": "2027-09-01",
+      "requirement": "Persist AP_OTHER_PERIOD_PERIOD.StartDate=2027-09-01",
+      "requirementId": "REQ-096",
+      "semanticEquivalences": [
+        {
+          "canonicalValue": "2027-09-01",
+          "contractEvidence": [
+            "e2e-adapter.json package.entities[AP_OTHER_PERIOD_PERIOD].types[StartDate]=date",
+            "Exact ASM_SETUP_CSV_METADATA.xml XmlAttributeTypeList date contract"
+          ],
+          "declaredType": "date",
+          "entity": "AP_OTHER_PERIOD_PERIOD",
+          "field": "StartDate",
+          "rawValues": {
+            "candidate": "2027-09-01",
+            "persisted": "2027/09/01",
+            "requested": "2027-09-01"
+          },
+          "ruleId": "FSCR.TYPE.DATE.STRICT_ISO_TO_SLASH",
+          "semanticValue": "same Gregorian calendar date"
+        }
+      ]
+    },
+    {
+      "candidate": "not populated by design",
+      "detail": "Unexpected difference count: 0.",
+      "passed": true,
+      "persisted": "unchanged",
+      "requested": "unchanged",
+      "requirement": "Preserve every unspecified record and non-audit value",
+      "requirementId": "REQ-097"
+    },
+    {
+      "candidate": "present",
+      "detail": "",
+      "passed": true,
+      "persisted": "present",
+      "requested": "record present",
+      "requirement": "create exactly one AP_OTHER_PERIOD_PERIOD record identified by {\"CalendarName\":\"FSCRT_CAL1\",\"CalendarType\":\"GENERAL\",\"PeriodName\":\"Oct-27\"}",
+      "requirementId": "REQ-098"
+    },
+    {
+      "candidate": "FSCRT_CAL1",
+      "detail": "",
+      "passed": true,
+      "persisted": "FSCRT_CAL1",
+      "requested": "FSCRT_CAL1",
+      "requirement": "Persist AP_OTHER_PERIOD_PERIOD.AP_OTHER_PERIOD_TYPE.CalendarName=FSCRT_CAL1",
+      "requirementId": "REQ-099"
+    },
+    {
+      "candidate": "GENERAL",
+      "detail": "",
+      "passed": true,
+      "persisted": "GENERAL",
+      "requested": "GENERAL",
+      "requirement": "Persist AP_OTHER_PERIOD_PERIOD.AP_OTHER_PERIOD_TYPE.CalendarType=GENERAL",
+      "requirementId": "REQ-100"
+    },
+    {
+      "candidate": "200",
+      "detail": "",
+      "passed": true,
+      "persisted": "200",
+      "requested": "200",
+      "requirement": "Persist AP_OTHER_PERIOD_PERIOD.ApplicationId=200",
+      "requirementId": "REQ-101"
+    },
+    {
+      "candidate": "2027-10-31",
+      "detail": "Retained the raw declared-date format difference under FSCR.TYPE.DATE.STRICT_ISO_TO_SLASH.",
+      "passed": true,
+      "persisted": "2027/10/31",
+      "rawDifferences": [
+        {
+          "candidate": "2027-10-31",
+          "field": "EndDate",
+          "persisted": "2027/10/31",
+          "requested": "2027-10-31"
+        }
+      ],
+      "requested": "2027-10-31",
+      "requirement": "Persist AP_OTHER_PERIOD_PERIOD.EndDate=2027-10-31",
+      "requirementId": "REQ-102",
+      "semanticEquivalences": [
+        {
+          "canonicalValue": "2027-10-31",
+          "contractEvidence": [
+            "e2e-adapter.json package.entities[AP_OTHER_PERIOD_PERIOD].types[EndDate]=date",
+            "Exact ASM_SETUP_CSV_METADATA.xml XmlAttributeTypeList date contract"
+          ],
+          "declaredType": "date",
+          "entity": "AP_OTHER_PERIOD_PERIOD",
+          "field": "EndDate",
+          "rawValues": {
+            "candidate": "2027-10-31",
+            "persisted": "2027/10/31",
+            "requested": "2027-10-31"
+          },
+          "ruleId": "FSCR.TYPE.DATE.STRICT_ISO_TO_SLASH",
+          "semanticValue": "same Gregorian calendar date"
+        }
+      ]
+    },
+    {
+      "candidate": "Oct",
+      "detail": "",
+      "passed": true,
+      "persisted": "Oct",
+      "requested": "Oct",
+      "requirement": "Persist AP_OTHER_PERIOD_PERIOD.EnteredPeriodName=Oct",
+      "requirementId": "REQ-103"
+    },
+    {
+      "candidate": "10",
+      "detail": "",
+      "passed": true,
+      "persisted": "10",
+      "requested": "10",
+      "requirement": "Persist AP_OTHER_PERIOD_PERIOD.PeriodNum=10",
+      "requirementId": "REQ-104"
+    },
+    {
+      "candidate": "2027",
+      "detail": "",
+      "passed": true,
+      "persisted": "2027",
+      "requested": "2027",
+      "requirement": "Persist AP_OTHER_PERIOD_PERIOD.PeriodYear=2027",
+      "requirementId": "REQ-105"
+    },
+    {
+      "candidate": "2027-10-01",
+      "detail": "Retained the raw declared-date format difference under FSCR.TYPE.DATE.STRICT_ISO_TO_SLASH.",
+      "passed": true,
+      "persisted": "2027/10/01",
+      "rawDifferences": [
+        {
+          "candidate": "2027-10-01",
+          "field": "StartDate",
+          "persisted": "2027/10/01",
+          "requested": "2027-10-01"
+        }
+      ],
+      "requested": "2027-10-01",
+      "requirement": "Persist AP_OTHER_PERIOD_PERIOD.StartDate=2027-10-01",
+      "requirementId": "REQ-106",
+      "semanticEquivalences": [
+        {
+          "canonicalValue": "2027-10-01",
+          "contractEvidence": [
+            "e2e-adapter.json package.entities[AP_OTHER_PERIOD_PERIOD].types[StartDate]=date",
+            "Exact ASM_SETUP_CSV_METADATA.xml XmlAttributeTypeList date contract"
+          ],
+          "declaredType": "date",
+          "entity": "AP_OTHER_PERIOD_PERIOD",
+          "field": "StartDate",
+          "rawValues": {
+            "candidate": "2027-10-01",
+            "persisted": "2027/10/01",
+            "requested": "2027-10-01"
+          },
+          "ruleId": "FSCR.TYPE.DATE.STRICT_ISO_TO_SLASH",
+          "semanticValue": "same Gregorian calendar date"
+        }
+      ]
+    },
+    {
+      "candidate": "not populated by design",
+      "detail": "Unexpected difference count: 0.",
+      "passed": true,
+      "persisted": "unchanged",
+      "requested": "unchanged",
+      "requirement": "Preserve every unspecified record and non-audit value",
+      "requirementId": "REQ-107"
+    },
+    {
+      "candidate": "present",
+      "detail": "",
+      "passed": true,
+      "persisted": "present",
+      "requested": "record present",
+      "requirement": "create exactly one AP_OTHER_PERIOD_PERIOD record identified by {\"CalendarName\":\"FSCRT_CAL1\",\"CalendarType\":\"GENERAL\",\"PeriodName\":\"Nov-27\"}",
+      "requirementId": "REQ-108"
+    },
+    {
+      "candidate": "FSCRT_CAL1",
+      "detail": "",
+      "passed": true,
+      "persisted": "FSCRT_CAL1",
+      "requested": "FSCRT_CAL1",
+      "requirement": "Persist AP_OTHER_PERIOD_PERIOD.AP_OTHER_PERIOD_TYPE.CalendarName=FSCRT_CAL1",
+      "requirementId": "REQ-109"
+    },
+    {
+      "candidate": "GENERAL",
+      "detail": "",
+      "passed": true,
+      "persisted": "GENERAL",
+      "requested": "GENERAL",
+      "requirement": "Persist AP_OTHER_PERIOD_PERIOD.AP_OTHER_PERIOD_TYPE.CalendarType=GENERAL",
+      "requirementId": "REQ-110"
+    },
+    {
+      "candidate": "200",
+      "detail": "",
+      "passed": true,
+      "persisted": "200",
+      "requested": "200",
+      "requirement": "Persist AP_OTHER_PERIOD_PERIOD.ApplicationId=200",
+      "requirementId": "REQ-111"
+    },
+    {
+      "candidate": "2027-11-30",
+      "detail": "Retained the raw declared-date format difference under FSCR.TYPE.DATE.STRICT_ISO_TO_SLASH.",
+      "passed": true,
+      "persisted": "2027/11/30",
+      "rawDifferences": [
+        {
+          "candidate": "2027-11-30",
+          "field": "EndDate",
+          "persisted": "2027/11/30",
+          "requested": "2027-11-30"
+        }
+      ],
+      "requested": "2027-11-30",
+      "requirement": "Persist AP_OTHER_PERIOD_PERIOD.EndDate=2027-11-30",
+      "requirementId": "REQ-112",
+      "semanticEquivalences": [
+        {
+          "canonicalValue": "2027-11-30",
+          "contractEvidence": [
+            "e2e-adapter.json package.entities[AP_OTHER_PERIOD_PERIOD].types[EndDate]=date",
+            "Exact ASM_SETUP_CSV_METADATA.xml XmlAttributeTypeList date contract"
+          ],
+          "declaredType": "date",
+          "entity": "AP_OTHER_PERIOD_PERIOD",
+          "field": "EndDate",
+          "rawValues": {
+            "candidate": "2027-11-30",
+            "persisted": "2027/11/30",
+            "requested": "2027-11-30"
+          },
+          "ruleId": "FSCR.TYPE.DATE.STRICT_ISO_TO_SLASH",
+          "semanticValue": "same Gregorian calendar date"
+        }
+      ]
+    },
+    {
+      "candidate": "Nov",
+      "detail": "",
+      "passed": true,
+      "persisted": "Nov",
+      "requested": "Nov",
+      "requirement": "Persist AP_OTHER_PERIOD_PERIOD.EnteredPeriodName=Nov",
+      "requirementId": "REQ-113"
+    },
+    {
+      "candidate": "11",
+      "detail": "",
+      "passed": true,
+      "persisted": "11",
+      "requested": "11",
+      "requirement": "Persist AP_OTHER_PERIOD_PERIOD.PeriodNum=11",
+      "requirementId": "REQ-114"
+    },
+    {
+      "candidate": "2027",
+      "detail": "",
+      "passed": true,
+      "persisted": "2027",
+      "requested": "2027",
+      "requirement": "Persist AP_OTHER_PERIOD_PERIOD.PeriodYear=2027",
+      "requirementId": "REQ-115"
+    },
+    {
+      "candidate": "2027-11-01",
+      "detail": "Retained the raw declared-date format difference under FSCR.TYPE.DATE.STRICT_ISO_TO_SLASH.",
+      "passed": true,
+      "persisted": "2027/11/01",
+      "rawDifferences": [
+        {
+          "candidate": "2027-11-01",
+          "field": "StartDate",
+          "persisted": "2027/11/01",
+          "requested": "2027-11-01"
+        }
+      ],
+      "requested": "2027-11-01",
+      "requirement": "Persist AP_OTHER_PERIOD_PERIOD.StartDate=2027-11-01",
+      "requirementId": "REQ-116",
+      "semanticEquivalences": [
+        {
+          "canonicalValue": "2027-11-01",
+          "contractEvidence": [
+            "e2e-adapter.json package.entities[AP_OTHER_PERIOD_PERIOD].types[StartDate]=date",
+            "Exact ASM_SETUP_CSV_METADATA.xml XmlAttributeTypeList date contract"
+          ],
+          "declaredType": "date",
+          "entity": "AP_OTHER_PERIOD_PERIOD",
+          "field": "StartDate",
+          "rawValues": {
+            "candidate": "2027-11-01",
+            "persisted": "2027/11/01",
+            "requested": "2027-11-01"
+          },
+          "ruleId": "FSCR.TYPE.DATE.STRICT_ISO_TO_SLASH",
+          "semanticValue": "same Gregorian calendar date"
+        }
+      ]
+    },
+    {
+      "candidate": "not populated by design",
+      "detail": "Unexpected difference count: 0.",
+      "passed": true,
+      "persisted": "unchanged",
+      "requested": "unchanged",
+      "requirement": "Preserve every unspecified record and non-audit value",
+      "requirementId": "REQ-117"
+    },
+    {
+      "candidate": "present",
+      "detail": "",
+      "passed": true,
+      "persisted": "present",
+      "requested": "record present",
+      "requirement": "create exactly one AP_OTHER_PERIOD_PERIOD record identified by {\"CalendarName\":\"FSCRT_CAL1\",\"CalendarType\":\"GENERAL\",\"PeriodName\":\"Dec-27\"}",
+      "requirementId": "REQ-118"
+    },
+    {
+      "candidate": "FSCRT_CAL1",
+      "detail": "",
+      "passed": true,
+      "persisted": "FSCRT_CAL1",
+      "requested": "FSCRT_CAL1",
+      "requirement": "Persist AP_OTHER_PERIOD_PERIOD.AP_OTHER_PERIOD_TYPE.CalendarName=FSCRT_CAL1",
+      "requirementId": "REQ-119"
+    },
+    {
+      "candidate": "GENERAL",
+      "detail": "",
+      "passed": true,
+      "persisted": "GENERAL",
+      "requested": "GENERAL",
+      "requirement": "Persist AP_OTHER_PERIOD_PERIOD.AP_OTHER_PERIOD_TYPE.CalendarType=GENERAL",
+      "requirementId": "REQ-120"
+    },
+    {
+      "candidate": "200",
+      "detail": "",
+      "passed": true,
+      "persisted": "200",
+      "requested": "200",
+      "requirement": "Persist AP_OTHER_PERIOD_PERIOD.ApplicationId=200",
+      "requirementId": "REQ-121"
+    },
+    {
+      "candidate": "2027-12-31",
+      "detail": "Retained the raw declared-date format difference under FSCR.TYPE.DATE.STRICT_ISO_TO_SLASH.",
+      "passed": true,
+      "persisted": "2027/12/31",
+      "rawDifferences": [
+        {
+          "candidate": "2027-12-31",
+          "field": "EndDate",
+          "persisted": "2027/12/31",
+          "requested": "2027-12-31"
+        }
+      ],
+      "requested": "2027-12-31",
+      "requirement": "Persist AP_OTHER_PERIOD_PERIOD.EndDate=2027-12-31",
+      "requirementId": "REQ-122",
+      "semanticEquivalences": [
+        {
+          "canonicalValue": "2027-12-31",
+          "contractEvidence": [
+            "e2e-adapter.json package.entities[AP_OTHER_PERIOD_PERIOD].types[EndDate]=date",
+            "Exact ASM_SETUP_CSV_METADATA.xml XmlAttributeTypeList date contract"
+          ],
+          "declaredType": "date",
+          "entity": "AP_OTHER_PERIOD_PERIOD",
+          "field": "EndDate",
+          "rawValues": {
+            "candidate": "2027-12-31",
+            "persisted": "2027/12/31",
+            "requested": "2027-12-31"
+          },
+          "ruleId": "FSCR.TYPE.DATE.STRICT_ISO_TO_SLASH",
+          "semanticValue": "same Gregorian calendar date"
+        }
+      ]
+    },
+    {
+      "candidate": "Dec",
+      "detail": "",
+      "passed": true,
+      "persisted": "Dec",
+      "requested": "Dec",
+      "requirement": "Persist AP_OTHER_PERIOD_PERIOD.EnteredPeriodName=Dec",
+      "requirementId": "REQ-123"
+    },
+    {
+      "candidate": "12",
+      "detail": "",
+      "passed": true,
+      "persisted": "12",
+      "requested": "12",
+      "requirement": "Persist AP_OTHER_PERIOD_PERIOD.PeriodNum=12",
+      "requirementId": "REQ-124"
+    },
+    {
+      "candidate": "2027",
+      "detail": "",
+      "passed": true,
+      "persisted": "2027",
+      "requested": "2027",
+      "requirement": "Persist AP_OTHER_PERIOD_PERIOD.PeriodYear=2027",
+      "requirementId": "REQ-125"
+    },
+    {
+      "candidate": "2027-12-01",
+      "detail": "Retained the raw declared-date format difference under FSCR.TYPE.DATE.STRICT_ISO_TO_SLASH.",
+      "passed": true,
+      "persisted": "2027/12/01",
+      "rawDifferences": [
+        {
+          "candidate": "2027-12-01",
+          "field": "StartDate",
+          "persisted": "2027/12/01",
+          "requested": "2027-12-01"
+        }
+      ],
+      "requested": "2027-12-01",
+      "requirement": "Persist AP_OTHER_PERIOD_PERIOD.StartDate=2027-12-01",
+      "requirementId": "REQ-126",
+      "semanticEquivalences": [
+        {
+          "canonicalValue": "2027-12-01",
+          "contractEvidence": [
+            "e2e-adapter.json package.entities[AP_OTHER_PERIOD_PERIOD].types[StartDate]=date",
+            "Exact ASM_SETUP_CSV_METADATA.xml XmlAttributeTypeList date contract"
+          ],
+          "declaredType": "date",
+          "entity": "AP_OTHER_PERIOD_PERIOD",
+          "field": "StartDate",
+          "rawValues": {
+            "candidate": "2027-12-01",
+            "persisted": "2027/12/01",
+            "requested": "2027-12-01"
+          },
+          "ruleId": "FSCR.TYPE.DATE.STRICT_ISO_TO_SLASH",
+          "semanticValue": "same Gregorian calendar date"
+        }
+      ]
+    },
+    {
+      "candidate": "not populated by design",
+      "detail": "Unexpected difference count: 0.",
+      "passed": true,
+      "persisted": "unchanged",
+      "requested": "unchanged",
+      "requirement": "Preserve every unspecified record and non-audit value",
+      "requirementId": "REQ-127"
+    }
+  ],
+  "schemaVersion": "fscr-fsm-task-adapter-v1",
+  "status": "PASS",
+  "task": {
+    "code": "AP_MANAGE_PAYABLES_CALENDARS",
+    "csvSupported": true,
+    "functionalArea": "Payables",
+    "importMode": "FSM",
+    "name": "Manage Payables Calendars",
+    "offering": "Financials"
+  }
+}
+
+--stderr--

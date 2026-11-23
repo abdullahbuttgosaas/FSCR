@@ -1,0 +1,1072 @@
+{
+ "orgA": {
+  "ids": {
+   "LocationId": "300000394593164",
+   "PartyId": "300000394619196",
+   "PartySiteId": "300000394619197",
+   "CustomerAccountId": "300000394607181",
+   "AccountNumber": "22050",
+   "CustomerAccountSiteId": "300000394607182",
+   "SiteUseIds": [
+    "300000394607183",
+    "300000394607184"
+   ]
+  },
+  "checks": [
+   [
+    "account.AccountName",
+    "Buying cooperative for trail shops",
+    "Buying cooperative for trail shops",
+    true
+   ],
+   [
+    "account.CustomerType",
+    "R",
+    "R",
+    true
+   ],
+   [
+    "account.CustomerClassCode",
+    "PUBLIC SECTOR COMPANIES",
+    "PUBLIC SECTOR COMPANIES",
+    true
+   ],
+   [
+    "account.AccountEstablishedDate",
+    "2026-11-02",
+    "2026-11-02",
+    true
+   ],
+   [
+    "account.AccountTerminationDate",
+    "2028-12-31",
+    "2028-12-31",
+    true
+   ],
+   [
+    "account.CreatedByModule",
+    "HZ_WS",
+    "HZ_WS",
+    true
+   ],
+   [
+    "accountDFF.accountNotesOther",
+    "Net 45 account, seasonal volume orders",
+    "Net 45 account, seasonal volume orders",
+    true
+   ],
+   [
+    "accountDFF.shippingInstrustions",
+    "Deliver to loading bay B, weekdays 7am to 3pm",
+    "Deliver to loading bay B, weekdays 7am to 3pm",
+    true
+   ],
+   [
+    "accountDFF.customerAgreement",
+    "Two year dealer supply agreement",
+    "Two year dealer supply agreement",
+    true
+   ],
+   [
+    "site.SetId",
+    "300000000003463",
+    "300000000003463",
+    true
+   ],
+   [
+    "site.StartDate",
+    "2026-11-02",
+    "2026-11-02",
+    true
+   ],
+   [
+    "site.EndDate",
+    "2028-12-31",
+    "2028-12-31",
+    true
+   ],
+   [
+    "site.KeyAccountFlag",
+    "true",
+    "true",
+    true
+   ],
+   [
+    "site.TpHeaderId",
+    "5502101",
+    "5502101",
+    true
+   ],
+   [
+    "site.EceTpLocationCode",
+    "KBT-EDI-01",
+    "KBT-EDI-01",
+    true
+   ],
+   [
+    "site.TranslatedCustomerName",
+    "Kestrel Basin Trading Co-op",
+    "Kestrel Basin Trading Co-op",
+    true
+   ],
+   [
+    "site.CreatedByModule",
+    "HZ_WS",
+    "HZ_WS",
+    true
+   ],
+   [
+    "siteUses",
+    "['BILL_TO', 'SHIP_TO']",
+    "['BILL_TO', 'SHIP_TO']",
+    true
+   ],
+   [
+    "siteUses.primary",
+    "['true', 'true']",
+    "['true', 'true']",
+    true
+   ],
+   [
+    "siteUse.BILL_TO.StartDate",
+    "2026-11-02",
+    "2026-11-02",
+    true
+   ],
+   [
+    "siteUse.SHIP_TO.StartDate",
+    "2026-11-02",
+    "2026-11-02",
+    true
+   ],
+   [
+    "location.Country",
+    "US",
+    "US",
+    true
+   ],
+   [
+    "location.Address1",
+    "2210 Pearl Street",
+    "2210 Pearl Street",
+    true
+   ],
+   [
+    "location.Address2",
+    "Unit 5",
+    "Unit 5",
+    true
+   ],
+   [
+    "location.City",
+    "Boulder",
+    "Boulder",
+    true
+   ],
+   [
+    "location.PostalCode",
+    "80302",
+    "80302",
+    true
+   ],
+   [
+    "location.State",
+    "CO",
+    "CO",
+    true
+   ],
+   [
+    "location.SalesTaxInsideCityLimits",
+    "1",
+    "1",
+    true
+   ],
+   [
+    "locationDFF.responsibleMineralStatus",
+    "Conflict Free",
+    "Conflict Free",
+    true
+   ],
+   [
+    "locationDFF.address1",
+    "Cooperative depot",
+    "Cooperative depot",
+    true
+   ],
+   [
+    "locationDFF.urlattr",
+    "https://www.kestrelbasin.example.com",
+    "https://www.kestrelbasin.example.com",
+    true
+   ],
+   [
+    "locationDFF.ContactEmailAttr",
+    "buying@kestrelbasin.example.com",
+    "buying@kestrelbasin.example.com",
+    true
+   ],
+   [
+    "locationDFF.AuthorizerAttr",
+    "Rhea Lindqvist",
+    "Rhea Lindqvist",
+    true
+   ],
+   [
+    "locationDFF.TekSupplierSiteID",
+    "4201",
+    "4201",
+    true
+   ],
+   [
+    "party.OrganizationName",
+    "FSCRT_Kestrel Basin Trading Cooperative F01",
+    "FSCRT_Kestrel Basin Trading Cooperative F01",
+    true
+   ],
+   [
+    "party.DUNS",
+    "204118306",
+    "204118306",
+    true
+   ],
+   [
+    "party.TaxpayerId",
+    "84-2210764",
+    "84-2210764",
+    true
+   ],
+   [
+    "partySite.PartySiteName",
+    "FSCRT_Kestrel Basin Depot",
+    "FSCRT_Kestrel Basin Depot",
+    true
+   ],
+   [
+    "partySite.Mailstop",
+    "Bay B",
+    "Bay B",
+    true
+   ]
+  ],
+  "mismatches": [],
+  "location_source": "FSCR customer_soap_read",
+  "party_raw_keys": [
+   "CEOName",
+   "CEOTitle",
+   "DUNSCreditRating",
+   "DUNSNumber",
+   "DisplayedDUNSPartyId",
+   "DomesticUltimateDUNSNumber",
+   "EnquiryDUNS",
+   "GlobalUltimateDUNSNumber",
+   "OrganizationName",
+   "ParentDUNSNumber",
+   "PrincipalName",
+   "PrincipalTitle",
+   "TaxpayerIdentificationNumber",
+   "UniqueNameAlias",
+   "UniqueNameSuffix"
+  ]
+ },
+ "orgB": {
+  "ids": {
+   "LocationId": "300000394612196",
+   "PartyId": "300000394593171",
+   "PartySiteId": "300000394593172",
+   "CustomerAccountId": "300000394607188",
+   "AccountNumber": "22051",
+   "CustomerAccountSiteId": "300000394607189",
+   "SiteUseIds": [
+    "300000394607190",
+    "300000394607191"
+   ]
+  },
+  "checks": [
+   [
+    "account.AccountName",
+    "Boat builder and chandlery",
+    "Boat builder and chandlery",
+    true
+   ],
+   [
+    "account.CustomerType",
+    "R",
+    "R",
+    true
+   ],
+   [
+    "account.CustomerClassCode",
+    "PUBLIC SECTOR COMPANIES",
+    "PUBLIC SECTOR COMPANIES",
+    true
+   ],
+   [
+    "account.AccountEstablishedDate",
+    "2026-11-03",
+    "2026-11-03",
+    true
+   ],
+   [
+    "account.AccountTerminationDate",
+    "2029-06-30",
+    "2029-06-30",
+    true
+   ],
+   [
+    "account.CreatedByModule",
+    "HZ_WS",
+    "HZ_WS",
+    true
+   ],
+   [
+    "accountDFF.accountNotesOther",
+    "Rush orders common in spring",
+    "Rush orders common in spring",
+    true
+   ],
+   [
+    "accountDFF.shippingInstrustions",
+    "Deliver to the slipway office",
+    "Deliver to the slipway office",
+    true
+   ],
+   [
+    "accountDFF.customerAgreement",
+    "Marine parts framework agreement",
+    "Marine parts framework agreement",
+    true
+   ],
+   [
+    "site.SetId",
+    "300000334604945",
+    "300000334604945",
+    true
+   ],
+   [
+    "site.StartDate",
+    "2026-11-03",
+    "2026-11-03",
+    true
+   ],
+   [
+    "site.EndDate",
+    "2029-06-30",
+    "2029-06-30",
+    true
+   ],
+   [
+    "site.KeyAccountFlag",
+    "true",
+    "true",
+    true
+   ],
+   [
+    "site.TpHeaderId",
+    "5502103",
+    "5502103",
+    true
+   ],
+   [
+    "site.EceTpLocationCode",
+    "PCB-EDI-03",
+    "PCB-EDI-03",
+    true
+   ],
+   [
+    "site.TranslatedCustomerName",
+    "Pemberton Cove Boatworks LLC",
+    "Pemberton Cove Boatworks LLC",
+    true
+   ],
+   [
+    "site.CreatedByModule",
+    "HZ_WS",
+    "HZ_WS",
+    true
+   ],
+   [
+    "siteUses",
+    "['BILL_TO', 'SHIP_TO']",
+    "['BILL_TO', 'SHIP_TO']",
+    true
+   ],
+   [
+    "siteUses.primary",
+    "['true', 'true']",
+    "['true', 'true']",
+    true
+   ],
+   [
+    "siteUse.BILL_TO.StartDate",
+    "2026-11-03",
+    "2026-11-03",
+    true
+   ],
+   [
+    "siteUse.SHIP_TO.StartDate",
+    "2026-11-03",
+    "2026-11-03",
+    true
+   ],
+   [
+    "location.Country",
+    "US",
+    "US",
+    true
+   ],
+   [
+    "location.Address1",
+    "1740 Wynkoop Street",
+    "1740 Wynkoop Street",
+    true
+   ],
+   [
+    "location.Address2",
+    "Suite 110",
+    "Suite 110",
+    true
+   ],
+   [
+    "location.City",
+    "Denver",
+    "Denver",
+    true
+   ],
+   [
+    "location.PostalCode",
+    "80202",
+    "80202",
+    true
+   ],
+   [
+    "location.State",
+    "CO",
+    "CO",
+    true
+   ],
+   [
+    "location.SalesTaxInsideCityLimits",
+    "1",
+    "1",
+    true
+   ],
+   [
+    "locationDFF.responsibleMineralStatus",
+    "Undetermined",
+    "Undetermined",
+    true
+   ],
+   [
+    "locationDFF.address1",
+    "Boatyard office",
+    "Boatyard office",
+    true
+   ],
+   [
+    "locationDFF.urlattr",
+    "https://www.pembertoncove.example.com",
+    "https://www.pembertoncove.example.com",
+    true
+   ],
+   [
+    "locationDFF.ContactEmailAttr",
+    "purchasing@pembertoncove.example.com",
+    "purchasing@pembertoncove.example.com",
+    true
+   ],
+   [
+    "locationDFF.AuthorizerAttr",
+    "Saoirse Vandenberg",
+    "Saoirse Vandenberg",
+    true
+   ],
+   [
+    "locationDFF.TekSupplierSiteID",
+    "4203",
+    "4203",
+    true
+   ],
+   [
+    "party.OrganizationName",
+    "FSCRT_Pemberton Cove Boatworks F01",
+    "FSCRT_Pemberton Cove Boatworks F01",
+    true
+   ],
+   [
+    "party.DUNS",
+    "428351077",
+    "428351077",
+    true
+   ],
+   [
+    "party.TaxpayerId",
+    "36-9054187",
+    "36-9054187",
+    true
+   ],
+   [
+    "partySite.PartySiteName",
+    "FSCRT_Pemberton Cove Yard",
+    "FSCRT_Pemberton Cove Yard",
+    true
+   ],
+   [
+    "partySite.Mailstop",
+    "Slip 3",
+    "Slip 3",
+    true
+   ]
+  ],
+  "mismatches": [],
+  "location_source": "FSCR customer_soap_read",
+  "party_raw_keys": [
+   "CEOName",
+   "CEOTitle",
+   "DUNSCreditRating",
+   "DUNSNumber",
+   "DisplayedDUNSPartyId",
+   "DomesticUltimateDUNSNumber",
+   "EnquiryDUNS",
+   "GlobalUltimateDUNSNumber",
+   "OrganizationName",
+   "ParentDUNSNumber",
+   "PrincipalName",
+   "PrincipalTitle",
+   "TaxpayerIdentificationNumber",
+   "UniqueNameAlias",
+   "UniqueNameSuffix"
+  ]
+ },
+ "perA": {
+  "ids": {
+   "LocationId": "300000394612198",
+   "PartyId": "300000394607195",
+   "PartySiteId": "300000394607196",
+   "CustomerAccountId": "300000394612201",
+   "AccountNumber": "22052",
+   "CustomerAccountSiteId": "300000394612202",
+   "SiteUseIds": [
+    "300000394612203"
+   ]
+  },
+  "checks": [
+   [
+    "account.AccountName",
+    "Independent trail guide",
+    "Independent trail guide",
+    true
+   ],
+   [
+    "account.CustomerType",
+    "R",
+    "R",
+    true
+   ],
+   [
+    "account.CustomerClassCode",
+    "PUBLIC SECTOR COMPANIES",
+    "PUBLIC SECTOR COMPANIES",
+    true
+   ],
+   [
+    "account.AccountEstablishedDate",
+    "2026-11-02",
+    "2026-11-02",
+    true
+   ],
+   [
+    "account.CreatedByModule",
+    "HZ_WS",
+    "HZ_WS",
+    true
+   ],
+   [
+    "accountDFF.accountNotesOther",
+    "Pays by card at pickup",
+    "Pays by card at pickup",
+    true
+   ],
+   [
+    "accountDFF.shippingInstrustions",
+    "Hold at front desk",
+    "Hold at front desk",
+    true
+   ],
+   [
+    "accountDFF.customerAgreement",
+    "Individual gear purchase terms",
+    "Individual gear purchase terms",
+    true
+   ],
+   [
+    "site.SetId",
+    "300000000003463",
+    "300000000003463",
+    true
+   ],
+   [
+    "site.StartDate",
+    "2026-11-02",
+    "2026-11-02",
+    true
+   ],
+   [
+    "site.KeyAccountFlag",
+    "false",
+    "false",
+    true
+   ],
+   [
+    "site.TpHeaderId",
+    "6603101",
+    "6603101",
+    true
+   ],
+   [
+    "site.EceTpLocationCode",
+    "CT-EDI-01",
+    "CT-EDI-01",
+    true
+   ],
+   [
+    "site.TranslatedCustomerName",
+    "Caspian R Thornbury",
+    "Caspian R Thornbury",
+    true
+   ],
+   [
+    "site.CreatedByModule",
+    "HZ_WS",
+    "HZ_WS",
+    true
+   ],
+   [
+    "siteUses",
+    "['BILL_TO']",
+    "['BILL_TO']",
+    true
+   ],
+   [
+    "siteUses.primary",
+    "['true']",
+    "['true']",
+    true
+   ],
+   [
+    "siteUse.BILL_TO.StartDate",
+    "2026-11-02",
+    "2026-11-02",
+    true
+   ],
+   [
+    "location.Country",
+    "US",
+    "US",
+    true
+   ],
+   [
+    "location.Address1",
+    "1250 N State Street",
+    "1250 N State Street",
+    true
+   ],
+   [
+    "location.Address2",
+    "Apt 3B",
+    "Apt 3B",
+    true
+   ],
+   [
+    "location.City",
+    "Chicago",
+    "Chicago",
+    true
+   ],
+   [
+    "location.PostalCode",
+    "60601",
+    "60601",
+    true
+   ],
+   [
+    "location.State",
+    "IL",
+    "IL",
+    true
+   ],
+   [
+    "location.SalesTaxInsideCityLimits",
+    "1",
+    "1",
+    true
+   ],
+   [
+    "locationDFF.responsibleMineralStatus",
+    "Conflict Free",
+    "Conflict Free",
+    true
+   ],
+   [
+    "locationDFF.address1",
+    "Home address",
+    "Home address",
+    true
+   ],
+   [
+    "locationDFF.urlattr",
+    "https://www.thornbury.example.com",
+    "https://www.thornbury.example.com",
+    true
+   ],
+   [
+    "locationDFF.ContactEmailAttr",
+    "caspian@thornbury.example.com",
+    "caspian@thornbury.example.com",
+    true
+   ],
+   [
+    "locationDFF.AuthorizerAttr",
+    "Caspian Thornbury",
+    "Caspian Thornbury",
+    true
+   ],
+   [
+    "locationDFF.TekSupplierSiteID",
+    "4301",
+    "4301",
+    true
+   ],
+   [
+    "party.FirstName",
+    "FSCRT_Caspian",
+    "FSCRT_Caspian",
+    true
+   ],
+   [
+    "party.LastName",
+    "Thornbury",
+    "Thornbury",
+    true
+   ],
+   [
+    "party.MiddleName",
+    "Reed",
+    "Reed",
+    true
+   ],
+   [
+    "party.Suffix",
+    "Jr.",
+    "Jr.",
+    true
+   ],
+   [
+    "party.Prefix",
+    "MR.",
+    "",
+    false
+   ],
+   [
+    "party.TaxpayerId",
+    "58-4410237",
+    "58-4410237",
+    true
+   ],
+   [
+    "partySite.PartySiteName",
+    "FSCRT_Thornbury Residence",
+    "FSCRT_Thornbury Residence",
+    true
+   ],
+   [
+    "partySite.Mailstop",
+    "Unit 1",
+    "Unit 1",
+    true
+   ]
+  ],
+  "mismatches": [
+   "party.Prefix"
+  ],
+  "location_source": "FSCR customer_soap_read",
+  "party_name": "FSCRT_Caspian Reed Thornbury Jr.",
+  "party_raw_keys": [
+   "AcademicTitle",
+   "FirstName",
+   "JobTitle",
+   "JobTitleCode",
+   "LastName",
+   "LastNamePrefix",
+   "MiddleName",
+   "NameSuffix",
+   "OrganizationPartyName",
+   "PersonName",
+   "PreviousLastName",
+   "Salutation",
+   "SecondLastName",
+   "TaxpayerIdentificationNumber",
+   "Title",
+   "UniqueNameSuffix"
+  ]
+ },
+ "perB": {
+  "ids": {
+   "LocationId": "300000394593175",
+   "PartyId": "300000394619202",
+   "PartySiteId": "300000394619203",
+   "CustomerAccountId": "300000394593177",
+   "AccountNumber": "22053",
+   "CustomerAccountSiteId": "300000394593178",
+   "SiteUseIds": [
+    "300000394593179"
+   ]
+  },
+  "checks": [
+   [
+    "account.AccountName",
+    "Kayak instructor",
+    "Kayak instructor",
+    true
+   ],
+   [
+    "account.CustomerType",
+    "R",
+    "R",
+    true
+   ],
+   [
+    "account.CustomerClassCode",
+    "FEDERAL",
+    "FEDERAL",
+    true
+   ],
+   [
+    "account.AccountEstablishedDate",
+    "2026-11-02",
+    "2026-11-02",
+    true
+   ],
+   [
+    "account.AccountTerminationDate",
+    "2027-12-31",
+    "2027-12-31",
+    true
+   ],
+   [
+    "account.CreatedByModule",
+    "HZ_WS",
+    "HZ_WS",
+    true
+   ],
+   [
+    "accountDFF.accountNotesOther",
+    "Orders paddles twice a year",
+    "Orders paddles twice a year",
+    true
+   ],
+   [
+    "accountDFF.shippingInstrustions",
+    "Leave with neighbour if absent",
+    "Leave with neighbour if absent",
+    true
+   ],
+   [
+    "accountDFF.customerAgreement",
+    "Instructor equipment terms",
+    "Instructor equipment terms",
+    true
+   ],
+   [
+    "site.SetId",
+    "300000000003463",
+    "300000000003463",
+    true
+   ],
+   [
+    "site.StartDate",
+    "2026-11-02",
+    "2026-11-02",
+    true
+   ],
+   [
+    "site.EndDate",
+    "2027-12-31",
+    "2027-12-31",
+    true
+   ],
+   [
+    "site.KeyAccountFlag",
+    "false",
+    "false",
+    true
+   ],
+   [
+    "site.TpHeaderId",
+    "6603102",
+    "6603102",
+    true
+   ],
+   [
+    "site.EceTpLocationCode",
+    "LV-EDI-02",
+    "LV-EDI-02",
+    true
+   ],
+   [
+    "site.TranslatedCustomerName",
+    "Linnea Voskuijlen",
+    "Linnea Voskuijlen",
+    true
+   ],
+   [
+    "site.CreatedByModule",
+    "HZ_WS",
+    "HZ_WS",
+    true
+   ],
+   [
+    "siteUses",
+    "['SHIP_TO']",
+    "['SHIP_TO']",
+    true
+   ],
+   [
+    "siteUses.primary",
+    "['true']",
+    "['true']",
+    true
+   ],
+   [
+    "siteUse.SHIP_TO.StartDate",
+    "2026-11-02",
+    "2026-11-02",
+    true
+   ],
+   [
+    "location.Country",
+    "US",
+    "US",
+    true
+   ],
+   [
+    "location.Address1",
+    "88 Beacon Street",
+    "88 Beacon Street",
+    true
+   ],
+   [
+    "location.City",
+    "Boston",
+    "Boston",
+    true
+   ],
+   [
+    "location.PostalCode",
+    "02110",
+    "02110",
+    true
+   ],
+   [
+    "location.State",
+    "MA",
+    "MA",
+    true
+   ],
+   [
+    "location.SalesTaxInsideCityLimits",
+    "0",
+    "0",
+    true
+   ],
+   [
+    "locationDFF.responsibleMineralStatus",
+    "N/A",
+    "N/A",
+    true
+   ],
+   [
+    "locationDFF.address1",
+    "Home address",
+    "Home address",
+    true
+   ],
+   [
+    "locationDFF.urlattr",
+    "https://www.voskuijlen.example.com",
+    "https://www.voskuijlen.example.com",
+    true
+   ],
+   [
+    "locationDFF.ContactEmailAttr",
+    "linnea@voskuijlen.example.com",
+    "linnea@voskuijlen.example.com",
+    true
+   ],
+   [
+    "locationDFF.AuthorizerAttr",
+    "Linnea Voskuijlen",
+    "Linnea Voskuijlen",
+    true
+   ],
+   [
+    "locationDFF.TekSupplierSiteID",
+    "4302",
+    "4302",
+    true
+   ],
+   [
+    "party.FirstName",
+    "FSCRT_Linnea",
+    "FSCRT_Linnea",
+    true
+   ],
+   [
+    "party.LastName",
+    "Voskuijlen",
+    "Voskuijlen",
+    true
+   ],
+   [
+    "party.Prefix",
+    "MS.",
+    "",
+    false
+   ],
+   [
+    "party.TaxpayerId",
+    "63-7702158",
+    "63-7702158",
+    true
+   ],
+   [
+    "partySite.PartySiteName",
+    "FSCRT_Voskuijlen Home",
+    "FSCRT_Voskuijlen Home",
+    true
+   ]
+  ],
+  "mismatches": [
+   "party.Prefix"
+  ],
+  "location_source": "FSCR customer_soap_read",
+  "party_name": "FSCRT_Linnea Voskuijlen",
+  "party_raw_keys": [
+   "AcademicTitle",
+   "FirstName",
+   "JobTitle",
+   "JobTitleCode",
+   "LastName",
+   "LastNamePrefix",
+   "MiddleName",
+   "NameSuffix",
+   "OrganizationPartyName",
+   "PersonName",
+   "PreviousLastName",
+   "Salutation",
+   "SecondLastName",
+   "TaxpayerIdentificationNumber",
+   "Title",
+   "UniqueNameSuffix"
+  ]
+ }
+}

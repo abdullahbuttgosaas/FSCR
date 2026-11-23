@@ -1,0 +1,653 @@
+{
+  "items" : [ {
+    "AccountId" : "300000327305738",
+    "AccountNumber" : "1002",
+    "CustomerName" : "OM_Test_Customer",
+    "CustomerId" : "300000327305736",
+    "TaxRegistrationNumber" : null,
+    "TaxpayerIdentificationNumber" : null,
+    "TotalOpenReceivablesForAccount" : "0",
+    "TotalTransactionsDueForAccount" : "0",
+    "CreatedBy" : "Configuration",
+    "CreationDate" : "2024-05-22T09:25:48.318+00:00",
+    "LastUpdatedBy" : "Configuration",
+    "LastUpdateDate" : "2024-05-22T09:26:25.076+00:00",
+    "@context" : {
+      "key" : "300000327305738"
+    }
+  }, {
+    "AccountId" : "300000332869083",
+    "AccountNumber" : "5001",
+    "CustomerName" : "001 Customer",
+    "CustomerId" : "300000332869081",
+    "TaxRegistrationNumber" : null,
+    "TaxpayerIdentificationNumber" : null,
+    "TotalOpenReceivablesForAccount" : "0",
+    "TotalTransactionsDueForAccount" : "0",
+    "CreatedBy" : "Configuration",
+    "CreationDate" : "2024-12-12T10:32:05.275+00:00",
+    "LastUpdatedBy" : "Configuration",
+    "LastUpdateDate" : "2024-12-12T10:38:06.219+00:00",
+    "@context" : {
+      "key" : "300000332869083"
+    }
+  }, {
+    "AccountId" : "300000338108265",
+    "AccountNumber" : "12003",
+    "CustomerName" : "GoSaas Customer",
+    "CustomerId" : "300000338108263",
+    "TaxRegistrationNumber" : null,
+    "TaxpayerIdentificationNumber" : null,
+    "TotalOpenReceivablesForAccount" : "0",
+    "TotalTransactionsDueForAccount" : "0",
+    "CreatedBy" : "Configuration",
+    "CreationDate" : "2025-08-07T15:41:20.032+00:00",
+    "LastUpdatedBy" : "Configuration",
+    "LastUpdateDate" : "2025-08-07T15:44:40.947+00:00",
+    "@context" : {
+      "key" : "300000338108265"
+    }
+  }, {
+    "AccountId" : "300000389356405",
+    "AccountNumber" : "18007",
+    "CustomerName" : "ayaan9797",
+    "CustomerId" : "300000389281547",
+    "TaxRegistrationNumber" : null,
+    "TaxpayerIdentificationNumber" : null,
+    "TotalOpenReceivablesForAccount" : "0",
+    "TotalTransactionsDueForAccount" : "0",
+    "CreatedBy" : "Configuration",
+    "CreationDate" : "2026-08-11T11:58:18.001+00:00",
+    "LastUpdatedBy" : "Configuration",
+    "LastUpdateDate" : "2026-08-11T12:00:04.151+00:00",
+    "@context" : {
+      "key" : "300000389356405"
+    }
+  }, {
+    "AccountId" : "300000393699014",
+    "AccountNumber" : "20008",
+    "CustomerName" : "Apex Wireless",
+    "CustomerId" : "300000393699012",
+    "TaxRegistrationNumber" : null,
+    "TaxpayerIdentificationNumber" : null,
+    "TotalOpenReceivablesForAccount" : "0",
+    "TotalTransactionsDueForAccount" : "0",
+    "CreatedBy" : "AITeam",
+    "CreationDate" : "2026-10-19T04:36:54.074+00:00",
+    "LastUpdatedBy" : "AITeam",
+    "LastUpdateDate" : "2026-10-19T04:46:01.996+00:00",
+    "@context" : {
+      "key" : "300000393699014"
+    }
+  }, {
+    "AccountId" : "300000393792067",
+    "AccountNumber" : "21009",
+    "CustomerName" : "abd",
+    "CustomerId" : "300000393792065",
+    "TaxRegistrationNumber" : null,
+    "TaxpayerIdentificationNumber" : null,
+    "TotalOpenReceivablesForAccount" : "0",
+    "TotalTransactionsDueForAccount" : "0",
+    "CreatedBy" : "Configuration.TEST",
+    "CreationDate" : "2026-10-19T23:08:22.034+00:00",
+    "LastUpdatedBy" : "Configuration.TEST",
+    "LastUpdateDate" : "2026-10-19T23:08:56.957+00:00",
+    "@context" : {
+      "key" : "300000393792067"
+    }
+  }, {
+    "AccountId" : "300000393700076",
+    "AccountNumber" : "21048",
+    "CustomerName" : "ZZ_TEST_5715",
+    "CustomerId" : "300000393700074",
+    "TaxRegistrationNumber" : null,
+    "TaxpayerIdentificationNumber" : null,
+    "TotalOpenReceivablesForAccount" : "0",
+    "TotalTransactionsDueForAccount" : "0",
+    "CreatedBy" : "Configuration.TEST",
+    "CreationDate" : "2026-10-20T12:46:09.053+00:00",
+    "LastUpdatedBy" : "Configuration.TEST",
+    "LastUpdateDate" : "2026-10-20T12:46:30.174+00:00",
+    "@context" : {
+      "key" : "300000393700076"
+    }
+  }, {
+    "AccountId" : "300000393782010",
+    "AccountNumber" : "21053",
+    "CustomerName" : "Abdullah_test100",
+    "CustomerId" : "300000393782008",
+    "TaxRegistrationNumber" : null,
+    "TaxpayerIdentificationNumber" : null,
+    "TotalOpenReceivablesForAccount" : "0",
+    "TotalTransactionsDueForAccount" : "0",
+    "CreatedBy" : "Configuration.TEST",
+    "CreationDate" : "2026-10-20T16:07:01.977+00:00",
+    "LastUpdatedBy" : "Configuration.TEST",
+    "LastUpdateDate" : "2026-10-20T16:07:24.863+00:00",
+    "@context" : {
+      "key" : "300000393782010"
+    }
+  }, {
+    "AccountId" : "300000393786299",
+    "AccountNumber" : "21057",
+    "CustomerName" : "ZZ_TEST_2336",
+    "CustomerId" : "300000393786297",
+    "TaxRegistrationNumber" : null,
+    "TaxpayerIdentificationNumber" : null,
+    "TotalOpenReceivablesForAccount" : "0",
+    "TotalTransactionsDueForAccount" : "0",
+    "CreatedBy" : "Configuration.TEST",
+    "CreationDate" : "2026-10-20T22:35:56.036+00:00",
+    "LastUpdatedBy" : "Configuration.TEST",
+    "LastUpdateDate" : "2026-10-20T22:36:15.389+00:00",
+    "@context" : {
+      "key" : "300000393786299"
+    }
+  }, {
+    "AccountId" : "300000393916441",
+    "AccountNumber" : "21242",
+    "CustomerName" : "ZZ_TEST_1125 Person",
+    "CustomerId" : "300000393916439",
+    "TaxRegistrationNumber" : null,
+    "TaxpayerIdentificationNumber" : null,
+    "TotalOpenReceivablesForAccount" : "0",
+    "TotalTransactionsDueForAccount" : "0",
+    "CreatedBy" : "Configuration.TEST",
+    "CreationDate" : "2026-10-23T08:40:45.023+00:00",
+    "LastUpdatedBy" : "Configuration.TEST",
+    "LastUpdateDate" : "2026-10-23T08:41:32.775+00:00",
+    "@context" : {
+      "key" : "300000393916441"
+    }
+  }, {
+    "AccountId" : "300000393916508",
+    "AccountNumber" : "21254",
+    "CustomerName" : "ZZ_TEST_3727",
+    "CustomerId" : "300000393916506",
+    "TaxRegistrationNumber" : null,
+    "TaxpayerIdentificationNumber" : "12-3456789",
+    "TotalOpenReceivablesForAccount" : "0",
+    "TotalTransactionsDueForAccount" : "0",
+    "CreatedBy" : "Configuration.TEST",
+    "CreationDate" : "2026-10-23T09:33:13.039+00:00",
+    "LastUpdatedBy" : "Configuration.TEST",
+    "LastUpdateDate" : "2026-10-23T09:34:25.751+00:00",
+    "@context" : {
+      "key" : "300000393916508"
+    }
+  }, {
+    "AccountId" : "300000393916566",
+    "AccountNumber" : "21260",
+    "CustomerName" : "ZZ_TEST_3727",
+    "CustomerId" : "300000393916564",
+    "TaxRegistrationNumber" : null,
+    "TaxpayerIdentificationNumber" : "12-3456789",
+    "TotalOpenReceivablesForAccount" : "0",
+    "TotalTransactionsDueForAccount" : "0",
+    "CreatedBy" : "Configuration.TEST",
+    "CreationDate" : "2026-10-23T09:40:53.036+00:00",
+    "LastUpdatedBy" : "Configuration.TEST",
+    "LastUpdateDate" : "2026-10-23T09:42:07.367+00:00",
+    "@context" : {
+      "key" : "300000393916566"
+    }
+  }, {
+    "AccountId" : "300000393916606",
+    "AccountNumber" : "21264",
+    "CustomerName" : "ZZ_TEST_2536 Q Person Jr",
+    "CustomerId" : "300000393916604",
+    "TaxRegistrationNumber" : null,
+    "TaxpayerIdentificationNumber" : "12-3456789",
+    "TotalOpenReceivablesForAccount" : "0",
+    "TotalTransactionsDueForAccount" : "0",
+    "CreatedBy" : "Configuration.TEST",
+    "CreationDate" : "2026-10-23T09:47:50.026+00:00",
+    "LastUpdatedBy" : "Configuration.TEST",
+    "LastUpdateDate" : "2026-10-23T09:49:02.030+00:00",
+    "@context" : {
+      "key" : "300000393916606"
+    }
+  }, {
+    "AccountId" : "300000393916854",
+    "AccountNumber" : "21300",
+    "CustomerName" : "AbdullahTEST123",
+    "CustomerId" : "300000393916852",
+    "TaxRegistrationNumber" : null,
+    "TaxpayerIdentificationNumber" : "12-3456789",
+    "TotalOpenReceivablesForAccount" : "0",
+    "TotalTransactionsDueForAccount" : "0",
+    "CreatedBy" : "Configuration.TEST",
+    "CreationDate" : "2026-10-23T11:42:35.043+00:00",
+    "LastUpdatedBy" : "Configuration.TEST",
+    "LastUpdateDate" : "2026-10-23T11:44:06.747+00:00",
+    "@context" : {
+      "key" : "300000393916854"
+    }
+  }, {
+    "AccountId" : "300000394180089",
+    "AccountNumber" : "21331",
+    "CustomerName" : "Testtest1",
+    "CustomerId" : "300000394180087",
+    "TaxRegistrationNumber" : null,
+    "TaxpayerIdentificationNumber" : "12-3456789",
+    "TotalOpenReceivablesForAccount" : "0",
+    "TotalTransactionsDueForAccount" : "0",
+    "CreatedBy" : "Configuration.TEST",
+    "CreationDate" : "2026-10-23T13:18:23.038+00:00",
+    "LastUpdatedBy" : "Configuration.TEST",
+    "LastUpdateDate" : "2026-10-23T13:19:31.711+00:00",
+    "@context" : {
+      "key" : "300000394180089"
+    }
+  }, {
+    "AccountId" : "300000394180245",
+    "AccountNumber" : "21347",
+    "CustomerName" : "Testtest33",
+    "CustomerId" : "300000394180243",
+    "TaxRegistrationNumber" : null,
+    "TaxpayerIdentificationNumber" : "12-3456789",
+    "TotalOpenReceivablesForAccount" : "0",
+    "TotalTransactionsDueForAccount" : "0",
+    "CreatedBy" : "Configuration.TEST",
+    "CreationDate" : "2026-10-23T15:07:58.041+00:00",
+    "LastUpdatedBy" : "Configuration.TEST",
+    "LastUpdateDate" : "2026-10-23T15:09:07.947+00:00",
+    "@context" : {
+      "key" : "300000394180245"
+    }
+  }, {
+    "AccountId" : "300000393791177",
+    "AccountNumber" : "21366",
+    "CustomerName" : "Testtest111",
+    "CustomerId" : "300000393791175",
+    "TaxRegistrationNumber" : null,
+    "TaxpayerIdentificationNumber" : "12-3456789",
+    "TotalOpenReceivablesForAccount" : "0",
+    "TotalTransactionsDueForAccount" : "0",
+    "CreatedBy" : "Configuration.TEST",
+    "CreationDate" : "2026-10-23T17:35:26.022+00:00",
+    "LastUpdatedBy" : "Configuration.TEST",
+    "LastUpdateDate" : "2026-10-23T17:36:40.070+00:00",
+    "@context" : {
+      "key" : "300000393791177"
+    }
+  }, {
+    "AccountId" : "300000393791237",
+    "AccountNumber" : "21372",
+    "CustomerName" : "Testtest333",
+    "CustomerId" : "300000393791235",
+    "TaxRegistrationNumber" : null,
+    "TaxpayerIdentificationNumber" : "12-3456789",
+    "TotalOpenReceivablesForAccount" : "0",
+    "TotalTransactionsDueForAccount" : "0",
+    "CreatedBy" : "Configuration.TEST",
+    "CreationDate" : "2026-10-23T17:41:52.020+00:00",
+    "LastUpdatedBy" : "Configuration.TEST",
+    "LastUpdateDate" : "2026-10-23T17:43:07.038+00:00",
+    "@context" : {
+      "key" : "300000393791237"
+    }
+  }, {
+    "AccountId" : "300000393791478",
+    "AccountNumber" : "21404",
+    "CustomerName" : "Nightfall Interactive",
+    "CustomerId" : "300000393791476",
+    "TaxRegistrationNumber" : null,
+    "TaxpayerIdentificationNumber" : "94-2345678",
+    "TotalOpenReceivablesForAccount" : "0",
+    "TotalTransactionsDueForAccount" : "0",
+    "CreatedBy" : "Configuration.TEST",
+    "CreationDate" : "2026-10-23T19:44:07.035+00:00",
+    "LastUpdatedBy" : "Configuration.TEST",
+    "LastUpdateDate" : "2026-10-23T19:45:15.937+00:00",
+    "@context" : {
+      "key" : "300000393791478"
+    }
+  }, {
+    "AccountId" : "300000394330218",
+    "AccountNumber" : "21457",
+    "CustomerName" : "Arcade Horizon Games2",
+    "CustomerId" : "300000394330216",
+    "TaxRegistrationNumber" : null,
+    "TaxpayerIdentificationNumber" : "77-3456789",
+    "TotalOpenReceivablesForAccount" : "0",
+    "TotalTransactionsDueForAccount" : "0",
+    "CreatedBy" : "Configuration.TEST",
+    "CreationDate" : "2026-10-25T02:48:47.030+00:00",
+    "LastUpdatedBy" : "Configuration.TEST",
+    "LastUpdateDate" : "2026-10-25T02:50:01.666+00:00",
+    "@context" : {
+      "key" : "300000394330218"
+    }
+  }, {
+    "AccountId" : "300000394380341",
+    "AccountNumber" : "21520",
+    "CustomerName" : "ZZ_TEST_CU_2589_03_ABSECON",
+    "CustomerId" : "300000394380339",
+    "TaxRegistrationNumber" : null,
+    "TaxpayerIdentificationNumber" : null,
+    "TotalOpenReceivablesForAccount" : "0",
+    "TotalTransactionsDueForAccount" : "0",
+    "CreatedBy" : "Configuration.TEST",
+    "CreationDate" : "2026-10-26T03:48:32.033+00:00",
+    "LastUpdatedBy" : "Configuration.TEST",
+    "LastUpdateDate" : "2026-10-26T03:49:30.267+00:00",
+    "@context" : {
+      "key" : "300000394380341"
+    }
+  }, {
+    "AccountId" : "300000394380371",
+    "AccountNumber" : "21523",
+    "CustomerName" : "ZZ_TEST_CU_2589_05_JERSEY",
+    "CustomerId" : "300000394380369",
+    "TaxRegistrationNumber" : null,
+    "TaxpayerIdentificationNumber" : null,
+    "TotalOpenReceivablesForAccount" : "0",
+    "TotalTransactionsDueForAccount" : "0",
+    "CreatedBy" : "Configuration.TEST",
+    "CreationDate" : "2026-10-26T03:51:23.030+00:00",
+    "LastUpdatedBy" : "Configuration.TEST",
+    "LastUpdateDate" : "2026-10-26T03:52:16.054+00:00",
+    "@context" : {
+      "key" : "300000394380371"
+    }
+  }, {
+    "AccountId" : "300000394380407",
+    "AccountNumber" : "21527",
+    "CustomerName" : "ZZ_TEST_CU_2589_04 PERSON",
+    "CustomerId" : "300000394380405",
+    "TaxRegistrationNumber" : null,
+    "TaxpayerIdentificationNumber" : null,
+    "TotalOpenReceivablesForAccount" : "0",
+    "TotalTransactionsDueForAccount" : "0",
+    "CreatedBy" : "Configuration.TEST",
+    "CreationDate" : "2026-10-26T03:54:13.032+00:00",
+    "LastUpdatedBy" : "Configuration.TEST",
+    "LastUpdateDate" : "2026-10-26T03:55:10.589+00:00",
+    "@context" : {
+      "key" : "300000394380407"
+    }
+  }, {
+    "AccountId" : "300000394380505",
+    "AccountNumber" : "21541",
+    "CustomerName" : "ZZ_TEST_CU_2589_14_OK",
+    "CustomerId" : "300000394380503",
+    "TaxRegistrationNumber" : null,
+    "TaxpayerIdentificationNumber" : null,
+    "TotalOpenReceivablesForAccount" : "0",
+    "TotalTransactionsDueForAccount" : "0",
+    "CreatedBy" : "Configuration.TEST",
+    "CreationDate" : "2026-10-26T04:06:00.033+00:00",
+    "LastUpdatedBy" : "Configuration.TEST",
+    "LastUpdateDate" : "2026-10-26T04:06:59.190+00:00",
+    "@context" : {
+      "key" : "300000394380505"
+    }
+  }, {
+    "AccountId" : "300000072048051",
+    "AccountNumber" : "1",
+    "CustomerName" : "GS-Customer",
+    "CustomerId" : "300000072048049",
+    "TaxRegistrationNumber" : null,
+    "TaxpayerIdentificationNumber" : null,
+    "TotalOpenReceivablesForAccount" : "0",
+    "TotalTransactionsDueForAccount" : "0",
+    "CreatedBy" : "younas@gosaas.io",
+    "CreationDate" : "2022-06-02T11:23:15.234+00:00",
+    "LastUpdatedBy" : "younas@gosaas.io",
+    "LastUpdateDate" : "2022-06-02T11:23:54.755+00:00",
+    "@context" : {
+      "key" : "300000072048051"
+    }
+  }, {
+    "AccountId" : "300000332743779",
+    "AccountNumber" : "4001",
+    "CustomerName" : "GS Labs",
+    "CustomerId" : "300000332743777",
+    "TaxRegistrationNumber" : null,
+    "TaxpayerIdentificationNumber" : null,
+    "TotalOpenReceivablesForAccount" : "0",
+    "TotalTransactionsDueForAccount" : "0",
+    "CreatedBy" : "Configuration",
+    "CreationDate" : "2024-12-04T12:26:03.564+00:00",
+    "LastUpdatedBy" : "Configuration",
+    "LastUpdateDate" : "2024-12-04T12:28:13.827+00:00",
+    "@context" : {
+      "key" : "300000332743779"
+    }
+  }, {
+    "AccountId" : "300000333987213",
+    "AccountNumber" : "6001",
+    "CustomerName" : "MNC Organization",
+    "CustomerId" : "300000333987211",
+    "TaxRegistrationNumber" : null,
+    "TaxpayerIdentificationNumber" : null,
+    "TotalOpenReceivablesForAccount" : "0",
+    "TotalTransactionsDueForAccount" : "0",
+    "CreatedBy" : "Configuration",
+    "CreationDate" : "2025-01-24T23:17:58.272+00:00",
+    "LastUpdatedBy" : "Configuration",
+    "LastUpdateDate" : "2025-01-24T23:23:39.496+00:00",
+    "@context" : {
+      "key" : "300000333987213"
+    }
+  }, {
+    "AccountId" : "300000334410772",
+    "AccountNumber" : "7008",
+    "CustomerName" : "Costco Store",
+    "CustomerId" : "300000334410770",
+    "TaxRegistrationNumber" : null,
+    "TaxpayerIdentificationNumber" : null,
+    "TotalOpenReceivablesForAccount" : "0",
+    "TotalTransactionsDueForAccount" : "0",
+    "CreatedBy" : "Configuration",
+    "CreationDate" : "2025-02-06T09:56:49.168+00:00",
+    "LastUpdatedBy" : "Configuration",
+    "LastUpdateDate" : "2025-02-06T09:57:34.259+00:00",
+    "@context" : {
+      "key" : "300000334410772"
+    }
+  }, {
+    "AccountId" : "300000335517042",
+    "AccountNumber" : "8003",
+    "CustomerName" : "TEST CUSTOMER",
+    "CustomerId" : "300000335517040",
+    "TaxRegistrationNumber" : null,
+    "TaxpayerIdentificationNumber" : null,
+    "TotalOpenReceivablesForAccount" : "0",
+    "TotalTransactionsDueForAccount" : "0",
+    "CreatedBy" : "manas@gosaas.io",
+    "CreationDate" : "2025-04-09T14:21:57.766+00:00",
+    "LastUpdatedBy" : "manas@gosaas.io",
+    "LastUpdateDate" : "2025-04-09T14:22:18.357+00:00",
+    "@context" : {
+      "key" : "300000335517042"
+    }
+  }, {
+    "AccountId" : "300000381023300",
+    "AccountNumber" : "13001",
+    "CustomerName" : "MNC Customer",
+    "CustomerId" : "300000381023298",
+    "TaxRegistrationNumber" : null,
+    "TaxpayerIdentificationNumber" : null,
+    "TotalOpenReceivablesForAccount" : "0",
+    "TotalTransactionsDueForAccount" : "0",
+    "CreatedBy" : "Configuration",
+    "CreationDate" : "2026-02-11T16:48:57.587+00:00",
+    "LastUpdatedBy" : "Configuration",
+    "LastUpdateDate" : "2026-02-11T16:52:01.735+00:00",
+    "@context" : {
+      "key" : "300000381023300"
+    }
+  }, {
+    "AccountId" : "300000384301187",
+    "AccountNumber" : "15003",
+    "CustomerName" : "SHARK-ORDER-BUSTER",
+    "CustomerId" : "300000384301185",
+    "TaxRegistrationNumber" : null,
+    "TaxpayerIdentificationNumber" : null,
+    "TotalOpenReceivablesForAccount" : "0",
+    "TotalTransactionsDueForAccount" : "0",
+    "CreatedBy" : "Configuration",
+    "CreationDate" : "2026-06-06T07:58:29.274+00:00",
+    "LastUpdatedBy" : "Configuration",
+    "LastUpdateDate" : "2026-06-06T08:00:14.748+00:00",
+    "@context" : {
+      "key" : "300000384301187"
+    }
+  }, {
+    "AccountId" : "300000384792744",
+    "AccountNumber" : "16001",
+    "CustomerName" : "Amna 1",
+    "CustomerId" : "300000384792742",
+    "TaxRegistrationNumber" : null,
+    "TaxpayerIdentificationNumber" : null,
+    "TotalOpenReceivablesForAccount" : "0",
+    "TotalTransactionsDueForAccount" : "0",
+    "CreatedBy" : "Configuration",
+    "CreationDate" : "2026-06-30T10:16:15.521+00:00",
+    "LastUpdatedBy" : "Configuration",
+    "LastUpdateDate" : "2026-06-30T10:27:38.514+00:00",
+    "@context" : {
+      "key" : "300000384792744"
+    }
+  }, {
+    "AccountId" : "300000386804948",
+    "AccountNumber" : "17001",
+    "CustomerName" : "Amna_Customer",
+    "CustomerId" : "300000386804946",
+    "TaxRegistrationNumber" : null,
+    "TaxpayerIdentificationNumber" : null,
+    "TotalOpenReceivablesForAccount" : "0",
+    "TotalTransactionsDueForAccount" : "0",
+    "CreatedBy" : "Configuration",
+    "CreationDate" : "2026-07-15T09:50:46.155+00:00",
+    "LastUpdatedBy" : "Configuration",
+    "LastUpdateDate" : "2026-07-15T09:53:35.579+00:00",
+    "@context" : {
+      "key" : "300000386804948"
+    }
+  }, {
+    "AccountId" : "300000388988374",
+    "AccountNumber" : "18004",
+    "CustomerName" : "Daim Test",
+    "CustomerId" : "300000388988372",
+    "TaxRegistrationNumber" : null,
+    "TaxpayerIdentificationNumber" : null,
+    "TotalOpenReceivablesForAccount" : "0",
+    "TotalTransactionsDueForAccount" : "0",
+    "CreatedBy" : "Configuration",
+    "CreationDate" : "2026-08-06T10:26:20.449+00:00",
+    "LastUpdatedBy" : "Configuration",
+    "LastUpdateDate" : "2026-08-06T10:29:53.275+00:00",
+    "@context" : {
+      "key" : "300000388988374"
+    }
+  }, {
+    "AccountId" : "300000391181652",
+    "AccountNumber" : "19008",
+    "CustomerName" : "Northwind Traders",
+    "CustomerId" : "300000391181650",
+    "TaxRegistrationNumber" : null,
+    "TaxpayerIdentificationNumber" : null,
+    "TotalOpenReceivablesForAccount" : "0",
+    "TotalTransactionsDueForAccount" : "0",
+    "CreatedBy" : "Configuration",
+    "CreationDate" : "2026-09-21T11:27:21.800+00:00",
+    "LastUpdatedBy" : "Configuration",
+    "LastUpdateDate" : "2026-09-21T11:50:19.236+00:00",
+    "@context" : {
+      "key" : "300000391181652"
+    }
+  }, {
+    "AccountId" : "300000391181667",
+    "AccountNumber" : "19009",
+    "CustomerName" : "Contoso Retail",
+    "CustomerId" : "300000391181665",
+    "TaxRegistrationNumber" : null,
+    "TaxpayerIdentificationNumber" : null,
+    "TotalOpenReceivablesForAccount" : "0",
+    "TotalTransactionsDueForAccount" : "0",
+    "CreatedBy" : "Configuration",
+    "CreationDate" : "2026-09-21T11:50:53.075+00:00",
+    "LastUpdatedBy" : "Configuration",
+    "LastUpdateDate" : "2026-09-21T11:56:37.319+00:00",
+    "@context" : {
+      "key" : "300000391181667"
+    }
+  }, {
+    "AccountId" : "300000391181682",
+    "AccountNumber" : "19010",
+    "CustomerName" : "Fabrikam Industrial",
+    "CustomerId" : "300000391181680",
+    "TaxRegistrationNumber" : null,
+    "TaxpayerIdentificationNumber" : null,
+    "TotalOpenReceivablesForAccount" : "0",
+    "TotalTransactionsDueForAccount" : "0",
+    "CreatedBy" : "Configuration",
+    "CreationDate" : "2026-09-21T11:57:09.023+00:00",
+    "LastUpdatedBy" : "Configuration",
+    "LastUpdateDate" : "2026-09-21T11:58:20.798+00:00",
+    "@context" : {
+      "key" : "300000391181682"
+    }
+  }, {
+    "AccountId" : "300000391181697",
+    "AccountNumber" : "19011",
+    "CustomerName" : "Adventure Works Supply",
+    "CustomerId" : "300000391181695",
+    "TaxRegistrationNumber" : null,
+    "TaxpayerIdentificationNumber" : null,
+    "TotalOpenReceivablesForAccount" : "0",
+    "TotalTransactionsDueForAccount" : "0",
+    "CreatedBy" : "Configuration",
+    "CreationDate" : "2026-09-21T11:58:37.140+00:00",
+    "LastUpdatedBy" : "Configuration",
+    "LastUpdateDate" : "2026-09-21T12:00:12.570+00:00",
+    "@context" : {
+      "key" : "300000391181697"
+    }
+  }, {
+    "AccountId" : "300000391181712",
+    "AccountNumber" : "19012",
+    "CustomerName" : "Tailspin Distributors",
+    "CustomerId" : "300000391181710",
+    "TaxRegistrationNumber" : null,
+    "TaxpayerIdentificationNumber" : null,
+    "TotalOpenReceivablesForAccount" : "0",
+    "TotalTransactionsDueForAccount" : "0",
+    "CreatedBy" : "Configuration",
+    "CreationDate" : "2026-09-21T12:00:24.028+00:00",
+    "LastUpdatedBy" : "Configuration",
+    "LastUpdateDate" : "2026-09-21T12:01:23.770+00:00",
+    "@context" : {
+      "key" : "300000391181712"
+    }
+  }, {
+    "AccountId" : "300000393786037",
+    "AccountNumber" : "21016",
+    "CustomerName" : "ZZ_TEST_7602",
+    "CustomerId" : "300000393786035",
+    "TaxRegistrationNumber" : null,
+    "TaxpayerIdentificationNumber" : null,
+    "TotalOpenReceivablesForAccount" : "0",
+    "TotalTransactionsDueForAccount" : "0",
+    "CreatedBy" : "Configuration.TEST",
+    "CreationDate" : "2026-10-20T00:05:03.044+00:00",
+    "LastUpdatedBy" : "Configuration.TEST",
+    "LastUpdateDate" : "2026-10-20T00:13:23.666+00:00",
+    "@context" : {
+      "key" : "300000393786037"
+    }
+  } ],
+  "count" : 40,
+  "hasMore" : true,
+  "limit" : 40,
+  "offset" : 0,
+  "links" : [ {
+    "rel" : "self",
+    "href" : "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/receivablesCustomerAccountActivities",
+    "name" : "receivablesCustomerAccountActivities",
+    "kind" : "collection"
+  } ]
+}

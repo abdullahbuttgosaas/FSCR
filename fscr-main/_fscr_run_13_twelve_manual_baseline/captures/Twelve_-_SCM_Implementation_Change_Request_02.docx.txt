@@ -1,0 +1,179 @@
+SOURCE (read in browser via docs.google.com viewer): Twelve - SCM Implementation Change Request #02.docx | id=1HOP-2jNkHn2DJMfh5xLv3-HvSEpr9wNm | kind=doc | chars=5335
+Twelve - SCM Implementation Change Request #02.docxChange Order #02
+
+To Statement of Work Oracle Cloud SCM Implementation #4 (“Project”)
+
+This Change Order (“Change Order”) modifies the existing Statement of Work for Oracle Cloud SCM Implementation #4 (“SOW”) between Twelve (“Client”) and GoSaaS, Inc (“GoSaaS”). This Change Order shall be incorporated into and made part of the SOW as if fully set forth therein.
+
+Unless expressly stated otherwise herein, the provisions, terms and expressions set out in the Master Subscription and License Agreement (the "Agreement) shall apply equally in the Change Order and the terms and expressions defined in Agreement shall bear the same meaning when used herein.
+
+As part of this engagement, both the Client and GoSaaS agree on the following:
+​
+Description of the Scope Change:
+Inclusion in Scope
+Project Go-Live Date Extension
+The approach is to extend all current resources through the following dates:[a]
+Project date will be updated to:
+Go-Live Date - August 1, 2025
+Final Project Date, inclusive of Hypercare consisting of 1 month of Post Go-Live Support through August and the August Month End Close through September 12, 2025.
+ A reduced team will be planned to remain through Hypercare.
+ 
+
+The scope for the Oracle Financials & Supply Chain modules for the AirPlant One Business Unit:
+Modules: General Ledger, Accounts Receivable, Fixed Assets, Cash Management, Payables, Purchasing & Self-Service Purchasing
+Scope
+GoSaaS to take management of the above module scope and associated activities and deliverables by GoSaaS
+The Twelve Benefit Corporation (001) and Twelve Rainier, LLC (003) (AirPlant One) legal entities, and the Twelve Operations and AirPlantOne Business Units.
+Project scope includes Requirements, Configuration Management and Conference Room Pilot (Testing) activities and materials.
+Supply Onboarding Strategy
+The development of strategy for migrating or onboarding suppliers from Coupa into the Oracle Cloud.
+Effort is included in the baseline effort.  
+Execution of the strategy is out of this scope.
+New RICE Scope
+Focused on the retirement of all transactions in Coupa, the following are brought into scope:
+The Function Design and execution for the conversion of Open Purchase Orders from Coupa into Oracle Cloud Purchasing.
+Closed Purchase Orders will not be converted to Oracle and will be managed in a flat file. i.e. Excel spreadsheet.
+The Functional Design and the execution for the conversion of On Hand Inventory Balances from Coupa to Oracle Inventory for the Stacks materials for the Alameda location.
+Current inventory is Expensed with no planned impact on the income statement or balance sheet accounts.
+International Payables Bank Wire Transfers
+Discovery and analysis, and remediation of the existing international bank wire in integrations
+Fees
+
+Change *
+	Resource Type
+	Hourly Rate
+	Hours
+	Sub-Total
+
+Date Extension
+	Finance Architect
+	[amount masked]	224
+	[amount masked]
+Date Extension
+	SCM Architect
+	[amount masked]	360
+	[amount masked]
+Date Extension
+	Inventory Consultant
+	[amount masked]	384
+	[amount masked]
+Date Extension
+	PMO Oversight
+	[amount masked]	48
+	[amount masked]
+Date Extension
+	PMO Analyst - Offshore
+	[amount masked]	224
+	[amount masked]
+Date Extension
+	PMO Analyst
+	[amount masked]	240
+	[amount masked]
+Date Extension
+	Development Consultant
+	[amount masked]	224
+	[amount masked]
+Date Extension
+	Finance Consultant
+	[amount masked]	256
+	[amount masked]
+Date Extension
+	Manufacturing / Maintenance Consultant
+	[amount masked]	424
+	[amount masked]
+Date Extension
+	Procurement Consultant
+	[amount masked]	432
+	[amount masked]
+Date Extension
+	Product Information Management Consultant
+	[amount masked]	320
+	[amount masked]
+Date Extension
+	Project Management Consultant
+	[amount masked]	560
+	[amount masked]
+Sub-Total
+
+	[amount masked]
+ * Includes the Hypercare for Supply Chain
+
+Change *
+	Resource Type
+	Hourly Rate
+	Hours
+	Sub-Total
+
+Financials
+	Finance Architect
+	[amount masked]	300
+	[amount masked]
+Financials
+	PMO Analyst - Offshore
+	[amount masked]	384
+	[amount masked]
+Financials
+	Finance Consultant
+	[amount masked]	1,752
+	[amount masked]
+Sub-Total
+
+	[amount masked]
+ * Includes the Hypercare for Financials
+
+Change
+	Resource Type
+	Hourly Rate
+	Hours
+	Sub-Total
+
+New RICE
+	Developer
+	[amount masked]	384
+	[amount masked]
+Sub-Total
+
+	[amount masked]
+Total
+
+	[amount masked]
+The roles and hours listed above are estimates. The number of hours for each role may vary during
+the project, within the project budget. The planned allocation between Finance and Supply Chain and the Hypercare Breakout are as follows:
+
+Change
+	Functional Breakout
+	Total
+
+Function
+	Finance
+	[amount masked]
+Function
+	Supply Chain
+	[amount masked]
+	Hypercare Breakout
+
+Hypercare
+	Finance
+	[amount masked]
+Hypercare
+	Supply Chain
+	[amount masked]
+Hypercare Total
+	Hypercare included total fee’s
+	[amount masked]
+Upon signature of an authorized representative of the parties, the parties agree to and accept the contents of this Addendum.
+
+ Twelve                                                                                       GoSaaS
+
+Name:                                                                                            Name:
+                                                                                             
+Title:                                                                                                Title:
+
+Date:                                                                                                Date:
+​
+
+GoSaaS representative is required to enter the following document number upon signature.
+​
+Document Number:
+[a]accomadate CRP2?
+

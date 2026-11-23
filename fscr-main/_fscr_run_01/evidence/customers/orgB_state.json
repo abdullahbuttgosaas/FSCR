@@ -1,0 +1,12 @@
+{
+  "LocationId": "300000394612196",
+  "PartyId": "300000394593171",
+  "PartySiteId": "300000394593172",
+  "CustomerAccountId": "300000394607188",
+  "AccountNumber": "22051",
+  "CustomerAccountSiteId": "300000394607189",
+  "SiteUseIds": [
+    "300000394607190",
+    "300000394607191"
+  ]
+}

@@ -1,0 +1,182 @@
+[
+ {
+  "area": "business_unit",
+  "key": "FSCRT_Brindle Harbor Marine Supply F01",
+  "status": "match",
+  "expected_md5": "4fe3588e95d1a4d21c05f7b30c16dab1",
+  "actual_md5": "4fe3588e95d1a4d21c05f7b30c16dab1",
+  "fields": 4,
+  "diff": []
+ },
+ {
+  "area": "business_unit",
+  "key": "FSCRT_Quillon Ridge Outfitters West F01",
+  "status": "match",
+  "expected_md5": "beee78ee9d487ff8fbe4fbf8b0884338",
+  "actual_md5": "beee78ee9d487ff8fbe4fbf8b0884338",
+  "fields": 4,
+  "diff": []
+ },
+ {
+  "area": "grouping_rule",
+  "key": "FSCRT_GRP1",
+  "status": "match",
+  "expected_md5": "42def27b8cc4572a6280093d77b51052",
+  "actual_md5": "42def27b8cc4572a6280093d77b51052",
+  "fields": 4,
+  "diff": []
+ },
+ {
+  "area": "grouping_rule",
+  "key": "FSCRT_GRP6",
+  "status": "match",
+  "expected_md5": "6d6778f255f3bdb22c3fc23b0e980d88",
+  "actual_md5": "6d6778f255f3bdb22c3fc23b0e980d88",
+  "fields": 4,
+  "diff": []
+ },
+ {
+  "area": "lookup_code",
+  "key": "FSCRT_CARRIER_SERVICE_TIER_F01/FSCRT_FREIGHT",
+  "status": "match",
+  "expected_md5": "3101ed21debe1bdae69cea9b2fff9276",
+  "actual_md5": "3101ed21debe1bdae69cea9b2fff9276",
+  "fields": 5,
+  "diff": []
+ },
+ {
+  "area": "lookup_code",
+  "key": "FSCRT_CARRIER_SERVICE_TIER_F01/FSCRT_STANDARD",
+  "status": "match",
+  "expected_md5": "5cefdbe8b99b3bf66b7fa3b115db4e26",
+  "actual_md5": "5cefdbe8b99b3bf66b7fa3b115db4e26",
+  "fields": 5,
+  "diff": []
+ },
+ {
+  "area": "lookup_code",
+  "key": "FSCRT_OUTDOOR_ACTIVITY_F01/FSCRT_CLIMBING",
+  "status": "match",
+  "expected_md5": "1b4a848cfb71358c49466b9972c163df",
+  "actual_md5": "1b4a848cfb71358c49466b9972c163df",
+  "fields": 6,
+  "diff": []
+ },
+ {
+  "area": "lookup_code",
+  "key": "FSCRT_OUTDOOR_ACTIVITY_F01/FSCRT_HIKING",
+  "status": "match",
+  "expected_md5": "80982c4c436d78a0811f2c93e3e791ab",
+  "actual_md5": "80982c4c436d78a0811f2c93e3e791ab",
+  "fields": 6,
+  "diff": []
+ },
+ {
+  "area": "lookup_code",
+  "key": "FSCRT_OUTDOOR_ACTIVITY_F01/FSCRT_PADDLING",
+  "status": "match",
+  "expected_md5": "61a5da51ae0cca343017f0d074f10d1a",
+  "actual_md5": "61a5da51ae0cca343017f0d074f10d1a",
+  "fields": 6,
+  "diff": []
+ },
+ {
+  "area": "lookup_type",
+  "key": "FSCRT_CARRIER_SERVICE_TIER_F01",
+  "status": "match",
+  "expected_md5": "3738ddc39e9eecc09c3a5e6aa78c9b93",
+  "actual_md5": "3738ddc39e9eecc09c3a5e6aa78c9b93",
+  "fields": 5,
+  "diff": []
+ },
+ {
+  "area": "lookup_type",
+  "key": "FSCRT_OUTDOOR_ACTIVITY_F01",
+  "status": "match",
+  "expected_md5": "39c6569aa3efcb2f33b2afbadad6dc17",
+  "actual_md5": "39c6569aa3efcb2f33b2afbadad6dc17",
+  "fields": 4,
+  "diff": []
+ },
+ {
+  "area": "order_type",
+  "key": "FSCRT_SO_CONSIGN_F06",
+  "status": "match",
+  "expected_md5": "e5db8a5584df42bc1c63689c2555ac06",
+  "actual_md5": "e5db8a5584df42bc1c63689c2555ac06",
+  "fields": 4,
+  "diff": []
+ },
+ {
+  "area": "order_type",
+  "key": "FSCRT_SO_TRAIL_DEALER_F01",
+  "status": "match",
+  "expected_md5": "8e69d74b820f30cd960059900d5165b8",
+  "actual_md5": "8e69d74b820f30cd960059900d5165b8",
+  "fields": 4,
+  "diff": []
+ },
+ {
+  "area": "order_type",
+  "key": "FSCRT_SO_WARRANTY_SWAP_F01",
+  "status": "match",
+  "expected_md5": "6264c077ea77624b4ff6ade585853478",
+  "actual_md5": "6264c077ea77624b4ff6ade585853478",
+  "fields": 4,
+  "diff": []
+ },
+ {
+  "area": "org_customer",
+  "key": "FSCRT_Kestrel Basin Trading Cooperative F01",
+  "status": "match",
+  "expected_md5": "0ca9b6afeda8a5a434d650bc969ce0f0",
+  "actual_md5": "0ca9b6afeda8a5a434d650bc969ce0f0",
+  "fields": 25,
+  "diff": []
+ },
+ {
+  "area": "org_customer",
+  "key": "FSCRT_Pemberton Cove Boatworks F01",
+  "status": "match",
+  "expected_md5": "559f6fc30714778cb0ba1b2ce9a7188a",
+  "actual_md5": "559f6fc30714778cb0ba1b2ce9a7188a",
+  "fields": 25,
+  "diff": []
+ },
+ {
+  "area": "payment_term",
+  "key": "FSCRT_2P10N30F1",
+  "status": "match",
+  "expected_md5": "6ce8d2990d91ebdf15f1ed3913b9162e",
+  "actual_md5": "6ce8d2990d91ebdf15f1ed3913b9162e",
+  "fields": 6,
+  "diff": []
+ },
+ {
+  "area": "payment_term",
+  "key": "FSCRT_D25B75AF1",
+  "status": "match",
+  "expected_md5": "a45630ed34c9489e48b4c03269c06c8c",
+  "actual_md5": "a45630ed34c9489e48b4c03269c06c8c",
+  "fields": 6,
+  "diff": []
+ },
+ {
+  "area": "price_list",
+  "key": "FSCRT_Brindle Harbor Dock Equipment EUR F01",
+  "status": "match",
+  "expected_md5": "44ca60f63f0bcdd4dfb3dd688ef6c04c",
+  "actual_md5": "44ca60f63f0bcdd4dfb3dd688ef6c04c",
+  "fields": 9,
+  "diff": []
+ },
+ {
+  "area": "price_list",
+  "key": "FSCRT_Quillon Ridge Wholesale Tents USD F01",
+  "status": "match",
+  "expected_md5": "7341989043f8bd884c9fe0b8ff68e565",
+  "actual_md5": "7341989043f8bd884c9fe0b8ff68e565",
+  "fields": 11,
+  "diff": []
+ }
+]

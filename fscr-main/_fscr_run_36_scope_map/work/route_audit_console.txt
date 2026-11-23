@@ -1,0 +1,176 @@
+{
+ "catalog_tasks": 2616,
+ "catalog_csv_flag": {
+  "N": 520,
+  "Y": 2076,
+  "UNKNOWN": 20
+ },
+ "skill_md_files": 1126,
+ "task_skills": 931,
+ "task_skills_linked_L1": 931,
+ "tasks_linked_L1": 848,
+ "tasks_with_more_than_one_skill_L1": {
+  "PER_MANAGE_HCM_ROLE_PROVISIONING_RULES": 2,
+  "ASXS_MANAGE_JOB_ROLES": 2,
+  "ORA_ASE_IMPORT_USER_LOGIN_HISTORY": 2,
+  "ORA_ASE_IMPORT_USERS_AND_ROLES": 2,
+  "PER_USER_AND_ROLES_SYNCHRONIZE_DETAILS": 2,
+  "FND_MANAGE_AUDIT_POLICIES": 3,
+  "GL_SPECIFY_LEDGER_OPTIONS": 2,
+  "BEN_MANAGE_PROGRAMS_PLAN_YEARS": 2,
+  "FND_MANAGE_ADMINISTRATOR_PROFILE_VALUES": 10,
+  "FND_MANAGE_COMMON_LOOKUPS": 11,
+  "FND_MANAGE_DESCRIPTIVE_FLEXFIELDS": 10,
+  "FND_MANAGE_EXTENSIBLE_FLEXFIELDS": 8,
+  "FND_MANAGE_KEY_FLEXFIELDS": 7,
+  "FND_MANAGE_PROFILE_OPTIONS": 11,
+  "FND_MANAGE_STANDARD_LOOKUPS": 7,
+  "FND_MANAGE_VALUE_SETS": 10,
+  "PER_MANAGE_EXTENDED_LOOKUP_CODE": 2,
+  "ORA_GMS_MANAGE_AUDIT_TYPES": 2,
+  "HRG_MANAGE_GOAL_LIBRARY": 2,
+  "FND_MANAGE_REFERENCE_DATA_SETS": 2,
+  "ORA_FND_GLOBAL_SEARCH_CONFIGURATIONS": 2,
+  "ORA_FND_SUGGESTION_GROUPS": 2,
+  "ORA_FND_MANAGE_INDEX_CONFIGURATION": 2,
+  "EGO_MANAGE_CHANGE_ORDER_DFFS": 2
+ },
+ "tasks_linked_L2": 873,
+ "skill_folders_mentioning_a_task_L2": 975,
+ "tasks_L2_not_L1": 25,
+ "routes_all_linked": {
+  "FSM_CSV": 739,
+  "NONE_DECLARED": 17,
+  "REST": 473,
+  "more than one route": 384,
+  "ESS": 27,
+  "CX_IMPORT": 5,
+  "MANUAL_ONLY (user does it in the UI)": 12,
+  "MANUAL (any)": 12,
+  "FBDI": 9,
+  "HDL": 43,
+  "UNCLEAR": 1
+ },
+ "link_by_kind": {
+  "SKILL.md units": 769,
+  "task guide .md units": 162,
+  "tasks with a SKILL.md": 701,
+  "tasks with a SKILL.md or a task guide": 848,
+  "tasks with only a task guide": 147,
+  "tasks with both": 14
+ },
+ "routes_by_kind": {
+  "skill": {
+   "FSM_CSV": 624,
+   "REST": 429,
+   "more than one route": 367,
+   "ESS": 27,
+   "CX_IMPORT": 5,
+   "MANUAL_ONLY (user does it in the UI)": 4,
+   "MANUAL (any)": 4,
+   "NONE_DECLARED": 7,
+   "FBDI": 9,
+   "HDL": 41,
+   "UNCLEAR": 1
+  },
+  "task guide": {
+   "NONE_DECLARED": 10,
+   "FSM_CSV": 115,
+   "REST": 44,
+   "more than one route": 17,
+   "HDL": 2,
+   "MANUAL_ONLY (user does it in the UI)": 8,
+   "MANUAL (any)": 8
+  }
+ },
+ "REST_evidence_strength": {
+  "REST skills": 473,
+  "REST stated in the skill's own text or files (ora_rest_execution.md, task-rest, REST mode with a business object, Data Loader sample section, or REST mode not disclaimed)": 272,
+  "REST only because depends_on names a REST core service (may be used for reads only)": 201
+ },
+ "meta_mode_all_linked": {
+  "FSM": 522,
+  "None": 80,
+  "ESS": 12,
+  "CXIMPORT": 5,
+  "REST": 260,
+  "FBDI": 9,
+  "HDL": 43
+ },
+ "meta_mode_disclaimed": 14,
+ "routes_by_pillar": {
+  "CX": {
+   "skills": 223,
+   "REST": 81,
+   "FSM_CSV": 165,
+   "more than one route": 46,
+   "ESS": 16,
+   "CX_IMPORT": 5,
+   "MANUAL_ONLY (user does it in the UI)": 1,
+   "MANUAL (any)": 1,
+   "NONE_DECLARED": 5
+  },
+  "Common": {
+   "skills": 12,
+   "FSM_CSV": 6,
+   "NONE_DECLARED": 6
+  },
+  "ERP": {
+   "skills": 80,
+   "FSM_CSV": 64,
+   "FBDI": 3,
+   "REST": 45,
+   "more than one route": 36,
+   "ESS": 2,
+   "HDL": 2
+  },
+  "HCM": {
+   "skills": 365,
+   "HDL": 41,
+   "ESS": 8,
+   "FSM_CSV": 285,
+   "REST": 153,
+   "more than one route": 120,
+   "NONE_DECLARED": 3,
+   "MANUAL_ONLY (user does it in the UI)": 1,
+   "MANUAL (any)": 1,
+   "UNCLEAR": 1
+  },
+  "SCM": {
+   "skills": 251,
+   "FSM_CSV": 219,
+   "REST": 194,
+   "more than one route": 182,
+   "NONE_DECLARED": 3,
+   "MANUAL_ONLY (user does it in the UI)": 10,
+   "MANUAL (any)": 10,
+   "FBDI": 6,
+   "ESS": 1
+  }
+ },
+ "browser_positive": [],
+ "browser_negated_count": 47,
+ "catalog_compare_counts": {
+  "CONTRADICTS (reverse): flag Y but skill declares only another route or manual, not FSM CSV": 37,
+  "CONTRADICTS: flag N but skill declares FSM CSV": 2,
+  "agree: flag N, skill declares another route or manual (no FSM CSV)": 125,
+  "agree: flag Y, skill declares FSM CSV": 736,
+  "flag UNKNOWN in catalog": 14,
+  "no route to compare (flag N)": 11,
+  "no route to compare (flag Y)": 6
+ },
+ "no_route_what_they_give": {
+  "skills with no operative route": 30,
+  "  of which route to manual-tasks": 12,
+  "  with ora-resource/ files": 5,
+  "  with ora_input_validation.md (fields / rules)": 5,
+  "  with ora_dependency_readiness.md (requirements)": 5,
+  "  with ora_reference_lookups.md (references)": 5,
+  "  with references/ folder": 4,
+  "  with fscr-create-fields tag": 0,
+  "  only the generated sections (no ora-resource, no references)": 24
+ },
+ "unclear_count": 1,
+ "task_skills_not_in_catalog_count": 0,
+ "skill_flag_copy_differs_from_catalog_count": 16
+}

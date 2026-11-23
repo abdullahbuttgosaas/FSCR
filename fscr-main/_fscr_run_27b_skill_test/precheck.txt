@@ -1,0 +1,4 @@
+before: 2 rules in total, 2 in this file, hasMore=False
+  'FSCRT_R27 Payer A': OK
+  'FSCRT_R27 Payer B': OK
+PRECHECK: PASS

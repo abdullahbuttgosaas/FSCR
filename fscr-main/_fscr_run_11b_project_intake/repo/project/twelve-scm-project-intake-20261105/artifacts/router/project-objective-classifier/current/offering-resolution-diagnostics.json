@@ -1,0 +1,266 @@
+[
+ {
+  "sow_term": "Product Information Management",
+  "exact_offering_match": null,
+  "offering_pillar": null,
+  "exact_functional_area_matches": [],
+  "classifier_result": "pending_no_exact_match"
+ },
+ {
+  "sow_term": "Inventory and Cost Management",
+  "exact_offering_match": null,
+  "offering_pillar": null,
+  "exact_functional_area_matches": [],
+  "classifier_result": "pending_no_exact_match"
+ },
+ {
+  "sow_term": "Self-Service Procurement",
+  "exact_offering_match": null,
+  "offering_pillar": null,
+  "exact_functional_area_matches": [],
+  "classifier_result": "pending_no_exact_match"
+ },
+ {
+  "sow_term": "Purchasing",
+  "exact_offering_match": null,
+  "offering_pillar": null,
+  "exact_functional_area_matches": [],
+  "classifier_result": "pending_no_exact_match"
+ },
+ {
+  "sow_term": "Supplier Portal",
+  "exact_offering_match": null,
+  "offering_pillar": null,
+  "exact_functional_area_matches": [
+   {
+    "fa_name": "Supplier Portal",
+    "fa_code": "PO_SUP_PORTAL_DEPLOYED",
+    "candidate_offerings": [
+     "PIM_PROD_MNG",
+     "PO_PROCUREMENT"
+    ],
+    "pillars": [
+     "SCM"
+    ]
+   }
+  ],
+  "classifier_result": "pending_multiple_candidates"
+ },
+ {
+  "sow_term": "Manufacturing",
+  "exact_offering_match": null,
+  "offering_pillar": null,
+  "exact_functional_area_matches": [],
+  "classifier_result": "pending_no_exact_match"
+ },
+ {
+  "sow_term": "Maintenance",
+  "exact_offering_match": null,
+  "offering_pillar": null,
+  "exact_functional_area_matches": [],
+  "classifier_result": "pending_no_exact_match"
+ },
+ {
+  "sow_term": "General Ledger",
+  "exact_offering_match": null,
+  "offering_pillar": null,
+  "exact_functional_area_matches": [
+   {
+    "fa_name": "General Ledger",
+    "fa_code": "ORA_FIN_GENERAL_LEDGER",
+    "candidate_offerings": [
+     "XLE_FINANCIALS_JUR",
+     "XLE_FIN_CONTROL_JUR"
+    ],
+    "pillars": [
+     "ERP"
+    ]
+   }
+  ],
+  "classifier_result": "pending_multiple_candidates"
+ },
+ {
+  "sow_term": "Accounts Receivable",
+  "exact_offering_match": null,
+  "offering_pillar": null,
+  "exact_functional_area_matches": [],
+  "classifier_result": "pending_no_exact_match"
+ },
+ {
+  "sow_term": "Project Management",
+  "exact_offering_match": null,
+  "offering_pillar": null,
+  "exact_functional_area_matches": [],
+  "classifier_result": "pending_no_exact_match"
+ },
+ {
+  "sow_term": "Grants Management",
+  "exact_offering_match": "ORA_GMS_GRANTS_MANAGEMENT",
+  "offering_pillar": "ERP",
+  "exact_functional_area_matches": [],
+  "classifier_result": "resolved_offering"
+ },
+ {
+  "sow_term": "Accounts Payable",
+  "exact_offering_match": null,
+  "offering_pillar": null,
+  "exact_functional_area_matches": [],
+  "classifier_result": "pending_no_exact_match"
+ },
+ {
+  "sow_term": "Cash Management",
+  "exact_offering_match": null,
+  "offering_pillar": null,
+  "exact_functional_area_matches": [
+   {
+    "fa_name": "Cash Management",
+    "fa_code": "ORA_CE_CASH_MGMT_BANK",
+    "candidate_offerings": [
+     "ORA_STUDENT_MANAGEMENT",
+     "XLE_FINANCIALS_JUR",
+     "PO_PROCUREMENT"
+    ],
+    "pillars": [
+     "",
+     "ERP",
+     "SCM"
+    ]
+   }
+  ],
+  "classifier_result": "pending_multiple_candidates"
+ },
+ {
+  "sow_term": "Fixed Assets",
+  "exact_offering_match": null,
+  "offering_pillar": null,
+  "exact_functional_area_matches": [
+   {
+    "fa_name": "Fixed Assets",
+    "fa_code": "FIN_FIXED_ASSETS_DEPLOYED",
+    "candidate_offerings": [
+     "XLE_FINANCIALS_JUR"
+    ],
+    "pillars": [
+     "ERP"
+    ]
+   }
+  ],
+  "classifier_result": "resolved_via_single_offering_fa"
+ },
+ {
+  "sow_term": "Supply Chain Sustainability",
+  "exact_offering_match": null,
+  "offering_pillar": null,
+  "exact_functional_area_matches": [],
+  "classifier_result": "pending_no_exact_match"
+ },
+ {
+  "sow_term": "Expenses",
+  "exact_offering_match": null,
+  "offering_pillar": null,
+  "exact_functional_area_matches": [
+   {
+    "fa_name": "Expenses",
+    "fa_code": "FIN_EXPENSES_DEPLOYED",
+    "candidate_offerings": [
+     "XLE_FINANCIALS_JUR"
+    ],
+    "pillars": [
+     "ERP"
+    ]
+   }
+  ],
+  "classifier_result": "resolved_via_single_offering_fa"
+ },
+ {
+  "sow_term": "Project Cost Management",
+  "exact_offering_match": null,
+  "offering_pillar": null,
+  "exact_functional_area_matches": [],
+  "classifier_result": "pending_no_exact_match"
+ },
+ {
+  "sow_term": "Asset Management",
+  "exact_offering_match": null,
+  "offering_pillar": null,
+  "exact_functional_area_matches": [],
+  "classifier_result": "pending_no_exact_match"
+ },
+ {
+  "sow_term": "Sustainability",
+  "exact_offering_match": null,
+  "offering_pillar": null,
+  "exact_functional_area_matches": [
+   {
+    "fa_name": "Sustainability",
+    "fa_code": "ORA_SUS_SUSTAINABILITY",
+    "candidate_offerings": [
+     "ORA_MANUFACTURING_AND_SUPPLY_C",
+     "PIM_PROD_MNG",
+     "PO_PROCUREMENT"
+    ],
+    "pillars": [
+     "SCM"
+    ]
+   }
+  ],
+  "classifier_result": "pending_multiple_candidates"
+ },
+ {
+  "sow_term": "Product Management",
+  "exact_offering_match": "PIM_PROD_MNG",
+  "offering_pillar": "SCM",
+  "exact_functional_area_matches": [],
+  "classifier_result": "resolved_offering"
+ },
+ {
+  "sow_term": "Materials Management",
+  "exact_offering_match": null,
+  "offering_pillar": null,
+  "exact_functional_area_matches": [],
+  "classifier_result": "pending_no_exact_match"
+ },
+ {
+  "sow_term": "Procurement",
+  "exact_offering_match": "PO_PROCUREMENT",
+  "offering_pillar": "SCM",
+  "exact_functional_area_matches": [],
+  "classifier_result": "resolved_offering"
+ },
+ {
+  "sow_term": "Payables",
+  "exact_offering_match": null,
+  "offering_pillar": null,
+  "exact_functional_area_matches": [
+   {
+    "fa_name": "Payables",
+    "fa_code": "FIN_PAYABLES_DEPLOYED",
+    "candidate_offerings": [
+     "ORA_STUDENT_MANAGEMENT",
+     "XLE_FINANCIALS_JUR",
+     "PO_PROCUREMENT"
+    ],
+    "pillars": [
+     "",
+     "ERP",
+     "SCM"
+    ]
+   }
+  ],
+  "classifier_result": "pending_multiple_candidates"
+ },
+ {
+  "sow_term": "Subledger Accounting",
+  "exact_offering_match": null,
+  "offering_pillar": null,
+  "exact_functional_area_matches": [],
+  "classifier_result": "pending_no_exact_match"
+ },
+ {
+  "sow_term": "Security and Roles",
+  "exact_offering_match": null,
+  "offering_pillar": null,
+  "exact_functional_area_matches": [],
+  "classifier_result": "pending_no_exact_match"
+ }
+]

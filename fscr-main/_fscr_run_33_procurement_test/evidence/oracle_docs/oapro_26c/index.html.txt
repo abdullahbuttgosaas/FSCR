@@ -1,0 +1,2 @@
+URL: https://docs.oracle.com/en/cloud/saas/procurement/26c/oapro/index.html
+ Next JavaScript must be enabled to correctly display this content Implementing Procurement Oracle Fusion Cloud Procurement Implementing Procurement G56359-01 26C Title and Copyright Information Oracle Fusion Cloud Procurement Implementing Procurement G56359-01 Copyright © 2011, 2026, Oracle and/or its affiliates. Author: Alankrita Prakash 

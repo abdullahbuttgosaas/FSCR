@@ -1,0 +1,51 @@
+OT:AMNA_STANDARD_ORDERS ['DOO_MANAGE_ORCHESTRATION_PROCESS_ASSIGNMENT_RULES/DOO_PROCESS_ASSIGNMENT_RULES.csv#1', 'DOO_MANAGE_ORCHESTRATION_PROCESS_ASSIGNMENT_RULES/DOO_TRANSFORMATION_RULES.csv#1', 'DOO_MANAGE_ORCHESTRATION_PROCESS_ASSIGNMENT_RULES/ORA_DOO_EXTERNAL_INTERFACE.csv#1', 'DOO_MANAGE_ORCHESTRATION_PROCESS_ASSIGNMENT_RU
+OT:Subscription ['DOO_MANAGE_ORCHESTRATION_PROCESS_DEFINITIONS/ORA_DOO_ORCHESTRATION_PROCESS_RULE_DICTIONARY.csv#1', 'DOO_MANAGE_ORCHESTRATION_PROCESS_DEFINITIONS/ORA_DOO_ORCHESTRATION_PROCESS_RULE_DICTIONARY.csv#2']
+STANDARD in ['DOO_MANAGE_ORCHESTRATION_PROCESS_ASSIGNMENT_RULES/DOO_PROCESS_ASSIGNMENT_RULES.csv', 'DOO_MANAGE_ORCHESTRATION_PROCESS_ASSIGNMENT_RULES/DOO_TRANSFORMATION_RULES.csv', 'DOO_MANAGE_ORCHESTRATION_PROCESS_ASSIGNMENT_RULES/ORA_DOO_EXTERNAL_INTERFACE.csv', 'DOO_MANAGE_ORCHESTRATION_PROCESS_ASSIGNMENT_RULES/ORA_FOM_ORDER_
+BIG DOO_PROCESS_ASSIGNMENT_RULES.csv row 0 col RuleDictionary len 108281 start <?xml version="1.0"?>
+<RuleDictionary id="G}4bd7b7a4:12cd2c1
+   DOO_PROCESS_ASSIGNMENT_RULES.csv RuleDictionary | roperty name="VIBCustomProp_Custom" value="CreatedByVIB"></CustomProperty><Name>ordertype</Name><Alias>order type</Alias><ValidationUpdateNumber>356</ValidationUpdateNumber><Priority>medium
+   DOO_PROCESS_ASSIGNMENT_RULES.csv RuleDictionary | 9444:-640b`(`L}2577`.`J}oracle.apps.scm.doo.processOrder.service.view.HeaderVO.{orderTypeCode}`)</ResolvedValue><IsConstant>false</IsConstant><ParameterID>B}nil</ParameterID></Expression><Expre
+BIG DOO_TRANSFORMATION_RULES.csv row 0 col RuleDictionary len 108281 start <?xml version="1.0"?>
+<RuleDictionary id="G}4bd7b7a4:12cd2c1
+   DOO_TRANSFORMATION_RULES.csv RuleDictionary | roperty name="VIBCustomProp_Custom" value="CreatedByVIB"></CustomProperty><Name>ordertype</Name><Alias>order type</Alias><ValidationUpdateNumber>356</ValidationUpdateNumber><Priority>medium
+   DOO_TRANSFORMATION_RULES.csv RuleDictionary | 9444:-640b`(`L}2577`.`J}oracle.apps.scm.doo.processOrder.service.view.HeaderVO.{orderTypeCode}`)</ResolvedValue><IsConstant>false</IsConstant><ParameterID>B}nil</ParameterID></Expression><Expre
+BIG ORA_DOO_EXTERNAL_INTERFACE.csv row 0 col RuleDictionary len 108281 start <?xml version="1.0"?>
+<RuleDictionary id="G}4bd7b7a4:12cd2c1
+   ORA_DOO_EXTERNAL_INTERFACE.csv RuleDictionary | roperty name="VIBCustomProp_Custom" value="CreatedByVIB"></CustomProperty><Name>ordertype</Name><Alias>order type</Alias><ValidationUpdateNumber>356</ValidationUpdateNumber><Priority>medium
+   ORA_DOO_EXTERNAL_INTERFACE.csv RuleDictionary | 9444:-640b`(`L}2577`.`J}oracle.apps.scm.doo.processOrder.service.view.HeaderVO.{orderTypeCode}`)</ResolvedValue><IsConstant>false</IsConstant><ParameterID>B}nil</ParameterID></Expression><Expre
+BIG ORA_FOM_ORDER_APPROVAL_RULE.csv row 0 col RuleDictionary len 108281 start <?xml version="1.0"?>
+<RuleDictionary id="G}4bd7b7a4:12cd2c1
+   ORA_FOM_ORDER_APPROVAL_RULE.csv RuleDictionary | roperty name="VIBCustomProp_Custom" value="CreatedByVIB"></CustomProperty><Name>ordertype</Name><Alias>order type</Alias><ValidationUpdateNumber>356</ValidationUpdateNumber><Priority>medium
+   ORA_FOM_ORDER_APPROVAL_RULE.csv RuleDictionary | 9444:-640b`(`L}2577`.`J}oracle.apps.scm.doo.processOrder.service.view.HeaderVO.{orderTypeCode}`)</ResolvedValue><IsConstant>false</IsConstant><ParameterID>B}nil</ParameterID></Expression><Expre
+   ORA_MSC_INSTANCE_ORG.csv Description | EBS V1
+   ORA_MSC_INSTANCE_ORG.csv Description | EBS-TEST-AI-001
+   ORA_MSC_INSTANCE_ORG.csv Description | EBS M2
+   ORA_MSC_INSTANCE_ORG.csv Description | EBS CD
+   ORA_MSC_INSTANCE_ORG.csv Description | EBS M1
+   ORA_MSC_INSTANCE_ORG.csv Description | PR-Process Master-EBS
+   ORA_MSC_INSTANCE_ORG.csv Description | PL1-Main Process Mfg-EBS
+   ORA_MSC_INSTANCE_ORG.csv Description | PL2-Secondary Process Mfg-EBS
+   ORA_MSC_INSTANCE_ORG.csv Description | Vision Spain-EBS
+   ORA_MSC_INSTANCE_ORG.csv Description | Vision Korea-EBS
+other cols {'RuleDictionaryName': 'AssignLaunch', 'RuleDictionaryVersion': '1', 'RuleDictionaryId': '103', 'RuleDictionaryOwner': 'doo'}
+RuleSets ['AssignOrchProcess']
+Rules 2 ['AssignProcessNameinPackingInstructions10AK', 'ordertype']
+ACTIVE ['true']
+LITERALS [('AMNA_STANDARD_ORDERS', ''), ('DOO_OrderFulfillmentGenericProcess', ''), ('processName', '')]
+VO refs ['ViewRowImpl', 'orderFulfillLine', 'orderLine', 'orderTypeCode']
+in ruleset ['AssignOrchProcess']
+ProcessName refs ['quot']
+ORG cols ['ORA_MSC_APPS_INSTANCE.InstanceCode', 'OrganizationCode', 'Attribute1', 'Attribute10', 'Attribute11', 'Attribute12', 'Attribute13', 'Attribute14', 'Attribute15', 'Attribute2', 'Attribute3', 'Attribute4', 'Attribute5', 'Attribute6']
+Traceback (most recent call last):
+  File "<stdin>", line 16, in <module>
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\collections\__init__.py", line 607, in __init__
+    self.update(iterable, **kwds)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\collections\__init__.py", line 699, in update
+    _count_elements(self, iterable)
+  File "<stdin>", line 16, in <genexpr>
+KeyError: 'InstanceCode'
+orgs per instance {'OPS': 134}
+EBS-described orgs per instance {'OPS': 10}
+pick wave order-type cols ['SourceOrderTypeCode'] non-empty 0
+processes [('CustomDOO_OUStandardOrderProcess_10AK', None), ('CustomDOO_ShipOrderGenericProcess', None)]
+carriers 11

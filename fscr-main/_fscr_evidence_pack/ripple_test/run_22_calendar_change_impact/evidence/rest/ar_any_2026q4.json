@@ -1,0 +1,8 @@
+{
+  "title" : "Bad Request",
+  "status" : "400",
+  "o:errorDetails" : [ {
+    "detail" : "Failed to build ViewCriteria from expression \"TransactionDate>='2026-10-01'\" using view object InvoiceHeader. Unable to create criteria item from node: \"TransactionDate\". ",
+    "o:errorCode" : "29140"
+  } ]
+}

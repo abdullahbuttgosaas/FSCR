@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xsd:schema elementFormDefault="qualified" targetNamespace="http://xmlns.oracle.com/apps/cdm/foundation/parties/customerAccountService/"
+     sdoJava:package="oracle.apps.cdm.foundation.parties.customerAccountService" xmlns:ns0="http://xmlns.oracle.com/adf/svc/types/"
+     xmlns:ns1="http://xmlns.oracle.com/apps/cdm/foundation/parties/partyService/" xmlns:ns2="http://xmlns.oracle.com/apps/cdm/foundation/parties/flex/custAccountSiteUse/"
+     xmlns:sdo="commonj.sdo" xmlns:sdoJava="commonj.sdo/java" xmlns:sdoXML="commonj.sdo/xml"
+     xmlns="http://xmlns.oracle.com/apps/cdm/foundation/parties/customerAccountService/"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <xsd:annotation>
+        <xsd:documentation xmlns:oer="http://xmlns.oracle.com/oer">
+            <name>Trading Community Customer Account Site Use</name>
+            <description>A purpose or use of a customer account site.</description>
+            <oer:category name="lba">
+                <value>CdmTop-Customer Data Management</value>
+                <value>CdmTop-Customer Data Management : FoundationTop-Foundation</value>
+                <value>CdmTop-Customer Data Management : FoundationTop-Foundation :
+                    FoundationParties-Parties</value>
+            </oer:category>
+            <oer:attributes>
+                <oer:attribute description="Site use identifier" name="SiteUseId"/>
+                <oer:attribute description="Identifier for the customer account site. Foreign key to the HZ_CUST_ACCT_SITES_ALL table"
+                     name="CustomerAccountSiteId"/>
+                <oer:attribute description="Who column: indicates the date and time of the last update of the row."
+                     name="LastUpdateDate"/>
+                <oer:attribute description="Who column: indicates the user who last updated the row."
+                     name="LastUpdatedBy"/>
+                <oer:attribute description="Who column: indicates the date and time of the creation of the row."
+                     name="CreationDate"/>
+                <oer:attribute description="Who column: indicates the user who created the row." name="CreatedBy"/>
+                <oer:attribute description="Business purpose assigned to customer site account, such as Bill-To, Market, and Statements."
+                     name="SiteUseCode"/>
+                <oer:attribute description="Indicates if this site is the primary site for this customer account. Y for the primary customer account site. N for other customer account sites."
+                     name="PrimaryFlag"/>
+                <oer:attribute description="Site use status flag, Lookup code for the CODE_STATUS column."
+                     name="Status"/>
+                <oer:attribute description="Site use identifier" name="Location"/>
+                <oer:attribute description="Who column: indicates the session login associated to the user who last updated the row."
+                     name="LastUpdateLogin"/>
+                <oer:attribute description="Bill-To site use identifier" name="BillToSiteUseId"/>
+                <oer:attribute description="Site use identifier from foreign or legacy system" name="OrigSystemReference"/>
+                <oer:attribute description="Standard Industry Classification (SIC) code" name="SICCode"/>
+                <oer:attribute description="Payment term identifier" name="PaymentTermId"/>
+                <oer:attribute description="Indicates if this is a US federal agency supported by the General Services Administration (GSA). Y for organizations served by the GSA, N for organizations that are not served by the GSA."
+                     name="GSAIndicator"/>
+                <oer:attribute description="Territory identifier" name="TerritoryId"/>
+                <oer:attribute description="Enterprise Service Scheduler: indicates the request ID of the job that created or last updated the row."
+                     name="RequestId"/>
+                <oer:attribute description="Taxpayer identification number" name="TaxReference"/>
+                <oer:attribute description="Sort priority information." name="SortPriority"/>
+                <oer:attribute description="Tax code associated with this site" name="TaxCode"/>
+                <oer:attribute description="The next-to-last date that accrued finance charges were computed for this site."
+                     name="SecondLastAccrueChargeDate"/>
+                <oer:attribute description="The last date that accrued finance charges were computed for this site."
+                     name="LastAccrueChargeDate"/>
+                <oer:attribute description="The last date that unaccrued finance charges were computed for this site."
+                     name="LastUnaccrueChargeDate"/>
+                <oer:attribute description="The next-to-last date that unaccrued finance charges were computed for this site."
+                     name="SecondLastUnaccrueChrgDate"/>
+                <oer:attribute description="Used by Oracle Sales Compensation" name="TaxHeaderLevelFlag"/>
+                <oer:attribute description="Identifies receivables activity that are used for finance charges"
+                     name="FinchrgReceivablesTrxId"/>
+                <oer:attribute description="Tax rounding rule information." name="TaxRoundingRule"/>
+                <oer:attribute description="Classifies Bill-To site to tax group codes. Foreign key to the AR_LOOKUPS table (AR_TAX_CLASSIFICATION) used in AR_VAT_TAX (TAX_CLASSIFICATION) indexes"
+                     name="TaxClassification"/>
+                <oer:attribute description="TCA Who column" name="CreatedByModule"/>
+                <oer:attribute description="Identifies a set of reference data shared across business units and other entities. Also known as Reference Data Sets, they are used to filter reference data in transactional UIs."
+                     name="SetId"/>
+                <oer:attribute description="Date from which this site use is no longer valid." name="EndDate"/>
+                <oer:attribute description="Start date from which this site use is valid." name="StartDate"/>
+                <oer:attribute description="Identifier for this record from foreign or legacy system."
+                     name="OriginalSystemReference"/>
+                <oer:attribute description="Customer Account Address use information." name="CustAcctSiteUseInformation"/>
+            </oer:attributes>
+        </xsd:documentation>
+    </xsd:annotation>
+    <xsd:import namespace="http://xmlns.oracle.com/adf/svc/types/" schemaLocation="https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/crmService/CustomerAccountService?XSD=/META-INF/wsdl/BC4JService.xsd"/>
+    <xsd:import namespace="http://xmlns.oracle.com/apps/cdm/foundation/parties/partyService/" schemaLocation="https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/crmService/CustomerAccountService?XSD=/oracle/apps/cdm/foundation/parties/partyService/OriginalSystemReference.xsd"/>
+    <xsd:import namespace="http://xmlns.oracle.com/apps/cdm/foundation/parties/flex/custAccountSiteUse/"
+         schemaLocation="https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/crmService/CustomerAccountService?XSD=/oracle/apps/cdm/foundation/parties/flex/custAccountSiteUse/CustAcctSiteUseInformation.xsd"/>
+    <xsd:import namespace="commonj.sdo/java" schemaLocation="https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/crmService/CustomerAccountService?XSD=/xml/sdoJava.xsd"/>
+    <xsd:import namespace="commonj.sdo/xml" schemaLocation="https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/crmService/CustomerAccountService?XSD=/xml/sdoXML.xsd"/>
+    <xsd:import namespace="commonj.sdo" schemaLocation="https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/crmService/CustomerAccountService?XSD=/xml/sdoModel.xsd"/>
+    <xsd:complexType name="CustomerAccountSiteUse">
+        <xsd:annotation>
+            <xsd:appinfo source="http://xmlns.oracle.com/adf/svc/metadata/">
+                <key xmlns="http://xmlns.oracle.com/adf/svc/metadata/">
+                    <attribute>SiteUseId</attribute>
+                </key>
+            </xsd:appinfo>
+        </xsd:annotation>
+        <xsd:sequence>
+            <xsd:element minOccurs="0" name="SiteUseId" type="xsd:long" sdoXML:dataType="sdoJava:LongObject"/>
+            <xsd:element minOccurs="0" name="CustomerAccountSiteId" type="xsd:long" sdoXML:dataType="sdoJava:LongObject"/>
+            <xsd:element minOccurs="0" name="LastUpdateDate" type="ns0:dateTime-Timestamp"/>
+            <xsd:element minOccurs="0" name="LastUpdatedBy" type="xsd:string"/>
+            <xsd:element minOccurs="0" name="CreationDate" type="ns0:dateTime-Timestamp"/>
+            <xsd:element minOccurs="0" name="CreatedBy" type="xsd:string"/>
+            <xsd:element minOccurs="0" name="SiteUseCode" type="xsd:string"/>
+            <xsd:element minOccurs="0" name="PrimaryFlag" type="xsd:boolean" sdoXML:dataType="sdoJava:BooleanObject"/>
+            <xsd:element minOccurs="0" name="Status" type="xsd:string"/>
+            <xsd:element minOccurs="0" name="Location" type="xsd:string"/>
+            <xsd:element minOccurs="0" name="LastUpdateLogin" nillable="true" type="xsd:string"/>
+            <xsd:element minOccurs="0" name="BillToSiteUseId" nillable="true" type="xsd:long"/>
+            <xsd:element minOccurs="0" name="OrigSystemReference" nillable="true" type="xsd:string"/>
+            <xsd:element minOccurs="0" name="SICCode" nillable="true" type="xsd:string"/>
+            <xsd:element minOccurs="0" name="PaymentTermId" nillable="true" type="xsd:long"/>
+            <xsd:element minOccurs="0" name="GSAIndicator" nillable="true" type="xsd:string"/>
+            <xsd:element minOccurs="0" name="TerritoryId" nillable="true" type="xsd:long"/>
+            <xsd:element minOccurs="0" name="RequestId" nillable="true" type="xsd:long"/>
+            <xsd:element minOccurs="0" name="TaxReference" nillable="true" type="xsd:string"/>
+            <xsd:element minOccurs="0" name="SortPriority" nillable="true" type="xsd:int"/>
+            <xsd:element minOccurs="0" name="TaxCode" nillable="true" type="xsd:string"/>
+            <xsd:element minOccurs="0" name="SecondLastAccrueChargeDate" nillable="true" type="ns0:date-Date"/>
+            <xsd:element minOccurs="0" name="LastAccrueChargeDate" nillable="true" type="ns0:date-Date"/>
+            <xsd:element minOccurs="0" name="LastUnaccrueChargeDate" nillable="true" type="ns0:date-Date"/>
+            <xsd:element minOccurs="0" name="SecondLastUnaccrueChrgDate" nillable="true" type="ns0:date-Date"/>
+            <xsd:element minOccurs="0" name="TaxHeaderLevelFlag" nillable="true" type="xsd:boolean"/>
+            <xsd:element minOccurs="0" name="FinchrgReceivablesTrxId" nillable="true" type="xsd:long"/>
+            <xsd:element minOccurs="0" name="TaxRoundingRule" nillable="true" type="xsd:string"/>
+            <xsd:element minOccurs="0" name="TaxClassification" nillable="true" type="xsd:string"/>
+            <xsd:element minOccurs="0" name="CreatedByModule" nillable="true" type="xsd:string"/>
+            <xsd:element minOccurs="0" name="SetId" type="xsd:long" sdoXML:dataType="sdoJava:LongObject"/>
+            <xsd:element minOccurs="0" name="EndDate" nillable="true" type="ns0:date-Date"/>
+            <xsd:element minOccurs="0" name="StartDate" type="ns0:date-Date"/>
+            <xsd:element maxOccurs="unbounded" minOccurs="0" name="OriginalSystemReference" type="ns1:OriginalSystemReference"/>
+            <xsd:element minOccurs="0" name="CustAcctSiteUseInformation" type="ns2:CustAcctSiteUseInformation"
+                 sdoXML:dataType="sdo:DataObject"/>
+        </xsd:sequence>
+    </xsd:complexType>
+    <xsd:element name="customerAccountSiteUse" type="CustomerAccountSiteUse"/>
+</xsd:schema>

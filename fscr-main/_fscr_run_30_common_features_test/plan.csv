@@ -1,0 +1,145 @@
+seq,task_code,task_name,functional_area,catalog_offering,catalog_display_sequence,fscr_prerequisites,oracle_prerequisites,order_vs_oracle
+1,PER_USER_AND_ROLES_SYNCHRONIZE_DETAILS,Run User and Roles Synchronization Process,Initial Users,Financials,1,,,no Oracle rule
+2,ORA_ASE_MANAGE_SECURITY_PREFERENCES,Manage Applications Security Preferences,Initial Users,Financials,2,,,no Oracle rule
+3,ORA_ASE_IMPORT_USERS_AND_ROLES,Import Users and Roles into Application Security,Initial Users,Financials,3,,,no Oracle rule
+4,ORA_ASE_IMPORT_USER_LOGIN_HISTORY,Import User Login History,Initial Users,Financials,4,,,no Oracle rule
+5,FND_CREATE_IMPLEMENTATION_USERS,Create Implementation Users,Initial Users,Financials,5,,,ok
+6,FND_CREATE_DATA_ROLE_FOR_IMPLEMENTATION_USERS,Create Data Role for Implementation Users,Initial Users,Financials,6,,FND_CREATE_IMPLEMENTATION_USERS,ok
+7,HRW_ESTABLISH_ENTERPRISE_STRUCTURES,Establish Enterprise Structures,Enterprise Profile,Financials,7,,,no Oracle rule
+8,FND_MANAGE_REFERENCE_DATA_SETS,Manage Reference Data Sets,Enterprise Profile,Financials,8,,,ok
+9,FND_MANAGE_REFERENCE_DATA_SET_ASSIGNMENTS,Manage Set Assignments for Set Determinant Type,Enterprise Profile,Financials,9,,FND_MANAGE_REFERENCE_DATA_SETS,ok
+10,ORA_FUN_MANAGE_REFERENCE_DATA_SET_DATA_ACCESS_FOR_USERS,Manage Reference Data Set Data Access for Users,Enterprise Profile,Financials,10,,,no Oracle rule
+11,HZ_MANAGE_GEOGRAPHIES,Manage Geographies,Enterprise Profile,Financials,11,,,ok
+12,HZ_LOAD_GEOGRAPHY_INTERFACE_DATA,Load Geography Interface Data,Enterprise Profile,Financials,12,,,no Oracle rule
+13,HZ_RUN_GEOGRAPHY_LOADER,Run Geography Loader,Enterprise Profile,Financials,13,,,no Oracle rule
+14,HZ_RUN_MAINTAIN_GEOGRAPHY_NAME_REFERENCING,Run Maintain Geography Name Referencing,Enterprise Profile,Financials,14,,,no Oracle rule
+15,ORA_HZ_RUN_GEOCODE_LOADER,Run Geocode Generation,Enterprise Profile,Financials,15,HZ_MANAGE_GEOGRAPHIES,,no Oracle rule
+16,HZ_MANAGE_GEOGRAPHY_LOOKUPS,Manage Geography Lookups,Enterprise Profile,Financials,16,,,no Oracle rule
+17,PER_MANAGE_ENTERPRISE_HCM_INFORMATION,Manage Enterprise HCM Information,Enterprise Profile,Financials,17,,,no Oracle rule
+18,PER_MANAGE_LOCATIONS,Manage Locations,Enterprise Profile,Financials,18,,HZ_MANAGE_GEOGRAPHIES,ok
+19,ZCA_MANAGE_CALENDAR_PROFILE_OPTION,Manage Calendar Profile Option,Enterprise Profile,Financials,621,,,no Oracle rule
+20,ZCA_MANAGE_WAREHOUSE_ENABLE_PROFILE,Manage Data Warehouse Profile Option,Enterprise Profile,Financials,623,,,no Oracle rule
+21,ZCA_MANAGE_PUBLIC_UNIQUE_IDENTIFIER_PROFILE_OPTIONS,Manage Public Unique Identifier Profile Options,Enterprise Profile,Financials,624,,,no Oracle rule
+22,XLE_MANAGE_LEGAL_JURISDICTIONS,Manage Legal Jurisdictions,Legal Structures,Financials,19,,,ok
+23,XLE_MANAGE_LEGAL_AUTHORITIES,Manage Legal Authorities,Legal Structures,Financials,20,,XLE_MANAGE_LEGAL_JURISDICTIONS,ok
+24,XLE_MANAGE_LEGAL_ADDRESSES,Manage Legal Addresses,Legal Structures,Financials,21,,HZ_MANAGE_GEOGRAPHIES,ok
+25,XLE_MANAGE_APPLICATION_LOOKUP,Manage Legal Entity Configurator Lookups,Legal Structures,Financials,22,,,no Oracle rule
+26,XLE_MANAGE_APPLICATION_DESCRIPTIVE_FLEXFIELD,Manage Legal Entity Configurator Descriptive Flexfield,Legal Structures,Financials,23,,,no Oracle rule
+27,XLE_MANAGE_LEGAL_ENITTY_PROFILE_OPTIONS,Manage Legal Entity Configurator Profile Options,Legal Structures,Financials,24,,,no Oracle rule
+28,XLE_MANAGE_LEGAL_ENTITY,Manage Legal Entity,Legal Structures,Financials,25,XLE_MANAGE_LEGAL_JURISDICTIONS; XLE_MANAGE_LEGAL_REPORTING_UNIT,XLE_MANAGE_LEGAL_ADDRESSES,ok
+29,XLE_MANAGE_LEGAL_ENTITY_REGISTRATIONS,Manage Legal Entity Registrations,Legal Structures,Financials,26,XLE_MANAGE_LEGAL_ENTITY,XLE_MANAGE_LEGAL_JURISDICTIONS; XLE_MANAGE_LEGAL_ENTITY,ok
+30,XLE_MANAGE_INTERCOMPANY_EXCEPTIONS,Manage Intercompany Exceptions,Legal Structures,Financials,27,,,no Oracle rule
+31,XLE_MANAGE_LEGAL_ENTITY_FINANCIAL_INFORMATION,Manage Legal Entity Financial Information,Legal Structures,Financials,28,,,no Oracle rule
+32,PER_MANAGE_LEGAL_ENTITY_HCM_INFORMATION,Manage Legal Entity HCM Information,Legal Structures,Financials,29,XLE_MANAGE_LEGAL_ENTITY,,no Oracle rule
+33,ZX_MANAGE_LEGAL_ENTITY_TAX_PROFILES,Manage Legal Entity Tax Profiles,Legal Structures,Financials,30,,,no Oracle rule
+34,XLE_MANAGE_LEGAL_REPORTING_UNIT,Manage Legal Reporting Unit,Legal Structures,Financials,31,,XLE_MANAGE_LEGAL_ENTITY,ok
+35,XLE_MANAGE_LEGAL_REPORTING_UNIT_REGISTRATIONS,Manage Legal Reporting Unit Registrations,Legal Structures,Financials,32,XLE_MANAGE_LEGAL_REPORTING_UNIT,XLE_MANAGE_LEGAL_REPORTING_UNIT,ok
+36,XLE_MANAGE_ASSOCIATED_BUSINESS_ENTITIES,Manage Associated Business Entities,Legal Structures,Financials,33,,,no Oracle rule
+37,ZX_MANAGE_LEGAL_REPORTING_UNIT_TAX_PROFILES,Manage Legal Reporting Unit Tax Profiles,Legal Structures,Financials,34,,,no Oracle rule
+38,XLE_MANAGE_LEGAL_REPORTING_UNIT_FINANCIAL_INFORMATION,Manage Legal Reporting Unit Financial Information,Legal Structures,Financials,35,,,no Oracle rule
+39,XLE_MANAGE_ASSOCIATED_BALANCING_SEGMENTS,Manage Associated Balancing Segments,Legal Structures,Financials,36,,GL_MANAGE_CHART_OF_ACCOUNTS_VALUE_SET_VALUES,violates
+40,PER_MANAGE_LEGISLATIVE_DATA_GROUPS,Manage Legislative Data Groups,Legal Structures,Grants Management,25,PER_MANAGE_LEGAL_ENTITY_HCM_INFORMATION,,no Oracle rule
+41,GL_MANAGE_CHART_OF_ACCOUNTS_VALUE_SETS,Manage Chart of Accounts Value Sets,Financial Reporting Structures,Financials,37,,,ok
+42,GL_MANAGE_CHARTS_OF_ACCOUNTS,Manage Chart of Accounts Structures,Financial Reporting Structures,Financials,38,,GL_MANAGE_CHART_OF_ACCOUNTS_VALUE_SETS,ok
+43,GL_MANAGE_CHARTS_OF_ACCOUNTS_STRUCTURE_INSTANCES,Manage Chart of Accounts Structure Instances,Financial Reporting Structures,Financials,39,GL_MANAGE_CHARTS_OF_ACCOUNTS,GL_MANAGE_CHARTS_OF_ACCOUNTS,ok
+44,ORA_MANAGE_COA_CONFIG,Manage Chart of Accounts Configurations,Financial Reporting Structures,Financials,40,,,no Oracle rule
+45,GL_MANAGE_CHART_OF_ACCOUNTS_VALUE_SET_VALUES,Manage Chart of Accounts Value Set Values,Financial Reporting Structures,Financials,41,,GL_MANAGE_CHART_OF_ACCOUNTS_VALUE_SETS,violates
+46,ORA_GL_MANAGE_ACCOUNT_HIERARCHY_LABELS,Manage Account Hierarchy Labels,Financial Reporting Structures,Financials,42,,,no Oracle rule
+47,GL_MANAGE_ACCOUNT_HIERARCHIES,Manage Account Hierarchies,Financial Reporting Structures,Financials,43,,GL_MANAGE_CHART_OF_ACCOUNTS_VALUE_SET_VALUES,ok
+48,GL_SELECT_AGGREGATION_OPTIONS_FOR_ACCOUNT_HIERARCHIES,Publish Account Hierarchies,Financial Reporting Structures,Financials,44,,GL_MANAGE_ACCOUNT_HIERARCHIES,ok
+49,GL_MANAGE_ACCOUNT_COMBINATIONS,Manage Account Combinations,Financial Reporting Structures,Financials,45,,GL_MANAGE_CROSS-VALIDATION_RULES,violates
+50,ORA_GL_MANAGE_SHORTHAND_ALIASES,Manage Shorthand Aliases,Financial Reporting Structures,Financials,46,,,no Oracle rule
+51,GL_MANAGE_SEGMENT_VALUE_SECURITY_RULES,Manage Segment Value Security Rules,Financial Reporting Structures,Financials,47,,,no Oracle rule
+52,GL_MANAGE_CROSS-VALIDATION_RULES,Manage Cross-Validation Rules,Financial Reporting Structures,Financials,48,,,violates
+53,GL_MANAGE_CHART_OF_ACCOUNTS_MAPPING,Manage Chart of Accounts Mappings,Financial Reporting Structures,Financials,49,,,no Oracle rule
+54,GL_MANAGE_CHART_OF_ACCOUNTS_SYNCHRONIZATION_WITH_DRM,Manage Chart of Accounts Synchronization with DRM,Financial Reporting Structures,Financials,50,,,no Oracle rule
+55,ORA_GL_MANAGE_APPLCORE_MESSAGES,Manage Messages for General Ledger,Financial Reporting Structures,Financials,51,,,no Oracle rule
+56,GL_MANAGE_ACCOUNTING_CALENDARS,Manage Accounting Calendars,Financial Reporting Structures,Financials,52,,,ok
+57,GL_MANAGE_TRANSACTION_CALENDARS,Manage Transaction Calendars,Financial Reporting Structures,Financials,53,,,no Oracle rule
+58,FND_MANAGE_CURRENCIES,Manage Currencies,Financial Reporting Structures,Financials,54,,,ok
+59,GL_MANAGE_CONVERSION_RATE_TYPES,Manage Conversion Rate Types,Financial Reporting Structures,Financials,55,,FND_MANAGE_CURRENCIES,ok
+60,GL_MANAGE_DAILY_RATES,Manage Daily Rates,Financial Reporting Structures,Financials,56,,GL_MANAGE_CONVERSION_RATE_TYPES,ok
+61,ORA_JA_CN_CREATE_ADDITIONAL_ACC_ATTRIBUTES_FOR_CHINA,Create Enterprise Additional Account Attributes for China,Financial Reporting Structures,Financials,57,,,no Oracle rule
+62,JA_MANAGE_ENTERPRISE_FINANCIAL_DATA_EXPORT_OPTIONS_FOR_CHINA,Manage Enterprise Financial Data Export Options for China,Financial Reporting Structures,Financials,58,,,no Oracle rule
+63,ORA_MANAGE_FINANCIALS_BUSINESS_OBJECTS_ARCHIVE,Manage Archive and Purge Policies,Financial Reporting Structures,Financials,59,,,no Oracle rule
+64,ZCA_MANAGE_CURRENCY_PROFILE_OPTIONS,Manage Currency Profile Options,Financial Reporting Structures,Financials,622,,,no Oracle rule
+65,GL_MANAGE_PRIMARY_LEDGERS,Manage Primary Ledgers,Financial Reporting Structures,Grants Management,35,GL_MANAGE_CHARTS_OF_ACCOUNTS; GL_MANAGE_CHARTS_OF_ACCOUNTS_STRUCTURE_INSTANCES; GL_SPECIFY_LEDGER_OPTIONS,GL_MANAGE_CHARTS_OF_ACCOUNTS_STRUCTURE_INSTANCES; GL_MANAGE_ACCOUNTING_CALENDARS; FND_MANAGE_CURRENCIES,ok
+66,GL_ASSIGN_LEGAL_ENTITIES,Assign Legal Entities,Financial Reporting Structures,Grants Management,36,GL_SPECIFY_LEDGER_OPTIONS,GL_MANAGE_PRIMARY_LEDGERS; XLE_MANAGE_LEGAL_ENTITY,ok
+67,GL_SPECIFY_LEDGER_OPTIONS,Specify Ledger Options,Financial Reporting Structures,Grants Management,37,GL_MANAGE_ACCOUNT_COMBINATIONS,GL_MANAGE_PRIMARY_LEDGERS,ok
+68,GL_ASSIGN_BALANCING_SEGMENT_VALUES_TO_LEGAL_ENTITIES,Assign Balancing Segment Values to Legal Entities,Financial Reporting Structures,Grants Management,38,GL_ASSIGN_BALANCING_SEGMENT_VALUES_TO_LEDGER,GL_ASSIGN_LEGAL_ENTITIES,ok
+69,GL_ASSIGN_BALANCING_SEGMENT_VALUES_TO_LEDGER,Assign Balancing Segment Values to Ledger,Financial Reporting Structures,Grants Management,39,GL_ASSIGN_BALANCING_SEGMENT_VALUES_TO_LEGAL_ENTITIES,GL_MANAGE_PRIMARY_LEDGERS,ok
+70,GL_REVIEW_AND_SUBMIT_ACCOUNTING_CONFIGURATION,Review and Submit Accounting Configuration,Financial Reporting Structures,Grants Management,40,GL_SPECIFY_LEDGER_OPTIONS,GL_SPECIFY_LEDGER_OPTIONS; GL_ASSIGN_LEGAL_ENTITIES,ok
+71,FUN_MANAGE_BUSINESS_UNIT,Manage Business Unit,Organization Structures,Financials,102,FUN_ASSIGN_BUSINESS_UNIT_BUSINESS_FUNCTION; FUN_MANAGE_BUSINESS_UNIT_SET_ASSIGNMENT; FUN_MANAGE_SERVICE_PROVIDER_RELATIONSHIPS,FND_MANAGE_REFERENCE_DATA_SETS; GL_REVIEW_AND_SUBMIT_ACCOUNTING_CONFIGURATION,ok
+72,FUN_ASSIGN_BUSINESS_UNIT_BUSINESS_FUNCTION,Assign Business Unit Business Function,Organization Structures,Financials,103,FUN_MANAGE_BUSINESS_UNIT; FUN_MANAGE_BUSINESS_UNIT_SET_ASSIGNMENT; FUN_MANAGE_SERVICE_PROVIDER_RELATIONSHIPS,FUN_MANAGE_BUSINESS_UNIT,ok
+73,ORA_FUN_MANAGE_BUSINESS_UNIT_DATA_ACCESS_FOR_USERS,Manage Business Unit Data Access for Users,Organization Structures,Financials,104,,FUN_MANAGE_BUSINESS_UNIT,ok
+74,FUN_MANAGE_BUSINESS_UNIT_SET_ASSIGNMENT,Manage Business Unit Set Assignment,Organization Structures,Financials,105,FUN_ASSIGN_BUSINESS_UNIT_BUSINESS_FUNCTION; FUN_MANAGE_BUSINESS_UNIT; FUN_MANAGE_SERVICE_PROVIDER_RELATIONSHIPS,FUN_MANAGE_BUSINESS_UNIT,ok
+75,FUN_MANAGE_SERVICE_PROVIDER_RELATIONSHIPS,Manage Service Provider Relationships,Organization Structures,Financials,106,FUN_ASSIGN_BUSINESS_UNIT_BUSINESS_FUNCTION; FUN_MANAGE_BUSINESS_UNIT; FUN_MANAGE_BUSINESS_UNIT_SET_ASSIGNMENT,FUN_ASSIGN_BUSINESS_UNIT_BUSINESS_FUNCTION,ok
+76,FUN_VIEW_SERVICE_CLIENTS,View Service Clients,Organization Structures,Financials,107,,,no Oracle rule
+77,FUN_VIEW_AVAILABLE_ASSET_BOOKS,View Available Asset Books,Organization Structures,Financials,108,,,no Oracle rule
+78,RCS_MANAGE_FACILITY_SHIFTS,Manage Facility Shifts,Organization Structures,Financials,109,,,no Oracle rule
+79,RCS_MANAGE_FACILITY_WORKDAY_PATTERNS,Manage Facility Workday Patterns,Organization Structures,Financials,110,,,no Oracle rule
+80,RCS_MANAGE_FACILITY_SCHEDULE_EXCEPTIONS,Manage Facility Schedule Exceptions,Organization Structures,Financials,111,,,no Oracle rule
+81,RCS_MANAGE_FACILITY_SCHEDULES,Manage Facility Schedules,Organization Structures,Financials,112,,,no Oracle rule
+82,INV_MANAGE_INVENTORY_ORGANIZATIONS,Manage Inventory Organizations,Organization Structures,Financials,113,,,no Oracle rule
+83,ORA_FUN_MANAGE_INVENTORY_ORGANIZATION_DATA_ACCESS_FOR_USERS,Manage Inventory Organization Data Access for Users,Organization Structures,Financials,114,,,no Oracle rule
+84,HZ_MANAGE_RESOURCE_ORGANIZATIONS,Manage Internal Resource Organizations,Organization Structures,Financials,115,,,no Oracle rule
+85,HZ_MANAGE_PARTNER_ORGANIZATIONS,Manage Partner Organizations,Organization Structures,Financials,116,,,no Oracle rule
+86,HZ_MANAGE_RESOURCE_ORGANIZATION_HIERARCHIES,Manage Resource Organization Hierarchies,Organization Structures,Financials,117,,,no Oracle rule
+87,HZ_MANAGE_RESOURCE_ORGANIZATION_MEMBERS,Manage Resource Organization Members,Organization Structures,Financials,118,,,no Oracle rule
+88,HZ_RUN_REPORTING_HIERARCHY_GENERATION,Run Reporting Hierarchy Generation,Organization Structures,Financials,119,,,no Oracle rule
+89,ORA_ZCA_MANAGE_COMMON_CRM_BUSINESS_UNIT_PROFILE_OPTIONS,Manage Common CRM Business Unit Profile Options,Organization Structures,Grants Management,195,,,no Oracle rule
+90,PER_MANAGE_DIVISION,Manage Divisions,Workforce Structures,Financials,120,,,no Oracle rule
+91,PER_MANAGE_DEPARTMENT,Manage Departments,Workforce Structures,Financials,121,,PER_MANAGE_LOCATIONS,ok
+92,PER_MANAGE_JOB_FAMILY,Manage Job Families,Workforce Structures,Financials,122,PER_MANAGE_JOB,,ok
+93,PER_MANAGE_JOB,Manage Job,Workforce Structures,Financials,123,,PER_MANAGE_JOB_FAMILY,ok
+94,PER_MANAGE_DEPARTMENT_TREE,Manage Department Trees,Workforce Structures,Grants Management,47,PER_MANAGE_DEPARTMENT,,no Oracle rule
+95,PER_MANAGE_ORGANIZATION_TREE,Manage Organization Trees,Workforce Structures,Grants Management,49,PER_MANAGE_DEPARTMENT_TREE,,no Oracle rule
+96,ASXS_MANAGE_JOB_ROLES,Manage Job Roles,Users and Security,Financials,124,ASXS_MANAGE_DATA_SECURITY_POLICIES; ASXS_MANAGE_DUTIES; PER_MANAGE_JOB,ASXS_MANAGE_DUTIES,violates
+97,ASXS_MANAGE_DUTIES,Manage Duties,Users and Security,Financials,125,,,violates
+98,GL_MANAGE_DATA_ACCESS_SETS,Manage Data Access Sets,Users and Security,Financials,126,,GL_MANAGE_PRIMARY_LEDGERS,ok
+99,ASXS_MANAGE_DATA_SECURITY_POLICIES,Manage Data Security Policies,Users and Security,Financials,127,ASXS_MANAGE_DUTIES; ASXS_MANAGE_JOB_ROLES; PER_MANAGE_JOB,,no Oracle rule
+100,PER_MANAGE_DATA_ROLE_AND_SECURITY_PROFILES,Manage Data Role and Security Profiles,Users and Security,Financials,128,,,no Oracle rule
+101,PER_MANAGE_HCM_ROLE_PROVISIONING_RULES,Manage HCM Role Provisioning Rules,Users and Security,Financials,129,ASXS_MANAGE_DATA_SECURITY_POLICIES; ASXS_MANAGE_DUTIES; ASXS_MANAGE_JOB_ROLES; PER_MANAGE_JOB,,no Oracle rule
+102,HRC_IMPORT_WORKER_USERS,Import Worker Users,Users and Security,Financials,130,,,no Oracle rule
+103,PER_MANAGE_USERS,Manage Users,Users and Security,Financials,131,,,no Oracle rule
+104,ORA_FUN_MANAGE_DATA_ACCESS_FOR_USERS,Manage Data Access for Users,Users and Security,Financials,132,,,no Oracle rule
+105,ATK_CONFIGURE_HELP_SETTINGS,Set Help Options,Application Extensions,Financials,948,,,no Oracle rule
+106,ATK_ASSIGN_FUSION_HELP_TEXT_ADMINISTRATION_DUTY,Assign Help Text Administration Duty,Application Extensions,Financials,949,,,no Oracle rule
+107,ATK_MANAGE_HELP_SECURITY_GROUPS,Manage Help Security Groups,Application Extensions,Financials,950,,,no Oracle rule
+108,ORA_ATK_MANAGE_HELP_CONTENT,Manage Help Content,Application Extensions,Financials,951,,,no Oracle rule
+109,FND_MANAGE_TAXONOMY_HIERARCHY,Manage Taxonomy Hierarchy,Application Extensions,Financials,956,,,no Oracle rule
+110,FND_MANAGE_ISO_LANGUAGES,Manage ISO Languages,Application Extensions,Financials,961,,,no Oracle rule
+111,FND_MANAGE_TERRITORIES,Manage Territories,Application Extensions,Financials,962,,,no Oracle rule
+112,FND_MANAGE_LANGUAGES,Manage Languages,Application Extensions,Financials,963,,,no Oracle rule
+113,FND_MANAGE_INDUSTRIES,Manage Industries,Application Extensions,Financials,964,,,no Oracle rule
+114,FND_MANAGE_NATURAL_LANGUAGES,Manage Natural Languages,Application Extensions,Financials,965,,,no Oracle rule
+115,FND_MANAGE_TIMEZONES,Manage Time Zones,Application Extensions,Financials,966,,,no Oracle rule
+116,FND_SET_USER_GENERAL_PREFERENCES,Set User General Preferences,Application Extensions,Financials,968,,,no Oracle rule
+117,FND_MANAGE_AUDIT_POLICIES,Manage Audit Policies,Application Extensions,Financials,969,ORA_FND_GLOBAL_SEARCH_CONFIGURATIONS; ORA_FND_MANAGE_INDEX_CONFIGURATION; ORA_FND_SUGGESTION_GROUPS,,no Oracle rule
+118,FND_MANAGE_APPLCORE_MESSAGES,Manage Applications Core Messages,Application Extensions,Financials,970,,,no Oracle rule
+119,FND_MANAGE_APPLCORE_STANDARD_LOOKUPS,Manage Applications Core Standard Lookups,Application Extensions,Financials,971,,,no Oracle rule
+120,FND_MANAGE_APPLICATIONS_CORE_PROFILE_OPTIONS,Manage Applications Core Profile Options,Application Extensions,Financials,972,,,no Oracle rule
+121,FND_MANAGE_APPLICATIONS_CORE_ADMINISTRATOR_PROFILE_VALUES,Manage Applications Core Administrator Profile Values,Application Extensions,Financials,973,,,no Oracle rule
+122,FND_MANAGE_APPLICATIONS_CORE_PROFILE_CATEGORIES,Manage Applications Core Profile Categories,Application Extensions,Financials,974,,,no Oracle rule
+123,FND_MANAGE_APPLCORE_VALUE_SETS,Manage Applications Core Value Sets,Application Extensions,Financials,975,,,ok
+124,FND_MANAGE_APPLCORE_DESCRIPTIVE_FLEXFIELDS,Manage Applications Core Descriptive Flexfields,Application Extensions,Financials,976,,FND_MANAGE_APPLCORE_VALUE_SETS,ok
+125,FND_MANAGE_APPLICATIONS_CORE_ATTACHMENT_ENTITIES,Manage Applications Core Attachment Entities,Application Extensions,Financials,977,,,no Oracle rule
+126,FND_MANAGE_APPLICATIONS_CORE_ATTACHMENT_CATEGORIES,Manage Applications Core Attachment Categories,Application Extensions,Financials,978,,,no Oracle rule
+127,ORA_FND_GLOBAL_SEARCH_CONFIGURATIONS,Manage Applications Core Global Search Configurations,Application Extensions,Financials,979,FND_MANAGE_AUDIT_POLICIES; ORA_FND_MANAGE_INDEX_CONFIGURATION; ORA_FND_SUGGESTION_GROUPS,,no Oracle rule
+128,ORA_FND_SUGGESTION_GROUPS,Manage Applications Core Global Search Suggestion Groups,Application Extensions,Financials,980,FND_MANAGE_AUDIT_POLICIES; ORA_FND_GLOBAL_SEARCH_CONFIGURATIONS; ORA_FND_MANAGE_INDEX_CONFIGURATION,,no Oracle rule
+129,ORA_FND_MANAGE_ROLES_TO_SYNCHRONIZE,Migrate Enterprise Roles and Assignments to PaaS Identity Store,Application Extensions,Financials,981,,,no Oracle rule
+130,ORA_FND_SET_CSM_TARGET_SECURITY,Manage Configuration Set Migration Target Security Policy,Application Extensions,Financials,982,,,no Oracle rule
+131,ORA_FND_USER_IDENTITY_SYNCHRONIZATION_REPORT,Manage User Identity Synchronization to PaaS Identity Store,Application Extensions,Financials,983,,,no Oracle rule
+132,ORA_FND_GUIDED_LEARNING_ENABLED,Configure Guided Learning,Application Extensions,Financials,985,,,no Oracle rule
+133,ORA_FND_MANAGE_INDEX_CONFIGURATION,Manage Search Indexes,Application Extensions,Financials,986,FND_MANAGE_AUDIT_POLICIES; ORA_FND_GLOBAL_SEARCH_CONFIGURATIONS; ORA_FND_SUGGESTION_GROUPS,,no Oracle rule
+134,ORA_ATK_CUSTOM_ESS_FSCM,"Manage Enterprise Scheduler Job Definitions and Job Sets for Financial, Supply Chain Management, and Related Applications",Application Extensions,Grants Management,343,,,no Oracle rule
+135,PJB_MANAGE_BILLING_EXTENSIONS,Manage Billing Extensions,Application Extensions,Grants Management,345,,,no Oracle rule
+136,PJB_MANAGE_REVENUE_METHOD_BILLING_EXTENSION_ASSIGNMENTS,Manage Revenue Methods: Billing Extension Assignments,Application Extensions,Grants Management,346,,,no Oracle rule
+137,PJB_MANAGE_INVOICE_METHOD_BILLING_EXTENSION_ASSIGNMENTS,Manage Invoice Methods: Billing Extension Assignments,Application Extensions,Grants Management,347,,,no Oracle rule
+138,ORA_PJF_MANAGE_PROJECT_PROC_CONFIGURATOR,Manage Project Process Configurator,Application Extensions,Grants Management,348,,,no Oracle rule
+139,ORA_MANAGE_DIGITAL_ASSISTANT,Manage Digital Assistant,Application Extensions,Grants Management,349,,,no Oracle rule
+140,ORA_PJF_MANAGE_USER_DEFINED_RULES,Manage User-Defined Rules for Project Management,Application Extensions,Grants Management,350,,,no Oracle rule
+141,FND_MANAGE_MESSAGES,Manage Messages,Application Extensions,Public Sector Business Licenses,192,,,no Oracle rule
+142,FND_MANAGE_ATTACHMENT_ENTITIES,Manage Attachment Entities,Application Extensions,Public Sector Business Licenses,194,,,no Oracle rule
+143,FND_MANAGE_ATTACHMENT_CATEGORIES,Manage Attachment Categories,Application Extensions,Public Sector Business Licenses,195,,,no Oracle rule
+144,MCT_ENABLE_CLICK_TO_DIAL,Enable Click to Dial,Application Extensions,Fusion Accounting Hub,228,,,no Oracle rule

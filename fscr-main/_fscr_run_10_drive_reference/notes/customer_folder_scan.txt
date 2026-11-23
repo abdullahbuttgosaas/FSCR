@@ -1,0 +1,111 @@
+Customer folder scan (read-only listing of Customers folder, 3 levels deep; folders with 50+ children at any level are truncated to their first 50 entries, marked "+").
+Counts = number of file/folder names (last path segment) matching: SOW (SOW|statement of work), PLAN (project plan|.mpp|project schedule|work plan), INST (instance plan|environment plan), CRP (CRP|conference room), INT (integration|interface|OIC|functional spec), CHK (checklist|readiness|pre-implementation).
+Columns: folder | last modified (Drive list; "Aug 24"-style = 2026) | entries | flags
+
+.DS_Store 2 (file) | 2024-04-28 | 1 | -
+Accenture | 2024-12-09 | 1 | SOW:0 PLAN:0 INST:0 CRP:0 INT:1 CHK:0
+Aerovironment - Automus | 2024-07-18 | 347 | SOW:5 PLAN:3 INST:0 CRP:1 INT:25 CHK:0
+Alcatel Lucent/ ALE | 2024-03-01 | 7 | SOW:0 PLAN:2 INST:0 CRP:0 INT:0 CHK:0
+Alter G | 2024-12-17 | 2 | all 0
+AMDI | 2024-01-24 | 143 | SOW:7 PLAN:3 INST:0 CRP:4 INT:3 CHK:2
+Ampere Computing | 2025-02-03 | 580+ | SOW:1 PLAN:7 INST:1 CRP:11 INT:35 CHK:5
+AMVAC - PLM | 2022-06-13 | 56 | SOW:1 PLAN:12 INST:0 CRP:2 INT:1 CHK:1
+Ancestry | 2023-03-20 | 193 | SOW:0 PLAN:9 INST:1 CRP:23 INT:6 CHK:0
+Applied Optoelectronics | 2026-08-24 | 500+ | SOW:1 PLAN:16 INST:0 CRP:40 INT:13 CHK:0
+Archived | 2022-02-09 | 544 | SOW:11 PLAN:7 INST:2 CRP:22 INT:37 CHK:9
+Arconic | 2022-06-07 | 0 | empty
+Argano HCM Projects | 2026-10-23 | 47 | all 0
+ATEC (Alphatec) | 2026-04-16 | 342+ | SOW:0 PLAN:0 INST:2 CRP:16 INT:11 CHK:0
+ATEC Spine (Old) | 2026-09-24 | 21 | SOW:0 PLAN:0 INST:0 CRP:2 INT:1 CHK:0
+Ballard Power | 2024-12-07 | 95 | SOW:0 PLAN:1 INST:0 CRP:0 INT:5 CHK:0
+Boxabl | 2026-08-24 | 266 | SOW:1 PLAN:21 INST:1 CRP:6 INT:16 CHK:2
+Brooks Automation - Silicon Expert | 2026-08-23 | 202 | SOW:3 PLAN:5 INST:0 CRP:8 INT:22 CHK:3
+BSN - Bank Simpanan Nasional | 2026-04-01 | 12 | all 0
+Charter Next Generation | 2026-08-23 | 139 | SOW:0 PLAN:2 INST:0 CRP:7 INT:3 CHK:1
+Christie Digital | 2024-07-18 | 438+ | SOW:1 PLAN:36 INST:10 CRP:22 INT:15 CHK:3
+Ciena | 2026-01-06 | 231+ | SOW:10 PLAN:3 INST:0 CRP:11 INT:4 CHK:4
+Cirtec | 2022-10-05 | 745 | SOW:6 PLAN:10 INST:4 CRP:83 INT:33 CHK:11
+Cisco | 2021-09-21 | 4 | all 0
+Claude Integration Projects | 2026-09-23 | 11 | all 0
+Coast Cutlery | 2025-01-08 | 94 | SOW:1 PLAN:1 INST:0 CRP:8 INT:7 CHK:2
+Cohu | 2026-08-24 | 353+ | SOW:1 PLAN:5 INST:0 CRP:7 INT:9 CHK:0
+Cohu Demand Planning | 2025-09-23 | 12 | SOW:0 PLAN:0 INST:0 CRP:1 INT:1 CHK:1
+Cohu Production Scheduling | 2025-09-23 | 97 | all 0
+Cohu Supply Planning | 2025-09-23 | 12 | SOW:0 PLAN:0 INST:0 CRP:1 INT:1 CHK:1
+Curtiss Wright | 2020-09-23 | 36 | INT:3
+Dexcom | 2026-01-08 | 28 | PLAN:2 CRP:1 CHK:1
+doTERRA | 2025-05-28 | 395 | CRP:44 INT:10 CHK:1
+Energy Recovery | 2022-10-09 | 36 | SOW:2 PLAN:1 CRP:3 INT:9
+Exam topics (file) | 2026-08-24 | 1 | -
+FB | 2024-12-17 | 5 | CRP:2
+Fluke | 2026-08-23 | 765+ | SOW:3 PLAN:10 INST:3 CRP:8 INT:28 CHK:16
+Glaukos | 2026-08-23 | 535+ | SOW:4 PLAN:6 INST:4 CRP:8 INT:35 CHK:11
+Gorilla Glue | 2022-05-23 | 37 | INT:3
+HIID | 2024-12-17 | 2 | all 0
+HME | 2023-10-20 | 8 | INT:1
+Ice-o-Matic | 2024-12-17 | 2 | all 0
+Insmed Supplier Portal | 2025-12-02 | 0 | empty
+Intel | 2026-08-23 | 27 | INT:2
+Intelsat | 2025-06-13 | 3 | all 0
+Intuitive Surgical | 2026-06-03 | 29 | SOW:1 PLAN:1 CRP:1 INT:1
+Kaneka | 2026-08-24 | 39 | SOW:2 INST:1 INT:4
+Kodak Alaris | 2024-04-03 | 7 | SOW:1 PLAN:1
+Krusteaz | 2025-04-17 | 218 | PLAN:2 CRP:3 INT:16 CHK:1
+Logitech | 2023-01-09 | 372 | CRP:9 INT:4
+MacLean Power Systems | 2026-08-23 | 75 | SOW:1 PLAN:1 CRP:4 INT:6
+MACOM | 2026-01-16 | 19 | all 0
+Micross | 2024-03-06 | 314 | SOW:4 PLAN:5 CRP:21 INT:15 CHK:1
+Motorola | 2023-10-20 | 68 | SOW:1 PLAN:1 CRP:1 INT:12
+Nissha | 2025-09-01 | 507 | SOW:3 PLAN:4 INST:4 CRP:37 INT:10 CHK:5
+Nissha Support | 2026-08-24 | 75 | PLAN:1
+NJOY | 2022-08-31 | 36 | SOW:1 CRP:1 INT:5
+NKR Continental | 2026-08-24 | 1 | all 0
+Non-Agile Data Files Format | 2022-09-06 | 18 | all 0
+NuSil | 2026-08-24 | 180 | SOW:3 PLAN:3 CRP:6 INT:12 CHK:5
+Olympus | 2022-04-29 | 5 | SOW:1
+Omron | 2026-06-03 | 125 | INST:3 CRP:2 INT:6 CHK:2
+Otter Products | 2024-01-04 | 47 | SOW:1 INT:3 CHK:1
+Panasonic | 2023-12-02 | 1 | all 0
+PCTEL | 2024-12-17 | 2 | all 0
+Philips | 2021-07-14 | 4 | all 0
+PowerFleet | 2023-02-14 | 210 | SOW:2 PLAN:3 CRP:3 INT:15 CHK:2
+Project GoStarts | 2024-03-13 | 4 | all 0
+pSemi | 2025-08-15 | 244 | SOW:7 PLAN:3 CRP:13 INT:17 CHK:1
+Pure Storage | 2023-02-15 | 38 | SOW:2 PLAN:1 INT:1
+QED | 2022-04-13 | 5 | all 0
+Ramssol - Ascend | 2026-08-24 | 142 | PLAN:5 CRP:1 INT:3 CHK:1
+Ramssol - KKU | 2026-08-24 | 299 | SOW:1 PLAN:9 INT:18 CHK:5
+Ramssol - UEM Sunrise | 2026-08-24 | 9 | all 0
+Rapid Micro | 2023-10-18 | 4 | all 0
+Renesas | 2026-08-24 | 571+ | SOW:2 PLAN:6 INST:2 CRP:15 INT:26 CHK:1
+Roche | 2024-05-07 | 270 | SOW:5 PLAN:3 CRP:2 INT:7 CHK:1
+Roll and Hill | 2023-01-11 | 46 | CRP:3 INT:4 CHK:1
+Royal Brunei | 2024-12-12 | 0 | empty
+Sally Beauty | 2022-07-13 | 372+ | SOW:2 PLAN:3 INST:1 CRP:27 INT:16
+Samba Nova | 2025-01-08 | 74 | SOW:2 INST:2 CRP:2 INT:12
+SambaNova Coupa Integrations | 2024-04-04 | 1 | INT:1
+Sensata | 2022-12-15 | 69 | SOW:2
+SharkNinja | 2026-10-28 | 275 | SOW:5 CRP:2 INT:6 CHK:1
+Shockwave | 2023-03-01 | 177 | SOW:2 PLAN:16 INST:1 CRP:17 INT:2 CHK:1
+SiTime | 2026-09-15 | 85 | INST:1 CRP:1 INT:5
+SLD Laser | 2024-08-16 | 4 | all 0
+Spinnaker | 2020-09-08 | 0 | empty
+StarLine - LeGrand | 2026-01-12 | 136 | PLAN:1 CRP:13 INT:11 CHK:1
+Tandem Diabetes Care | 2026-02-27 | 408 | SOW:2 PLAN:3 INST:5 CRP:22 INT:35 CHK:5
+TDK Lambda | 2025-01-08 | 141+ | SOW:1 PLAN:41 CRP:5 INT:4 CHK:1
+Tektronix - Archiver/ETS | 2024-01-24 | 75 | PLAN:6 CRP:6 INT:1 CHK:1
+Tektronix - PLM | 2026-08-24 | 680+ | SOW:1 PLAN:5 INST:8 CRP:46 INT:39
+TEMPLATE WWX ... Weekly Status (Google Sheet) | 2025-09-22 | 1 | -
+Thermacell | 2024-12-20 | 333 | PLAN:1 CRP:25 CHK:2
+Thermofisher | 2026-01-22 | 0 | empty
+Trellix | 2026-10-24 | 24 | INST:2 INT:1 CHK:1
+Twelve Projects | 2026-08-24 | 156 | SOW:2 PLAN:6 INST:1 CRP:10 INT:2 CHK:7
+UEM Edgenta | 2024-12-12 | 0 | empty
+UNICOM | 2024-03-06 | 254 | SOW:4 PLAN:3 INST:2 CRP:18 INT:16 CHK:2
+Unigen | 2024-09-13 | 6 | PLAN:1 INT:3
+Untitled spreadsheet (file) | 2025-10-24 | 1 | -
+Vault Pressure Control | 2025-01-08 | 249 | SOW:1 PLAN:18 CRP:13 INT:22 CHK:6
+Wabtec | 2022-07-05 | 58 | PLAN:1
+WestRock Coffee | 2026-08-24 | 275 | SOW:1 PLAN:6 INST:1 CRP:34 CHK:1
+Yayasan Pahang | 2023-11-27 | 34 | SOW:2 INT:3
+Zebra - EG&C | 2022-03-04 | 108 | SOW:1 PLAN:35 CRP:7 INT:1 CHK:1

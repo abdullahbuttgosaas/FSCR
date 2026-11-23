@@ -1,0 +1,22 @@
+{
+  "items" : [ {
+    "PersonNumber" : "4",
+    "DisplayName" : "Aron Smith",
+    "FirstName" : "Aron",
+    "LastName" : "Smith",
+    "PersonId" : "300000326995006",
+    "@context" : {
+      "key" : "300000326995006"
+    }
+  } ],
+  "count" : 1,
+  "hasMore" : false,
+  "limit" : 25,
+  "offset" : 0,
+  "links" : [ {
+    "rel" : "self",
+    "href" : "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/hcmRestApi/resources/11.13.18.05/publicWorkers",
+    "name" : "publicWorkers",
+    "kind" : "collection"
+  } ]
+}

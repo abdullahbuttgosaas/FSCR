@@ -1,0 +1,92 @@
+{
+ "about": "The upload workbook: every tab and column. page/workbook.py reads uploads and makes the empty sheet from this file only. See the root CLAUDE.md > The upload sheet.",
+ "version": 1,
+ "layout": {"section_row": 1, "label_row": 2, "hint_row": 3, "first_data_row": 4, "template_rows": 497},
+ "readme": {
+  "tab": "Read me",
+  "lines": [
+   "Customer upload sheet: how to fill it",
+   "",
+   "Organization Customers = Oracle's Create Organization Customer screen. Person Customers = Create Person Customer screen.",
+   "Same order and labels as Oracle, top to bottom. One row = one customer.",
+   "Yellow headers (*) are required. Blue are optional; empty means Oracle's default.",
+   "One customer per upload for now: fill only one customer row, on one of the two customer tabs.",
+   "Address Purposes: one row per purpose. Customer Name = the customer's Name (organization) or First Name + space + Last Name (person).",
+   "Not in the sheet (Oracle fills them): Registry ID, Account Number, Site Number, Site on a purpose.",
+   "Dates are text, YYYY-MM-DD. Purpose dates must be within the address dates.",
+   "Test environment only."
+  ]
+ },
+ "column_sets": {
+  "customer_account_and_address": [
+   {"label": "Taxpayer Identification Number", "section": "@info", "key": "taxpayer_id", "type": "text"},
+   {"label": "Account Description", "section": "Account Information", "key": "account_description", "type": "text"},
+   {"label": "Account Type", "section": "Account Information", "key": "account_type", "type": "pick", "values": ["External", "Internal"], "live": "account_type"},
+   {"label": "Customer Class", "section": "Account Information", "key": "customer_class", "type": "pick", "values": ["Federal class", "Public sector companies"], "live": "customer_class"},
+   {"label": "Account Established Date", "section": "Account Information", "key": "account_established_date", "type": "date", "role": "start", "default": "today"},
+   {"label": "Account Termination Date", "section": "Account Information", "key": "account_termination_date", "type": "date", "role": "end", "pair": "Account Established Date"},
+   {"label": "Account Notes Other", "section": "Account Information", "key": "account_notes_other", "type": "long-text"},
+   {"label": "Shipping Instrustions", "section": "Account Information", "key": "shipping_instructions", "type": "long-text"},
+   {"label": "Customer Agreement", "section": "Account Information", "key": "customer_agreement", "type": "long-text"},
+   {"label": "Account Address Set", "section": "Account Address", "key": "account_address_set", "type": "pick", "required": true, "live": "account_address_set", "hint": "Dropdown: Enterprise Set / CUSTOMER_RDS / 001 Customer Site ..."},
+   {"label": "From Date", "section": "Account Address", "key": "address_from_date", "type": "date", "role": "start", "default": "today"},
+   {"label": "To Date", "section": "Account Address", "key": "address_to_date", "type": "date", "role": "end", "pair": "From Date"},
+   {"label": "Site Name", "section": "Address", "key": "site_name", "type": "text"},
+   {"label": "Mail Stop", "section": "Address", "key": "mail_stop", "type": "text"},
+   {"label": "Country", "section": "Address", "key": "country", "type": "pick", "live": "country", "default": "United States"},
+   {"label": "Address Line 1", "section": "Address", "key": "address_line_1", "type": "text"},
+   {"label": "Address Line 2", "section": "Address", "key": "address_line_2", "type": "text"},
+   {"label": "City", "section": "Address", "key": "city", "type": "text", "oracle_checks": true, "hint": "Must exist in Oracle"},
+   {"label": "State", "section": "Address", "key": "state", "type": "pick", "live": "state", "hint": "Must exist in Oracle, e.g. CA"},
+   {"label": "Postal Code", "section": "Address", "key": "postal_code", "type": "text", "oracle_checks": true, "hint": "Must exist in Oracle"},
+   {"label": "Responsible Mineral Status", "section": "Address", "key": "responsible_mineral_status", "type": "pick", "values": ["Conflict Free", "N/A", "No Data", "Undetermined"]},
+   {"label": "Address", "section": "Address", "key": "address_note", "type": "text"},
+   {"label": "URL", "section": "Address", "key": "url", "type": "text"},
+   {"label": "ContactEmail", "section": "Address", "key": "contact_email", "type": "text"},
+   {"label": "Authorizer", "section": "Address", "key": "authorizer", "type": "text"},
+   {"label": "Supplier Site ID", "section": "Address", "key": "supplier_site_id", "type": "digits", "required": true, "hint": "Digits only, used as given"},
+   {"label": "Sales Tax Geocode", "section": "Address", "key": "sales_tax_geocode", "type": "text"},
+   {"label": "Sales Tax Inside City Limits", "section": "Address", "key": "sales_tax_inside_city_limits", "type": "yes-no", "default": true},
+   {"label": "Customer Category Code", "section": "Address Details", "key": "customer_category_code", "type": "pick", "values": [], "check": false, "hint": "Dropdown (list empty in this Oracle)"},
+   {"label": "Site Language", "section": "Address Details", "key": "site_language", "type": "text", "oracle_checks": true, "hint": "Dropdown"},
+   {"label": "Translated Customer Name", "section": "Address Details", "key": "translated_customer_name", "type": "text"},
+   {"label": "Key Account", "section": "Address Details", "key": "key_account", "type": "yes-no", "default": false},
+   {"label": "Trading Partner Identifier", "section": "Address Details", "key": "trading_partner_identifier", "type": "digits", "hint": "Numbers only"},
+   {"label": "EDI Location Code", "section": "Address Details", "key": "edi_location_code", "type": "text"}
+  ]
+ },
+ "tabs": [
+  {
+   "name": "Organization Customers",
+   "sections": {"@info": "Organization Information"},
+   "columns": [
+    {"label": "Name", "section": "Organization Information", "key": "name", "type": "text", "required": true, "hint": "Text"},
+    {"label": "D-U-N-S Number", "section": "Organization Information", "key": "duns_number", "type": "text"},
+    {"use": "customer_account_and_address"}
+   ]
+  },
+  {
+   "name": "Person Customers",
+   "sections": {"@info": "Person Information"},
+   "columns": [
+    {"label": "Prefix", "section": "Person Information", "key": "prefix", "type": "pick", "values": ["Mr.", "Mrs.", "Ms."], "live": "prefix"},
+    {"label": "First Name", "section": "Person Information", "key": "first_name", "type": "text", "required": true, "hint": "Text"},
+    {"label": "Middle Name", "section": "Person Information", "key": "middle_name", "type": "text"},
+    {"label": "Last Name", "section": "Person Information", "key": "last_name", "type": "text"},
+    {"label": "Suffix", "section": "Person Information", "key": "suffix", "type": "text"},
+    {"use": "customer_account_and_address"}
+   ]
+  },
+  {
+   "name": "Address Purposes",
+   "columns": [
+    {"label": "Customer Name", "section": "Address Purposes", "type": "text", "required": true, "hint": "Organization: its Name. Person: First Name + space + Last Name"},
+    {"label": "Primary", "section": "Address Purposes", "key": "primary", "type": "yes-no", "default": false, "hint": "Yes / No. One Primary per purpose type. Oracle makes the first of each type Primary on save"},
+    {"label": "Purpose", "section": "Address Purposes", "key": "purpose", "type": "pick", "required": true, "values": ["Acknowledgments", "Bill to", "Bills of lading", "Correspondence", "Credit contact", "Credit memos", "Deliver to", "Drawee", "Dunning", "Installed at", "Invoices", "Late charges", "Legal", "Self service user", "Ship to", "Sold to", "Statements", "Subscription Location"], "hint": "Dropdown, 18 values"},
+    {"label": "From Date", "section": "Address Purposes", "key": "from_date", "type": "date", "role": "start", "default": "today", "hint": "YYYY-MM-DD, within the address dates; empty = today"},
+    {"label": "To Date", "section": "Address Purposes", "key": "to_date", "type": "date", "role": "end", "pair": "From Date"},
+    {"label": "Bill-to Site", "section": "Address Purposes", "key": "bill_to_site", "type": "text", "hint": "Ship to rows only. Leave empty to use this customer's address"}
+   ]
+  }
+ ]
+}

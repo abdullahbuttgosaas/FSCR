@@ -1,0 +1,1721 @@
+[
+  {
+    "entity": "AP_OTHER_PERIOD_TYPE",
+    "id": "REQ-001",
+    "kind": "target",
+    "operationId": "cal1",
+    "requirement": "create exactly one AP_OTHER_PERIOD_TYPE record identified by {\"CalendarName\":\"FSCRT_CAL1\",\"CalendarType\":\"GENERAL\"}",
+    "targetKey": {
+      "CalendarName": "FSCRT_CAL1",
+      "CalendarType": "GENERAL"
+    }
+  },
+  {
+    "entity": "AP_OTHER_PERIOD_TYPE",
+    "field": "Description",
+    "id": "REQ-002",
+    "kind": "value",
+    "operationId": "cal1",
+    "requestedValue": "FSCRT Run04 test calendar",
+    "requirement": "Persist AP_OTHER_PERIOD_TYPE.Description=FSCRT Run04 test calendar",
+    "targetKey": {
+      "CalendarName": "FSCRT_CAL1",
+      "CalendarType": "GENERAL"
+    }
+  },
+  {
+    "entity": "AP_OTHER_PERIOD_TYPE",
+    "field": "PeriodFrequency",
+    "id": "REQ-003",
+    "kind": "value",
+    "operationId": "cal1",
+    "requestedValue": "MONTHLY",
+    "requirement": "Persist AP_OTHER_PERIOD_TYPE.PeriodFrequency=MONTHLY",
+    "targetKey": {
+      "CalendarName": "FSCRT_CAL1",
+      "CalendarType": "GENERAL"
+    }
+  },
+  {
+    "entity": "AP_OTHER_PERIOD_TYPE",
+    "field": "PeriodNameFormat",
+    "id": "REQ-004",
+    "kind": "value",
+    "operationId": "cal1",
+    "requestedValue": "MMM",
+    "requirement": "Persist AP_OTHER_PERIOD_TYPE.PeriodNameFormat=MMM",
+    "targetKey": {
+      "CalendarName": "FSCRT_CAL1",
+      "CalendarType": "GENERAL"
+    }
+  },
+  {
+    "entity": "AP_OTHER_PERIOD_TYPE",
+    "field": "PeriodsPerYear",
+    "id": "REQ-005",
+    "kind": "value",
+    "operationId": "cal1",
+    "requestedValue": "12",
+    "requirement": "Persist AP_OTHER_PERIOD_TYPE.PeriodsPerYear=12",
+    "targetKey": {
+      "CalendarName": "FSCRT_CAL1",
+      "CalendarType": "GENERAL"
+    }
+  },
+  {
+    "entity": "AP_OTHER_PERIOD_TYPE",
+    "field": "StartDate",
+    "id": "REQ-006",
+    "kind": "value",
+    "operationId": "cal1",
+    "requestedValue": "2027-01-01",
+    "requirement": "Persist AP_OTHER_PERIOD_TYPE.StartDate=2027-01-01",
+    "targetKey": {
+      "CalendarName": "FSCRT_CAL1",
+      "CalendarType": "GENERAL"
+    }
+  },
+  {
+    "entity": "AP_OTHER_PERIOD_TYPE",
+    "id": "REQ-007",
+    "kind": "preserve_rows",
+    "operationId": "cal1",
+    "requirement": "Preserve every unspecified record and non-audit value",
+    "targetKey": {
+      "CalendarName": "FSCRT_CAL1",
+      "CalendarType": "GENERAL"
+    }
+  },
+  {
+    "entity": "AP_OTHER_PERIOD_PERIOD",
+    "id": "REQ-008",
+    "kind": "target",
+    "operationId": "cal1-PERIOD-01",
+    "requirement": "create exactly one AP_OTHER_PERIOD_PERIOD record identified by {\"CalendarName\":\"FSCRT_CAL1\",\"CalendarType\":\"GENERAL\",\"PeriodName\":\"Jan-27\"}",
+    "targetKey": {
+      "CalendarName": "FSCRT_CAL1",
+      "CalendarType": "GENERAL",
+      "PeriodName": "Jan-27"
+    }
+  },
+  {
+    "entity": "AP_OTHER_PERIOD_PERIOD",
+    "field": "AP_OTHER_PERIOD_TYPE.CalendarName",
+    "id": "REQ-009",
+    "kind": "value",
+    "operationId": "cal1-PERIOD-01",
+    "requestedValue": "FSCRT_CAL1",
+    "requirement": "Persist AP_OTHER_PERIOD_PERIOD.AP_OTHER_PERIOD_TYPE.CalendarName=FSCRT_CAL1",
+    "targetKey": {
+      "CalendarName": "FSCRT_CAL1",
+      "CalendarType": "GENERAL",
+      "PeriodName": "Jan-27"
+    }
+  },
+  {
+    "entity": "AP_OTHER_PERIOD_PERIOD",
+    "field": "AP_OTHER_PERIOD_TYPE.CalendarType",
+    "id": "REQ-010",
+    "kind": "value",
+    "operationId": "cal1-PERIOD-01",
+    "requestedValue": "GENERAL",
+    "requirement": "Persist AP_OTHER_PERIOD_PERIOD.AP_OTHER_PERIOD_TYPE.CalendarType=GENERAL",
+    "targetKey": {
+      "CalendarName": "FSCRT_CAL1",
+      "CalendarType": "GENERAL",
+      "PeriodName": "Jan-27"
+    }
+  },
+  {
+    "entity": "AP_OTHER_PERIOD_PERIOD",
+    "field": "ApplicationId",
+    "id": "REQ-011",
+    "kind": "value",
+    "operationId": "cal1-PERIOD-01",
+    "requestedValue": "200",
+    "requirement": "Persist AP_OTHER_PERIOD_PERIOD.ApplicationId=200",
+    "targetKey": {
+      "CalendarName": "FSCRT_CAL1",
+      "CalendarType": "GENERAL",
+      "PeriodName": "Jan-27"
+    }
+  },
+  {
+    "entity": "AP_OTHER_PERIOD_PERIOD",
+    "field": "EndDate",
+    "id": "REQ-012",
+    "kind": "value",
+    "operationId": "cal1-PERIOD-01",
+    "requestedValue": "2027-01-31",
+    "requirement": "Persist AP_OTHER_PERIOD_PERIOD.EndDate=2027-01-31",
+    "targetKey": {
+      "CalendarName": "FSCRT_CAL1",
+      "CalendarType": "GENERAL",
+      "PeriodName": "Jan-27"
+    }
+  },
+  {
+    "entity": "AP_OTHER_PERIOD_PERIOD",
+    "field": "EnteredPeriodName",
+    "id": "REQ-013",
+    "kind": "value",
+    "operationId": "cal1-PERIOD-01",
+    "requestedValue": "Jan",
+    "requirement": "Persist AP_OTHER_PERIOD_PERIOD.EnteredPeriodName=Jan",
+    "targetKey": {
+      "CalendarName": "FSCRT_CAL1",
+      "CalendarType": "GENERAL",
+      "PeriodName": "Jan-27"
+    }
+  },
+  {
+    "entity": "AP_OTHER_PERIOD_PERIOD",
+    "field": "PeriodNum",
+    "id": "REQ-014",
+    "kind": "value",
+    "operationId": "cal1-PERIOD-01",
+    "requestedValue": "1",
+    "requirement": "Persist AP_OTHER_PERIOD_PERIOD.PeriodNum=1",
+    "targetKey": {
+      "CalendarName": "FSCRT_CAL1",
+      "CalendarType": "GENERAL",
+      "PeriodName": "Jan-27"
+    }
+  },
+  {
+    "entity": "AP_OTHER_PERIOD_PERIOD",
+    "field": "PeriodYear",
+    "id": "REQ-015",
+    "kind": "value",
+    "operationId": "cal1-PERIOD-01",
+    "requestedValue": "2027",
+    "requirement": "Persist AP_OTHER_PERIOD_PERIOD.PeriodYear=2027",
+    "targetKey": {
+      "CalendarName": "FSCRT_CAL1",
+      "CalendarType": "GENERAL",
+      "PeriodName": "Jan-27"
+    }
+  },
+  {
+    "entity": "AP_OTHER_PERIOD_PERIOD",
+    "field": "StartDate",
+    "id": "REQ-016",
+    "kind": "value",
+    "operationId": "cal1-PERIOD-01",
+    "requestedValue": "2027-01-01",
+    "requirement": "Persist AP_OTHER_PERIOD_PERIOD.StartDate=2027-01-01",
+    "targetKey": {
+      "CalendarName": "FSCRT_CAL1",
+      "CalendarType": "GENERAL",
+      "PeriodName": "Jan-27"
+    }
+  },
+  {
+    "entity": "AP_OTHER_PERIOD_PERIOD",
+    "id": "REQ-017",
+    "kind": "preserve_rows",
+    "operationId": "cal1-PERIOD-01",
+    "requirement": "Preserve every unspecified record and non-audit value",
+    "targetKey": {
+      "CalendarName": "FSCRT_CAL1",
+      "CalendarType": "GENERAL",
+      "PeriodName": "Jan-27"
+    }
+  },
+  {
+    "entity": "AP_OTHER_PERIOD_PERIOD",
+    "id": "REQ-018",
+    "kind": "target",
+    "operationId": "cal1-PERIOD-02",
+    "requirement": "create exactly one AP_OTHER_PERIOD_PERIOD record identified by {\"CalendarName\":\"FSCRT_CAL1\",\"CalendarType\":\"GENERAL\",\"PeriodName\":\"Feb-27\"}",
+    "targetKey": {
+      "CalendarName": "FSCRT_CAL1",
+      "CalendarType": "GENERAL",
+      "PeriodName": "Feb-27"
+    }
+  },
+  {
+    "entity": "AP_OTHER_PERIOD_PERIOD",
+    "field": "AP_OTHER_PERIOD_TYPE.CalendarName",
+    "id": "REQ-019",
+    "kind": "value",
+    "operationId": "cal1-PERIOD-02",
+    "requestedValue": "FSCRT_CAL1",
+    "requirement": "Persist AP_OTHER_PERIOD_PERIOD.AP_OTHER_PERIOD_TYPE.CalendarName=FSCRT_CAL1",
+    "targetKey": {
+      "CalendarName": "FSCRT_CAL1",
+      "CalendarType": "GENERAL",
+      "PeriodName": "Feb-27"
+    }
+  },
+  {
+    "entity": "AP_OTHER_PERIOD_PERIOD",
+    "field": "AP_OTHER_PERIOD_TYPE.CalendarType",
+    "id": "REQ-020",
+    "kind": "value",
+    "operationId": "cal1-PERIOD-02",
+    "requestedValue": "GENERAL",
+    "requirement": "Persist AP_OTHER_PERIOD_PERIOD.AP_OTHER_PERIOD_TYPE.CalendarType=GENERAL",
+    "targetKey": {
+      "CalendarName": "FSCRT_CAL1",
+      "CalendarType": "GENERAL",
+      "PeriodName": "Feb-27"
+    }
+  },
+  {
+    "entity": "AP_OTHER_PERIOD_PERIOD",
+    "field": "ApplicationId",
+    "id": "REQ-021",
+    "kind": "value",
+    "operationId": "cal1-PERIOD-02",
+    "requestedValue": "200",
+    "requirement": "Persist AP_OTHER_PERIOD_PERIOD.ApplicationId=200",
+    "targetKey": {
+      "CalendarName": "FSCRT_CAL1",
+      "CalendarType": "GENERAL",
+      "PeriodName": "Feb-27"
+    }
+  },
+  {
+    "entity": "AP_OTHER_PERIOD_PERIOD",
+    "field": "EndDate",
+    "id": "REQ-022",
+    "kind": "value",
+    "operationId": "cal1-PERIOD-02",
+    "requestedValue": "2027-02-28",
+    "requirement": "Persist AP_OTHER_PERIOD_PERIOD.EndDate=2027-02-28",
+    "targetKey": {
+      "CalendarName": "FSCRT_CAL1",
+      "CalendarType": "GENERAL",
+      "PeriodName": "Feb-27"
+    }
+  },
+  {
+    "entity": "AP_OTHER_PERIOD_PERIOD",
+    "field": "EnteredPeriodName",
+    "id": "REQ-023",
+    "kind": "value",
+    "operationId": "cal1-PERIOD-02",
+    "requestedValue": "Feb",
+    "requirement": "Persist AP_OTHER_PERIOD_PERIOD.EnteredPeriodName=Feb",
+    "targetKey": {
+      "CalendarName": "FSCRT_CAL1",
+      "CalendarType": "GENERAL",
+      "PeriodName": "Feb-27"
+    }
+  },
+  {
+    "entity": "AP_OTHER_PERIOD_PERIOD",
+    "field": "PeriodNum",
+    "id": "REQ-024",
+    "kind": "value",
+    "operationId": "cal1-PERIOD-02",
+    "requestedValue": "2",
+    "requirement": "Persist AP_OTHER_PERIOD_PERIOD.PeriodNum=2",
+    "targetKey": {
+      "CalendarName": "FSCRT_CAL1",
+      "CalendarType": "GENERAL",
+      "PeriodName": "Feb-27"
+    }
+  },
+  {
+    "entity": "AP_OTHER_PERIOD_PERIOD",
+    "field": "PeriodYear",
+    "id": "REQ-025",
+    "kind": "value",
+    "operationId": "cal1-PERIOD-02",
+    "requestedValue": "2027",
+    "requirement": "Persist AP_OTHER_PERIOD_PERIOD.PeriodYear=2027",
+    "targetKey": {
+      "CalendarName": "FSCRT_CAL1",
+      "CalendarType": "GENERAL",
+      "PeriodName": "Feb-27"
+    }
+  },
+  {
+    "entity": "AP_OTHER_PERIOD_PERIOD",
+    "field": "StartDate",
+    "id": "REQ-026",
+    "kind": "value",
+    "operationId": "cal1-PERIOD-02",
+    "requestedValue": "2027-02-01",
+    "requirement": "Persist AP_OTHER_PERIOD_PERIOD.StartDate=2027-02-01",
+    "targetKey": {
+      "CalendarName": "FSCRT_CAL1",
+      "CalendarType": "GENERAL",
+      "PeriodName": "Feb-27"
+    }
+  },
+  {
+    "entity": "AP_OTHER_PERIOD_PERIOD",
+    "id": "REQ-027",
+    "kind": "preserve_rows",
+    "operationId": "cal1-PERIOD-02",
+    "requirement": "Preserve every unspecified record and non-audit value",
+    "targetKey": {
+      "CalendarName": "FSCRT_CAL1",
+      "CalendarType": "GENERAL",
+      "PeriodName": "Feb-27"
+    }
+  },
+  {
+    "entity": "AP_OTHER_PERIOD_PERIOD",
+    "id": "REQ-028",
+    "kind": "target",
+    "operationId": "cal1-PERIOD-03",
+    "requirement": "create exactly one AP_OTHER_PERIOD_PERIOD record identified by {\"CalendarName\":\"FSCRT_CAL1\",\"CalendarType\":\"GENERAL\",\"PeriodName\":\"Mar-27\"}",
+    "targetKey": {
+      "CalendarName": "FSCRT_CAL1",
+      "CalendarType": "GENERAL",
+      "PeriodName": "Mar-27"
+    }
+  },
+  {
+    "entity": "AP_OTHER_PERIOD_PERIOD",
+    "field": "AP_OTHER_PERIOD_TYPE.CalendarName",
+    "id": "REQ-029",
+    "kind": "value",
+    "operationId": "cal1-PERIOD-03",
+    "requestedValue": "FSCRT_CAL1",
+    "requirement": "Persist AP_OTHER_PERIOD_PERIOD.AP_OTHER_PERIOD_TYPE.CalendarName=FSCRT_CAL1",
+    "targetKey": {
+      "CalendarName": "FSCRT_CAL1",
+      "CalendarType": "GENERAL",
+      "PeriodName": "Mar-27"
+    }
+  },
+  {
+    "entity": "AP_OTHER_PERIOD_PERIOD",
+    "field": "AP_OTHER_PERIOD_TYPE.CalendarType",
+    "id": "REQ-030",
+    "kind": "value",
+    "operationId": "cal1-PERIOD-03",
+    "requestedValue": "GENERAL",
+    "requirement": "Persist AP_OTHER_PERIOD_PERIOD.AP_OTHER_PERIOD_TYPE.CalendarType=GENERAL",
+    "targetKey": {
+      "CalendarName": "FSCRT_CAL1",
+      "CalendarType": "GENERAL",
+      "PeriodName": "Mar-27"
+    }
+  },
+  {
+    "entity": "AP_OTHER_PERIOD_PERIOD",
+    "field": "ApplicationId",
+    "id": "REQ-031",
+    "kind": "value",
+    "operationId": "cal1-PERIOD-03",
+    "requestedValue": "200",
+    "requirement": "Persist AP_OTHER_PERIOD_PERIOD.ApplicationId=200",
+    "targetKey": {
+      "CalendarName": "FSCRT_CAL1",
+      "CalendarType": "GENERAL",
+      "PeriodName": "Mar-27"
+    }
+  },
+  {
+    "entity": "AP_OTHER_PERIOD_PERIOD",
+    "field": "EndDate",
+    "id": "REQ-032",
+    "kind": "value",
+    "operationId": "cal1-PERIOD-03",
+    "requestedValue": "2027-03-31",
+    "requirement": "Persist AP_OTHER_PERIOD_PERIOD.EndDate=2027-03-31",
+    "targetKey": {
+      "CalendarName": "FSCRT_CAL1",
+      "CalendarType": "GENERAL",
+      "PeriodName": "Mar-27"
+    }
+  },
+  {
+    "entity": "AP_OTHER_PERIOD_PERIOD",
+    "field": "EnteredPeriodName",
+    "id": "REQ-033",
+    "kind": "value",
+    "operationId": "cal1-PERIOD-03",
+    "requestedValue": "Mar",
+    "requirement": "Persist AP_OTHER_PERIOD_PERIOD.EnteredPeriodName=Mar",
+    "targetKey": {
+      "CalendarName": "FSCRT_CAL1",
+      "CalendarType": "GENERAL",
+      "PeriodName": "Mar-27"
+    }
+  },
+  {
+    "entity": "AP_OTHER_PERIOD_PERIOD",
+    "field": "PeriodNum",
+    "id": "REQ-034",
+    "kind": "value",
+    "operationId": "cal1-PERIOD-03",
+    "requestedValue": "3",
+    "requirement": "Persist AP_OTHER_PERIOD_PERIOD.PeriodNum=3",
+    "targetKey": {
+      "CalendarName": "FSCRT_CAL1",
+      "CalendarType": "GENERAL",
+      "PeriodName": "Mar-27"
+    }
+  },
+  {
+    "entity": "AP_OTHER_PERIOD_PERIOD",
+    "field": "PeriodYear",
+    "id": "REQ-035",
+    "kind": "value",
+    "operationId": "cal1-PERIOD-03",
+    "requestedValue": "2027",
+    "requirement": "Persist AP_OTHER_PERIOD_PERIOD.PeriodYear=2027",
+    "targetKey": {
+      "CalendarName": "FSCRT_CAL1",
+      "CalendarType": "GENERAL",
+      "PeriodName": "Mar-27"
+    }
+  },
+  {
+    "entity": "AP_OTHER_PERIOD_PERIOD",
+    "field": "StartDate",
+    "id": "REQ-036",
+    "kind": "value",
+    "operationId": "cal1-PERIOD-03",
+    "requestedValue": "2027-03-01",
+    "requirement": "Persist AP_OTHER_PERIOD_PERIOD.StartDate=2027-03-01",
+    "targetKey": {
+      "CalendarName": "FSCRT_CAL1",
+      "CalendarType": "GENERAL",
+      "PeriodName": "Mar-27"
+    }
+  },
+  {
+    "entity": "AP_OTHER_PERIOD_PERIOD",
+    "id": "REQ-037",
+    "kind": "preserve_rows",
+    "operationId": "cal1-PERIOD-03",
+    "requirement": "Preserve every unspecified record and non-audit value",
+    "targetKey": {
+      "CalendarName": "FSCRT_CAL1",
+      "CalendarType": "GENERAL",
+      "PeriodName": "Mar-27"
+    }
+  },
+  {
+    "entity": "AP_OTHER_PERIOD_PERIOD",
+    "id": "REQ-038",
+    "kind": "target",
+    "operationId": "cal1-PERIOD-04",
+    "requirement": "create exactly one AP_OTHER_PERIOD_PERIOD record identified by {\"CalendarName\":\"FSCRT_CAL1\",\"CalendarType\":\"GENERAL\",\"PeriodName\":\"Apr-27\"}",
+    "targetKey": {
+      "CalendarName": "FSCRT_CAL1",
+      "CalendarType": "GENERAL",
+      "PeriodName": "Apr-27"
+    }
+  },
+  {
+    "entity": "AP_OTHER_PERIOD_PERIOD",
+    "field": "AP_OTHER_PERIOD_TYPE.CalendarName",
+    "id": "REQ-039",
+    "kind": "value",
+    "operationId": "cal1-PERIOD-04",
+    "requestedValue": "FSCRT_CAL1",
+    "requirement": "Persist AP_OTHER_PERIOD_PERIOD.AP_OTHER_PERIOD_TYPE.CalendarName=FSCRT_CAL1",
+    "targetKey": {
+      "CalendarName": "FSCRT_CAL1",
+      "CalendarType": "GENERAL",
+      "PeriodName": "Apr-27"
+    }
+  },
+  {
+    "entity": "AP_OTHER_PERIOD_PERIOD",
+    "field": "AP_OTHER_PERIOD_TYPE.CalendarType",
+    "id": "REQ-040",
+    "kind": "value",
+    "operationId": "cal1-PERIOD-04",
+    "requestedValue": "GENERAL",
+    "requirement": "Persist AP_OTHER_PERIOD_PERIOD.AP_OTHER_PERIOD_TYPE.CalendarType=GENERAL",
+    "targetKey": {
+      "CalendarName": "FSCRT_CAL1",
+      "CalendarType": "GENERAL",
+      "PeriodName": "Apr-27"
+    }
+  },
+  {
+    "entity": "AP_OTHER_PERIOD_PERIOD",
+    "field": "ApplicationId",
+    "id": "REQ-041",
+    "kind": "value",
+    "operationId": "cal1-PERIOD-04",
+    "requestedValue": "200",
+    "requirement": "Persist AP_OTHER_PERIOD_PERIOD.ApplicationId=200",
+    "targetKey": {
+      "CalendarName": "FSCRT_CAL1",
+      "CalendarType": "GENERAL",
+      "PeriodName": "Apr-27"
+    }
+  },
+  {
+    "entity": "AP_OTHER_PERIOD_PERIOD",
+    "field": "EndDate",
+    "id": "REQ-042",
+    "kind": "value",
+    "operationId": "cal1-PERIOD-04",
+    "requestedValue": "2027-04-30",
+    "requirement": "Persist AP_OTHER_PERIOD_PERIOD.EndDate=2027-04-30",
+    "targetKey": {
+      "CalendarName": "FSCRT_CAL1",
+      "CalendarType": "GENERAL",
+      "PeriodName": "Apr-27"
+    }
+  },
+  {
+    "entity": "AP_OTHER_PERIOD_PERIOD",
+    "field": "EnteredPeriodName",
+    "id": "REQ-043",
+    "kind": "value",
+    "operationId": "cal1-PERIOD-04",
+    "requestedValue": "Apr",
+    "requirement": "Persist AP_OTHER_PERIOD_PERIOD.EnteredPeriodName=Apr",
+    "targetKey": {
+      "CalendarName": "FSCRT_CAL1",
+      "CalendarType": "GENERAL",
+      "PeriodName": "Apr-27"
+    }
+  },
+  {
+    "entity": "AP_OTHER_PERIOD_PERIOD",
+    "field": "PeriodNum",
+    "id": "REQ-044",
+    "kind": "value",
+    "operationId": "cal1-PERIOD-04",
+    "requestedValue": "4",
+    "requirement": "Persist AP_OTHER_PERIOD_PERIOD.PeriodNum=4",
+    "targetKey": {
+      "CalendarName": "FSCRT_CAL1",
+      "CalendarType": "GENERAL",
+      "PeriodName": "Apr-27"
+    }
+  },
+  {
+    "entity": "AP_OTHER_PERIOD_PERIOD",
+    "field": "PeriodYear",
+    "id": "REQ-045",
+    "kind": "value",
+    "operationId": "cal1-PERIOD-04",
+    "requestedValue": "2027",
+    "requirement": "Persist AP_OTHER_PERIOD_PERIOD.PeriodYear=2027",
+    "targetKey": {
+      "CalendarName": "FSCRT_CAL1",
+      "CalendarType": "GENERAL",
+      "PeriodName": "Apr-27"
+    }
+  },
+  {
+    "entity": "AP_OTHER_PERIOD_PERIOD",
+    "field": "StartDate",
+    "id": "REQ-046",
+    "kind": "value",
+    "operationId": "cal1-PERIOD-04",
+    "requestedValue": "2027-04-01",
+    "requirement": "Persist AP_OTHER_PERIOD_PERIOD.StartDate=2027-04-01",
+    "targetKey": {
+      "CalendarName": "FSCRT_CAL1",
+      "CalendarType": "GENERAL",
+      "PeriodName": "Apr-27"
+    }
+  },
+  {
+    "entity": "AP_OTHER_PERIOD_PERIOD",
+    "id": "REQ-047",
+    "kind": "preserve_rows",
+    "operationId": "cal1-PERIOD-04",
+    "requirement": "Preserve every unspecified record and non-audit value",
+    "targetKey": {
+      "CalendarName": "FSCRT_CAL1",
+      "CalendarType": "GENERAL",
+      "PeriodName": "Apr-27"
+    }
+  },
+  {
+    "entity": "AP_OTHER_PERIOD_PERIOD",
+    "id": "REQ-048",
+    "kind": "target",
+    "operationId": "cal1-PERIOD-05",
+    "requirement": "create exactly one AP_OTHER_PERIOD_PERIOD record identified by {\"CalendarName\":\"FSCRT_CAL1\",\"CalendarType\":\"GENERAL\",\"PeriodName\":\"May-27\"}",
+    "targetKey": {
+      "CalendarName": "FSCRT_CAL1",
+      "CalendarType": "GENERAL",
+      "PeriodName": "May-27"
+    }
+  },
+  {
+    "entity": "AP_OTHER_PERIOD_PERIOD",
+    "field": "AP_OTHER_PERIOD_TYPE.CalendarName",
+    "id": "REQ-049",
+    "kind": "value",
+    "operationId": "cal1-PERIOD-05",
+    "requestedValue": "FSCRT_CAL1",
+    "requirement": "Persist AP_OTHER_PERIOD_PERIOD.AP_OTHER_PERIOD_TYPE.CalendarName=FSCRT_CAL1",
+    "targetKey": {
+      "CalendarName": "FSCRT_CAL1",
+      "CalendarType": "GENERAL",
+      "PeriodName": "May-27"
+    }
+  },
+  {
+    "entity": "AP_OTHER_PERIOD_PERIOD",
+    "field": "AP_OTHER_PERIOD_TYPE.CalendarType",
+    "id": "REQ-050",
+    "kind": "value",
+    "operationId": "cal1-PERIOD-05",
+    "requestedValue": "GENERAL",
+    "requirement": "Persist AP_OTHER_PERIOD_PERIOD.AP_OTHER_PERIOD_TYPE.CalendarType=GENERAL",
+    "targetKey": {
+      "CalendarName": "FSCRT_CAL1",
+      "CalendarType": "GENERAL",
+      "PeriodName": "May-27"
+    }
+  },
+  {
+    "entity": "AP_OTHER_PERIOD_PERIOD",
+    "field": "ApplicationId",
+    "id": "REQ-051",
+    "kind": "value",
+    "operationId": "cal1-PERIOD-05",
+    "requestedValue": "200",
+    "requirement": "Persist AP_OTHER_PERIOD_PERIOD.ApplicationId=200",
+    "targetKey": {
+      "CalendarName": "FSCRT_CAL1",
+      "CalendarType": "GENERAL",
+      "PeriodName": "May-27"
+    }
+  },
+  {
+    "entity": "AP_OTHER_PERIOD_PERIOD",
+    "field": "EndDate",
+    "id": "REQ-052",
+    "kind": "value",
+    "operationId": "cal1-PERIOD-05",
+    "requestedValue": "2027-05-31",
+    "requirement": "Persist AP_OTHER_PERIOD_PERIOD.EndDate=2027-05-31",
+    "targetKey": {
+      "CalendarName": "FSCRT_CAL1",
+      "CalendarType": "GENERAL",
+      "PeriodName": "May-27"
+    }
+  },
+  {
+    "entity": "AP_OTHER_PERIOD_PERIOD",
+    "field": "EnteredPeriodName",
+    "id": "REQ-053",
+    "kind": "value",
+    "operationId": "cal1-PERIOD-05",
+    "requestedValue": "May",
+    "requirement": "Persist AP_OTHER_PERIOD_PERIOD.EnteredPeriodName=May",
+    "targetKey": {
+      "CalendarName": "FSCRT_CAL1",
+      "CalendarType": "GENERAL",
+      "PeriodName": "May-27"
+    }
+  },
+  {
+    "entity": "AP_OTHER_PERIOD_PERIOD",
+    "field": "PeriodNum",
+    "id": "REQ-054",
+    "kind": "value",
+    "operationId": "cal1-PERIOD-05",
+    "requestedValue": "5",
+    "requirement": "Persist AP_OTHER_PERIOD_PERIOD.PeriodNum=5",
+    "targetKey": {
+      "CalendarName": "FSCRT_CAL1",
+      "CalendarType": "GENERAL",
+      "PeriodName": "May-27"
+    }
+  },
+  {
+    "entity": "AP_OTHER_PERIOD_PERIOD",
+    "field": "PeriodYear",
+    "id": "REQ-055",
+    "kind": "value",
+    "operationId": "cal1-PERIOD-05",
+    "requestedValue": "2027",
+    "requirement": "Persist AP_OTHER_PERIOD_PERIOD.PeriodYear=2027",
+    "targetKey": {
+      "CalendarName": "FSCRT_CAL1",
+      "CalendarType": "GENERAL",
+      "PeriodName": "May-27"
+    }
+  },
+  {
+    "entity": "AP_OTHER_PERIOD_PERIOD",
+    "field": "StartDate",
+    "id": "REQ-056",
+    "kind": "value",
+    "operationId": "cal1-PERIOD-05",
+    "requestedValue": "2027-05-01",
+    "requirement": "Persist AP_OTHER_PERIOD_PERIOD.StartDate=2027-05-01",
+    "targetKey": {
+      "CalendarName": "FSCRT_CAL1",
+      "CalendarType": "GENERAL",
+      "PeriodName": "May-27"
+    }
+  },
+  {
+    "entity": "AP_OTHER_PERIOD_PERIOD",
+    "id": "REQ-057",
+    "kind": "preserve_rows",
+    "operationId": "cal1-PERIOD-05",
+    "requirement": "Preserve every unspecified record and non-audit value",
+    "targetKey": {
+      "CalendarName": "FSCRT_CAL1",
+      "CalendarType": "GENERAL",
+      "PeriodName": "May-27"
+    }
+  },
+  {
+    "entity": "AP_OTHER_PERIOD_PERIOD",
+    "id": "REQ-058",
+    "kind": "target",
+    "operationId": "cal1-PERIOD-06",
+    "requirement": "create exactly one AP_OTHER_PERIOD_PERIOD record identified by {\"CalendarName\":\"FSCRT_CAL1\",\"CalendarType\":\"GENERAL\",\"PeriodName\":\"Jun-27\"}",
+    "targetKey": {
+      "CalendarName": "FSCRT_CAL1",
+      "CalendarType": "GENERAL",
+      "PeriodName": "Jun-27"
+    }
+  },
+  {
+    "entity": "AP_OTHER_PERIOD_PERIOD",
+    "field": "AP_OTHER_PERIOD_TYPE.CalendarName",
+    "id": "REQ-059",
+    "kind": "value",
+    "operationId": "cal1-PERIOD-06",
+    "requestedValue": "FSCRT_CAL1",
+    "requirement": "Persist AP_OTHER_PERIOD_PERIOD.AP_OTHER_PERIOD_TYPE.CalendarName=FSCRT_CAL1",
+    "targetKey": {
+      "CalendarName": "FSCRT_CAL1",
+      "CalendarType": "GENERAL",
+      "PeriodName": "Jun-27"
+    }
+  },
+  {
+    "entity": "AP_OTHER_PERIOD_PERIOD",
+    "field": "AP_OTHER_PERIOD_TYPE.CalendarType",
+    "id": "REQ-060",
+    "kind": "value",
+    "operationId": "cal1-PERIOD-06",
+    "requestedValue": "GENERAL",
+    "requirement": "Persist AP_OTHER_PERIOD_PERIOD.AP_OTHER_PERIOD_TYPE.CalendarType=GENERAL",
+    "targetKey": {
+      "CalendarName": "FSCRT_CAL1",
+      "CalendarType": "GENERAL",
+      "PeriodName": "Jun-27"
+    }
+  },
+  {
+    "entity": "AP_OTHER_PERIOD_PERIOD",
+    "field": "ApplicationId",
+    "id": "REQ-061",
+    "kind": "value",
+    "operationId": "cal1-PERIOD-06",
+    "requestedValue": "200",
+    "requirement": "Persist AP_OTHER_PERIOD_PERIOD.ApplicationId=200",
+    "targetKey": {
+      "CalendarName": "FSCRT_CAL1",
+      "CalendarType": "GENERAL",
+      "PeriodName": "Jun-27"
+    }
+  },
+  {
+    "entity": "AP_OTHER_PERIOD_PERIOD",
+    "field": "EndDate",
+    "id": "REQ-062",
+    "kind": "value",
+    "operationId": "cal1-PERIOD-06",
+    "requestedValue": "2027-06-30",
+    "requirement": "Persist AP_OTHER_PERIOD_PERIOD.EndDate=2027-06-30",
+    "targetKey": {
+      "CalendarName": "FSCRT_CAL1",
+      "CalendarType": "GENERAL",
+      "PeriodName": "Jun-27"
+    }
+  },
+  {
+    "entity": "AP_OTHER_PERIOD_PERIOD",
+    "field": "EnteredPeriodName",
+    "id": "REQ-063",
+    "kind": "value",
+    "operationId": "cal1-PERIOD-06",
+    "requestedValue": "Jun",
+    "requirement": "Persist AP_OTHER_PERIOD_PERIOD.EnteredPeriodName=Jun",
+    "targetKey": {
+      "CalendarName": "FSCRT_CAL1",
+      "CalendarType": "GENERAL",
+      "PeriodName": "Jun-27"
+    }
+  },
+  {
+    "entity": "AP_OTHER_PERIOD_PERIOD",
+    "field": "PeriodNum",
+    "id": "REQ-064",
+    "kind": "value",
+    "operationId": "cal1-PERIOD-06",
+    "requestedValue": "6",
+    "requirement": "Persist AP_OTHER_PERIOD_PERIOD.PeriodNum=6",
+    "targetKey": {
+      "CalendarName": "FSCRT_CAL1",
+      "CalendarType": "GENERAL",
+      "PeriodName": "Jun-27"
+    }
+  },
+  {
+    "entity": "AP_OTHER_PERIOD_PERIOD",
+    "field": "PeriodYear",
+    "id": "REQ-065",
+    "kind": "value",
+    "operationId": "cal1-PERIOD-06",
+    "requestedValue": "2027",
+    "requirement": "Persist AP_OTHER_PERIOD_PERIOD.PeriodYear=2027",
+    "targetKey": {
+      "CalendarName": "FSCRT_CAL1",
+      "CalendarType": "GENERAL",
+      "PeriodName": "Jun-27"
+    }
+  },
+  {
+    "entity": "AP_OTHER_PERIOD_PERIOD",
+    "field": "StartDate",
+    "id": "REQ-066",
+    "kind": "value",
+    "operationId": "cal1-PERIOD-06",
+    "requestedValue": "2027-06-01",
+    "requirement": "Persist AP_OTHER_PERIOD_PERIOD.StartDate=2027-06-01",
+    "targetKey": {
+      "CalendarName": "FSCRT_CAL1",
+      "CalendarType": "GENERAL",
+      "PeriodName": "Jun-27"
+    }
+  },
+  {
+    "entity": "AP_OTHER_PERIOD_PERIOD",
+    "id": "REQ-067",
+    "kind": "preserve_rows",
+    "operationId": "cal1-PERIOD-06",
+    "requirement": "Preserve every unspecified record and non-audit value",
+    "targetKey": {
+      "CalendarName": "FSCRT_CAL1",
+      "CalendarType": "GENERAL",
+      "PeriodName": "Jun-27"
+    }
+  },
+  {
+    "entity": "AP_OTHER_PERIOD_PERIOD",
+    "id": "REQ-068",
+    "kind": "target",
+    "operationId": "cal1-PERIOD-07",
+    "requirement": "create exactly one AP_OTHER_PERIOD_PERIOD record identified by {\"CalendarName\":\"FSCRT_CAL1\",\"CalendarType\":\"GENERAL\",\"PeriodName\":\"Jul-27\"}",
+    "targetKey": {
+      "CalendarName": "FSCRT_CAL1",
+      "CalendarType": "GENERAL",
+      "PeriodName": "Jul-27"
+    }
+  },
+  {
+    "entity": "AP_OTHER_PERIOD_PERIOD",
+    "field": "AP_OTHER_PERIOD_TYPE.CalendarName",
+    "id": "REQ-069",
+    "kind": "value",
+    "operationId": "cal1-PERIOD-07",
+    "requestedValue": "FSCRT_CAL1",
+    "requirement": "Persist AP_OTHER_PERIOD_PERIOD.AP_OTHER_PERIOD_TYPE.CalendarName=FSCRT_CAL1",
+    "targetKey": {
+      "CalendarName": "FSCRT_CAL1",
+      "CalendarType": "GENERAL",
+      "PeriodName": "Jul-27"
+    }
+  },
+  {
+    "entity": "AP_OTHER_PERIOD_PERIOD",
+    "field": "AP_OTHER_PERIOD_TYPE.CalendarType",
+    "id": "REQ-070",
+    "kind": "value",
+    "operationId": "cal1-PERIOD-07",
+    "requestedValue": "GENERAL",
+    "requirement": "Persist AP_OTHER_PERIOD_PERIOD.AP_OTHER_PERIOD_TYPE.CalendarType=GENERAL",
+    "targetKey": {
+      "CalendarName": "FSCRT_CAL1",
+      "CalendarType": "GENERAL",
+      "PeriodName": "Jul-27"
+    }
+  },
+  {
+    "entity": "AP_OTHER_PERIOD_PERIOD",
+    "field": "ApplicationId",
+    "id": "REQ-071",
+    "kind": "value",
+    "operationId": "cal1-PERIOD-07",
+    "requestedValue": "200",
+    "requirement": "Persist AP_OTHER_PERIOD_PERIOD.ApplicationId=200",
+    "targetKey": {
+      "CalendarName": "FSCRT_CAL1",
+      "CalendarType": "GENERAL",
+      "PeriodName": "Jul-27"
+    }
+  },
+  {
+    "entity": "AP_OTHER_PERIOD_PERIOD",
+    "field": "EndDate",
+    "id": "REQ-072",
+    "kind": "value",
+    "operationId": "cal1-PERIOD-07",
+    "requestedValue": "2027-07-31",
+    "requirement": "Persist AP_OTHER_PERIOD_PERIOD.EndDate=2027-07-31",
+    "targetKey": {
+      "CalendarName": "FSCRT_CAL1",
+      "CalendarType": "GENERAL",
+      "PeriodName": "Jul-27"
+    }
+  },
+  {
+    "entity": "AP_OTHER_PERIOD_PERIOD",
+    "field": "EnteredPeriodName",
+    "id": "REQ-073",
+    "kind": "value",
+    "operationId": "cal1-PERIOD-07",
+    "requestedValue": "Jul",
+    "requirement": "Persist AP_OTHER_PERIOD_PERIOD.EnteredPeriodName=Jul",
+    "targetKey": {
+      "CalendarName": "FSCRT_CAL1",
+      "CalendarType": "GENERAL",
+      "PeriodName": "Jul-27"
+    }
+  },
+  {
+    "entity": "AP_OTHER_PERIOD_PERIOD",
+    "field": "PeriodNum",
+    "id": "REQ-074",
+    "kind": "value",
+    "operationId": "cal1-PERIOD-07",
+    "requestedValue": "7",
+    "requirement": "Persist AP_OTHER_PERIOD_PERIOD.PeriodNum=7",
+    "targetKey": {
+      "CalendarName": "FSCRT_CAL1",
+      "CalendarType": "GENERAL",
+      "PeriodName": "Jul-27"
+    }
+  },
+  {
+    "entity": "AP_OTHER_PERIOD_PERIOD",
+    "field": "PeriodYear",
+    "id": "REQ-075",
+    "kind": "value",
+    "operationId": "cal1-PERIOD-07",
+    "requestedValue": "2027",
+    "requirement": "Persist AP_OTHER_PERIOD_PERIOD.PeriodYear=2027",
+    "targetKey": {
+      "CalendarName": "FSCRT_CAL1",
+      "CalendarType": "GENERAL",
+      "PeriodName": "Jul-27"
+    }
+  },
+  {
+    "entity": "AP_OTHER_PERIOD_PERIOD",
+    "field": "StartDate",
+    "id": "REQ-076",
+    "kind": "value",
+    "operationId": "cal1-PERIOD-07",
+    "requestedValue": "2027-07-01",
+    "requirement": "Persist AP_OTHER_PERIOD_PERIOD.StartDate=2027-07-01",
+    "targetKey": {
+      "CalendarName": "FSCRT_CAL1",
+      "CalendarType": "GENERAL",
+      "PeriodName": "Jul-27"
+    }
+  },
+  {
+    "entity": "AP_OTHER_PERIOD_PERIOD",
+    "id": "REQ-077",
+    "kind": "preserve_rows",
+    "operationId": "cal1-PERIOD-07",
+    "requirement": "Preserve every unspecified record and non-audit value",
+    "targetKey": {
+      "CalendarName": "FSCRT_CAL1",
+      "CalendarType": "GENERAL",
+      "PeriodName": "Jul-27"
+    }
+  },
+  {
+    "entity": "AP_OTHER_PERIOD_PERIOD",
+    "id": "REQ-078",
+    "kind": "target",
+    "operationId": "cal1-PERIOD-08",
+    "requirement": "create exactly one AP_OTHER_PERIOD_PERIOD record identified by {\"CalendarName\":\"FSCRT_CAL1\",\"CalendarType\":\"GENERAL\",\"PeriodName\":\"Aug-27\"}",
+    "targetKey": {
+      "CalendarName": "FSCRT_CAL1",
+      "CalendarType": "GENERAL",
+      "PeriodName": "Aug-27"
+    }
+  },
+  {
+    "entity": "AP_OTHER_PERIOD_PERIOD",
+    "field": "AP_OTHER_PERIOD_TYPE.CalendarName",
+    "id": "REQ-079",
+    "kind": "value",
+    "operationId": "cal1-PERIOD-08",
+    "requestedValue": "FSCRT_CAL1",
+    "requirement": "Persist AP_OTHER_PERIOD_PERIOD.AP_OTHER_PERIOD_TYPE.CalendarName=FSCRT_CAL1",
+    "targetKey": {
+      "CalendarName": "FSCRT_CAL1",
+      "CalendarType": "GENERAL",
+      "PeriodName": "Aug-27"
+    }
+  },
+  {
+    "entity": "AP_OTHER_PERIOD_PERIOD",
+    "field": "AP_OTHER_PERIOD_TYPE.CalendarType",
+    "id": "REQ-080",
+    "kind": "value",
+    "operationId": "cal1-PERIOD-08",
+    "requestedValue": "GENERAL",
+    "requirement": "Persist AP_OTHER_PERIOD_PERIOD.AP_OTHER_PERIOD_TYPE.CalendarType=GENERAL",
+    "targetKey": {
+      "CalendarName": "FSCRT_CAL1",
+      "CalendarType": "GENERAL",
+      "PeriodName": "Aug-27"
+    }
+  },
+  {
+    "entity": "AP_OTHER_PERIOD_PERIOD",
+    "field": "ApplicationId",
+    "id": "REQ-081",
+    "kind": "value",
+    "operationId": "cal1-PERIOD-08",
+    "requestedValue": "200",
+    "requirement": "Persist AP_OTHER_PERIOD_PERIOD.ApplicationId=200",
+    "targetKey": {
+      "CalendarName": "FSCRT_CAL1",
+      "CalendarType": "GENERAL",
+      "PeriodName": "Aug-27"
+    }
+  },
+  {
+    "entity": "AP_OTHER_PERIOD_PERIOD",
+    "field": "EndDate",
+    "id": "REQ-082",
+    "kind": "value",
+    "operationId": "cal1-PERIOD-08",
+    "requestedValue": "2027-08-31",
+    "requirement": "Persist AP_OTHER_PERIOD_PERIOD.EndDate=2027-08-31",
+    "targetKey": {
+      "CalendarName": "FSCRT_CAL1",
+      "CalendarType": "GENERAL",
+      "PeriodName": "Aug-27"
+    }
+  },
+  {
+    "entity": "AP_OTHER_PERIOD_PERIOD",
+    "field": "EnteredPeriodName",
+    "id": "REQ-083",
+    "kind": "value",
+    "operationId": "cal1-PERIOD-08",
+    "requestedValue": "Aug",
+    "requirement": "Persist AP_OTHER_PERIOD_PERIOD.EnteredPeriodName=Aug",
+    "targetKey": {
+      "CalendarName": "FSCRT_CAL1",
+      "CalendarType": "GENERAL",
+      "PeriodName": "Aug-27"
+    }
+  },
+  {
+    "entity": "AP_OTHER_PERIOD_PERIOD",
+    "field": "PeriodNum",
+    "id": "REQ-084",
+    "kind": "value",
+    "operationId": "cal1-PERIOD-08",
+    "requestedValue": "8",
+    "requirement": "Persist AP_OTHER_PERIOD_PERIOD.PeriodNum=8",
+    "targetKey": {
+      "CalendarName": "FSCRT_CAL1",
+      "CalendarType": "GENERAL",
+      "PeriodName": "Aug-27"
+    }
+  },
+  {
+    "entity": "AP_OTHER_PERIOD_PERIOD",
+    "field": "PeriodYear",
+    "id": "REQ-085",
+    "kind": "value",
+    "operationId": "cal1-PERIOD-08",
+    "requestedValue": "2027",
+    "requirement": "Persist AP_OTHER_PERIOD_PERIOD.PeriodYear=2027",
+    "targetKey": {
+      "CalendarName": "FSCRT_CAL1",
+      "CalendarType": "GENERAL",
+      "PeriodName": "Aug-27"
+    }
+  },
+  {
+    "entity": "AP_OTHER_PERIOD_PERIOD",
+    "field": "StartDate",
+    "id": "REQ-086",
+    "kind": "value",
+    "operationId": "cal1-PERIOD-08",
+    "requestedValue": "2027-08-01",
+    "requirement": "Persist AP_OTHER_PERIOD_PERIOD.StartDate=2027-08-01",
+    "targetKey": {
+      "CalendarName": "FSCRT_CAL1",
+      "CalendarType": "GENERAL",
+      "PeriodName": "Aug-27"
+    }
+  },
+  {
+    "entity": "AP_OTHER_PERIOD_PERIOD",
+    "id": "REQ-087",
+    "kind": "preserve_rows",
+    "operationId": "cal1-PERIOD-08",
+    "requirement": "Preserve every unspecified record and non-audit value",
+    "targetKey": {
+      "CalendarName": "FSCRT_CAL1",
+      "CalendarType": "GENERAL",
+      "PeriodName": "Aug-27"
+    }
+  },
+  {
+    "entity": "AP_OTHER_PERIOD_PERIOD",
+    "id": "REQ-088",
+    "kind": "target",
+    "operationId": "cal1-PERIOD-09",
+    "requirement": "create exactly one AP_OTHER_PERIOD_PERIOD record identified by {\"CalendarName\":\"FSCRT_CAL1\",\"CalendarType\":\"GENERAL\",\"PeriodName\":\"Sep-27\"}",
+    "targetKey": {
+      "CalendarName": "FSCRT_CAL1",
+      "CalendarType": "GENERAL",
+      "PeriodName": "Sep-27"
+    }
+  },
+  {
+    "entity": "AP_OTHER_PERIOD_PERIOD",
+    "field": "AP_OTHER_PERIOD_TYPE.CalendarName",
+    "id": "REQ-089",
+    "kind": "value",
+    "operationId": "cal1-PERIOD-09",
+    "requestedValue": "FSCRT_CAL1",
+    "requirement": "Persist AP_OTHER_PERIOD_PERIOD.AP_OTHER_PERIOD_TYPE.CalendarName=FSCRT_CAL1",
+    "targetKey": {
+      "CalendarName": "FSCRT_CAL1",
+      "CalendarType": "GENERAL",
+      "PeriodName": "Sep-27"
+    }
+  },
+  {
+    "entity": "AP_OTHER_PERIOD_PERIOD",
+    "field": "AP_OTHER_PERIOD_TYPE.CalendarType",
+    "id": "REQ-090",
+    "kind": "value",
+    "operationId": "cal1-PERIOD-09",
+    "requestedValue": "GENERAL",
+    "requirement": "Persist AP_OTHER_PERIOD_PERIOD.AP_OTHER_PERIOD_TYPE.CalendarType=GENERAL",
+    "targetKey": {
+      "CalendarName": "FSCRT_CAL1",
+      "CalendarType": "GENERAL",
+      "PeriodName": "Sep-27"
+    }
+  },
+  {
+    "entity": "AP_OTHER_PERIOD_PERIOD",
+    "field": "ApplicationId",
+    "id": "REQ-091",
+    "kind": "value",
+    "operationId": "cal1-PERIOD-09",
+    "requestedValue": "200",
+    "requirement": "Persist AP_OTHER_PERIOD_PERIOD.ApplicationId=200",
+    "targetKey": {
+      "CalendarName": "FSCRT_CAL1",
+      "CalendarType": "GENERAL",
+      "PeriodName": "Sep-27"
+    }
+  },
+  {
+    "entity": "AP_OTHER_PERIOD_PERIOD",
+    "field": "EndDate",
+    "id": "REQ-092",
+    "kind": "value",
+    "operationId": "cal1-PERIOD-09",
+    "requestedValue": "2027-09-30",
+    "requirement": "Persist AP_OTHER_PERIOD_PERIOD.EndDate=2027-09-30",
+    "targetKey": {
+      "CalendarName": "FSCRT_CAL1",
+      "CalendarType": "GENERAL",
+      "PeriodName": "Sep-27"
+    }
+  },
+  {
+    "entity": "AP_OTHER_PERIOD_PERIOD",
+    "field": "EnteredPeriodName",
+    "id": "REQ-093",
+    "kind": "value",
+    "operationId": "cal1-PERIOD-09",
+    "requestedValue": "Sep",
+    "requirement": "Persist AP_OTHER_PERIOD_PERIOD.EnteredPeriodName=Sep",
+    "targetKey": {
+      "CalendarName": "FSCRT_CAL1",
+      "CalendarType": "GENERAL",
+      "PeriodName": "Sep-27"
+    }
+  },
+  {
+    "entity": "AP_OTHER_PERIOD_PERIOD",
+    "field": "PeriodNum",
+    "id": "REQ-094",
+    "kind": "value",
+    "operationId": "cal1-PERIOD-09",
+    "requestedValue": "9",
+    "requirement": "Persist AP_OTHER_PERIOD_PERIOD.PeriodNum=9",
+    "targetKey": {
+      "CalendarName": "FSCRT_CAL1",
+      "CalendarType": "GENERAL",
+      "PeriodName": "Sep-27"
+    }
+  },
+  {
+    "entity": "AP_OTHER_PERIOD_PERIOD",
+    "field": "PeriodYear",
+    "id": "REQ-095",
+    "kind": "value",
+    "operationId": "cal1-PERIOD-09",
+    "requestedValue": "2027",
+    "requirement": "Persist AP_OTHER_PERIOD_PERIOD.PeriodYear=2027",
+    "targetKey": {
+      "CalendarName": "FSCRT_CAL1",
+      "CalendarType": "GENERAL",
+      "PeriodName": "Sep-27"
+    }
+  },
+  {
+    "entity": "AP_OTHER_PERIOD_PERIOD",
+    "field": "StartDate",
+    "id": "REQ-096",
+    "kind": "value",
+    "operationId": "cal1-PERIOD-09",
+    "requestedValue": "2027-09-01",
+    "requirement": "Persist AP_OTHER_PERIOD_PERIOD.StartDate=2027-09-01",
+    "targetKey": {
+      "CalendarName": "FSCRT_CAL1",
+      "CalendarType": "GENERAL",
+      "PeriodName": "Sep-27"
+    }
+  },
+  {
+    "entity": "AP_OTHER_PERIOD_PERIOD",
+    "id": "REQ-097",
+    "kind": "preserve_rows",
+    "operationId": "cal1-PERIOD-09",
+    "requirement": "Preserve every unspecified record and non-audit value",
+    "targetKey": {
+      "CalendarName": "FSCRT_CAL1",
+      "CalendarType": "GENERAL",
+      "PeriodName": "Sep-27"
+    }
+  },
+  {
+    "entity": "AP_OTHER_PERIOD_PERIOD",
+    "id": "REQ-098",
+    "kind": "target",
+    "operationId": "cal1-PERIOD-10",
+    "requirement": "create exactly one AP_OTHER_PERIOD_PERIOD record identified by {\"CalendarName\":\"FSCRT_CAL1\",\"CalendarType\":\"GENERAL\",\"PeriodName\":\"Oct-27\"}",
+    "targetKey": {
+      "CalendarName": "FSCRT_CAL1",
+      "CalendarType": "GENERAL",
+      "PeriodName": "Oct-27"
+    }
+  },
+  {
+    "entity": "AP_OTHER_PERIOD_PERIOD",
+    "field": "AP_OTHER_PERIOD_TYPE.CalendarName",
+    "id": "REQ-099",
+    "kind": "value",
+    "operationId": "cal1-PERIOD-10",
+    "requestedValue": "FSCRT_CAL1",
+    "requirement": "Persist AP_OTHER_PERIOD_PERIOD.AP_OTHER_PERIOD_TYPE.CalendarName=FSCRT_CAL1",
+    "targetKey": {
+      "CalendarName": "FSCRT_CAL1",
+      "CalendarType": "GENERAL",
+      "PeriodName": "Oct-27"
+    }
+  },
+  {
+    "entity": "AP_OTHER_PERIOD_PERIOD",
+    "field": "AP_OTHER_PERIOD_TYPE.CalendarType",
+    "id": "REQ-100",
+    "kind": "value",
+    "operationId": "cal1-PERIOD-10",
+    "requestedValue": "GENERAL",
+    "requirement": "Persist AP_OTHER_PERIOD_PERIOD.AP_OTHER_PERIOD_TYPE.CalendarType=GENERAL",
+    "targetKey": {
+      "CalendarName": "FSCRT_CAL1",
+      "CalendarType": "GENERAL",
+      "PeriodName": "Oct-27"
+    }
+  },
+  {
+    "entity": "AP_OTHER_PERIOD_PERIOD",
+    "field": "ApplicationId",
+    "id": "REQ-101",
+    "kind": "value",
+    "operationId": "cal1-PERIOD-10",
+    "requestedValue": "200",
+    "requirement": "Persist AP_OTHER_PERIOD_PERIOD.ApplicationId=200",
+    "targetKey": {
+      "CalendarName": "FSCRT_CAL1",
+      "CalendarType": "GENERAL",
+      "PeriodName": "Oct-27"
+    }
+  },
+  {
+    "entity": "AP_OTHER_PERIOD_PERIOD",
+    "field": "EndDate",
+    "id": "REQ-102",
+    "kind": "value",
+    "operationId": "cal1-PERIOD-10",
+    "requestedValue": "2027-10-31",
+    "requirement": "Persist AP_OTHER_PERIOD_PERIOD.EndDate=2027-10-31",
+    "targetKey": {
+      "CalendarName": "FSCRT_CAL1",
+      "CalendarType": "GENERAL",
+      "PeriodName": "Oct-27"
+    }
+  },
+  {
+    "entity": "AP_OTHER_PERIOD_PERIOD",
+    "field": "EnteredPeriodName",
+    "id": "REQ-103",
+    "kind": "value",
+    "operationId": "cal1-PERIOD-10",
+    "requestedValue": "Oct",
+    "requirement": "Persist AP_OTHER_PERIOD_PERIOD.EnteredPeriodName=Oct",
+    "targetKey": {
+      "CalendarName": "FSCRT_CAL1",
+      "CalendarType": "GENERAL",
+      "PeriodName": "Oct-27"
+    }
+  },
+  {
+    "entity": "AP_OTHER_PERIOD_PERIOD",
+    "field": "PeriodNum",
+    "id": "REQ-104",
+    "kind": "value",
+    "operationId": "cal1-PERIOD-10",
+    "requestedValue": "10",
+    "requirement": "Persist AP_OTHER_PERIOD_PERIOD.PeriodNum=10",
+    "targetKey": {
+      "CalendarName": "FSCRT_CAL1",
+      "CalendarType": "GENERAL",
+      "PeriodName": "Oct-27"
+    }
+  },
+  {
+    "entity": "AP_OTHER_PERIOD_PERIOD",
+    "field": "PeriodYear",
+    "id": "REQ-105",
+    "kind": "value",
+    "operationId": "cal1-PERIOD-10",
+    "requestedValue": "2027",
+    "requirement": "Persist AP_OTHER_PERIOD_PERIOD.PeriodYear=2027",
+    "targetKey": {
+      "CalendarName": "FSCRT_CAL1",
+      "CalendarType": "GENERAL",
+      "PeriodName": "Oct-27"
+    }
+  },
+  {
+    "entity": "AP_OTHER_PERIOD_PERIOD",
+    "field": "StartDate",
+    "id": "REQ-106",
+    "kind": "value",
+    "operationId": "cal1-PERIOD-10",
+    "requestedValue": "2027-10-01",
+    "requirement": "Persist AP_OTHER_PERIOD_PERIOD.StartDate=2027-10-01",
+    "targetKey": {
+      "CalendarName": "FSCRT_CAL1",
+      "CalendarType": "GENERAL",
+      "PeriodName": "Oct-27"
+    }
+  },
+  {
+    "entity": "AP_OTHER_PERIOD_PERIOD",
+    "id": "REQ-107",
+    "kind": "preserve_rows",
+    "operationId": "cal1-PERIOD-10",
+    "requirement": "Preserve every unspecified record and non-audit value",
+    "targetKey": {
+      "CalendarName": "FSCRT_CAL1",
+      "CalendarType": "GENERAL",
+      "PeriodName": "Oct-27"
+    }
+  },
+  {
+    "entity": "AP_OTHER_PERIOD_PERIOD",
+    "id": "REQ-108",
+    "kind": "target",
+    "operationId": "cal1-PERIOD-11",
+    "requirement": "create exactly one AP_OTHER_PERIOD_PERIOD record identified by {\"CalendarName\":\"FSCRT_CAL1\",\"CalendarType\":\"GENERAL\",\"PeriodName\":\"Nov-27\"}",
+    "targetKey": {
+      "CalendarName": "FSCRT_CAL1",
+      "CalendarType": "GENERAL",
+      "PeriodName": "Nov-27"
+    }
+  },
+  {
+    "entity": "AP_OTHER_PERIOD_PERIOD",
+    "field": "AP_OTHER_PERIOD_TYPE.CalendarName",
+    "id": "REQ-109",
+    "kind": "value",
+    "operationId": "cal1-PERIOD-11",
+    "requestedValue": "FSCRT_CAL1",
+    "requirement": "Persist AP_OTHER_PERIOD_PERIOD.AP_OTHER_PERIOD_TYPE.CalendarName=FSCRT_CAL1",
+    "targetKey": {
+      "CalendarName": "FSCRT_CAL1",
+      "CalendarType": "GENERAL",
+      "PeriodName": "Nov-27"
+    }
+  },
+  {
+    "entity": "AP_OTHER_PERIOD_PERIOD",
+    "field": "AP_OTHER_PERIOD_TYPE.CalendarType",
+    "id": "REQ-110",
+    "kind": "value",
+    "operationId": "cal1-PERIOD-11",
+    "requestedValue": "GENERAL",
+    "requirement": "Persist AP_OTHER_PERIOD_PERIOD.AP_OTHER_PERIOD_TYPE.CalendarType=GENERAL",
+    "targetKey": {
+      "CalendarName": "FSCRT_CAL1",
+      "CalendarType": "GENERAL",
+      "PeriodName": "Nov-27"
+    }
+  },
+  {
+    "entity": "AP_OTHER_PERIOD_PERIOD",
+    "field": "ApplicationId",
+    "id": "REQ-111",
+    "kind": "value",
+    "operationId": "cal1-PERIOD-11",
+    "requestedValue": "200",
+    "requirement": "Persist AP_OTHER_PERIOD_PERIOD.ApplicationId=200",
+    "targetKey": {
+      "CalendarName": "FSCRT_CAL1",
+      "CalendarType": "GENERAL",
+      "PeriodName": "Nov-27"
+    }
+  },
+  {
+    "entity": "AP_OTHER_PERIOD_PERIOD",
+    "field": "EndDate",
+    "id": "REQ-112",
+    "kind": "value",
+    "operationId": "cal1-PERIOD-11",
+    "requestedValue": "2027-11-30",
+    "requirement": "Persist AP_OTHER_PERIOD_PERIOD.EndDate=2027-11-30",
+    "targetKey": {
+      "CalendarName": "FSCRT_CAL1",
+      "CalendarType": "GENERAL",
+      "PeriodName": "Nov-27"
+    }
+  },
+  {
+    "entity": "AP_OTHER_PERIOD_PERIOD",
+    "field": "EnteredPeriodName",
+    "id": "REQ-113",
+    "kind": "value",
+    "operationId": "cal1-PERIOD-11",
+    "requestedValue": "Nov",
+    "requirement": "Persist AP_OTHER_PERIOD_PERIOD.EnteredPeriodName=Nov",
+    "targetKey": {
+      "CalendarName": "FSCRT_CAL1",
+      "CalendarType": "GENERAL",
+      "PeriodName": "Nov-27"
+    }
+  },
+  {
+    "entity": "AP_OTHER_PERIOD_PERIOD",
+    "field": "PeriodNum",
+    "id": "REQ-114",
+    "kind": "value",
+    "operationId": "cal1-PERIOD-11",
+    "requestedValue": "11",
+    "requirement": "Persist AP_OTHER_PERIOD_PERIOD.PeriodNum=11",
+    "targetKey": {
+      "CalendarName": "FSCRT_CAL1",
+      "CalendarType": "GENERAL",
+      "PeriodName": "Nov-27"
+    }
+  },
+  {
+    "entity": "AP_OTHER_PERIOD_PERIOD",
+    "field": "PeriodYear",
+    "id": "REQ-115",
+    "kind": "value",
+    "operationId": "cal1-PERIOD-11",
+    "requestedValue": "2027",
+    "requirement": "Persist AP_OTHER_PERIOD_PERIOD.PeriodYear=2027",
+    "targetKey": {
+      "CalendarName": "FSCRT_CAL1",
+      "CalendarType": "GENERAL",
+      "PeriodName": "Nov-27"
+    }
+  },
+  {
+    "entity": "AP_OTHER_PERIOD_PERIOD",
+    "field": "StartDate",
+    "id": "REQ-116",
+    "kind": "value",
+    "operationId": "cal1-PERIOD-11",
+    "requestedValue": "2027-11-01",
+    "requirement": "Persist AP_OTHER_PERIOD_PERIOD.StartDate=2027-11-01",
+    "targetKey": {
+      "CalendarName": "FSCRT_CAL1",
+      "CalendarType": "GENERAL",
+      "PeriodName": "Nov-27"
+    }
+  },
+  {
+    "entity": "AP_OTHER_PERIOD_PERIOD",
+    "id": "REQ-117",
+    "kind": "preserve_rows",
+    "operationId": "cal1-PERIOD-11",
+    "requirement": "Preserve every unspecified record and non-audit value",
+    "targetKey": {
+      "CalendarName": "FSCRT_CAL1",
+      "CalendarType": "GENERAL",
+      "PeriodName": "Nov-27"
+    }
+  },
+  {
+    "entity": "AP_OTHER_PERIOD_PERIOD",
+    "id": "REQ-118",
+    "kind": "target",
+    "operationId": "cal1-PERIOD-12",
+    "requirement": "create exactly one AP_OTHER_PERIOD_PERIOD record identified by {\"CalendarName\":\"FSCRT_CAL1\",\"CalendarType\":\"GENERAL\",\"PeriodName\":\"Dec-27\"}",
+    "targetKey": {
+      "CalendarName": "FSCRT_CAL1",
+      "CalendarType": "GENERAL",
+      "PeriodName": "Dec-27"
+    }
+  },
+  {
+    "entity": "AP_OTHER_PERIOD_PERIOD",
+    "field": "AP_OTHER_PERIOD_TYPE.CalendarName",
+    "id": "REQ-119",
+    "kind": "value",
+    "operationId": "cal1-PERIOD-12",
+    "requestedValue": "FSCRT_CAL1",
+    "requirement": "Persist AP_OTHER_PERIOD_PERIOD.AP_OTHER_PERIOD_TYPE.CalendarName=FSCRT_CAL1",
+    "targetKey": {
+      "CalendarName": "FSCRT_CAL1",
+      "CalendarType": "GENERAL",
+      "PeriodName": "Dec-27"
+    }
+  },
+  {
+    "entity": "AP_OTHER_PERIOD_PERIOD",
+    "field": "AP_OTHER_PERIOD_TYPE.CalendarType",
+    "id": "REQ-120",
+    "kind": "value",
+    "operationId": "cal1-PERIOD-12",
+    "requestedValue": "GENERAL",
+    "requirement": "Persist AP_OTHER_PERIOD_PERIOD.AP_OTHER_PERIOD_TYPE.CalendarType=GENERAL",
+    "targetKey": {
+      "CalendarName": "FSCRT_CAL1",
+      "CalendarType": "GENERAL",
+      "PeriodName": "Dec-27"
+    }
+  },
+  {
+    "entity": "AP_OTHER_PERIOD_PERIOD",
+    "field": "ApplicationId",
+    "id": "REQ-121",
+    "kind": "value",
+    "operationId": "cal1-PERIOD-12",
+    "requestedValue": "200",
+    "requirement": "Persist AP_OTHER_PERIOD_PERIOD.ApplicationId=200",
+    "targetKey": {
+      "CalendarName": "FSCRT_CAL1",
+      "CalendarType": "GENERAL",
+      "PeriodName": "Dec-27"
+    }
+  },
+  {
+    "entity": "AP_OTHER_PERIOD_PERIOD",
+    "field": "EndDate",
+    "id": "REQ-122",
+    "kind": "value",
+    "operationId": "cal1-PERIOD-12",
+    "requestedValue": "2027-12-31",
+    "requirement": "Persist AP_OTHER_PERIOD_PERIOD.EndDate=2027-12-31",
+    "targetKey": {
+      "CalendarName": "FSCRT_CAL1",
+      "CalendarType": "GENERAL",
+      "PeriodName": "Dec-27"
+    }
+  },
+  {
+    "entity": "AP_OTHER_PERIOD_PERIOD",
+    "field": "EnteredPeriodName",
+    "id": "REQ-123",
+    "kind": "value",
+    "operationId": "cal1-PERIOD-12",
+    "requestedValue": "Dec",
+    "requirement": "Persist AP_OTHER_PERIOD_PERIOD.EnteredPeriodName=Dec",
+    "targetKey": {
+      "CalendarName": "FSCRT_CAL1",
+      "CalendarType": "GENERAL",
+      "PeriodName": "Dec-27"
+    }
+  },
+  {
+    "entity": "AP_OTHER_PERIOD_PERIOD",
+    "field": "PeriodNum",
+    "id": "REQ-124",
+    "kind": "value",
+    "operationId": "cal1-PERIOD-12",
+    "requestedValue": "12",
+    "requirement": "Persist AP_OTHER_PERIOD_PERIOD.PeriodNum=12",
+    "targetKey": {
+      "CalendarName": "FSCRT_CAL1",
+      "CalendarType": "GENERAL",
+      "PeriodName": "Dec-27"
+    }
+  },
+  {
+    "entity": "AP_OTHER_PERIOD_PERIOD",
+    "field": "PeriodYear",
+    "id": "REQ-125",
+    "kind": "value",
+    "operationId": "cal1-PERIOD-12",
+    "requestedValue": "2027",
+    "requirement": "Persist AP_OTHER_PERIOD_PERIOD.PeriodYear=2027",
+    "targetKey": {
+      "CalendarName": "FSCRT_CAL1",
+      "CalendarType": "GENERAL",
+      "PeriodName": "Dec-27"
+    }
+  },
+  {
+    "entity": "AP_OTHER_PERIOD_PERIOD",
+    "field": "StartDate",
+    "id": "REQ-126",
+    "kind": "value",
+    "operationId": "cal1-PERIOD-12",
+    "requestedValue": "2027-12-01",
+    "requirement": "Persist AP_OTHER_PERIOD_PERIOD.StartDate=2027-12-01",
+    "targetKey": {
+      "CalendarName": "FSCRT_CAL1",
+      "CalendarType": "GENERAL",
+      "PeriodName": "Dec-27"
+    }
+  },
+  {
+    "entity": "AP_OTHER_PERIOD_PERIOD",
+    "id": "REQ-127",
+    "kind": "preserve_rows",
+    "operationId": "cal1-PERIOD-12",
+    "requirement": "Preserve every unspecified record and non-audit value",
+    "targetKey": {
+      "CalendarName": "FSCRT_CAL1",
+      "CalendarType": "GENERAL",
+      "PeriodName": "Dec-27"
+    }
+  }
+]

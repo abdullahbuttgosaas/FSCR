@@ -1,0 +1,223 @@
+{
+  "environmentResourceRoot": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com/fscmRestApi/resources/latest",
+  "objectName": "Manage Order Lookups",
+  "entityType": "TASK",
+  "codes": {
+    "taskCode": "DOO_MANAGE_ORCHESTRATION_LOOKUPS",
+    "offeringCode": null,
+    "functionalAreaCode": null
+  },
+  "codeResolution": [],
+  "zipFiles": [
+    "E:\\GoSaaS\\Configuration Automation v2.1\\fscr-main\\_fscr_run_08_compare\\fscr-work8\\project\\draft_impl_project_20261104\\exports\\baseline\\DOO_MANAGE_ORCHESTRATION_LOOKUPS\\ETIA-TEST_setup_task_csv_export_doo_manage_orchestration_lookups_100004734424708.zip",
+    "E:\\GoSaaS\\Configuration Automation v2.1\\fscr-main\\_fscr_run_08_compare\\fscr-work8\\project\\draft_impl_project_20261104\\exports\\drift\\DOO_MANAGE_ORCHESTRATION_LOOKUPS\\ETIA-TEST_setup_task_csv_export_doo_manage_orchestration_lookups_100004733457672.zip"
+  ],
+  "fileBlobs": [
+    {
+      "source": 1,
+      "zip": "E:\\GoSaaS\\Configuration Automation v2.1\\fscr-main\\_fscr_run_08_compare\\fscr-work8\\project\\draft_impl_project_20261104\\exports\\baseline\\DOO_MANAGE_ORCHESTRATION_LOOKUPS\\ETIA-TEST_setup_task_csv_export_doo_manage_orchestration_lookups_100004734424708.zip",
+      "fileBlobId": "100004733467382",
+      "response": {
+        "FileKey": "100004733467382",
+        "ProcessType": "MIGRATOR_UPLOAD_VB_FLOW",
+        "ProcessId": 100004733467382,
+        "ObjectType": null,
+        "ObjectId": null,
+        "ObjectName": null,
+        "ObjectCode": null,
+        "FileName": "ETIA-TEST_setup_task_csv_export_doo_manage_orchestration_lookups_100004734424708.zip",
+        "FileType": null,
+        "links": [
+          {
+            "rel": "self",
+            "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/setupMigrationProcessFiles/100004733467382",
+            "name": "setupMigrationProcessFiles",
+            "kind": "item"
+          },
+          {
+            "rel": "canonical",
+            "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/setupMigrationProcessFiles/100004733467382",
+            "name": "setupMigrationProcessFiles",
+            "kind": "item"
+          },
+          {
+            "rel": "enclosure",
+            "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/setupMigrationProcessFiles/100004733467382/enclosure/FileContentClob",
+            "name": "FileContentClob",
+            "kind": "other"
+          },
+          {
+            "rel": "enclosure",
+            "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/setupMigrationProcessFiles/100004733467382/enclosure/FileContentBlob",
+            "name": "FileContentBlob",
+            "kind": "other"
+          }
+        ]
+      },
+      "uploadResponse": {
+        "httpStatus": 204
+      }
+    },
+    {
+      "source": 2,
+      "zip": "E:\\GoSaaS\\Configuration Automation v2.1\\fscr-main\\_fscr_run_08_compare\\fscr-work8\\project\\draft_impl_project_20261104\\exports\\drift\\DOO_MANAGE_ORCHESTRATION_LOOKUPS\\ETIA-TEST_setup_task_csv_export_doo_manage_orchestration_lookups_100004733457672.zip",
+      "fileBlobId": "100004734424845",
+      "response": {
+        "FileKey": "100004734424845",
+        "ProcessType": "MIGRATOR_UPLOAD_VB_FLOW",
+        "ProcessId": 100004734424845,
+        "ObjectType": null,
+        "ObjectId": null,
+        "ObjectName": null,
+        "ObjectCode": null,
+        "FileName": "ETIA-TEST_setup_task_csv_export_doo_manage_orchestration_lookups_100004733457672.zip",
+        "FileType": null,
+        "links": [
+          {
+            "rel": "self",
+            "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/setupMigrationProcessFiles/100004734424845",
+            "name": "setupMigrationProcessFiles",
+            "kind": "item"
+          },
+          {
+            "rel": "canonical",
+            "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/setupMigrationProcessFiles/100004734424845",
+            "name": "setupMigrationProcessFiles",
+            "kind": "item"
+          },
+          {
+            "rel": "enclosure",
+            "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/setupMigrationProcessFiles/100004734424845/enclosure/FileContentClob",
+            "name": "FileContentClob",
+            "kind": "other"
+          },
+          {
+            "rel": "enclosure",
+            "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/setupMigrationProcessFiles/100004734424845/enclosure/FileContentBlob",
+            "name": "FileContentBlob",
+            "kind": "other"
+          }
+        ]
+      },
+      "uploadResponse": {
+        "httpStatus": 204
+      }
+    }
+  ],
+  "uploads": [
+    {
+      "source": 1,
+      "uploadProcessId": "100004733459559",
+      "sourceName": "Manage Order Lookups_20261104_091942_093",
+      "response": {
+        "processStatus": "COMPLETED",
+        "cfgPackageId": "100004733459553",
+        "format": "CSV",
+        "processRelease": "11.13.26.10.0",
+        "cfgPackageName": "Manage Order Lookups_20261104_091942_093_1",
+        "processDesc": "Manage Order Lookups_20261104_091942_093",
+        "sourceTargetReleaseDiff": "false",
+        "objectType": "TASK",
+        "cfgCreatedByFlow": "TASK_CSV",
+        "migRequestId": "100004733459559",
+        "processId": "100004733459559",
+        "processName": "Manage Order Lookups_20261104_091942_093",
+        "processDate": "2026-11-04 09:19:54.908",
+        "cfgPackageShortName": "MANAGE_ORD_20261104_091942_0_1"
+      }
+    },
+    {
+      "source": 2,
+      "uploadProcessId": "100004733457741",
+      "sourceName": "Manage Order Lookups_20261104_092426_837",
+      "response": {
+        "processStatus": "COMPLETED",
+        "cfgPackageId": "100004733457735",
+        "format": "CSV",
+        "processRelease": "11.13.26.10.0",
+        "cfgPackageName": "Manage Order Lookups_20261104_092426_837_1",
+        "processDesc": "Manage Order Lookups_20261104_092426_837",
+        "sourceTargetReleaseDiff": "false",
+        "objectType": "TASK",
+        "cfgCreatedByFlow": "TASK_CSV",
+        "migRequestId": "100004733457741",
+        "processId": "100004733457741",
+        "processName": "Manage Order Lookups_20261104_092426_837",
+        "processDate": "2026-11-04 09:24:40.973",
+        "cfgPackageShortName": "MANAGE_ORD_20261104_092426_8_1"
+      }
+    }
+  ],
+  "warnings": [],
+  "compareProcessName": "Manage Order Lookups_20261104_091942_093 compared to Manage Order Lookups_20261104_092426_837",
+  "retrieveCompareProcessNameResponse": {
+    "compareProcessName": "Manage Order Lookups_20261104_091942_093 compared to Manage Order Lookups_20261104_092426_837"
+  },
+  "compareProcessId": "163220195",
+  "submitCompareResponse": {
+    "processId": "163220195"
+  },
+  "finalStatus": "COMPLETED",
+  "statusDetail": {
+    "source": "COMPARISON_PROCESS_STATUS_DETAILS",
+    "status": "COMPLETED",
+    "preview": "The file format conversion from CSV to XML started at: 11/4/26 9:28 AM.\r\n\r\nThe file format conversion from CSV to XML completed at: 11/4/26 9:28 AM.\r\n\r\nThe file format conversion from CSV to XML started at: 11/4/26 9:28 AM.\r\n\r\nThe file format conversion from CSV to XML completed at: 11/4/26 9:28 AM.\r\n\r\nSource 1: The configuration package Manage Order Lookups_20261104_091942_093 was generated using setup data from environment etia-test with 11.13.26.10.0 revision.\r\nSource 2: The configuration package Manage Order Lookups_20261104_092426_837 was generated using setup data from environment etia-test with 11.13.26.10.0 revision.\r\n\r\nRequest ID: 4,435,301. Status: In progress. Submitted By: Configuration.TEST. Process Date: 11/4/26 9:28 AM.\r\n\r\nStaging data for business object Application Standard Lookup from source 1 in progress.\r\n\r\nStaging data from source 1 completed with status Source 1 data staging completed. Started at 2026-11-04 09:28:20.324 and ended at 2026-11-04 09:28:20.583.\r\n\r\nStaging data for business object Application Standard Lookup from source 2 in progress.\r\n\r\nStaging data from source 2 completed with status Source 2 data staging completed. Started at 2026-11-04 09:28:20.61 and ended at 2026-11-04 09:28:20.861.\r\n\r\nData comparison for business object Application Standard Lookup in progress.\r\n\r\nData comparison for business object Application Standard Lookup completed with status Completed successfully. Started at 2026-11-04 09:28:24.726 and ended at 2026-11-04 09:28:25.41.\r\n\r\nThe report generation started at 11/4/26 9:28 AM.\r\n\r\nThe report generation ended at 11/4/26 9:28 AM.\r\n\r\nProcess clean up started at time 11/4/26 9:28 AM.\r\n\r\nProcess clean up ended at time 11/4/26 9:28 AM.\r\n\r\nRequest ID: 4,435,301. Status: Completed successfully. Submitted By: Configuration.TEST. Process Date: 11/4/26 9:28 AM.\r\nTotal Objects Processed: 1\r\n"
+  },
+  "artifacts": [
+    {
+      "fileType": "COMPARISON_RESULTS_XML",
+      "enclosure": "FileContentBlob",
+      "path": "E:\\GoSaaS\\Configuration Automation v2.1\\fscr-main\\_fscr_run_08_compare\\evidence\\fscr_compare\\compare_163220195_COMPARISON_RESULTS_XML.xml",
+      "bytes": 1423,
+      "httpStatus": 200
+    },
+    {
+      "fileType": "COMPARISON_REPORT",
+      "enclosure": "FileContentBlob",
+      "path": "E:\\GoSaaS\\Configuration Automation v2.1\\fscr-main\\_fscr_run_08_compare\\evidence\\fscr_compare\\compare_163220195_COMPARISON_REPORT.bin",
+      "bytes": 3261,
+      "httpStatus": 200
+    },
+    {
+      "fileType": "COMPARISON_RESULTS_REPORT",
+      "enclosure": "FileContentBlob",
+      "path": "E:\\GoSaaS\\Configuration Automation v2.1\\fscr-main\\_fscr_run_08_compare\\evidence\\fscr_compare\\compare_163220195_COMPARISON_RESULTS_REPORT.bin",
+      "bytes": 4990,
+      "httpStatus": 200
+    },
+    {
+      "fileType": "COMPARISON_PROCESS_SUMMARY_REPORT",
+      "enclosure": "FileContentBlob",
+      "path": "E:\\GoSaaS\\Configuration Automation v2.1\\fscr-main\\_fscr_run_08_compare\\evidence\\fscr_compare\\compare_163220195_COMPARISON_PROCESS_SUMMARY_REPORT.bin",
+      "bytes": 6150,
+      "httpStatus": 200
+    },
+    {
+      "fileType": "COMPARISON_PROCESS_STATUS_DETAILS",
+      "enclosure": "FileContentClob",
+      "path": "E:\\GoSaaS\\Configuration Automation v2.1\\fscr-main\\_fscr_run_08_compare\\evidence\\fscr_compare\\compare_163220195_COMPARISON_PROCESS_STATUS_DETAILS.log",
+      "bytes": 1867,
+      "httpStatus": 200
+    }
+  ],
+  "objectCounts": [
+    {
+      "businessObject": "Application Standard Lookup",
+      "source1Count": 0,
+      "source2Count": 0,
+      "mismatchCount": 0,
+      "matchCount": 6,
+      "totalCount": 6
+    },
+    {
+      "businessObject": "Application Standard Lookup Code",
+      "source1Count": 0,
+      "source2Count": 0,
+      "mismatchCount": 1,
+      "matchCount": 69,
+      "totalCount": 70
+    }
+  ],
+  "processOutputPath": "E:\\GoSaaS\\Configuration Automation v2.1\\fscr-main\\_fscr_run_08_compare\\evidence\\fscr_compare\\compare_163220195_process_output.json",
+  "standardReportPath": "E:\\GoSaaS\\Configuration Automation v2.1\\fscr-main\\_fscr_run_08_compare\\evidence\\fscr_compare\\compare_163220195_standard_report.md"
+}

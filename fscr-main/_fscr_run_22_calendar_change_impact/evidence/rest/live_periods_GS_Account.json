@@ -1,0 +1,188 @@
+{
+ "items": [
+  {
+   "PeriodNameId": "13_Jul22",
+   "PeriodSetNameId": "GS Account",
+   "PeriodType": "MONTH7304180798",
+   "AdjustmentPeriodFlag": true,
+   "StartDate": "2022-07-25",
+   "EndDate": "2022-07-25",
+   "EnteredPeriodName": "13_Jul22",
+   "PeriodYear": "2022",
+   "PeriodNumber": "13",
+   "@context": {
+    "key": "13_Jul22,GS%20Account"
+   }
+  },
+  {
+   "PeriodNameId": "Jun22",
+   "PeriodSetNameId": "GS Account",
+   "PeriodType": "MONTH7304180798",
+   "AdjustmentPeriodFlag": false,
+   "StartDate": "2022-06-26",
+   "EndDate": "2022-07-25",
+   "EnteredPeriodName": "Jun22",
+   "PeriodYear": "2022",
+   "PeriodNumber": "12",
+   "@context": {
+    "key": "Jun22,GS%20Account"
+   }
+  },
+  {
+   "PeriodNameId": "May22",
+   "PeriodSetNameId": "GS Account",
+   "PeriodType": "MONTH7304180798",
+   "AdjustmentPeriodFlag": false,
+   "StartDate": "2022-05-26",
+   "EndDate": "2022-06-25",
+   "EnteredPeriodName": "May22",
+   "PeriodYear": "2022",
+   "PeriodNumber": "11",
+   "@context": {
+    "key": "May22,GS%20Account"
+   }
+  },
+  {
+   "PeriodNameId": "Apr22",
+   "PeriodSetNameId": "GS Account",
+   "PeriodType": "MONTH7304180798",
+   "AdjustmentPeriodFlag": false,
+   "StartDate": "2022-04-26",
+   "EndDate": "2022-05-25",
+   "EnteredPeriodName": "Apr22",
+   "PeriodYear": "2022",
+   "PeriodNumber": "10",
+   "@context": {
+    "key": "Apr22,GS%20Account"
+   }
+  },
+  {
+   "PeriodNameId": "Mar22",
+   "PeriodSetNameId": "GS Account",
+   "PeriodType": "MONTH7304180798",
+   "AdjustmentPeriodFlag": false,
+   "StartDate": "2022-03-26",
+   "EndDate": "2022-04-25",
+   "EnteredPeriodName": "Mar22",
+   "PeriodYear": "2022",
+   "PeriodNumber": "9",
+   "@context": {
+    "key": "Mar22,GS%20Account"
+   }
+  },
+  {
+   "PeriodNameId": "Feb22",
+   "PeriodSetNameId": "GS Account",
+   "PeriodType": "MONTH7304180798",
+   "AdjustmentPeriodFlag": false,
+   "StartDate": "2022-02-26",
+   "EndDate": "2022-03-25",
+   "EnteredPeriodName": "Feb22",
+   "PeriodYear": "2022",
+   "PeriodNumber": "8",
+   "@context": {
+    "key": "Feb22,GS%20Account"
+   }
+  },
+  {
+   "PeriodNameId": "Jan22",
+   "PeriodSetNameId": "GS Account",
+   "PeriodType": "MONTH7304180798",
+   "AdjustmentPeriodFlag": false,
+   "StartDate": "2022-01-26",
+   "EndDate": "2022-02-25",
+   "EnteredPeriodName": "Jan22",
+   "PeriodYear": "2022",
+   "PeriodNumber": "7",
+   "@context": {
+    "key": "Jan22,GS%20Account"
+   }
+  },
+  {
+   "PeriodNameId": "Dec21",
+   "PeriodSetNameId": "GS Account",
+   "PeriodType": "MONTH7304180798",
+   "AdjustmentPeriodFlag": false,
+   "StartDate": "2021-12-26",
+   "EndDate": "2022-01-25",
+   "EnteredPeriodName": "Dec21",
+   "PeriodYear": "2022",
+   "PeriodNumber": "6",
+   "@context": {
+    "key": "Dec21,GS%20Account"
+   }
+  },
+  {
+   "PeriodNameId": "Nov21",
+   "PeriodSetNameId": "GS Account",
+   "PeriodType": "MONTH7304180798",
+   "AdjustmentPeriodFlag": false,
+   "StartDate": "2021-11-26",
+   "EndDate": "2021-12-25",
+   "EnteredPeriodName": "Nov21",
+   "PeriodYear": "2022",
+   "PeriodNumber": "5",
+   "@context": {
+    "key": "Nov21,GS%20Account"
+   }
+  },
+  {
+   "PeriodNameId": "Oct21",
+   "PeriodSetNameId": "GS Account",
+   "PeriodType": "MONTH7304180798",
+   "AdjustmentPeriodFlag": false,
+   "StartDate": "2021-10-26",
+   "EndDate": "2021-11-25",
+   "EnteredPeriodName": "Oct21",
+   "PeriodYear": "2022",
+   "PeriodNumber": "4",
+   "@context": {
+    "key": "Oct21,GS%20Account"
+   }
+  },
+  {
+   "PeriodNameId": "Sep21",
+   "PeriodSetNameId": "GS Account",
+   "PeriodType": "MONTH7304180798",
+   "AdjustmentPeriodFlag": false,
+   "StartDate": "2021-09-26",
+   "EndDate": "2021-10-25",
+   "EnteredPeriodName": "Sep21",
+   "PeriodYear": "2022",
+   "PeriodNumber": "3",
+   "@context": {
+    "key": "Sep21,GS%20Account"
+   }
+  },
+  {
+   "PeriodNameId": "Aug21",
+   "PeriodSetNameId": "GS Account",
+   "PeriodType": "MONTH7304180798",
+   "AdjustmentPeriodFlag": false,
+   "StartDate": "2021-08-26",
+   "EndDate": "2021-09-25",
+   "EnteredPeriodName": "Aug21",
+   "PeriodYear": "2022",
+   "PeriodNumber": "2",
+   "@context": {
+    "key": "Aug21,GS%20Account"
+   }
+  },
+  {
+   "PeriodNameId": "Jul21",
+   "PeriodSetNameId": "GS Account",
+   "PeriodType": "MONTH7304180798",
+   "AdjustmentPeriodFlag": false,
+   "StartDate": "2021-07-26",
+   "EndDate": "2021-08-25",
+   "EnteredPeriodName": "Jul21",
+   "PeriodYear": "2022",
+   "PeriodNumber": "1",
+   "@context": {
+    "key": "Jul21,GS%20Account"
+   }
+  }
+ ],
+ "count": 13,
+ "pages": 1
+}

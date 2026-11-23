@@ -1,0 +1,41 @@
+{
+  "LookupCode" : "FSCRT_STANDARD",
+  "Meaning" : "FSCRT_Standard ground",
+  "Description" : null,
+  "EnabledFlag" : "Y",
+  "StartDateActive" : null,
+  "EndDateActive" : null,
+  "DisplaySequence" : null,
+  "Tag" : null,
+  "CreatedBy" : "Configuration.TEST",
+  "CreationDate" : "2026-11-02T19:53:56+00:00",
+  "LastUpdateDate" : "2026-11-02T19:53:56.082+00:00",
+  "LastUpdateLogin" : "5F4DC615B8AEA793E0631C65310A696A",
+  "LastUpdatedBy" : "Configuration.TEST",
+  "links" : [ {
+    "rel" : "self",
+    "href" : "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/FSCRT_CARRIER_SERVICE_TIER_F01/child/lookupCodes/FSCRT_STANDARD",
+    "name" : "lookupCodes",
+    "kind" : "item"
+  }, {
+    "rel" : "canonical",
+    "href" : "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/FSCRT_CARRIER_SERVICE_TIER_F01/child/lookupCodes/FSCRT_STANDARD",
+    "name" : "lookupCodes",
+    "kind" : "item"
+  }, {
+    "rel" : "parent",
+    "href" : "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/FSCRT_CARRIER_SERVICE_TIER_F01",
+    "name" : "standardLookups",
+    "kind" : "item"
+  }, {
+    "rel" : "child",
+    "href" : "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/FSCRT_CARRIER_SERVICE_TIER_F01/child/lookupCodes/FSCRT_STANDARD/child/lookupsDFF",
+    "name" : "lookupsDFF",
+    "kind" : "collection"
+  }, {
+    "rel" : "child",
+    "href" : "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/FSCRT_CARRIER_SERVICE_TIER_F01/child/lookupCodes/FSCRT_STANDARD/child/translations",
+    "name" : "translations",
+    "kind" : "collection"
+  } ]
+}

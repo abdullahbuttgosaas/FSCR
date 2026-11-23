@@ -1,0 +1,8 @@
+{
+  "title" : "Bad Request",
+  "status" : "400",
+  "o:errorDetails" : [ {
+    "detail" : "URL request parameter expand with value priceLists is not valid.",
+    "o:errorCode" : "27519"
+  } ]
+}

@@ -1,0 +1,20 @@
+{
+  "run_id": "20261028-payment-term-create-verified",
+  "supersedes": "20261028-payment-term-create-blocked",
+  "skill_id": "erp.financials.customer-billing.manage-receivables-payment-terms",
+  "environment": "ETIA-TEST",
+  "release": "11.13.26.10.0",
+  "task_code": "AR_MANAGE_RECEIVABLES_PAYMENT_TERMS",
+  "status": "verified",
+  "term": {"name": "ZZFSCR N45 4203", "set_code": "COMMON"},
+  "local_patch": "payment_terms_fsm_package.py: fixed PAYMENT_TERM_OBJECT_ORDER replaced by template/baseline order equality",
+  "design_sha256": "1ccd2ec10a29c3a21114362179e6af9d69099aaeca0ee4f8d0e2807aabb8a42b",
+  "archive_sha256": "8f032a645985fa2db7da42d8c179df030fd7d0976a2f4c8e8c0e9be8f4dee3d5",
+  "approvals": ["design confirmation: user 'confirm'", "Core Data Loader upload/initiation: user 'approve'"],
+  "external_ids": {"ucm_content_id": "UCMFA04512183", "data_load_request_id": "4418138", "fsm_import_request_id": "4418141", "verification_export_process_id": "100004731498215", "runbook_worker_journey_id": "300000394423893"},
+  "timeline_utc": {"initiated": "2026-10-28T11:02:29Z", "succeeded_observed": "2026-10-28T11:04:26Z"},
+  "process_result": {"status": "Succeeded", "objects_total": 3, "loaded": 3, "failed": 0, "warnings": 0},
+  "reconcile": {"status": "verified", "mismatches": 0, "other_terms_unchanged": true},
+  "diagnostic_note": "get_data_load_info.py crashes on Windows cp1252 console when printing status emoji; ran with PYTHONIOENCODING=utf-8. FSM process log was written by the script to the user profile (.codex/data-loader-status-logs), outside the project.",
+  "artifact_refs": ["artifacts/pillars/erp/financials/customer-billing/manage-receivables-payment-terms/current/reconcile-result.json", "artifacts/core/data-loader/task-hook/runs/20261028-zzfscr-n45-4203/validation-result.json"]
+}

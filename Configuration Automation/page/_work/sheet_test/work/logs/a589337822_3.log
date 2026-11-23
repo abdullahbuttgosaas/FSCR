@@ -1,0 +1,36 @@
+Host: https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com
+ORACLE_ENV: test
+Exporting AR_MANAGE_TRANSACTION_TYPES ...
+  ProcessId=100004733439398
+  [export]   10s  StatusCode=IN_PROGRESS
+  [export]   22s  StatusCode=IN_PROGRESS
+  [export]   32s  StatusCode=COMPLETED
+  saved E:\GoSaaS\Configuration Automation v2.1\Configuration Automation\Transaction Types\_work\AR_MANAGE_TRANSACTION_TYPES_20261102_062749_before.zip
+  [template]   10s  StatusCode=IN_PROGRESS
+  [template]   21s  StatusCode=IN_PROGRESS
+  [template]   32s  StatusCode=COMPLETED
+  ZZ_TEST_TT_3113 (COMMON): new
+  ZZ_TEST_TT_6421 (COMMON): exists
+Exporting AR_MANAGE_TRANSACTION_TYPES ...
+  ProcessId=100004733439409
+  [export]   11s  StatusCode=IN_PROGRESS
+  [export]   21s  StatusCode=COMPLETED
+  saved E:\GoSaaS\Configuration Automation v2.1\Configuration Automation\Transaction Types\_work\AR_MANAGE_TRANSACTION_TYPES_20261102_062851_names.zip
+Exporting AR_MANAGE_RECEIVABLES_PAYMENT_TERMS ...
+  ProcessId=100004733438897
+  [export]   10s  StatusCode=IN_PROGRESS
+  [export]   21s  StatusCode=COMPLETED
+  saved E:\GoSaaS\Configuration Automation v2.1\Configuration Automation\Transaction Types\_work\AR_MANAGE_RECEIVABLES_PAYMENT_TERMS_20261102_062915_terms_now.zip
+  process 100004734401522
+  [transaction types]   11s  StatusCode=IN_PROGRESS
+  [transaction types]   22s  StatusCode=COMPLETED
+  Oracle's result: COMPLETED
+Exporting AR_MANAGE_TRANSACTION_TYPES ...
+  ProcessId=100004734402238
+  [export]   10s  StatusCode=NOT_STARTED
+  [export]   21s  StatusCode=IN_PROGRESS
+  [export]   32s  StatusCode=COMPLETED
+  saved E:\GoSaaS\Configuration Automation v2.1\Configuration Automation\Transaction Types\_work\AR_MANAGE_TRANSACTION_TYPES_20261102_063018_after.zip
+Whole run: 186 s
+
+===== run 06:27:11

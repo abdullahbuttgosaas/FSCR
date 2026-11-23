@@ -1,0 +1,30 @@
+{
+ "items": [
+  {
+   "ActiveFlag": true,
+   "CreatedBy": "Configuration.TEST",
+   "CreationDate": "2026-11-03T01:41:27.621+00:00",
+   "LastUpdateDate": "2026-11-03T01:41:45.091+00:00",
+   "LastUpdateLogin": "5F5513FD369E91DAE0631B65310A1582",
+   "LastUpdatedBy": "Configuration.TEST",
+   "RoleCommonName": "ORA_QP_PRICING_ADMINISTRATOR_JOB",
+   "UserRoleDataAssignmentId": "300000394652046",
+   "Rolerf": "Pricing Administrator",
+   "Userrf": "Configuration.TEST",
+   "SecurityContext": "Business unit",
+   "SecurityContextValue": "FSCRT_Brindle Harbor Marine Supply F01",
+   "SecurityContextValue2": null,
+   "SecurityContextValue3": null,
+   "UserName": "Configuration.TEST",
+   "RoleNameCr": "Pricing Administrator",
+   "@context": {
+    "key": "300000394652046",
+    "headers": {
+     "ETag": "ACED0005737200136A6176612E7574696C2E41727261794C6973747881D21D99C7619D03000149000473697A65787000000001770400000001737200116A6176612E6C616E672E496E746567657212E2A0A4F781873802000149000576616C7565787200106A6176612E6C616E672E4E756D62657286AC951D0B94E08B02000078700000000178"
+    }
+   }
+  }
+ ],
+ "count": 1,
+ "pages": 1
+}

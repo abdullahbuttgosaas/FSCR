@@ -1,0 +1,12 @@
+TaskCode: AR_MANAGE_AUTOINVOICE_GROUPING_RULES (Manage AutoInvoice Grouping Rules); CSVExportImportSupportedFlag: Y
+Resolved pillar skill metadata:
+  offering: pillars\erp\financials\SKILL.md
+  functional_area: pillars\erp\financials\customer-billing\SKILL.md
+  task: pillars\erp\financials\customer-billing\manage-autoinvoice-grouping-rules\SKILL.md
+Started setup task CSV export process: 100004733459213
+ProcessCompletedFlag: True; StatusCode: (no result yet); ResultCount: 0
+StatusCode: (unknown)
+Retrieved: FileContent
+Wrote E:\GoSaaS\Configuration Automation v2.1\fscr-main\_fscr_run_06_requirements\evidence\skills\grp6\after_export\ETIA-TEST_setup_task_csv_export_ar_manage_autoinvoice_grouping_rules_100004733459213.zip (2764 bytes)
+
+--stderr--

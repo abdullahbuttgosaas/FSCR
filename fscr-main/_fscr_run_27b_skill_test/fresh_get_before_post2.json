@@ -1,0 +1,32 @@
+{
+  "items" : [ {
+    "AlternateNameId" : 300000395050002,
+    "AlternatePayerName" : "FSCRT_R25 Payer A",
+    "ZenginCustomerBankName" : null,
+    "ZenginCustomerBankBranchName" : null,
+    "CustomerName" : "ZZ_TEST_CU_2589_14_OK",
+    "CustomerAccountNumber" : "21541",
+    "BillToSite" : null,
+    "RemittanceBankName" : null,
+    "RemittanceBankNumber" : null,
+    "RemittanceBankBranchNumber" : null,
+    "VirtualAccountNumber" : null,
+    "Active" : "Y",
+    "CreatedBy" : "Configuration.TEST",
+    "CreationDate" : "2026-11-15T11:51:43+00:00",
+    "LastUpdateDate" : "2026-11-15T11:51:43.131+00:00",
+    "LastUpdateLogin" : "6048A8F532399650E0631C65310A359A",
+    "LastUpdatedBy" : "Configuration.TEST",
+    "ObjectVersionNumber" : 1
+  } ],
+  "count" : 1,
+  "hasMore" : true,
+  "limit" : 1,
+  "offset" : 0,
+  "links" : [ {
+    "rel" : "self",
+    "href" : "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/alternateNameMappingRules",
+    "name" : "alternateNameMappingRules",
+    "kind" : "collection"
+  } ]
+}

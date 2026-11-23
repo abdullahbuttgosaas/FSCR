@@ -1,0 +1,54 @@
+{
+ "old": "fscr-work8/project/draft_impl_project_20261104/exports/baseline/AR_MANAGE_RECEIVABLES_PAYMENT_TERMS/ETIA-TEST_setup_task_csv_export_ar_manage_receivables_payment_terms_100004733467303.zip",
+ "new": "fscr-work8/project/draft_impl_project_20261104/exports/extra/AR_MANAGE_RECEIVABLES_PAYMENT_TERMS/ETIA-TEST_setup_task_csv_export_ar_manage_receivables_payment_terms_100004734424856.zip",
+ "files": {
+  "AR_PAYMENT_TERM.csv": {
+   "rows_old": 17,
+   "rows_new": 17,
+   "key_columns": [
+    "Name",
+    "SetCode",
+    "CycleName"
+   ],
+   "added": [],
+   "removed": [],
+   "changed": []
+  },
+  "AR_PAYMENT_TERM_DISCOUNT.csv": {
+   "rows_old": 2,
+   "rows_new": 2,
+   "key_columns": [
+    "SequenceNum",
+    "AR_PAYMENT_TERM.Name",
+    "SetCode"
+   ],
+   "added": [],
+   "removed": [],
+   "changed": []
+  },
+  "AR_PAYMENT_TERM_LINE.csv": {
+   "rows_old": 20,
+   "rows_new": 20,
+   "key_columns": [
+    "SequenceNum",
+    "AR_PAYMENT_TERM.Name",
+    "SetCode"
+   ],
+   "added": [],
+   "removed": [],
+   "changed": []
+  },
+  "AR_PAYMENT_TERM_TRANSLATION.csv": {
+   "rows_old": 17,
+   "rows_new": 17,
+   "key_columns": [
+    "Name",
+    "AR_PAYMENT_TERM.Name",
+    "Language"
+   ],
+   "added": [],
+   "removed": [],
+   "changed": []
+  }
+ }
+}

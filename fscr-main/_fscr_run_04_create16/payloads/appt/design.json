@@ -1,0 +1,5 @@
+{"operations":[
+ {"id":"h1","action":"create","entity":"AP_TERM_HEADER","targetKey":{"Name":"FSCRT_AP_N45"},"values":{"EnabledFlag":"Y","Type":"STD","StartDateActive":"2026-11-03","Description":"FSCRT Run04 net 45"}},
+ {"id":"l1","action":"create","entity":"AP_TERM_LINE","targetKey":{"AP_TERM_HEADER.Name":"FSCRT_AP_N45","SequenceNum":"1"},"values":{"DuePercent":"100","DueDays":"45"}},
+ {"id":"s1","action":"create","entity":"AP_TERM_SUBSCRIPTION","targetKey":{"AP_TERM_HEADER.Name":"FSCRT_AP_N45","SetCode":"ENTERPRISE"},"values":{}},
+ {"id":"t1","action":"create","entity":"AP_TERM_HEADER_TRANSLATION","targetKey":{"AP_TERM_HEADER.Name":"FSCRT_AP_N45","Language":"US"},"values":{"Name":"FSCRT_AP_N45","Description":"FSCRT Run04 net 45","SourceLang":"US"}}]}

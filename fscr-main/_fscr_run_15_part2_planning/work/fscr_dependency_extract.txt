@@ -1,0 +1,774 @@
+161 in-scope dependency files
+## pillars/erp/financials/customer-billing/manage-autoinvoice-grouping-rules
+  - Line ordering rule :: If LineOrderingRuleName is supplied, its exact name must exist in RA_LINE_ORDERING_RULES in the target pod.
+  - Transaction class :: Normalize to the system GROUPING_TRX_TYPE code before constructing each class child row.
+  - Group-by characteristic :: If a group-by child is requested, verify its exact FromColumnName and target-pod availability.
+  - Deployed DFF configuration :: If any DFF field is requested, resolve context and segment rules before preview; for an existing-record update, eligible unresolved evidence may use the exact-f
+## pillars/erp/financials/customer-billing/manage-receivables-payment-terms
+  - Current task template and data export :: Establish exact task identity from either the explicit selected-task metadata shape or the task-object UI-export shape, plus successful process state, CSV membe
+  - Reference data set :: Resolve one exact set before duplicate, update, or end-date evaluation.
+  - Existing payment term and full child state :: Resolve exact current header, line, translation, and discount state for update/end-date; detect duplicate create requests and establish values that must be pres
+  - Billing cycle :: Resolve one supported cycle when balance-forward behavior is requested.
+  - Receivables System Options :: Verify the target setting when discount on partial payment is requested.
+  - Conditional business choices and required header defaults :: For split terms resolve print lead days and tax/freight allocation. For one-line creates apply and disclose First Installment (`INCLUDE`) because the entity fie
+  - Semantic candidate validation :: Independently reconstruct expected rows from the normalized blueprint plus current baseline and require the candidate to match exactly; ZIP/CSV structure alone 
+  - Final local-design confirmation :: After all values resolve, show the complete business preview, translated descriptions, and update deltas, then require the orchestration-owned design confirmati
+  - Batch atomicity :: For 2 through 100 requested operations, require every distinct parent design and dependency to resolve before preview; one failed operation blocks the complete 
+  - Core Data Loader Task Hook :: For an intended import only, after the exact immutable FSM archive is prepared, require a validation envelope bound to its SHA-256 before approval and upload. O
+## pillars/erp/financials/customer-billing/manage-remit-to-addresses
+  - Reference set and access :: Establish chosen existing scope, not a default from another environment
+  - Postal destination :: Validate explicit destination and known matching hazards locally; leave application-owned postal checks pending import
+  - Receipt-from coverage :: Establish criteria domain and exact parent association
+  - Optional flexfields :: Establish deployed context only when requested/applicable
+## pillars/erp/financials/customer-billing/manage-transaction-sources
+  - Reference data set :: Resolve SetCode to the target SetId context during FSM import
+  - Legal entity :: Resolve LegalEntityIdentifier when supplied
+  - Standard transaction type :: Resolve InvTrxTypeSetCode first, then TrxTypeName in that set
+  - AutoInvoice grouping rule :: Resolve GroupName for an Imported source when supplied
+  - Revenue Management source document type :: Resolve DocumentTypeCode when supplied
+  - Credit transaction source :: Resolve CmBatchSrcSetCode first, then BatchSourceName in the second import pass
+## pillars/erp/financials/customer-billing/manage-transaction-types
+  - Parent identity :: Resolve exact SetCode and Name before any child or related-object resolution
+  - Parent reference domains :: Validate reference set, legal entity, application rule set, payment term, and related transaction type when applicable
+  - Child accounting context :: Resolve exact BuName and LedgerName before interpreting any segment combination
+  - Environment-verified choices :: Verify Partial lookup-backed values before serializing them
+  - Data Loader boundary :: Hand only a validated immutable FSM ZIP to core.data-loader
+## pillars/erp/financials/customer-payments/manage-receipt-sources
+  - Exact task artifacts :: Validate the genuine task template and fresh current export where state evidence is required.
+  - Receivables business unit :: Resolve one exact BUName from the single-BU exact-task export when its scope and populated rows agree; otherwise use the documented live LOV.
+  - Existing receipt source :: Require zero exact BUName plus Name matches for create and exactly one for update, end-date, or verify.
+  - Receipt class and method :: Resolve one exact method/class relationship when referenced or required by lockbox use.
+  - Bank account and compatibility :: Resolve the exact BU-associated account and prove its method/date compatibility when a bank is referenced.
+  - DFF deployment :: Resolve context and segment mapping only when the customer requests DFF values.
+  - Runtime route :: Keep import behind Run Book and Core Data Loader preview and approval gates.
+## pillars/erp/financials/expenses/manage-auto-submission-and-matching-options
+  - Exact environment and scope :: Use the latest explicitly selected environment; a supplied BU establishes BU-scoped modify intent. Missing or conflicting scope requires clarification.
+  - Task ownership and code domains :: Close the task-owned row/operation matrix and value contracts before preparing candidate rows.
+  - Business-unit and import context :: Use the source-backed FSM resolution contract only through the governed executor; qualify candidate scope markers.
+  - Runtime readiness :: Require complete registry, candidate validation and Data Loader preview/approval.
+## pillars/erp/financials/expenses/manage-conversion-rates-and-policies
+  - Business unit :: Resolve the exact destination business-unit name in its enterprise context; keep the import hook's BuName to OrgId mapping distinct from a public REST response
+  - Conversion rate type :: Resolve the exact destination UserConversionType and its stored ConversionType mapping
+  - Currency :: For each exception row, verify the exact CurrencyCode and enabled state in the destination
+  - FSM import contract :: Exact C1 parent create and U1 WarningTolerance 5 to 6 to 5 update/reversal observed (`SRC-FSM-EXM-C1-20261001`, `SRC-FSM-EXM-U1-20261001`); later parent/child f
+## pillars/erp/financials/expenses/manage-expense-fields-by-category
+  - Target environment and business unit :: Resolve target environment and business-unit identity; do not require a release value
+  - Category-field contract :: Confirm category, supported fields and value semantics for that target
+## pillars/erp/financials/expenses/manage-expense-report-templates
+## pillars/erp/financials/expenses/manage-expenses-system-options
+  - Validated edit input :: Confirm the requested changes are supported, mapped, and bound to the unchanged workbook
+  - Fresh task baseline :: Confirm the complete export identity, required members, exact rows, and CSV digests
+  - Preserved package and handoff :: Build one package that changes only requested ValueCode values and hand it to core.data-loader unchanged
+## pillars/erp/financials/financial-reporting-structures/manage-account-combinations
+  - Candidate source :: Normalize one supported source into rows that satisfy the 62-position contract.
+  - Chart of accounts :: Derive the COA identity from the candidate, resolve code first and natural-language name only as fallback, then retain the returned structure-instance number fo
+  - Package closure :: Produce or accept only a verified GlBulkComboInterface.zip package with one GlBulkComboInterface.csv root member, preserving the delivered template column order
+  - Import handoff :: Supply the verified package, structure-instance number, and import group to the approved FBDI execution workflow, which loads the interface file and runs Import
+## pillars/erp/financials/financial-reporting-structures/manage-accounting-calendars
+  - Input design :: Validate business calendar definition.
+  - Technical defaults :: Derive internal values before creating CSV artifacts.
+  - Existing calendar :: Check calendar and period-row existence.
+  - FSM metadata :: Confirm package members and columns; apply documented code values and dates.
+  - Import readiness :: Resolve all technical gaps and obtain approval.
+## pillars/erp/financials/financial-reporting-structures/manage-chart-of-accounts-mappings
+  - Environment and privileges :: Confirm environment identity, read access, task privileges, existing authentication path, and the current date used when accounting date is omitted
+  - Source COA :: Resolve exactly one enabled source COA using chartOfAccountsLOV
+  - Target COA :: Resolve exactly one enabled target COA using chartOfAccountsLOV
+  - Mapping header :: Find by requested name using supported evidence and compare the parent and all existing child rules
+  - Segment and value-set metadata :: Resolve only metadata needed by requested rules; use CoaValueSetIdVO and KFFSegmentVO evidence before structure export
+  - Value-set definition and values :: Resolve exact value-set metadata and, when a rule references values, read the returned child-values collection with paging
+  - Hierarchies :: For every parent-based rule, verify hierarchy, effective version, association, flattening, audit, active status, and deployment
+  - Import-route selection :: Use core.data-loader for every live import; select the compatible FSM package contract or a Data Loader-authorized FBDI adapter before package generation
+  - Current FSM task-CSV contract :: For a Data Loader FSM package, export the mapping task and retain task metadata and export-derived CSV headers, including ORA_GL_AFF_MAP_RULE.csv when account r
+  - Current FBDI contract :: Only when a Data Loader-authorized FBDI adapter is available, obtain the current XLSM and derive its required columns, codes, files, and restrictions
+  - Segment and rollup rules :: Validate parent linkage, uniqueness, method rules, values, and hierarchy dependencies
+  - Account rules :: Validate account-rule identity, source criteria, target combination, FSM task-CSV contract, and overlap after segment-rule design
+  - Verification report :: Run the Chart of Accounts Mapping Rules Report or equivalent read-only review
+## pillars/erp/financials/financial-reporting-structures/manage-chart-of-accounts-structure-instances
+  - Existing structure identity :: Confirm the COA structure exists and obtain StructureInstanceId before FSM export
+  - Referenced value-set metadata :: Resolve every inherited or override ValueSetCode and its compatible datatype and MaximumLength before instance package work
+  - Referenced value-set datatype :: When an instance segment default is supplied, resolve its value set and datatype before validating the default-value field
+  - Segment sequences and values :: Resolve every segment sequence and its associated values before Essbase member-ID conflict validation
+  - Complete same-task FSM export :: Export populated CSV data and ASM_SETUP_CSV_METADATA.xml after the absence decision; derive internal codes, CSV columns, XML values, and defaults
+  - Template-only FSM export :: Use only as a supplement when the complete export needs file-shape clarification
+  - Data Loader import path :: Submit the immutable FSM package only through core.data-loader after task validation, preview, and explicit approval
+  - Oracle functional and EDM documentation :: Resolve only documented defaults
+## pillars/erp/financials/financial-reporting-structures/manage-chart-of-accounts-structures
+  - Referenced value-set metadata :: For every requested segment, resolve an explicit ValueSetCode or SegmentCode_VS lookup candidate and verify compatible format and MaximumLength before structure
+  - Chart of Accounts LOV :: Confirm existence and obtain StructureInstanceId before FSM export
+  - Qualified segment-label metadata :: Resolve every assigned label and confirm it is nonglobal and permitted for COA segments
+  - Segment tree metadata :: When a default hierarchy is requested, verify the GL_ACCT_FLEX tree against the verified segment value set
+  - Complete same-task FSM export :: Export populated CSV data and ASM_SETUP_CSV_METADATA.xml after the absence decision; derive internal codes, CSV columns, XML values, and defaults
+  - Template-only FSM export :: Use only as a supplement when the complete export needs file-shape clarification
+  - Data Loader import path :: Submit the immutable FSM package only through core.data-loader after task validation, preview, and explicit approval
+  - Oracle functional and EDM documentation :: Resolve only documented defaults
+## pillars/erp/financials/financial-reporting-structures/manage-chart-of-accounts-value-set-values
+  - Value-set metadata :: Resolve the exact target and its MaximumLength through resolve_value_set
+  - Segment usage context :: Use established Structure Instance context when it proves Natural Account usage; otherwise accept an explicit standalone declaration
+  - Verified FBDI package :: Prepare a values-only 101-column package with no hierarchy member
+  - Data Loader handoff :: Hand the verified package to core/data-loader for preview, approval, import selection, execution, and outcome handling
+## pillars/erp/financials/financial-reporting-structures/manage-chart-of-accounts-value-sets
+  - Read-only value-set metadata :: For every requested COA segment, confirm the explicit ValueSetCode or SegmentCode_VS candidate and compare its target definition before FSM export
+  - Data security object metadata :: When SecurityEnabledFlag is Y, verify that DataSecurityObjectName identifies an existing object with a nonblank object tag
+  - Table-validation metadata :: When ValidationType indicates table validation, verify the supplied table and column metadata before preview
+  - Complete same-task FSM export :: Run only when the value set is absent or an explicitly approved update needs package data; export populated CSV data and ASM_SETUP_CSV_METADATA.xml
+  - Template-only FSM export :: Use only as a supplement when the complete export needs file-shape clarification
+  - Data Loader import path :: Submit the immutable FSM package only through core.data-loader after task validation, preview, and explicit approval
+  - Oracle functional and EDM documentation :: Resolve only documented defaults
+## pillars/erp/financials/fixed-assets/manage-asset-books
+  - Import contract :: Confirm the current CSV headers and structural metadata.
+  - Automatic input recovery :: Reprocess the complete current input set and eligible current-project artifacts before declaring a business requirement missing.
+  - Asset accounting foundation :: Resolve the required ledger, calendar, account, convention, and reference-data dependencies.
+  - Tax relationship :: For a Tax book, resolve the associated Corporate book.
+  - Asset book :: Confirm the existence state and prepare the proposal.
+  - Execution approval :: Use the parent/Data Loader approval for the exact reviewed immutable ZIP and target. Do not request a duplicate approval.
+  - Parent handoff :: After acceptance, report `accepted — pending parent verification`; the Fixed Assets parent owns monitoring and fresh read-back.
+## pillars/erp/financials/fixed-assets/manage-asset-calendars
+  - Fiscal Year :: Reuse a valid user-selected fiscal year unchanged. When no fiscal year is supplied, show every qualifying equivalent, including a sole candidate, and require th
+  - Technical import metadata :: A current same-task FSM export must establish package members, fields, codes, and defaults.
+  - Existing calendar state :: The target calendar and its periods must be compared before creating setup data, using complete BOSS paging or the validated full FSM snapshot path in [Referenc
+## pillars/erp/financials/fixed-assets/manage-asset-categories
+  - Asset system control :: Use `resolve_category_system_control` to establish enterprise identity and obtain the exported `CatStructureInstanceCode`.
+  - CAT# structure :: Use `discover_category_kff_structure` to obtain a new KFF task export for this request and target environment, then resolve one enabled CAT# structure, its deli
+  - CAT# component input :: Use `resolve_category_component_mapping` to map supplied category components to the selected CAT# instance. Validate that every required component has a supplie
+  - Category component values :: Verify every supplied component value exists, is enabled and effective, and has the required dependent-parent mapping in its resolved value set.
+  - Existing category state :: Apply Category Existence Evidence Routes: prefer metadata-grounded BOSS `assetAllSegmentsCategoriesView`, then governed complete export when BOSS evidence is in
+  - Asset book :: Resolve the exact book before authoring category-book or default rows through `resolve_asset_book_for_category`.
+  - Ledger and account chain :: Resolve the selected book ledger, COA, Natural Account segment/value set, and full account combinations before populating an account role.
+  - Book fiscal-year calendar start :: Use `resolve_book_fiscal_year_start` to obtain the selected book fiscal-year calendar's earliest start date before defaulting From Date Placed in Service.
+  - Depreciation setup and reference sets :: Resolve the user-supplied method and conventions first. A valid Common Set definition needs no book assignment check. Only for a non-Common definition, resolve 
+  - Package-format evidence :: After all dependency gates pass, use `resolve_export_package_inventory` for the current same-task package shape and optional-field representation.
+## pillars/erp/financials/fixed-assets/manage-asset-keys
+  - Asset Key System Controls :: Use `resolve_asset_key_system_control` to establish the enterprise identity and obtain its exported AssetStructureInstanceCode.
+  - KEY# structure :: Use `discover_asset_key_kff_structure` to obtain a new KFF task export for this request and target environment, then resolve one enabled KEY# structure, its del
+  - KEY# combination mapping :: Use `resolve_asset_key_kff_combination` to map supplied values to the selected instance and physical Segment1 through Segment10 columns.
+  - KEY# segment values :: Verify every mapped value and required dependent parent through current grouped evidence.
+  - Existing combinations :: Check the current same-environment BOSS `assetKeys` resource for an existing exact combination; when that read fails, use one current same-environment `FA_MANAG
+  - Archive preparation :: After `MAK.ENFORCE_DESIGN` passes, verify the ordered rule-result record, then obtain and inspect the task template/spec package.
+  - Import route :: Use the catalog-supported FSM route through core.data-loader after validation and its approval workflow.
+## pillars/erp/financials/fixed-assets/manage-asset-locations
+  - Asset system control :: Use `resolve_location_system_control` to establish enterprise identity and obtain the exported LocStructureInstanceCode.
+  - LOC# structure :: Use `discover_location_kff_structure` to obtain a new KFF task export for this request and target environment, then resolve one enabled LOC# structure, its deli
+  - LOC# segment input :: Use `resolve_location_kff_combination` to map supplied values to the selected instance and physical Segment1 through Segment7 columns. Validate that every requi
+  - Location DFF definition and input gate :: After fixing immutable batch membership, obtain one new Manage Fixed Assets Descriptive Flexfields export through `core.fusion-api.apps-common.descriptive-flexf
+  - Location KFF segment values :: Verify every supplied segment value exists, is enabled and effective, and has the required dependent parent mapping in its resolved value set.
+  - Parent Asset Location :: Resolve the Asset Location combination and confirm it is enabled before importing a mapping.
+  - Source location :: Resolve the HR Location Code plus HR Set Code only when Customer Site Number is blank. When it is supplied, block because the approved customer-site resolver co
+  - Existing mappings :: Identify existing mapping state by the complete serialized mapping business key from ORA_FA_ASSET_LOCATION_TO_HR_LOCATION_MAPPING.csv. A zero-match result is cr
+  - Archive preparation :: After `MAL.ENFORCE_DESIGN` passes, verify the ordered rule-result record and batch-current DFF-definition evidence, then obtain and inspect the task template/sp
+  - Import route :: Delegate import to core.data-loader; any selected LocationMappings.csv adapter must preserve the supported ADFdi/Rapid Start ADVANCED contract. Do not invoke th
+## pillars/erp/financials/fixed-assets/manage-fiscal-years
+  - Ledger and Fixed Assets start evidence :: Resolve the earliest complete ledger fiscal year when a ledger is supplied, and obtain one clear Oldest DPIS value before applying the Start fiscal year default
+  - Equivalent Fixed Assets fiscal year :: After deriving ledger periods or validating the user-defined fiscal-year cycle and resolving the optional start year from System Controls, always find matching 
+  - Selected fiscal-year action :: Reuse the exact user-selected equivalent fiscal year, or create the user-named new fiscal year, only after all technical values are known.
+## pillars/erp/financials/fixed-assets/manage-fixed-assets-flexfield-value-sets
+  - REST lookup :: Retrieve the requested value sets and values through `core.fusion-api.apps-common.value-sets`; verify filters, pagination, and visibility before comparison.
+  - REST definition metadata :: Resolve one exact case-sensitive `ValueSetCode`, returned child links, and material definition/protection fields; use returned links unchanged and do not constr
+  - Security and table metadata :: Verify required settings from REST metadata and target import schema; unknown required properties block mutation.
+  - Batch comparison :: Compare all requested values locally with complete REST data.
+  - Data Loader import path :: Submit only the validated ZIP through core.data-loader after approval.
+## pillars/erp/financials/fixed-assets/manage-prorate-conventions
+  - Validate prorate data :: Apply [Input Validation](ora_input_validation.md), then the applicable Reference Lookups, Defaulting Rules, and Design Enforcement through the compiled task gra
+  - Explain and correct missing or invalid data, only when needed :: Use the Correction Question Contract in ora_input_validation.md for missing or proven invalid business values. Resume through Conversation State and Resume. If 
+  - Show preview and ask for ZIP approval :: Continue Parent Workflow Continuation with verified data and Business Review Mapping. Ask: Please approve creation of the ZIP package. A reply of approved is su
+  - Create/review the approved ZIP and ask for submission approval :: The parent prepares and validates the ZIP and presents its actual contents. Ask for approval to submit that exact immutable ZIP to the exact target. A reply of 
+  - Submit the approved ZIP and hand off accepted request :: Use Core Data Loader for the exact approved ZIP. After accepted initiation, report `accepted — pending parent verification` and hand off the archive identity, t
+## pillars/erp/financials/fixed-assets/manage-system-controls
+  - Category, Location, and Asset Key Flexfield Structures :: Configure and validate the structures before system controls.
+  - System Controls :: Select the validated structures and set the oldest date placed in service.
+## pillars/erp/financials/general-ledger/assign-balancing-segment-values-to-ledger
+  - Paired validated scoped exports and ledger configuration :: Validate both export request shapes locally, then resolve the exact target ledger and its current balancing-segment metadata, direct-ledger assignments, and leg
+  - Company Value selection or validation :: If no value is supplied, return an eligible-value preview and stop. If a value is supplied, confirm it through the exact ledger value-set LOV, then verify again
+  - FSM package baseline :: Preserve the current task manifest, supported headers, aliases, and unrelated rows; generate the assignment row only after the selected value passes all checks
+## pillars/erp/financials/general-ledger/assign-balancing-segment-values-to-legal-entities
+  - Target identity :: Confirm environment, release, task code, and resolve the exact PRIMARY ledger to its canonical Name and LedgerId
+  - Current task package :: First submit and validate a new populated same-task FSM CSV export filtered by the exact LedgerId; use a current same-task template carrier only after a classif
+  - Existing parent context :: Resolve the exact confirmed legal entity and ledger parent row already present in the accounting configuration; a template carrier alone is not parent or owners
+  - Value metadata :: Derive the ledger's balancing value-set code, then resolve its maximum length and every requested value's enabled and effective state through read-only metadata
+  - Assignment state :: Inspect the current populated task export, or supported current read-only Fusion evidence during a template fallback, for exact existing assignments and cross-t
+  - Package and approval :: Preserve the package graph, apply the smallest supported row delta, validate it, preview it, and obtain checksum-bound approval before import
+  - Submission recovery anchor :: Before the first Data Loader write, bind a unique approval-visible ZIP basename, final checksum, submitter, UTC start time, task code, SourceType FSM, and the c
+## pillars/erp/financials/general-ledger/assign-legal-entities
+  - Primary-ledger REST gate :: Resolve the supplied exact Name or LedgerId and stop unless exactly one ledger exists with LedgerCategoryCode PRIMARY and LedgerTypeCode L
+  - Scoped Assign export acquisition :: After the REST gate passes, use core.fusion-api.rest-api-client to create one GL_ASSIGN_LEGAL_ENTITIES export process. In the request root, SetupTaskCSVExportCr
+  - Scoped package and parent proof :: Require one fresh returned package whose metadata declares the exact task and PRIMARY_LEDGER_ID scope for the resolved LedgerId and whose single GL_LEDGER.csv a
+  - Legal-entity identity and effectivity :: Resolve each exact identifier after scoped export acquisition, derive its current canonical Name, preserve null EffectiveFrom, and validate populated effectivit
+  - Existing scoped assignment state :: Use every direct row from the complete scoped export to detect exact identifier or legacy canonical-name duplicates under the validated primary
+  - Retained-earnings readiness :: From the same scoped export require nonblank RetEarnCcidSegments for the current primary ledger and every associated secondary ledger, including disabled relati
+  - Smallest-delta package readiness :: Add exactly one direct row per mapping in ORA_GL_JOURNAL_CONFIG_DETAIL.csv, keep nullable flags and new-row audit fields blank, preserve every existing value, e
+## pillars/erp/financials/general-ledger/complete-primary-to-secondary-ledger-mapping
+  - Environment and release identity :: Confirm the target environment and current Fusion release before accepting any export
+  - Scoped package :: Acquire a valid current export for this exact task and accounting-configuration scope
+  - Parent relationship :: Resolve the exact primary-to-secondary relationship and its current lifecycle tuple
+  - Structural and rate prerequisites :: Resolve directional COA mapping only when COAs differ and rate type only when currencies differ
+  - Optional conversion prerequisites :: Resolve BSV value-set/value evidence or preserve and hand off custom journal policy only when explicitly selected
+  - Package graph :: Validate all ten CSV members, both 133-column aliases, actual headers, semantic parent keys, and ASM_SETUP_CSV_METADATA.xml before authoring
+## pillars/erp/financials/general-ledger/manage-ledger-sets
+  - Task identity and inputs :: Establish selected environment, setup access, Name/ShortName shape and requested members; use the packaged create contract.
+  - Header and candidate identities :: Resolve the selected structure/calendar/period tuple and each intended member.
+  - Template, scoped structure and conditional state :: Validate the current template and acquire the resolved primary ledger's scoped export through the declared shared export steps. COA export is conditional on a n
+  - Relationship and DFF evidence :: Supply these only when classification or requested flexfield changes require them.
+  - Core execution handoff :: Complete validation of immutable bytes, then use the existing Data Loader approval/execution route.
+## pillars/erp/financials/general-ledger/manage-primary-ledgers
+  - Environment and request identity :: Bind one target environment, Fusion release, project, exact ledger create request, and one immutable task-local run identity before any live lookup or export
+  - Ledger namespace :: Run the complete exact ledgersLOV lookup first. Zero exact matches permits reference resolution; any exact match blocks the request as a duplicate before an exp
+  - Chart of accounts identity :: Resolve exactly one enabled chart of accounts by Name and retain returned Name as ChartOfAccountsName plus StructureInstanceId, StructureInstanceNumber, and Str
+  - Accounting calendar and periods :: Resolve exactly one ACCOUNTING calendar by UserPeriodSetName, map returned PeriodType to AccountedPeriodType, retrieve the complete eligible-period set, and val
+  - Currency :: Resolve exactly one enabled, currently active monetary currency by exact CurrencyCode
+  - Chart-of-accounts semantic roles :: Search the project export inventory for a current same-environment and same-release populated GL_MANAGE_CHARTS_OF_ACCOUNTS_STRUCTURE_INSTANCES export containing
+  - Accounting method :: Apply the controlled Standard Accrual tuple for every new FSCR-created primary ledger. If another method was explicitly requested, retain it only as a post-crea
+  - Manage Primary Ledgers template :: Only after sequences 1 through 7 pass, present the exact environment, GL_MANAGE_PRIMARY_LEDGERS, template-only mode, and purpose; obtain explicit approval immed
+  - Smallest-delta and alias readiness :: Add only the two root rows and one logical PRIMARY row in both 133-column aliases, preserve all other members and metadata, and prove alias parity and true-empt
+  - Preview, approval, import, and verification :: Present an immutable semantic preview, obtain explicit approval for its exact environment and fingerprint, route one import through core.data-loader, monitor it
+## pillars/erp/financials/general-ledger/manage-reporting-currencies
+  - Project and environment identity :: Select the FDOS project and exact nonproduction Fusion environment; record release and task identity without storing credentials.
+  - Source ledger REST gate :: Resolve the exact source name through ledgersLOV before requesting an export; for a primary source require one PRIMARY ledger of type L and retain its validated
+  - Scoped export acquisition :: After the REST gate passes, use core.fusion-api.rest-api-client for exactly one GL_MANAGE_REPORTING_CURRENCIES create request. Serialize the root keys in this e
+  - Current task package proof :: Require the returned package metadata to declare GL_MANAGE_REPORTING_CURRENCIES and the exact numeric PRIMARY_LEDGER_ID scope; preserve its exact members, heade
+  - Source physical template :: For Journal or Subledger, prove the exact source row exists and agrees in both physical aliases; extract FirstLedgerPeriodName, PeriodSetName, and AccountedPeri
+  - First opened period :: For Journal or Subledger, query the complete accountingPeriodsLOV scope with PeriodSetNameId equal to exported PeriodSetName and PeriodType equal to exported Ac
+  - Level readiness :: Prove Balance, Journal, or Subledger eligibility; Subledger requires a method-ready primary source.
+  - Other reference data :: Resolve currency, applicable rate types, account, and any requested journal source and category.
+  - Design atomicity :: Complete missing-rate, initialization, translation, and rule groups without partial values.
+  - Minimum target graph :: Prove exact member, header, row, metadata, generated-value, and header-only expectations before packaging.
+  - Import workflow :: Route the immutable candidate to core.data-loader; its own preview and approval workflow is authoritative.
+  - Post-import evidence :: Obtain and compare a same-task, same-primary-ledger-scope re-export and the final process diagnostics.
+## pillars/erp/financials/general-ledger/manage-secondary-ledgers
+  - Environment and task scope :: Confirm target environment, release, Financials offering, General Ledger functional area, exact source primary, and Manage Secondary Ledgers task scope.
+  - Source package :: Acquire a validated project package, otherwise a fresh direct task export, otherwise a signed-in UI download; block when no authoritative package is available.
+  - Source primary :: Resolve one PRIMARY ledger and reconcile its rows in both 133-column aliases.
+  - Primary options import gate :: For a newly FSCR-created primary, require successful primary creation plus completed and verified primary Specify Ledger Options before any live secondary impor
+  - Reference setup :: Resolve enabled COA identity, derive segment roles from a current populated COA task export, and resolve enabled accounting calendar, period attributes, and act
+  - Conversion dependencies :: Enforce Adjustment Only equality, apply the controlled Standard Accrual tuple for every conversion level, and record later mapping, rate-policy, or alternative-
+  - Package closure :: Preserve all required members, headers, ordering, manifest, header-only files, unrelated rows, and dependency closure.
+## pillars/erp/financials/general-ledger/review-and-submit-accounting-configuration
+  - Environment and project :: Bind every external operation and durable receipt to one exact target and active project
+  - Primary ledger identity :: Resolve one exact PRIMARY ledger and retain its positive LedgerId and ChartOfAccountsId
+  - Filtered options export :: Create only the approved primary-ledger criterion, poll the same ProcessId, and download the current ZIP
+  - Configuration and options :: Select the exact configuration group and prove mandatory ledger options from export values
+  - Runtime LOV identities :: Resolve independent exact ledger, calendar, and COA triples for every populated payload group
+  - Payload and approval :: Assemble the exact envelope and ordered 40 parameters from ora_defaulting_rules.md, validate them, and obtain approval bound to the fingerprint
+  - Original request reconciliation :: On resume or uncertainty, track the same request identity before any new mutation is considered
+## pillars/erp/financials/general-ledger/specify-ledger-options-primary-ledger
+  - Environment and primary identity :: Bind the selected environment and release to one exact PRIMARY ledger, its PrimaryLedgerId, enabled chart StructureInstanceCode, and StructureInstanceNumber
+  - Scoped populated carrier :: Run GL_SPECIFY_LEDGER_OPTIONS as a populated data export scoped by GL_PRIMARY_LEDGER and PRIMARY_LEDGER_ID equal to the resolved PrimaryLedgerId; validate the r
+  - Retained earnings :: Query accountCombinationsLOV directly with _CHART_OF_ACCOUNTS_ID equal to StructureInstanceNumber and no fields projection, map the complete dynamic segment att
+  - Period readiness :: Only for operational or open readiness, retrieve the complete exact period set and resolve the user's chosen FirstLedgerPeriodName
+  - Method policy :: Confirm a newly FSCR-created ledger retains Standard Accrual, resolve the controlled English journal-description-language default to Fusion's exact enabled code
+  - Opt-in families :: For each explicitly requested family, prove required account or external setup; otherwise preserve the baseline and create a named UI handoff
+  - Alias and package readiness :: Confirm the smallest delta updates the same PRIMARY logical row in both 133-column aliases and no other package member
+## pillars/erp/financials/general-ledger/specify-ledger-options-secondary-ledger
+  - Exact secondary and owning primary :: Resolve one exact SECONDARY, then resolve its one authoritative parent PRIMARY from the Manage Secondary Ledgers relationship receipt or package before any opti
+  - Primary-scoped populated carrier :: Run GL_SPECIFY_LEDGER_OPTIONS in populated data mode with GL_PRIMARY_LEDGER and PRIMARY_LEDGER_ID equal to the resolved parent PrimaryLedgerId. Reject template-
+  - Current secondary row :: Reconcile the target SECONDARY row in both 133-column aliases from that scoped export and capture existing, inherited, blank, and service-owned values.
+  - Mandatory option references :: Resolve the exact period; query accountCombinationsLOV using StructureInstanceNumber with no fields projection, map dynamic keys generically, and require an exa
+  - Method and conditional options :: Preserve controlled Standard Accrual, resolve the controlled English journal-description-language default, and establish the required UI handoff for a requested
+  - Smallest symmetric delta :: Update only the owning SECONDARY row in both aliases and preserve all other package content.
+## pillars/erp/financials/legal-structures/manage-legal-addresses
+  - Target task export :: Bind one fresh same-target, same-release, scope-complete address package and exact ASM/header shape
+  - Country territory :: Resolve one enabled non-obsolete territory
+  - Address style layout :: Resolve the complete country layout and require every mandatory component
+  - Optional time zone :: Resolve an exact enabled code only when supplied
+  - Existing legal address and CREATE carriers :: Reuse one exact active natural key or establish zero-match candidacy; set XLE_CREATE_LE and generate a new collision-checked source reference for CREATE
+  - Validation-status disclosure :: Record that layout-complete import can persist N/DIRTY and does not prove geography canonicalization
+## pillars/erp/financials/legal-structures/manage-legal-entity-registrations
+  - Target registration package :: Bind current ASM, registration/function headers, exact unchanged parent row, and zero-row function child
+  - Parent legal entity :: Resolve one exact effective parent and its natural identifier
+  - Jurisdiction and legal address :: Resolve one active compatible jurisdiction and one exact active internal address
+  - Existing registration :: Check exact parent/jurisdiction/number and compare complete definition and identifying state
+  - Authority/function scope :: Require null authority values and zero function candidate rows; enabled code lookup does not reopen scope
+## pillars/erp/financials/legal-structures/manage-legal-entity
+  - Target entity-tree export :: Bind exact current ASM, six CSV members, headers, hierarchy, parent rows, and both function files; preserve existing function rows unchanged and retain header-o
+  - Country and geography :: Resolve one enabled non-obsolete territory and one effective primary country result; no country GeographyId prerequisite
+  - Identifying jurisdiction :: Resolve the user's jurisdiction input, including an explicit candidate choice when needed, and pass exact-name import uniqueness
+  - Legal address :: Resolve one exact active internal natural key or approved earlier package row
+  - Entity existence and optional parent PSU :: Prove identifier availability, disclose name conflicts, and resolve a PSU only when applicable
+  - Complete aggregate :: Require root plus exactly three explicit children with authority null and zero candidate function rows
+## pillars/erp/financials/legal-structures/manage-legal-jurisdictions
+  - Guided reference discovery :: For incomplete creates, display Territory and then all remaining code choices before requesting selections or exporting a template
+  - Geography and lookup codes :: Resolve geography, legislative category, and both registration-code values exactly
+  - Current task export :: Export current FSM metadata and CSV templates only after required selections are complete and before deriving package values; a header-only template plus reusab
+  - Existing jurisdiction :: Check name before create. Check geography/category and identifying impact only with verified canonical mapping; otherwise exclude just those two checks with war
+  - Registration impact :: Before date changes, prove active registrations will not be affected
+  - Legal Functions :: Resolve each optional function to an enabled FunctionCode and create the matching child row, or preserve the header-only child file
+  - Final readiness record :: Reconcile every package member, column, value, source, and unresolved item before central import preview
+## pillars/erp/financials/legal-structures/manage-legal-reporting-unit-registrations
+  - Target registration package :: Bind current ASM, exact unchanged entity/LRU parents, registration header, and zero-row function child
+  - Parent entity and LRU :: Resolve both exact effective parents and prove ownership
+  - Jurisdiction and legal address :: Resolve one active compatible jurisdiction and one exact active internal address
+  - Existing registration :: Check exact LRU definition and sibling-LRU jurisdiction/number collision within entity
+  - Authority/function scope :: Require null authority values and zero function rows; enabled code lookup does not reopen scope
+## pillars/erp/financials/legal-structures/manage-legal-reporting-unit
+  - Parent legal entity :: Resolve one exact effective parent per LRU input; retain each distinct numeric LegalEntityId for export and its LegalEntityIdentifier for CSV linkage
+  - Target LRU package :: Acquire the selected parent set using the ordered scoped payload in ../SKILL.md: TaskCode, SetupTaskCSVExportCriteria, SetupTaskCSVExportProcess. Use XLE_ENTITY
+  - Country geography :: Resolve one enabled territory and one active COUNTRY/MASTER_REF receipt; derive every carrier from it
+  - Optional jurisdiction and address :: Skip both when jurisdiction is null. Otherwise resolve the explicitly supplied jurisdiction and one scoped exported address; require the registration number
+  - Existing LRU and main history :: Check parent-scoped name collision and complete main intervals when Y
+  - Supported package scope :: Emit no registration child for null jurisdiction, or one complete authority-free child for explicit jurisdiction; emit no new function rows and preserve existin
+## pillars/erp/financials/organization-structures
+  - Manage Business Unit :: 1
+  - Manage Business Unit :: 2
+  - Assign Business Unit Business Function :: 1
+  - Assign Business Unit Business Function :: 2
+  - Assign Business Unit Business Function :: 3
+  - Manage Service Provider Relationships :: 1
+  - Manage Service Provider Relationships :: 2
+  - Manage Service Provider Relationships :: 3
+  - Manage Service Provider Relationships :: 4
+  - Manage Business Unit Set Assignment :: 1
+## pillars/erp/financials/payables/manage-invoice-options
+  - Invoice business unit :: Confirm the request provides BuName. For a create, resolve one active exact BU through `finBusinessUnitsLOV`; resolve EnterpriseId from an explicit requester va
+  - Payment terms :: Supply all three required term names independently (`TermName`, `PrepaymentTermName`, and `EmployeeTermName`) and allow the documented FSM import hook to resolv
+  - Terms Date Basis :: Supply `Current` (System date), `Goods Received` (Goods received date), `Invoice` (Invoice date), or `Invoice Received` (Invoice received date). The adapter val
+  - Accounting Date Basis :: Supply `CURRENT` (System date), `GOODS RECEIVED/CURRENT` (Goods received or system date), `GOODS RECEIVED/INVOICE` (Goods received or invoice date), or `INVOICE
+  - Pay Date Basis :: Supply `PayDateBasisLookupCode` with a supported system code. The adapter validates it locally; no REST call is made.
+  - Budget Date Basis :: Supply `BudgetDateBasis`: `ACC` (Accounting date), `INV` (Invoice date), or `SYS` (System date). Fusion validates the submitted code during import.
+  - Controlled page LOVs :: Validate currencies and immutable system values with task-owned rules. Preserve submitted Pay Group codes unchanged for Fusion import validation. Validate Accou
+  - UI-required create controls :: Before candidate generation, require nonblank InvoiceCurrencyCode, PaymentCurrencyCode, PaymentPriority, TermName, and WhenToAccountPmt. The task derives SOBNam
+  - Interest-invoice setup :: When Create Interest Invoices is Y, provide positive InterestToleranceAmount, InterestSegments, and SOBName. Do not perform task-owned interest-account validati
+  - Payment-owned values :: For an Invoice Options setup update, merge the request delta with the baseline and validate every resulting Payment-owned AP_SYSTEM_PARAMETER value through the 
+## pillars/erp/financials/payables/manage-payables-calendars
+  - Parent calendar type :: Establish the AP_OTHER_PERIOD_TYPE calendar identity before supplying related AP_OTHER_PERIOD_PERIOD rows
+  - Child period rows :: Bind AP_OTHER_PERIOD_PERIOD parent-key columns to the exact parent calendar identity
+  - Create lifecycle semantics :: Use the task-specific bounded create allowlist. For period rows, StartDate, EndDate, and PeriodNum are required. DueDate is required for PAYMENT TERMS calendars
+  - Update lifecycle semantics :: Allow bounded exact-key updates, including AttributeCategory and Attribute1 through Attribute15 on both calendar and period rows. Preserve every other value; ch
+## pillars/erp/financials/payables/manage-payment-options
+  - Exact task package :: Confirm the selected task and AP_SYSTEM_PARAMETER package match the same-task exports
+  - Business-unit scope :: Confirm one target business unit without creating or selecting a record implicitly
+  - Shared AP_SYSTEM_PARAMETER contract :: Run the delegated Invoice Options read-only preflight, then load and validate the versioned Manage Invoice Options adapter before candidate preparation
+  - Field evidence :: Resolve any field-specific reference, allowed-value, or lifecycle contract before candidate preparation
+## pillars/erp/financials/payables/manage-payment-terms
+  - Payables calendar :: Run the conditional read-only validation for a supplied Calendar before submission when the endpoint is available
+  - Reference data set :: Run the conditional read-only validation for a supplied SetCode before submission when the endpoint is available
+## pillars/erp/financials/receivables/manage-receivables-system-options
+  - Current task package :: Bind successful same-task metadata/template evidence and the exact current header contract
+  - Business unit and ledger :: Resolve one business unit and one ledger; retain the ledger chart-of-accounts receipt
+  - Reference-data sets and organizations :: Resolve any set code, item-validation organization, and activity business units needed by populated fields
+  - Rules, methods, sources, types, activities, and accounts :: Resolve every applicable alternate key exactly once in dependency order
+  - Conditional business rules :: Prove the applicable Billing and Revenue/Cash Processing sets and source-backed design gates
+  - FSM preview :: Hand the complete package candidate to Data Loader for immutable preview; no mutation occurs in this resource layer
+## pillars/erp/project-financial-management/project-control/manage-project-plan-types
+  - Task-flow context :: Establish PROJECT_PLAN and PLAN_TYPE for this task, then resolve parent planning amounts and the distinct child PlannedForCode before conditional controls.
+  - Eligible plan type :: Confirm the selected plan type is not seed data and is not attached where the source makes its controls read-only.
+  - Applicable reference values :: Resolve static choices through their local canonical tables. Resolve calendar before period profile, business unit and rates set before planning schedules, and 
+  - Task-level FSM route :: Authenticate, obtain and persist an export ProcessId, wait for completion, validate the returned ZIP, and retain its package schema through preview, approval, s
+## pillars/erp/project-financial-management/project-foundation/manage-planning-and-billing-resource-breakdown-structures
+  - Target and task baseline :: Identify the exact environment/task and obtain a complete same-target seven-member CSV export
+  - New-name and project-unit context :: Check the new RBS Name in the export; obtain Project Unit CSV context without deciding Project Unit eligibility
+  - Observed formats and references :: Use only the tested format map; resolve Job Set, Job and person codes when needed, and obtain Organization CSV context for an actual row
+  - Tested tree :: Add the explicit Resource Class defaults and the proven Job parent for a Job: Expenditure Category row
+  - Consolidated package :: Validate all rows, complete CSV members, immutable ZIP and checksum before Data Loader preview
+## pillars/erp/project-financial-management/project-foundation/manage-project-roles
+  - Scope/baseline :: Exact target and fresh synchronized role export
+  - Seeded/reference state :: Custom role and current enterprise role resolve
+  - Implementation/children/use :: Qualifications allowed and semantic removals safe
+  - Package/preflight :: Exact package ready for loader Task Hook validation; loader approval follows validation
+## pillars/erp/project-financial-management/project-foundation/manage-project-statuses
+  - Scope/baseline :: Resolve target/task and current identity coverage, including seed exclusions
+  - Capabilities/defaults :: Check separate create/edit permissions; resolve create controls under the selected policy or inherited progress weight
+  - Lifecycle/workflow/use :: Resolve supplied requested targets; distinguish missing required targets from deferred downstream checks
+  - Package/approval :: Verify native template, proposed field/child diff, loader semantics and approved immutable checksum
+## pillars/erp/project-financial-management/project-foundation/manage-project-templates
+  - Scope/baseline :: Exact target, identity, and full current requested-surface baseline
+  - Prepared request completeness :: After documented defaults and reference resolution, verify one supported representation for each actual required value; request only values still unresolved. Se
+  - Child operations :: Each requested documented child family/action, schema, operation-specific runtime overlay, and local payload preflight resolves; returned URIs are required only
+  - Use/route/approval :: Consumer impact, complete route, immutable preview, and approval pass
+## pillars/erp/project-financial-management/project-foundation/manage-project-types
+  - Scope/baseline :: Exact target and fresh Project Type export
+  - Set/use state :: Set code supplied/resolved; use-state checked when available or explicitly deferred
+  - Conditional references :: Known constraints checked; dynamic references validated or explicitly deferred
+  - Package/approval :: Exact package and immutable approved preview
+## pillars/erp/project-financial-management/project-foundation/manage-rate-schedules
+  - Scope/baseline :: Exact target and complete scoped baseline; an empty create baseline is valid, not missing template data
+  - Route/references :: Require complete write route for execution; complete supported reference checks and retain nonblocking authority/parity warnings
+  - Intervals/use :: Line keys/precedence and protected-use state validate
+  - Preview/approval :: Route-specific immutable preview is approved
+## pillars/erp/project-financial-management/project-foundation/manage-work-types
+  - Scope/baseline :: Exact target and full current work-type export
+  - Sets/children :: Complete supported set/language checks; carry missing DFF or eligibility authority as nonblocking warnings without claiming full validation
+  - Profile/use :: Required consumer-impact handoff satisfies resolve_work_type_use before affected existing-identity changes proceed; absent source route or evidence stops the wo
+  - Package/approval :: Exact final immutable archive and verified Data Loader preflight; Task Hook validation completes before the loader's preview/approval gate; approval is required
+## pillars/erp/project-financial-management/project-organizations/configure-project-accounting-business-function
+  - Scope and enabled BU :: Exact target and one active Project Accounting BU
+  - Applicable financial context :: Ledger, legal entity, currency, and accounting calendar ready only for implementation-row creation or a financial-dependent group change
+  - Current baseline/features :: Fresh task export and target opt-ins resolved
+  - Changed-group references :: Hierarchy, calendar, costing, relationships, and cross-charge dependencies pass
+  - Package and approval :: Exact package, immutable preview/checksum, explicit approval
+## pillars/erp/project-financial-management/project-organizations/manage-organization-hierarchies-and-classifications
+  - Authorized target access :: Confirm the operator can review, maintain, export, import, and verify the selected route
+  - Approved enterprise hierarchy design :: Confirm the hierarchy type, selected classifications, impact, deployment window, and rollback expectation
+  - Current target baseline :: Reconcile hierarchy type, selected classifications, and applicable default hierarchy
+  - Static valid values :: Resolve hierarchy-type and classification inputs to valid values
+  - Conditional default hierarchy :: Resolve tree, active tree version, and starting organization for organization or department hierarchy
+  - Business-unit impact :: Identify whether a hierarchy change affects existing business-unit implementation rows and requires follow-up
+  - Exact FSM package contract :: Obtain and validate the target-pod template, metadata, headers, translations, and process behavior before import
+## pillars/erp/project-financial-management/project-organizations/manage-project-organization-classifications
+  - Existing identity/state :: Complete governed REST identity and independent PTO/PEO existence before additions/defaults
+  - Existing update identity only :: Legacy single request: existing PTO with supplied permissions; bulk: also require update_existing_pto_permissions=true; no permission-value export
+  - Owner/schema/mappings :: Verify original update keys and metadata; persist keys only for new components
+  - Submission :: Immutable delta, approval, one core HDL initiation and registered acceptance binding; return In Progress without monitoring
+  - Requested status/verification :: A later explicit request resumes saved bindings; requested readback follows terminal success only; preserve partial results and separate maintenance handoff
+## pillars/erp/project-financial-management/project-organizations/manage-project-unit-options
+  - Project Organizations setup scope :: Task codes and target environment must be explicit
+  - Classified project unit :: The organization hierarchy/classification setup must expose one project unit
+  - Related business-unit additions :: Preserve the exact requested names for Fusion FSM import validation; removals need usage/deletability evidence
+  - Reference data set :: Use resolve_reference_set to resolve the default set against the completed current-target REST collection
+  - Numbering feature and determinant :: Current feature ownership and determinant state must be known before numbering defaults or changes
+  - Reporting-options row :: The project unit must have exactly one complete `PJF_REPORTING_SETUP` row; a missing row requires a customer-approved same-task correction
+  - Fresh export and package template :: Same-task option state and exact import contracts must be current and target-validated
+## pillars/erp/project-financial-management/project-organizations/manage-project-unit-organizations
+  - Project target and catalog :: Verify the exact target, task, loader mode, client route, privileges, metadata, and artifact destination before live lookups
+  - Organization routing evidence :: Search the exact requested name, resolve ambiguity, and derive the action; stop when already a Project Unit
+  - Existing classification label :: For USE_EXISTING_ORGANIZATION, resolve the exact selected returned ClassificationCode through organizationClassificationsLOV before generation
+  - Parent linkage and package :: Bind exact names, classification, dates, component order, and immutable archive checksum
+  - Data Loader terminal outcome :: Return In Progress immediately after accepted initiation; only a later explicit status request may check the same request ID through core.data-loader; nontermin
+  - Post-load state :: Only after terminal load success, verify the active classification and sequence-1 Project Unit Code EFF row before task completion
+## pillars/erp/project-financial-management/project-organizations/submit-process-to-maintain-project-organizations
+  - Task execution context :: Select project, configured target and ESS scheduling/monitoring privilege
+  - Durable receipt :: Allocate unused task-local output paths
+  - Execution mode :: Resume supplied request ID or prepare fixed payload
+  - Approval :: For submission, show exact target and payload and obtain explicit approval
+## pillars/scm/manufacturing-and-supply-chain-materials-management/advanced-inventory-management/inventory-task-configurations
+  - Default-zone route selection :: Resolve zero or one default zone for the selected OrganizationId. Create proceeds only with zero; Update proceeds only with one. REST Data Loader only.
+  - Parent and child artifact :: Prepare one parent-root XLSX containing the parent row and its activityUsages rows.
+  - Child relationship contract :: Use the published ParentUserKeys OrganizationName,ZoneName contract; ZoneId is resolved internally by the BO.
+  - Activity usage preparation :: Translate all five UI sections into `PICK`, `CC`, `PC`, `PAR`, and `DEL` child rows. Populate `TasksEnabled`, the canonical grouping level, the operation-specif
+## pillars/scm/manufacturing-and-supply-chain-materials-management/cost-accounting/cost-component-mappings
+  - Accessible set :: Confirm that the mapping group SetName is a set the user can manage
+  - Resolved workbook values :: Resolve parent, source, destination, display, type, and flag values before creating the workbook; use the required SetId and RestAction from the generated templ
+  - Mapping group and children :: For a master-details create, prepare the parent and all requested child mappings in one validated workbook using the parent surrogate keys; for a child-only cha
+  - Component-code mappings :: Validate predefined and landed cost component mappings against the parent set and link them to a new parent through `ComponentGroupCode` and `SetName`, or to an
+  - Cost-element mappings :: Validate source-to-destination cost element mappings and link them through the same new-parent surrogate keys, or to an existing parent by ComponentGroupId
+  - ComponentSource-error fallback :: After the documented ComponentSource-missing dataset failure is reconciled, prepare a fresh parent-update package, a predefined-component child package, and a c
+## pillars/scm/manufacturing-and-supply-chain-materials-management/cost-accounting/cost-elements
+  - Cost Element Type :: Resolve one eligible CST_COST_ELEMENT_TYPES lookup meaning to LookupCode.
+  - Cost Element Set :: Resolve one existing Cost Element Set name to SetId.
+  - Inventory Organization :: Resolve one existing organization only when the selected type is Profit In Inventory.
+  - Common Cost Element Set :: Confirm the resolved Cost Element Set is Common when the selected type is Profit In Inventory.
+  - Cost Analysis Group and Analysis Code :: Ensure both already exist before associating them to a Cost Element.
+  - Existing Analysis Group mapping :: Resolve exactly one nested child mapping before removing it from an existing Cost Element.
+## pillars/scm/manufacturing-and-supply-chain-materials-management/cost-accounting/cost-organization-relationships
+  - Cost Organization :: Define the Cost Organization before associating inventory organizations or cost books.
+  - Item Validation Organization :: Select an item master organization in the same legal entity as the Cost Organization.
+  - Legal Entity :: Resolve the shared Legal Entity name from the matching Cost Organization and Item Validation Organization LegalEntityId values.
+  - Set Assignment :: Resolve the Set and use its SetId as SetAssignmentId.
+  - Cost Books :: Resolve the Cost Book and use its CostBookId as CostBookIdentifier.
+  - Ledger :: Resolve the Ledger, its category, currency, and accounting-calendar name when the new association is ledger-backed.
+  - Accounting Calendar :: Resolve the accounting-calendar identity and period metadata from the Ledger PeriodSetName or another exact calendar identifier.
+  - Existing Primary Cost Book :: For a ledger-less association, read the Cost Organization's existing Cost Books and confirm one is primary before continuing.
+  - Inventory Organizations :: Confirm each inventory organization has a Profit Center Business Unit, shares the Cost Organization legal entity and item master organization, and is not alread
+  - Cost Books and Ledgers :: Associate at least one Cost Book with the primary ledger of the Cost Organization legal entity; add secondary, reporting, or ledger-less books only as needed.
+  - Subledger Application Options :: Run Update Subledger Application Options if the required ledger is not available for cost-book association.
+## pillars/scm/manufacturing-and-supply-chain-materials-management/cost-accounting/cost-organizations
+  - Existing organization :: When CopyExistingOrgFlag is true, resolve the exact existing organization before deriving its classification and effective start date.
+  - Legal entity :: Define the legal entity before creating the cost organization.
+## pillars/scm/manufacturing-and-supply-chain-materials-management/cost-accounting/default-cost-profiles
+  - Cost organization :: Resolve the specified cost organization before resolving a cost book or a type-specific cost profile.
+  - Cost book :: Resolve a cost book only when a cost-book assignment is selected.
+  - Item category :: Resolve an item category only when a category assignment is selected.
+  - Cost profiles :: Resolve each supplied type-specific cost profile using the resolved cost organization.
+## pillars/scm/manufacturing-and-supply-chain-materials-management/cost-accounting/item-cost-profiles
+  - Cost Organization :: Validate one exact Cost Organization Name and map its returned `CostOrganizationId` before validating the Cost Book, Item, and Cost Profiles.
+  - Cost Book :: Validate one exact non-Periodic Average Cost Book Code for the selected Cost Organization.
+  - Item :: Validate one exact Costing Enabled Item Number for the selected Cost Organization.
+  - Cost Profiles :: Resolve each supplied profile type to its respective CostProfileId; the Cost Organization set and Common set are the eligible profile sources.
+## pillars/scm/manufacturing-and-supply-chain-materials-management/cost-accounting/overhead-expense-pools
+  - Expense pool type :: For Create, DELETE with a supplied ExpensePoolTypeCode, or a PATCH that supplies ExpensePoolTypeCode, retrieve the fixed expense-pool lookup type and resolve on
+  - Reference data set :: For Create or DELETE with a supplied SetName, use the verified case-insensitive SetName candidate query and resolve its returned SetId after local normalized ve
+  - Existing delete target :: For DELETE, resolve exactly one current Expense Pool from ExpensePoolCode and any resolved optional qualifiers in the approved task-export baseline.
+  - Payload readiness :: For Create, construct the final payload only after both dependency resolutions succeed. For DELETE, use only the verified ExpensePoolCode and generated RestActi
+## pillars/scm/manufacturing-and-supply-chain-materials-management/inventory-management/configure-barcode-formats
+  - Data Loader business object metadata :: Complete a read-only per-run metadata preflight for inventoryBarcodeFormats in the selected environment before Data Loader preparation.
+## pillars/scm/manufacturing-and-supply-chain-materials-management/inventory-management/configure-item-shortage-parameters
+  - Context defaulting and input route mapping :: Apply the approved RuleType context mapping and Module default; retain catalog/category values as project inputs
+  - Catalog and category resolution :: Resolve catalog to CatalogId, then resolve category within that CatalogId to CategoryId; stage Context1 and DefaultValue respectively
+  - Default Period resolution :: For the three approved period RuleTypes, resolve a supplied period meaning or code through its context-specific standard lookup
+  - Data Loader metadata preflight :: For every run, verify ruleConfigurationHeaders metadata in the selected environment before handing data to core.data-loader
+  - Governed execution handoff :: Pass only preflight-ready data to core.data-loader; Fusion remains the system of execution
+## pillars/scm/manufacturing-and-supply-chain-materials-management/inventory-management/configure-item-transaction-defaults
+  - Default Type resolution :: Resolve a supplied DefaultType or DefaultTypeMeaning to a standard-lookup Meaning before Data Loader preparation
+  - Data Loader metadata visibility :: Use the registered Item Transaction Defaults business object for execution planning
+## pillars/scm/manufacturing-and-supply-chain-materials-management/inventory-management/configure-rfid-integrations-and-devices
+  - Data Loader BO metadata :: Run a fresh selected-environment metadata preflight before every load
+  - Input resolution :: Resolve approved Device Type and standard lookup values before Data Loader handoff
+## pillars/scm/manufacturing-and-supply-chain-materials-management/inventory-management/configure-subinventories
+  - Object-level route selection :: Classify every requested row before artifact preparation. Locators require FSM; the three registered business objects default to REST and may use explicitly sel
+  - Registered business objects :: Preserve the approved REST execution order: subinventories, subinventoryItems, locatorItems.
+  - Data Loader metadata visibility :: Confirm live metadata visibility only for each registered business object selected for the REST route.
+  - FSM locator template :: For locator rows, reuse a verified project-local empty template-only export or obtain a replacement with `--template-only` only when required. Never use a curre
+  - FSM locator package :: Add only the requested locator rows to the verified empty template, retain the parent subinventory identity, and do not create a REST business-object source.
+  - Subinventory Header values :: Resolve any supplied header display values before their values are handed to the selected import route.
+  - Locator structure normalization :: When a Locator Structure value is supplied, resolve it to one enabled canonical code/name pair. Use `StructureInstanceName` for REST Subinventories and `Structu
+  - Locator values :: Resolve any supplied locator display values in the selected subinventory context.
+  - Subinventory Item Association values :: Resolve any supplied item-association display values in the selected organization and item context.
+  - Locator Item values :: Resolve any supplied locator-item display values after the applicable subinventory and CountMethod context is available.
+  - Import handoff :: Hand off only when all applicable route, template, artifact, and lookup dependencies are satisfied.
+## pillars/scm/manufacturing-and-supply-chain-materials-management/inventory-management/interorganization-parameters
+  - Data Loader business object metadata :: Complete a read-only per-run metadata preflight for interOrganizationParameters in the selected environment before Data Loader preparation
+## pillars/scm/manufacturing-and-supply-chain-materials-management/inventory-management/intersubinventory-parameters
+  - Data Loader business-object metadata :: Complete a read-only current-run preflight for exact BO discriminator `interSubinventoryParameters` in the selected environment; confirm visibility, sample supp
+  - BO-owned organization and subinventory references :: Leave organization and subinventory resolution to the registered BO and Data Loader; do not invoke a task-local REST resolver
+  - Approved standard lookups :: Resolve only Destination Type, Transfer Type, and Receipt Routing when their documented code or meaning field is supplied
+## pillars/scm/manufacturing-and-supply-chain-materials-management/inventory-management/inventory-abc-analysis
+  - abcClasses :: Verify visibility in the selected environment, then prepare ABC Classes when the request includes them
+  - abcClassifications :: Verify visibility in the selected environment, then prepare ABC Classifications after their required class context is available
+  - abcAssignmentGroups :: Verify visibility in the selected environment, then prepare ABC Assignment Groups after their required class and classification context is available
+## pillars/scm/manufacturing-and-supply-chain-materials-management/inventory-management/inventory-business-event-configurations
+  - Business unit and inventory organization foundation setup :: Ensure the business unit and the inventory organization referenced by the configuration row already exist in Fusion setup data.
+  - Inventory business event configuration :: Configure the event only for an inventory organization that is established under the required business-unit foundation.
+## pillars/scm/manufacturing-and-supply-chain-materials-management/inventory-management/inventory-transaction-reasons
+  - Reason Type :: Resolve or validate a supplied Type before a Context can be used
+  - Reason Context :: When supplied, resolve one Context only after ReasonType equals 1
+  - Data Loader metadata visibility :: Confirm the successful live-metadata sample generation for inventoryTransactionReasonsV2 before execution planning
+## pillars/scm/manufacturing-and-supply-chain-materials-management/inventory-management/inventory-transaction-sources-and-types
+  - Existing transaction source ID :: If child transaction types are requested for an existing source by name, resolve TransactionSourceTypeId before Transaction Action lookup
+  - Transaction Action ID :: If a Transaction Action display value is supplied, resolve it to exactly one TransactionActionId before Data Loader handoff
+  - Value Set context :: If a Value Set is supplied, resolve it to exactly one DescriptiveFlexContext before Data Loader handoff
+## pillars/scm/manufacturing-and-supply-chain-materials-management/inventory-management/lot-and-serial-attribute-mappings
+  - Organization mapping and radio normalization :: Apply the approved OrganizationCode/OrganizationId mapping and normalize supplied Attribute Mapping Details and Level values when present.
+  - Registered Data Loader business object :: Use Inventory Descriptive Flexfield Context Mappings as the governed execution route.
+  - Data Loader metadata visibility :: Confirm the configured target environment exposes the registered business object before execution planning.
+## pillars/scm/manufacturing-and-supply-chain-materials-management/inventory-management/lot-expiration-actions
+  - Active checkbox normalization :: Normalize a supplied UI checkbox representation when present.
+  - Registered Data Loader business object :: Use `inventoryLotExpirationActions` as the governed execution route.
+  - Data Loader metadata visibility :: Confirm the configured environment exposes the registered BO before execution planning.
+## pillars/scm/manufacturing-and-supply-chain-materials-management/inventory-management/lot-grades
+  - Active checkbox normalization :: Normalize a supplied UI checkbox representation when present
+  - Registered Data Loader business object :: Confirm Inventory Lot Grades is the governed execution route
+  - Data Loader metadata visibility :: Confirm the configured environment exposes Inventory Lot Grades before execution planning
+## pillars/scm/manufacturing-and-supply-chain-materials-management/inventory-management/material-statuses
+  - Input normalization :: Normalize supplied friendly 1/2 values before Data Loader preparation
+  - Data Loader metadata visibility :: Use the verified inventoryMaterialStatuses metadata contract before execution planning
+## pillars/scm/manufacturing-and-supply-chain-materials-management/inventory-management/pick-slip-grouping-rules
+  - Local normalization :: Normalize only supplied grouping flags, catalog code, and unambiguous dates.
+  - Clarification :: Resolve missing-year or ambiguous supplied dates without guessing.
+  - Core handoff :: Hand the normalized source to `core.data-loader`; that workflow owns current metadata verification, immutable artifact preparation, approval, and submission.
+## pillars/scm/manufacturing-and-supply-chain-materials-management/inventory-management/picking-rule-assignments
+  - Existing Picking Rule :: Supply a globally unique Picking Rule name that the BO can resolve to `PickingRuleId`.
+  - BO-owned foreign-key resolution :: The target-environment registered BO must resolve approved friendly values to the corresponding REST fields before Data Loader execution.
+  - Standard-lookup readiness :: Resolve any supplied Item Type, Date Type, and Transaction Action input through the approved read-only lookups.
+  - Data Loader metadata visibility :: Confirm that `inventoryPickingRuleAssignments` is published and visible to Data Loader before import preparation.
+  - FSM assignment baseline, when applicable :: When an FSM criterion package is selected, obtain a current Picking Rule Assignments export containing the required metadata, parent carrier, and criterion memb
+## pillars/scm/manufacturing-and-supply-chain-materials-management/inventory-management/picking-rules
+  - Registered Data Loader business object :: Confirm inventoryPickingRules remains the governed execution route
+  - Supplied boolean flags :: Normalize supplied checkbox representations and trimmed case-insensitive `Y` or `N` literals locally without REST verification
+  - Priority lookup :: For REST only, resolve any supplied priority display Meaning to LookupCode. FSM preserves supplied priority values unchanged.
+  - Data Loader metadata visibility :: Confirm the configured environment exposes inventoryPickingRules before execution planning
+## pillars/scm/manufacturing-and-supply-chain-materials-management/inventory-management/policy-profiles
+  - Policy Profiles Data Loader metadata :: Run the current-environment metadata preflight for registered business object minMaxPolicyProfiles before preparing a Policy Profiles Data Loader operation.
+## pillars/scm/manufacturing-and-supply-chain-materials-management/inventory-management/units-of-measure-usages
+  - Registered Data Loader business object :: Confirm unitOfMeasureUsages remains the governed execution route.
+  - Data Loader metadata visibility :: Confirm the selected environment exposes unitOfMeasureUsages before execution planning.
+  - Core Data Loader handoff :: Hand the validated setup data to core.data-loader for its normal validation, preview, approval, and import workflow.
+## pillars/scm/manufacturing-and-supply-chain-materials-management/landed-cost-management/landed-cost-charges
+  - Procurement BU Set :: Resolve one selected costing set to SetId.
+  - Charge Currency and Conversion Type :: Resolve one currency and one conversion type.
+  - Charge and Allocation Basis :: Resolve one charge basis and one allocation basis.
+  - Conditional UOMs :: Resolve a Charge Basis UOM only for PER_UNIT and an Allocation Basis UOM only when applicable.
+  - Optional child selections :: Resolve selected child values, then serialize their rows after the primary section in the same archive for a new charge.
+  - Existing analysis association :: Resolve the exact ChargeAnalysisCodeId before removing an existing association.
+## pillars/scm/manufacturing-and-supply-chain-materials-management/landed-cost-management/landed-cost-reference-types
+  - Inactive flag default and conversion :: Default an omitted InactiveFlag to false, then convert true to Y and false to N.
+  - Reference data set resolution :: Use SetId when supplied; otherwise resolve SetId from exactly one supplied SetCode or SetName.
+  - Reference data type resolution :: Use DataType when supplied; otherwise resolve DataType from exactly one supplied DataType meaning.
+  - Existing reference type resolution :: For an update or delete, use ChargeReferenceTypeId when supplied; otherwise resolve it from exactly one supplied Code or Name.
+  - Data Loader execution contract :: Use core.data-loader with the registered landedCostReferenceTypes top business object and validate the source fields against its generated sample.
+## pillars/scm/manufacturing-and-supply-chain-materials-management/landed-cost-management/landed-cost-routes
+  - RouteId resolution when required :: For a delete or other operation requiring RouteId, resolve the unique RouteId from the user-provided RouteCode through the documented read-only lookup.
+  - Data Loader execution contract :: Use core.data-loader with the published landedCostRoutes top business object. For create, use RestAction POST and the RouteCode, RouteName, RouteDescription, an
+## pillars/scm/manufacturing-and-supply-chain-materials-management/maintenance-management/manage-asset-maintenance-parameters
+  - Run Book scope :: The active Run Book must include the published assetSystemOptions Data Loader REST business object before Data Loader preview or submission.
+  - Generated or supplied source :: Before the Task Hook and preview, core.data-loader must have created a live-schema update XLSX sample or validated the supplied source artifact.
+## pillars/scm/manufacturing-and-supply-chain-materials-management/maintenance-management/manage-maintenance-organization-relationships
+  - Organization eligibility :: The contextual organization must be maintenance-enabled; relationship-type constraints must be satisfied.
+  - Work-order prerequisites :: Before creating work orders in a related organization, inventory organization access and the asset source item enabled in that organization must be available.
+  - Maintenance-program prerequisites :: For cross-organization maintenance-program work orders, work definitions must be duplicated across organizations with a common work definition code.
+  - Data Loader source :: Before the Task Hook and preview, core.data-loader must have generated a live-schema sample or validated the supplied setup-data artifact.
+## pillars/scm/manufacturing-and-supply-chain-materials-management/manufacturing-master-data/manage-data-security-controls-for-manufacturing
+  - Validated Data Loader REST artifact :: Prepare an immutable XLSX and validated ZIP for workDefinitionDataSecurityObjects through core.data-loader.
+## pillars/scm/manufacturing-and-supply-chain-materials-management/manufacturing-master-data/manufacturing-and-maintenance-work-order-statuses
+  - Registered Data Loader object :: Confirm workOrderStatuses and the requested REST operation through read-only Core Data Loader metadata.
+  - Existing status identity :: Resolve the selected status for update, deactivation, or deletion.
+  - Status uniqueness and system status :: Confirm unique code and name as applicable, and validate the requested system-status lookup code.
+  - Deletion eligibility :: Confirm the status is user-defined and not referenced by work order headers or history.
+## pillars/scm/manufacturing-and-supply-chain-materials-management/manufacturing-master-data/manufacturing-resource-instances
+  - Parent resource :: Resolve the exact active productionResources parent and its ResourceType from ResourceId or from the ResourceCode and OrganizationCode pair.
+  - Child route :: Retain productionResources as the registered Data Loader business object; select and populate only EquipmentInstance for EQUIPMENT or only LaborInstance for LAB
+  - Labor person derivation :: When PartyId and RegistryId are absent, derive PartyId from one exact laborResourceInstancesLOV PartyName match.
+  - Child-specific prerequisites :: Validate a supplied primary work center and the applicable asset or person association.
+  - Child payload contract :: Validate the selected child payload against live Data Loader metadata.
+  - Import approval :: Obtain approval for the immutable Core Data Loader artifact before live import.
+## pillars/scm/manufacturing-and-supply-chain-materials-management/manufacturing-master-data/manufacturing-resources
+  - Plant organization access :: The authenticated user must have access to the resource organization before a create or program-file association.
+  - Resource prerequisites :: The organization, resource type, UOM, and resource identity must pass validation before a resource is created or updated.
+  - Instance prerequisites :: The parent resource must be active and of the matching type before a labor or equipment instance is changed.
+  - Association prerequisites :: A primary work center must be assigned to the parent resource; an equipment asset must satisfy the documented plant and work-center eligibility rules.
+  - Automation prerequisites :: Robotics must be enabled and the parent equipment resource must have AutomationEquipmentFlag set before associating a program file.
+## pillars/scm/manufacturing-and-supply-chain-materials-management/manufacturing-master-data/manufacturing-work-areas
+  - Existing inventory organization :: Confirm that the target organization exists through `verify_inventory_organization` before creating or updating a work area.
+  - Validated FSM source :: Validate the source through core.data-loader before any import approval.
+## pillars/scm/manufacturing-and-supply-chain-materials-management/manufacturing-master-data/manufacturing-work-centers
+  - Work-center branch :: For create, resolve the active Work Areas row from OrganizationCode and business-supplied WorkAreaCode, retain its WorkAreaId and WorkAreaName with the code in 
+  - Calendar-association branch :: Resolve the existing association state and schedule-override flag only for calendar_association.
+  - Calendar-resource branch :: Resolve route and parent organization; for a new WorkCenterResource association, accept a supplied numeric ResourceId or resolve a supplied ResourceName through
+  - Staged resource-shift completion :: When the original outcome includes a resource-shift assignment, treat calendar association and availability conversion sources as intermediate state-establishin
+  - Final resource-shift source :: For a declared final assignment, let input validation confirm that the exact preflight source contains the route-specific matching child record before approval.
+  - Immutable Data Loader artifact :: Confirm the core.data-loader validation result and exact artifact identity for artifact_review; core.data-loader separately enforces this prerequisite before ev
+## pillars/scm/manufacturing-and-supply-chain-materials-management/manufacturing-master-data/manufacturing-work-order-groups
+  - Feature and access :: The no-enablement feature is available and the actor has the required Manage or View Work Order Groups privilege for the selected operation.
+  - Registered Data Loader object :: Confirm workOrderGroups and the requested REST operation through read-only Core Data Loader metadata.
+  - Group organization and source :: Resolve the group organization and valid source before creating or assigning work orders.
+  - Work order eligibility :: Resolve the selected work order, its status, work method, organization, and existing assignment before adding it to a group.
+  - Delete readiness :: Remove every child assignment before requesting deletion of the parent group.
+## pillars/scm/manufacturing-and-supply-chain-materials-management/manufacturing-master-data/workstations
+  - Validated Workstations input :: Validate available Workstations fields before any package preparation.
+  - Fresh live Workstations template :: Fetch a new `ORA_WIS_WORKSTATIONS` template from the target Fusion environment.
+  - Prepared FSM ZIP :: Change only the newly fetched template's documented data files and preserve its required layout.
+  - Package validation :: Validate ZIP contents, filenames, directory structure, and manifest requirements.
+  - Explicit approval :: Obtain explicit approval for the exact validated package before a Fusion import.
+## pillars/scm/manufacturing-and-supply-chain-materials-management/product-recall-management/manage-product-recall-parameters
+  - Product Recall Management access :: The executor has the Manage Product Recall Parameters privilege and Data Loader can describe the selected business objects.
+  - Referenced setup identities :: Validate lookup codes through genericLookupsLOV; inventory organizations through the describe-backed `inventoryOrganizations` resource; subinventories through a
+  - Product recall lookups :: Containment action codes are configured before a true BypassTaskFlag is used, where the configured business process requires them.
+  - Immutable preview and approval :: The Data Loader preview exists and the user explicitly approves its exact target, operations, and payload artifact.
+## pillars/scm/manufacturing-and-supply-chain-materials-management/shipping/pick-wave-release-rules
+  - Processing-option combinations :: Normalize the checkbox flags before evaluating dependent controls.
+  - Approved display-value lookups :: Resolve any supplied Release Status, Destination Type, Order Type, or Shipment Priority display value to its backend code before evaluating dependent controls.
+  - Shipment options :: Evaluate the UI-only flag dependencies before preview.
+## pillars/scm/manufacturing-and-supply-chain-materials-management/shipping/release-sequence-rules
+  - Priority type lookup contract :: Verify the complete read-only Fusion endpoint and response mapping before resolving a friendly priority value
+  - Sort lookup contract :: Verify the complete read-only Fusion endpoint and response mapping before resolving a friendly sort value
+  - sequenceDFF schema and context :: Preserve blank FSM DFF/attribute columns when no DFF value is supplied; obtain a fresh task-specific template before supplying a DFF value
+## pillars/scm/manufacturing-and-supply-chain-materials-management/supply-chain-collaboration/manage-supply-chain-collaboration-settings
+  - Existing setting :: Resolve the immutable setting Code through collaborationParameters.
+  - Reference value :: Resolve the applicable catalog, user, or generic lookup value.
+  - Related settings :: Read the settings required for cross-setting validation.
+  - Design compatibility :: Apply the documented dependency and UI selection restrictions.
+## pillars/scm/manufacturing-and-supply-chain-materials-management/supply-chain-financial-flows/documentation-and-accounting-rules
+  - Registered Data Loader business object and current create/update contract :: Generate and review the current Documentation and Accounting Rules sample before source preparation
+  - Documentation and Accounting Rules :: Create or maintain the rule before it is selected on a financial orchestration flow
+## pillars/scm/manufacturing-and-supply-chain-materials-management/supply-chain-financial-flows/financial-orchestration-system-options
+  - Implementation project scope :: Include Manufacturing and Supply Chain Materials Management in the implementation project and open the System Options task from Supply Chain Financial Flows
+  - Item validation organization :: Resolve the selected validation organization before using it for qualifier-based item validation
+  - Service item :: Allow a selected Service Item only when the effective Configure service items for global purchase processing value is true; allow an explicit Service Item clear
+## pillars/scm/manufacturing-and-supply-chain-materials-management/supply-chain-financial-flows/financial-qualifiers
+  - Qualifier Data Loader REST contract :: Confirm the generated sample/schema contract before preview or execution
+  - Business flow type :: Resolve the requested business flow through the documented LOV after its Data Loader REST target field is confirmed
+  - User defined catalog :: Resolve a requested user defined catalog through the documented LOV after its Data Loader REST applicability and target field are confirmed
+  - Qualifier parameter :: Resolve a requested qualifier parameter through the documented LOV after its Data Loader REST applicability and target field are confirmed
+  - Operator :: Resolve a requested operator through the documented LOV after its lookup type, Data Loader REST applicability, and target field are confirmed
+  - Conjunction :: Resolve a requested conjunction through the documented LOV after its lookup type, Data Loader REST applicability, and target field are confirmed
+  - Delete eligibility :: Confirm the selected qualifier returns UsedInFlow as JSON null before a delete preview or submission
+## pillars/scm/manufacturing-and-supply-chain-materials-management/supply-chain-financial-flows/manage-drop-ship-financial-flows
+  - Registered Data Loader discriminator and configured child resource :: Confirm financialOrchestrationManageDropshipAgreements is selected as the top-level Data Loader discriminator and financialOrchestrationDropshipPrimaryTradeRela
+  - Current Data Loader create contract :: Generate and review the editable sample and attribute-details workbook for financialOrchestrationManageDropshipAgreements before preparing source data
+  - Header update contract :: Confirm the live update template uses RestAction=PATCH and AgreementId from the exact AgreementNumber lookup; CustomParentKey remains blank
+  - Child primary trade relation contract :: Confirm the current generated top-level template exposes financialOrchestrationDropshipPrimaryTradeRelations and resolve the parent header, selling business uni
+  - Child primary trade relation correction contract :: Confirm the current generated update template exposes child `PATCH`, `UniqueId`, `PrimaryTradeRelationNumber`, `EffectiveStartDate`, `EffectiveEndDate`, `Operat
+## pillars/scm/manufacturing-and-supply-chain-materials-management/supply-chain-financial-flows/profit-center-party-relationships
+  - Parent BU context :: Require the successful BU selection from PCBU.RESOLVE_REFERENCES
+  - Supplied optional parent selections :: Require successful applicable supplier, customer, trade-organization and ship-to selection within that BU/environment context
+## pillars/scm/manufacturing-and-supply-chain-materials-management/supply-chain-financial-flows/transfer-pricing-rules
+  - Registered Data Loader business object and operation contract :: Confirm the current template exposes the fields for the selected create or update operation before source preparation.
+## pillars/scm/procurement/external-purchase-prices/manage-external-purchase-prices-purchase-agreement-defaults
+  - Procurement and external purchase prices :: The offering and functional area must be enabled for the target environment
+  - Requisitioning BU :: A specific-BU record must reference an active requisitioning BU
+## pillars/scm/procurement/external-purchase-prices/manage-external-purchase-prices-requisitioning-bu-mapping
+  - Procurement foundation :: Procurement is implemented and blanket purchase agreements can be created successfully
+  - Access :: The implementation user has the privileges of the predefined Purchase Pricing Manager role
+  - Mapping identities :: Resolve the exact parent using supplied natural keys or consistent optional IDs; name-only child inputs are supported
+  - Existing mappings :: Obtain the applicable complete membership evidence for names as well as IDs; design enforcement owns conflict decisions and operation applicability
+## pillars/scm/procurement/procurement-foundation/manage-procurement-category-hierarchy
+  - Selected task package :: Complete local contract checks before using any rows as reference evidence
+  - Parent and child evidence :: Consume the local evidence assessment and distinguish same-package browsing creation from existing target references
+  - Routed execution prerequisites :: Leave environment, privileges, catalog flags, package validation and approval checks to the declared core workflow
+## pillars/scm/procurement/procurement-foundation/manage-purchasing-line-types
+  - Procurement offering :: Opt in to Procurement and applicable offerings before implementing Procurement setup.
+  - Implementation access :: Assign a configured implementation role based on Application Implementation Consultant before performing implementation setup.
+  - Line-type access :: Grant the supplied Manage Purchasing Line Type privilege before using the UI or REST resource.
+  - Flexfield setup :: Deploy the required descriptive-flexfield context and segments before supplying DFF values.
+## pillars/scm/procurement/self-service-procurement/manage-catalog-category-hierarchy
+  - Selected task package :: Complete local contract checks before using any rows as reference evidence
+  - Parent and child evidence :: Consume the local evidence assessment and distinguish same-package browsing creation from existing target references
+  - Routed execution prerequisites :: Leave environment, privileges, catalog flags, package validation and approval checks to the declared core workflow
+## pillars/scm/procurement/sourcing/manage-cost-factors
+  - Data Loader business-object and foreign-key metadata :: Resolve `supplierNegotiationCostFactors` and its pricing-basis foreign-key attributes through `core.data-loader` live metadata validation before preparing a Cos
+  - Internal-user page access privilege :: Confirm that the user holds PON_MANAGE_SUPPLIER_NEGOTIATION_COST_FACTOR before managing Cost Factors in the interactive Redwood page
+## pillars/scm/procurement/supplier-portal/configure-supplier-notifications
+  - Data Loader REST artifact :: Prepare and approve the task-specific `supplierOptions` notification timing artifact.
+  - Current notification timing :: Resolve the existing timing values through the read-only ADF REST lookup.
+## pillars/scm/procurement/supplier-portal/manage-supplier-user-roles
+  - Supplier role identity :: Include the supplied Role Name or Role Code in the Data Loader artifact for CREATE, UPDATE/PATCH, or DELETE.
+  - Setup-data artifact :: Prepare the supplier user role configuration in the approved Data Loader artifact.
+## pillars/scm/procurement/suppliers/manage-collaboration-messaging-service-providers
+  - Exact environment identity :: Bind the export source or import destination to the configured Fusion host
+  - Simplified B2B opt-in :: Automatically call `verify_cmksp_b2b_document_setup_enabled` through `core.fusion-api.rest-api-client` on that same host and require `EnabledFlag: Y` before exp
+  - Existing input contract :: For import, validate the immutable task ZIP and target binding
+  - Dependency decision :: Stop on missing, failed, stale, cross-environment, or ambiguous evidence
+  - Existing execution gate :: Continue to export-process creation or Data Loader approval only after all prerequisites pass
+## pillars/scm/procurement/suppliers/specify-supplier-numbering
+  - Supplier numbering row :: Read the collection and find exactly one row, or establish that it is absent
+  - Initialization :: When absent, prepare the approved `supplierNumberingInitializeSetup` Data Loader POST artifact, submit it once, then re-read the collection
+  - Backend identifier :: Retain SupplierNumberingId for update and verification
+## pillars/scm/product-management/change-orders/change-orders-import
+  - Customer Change Order source :: Confirm a supplied source or prebuilt FBDI ZIP is readable.
+  - Current public Oracle template :: Fetch one current `ChangeOrderImportTemplate.xlsm` workbook/control-file set and bind its source, digest, sheet sequence, filenames, and export columns to the r
+  - Normalized Change Order mapping :: Resolve required or ambiguous business values and disclose unsupported facts.
+  - Generated or supplied Change Order Import ZIP :: Validate members, relative order, rows, Batch ID, and digest against the current workbook.
+  - Core Data Loader handoff :: Provide the unchanged ZIP and read-only validation evidence to `core.data-loader` with task business object `Change Order`.
+## pillars/scm/product-management/change-orders/manage-change-order-and-new-item-request-line-descriptive-flexfields
+  - Allowed change-type contexts :: Retrieve allowed InternalName values for explicit allowed-value lists/checks and requested Context definitions or Context Sensitive Segment associations, includ
+## pillars/scm/product-management/change-orders/manage-change-order-types
+  - Selected change type :: Resolve its exported identity and base/child relationship
+  - Related rows :: Resolve all rows needed by the selected type across dependent files
+  - Header-attribute ownership :: Identify header rows before applying the design rule for base or child targets
+  - Default lookup assignment :: Resolve every requested priority/reason code before preparing the type package; create a missing code through its mapped task first
+  - Default lookup removal :: For an explicit clear request, confirm the requested field currently has a value and validate the blank-field archive; no lookup mutation applies
+  - Attachment category and Change Policy association :: When requested for creation, reuse an exact category for `EGO_ENGINEERING_CHANGES_B` or create it through Manage Attachment Categories for Product Management, t
+## pillars/scm/product-management/items/deploy-item-extensible-flexfields
+  - Configuration change or approved import :: Complete the selected Item EFF change or its approved FSM import before deployment
+  - Deployment approval :: Obtain explicit approval immediately before the delegated deployment request
+## pillars/scm/product-management/items/import-items
+  - Customer item source :: Confirm a supplied source or prebuilt FBDI ZIP is readable.
+  - Current public Oracle template :: Fetch `ItemImportTemplate.xlsm` and bind its source, digest, sheet sequence, filenames, and export columns to the run.
+  - Normalized item mapping :: Resolve required or ambiguous business values and disclose unsupported facts.
+  - Generated Item Import ZIP :: Validate members, relative order, rows, Batch ID, and digest against the current workbook.
+  - Core Data Loader handoff :: Provide the unchanged ZIP and read-only validation evidence to `core.data-loader` with registered business object `item`.
+## pillars/scm/product-management/items/manage-import-maps
+  - Create-only import-map defaults :: For REST create requests, default each missing, null, or whitespace-only field independently; preserve explicit create values and omitted update values
+  - Missing ItemClassName resolution :: Only when the REST request is a create and ItemClassName is absent, null, or whitespace-only, GET or reuse the matching cached ROOT_ICC item-class response and 
+  - Conditional import-map format lookups :: Resolve each supplied or defaulted display value to one exact LookupCode or preserve an explicitly supplied LookupCode
+  - Mapping-pair validation :: Accept source-only mappings; reject every destination mapping without its corresponding source column and return MISSING when a REST transformation lacks a dest
+  - Destination attribute resolution :: When a destination mapping is requested, GET and cache importMapAttributes, require one exact current item, derive all four required destination payload values 
+  - Transformation function validation :: For each REST transformation, parse the function candidate from ExpressionCode and validate it through importMapFunctions; disclose FunctionSyntax and Examples 
+  - Transformation return-attribute resolution :: Build ReturnAttributeName from the exact destination item, appending LanguageCode only when non-null
+  - Transformation source-column derivation :: Build SourceColumns from the current source and every participating source in supplied order, including the current source again in the suffix
+  - Source IgnoreFlag normalization :: Set IgnoreFlag to Y for source children without destinations and N for mapped source children
+  - Data Loader handoff :: Continue only when required standard values, ItemClassName default, destination metadata, transformation function, ReturnAttributeName, and SourceColumns are re
+  - FSM ZIP readiness :: On the FSM route, continue with the same immutable ZIP only after archive validation and destination reporting complete, with no multiple-match blocker
+## pillars/scm/product-management/items/manage-item-classes
+  - Applicability and approval :: Confirm the licensed product model, exclude Common Product Model class creation, and retain implementation-consultant approval
+  - Target baseline :: Bind a fresh same-target successful Manage Item Classes task export and fingerprint
+  - Hierarchy and identity :: Resolve one exact eligible parent and classify the requested class as create, reuse, or explicit update
+  - Explicit references :: Resolve each supported non-inherited lifecycle phase, attachment category, assignee, entity, group, and attribute reference
+  - New Item Request graph :: Validate exact route, step, participant, association, and attribute parent-child keys
+  - EFF separation :: Remove EGO_ITEM_USER_DEF_ATTRS associations and route them to the dedicated attribute-group workflow plus EGO_ITEM_EFF deployment
+  - Immutable package :: Preserve the baseline, create the smallest supported delta, validate the ZIP, and calculate its fingerprint
+## pillars/scm/product-management/items/manage-operational-attributes-groups
+  - Attribute group :: Resolve the group names from the supplied attribute name or display name
+  - Target operational attribute control :: Resolve exactly one current Fusion record using the resolved technical composite key
+  - Requested-value confirmation :: Confirm the resolved identity and retain current ControlLevel and optional MaximumDecimalDigits for the approval preview
+## pillars/scm/product-management/items/manage-product-and-child-value-sets
+  - Value-set definition :: Establish the value set code, module, validation type, and value data type
+  - Independent parent :: For a child subset, create and populate one independent parent value set
+  - Parent verification :: Resolve the exact independent parent in the same supplied module
+  - Child subset :: Define the subset against the verified parent
+## pillars/scm/product-management/items
+  - Manage Lifecycle Phases :: 3
+  - Manage Lifecycle Phases :: 6
+## pillars/scm/product-management/structures/item-structure-import
+  - Customer item-structure source :: Confirm a supplied source or prebuilt FBDI ZIP is readable.
+  - Latest compatible public Oracle template :: Fetch ItemStructureImportTemplate.xlsm and bind its release, source, digest, sheet sequence, filenames, and export columns to the run.
+  - Normalized item-structure mapping :: Resolve required or ambiguous business values and validate relationships and effectivity dates.
+  - Generated Item Structure Import ZIP :: Validate members, relative order, rows, Batch ID, and digest against the current workbook.
+  - Core Data Loader handoff :: Provide the unchanged ZIP and read-only validation evidence to core.data-loader with registered business object item.

@@ -1,0 +1,7 @@
+| Stage | Result | Details |
+|---|---|---|
+| Business Object Validation | ❌ Failed | No exact business-object file discriminator matched supplierNegotiationCostFactors. |
+
+| Next action | Details |
+|---|---|
+| Required | Align the source with the live business-object metadata and retry. |

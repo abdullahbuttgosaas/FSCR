@@ -1,0 +1,9 @@
+| Data Set | Status | Total | Loaded | Failed |
+|---|---|---:|---:|---:|
+| fscrt-pt-c1-enddate-candidate.zip | ✅ Succeeded | 3 | 3 | 0 |
+
+FSM Process Logs:
+
+| Data Set | File |
+|---|---|
+| fscrt-pt-c1-enddate-candidate.zip | [fscrt-pt-c1-enddate-candidate.zip-fsm-100004733447103-1.log](C:\Users\PC\.codex\data-loader-status-logs\requestid-4432070\fscrt-pt-c1-enddate-candidate.zip-fsm-100004733447103-1.log) |

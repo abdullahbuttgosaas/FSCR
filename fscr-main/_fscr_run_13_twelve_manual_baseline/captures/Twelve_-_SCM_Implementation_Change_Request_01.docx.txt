@@ -1,0 +1,88 @@
+SOURCE (read in browser via docs.google.com viewer): Twelve - SCM Implementation Change Request #01.docx | id=1RK7hNHUVh2li9GO-ITGY8TXevAXbY0X1 | kind=doc | chars=5665
+Twelve - SCM Implementation Change Request #01.docxChange Order #01
+
+To Statement of Work Oracle Cloud SCM Implementation #4 (“Project”)
+
+This Change Order (“Change Order”) modifies the existing Statement of Work for Oracle Cloud SCM Implementation #4 (“SOW”) between Twelve (“Client”) and GoSaaS, Inc (“GoSaaS”). This Change Order shall be incorporated into and made part of the SOW as if fully set forth therein.
+
+Unless expressly stated otherwise herein, the provisions, terms and expressions set out in the Master Subscription and License Agreement (the "Agreement) shall apply equally in the Change Order and the terms and expressions defined in Agreement shall bear the same meaning when used herein.
+
+As part of this engagement, both the Client and GoSaaS agree on the following:
+​
+Description of the Scope Change:
+Exclusion / Removal
+Oracle Expenses (“Expenses)
+The Expenses module will be removed from the scope.
+Twelve has made the decision to proceed with the Rippling Expense solution.
+There will be no impact to the effort or fees.
+Inclusion / Addition
+Oracle Tax (“Tax”)
+The Tax module will be brought into the scope.
+The focus will be on the support for calculating indirect taxes (sales tax) associated with Requisitions, Purchase Orders, and sales and use taxes for  Supplier Invoices.  Replicating the specific current manual processes into Oracle.
+The configuration scope will be focused on the tax jurisdictions (specific zip codes) currently applicable to Twelve.  All Tax module configurations will be documented on the Tax Best Start and loaded into Oracle, including the jurisdictions, associated rates and mappings to category/commodity codes.  No integrations with a third party tax solution are in scope.
+The timeline for this scope will align with the current SCM timeline, resulting in an accelerated cadence for this scope to “catch up” with the SCM project timeline, for CRP.
+There will be no impact to the effort or fees.
+Inbound Employee Integration from Rippling to Oracle Human Resources (HR)
+This integration will be brought into the SCM project scope.
+The scope is to design, develop and test a systemic integration from Rippling to Oracle HR.  The scope of the design document will include documenting the end to end logic and requirements, to include the extraction from Rippling, data mapping / transformation and migration using Oracle Integration Cloud (OIC), loading into Oracle and testing.
+The Client will be responsible for executing the Rippling Extract, Data Transformation.
+GoSaaS will be responsible for the Oracle Integration Cloud (OIC) development.  This includes updates to the Oracle HR model configurations to enable the employee dependent data focused on jobs, positions and employee statuses.
+The timeline for this scope will align with the current SCM timeline, resulting in an accelerated cadence for this scope to “catch up” with the SCM project timeline.
+This will result in an increase in effort hours and associated fees
+Oracle Project Management (“Projects”)
+The Projects scope will be modified.
+Previously, GoSaaS was to provide advisory services for enhancements to the Projects scope.  This will be changed to a direct effort to enhance the usage of Projects for its usage with Capital (CAPEX) and Indirect (OPEX) project transactions, focusing on Financial Plans.  Execution Projects are excluded from scope.  The project activities include Discovery, Design, Build and Testing. Scope specifics include:
+Updating the Project Types and Templates
+Updating Project Structures (project tasks structure)
+Updating Expenditure Categories and Types to be aligned with leading practice usages for each data type
+Creating manual budgets, without systemic Oracle approvals.  This specific scope will not be dependent on go-live readiness.
+Interfacing assets to Fixed Assets module  
+Exclusions from this scope includes processes for Burdening, Cross Charging / Intercompany Transactions and Resource Management.
+The ownership of the design and configurations for the Project based Subledger Accounting rules, for Commitments (Requisition and Purchase Orders) and Actuals (PO Receipts, Inventory, Maintenance, Manufacturing, Payables Invoices) will be moved to this scope within the SCM Project.
+The timeline for this scope will align with the current SCM timeline, resulting in an accelerated cadence for this Projects scope to “catch up” with the SCM project timeline.
+This will result in an increase in effort hours and associated fees.
+Fees[a]
+
+Change
+	Resource Type
+	Hourly Rate
+	Hours
+	Sub-Total
+
+Increase in duration
+	Finance Architect
+	[amount masked]	180
+	[amount masked]
+New resource
+	Projects Consultant
+	[amount masked]	480
+	[amount masked]
+Increase in hours
+	DEV Consultant
+	[amount masked]	112
+	[amount masked]
+Increase in hours
+	PMO Analyst (Offshore)
+	[amount masked]	96
+	[amount masked]
+Total
+
+	[amount masked]
+Upon signature of an authorized representative of the parties, the parties agree to and accept the contents of this Addendum.
+
+ Twelve                                                                                       GoSaaS
+
+Name:                                                                                            Name:
+                                                                                             
+Title:                                                                                                Title:
+
+Date:                                                                                                Date:
+​
+
+GoSaaS representative is required to enter the following document number upon signature.
+​
+Document Number:
+[a]@[email masked] 
+Can you add this to the PandaDoc version?
+_Assigned to [email masked]
+

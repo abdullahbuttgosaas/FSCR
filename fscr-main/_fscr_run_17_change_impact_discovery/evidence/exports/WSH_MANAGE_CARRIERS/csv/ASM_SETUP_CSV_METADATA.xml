@@ -1,0 +1,147 @@
+<MigrationProcessCSVMetadataVO>
+   <MigrationProcessCSVMetadataVORow>
+      <ProcessId>-999</ProcessId>
+      <ProcessName>Manage Carriers_20261109_123521_708</ProcessName>
+      <ProcessDescription>Manage Carriers_20261109_123521_708</ProcessDescription>
+      <ProcessDate>2026-11-09 12:36:17.22</ProcessDate>
+      <ObjectShortName>WSH_MANAGE_CARRIERS</ObjectShortName>
+      <ObjectType>TASK</ObjectType>
+      <CreatedByFlow>TASK_CSV_SERVICE</CreatedByFlow>
+      <ProcessType>EXPORT</ProcessType>
+      <ProcessStatus>COMPLETED</ProcessStatus>
+      <ProcessEnv>etia-test</ProcessEnv>
+      <ProcessStartDate>2026-11-09 12:35:21.295</ProcessStartDate>
+      <ProcessEndDate>2026-11-09 12:36:17.22</ProcessEndDate>
+      <ProcessRelease>11.13.26.10.0</ProcessRelease>
+      <SubmittedBy>Configuration.TEST</SubmittedBy>
+      <ESSRequestId>4447514</ESSRequestId>
+      <MigrationProcessBusinessObjectCSVMetadata1>
+         <MigrationProcessBusinessObjectCSVMetadataVORow>
+            <ProcessId>-999</ProcessId>
+            <BusinessObjectShortName>WSH_ORG_CARRIER_SERVICE</BusinessObjectShortName>
+            <BatchName>Carrier</BatchName>
+            <XmlAttributeList>ServiceLevel,ModeOfTransport,EnabledFlag,AttributeCategory,Attribute1,Attribute2,Attribute3,Attribute4,Attribute5,Attribute6,Attribute7,Attribute8,Attribute9,Attribute10,Attribute11,Attribute12,Attribute13,Attribute14,Attribute15,OrganizationId,AttributeDate1,AttributeDate2,AttributeDate3,AttributeDate4,AttributeDate5,AttributeNumber1,AttributeNumber10,AttributeNumber2,AttributeNumber3,AttributeNumber4,AttributeNumber5,AttributeNumber6,AttributeNumber7,AttributeNumber8,AttributeNumber9,AttributeTimestamp1,AttributeTimestamp2,AttributeTimestamp3,AttributeTimestamp4,AttributeTimestamp5</XmlAttributeList>
+            <XmlAttributeTypeList>string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,long,date,date,date,date,date,decimal,decimal,decimal,decimal,decimal,decimal,decimal,decimal,decimal,decimal,dateTime,dateTime,dateTime,dateTime,dateTime</XmlAttributeTypeList>
+            <XmlNodePath>/CarrierVO/CarrierVORow/WarehouseCarrierService/WarehouseCarrierServiceVORow</XmlNodePath>
+            <NodeSequence>2</NodeSequence>
+         </MigrationProcessBusinessObjectCSVMetadataVORow>
+         <MigrationProcessBusinessObjectCSVMetadataVORow>
+            <ProcessId>-999</ProcessId>
+            <BusinessObjectShortName>ORA_WSH_CARRIER_CONTACT</BusinessObjectShortName>
+            <BatchName>Carrier</BatchName>
+            <XmlAttributeList>OrgJobTitle,PersonFirstName,PersonLastName,EmailAddress,PhoneNumber,PersonNumber</XmlAttributeList>
+            <XmlAttributeTypeList>string,string,string,string,string,string</XmlAttributeTypeList>
+            <XmlNodePath>/CarrierVO/CarrierVORow/CarrierContact/CarrierContactVORow</XmlNodePath>
+            <NodeSequence>4</NodeSequence>
+         </MigrationProcessBusinessObjectCSVMetadataVORow>
+         <MigrationProcessBusinessObjectCSVMetadataVORow>
+            <ProcessId>-999</ProcessId>
+            <BusinessObjectShortName>WSH_CARRIER</BusinessObjectShortName>
+            <BatchName>Carrier</BatchName>
+            <XmlAttributeList>CarrierName,EnabledFlag,ManifestingEnabledFlag,AttributeCategory,Attribute1,Attribute2,Attribute3,Attribute4,Attribute5,Attribute6,Attribute7,Attribute8,Attribute9,Attribute10,Attribute11,Attribute12,Attribute13,Attribute14,Attribute15,CarrName,PartyNumber,AttributeDate1,AttributeDate2,AttributeDate3,AttributeDate4,AttributeDate5,AttributeNumber1,AttributeNumber10,AttributeNumber2,AttributeNumber3,AttributeNumber4,AttributeNumber5,AttributeNumber6,AttributeNumber7,AttributeNumber8,AttributeNumber9,AttributeTimestamp1,AttributeTimestamp2,AttributeTimestamp3,AttributeTimestamp4,AttributeTimestamp5</XmlAttributeList>
+            <XmlAttributeTypeList>string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,date,date,date,date,date,decimal,decimal,decimal,decimal,decimal,decimal,decimal,decimal,decimal,decimal,dateTime,dateTime,dateTime,dateTime,dateTime</XmlAttributeTypeList>
+            <XmlNodePath>/CarrierVO/CarrierVORow</XmlNodePath>
+            <NodeSequence>1</NodeSequence>
+         </MigrationProcessBusinessObjectCSVMetadataVORow>
+         <MigrationProcessBusinessObjectCSVMetadataVORow>
+            <ProcessId>-999</ProcessId>
+            <BusinessObjectShortName>WSH_CAR_ORG_TRACKING</BusinessObjectShortName>
+            <BatchName>Carrier</BatchName>
+            <XmlAttributeList>TrackingRuleName,BaseUrl,RequestMethod,EnabledFlag,OrganizationId</XmlAttributeList>
+            <XmlAttributeTypeList>string,string,string,string,long</XmlAttributeTypeList>
+            <XmlNodePath>/CarrierVO/CarrierVORow/CarrierTracking/CarrierTrackingVORow</XmlNodePath>
+            <NodeSequence>5</NodeSequence>
+         </MigrationProcessBusinessObjectCSVMetadataVORow>
+         <MigrationProcessBusinessObjectCSVMetadataVORow>
+            <ProcessId>-999</ProcessId>
+            <BusinessObjectShortName>ORA_WSH_CAR_TRACKING_ORG_ASSOC</BusinessObjectShortName>
+            <BatchName>Carrier</BatchName>
+            <XmlAttributeList>OrganizationCode</XmlAttributeList>
+            <XmlAttributeTypeList>string</XmlAttributeTypeList>
+            <XmlNodePath>/CarrierVO/CarrierVORow/CarrierTracking/CarrierTrackingVORow/CarrierOrgTracking/CarrierOrgTrackingVORow</XmlNodePath>
+            <NodeSequence>6</NodeSequence>
+         </MigrationProcessBusinessObjectCSVMetadataVORow>
+         <MigrationProcessBusinessObjectCSVMetadataVORow>
+            <ProcessId>-999</ProcessId>
+            <BusinessObjectShortName>ORA_WSH_ORG_CARRIER_ORG_SERVICE</BusinessObjectShortName>
+            <BatchName>Carrier</BatchName>
+            <XmlAttributeList>ServiceLevel,ModeOfTransport,OrganizationCode</XmlAttributeList>
+            <XmlAttributeTypeList>string,string,string</XmlAttributeTypeList>
+            <XmlNodePath>/CarrierVO/CarrierVORow/WarehouseCarrierService/WarehouseCarrierServiceVORow/WarehouseOrgCarrierService/WarehouseOrgCarrierServiceVORow</XmlNodePath>
+            <NodeSequence>3</NodeSequence>
+         </MigrationProcessBusinessObjectCSVMetadataVORow>
+         <MigrationProcessBusinessObjectCSVMetadataVORow>
+            <ProcessId>-999</ProcessId>
+            <BusinessObjectShortName>ORA_WSH_CAR_TRACKING_PARAMETER</BusinessObjectShortName>
+            <BatchName>Carrier</BatchName>
+            <XmlAttributeList>SequenceNumber,ParameterName,ParameterValue,ParameterValueLookupCode</XmlAttributeList>
+            <XmlAttributeTypeList>string,string,string,string</XmlAttributeTypeList>
+            <XmlNodePath>/CarrierVO/CarrierVORow/CarrierTracking/CarrierTrackingVORow/CarrierOrgTrackParam/CarrierOrgTrackParamVORow</XmlNodePath>
+            <NodeSequence>7</NodeSequence>
+         </MigrationProcessBusinessObjectCSVMetadataVORow>
+      </MigrationProcessBusinessObjectCSVMetadata1>
+      <MigrationProcessBatchCSVMetadata>
+         <MigrationProcessBatchCSVMetadataVORow>
+            <ProcessId>-999</ProcessId>
+            <BatchName>Carrier</BatchName>
+            <ImportSequence>0</ImportSequence>
+            <ServiceName>oracle.apps.scm.shipping.carriers.carrierService.CarriersService</ServiceName>
+            <BatchSize>100</BatchSize>
+         </MigrationProcessBatchCSVMetadataVORow>
+      </MigrationProcessBatchCSVMetadata>
+      <MigrationProcessScopeValueCSVMetadata null="true"/>
+      <MigrationProcessMigrationObjectCSVMetadata>
+         <MigrationProcessMigrationObjectCSVMetadataVORow>
+            <ProcessId>-999</ProcessId>
+            <BusinessObjectShortName>ORA_WSH_CARRIER_CONTACT</BusinessObjectShortName>
+            <MigrateFlag>Y</MigrateFlag>
+            <IncludeExternalDataFlag>Y</IncludeExternalDataFlag>
+            <ServiceType null="true"/>
+         </MigrationProcessMigrationObjectCSVMetadataVORow>
+         <MigrationProcessMigrationObjectCSVMetadataVORow>
+            <ProcessId>-999</ProcessId>
+            <BusinessObjectShortName>ORA_WSH_CAR_TRACKING_ORG_ASSOC</BusinessObjectShortName>
+            <MigrateFlag>Y</MigrateFlag>
+            <IncludeExternalDataFlag>Y</IncludeExternalDataFlag>
+            <ServiceType null="true"/>
+         </MigrationProcessMigrationObjectCSVMetadataVORow>
+         <MigrationProcessMigrationObjectCSVMetadataVORow>
+            <ProcessId>-999</ProcessId>
+            <BusinessObjectShortName>ORA_WSH_CAR_TRACKING_PARAMETER</BusinessObjectShortName>
+            <MigrateFlag>Y</MigrateFlag>
+            <IncludeExternalDataFlag>Y</IncludeExternalDataFlag>
+            <ServiceType null="true"/>
+         </MigrationProcessMigrationObjectCSVMetadataVORow>
+         <MigrationProcessMigrationObjectCSVMetadataVORow>
+            <ProcessId>-999</ProcessId>
+            <BusinessObjectShortName>ORA_WSH_ORG_CARRIER_ORG_SERVICE</BusinessObjectShortName>
+            <MigrateFlag>Y</MigrateFlag>
+            <IncludeExternalDataFlag>Y</IncludeExternalDataFlag>
+            <ServiceType null="true"/>
+         </MigrationProcessMigrationObjectCSVMetadataVORow>
+         <MigrationProcessMigrationObjectCSVMetadataVORow>
+            <ProcessId>-999</ProcessId>
+            <BusinessObjectShortName>WSH_CARRIER</BusinessObjectShortName>
+            <MigrateFlag>Y</MigrateFlag>
+            <IncludeExternalDataFlag>Y</IncludeExternalDataFlag>
+            <ServiceType null="true"/>
+         </MigrationProcessMigrationObjectCSVMetadataVORow>
+         <MigrationProcessMigrationObjectCSVMetadataVORow>
+            <ProcessId>-999</ProcessId>
+            <BusinessObjectShortName>WSH_CAR_ORG_TRACKING</BusinessObjectShortName>
+            <MigrateFlag>Y</MigrateFlag>
+            <IncludeExternalDataFlag>Y</IncludeExternalDataFlag>
+            <ServiceType null="true"/>
+         </MigrationProcessMigrationObjectCSVMetadataVORow>
+         <MigrationProcessMigrationObjectCSVMetadataVORow>
+            <ProcessId>-999</ProcessId>
+            <BusinessObjectShortName>WSH_ORG_CARRIER_SERVICE</BusinessObjectShortName>
+            <MigrateFlag>Y</MigrateFlag>
+            <IncludeExternalDataFlag>Y</IncludeExternalDataFlag>
+            <ServiceType null="true"/>
+         </MigrationProcessMigrationObjectCSVMetadataVORow>
+      </MigrationProcessMigrationObjectCSVMetadata>
+      <MigrationProcessTaskCSVMetadata null="true"/>
+      <MigrationProcessServiceVersionCSVMetadata null="true"/>
+   </MigrationProcessCSVMetadataVORow>
+</MigrationProcessCSVMetadataVO>

@@ -1,0 +1,22 @@
+200
+{
+  "items" : [ {
+    "CostFactorId" : 300000395049177,
+    "CostFactorCode" : "FSCRT_R34_CF",
+    "CostFactorName" : "FSCRT_R34 Freight",
+    "CostFactorDescription" : "FSCR Run 34 test cost factor",
+    "PricingBasisCode" : "FIXED_AMOUNT",
+    "EnabledFlag" : true,
+    "CostFactorTypeCode" : "EXTERNAL"
+  } ],
+  "count" : 1,
+  "hasMore" : false,
+  "limit" : 25,
+  "offset" : 0,
+  "links" : [ {
+    "rel" : "self",
+    "href" : "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/supplierNegotiationCostFactors",
+    "name" : "supplierNegotiationCostFactors",
+    "kind" : "collection"
+  } ]
+}

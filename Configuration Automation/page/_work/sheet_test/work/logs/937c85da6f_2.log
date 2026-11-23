@@ -1,0 +1,14 @@
+Host: https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com
+ORACLE_ENV: test
+Exporting AR_MANAGE_AUTOINVOICE_GROUPING_RULES ...
+  ProcessId=100004733440108
+  [export]   11s  StatusCode=NOT_STARTED
+  [export]   22s  StatusCode=IN_PROGRESS
+  [export]   35s  StatusCode=COMPLETED
+  saved E:\GoSaaS\Configuration Automation v2.1\Configuration Automation\AutoInvoice Grouping Rules\_work\AR_MANAGE_AUTOINVOICE_GROUPING_RULES_20261102_064008_before.zip
+  [template]   10s  StatusCode=IN_PROGRESS
+  [template]   22s  StatusCode=COMPLETED
+  ZZ_TEST_AG_3112: exists
+Whole run: 63 s
+
+===== run 06:39:28

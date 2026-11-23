@@ -1,0 +1,53 @@
+<!DOCTYPE html
+  SYSTEM "about:legacy-compat">
+<html xmlns:table="http://dita-ot.sourceforge.net/ns/201007/dita-ot/table" lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta charset="UTF-8"><link rel="prev" href="get-started-with-supplier-portal-configuration.html" title="Previous" type="text/html"><link rel="next" href="overview-of-implementation-users.html" title="Next" type="text/html"><meta name="description" content="User accounts for users of Oracle Fusion Applications are maintained in your Lightweight Directory Access Protocol (LDAP) directory. The LDAP directory also holds information about roles provisioned to users."><meta property="og:description" content="User accounts for users of Oracle Fusion Applications are maintained in your Lightweight Directory Access Protocol (LDAP) directory. The LDAP directory also holds information about roles provisioned to users."><meta property="og:title" content="Implementing Procurement"><meta name="application-name" content="Implementing Procurement"><meta name="dcterms:title" content="Implementing Procurement"><meta name="dcterms.title" content="Implementing Procurement"><meta name="doctitle" content="Implementing Procurement"><meta name="dcterms.created" content="Wed Sep 23 23:22:44 PDT 2026"><meta name="dcterms.dateCopyrighted" content="2026"><meta name="dcterms.category" content="cloud"><meta name="dcterms.isVersionOf" content="OAPRO"><meta name="dcterms.alternative" content="oapro"><meta name="dcterms.product" content="en/cloud/saas/procurement/26d"><link type="application/pdf" title="PDF" href="implementing-procurement.pdf" rel="alternate"><script type="application/json" id="ssot-metadata">{"primary":{"category":{"short_name":"cloud","element_name":"Cloud","display_in_url":true},"suite":{"short_name":"saas","element_name":"Cloud Applications","display_in_url":true},"product_group":{"short_name":"enterprise-resource-planning","element_name":"Enterprise Resource Planning","display_in_url":false},"product":{"short_name":"procurement","element_name":"Procurement","display_in_url":true},"release":{"short_name":"26d","element_name":"26D","display_in_url":true}}}</script><title>User and Role Synchronization: Explained</title>
+  
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!--saved from url=(0023)https://docs.oracle.com-->
+  <link rel="stylesheet" href="/sp_common/book-template/ohc-book-template/css/book.css">
+  <script>
+	document.write('<style type="text/css">');
+	document.write('body > .noscript, body > .noscript ~ * { opacity: 0; }');
+	document.write('</style>');
+  </script>
+  <script data-main="/sp_common/book-template/ohc-book-template/js/book-config" src="/sp_common/book-template/requirejs/require.js"></script>
+
+  <script>
+	if (window.require === undefined) {
+		document.write('<script data-main="sp_common/book-template/ohc-book-template/js/book-config" src="sp_common/book-template/requirejs/require.js"><\/script>');
+		document.write('<link href="sp_common/book-template/ohc-book-template/css/book.css" rel="stylesheet">');
+	}
+  </script>
+
+  <meta name="generator" content="Fusion Publishing Server, UAE Ditamap Publisher">
+  <link rel="shortcut icon" href="/sp_common/book-template/ohc-common/img/favicon.ico">
+  <link rel="schema.dcterms" href="http://purl.org/dc/terms/">
+
+
+    <meta name="dcterms.identifier" content="G59686-01">
+    <meta name="dcterms.release" content="26D">
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebPage","name":"User and Role Synchronization: Explained","description":"User accounts for users of Oracle Fusion Applications are maintained in your Lightweight Directory Access Protocol (LDAP) directory. The LDAP directory also holds information about roles provisioned to users.","datePublished":"2026-09-30 CST","dateModified":"2026-09-30 CST"}</script>
+    <script>window.ohcglobal || document.write('<script src="/en/dcommon/js/global.js">\x3C/script>')</script></head><body><div class="noscript alert alert-danger text-center" role="alert"><a class="pull-left" href="get-started-with-supplier-portal-configuration.html"><span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>Previous</a><a class="pull-right" href="overview-of-implementation-users.html">Next<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span></a><span class="fa fa-exclamation-triangle" aria-hidden="true"></span> JavaScript must be enabled to correctly display this content
+		</div><article><header><style>table:not(.fsModule) th,table:not(.fsModule) td{width:auto !important;}</style><ol class="breadcrumb" vocab="http://schema.org/" typeof="BreadcrumbList"><li property="itemListElement" typeof="ListItem"><a href="index.html" property="item" typeof="WebPage"><span property="name">Implementing Procurement</span></a><meta property="position" content="0"></li><li class="active" property="itemListElement" typeof="ListItem">User and Role Synchronization: Explained<meta property="position" content="1"></li></ol><h1 class="fa-chapter topic_link"><span id="user-and-role-synchronization-explained"></span><span id="OAPROuser-and-role-synchronization-explained" data-help-type="cloud-saas-docid"></span><span id="OAPRO369244" data-help-type="cloud-saas"></span><span id="9FC57EE72E4AE7A4E040D30A688146CE" data-help-type="cloud-saas" data-page-id="AsmCommonSetup_956A530B99B25042E040D30A68817A33V000_INSTRUCTIONS"></span><span class="chapterstart" id="s20032615">User and Role Synchronization: Explained</span></h1></header><div>
+   <p></p>
+   
+   
+   
+  
+  <div class="body conbody"><p class="shortdesc">User accounts for users of Oracle Fusion Applications
+are maintained in your Lightweight Directory Access Protocol (LDAP)
+directory. The LDAP directory also holds information about roles provisioned
+to users.</p>
+      <p class="p"></p>
+      <p class="p">During implementation, any existing information about
+users and their roles must be copied from the LDAP directory to the
+Oracle Fusion Applications tables. To copy this information, you use
+the task Run User and Roles Synchronization Process. This task calls
+the Retrieve Latest LDAP Changes process. You can perform the task
+Run User and Roles Synchronization Process from either an implementation
+project or the Setup and Maintenance work area.</p>
+      <p class="p">Once the Oracle Fusion Applications tables are initialized
+with this information, it's maintained automatically. </p>
+   </div>
+</div></article></body></html>

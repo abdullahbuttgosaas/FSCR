@@ -1,0 +1,45 @@
+{
+  "evidenceUnresolvedUpdateOverrides": [],
+  "explicitDefaults": [
+    {
+      "entity": "ORA_AR_TXN_BATCH_SOURCE",
+      "field": "InvalidLinesRule",
+      "operationId": "s1",
+      "sourceIds": [
+        "SRC-UI-MTS",
+        "SRC-CS-CREATE-VO"
+      ],
+      "value": "Reject"
+    }
+  ],
+  "operations": [
+    {
+      "action": "create",
+      "entity": "ORA_AR_TXN_BATCH_SOURCE",
+      "id": "s1",
+      "preserveOtherValues": true,
+      "preserveUnspecifiedRows": true,
+      "targetKey": {
+        "Name": "FSCRT_TS1",
+        "SetCode": "ENTERPRISE"
+      },
+      "values": {
+        "AutoTrxNumberingFlag": "Y",
+        "BatchSourceType": "INV",
+        "Description": "FSCRT Run04 manual source",
+        "InvalidLinesRule": "Reject",
+        "LastBatchNum": "1",
+        "StartDate": "2026-11-03",
+        "Status": "A"
+      }
+    }
+  ],
+  "prerequisites": [],
+  "preservedValues": [],
+  "resolvedScope": {},
+  "task": {
+    "code": "AR_MANAGE_TRANSACTION_SOURCES",
+    "name": "Manage Transaction Sources"
+  },
+  "warnings": []
+}

@@ -1,0 +1,45 @@
+{
+  "baselineSha256": "91cc052956fcca34f205843b102dbe62d81c6a043d523c65692341581f809c86",
+  "designSha256": "389de726e91df8a938ad754201def6bca50a33ed6f38743f170f8cd7ee0ecc59",
+  "evidenceUnresolvedUpdateOverrides": [],
+  "explicitDefaults": [],
+  "operations": [
+    {
+      "action": "create",
+      "entity": "AR_AI_GROUPING_RULE",
+      "id": "g1",
+      "preserveOtherValues": true,
+      "preserveUnspecifiedRows": true,
+      "requestedValues": {
+        "Description": "FSCRT Run04 grouping rule",
+        "StartDate": "2026-11-03"
+      },
+      "targetKey": {
+        "Name": "FSCRT_GRP1"
+      }
+    },
+    {
+      "action": "create",
+      "entity": "ORA_AR_AI_GRP_TXN_TYPE",
+      "id": "c1",
+      "preserveOtherValues": true,
+      "preserveUnspecifiedRows": true,
+      "requestedValues": {},
+      "targetKey": {
+        "AR_AI_GROUPING_RULE.Name": "FSCRT_GRP1",
+        "Class11": "I"
+      }
+    }
+  ],
+  "prerequisites": [],
+  "requestSha256": "150218dea939fad7b720d13c5028c5e9af63eba3beef494a17e0264eaa1883e7",
+  "requirementCount": 6,
+  "schemaVersion": "fscr-fsm-task-adapter-v1",
+  "task": {
+    "code": "AR_MANAGE_AUTOINVOICE_GROUPING_RULES",
+    "name": "Manage AutoInvoice Grouping Rules"
+  },
+  "warnings": []
+}
+
+--stderr--

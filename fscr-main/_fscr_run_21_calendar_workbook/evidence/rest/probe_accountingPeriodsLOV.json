@@ -1,0 +1,52 @@
+{
+  "items" : [ {
+    "PeriodNameId" : "13_Dec-27",
+    "PeriodSetNameId" : "KR Monthly Cale",
+    "PeriodType" : "MONTH3804694215",
+    "AdjustmentPeriodFlag" : true,
+    "StartDate" : "2027-12-31",
+    "EndDate" : "2027-12-31",
+    "EnteredPeriodName" : "13_Dec-27",
+    "PeriodYear" : "2027",
+    "PeriodNumber" : "13",
+    "@context" : {
+      "key" : "13_Dec-27,KR%20Monthly%20Cale"
+    }
+  }, {
+    "PeriodNameId" : "13_Aug-27",
+    "PeriodSetNameId" : "MG Calendar",
+    "PeriodType" : "MONTH9987884964",
+    "AdjustmentPeriodFlag" : true,
+    "StartDate" : "2027-08-31",
+    "EndDate" : "2027-08-31",
+    "EnteredPeriodName" : "13_Aug-27",
+    "PeriodYear" : "2027",
+    "PeriodNumber" : "13",
+    "@context" : {
+      "key" : "13_Aug-27,MG%20Calendar"
+    }
+  }, {
+    "PeriodNameId" : "Dec-27",
+    "PeriodSetNameId" : "KR Monthly Cale",
+    "PeriodType" : "MONTH3804694215",
+    "AdjustmentPeriodFlag" : false,
+    "StartDate" : "2027-12-01",
+    "EndDate" : "2027-12-31",
+    "EnteredPeriodName" : "Dec-27",
+    "PeriodYear" : "2027",
+    "PeriodNumber" : "12",
+    "@context" : {
+      "key" : "Dec-27,KR%20Monthly%20Cale"
+    }
+  } ],
+  "count" : 3,
+  "hasMore" : true,
+  "limit" : 3,
+  "offset" : 0,
+  "links" : [ {
+    "rel" : "self",
+    "href" : "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/accountingPeriodsLOV",
+    "name" : "accountingPeriodsLOV",
+    "kind" : "collection"
+  } ]
+}

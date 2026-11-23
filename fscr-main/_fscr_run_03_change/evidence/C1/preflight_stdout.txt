@@ -1,0 +1,19 @@
+## Business Object Validation
+
+| Source | Type |
+|---|---|
+| fscrt-pt-c1-enddate-candidate.zip | FSM Setup |
+
+### Validated upload
+
+| Item | Value |
+|---|---|
+| Validated ZIP | [fscrt-pt-c1-enddate-candidate.zip](<E:\GoSaaS\Configuration Automation v2.1\fscr-main\_fscr_run_03_change\fscr-work3\project\fscrt-run01-om-setup\exports\financials\customer-billing\manage-receivables-payment-terms\fscrt-pt-c1-enddate-candidate.zip>) |
+
+### Validation complete
+
+fscrt-pt-c1-enddate-candidate.zip passed validation. No data was uploaded.
+
+### Approval required
+
+Reply with an approval to upload and initiate this exact validated load.

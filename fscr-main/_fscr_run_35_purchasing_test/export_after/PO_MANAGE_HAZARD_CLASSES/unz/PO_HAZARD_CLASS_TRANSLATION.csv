@@ -1,0 +1,5 @@
+"PO_HAZARD_CLASS.HazardClassCode","CreatedBy","CreationDate","Description","HazardClass","Language","LastUpdateDate","LastUpdateLogin","LastUpdatedBy","SourceLang"
+"Explosive","younas@gosaas.com","2023/04/27 10:18:31.107","","Explosive","US","2023/04/27 10:19:13.379","FA4C921B8BCA3EFBE0531065310A837F","younas@gosaas.com","US"
+"Flammable","younas@gosaas.com","2023/04/27 10:18:55.675","","Flammable-UPDATED","US","2023/04/27 10:22:42.645","FA4C921B8BCA3EFBE0531065310A837F","younas@gosaas.com","US"
+"Radioactive","younas@gosaas.com","2023/04/27 10:19:02.727","","Radioactive","US","2023/04/27 10:19:13.42","FA4C921B8BCA3EFBE0531065310A837F","younas@gosaas.com","US"
+"FSCRT_R35_HC","Configuration.TEST","2026/11/17 08:52:56.032","FSCR Run 35 test hazard class","FSCRT_R35 Hazard","US","2026/11/17 08:52:56.128","6075B7D8D00C9626E0631C65310A73FC","Configuration.TEST","US"

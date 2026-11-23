@@ -1,0 +1,3 @@
+AlternateNameId,AlternatePayerName,CustomerAccountNumber,CustomerName,ZenginCustomerBankName,ZenginCustomerBankBranchName,Active,CreatedBy,CreationDate,ObjectVersionNumber
+300000395049051,FSCRT_R27 Payer A,21541,ZZ_TEST_CU_2589_14_OK,,,Y,Configuration.TEST,2026-11-16T07:18:50+00:00,1
+300000395044061,FSCRT_R27 Payer B,21541,ZZ_TEST_CU_2589_14_OK,FSCRT_R27 Test Bank,FSCRT_R27 Test Branch,Y,Configuration.TEST,2026-11-16T07:19:01+00:00,1

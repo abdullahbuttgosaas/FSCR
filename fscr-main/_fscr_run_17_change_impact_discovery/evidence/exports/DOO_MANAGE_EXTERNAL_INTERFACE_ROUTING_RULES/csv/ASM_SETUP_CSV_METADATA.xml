@@ -1,0 +1,103 @@
+<MigrationProcessCSVMetadataVO>
+   <MigrationProcessCSVMetadataVORow>
+      <ProcessId>-999</ProcessId>
+      <ProcessName>Manage External Interface Routing Rules_20261109_123016_416</ProcessName>
+      <ProcessDescription>Manage External Interface Routing Rules_20261109_123016_416</ProcessDescription>
+      <ProcessDate>2026-11-09 12:30:48.793</ProcessDate>
+      <ObjectShortName>DOO_MANAGE_EXTERNAL_INTERFACE_ROUTING_RULES</ObjectShortName>
+      <ObjectType>TASK</ObjectType>
+      <CreatedByFlow>TASK_CSV_SERVICE</CreatedByFlow>
+      <ProcessType>EXPORT</ProcessType>
+      <ProcessStatus>COMPLETED</ProcessStatus>
+      <ProcessEnv>etia-test</ProcessEnv>
+      <ProcessStartDate>2026-11-09 12:30:17.11</ProcessStartDate>
+      <ProcessEndDate>2026-11-09 12:30:48.793</ProcessEndDate>
+      <ProcessRelease>11.13.26.10.0</ProcessRelease>
+      <SubmittedBy>Configuration.TEST</SubmittedBy>
+      <ESSRequestId>4447499</ESSRequestId>
+      <MigrationProcessBusinessObjectCSVMetadata1>
+         <MigrationProcessBusinessObjectCSVMetadataVORow>
+            <ProcessId>-999</ProcessId>
+            <BusinessObjectShortName>DOO_WEB_SERVICE_DETAILS</BusinessObjectShortName>
+            <BatchName null="true"/>
+            <XmlAttributeList>CreatedBy,LastUpdatedBy,OrchestrationApplicationCode,ServiceName,Description,OrigSystemName,ResponseProcessPartialMode,SendAttachmentsFlag,InvocationMode</XmlAttributeList>
+            <XmlAttributeTypeList>string,string,string,string,string,string,string,string,string</XmlAttributeTypeList>
+            <XmlNodePath>/WebServiceDetailsMigrationVO/WebServiceDetailsMigrationVORow</XmlNodePath>
+            <NodeSequence>1</NodeSequence>
+         </MigrationProcessBusinessObjectCSVMetadataVORow>
+         <MigrationProcessBusinessObjectCSVMetadataVORow>
+            <ProcessId>-999</ProcessId>
+            <BusinessObjectShortName>DOO_TRANSFORMATION_RULES</BusinessObjectShortName>
+            <BatchName null="true"/>
+            <XmlAttributeList>RuleDictionaryId,RuleDictionary,RuleDictionaryName,RuleDictionaryOwner,RuleDictionaryVersion</XmlAttributeList>
+            <XmlAttributeTypeList>long,clob,string,string,int</XmlAttributeTypeList>
+            <XmlNodePath>/RuleDictionarySetupVO/RuleDictionarySetupVORow</XmlNodePath>
+            <NodeSequence>1</NodeSequence>
+         </MigrationProcessBusinessObjectCSVMetadataVORow>
+         <MigrationProcessBusinessObjectCSVMetadataVORow>
+            <ProcessId>-999</ProcessId>
+            <BusinessObjectShortName>DOO_PROCESS_ASSIGNMENT_RULES</BusinessObjectShortName>
+            <BatchName null="true"/>
+            <XmlAttributeList>RuleDictionaryId,RuleDictionary,RuleDictionaryName,RuleDictionaryOwner,RuleDictionaryVersion</XmlAttributeList>
+            <XmlAttributeTypeList>long,clob,string,string,int</XmlAttributeTypeList>
+            <XmlNodePath>/RuleDictionarySetupVO/RuleDictionarySetupVORow</XmlNodePath>
+            <NodeSequence>1</NodeSequence>
+         </MigrationProcessBusinessObjectCSVMetadataVORow>
+         <MigrationProcessBusinessObjectCSVMetadataVORow>
+            <ProcessId>-999</ProcessId>
+            <BusinessObjectShortName>ORA_FOM_ORDER_APPROVAL_RULE</BusinessObjectShortName>
+            <BatchName null="true"/>
+            <XmlAttributeList>RuleDictionaryId,RuleDictionary,RuleDictionaryName,RuleDictionaryOwner,RuleDictionaryVersion</XmlAttributeList>
+            <XmlAttributeTypeList>long,clob,string,string,int</XmlAttributeTypeList>
+            <XmlNodePath>/RuleDictionarySetupVO/RuleDictionarySetupVORow</XmlNodePath>
+            <NodeSequence>1</NodeSequence>
+         </MigrationProcessBusinessObjectCSVMetadataVORow>
+         <MigrationProcessBusinessObjectCSVMetadataVORow>
+            <ProcessId>-999</ProcessId>
+            <BusinessObjectShortName>ORA_DOO_EXTERNAL_INTERFACE</BusinessObjectShortName>
+            <BatchName null="true"/>
+            <XmlAttributeList>RuleDictionaryId,RuleDictionary,RuleDictionaryName,RuleDictionaryOwner,RuleDictionaryVersion</XmlAttributeList>
+            <XmlAttributeTypeList>long,clob,string,string,int</XmlAttributeTypeList>
+            <XmlNodePath>/RuleDictionarySetupVO/RuleDictionarySetupVORow</XmlNodePath>
+            <NodeSequence>1</NodeSequence>
+         </MigrationProcessBusinessObjectCSVMetadataVORow>
+      </MigrationProcessBusinessObjectCSVMetadata1>
+      <MigrationProcessBatchCSVMetadata null="true"/>
+      <MigrationProcessScopeValueCSVMetadata>
+         <MigrationProcessScopeValueCSVMetadataVORow>
+            <ProcessId>-999</ProcessId>
+            <MigScopeValueSetId>100004733483060</MigScopeValueSetId>
+            <BusinessObjectShortName>ORA_DOO_EXTERNAL_INTERFACE</BusinessObjectShortName>
+            <ScopeValueBoAttributeId>dictionaryName</ScopeValueBoAttributeId>
+            <ScopeValueBoAttributeValue>EILRouting</ScopeValueBoAttributeValue>
+            <ScopeValueBoAttributeValueCode>EILRouting</ScopeValueBoAttributeValueCode>
+         </MigrationProcessScopeValueCSVMetadataVORow>
+         <MigrationProcessScopeValueCSVMetadataVORow>
+            <ProcessId>-999</ProcessId>
+            <MigScopeValueSetId>100004733483058</MigScopeValueSetId>
+            <BusinessObjectShortName>DOO_WEB_SERVICE_DETAILS</BusinessObjectShortName>
+            <ScopeValueBoAttributeId>dictionaryName</ScopeValueBoAttributeId>
+            <ScopeValueBoAttributeValue>EILRouting</ScopeValueBoAttributeValue>
+            <ScopeValueBoAttributeValueCode>EILRouting</ScopeValueBoAttributeValueCode>
+         </MigrationProcessScopeValueCSVMetadataVORow>
+      </MigrationProcessScopeValueCSVMetadata>
+      <MigrationProcessMigrationObjectCSVMetadata>
+         <MigrationProcessMigrationObjectCSVMetadataVORow>
+            <ProcessId>-999</ProcessId>
+            <BusinessObjectShortName>DOO_WEB_SERVICE_DETAILS</BusinessObjectShortName>
+            <MigrateFlag>Y</MigrateFlag>
+            <IncludeExternalDataFlag>Y</IncludeExternalDataFlag>
+            <ServiceType null="true"/>
+         </MigrationProcessMigrationObjectCSVMetadataVORow>
+         <MigrationProcessMigrationObjectCSVMetadataVORow>
+            <ProcessId>-999</ProcessId>
+            <BusinessObjectShortName>ORA_DOO_EXTERNAL_INTERFACE</BusinessObjectShortName>
+            <MigrateFlag>Y</MigrateFlag>
+            <IncludeExternalDataFlag>Y</IncludeExternalDataFlag>
+            <ServiceType null="true"/>
+         </MigrationProcessMigrationObjectCSVMetadataVORow>
+      </MigrationProcessMigrationObjectCSVMetadata>
+      <MigrationProcessTaskCSVMetadata null="true"/>
+      <MigrationProcessServiceVersionCSVMetadata null="true"/>
+   </MigrationProcessCSVMetadataVORow>
+</MigrationProcessCSVMetadataVO>

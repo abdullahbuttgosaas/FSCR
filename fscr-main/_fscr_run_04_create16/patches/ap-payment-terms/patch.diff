@@ -1,0 +1,4 @@
+1475c1475
+<             passed = candidate_value == requested and persisted_value == requested
+---
+>             passed = candidate_value == requested and (persisted_value == requested or persisted_value.replace("/", "-") == requested)  # RUN04 PATCH: export dates are YYYY/MM/DD

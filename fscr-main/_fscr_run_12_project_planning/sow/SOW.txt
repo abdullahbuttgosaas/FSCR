@@ -1,0 +1,314 @@
+Twelve -
+Oracle Cloud SCM Implementation SOW
+
+  January 24, 2025
+This document shall serve as a Statement of Work ("SOW") for Oracle Cloud SCM Implementation
+SOW ("project") between Twelve Benefit Corporation "Twelve" and GoSaaS, Inc. "GoSaaS". This
+SOW describes the services to be performed by GoSaaS for the Client.
+
+The terms and conditions of this SOW are confidential and only intended for those involved in making
+decisions regarding the project described in this proposal. This SOW or contents therein are not to
+be shared with any third parties either by GoSaaS or by Twelve.
+
+This SOW contains the following sections:
+
+A. Project Objective
+B. Scope
+C. Assumptions
+D. Project Costs
+E. Client Responsibilities
+
+By signing below, the Client agrees with the deliverables, schedule, client responsibilities and the
+obligations outlined in this SOW.
+
+GoSaaS will commence the services outlined in this SOW after the Client-executed copy of
+this SOW has been received by GoSaaS.
+
+Twelve             GoSaaS
+
+Name: Maisie Luce  Name: Meghan Dey
+Title: Head of IT       Title: Partner, Head of Revenue
+Date: January 28, 2025  Date: 1-28-2025
+A. Project Objective
+
+Twelve would like to implement Oracle Cloud Supply Chain Management (SCM) modules to support
+its key financial and supply chain processes with a focus on core functionalities, future readiness,
+and a common design across the modules. Additionally, the scope will provide input into the updates
+to the production Financials modules natively integrated with the new SCM modules, as well the
+creation of a Reporting Strategy. In order to ensure successful implementation and adoption of the
+system, Twelve would like to engage GoSaaS.
+
+GoSaaS will also establish reporting strategies and document configurations for various modules.
+
+B. Scope
+
+At a high level, the following items will be in scope for this engagement:
+
+Oracle Cloud Modules & Process Scope
+This includes Product Management, Materials Management and Procurement Modules, and to be
+determined updates to the Financials modules include the General ledger. Scope includes the
+documentation of supporting Business Scenarios, Requirements, Process Flows, Key Design
+Decisions and Configurations Templates.
+
+   1. Product Information Management Module
+            1.1. Create of Items for Maintainable Equipment, Assets
+                 and Spare parts
+            1.2. Creation of items for Manufactured Product
+             1.3. Enable the ability to create Manufacturing Structures and Maintenance Structures
+
+   2. Inventory and Cost Management Module
+            2.1. Management of inventoriable items including spare
+                 parts, bulk material, vendor managed inventory and
+                 manufacturing product, including the receiving of materials against purchase orders, the
+                 return to vendor process, and inventory putaway to a stored location
+            2.2. Configuration of the current Plant locations as
+                 Inventory Organizations, allowing location specific
+                 configurations to be added in the future
+            2.3. Definition of the Costing Organization Structure and Cost Books
+         2.4. Costing processes for Manufactured Inventory
+         2.5. Costing processes for Maintenance Equipment
+         2.6. Costing process for inventoried material
+3. Self-Service Procurement
+        3.1. Enablement of Non-Catalog based Requisitioning
+         3.2. Enablement of requisitioning for Inventory based materials supporting Maintenance and
+
+              Manufacturing
+        3.3. Configuration of Purchase Order Delegation of Authority (approvals)
+
+        3.4. Configuration of Project and non-Project accounting rules for Purchase Orders and
+
+              Purchase Order Receipts
+
+        3.5. A focus will be to utilize configuration values and concepts from Coupa, where
+
+              applicable
+4. Purchasing
+
+        4.1. Project and non-Project based Requisitions and PO's
+        4.2. Delegation of Authority of Requisitions and PO's
+5. Supplier Portal
+        5.1. Enablement of supplier registrations
+        5.2. General Procure to Payment process inquiry
+        5.3. Supplier Invoice Creation
+        5.4. Supplier data self-maintenance
+        5.5. Supplier onboarding will managed by Twelve
+6. Manufacturing
+         6.1. The Manufacturing module will be configured and validate to in a "ready to use" state. This
+
+              being defined being able to create Structures, Work Definitions, Work Centers, Work Areas
+              and Operations. No Structures, Work Definitions are in scope to be configured or migrated
+              for this project. Oracle will be validated in it ability to create, release and complete process
+              based Manufacturing Work Orders.
+         6.2. The scope will focus on Process based Manufacturing. Discrete Manufacturing is not in
+              scope.
+         6.3. Enable the ability create Work Definitions, Work Centers, Work Areas and Operations for
+              Manufacturing
+         6.4. The ability to manually release and complete Work Orders, issue materials to, and receive
+              materials from the Work Order into inventory. This will include position a longer term vision
+              to integrate Manufacturing with an external Manufacturing Execution System (MES).
+              Integrating with an MES is not scope.
+7. Maintenance
+         7.1. The Maintenance module will be configured and validate to in a "ready to use" state. This
+              being defined being able to create Maintainable Assets and Equipment, create Equipment
+              Structures, Work Definitions, Work Centers, Work Areas and Operations. No assets or
+                   equipment are in scope to be configured or migrated for this project. Oracle will be validated
+                   in it ability to create, release and complete Maintenacne Work Orders.
+             7.2. Enable the ability to create maintainable equipment and structures for their equipment and
+                   spares parts
+             7.3. Enable the ability create Work Definitions, Work Centers, Work Areas and Operations for
+                   Maintenance
+             7.4. Enable the ability to create maintenance work orders to repair and replace equipment and
+                   spare parts
+             7.5. Enable the ability to define Meters for Equipment and associate these with Equipment
+             7.6. The ability to create Maintenance Programs which drive the process to create preventative
+                   Maintenance Orders
+             7.7. Enable the the ability for these assets to be Installed Base trackable
+
+Oracle Cloud Financials and Reporting Scope
+The in-scope Cloud Financials modules for remediation due to the implementation of the new SCM
+and Expense modules include the General Ledger, Accounts Receivable, Project Management,
+Grants Management, Accounts Payable, Cash Management and Fixed Assets modules.
+The implementation of the Oracle Cloud Supply Chain Sustainability and Expenses modules.
+The scope of any updates to the production Financials modules will be determined during the project.
+Scope includes the documentation of supporting Business Scenarios, Requirements, Process Flows,
+Key Design Decisions and Configurations Templates.
+
+   1. Project Cost Management
+            1.1. Project Commitments for Requisitions & POs
+            1.2. Purchase Order Receipts and Payables Invoices for Project Based transactions
+
+   2. Asset Management
+            2.1. Updates to changes to Accounts Payables and Project Management resulting from the
+                 implementation of the new SCM and Expenses modules
+
+   3. Confirm the Enterprise (Business Unit) Structure
+            3.1. Configure updates for the Requisitioning and Purchasing Business Units into the
+                 existing Business Unit Structure
+            3.2. Include considerations for Centralized / Decentralized and Shared Service processes
+
+   4. Sustainability
+            4.1. Configure for data sourced from Payables Supplier Invoices and manual file
+                 uploads
+            4.2. Reporting will be focused on the native Oracle seeded reporting within the Sustainability
+                 module
+            4.3. EPM enabled sustainability reporting is not in scope
+
+   5. Expenses
+            5.1. A design session will be conducted for the Expenses module to position the functionality
+                 and confirm if it will be in or out of scope for the project. If in scope, the following bullets
+                 detail the scope.
+
+            5.2. Configure and implement for employee Travel and Entertain expenses
+            5.3. Configuration of the Delegation of Authority (approvals) for expense reports
+            5.4. Configuration of the accounting rules for Project and non-Project based expense
+
+                 reports
+   6. Creation of a Reporting Approach
+
+            6.1. Establish the future reporting usage between Oracle Transactional Business
+                 Intelligence (OTBI), Business Intelligence Publisher (BIP), Fusion Data Intelligence and
+                 Enterprise Performance Management (EPM)
+
+            6.2. Consideration for Financial reporting supporting EPM Planning & Budgeting, the Month
+                 End Close process and General Ledger reporting
+
+   7. General Ledger
+            7.1. Provide support to Twelve on the accounting and journal entry process associated with
+                 the new Supply Chain and Expense modules, which include Inventory, Costing,
+                 Manufacturing, Maintenance, Purchasing and Expenses (Expenses Reports)
+
+Report, Integrations, Conversions & Extensions Scope
+   1. Reports
+            1.1. Objects:
+                     1.1.1. A Printable Purchase Order
+            1.2. Deliverables:
+                     1.2.1. Functional Design Document
+                     1.2.2. Technical Design Document
+            1.3. Activities:
+                     1.3.1. Creation of Functional Design per Requirements
+                     1.3.2. Creation of Technical Design, Code & Unit Test
+                     1.3.3. Confirm any updates and disposition
+   2. Conversions
+            2.1. Objects:
+                     2.1.1. Suppliers
+            2.2. Deliverables:
+                     2.2.1. Functional Design Document
+                     2.2.2. Technical Design Document
+   3. No extensions and integrations are part of the target scope
+Configurations Scope
+Document the configurations for the in scope modules
+
+   1. Product Information Management - New
+   2. Self-Service Purchasing - New
+   3. Purchasing - New
+   4. Supplier Portal - New
+   5. Payables (incremental changes as needed)
+   6. Inventory & Cost Management - New
+   7. General Ledger / Subledger Accounting (incremental changes as needed)
+   8. Project Managements (incremental changes as needed)
+   9. Sustainability - New
+    10. Maintenance - New
+    11. Manufacturing - New
+    12. Security and Roles
+
+Change Management
+   1. The creation of training material for newly implemented modules
+   2. GoSaaS will adopt the Train-the-Trainer approach
+
+Note: This is an aggressive plan to implement an enterprise system. In order to achieve these
+timelines and costs, client and GoSaaS will need to be available and be flexible to work jointly, make
+decisions swiftly and provide sign-offs in a timely manner. Both parties will need to work closely to
+ensure that the start and finish happen according to plan. Any out of scope items or requirements
+may result in addendums to the project that can be executed if both parties agree.
+C. Assumptions
+
+   1. Estimate does not incorporate productive effort from Twelve resources
+   2. Solutioning approach is to implement for known scope and requirements, while positioning
+
+        Oracle to be "Ready to Use" and enhanced for future scope, where known
+            2.1. Go-Live & Ready to Use criteria will be refined during the project
+
+   3. Approach will be to deploy a Common Design for all modules, positioning future location
+        specific Phase rollouts
+
+   4. Twelve is managing all change management scope, unless otherwise noted
+   5. Data migration efforts will be minimal
+
+            5.1. Required employees are in Production, or can be onboarded as needed, post go-live
+   6. GoSaaS will develop training materials and use the Train the Trainer approach
+   7. Number of Countries - 1 (US), Number of Plant Locations - 2
+   8. Duration - 12 weeks
+   9. Changes in complexities and/or duration can have a tangible impact on the cost
+   10. Approved configurations will be migrated to Production by Twelve
+   11. Travel is not planned for this project. If any travel is required, this be will exclusive of the Project
+
+         Costs.
+
+D. Project Costs
+
+The following table summarizes the costs:
+
+Role                  Hourly Rate  Number of Hours  Subtotal
+Finance Architect        $225.00            140      $31,500.00
+SCM Architect            $225.00            640     $144,000.00
+Reporting Architect      $225.00             80      $18,000.00
+Inventory Consultant     $45.00             560      $25,200.00
+PMO Analyst              $150.00            320      $48,000.00
+DEV Consultant           $45.00             280      $12,600.00
+Finance Consultant       $45.00             280      $12,600.00
+Manufacturing / Maintenance Consultant  $45.00     560      $25,200.00
+Procurement Consultant                  $45.00     560      $25,200.00
+Product Information Management          $45.00     400      $18,000.00
+
+                                                Total   $360,300.00
+
+The roles and hours listed above are estimates. The number of hours for each role may vary during
+the project, within the project budget. The planned allocation between Finance and Supply Chain is
+the following.
+
+   · The Finance number is $83,700
+   · The Supply Chain number is $276,600
+
+GoSaaS will bill monthly on a time and material basis.
+
+E. Client Responsibilities
+
+1. Twelve will complete their activities, tasks and responsibilities to make this project successful in a
+timely manner. Tasks and responsibilities include, but are not limited to, being available for meetings,
+making timely decisions, testing functionality, providing data from other systems in a mutually agreed
+format.
+
+2. Twelve will make available relevant reference information to assist GoSaaS in understanding the
+requirements in a timely manner.
+
+3. Twelve will make available key personnel as mutually agreed for meetings, planning sessions,
+interviews and key discussions.
+
+4. All information pertaining to and arising from this engagement will remain confidential in
+accordance to the Agreement.
+
+5. GoSaaS will retain the rights to use, modify and resell any source code or other technical artifacts
+developed and/or deployed as part of this engagement to GoSaaS's other clients, as long as it does
+not violate any confidentiality requirements.
+
+6. Twelve will provide remote access to development and production platforms as appropriate.
+7. Twelve will provide GoSaaS resources with appropriate access to the necessary technical
+environments and/or applications.
+
+8. Twelve will resolve issues and road blocks pertaining to resource availability in a timely manner.
+
+9. Twelve will appoint a project lead to oversee the project. The project lead will have decision-
+making authority over all aspects of the project.
+
+10. In case of any delays from Twelve's side, GoSaaS will attempt its best to utilize its team in
+completing other tasks but it may still result in productivity losses for tasks where there is a strong
+dependency on Twelve's timely completion of an activity. Such delays from the Twelve may result in
+costs over the not-to-exceed amount listed above.
+
+11. Twelve will participate in reference calls and case studies regarding this engagement.
+
+GoSaaS representative is required to fill in the following document number at the time of the
+signature:
+
+Document Number: 50513scm
+

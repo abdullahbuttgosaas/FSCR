@@ -1,0 +1,9 @@
+{
+ "label": "(UTC-05:00) New York - Eastern Time (ET)",
+ "zone": "America/New_York",
+ "saved": 1792973824.6296031,
+ "read_at": "2026-10-26T00:17:04+00:00",
+ "date_format": "M/d/yy (10/26/26)",
+ "time_format": "h:mm a (8:16 PM)",
+ "about": "The Oracle user's time zone (Set Preferences > Regional), read from the screen by pl_batch.py; dates are sent as 12:00 AM in this zone."
+}

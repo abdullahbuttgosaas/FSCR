@@ -1,0 +1,28 @@
+<ComparisonResultVO>
+   <ComparisonResultVORow>
+      <NodePathBoShortName>FND_APP_STANDARD_LOOKUP</NodePathBoShortName>
+      <NodePath>Application Standard Lookup</NodePath>
+      <ApplicationName>Oracle Middleware Extensions for Applications</ApplicationName>
+      <Source1Count>0</Source1Count>
+      <Source2Count>0</Source2Count>
+      <MismatchCount>0</MismatchCount>
+      <MatchCount>6</MatchCount>
+      <TotalCount>6</TotalCount>
+      <BusinessObjectShortName>FND_APP_STANDARD_LOOKUP</BusinessObjectShortName>
+      <FullNodePath>/StandardLookupType1VO/StandardLookupType1VORow</FullNodePath>
+      <BusinessObjectSequence>60</BusinessObjectSequence>
+   </ComparisonResultVORow>
+   <ComparisonResultVORow>
+      <NodePathBoShortName>ORA_FND_APP_STANDARD_LOOKUP_CODE</NodePathBoShortName>
+      <NodePath>Application Standard Lookup Code</NodePath>
+      <ApplicationName>Oracle Middleware Extensions for Applications</ApplicationName>
+      <Source1Count>0</Source1Count>
+      <Source2Count>0</Source2Count>
+      <MismatchCount>1</MismatchCount>
+      <MatchCount>69</MatchCount>
+      <TotalCount>70</TotalCount>
+      <BusinessObjectShortName>FND_APP_STANDARD_LOOKUP</BusinessObjectShortName>
+      <FullNodePath>/StandardLookupType1VO/StandardLookupType1VORow/Lookup1VO/Lookup1VORow</FullNodePath>
+      <BusinessObjectSequence>60</BusinessObjectSequence>
+   </ComparisonResultVORow>
+</ComparisonResultVO>

@@ -1,0 +1,34 @@
+Read-only capture of instance plan templates (Google Sheets HTML view, cell values + fill colours).
+Source folder: Customers / 000 Reference Project Setup / 1 Kickoff
+Notation: R=row, C=column (0-based), [#hex]=cell fill, ":text"=cell value, Cx-y = run of identical cells.
+NOTE: the HTML view does not render Excel drawing objects (shapes/arrows/text boxes). Blocks drawn as shapes are NOT captured here.
+
+=== Instance Plan 2025.xlsx (id 16tXZiT20-hWnyEvRLNBAPUNI1JH0LNPI, modified 2025-01-17) — 1 sheet "2023 All"
+R1 C0[#e7e6e6]:Client | C2-60[#f3f3f3]   (week header row, no date values in this copy)
+R2 C0-1:Production | C2-60[#bdd6ee]
+R3 C1-59[#bdd6ee]
+R4 C1-59[#bdd6ee]
+R5 C1-59[#bdd6ee]
+R6 C0-60:Test
+R10 C0-60:Development
+R16 C2-5[#d8d8d8]:22D | C6-18[#bfbfbf]:23A | C19-31[#f2f2f2]:23B | C32-44[#d8d8d8]:23C | C45-58[#f2f2f2]:23D
+R20 C0-5:Patch | C6:A = | C7-60:Feb, May, August, November
+R21 C0-5:Refresh | C6:B = | C7-60:March, June, September, December
+R22 C6:C = | C7-60:April, July, October, January
+R23 C0-5:Data Extract | C6:LS = | C7-60:A (Dev) + B (Test& Prod)
+R24 C0-5:Cutover | C6-60:Non-Prod = 1st Friday
+R25 C6-60:Prod = 3rd Friday
+
+=== Instance Plan 2024.xlsx (id 1tPk5obrI9sT8rkDOI5uzs4yA9xkv-I3U, modified 2024-04-03) — sheets "2024 All", "Cohort C" (identical content)
+R1 C0[#e7e6e6]:Client | C2..C64[#f3f3f3]: weekly Monday dates 1-Jan, 8-Jan, ... 30-Dec, 6-Jan ... 10-Mar (63 weekly columns, ~15 months)
+R2 C0-1:Production | C2-64[#bdd6ee]
+R3-R5 C1-63[#bdd6ee]
+R6 C0-64:Test
+R10 C0-64:Development
+R16 C2-5[#d8d8d8]:23D | C6-18[#bfbfbf]:24A | C19-31[#f2f2f2]:24B | C32-44[#d8d8d8]:24C | C45-58[#f2f2f2]:24D
+R20 Patch: A = Feb, May, August, November
+R21 Refresh: B = March, June, September, December
+R22 C = April, July, October, January
+R23 Data Extract: LS = A (Dev) + B (Test& Prod)
+R24 Cutover: Non-Prod = 1st Friday
+R25 Prod = 3rd Friday

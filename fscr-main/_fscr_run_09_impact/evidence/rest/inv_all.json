@@ -1,0 +1,51 @@
+{
+ "items": [
+  {
+   "CustomerTransactionId": "4",
+   "TransactionNumber": "1",
+   "PaymentTerms": "30 Net",
+   "BusinessUnit": "BUU1",
+   "TransactionType": "Invoice",
+   "TransactionSource": "Distributed Order Orchestration",
+   "BillToCustomerName": "CUSTOMER 1",
+   "@context": {
+    "key": "4",
+    "headers": {
+     "ETag": "ACED0005737200136A6176612E7574696C2E41727261794C6973747881D21D99C7619D03000149000473697A65787000000001770400000001737200116A6176612E6C616E672E496E746567657212E2A0A4F781873802000149000576616C7565787200106A6176612E6C616E672E4E756D62657286AC951D0B94E08B02000078700000000378"
+    }
+   }
+  },
+  {
+   "CustomerTransactionId": "1002",
+   "TransactionNumber": "1001",
+   "PaymentTerms": "30 Net",
+   "BusinessUnit": "BUU1",
+   "TransactionType": "Invoice",
+   "TransactionSource": "Distributed Order Orchestration",
+   "BillToCustomerName": "CUSTOMER 1",
+   "@context": {
+    "key": "1002",
+    "headers": {
+     "ETag": "ACED0005737200136A6176612E7574696C2E41727261794C6973747881D21D99C7619D03000149000473697A65787000000001770400000001737200116A6176612E6C616E672E496E746567657212E2A0A4F781873802000149000576616C7565787200106A6176612E6C616E672E4E756D62657286AC951D0B94E08B02000078700000000278"
+    }
+   }
+  },
+  {
+   "CustomerTransactionId": "1001",
+   "TransactionNumber": "1002",
+   "PaymentTerms": "custom pt",
+   "BusinessUnit": "BUU1",
+   "TransactionType": "Invoice",
+   "TransactionSource": "Distributed Order Orchestration",
+   "BillToCustomerName": "CUSTOMER 1",
+   "@context": {
+    "key": "1001",
+    "headers": {
+     "ETag": "ACED0005737200136A6176612E7574696C2E41727261794C6973747881D21D99C7619D03000149000473697A65787000000001770400000001737200116A6176612E6C616E672E496E746567657212E2A0A4F781873802000149000576616C7565787200106A6176612E6C616E672E4E756D62657286AC951D0B94E08B02000078700000000278"
+    }
+   }
+  }
+ ],
+ "count": 3,
+ "pages": 1
+}

@@ -1,0 +1,101 @@
+{
+  "baselineSha256": "e7d15561e7082e04f7db67150313ec77f3de4e0937feec27707a80c3da65ccbd",
+  "candidateSha256": "cf8809a28a7f0eba83f1526494736736a3c00f7ca7c56f84194fb67bf4bdd6cd",
+  "exportSha256": "6c6d5aea379d7e855383b40b40eda3b432582ce0b4b10beb9c2c55dee851e83f",
+  "mismatchCount": 0,
+  "requirementMatrix": [
+    {
+      "candidate": "present",
+      "detail": "",
+      "passed": true,
+      "persisted": "present",
+      "requested": "record present",
+      "requirement": "create exactly one AR_AI_GROUPING_RULE record identified by {\"Name\":\"FSCRT_GRP6\"}",
+      "requirementId": "REQ-001"
+    },
+    {
+      "candidate": "FSCRT Run06 consignment grouping rule",
+      "detail": "",
+      "passed": true,
+      "persisted": "FSCRT Run06 consignment grouping rule",
+      "requested": "FSCRT Run06 consignment grouping rule",
+      "requirement": "Persist AR_AI_GROUPING_RULE.Description=FSCRT Run06 consignment grouping rule",
+      "requirementId": "REQ-002"
+    },
+    {
+      "candidate": "2026-11-03",
+      "detail": "Retained the raw declared-date format difference under FSCR.TYPE.DATE.STRICT_ISO_TO_SLASH.",
+      "passed": true,
+      "persisted": "2026/11/03",
+      "rawDifferences": [
+        {
+          "candidate": "2026-11-03",
+          "field": "StartDate",
+          "persisted": "2026/11/03",
+          "requested": "2026-11-03"
+        }
+      ],
+      "requested": "2026-11-03",
+      "requirement": "Persist AR_AI_GROUPING_RULE.StartDate=2026-11-03",
+      "requirementId": "REQ-003",
+      "semanticEquivalences": [
+        {
+          "canonicalValue": "2026-11-03",
+          "contractEvidence": [
+            "e2e-adapter.json package.entities[AR_AI_GROUPING_RULE].types[StartDate]=date",
+            "Exact ASM_SETUP_CSV_METADATA.xml XmlAttributeTypeList date contract"
+          ],
+          "declaredType": "date",
+          "entity": "AR_AI_GROUPING_RULE",
+          "field": "StartDate",
+          "rawValues": {
+            "candidate": "2026-11-03",
+            "persisted": "2026/11/03",
+            "requested": "2026-11-03"
+          },
+          "ruleId": "FSCR.TYPE.DATE.STRICT_ISO_TO_SLASH",
+          "semanticValue": "same Gregorian calendar date"
+        }
+      ]
+    },
+    {
+      "candidate": "not populated by design",
+      "detail": "Unexpected difference count: 0.",
+      "passed": true,
+      "persisted": "unchanged",
+      "requested": "unchanged",
+      "requirement": "Preserve every unspecified record and non-audit value",
+      "requirementId": "REQ-004"
+    },
+    {
+      "candidate": "present",
+      "detail": "",
+      "passed": true,
+      "persisted": "present",
+      "requested": "record present",
+      "requirement": "create exactly one ORA_AR_AI_GRP_TXN_TYPE record identified by {\"AR_AI_GROUPING_RULE.Name\":\"FSCRT_GRP6\",\"Class11\":\"I\"}",
+      "requirementId": "REQ-005"
+    },
+    {
+      "candidate": "not populated by design",
+      "detail": "Unexpected difference count: 0.",
+      "passed": true,
+      "persisted": "unchanged",
+      "requested": "unchanged",
+      "requirement": "Preserve every unspecified record and non-audit value",
+      "requirementId": "REQ-006"
+    }
+  ],
+  "schemaVersion": "fscr-fsm-task-adapter-v1",
+  "status": "PASS",
+  "task": {
+    "code": "AR_MANAGE_AUTOINVOICE_GROUPING_RULES",
+    "csvSupported": true,
+    "functionalArea": "Customer Billing",
+    "importMode": "FSM",
+    "name": "Manage AutoInvoice Grouping Rules",
+    "offering": "Financials"
+  }
+}
+
+--stderr--

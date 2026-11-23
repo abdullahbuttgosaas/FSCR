@@ -1,0 +1,938 @@
+Area,Offering,Module (functional area),TaskCode,TaskName,GapType,CSVflag,RoutesDeclared
+ERP,Financials,Banking Configurations,ORA_FUN_MANAGE_BANKING_CONFIGURATIONS_FOR_JP_MORGAN,Manage Embedded Banking Configurations,noskill_noroute,N,-
+ERP,Financials,Banking Configurations,ORA_FUN_MANAGE_STANDARD_BANKING_CONFIGURATIONS,Manage Standard Banking Configurations,noskill_noroute,N,-
+ERP,Financials,Bill Management,ORA_ARB_SETUP_BILL_MANAGEMENT_REGISTRATION,Manage Bill Management Registration,noskill_noroute,N,-
+ERP,Financials,Bill Management,ORA_ARB_SETUP_BILL_MANAGEMENT_SYSTEM_OPTIONS,Manage Bill Management System Options,route_only,Y,-
+ERP,Financials,Budgetary Control and Encumbrance Accounting,ORA_FUN_MANAGE_CONTROL_BUDGET_DATA_ACCESS_FOR_USERS,Manage Control Budget Data Access for Users,noskill_noroute,N,-
+ERP,Financials,Budgetary Control and Encumbrance Accounting,ORA_GL_ENCUMBRANCE_CARRY_FORWARD_RULES,Manage General Ledger Encumbrance Carry Forward Rules,route_only,Y,-
+ERP,Financials,Budgetary Control and Encumbrance Accounting,ORA_GL_MANAGE_ENCUMBRANCE_TYPES,Manage Encumbrance Types,route_only,Y,-
+ERP,Financials,Budgetary Control and Encumbrance Accounting,ORA_XCC_ENABLE_BUDGETARY_CONTROL,Manage Budgetary Control,route_only,Y,-
+ERP,Financials,Budgetary Control and Encumbrance Accounting,ORA_XCC_ENABLE_ENCUMBRANCE_ACCOUNTING,Manage Encumbrance Accounting,route_only,Y,-
+ERP,Financials,Budgetary Control and Encumbrance Accounting,ORA_XCC_MANAGE_BUDGETS_CALENDARS,Manage Budget Calendars,route_only,Y,-
+ERP,Financials,Budgetary Control and Encumbrance Accounting,ORA_XCC_MANAGE_CONTROL_BUDGETS,Manage Control Budgets,route_only,Y,-
+ERP,Financials,Budgetary Control and Encumbrance Accounting,ORA_XLA_ACCOUNTING_METHOD_SETUP_REPORT,Submit Subledger Accounting Method Setups Report,noskill_noroute,N,-
+ERP,Financials,Collections,IEX_MANAGE_COLLECTIONS_LOOKUPS,Manage Collections Lookups,route_only,Y,-
+ERP,Financials,Collections,IEX_MANAGE_COLLECTIONS_NOTE_DESCRIPTIVE_FLEXFIELDS,Manage Collections Note Descriptive Flexfields,route_only,Y,-
+ERP,Financials,Collections,IEX_MANAGE_COLLECTIONS_NOTE_TYPE,Manage Collections Note Type,route_only,Y,-
+ERP,Financials,Collections,IEX_MANAGE_COLLECTIONS_NOTE_TYPE_MAPPING,Manage Collections Note Type Mapping,route_only,Y,-
+ERP,Financials,Collections,IEX_MANAGE_COLLECTIONS_PREFERENCES,Manage Collections Preferences,route_only,Y,-
+ERP,Financials,Collections,IEX_MANAGE_COLLECTIONS_TASK_DEFAULT_PROFILE_OPTION,Manage Collections Task Default Profile Option,route_only,Y,-
+ERP,Financials,Collections,IEX_MANAGE_COLLECTIONS_TASK_STANDARD_LOOKUPS,Manage Collections Task Standard Lookups,route_only,Y,-
+ERP,Financials,Collections,IEX_MANAGE_COLLECTORS,Manage Collectors,route_only,Y,-
+ERP,Financials,Collections,IEX_MANAGE_DUNNING_CONFIGURATIONS,Manage Dunning Configurations,route_only,Y,-
+ERP,Financials,Collections,ORA_IEX_MANAGE_COLLECTIONS_DESCRIPTIVE_FLEXFIELDS,Manage Collections Descriptive Flexfields,route_only,Y,-
+ERP,Financials,Collections,ORA_IEX_MANAGE_COLLECTIONS_METHODS,Manage Collections Methods,route_only,Y,-
+ERP,Financials,Collections,ORA_IEX_MANAGE_COLLECTIONS_SCORING,Manage Collections Scoring,route_only,Y,-
+ERP,Financials,Collections,ORA_IEX_MANAGE_COLLECTIONS_SCORING_AND_STRATEGIES_ASSIGNMENTS,Manage Collections Scoring and Strategy Assignments,route_only,Y,-
+ERP,Financials,Collections,ORA_IEX_MANAGE_COLLECTIONS_SCORING_DATA_POINTS,Manage Collections Scoring Data Points,route_only,Y,-
+ERP,Financials,Collections,ORA_IEX_MANAGE_COLLECTIONS_STRATEGIES,Manage Collections Strategies,route_only,Y,-
+ERP,Financials,Collections,ORA_IEX_MANAGE_COLLECTIONS_STRATEGY_TASKS,Manage Collections Strategy Tasks,route_only,Y,-
+ERP,Financials,Collections,ORA_IEX_MANAGE_COLLECTIONS_TASK_TEMPLATE,Manage Collections Task Template,route_only,Y,-
+ERP,Financials,Customer Billing,AR_MANAGE_BALANCE_FORWARD_BILLING_CYCLES,Manage Balance Forward Billing Cycles,route_only,Y,-
+ERP,Financials,Customer Billing,AR_MANAGE_RECEIVABLES_NOTE_DESCRIPTIVE_FLEXFIELDS,Manage Receivables Note Descriptive Flexfields,route_only,Y,-
+ERP,Financials,Customer Billing,AR_MANAGE_RECEIVABLES_NOTE_TYPE,Manage Receivables Note Type,route_only,Y,-
+ERP,Financials,Customer Billing,AR_MANAGE_RECEIVABLES_NOTE_TYPE_MAPPING,Manage Receivables Note Type Mapping,route_only,Y,-
+ERP,Financials,Customer Billing,AR_MANAGE_REVENUE_SCHEDULING_RULES,Manage Revenue Scheduling Rules,route_only,Y,-
+ERP,Financials,Customer Billing,AR_MANAGE_SALESPERSON_ACCOUNT_REFERENCES,Manage Salesperson Account References,noskill_noroute,N,-
+ERP,Financials,Customer Billing,AR_MANAGE_STANDARD_MEMO_LINES,Manage Standard Memo Lines,route_only,Y,-
+ERP,Financials,Customer Billing,JA_CN_MANAGE_GOLDEN_TAX_SYSTEM_OPTIONS,Manage Golden Tax System Options for China,route_only,Y,-
+ERP,Financials,Customer Billing,JA_CN_MANAGE_GOLDEN_TAX_TRANSFER_RULES,Manage Golden Tax Transfer Rules for China,route_only,Y,-
+ERP,Financials,Customer Billing,ORA_MANAGE_USER_DEFINED_RULES_FOR_RECEIVABLES,Manage User-Defined Rules for Receivables,noskill_noroute,N,-
+ERP,Financials,Customer Payments,AR_MANAGE_AUTOMATCH_RULE_SETS,Manage AutoMatch Rule Sets,route_only,Y,-
+ERP,Financials,Customer Payments,AR_MANAGE_CUSTOMER_PAYING_RELATIONSHIP_ASSIGNMENTS,Manage Customer Paying Relationship Assignments,route_only,Y,-
+ERP,Financials,Customer Payments,AR_MANAGE_LOCKBOX,Manage Lockbox,route_only,Y,-
+ERP,Financials,Customer Payments,AR_MANAGE_RECEIPT_APPLICATION_EXCEPTION_RULES,Manage Receipt Application Exception Rules,route_only,Y,-
+ERP,Financials,Customer Payments,AR_MANAGE_RECEIVABLES_SPECIALIST_ASSIGNMENT_RULES,Manage Receivables Specialist Assignment Rules,noskill_noroute,N,-
+ERP,Financials,Customer Payments,AR_MANAGE_TRANSMISSION_FORMATS_FOR_LOCKBOX,Manage Transmission Formats for Lockbox,route_only,Y,-
+ERP,Financials,Customer Payments,IBY_MANAGE_ACCEPTED_CREDIT_CARD_BRANDS,Manage Accepted Credit Card Brands,route_only,Y,-
+ERP,Financials,Customer Payments,IBY_MANAGE_FLEXFIELDS:_FUNDS_CAPTURE,Manage Funds Capture Flexfields,route_only,Y,-
+ERP,Financials,Customer Payments,IBY_MANAGE_FUNDS_CAPTURE_PAYMENT_METHODS,Manage Funds Capture Payment Methods,route_only,Y,-
+ERP,Financials,Customer Payments,IBY_MANAGE_LOOKUPS:_FUNDS_CAPTURE,Manage Funds Capture Lookups,route_only,Y,-
+ERP,Financials,Customer Payments,IBY_MANAGE_PROFILES:_FUNDS_CAPTURE,Manage Funds Capture Profile Options,route_only,Y,-
+ERP,Financials,Customer Payments,ORA_AR_MANAGE_RECEIVABLES_REVERSAL_REASON_TO_CATEGORY_MAPPING,Manage Receivables Reversal Reason to Category Mappings,route_only,Y,-
+ERP,Financials,Customer Payments,ORA_MANAGE_ALTERNATE_NAME_MAPPING_RULES,Manage Alternate Name Mapping Rules,noskill_noroute,N,-
+ERP,Financials,Customers,AR_CREATE_CUSTOMER,Create Customer,noskill_noroute,N,-
+ERP,Financials,Customers,AR_MANAGE_RECEIVABLES_CUSTOMER_PROFILE_CLASSES,Manage Receivables Customer Profile Classes,route_only,Y,-
+ERP,Financials,Expenses,EXM_LINK_CORPORATE_EXPENSE_POLICIES,Link Corporate Expense Policies,noskill_noroute,N,-
+ERP,Financials,Expenses,EXM_MANAGE_AUDIT_LOOKUP_TYPES,Manage Expense Report Auditing Lookup Types,route_only,Y,-
+ERP,Financials,Expenses,EXM_MANAGE_AUDIT_RULES_BY_TEMPLATES_AND_TYPES,Manage Expense Report Audit Rules by Expense Templates and Types,route_only,Y,-
+ERP,Financials,Expenses,EXM_MANAGE_CASH_ADVANCE_POLICIES,Manage Cash Advance and Authorization Policies,route_only,Y,-
+ERP,Financials,Expenses,EXM_MANAGE_CORPORATE_CARD_EXPENSE_TYPES,Manage Corporate Card Expense Types,route_only,Y,-
+ERP,Financials,Expenses,EXM_MANAGE_CORPORATE_CARD_EXPENSE_TYPES_MAPPING,Manage Corporate Card Expense Types Mapping,route_only,Y,-
+ERP,Financials,Expenses,EXM_MANAGE_CORPORATE_CARD_EXPENSE_TYPE_MAPPING_RULES,Manage Corporate Card Expense Type Mapping Rules,route_only,Y,-
+ERP,Financials,Expenses,EXM_MANAGE_CORPORATE_CARD_TRANSACTION_SUBMISSION_POLICIES,Manage Corporate Card Transaction Submission Policies,route_only,Y,-
+ERP,Financials,Expenses,EXM_MANAGE_CORPORATE_CARD_USAGE_POLICIES,Manage Corporate Card Usage Policies,route_only,Y,-
+ERP,Financials,Expenses,EXM_MANAGE_DESCRIPTIVE_FLEXFIELDS_FOR_EXPENSE_REPORTS,Manage Descriptive Flexfields for Expense Reports,route_only,Y,-
+ERP,Financials,Expenses,EXM_MANAGE_DETAIL_TRANSACTION_CODES,Manage Corporate Card Issuer Product Codes,route_only,Y,-
+ERP,Financials,Expenses,EXM_MANAGE_EMPLOYEE_MATCHING_RULES,Manage Employee Matching Rules,route_only,Y,-
+ERP,Financials,Expenses,EXM_MANAGE_EXPENSE_AUDIT_LIST_MEMBERS,Manage Expense Audit List Membership,noskill_noroute,N,-
+ERP,Financials,Expenses,EXM_MANAGE_EXPENSE_AUDIT_LIST_RULES,Manage Expense Audit List Rules,route_only,Y,-
+ERP,Financials,Expenses,EXM_MANAGE_EXPENSE_AUDIT_RULE_ASSIGNMENTS,Manage Expense Report Audit and Receipt Rule Assignments,route_only,Y,-
+ERP,Financials,Expenses,EXM_MANAGE_EXPENSE_REPORT_APPROVAL_RULES,Manage Expense Approval Rules,noskill_noroute,N,-
+ERP,Financials,Expenses,EXM_MANAGE_EXPENSE_REPORT_AUDIT_RULES,Manage Expense Report Audit Selection Rules,route_only,Y,-
+ERP,Financials,Expenses,EXM_MANAGE_MERCHANT_CATEGORY_CODES,Manage Merchant Category Codes,route_only,Y,-
+ERP,Financials,Expenses,EXM_MANAGE_MIS_INDUSTRY_CODES,Manage MIS Industry Codes,route_only,Y,-
+ERP,Financials,Expenses,EXM_MANAGE_RECEIPT_AND_NOTIFICATION_RULES,Manage Expense Report Receipt and Notification Rules,route_only,Y,-
+ERP,Financials,Expenses,EXM_MANAGE_STANDARD_INDUSTRIAL_CLASSIFICATION_CODES,Manage Standard Industrial Classification Codes,route_only,Y,-
+ERP,Financials,Expenses,EXM_MANAGE_TERMS_AND_CONDITIONS_OF_EXPENSE_REIMBURSEMENT,Manage Terms and Conditions of Expense Reimbursement,noskill_noroute,N,-
+ERP,Financials,Expenses,ORA_EXM_MANAGE_CUMULATIVE_MILEAGE_DETERMINANTS,Manage Cumulative Mileage Determinants,route_only,Y,-
+ERP,Financials,Expenses,ORA_EXM_MANAGE_DELEGATIONS,Manage Delegations,route_only,Y,-
+ERP,Financials,Expenses,ORA_EXM_MANAGE_EXPENSE_REPORT_AUDIT_RULES,Manage Expense Report Audit Rules,route_only,Y,-
+ERP,Financials,Expenses,ORA_EXM_MANAGE_PERSONAL_EXPENSE,Manage Personal Expense Categorization,route_only,Y,-
+ERP,Financials,Expenses,ORA_EXM_MANAGE_POLICIES_BY_EXPENSE_CATEGORY,Manage Policies by Expense Category,route_only,Y,-
+ERP,Financials,Expenses,ORA_EXM_MANAGE_TRAVEL_ITINERARY_VALIDATION_RULES,Manage Travel Itinerary Validation Rules,route_only,Y,-
+ERP,Financials,Expenses,ORA_EXM_MANAGE_TRAVEL_PARTNER_INTEGRATIONS,Manage Travel Partner Integrations,route_only,Y,-
+ERP,Financials,Expenses,ORA_EXM_MANAGE_TRAVEL_POLICY_LOOKUP_TYPES,Manage Travel Policy Lookup Types,route_only,Y,-
+ERP,Financials,Financial Reporting Center,GL_CONFIGURE_DATA_LOAD_METADATA,Configure Data Load Accounting and Metadata,noskill_noroute,N,-
+ERP,Financials,Financial Reporting Center,GL_CONFIGURE_DATA_LOAD_METADATA_HFM,Configure Data Load Accounting and Metadata for Hyperion Financial Management Integration,noskill_noroute,N,-
+ERP,Financials,Financial Reporting Center,GL_CONFIGURE_FR_STUDIO_CLIENT,Configure Financial Reporting Studio Client for Users,noskill_noroute,N,-
+ERP,Financials,Financial Reporting Center,GL_CONFIGURE_MEMBER_MAPPINGS,Configure Data Load Member and Period Mappings,noskill_noroute,N,-
+ERP,Financials,Financial Reporting Center,GL_CONFIGURE_MEMBER_MAPPINGS_HFM,Configure Data Load Member and Period Mappings for Hyperion Financial Management Integration,noskill_noroute,N,-
+ERP,Financials,Financial Reporting Center,GL_CONFIGURE_SMARTVIEW_CLIENT,Configure Smart View Client for Users,noskill_noroute,N,-
+ERP,Financials,Financial Reporting Center,GL_CONFIGURE_WRITEBACK,Configure Write-Back Mappings,noskill_noroute,N,-
+ERP,Financials,Financial Reporting Center,GL_CREATE_FINANCIAL_STATEMENTS,Create Financial Statements,noskill_noroute,N,-
+ERP,Financials,Financial Reporting Center,GL_DEFINE_BUDGET,Define Budget Scenarios,route_only,Y,-
+ERP,Financials,Financial Reporting Center,GL_DEFINE_BUDGET_IN_HYP_PLANNING,Define Budget Configuration in Hyperion Planning,noskill_noroute,N,-
+ERP,Financials,Financial Reporting Center,GL_DEFINE_ESSBASE_DB_CONNECTION_IN_WORKSPACE,Define Essbase Database Connections in Workspace,noskill_noroute,N,-
+ERP,Financials,Financial Reporting Center,GL_DEFINE_HFM,Define Hyperion Financial Management Configuration,noskill_noroute,N,-
+ERP,Financials,Financial Reporting Center,GL_REGISTER_SOURCE_APPLICATIONS,Register Source Applications,noskill_noroute,N,-
+ERP,Financials,Financial Reporting Center,GL_REGISTER_SOURCE_APPLICATIONS_HFM,Register Source Applications for Hyperion Financial Management Integration,noskill_noroute,N,-
+ERP,Financials,Financial Reporting Center,GL_REGISTER_TARGET_APPLICATIONS,Register Target Applications,noskill_noroute,N,-
+ERP,Financials,Financial Reporting Center,GL_REGISTER_TARGET_APPLICATIONS_HFM,Register Target Applications for Hyperion Financial Management Integration,noskill_noroute,N,-
+ERP,Financials,Financial Reporting Structures,GL_MANAGE_ACCOUNT_COMBINATIONS,Manage Account Combinations,skill_noroute,N,FBDI
+ERP,Financials,Financial Reporting Structures,GL_MANAGE_CHART_OF_ACCOUNTS_SYNCHRONIZATION_WITH_DRM,Manage Chart of Accounts Synchronization with DRM,route_only,Y,-
+ERP,Financials,Financial Reporting Structures,GL_MANAGE_TRANSACTION_CALENDARS,Manage Transaction Calendars,route_only,Y,-
+ERP,Financials,Financial Reporting Structures,GL_SELECT_AGGREGATION_OPTIONS_FOR_ACCOUNT_HIERARCHIES,Publish Account Hierarchies,route_only,Y,-
+ERP,Financials,Financial Reporting Structures,JA_MANAGE_ENTERPRISE_FINANCIAL_DATA_EXPORT_OPTIONS_FOR_CHINA,Manage Enterprise Financial Data Export Options for China,route_only,Y,-
+ERP,Financials,Financial Reporting Structures,ORA_GL_MANAGE_ACCOUNT_HIERARCHY_LABELS,Manage Account Hierarchy Labels,route_only,Y,-
+ERP,Financials,Financial Reporting Structures,ORA_GL_MANAGE_APPLCORE_MESSAGES,Manage Messages for General Ledger,noskill_noroute,N,-
+ERP,Financials,Financial Reporting Structures,ORA_GL_MANAGE_SHORTHAND_ALIASES,Manage Shorthand Aliases,route_only,Y,-
+ERP,Financials,Financial Reporting Structures,ORA_JA_CN_CREATE_ADDITIONAL_ACC_ATTRIBUTES_FOR_CHINA,Create Enterprise Additional Account Attributes for China,noskill_noroute,N,-
+ERP,Financials,Financial Reporting Structures,ORA_MANAGE_COA_CONFIG,Manage Chart of Accounts Configurations,route_only,Y,-
+ERP,Financials,Financial Reporting Structures,ORA_MANAGE_FINANCIALS_BUSINESS_OBJECTS_ARCHIVE,Manage Archive and Purge Policies,route_only,Y,-
+ERP,Financials,Fixed Assets,FA_MANAGE_BONUS_RULE,Manage Bonus Rules,route_only,Y,-
+ERP,Financials,Fixed Assets,FA_MANAGE_CASH_GENERATING_UNITS,Manage Cash Generating Units,route_only,Y,-
+ERP,Financials,Fixed Assets,FA_MANAGE_CEILING,Manage Ceilings,route_only,Y,-
+ERP,Financials,Fixed Assets,FA_MANAGE_DEPRECIATION_METHOD,Manage Depreciation Methods,route_only,Y,-
+ERP,Financials,Fixed Assets,FA_MANAGE_DISTRIBUTION_SET,Manage Asset Distribution Sets,route_only,Y,-
+ERP,Financials,Fixed Assets,FA_MANAGE_FIXED_ASSETS_DESCRIPTIVE_FLEXFILEDS,Manage Fixed Assets Descriptive Flexfields,route_only,Y,-
+ERP,Financials,Fixed Assets,FA_MANAGE_FIXED_ASSETS_LOOKUPS,Manage Fixed Assets Lookups,route_only,Y,-
+ERP,Financials,Fixed Assets,FA_MANAGE_FIXED_ASSETS_PROFILE_OPTIONS,Manage Fixed Assets Profile Options,route_only,Y,-
+ERP,Financials,Fixed Assets,ORA_FA_MANAGE_ASSET_CATEGORY_ALIAS,Manage Asset Category Aliases,route_only,Y,-
+ERP,Financials,Fixed Assets,ORA_FA_MANAGE_ASSET_KEY_ALIAS,Manage Asset Key Aliases,route_only,Y,-
+ERP,Financials,Fixed Assets,ORA_FA_MANAGE_ASSET_LOCATION_ALIAS,Manage Asset Location Aliases,route_only,Y,-
+ERP,Financials,Fixed Assets,ORA_FA_MANAGE_ASSET_PRICE_INDEXES,Manage Asset Price Indexes,route_only,Y,-
+ERP,Financials,Fixed Assets,ORA_FUN_MANAGE_ASSET_BOOK_DATA_ACCESS_FOR_USERS,Manage Asset Book Data Access for Users,noskill_noroute,N,-
+ERP,Financials,General Ledger,GL_CREATE_REVALUATION_DEFINITION,Manage Revaluations,route_only,Y,-
+ERP,Financials,General Ledger,GL_LAUNCH_PROCESSING_TO_OPTIMIZE_SYSTEM,Run Optimization,noskill_noroute,N,-
+ERP,Financials,General Ledger,GL_MANAGE_ACCOUNTING_AND_REPORTING_SEQUENCES,Manage Accounting and Reporting Sequences,route_only,Y,-
+ERP,Financials,General Ledger,GL_MANAGE_ACCOUNTING_PERIODS,Open First Period,route_only,Y,-
+ERP,Financials,General Ledger,GL_MANAGE_ALLOCATION_AND_PERIODIC_ENTRIES,Manage Allocations and Periodic Entries,noskill_noroute,N,-
+ERP,Financials,General Ledger,GL_MANAGE_AUTOMATIC_POSTING_CRITERIA_SETS,Manage AutoPost Criteria Sets,route_only,Y,-
+ERP,Financials,General Ledger,GL_MANAGE_CLOSE_MONITOR_SETUP,Manage Close Monitor Setup,route_only,Y,-
+ERP,Financials,General Ledger,GL_MANAGE_DATA_ACCESS_SETS,Manage Data Access Sets,route_only,Y,-
+ERP,Financials,General Ledger,GL_MANAGE_GENERAL_LEDGER_DESCRIPTIVE_FLEXFIELDS,Manage General Ledger Descriptive Flexfields,route_only,Y,-
+ERP,Financials,General Ledger,GL_MANAGE_GENERAL_LEDGER_LOOKUPS,Manage General Ledger Lookup Values,route_only,Y,-
+ERP,Financials,General Ledger,GL_MANAGE_GENERAL_LEDGER_PROFILE_OPTIONS,Manage General Ledger Profile Options,route_only,Y,-
+ERP,Financials,General Ledger,GL_MANAGE_HISTORICAL_RATES,Manage Historical Rates,route_only,Y,-
+ERP,Financials,General Ledger,GL_MANAGE_JOURNAL_APPROVAL_RULES,Manage Journal Approval Rules,noskill_noroute,N,-
+ERP,Financials,General Ledger,GL_MANAGE_JOURNAL_CATEGORIES,Manage Journal Categories,route_only,Y,-
+ERP,Financials,General Ledger,GL_MANAGE_JOURNAL_REVERSAL_CRITERIA_SETS,Manage Journal Reversal Criteria Sets,route_only,Y,-
+ERP,Financials,General Ledger,GL_MANAGE_JOURNAL_SOURCES,Manage Journal Sources,route_only,Y,-
+ERP,Financials,General Ledger,GL_MANAGE_PROCESSING_SCHEDULES,Manage Processing Schedules,route_only,Y,-
+ERP,Financials,General Ledger,GL_MANAGE_STATISTICAL_UNITS_OF_MEASURE,Manage Statistical Units of Measure,route_only,Y,-
+ERP,Financials,General Ledger,GL_MANAGE_STORAGE_PARAMETERS,Manage Storage Parameters,route_only,Y,-
+ERP,Financials,General Ledger,GL_MANAGE_SUSPENSE_ACCOUNTS,Manage Suspense Accounts,route_only,Y,-
+ERP,Financials,General Ledger,ORA_FUN_MANAGE_DATA_ACCESS_SET_DATA_ACCESS_FOR_USERS,Manage Data Access Set Data Access for Users,noskill_noroute,N,-
+ERP,Financials,General Ledger,ORA_FUN_MANAGE_LEDGER_DATA_ACCESS_FOR_USERS,Manage Ledger Data Access for Users,noskill_noroute,N,-
+ERP,Financials,General Ledger,ORA_GL_CREATE_CROSS_VALIDATION_RULES_IN_SPREADSHEET,Create Cross Validation Rules in Spreadsheet,route_only,Y,-
+ERP,Financials,General Ledger,ORA_GL_MANAGE_ACCOUNTING_AUTOMATION,Manage Accounting Automation,route_only,Y,-
+ERP,Financials,General Ledger,ORA_GL_MANAGE_CLEARING_ACCOUNTS_RECONCILIATION,Manage Clearing Accounts Reconciliation,route_only,Y,-
+ERP,Financials,General Ledger,ORA_MANAGE_ACCOUNTS_FOR_FX_TRANSFER_AND_FX_REVALUATION_IN_SPREADSHEET,Manage Accounts for FX Transfer and FX Revaluation in Spreadsheet,route_only,Y,-
+ERP,Financials,Intercompany,FUN_MANAGE_APPLICATION_DESCRIPTIVE_FLEXFIELD,Manage Intercompany Descriptive Flexfield,route_only,Y,-
+ERP,Financials,Intercompany,FUN_MANAGE_APPLICATION_LOOKUP,Manage Intercompany Lookups,route_only,Y,-
+ERP,Financials,Intercompany,FUN_MANAGE_INTERCOMPANY_BALANCING_RULES,Manage Intercompany Balancing Rules,route_only,Y,-
+ERP,Financials,Intercompany,FUN_MANAGE_INTERCOMPANY_ORGANIZATIONS,Manage Intercompany Organizations,route_only,Y,-
+ERP,Financials,Intercompany,FUN_MANAGE_INTERCOMPANY_PERIOD_STATUS,Manage Intercompany Period Status,route_only,Y,-
+ERP,Financials,Intercompany,FUN_MANAGE_INTERCOMPANY_RECEIVABLES_ASSIGNMENT,Manage Intercompany Receivables Assignment,route_only,Y,-
+ERP,Financials,Intercompany,FUN_MANAGE_INTERCOMPANY_SYSTEM_OPTIONS,Manage Intercompany System Options,route_only,Y,-
+ERP,Financials,Intercompany,FUN_MANAGE_INTERCOMPANY_TRANSACTION_TYPES,Manage Intercompany Transaction Types,route_only,Y,-
+ERP,Financials,Intercompany,FUN_MANAGE_LEDGER_BALANCING_OPTIONS,Manage Additional Intercompany Balancing and Clearing Options,route_only,Y,-
+ERP,Financials,Intercompany,ORA_FUN_MANAGE_INTERCOMPANY_FLEXFIELD_VALUE_SET,Manage Intercompany Flexfield Value Set,route_only,Y,-
+ERP,Financials,Intercompany,ORA_FUN_MANAGE_INTERCOMPANY_ORGANIZATION_DATA_ACCESS_FOR_USERS,Manage Intercompany Organization Data Access for Users,noskill_noroute,N,-
+ERP,Financials,Joint Venture Management,ORA_FIN_JV_ACCOUNT_SETS,Manage Joint Venture Account Sets in Spreadsheet,route_only,Y,-
+ERP,Financials,Joint Venture Management,ORA_FIN_JV_AGREEMENTS,Manage Carried Interest Agreements in Spreadsheet,route_only,Y,-
+ERP,Financials,Joint Venture Management,ORA_FIN_JV_ASSIGNMENT_RULES,Manage Joint Venture Assignment Rules in Spreadsheet,route_only,Y,-
+ERP,Financials,Joint Venture Management,ORA_FIN_JV_CI_DISTRIBUTIONS,Manage Carried Interest Distributions in Spreadsheet,route_only,Y,-
+ERP,Financials,Joint Venture Management,ORA_FIN_JV_CI_MANAGE_PENALTIES,Manage Carried Interest Penalty Definitions,route_only,Y,-
+ERP,Financials,Joint Venture Management,ORA_FIN_JV_CI_PAYOUT_BALANCES,Manage Carried Interest Payout Balances in Spreadsheet,route_only,Y,-
+ERP,Financials,Joint Venture Management,ORA_FIN_JV_CI_PENALTIES,Manage Carried Interest Penalty Definitions in Spreadsheet,route_only,Y,-
+ERP,Financials,Joint Venture Management,ORA_FIN_JV_DEFINITION,Manage Joint Venture Definitions in Spreadsheet,route_only,Y,-
+ERP,Financials,Joint Venture Management,ORA_FIN_JV_DISTRIBUTIONS_BY_SRC,Manage Joint Venture Distributions by Source in Spreadsheet,route_only,Y,-
+ERP,Financials,Joint Venture Management,ORA_FIN_JV_INVOICING_PARTNERS,Manage Invoicing Partners in Spreadsheet,route_only,Y,-
+ERP,Financials,Joint Venture Management,ORA_FIN_JV_JOINT_VENTURE_DISTRIBUTIONS,Manage Joint Venture Distributions in Spreadsheet,route_only,Y,-
+ERP,Financials,Joint Venture Management,ORA_FIN_JV_JOINT_VENTURE_OPERATIONAL_MEASURES,Manage Joint Venture Operational Measures in Spreadsheet,route_only,Y,-
+ERP,Financials,Joint Venture Management,ORA_FIN_JV_JOINT_VENTURE_OPERATIONAL_STATES,Manage Joint Venture Operational States in Spreadsheet,route_only,Y,-
+ERP,Financials,Joint Venture Management,ORA_FIN_JV_JOINT_VENTURE_PARTNER_CONTRIBUTION_REQUESTS,Manage Partner Contribution Requests in Spreadsheet,route_only,Y,-
+ERP,Financials,Joint Venture Management,ORA_FIN_JV_JOINT_VENTURE_TRANSACTIONS,Manage Joint Venture Transactions in Spreadsheet,route_only,Y,-
+ERP,Financials,Joint Venture Management,ORA_FIN_JV_MANAGE_ACCOUNT_SETS,Manage Joint Venture Account Sets,route_only,Y,-
+ERP,Financials,Joint Venture Management,ORA_FIN_JV_MANAGE_AGREEMENTS,Manage Carried Interest Agreements,route_only,Y,-
+ERP,Financials,Joint Venture Management,ORA_FIN_JV_MANAGE_ASSIGNMENT_RULES,Manage Joint Venture Ownership Definition Assignment Rules,route_only,Y,-
+ERP,Financials,Joint Venture Management,ORA_FIN_JV_MANAGE_MEASURE_TYPES,Manage Operational Measure Types,route_only,Y,-
+ERP,Financials,Joint Venture Management,ORA_FIN_JV_MANAGE_OVERHEAD_METHODS,Manage Joint Venture Overhead Methods,route_only,Y,-
+ERP,Financials,Joint Venture Management,ORA_FIN_JV_MANAGE_PERIODIC_ADJUSTMENT_FACTORS,Manage Joint Venture Periodic Adjustment Factors,route_only,Y,-
+ERP,Financials,Joint Venture Management,ORA_FIN_JV_MANAGE_PROJECT_SETS,Manage Joint Venture Project Sets,route_only,Y,-
+ERP,Financials,Joint Venture Management,ORA_FIN_JV_MANAGE_PROJ_DETAILS,Manage Transaction Project Details in Spreadsheet,route_only,Y,-
+ERP,Financials,Joint Venture Management,ORA_FIN_JV_OPERATIONAL_MEASURE_TYPES,Manage Operational Measure Types in Spreadsheet,route_only,Y,-
+ERP,Financials,Joint Venture Management,ORA_FIN_JV_OVERHEAD_METHODS,Manage Joint Venture Overhead Methods in Spreadsheet,route_only,Y,-
+ERP,Financials,Joint Venture Management,ORA_FIN_JV_PARTNER_CONTRIBUTIONS,Manage Partner Contributions in Spreadsheet,route_only,Y,-
+ERP,Financials,Joint Venture Management,ORA_FIN_JV_PERIODIC_ADJUSTMENT_FACTORS,Manage Joint Venture Periodic Adjustment Factors in Spreadsheet,route_only,Y,-
+ERP,Financials,Joint Venture Management,ORA_FIN_JV_PROJECT_SETS,Manage Joint Venture Project Sets in Spreadsheet,route_only,Y,-
+ERP,Financials,Joint Venture Management,ORA_FIN_JV_SOURCE_TRANSACTIONS,Manage Joint Venture Source Transactions in Spreadsheet,route_only,Y,-
+ERP,Financials,Joint Venture Management,ORA_FIN_JV_SYSTEM_OPTIONS,Manage Joint Venture System Options in Spreadsheet,route_only,Y,-
+ERP,Financials,Joint Venture Management,ORA_JV_INVOICING_PARTNERS,Manage Invoicing Partners,route_only,Y,-
+ERP,Financials,Joint Venture Management,ORA_JV_JOINT_VENTURE_DEFINITION,Manage Joint Venture Definitions,route_only,Y,-
+ERP,Financials,Joint Venture Management,ORA_JV_MANAGE_JOINT_VENTURE_PROFILE_OPTIONS,Manage Joint Venture Profile Options,route_only,Y,-
+ERP,Financials,Joint Venture Management,ORA_MANAGE_JOINT_VENTURE_SYSTEM_OPTIONS,Manage Joint Venture System Options,route_only,Y,-
+ERP,Financials,Lease Accounting,ORA_FLA_MANAGE_CONFIG_DFF,Manage Lease Accounting Configuration Descriptive Flexfield,route_only,Y,-
+ERP,Financials,Lease Accounting,ORA_FLA_MANAGE_LOOKUPS,Manage Lease Accounting Lookups,route_only,Y,-
+ERP,Financials,Lease Accounting,ORA_FLA_MANAGE_PROPERTY_CONFIGURATION,Manage Property Configuration,route_only,Y,-
+ERP,Financials,Lease Accounting,ORA_FLA_MANAGE_TRANS_DFF,Manage Lease Accounting Transaction Descriptive Flexfield,route_only,Y,-
+ERP,Financials,Lease Accounting,ORA_MANAGE_LEASE_ACCOUNTING_CONFIGURATION,Manage Lease Accounting Configuration,route_only,Y,-
+ERP,Financials,Lease Accounting,ORA_MANAGE_PAYMENT_INCREASE_CONFIGURATION,Manage Payment Increase Configuration,route_only,Y,-
+ERP,Financials,Legal Structures,XLE_MANAGE_ASSOCIATED_BALANCING_SEGMENTS,Manage Associated Balancing Segments,route_only,Y,-
+ERP,Financials,Legal Structures,XLE_MANAGE_ASSOCIATED_BUSINESS_ENTITIES,Manage Associated Business Entities,route_only,Y,-
+ERP,Financials,Legal Structures,XLE_MANAGE_LEGAL_REPORTING_UNIT_FINANCIAL_INFORMATION,Manage Legal Reporting Unit Financial Information,route_only,Y,-
+ERP,Financials,Legal Structures,ZX_MANAGE_LEGAL_REPORTING_UNIT_TAX_PROFILES,Manage Legal Reporting Unit Tax Profiles,route_only,Y,-
+ERP,Financials,Organization Structures,FUN_VIEW_AVAILABLE_ASSET_BOOKS,View Available Asset Books,noskill_noroute,N,-
+ERP,Financials,Receivables,AR_MANAGE_APPLICATION_RULE_SETS,Manage Application Rule Sets,route_only,Y,-
+ERP,Financials,Receivables,AR_MANAGE_APPROVAL_LIMITS,Manage Approval Limits,route_only,Y,-
+ERP,Financials,Receivables,AR_MANAGE_AUTOCASH_RULE_SETS,Manage AutoCash Rule Sets,route_only,Y,-
+ERP,Financials,Receivables,AR_MANAGE_INTEREST_TIERS,Manage Interest Tiers,route_only,Y,-
+ERP,Financials,Receivables,AR_MANAGE_LATE_CHARGE_SCHEDULES,Manage Late Charge Schedules,route_only,Y,-
+ERP,Financials,Receivables,AR_MANAGE_RECEIVABLES_ACTIVITIES,Manage Receivables Activities,route_only,Y,-
+ERP,Financials,Receivables,AR_MANAGE_RECEIVABLES_DESCRIPTIVE_FLEXFIELDS,Manage Receivables Descriptive Flexfields,route_only,Y,-
+ERP,Financials,Receivables,AR_MANAGE_RECEIVABLES_DISTRIBUTION_SETS,Manage Receivables Distribution Sets,route_only,Y,-
+ERP,Financials,Receivables,AR_MANAGE_RECEIVABLES_LOOKUPS,Manage Receivables Lookups,route_only,Y,-
+ERP,Financials,Receivables,AR_MANAGE_RECEIVABLES_PROFILE_OPTIONS,Manage Receivables Profile Options,route_only,Y,-
+ERP,Financials,Receivables,AR_MANAGE_STANDARD_MESSAGES,Manage Standard Messages,route_only,Y,-
+ERP,Financials,Receivables,AR_MANAGE_STATEMENT_CYCLES,Manage Statement Cycles,route_only,Y,-
+ERP,Financials,Receivables,ORA_AR_MANAGE_CREDIT_CASE_FOLDER_TEMPLATES,Manage Credit Case Folder Templates,route_only,Y,-
+ERP,Financials,Receivables,ORA_AR_MANAGE_CREDIT_SCORING_MODELS,Manage Credit Scoring Models,route_only,Y,-
+ERP,Financials,Receivables,ORA_AR_MANAGE_RECEIVABLES_DOCUMENT_SEQUENCES,Manage Receivables Document Sequences,route_only,Y,-
+ERP,Financials,Revenue Management,ORA_MANAGE_ADDITIONAL_SATISFACTION_EVENT_RULES,Manage Additional Satisfaction Event Rules,route_only,Y,-
+ERP,Financials,Revenue Management,ORA_VRM_MANAGE_RECEIVABLES_SYSTEM_OPTIONS_IN_EBUSINESS_SUITE_FOR_COEXISTENCE,Manage E-Business Suite Receivables System Options for Coexistence,noskill_noroute,N,-
+ERP,Financials,Revenue Recognition,AR_MANAGE_REVENUE_CONTINGENCIES,Manage Revenue Contingencies,route_only,Y,-
+ERP,Financials,Revenue Recognition,AR_MANAGE_REVENUE_CONTINGENCY_ASSIGNMENT_RULES,Manage Revenue Contingency Assignment Rules,route_only,Y,-
+ERP,Financials,Revenue Recognition,AR_MANAGE_REVENUE_POLICIES,Manage Revenue Policies,route_only,Y,-
+ERP,Financials,Revenue Recognition,ORA_VRM_MANAGE_CONTRACT_IDENTIFICATION_RULES,Manage Contract Identification Rules,route_only,Y,-
+ERP,Financials,Revenue Recognition,ORA_VRM_MANAGE_IMPLIED_PERFORMANCE_OBLIGATION_TEMPLATES,Manage Implied Performance Obligation Templates,route_only,Y,-
+ERP,Financials,Revenue Recognition,ORA_VRM_MANAGE_PERFORMANCE_OBLIGATION_IDENTIFICATION_RULES,Manage Performance Obligation Identification Rules,route_only,Y,-
+ERP,Financials,Revenue Recognition,ORA_VRM_MANAGE_PERFORMANCE_OBLIGATION_TEMPLATES,Manage Performance Obligation Templates,route_only,Y,-
+ERP,Financials,Revenue Recognition,ORA_VRM_MANAGE_PERFORMANCE_SATISFACTION_PLANS,Manage Performance Satisfaction Plans,route_only,Y,-
+ERP,Financials,Revenue Recognition,ORA_VRM_MANAGE_REVENUE_ITEM_GROUPS,Manage Item Groups for Revenue Management,route_only,Y,-
+ERP,Financials,Revenue Recognition,ORA_VRM_MANAGE_REVENUE_MANAGEMENT_DESCRIPTIVE_FLEXFIELDS,Manage Revenue Management Descriptive Flexfields,route_only,Y,-
+ERP,Financials,Revenue Recognition,ORA_VRM_MANAGE_REVENUE_MANAGEMENT_LOOKUPS,Manage Revenue Management Lookups,route_only,Y,-
+ERP,Financials,Revenue Recognition,ORA_VRM_MANAGE_REVENUE_MANAGEMENT_NOTE_DESCRIPTIVE_FLEXFIELDS,Manage Revenue Management Note Descriptive Flexfields,route_only,Y,-
+ERP,Financials,Revenue Recognition,ORA_VRM_MANAGE_REVENUE_MANAGEMENT_NOTE_TYPES,Manage Revenue Management Note Types,route_only,Y,-
+ERP,Financials,Revenue Recognition,ORA_VRM_MANAGE_REVENUE_MANAGEMENT_NOTE_TYPE_MAPPING,Manage Revenue Management Note Type Mapping,route_only,Y,-
+ERP,Financials,Revenue Recognition,ORA_VRM_MANAGE_REVENUE_PRICE_EFFECTIVE_PERIODS,Manage Standalone Selling Price Effective Periods,route_only,Y,-
+ERP,Financials,Revenue Recognition,ORA_VRM_MANAGE_REVENUE_PRICE_PROFILES,Manage Standalone Selling Price Profiles,route_only,Y,-
+ERP,Financials,Revenue Recognition,ORA_VRM_MANAGE_REVENUE_PRICING_DIMENSION_ASSIGNMENTS,Manage Pricing Dimension Assignments for Revenue Management,route_only,Y,-
+ERP,Financials,Revenue Recognition,ORA_VRM_MANAGE_REVENUE_PRICING_DIMENSION_BANDS,Manage Pricing Dimension Bands for Revenue Management,route_only,Y,-
+ERP,Financials,Revenue Recognition,ORA_VRM_MANAGE_REVENUE_PRICING_DIMENSION_STRUCTURES,Manage Pricing Dimension Structures for Revenue Management,route_only,Y,-
+ERP,Financials,Revenue Recognition,ORA_VRM_MANAGE_REVENUE_PRICING_DIMENSION_VALUE_SETS,Manage Pricing Dimension Value Sets for Revenue Management,route_only,Y,-
+ERP,Financials,Revenue Recognition,ORA_VRM_MANAGE_REVENUE_SYSTEM_OPTIONS,Manage System Options for Revenue Management,route_only,Y,-
+ERP,Financials,Revenue Recognition,ORA_VRM_MANAGE_SOURCE_DOCUMENT_TYPES,Manage Source Document Types,route_only,Y,-
+ERP,Financials,Revenue Recognition,ORA_VRM_MANAGE_STANDALONE_SALES_POOL_EXCLUSION_RULES,Manage Standalone Sales Pool Exclusion Rules,route_only,Y,-
+ERP,Financials,U.S. Federal Financials,ORA_FV_MANAGE_AGENCY_LOCATION_CODES,Manage Agency Location Codes,route_only,Y,-
+ERP,Financials,U.S. Federal Financials,ORA_FV_MANAGE_BUDGET_EXECUTION_TYPES,Manage Budget Transaction Types,route_only,Y,-
+ERP,Financials,U.S. Federal Financials,ORA_FV_MANAGE_BUSINESS_EVENT_TYPE_CODES,Manage Business Event Type Codes,route_only,Y,-
+ERP,Financials,U.S. Federal Financials,ORA_FV_MANAGE_CTA_FBWT_ACCOUNT_DEFNS,Manage CTA FBWT Account Definitions,route_only,Y,-
+ERP,Financials,U.S. Federal Financials,ORA_FV_MANAGE_FEDERAL_ACCOUNT_SYMBOLS,Manage Federal Account Symbols,route_only,Y,-
+ERP,Financials,U.S. Federal Financials,ORA_FV_MANAGE_FEDERAL_GROUPS,Manage Federal Groups,route_only,Y,-
+ERP,Financials,U.S. Federal Financials,ORA_FV_MANAGE_FEDERAL_LEDGER_OPTIONS,Manage Federal Ledger Options,route_only,Y,-
+ERP,Financials,U.S. Federal Financials,ORA_FV_MANAGE_FEDERAL_LOOKUPS,Manage Federal Lookups,route_only,Y,-
+ERP,Financials,U.S. Federal Financials,ORA_FV_MANAGE_FEDERAL_OPTIONS,Manage Federal Setup Options,route_only,Y,-
+ERP,Financials,U.S. Federal Financials,ORA_FV_MANAGE_FEDERAL_PROFILE_OPTIONS,Manage Federal Profile Options,route_only,Y,-
+ERP,Financials,U.S. Federal Financials,ORA_FV_MANAGE_FED_ACCOUNT_ATTRIBUTES,Manage Federal Account Attributes,route_only,Y,-
+ERP,Financials,U.S. Federal Financials,ORA_FV_MANAGE_FED_ATTRIBUTES,Manage Federal Attributes,route_only,Y,-
+ERP,Financials,U.S. Federal Financials,ORA_FV_MANAGE_FED_ATTRIBUTE_SUPPLE_RULES,Manage Federal Attribute Supplemental Rules,route_only,Y,-
+ERP,Financials,U.S. Federal Financials,ORA_FV_MANAGE_FED_DATA_ACT_BALANCES,Manage Federal DATA Act Balances,route_only,Y,-
+ERP,Financials,U.S. Federal Financials,ORA_FV_MANAGE_FUND_ATTRIBUTES,Manage Fund Attributes,route_only,Y,-
+ERP,Financials,U.S. Federal Financials,ORA_FV_MANAGE_PAYMENT_TYPE_MAPPING,Manage Payment Type Mapping,route_only,Y,-
+ERP,Financials,U.S. Federal Financials,ORA_FV_MANAGE_TREASURY_ACCOUNT_SYMBOLS,Manage Treasury Account Symbols,route_only,Y,-
+ERP,Financials,U.S. Federal Financials,ORA_FV_MANAGE_USSGL_ACCOUNTS,Manage USSGL Accounts,route_only,Y,-
+ERP,Fusion Accounting Hub,Accounting Transformation,ORA_ATTRIBUTE_DEFAULTING_RULES,Attribute Defaulting Rules,route_only,Y,-
+ERP,Fusion Accounting Hub,Accounting Transformation,ORA_XLA_CONFIGURE_ACCOUNTING_RULES,Configure Accounting Rules,noskill_noroute,N,-
+ERP,Fusion Accounting Hub,Accounting Transformation,ORA_XLA_CREATE_SUBLEDGER_APPLICATION_SETUPS_IN_SPREADSHEET,Create Subledger Application Setups in Spreadsheet,noskill_noroute,N,-
+ERP,Grants Management,Grants Management Foundation,AR_MANAGE_CUSTOMERS,Manage Customers,noskill_noroute,N,-
+ERP,Grants Management,Grants Management Foundation,ORA_GMS_MANAGE_ATTACHMENT_CATEGORIES,Manage Grants Management Attachment Categories,route_only,Y,-
+ERP,Grants Management,Grants Management Foundation,ORA_GMS_MANAGE_AWARD_PURPOSE_CODES,Manage Award Purpose Codes,route_only,Y,-
+ERP,Grants Management,Grants Management Foundation,ORA_GMS_MANAGE_AWARD_TEMPLATES,Manage Award Templates,route_only,Y,-
+ERP,Grants Management,Grants Management Foundation,ORA_GMS_MANAGE_AWARD_TYPES,Manage Award Types,route_only,Y,-
+ERP,Grants Management,Grants Management Foundation,ORA_GMS_MANAGE_CATALOG_OF_FEDERAL_ASSISTANCE_PROGRAMS,Manage Assistance Listing Numbers,route_only,Y,-
+ERP,Grants Management,Grants Management Foundation,ORA_GMS_MANAGE_CERTIFICATIONS,Manage Certifications,route_only,Y,-
+ERP,Grants Management,Grants Management Foundation,ORA_GMS_MANAGE_FUNDING_SOURCES,Manage Funding Sources,route_only,Y,-
+ERP,Grants Management,Grants Management Foundation,ORA_GMS_MANAGE_GRANTS_MANAGEMENT_BUSINESS_UNIT_IMPLEMENTATION_OPTIONS,Manage Grants Management Business Unit Implementation Options,route_only,Y,-
+ERP,Grants Management,Grants Management Foundation,ORA_GMS_MANAGE_GRANTS_PERSONNEL,Manage Grants Personnel,route_only,Y,-
+ERP,Grants Management,Grants Management Foundation,ORA_GMS_MANAGE_INSTITUTIONS,Manage Institutions,route_only,Y,-
+ERP,Grants Management,Grants Management Foundation,ORA_GMS_MANAGE_INSTITUTION_CONTACT_OFFICIAL_TYPES,Manage Institution Contact Official Types,route_only,Y,-
+ERP,Grants Management,Grants Management Foundation,ORA_GMS_MANAGE_KEYWORDS,Manage Keywords,route_only,Y,-
+ERP,Grants Management,Grants Management Foundation,ORA_GMS_MANAGE_MESSAGES,Manage Grants Management Messages,noskill_noroute,N,-
+ERP,Grants Management,Grants Management Foundation,ORA_GMS_MANAGE_PROJECT_FOUNDATION_DESCRIPTIVE_FLEXFIELDS,Manage Grants Management Descriptive Flexfields,route_only,Y,-
+ERP,Grants Management,Grants Management Foundation,ORA_GMS_MANAGE_REFERENCES,Manage Grants Reference Types,route_only,Y,-
+ERP,Grants Management,Grants Management Foundation,ORA_GMS_MANAGE_SPONSORS,Manage Sponsors,route_only,Y,-
+ERP,Grants Management,Grants Management Foundation,ORA_GMS_MANAGE_TERMS_AND_CONDITIONS,Manage Terms and Conditions,route_only,Y,-
+ERP,Grants Management,Grants Management Foundation,ORA_GMS_MANAGE_VALUE_SETS,Manage Grants Management Value Sets,route_only,Y,-
+ERP,Grants Management,Grants Management Foundation,ORA_GMS_PROJECT_STANDARD_COST_COLLECTION_DESC_FLEXFIELD,Manage Project Standard Cost Collection Flexfield: Grants Management,route_only,Y,-
+ERP,Grants Management,Grants Management Foundation,ORA_GMS_UPLOAD_AWARD_TEMPLATE_ATTACHMENTS,Upload Award Template Attachments,noskill_noroute,N,-
+ERP,Grants Management,Grants Management Foundation,ORA_GMS_VERIFY_IMPLEMENTATION_STATUS,Verify Grants Management Offering Implementation Status,noskill_noroute,N,-
+ERP,Project Execution Management,Project Execution,ORA_PJF_MANAGE_ENTERPRISE_PROJECT_STRUCTURE,Manage Enterprise Project Structure: to Be Deprecated,route_only,Y,-
+ERP,Project Execution Management,Project Execution,ORA_PJT_MANAGE_APPLCORE_MESSAGES,Manage Project Management Messages,noskill_noroute,N,-
+ERP,Project Execution Management,Project Execution,ORA_PJT_MANAGE_APPLICATIONS_CORE_ATTACHMENT_CATEGORIES,Manage Project Management Attachment Categories,route_only,Y,-
+ERP,Project Execution Management,Project Execution,ORA_PJT_MANAGE_PROJECT_DESCR_FLEX,Manage Project Descriptive Flexfields,route_only,Y,-
+ERP,Project Execution Management,Project Execution,ORA_PJT_MANAGE_PROJECT_MANAGEMENT_IMPLEMENTATION_OPTIONS,Manage Project Management Implementation Options,route_only,Y,-
+ERP,Project Execution Management,Project Execution,ORA_PJT_MANAGE_REQUIREMENT_STATUSES,Manage Project Requirement Statuses,route_only,Y,-
+ERP,Project Execution Management,Project Execution,ORA_PJT_MANAGE_TASK_DESCR_FLEX,Manage Project Task Descriptive Flexfields,route_only,Y,-
+ERP,Project Execution Management,Project Execution,ORA_PJT_MANAGE_VALUE_SETS,Manage Project Management Value Sets,route_only,Y,-
+ERP,Project Execution Management,Project Execution,PJE_MANAGE_DELIVERABLE_TYPES,Manage Deliverable Types,route_only,Y,-
+ERP,Project Execution Management,Project Execution,PJE_MANAGE_ISSUE_TYPES,Manage Issue Types,route_only,Y,-
+ERP,Project Execution Management,Project Execution,PJT_DEFINE_PROJECTS_IMPLEMENTATION_ADMINISTRATION_USER_,Manage Project Implementation Administrator,route_only,Y,-
+ERP,Project Execution Management,Project Execution,PJT_MANAGE_CUSTOM_ATTRIBUTES_FOR_ISSUES_AND_DELIVERABLES,Manage Attributes for Issues and Deliverables,noskill_noroute,N,-
+ERP,Project Execution Management,Project Execution,PJT_MANAGE_ENTERPRISE_PROJECT_CODES,Manage Enterprise Project Codes,route_only,Y,-
+ERP,Project Execution Management,Project Execution,PJT_MANAGE_ENTERPRISE_TASK_CODES,Manage Enterprise Task Codes,route_only,Y,-
+ERP,Project Execution Management,Project Execution,PJT_MANAGE_MILESTONES,Manage Milestones,route_only,Y,-
+ERP,Project Execution Management,Project Execution,PJT_MANAGE_PRODUCTS,Manage Products,route_only,Y,-
+ERP,Project Execution Management,Project Execution,PJT_MANAGE_PRODUCT_FAMILIES,Manage Product Families,route_only,Y,-
+ERP,Project Execution Management,Project Execution,PJT_MANAGE_PROJECT_ENTERPRISE_RESOURCES,Manage Project Enterprise Resources,route_only,Y,-
+ERP,Project Execution Management,Project Execution,PJT_MANAGE_PROJECT_SCHEDULES,Manage Project Schedules,route_only,Y,-
+ERP,Project Execution Management,Project Execution,PJT_MANAGE_PROJECT_SCHEDULE_EXCEPTIONS,Manage Project Schedule Exceptions,route_only,Y,-
+ERP,Project Execution Management,Project Execution,PJT_MANAGE_PROJECT_SHIFTS,Manage Project Shifts,route_only,Y,-
+ERP,Project Execution Management,Project Execution,PJT_MANAGE_PROJECT_USER_REGISTRATIONS,Manage Project User Provisioning,noskill_noroute,N,-
+ERP,Project Execution Management,Project Execution,PJT_MANAGE_PROJECT_WORKDAY_PATTERNS,Manage Project Workday Patterns,route_only,Y,-
+ERP,Project Execution Management,Project Execution,PJT_MANAGE_RELEASES,Manage Releases,route_only,Y,-
+ERP,Project Execution Management,Project Execution,PJT_MANAGE_SPRINTS,Manage Sprints,route_only,Y,-
+ERP,Project Execution Management,Project Execution,PJT_MANAGE__CUSTOM_ATTRIBUTES_FOR_REQUIREMENTS,Manage Attributes for Requirements,noskill_noroute,N,-
+ERP,Project Execution Management,Project Resource Management,ORA_MANAGE_PROJECT_RESOURCE_STAFFING_STATUSES,Manage Project Resource Staffing Statuses,route_only,Y,-
+ERP,Project Execution Management,Project Resource Management,ORA_PJR_MANAGE_APPLCORE_MESSAGES,Manage Project Resource Management Messages,noskill_noroute,N,-
+ERP,Project Execution Management,Project Resource Management,ORA_PJR_MANAGE_APPLICATIONS_CORE_ATTACHMENT_CATEGORIES,Manage Project Resource Management Attachment Categories,route_only,Y,-
+ERP,Project Execution Management,Project Resource Management,ORA_PJR_MANAGE_CUSTOM_ATTRIBUTES_FOR_REQUESTS,Manage Attributes for Project Resource Requests,noskill_noroute,N,-
+ERP,Project Execution Management,Project Resource Management,ORA_PJR_MANAGE_DESCRIPTIVE_FLEXFIELDS,Manage Project Resource Management Descriptive Flexfields,route_only,Y,-
+ERP,Project Execution Management,Project Resource Management,ORA_PJR_MANAGE_VALUE_SETS,Manage Project Resource Management Value Sets,route_only,Y,-
+ERP,Project Execution Management,Project Resource Management,PJR_MANAGE_EMPLOYEES_AND_CONTINGENT_WORKERS_FOR_PROJECT_RESOURCE_MANAGEMENT,Manage Employees and Contingent Workers for Project Resource Management,noskill_noroute,N,-
+ERP,Project Execution Management,Project Resource Management,PJR_MANAGE_PROJECT_ENTERPRISE_LABOR_RESOURCE_MAINTENANCE_CONDITIONS,Manage Project Enterprise Labor Resource Maintenance Conditions,route_only,Y,-
+ERP,Project Execution Management,Project Resource Management,PJR_MANAGE_PROJECT_RESOURCE_MANAGEMENT_IMPLEMENTATION_OPTIONS,Manage Project Resource Management Implementation Options,route_only,Y,-
+ERP,Project Execution Management,Project Resource Management,PJR_MANAGE_RESOURCE_POOLS,Manage Resource Pools,route_only,Y,-
+ERP,Project Execution Management,Project Resource Management,PJR_MANAGE_TARGET_UTILIZATION_PERCENTAGES,Manage Target Utilization Percentages,route_only,Y,-
+ERP,Project Execution Management,Project Resource Management,PJR_SUBMIT_PROCESS_TO_MAINTAIN_PROJECT_ENTERPRISE_LABOR_RESOURCES,Submit Process to Maintain Project Enterprise Labor Resources,noskill_noroute,N,-
+ERP,Project Execution Management,Project Resource Management,PJR_SUBMIT_PROCESS_TO_MAINTAIN_PROJECT_RESOURCE_SEARCH_INDEX,Submit Process to Maintain Project Resource Search Index,noskill_noroute,N,-
+ERP,Project Financial Management,Application Extensions,ORA_MANAGE_DIGITAL_ASSISTANT,Manage Digital Assistant,noskill_noroute,N,-
+ERP,Project Financial Management,Application Extensions,ORA_PJF_MANAGE_PROJECT_PROC_CONFIGURATOR,Manage Project Process Configurator,route_only,Y,-
+ERP,Project Financial Management,Application Extensions,ORA_PJF_MANAGE_USER_DEFINED_RULES,Manage User-Defined Rules for Project Management,route_only,Y,-
+ERP,Project Financial Management,Application Extensions,PJB_MANAGE_BILLING_EXTENSIONS,Manage Billing Extensions,route_only,Y,-
+ERP,Project Financial Management,Application Extensions,PJB_MANAGE_INVOICE_METHOD_BILLING_EXTENSION_ASSIGNMENTS,Manage Invoice Methods: Billing Extension Assignments,route_only,Y,-
+ERP,Project Financial Management,Application Extensions,PJB_MANAGE_REVENUE_METHOD_BILLING_EXTENSION_ASSIGNMENTS,Manage Revenue Methods: Billing Extension Assignments,route_only,Y,-
+ERP,Project Financial Management,Burdening,PJF_MANAGE_BURDEN_COST_BASES,Manage Burden Cost Bases,route_only,Y,-
+ERP,Project Financial Management,Burdening,PJF_MANAGE_BURDEN_COST_BASE_TYPES,Manage Burden Cost Base Types,route_only,Y,-
+ERP,Project Financial Management,Burdening,PJF_MANAGE_BURDEN_COST_CODES,Manage Burden Cost Codes,route_only,Y,-
+ERP,Project Financial Management,Burdening,PJF_MANAGE_BURDEN_OPTIONS_ON_PROJECT_TYPES,Manage Project Types: Burdening Options,route_only,Y,-
+ERP,Project Financial Management,Burdening,PJF_MANAGE_BURDEN_SCHEDULES,Manage Burden Schedules,route_only,Y,-
+ERP,Project Financial Management,Burdening,PJF_MANAGE_BURDEN_STRUCTURES,Manage Burden Structures,route_only,Y,-
+ERP,Project Financial Management,Burdening,PJF_MANAGE_BURDEN_TRANSACTION_PROJECT_STATUS_CONTROLS,Manage Project Statuses: Burden Transaction Creation Status Control,route_only,Y,-
+ERP,Project Financial Management,Burdening,PJF_SUBMIT_PROCESS_TO_BUILD_NEW_ORGANIZATION_BURDEN_MULTIPLIERS,Submit Process to Build New Organization Burden Multipliers,noskill_noroute,N,-
+ERP,Project Financial Management,Capital Projects,PJC_MANAGE_CAPITALIZED_INTEREST_RATES,Manage Capitalized Interest Rates,route_only,Y,-
+ERP,Project Financial Management,Capital Projects,PJC_MANAGE_CAPITALIZED_INTEREST_RATE_SCHEDULES,Manage Capitalized Interest Rate Schedules,route_only,Y,-
+ERP,Project Financial Management,Capital Projects,PJC_MANAGE_STANDARD_UNIT_COSTS,Manage Standard Unit Costs,route_only,Y,-
+ERP,Project Financial Management,Capital Projects,PJF_ENABLE_RETIREMENT_PROCESSING_BU_IMPLEMENTATION_OPT,Configure Project Accounting Business Function: Retirement Processing Indicator,route_only,Y,-
+ERP,Project Financial Management,Capital Projects,PJF_MANAGE_ASSET_CAPITALIZATION_PROJECT_STATUS_CONTROLS,Manage Project Statuses: Asset Capitalization Status Control,route_only,Y,-
+ERP,Project Financial Management,Capital Projects,PJF_MANAGE_CAPITALIZATION_OPTIONS_ON_PROJECT_TYPES,Manage Project Types: Capitalization Options,route_only,Y,-
+ERP,Project Financial Management,Capital Projects,PJF_MANAGE_CAPITALIZED_INTEREST_PROJECT_STATUS_CONTROLS,Manage Project Statuses: Capitalized Interest Generation Status Control,route_only,Y,-
+ERP,Project Financial Management,Capital Projects,PJF_MANAGE_DEFAULT_INTEREST_RATE_SCHEDULE_ON_PROJECT_TYPES,Manage Project Types: Default Interest Rate Schedule,route_only,Y,-
+ERP,Project Financial Management,Capital Projects,PJF_MANAGE_PROCEEDS_OF_SALE_INDICATOR_ON_EXPENDITURE_TYPES,Manage Expenditure Types: Proceeds of Sale Indicator,route_only,Y,-
+ERP,Project Financial Management,Financial Reporting Structures,GL_MANAGE_CHART_OF_ACCOUNTS_VALUE_SET_VALUES,Manage Chart of Accounts Value Set Values,skill_noroute,Y,FBDI
+ERP,Project Financial Management,Internal Project Billing,PJB_MANAGE_CONTRACT_TYPE_FOR_INTERCOMPANY_BILLING,Manage Contract Types: Intercompany Billing Indicator,route_only,Y,-
+ERP,Project Financial Management,Internal Project Billing,PJB_MANAGE_CONTRACT_TYPE_FOR_INTERPROJECT_BILLING,Manage Contract Types: Interproject Billing Indicator,route_only,Y,-
+ERP,Project Financial Management,Internal Project Billing,PJB_MANAGE_INTERCOMPANY_BILLING_INDICATOR_ON_INVOICE_METHODS,Manage Invoice Methods: Intercompany Billing Indicator,route_only,Y,-
+ERP,Project Financial Management,Internal Project Billing,PJB_MANAGE_INTERCOMPANY_BILLING_INDICATOR_ON_REVENUE_METHODS,Manage Revenue Methods: Intercompany Billing Indicator,route_only,Y,-
+ERP,Project Financial Management,Internal Project Billing,PJB_MANAGE_INVOICE_FORMATS_FOR_INTERCOMPANY_BILLING,Manage Invoice Formats: Intercompany Billing Formats,route_only,Y,-
+ERP,Project Financial Management,Internal Project Billing,PJB_MANAGE_INVOICE_FORMATS_FOR_INTERPROJECT_BILLING,Manage Invoice Formats: Interproject Billing Formats,route_only,Y,-
+ERP,Project Financial Management,Internal Project Billing,PJF_INTERCOMPANY_INDICATOR_BILLING_RESOURCE_BREAKDOWN_STRUCT,Manage Billing Resource Breakdown Structures: Intercompany Indicator,route_only,Y,-
+ERP,Project Financial Management,Internal Project Billing,PJF_UPDATE_CONTRACT_BU_CROSS_CHARGE_IMPLEMENTATION_OPT,Specify Customer Contract Management Business Function Properties: Internal Billing Options,route_only,Y,-
+ERP,Project Financial Management,Project Billing Base,ORA_PJB_MANAGE_ATTACHMENT_CATEGORIES,Manage Project Billing Attachment Categories,route_only,Y,-
+ERP,Project Financial Management,Project Billing Base,ORA_PJB_MANAGE_MESSAGES,Manage Project Billing Messages,noskill_noroute,N,-
+ERP,Project Financial Management,Project Billing Base,ORA_PJB_MANAGE_VALUE_SETS,Manage Project Billing Value Sets,route_only,Y,-
+ERP,Project Financial Management,Project Billing Base,PJB_MANAGE_BILLING_CYCLES,Manage Billing Cycles,route_only,Y,-
+ERP,Project Financial Management,Project Billing Base,PJB_MANAGE_DISCOUNT_REASONS,Manage Rate Change Reasons,route_only,Y,-
+ERP,Project Financial Management,Project Billing Base,PJB_MANAGE_EXTENSIBLE_MARKUP_LANGUAGE_PUBLISHER_PRINT_FORMATS,Manage Invoice Templates,noskill_noroute,N,-
+ERP,Project Financial Management,Project Billing Base,PJB_MANAGE_INVOICE_FORMATS,Manage Invoice Formats,route_only,Y,-
+ERP,Project Financial Management,Project Billing Base,PJB_MANAGE_INVOICE_METHODS,Manage Invoice Methods,route_only,Y,-
+ERP,Project Financial Management,Project Billing Base,PJB_MANAGE_PROJECT_BILLING_DESCRIPTIVE_FLEXFIELDS,Manage Project Billing Descriptive Flexfields,route_only,Y,-
+ERP,Project Financial Management,Project Billing Base,PJB_MANAGE_REVENUE_METHODS,Manage Revenue Methods,route_only,Y,-
+ERP,Project Financial Management,Project Billing Base,PJB_UOM_USE_PJT_INVOICE_LINES_RECEIVABLES_PROFILE_OPT,Specify Unit of Measure for Invoice Lines Sent to Oracle Fusion Receivables,route_only,Y,-
+ERP,Project Financial Management,Project Billing Base,PJB_UPDATE_BILLING_OPTIONS_ON_CONTRACT_BUSINESS_UNIT,Specify Customer Contract Management Business Function Properties: Billing Options,route_only,Y,-
+ERP,Project Financial Management,Project Billing Base,PJF_MANAGE_BILLING_INDICATOR_ON_PROJECT_TYPES,Manage Project Types: Billing Indicator,route_only,Y,-
+ERP,Project Financial Management,Project Billing Base,PJF_MANAGE_BILLING_INDICATOR_ON_WORK_TYPES,Manage Work Types: Billing Indicator,route_only,Y,-
+ERP,Project Financial Management,Project Billing Base,PJF_MANAGE_EVENT_TYPES,Manage Event Types,route_only,Y,-
+ERP,Project Financial Management,Project Contracts,FND_MANAGE_DOCUMENT_SEQUENCES,Manage Document Sequences,route_only,Y,-
+ERP,Project Financial Management,Project Contracts,OKC_MANAGE_CONTRACTS_INTERACTION_STANDARD_LOOKUPS,Manage Contract Interaction Standard Lookups,route_only,Y,-
+ERP,Project Financial Management,Project Control,ORA_PJO_MANAGE_ATTACHMENT_CATEGORIES,Manage Project Control Attachment Categories,route_only,Y,-
+ERP,Project Financial Management,Project Control,ORA_PJO_MANAGE_MESSAGES,Manage Project Control Messages,noskill_noroute,N,-
+ERP,Project Financial Management,Project Control,ORA_PJO_MANAGE_VALUE_SETS,Manage Project Control Value Sets,route_only,Y,-
+ERP,Project Financial Management,Project Control,PJF_MANAGE_SPREAD_CURVE_ON_RESOURCE_CLASSES,Manage Resource Classes: Spread Curves,route_only,Y,-
+ERP,Project Financial Management,Project Control,PJO_MANAGE_FINANCIAL_PLAN_TYPES,Manage Financial Plan Types,route_only,Y,-
+ERP,Project Financial Management,Project Control,PJO_MANAGE_PERIOD_PROFILES,Manage Period Profiles,route_only,Y,-
+ERP,Project Financial Management,Project Control,PJO_MANAGE_PROJECT_CONTROL_DESCRIPTIVE_FLEXFIELDS,Manage Project Control Descriptive Flexfields,route_only,Y,-
+ERP,Project Financial Management,Project Control,PJO_MANAGE_SPREAD_CURVES,Manage Spread Curves,route_only,Y,-
+ERP,Project Financial Management,Project Costing Base,ORA_PJC_MANAGE_ATTACHMENT_CATEGORIES,Manage Project Costing Attachment Categories,route_only,Y,-
+ERP,Project Financial Management,Project Costing Base,ORA_PJC_MANAGE_MESSAGES,Manage Project Costing Messages,noskill_noroute,N,-
+ERP,Project Financial Management,Project Costing Base,ORA_PJC_MANAGE_VALUE_SETS,Manage Project Costing Value Sets,route_only,Y,-
+ERP,Project Financial Management,Project Costing Base,ORA_PJC_ZERO_QTY_NONBILL_SETUP_TASK,Allow Cost Transactions with Zero Quantity as Nonbillable,route_only,Y,-
+ERP,Project Financial Management,Project Costing Base,PJC_ALLOW_UPDATE_OF_ACCTS_PROJECT_DISTRIBUTIONS_PROFILE_OPT,Allow Account Updates on Project-Related Distributions,route_only,Y,-
+ERP,Project Financial Management,Project Costing Base,PJC_DEF_EXPENDITURE_ITEM_DATE_FOR_SUPPLIER_CST_PROFILE_OPT,Specify Default Expenditure Item Date for Supplier Cost Transactions,route_only,Y,-
+ERP,Project Financial Management,Project Costing Base,PJC_DERIVE_BILLABLE_STATUS_OF_EXPENDITURE_ITEMS_FROM_WORK_TYPE,Derive Billable Status of Expenditure Items from Work Type,route_only,Y,-
+ERP,Project Financial Management,Project Costing Base,PJC_DERIVE_WORK_TYPE_FOR_PROJECT_EXPENDITURE_ITEMS,Derive Work Type for Project Expenditure Items,route_only,Y,-
+ERP,Project Financial Management,Project Costing Base,PJC_MANAGE_PURCHASING_ACCOUNT_RULES,Manage Account Rules: Purchasing,route_only,Y,-
+ERP,Project Financial Management,Project Costing Base,PJC_PROJECT_ALLOCATION_METHOD_BASIS_AMOUNT_ZERO_PROFILE_OPT,Specify Allocation Method for Zero-Basis Amounts,route_only,Y,-
+ERP,Project Financial Management,Project Costing Base,PJC_PROJECT_STANDARD_COST_COLLECTION_DESCRIPTIVE_FLEXFIELD,Manage Project Standard Cost Collection Flexfield,route_only,Y,-
+ERP,Project Financial Management,Project Costing Base,PJC_PROJECT_STANDARD_COST_COLLECTION_DESC_FLEXFIELD_EXPENSES,Manage Project Standard Cost Collection Flexfield: Expenses,route_only,Y,-
+ERP,Project Financial Management,Project Costing Base,PJC_PROJECT_STANDARD_COST_COLLECTION_DESC_FLEXFIELD_FOR_INV,Manage Project Standard Cost Collection Flexfield: Inventory,route_only,Y,-
+ERP,Project Financial Management,Project Costing Base,PJC_PROJECT_STANDARD_COST_COLLECTION_DESC_FLEXFIELD_PAY,Manage Project Standard Cost Collection Flexfield: Payables,route_only,Y,-
+ERP,Project Financial Management,Project Costing Base,PJC_PROJECT_STD_CST_COLLECTION_DESC_FLEXFIELD_PO,Manage Project Standard Cost Collection Flexfield: Purchasing,route_only,Y,-
+ERP,Project Financial Management,Project Costing Base,PJC_SPECIFY_NUMBER_OF_PARALLEL_IMP_AND_PROCESS_CST_PGMS,Specify Number of Parallel Import and Process Cost Programs,route_only,Y,-
+ERP,Project Financial Management,Project Costing Base,PJC_UPDATE_INVENTORY_ACCOUNT_RULES,Manage Account Rules: Cost Management,route_only,Y,-
+ERP,Project Financial Management,Project Costing Base,PJC_UPDATE_PAYABLES_ACCOUNT_RULES,Manage Account Rules: Payables,route_only,Y,-
+ERP,Project Financial Management,Project Costing Base,PJC_UPDATE_RECEIVING_ACCOUNT_RULES,Manage Account Rules: Receipt Accounting,route_only,Y,-
+ERP,Project Financial Management,Project Costing Base,PJF_CROSS_CHARGE_INDICATOR_ON_TRANSACTION_DOCUMENT_ENTRIES,Manage Project Transaction Sources: Cross-Charge Indicator,route_only,Y,-
+ERP,Project Financial Management,Project Costing Base,PJF_MANAGE_EXPENSES_SOURCE_DOCUMENTS,Manage Project Transaction Sources: Expenses Documents,route_only,Y,-
+ERP,Project Financial Management,Project Costing Base,PJF_MANAGE_INVENTORY_SOURCE_DOCUMENTS,Manage Project Transaction Sources: Inventory Documents,route_only,Y,-
+ERP,Project Financial Management,Project Costing Base,PJF_MANAGE_PAYABLES_SOURCE_DOCUMENTS,Manage Project Transaction Sources: Payables Documents,route_only,Y,-
+ERP,Project Financial Management,Project Costing Base,PJF_MANAGE_PREDEFINED_SOURCES_AND_DOCUMENTS,Manage Project Transaction Sources,route_only,Y,-
+ERP,Project Financial Management,Project Costing Base,PJF_MANAGE_RECEIVING_SOURCE_DOCUMENTS,Manage Project Transaction Sources: Receiving Documents,route_only,Y,-
+ERP,Project Financial Management,Project Costing Base,PJF_MANAGE_TRANSACTION_SOURCES_AND_DOCUMENTS,Manage Project Transaction Sources: Third-Party Sources and Documents,route_only,Y,-
+ERP,Project Financial Management,Project Costing Base,PJF_MANAGE_TRANSFER_PRICE_RULES,Manage Transfer Price Rules,route_only,Y,-
+ERP,Project Financial Management,Project Costing Base,PJF_MANAGE_TRANSFER_PRICE_SCHEDULES,Manage Transfer Price Schedules,route_only,Y,-
+ERP,Project Financial Management,Project Costing Base,PJF_UPDATE_PROJECT_BU_CROSS_CHARGE_IMPLEMENTATION_OPT,Configure Project Accounting Business Function: Borrowed and Lent Options,route_only,Y,-
+ERP,Project Financial Management,Project Foundation,ORA_PJF_CONFIGURE_PROJECT_NUMBERING,Configure Project Numbering,route_only,Y,-
+ERP,Project Financial Management,Project Foundation,ORA_PJF_MANAGE_ATTACHMENT_CATEGORIES,Manage Project Foundation Attachment Categories,route_only,Y,-
+ERP,Project Financial Management,Project Foundation,ORA_PJF_MANAGE_MESSAGES,Manage Project Foundation Messages,noskill_noroute,N,-
+ERP,Project Financial Management,Project Foundation,ORA_PJF_MANAGE_VALUE_SETS,Manage Project Foundation Value Sets,route_only,Y,-
+ERP,Project Financial Management,Project Foundation,PJF_ALLOW_FUTUREDATED_PEOPLE_PROJECT_MEMBERS_PROFILE_OPT,Allow People with Future Effective Start Dates as Project Members,route_only,Y,-
+ERP,Project Financial Management,Project Foundation,PJF_DISTRIBUTE_AND_INSTALL_DESKTOP_INTEGRATOR_CLIENT,Distribute and Install Desktop Integrator Client,noskill_noroute,N,-
+ERP,Project Financial Management,Project Foundation,PJF_ENABLE_OVERTIME_CALCULATION_ON_BU_IMPLEMENTATION_OPT,Configure Project Accounting Business Function: Overtime Calculation Indicator,route_only,Y,-
+ERP,Project Financial Management,Project Foundation,PJF_MANAGE_ACCOUNTING_PERIODS,Manage Accounting Periods for Project Financial Management,noskill_noroute,N,-
+ERP,Project Financial Management,Project Foundation,PJF_MANAGE_ACTION_CONTROLS,Manage Action Controls,route_only,Y,-
+ERP,Project Financial Management,Project Foundation,PJF_MANAGE_CLASS_CATEGORIES,Manage Project Class Categories,route_only,Y,-
+ERP,Project Financial Management,Project Foundation,PJF_MANAGE_EXPENDITURE_CATEGORIES,Manage Expenditure Categories,route_only,Y,-
+ERP,Project Financial Management,Project Foundation,PJF_MANAGE_EXPENDITURE_TYPES,Manage Expenditure Types,route_only,Y,-
+ERP,Project Financial Management,Project Foundation,PJF_MANAGE_JOB_MAPPINGS,Manage Job Mappings,route_only,Y,-
+ERP,Project Financial Management,Project Foundation,PJF_MANAGE_LABOR_COSTING_MULTIPLIERS,Manage Labor Costing Multipliers,route_only,Y,-
+ERP,Project Financial Management,Project Foundation,PJF_MANAGE_LABOR_COSTING_OVERRIDES,Manage Labor Costing Overrides,route_only,Y,-
+ERP,Project Financial Management,Project Foundation,PJF_MANAGE_LABOR_COSTING_RULES,Manage Labor Costing Rules,route_only,Y,-
+ERP,Project Financial Management,Project Foundation,PJF_MANAGE_LABOR_ORGANIZATION_COSTING_RULES,Manage Organization Costing Rules,route_only,Y,-
+ERP,Project Financial Management,Project Foundation,PJF_MANAGE_NONLABOR_RESOURCES,Manage Nonlabor Resources,route_only,Y,-
+ERP,Project Financial Management,Project Foundation,PJF_MANAGE_PROJECT_ACCOUNTING_PERIODS,Manage Project Accounting Periods,noskill_noroute,N,-
+ERP,Project Financial Management,Project Foundation,PJF_MANAGE_PROJECT_FOUNDATION_DESCRIPTIVE_FLEXFIELDS,Manage Project Foundation Descriptive Flexfields,route_only,Y,-
+ERP,Project Financial Management,Project Foundation,PJF_MANAGE_PROJECT_NOTE_DESCRIPTIVE_FLEXFIELDS,Manage Project Note Descriptive Flexfields,route_only,Y,-
+ERP,Project Financial Management,Project Foundation,PJF_MANAGE_PROJECT_NOTE_TYPE,Manage Project Note Type,route_only,Y,-
+ERP,Project Financial Management,Project Foundation,PJF_MANAGE_PROJECT_NOTE_TYPE_MAPPING,Manage Project Note Type Mapping,route_only,Y,-
+ERP,Project Financial Management,Project Foundation,PJF_MANAGE_PROJECT_PRIORITY_VALUES,Manage Project Priority Values,route_only,Y,-
+ERP,Project Financial Management,Project Foundation,PJF_MANAGE_REPORTING_RESOURCE_BREAKDOWN_STRUCTURES,Manage Reporting Resource Breakdown Structures,route_only,Y,-
+ERP,Project Financial Management,Project Foundation,PJF_MANAGE_RESOURCE_CLASS_ATTRIBUTES,Manage Resource Classes,route_only,Y,-
+ERP,Project Financial Management,Project Foundation,PJF_MANAGE_REVENUE_CATEGORIES,Manage Revenue Categories,route_only,Y,-
+ERP,Project Financial Management,Project Foundation,PJF_MANAGE_SERVICE_TYPES,Manage Service Types,route_only,Y,-
+ERP,Project Financial Management,Project Foundation,PJF_MANAGE_SOURCE_PRODUCTS,Manage Source Applications,route_only,Y,-
+ERP,Project Financial Management,Project Foundation,PJF_NUMBER_DAYS_AFTER_TERMINATION_DISP_EMP_PJTS_PROFILE_OPT,Specify Number of Days to Display People with Terminated Assignments,route_only,Y,-
+ERP,Project Financial Management,Project Foundation,PJF_SUBMIT_PROCESS_TO_REFRESH_RESOURCE_ELEMENTS,Submit Process to Refresh Resource Breakdown Structure Element Names,noskill_noroute,N,-
+ERP,Project Financial Management,Project Foundation,PJF_SUBMIT_PROCESS_TO_UPDATE_WORK_TYPES,Submit Process to Update Work Types,noskill_noroute,N,-
+ERP,Project Financial Management,Project Foundation,PJF_TASK_MANAGERS_MUST_BE_PROJECT_MEMBERS_PROFILE_OPTION,Require Task Managers to be Project Team Members,route_only,Y,-
+ERP,Project Financial Management,Project Organizations,ORA_PJF_MANAGE_ORGANIZATION_DATA_ACCESS_FOR_USERS,Manage Project Organization Classifications Data Access for Users,noskill_noroute,N,-
+ERP,Project Financial Management,Project Organizations,PJF_MANAGE_PROJECT_UNIT_SET_ASSIGNMENTS,Manage Project Unit Set Assignments,route_only,Y,-
+ERP,Project Financial Management,Project Organizations,PJF_SUBMIT_PROCESS_TO_DENORMALIZE_ORGANIZATION_HIERARCHY,Submit Process to Maintain Project Organizations,skill_noroute,N,ESS
+ERP,Project Financial Management,Project Organizations,PJF_VERIFY_DEFAULT_ASSET_BOOK_SETUP,Verify Default Asset Book Setup,noskill_noroute,N,-
+ERP,Project Financial Management,Project Performance Reporting,ORA_PJS_MANAGE_MESSAGES,Manage Project Performance Reporting Messages,noskill_noroute,N,-
+ERP,Project Financial Management,Project Performance Reporting,ORA_PJS_MANAGE_PROGRAM_OPTIONS,Manage Program Options,route_only,Y,-
+ERP,Project Financial Management,Project Performance Reporting,PJF_MANAGE_PU_REPORTING_OPTIONS,Manage Project Unit Options: Performance Reporting Options,route_only,Y,-
+ERP,Project Financial Management,Project Performance Reporting,PJF_MANAGE_REGION_LAYOUTS,Manage Region Layouts,route_only,Y,-
+ERP,Project Financial Management,Project Performance Reporting,PJS_MANAGE_CROSS_PROJECT_COMPARISON_GRAPH_TYPES,Manage Cross Project Comparison Graph Types,route_only,Y,-
+ERP,Project Financial Management,Project Performance Reporting,PJS_MANAGE_KEY_PERFORMANCE_INDICATORS,Manage Key Performance Indicators,route_only,Y,-
+ERP,Project Financial Management,Project Performance Reporting,PJS_MANAGE_KPI_CATEGORIES,Manage KPI Categories,route_only,Y,-
+ERP,Project Financial Management,Project Performance Reporting,PJS_MANAGE_PERFORMANCE_MEASURES,Manage Performance Measures,route_only,Y,-
+ERP,Project Financial Management,Project Performance Reporting,PJS_MANAGE_STATUS_INDICATORS,Manage Status Indicators,route_only,Y,-
+ERP,Project Financial Management,Project Performance Reporting,PJS_MANAGE_TREND_INDICATORS,Manage Trend Indicators,route_only,Y,-
+ERP,Public Sector Business Licenses,Agency Profile,ORA_MANAGE_CREDENTIAL_GROUPS,Manage Credential Groups,route_only,Y,-
+ERP,Public Sector Business Licenses,Agency Profile,ORA_PSC_TSK_CREDENTIAL_SETUP,Manage Credential Layout and Credential Setup,route_only,Y,-
+ERP,Public Sector Business Licenses,Agency Profile,ORA_PSC_TSK_EXEMPT_CREDENTIAL,Manage Credential Exemption Reasons,route_only,Y,-
+ERP,Public Sector Business Licenses,Agency Profile,ORA_PSC_TSK_EXEMPT_REASON_LOOKUP,Manage Exemption Reason Lookups,route_only,Y,-
+ERP,Public Sector Business Licenses,Business License Types,ORA_PSC_TSK_BL_EXPIRATION_GROUP,Manage Business License Expiration Group and Expiration Rules,route_only,Y,-
+ERP,Public Sector Business Licenses,Business License Types,ORA_PSC_TSK_BL_RECORD_TYPES,Manage Business License Types,noskill_noroute,N,-
+ERP,Public Sector Business Licenses,Business License Types,ORA_PSC_TSK_BL_RECORD_TYPE_DISPLAY_GROUPS,Manage Business License Type Display Groups,route_only,Y,-
+ERP,Public Sector Business Licenses,Business License Types,ORA_PSC_TSK_MANAGE_BL_CONFIGURATION,Manage Business License Configuration,noskill_noroute,N,-
+ERP,Public Sector Business Licenses,Business License Types,ORA_PSC_TSK_MEETING_TEMPLATES,Manage Meeting Templates,route_only,Y,-
+ERP,Public Sector Code Enforcement,Incidents and Cases,ORA_PSCR_TSK_PRCS_DEFN_GROUP,Set Up Code Enforcement Process Definition Group,route_only,Y,-
+ERP,Public Sector Code Enforcement,Incidents and Cases,ORA_PSC_INCIDENT_CASE_CFG,Manage Incident and Case Configuration,noskill_noroute,N,-
+ERP,Public Sector Code Enforcement,Incidents and Cases,ORA_PSC_TSK_AUTONUM_CASE,Manage Autonumber Rule for Case,route_only,Y,-
+ERP,Public Sector Code Enforcement,Incidents and Cases,ORA_PSC_TSK_AUTONUM_CITATION,Manage Autonumber Rule for Citation,route_only,Y,-
+ERP,Public Sector Code Enforcement,Incidents and Cases,ORA_PSC_TSK_AUTONUM_INCIDENT,Manage Autonumber Rule for Incident,route_only,Y,-
+ERP,Public Sector Code Enforcement,Incidents and Cases,ORA_PSC_TSK_AUTONUM_INSPECTION,Manage Autonumber Rule for Inspection,route_only,Y,-
+ERP,Public Sector Code Enforcement,Incidents and Cases,ORA_PSC_TSK_AUTONUM_NOTICE,Manage Autonumber Rule for Notice,route_only,Y,-
+ERP,Public Sector Code Enforcement,Incidents and Cases,ORA_PSC_TSK_CE_AGENCY_OPTIONS,Set Up Code Enforcement Agency Options,route_only,Y,-
+ERP,Public Sector Code Enforcement,Incidents and Cases,ORA_PSC_TSK_CE_ISSUE_SUBTYPE,Manage Code Enforcement Issue Subtypes,noskill_noroute,N,-
+ERP,Public Sector Code Enforcement,Incidents and Cases,ORA_PSC_TSK_CODE_REFERENCE_GROUPS,Manage Code Reference Groups,route_only,Y,-
+ERP,Public Sector Code Enforcement,Incidents and Cases,ORA_PSC_TSK_CODE_REF_CE,Manage Code Enforcement Code References,route_only,Y,-
+ERP,Public Sector Code Enforcement,Incidents and Cases,ORA_PSC_TSK_CORRECTIVE_ACTIONS,Manage Corrective Actions,route_only,Y,-
+ERP,Public Sector Code Enforcement,Incidents and Cases,ORA_PSC_TSK_INSPECTION_COUNTS,Manage Inspection Counts,route_only,Y,-
+ERP,Public Sector Code Enforcement,Incidents and Cases,ORA_PSC_TSK_ISSUE_TYPES_CE,Manage Code Enforcement Issue Types,route_only,Y,-
+ERP,Public Sector Code Enforcement,Incidents and Cases,ORA_PSC_TSK_MANAGE_CASE_TRANSACTION_STATUSES,Manage Case Transaction Statuses,route_only,Y,-
+ERP,Public Sector Code Enforcement,Incidents and Cases,ORA_PSC_TSK_REFERRAL_BODIES,Manage Referral Bodies,route_only,Y,-
+ERP,Public Sector Permits,Accounting,ORA_PSC_TSK_PUBLIC_SECTOR_ACCOUNTING_EVENTS,Manage Public Sector Accounting Events,route_only,Y,-
+ERP,Public Sector Permits,Agency Profile,ORA_PSC_TSK_AGENCY_BUSINESS_CATEGORIES,Manage Agency Business Categories,route_only,Y,-
+ERP,Public Sector Permits,Agency Profile,ORA_PSC_TSK_AUTONUMBER_RULES_AGENCY,Manage Autonumber Rules for Agency,route_only,Y,-
+ERP,Public Sector Permits,Agency Profile,ORA_PSC_TSK_CONTRACTOR_INTEGRATION_ICS,Manage Contractor Integration in Integration Cloud Service,noskill_noroute,N,-
+ERP,Public Sector Permits,Agency Profile,ORA_PSC_TSK_CONT_LIC_OPT,Manage Contractor License Options,route_only,Y,-
+ERP,Public Sector Permits,Agency Profile,ORA_PSC_TSK_CONT_LIC_SEC,Manage Contractor License Sections,route_only,Y,-
+ERP,Public Sector Permits,Agency Profile,ORA_PSC_TSK_INSTRUCTIONAL_TEXT,Manage Instructional Text,route_only,Y,-
+ERP,Public Sector Permits,Agency Profile,ORA_PSC_TSK_MANAGE_AGENCIES,Manage Agencies,route_only,Y,-
+ERP,Public Sector Permits,Agency Profile,ORA_PSC_TSK_MANAGE_AUTONUMBER_RULES_FOR_PROJECT,Manage Autonumber Rules for Project,route_only,Y,-
+ERP,Public Sector Permits,Agency Profile,ORA_PSC_TSK_MANAGE_AUTO_NUMBERING,Manage Autonumber Rules,route_only,Y,-
+ERP,Public Sector Permits,Agency Profile,ORA_PSC_TSK_MANAGE_CITIES,Manage Cities,route_only,Y,-
+ERP,Public Sector Permits,Agency Profile,ORA_PSC_TSK_MANAGE_CONTACT_TYPES,Manage Contact Types,route_only,Y,-
+ERP,Public Sector Permits,Agency Profile,ORA_PSC_TSK_MANAGE_COUNTIES,Manage Counties,route_only,Y,-
+ERP,Public Sector Permits,Agency Profile,ORA_PSC_TSK_MANAGE_COUNTRIES,Manage Countries,route_only,Y,-
+ERP,Public Sector Permits,Agency Profile,ORA_PSC_TSK_MANAGE_DISTRICTS,Manage Districts,route_only,Y,-
+ERP,Public Sector Permits,Agency Profile,ORA_PSC_TSK_MANAGE_DISTRICT_TYPES,Manage District Types,route_only,Y,-
+ERP,Public Sector Permits,Agency Profile,ORA_PSC_TSK_MANAGE_DOCUMENT_CATEGORY_AND_SUBCATEGORY,Manage Document Category and Subcategories,route_only,Y,-
+ERP,Public Sector Permits,Agency Profile,ORA_PSC_TSK_MANAGE_DOC_GRP,Manage Document Groups,route_only,Y,-
+ERP,Public Sector Permits,Agency Profile,ORA_PSC_TSK_MANAGE_HOLIDAY_CALENDARS,Manage Holiday Calendar,route_only,Y,-
+ERP,Public Sector Permits,Agency Profile,ORA_PSC_TSK_MANAGE_OWNERSHIP_TYPES,Manage Ownership Types,route_only,Y,-
+ERP,Public Sector Permits,Agency Profile,ORA_PSC_TSK_MANAGE_PARCEL,Manage Parcels,noskill_noroute,N,-
+ERP,Public Sector Permits,Agency Profile,ORA_PSC_TSK_MANAGE_PARCEL_ADDRESSES,Manage Parcel Addresses,noskill_noroute,N,-
+ERP,Public Sector Permits,Agency Profile,ORA_PSC_TSK_MANAGE_PARCEL_DISTRICT,Manage Parcel Districts,noskill_noroute,N,-
+ERP,Public Sector Permits,Agency Profile,ORA_PSC_TSK_MANAGE_PARCEL_OWNERS,Manage Parcel Owners,noskill_noroute,N,-
+ERP,Public Sector Permits,Agency Profile,ORA_PSC_TSK_MANAGE_PARCEL_VALUES,Manage Parcel Values,noskill_noroute,N,-
+ERP,Public Sector Permits,Agency Profile,ORA_PSC_TSK_MANAGE_PROPERTY_CONDITIONS,Manage Property Conditions,route_only,Y,-
+ERP,Public Sector Permits,Agency Profile,ORA_PSC_TSK_MANAGE_PSC_CURRENCIES,Manage Public Sector Currencies,route_only,Y,-
+ERP,Public Sector Permits,Agency Profile,ORA_PSC_TSK_MANAGE_PSC_DEPARTMENTS,Manage Public Sector Departments,route_only,Y,-
+ERP,Public Sector Permits,Agency Profile,ORA_PSC_TSK_MANAGE_PSC_WORK_SCHEDULES,Manage Public Sector Work Schedules,route_only,Y,-
+ERP,Public Sector Permits,Agency Profile,ORA_PSC_TSK_MANAGE_STATES,Manage States,route_only,Y,-
+ERP,Public Sector Permits,Agency Profile,ORA_PSC_TSK_MANAGE_TRANS_STATUSES,Manage Transaction Statuses,route_only,Y,-
+ERP,Public Sector Permits,Agency Profile,ORA_PSC_TSK_MANAGE_TRANS_SUBCATEGORIES,Manage Transaction Subcategories,route_only,Y,-
+ERP,Public Sector Permits,Agency Profile,ORA_PSC_TSK_MANAGE_TYPES,Manage Public Sector Project Types,route_only,Y,-
+ERP,Public Sector Permits,Agency Profile,ORA_PSC_TSK_MANAGE_UOMS,Define Units of Measure for Public Sector,route_only,Y,-
+ERP,Public Sector Permits,Agency Profile,ORA_PSC_TSK_MANAGE_UOM_LOOKUPS,Manage Units of Measure Lookups for Public Sector,route_only,Y,-
+ERP,Public Sector Permits,Agency Profile,ORA_PSC_TSK_MNG_TRANS_CATEGORIES,Manage Transaction Categories,route_only,Y,-
+ERP,Public Sector Permits,Agency Profile,ORA_PSC_TSK_PARCEL_IMPORT_OPTIONS,Manage Parcel Import Options,route_only,Y,-
+ERP,Public Sector Permits,Agency Profile,ORA_PSC_TSK_TERMS_OF_USE,Manage Terms of Use,route_only,Y,-
+ERP,Public Sector Permits,Agency Profile,ORA_PSC_TSK_TRAN_APPL_GROUPS,Manage Transaction Application Groups,route_only,Y,-
+ERP,Public Sector Permits,Agency Profile,ORA_PSC_TSK_VALIDATION_GROUP,Manage Validation Groups,route_only,Y,-
+ERP,Public Sector Permits,Agency Staff,ORA_PSCR_TSK_IMPORT_AGENCY_STAFF,Import Agency Staff Data,noskill_noroute,N,-
+ERP,Public Sector Permits,Agency Staff,ORA_PSC_TSK_MANAGE_AGENCY_JOB_TITLES,Manage Agency Job Titles,route_only,Y,-
+ERP,Public Sector Permits,Agency Staff,ORA_PSC_TSK_MANAGE_AGENCY_STAFF,Manage Agency Staff,noskill_noroute,N,-
+ERP,Public Sector Permits,Agency Staff,ORA_PSC_TSK_MANAGE_AGENCY_STAFF_ACCESS,Manage Agency Staff Access,noskill_noroute,N,-
+ERP,Public Sector Permits,Agency Staff,ORA_PSC_TSK_MANAGE_AGENCY_STAFF_GROUPS,Manage Agency Staff Groups,route_only,Y,-
+ERP,Public Sector Permits,Analytics and Reporting,ORA_PSC_TSK_DASHBOARD_CONFIG,Manage Dashboard Configuration,route_only,Y,-
+ERP,Public Sector Permits,Analytics and Reporting,ORA_PSC_TSK_MANAGE_REPORT_CONFIGURATION,Manage Report Configurations,route_only,Y,-
+ERP,Public Sector Permits,Application Extensions,FND_MANAGE_MESSAGES,Manage Messages,noskill_noroute,N,-
+ERP,Public Sector Permits,Branding,ORA_PSCR_TSK_APPEARANCE_CONFIGURATION,Manage Appearance Configuration,noskill_noroute,N,-
+ERP,Public Sector Permits,Branding,ORA_PSCR_TSK_CFG_MENU_STRUCT,Configure Menu Structure,route_only,Y,-
+ERP,Public Sector Permits,Branding,ORA_PSCR_TSK_CONFIGURE_FOOTERS,Configure Footers,route_only,Y,-
+ERP,Public Sector Permits,Branding,ORA_PSC_TSK_ASSIGN_THEME,Assign Themes,route_only,Y,-
+ERP,Public Sector Permits,Branding,ORA_PSC_TSK_DEFINE_THEME,Manage Themes,route_only,Y,-
+ERP,Public Sector Permits,Branding,ORA_PSC_TSK_MANAGE_APPEARANCE,Manage Appearance,noskill_noroute,N,-
+ERP,Public Sector Permits,Branding,ORA_PSC_TSK_MANAGE_GENERIC_ALERTS,Manage Generic Alerts,route_only,Y,-
+ERP,Public Sector Permits,Branding,ORA_PSC_TSK_MANAGE_SUMMARY_DETAILS,Manage Summary Details,route_only,Y,-
+ERP,Public Sector Permits,Branding,ORA_PSC_TSK_MANAGE_TILES_AGENCY_SPRINGBOARD,Manage Tiles for Agency Springboard,route_only,Y,-
+ERP,Public Sector Permits,Branding,ORA_PSC_TSK_MANAGE_TILES_ANYM_USER_LP,Manage Tiles for Anonymous User Landing Page,route_only,Y,-
+ERP,Public Sector Permits,Branding,ORA_PSC_TSK_MANAGE_TILES_REG_USER_LP,Manage Tiles for Registered User Landing Page,route_only,Y,-
+ERP,Public Sector Permits,Branding,ORA_PSC_TSK_RECENT_ACT_CONFIG,Manage Recent Activity Configuration,route_only,Y,-
+ERP,Public Sector Permits,Fees and Payments,IBY_MANAGE_FUNDS_CAPTURE_PROCESS_PROFILES,Manage Funds Capture Process Profiles,route_only,Y,-
+ERP,Public Sector Permits,Fees and Payments,IBY_MANAGE_INTERNAL_PAYEES,Manage Internal Payees,route_only,Y,-
+ERP,Public Sector Permits,Fees and Payments,ORA_ENABLE_PAYMENT_GATEWAY,Enable Payment Gateway,route_only,Y,-
+ERP,Public Sector Permits,Fees and Payments,ORA_MANAGE_BANK_RECONCILIATION_OPT_SETUP,Manage Bank Reconciliation Option Setup,route_only,Y,-
+ERP,Public Sector Permits,Fees and Payments,ORA_PSC_TSK_AGENCY_RECEIVABLE_OPTIONS,Manage Agency Receivable Options,route_only,Y,-
+ERP,Public Sector Permits,Fees and Payments,ORA_PSC_TSK_AUTONUMBER_RULES_FOR_DEP_ACCTS,Manage Autonumber Rules for Deposit Accounts,route_only,Y,-
+ERP,Public Sector Permits,Fees and Payments,ORA_PSC_TSK_CFG_AGENCY_PAY_PRC_OPTIONS,Configure Agency Payment Processing Options,route_only,Y,-
+ERP,Public Sector Permits,Fees and Payments,ORA_PSC_TSK_CFG_DEPT_PAY_PRC_OPTIONS,Configure Department Payment Processing Options,route_only,Y,-
+ERP,Public Sector Permits,Fees and Payments,ORA_PSC_TSK_CONFIGURE_THIRD_PARTY_PAYMENT_OPTIONS,Configure Third Party Payment Options,route_only,Y,-
+ERP,Public Sector Permits,Fees and Payments,ORA_PSC_TSK_DEP_ACCT_OPTIONS,Manage Deposit Account Options,route_only,Y,-
+ERP,Public Sector Permits,Fees and Payments,ORA_PSC_TSK_GLOBAL_FEE_ATTRIBUTES,Manage Global Fee Attributes,noskill_noroute,N,-
+ERP,Public Sector Permits,Fees and Payments,ORA_PSC_TSK_MANAGE_AUTONUMBER_RULE_FOR_CASHIER_SESSION,Manage Autonumber Rule for Cashier Session,route_only,Y,-
+ERP,Public Sector Permits,Fees and Payments,ORA_PSC_TSK_MANAGE_AUTONUMBER_RULE_FOR_INVOICE,Manage Autonumber Rule for Invoice,route_only,Y,-
+ERP,Public Sector Permits,Fees and Payments,ORA_PSC_TSK_MANAGE_AUTONUMBER_RULE_FOR_RECEIPT,Manage Autonumber Rule for Receipt,route_only,Y,-
+ERP,Public Sector Permits,Fees and Payments,ORA_PSC_TSK_MANAGE_BILL_TYPES,Manage Bill Types,route_only,Y,-
+ERP,Public Sector Permits,Fees and Payments,ORA_PSC_TSK_MANAGE_CASH_DRAWER,Manage Cash Drawers,route_only,Y,-
+ERP,Public Sector Permits,Fees and Payments,ORA_PSC_TSK_MANAGE_INVOICE_FORMS,Manage Public Sector Invoice Forms,route_only,Y,-
+ERP,Public Sector Permits,Fees and Payments,ORA_PSC_TSK_MANAGE_PAYMENT_ADAPTER,Manage Payment Adapters,route_only,Y,-
+ERP,Public Sector Permits,Fees and Payments,ORA_PSC_TSK_MNG_FEE_ITEMS,Manage Fee Items,route_only,Y,-
+ERP,Public Sector Permits,Fees and Payments,ORA_PSC_TSK_MNG_FEE_SCHEDULES,Manage Fee Schedules,noskill_noroute,N,-
+ERP,Public Sector Permits,Fees and Payments,ORA_PSC_TSK_RECEIVABLE_RECEIPT_OPTION,Manage Agency Receivable Receipt Options,route_only,Y,-
+ERP,Public Sector Permits,GIS,ORA_PSC_TSK_GIS_ATTRIBUTES_MAPPING,Manage Transaction to GIS Attributes Mappings,route_only,Y,-
+ERP,Public Sector Permits,GIS,ORA_PSC_TSK_GIS_TO_APO_IMPORT_MAP,Manage GIS to Property Import Mapping,route_only,Y,-
+ERP,Public Sector Permits,GIS,ORA_PSC_TSK_REFERENCE_ENTITY_FEATURE_SERVICE,Manage GIS Feature Service,route_only,Y,-
+ERP,Public Sector Permits,GIS,ORA_PSC_TSK_SECURE_MAP_ACCESS,Manage Secure Map Access,noskill_noroute,N,-
+ERP,Public Sector Permits,GIS,ORA_PSC_TSK_SETUP_APO_MAPPING,Manage GIS Attribute Mapping,route_only,Y,-
+ERP,Public Sector Permits,GIS,ORA_PSC_TSK_SETUP_MAP_PROFILE,Manage Map Profiles,route_only,Y,-
+ERP,Public Sector Permits,Help Management,ORA_PSC_TSK_MANAGE_SETUP_CONTEXTUAL_HELP,Manage Contextual Help,route_only,Y,-
+ERP,Public Sector Permits,Initial Set Up,ORA_PSCR_TSK_CUSTOM_ROLES,Manage Public Sector Custom Roles,route_only,Y,-
+ERP,Public Sector Permits,Initial Set Up,ORA_PSCR_TSK_MANAGE_PSC_SEARCH_INDEXES,Manage Public Sector Search Indexes,noskill_noroute,N,-
+ERP,Public Sector Permits,Initial Set Up,ORA_PSCR_TSK_RUN_SEC_SETUP_PRCS,Run Public Sector Security Setup Process,noskill_noroute,N,-
+ERP,Public Sector Permits,Initial Set Up,ORA_PSC_TSK_OCI_INTEGRATION_SETUP,Set Up OCI Process Automation Integration,noskill_noroute,N,-
+ERP,Public Sector Permits,Initial Set Up,ORA_PSC_TSK_RUN_LOAD_PUBLIC_SECTOR_WORKFLOW_TASKS_JOB,Run Load Public Sector Workflow Tasks Job,noskill_noroute,N,-
+ERP,Public Sector Permits,Initial Set Up,ORA_PSC_TSK_UPD_NEXT_URL_DEF_UC,Update Next URL of Default User Category,noskill_noroute,N,-
+ERP,Public Sector Permits,Permit Inspections,ORA_PSC_TSK_CREATE_INTEG_VOICE_RESP_PROXY_USER,Create Interactive Voice Response Proxy User,noskill_noroute,N,-
+ERP,Public Sector Permits,Permit Inspections,ORA_PSC_TSK_INS_TYPE_DEPENDENCY,Manage Inspection Dependencies,route_only,Y,-
+ERP,Public Sector Permits,Permit Inspections,ORA_PSC_TSK_MANAGE_CHECKLIST_CATEGORIES,Manage Checklist Categories,route_only,Y,-
+ERP,Public Sector Permits,Permit Inspections,ORA_PSC_TSK_MANAGE_CHECKLIST_GROUPS,Manage Checklist Groups,route_only,Y,-
+ERP,Public Sector Permits,Permit Inspections,ORA_PSC_TSK_MANAGE_INSPECTION_ASSESSMENT_TYPES,Manage Inspection Assessment Types,route_only,Y,-
+ERP,Public Sector Permits,Permit Inspections,ORA_PSC_TSK_MANAGE_INSPECTION_CALENDARS,Manage Inspection Calendars,route_only,Y,-
+ERP,Public Sector Permits,Permit Inspections,ORA_PSC_TSK_MANAGE_INSPECTION_CHECKLISTS,Manage Inspection Checklists,route_only,Y,-
+ERP,Public Sector Permits,Permit Inspections,ORA_PSC_TSK_MANAGE_INSPECTION_GROUPS,Manage Inspection Groups,route_only,Y,-
+ERP,Public Sector Permits,Permit Inspections,ORA_PSC_TSK_MANAGE_INSPECTION_STATUSES,Manage Inspection Statuses,route_only,Y,-
+ERP,Public Sector Permits,Permit Inspections,ORA_PSC_TSK_MANAGE_INSPECTION_TYPES,Manage Inspection Types,route_only,Y,-
+ERP,Public Sector Permits,Permit Inspections,ORA_PSC_TSK_MANAGE_PASSING_RULES,Manage Passing Rules,route_only,Y,-
+ERP,Public Sector Permits,Permit Inspections,ORA_PSC_TSK_MANAGE_RATING_METHODS,Manage Rating Methods,route_only,Y,-
+ERP,Public Sector Permits,Permit Inspections,ORA_PSC_TSK_MOBILE_OFFLINE_SETTINGS,Manage Mobile Offline Settings,route_only,Y,-
+ERP,Public Sector Permits,Permit Types,ORA_PSC_TSK_CREATE_PCS_PROXY_USER,Create Process Cloud Service Proxy User,noskill_noroute,N,-
+ERP,Public Sector Permits,Permit Types,ORA_PSC_TSK_EXPIRATION_GROUP,Manage Permit Expiration Group and Expiration Rules,route_only,Y,-
+ERP,Public Sector Permits,Permit Types,ORA_PSC_TSK_FEE_ITEM_RECEIVABLE_OPTIONS,Manage Fee Item Receivable Options,route_only,Y,-
+ERP,Public Sector Permits,Permit Types,ORA_PSC_TSK_MANAGE_PERMIT_CUSTOMIZATION,Manage Permit Configuration,noskill_noroute,N,-
+ERP,Public Sector Permits,Permit Types,ORA_PSC_TSK_MANAGE_RECORD_TYPES,Manage Permit Types,noskill_noroute,N,-
+ERP,Public Sector Permits,Permit Types,ORA_PSC_TSK_MANAGE_RECORD_TYPE_DISPLAY_GROUPS,Manage Permit Type Display Groups,route_only,Y,-
+ERP,Public Sector Permits,Permit Types,ORA_PSC_TSK_MANAGE_WORKFLOW_COMM_EVT,Manage Workflow Communication Events,route_only,Y,-
+ERP,Public Sector Permits,Permit Types,ORA_PSC_TSK_MANAGE_WORKFLOW_IN_PCS,Manage Workflow in Process Cloud Service,noskill_noroute,N,-
+ERP,Public Sector Permits,Permit Types,ORA_PSC_TSK_RECORD_TYPE_RECEIVABLE_OPTIONS,Manage Record Type Receivable Options,route_only,Y,-
+ERP,Public Sector Permits,Permit Types,ORA_PSC_TSK_UPD_WORKFL_INTEG_CONNECTOR,Update Workflow Integration Connector,noskill_noroute,N,-
+ERP,Public Sector Permits,Plan Review,ORA_PSC_TSK_MANAGE_PLAN_REVIEW_DECISIONS,Manage Plan Review Decisions,route_only,Y,-
+ERP,Public Sector Permits,Plan Review,ORA_PSC_TSK_MANAGE_PLAN_REVIEW_STATUSES,Manage Plan Review Statuses,route_only,Y,-
+ERP,Public Sector Permits,Plan Review,ORA_PSC_TSK_PLAN_REVIEWER_DEPT,Manage Plan Reviewer Departments,route_only,Y,-
+ERP,Public Sector Permits,Plan Review,ORA_PSC_TSK_TIME_RULES,Manage Time Rules,route_only,Y,-
+ERP,Public Sector Permits,Public Users,ORA_PSC_TSK_MANAGE_BUSINESS_TYPES,Manage Business Type Lookups,route_only,Y,-
+ERP,Public Sector Permits,Public Users,ORA_PSC_TSK_MANAGE_PUBLIC_USER_ACCESS,Manage Public User Access,noskill_noroute,N,-
+ERP,Public Sector Permits,Public Users,ORA_PSC_TSK_MANAGE_PUBLIC_USER_ROLES,Manage Public User Roles,noskill_noroute,N,-
+ERP,Public Sector Permits,Public Users,ORA_PSC_TSK_PUBLIC_USER_SETUP,Manage Public User Setup,route_only,Y,-
+ERP,Public Sector Permits,Reference Entities,ORA_PSC_TSK_MANAGE_RE_CUSTOMIZATION,Manage Reference Entity Configuration,noskill_noroute,N,-
+ERP,Public Sector Permits,Reference Entities,ORA_PSC_TSK_MANAGE_RE_MAP_PROFILE,Manage Reference Entity Map Profile,route_only,Y,-
+ERP,Public Sector Permits,Reference Entities,ORA_PSC_TSK_REFERENCE_ENTITY_APPLICATION_GROUP,Manage Reference Entity Application Group,route_only,Y,-
+ERP,Public Sector Permits,Reference Entities,ORA_PSC_TSK_REFERENCE_ENTITY_AUTO_NUMBER,Manage Reference Entity Auto Number,route_only,Y,-
+ERP,Public Sector Permits,Reference Entities,ORA_PSC_TSK_REFERENCE_ENTITY_CATEGORY,Manage Reference Entity Category,route_only,Y,-
+ERP,Public Sector Permits,Reference Entities,ORA_PSC_TSK_REFERENCE_ENTITY_SUBCATEGORY,Manage Reference Entity Subcategory,route_only,Y,-
+ERP,Public Sector Permits,Reference Entities,ORA_PSC_TSK_REFERENCE_ENTITY_TYPE,Manage Reference Entity Type,route_only,Y,-
+ERP,Public Sector Permits,Reference Entities,ORA_PSC_TSK_REFERENCE_ENTITY_TYPE_AUTO_NUMBER,Manage Reference Entity Type Auto Number,route_only,Y,-
+ERP,Public Sector Permits,System Administration,ORA_OPAL_INTEGRATION_CLOUD_APP,Provide Secondary Audience URL for Oracle Integration Cloud,noskill_noroute,N,-
+ERP,Public Sector Permits,System Administration,ORA_OPAL_INTEGRATION_CLOUD_SCOPE_APP,Provide Primary Audience URL for Oracle Integration Cloud,noskill_noroute,N,-
+ERP,Public Sector Permits,System Administration,ORA_PSCR_TSK_INTAKE_FORM_CACHE_GENERATION,Manage Intake Form Cache Generation,noskill_noroute,N,-
+ERP,Public Sector Permits,System Administration,ORA_PSCR_TSK_INTAKE_FORM_CACHE_REMOVAL,Manage Intake Form Cache Removal,noskill_noroute,N,-
+ERP,Public Sector Permits,System Administration,ORA_PSC_TSK_BUS_RULES_FRAMEWORK,Manage Business Rules Framework,route_only,Y,-
+ERP,Public Sector Permits,System Administration,ORA_PSC_TSK_MANAGE_APPLICATION_CATEGORIES,Manage Comment Categories,route_only,Y,-
+ERP,Public Sector Permits,System Administration,ORA_PSC_TSK_MANAGE_COMMENTS,Manage Comments,route_only,Y,-
+ERP,Public Sector Permits,System Administration,ORA_PSC_TSK_MANAGE_COMMUNICATION_EVENTS,Manage Communication Events,route_only,Y,-
+ERP,Public Sector Permits,System Administration,ORA_PSC_TSK_MANAGE_CONDITIONS,Manage Conditions,route_only,Y,-
+ERP,Public Sector Permits,System Administration,ORA_PSC_TSK_MANAGE_GRID_PERSONALIZATION,Manage Agency Default Grid Personalization,route_only,Y,-
+ERP,Public Sector Permits,System Administration,ORA_PSC_TSK_MANAGE_LOOKUPS,Manage Lookups for Public Sector,route_only,Y,-
+ERP,Public Sector Permits,System Administration,ORA_PSC_TSK_MANAGE_STANDARD_COMMENTS,Manage Standard Comments,route_only,Y,-
+ERP,Public Sector Permits,System Administration,ORA_PSC_TSK_MNG_TWILIO_SECURITY_ENDPOINT,Manage Twilio Security Endpoint,noskill_noroute,N,-
+ERP,Public Sector Permits,System Administration,ORA_PSC_TSK_MOD_EXISTING_PAGES,Manage Modification of Existing Pages,route_only,Y,-
+ERP,Public Sector Permits,System Administration,ORA_PSC_TSK_NAICS_CODES,Manage Industry Classification,route_only,Y,-
+ERP,Public Sector Permits,System Administration,ORA_PSC_TSK_NAICS_GROUPS,Manage NAICS Groups,route_only,Y,-
+ERP,Public Sector Permits,System Administration,ORA_PSC_TSK_RUN_WF_FAULTED_PRCS_JOB,Managing Faulted Workflow Processes,noskill_noroute,N,-
+ERP,Public Sector Permits,System Administration,ORA_PSC_TSK_RUN_WORKLIST_SYNC,Run Schedule Worklist Sync Process,noskill_noroute,N,-
+ERP,Public Sector Permits,System Administration,ORA_PSC_TSK_SAFE_DOMAINS,Manage Safe Domains,route_only,Y,-
+ERP,Public Sector Permits,System Administration,ORA_PSC_TSK_TIME_CATEGORIES,Manage Public Sector Time Categories,route_only,Y,-
+ERP,Public Sector Permits,System Administration,ORA_PSC_TSK_TIME_ENTRY_TYPES,Manage Time Entry Types,route_only,Y,-
+ERP,Public Sector Planning and Zoning,Analytics and Reporting,ORA_PSC_TSK_NOTICES,Manage Notices and Reports,route_only,Y,-
+ERP,Public Sector Planning and Zoning,Analytics and Reporting,ORA_PSC_TSK_NOTICE_GROUPS,Manage Notice and Report Groups,route_only,Y,-
+ERP,Public Sector Planning and Zoning,Planning Application Types,ORA_PSC_TSK_COA,Manage Conditions of Approval,route_only,Y,-
+ERP,Public Sector Planning and Zoning,Planning Application Types,ORA_PSC_TSK_COA_CATEGORY,Manage Conditions of Approval Category,route_only,Y,-
+ERP,Public Sector Planning and Zoning,Planning Application Types,ORA_PSC_TSK_COA_TEMPLATE,Manage Conditions of Approval Template,route_only,Y,-
+ERP,Public Sector Planning and Zoning,Planning Application Types,ORA_PSC_TSK_EXPIRATION_GROUP_PNZ,Manage Planning Application Expiration Group and Expiration Rules,route_only,Y,-
+ERP,Public Sector Planning and Zoning,Planning Application Types,ORA_PSC_TSK_MNG_PLANG_APPLN_TYPE_DISPLAY_GROUPS,Manage Planning Application Type Display Groups,route_only,Y,-
+ERP,Public Sector Planning and Zoning,Planning Application Types,ORA_PSC_TSK_MNG_PLANG_APPL_CFG,Manage Planning Application Configuration,noskill_noroute,N,-
+ERP,Public Sector Planning and Zoning,Planning Application Types,ORA_PSC_TSK_MNG_PNZ_APPL_TYPES,Manage Planning and Zoning Application Types,noskill_noroute,N,-
+ERP,Public Sector Planning and Zoning,Public Hearing,ORA_PSC_TSK_HEARING_DECISION_STATUS,Set Up Hearing Decision Status,route_only,Y,-
+ERP,Public Sector Planning and Zoning,Public Hearing,ORA_PSC_TSK_SET_UP_HEARING_BODY,Set Up Hearing and Decision Making Body,route_only,Y,-
+ERP,Public Sector Planning and Zoning,System Administration,ORA_PSC_TSK_ACTIVITIES,Manage Application Activities,route_only,Y,-
+ERP,Public Sector Planning and Zoning,System Administration,ORA_PSC_TSK_ACTIVITY_GROUPS,Manage Activity Groups,route_only,Y,-
+ERP,Public Sector Planning and Zoning,System Administration,ORA_PSC_TSK_ACTIVITY_STATUSES,Manage Activity Statuses,route_only,Y,-
+SCM,Manufacturing and Supply Chain Materials Management,Carriers and Transit Times,ORA_RCS_MANAGE_SHIPPING_LOOKUPS,Manage Carriers Lookups,route_only,Y,-
+SCM,Manufacturing and Supply Chain Materials Management,Cost Accounting,CST_MANAGE_COST_ANALYSIS_GROUPS,Manage Cost Analysis Groups,route_only,Y,-
+SCM,Manufacturing and Supply Chain Materials Management,Cost Accounting,CST_MANAGE_COST_BOOKS,Manage Cost Books,route_only,Y,-
+SCM,Manufacturing and Supply Chain Materials Management,Cost Accounting,CST_MANAGE_COST_COMPONENT_MAPPINGS,Manage Cost Component Mappings,route_only,Y,-
+SCM,Manufacturing and Supply Chain Materials Management,Cost Accounting,CST_MANAGE_COST_ELEMENTS,Manage Cost Elements,route_only,Y,-
+SCM,Manufacturing and Supply Chain Materials Management,Cost Accounting,CST_MANAGE_COST_ORGANIZATIONS,Manage Cost Organizations,route_only,Y,-
+SCM,Manufacturing and Supply Chain Materials Management,Cost Accounting,CST_MANAGE_COST_ORGANIZATION_RELATIONSHIPS,Manage Cost Organization Relationships,route_only,Y,-
+SCM,Manufacturing and Supply Chain Materials Management,Cost Accounting,CST_MANAGE_COST_PROFILES,Manage Cost Profiles,route_only,Y,-
+SCM,Manufacturing and Supply Chain Materials Management,Cost Accounting,CST_MANAGE_DEFAULT_COST_PROFILES,Manage Default Cost Profiles,route_only,Y,-
+SCM,Manufacturing and Supply Chain Materials Management,Cost Accounting,CST_MANAGE_ITEM_COST_PROFILE,Manage Item Cost Profiles,route_only,Y,-
+SCM,Manufacturing and Supply Chain Materials Management,Cost Accounting,CST_MANAGE_OVERHEAD_COST_ELEMENT_GROUPS,Manage Overhead Cost Element Groups,route_only,Y,-
+SCM,Manufacturing and Supply Chain Materials Management,Cost Accounting,CST_MANAGE_OVERHEAD_EXPENSE_POOLS,Manage Overhead Expense Pools,route_only,Y,-
+SCM,Manufacturing and Supply Chain Materials Management,Cost Accounting,CST_MANAGE_VALUATION_STRUCTURES,Manage Valuation Structures,route_only,Y,-
+SCM,Manufacturing and Supply Chain Materials Management,Cost Accounting,CST_MANAGE_VALUATION_UNITS,Manage Valuation Units,route_only,Y,-
+SCM,Manufacturing and Supply Chain Materials Management,Cost Accounting,ORA_CST_MANAGE_COST_ORG_DATA_ACCESS,Manage Cost Organization Data Access for Users,noskill_noroute,N,-
+SCM,Manufacturing and Supply Chain Materials Management,Cost Accounting,ORA_CST_QUICK_SETUP,Quick Setup,noskill_noroute,N,-
+SCM,Manufacturing and Supply Chain Materials Management,Customers,ORA_EDR_ELECTRONIC_SIGN_PREF,Configure Electronic Signature Preferences,route_only,Y,-
+SCM,Manufacturing and Supply Chain Materials Management,Customers,ORA_RCS_ASSOCIATE_CUSTOMER_WITH_INVENTORY_ORGANIZATION,Associate Customer with Inventory Organization,route_only,Y,-
+SCM,Manufacturing and Supply Chain Materials Management,Customers,ORA_RCS_ASSOCIATE_EXPIRED_LOT_SUBINVLOC_WITH_INVENTORY_ORGANIZATIONS,Associate Expired Lot Subinventories and Locators with Inventory Organizations,route_only,Y,-
+SCM,Manufacturing and Supply Chain Materials Management,Customers,ORA_RCS_ASSOCIATE_FABOOK_WITH_INVENTORY_ORGANIZATION,Associate Fixed Asset Books with Inventory Organizations,route_only,Y,-
+SCM,Manufacturing and Supply Chain Materials Management,Customers,ORA_RCS_ASSOCIATE_SOURCE_ORGANIZATION_WITH_INVENTORY_ORGANIZATION,Associate Source Organization with Inventory Organization,route_only,Y,-
+SCM,Manufacturing and Supply Chain Materials Management,Customers,ORA_RCS_ASSOCIATE_SUPPLIER_W_MFG_ORG,Associate Supplier with Contract Manufacturing Plant,route_only,Y,-
+SCM,Manufacturing and Supply Chain Materials Management,Customers,ORA_RCS_COPY_INVENTORY_ORGANIZATIONS,Copy Inventory Organizations,route_only,Y,-
+SCM,Manufacturing and Supply Chain Materials Management,Customers,ORA_RCS_MANAGE_DEFAULT_EXPENDITURE_TYPES,Manage Default Expenditure Types,route_only,Y,-
+SCM,Manufacturing and Supply Chain Materials Management,Customers,ORA_RCS_MANAGE_DEFAULT_EXPENDITURE_TYPES_LOOKUPS,Manage Default Expenditure Types Lookups,route_only,Y,-
+SCM,Manufacturing and Supply Chain Materials Management,Customers,ORA_RCS_MANAGE_INV_ORG_FLEXFIELDS,Manage Inventory Organizations Descriptive Flexfields,route_only,Y,-
+SCM,Manufacturing and Supply Chain Materials Management,Customers,ORA_RCS_MANAGE_ITEM_ORG_FLEXFIELDS,Manage Item Organizations Descriptive Flexfields,route_only,Y,-
+SCM,Manufacturing and Supply Chain Materials Management,Customers,ORA_RCS_MANAGE_PROJECT_ATTRIBUTE_DEFAULTS,Manage Project Attribute Defaults,route_only,Y,-
+SCM,Manufacturing and Supply Chain Materials Management,Customers,ORA_RCS_MANAGE_PROJECT_TYPE_COST_EXCLUSIONS,Manage Project Type Cost Exclusions,route_only,Y,-
+SCM,Manufacturing and Supply Chain Materials Management,Customers,ORA_RCS_MANAGE_SCM_COMMON_LOOKUPS,Manage SCM Common Lookups,route_only,Y,-
+SCM,Manufacturing and Supply Chain Materials Management,Customers,ORA_RCS_MANAGE_SUPPLIER,Manage Intercompany and Contract Manufacturing Suppliers,noskill_noroute,N,-
+SCM,Manufacturing and Supply Chain Materials Management,Intrastat Reporting,JMF_MANAGE_INTRASTAT_COUNTRY_CHARACTERISTICS,Manage Intrastat Country Characteristics,route_only,Y,-
+SCM,Manufacturing and Supply Chain Materials Management,Intrastat Reporting,JMF_MANAGE_INTRASTAT_LOOKUPS,Manage Intrastat Lookups,route_only,Y,-
+SCM,Manufacturing and Supply Chain Materials Management,Intrastat Reporting,JMF_MANAGE_INTRASTAT_PARAMETERS,Manage Intrastat Parameters,route_only,Y,-
+SCM,Manufacturing and Supply Chain Materials Management,Intrastat Reporting,JMF_MANAGE_INTRASTAT_RULES,Manage Intrastat Rules,route_only,Y,-
+SCM,Manufacturing and Supply Chain Materials Management,Intrastat Reporting,ORA_INTRASTAT_COUNTRY_CHARACTERISTICS,Intrastat Country Characteristics,route_only,Y,-
+SCM,Manufacturing and Supply Chain Materials Management,Intrastat Reporting,ORA_INTRASTAT_RULES,Intrastat Rules,route_only,Y,-
+SCM,Manufacturing and Supply Chain Materials Management,Inventory Management,INV_MANAGE_ABC_ASSIGNMENT_GROUPS,Manage ABC Assignment Groups,route_only,Y,-
+SCM,Manufacturing and Supply Chain Materials Management,Inventory Management,INV_MANAGE_ABC_CLASSES,Manage ABC Classes,route_only,Y,-
+SCM,Manufacturing and Supply Chain Materials Management,Inventory Management,INV_MANAGE_ABC_CLASSIFICATION_SETS,Manage ABC Classification Sets,route_only,Y,-
+SCM,Manufacturing and Supply Chain Materials Management,Inventory Management,INV_MANAGE_ACCOUNT_ALIASES,Manage Account Aliases,route_only,Y,-
+SCM,Manufacturing and Supply Chain Materials Management,Inventory Management,INV_MANAGE_INTERORGANIZATION_PARAMETERS,Manage Interorganization Parameters,route_only,Y,-
+SCM,Manufacturing and Supply Chain Materials Management,Inventory Management,INV_MANAGE_INVENTORY_ACCOUNT_ALIAS_KEY_FLEXFIELD,Manage Inventory Account Alias Key Flexfield,route_only,Y,-
+SCM,Manufacturing and Supply Chain Materials Management,Inventory Management,INV_MANAGE_INVENTORY_DESCRIPTIVE_FLEXFIELDS,Manage Inventory Descriptive Flexfields,route_only,Y,-
+SCM,Manufacturing and Supply Chain Materials Management,Inventory Management,INV_MANAGE_INVENTORY_LOCATOR_KEY_FLEXFIELD,Manage Inventory Locator Key Flexfield,route_only,Y,-
+SCM,Manufacturing and Supply Chain Materials Management,Inventory Management,INV_MANAGE_INVENTORY_LOOKUPS,Manage Inventory Lookups,route_only,Y,-
+SCM,Manufacturing and Supply Chain Materials Management,Inventory Management,INV_MANAGE_INVENTORY_PROFILE_OPTIONS,Manage Inventory Profile Options,route_only,Y,-
+SCM,Manufacturing and Supply Chain Materials Management,Inventory Management,INV_MANAGE_INVENTORY_TRANSACTION_REASONS,Manage Inventory Transaction Reasons,route_only,Y,-
+SCM,Manufacturing and Supply Chain Materials Management,Inventory Management,INV_MANAGE_ITEM_TRANSACTION_DEFAULTS,Manage Item Transaction Defaults,route_only,Y,-
+SCM,Manufacturing and Supply Chain Materials Management,Inventory Management,INV_MANAGE_LOT_AND_SERIAL_ATTRIBUTES_MAPPING,Manage Lot and Serial Attributes Mapping,route_only,Y,-
+SCM,Manufacturing and Supply Chain Materials Management,Inventory Management,INV_MANAGE_LOT_EXPIRATION_ACTIONS,Manage Lot Expiration Actions,route_only,Y,-
+SCM,Manufacturing and Supply Chain Materials Management,Inventory Management,INV_MANAGE_LOT_GRADES,Manage Lot Grades,route_only,Y,-
+SCM,Manufacturing and Supply Chain Materials Management,Inventory Management,INV_MANAGE_MATERIAL_STATUSES,Manage Material Statuses,route_only,Y,-
+SCM,Manufacturing and Supply Chain Materials Management,Inventory Management,INV_MANAGE_PICKING_RULES,Manage Picking Rules,route_only,Y,-
+SCM,Manufacturing and Supply Chain Materials Management,Inventory Management,INV_MANAGE_PICKING_RULE_ASSIGNMENTS,Manage Picking Rule Assignments,route_only,Y,-
+SCM,Manufacturing and Supply Chain Materials Management,Inventory Management,INV_MANAGE_PICK_SLIP_GROUPING_RULES,Manage Pick Slip Grouping Rules,route_only,Y,-
+SCM,Manufacturing and Supply Chain Materials Management,Inventory Management,INV_MANAGE_SUBINVENTORIES_AND_LOCATORS,Manage Subinventories and Locators,route_only,Y,-
+SCM,Manufacturing and Supply Chain Materials Management,Inventory Management,ORA_ACCOUNT_ALIASES,Account Aliases,route_only,Y,-
+SCM,Manufacturing and Supply Chain Materials Management,Inventory Management,ORA_INVENTORY_ATTRIBUTE_CONFIGURATION,Inventory Attribute Configurations,route_only,Y,-
+SCM,Manufacturing and Supply Chain Materials Management,Inventory Management,ORA_INV_DEFAULT_CLASSIFICATION_GROUP,Default Classification Group,route_only,Y,-
+SCM,Manufacturing and Supply Chain Materials Management,Inventory Management,ORA_INV_MANAGE_INTERSUBINVENTORY_PARAMETERS,Manage Intersubinventory Parameters,route_only,Y,-
+SCM,Manufacturing and Supply Chain Materials Management,Inventory Management,ORA_INV_MANAGE_INVENTORY_CONSUMPTION_RULES,Manage Consumption Rules,route_only,Y,-
+SCM,Manufacturing and Supply Chain Materials Management,Inventory Management,ORA_INV_MANAGE_INVENTORY_VALUE_SETS,Manage Inventory Value Sets,route_only,Y,-
+SCM,Manufacturing and Supply Chain Materials Management,Inventory Management,ORA_INV_MANAGE_UNITS_OF_MEASURE_USAGES,Manage Units of Measure Usages,route_only,Y,-
+SCM,Manufacturing and Supply Chain Materials Management,Inventory Management,ORA_INV_POLICY_PROFILE_ASSIGNMENTS,Policy Profile Assignments,route_only,Y,-
+SCM,Manufacturing and Supply Chain Materials Management,Inventory Management,ORA_MANAGE_INVENTORY_BUSINESS_EVENT_CONFIGURATIONS,Manage Inventory Business Event Configurations,route_only,Y,-
+SCM,Manufacturing and Supply Chain Materials Management,Inventory Management,ORA_MANAGE_MIN_MAX_CLASSIFICATION_GROUPS,Manage Min-Max Planning Classification Groups,route_only,Y,-
+SCM,Manufacturing and Supply Chain Materials Management,Inventory Management,ORA_MANAGE_MIN_MAX_PLANNING_POLICY_PROFILES,Manage Min-Max Planning Policy Profiles,route_only,Y,-
+SCM,Manufacturing and Supply Chain Materials Management,Inventory Management,ORA_MANAGE_MIN_MAX_PLANNING_POLICY_PROFILE_ASSIGNMENTS,Manage Min-Max Planning Policy Profile Assignments,route_only,Y,-
+SCM,Manufacturing and Supply Chain Materials Management,Landed Cost Management,ORA_CML_SET_UP_CHARGE_NAMES,Manage Charge Names,route_only,Y,-
+SCM,Manufacturing and Supply Chain Materials Management,Landed Cost Management,ORA_CML_SET_UP_REFERENCE_TYPES,Manage Landed Cost Reference Types,route_only,Y,-
+SCM,Manufacturing and Supply Chain Materials Management,Landed Cost Management,ORA_CML_SET_UP_ROUTES,Manage Routes,route_only,Y,-
+SCM,Manufacturing and Supply Chain Materials Management,Maintenance Management,ORA_ASSET_MAINTENANCE_PARAMETERS,Asset Maintenance Parameters,noskill_noroute,N,-
+SCM,Manufacturing and Supply Chain Materials Management,Maintenance Management,ORA_CSE_MANAGE_ASSET_GROUP_RULES,Manage Asset Group Rules,route_only,Y,-
+SCM,Manufacturing and Supply Chain Materials Management,Maintenance Management,ORA_MAINTENANCE_ORGANIZATION_RELATIONSHIPSIONSHIPS,Maintenance Organization Relationships,route_only,Y,-
+SCM,Manufacturing and Supply Chain Materials Management,Maintenance Management,ORA_MNT_MAINT_RES_INSTANCES,Manage Maintenance Resource Instances,route_only,Y,-
+SCM,Manufacturing and Supply Chain Materials Management,Maintenance Management,ORA_MNT_MANAGE_FAILURE_SETS,Manage Failure Sets,route_only,Y,-
+SCM,Manufacturing and Supply Chain Materials Management,Maintenance Management,ORA_MNT_MANAGE_MAINTENANCE_DESCRIPTIVE_FLEXFIELDS,Manage Maintenance Descriptive Flexfields,route_only,Y,-
+SCM,Manufacturing and Supply Chain Materials Management,Maintenance Management,ORA_MNT_MANAGE_MAINTENANCE_LOOKUPS,Manage Maintenance Lookups,route_only,Y,-
+SCM,Manufacturing and Supply Chain Materials Management,Maintenance Management,ORA_MNT_MANAGE_MAINTENANCE_RESOURCES,Manage Maintenance Resources,route_only,Y,-
+SCM,Manufacturing and Supply Chain Materials Management,Maintenance Management,ORA_MNT_MANAGE_MAINTENANCE_VALUE_SETS,Manage Maintenance Value Sets,route_only,Y,-
+SCM,Manufacturing and Supply Chain Materials Management,Maintenance Management,ORA_MNT_MANAGE_MAINTENANCE_WORK_AREAS,Manage Maintenance Work Areas,route_only,Y,-
+SCM,Manufacturing and Supply Chain Materials Management,Maintenance Management,ORA_MNT_MANAGE_MAINTENANCE_WORK_CENTERS,Manage Maintenance Work Centers,route_only,Y,-
+SCM,Manufacturing and Supply Chain Materials Management,Manufacturing Master Data,ORA_MNT_DOWNLOAD_ASSET_IMPORT_TEMPLATE,Download Asset Import Template,noskill_noroute,N,-
+SCM,Manufacturing and Supply Chain Materials Management,Manufacturing Master Data,ORA_MNT_IMPORT_ASSETS,Import Assets,noskill_noroute,N,-
+SCM,Manufacturing and Supply Chain Materials Management,Manufacturing Master Data,ORA_MNT_LOAD_INTERFACE_ASSET_IMPORT,Load Interface File for Asset Import,noskill_noroute,N,-
+SCM,Manufacturing and Supply Chain Materials Management,Manufacturing Master Data,ORA_MNT_UPLOAD_ASSET_DATA,Upload Asset Data,noskill_noroute,N,-
+SCM,Manufacturing and Supply Chain Materials Management,Manufacturing Master Data,ORA_RCS_MANAGE_MFG_PLANT_DATA_ACCESS_FOR_USERS,Manage Manufacturing Plant Data Access for Users,noskill_noroute,N,-
+SCM,Manufacturing and Supply Chain Materials Management,Manufacturing Master Data,ORA_WIE_SMART_OPERATIONS_CONFIGURATIONS,Smart Operations Configurations,route_only,Y,-
+SCM,Manufacturing and Supply Chain Materials Management,Manufacturing Master Data,ORA_WIS_MANAGE_PRODUCTION_VALUE_SETS,Manage Production Value Sets,route_only,Y,-
+SCM,Manufacturing and Supply Chain Materials Management,Product Recall Management,ORA_MANAGE_REGISTRATION_TO_RECEIVE_RECALL_ALERTS,Manage Registration to Receive Recall Alerts,noskill_noroute,N,-
+SCM,Manufacturing and Supply Chain Materials Management,Product Recall Management,ORA_MANAGE_REGULATORY_AUTHORITY_FOR_PRODUCT_RECALL,Manage Regulatory Authority for Product Recall,route_only,Y,-
+SCM,Manufacturing and Supply Chain Materials Management,Receiving,ORA_RCV_MANAGE_RECEIVING_VALUE_SETS,Manage Receiving Value Sets,route_only,Y,-
+SCM,Manufacturing and Supply Chain Materials Management,Receiving,RCV_MANAGE_RECEIVING_DESCRIPTIVE_FLEXFIELDS,Manage Receiving Descriptive Flexfields,route_only,Y,-
+SCM,Manufacturing and Supply Chain Materials Management,Receiving,RCV_MANAGE_RECEIVING_PARAMETERS,Manage Receiving Parameters,route_only,Y,-
+SCM,Manufacturing and Supply Chain Materials Management,Receiving,RCV_MANAGE_RECEIVING_PROFILE_OPTIONS,Manage Receiving Profile Options,route_only,Y,-
+SCM,Manufacturing and Supply Chain Materials Management,Service Logistics,ORA_RCL_AUTO_PROCESSING_RULE,Manage Auto Processing Rules for Charges,route_only,Y,-
+SCM,Manufacturing and Supply Chain Materials Management,Service Logistics,ORA_RCL_AUTO_PROCESSING_RULES_FOR_CHARGES,Auto Processing Rules for Charges,route_only,Y,-
+SCM,Manufacturing and Supply Chain Materials Management,Service Logistics,ORA_RCL_BILLING_TYPES,Billing Types,route_only,Y,-
+SCM,Manufacturing and Supply Chain Materials Management,Service Logistics,ORA_RCL_MANAGE_BILLING_TYPES,Manage Billing Types,route_only,Y,-
+SCM,Manufacturing and Supply Chain Materials Management,Service Logistics,ORA_RCL_MANAGE_LOOKUPS,Manage Service Logistics Lookups,route_only,Y,-
+SCM,Manufacturing and Supply Chain Materials Management,Service Logistics,ORA_RCL_MANAGE_PROFILE_OPTIONS,Manage Service Logistics Profile Options,route_only,Y,-
+SCM,Manufacturing and Supply Chain Materials Management,Service Logistics,ORA_RCL_MANAGE_RETURN_ROUTING_RULES,Manage Return Routing Rules,route_only,Y,-
+SCM,Manufacturing and Supply Chain Materials Management,Service Logistics,ORA_RCL_MANAGE_SERVICE_ACTIVITIES,Manage Service Activities,route_only,Y,-
+SCM,Manufacturing and Supply Chain Materials Management,Service Logistics,ORA_RCL_MANAGE_STOCK_LOCATIONS,Manage Stocking Locations,route_only,Y,-
+SCM,Manufacturing and Supply Chain Materials Management,Service Logistics,ORA_RCL_MANAGE_TECH_SETUP,Manage Field Service Technicians,route_only,Y,-
+SCM,Manufacturing and Supply Chain Materials Management,Service Logistics,ORA_RCL_RESOURCE_ITEM_MAPPING,Manage Resource to Item Mapping,route_only,Y,-
+SCM,Manufacturing and Supply Chain Materials Management,Service Logistics,ORA_RCL_RETURN_ROUTING_RULES,Return Routing Rules,route_only,Y,-
+SCM,Manufacturing and Supply Chain Materials Management,Service Logistics,ORA_RCL_SERVICE_ACTIVITIES,Service Activities,route_only,Y,-
+SCM,Manufacturing and Supply Chain Materials Management,Service Logistics,ORA_RCL_SHIPPING_METHOD_SCHEDULE,Shipping Method Schedules,route_only,Y,-
+SCM,Manufacturing and Supply Chain Materials Management,Service Logistics,ORA_RCL_STOCKING_LOCATIONS,Stocking Locations,route_only,Y,-
+SCM,Manufacturing and Supply Chain Materials Management,Shipping,ORA_MANAGE_SHIPPING_DOCUMENT_JOB_SET_RULES,Manage Shipping Document Job Set Rules,noskill_noroute,N,-
+SCM,Manufacturing and Supply Chain Materials Management,Shipping,ORA_MANAGE_SHIPPING_DOCUMENT_OUTPUT_PREFERENCES,Manage Shipping Document Output Preferences,route_only,Y,-
+SCM,Manufacturing and Supply Chain Materials Management,Shipping,ORA_MANAGE_SHIPPING_PROFILE_OPTIONS,Manage Shipping Profile Options,route_only,Y,-
+SCM,Manufacturing and Supply Chain Materials Management,Shipping,ORA_TRANSPORTATION_SCHEDULES,Transportation Schedules,route_only,Y,-
+SCM,Manufacturing and Supply Chain Materials Management,Shipping,ORA_WSH_MANAGE_SHIPPING_LEGAL_ENTITY_DOCUMENT_SEQUENCES,Manage Shipping Legal Entity Document Sequences,route_only,Y,-
+SCM,Manufacturing and Supply Chain Materials Management,Shipping,ORA_WSH_MANAGE_SHIPPING_VALUE_SETS,Manage Shipping Value Sets,route_only,Y,-
+SCM,Manufacturing and Supply Chain Materials Management,Shipping,WSH_MANAGE_DEFAULT_PACKING_CONFIGURATIONS,Manage Default Packing Configurations,route_only,Y,-
+SCM,Manufacturing and Supply Chain Materials Management,Shipping,WSH_MANAGE_PICK_WAVE_RELEASE_RULES,Manage Pick Wave Release Rules,route_only,Y,-
+SCM,Manufacturing and Supply Chain Materials Management,Shipping,WSH_MANAGE_RELEASE_SEQUENCE_RULES,Manage Release Sequence Rules,route_only,Y,-
+SCM,Manufacturing and Supply Chain Materials Management,Shipping,WSH_MANAGE_SHIPPING_COST_TYPES,Manage Shipping Cost Types,route_only,Y,-
+SCM,Manufacturing and Supply Chain Materials Management,Shipping,WSH_MANAGE_SHIPPING_DESCRIPTIVE_FLEXFIELDS,Manage Shipping Descriptive Flexfields,route_only,Y,-
+SCM,Manufacturing and Supply Chain Materials Management,Shipping,WSH_MANAGE_SHIPPING_DOCUMENT_SEQUENCE,Manage Shipping Document Sequences,route_only,Y,-
+SCM,Manufacturing and Supply Chain Materials Management,Shipping,WSH_MANAGE_SHIPPING_EXCEPTIONS,Manage Shipping Exceptions,route_only,Y,-
+SCM,Manufacturing and Supply Chain Materials Management,Shipping,WSH_MANAGE_SHIPPING_LOOKUPS,Manage Shipping Lookups,route_only,Y,-
+SCM,Manufacturing and Supply Chain Materials Management,Shipping,WSH_MANAGE_SHIPPING_PARAMETERS,Manage Shipping Parameters,route_only,Y,-
+SCM,Manufacturing and Supply Chain Materials Management,Shipping,WSH_MANAGE_SHIPPING_ZONES,Manage Shipping Zones,route_only,Y,-
+SCM,Manufacturing and Supply Chain Materials Management,Shipping,WSH_MANAGE_SHIP_CONFIRM_RULES,Manage Ship Confirm Rules,route_only,Y,-
+SCM,Manufacturing and Supply Chain Materials Management,Shipping,WSH_MANAGE_TRANSPORTATION_SCHEDULES,Manage Transportation Schedules,route_only,Y,-
+SCM,Manufacturing and Supply Chain Materials Management,Supply Chain Collaboration,ORA_VCS_MANAGE_MESSAGES,Manage Supply Chain Collaboration Messages,noskill_noroute,N,-
+SCM,Manufacturing and Supply Chain Materials Management,Supply Chain Collaboration,ORA_VCS_MANAGE_PROCESS_DEFINTIONS,Manage Supply Chain Collaboration Orchestration Process Definitions,noskill_noroute,N,-
+SCM,Manufacturing and Supply Chain Materials Management,Supply Chain Financial Flows,ORA_FOS_DEFINE_PROFIT_CENTER_BUSINESS_UNIT_PARTY_RELATIONSHIP,Manage Profit Center Business Unit Party Relationship,route_only,Y,-
+SCM,Manufacturing and Supply Chain Materials Management,Supply Chain Financial Flows,ORA_FOS_DEFINE_TRADE_AND_ACCOUNTING_RULES,Manage Supply Chain Financial Orchestration Documentation and Accounting Rules,route_only,Y,-
+SCM,Manufacturing and Supply Chain Materials Management,Supply Chain Financial Flows,ORA_FOS_DEFINE_TRANSFER_PRICING_RULES,Manage Supply Chain Financial Orchestration Transfer Pricing Rules,route_only,Y,-
+SCM,Manufacturing and Supply Chain Materials Management,Supply Chain Financial Flows,ORA_FOS_MANAGE_DROP_SHIP_AGREEMENTS_NEW,Drop Ship Financial Flows,route_only,Y,-
+SCM,Manufacturing and Supply Chain Materials Management,Supply Chain Financial Flows,ORA_FOS_MANAGE_SUPPLY_CHAIN_FINANCIAL_TRADE_AGREEMENTS,Manage Supply Chain Financial Orchestration Flows,route_only,Y,-
+SCM,Manufacturing and Supply Chain Materials Management,Supply Chain Financial Flows,ORA_FOS_REGISTER_PRICING_STUB,Register Financial Orchestration Third-Party Transfer Pricing Service,skill_noroute,N,NONE_DECLARED
+SCM,Manufacturing and Supply Chain Materials Management,Supply Chain Orchestration,ORA_DOS_MANAGE_SUPPLY_ORCHESTRATION_ATTACHMENT_CATEGORIES,Manage Supply Orchestration Attachment Categories,route_only,Y,-
+SCM,Manufacturing and Supply Chain Materials Management,Supply Chain Orchestration,ORA_DOS_MANAGE_SUPPLY_ORCHESTRATION_LOOKUPS,Manage Supply Orchestration Lookups,skill_noroute,Y,NONE_DECLARED
+SCM,Manufacturing and Supply Chain Materials Management,Sustainability,ORA_MANAGE_ACTIVITY_TYPES,Manage Activity Types,route_only,Y,-
+SCM,Manufacturing and Supply Chain Materials Management,Sustainability,ORA_MANAGE_GLOBAL_WARMING_POTENTIALS,Manage Global Warming Potentials,route_only,Y,-
+SCM,Manufacturing and Supply Chain Materials Management,Sustainability,ORA_MANAGE_SUSTAINABILITY_LEDGER,Manage Sustainability Ledgers,route_only,Y,-
+SCM,Manufacturing and Supply Chain Materials Management,Sustainability,ORA_MANAGE_SUSTAINABILITY_PROFILE_OPTIONS,Manage Sustainability Profile Options,route_only,Y,-
+SCM,Manufacturing and Supply Chain Materials Management,Sustainability,ORA_SUS_MANAGE_SUSTAINABILITY_DESCRIPTIVE_FLEXFIELDS,Manage Sustainability Descriptive Flexfields,route_only,Y,-
+SCM,Manufacturing and Supply Chain Materials Management,Sustainability,ORA_SUS_MANAGE_SUSTAINABILITY_LOOKUPS,Manage Sustainability Lookups,route_only,Y,-
+SCM,Manufacturing and Supply Chain Materials Management,Sustainability,ORA_SUS_MANAGE_SUSTAINABILITY_VALUE_SETS,Manage Sustainability Value Sets,route_only,Y,-
+SCM,Order Management,Channel Revenue Management,ORA_CJM_MANAGE_CHANNEL_MESSAGES,Manage Channel Messages,noskill_noroute,N,-
+SCM,Order Management,Channel Revenue Management,ORA_CJM_MANAGE_PROGRAM_TYPES,Manage Channel Program Types,route_only,Y,-
+SCM,Order Management,Channel Revenue Management,ORA_CJM_RUN_MIGRATE_PENDING_APPROVALS_TO_BPM_WORKFLOW_PROCESS,Run Migrate Pending Approvals to BPM Workflow Process,noskill_noroute,N,-
+SCM,Order Management,Channel Revenue Management,ORA_MANAGE_CHANNEL_SETTINGS,Manage Channel Settings,route_only,Y,-
+SCM,Order Management,Customers,INV_MANAGE_TASK_CONFIGURATIONS,Manage Task Configurations for Supply Chain Management,route_only,Y,-
+SCM,Order Management,Customers,ORA_CMK_MANAGE_B2B_CONFIG,Manage B2B Configuration,noskill_noroute,N,-
+SCM,Order Management,Customers,ORA_CMK_MANAGE_COLLAB_MESG_CONFIG,Manage Collaboration Messaging Configuration,route_only,Y,-
+SCM,Order Management,Customers,ORA_CMK_MANAGE_COLLAB_MESG_DVM,Manage Collaboration Messaging Domain Value Map,noskill_noroute,N,-
+SCM,Order Management,Orders,DOO_GENERATE_BUCKET_SETS_FOR_BUSINESS_RULES,Generate Bucket Sets for Business Rules,noskill_noroute,N,-
+SCM,Order Management,Orders,DOO_MANAGE_CONSTRAINT_OBJECTS,Manage Constraint Entities,route_only,Y,-
+SCM,Order Management,Orders,DOO_MANAGE_EXTERNAL_INTERFACE_DATA_VALUE_MAPS,Manage Posttransformation Defaulting Rules,route_only,Y,-
+SCM,Order Management,Orders,DOO_MANAGE_EXTERNAL_INTERFACE_MEDIATORS,Manage Integration with Oracle Fusion Distributed Order Orchestration,noskill_noroute,N,-
+SCM,Order Management,Orders,DOO_MANAGE_EXTERNAL_INTERFACE_TRANSFORMATION_STYLESHEETS,Manage External Interface Transformation Style Sheets,noskill_noroute,N,-
+SCM,Order Management,Orders,DOO_MANAGE_JEOPARDY_PRIORITIES,Manage Jeopardy Priorities,route_only,Y,-
+SCM,Order Management,Orders,DOO_MANAGE_JEOPARDY_THRESHOLDS,Manage Jeopardy Thresholds,route_only,Y,-
+SCM,Order Management,Orders,DOO_MANAGE_ORCHESTRATION_ATTACHMENT_CATEGORIES,Manage Order Attachment Categories,route_only,Y,-
+SCM,Order Management,Orders,DOO_MANAGE_ORCHESTRATION_DESCRIPTIVE_FLEXFIELDS,Manage Order Descriptive Flexfields,route_only,Y,-
+SCM,Order Management,Orders,DOO_MANAGE_ORCHESTRATION_PROCESS_ASSIGNMENT_RULES,Manage Orchestration Process Assignment Rules,skill_noroute,Y,MANUAL_ONLY
+SCM,Order Management,Orders,DOO_MANAGE_ORCHESTRATION_PROCESS_DEFINITIONS,Manage Orchestration Process Definitions,route_only,Y,-
+SCM,Order Management,Orders,DOO_MANAGE_ORDER_ATTRIBUTES_IDENTIFYING_CHANGE,Manage Order Attributes That Identify Change,route_only,Y,-
+SCM,Order Management,Orders,DOO_MANAGE_PROCESS_CONSTRAINTS,Manage Processing Constraints,route_only,Y,-
+SCM,Order Management,Orders,DOO_MANAGE_STATUS_VALUES,Manage Status Values,route_only,Y,-
+SCM,Order Management,Orders,DOO_MANAGE_TASK_STATUS_CONDITIONS,Manage Task Status Conditions,route_only,Y,-
+SCM,Order Management,Orders,DOO_MANAGE_TASK_TYPES,Manage Task Types,route_only,Y,-
+SCM,Order Management,Orders,DOO_MANAGE_TRANSFORMATION_RULES,Manage Product Transformation Rules,route_only,Y,-
+SCM,Order Management,Orders,DOO_MANAGE_TRANSFORMATION_RULE_SETS,Manage Pretransformation Defaulting Rules,route_only,Y,-
+SCM,Order Management,Orders,DOO_ORCHESTRATION_MANAGE_SOURCE_SYSTEMS,Manage Upstream and Fulfillment Source Systems,route_only,Y,-
+SCM,Order Management,Orders,DOO_REVIEW_ORCHESTRATION_COLLECTED_DATA,Review Collected Order Reference Data,noskill_noroute,N,-
+SCM,Order Management,Orders,ORA_DOO_MANAGE_EXTERNAL_INTEGRATION_VIB_ROUTING_RULES,Manage External Integration Routing Rules for Sales Orders,route_only,Y,-
+SCM,Order Management,Orders,ORA_DOO_MANAGE_PRETRANSFORMATION_VIB_RULE_SETS,Manage Pretransformation Rules for Sales Orders,route_only,Y,-
+SCM,Order Management,Orders,ORA_DOO_MANAGE_PROCESS_VIB_ASSIGNMENT_RULES,Manage Process Assignment Rules for Sales Orders,route_only,Y,-
+SCM,Order Management,Orders,ORA_DOO_PUBLISH_EFF_ATTRIBUTES,Publish Extensible Flexfield Attributes,noskill_noroute,N,-
+SCM,Order Management,Orders,ORA_FOM_COLLECT_ORDER_REFERENCE_DATA,Collect Order Reference Data,noskill_noroute,N,-
+SCM,Order Management,Orders,ORA_FOM_LOAD_ORDER_REFERENCE_DATA_FROM_FLAT_FILES,Load Order Reference Data from Flat Files,noskill_noroute,N,-
+SCM,Order Management,Orders,ORA_FOS_MANAGE_SYSTEM_OPTIONS,Manage Supply Chain Financial Orchestration System Options,route_only,Y,-
+SCM,Order Management,Orders,ORA_FOS_MANAGE_TRADE_QUALIFIER,Manage Supply Chain Financial Orchestration Qualifiers,route_only,Y,-
+SCM,Order Management,Orders,ORA_OKC_MANAGE_TIME_UNIT_MAPPINGS,Manage Time Unit Mappings,route_only,Y,-
+SCM,Procurement,Approval Management,ORA_PON_MANAGE_NEG_APPROVALS,Manage Supplier Negotiation Approvals,noskill_noroute,N,-
+SCM,Procurement,Approval Management,ORA_PON_MANAGE_NEG_AWARD_APPROVALS,Manage Supplier Negotiation Award Approvals,noskill_noroute,N,-
+SCM,Procurement,Approval Management,ORA_POZ_MANAGE_INTERNAL_SUPPLIER_PROFILE_CHANGE_APPROVALS,Manage Internal Supplier Profile Change Approvals,skill_noroute,N,MANUAL_ONLY
+SCM,Procurement,Approval Management,ORA_POZ_MANAGE_INTERNAL_SUPPLIER_REGISTRATION_APPROVALS,Manage Internal Supplier Registration Approvals,skill_noroute,N,MANUAL_ONLY
+SCM,Procurement,Approval Management,ORA_POZ_MANAGE_SUPPLIER_PROFILE_CHANGE_APPROVALS,Manage Supplier Profile Change Approvals,skill_noroute,N,MANUAL_ONLY
+SCM,Procurement,Approval Management,ORA_POZ_MANAGE_SUPPLIER_REGISTRATION_APPROVALS,Manage Supplier Registration Approvals,skill_noroute,N,MANUAL_ONLY
+SCM,Procurement,Approval Management,ORA_POZ_MANAGE_SUPPLIER_SPEND_AUTHORIZATION_APPROVALS,Manage Supplier Spend Authorization Approvals,skill_noroute,N,MANUAL_ONLY
+SCM,Procurement,Approval Management,ORA_PO_MANAGE_INTAKE_REQUEST_APPROVALS,Manage Intake Request Approvals,noskill_noroute,N,-
+SCM,Procurement,Approval Management,ORA_PO_MANAGE_WORK_CONFIRMATION_APPROVALS,Manage Work Confirmation Approvals,noskill_noroute,N,-
+SCM,Procurement,Approval Management,ORA_SCH_MANAGE_EXTERNAL_PURCHASE_PRICE_APPROVALS,Manage External Purchase Price Approvals,noskill_noroute,N,-
+SCM,Procurement,Approval Management,POR_MANAGE_REQUISITION_APPROVALS,Manage Requisition Approvals,noskill_noroute,N,-
+SCM,Procurement,Approval Management,PO_MANAGE_PURCHASING_DOCUMENT_APPROVALS,Manage Purchasing Document Approvals,noskill_noroute,N,-
+SCM,Procurement,Approval Management,PO_MANAGE_TASK_CONFIGURATIONS,Manage Task Configurations for Procurement,noskill_noroute,N,-
+SCM,Procurement,Compliance Checklists,ORA_PO_COMPLIANCE_CHECKLIST_QUESTIONS,Manage Compliance Checklist Questions,route_only,Y,-
+SCM,Procurement,Compliance Checklists,ORA_PO_COMPLIANCE_CHECKLIST_SECTIONS,Manage Compliance Checklist Sections,route_only,Y,-
+SCM,Procurement,Compliance Checklists,ORA_PO_COMPLIANCE_CHECKLIST_TEMPLATES,Manage Compliance Checklist Templates,route_only,Y,-
+SCM,Procurement,External Purchase Prices,ORA_MANAGE_EXTERNAL_PURCHASE_PRICES_LOOKUPS,Manage External Purchase Prices Lookups,route_only,Y,-
+SCM,Procurement,Organization Structures,PO_MANAGE_INVENTORY_ORG_LOCATIONS,Manage Inventory Organization Locations,route_only,Y,-
+SCM,Procurement,Procurement Foundation,PO_CONFIGURE_PROCUREMENT_BUSINESS_FUNCTION,Configure Procurement Business Function,route_only,Y,-
+SCM,Procurement,Procurement Foundation,PO_MANAGE_FOB_LOOKUP,Manage FOB Lookup,route_only,Y,-
+SCM,Procurement,Procurement Foundation,PO_MANAGE_FREIGHT_TERM_LOOKUP,Manage Freight Terms Lookup,route_only,Y,-
+SCM,Procurement,Procurement Foundation,PO_MANAGE_PURCHASING_PROFILE_OPTIONS,Manage Purchasing Profile Options,route_only,Y,-
+SCM,Procurement,Purchasing Foundation,ORA_PO_MANAGE_ASSIGNMENT_RULE_SETS_LOOKUP,Manage Buyer Assignment Rule Sets Lookup,route_only,Y,-
+SCM,Procurement,Purchasing Foundation,ORA_PO_MANAGE_BUYER_ASSIGNMENT_RULES,Manage Buyer Assignment Rules,route_only,Y,-
+SCM,Procurement,Purchasing Foundation,ORA_PO_MANAGE_PURCHASING_MESSAGES,Manage Purchasing Messages,noskill_noroute,N,-
+SCM,Procurement,Purchasing Foundation,PO_MANAGE_APPROVED_SUPPLIER_LIST_STATUSES,Manage Approved Supplier List Statuses,route_only,Y,-
+SCM,Procurement,Purchasing Foundation,PO_MANAGE_CHANGE_ORDER_TEMPLATES,Manage Change Order Templates,route_only,Y,-
+SCM,Procurement,Purchasing Foundation,PO_MANAGE_HAZARD_CLASSES,Manage Hazard Classes,route_only,Y,-
+SCM,Procurement,Purchasing Foundation,PO_MANAGE_PURCHASING_DESCRIPTIVE_FLEXFIELDS,Manage Purchasing Descriptive Flexfields,route_only,Y,-
+SCM,Procurement,Purchasing Foundation,PO_MANAGE_PURCHASING_VALUE_SETS,Manage Purchasing Value Sets,route_only,Y,-
+SCM,Procurement,Purchasing Foundation,PO_MANAGE_UN_NUMBERS,Manage UN Numbers,route_only,Y,-
+SCM,Procurement,Self Service Procurement,ORA_POR_MANAGE_SELF_SERVICE_PROCUREMENT_MESSAGES,Manage Self Service Procurement Messages,noskill_noroute,N,-
+SCM,Procurement,Sourcing,ORA_PON_CONFIGURE_OUTBOUND_PURCHASING_SERVICE,Configure Negotiation Award Outbound Service,noskill_noroute,N,-
+SCM,Procurement,Sourcing,ORA_PON_MANAGE_SOURCING_LOOKUPS,Manage Sourcing Lookups,route_only,Y,-
+SCM,Procurement,Sourcing,ORA_PON_MANAGE_SOURCING_MESSAGES,Manage Sourcing Messages,noskill_noroute,N,-
+SCM,Procurement,Sourcing,PON_MANAGE_ATTRIBUTE_LISTS,Manage Attribute Lists,route_only,Y,-
+SCM,Procurement,Sourcing,PON_MANAGE_NEGOTIATION_STYLES,Manage Negotiation Styles,route_only,Y,-
+SCM,Procurement,Sourcing,PON_MANAGE_SOURCING_DESCRIPTIVE_FLEXFIELDS,Manage Sourcing Descriptive Flexfields,route_only,Y,-
+SCM,Procurement,Sourcing,PON_MANAGE_SOURCING_VALUE_SETS,Manage Sourcing Value Sets,route_only,Y,-
+SCM,Procurement,Supplier Qualification,ORA_POQ_CONFIGURE_SUPPLIER_QUALIFICATION_CONTROLS,Configure Supplier Qualification Controls,route_only,Y,-
+SCM,Procurement,Supplier Qualification,ORA_POQ_MANAGE_ASSESSMENT_OUTCOME_LOOKUP,Manage Assessment Outcome Lookup,route_only,Y,-
+SCM,Procurement,Supplier Qualification,ORA_POQ_MANAGE_QUALIFICATION_OUTCOME_LOOKUP,Manage Qualification Outcome Lookup,route_only,Y,-
+SCM,Procurement,Supplier Qualification,ORA_POQ_MANAGE_STANDARDS_ORGANIZATION_LOOKUP,Manage Standards Organization Lookup,route_only,Y,-
+SCM,Procurement,Supplier Qualification,ORA_POQ_MANAGE_SUBJECT_LOOKUP,Manage Subject Lookup,route_only,Y,-
+SCM,Procurement,Supplier Qualification,ORA_POQ_MANAGE_SUPPLIER_QUALIFICATION_AREAS,Manage Qualification Areas,route_only,Y,-
+SCM,Procurement,Supplier Qualification,ORA_POQ_MANAGE_SUPPLIER_QUALIFICATION_DESCRIPTIVE_FLEXFIELDS,Manage Supplier Qualification Descriptive Flexfields,route_only,Y,-
+SCM,Procurement,Supplier Qualification,ORA_POQ_MANAGE_SUPPLIER_QUALIFICATION_MESSAGES,Manage Supplier Qualification Messages,noskill_noroute,N,-
+SCM,Procurement,Supplier Qualification,ORA_POQ_MANAGE_SUPPLIER_QUALIFICATION_MODELS,Manage Qualification Models,route_only,Y,-
+SCM,Procurement,Supplier Qualification,ORA_POQ_MANAGE_SUPPLIER_QUALIFICATION_VALUE_SETS,Manage Supplier Qualification Value Sets,route_only,Y,-
+SCM,Procurement,Supplier Qualification,ORA_POQ_MANAGE_SUPPLIER_REG_RULE_SETS,Manage Supplier Qualification Rule Sets,route_only,Y,-
+SCM,Procurement,Suppliers,ORA_POZ_CONFIGURE_SUPPLIER_OUTBOUND_SYNCHRONIZATION_SERVICE,Configure Supplier Outbound Synchronization Service,skill_noroute,N,MANUAL_ONLY
+SCM,Procurement,Suppliers,ORA_POZ_LOAD_SUPPLIER_INTERFACE_VIA_SCHEDULED_PROCESS,Load Supplier Interface through Scheduled Process,noskill_noroute,N,-
+SCM,Procurement,Suppliers,ORA_POZ_UPLOAD_SUPPLIER_IMPORT_FILE,Upload Supplier Import File,noskill_noroute,N,-
+SCM,Procurement,Suppliers,POZ_IMPORT_SUPPLIERS,Import Suppliers,skill_noroute,N,FBDI
+SCM,Procurement,Transaction Tax,ORA_JE_MANAGE_EXEMPTION_LIMITS_FOR_ITALY,Manage Letter of Intent Limits for Italy,route_only,Y,-
+SCM,Product Management,Change Orders,ORA_ACA_MANAGE_CHANGE_RULE_SETS,Manage Change Order Entry and Exit Rule Sets,route_only,Y,-
+SCM,Product Management,Concept Design Management,ORA_ACA_MANAGE_PRODUCT_CONCEPT_CLASSES,Manage Product Concept Classes,route_only,Y,-
+SCM,Product Management,Concept Design Management,ORA_ACA_MANAGE_PRODUCT_CONCEPT_COMPONENT_CLASSES,Manage Product Concept Component Classes,route_only,Y,-
+SCM,Product Management,Concept Design Management,ORA_ACA_MANAGE_PRODUCT_CONCEPT_LOOKUPS,Manage Product Concept Lookups,route_only,Y,-
+SCM,Product Management,Concept Design Management,ORA_ACA_MANAGE_PRODUCT_CONCEPT_STATUSES,Manage Product Concept Statuses,route_only,Y,-
+SCM,Product Management,Concept Design Management,ORA_ACA_MANAGE_PROPOSAL_STATUSES,Manage Proposal Statuses,route_only,Y,-
+SCM,Product Management,Data Pool Integration,ORA_EGI_MANAGE_CORRECTION_CODES,Manage Correction Codes,route_only,Y,-
+SCM,Product Management,Data Pool Integration,ORA_EGI_MANAGE_REJECTION_CODES,Manage Rejection Codes,route_only,Y,-
+SCM,Product Management,Data Pool Integration,ORA_EGI_MANAGE_REVIEW_CODES,Manage Review Codes,route_only,Y,-
+SCM,Product Management,Data Quality Rules for Products,EGI_MANAGE_DQ_FOR_PRODUCTS_PROFILE_OPTIONS,Manage Data Quality for Products Profile Options,route_only,Y,-
+SCM,Product Management,Item Mass Update,ORA_EGO_ITEM_BATCH_IMPORT_FORMAT,Manage Item Import Formats Configuration,route_only,Y,-
+SCM,Product Management,Items,CUSTOM_EGP_FBDI_IMPORT_REF_ORG_ITEMS,Reference Organization Items Import,noskill_noroute,N,-
+SCM,Product Management,Items,ORA_MANAGE_MANUFACTURER_ATTRIBUTE_GROUPS_AND_ATTRIBUTES,Manage Manufacturer Attribute Groups and Attributes,route_only,Y,-
+SCM,Product Management,New Item Requests,EGO_MANAGE_NEW_ITEM_REQUEST_TYPE_DETAILS,Manage New Item Request Type Details,route_only,Y,-
+SCM,Product Management,Product Development,ORA_ACA_MANAGE_PRODUCT_DEVELOPMENT_LOOKUPS,Manage Product Development Lookups,route_only,Y,-
+SCM,Product Management,Product Lifecycle Portfolio Management,ORA_ACA_MANAGE_PORTFOLIO_STATUSES,Manage Portfolio Statuses,route_only,Y,-
+SCM,Product Management,Product Lifecycle Portfolio Management,ORA_ACA_MANAGE_PRODUCT_PORTFOLIO_CLASSES,Manage Product Portfolio Classes,route_only,Y,-
+SCM,Product Management,Product Lifecycle Portfolio Management,ORA_ACA_MANAGE_PRODUCT_PORTFOLIO_LOOKUPS,Manage Product Portfolio Lookups,route_only,Y,-
+SCM,Product Management,Product Lifecycle Portfolio Management,ORA_ACA_MANAGE_PRODUCT_PORTFOLIO_METRICS,Manage Product Portfolio Metrics,route_only,Y,-
+SCM,Product Management,Product Lifecycle Portfolio Management,ORA_ACA_MANAGE_PRODUCT_PORTFOLIO_PLANNING_PERIODS,Manage Product Portfolio Planning Periods,route_only,Y,-
+SCM,Product Management,Product Requirements and Ideation Management,ORA_ACA_MANAGE_PRODUCT_IDEA_CLASSES,Manage Product Idea Classes,route_only,Y,-
+SCM,Product Management,Product Requirements and Ideation Management,ORA_ACA_MANAGE_PRODUCT_IDEA_STATUSES,Manage Product Idea Statuses,route_only,Y,-
+SCM,Product Management,Product Requirements and Ideation Management,ORA_ACA_MANAGE_PRODUCT_REQUIREMENTS_AND_IDEATION_LOOKUPS,Manage Product Requirements and Ideation Lookups,route_only,Y,-
+SCM,Product Management,Product Requirements and Ideation Management,ORA_ACA_MANAGE_PRODUCT_REQUIREMENT_CLASSES,Manage Product Requirement Classes,route_only,Y,-
+SCM,Product Management,Product Requirements and Ideation Management,ORA_ACA_MANAGE_PRODUCT_REQUIREMENT_STATUSES,Manage Product Requirement Statuses,route_only,Y,-
+SCM,Product Management,Product Requirements and Ideation Management,ORA_ACA_MANAGE_TARGET_SYSTEM,Manage Target System,route_only,Y,-
+SCM,Product Management,Product Requirements and Ideation Management,ORA_ACA_REGISTER_AGILE_EDM_FILESERVER,Register Agile EDM File Server,noskill_noroute,N,-
+SCM,Product Management,Product Requirements and Ideation Management,ORA_ACA_REGISTER_AGILE_EDM_SYSTEM,Register Agile EDM System,noskill_noroute,N,-
+SCM,Product Management,Product Requirements and Ideation Management,ORA_ACA_REGISTER_AGILE_PLM,Register Agile PLM,noskill_noroute,N,-
+SCM,Product Management,Product Rules,ORA_EGO_REGISTER_WEB_SRV_WITH_COMPOSER,Register Web Services through Oracle CRM Application Composer,noskill_noroute,N,-
+SCM,Product Management,Quality Issue and Action Management,ORA_ENQ_MANAGE_QUALITY_ACTION_TYPES,Manage Quality Action Types,route_only,Y,-
+SCM,Product Management,Quality Issue and Action Management,ORA_ENQ_MANAGE_QUALITY_ISSUE_ACTION_LOOKUPS,Manage Quality Issue and Action Lookups,route_only,Y,-
+SCM,Product Management,Quality Issue and Action Management,ORA_ENQ_MANAGE_QUALITY_ISSUE_TYPES,Manage Quality Issue Types,route_only,Y,-
+SCM,Product Management,Quality Issue and Action Management,ORA_PLM_WORKFLOW_STATUSES,Manage Workflow Statuses for Product Lifecycle Management,route_only,Y,-
+SCM,Product Management,Quality Issue and Action Management,ORA_PLM_WORKFLOW_TEMPLATES,Manage Workflow Templates for Product Lifecycle Management,route_only,Y,-
+SCM,Product Management,Structures,EGO_DEFINE_VALID_COMPONENT_TYPE_RULES,Manage Valid Component Type Rules,route_only,Y,-
+SCM,Product Management,Supplier Portal,ORA_POZ_MANAGE_SUPPLIER_PORTAL_MESSAGES,Manage Supplier Portal Messages,skill_noroute,N,MANUAL_ONLY
+SCM,Product Management,Supplier Portal,ORA_POZ_SPECIFY_SUP_USER_CATEGORY,Specify User Category for New Supplier Users,noskill_noroute,N,-
+SCM,Product Management,Suppliers for Product Management,ORA_EGP_CREATE_SUPPLIER_IN_PRC,Create Supplier in Procurement,noskill_noroute,N,-
+SCM,Product Management,Suppliers for Product Management,ORA_POZ_CONFIGURE_PARTY_RELATIONSHIPS_FOR_SUPPLIER_MATCH,Configure Party Relationships for Supplier Match,route_only,Y,-
+SCM,Product Management,Suppliers for Product Management,ORA_POZ_MANAGE_SUPPLIER_MESSAGES,Manage Supplier Messages,skill_noroute,N,MANUAL_ONLY
+SCM,Supply Chain Planning,Supply Chain Planning Configuration,CUSTOM_PLANNING_VISUALIZATIONS,Manage Planning Visualizations,skill_noroute,N,MANUAL_ONLY
+SCM,Supply Chain Planning,Supply Chain Planning Configuration,ORA_MSC_COLLECT_PLANNING_DATA,Collect Planning Data,noskill_noroute,N,-
+SCM,Supply Chain Planning,Supply Chain Planning Configuration,ORA_MSC_LOAD_PLANNING_DATA_FROM_FLAT_FILES,Load Planning Data from Files,skill_noroute,N,FBDI
+SCM,Supply Chain Planning,Supply Chain Planning Configuration,ORA_MSC_MANAGE_PLANNING_PROFILE_OPTIONS,Manage Planning Profile Options,route_only,Y,-

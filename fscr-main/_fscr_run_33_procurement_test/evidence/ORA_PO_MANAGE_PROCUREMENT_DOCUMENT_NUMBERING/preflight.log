@@ -1,0 +1,19 @@
+## Business Object Validation
+
+| Source | Type |
+|---|---|
+| ora_po_manage_procurement_document_numbering_fscrt.zip | FSM Setup |
+
+### Validated upload
+
+| Item | Value |
+|---|---|
+| Validated ZIP | [ora_po_manage_procurement_document_numbering_fscrt.zip](<E:\GoSaaS\Configuration Automation v2.1\fscr-main\_fscr_run_33_procurement_test\payload\ORA_PO_MANAGE_PROCUREMENT_DOCUMENT_NUMBERING\ora_po_manage_procurement_document_numbering_fscrt.zip>) |
+
+### Validation complete
+
+ora_po_manage_procurement_document_numbering_fscrt.zip passed validation. No data was uploaded.
+
+### Approval required
+
+Reply with an approval to upload and initiate this exact validated load.

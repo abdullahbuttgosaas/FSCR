@@ -1,0 +1,39 @@
+[
+ {
+  "source": "ora_input_validation.md",
+  "status": "passed",
+  "changes": [],
+  "issues": [
+   {
+    "severity": "info",
+    "message": "PDN.VALIDATE_INPUT -> valid. Document Type REQUISITION, Determinant Type REQUISITIONING_BU, Determinant Value = BU name (not Purchase Order, so BusinessUnitName). Prefix FSCRT_R33| and MinimumDigits 5 supplied."
+   },
+   {
+    "severity": "warning",
+    "message": "CurrentMaximumUniqueIdentifier is not in the CSV package; treated as 'as applicable' (not needed for a prefix/min-digits scheme)."
+   }
+  ]
+ },
+ {
+  "source": "ora_reference_lookups.md",
+  "status": "passed",
+  "changes": [],
+  "issues": [
+   {
+    "severity": "info",
+    "message": "PDN.DERIVE_DOCUMENT_NUMBER_ID -> not_found. GET procurementDocumentNumberings for this BU returned 0 rows (lookup_numbering_exists.json), so the row is new and no DocumentNumberId is invented."
+   }
+  ]
+ },
+ {
+  "source": "ora_design_enforcement.md",
+  "status": "passed",
+  "changes": [],
+  "issues": [
+   {
+    "severity": "info",
+    "message": "PDN.ENFORCE_OPERATION_ROUTE -> post (no existing row, create route)."
+   }
+  ]
+ }
+]

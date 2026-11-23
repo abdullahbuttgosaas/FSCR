@@ -1,0 +1,6 @@
+total rules: before 2 + new 2 = 4; after 4
+rules named FSCRT_*: before 2 + new 2 = 4; after 4
+  new: {'AlternateNameId': 300000395049051, 'AlternatePayerName': 'FSCRT_R27 Payer A', 'CustomerAccountNumber': '21541', 'CustomerName': 'ZZ_TEST_CU_2589_14_OK', 'ZenginCustomerBankName': None, 'ZenginCustomerBankBranchName': None, 'Active': 'Y', 'CreatedBy': 'Configuration.TEST', 'CreationDate': '2026-11-16T07:18:50+00:00', 'ObjectVersionNumber': 1}
+  new: {'AlternateNameId': 300000395044061, 'AlternatePayerName': 'FSCRT_R27 Payer B', 'CustomerAccountNumber': '21541', 'CustomerName': 'ZZ_TEST_CU_2589_14_OK', 'ZenginCustomerBankName': 'FSCRT_R27 Test Bank', 'ZenginCustomerBankBranchName': 'FSCRT_R27 Test Branch', 'Active': 'Y', 'CreatedBy': 'Configuration.TEST', 'CreationDate': '2026-11-16T07:19:01+00:00', 'ObjectVersionNumber': 1}
+wrote E:/GoSaaS/Configuration Automation v2.1/fscr-main/_fscr_run_27b_skill_test/verify_rows.csv
+RESULT: PASS

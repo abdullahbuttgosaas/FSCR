@@ -1,0 +1,28 @@
+Host: https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com
+ORACLE_ENV: test
+Exporting AR_MANAGE_AUTOINVOICE_GROUPING_RULES ...
+  ProcessId=100004734401460
+  [export]   11s  StatusCode=IN_PROGRESS
+  [export]   22s  StatusCode=IN_PROGRESS
+  [export]   33s  StatusCode=COMPLETED
+  saved E:\GoSaaS\Configuration Automation v2.1\Configuration Automation\AutoInvoice Grouping Rules\_work\AR_MANAGE_AUTOINVOICE_GROUPING_RULES_20261102_062533_before.zip
+  [template]   11s  StatusCode=IN_PROGRESS
+  [template]   21s  StatusCode=COMPLETED
+  ZZ_TEST_AG_3112: new
+Exporting AR_MANAGE_AUTOINVOICE_GROUPING_RULES ...
+  ProcessId=100004733439372
+  [export]   10s  StatusCode=NOT_STARTED
+  [export]   21s  StatusCode=COMPLETED
+  saved E:\GoSaaS\Configuration Automation v2.1\Configuration Automation\AutoInvoice Grouping Rules\_work\AR_MANAGE_AUTOINVOICE_GROUPING_RULES_20261102_062620_names.zip
+  process 100004733439385
+  [AutoInvoice grouping rules]   11s  StatusCode=IN_PROGRESS
+  [AutoInvoice grouping rules]   22s  StatusCode=COMPLETED
+  Oracle's result: COMPLETED
+Exporting AR_MANAGE_AUTOINVOICE_GROUPING_RULES ...
+  ProcessId=100004734401510
+  [export]   10s  StatusCode=IN_PROGRESS
+  [export]   22s  StatusCode=COMPLETED
+  saved E:\GoSaaS\Configuration Automation v2.1\Configuration Automation\AutoInvoice Grouping Rules\_work\AR_MANAGE_AUTOINVOICE_GROUPING_RULES_20261102_062711_after.zip
+Whole run: 135 s
+
+===== run 06:24:55

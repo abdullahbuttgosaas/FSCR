@@ -1,0 +1,70 @@
+{
+ "old": "evidence/exports/AP_MANAGE_PAYMENT_TERMS/ETIA-TEST_setup_task_csv_export_ap_manage_payment_terms_100004733440852.zip",
+ "new": "evidence/skills/appt/after_export/ETIA-TEST_setup_task_csv_export_ap_manage_payment_terms_100004733440909.zip",
+ "files": {
+  "AP_TERM_HEADER.csv": {
+   "rows_old": 121,
+   "rows_new": 122,
+   "key_columns": [
+    "Name"
+   ],
+   "added": [
+    {
+     "Name": "FSCRT_AP_N45"
+    }
+   ],
+   "removed": [],
+   "changed": []
+  },
+  "AP_TERM_HEADER_TRANSLATION.csv": {
+   "rows_old": 121,
+   "rows_new": 122,
+   "key_columns": [
+    "Name",
+    "AP_TERM_HEADER.Name",
+    "Language"
+   ],
+   "added": [
+    {
+     "Name": "FSCRT_AP_N45",
+     "AP_TERM_HEADER.Name": "FSCRT_AP_N45",
+     "Language": "US"
+    }
+   ],
+   "removed": [],
+   "changed": []
+  },
+  "AP_TERM_LINE.csv": {
+   "rows_old": 1269,
+   "rows_new": 1270,
+   "key_columns": [
+    "SequenceNum",
+    "AP_TERM_HEADER.Name"
+   ],
+   "added": [
+    {
+     "SequenceNum": "1",
+     "AP_TERM_HEADER.Name": "FSCRT_AP_N45"
+    }
+   ],
+   "removed": [],
+   "changed": []
+  },
+  "AP_TERM_SUBSCRIPTION.csv": {
+   "rows_old": 60,
+   "rows_new": 61,
+   "key_columns": [
+    "AP_TERM_HEADER.Name",
+    "SetCode"
+   ],
+   "added": [
+    {
+     "AP_TERM_HEADER.Name": "FSCRT_AP_N45",
+     "SetCode": "ENTERPRISE"
+    }
+   ],
+   "removed": [],
+   "changed": []
+  }
+ }
+}

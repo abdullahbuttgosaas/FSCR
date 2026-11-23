@@ -1,0 +1,11 @@
+| Data Set | Status | Total | Loaded | Failed |
+|---|---|---:|---:|---:|
+| fscrt-tsrc-candidate.zip | ✅ Succeeded | 2 | 2 | 0 |
+
+FSM Process Logs:
+
+| Data Set | File |
+|---|---|
+| fscrt-tsrc-candidate.zip | [fscrt-tsrc-candidate.zip-fsm-100004733446792-1.log](C:\Users\PC\.codex\data-loader-status-logs\requestid-4432203\fscrt-tsrc-candidate.zip-fsm-100004733446792-1.log) |
+
+--stderr--

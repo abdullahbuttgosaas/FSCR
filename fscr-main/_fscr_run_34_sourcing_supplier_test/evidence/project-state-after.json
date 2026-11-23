@@ -1,0 +1,27 @@
+{
+  "$schema": "../../../schemas/project-state.schema.json",
+  "project_id": "fscrt-r34-sourcing-supplier",
+  "project_name": "FSCRT_R34 Sourcing Supplier",
+  "customer": "FSCRT Test",
+  "implementation_phase": "build",
+  "state_version": "0.1.0",
+  "created_at": "2026-11-17T07:54:01Z",
+  "updated_at": "2026-11-17T07:54:01Z",
+  "current_objective_ref": "project/fscrt-r34-sourcing-supplier/artifacts/router/project-objective-classifier/current/objective.json",
+  "current_scope_ref": null,
+  "artifact_index_ref": "project/fscrt-r34-sourcing-supplier/artifacts/artifact-index.json",
+  "latest_run_ref": "project/fscrt-r34-sourcing-supplier/state/runs/20261117T075401Z-project-workspace-initializer.json",
+  "baseline_refs": [],
+  "decision_refs": [],
+  "active_skill_path": [
+    "core.project-mgmt.project-workspace-initializer"
+  ],
+  "status": "initialized",
+  "runbook_control": {
+    "status": "active",
+    "active_runbook_ref": "300000395063778",
+    "server_url": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com",
+    "created_at": "2026-11-17T08:05:00Z",
+    "failure": null
+  }
+}

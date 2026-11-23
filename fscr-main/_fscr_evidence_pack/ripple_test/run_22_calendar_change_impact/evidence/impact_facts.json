@@ -1,0 +1,108 @@
+{
+ "GoSaaS MFG": {
+  "ledgers": 13,
+  "bus": 37,
+  "dec26_rows": 1,
+  "status_rows": 65,
+  "status_by_app": {
+   "101": {
+    "N": 13
+   },
+   "200": {
+    "N": 13
+   },
+   "222": {
+    "N": 13
+   },
+   "10037": {
+    "N": 13
+   },
+   "10455": {
+    "N": 13
+   }
+  },
+  "ar_options": [
+   "AMNA BU",
+   "BUU1"
+  ],
+  "ar_txn_rows": 3,
+  "om_bus": {
+   "Payables": [
+    "AmnaNBU",
+    "Splendid BU",
+    "Zaid BU"
+   ],
+   "Payables and Procurement": [
+    "AmnaNBU",
+    "Splendid BU",
+    "Zaid BU"
+   ],
+   "Procurement": [
+    "GoSaaS",
+    "Splendid BU",
+    "Vision BU",
+    "Zaid BU"
+   ]
+  },
+  "periods_total": 52,
+  "last_period": [
+   "13_Dec-26",
+   "2026/12/31"
+  ],
+  "ar_invoices_visible_in_bus": [
+   [
+    "1",
+    "2025-03-02",
+    "BUU1"
+   ],
+   [
+    "1001",
+    "2025-03-04",
+    "BUU1"
+   ],
+   [
+    "1002",
+    "2025-03-13",
+    "BUU1"
+   ]
+  ]
+ },
+ "GS Account": {
+  "ledgers": 9,
+  "bus": 28,
+  "dec26_rows": 0,
+  "status_rows": 0,
+  "status_by_app": {
+   "101": {},
+   "200": {},
+   "222": {},
+   "10037": {},
+   "10455": {}
+  },
+  "ar_options": [],
+  "ar_txn_rows": 0,
+  "om_bus": {
+   "Payables": [
+    "PRCSYEDA_BZNS"
+   ],
+   "Payables and Procurement": [
+    "PRCSYEDA_BZNS"
+   ],
+   "Procurement": [
+    "ABC Procurement BU",
+    "GoSaaS Labs PK",
+    "Momina US West BU",
+    "PRCSYEDA_BZNS",
+    "T25",
+    "Z Procurement BU",
+    "Zaid Case Study BU",
+    "Zaynab Manufacturing"
+   ]
+  },
+  "periods_total": 13,
+  "last_period": [
+   "13_Jul22",
+   "2022/07/25"
+  ]
+ }
+}

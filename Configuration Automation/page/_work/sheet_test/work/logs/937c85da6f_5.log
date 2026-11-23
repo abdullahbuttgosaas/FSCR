@@ -1,0 +1,16 @@
+Host: https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com
+ORACLE_ENV: test
+Exporting AR_MANAGE_TRANSACTION_SOURCES ...
+  ProcessId=100004734401688
+  [export]   10s  StatusCode=IN_PROGRESS
+  [export]   21s  StatusCode=IN_PROGRESS
+  [export]   32s  StatusCode=COMPLETED
+  saved E:\GoSaaS\Configuration Automation v2.1\Configuration Automation\Transaction Sources\_work\AR_MANAGE_TRANSACTION_SOURCES_20261102_064212_before.zip
+  [template]   10s  StatusCode=NOT_STARTED
+  [template]   21s  StatusCode=IN_PROGRESS
+  [template]   32s  StatusCode=IN_PROGRESS
+  [template]   43s  StatusCode=COMPLETED
+  ZZ_TEST_TS_3114 (COMMON): exists
+Whole run: 81 s
+
+===== run 06:41:36

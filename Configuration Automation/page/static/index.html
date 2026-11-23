@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en" data-theme="dark">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Setup Assistant</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@500;700&family=Manrope:wght@500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/static/style.css">
+<script>
+/* the theme before the first paint (remembered on this PC; the page works without storage) */
+try { var t = localStorage.getItem("sa-theme"); if (t === "light" || t === "dark") document.documentElement.setAttribute("data-theme", t); } catch (e) {}
+</script>
+</head>
+<body>
+<div class="page">
+<div class="wrap">
+
+<header style="display:flex;flex-wrap:wrap;align-items:center;gap:16px;padding:22px 0 4px">
+<div style="display:flex;align-items:center;gap:14px;flex:1 1 320px">
+<a href="#/" id="home-link" class="brand" aria-label="Setup Assistant, start page">
+<div style="width:46px;height:46px;border-radius:14px;background:linear-gradient(135deg,var(--accent),var(--violet));display:flex;align-items:center;justify-content:center;color:var(--accentInk)">
+<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v4M12 17v4M3 12h4M17 12h4M6 6l2.5 2.5M15.5 15.5L18 18M18 6l-2.5 2.5M8.5 15.5L6 18"/></svg>
+</div>
+<div style="font-size:22px;font-weight:800;letter-spacing:-.01em">Setup Assistant</div>
+</a>
+</div>
+<div style="display:flex;flex-wrap:wrap;gap:10px;align-items:center">
+<button class="btn" id="claude-signin" style="min-height:36px" hidden>Sign in to Claude</button>
+<span class="chip" id="claude-wait" hidden><span class="spinner tiny"></span> Waiting for your Claude sign-in</span>
+<!-- the area switch (2026-10-30): which module cards the Upload screen lists and which blank template it gives; app.js -->
+<div class="chip" id="area-switch" role="group" aria-label="Setup area for the Upload screen" style="padding:4px;gap:4px">
+<button type="button" class="seg" data-area="Order Management" aria-pressed="true">Order Management</button>
+<button type="button" class="seg" data-area="Receivables" aria-pressed="false">Receivables</button>
+</div>
+<span class="chip" id="env" style="border-color:var(--warn);color:var(--warn)" hidden><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" aria-hidden="true"><path d="M12 9v4M12 17h.01M10.3 3.9L2.4 18a2 2 0 001.7 3h15.8a2 2 0 001.7-3L13.7 3.9a2 2 0 00-3.4 0z"/></svg><span id="env-text"></span></span>
+<button class="btn" id="theme-toggle" aria-label="Switch light or dark theme" style="min-width:44px;padding:0 14px">
+<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12.8A9 9 0 1111.2 3a7 7 0 009.8 9.8z"/></svg>
+<span id="theme-label">Light</span>
+</button>
+</div>
+</header>
+<div class="banner" id="banner" role="alert" hidden></div>
+
+<!-- progress rail: driven only by the page's real state (app.js setStage); nobody clicks it -->
+<section class="card" id="rail" style="padding:30px 28px 24px;overflow:hidden" aria-label="Progress" hidden>
+<div style="position:relative">
+<div style="position:absolute;left:12.5%;right:12.5%;top:26px;height:8px;border-radius:99px;background:var(--surface3)">
+<div id="rail-fill" style="height:100%;border-radius:99px;transition:width .5s;width:0%;background:linear-gradient(90deg,var(--violet),var(--accent))"></div>
+<div class="orb" id="rail-orb" style="position:absolute;top:50%;left:0%;width:22px;height:22px;border-radius:50%;background:var(--accent);border:4px solid var(--bg);transition:left .5s;transform:translate(-50%,-50%)"></div>
+</div>
+<ol class="rail-nodes" style="display:grid;grid-template-columns:repeat(4,minmax(0,1fr));position:relative;list-style:none;margin:0;padding:0">
+<li style="display:flex;flex-direction:column;align-items:center;gap:12px;text-align:center" data-node="0">
+<div class="node"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 16V4M7 9l5-5 5 5M4 20h16"/></svg></div>
+<div><div class="node-t" style="font-size:16px;font-weight:800">Upload</div><div style="font-size:12.5px;font-weight:600;color:var(--muted);margin-top:2px"></div></div>
+</li>
+<li style="display:flex;flex-direction:column;align-items:center;gap:12px;text-align:center" data-node="1">
+<div class="node"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3l8 3v6c0 4.5-3.3 8-8 9-4.7-1-8-4.5-8-9V6l8-3zM8.5 12l2.5 2.5L15.5 10"/></svg></div>
+<div><div class="node-t" style="font-size:16px;font-weight:800">Check</div><div style="font-size:12.5px;font-weight:600;color:var(--muted);margin-top:2px"></div></div>
+</li>
+<li style="display:flex;flex-direction:column;align-items:center;gap:12px;text-align:center" data-node="2">
+<div class="node"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M13 2L4 14h7l-1 8 9-12h-7l1-8z"/></svg></div>
+<div><div class="node-t" style="font-size:16px;font-weight:800">Create</div><div style="font-size:12.5px;font-weight:600;color:var(--muted);margin-top:2px"></div></div>
+</li>
+<li style="display:flex;flex-direction:column;align-items:center;gap:12px;text-align:center" data-node="3">
+<div class="node"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 21V4M5 4h11l-2 4 2 4H5"/></svg></div>
+<div><div class="node-t" style="font-size:16px;font-weight:800">Done</div><div style="font-size:12.5px;font-weight:600;color:var(--muted);margin-top:2px"></div></div>
+</li>
+</ol>
+</div>
+</section>
+
+<main id="app" aria-live="polite"><p class="muted center pad">Loading ...</p></main>
+</div>
+</div>
+<script src="/static/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,2 @@
+URL: https://docs.oracle.com/en/cloud/saas/financials/26c/faiex/how-can-i-enable-third-party-integration-for-expense-report.html
+ Previous Next JavaScript must be enabled to correctly display this content Implementing Expenses How can I enable third-party integration for expense report payments? How can I enable third-party integration for expense report payments? You can specify a third-party reimbursement application on the Manage Expenses System Options page. The default option processes employee expenses through Oracle Fusion Payables. 

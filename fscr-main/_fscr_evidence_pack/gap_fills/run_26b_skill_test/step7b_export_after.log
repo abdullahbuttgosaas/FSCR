@@ -1,0 +1,8 @@
+TaskCode: GL_MANAGE_JOURNAL_CATEGORIES (Manage Journal Categories); CSVExportImportSupportedFlag: Y
+No matching pillar setup-task metadata found; using supplied or Fusion task context for export path.
+Started setup task CSV export process: 100004736418683
+ProcessCompletedFlag: False; StatusCode: (no result yet); ResultCount: 0
+ProcessCompletedFlag: True; StatusCode: (no result yet); ResultCount: 0
+StatusCode: (unknown)
+Retrieved: FileContent
+Wrote E:\GoSaaS\Configuration Automation v2.1\fscr-main\_fscr_run_26b_skill_test\export_after\ETIA-TEST_setup_task_csv_export_gl_manage_journal_categories_100004736418683.zip (11684 bytes)

@@ -1,0 +1,220 @@
+{
+  "Resources" : {
+    "shippingCostTypesLOV" : {
+      "discrColumnType" : false,
+      "titlePlural" : "Shipping Cost Types List of Values",
+      "group" : "SCM",
+      "subgroup" : "InventoryManagement",
+      "usage" : "LOV",
+      "attributes" : [ {
+        "name" : "ShippingCostTypeId",
+        "type" : "string",
+        "format" : "BigInt",
+        "updatable" : false,
+        "mandatory" : false,
+        "queryable" : true,
+        "allowChanges" : "never",
+        "operators" : [ "=", "<>", "<", "<=", ">", ">=", "BETWEEN", "NOTBETWEEN", "ISBLANK", "ISNOTBLANK" ],
+        "annotations" : {
+          "description" : "Value that uniquely identifies the shipping cost type."
+        }
+      }, {
+        "name" : "ShippingCostType",
+        "type" : "string",
+        "updatable" : false,
+        "mandatory" : false,
+        "queryable" : true,
+        "allowChanges" : "never",
+        "precision" : 60,
+        "annotations" : {
+          "description" : "Name of the shipping cost type."
+        }
+      }, {
+        "name" : "ShippingCostTypeDescription",
+        "type" : "string",
+        "updatable" : false,
+        "mandatory" : false,
+        "queryable" : true,
+        "allowChanges" : "never",
+        "precision" : 240,
+        "annotations" : {
+          "description" : "Description of the shipping cost type."
+        }
+      }, {
+        "name" : "ShippingCostTypeCategoryCode",
+        "type" : "string",
+        "updatable" : false,
+        "mandatory" : false,
+        "queryable" : true,
+        "allowChanges" : "never",
+        "precision" : 30,
+        "annotations" : {
+          "description" : "Abbreviation that identifies the category of the shipping cost. A list of accepted values is defined in the lookup WSH_FREIGHT_COST_TYPE."
+        }
+      }, {
+        "name" : "StartDateActive",
+        "type" : "date",
+        "updatable" : false,
+        "mandatory" : false,
+        "queryable" : true,
+        "allowChanges" : "never",
+        "annotations" : {
+          "description" : "Date when the shipping cost type becomes active."
+        }
+      }, {
+        "name" : "EndDateActive",
+        "type" : "date",
+        "updatable" : false,
+        "mandatory" : false,
+        "queryable" : true,
+        "allowChanges" : "never",
+        "annotations" : {
+          "description" : "Date when the shipping cost type becomes inactive."
+        }
+      }, {
+        "name" : "CurrencyCode",
+        "type" : "string",
+        "updatable" : false,
+        "mandatory" : false,
+        "queryable" : false,
+        "allowChanges" : "never",
+        "precision" : 15,
+        "annotations" : {
+          "description" : "Abbreviation that identifies the currency for the amount of this shipping cost."
+        }
+      }, {
+        "name" : "Amount",
+        "type" : "string",
+        "format" : "BigDecimal",
+        "updatable" : false,
+        "mandatory" : false,
+        "queryable" : false,
+        "allowChanges" : "never",
+        "operators" : [ "=", "<>", "<", "<=", ">", ">=", "BETWEEN", "NOTBETWEEN", "ISBLANK", "ISNOTBLANK" ],
+        "annotations" : {
+          "description" : "Amount for the shipping cost."
+        }
+      }, {
+        "name" : "ShippingCostTypeCategory",
+        "type" : "string",
+        "updatable" : false,
+        "mandatory" : false,
+        "queryable" : true,
+        "allowChanges" : "never",
+        "precision" : 80,
+        "annotations" : {
+          "description" : "Category of the shipping cost that the application uses to group shipping costs according to similar characteristics. A list of accepted values is defined in the lookup WSH_FREIGHT_COST_TYPE."
+        }
+      } ],
+      "collection" : {
+        "rangeSize" : 25,
+        "finders" : [ {
+          "name" : "PrimaryKey",
+          "annotations" : {
+            "description" : "Finds the shipping cost type with the specified primary key."
+          },
+          "attributes" : [ {
+            "name" : "ShippingCostTypeId",
+            "type" : "string",
+            "format" : "BigInt",
+            "updatable" : true,
+            "mandatory" : false,
+            "queryable" : true,
+            "allowChanges" : "never",
+            "annotations" : {
+              "description" : "Value that uniquely identifies the shipping cost type."
+            }
+          } ]
+        }, {
+          "name" : "findByLinePackingUnitShipment",
+          "title" : "ShippingCostTypeVVOCriteria",
+          "annotations" : {
+            "description" : "Finds all shipping cost types that match the specified criteria for the shipmentLineId, costTypeId, packingUnitId and shipmentId finder variables."
+          },
+          "attributes" : [ {
+            "name" : "costTypeId",
+            "type" : "string",
+            "format" : "BigInt",
+            "updatable" : true,
+            "required" : "Optional",
+            "queryable" : false,
+            "allowChanges" : "always"
+          }, {
+            "name" : "packingUnitId",
+            "type" : "string",
+            "format" : "BigInt",
+            "updatable" : true,
+            "required" : "Optional",
+            "queryable" : false,
+            "allowChanges" : "always"
+          }, {
+            "name" : "shipmentId",
+            "type" : "string",
+            "format" : "BigInt",
+            "updatable" : true,
+            "required" : "Optional",
+            "queryable" : false,
+            "allowChanges" : "always"
+          }, {
+            "name" : "shipmentLineId",
+            "type" : "string",
+            "format" : "BigInt",
+            "updatable" : true,
+            "required" : "Optional",
+            "queryable" : false,
+            "allowChanges" : "always"
+          } ]
+        } ],
+        "links" : [ {
+          "rel" : "self",
+          "href" : "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/shippingCostTypesLOV",
+          "name" : "self",
+          "kind" : "collection"
+        } ],
+        "actions" : [ {
+          "name" : "get",
+          "method" : "GET",
+          "responseType" : [ "application/vnd.oracle.adf.resourcecollection+json", "application/json" ],
+          "annotations" : {
+            "title" : "Get all shipping cost types"
+          }
+        } ]
+      },
+      "item" : {
+        "links" : [ {
+          "rel" : "self",
+          "href" : "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/shippingCostTypesLOV/{id}",
+          "name" : "self",
+          "kind" : "item"
+        }, {
+          "rel" : "canonical",
+          "href" : "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/shippingCostTypesLOV/{id}",
+          "name" : "canonical",
+          "kind" : "item"
+        } ],
+        "actions" : [ {
+          "name" : "get",
+          "method" : "GET",
+          "responseType" : [ "application/vnd.oracle.adf.resourceitem+json", "application/json" ],
+          "annotations" : {
+            "title" : "Get one shipping cost type"
+          }
+        } ]
+      },
+      "annotations" : {
+        "description" : "Shipping cost types are shipment-related costs such as administration fee, duty fee, insurance, handling cost, export fee, or transportation charge."
+      },
+      "links" : [ {
+        "rel" : "self",
+        "href" : "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/shippingCostTypesLOV/describe",
+        "name" : "self",
+        "kind" : "describe"
+      }, {
+        "rel" : "canonical",
+        "href" : "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/shippingCostTypesLOV/describe",
+        "name" : "canonical",
+        "kind" : "describe"
+      } ]
+    }
+  }
+}

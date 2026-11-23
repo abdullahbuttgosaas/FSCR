@@ -1,0 +1,8 @@
+{
+  "title" : "Bad Request",
+  "status" : "400",
+  "o:errorDetails" : [ {
+    "detail" : "At least one of the following attributes BindAccountingDateFrom, BindAccountingDateTo, BindBilltoCustomerName, BindBilltoCustomerNumber, BindShipToCustomerName, BindTransactionDateFrom, BindTransactionDateTo, BindTransactionNumber, BindTransactionSource is required.",
+    "o:errorCode" : "27036"
+  } ]
+}

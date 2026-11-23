@@ -1,0 +1,96 @@
+<MigrationProcessCSVMetadataVO>
+   <MigrationProcessCSVMetadataVORow>
+      <ProcessId>-999</ProcessId>
+      <ProcessName>Manage Compliance Checklist Questions_20261116_083652_658</ProcessName>
+      <ProcessDescription>Manage Compliance Checklist Questions_20261116_083652_658</ProcessDescription>
+      <ProcessDate>2026-11-16 20:37:16.821</ProcessDate>
+      <ObjectShortName>ORA_PO_COMPLIANCE_CHECKLIST_QUESTIONS</ObjectShortName>
+      <ObjectType>TASK</ObjectType>
+      <CreatedByFlow>TASK_CSV_SERVICE</CreatedByFlow>
+      <ProcessType>EXPORT</ProcessType>
+      <ProcessStatus>COMPLETED</ProcessStatus>
+      <ProcessEnv>etia-test</ProcessEnv>
+      <ProcessStartDate>2026-11-16 20:36:52.265</ProcessStartDate>
+      <ProcessEndDate>2026-11-16 20:37:16.821</ProcessEndDate>
+      <ProcessRelease>11.13.26.10.0</ProcessRelease>
+      <SubmittedBy>Configuration.TEST</SubmittedBy>
+      <ESSRequestId>4465018</ESSRequestId>
+      <MigrationProcessBusinessObjectCSVMetadata1>
+         <MigrationProcessBusinessObjectCSVMetadataVORow>
+            <ProcessId>-999</ProcessId>
+            <BusinessObjectShortName>ORA_POQ_CHECKLIST_QUESTION_BRANCHES</BusinessObjectShortName>
+            <BatchName>ChecklistQuestionMigrator</BatchName>
+            <XmlAttributeList>CreatedBy,CreationDate,DisplaySequence_QuestionBranch,LastUpdateDate,LastUpdateLogin,LastUpdatedBy,QuestionName_QuestionBranch,RevisionNumber_QuestionBranch</XmlAttributeList>
+            <XmlAttributeTypeList>string,dateTime,int,dateTime,string,string,string,int</XmlAttributeTypeList>
+            <XmlNodePath>/ChecklistQuestionMigratorVO/ChecklistQuestionMigratorVORow/ChecklistQuestionAcceptableResponseMigrator/ChecklistQuestionAcceptableResponseMigratorVORow/ChecklistQuestionBranchMigrator/ChecklistQuestionBranchMigratorVORow</XmlNodePath>
+            <NodeSequence>5</NodeSequence>
+         </MigrationProcessBusinessObjectCSVMetadataVORow>
+         <MigrationProcessBusinessObjectCSVMetadataVORow>
+            <ProcessId>-999</ProcessId>
+            <BusinessObjectShortName>ORA_POQ_CHECKLIST_QUESTION</BusinessObjectShortName>
+            <BatchName>ChecklistQuestionMigrator</BatchName>
+            <XmlAttributeList>ActivationDate,AllowRespCommentFlag,AttachmentAllowedCode,CreatedBy,CreationDate,LastUpdateDate,LastUpdateLogin,LastUpdatedBy,LatestRevisionFlag,QuestionHint,QuestionLevel,QuestionName,QuestionStatus,QuestionText,QuestionType,ResponseRequiredFlag,ResponseType,RevisionNumber,ListName,PrimaryEmailId,EmailAddress,HasAttachments,MappedToPreReqQuesFlag,QuestionUsage,PrerequisiteRevisionNumber,PrerequisiteQuestionName,ResponderType</XmlAttributeList>
+            <XmlAttributeTypeList>dateTime,string,string,string,dateTime,dateTime,string,string,string,string,string,string,string,clob,string,string,string,int,string,long,string,string,string,string,int,string,string</XmlAttributeTypeList>
+            <XmlNodePath>/ChecklistQuestionMigratorVO/ChecklistQuestionMigratorVORow</XmlNodePath>
+            <NodeSequence>1</NodeSequence>
+         </MigrationProcessBusinessObjectCSVMetadataVORow>
+         <MigrationProcessBusinessObjectCSVMetadataVORow>
+            <ProcessId>-999</ProcessId>
+            <BusinessObjectShortName>ORA_POQ_TRANS_CHECKLIST_QUESTION</BusinessObjectShortName>
+            <BatchName>ChecklistQuestionMigrator</BatchName>
+            <XmlAttributeList>CreatedBy,CreationDate,Language,LastUpdateDate,LastUpdateLogin,LastUpdatedBy,QuestionHint,QuestionText,SourceLang</XmlAttributeList>
+            <XmlAttributeTypeList>string,dateTime,string,dateTime,string,string,string,clob,string</XmlAttributeTypeList>
+            <XmlNodePath>/ChecklistQuestionMigratorVO/ChecklistQuestionMigratorVORow/ChecklistQuestionTranslationMigrator/ChecklistQuestionTranslationMigratorVORow</XmlNodePath>
+            <NodeSequence>2</NodeSequence>
+         </MigrationProcessBusinessObjectCSVMetadataVORow>
+         <MigrationProcessBusinessObjectCSVMetadataVORow>
+            <ProcessId>-999</ProcessId>
+            <BusinessObjectShortName>ORA_POQ_TRANS_CHECKLIST_QUESTION_ACC_RESPONSES</BusinessObjectShortName>
+            <BatchName>ChecklistQuestionMigrator</BatchName>
+            <XmlAttributeList>CreatedBy,CreationDate,Language,LastUpdateDate,LastUpdateLogin,LastUpdatedBy,ResponseText,SourceLang</XmlAttributeList>
+            <XmlAttributeTypeList>string,dateTime,string,dateTime,string,string,string,string</XmlAttributeTypeList>
+            <XmlNodePath>/ChecklistQuestionMigratorVO/ChecklistQuestionMigratorVORow/ChecklistQuestionAcceptableResponseMigrator/ChecklistQuestionAcceptableResponseMigratorVORow/ChecklistQuestionAcceptableResponseTranslationMigrator/ChecklistQuestionAcceptableResponseTranslationMigratorVORow</XmlNodePath>
+            <NodeSequence>4</NodeSequence>
+         </MigrationProcessBusinessObjectCSVMetadataVORow>
+         <MigrationProcessBusinessObjectCSVMetadataVORow>
+            <ProcessId>-999</ProcessId>
+            <BusinessObjectShortName>ORA_POQ_CHECKLIST_QUESTION_ACC_RESPONSES</BusinessObjectShortName>
+            <BatchName>ChecklistQuestionMigrator</BatchName>
+            <XmlAttributeList>AttachmentAllowedCode,CategoryId,CategoryName,CreatedBy,CreationDate,DisplaySequence_AcceptableResponse,LastUpdateDate,LastUpdateLogin,LastUpdatedBy,ParentCategoryId,ResponseText,ObjectVersionNumber2,PrerequisiteDisplaySequence,PrerequisiteResponseText</XmlAttributeList>
+            <XmlAttributeTypeList>string,long,string,string,dateTime,int,dateTime,string,string,long,string,int,int,string</XmlAttributeTypeList>
+            <XmlNodePath>/ChecklistQuestionMigratorVO/ChecklistQuestionMigratorVORow/ChecklistQuestionAcceptableResponseMigrator/ChecklistQuestionAcceptableResponseMigratorVORow</XmlNodePath>
+            <NodeSequence>3</NodeSequence>
+         </MigrationProcessBusinessObjectCSVMetadataVORow>
+      </MigrationProcessBusinessObjectCSVMetadata1>
+      <MigrationProcessBatchCSVMetadata>
+         <MigrationProcessBatchCSVMetadataVORow>
+            <ProcessId>-999</ProcessId>
+            <BatchName>ChecklistQuestionMigrator</BatchName>
+            <ImportSequence>0</ImportSequence>
+            <ServiceName>oracle.apps.prc.poq.setup.migratorService.applicationModule.ChecklistQuestionMigratorService</ServiceName>
+            <BatchSize>100</BatchSize>
+         </MigrationProcessBatchCSVMetadataVORow>
+      </MigrationProcessBatchCSVMetadata>
+      <MigrationProcessScopeValueCSVMetadata>
+         <MigrationProcessScopeValueCSVMetadataVORow>
+            <ProcessId>-999</ProcessId>
+            <MigScopeValueSetId>100004736418730</MigScopeValueSetId>
+            <BusinessObjectShortName>ORA_POQ_CHECKLIST_QUESTION</BusinessObjectShortName>
+            <ScopeValueBoAttributeId>isManageChecklist</ScopeValueBoAttributeId>
+            <ScopeValueBoAttributeValue>Y</ScopeValueBoAttributeValue>
+            <ScopeValueBoAttributeValueCode>Y</ScopeValueBoAttributeValueCode>
+         </MigrationProcessScopeValueCSVMetadataVORow>
+      </MigrationProcessScopeValueCSVMetadata>
+      <MigrationProcessMigrationObjectCSVMetadata>
+         <MigrationProcessMigrationObjectCSVMetadataVORow>
+            <ProcessId>-999</ProcessId>
+            <BusinessObjectShortName>ORA_POQ_CHECKLIST_QUESTION</BusinessObjectShortName>
+            <MigrateFlag>Y</MigrateFlag>
+            <IncludeExternalDataFlag>Y</IncludeExternalDataFlag>
+            <ServiceType null="true"/>
+         </MigrationProcessMigrationObjectCSVMetadataVORow>
+      </MigrationProcessMigrationObjectCSVMetadata>
+      <MigrationProcessTaskCSVMetadata null="true"/>
+      <MigrationProcessServiceVersionCSVMetadata null="true"/>
+   </MigrationProcessCSVMetadataVORow>
+</MigrationProcessCSVMetadataVO>

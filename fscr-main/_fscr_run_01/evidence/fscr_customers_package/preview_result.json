@@ -1,0 +1,46 @@
+{
+  "schema_version": "ar-customers-preview-v1",
+  "status": "OFFLINE_PREVIEW_LIVE_BLOCKED",
+  "task_code": "ORA_AR_MANAGE_CUSTOMER_UPLOADS",
+  "business_object": "customers",
+  "operation_intent": "create",
+  "member": "ArUpdCustomers.csv",
+  "row_count": 2,
+  "business_columns": 87,
+  "serialized_columns": 88,
+  "candidate_sha256": "8f5c83054e43aa1fe2934e4cb9e7949e5d42e3ed8c691a2f40bf505f73340b39",
+  "contract_sha256": "1d9e6b1a5094252d88364940ecbfd7e0204c709dca3158d19172318c3fe8d0e5",
+  "known_input_checks": "PASS",
+  "execution_authorized": false,
+  "live_ready": false,
+  "semantic_validation_complete": false,
+  "loader_validation_gaps": [
+    {
+      "id": "AR-CITY-DOMAIN",
+      "category": "domain",
+      "member": "ArUpdCustomers.csv",
+      "columns": [
+        "SALES_TAX_INSIDE_CITY_LIMITS"
+      ],
+      "issue": "Worksheet describes 1/0; table reference describes Y/N; do not translate automatically.",
+      "consequence": "The loader may reject or interpret supplied data; some rows may persist. No atomicity or undocumented validation guarantee.",
+      "loader_handling": "Retain interface/product request IDs and row diagnostics; reconcile persisted results and obtain a new decision for corrections.",
+      "status": "unresolved",
+      "value_handling": "preserve",
+      "source_ids": [
+        "TEMPLATE26D",
+        "CONTROL26B"
+      ]
+    }
+  ],
+  "live_blockers": {
+    "AR-MAPPING-COMPATIBILITY": "Target-delivered template determines emitted layout; qualify the selected deployment and requested fields. Scoped authoring tests do not establish compatibility for other releases or every field boundary.",
+    "AR-OPERATION-OWNERSHIP": "Complete create/update/reuse matching, field mutability and existing-target effects require review.",
+    "AR-RECONCILIATION": "Authoritative persisted readback for every requested entity/value remains to be wired to the declared journey.",
+    "AR-CORE-READINESS": "Current central registration routing, privileges, immutable acceptance handoff and automatic-retry compatibility require verification."
+  },
+  "note": "A preview is not a supported-field update declaration or approval; central live gates remain open.",
+  "input_provenance": "explicit-business-input",
+  "input_sha256": "d9b2274f4d5e9c7760074dd9e371b1b4b48f53245d7dc1ea2f73b0104e0cf40e",
+  "proposed_data_requires_approval": false
+}

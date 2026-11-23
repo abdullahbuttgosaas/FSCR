@@ -1,0 +1,26 @@
+Environment: etia-test
+Revision: 11.13.26.10.0
+
+The configuration package Manage Compliance Checklist Sections_20261116_083728_519 was generated using setup data from environment etia-test with 11.13.26.10.0 revision.
+
+Request ID: 4,465,047. Status: In progress. Submitted By: Configuration.TEST. Process Date: 11/16/26 8:50 PM.
+
+Business object: Compliance Checklist Section. Status: Completed with errors. Status details: Review and report the errors for this object to product Supplier Qualification.
+	Detail Object: ChecklistSectionMigrator. Status: Completed with errors. Status Details: A total of 1 rows were processed. 1 rows of them failed and 0 rows completed with warnings.. Started: 11/16/26 8:51 PM. Ended: 11/16/26 8:51 PM.
+		Row Identifier: 300000395044286. Status: Error. Message Code: FND_CMN_INVALID_ATTRB_API_SERV. Message Text: The value of the attribute PrcBuId isn't valid.
+		The data row that caused the exception exists in the ORA_POQ_CHECKLIST_SECTION.csv file.
+		The data row can be found in batch file ChecklistSectionMigrator/1_BATCH.zip.
+
+
+Total Objects Processed: 1
+
+Total Objects Succeeded: 0
+
+Total Objects Failed: 1
+
+Total Objects with Warnings: 0
+
+Total Objects for External Loading: 0
+
+Request ID: 4,465,047. Status: Completed with errors. Submitted By: Configuration.TEST. Process Date: 11/16/26 8:51 PM.
+

@@ -1,0 +1,84 @@
+{
+ "bu_ids": {
+  "ABD": "300000393727002",
+  "ABC Procurement BU": "300000389039590",
+  "GoSaaS": "300000002671135",
+  "AMNA BU": "300000386672001",
+  "AKBusiness Unit Domestic": "300000384735824",
+  "ZZ_TEST_7669": "300000393870488"
+ },
+ "counts": {
+  "BusinessUnits": {
+   "ABD": 1,
+   "ABC Procurement BU": 1,
+   "GoSaaS": 1,
+   "AMNA BU": 1,
+   "AKBusiness Unit Domestic": 1,
+   "ZZ_TEST_7669": 1
+  },
+  "BusinessFunctions": {
+   "ABD": 19,
+   "ABC Procurement BU": 18,
+   "GoSaaS": 18,
+   "AMNA BU": 18,
+   "AKBusiness Unit Domestic": 18,
+   "ZZ_TEST_7669": 0
+  },
+  "LedgerAndLegalEntity": {
+   "ABD": 1,
+   "ABC Procurement BU": 1,
+   "GoSaaS": 1,
+   "AMNA BU": 1,
+   "AKBusiness Unit Domestic": 1,
+   "ZZ_TEST_7669": 1
+  },
+  "ServiceProviders": {
+   "ABD": 4,
+   "ABC Procurement BU": 4,
+   "GoSaaS": 4,
+   "AMNA BU": 4,
+   "AKBusiness Unit Domestic": 7,
+   "ZZ_TEST_7669": 0
+  },
+  "SetAssignments": {
+   "ABD": 68,
+   "ABC Procurement BU": 68,
+   "GoSaaS": 67,
+   "AMNA BU": 68,
+   "AKBusiness Unit Domestic": 68,
+   "ZZ_TEST_7669": 0
+  },
+  "PriceLists": {
+   "ABD": 21,
+   "ABC Procurement BU": 3,
+   "GoSaaS": 0,
+   "AMNA BU": 0,
+   "AKBusiness Unit Domestic": 0,
+   "ZZ_TEST_7669": 0
+  },
+  "UserAccess": {
+   "ABD": 1,
+   "ABC Procurement BU": 1,
+   "GoSaaS": 25,
+   "AMNA BU": 11,
+   "AKBusiness Unit Domestic": 11,
+   "ZZ_TEST_7669": 0
+  },
+  "ReceivablesOptions": {
+   "ABD": 0,
+   "ABC Procurement BU": 0,
+   "GoSaaS": 0,
+   "AMNA BU": 1,
+   "AKBusiness Unit Domestic": 1,
+   "ZZ_TEST_7669": 0
+  },
+  "ReceivablesTxnTypeBU": {
+   "ABD": 0,
+   "ABC Procurement BU": 0,
+   "GoSaaS": 0,
+   "AMNA BU": 1,
+   "AKBusiness Unit Domestic": 0,
+   "ZZ_TEST_7669": 0
+  }
+ }
+}

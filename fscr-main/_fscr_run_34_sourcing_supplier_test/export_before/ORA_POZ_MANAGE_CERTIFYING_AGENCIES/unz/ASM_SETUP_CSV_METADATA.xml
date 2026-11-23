@@ -1,0 +1,59 @@
+<MigrationProcessCSVMetadataVO>
+   <MigrationProcessCSVMetadataVORow>
+      <ProcessId>-999</ProcessId>
+      <ProcessName>Manage Certifying Agencies_20261117_075842_707</ProcessName>
+      <ProcessDescription>Manage Certifying Agencies_20261117_075842_707</ProcessDescription>
+      <ProcessDate>2026-11-17 07:59:02.86</ProcessDate>
+      <ObjectShortName>ORA_POZ_MANAGE_CERTIFYING_AGENCIES</ObjectShortName>
+      <ObjectType>TASK</ObjectType>
+      <CreatedByFlow>TASK_CSV_SERVICE</CreatedByFlow>
+      <ProcessType>EXPORT</ProcessType>
+      <ProcessStatus>COMPLETED</ProcessStatus>
+      <ProcessEnv>etia-test</ProcessEnv>
+      <ProcessStartDate>2026-11-17 07:58:42.267</ProcessStartDate>
+      <ProcessEndDate>2026-11-17 07:59:02.86</ProcessEndDate>
+      <ProcessRelease>11.13.26.10.0</ProcessRelease>
+      <SubmittedBy>Configuration.TEST</SubmittedBy>
+      <ESSRequestId>4466152</ESSRequestId>
+      <MigrationProcessBusinessObjectCSVMetadata1>
+         <MigrationProcessBusinessObjectCSVMetadataVORow>
+            <ProcessId>-999</ProcessId>
+            <BusinessObjectShortName>ORA_POZ_CERTIFYING_AGENCY</BusinessObjectShortName>
+            <BatchName null="true"/>
+            <XmlAttributeList>AgencyId,Name,Description,EndDate</XmlAttributeList>
+            <XmlAttributeTypeList>long,string,string,date</XmlAttributeTypeList>
+            <XmlNodePath>/PozCertifyingAgencyMigratorVO/PozCertifyingAgencyMigratorVORow</XmlNodePath>
+            <NodeSequence>1</NodeSequence>
+         </MigrationProcessBusinessObjectCSVMetadataVORow>
+         <MigrationProcessBusinessObjectCSVMetadataVORow>
+            <ProcessId>-999</ProcessId>
+            <BusinessObjectShortName>ORA_POZ_CERT_AGENCY_BUS_CLASS</BusinessObjectShortName>
+            <BatchName null="true"/>
+            <XmlAttributeList>ClassificationCode</XmlAttributeList>
+            <XmlAttributeTypeList>string</XmlAttributeTypeList>
+            <XmlNodePath>/PozCertifyingAgencyMigratorVO/PozCertifyingAgencyMigratorVORow/PozCertAgencyClassfnMigrator/PozCertAgencyClassfnMigratorVORow</XmlNodePath>
+            <NodeSequence>2</NodeSequence>
+         </MigrationProcessBusinessObjectCSVMetadataVORow>
+      </MigrationProcessBusinessObjectCSVMetadata1>
+      <MigrationProcessBatchCSVMetadata null="true"/>
+      <MigrationProcessScopeValueCSVMetadata null="true"/>
+      <MigrationProcessMigrationObjectCSVMetadata>
+         <MigrationProcessMigrationObjectCSVMetadataVORow>
+            <ProcessId>-999</ProcessId>
+            <BusinessObjectShortName>ORA_POZ_CERTIFYING_AGENCY</BusinessObjectShortName>
+            <MigrateFlag>Y</MigrateFlag>
+            <IncludeExternalDataFlag>Y</IncludeExternalDataFlag>
+            <ServiceType null="true"/>
+         </MigrationProcessMigrationObjectCSVMetadataVORow>
+         <MigrationProcessMigrationObjectCSVMetadataVORow>
+            <ProcessId>-999</ProcessId>
+            <BusinessObjectShortName>ORA_POZ_CERT_AGENCY_BUS_CLASS</BusinessObjectShortName>
+            <MigrateFlag>Y</MigrateFlag>
+            <IncludeExternalDataFlag>Y</IncludeExternalDataFlag>
+            <ServiceType null="true"/>
+         </MigrationProcessMigrationObjectCSVMetadataVORow>
+      </MigrationProcessMigrationObjectCSVMetadata>
+      <MigrationProcessTaskCSVMetadata null="true"/>
+      <MigrationProcessServiceVersionCSVMetadata null="true"/>
+   </MigrationProcessCSVMetadataVORow>
+</MigrationProcessCSVMetadataVO>

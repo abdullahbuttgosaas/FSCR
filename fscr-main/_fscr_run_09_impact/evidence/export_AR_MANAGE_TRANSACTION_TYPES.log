@@ -1,0 +1,8 @@
+== AR_MANAGE_TRANSACTION_TYPES now start 15:05:31
+Started setup task CSV export process: 100004733458385
+ProcessCompletedFlag: False; StatusCode: (no result yet); ResultCount: 0
+ProcessCompletedFlag: False; StatusCode: (no result yet); ResultCount: 0
+ProcessCompletedFlag: True; StatusCode: (no result yet); ResultCount: 0
+StatusCode: (unknown)
+Wrote E:\GoSaaS\Configuration Automation v2.1\fscr-main\_fscr_run_09_impact\fscr-work9\project\draft_impl_project_20261104_r09\exports\now\AR_MANAGE_TRANSACTION_TYPES\ETIA-TEST_setup_task_csv_export_ar_manage_transaction_types_100004733458385.zip (3988 bytes)
+== AR_MANAGE_TRANSACTION_TYPES now end 15:06:49

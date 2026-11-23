@@ -1,0 +1,180 @@
+[
+  {
+    "entity": "AR_TRANSACTION_TYPE",
+    "id": "REQ-001",
+    "kind": "target",
+    "operationId": "t1",
+    "requirement": "create exactly one AR_TRANSACTION_TYPE record identified by {\"Name\":\"FSCRT_TT1\",\"SetCode\":\"ENTERPRISE\"}",
+    "targetKey": {
+      "Name": "FSCRT_TT1",
+      "SetCode": "ENTERPRISE"
+    }
+  },
+  {
+    "entity": "AR_TRANSACTION_TYPE",
+    "field": "AccountingAffectFlag",
+    "id": "REQ-002",
+    "kind": "value",
+    "operationId": "t1",
+    "requestedValue": "Y",
+    "requirement": "Persist AR_TRANSACTION_TYPE.AccountingAffectFlag=Y",
+    "targetKey": {
+      "Name": "FSCRT_TT1",
+      "SetCode": "ENTERPRISE"
+    }
+  },
+  {
+    "entity": "AR_TRANSACTION_TYPE",
+    "field": "AllowFreightFlag",
+    "id": "REQ-003",
+    "kind": "value",
+    "operationId": "t1",
+    "requestedValue": "N",
+    "requirement": "Persist AR_TRANSACTION_TYPE.AllowFreightFlag=N",
+    "targetKey": {
+      "Name": "FSCRT_TT1",
+      "SetCode": "ENTERPRISE"
+    }
+  },
+  {
+    "entity": "AR_TRANSACTION_TYPE",
+    "field": "AllowOverapplicationFlag",
+    "id": "REQ-004",
+    "kind": "value",
+    "operationId": "t1",
+    "requestedValue": "N",
+    "requirement": "Persist AR_TRANSACTION_TYPE.AllowOverapplicationFlag=N",
+    "targetKey": {
+      "Name": "FSCRT_TT1",
+      "SetCode": "ENTERPRISE"
+    }
+  },
+  {
+    "entity": "AR_TRANSACTION_TYPE",
+    "field": "DefaultPrintingOption",
+    "id": "REQ-005",
+    "kind": "value",
+    "operationId": "t1",
+    "requestedValue": "PRI",
+    "requirement": "Persist AR_TRANSACTION_TYPE.DefaultPrintingOption=PRI",
+    "targetKey": {
+      "Name": "FSCRT_TT1",
+      "SetCode": "ENTERPRISE"
+    }
+  },
+  {
+    "entity": "AR_TRANSACTION_TYPE",
+    "field": "DefaultStatus",
+    "id": "REQ-006",
+    "kind": "value",
+    "operationId": "t1",
+    "requestedValue": "OP",
+    "requirement": "Persist AR_TRANSACTION_TYPE.DefaultStatus=OP",
+    "targetKey": {
+      "Name": "FSCRT_TT1",
+      "SetCode": "ENTERPRISE"
+    }
+  },
+  {
+    "entity": "AR_TRANSACTION_TYPE",
+    "field": "Description",
+    "id": "REQ-007",
+    "kind": "value",
+    "operationId": "t1",
+    "requestedValue": "FSCRT Run04 invoice type",
+    "requirement": "Persist AR_TRANSACTION_TYPE.Description=FSCRT Run04 invoice type",
+    "targetKey": {
+      "Name": "FSCRT_TT1",
+      "SetCode": "ENTERPRISE"
+    }
+  },
+  {
+    "entity": "AR_TRANSACTION_TYPE",
+    "field": "NaturalApplicationOnlyFlag",
+    "id": "REQ-008",
+    "kind": "value",
+    "operationId": "t1",
+    "requestedValue": "N",
+    "requirement": "Persist AR_TRANSACTION_TYPE.NaturalApplicationOnlyFlag=N",
+    "targetKey": {
+      "Name": "FSCRT_TT1",
+      "SetCode": "ENTERPRISE"
+    }
+  },
+  {
+    "entity": "AR_TRANSACTION_TYPE",
+    "field": "PostToGl",
+    "id": "REQ-009",
+    "kind": "value",
+    "operationId": "t1",
+    "requestedValue": "N",
+    "requirement": "Persist AR_TRANSACTION_TYPE.PostToGl=N",
+    "targetKey": {
+      "Name": "FSCRT_TT1",
+      "SetCode": "ENTERPRISE"
+    }
+  },
+  {
+    "entity": "AR_TRANSACTION_TYPE",
+    "field": "StartDate",
+    "id": "REQ-010",
+    "kind": "value",
+    "operationId": "t1",
+    "requestedValue": "2026-11-03",
+    "requirement": "Persist AR_TRANSACTION_TYPE.StartDate=2026-11-03",
+    "targetKey": {
+      "Name": "FSCRT_TT1",
+      "SetCode": "ENTERPRISE"
+    }
+  },
+  {
+    "entity": "AR_TRANSACTION_TYPE",
+    "field": "Status",
+    "id": "REQ-011",
+    "kind": "value",
+    "operationId": "t1",
+    "requestedValue": "A",
+    "requirement": "Persist AR_TRANSACTION_TYPE.Status=A",
+    "targetKey": {
+      "Name": "FSCRT_TT1",
+      "SetCode": "ENTERPRISE"
+    }
+  },
+  {
+    "entity": "AR_TRANSACTION_TYPE",
+    "field": "TaxCalculationFlag",
+    "id": "REQ-012",
+    "kind": "value",
+    "operationId": "t1",
+    "requestedValue": "N",
+    "requirement": "Persist AR_TRANSACTION_TYPE.TaxCalculationFlag=N",
+    "targetKey": {
+      "Name": "FSCRT_TT1",
+      "SetCode": "ENTERPRISE"
+    }
+  },
+  {
+    "entity": "AR_TRANSACTION_TYPE",
+    "field": "Type",
+    "id": "REQ-013",
+    "kind": "value",
+    "operationId": "t1",
+    "requestedValue": "INV",
+    "requirement": "Persist AR_TRANSACTION_TYPE.Type=INV",
+    "targetKey": {
+      "Name": "FSCRT_TT1",
+      "SetCode": "ENTERPRISE"
+    }
+  },
+  {
+    "entity": "AR_TRANSACTION_TYPE",
+    "id": "REQ-014",
+    "kind": "preserve_rows",
+    "operationId": "t1",
+    "requirement": "Preserve every unspecified record and non-audit value",
+    "targetKey": {
+      "Name": "FSCRT_TT1",
+      "SetCode": "ENTERPRISE"
+    }
+  }
+]

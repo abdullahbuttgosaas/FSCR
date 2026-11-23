@@ -1,0 +1,551 @@
+{
+ "file": "Receivables_sheet_test_A_run_by_Claude.xlsx",
+ "check_start": "06:19:10",
+ "check_end": "06:22:48",
+ "check_seconds": 218,
+ "upload_http": 200,
+ "preview": {
+  "ok": true,
+  "stops": [],
+  "notes": [],
+  "oracle_stops": null,
+  "signin": null,
+  "problems_count": 0
+ },
+ "modules": [
+  [
+   "Receivables Payment Terms",
+   1,
+   null
+  ],
+  [
+   "AutoInvoice Grouping Rules",
+   1,
+   null
+  ],
+  [
+   "Transaction Types",
+   2,
+   null
+  ],
+  [
+   "Transaction Sources",
+   1,
+   null
+  ]
+ ],
+ "records": [
+  {
+   "group": "Receivables Payment Terms",
+   "name": "ZZ_TEST_PT_311",
+   "ok": true,
+   "skipped": null,
+   "summary": "Oracle will get: 1 installment: 100 in 30 days. Base Amount 100, tax and freight: include in the first installment, discount basis: invoice amount, discount date basis: application date. Set COMMON (Common Set), name language US. From 2026-11-01. Also set: In Use No, Allow Discount on Partial Payments No, no billing cycle (not on the sheet).",
+   "problems": [],
+   "notes": [
+    "Filled in by the automation",
+    "Filled in by the automation",
+    "Filled in by the automation",
+    "Filled in by the automation",
+    "Filled in by the automation",
+    "Filled in by the automation"
+   ]
+  },
+  {
+   "group": "AutoInvoice Grouping Rules",
+   "name": "ZZ_TEST_AG_3112",
+   "ok": true,
+   "skipped": null,
+   "summary": "Oracle will get: 1 transaction class: Invoice grouped also by L.INTERFACE_LINE_ATTRIBUTE1. From 2026-11-01. Also set: no line ordering rule, no flexfields, no consolidated billing flag (not on the sheet).",
+   "problems": [],
+   "notes": []
+  },
+  {
+   "group": "Transaction Types",
+   "name": "ZZ_TEST_TT_3113",
+   "ok": true,
+   "skipped": null,
+   "summary": "Oracle will get: an Invoice type in set COMMON, Active, from 2026-11-01; open receivable Yes, post to GL Yes, freight Yes, tax calculation Yes, natural application only No, overapplication No; Positive Sign, transaction status Open, Print; payment term ZZ_TEST_PT_311 (set COMMON) created first from this sheet. Not set: accounts (not offered yet), credit memo and subsequent types, rule set, legal entity, flexfields.",
+   "problems": [],
+   "notes": [
+    "On the Receivables Payment Terms tab of this sheet: ZZ_TEST_PT_311 is created first; this transaction type waits for it."
+   ]
+  },
+  {
+   "group": "Transaction Types",
+   "name": "ZZ_TEST_TT_6421",
+   "ok": true,
+   "skipped": "A transaction type 'ZZ_TEST_TT_6421' already exists in set COMMON. It will be skipped; nothing is changed.",
+   "summary": null,
+   "problems": [],
+   "notes": [
+    "A transaction type 'ZZ_TEST_TT_6421' already exists in set COMMON. It will be skipped; nothing is changed."
+   ]
+  },
+  {
+   "group": "Transaction Sources",
+   "name": "ZZ_TEST_TS_3114",
+   "ok": true,
+   "skipped": null,
+   "summary": "Oracle will get: an AutoInvoice source in set COMMON, Active, from 2026-11-01, automatic numbering starting at 1, invalid lines: Reject Invoice, grouping rule ZZ_TEST_AG_3112 (created first from this sheet). Also set: no default transaction type, no credit source, no legal entity, no flexfields, AutoInvoice options left empty (not on the sheet).",
+   "problems": [],
+   "notes": [
+    "Filled in by the automation",
+    "Filled in by the automation",
+    "On the AutoInvoice Grouping Rules tab of this sheet: ZZ_TEST_AG_3112 is created first; this source waits for it."
+   ]
+  }
+ ],
+ "upload": "3bf3afa7ef",
+ "create_start": "06:22:48",
+ "create_http": 200,
+ "job": "a589337822",
+ "progress": [
+  {
+   "at": "06:22:48",
+   "state": "running",
+   "text": "Receivables payment term 1 of 5",
+   "items": [
+    [
+     "ZZ_TEST_PT_311",
+     "running",
+     null
+    ],
+    [
+     "ZZ_TEST_AG_3112",
+     "waiting",
+     null
+    ],
+    [
+     "ZZ_TEST_TT_3113",
+     "waiting",
+     null
+    ],
+    [
+     "ZZ_TEST_TT_6421",
+     "waiting",
+     null
+    ],
+    [
+     "ZZ_TEST_TS_3114",
+     "waiting",
+     null
+    ]
+   ]
+  },
+  {
+   "at": "06:24:58",
+   "state": "running",
+   "text": "Autoinvoice grouping rule 2 of 5",
+   "items": [
+    [
+     "ZZ_TEST_PT_311",
+     "done",
+     null
+    ],
+    [
+     "ZZ_TEST_AG_3112",
+     "running",
+     null
+    ],
+    [
+     "ZZ_TEST_TT_3113",
+     "waiting",
+     null
+    ],
+    [
+     "ZZ_TEST_TT_6421",
+     "waiting",
+     null
+    ],
+    [
+     "ZZ_TEST_TS_3114",
+     "waiting",
+     null
+    ]
+   ]
+  },
+  {
+   "at": "06:27:14",
+   "state": "running",
+   "text": "Transaction types 3-4 of 5, in one go",
+   "items": [
+    [
+     "ZZ_TEST_PT_311",
+     "done",
+     null
+    ],
+    [
+     "ZZ_TEST_AG_3112",
+     "done",
+     null
+    ],
+    [
+     "ZZ_TEST_TT_3113",
+     "running",
+     null
+    ],
+    [
+     "ZZ_TEST_TT_6421",
+     "running",
+     null
+    ],
+    [
+     "ZZ_TEST_TS_3114",
+     "waiting",
+     null
+    ]
+   ]
+  },
+  {
+   "at": "06:30:21",
+   "state": "running",
+   "text": "Transaction source 5 of 5",
+   "items": [
+    [
+     "ZZ_TEST_PT_311",
+     "done",
+     null
+    ],
+    [
+     "ZZ_TEST_AG_3112",
+     "done",
+     null
+    ],
+    [
+     "ZZ_TEST_TT_3113",
+     "done",
+     null
+    ],
+    [
+     "ZZ_TEST_TT_6421",
+     "done",
+     null
+    ],
+    [
+     "ZZ_TEST_TS_3114",
+     "running",
+     null
+    ]
+   ]
+  },
+  {
+   "at": "06:33:52",
+   "state": "done",
+   "text": "Created 4 of 5 rows: 1 already existed and was skipped (nothing changed).",
+   "items": [
+    [
+     "ZZ_TEST_PT_311",
+     "done",
+     null
+    ],
+    [
+     "ZZ_TEST_AG_3112",
+     "done",
+     null
+    ],
+    [
+     "ZZ_TEST_TT_3113",
+     "done",
+     null
+    ],
+    [
+     "ZZ_TEST_TT_6421",
+     "done",
+     null
+    ],
+    [
+     "ZZ_TEST_TS_3114",
+     "done",
+     null
+    ]
+   ]
+  }
+ ],
+ "create_end": "06:33:52",
+ "create_seconds": 664,
+ "job_final": {
+  "id": "a589337822",
+  "folder": "Receivables Payment Terms",
+  "title": "1 receivables payment term and 1 autoinvoice grouping rule and 2 transaction types and 1 transaction source from your sheet",
+  "upload": "3bf3afa7ef",
+  "state": "done",
+  "step": null,
+  "percent": 100,
+  "text": "Created 4 of 5 rows: 1 already existed and was skipped (nothing changed).",
+  "result": {
+   "ok": true,
+   "text": "Created 4 of 5 rows: 1 already existed and was skipped (nothing changed)."
+  },
+  "ask": null,
+  "repairs": 0,
+  "done_lines": [],
+  "total": 5,
+  "items": [
+   {
+    "n": 1,
+    "name": "ZZ_TEST_PT_311",
+    "title": "Receivables payment term ZZ_TEST_PT_311",
+    "state": "done",
+    "repairs": 0,
+    "what": "receivables payment term",
+    "text": "Created the Receivables payment term ZZ_TEST_PT_311 in set COMMON with 1 installment, and checked it in Oracle: every value as sent.",
+    "created": {
+     "name": "ZZ_TEST_PT_311",
+     "set_code": "COMMON",
+     "description": "ZZ test term, net 30",
+     "from_date": "2026-11-01",
+     "to_date": null,
+     "base_amount": "100",
+     "print_lead_days": null,
+     "tax_freight": "Include in the first installment",
+     "discount_basis": "Invoice amount",
+     "discount_date_basis": "Application date",
+     "installments": [
+      {
+       "sequence": "1",
+       "relative_amount": "100",
+       "days": "30"
+      }
+     ],
+     "discounts": []
+    },
+    "where": "Setup and Maintenance > Financials > Customer Billing > Manage Receivables Payment Terms, search for ZZ_TEST_PT_311 (set COMMON)",
+    "repaired": false
+   },
+   {
+    "n": 2,
+    "name": "ZZ_TEST_AG_3112",
+    "title": "Autoinvoice grouping rule ZZ_TEST_AG_3112",
+    "state": "done",
+    "repairs": 0,
+    "what": "autoinvoice grouping rule",
+    "text": "Created the AutoInvoice grouping rule ZZ_TEST_AG_3112 with 1 transaction class and 1 characteristic, and checked it in Oracle: every value as sent.",
+    "created": {
+     "name": "ZZ_TEST_AG_3112",
+     "description": "ZZ test rule, by line attribute 1",
+     "from_date": "2026-11-01",
+     "to_date": null,
+     "classes": [
+      {
+       "transaction_class": "Invoice",
+       "characteristics": [
+        "L.INTERFACE_LINE_ATTRIBUTE1"
+       ]
+      }
+     ]
+    },
+    "where": "Setup and Maintenance > Financials > Customer Billing > Manage AutoInvoice Grouping Rules, search for ZZ_TEST_AG_3112",
+    "repaired": false
+   },
+   {
+    "n": 3,
+    "name": "ZZ_TEST_TT_3113",
+    "title": "Transaction type ZZ_TEST_TT_3113",
+    "state": "done",
+    "repairs": 0,
+    "what": "transaction type",
+    "text": "Created the transaction type ZZ_TEST_TT_3113 (Invoice) in set COMMON with payment term ZZ_TEST_PT_311, and checked it in Oracle: every value as sent.",
+    "created": {
+     "name": "ZZ_TEST_TT_3113",
+     "set_code": "COMMON",
+     "description": "ZZ test type with the new term",
+     "trx_class": "Invoice",
+     "status": "Active",
+     "from_date": "2026-11-01",
+     "to_date": null,
+     "open_receivable": "Yes",
+     "post_to_gl": "Yes",
+     "allow_freight": "Yes",
+     "tax_calculation": "Yes",
+     "natural_application": "No",
+     "allow_overapplication": "No",
+     "creation_sign": "Positive Sign",
+     "transaction_status": "Open",
+     "printing_option": "Print",
+     "payment_term": "ZZ_TEST_PT_311",
+     "payment_term_set": "COMMON"
+    },
+    "where": "Setup and Maintenance > Financials > Customer Billing > Manage Transaction Types, search for ZZ_TEST_TT_3113 (set COMMON)",
+    "repaired": false
+   },
+   {
+    "n": 4,
+    "name": "ZZ_TEST_TT_6421",
+    "title": "Transaction type ZZ_TEST_TT_6421",
+    "state": "done",
+    "repairs": 0,
+    "what": "transaction type",
+    "text": "The transaction type ZZ_TEST_TT_6421 is already in set COMMON in Oracle, so it was skipped; nothing was changed.",
+    "created": {
+     "name": "ZZ_TEST_TT_6421",
+     "set_code": "COMMON",
+     "description": "ZZ test transaction type (invoice)",
+     "trx_class": "Invoice",
+     "status": "Active",
+     "from_date": "2026-11-01",
+     "to_date": null,
+     "open_receivable": "Yes",
+     "post_to_gl": "Yes",
+     "allow_freight": "Yes",
+     "tax_calculation": "Yes",
+     "natural_application": "No",
+     "allow_overapplication": "No",
+     "creation_sign": "Positive Sign",
+     "transaction_status": "Open",
+     "printing_option": "Print",
+     "payment_term": null,
+     "payment_term_set": null
+    },
+    "where": "Setup and Maintenance > Financials > Customer Billing > Manage Transaction Types, search for ZZ_TEST_TT_6421 (set COMMON)",
+    "repaired": false,
+    "skipped": true
+   },
+   {
+    "n": 5,
+    "name": "ZZ_TEST_TS_3114",
+    "title": "Transaction source ZZ_TEST_TS_3114",
+    "state": "done",
+    "repairs": 0,
+    "what": "transaction source",
+    "text": "Created the transaction source ZZ_TEST_TS_3114 in set COMMON for AutoInvoice with grouping rule ZZ_TEST_AG_3112, and checked it in Oracle: every value as sent.",
+    "created": {
+     "name": "ZZ_TEST_TS_3114",
+     "set_code": "COMMON",
+     "description": "ZZ test source with the new rule",
+     "source_type": "Imported",
+     "status": "Active",
+     "from_date": "2026-11-01",
+     "auto_numbering": "Yes",
+     "last_number": "1",
+     "invalid_lines": "Reject Invoice",
+     "grouping_rule": "ZZ_TEST_AG_3112"
+    },
+    "where": "Setup and Maintenance > Financials > Customer Billing > Manage Transaction Sources, search for ZZ_TEST_TS_3114 (set COMMON)",
+    "repaired": false
+   }
+  ],
+  "failed_sheet": false,
+  "created": 4,
+  "skipped": 1,
+  "words": [
+   "receivables payment term",
+   "autoinvoice grouping rule",
+   "transaction type",
+   "transaction source"
+  ],
+  "questions": 0,
+  "failed_name": "Failed rows.xlsx",
+  "summary": {
+   "numbers": {
+    "run": "a589337822",
+    "started": "2026-11-02 06:22:48",
+    "ended": "2026-11-02 06:33:50",
+    "seconds": 662,
+    "check_seconds": 218,
+    "upload_file": "Receivables_sheet_test_A_run_by_Claude.xlsx",
+    "from_failed_sheet": false,
+    "records": [
+     {
+      "n": 1,
+      "name": "ZZ_TEST_PT_311",
+      "what": "receivables payment term",
+      "state": "created",
+      "saved": null,
+      "registry_id": null,
+      "started": "2026-11-02 06:22:48",
+      "ended": "2026-11-02 06:24:55",
+      "seconds": 127
+     },
+     {
+      "n": 2,
+      "name": "ZZ_TEST_AG_3112",
+      "what": "autoinvoice grouping rule",
+      "state": "created",
+      "saved": null,
+      "registry_id": null,
+      "started": "2026-11-02 06:24:55",
+      "ended": "2026-11-02 06:27:11",
+      "seconds": 136
+     },
+     {
+      "n": 3,
+      "name": "ZZ_TEST_TT_3113",
+      "what": "transaction type",
+      "state": "created",
+      "saved": null,
+      "registry_id": null,
+      "started": "2026-11-02 06:27:11",
+      "ended": "2026-11-02 06:30:18",
+      "seconds": 187
+     },
+     {
+      "n": 4,
+      "name": "ZZ_TEST_TT_6421",
+      "what": "transaction type",
+      "state": "skipped",
+      "saved": null,
+      "registry_id": null,
+      "started": "2026-11-02 06:27:11",
+      "ended": "2026-11-02 06:30:18",
+      "seconds": 187
+     },
+     {
+      "n": 5,
+      "name": "ZZ_TEST_TS_3114",
+      "what": "transaction source",
+      "state": "created",
+      "saved": null,
+      "registry_id": null,
+      "started": "2026-11-02 06:30:18",
+      "ended": "2026-11-02 06:33:50",
+      "seconds": 212
+     }
+    ],
+    "created": 4,
+    "skipped": 1,
+    "failed": 0,
+    "saved_not_checked": 0,
+    "repairs": [],
+    "repair_tokens": 0,
+    "repair_cost_usd": 0,
+    "questions": []
+   },
+   "sections": [
+    {
+     "heading": "Time",
+     "lines": [
+      "The whole run took 11 min 2 s (06:22 to 06:33).",
+      "ZZ_TEST_PT_311: 2 min 7 s (06:22 to 06:24).",
+      "ZZ_TEST_AG_3112: 2 min 16 s (06:24 to 06:27).",
+      "ZZ_TEST_TT_3113: 3 min 7 s (06:27 to 06:30).",
+      "ZZ_TEST_TT_6421: 3 min 7 s (06:27 to 06:30).",
+      "ZZ_TEST_TS_3114: 3 min 32 s (06:30 to 06:33).",
+      "Checking the sheet before Create took 3 min 38 s."
+     ]
+    },
+    {
+     "heading": "Results",
+     "lines": [
+      "Created: 4 of 5.",
+      "Already in Oracle, skipped (nothing changed): 1.",
+      "Failed: 0.",
+      "Saved but not fully checked: 0."
+     ]
+    },
+    {
+     "heading": "Repairs",
+     "lines": [
+      "No repairs. Claude was not used: 0 tokens, $0."
+     ]
+    },
+    {
+     "heading": null,
+     "lines": [
+      "Creating receivables payment terms and autoinvoice grouping rules and transaction types and transaction sources uses no Claude tokens. Claude is only used when a run fails and an automatic repair starts."
+     ]
+    }
+   ]
+  }
+ }
+}

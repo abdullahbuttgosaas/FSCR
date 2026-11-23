@@ -1,0 +1,60 @@
+<MigrationProcessCSVMetadataVO>
+   <MigrationProcessCSVMetadataVORow>
+      <ProcessId>-999</ProcessId>
+      <ProcessName>Manage Journal Categories_20261115_105819_918</ProcessName>
+      <ProcessDescription>Manage Journal Categories_20261115_105819_918</ProcessDescription>
+      <ProcessDate>2026-11-15 10:59:10.055</ProcessDate>
+      <ObjectShortName>GL_MANAGE_JOURNAL_CATEGORIES</ObjectShortName>
+      <ObjectType>TASK</ObjectType>
+      <CreatedByFlow>TASK_CSV_SERVICE</CreatedByFlow>
+      <ProcessType>EXPORT</ProcessType>
+      <ProcessStatus>COMPLETED</ProcessStatus>
+      <ProcessEnv>etia-test</ProcessEnv>
+      <ProcessStartDate>2026-11-15 10:58:21.318</ProcessStartDate>
+      <ProcessEndDate>2026-11-15 10:59:10.055</ProcessEndDate>
+      <ProcessRelease>11.13.26.10.0</ProcessRelease>
+      <SubmittedBy>Configuration.TEST</SubmittedBy>
+      <ESSRequestId>4461571</ESSRequestId>
+      <MigrationProcessBusinessObjectCSVMetadata1>
+         <MigrationProcessBusinessObjectCSVMetadataVORow>
+            <ProcessId>-999</ProcessId>
+            <BusinessObjectShortName>GL_JOURNAL_CATEGORY_DEF</BusinessObjectShortName>
+            <BatchName>JournalCategory</BatchName>
+            <XmlAttributeList>JeCategoryName,UserJeCategoryName,JeCategoryKey,LastUpdateDate,LastUpdatedBy,CreationDate,CreatedBy,LastUpdateLogin,Attribute1,Attribute2,Attribute3,Attribute4,Attribute5,ConsolidationFlag,Description,AttributeCategory,AttributeDate1,AttributeDate2,AttributeDate3,AttributeDate4,AttributeDate5,AttributeNumber1,AttributeNumber2,AttributeNumber3,AttributeNumber4,AttributeNumber5,DisallowMjeFlag</XmlAttributeList>
+            <XmlAttributeTypeList>string,string,string,dateTime,string,dateTime,string,string,string,string,string,string,string,string,string,string,dateTime,dateTime,dateTime,dateTime,dateTime,decimal,decimal,decimal,decimal,decimal,string</XmlAttributeTypeList>
+            <XmlNodePath>/JournalCategoryVO/JournalCategoryVORow</XmlNodePath>
+            <NodeSequence>1</NodeSequence>
+         </MigrationProcessBusinessObjectCSVMetadataVORow>
+         <MigrationProcessBusinessObjectCSVMetadataVORow>
+            <ProcessId>-999</ProcessId>
+            <BusinessObjectShortName>GL_JOURNAL_CATEGORY_DEF_TRANSLATION</BusinessObjectShortName>
+            <BatchName>JournalCategory</BatchName>
+            <XmlAttributeList>JeCategoryName,LastUpdateDate,LastUpdatedBy,CreationDate,CreatedBy,LastUpdateLogin,UserJeCategoryName,Language,SourceLang,Description</XmlAttributeList>
+            <XmlAttributeTypeList>string,dateTime,string,dateTime,string,string,string,string,string,string</XmlAttributeTypeList>
+            <XmlNodePath>/JournalCategoryVO/JournalCategoryVORow/JournalCategoryTranslation/JournalCategoryTranslationVORow</XmlNodePath>
+            <NodeSequence>1</NodeSequence>
+         </MigrationProcessBusinessObjectCSVMetadataVORow>
+      </MigrationProcessBusinessObjectCSVMetadata1>
+      <MigrationProcessBatchCSVMetadata>
+         <MigrationProcessBatchCSVMetadataVORow>
+            <ProcessId>-999</ProcessId>
+            <BatchName>JournalCategory</BatchName>
+            <ImportSequence>0</ImportSequence>
+            <ServiceName>oracle.apps.financials.generalLedger.journalSetup.categories.journalCategoriesService.JournalSetupCategoriesService</ServiceName>
+            <BatchSize>500</BatchSize>
+         </MigrationProcessBatchCSVMetadataVORow>
+      </MigrationProcessBatchCSVMetadata>
+      <MigrationProcessScopeValueCSVMetadata null="true"/>
+      <MigrationProcessMigrationObjectCSVMetadata>
+         <MigrationProcessMigrationObjectCSVMetadataVORow>
+            <ProcessId>-999</ProcessId>
+            <BusinessObjectShortName>GL_JOURNAL_CATEGORY_DEF</BusinessObjectShortName>
+            <MigrateFlag>Y</MigrateFlag>
+            <IncludeExternalDataFlag>Y</IncludeExternalDataFlag>
+            <ServiceType null="true"/>
+         </MigrationProcessMigrationObjectCSVMetadataVORow>
+      </MigrationProcessMigrationObjectCSVMetadata>
+      <MigrationProcessTaskCSVMetadata null="true"/>
+      <MigrationProcessServiceVersionCSVMetadata null="true"/>
+   </MigrationProcessCSVMetadataVORow>
+</MigrationProcessCSVMetadataVO>

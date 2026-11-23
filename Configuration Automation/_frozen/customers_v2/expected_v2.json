@@ -1,0 +1,1872 @@
+{
+ "ok": true,
+ "stops": [],
+ "notes": [],
+ "problems": [],
+ "records": [
+  {
+   "group": "Customers",
+   "folder": "Customers",
+   "tab": "Organization Customers",
+   "row": 4,
+   "name": "Pixel Forge Studios2",
+   "ok": true,
+   "problems": [],
+   "rows": {
+    "record": [
+     "Organization Customers",
+     4
+    ],
+    "children": [
+     [
+      "Address Purposes",
+      4
+     ],
+     [
+      "Address Purposes",
+      5
+     ]
+    ]
+   },
+   "title": "Organization customer Pixel Forge Studios2",
+   "fields": [
+    {
+     "label": "Name",
+     "section": "Organization Information",
+     "required": true,
+     "sheet": "Pixel Forge Studios2",
+     "oracle": "Pixel Forge Studios2",
+     "problem": null,
+     "fix": null,
+     "note": null
+    },
+    {
+     "label": "D-U-N-S Number",
+     "section": "Organization Information",
+     "required": false,
+     "sheet": "081234567",
+     "oracle": "081234567",
+     "problem": null,
+     "fix": null,
+     "note": null
+    },
+    {
+     "label": "Taxpayer Identification Number",
+     "section": "Organization Information",
+     "required": false,
+     "sheet": "84-1234567",
+     "oracle": "84-1234567",
+     "problem": null,
+     "fix": null,
+     "note": null
+    },
+    {
+     "label": "Account Description",
+     "section": "Account Information",
+     "required": false,
+     "sheet": "Indie game developer and publisher",
+     "oracle": "Indie game developer and publisher",
+     "problem": null,
+     "fix": null,
+     "note": null
+    },
+    {
+     "label": "Account Type",
+     "section": "Account Information",
+     "required": false,
+     "sheet": "External",
+     "oracle": "External",
+     "problem": null,
+     "fix": null,
+     "note": null
+    },
+    {
+     "label": "Customer Class",
+     "section": "Account Information",
+     "required": false,
+     "sheet": "Public sector companies",
+     "oracle": "Public sector companies",
+     "problem": null,
+     "fix": null,
+     "note": null
+    },
+    {
+     "label": "Account Established Date",
+     "section": "Account Information",
+     "required": false,
+     "sheet": "2026-10-22",
+     "oracle": "2026-10-22",
+     "problem": null,
+     "fix": null,
+     "note": null
+    },
+    {
+     "label": "Account Termination Date",
+     "section": "Account Information",
+     "required": false,
+     "sheet": "2027-12-31",
+     "oracle": "2027-12-31",
+     "problem": null,
+     "fix": null,
+     "note": null
+    },
+    {
+     "label": "Account Notes Other",
+     "section": "Account Information",
+     "required": false,
+     "sheet": "Net 30 account, digital and physical releases",
+     "oracle": "Net 30 account, digital and physical releases",
+     "problem": null,
+     "fix": null,
+     "note": null
+    },
+    {
+     "label": "Shipping Instrustions",
+     "section": "Account Information",
+     "required": false,
+     "sheet": "Deliver to receiving dock, weekdays 8am to 5pm",
+     "oracle": "Deliver to receiving dock, weekdays 8am to 5pm",
+     "problem": null,
+     "fix": null,
+     "note": null
+    },
+    {
+     "label": "Customer Agreement",
+     "section": "Account Information",
+     "required": false,
+     "sheet": "Annual publishing and distribution agreement",
+     "oracle": "Annual publishing and distribution agreement",
+     "problem": null,
+     "fix": null,
+     "note": null
+    },
+    {
+     "label": "Account Address Set",
+     "section": "Account Address",
+     "required": true,
+     "sheet": "Enterprise Set",
+     "oracle": "Enterprise Set",
+     "problem": null,
+     "fix": null,
+     "note": null
+    },
+    {
+     "label": "From Date",
+     "section": "Account Address",
+     "required": false,
+     "sheet": "2026-10-22",
+     "oracle": "2026-10-22",
+     "problem": null,
+     "fix": null,
+     "note": null
+    },
+    {
+     "label": "To Date",
+     "section": "Account Address",
+     "required": false,
+     "sheet": "2027-12-31",
+     "oracle": "2027-12-31",
+     "problem": null,
+     "fix": null,
+     "note": null
+    },
+    {
+     "label": "Site Name",
+     "section": "Address",
+     "required": false,
+     "sheet": "Game Studio Campus",
+     "oracle": "Game Studio Campus",
+     "problem": null,
+     "fix": null,
+     "note": null
+    },
+    {
+     "label": "Mail Stop",
+     "section": "Address",
+     "required": false,
+     "sheet": "Dock 4",
+     "oracle": "Dock 4",
+     "problem": null,
+     "fix": null,
+     "note": null
+    },
+    {
+     "label": "Country",
+     "section": "Address",
+     "required": false,
+     "sheet": "United States",
+     "oracle": "United States",
+     "problem": null,
+     "fix": null,
+     "note": null
+    },
+    {
+     "label": "Address Line 1",
+     "section": "Address",
+     "required": false,
+     "sheet": "10450 Mercer Avenue",
+     "oracle": "10450 Mercer Avenue",
+     "problem": null,
+     "fix": null,
+     "note": null
+    },
+    {
+     "label": "Address Line 2",
+     "section": "Address",
+     "required": false,
+     "sheet": "Suite 200",
+     "oracle": "Suite 200",
+     "problem": null,
+     "fix": null,
+     "note": null
+    },
+    {
+     "label": "City",
+     "section": "Address",
+     "required": false,
+     "sheet": "ABSECON",
+     "oracle": "ABSECON",
+     "problem": null,
+     "fix": null,
+     "note": "Found in Oracle: ABSECON, NEW JERSEY (ATLANTIC county)"
+    },
+    {
+     "label": "State",
+     "section": "Address",
+     "required": false,
+     "sheet": "NEW JERSEY",
+     "oracle": "NEW JERSEY",
+     "problem": null,
+     "fix": null,
+     "note": null
+    },
+    {
+     "label": "Postal Code",
+     "section": "Address",
+     "required": false,
+     "sheet": "08201",
+     "oracle": "08201",
+     "problem": null,
+     "fix": null,
+     "note": "Found in Oracle for ABSECON, NEW JERSEY"
+    },
+    {
+     "label": "Responsible Mineral Status",
+     "section": "Address",
+     "required": false,
+     "sheet": "Conflict Free",
+     "oracle": "Conflict Free",
+     "problem": null,
+     "fix": null,
+     "note": null
+    },
+    {
+     "label": "Address",
+     "section": "Address",
+     "required": false,
+     "sheet": "Main studio",
+     "oracle": "Main studio",
+     "problem": null,
+     "fix": null,
+     "note": null
+    },
+    {
+     "label": "URL",
+     "section": "Address",
+     "required": false,
+     "sheet": "https://www.pixelforgestudios.example.com",
+     "oracle": "https://www.pixelforgestudios.example.com",
+     "problem": null,
+     "fix": null,
+     "note": null
+    },
+    {
+     "label": "ContactEmail",
+     "section": "Address",
+     "required": false,
+     "sheet": "orders@pixelforgestudios.example.com",
+     "oracle": "orders@pixelforgestudios.example.com",
+     "problem": null,
+     "fix": null,
+     "note": null
+    },
+    {
+     "label": "Authorizer",
+     "section": "Address",
+     "required": false,
+     "sheet": "Dana Whitfield",
+     "oracle": "Dana Whitfield",
+     "problem": null,
+     "fix": null,
+     "note": null
+    },
+    {
+     "label": "Supplier Site ID",
+     "section": "Address",
+     "required": true,
+     "sheet": "3001",
+     "oracle": "3001",
+     "problem": null,
+     "fix": null,
+     "note": null
+    },
+    {
+     "label": "Sales Tax Geocode",
+     "section": "Address",
+     "required": false,
+     "sheet": "123456789",
+     "oracle": "123456789",
+     "problem": null,
+     "fix": null,
+     "note": null
+    },
+    {
+     "label": "Sales Tax Inside City Limits",
+     "section": "Address",
+     "required": false,
+     "sheet": "Yes",
+     "oracle": "Yes (ticked)",
+     "problem": null,
+     "fix": null,
+     "note": null
+    },
+    {
+     "label": "Customer Category Code",
+     "section": "Address Details",
+     "required": false,
+     "sheet": null,
+     "oracle": "(left empty)",
+     "problem": null,
+     "fix": null,
+     "note": null,
+     "default": true
+    },
+    {
+     "label": "Site Language",
+     "section": "Address Details",
+     "required": false,
+     "sheet": "American English",
+     "oracle": "American English",
+     "problem": null,
+     "fix": null,
+     "note": "Oracle checks this while creating."
+    },
+    {
+     "label": "Translated Customer Name",
+     "section": "Address Details",
+     "required": false,
+     "sheet": "Pixel Forge Studios Inc",
+     "oracle": "Pixel Forge Studios Inc",
+     "problem": null,
+     "fix": null,
+     "note": null
+    },
+    {
+     "label": "Key Account",
+     "section": "Address Details",
+     "required": false,
+     "sheet": "Yes",
+     "oracle": "Yes (ticked)",
+     "problem": null,
+     "fix": null,
+     "note": null
+    },
+    {
+     "label": "Trading Partner Identifier",
+     "section": "Address Details",
+     "required": false,
+     "sheet": "4501001",
+     "oracle": "4501001",
+     "problem": null,
+     "fix": null,
+     "note": null
+    },
+    {
+     "label": "EDI Location Code",
+     "section": "Address Details",
+     "required": false,
+     "sheet": "HVM-EDI-01",
+     "oracle": "HVM-EDI-01",
+     "problem": null,
+     "fix": null,
+     "note": null
+    }
+   ],
+   "children": {
+    "title": "Address purposes",
+    "columns": [
+     {
+      "label": "Customer Name",
+      "required": true
+     },
+     {
+      "label": "Primary",
+      "required": false
+     },
+     {
+      "label": "Purpose",
+      "required": true
+     },
+     {
+      "label": "From Date",
+      "required": false
+     },
+     {
+      "label": "To Date",
+      "required": false
+     },
+     {
+      "label": "Bill-to Site",
+      "required": false
+     }
+    ],
+    "rows": [
+     {
+      "row": 4,
+      "cells": [
+       {
+        "label": "Customer Name",
+        "section": "Address Purposes",
+        "required": true,
+        "sheet": "Pixel Forge Studios2",
+        "oracle": "Pixel Forge Studios2",
+        "problem": null,
+        "fix": null,
+        "note": null
+       },
+       {
+        "label": "Primary",
+        "section": "Address Purposes",
+        "required": false,
+        "sheet": "Yes",
+        "oracle": "Yes (ticked)",
+        "problem": null,
+        "fix": null,
+        "note": null
+       },
+       {
+        "label": "Purpose",
+        "section": "Address Purposes",
+        "required": true,
+        "sheet": "Bill to",
+        "oracle": "Bill to",
+        "problem": null,
+        "fix": null,
+        "note": null
+       },
+       {
+        "label": "From Date",
+        "section": "Address Purposes",
+        "required": false,
+        "sheet": "2026-10-22",
+        "oracle": "2026-10-22",
+        "problem": null,
+        "fix": null,
+        "note": null
+       },
+       {
+        "label": "To Date",
+        "section": "Address Purposes",
+        "required": false,
+        "sheet": "2027-12-31",
+        "oracle": "2027-12-31",
+        "problem": null,
+        "fix": null,
+        "note": null
+       },
+       {
+        "label": "Bill-to Site",
+        "section": "Address Purposes",
+        "required": false,
+        "sheet": null,
+        "oracle": "(left empty)",
+        "problem": null,
+        "fix": null,
+        "note": null,
+        "default": true
+       }
+      ]
+     },
+     {
+      "row": 5,
+      "cells": [
+       {
+        "label": "Customer Name",
+        "section": "Address Purposes",
+        "required": true,
+        "sheet": "Pixel Forge Studios2",
+        "oracle": "Pixel Forge Studios2",
+        "problem": null,
+        "fix": null,
+        "note": null
+       },
+       {
+        "label": "Primary",
+        "section": "Address Purposes",
+        "required": false,
+        "sheet": "Yes",
+        "oracle": "Yes (ticked)",
+        "problem": null,
+        "fix": null,
+        "note": null
+       },
+       {
+        "label": "Purpose",
+        "section": "Address Purposes",
+        "required": true,
+        "sheet": "Ship to",
+        "oracle": "Ship to",
+        "problem": null,
+        "fix": null,
+        "note": null
+       },
+       {
+        "label": "From Date",
+        "section": "Address Purposes",
+        "required": false,
+        "sheet": "2026-10-22",
+        "oracle": "2026-10-22",
+        "problem": null,
+        "fix": null,
+        "note": null
+       },
+       {
+        "label": "To Date",
+        "section": "Address Purposes",
+        "required": false,
+        "sheet": "2027-12-31",
+        "oracle": "2027-12-31",
+        "problem": null,
+        "fix": null,
+        "note": null
+       },
+       {
+        "label": "Bill-to Site",
+        "section": "Address Purposes",
+        "required": false,
+        "sheet": null,
+        "oracle": "10450 Mercer Avenue,Suite 200,ABSECON, NEW JERSEY 08201",
+        "problem": null,
+        "fix": null,
+        "note": "Picked automatically",
+        "default": false
+       }
+      ]
+     }
+    ]
+   },
+   "request": {
+    "customer_type": "Organization",
+    "name": "Pixel Forge Studios2",
+    "duns_number": "081234567",
+    "taxpayer_id": "84-1234567",
+    "account_description": "Indie game developer and publisher",
+    "account_type": "External",
+    "customer_class": "Public sector companies",
+    "account_established_date": "2026-10-22",
+    "account_termination_date": "2027-12-31",
+    "account_notes_other": "Net 30 account, digital and physical releases",
+    "shipping_instructions": "Deliver to receiving dock, weekdays 8am to 5pm",
+    "customer_agreement": "Annual publishing and distribution agreement",
+    "account_address_set": "Enterprise Set",
+    "address_from_date": "2026-10-22",
+    "address_to_date": "2027-12-31",
+    "site_name": "Game Studio Campus",
+    "mail_stop": "Dock 4",
+    "country": "United States",
+    "address_line_1": "10450 Mercer Avenue",
+    "address_line_2": "Suite 200",
+    "city": "ABSECON",
+    "state": "NEW JERSEY",
+    "postal_code": "08201",
+    "responsible_mineral_status": "Conflict Free",
+    "address_note": "Main studio",
+    "url": "https://www.pixelforgestudios.example.com",
+    "contact_email": "orders@pixelforgestudios.example.com",
+    "authorizer": "Dana Whitfield",
+    "supplier_site_id": "3001",
+    "sales_tax_geocode": "123456789",
+    "sales_tax_inside_city_limits": true,
+    "site_language": "American English",
+    "translated_customer_name": "Pixel Forge Studios Inc",
+    "key_account": true,
+    "trading_partner_identifier": "4501001",
+    "edi_location_code": "HVM-EDI-01",
+    "purposes": [
+     {
+      "primary": true,
+      "purpose": "Bill to",
+      "from_date": "2026-10-22",
+      "to_date": "2027-12-31"
+     },
+     {
+      "primary": true,
+      "purpose": "Ship to",
+      "from_date": "2026-10-22",
+      "to_date": "2027-12-31"
+     }
+    ]
+   },
+   "same_name": "No customer named Pixel Forge Studios2 exists in Oracle yet."
+  },
+  {
+   "group": "Customers",
+   "folder": "Customers",
+   "tab": "Organization Customers",
+   "row": 5,
+   "name": "Nightfall Interactive2",
+   "ok": true,
+   "problems": [],
+   "rows": {
+    "record": [
+     "Organization Customers",
+     5
+    ],
+    "children": [
+     [
+      "Address Purposes",
+      6
+     ],
+     [
+      "Address Purposes",
+      7
+     ]
+    ]
+   },
+   "title": "Organization customer Nightfall Interactive2",
+   "fields": [
+    {
+     "label": "Name",
+     "section": "Organization Information",
+     "required": true,
+     "sheet": "Nightfall Interactive2",
+     "oracle": "Nightfall Interactive2",
+     "problem": null,
+     "fix": null,
+     "note": null
+    },
+    {
+     "label": "D-U-N-S Number",
+     "section": "Organization Information",
+     "required": false,
+     "sheet": "092345678",
+     "oracle": "092345678",
+     "problem": null,
+     "fix": null,
+     "note": null
+    },
+    {
+     "label": "Taxpayer Identification Number",
+     "section": "Organization Information",
+     "required": false,
+     "sheet": "94-2345678",
+     "oracle": "94-2345678",
+     "problem": null,
+     "fix": null,
+     "note": null
+    },
+    {
+     "label": "Account Description",
+     "section": "Account Information",
+     "required": false,
+     "sheet": "Console and PC game publisher",
+     "oracle": "Console and PC game publisher",
+     "problem": null,
+     "fix": null,
+     "note": null
+    },
+    {
+     "label": "Account Type",
+     "section": "Account Information",
+     "required": false,
+     "sheet": "Internal",
+     "oracle": "Internal",
+     "problem": null,
+     "fix": null,
+     "note": null
+    },
+    {
+     "label": "Customer Class",
+     "section": "Account Information",
+     "required": false,
+     "sheet": "Federal class",
+     "oracle": "Federal class",
+     "problem": null,
+     "fix": null,
+     "note": null
+    },
+    {
+     "label": "Account Established Date",
+     "section": "Account Information",
+     "required": false,
+     "sheet": "2026-10-22",
+     "oracle": "2026-10-22",
+     "problem": null,
+     "fix": null,
+     "note": null
+    },
+    {
+     "label": "Account Termination Date",
+     "section": "Account Information",
+     "required": false,
+     "sheet": "2027-12-31",
+     "oracle": "2027-12-31",
+     "problem": null,
+     "fix": null,
+     "note": null
+    },
+    {
+     "label": "Account Notes Other",
+     "section": "Account Information",
+     "required": false,
+     "sheet": "Purchase orders required above 5000",
+     "oracle": "Purchase orders required above 5000",
+     "problem": null,
+     "fix": null,
+     "note": null
+    },
+    {
+     "label": "Shipping Instrustions",
+     "section": "Account Information",
+     "required": false,
+     "sheet": "Call receiving desk 30 minutes before arrival",
+     "oracle": "Call receiving desk 30 minutes before arrival",
+     "problem": null,
+     "fix": null,
+     "note": null
+    },
+    {
+     "label": "Customer Agreement",
+     "section": "Account Information",
+     "required": false,
+     "sheet": "Annual console hardware purchase agreement",
+     "oracle": "Annual console hardware purchase agreement",
+     "problem": null,
+     "fix": null,
+     "note": null
+    },
+    {
+     "label": "Account Address Set",
+     "section": "Account Address",
+     "required": true,
+     "sheet": "Enterprise Set",
+     "oracle": "Enterprise Set",
+     "problem": null,
+     "fix": null,
+     "note": null
+    },
+    {
+     "label": "From Date",
+     "section": "Account Address",
+     "required": false,
+     "sheet": "2026-10-22",
+     "oracle": "2026-10-22",
+     "problem": null,
+     "fix": null,
+     "note": null
+    },
+    {
+     "label": "To Date",
+     "section": "Account Address",
+     "required": false,
+     "sheet": "2027-12-31",
+     "oracle": "2027-12-31",
+     "problem": null,
+     "fix": null,
+     "note": null
+    },
+    {
+     "label": "Site Name",
+     "section": "Address",
+     "required": false,
+     "sheet": "San Francisco Office",
+     "oracle": "San Francisco Office",
+     "problem": null,
+     "fix": null,
+     "note": null
+    },
+    {
+     "label": "Mail Stop",
+     "section": "Address",
+     "required": false,
+     "sheet": "Floor 12",
+     "oracle": "Floor 12",
+     "problem": null,
+     "fix": null,
+     "note": null
+    },
+    {
+     "label": "Country",
+     "section": "Address",
+     "required": false,
+     "sheet": "United States",
+     "oracle": "United States",
+     "problem": null,
+     "fix": null,
+     "note": null
+    },
+    {
+     "label": "Address Line 1",
+     "section": "Address",
+     "required": false,
+     "sheet": "550 Mission Street",
+     "oracle": "550 Mission Street",
+     "problem": null,
+     "fix": null,
+     "note": null
+    },
+    {
+     "label": "Address Line 2",
+     "section": "Address",
+     "required": false,
+     "sheet": "Suite 1200",
+     "oracle": "Suite 1200",
+     "problem": null,
+     "fix": null,
+     "note": null
+    },
+    {
+     "label": "City",
+     "section": "Address",
+     "required": false,
+     "sheet": "ABSECON",
+     "oracle": "ABSECON",
+     "problem": null,
+     "fix": null,
+     "note": "Found in Oracle: ABSECON, NEW JERSEY (ATLANTIC county)"
+    },
+    {
+     "label": "State",
+     "section": "Address",
+     "required": false,
+     "sheet": "NEW JERSEY",
+     "oracle": "NEW JERSEY",
+     "problem": null,
+     "fix": null,
+     "note": null
+    },
+    {
+     "label": "Postal Code",
+     "section": "Address",
+     "required": false,
+     "sheet": "08201",
+     "oracle": "08201",
+     "problem": null,
+     "fix": null,
+     "note": "Found in Oracle for ABSECON, NEW JERSEY"
+    },
+    {
+     "label": "Responsible Mineral Status",
+     "section": "Address",
+     "required": false,
+     "sheet": "N/A",
+     "oracle": "N/A",
+     "problem": null,
+     "fix": null,
+     "note": null
+    },
+    {
+     "label": "Address",
+     "section": "Address",
+     "required": false,
+     "sheet": "Head office",
+     "oracle": "Head office",
+     "problem": null,
+     "fix": null,
+     "note": null
+    },
+    {
+     "label": "URL",
+     "section": "Address",
+     "required": false,
+     "sheet": "https://www.nightfallinteractive.example.com",
+     "oracle": "https://www.nightfallinteractive.example.com",
+     "problem": null,
+     "fix": null,
+     "note": null
+    },
+    {
+     "label": "ContactEmail",
+     "section": "Address",
+     "required": false,
+     "sheet": "payables@nightfallinteractive.example.com",
+     "oracle": "payables@nightfallinteractive.example.com",
+     "problem": null,
+     "fix": null,
+     "note": null
+    },
+    {
+     "label": "Authorizer",
+     "section": "Address",
+     "required": false,
+     "sheet": "Marcus Hale",
+     "oracle": "Marcus Hale",
+     "problem": null,
+     "fix": null,
+     "note": null
+    },
+    {
+     "label": "Supplier Site ID",
+     "section": "Address",
+     "required": true,
+     "sheet": "3008",
+     "oracle": "3008",
+     "problem": null,
+     "fix": null,
+     "note": null
+    },
+    {
+     "label": "Sales Tax Geocode",
+     "section": "Address",
+     "required": false,
+     "sheet": "123456789",
+     "oracle": "123456789",
+     "problem": null,
+     "fix": null,
+     "note": null
+    },
+    {
+     "label": "Sales Tax Inside City Limits",
+     "section": "Address",
+     "required": false,
+     "sheet": "Yes",
+     "oracle": "Yes (ticked)",
+     "problem": null,
+     "fix": null,
+     "note": null
+    },
+    {
+     "label": "Customer Category Code",
+     "section": "Address Details",
+     "required": false,
+     "sheet": null,
+     "oracle": "(left empty)",
+     "problem": null,
+     "fix": null,
+     "note": null,
+     "default": true
+    },
+    {
+     "label": "Site Language",
+     "section": "Address Details",
+     "required": false,
+     "sheet": "American English",
+     "oracle": "American English",
+     "problem": null,
+     "fix": null,
+     "note": "Oracle checks this while creating."
+    },
+    {
+     "label": "Translated Customer Name",
+     "section": "Address Details",
+     "required": false,
+     "sheet": "Nightfall Interactive LLC",
+     "oracle": "Nightfall Interactive LLC",
+     "problem": null,
+     "fix": null,
+     "note": null
+    },
+    {
+     "label": "Key Account",
+     "section": "Address Details",
+     "required": false,
+     "sheet": "No",
+     "oracle": "No (not ticked)",
+     "problem": null,
+     "fix": null,
+     "note": null
+    },
+    {
+     "label": "Trading Partner Identifier",
+     "section": "Address Details",
+     "required": false,
+     "sheet": "4501002",
+     "oracle": "4501002",
+     "problem": null,
+     "fix": null,
+     "note": null
+    },
+    {
+     "label": "EDI Location Code",
+     "section": "Address Details",
+     "required": false,
+     "sheet": "CIG-EDI-02",
+     "oracle": "CIG-EDI-02",
+     "problem": null,
+     "fix": null,
+     "note": null
+    }
+   ],
+   "children": {
+    "title": "Address purposes",
+    "columns": [
+     {
+      "label": "Customer Name",
+      "required": true
+     },
+     {
+      "label": "Primary",
+      "required": false
+     },
+     {
+      "label": "Purpose",
+      "required": true
+     },
+     {
+      "label": "From Date",
+      "required": false
+     },
+     {
+      "label": "To Date",
+      "required": false
+     },
+     {
+      "label": "Bill-to Site",
+      "required": false
+     }
+    ],
+    "rows": [
+     {
+      "row": 6,
+      "cells": [
+       {
+        "label": "Customer Name",
+        "section": "Address Purposes",
+        "required": true,
+        "sheet": "Nightfall Interactive2",
+        "oracle": "Nightfall Interactive2",
+        "problem": null,
+        "fix": null,
+        "note": null
+       },
+       {
+        "label": "Primary",
+        "section": "Address Purposes",
+        "required": false,
+        "sheet": "Yes",
+        "oracle": "Yes (ticked)",
+        "problem": null,
+        "fix": null,
+        "note": null
+       },
+       {
+        "label": "Purpose",
+        "section": "Address Purposes",
+        "required": true,
+        "sheet": "Bill to",
+        "oracle": "Bill to",
+        "problem": null,
+        "fix": null,
+        "note": null
+       },
+       {
+        "label": "From Date",
+        "section": "Address Purposes",
+        "required": false,
+        "sheet": "2026-10-22",
+        "oracle": "2026-10-22",
+        "problem": null,
+        "fix": null,
+        "note": null
+       },
+       {
+        "label": "To Date",
+        "section": "Address Purposes",
+        "required": false,
+        "sheet": "2027-12-31",
+        "oracle": "2027-12-31",
+        "problem": null,
+        "fix": null,
+        "note": null
+       },
+       {
+        "label": "Bill-to Site",
+        "section": "Address Purposes",
+        "required": false,
+        "sheet": null,
+        "oracle": "(left empty)",
+        "problem": null,
+        "fix": null,
+        "note": null,
+        "default": true
+       }
+      ]
+     },
+     {
+      "row": 7,
+      "cells": [
+       {
+        "label": "Customer Name",
+        "section": "Address Purposes",
+        "required": true,
+        "sheet": "Nightfall Interactive2",
+        "oracle": "Nightfall Interactive2",
+        "problem": null,
+        "fix": null,
+        "note": null
+       },
+       {
+        "label": "Primary",
+        "section": "Address Purposes",
+        "required": false,
+        "sheet": "Yes",
+        "oracle": "Yes (ticked)",
+        "problem": null,
+        "fix": null,
+        "note": null
+       },
+       {
+        "label": "Purpose",
+        "section": "Address Purposes",
+        "required": true,
+        "sheet": "Ship to",
+        "oracle": "Ship to",
+        "problem": null,
+        "fix": null,
+        "note": null
+       },
+       {
+        "label": "From Date",
+        "section": "Address Purposes",
+        "required": false,
+        "sheet": "2026-10-22",
+        "oracle": "2026-10-22",
+        "problem": null,
+        "fix": null,
+        "note": null
+       },
+       {
+        "label": "To Date",
+        "section": "Address Purposes",
+        "required": false,
+        "sheet": "2027-12-31",
+        "oracle": "2027-12-31",
+        "problem": null,
+        "fix": null,
+        "note": null
+       },
+       {
+        "label": "Bill-to Site",
+        "section": "Address Purposes",
+        "required": false,
+        "sheet": null,
+        "oracle": "550 Mission Street,Suite 1200,ABSECON, NEW JERSEY 08201",
+        "problem": null,
+        "fix": null,
+        "note": "Picked automatically",
+        "default": false
+       }
+      ]
+     }
+    ]
+   },
+   "request": {
+    "customer_type": "Organization",
+    "name": "Nightfall Interactive2",
+    "duns_number": "092345678",
+    "taxpayer_id": "94-2345678",
+    "account_description": "Console and PC game publisher",
+    "account_type": "Internal",
+    "customer_class": "Federal class",
+    "account_established_date": "2026-10-22",
+    "account_termination_date": "2027-12-31",
+    "account_notes_other": "Purchase orders required above 5000",
+    "shipping_instructions": "Call receiving desk 30 minutes before arrival",
+    "customer_agreement": "Annual console hardware purchase agreement",
+    "account_address_set": "Enterprise Set",
+    "address_from_date": "2026-10-22",
+    "address_to_date": "2027-12-31",
+    "site_name": "San Francisco Office",
+    "mail_stop": "Floor 12",
+    "country": "United States",
+    "address_line_1": "550 Mission Street",
+    "address_line_2": "Suite 1200",
+    "city": "ABSECON",
+    "state": "NEW JERSEY",
+    "postal_code": "08201",
+    "responsible_mineral_status": "N/A",
+    "address_note": "Head office",
+    "url": "https://www.nightfallinteractive.example.com",
+    "contact_email": "payables@nightfallinteractive.example.com",
+    "authorizer": "Marcus Hale",
+    "supplier_site_id": "3008",
+    "sales_tax_geocode": "123456789",
+    "sales_tax_inside_city_limits": true,
+    "site_language": "American English",
+    "translated_customer_name": "Nightfall Interactive LLC",
+    "key_account": false,
+    "trading_partner_identifier": "4501002",
+    "edi_location_code": "CIG-EDI-02",
+    "purposes": [
+     {
+      "primary": true,
+      "purpose": "Bill to",
+      "from_date": "2026-10-22",
+      "to_date": "2027-12-31"
+     },
+     {
+      "primary": true,
+      "purpose": "Ship to",
+      "from_date": "2026-10-22",
+      "to_date": "2027-12-31"
+     }
+    ]
+   },
+   "same_name": "No customer named Nightfall Interactive2 exists in Oracle yet."
+  },
+  {
+   "group": "Customers",
+   "folder": "Customers",
+   "tab": "Organization Customers",
+   "row": 6,
+   "name": "Arcade Horizon Games2",
+   "ok": true,
+   "problems": [],
+   "rows": {
+    "record": [
+     "Organization Customers",
+     6
+    ],
+    "children": [
+     [
+      "Address Purposes",
+      8
+     ],
+     [
+      "Address Purposes",
+      9
+     ]
+    ]
+   },
+   "title": "Organization customer Arcade Horizon Games2",
+   "fields": [
+    {
+     "label": "Name",
+     "section": "Organization Information",
+     "required": true,
+     "sheet": "Arcade Horizon Games2",
+     "oracle": "Arcade Horizon Games2",
+     "problem": null,
+     "fix": null,
+     "note": null
+    },
+    {
+     "label": "D-U-N-S Number",
+     "section": "Organization Information",
+     "required": false,
+     "sheet": "103456789",
+     "oracle": "103456789",
+     "problem": null,
+     "fix": null,
+     "note": null
+    },
+    {
+     "label": "Taxpayer Identification Number",
+     "section": "Organization Information",
+     "required": false,
+     "sheet": "77-3456789",
+     "oracle": "77-3456789",
+     "problem": null,
+     "fix": null,
+     "note": null
+    },
+    {
+     "label": "Account Description",
+     "section": "Account Information",
+     "required": false,
+     "sheet": "Mobile and arcade game distributor",
+     "oracle": "Mobile and arcade game distributor",
+     "problem": null,
+     "fix": null,
+     "note": null
+    },
+    {
+     "label": "Account Type",
+     "section": "Account Information",
+     "required": false,
+     "sheet": "External",
+     "oracle": "External",
+     "problem": null,
+     "fix": null,
+     "note": null
+    },
+    {
+     "label": "Customer Class",
+     "section": "Account Information",
+     "required": false,
+     "sheet": "Public sector companies",
+     "oracle": "Public sector companies",
+     "problem": null,
+     "fix": null,
+     "note": null
+    },
+    {
+     "label": "Account Established Date",
+     "section": "Account Information",
+     "required": false,
+     "sheet": "2026-10-22",
+     "oracle": "2026-10-22",
+     "problem": null,
+     "fix": null,
+     "note": null
+    },
+    {
+     "label": "Account Termination Date",
+     "section": "Account Information",
+     "required": false,
+     "sheet": "2027-12-31",
+     "oracle": "2027-12-31",
+     "problem": null,
+     "fix": null,
+     "note": null
+    },
+    {
+     "label": "Account Notes Other",
+     "section": "Account Information",
+     "required": false,
+     "sheet": "Seasonal release deliveries only",
+     "oracle": "Seasonal release deliveries only",
+     "problem": null,
+     "fix": null,
+     "note": null
+    },
+    {
+     "label": "Shipping Instrustions",
+     "section": "Account Information",
+     "required": false,
+     "sheet": "Delivery before noon, ring bell at Gate 2",
+     "oracle": "Delivery before noon, ring bell at Gate 2",
+     "problem": null,
+     "fix": null,
+     "note": null
+    },
+    {
+     "label": "Customer Agreement",
+     "section": "Account Information",
+     "required": false,
+     "sheet": "Seasonal distribution agreement",
+     "oracle": "Seasonal distribution agreement",
+     "problem": null,
+     "fix": null,
+     "note": null
+    },
+    {
+     "label": "Account Address Set",
+     "section": "Account Address",
+     "required": true,
+     "sheet": "Enterprise Set",
+     "oracle": "Enterprise Set",
+     "problem": null,
+     "fix": null,
+     "note": null
+    },
+    {
+     "label": "From Date",
+     "section": "Account Address",
+     "required": false,
+     "sheet": "2026-10-22",
+     "oracle": "2026-10-22",
+     "problem": null,
+     "fix": null,
+     "note": null
+    },
+    {
+     "label": "To Date",
+     "section": "Account Address",
+     "required": false,
+     "sheet": "2027-12-31",
+     "oracle": "2027-12-31",
+     "problem": null,
+     "fix": null,
+     "note": null
+    },
+    {
+     "label": "Site Name",
+     "section": "Address",
+     "required": false,
+     "sheet": "Arcade Warehouse",
+     "oracle": "Arcade Warehouse",
+     "problem": null,
+     "fix": null,
+     "note": null
+    },
+    {
+     "label": "Mail Stop",
+     "section": "Address",
+     "required": false,
+     "sheet": "Gate 2",
+     "oracle": "Gate 2",
+     "problem": null,
+     "fix": null,
+     "note": null
+    },
+    {
+     "label": "Country",
+     "section": "Address",
+     "required": false,
+     "sheet": "United States",
+     "oracle": "United States",
+     "problem": null,
+     "fix": null,
+     "note": null
+    },
+    {
+     "label": "Address Line 1",
+     "section": "Address",
+     "required": false,
+     "sheet": "2210 Alder Court",
+     "oracle": "2210 Alder Court",
+     "problem": null,
+     "fix": null,
+     "note": null
+    },
+    {
+     "label": "Address Line 2",
+     "section": "Address",
+     "required": false,
+     "sheet": "Unit B",
+     "oracle": "Unit B",
+     "problem": null,
+     "fix": null,
+     "note": null
+    },
+    {
+     "label": "City",
+     "section": "Address",
+     "required": false,
+     "sheet": "Cupertino",
+     "oracle": "Cupertino",
+     "problem": null,
+     "fix": null,
+     "note": "Found in Oracle: CUPERTINO, CA (SANTA CLARA county)"
+    },
+    {
+     "label": "State",
+     "section": "Address",
+     "required": false,
+     "sheet": "CA",
+     "oracle": "CA",
+     "problem": null,
+     "fix": null,
+     "note": null
+    },
+    {
+     "label": "Postal Code",
+     "section": "Address",
+     "required": false,
+     "sheet": "95014",
+     "oracle": "95014",
+     "problem": null,
+     "fix": null,
+     "note": "Found in Oracle for CUPERTINO, CA"
+    },
+    {
+     "label": "Responsible Mineral Status",
+     "section": "Address",
+     "required": false,
+     "sheet": "No Data",
+     "oracle": "No Data",
+     "problem": null,
+     "fix": null,
+     "note": null
+    },
+    {
+     "label": "Address",
+     "section": "Address",
+     "required": false,
+     "sheet": "Distribution site",
+     "oracle": "Distribution site",
+     "problem": null,
+     "fix": null,
+     "note": null
+    },
+    {
+     "label": "URL",
+     "section": "Address",
+     "required": false,
+     "sheet": "https://www.arcadehorizongames.example.com",
+     "oracle": "https://www.arcadehorizongames.example.com",
+     "problem": null,
+     "fix": null,
+     "note": null
+    },
+    {
+     "label": "ContactEmail",
+     "section": "Address",
+     "required": false,
+     "sheet": "accounts@arcadehorizongames.example.com",
+     "oracle": "accounts@arcadehorizongames.example.com",
+     "problem": null,
+     "fix": null,
+     "note": null
+    },
+    {
+     "label": "Authorizer",
+     "section": "Address",
+     "required": false,
+     "sheet": "Priya Nair",
+     "oracle": "Priya Nair",
+     "problem": null,
+     "fix": null,
+     "note": null
+    },
+    {
+     "label": "Supplier Site ID",
+     "section": "Address",
+     "required": true,
+     "sheet": "3010",
+     "oracle": "3010",
+     "problem": null,
+     "fix": null,
+     "note": null
+    },
+    {
+     "label": "Sales Tax Geocode",
+     "section": "Address",
+     "required": false,
+     "sheet": "123456789",
+     "oracle": "123456789",
+     "problem": null,
+     "fix": null,
+     "note": null
+    },
+    {
+     "label": "Sales Tax Inside City Limits",
+     "section": "Address",
+     "required": false,
+     "sheet": "Yes",
+     "oracle": "Yes (ticked)",
+     "problem": null,
+     "fix": null,
+     "note": null
+    },
+    {
+     "label": "Customer Category Code",
+     "section": "Address Details",
+     "required": false,
+     "sheet": null,
+     "oracle": "(left empty)",
+     "problem": null,
+     "fix": null,
+     "note": null,
+     "default": true
+    },
+    {
+     "label": "Site Language",
+     "section": "Address Details",
+     "required": false,
+     "sheet": "American English",
+     "oracle": "American English",
+     "problem": null,
+     "fix": null,
+     "note": "Oracle checks this while creating."
+    },
+    {
+     "label": "Translated Customer Name",
+     "section": "Address Details",
+     "required": false,
+     "sheet": "Arcade Horizon Games Co",
+     "oracle": "Arcade Horizon Games Co",
+     "problem": null,
+     "fix": null,
+     "note": null
+    },
+    {
+     "label": "Key Account",
+     "section": "Address Details",
+     "required": false,
+     "sheet": "No",
+     "oracle": "No (not ticked)",
+     "problem": null,
+     "fix": null,
+     "note": null
+    },
+    {
+     "label": "Trading Partner Identifier",
+     "section": "Address Details",
+     "required": false,
+     "sheet": "4501003",
+     "oracle": "4501003",
+     "problem": null,
+     "fix": null,
+     "note": null
+    },
+    {
+     "label": "EDI Location Code",
+     "section": "Address Details",
+     "required": false,
+     "sheet": "BWF-EDI-03",
+     "oracle": "BWF-EDI-03",
+     "problem": null,
+     "fix": null,
+     "note": null
+    }
+   ],
+   "children": {
+    "title": "Address purposes",
+    "columns": [
+     {
+      "label": "Customer Name",
+      "required": true
+     },
+     {
+      "label": "Primary",
+      "required": false
+     },
+     {
+      "label": "Purpose",
+      "required": true
+     },
+     {
+      "label": "From Date",
+      "required": false
+     },
+     {
+      "label": "To Date",
+      "required": false
+     },
+     {
+      "label": "Bill-to Site",
+      "required": false
+     }
+    ],
+    "rows": [
+     {
+      "row": 8,
+      "cells": [
+       {
+        "label": "Customer Name",
+        "section": "Address Purposes",
+        "required": true,
+        "sheet": "Arcade Horizon Games2",
+        "oracle": "Arcade Horizon Games2",
+        "problem": null,
+        "fix": null,
+        "note": null
+       },
+       {
+        "label": "Primary",
+        "section": "Address Purposes",
+        "required": false,
+        "sheet": "Yes",
+        "oracle": "Yes (ticked)",
+        "problem": null,
+        "fix": null,
+        "note": null
+       },
+       {
+        "label": "Purpose",
+        "section": "Address Purposes",
+        "required": true,
+        "sheet": "Bill to",
+        "oracle": "Bill to",
+        "problem": null,
+        "fix": null,
+        "note": null
+       },
+       {
+        "label": "From Date",
+        "section": "Address Purposes",
+        "required": false,
+        "sheet": "2026-10-22",
+        "oracle": "2026-10-22",
+        "problem": null,
+        "fix": null,
+        "note": null
+       },
+       {
+        "label": "To Date",
+        "section": "Address Purposes",
+        "required": false,
+        "sheet": "2027-12-31",
+        "oracle": "2027-12-31",
+        "problem": null,
+        "fix": null,
+        "note": null
+       },
+       {
+        "label": "Bill-to Site",
+        "section": "Address Purposes",
+        "required": false,
+        "sheet": null,
+        "oracle": "(left empty)",
+        "problem": null,
+        "fix": null,
+        "note": null,
+        "default": true
+       }
+      ]
+     },
+     {
+      "row": 9,
+      "cells": [
+       {
+        "label": "Customer Name",
+        "section": "Address Purposes",
+        "required": true,
+        "sheet": "Arcade Horizon Games2",
+        "oracle": "Arcade Horizon Games2",
+        "problem": null,
+        "fix": null,
+        "note": null
+       },
+       {
+        "label": "Primary",
+        "section": "Address Purposes",
+        "required": false,
+        "sheet": "Yes",
+        "oracle": "Yes (ticked)",
+        "problem": null,
+        "fix": null,
+        "note": null
+       },
+       {
+        "label": "Purpose",
+        "section": "Address Purposes",
+        "required": true,
+        "sheet": "Ship to",
+        "oracle": "Ship to",
+        "problem": null,
+        "fix": null,
+        "note": null
+       },
+       {
+        "label": "From Date",
+        "section": "Address Purposes",
+        "required": false,
+        "sheet": "2026-10-22",
+        "oracle": "2026-10-22",
+        "problem": null,
+        "fix": null,
+        "note": null
+       },
+       {
+        "label": "To Date",
+        "section": "Address Purposes",
+        "required": false,
+        "sheet": "2027-12-31",
+        "oracle": "2027-12-31",
+        "problem": null,
+        "fix": null,
+        "note": null
+       },
+       {
+        "label": "Bill-to Site",
+        "section": "Address Purposes",
+        "required": false,
+        "sheet": null,
+        "oracle": "2210 Alder Court,Unit B,CUPERTINO, CA 95014",
+        "problem": null,
+        "fix": null,
+        "note": "Picked automatically",
+        "default": false
+       }
+      ]
+     }
+    ]
+   },
+   "request": {
+    "customer_type": "Organization",
+    "name": "Arcade Horizon Games2",
+    "duns_number": "103456789",
+    "taxpayer_id": "77-3456789",
+    "account_description": "Mobile and arcade game distributor",
+    "account_type": "External",
+    "customer_class": "Public sector companies",
+    "account_established_date": "2026-10-22",
+    "account_termination_date": "2027-12-31",
+    "account_notes_other": "Seasonal release deliveries only",
+    "shipping_instructions": "Delivery before noon, ring bell at Gate 2",
+    "customer_agreement": "Seasonal distribution agreement",
+    "account_address_set": "Enterprise Set",
+    "address_from_date": "2026-10-22",
+    "address_to_date": "2027-12-31",
+    "site_name": "Arcade Warehouse",
+    "mail_stop": "Gate 2",
+    "country": "United States",
+    "address_line_1": "2210 Alder Court",
+    "address_line_2": "Unit B",
+    "city": "Cupertino",
+    "state": "CA",
+    "postal_code": "95014",
+    "responsible_mineral_status": "No Data",
+    "address_note": "Distribution site",
+    "url": "https://www.arcadehorizongames.example.com",
+    "contact_email": "accounts@arcadehorizongames.example.com",
+    "authorizer": "Priya Nair",
+    "supplier_site_id": "3010",
+    "sales_tax_geocode": "123456789",
+    "sales_tax_inside_city_limits": true,
+    "site_language": "American English",
+    "translated_customer_name": "Arcade Horizon Games Co",
+    "key_account": false,
+    "trading_partner_identifier": "4501003",
+    "edi_location_code": "BWF-EDI-03",
+    "purposes": [
+     {
+      "primary": true,
+      "purpose": "Bill to",
+      "from_date": "2026-10-22",
+      "to_date": "2027-12-31"
+     },
+     {
+      "primary": true,
+      "purpose": "Ship to",
+      "from_date": "2026-10-22",
+      "to_date": "2027-12-31"
+     }
+    ]
+   },
+   "same_name": "2 customers named Arcade Horizon Games2 already exist (Registry IDs 130667, 130727). Create will make a new one."
+  }
+ ],
+ "sheet_problems": [],
+ "today": "2026-10-26",
+ "modules": [
+  {
+   "name": "Customers",
+   "record": "customer",
+   "count": 3,
+   "minutes_each": 3,
+   "text": null
+  },
+  {
+   "name": "Order Types",
+   "record": "order type",
+   "count": 0,
+   "minutes_each": 1,
+   "text": "Order Types: there are no rows for this in the sheet, so nothing will be created."
+  },
+  {
+   "name": "Payment Terms",
+   "record": "payment term",
+   "count": 0,
+   "minutes_each": 1,
+   "text": "Payment Terms: there are no rows for this in the sheet, so nothing will be created.",
+   "minutes_total": 3
+  },
+  {
+   "name": "Lookup Types",
+   "record": "lookup type",
+   "count": 0,
+   "minutes_each": 1,
+   "text": "Lookup Types: there are no rows for this in the sheet, so nothing will be created.",
+   "minutes_total": 2
+  },
+  {
+   "name": "Business Units",
+   "record": "business unit",
+   "count": 0,
+   "minutes_each": 1,
+   "text": "Business Units: there are no rows for this in the sheet, so nothing will be created.",
+   "minutes_total": 3
+  },
+  {
+   "name": "Price Lists",
+   "record": "price list",
+   "count": 0,
+   "minutes_each": 1,
+   "text": "Price Lists: there are no rows for this in the sheet, so nothing will be created."
+  }
+ ]
+}

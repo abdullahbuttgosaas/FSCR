@@ -1,0 +1,18 @@
+Host: https://fa-etia-test-stub.invalid
+ORACLE_ENV: test
+  ZZ_TEST_AR_ASK (ZZ_NOT_FOR_AR): new
+  ZZ_TEST_AR_N30 (COMMON): exists
+  ZZ_TEST_AR_DOM (COMMON): exists
+  process 4242
+  Oracle's result: COMPLETED_ERRORS
+Whole run: 0 s
+
+===== run 09:49:26
+Host: https://fa-etia-test-stub.invalid
+ORACLE_ENV: test
+  ZZ_TEST_AR_ASK (COMMON): new
+  process 4242
+  Oracle's result: COMPLETED
+Whole run: 0 s
+
+===== run 09:49:29

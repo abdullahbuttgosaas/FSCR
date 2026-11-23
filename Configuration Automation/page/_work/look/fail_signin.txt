@@ -1,0 +1,10 @@
+English
+Sign in
+Username
+Password
+Forgot Password?
+Next
+Or
+GsuiteIdentityProvider
+Need help signing in?
+Cloud account details

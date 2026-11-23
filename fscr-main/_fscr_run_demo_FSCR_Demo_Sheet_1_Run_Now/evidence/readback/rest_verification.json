@@ -1,0 +1,20 @@
+[
+ {
+  "kind": "Lookup type",
+  "name": "FSCRT_DEMO_ROUTE_TIER_F11",
+  "result": "verified",
+  "diffs": {}
+ },
+ {
+  "kind": "Lookup code",
+  "name": "FSCRT_EXPRESS",
+  "result": "verified",
+  "diffs": {}
+ },
+ {
+  "kind": "Order type",
+  "name": "FSCRT_SO_DEMO1_F11",
+  "result": "verified",
+  "diffs": {}
+ }
+]

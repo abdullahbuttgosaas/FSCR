@@ -1,0 +1,402 @@
+{
+  "Resources" : {
+    "alternateNameMappingRules" : {
+      "discrColumnType" : false,
+      "titlePlural" : "Alternate Name Mapping Rules",
+      "usage" : "BusinessObject",
+      "attributes" : [ {
+        "name" : "AlternateNameId",
+        "type" : "integer",
+        "updatable" : true,
+        "mandatory" : true,
+        "queryable" : true,
+        "allowChanges" : "inCreate",
+        "precision" : 18,
+        "hasDefaultValueExpression" : true,
+        "properties" : {
+          "fnd:GLOBALLY_UNIQUE" : "true"
+        },
+        "annotations" : {
+          "description" : "Unique identifier of the alternate name mapping rule."
+        }
+      }, {
+        "name" : "AlternatePayerName",
+        "type" : "string",
+        "updatable" : true,
+        "mandatory" : true,
+        "inputRequired" : true,
+        "queryable" : true,
+        "allowChanges" : "always",
+        "precision" : 320,
+        "annotations" : {
+          "description" : "Alternate payer name of the paying customer."
+        }
+      }, {
+        "name" : "ZenginCustomerBankName",
+        "type" : "string",
+        "updatable" : true,
+        "mandatory" : false,
+        "queryable" : true,
+        "allowChanges" : "always",
+        "precision" : 360,
+        "annotations" : {
+          "description" : "Customer bank name from the Zengin format file."
+        }
+      }, {
+        "name" : "ZenginCustomerBankBranchName",
+        "type" : "string",
+        "updatable" : true,
+        "mandatory" : false,
+        "queryable" : true,
+        "allowChanges" : "always",
+        "precision" : 360,
+        "annotations" : {
+          "description" : "Customer bank branch name from the Zengin format file."
+        }
+      }, {
+        "name" : "CustomerName",
+        "type" : "string",
+        "updatable" : false,
+        "mandatory" : true,
+        "queryable" : true,
+        "allowChanges" : "never",
+        "precision" : 360,
+        "title" : "Name",
+        "maxLength" : "360",
+        "properties" : {
+          "AUTOSUBMIT" : "true"
+        },
+        "annotations" : {
+          "description" : "Name of the paying customer."
+        }
+      }, {
+        "name" : "CustomerAccountNumber",
+        "type" : "string",
+        "updatable" : true,
+        "mandatory" : true,
+        "inputRequired" : true,
+        "queryable" : true,
+        "allowChanges" : "always",
+        "controlType" : "choice",
+        "lov" : {
+          "attributeMap" : [ {
+            "source" : "CustomerAccountNumber",
+            "target" : "CustomerAccountNumber"
+          }, {
+            "source" : "CustAccountId",
+            "target" : "CustomerId",
+            "derived" : true
+          } ],
+          "displayAttributes" : [ "CustomerAccountNumber", "CustAccountId" ]
+        },
+        "annotations" : {
+          "description" : "Customer account number of the paying customer."
+        }
+      }, {
+        "name" : "BillToSite",
+        "type" : "string",
+        "updatable" : true,
+        "mandatory" : false,
+        "queryable" : false,
+        "allowChanges" : "always",
+        "precision" : 150,
+        "controlType" : "choice",
+        "maxLength" : "150",
+        "dependencies" : [ "CustomerAccountNumber" ],
+        "lov" : {
+          "attributeMap" : [ {
+            "source" : "Location",
+            "target" : "BillToSite"
+          }, {
+            "source" : "SiteUseId",
+            "target" : "SiteUseId",
+            "derived" : true
+          } ],
+          "displayAttributes" : [ "Location", "SiteUseId" ]
+        },
+        "annotations" : {
+          "description" : "Bill-to site of the paying customer."
+        }
+      }, {
+        "name" : "RemittanceBankName",
+        "type" : "string",
+        "updatable" : false,
+        "mandatory" : false,
+        "queryable" : true,
+        "allowChanges" : "never",
+        "precision" : 255,
+        "annotations" : {
+          "description" : "Bank branch name of the remittance bank that issues the virtual account number for the customer account or site."
+        }
+      }, {
+        "name" : "RemittanceBankNumber",
+        "type" : "string",
+        "updatable" : true,
+        "mandatory" : false,
+        "queryable" : true,
+        "allowChanges" : "always",
+        "precision" : 30,
+        "annotations" : {
+          "description" : "Bank number of the remittance bank that issues the virtual account number for the customer account or site."
+        }
+      }, {
+        "name" : "RemittanceBankBranchNumber",
+        "type" : "string",
+        "updatable" : true,
+        "mandatory" : false,
+        "queryable" : true,
+        "allowChanges" : "always",
+        "precision" : 30,
+        "dependencies" : [ "RemittanceBankNumber" ],
+        "annotations" : {
+          "description" : "Bank branch number of the remittance bank that issues the virtual account number for the customer account or site."
+        }
+      }, {
+        "name" : "VirtualAccountNumber",
+        "type" : "string",
+        "updatable" : true,
+        "mandatory" : false,
+        "queryable" : true,
+        "allowChanges" : "always",
+        "precision" : 30,
+        "annotations" : {
+          "description" : "Virtual account number assigned to the customer account or site."
+        }
+      }, {
+        "name" : "Active",
+        "type" : "string",
+        "updatable" : true,
+        "mandatory" : false,
+        "queryable" : true,
+        "allowChanges" : "always",
+        "precision" : 1,
+        "annotations" : {
+          "description" : "Indicates whether the alternate name mapping rule is active."
+        }
+      }, {
+        "name" : "CreatedBy",
+        "type" : "string",
+        "updatable" : false,
+        "mandatory" : true,
+        "queryable" : true,
+        "allowChanges" : "never",
+        "precision" : 64,
+        "annotations" : {
+          "description" : "The user who created the alternate name mapping rule."
+        }
+      }, {
+        "name" : "CreationDate",
+        "type" : "datetime",
+        "updatable" : false,
+        "mandatory" : true,
+        "queryable" : true,
+        "allowChanges" : "never",
+        "annotations" : {
+          "description" : "The date when the alternate name mapping rule was created."
+        }
+      }, {
+        "name" : "LastUpdateDate",
+        "type" : "datetime",
+        "updatable" : false,
+        "mandatory" : true,
+        "queryable" : true,
+        "allowChanges" : "never",
+        "annotations" : {
+          "description" : "The date when the alternate name mapping rule was last updated."
+        }
+      }, {
+        "name" : "LastUpdateLogin",
+        "type" : "string",
+        "updatable" : false,
+        "mandatory" : false,
+        "queryable" : true,
+        "allowChanges" : "never",
+        "precision" : 32,
+        "annotations" : {
+          "description" : "The user login that last updated the alternate name mapping rule."
+        }
+      }, {
+        "name" : "LastUpdatedBy",
+        "type" : "string",
+        "updatable" : false,
+        "mandatory" : true,
+        "queryable" : true,
+        "allowChanges" : "never",
+        "precision" : 64,
+        "annotations" : {
+          "description" : "The user who last updated the alternate name mapping rule."
+        }
+      }, {
+        "name" : "ObjectVersionNumber",
+        "type" : "integer",
+        "updatable" : false,
+        "mandatory" : true,
+        "queryable" : true,
+        "allowChanges" : "never",
+        "precision" : 9,
+        "annotations" : {
+          "description" : "Object version number for the alternate name mapping rule."
+        }
+      } ],
+      "collection" : {
+        "rangeSize" : 25,
+        "finders" : [ {
+          "name" : "PrimaryKey",
+          "annotations" : {
+            "description" : "Finds an alternate name mapping rule with the specified primary key."
+          },
+          "attributes" : [ {
+            "name" : "AlternateNameId",
+            "type" : "integer",
+            "updatable" : true,
+            "mandatory" : true,
+            "queryable" : true,
+            "allowChanges" : "inCreate",
+            "precision" : 18,
+            "hasDefaultValueExpression" : true,
+            "properties" : {
+              "fnd:GLOBALLY_UNIQUE" : "true"
+            },
+            "annotations" : {
+              "description" : "Unique identifier of the alternate name mapping rule."
+            }
+          } ]
+        }, {
+          "name" : "alternateNameMappingRuleSearch",
+          "title" : "AlternateNameMappingSearchVC",
+          "annotations" : {
+            "description" : "Finds an alternate name mapping rule that match the specified criteria."
+          },
+          "attributes" : [ {
+            "name" : "Active",
+            "type" : "string",
+            "updatable" : true,
+            "required" : "Optional",
+            "queryable" : false,
+            "allowChanges" : "always",
+            "annotations" : {
+              "description" : "Indicates whether the alternate name mapping rule is active."
+            }
+          }, {
+            "name" : "AlternatePayerName",
+            "type" : "string",
+            "updatable" : true,
+            "required" : "Optional",
+            "queryable" : false,
+            "allowChanges" : "always",
+            "annotations" : {
+              "description" : "Alternate payer name for the paying customer."
+            }
+          }, {
+            "name" : "CustomerAccountNumber",
+            "type" : "string",
+            "updatable" : true,
+            "required" : "Optional",
+            "queryable" : false,
+            "allowChanges" : "always",
+            "annotations" : {
+              "description" : "Customer account number of the paying customer."
+            }
+          }, {
+            "name" : "CustomerName",
+            "type" : "string",
+            "updatable" : true,
+            "required" : "Optional",
+            "queryable" : false,
+            "allowChanges" : "always",
+            "annotations" : {
+              "description" : "Name of the paying customer."
+            }
+          }, {
+            "name" : "VirtualAccountNumber",
+            "type" : "string",
+            "updatable" : true,
+            "required" : "Optional",
+            "queryable" : false,
+            "allowChanges" : "always",
+            "annotations" : {
+              "description" : "Virtual account number assigned to the paying customer."
+            }
+          } ]
+        } ],
+        "links" : [ {
+          "rel" : "self",
+          "href" : "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/alternateNameMappingRules",
+          "name" : "self",
+          "kind" : "collection"
+        } ],
+        "actions" : [ {
+          "name" : "get",
+          "method" : "GET",
+          "responseType" : [ "application/vnd.oracle.adf.resourcecollection+json", "application/json" ],
+          "annotations" : {
+            "title" : "Get all alternate name mapping rules"
+          }
+        }, {
+          "name" : "create",
+          "method" : "POST",
+          "requestType" : [ "application/vnd.oracle.adf.resourceitem+json", "application/json" ],
+          "responseType" : [ "application/vnd.oracle.adf.resourceitem+json", "application/json" ],
+          "annotations" : {
+            "title" : "Create an alternate name mapping rule"
+          }
+        }, {
+          "name" : "upsert",
+          "method" : "POST",
+          "header" : "Upsert-Mode=true",
+          "requestType" : [ "application/vnd.oracle.adf.resourceitem+json", "application/json" ],
+          "responseType" : [ "application/vnd.oracle.adf.resourceitem+json", "application/json" ]
+        } ]
+      },
+      "item" : {
+        "links" : [ {
+          "rel" : "self",
+          "href" : "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/alternateNameMappingRules/{id}",
+          "name" : "self",
+          "kind" : "item"
+        }, {
+          "rel" : "canonical",
+          "href" : "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/alternateNameMappingRules/{id}",
+          "name" : "canonical",
+          "kind" : "item"
+        } ],
+        "actions" : [ {
+          "name" : "get",
+          "method" : "GET",
+          "responseType" : [ "application/vnd.oracle.adf.resourceitem+json", "application/json" ],
+          "annotations" : {
+            "title" : "Get an alternate name mapping rule"
+          }
+        }, {
+          "name" : "update",
+          "method" : "PATCH",
+          "requestType" : [ "application/vnd.oracle.adf.resourceitem+json", "application/json" ],
+          "responseType" : [ "application/vnd.oracle.adf.resourceitem+json", "application/json" ],
+          "annotations" : {
+            "title" : "Update an alternate name mapping rule"
+          }
+        }, {
+          "name" : "delete",
+          "method" : "DELETE",
+          "annotations" : {
+            "title" : "Delete an alternate name mapping rule"
+          }
+        } ]
+      },
+      "annotations" : {
+        "description" : "The alternate name mapping rules enable lockbox to identify Japanese customers by alternate payer name during Zengin lockbox processing."
+      },
+      "links" : [ {
+        "rel" : "self",
+        "href" : "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/alternateNameMappingRules/describe",
+        "name" : "self",
+        "kind" : "describe"
+      }, {
+        "rel" : "canonical",
+        "href" : "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/alternateNameMappingRules/describe",
+        "name" : "canonical",
+        "kind" : "describe"
+      } ]
+    }
+  }
+}

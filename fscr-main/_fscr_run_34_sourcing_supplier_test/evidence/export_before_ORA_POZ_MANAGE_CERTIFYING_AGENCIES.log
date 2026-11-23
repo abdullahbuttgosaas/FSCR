@@ -1,0 +1,12 @@
+TaskCode: ORA_POZ_MANAGE_CERTIFYING_AGENCIES (Manage Certifying Agencies); CSVExportImportSupportedFlag: Y
+Resolved pillar skill metadata:
+  offering: pillars\scm\procurement\SKILL.md
+  functional_area: pillars\scm\procurement\suppliers\SKILL.md
+  task: pillars\scm\procurement\suppliers\manage-certifying-agencies\SKILL.md
+Started setup task CSV export process: 100004736427802
+ProcessCompletedFlag: False; StatusCode: (no result yet); ResultCount: 0
+ProcessCompletedFlag: False; StatusCode: (no result yet); ResultCount: 0
+ProcessCompletedFlag: True; StatusCode: (no result yet); ResultCount: 0
+StatusCode: (unknown)
+Retrieved: FileContent
+Wrote E:\GoSaaS\Configuration Automation v2.1\fscr-main\_fscr_run_34_sourcing_supplier_test\export_before\ORA_POZ_MANAGE_CERTIFYING_AGENCIES\ETIA-TEST_setup_task_csv_export_ora_poz_manage_certifying_agencies_100004736427802.zip (1321 bytes)

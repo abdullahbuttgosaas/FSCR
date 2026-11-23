@@ -1,0 +1,36 @@
+{
+  "schemaVersion": "1.0",
+  "preflight": {
+    "eligible": [
+      {
+        "sourceName": "fscrt-bu-c4-manager-candidate.zip",
+        "businessObject": "FSM Setup"
+      }
+    ],
+    "sourcePaths": [
+      "E:\\GoSaaS\\Configuration Automation v2.1\\fscr-main\\_fscr_run_03_change\\fscr-work3\\project\\fscrt-run01-om-setup\\exports\\financials\\organization-structures\\manage-business-unit\\fscrt-bu-c4-manager-candidate.zip"
+    ],
+    "archiveName": "fscrt-bu-c4-manager-candidate.zip",
+    "archiveSha256": "fd82d8f90b10967d81d8d822e43562a24e25f3c3099d228ed459e07b15335976",
+    "uploadFileName": "fscrt-bu-c4-manager-candidate.zip",
+    "environment": "ETIA-TEST",
+    "host": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com",
+    "runID": null,
+    "taskRouted": true,
+    "supportsRunBookTaskCode": false,
+    "columnMappings": [],
+    "mappingComplete": true,
+    "sourceType": "FSM",
+    "cxImportObjectCode": null,
+    "cxUcmAccount": null,
+    "cxImportHighVolumeLoad": false,
+    "fbdiBusinessObject": null,
+    "fbdiUcmAccount": null,
+    "fbdiFiles": [],
+    "fbdiLoadAdapterInterfaceId": null,
+    "cxFiles": [],
+    "archivePath": "E:\\GoSaaS\\Configuration Automation v2.1\\fscr-main\\_fscr_run_03_change\\fscr-work3\\project\\fscrt-run01-om-setup\\exports\\financials\\organization-structures\\manage-business-unit\\fscrt-bu-c4-manager-candidate.zip",
+    "approvedArtifactPath": "E:\\GoSaaS\\Configuration Automation v2.1\\fscr-main\\_fscr_run_03_change\\fscr-work3\\project\\fscrt-run01-om-setup\\exports\\financials\\organization-structures\\manage-business-unit\\fscrt-bu-c4-manager-candidate.zip"
+  },
+  "fingerprint": "9e14afd189c756de42bddaa1539058c72e8c984055b2a8dcadbdc95f98393c0b"
+}

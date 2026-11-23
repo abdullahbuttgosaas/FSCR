@@ -1,0 +1,345 @@
+{
+ "SourceType": "FSM",
+ "DataSetId": 300000395032160,
+ "DataSetName": "egp_manage_category_attributes_fscrt.zip",
+ "UcmContentId": "UCMFA04554995",
+ "MsgCount": 1,
+ "FileLineTotalCount": 0,
+ "FileLineImportSuccessCount": 0,
+ "FileLineImportErrorCount": 0,
+ "FileLineImportSuccessPercentage": 0,
+ "ObjectTotalCount": 1,
+ "ObjectLoadedCount": 0,
+ "ObjectErrorCount": 1,
+ "LoadedPercentage": 0,
+ "LoadedStatus": "ERROR",
+ "ProtectedDataSets": "ORA_N",
+ "LookupStatusMeaning": "Error",
+ "CreatedBy": "Configuration.TEST",
+ "CreationDate": "2026-11-17T08:55:07+00:00",
+ "LastUpdatedBy": "Configuration.TEST",
+ "LastUpdateDate": "2026-11-17T08:56:10+00:00",
+ "ArchivalStatus": "ORA_ACTIVE",
+ "BlobFilesSize": null,
+ "ClobFilesSize": null,
+ "CorrectedCount": 0,
+ "CustomUcmContentId": null,
+ "DataSetStatus": "ORA_IN_ERROR",
+ "EncryptionType": null,
+ "ErrRowsFileGenStatus": "NOT_READY",
+ "ErrRowsFileName": null,
+ "ErrRowsFileUcmContentId": null,
+ "ImportErrorCount": 0,
+ "ImportSuccessCount": 1,
+ "ImportedStatus": "SUCCESS",
+ "IntegrationType": null,
+ "LastUpdateLogin": "6076045D87817D1BE0631C65310A4DA0",
+ "LineErrorCount": 0,
+ "LineHeldCount": 0,
+ "LineLoadedCount": 0,
+ "LineUnprocessedCount": 0,
+ "LoadCategory": "ORA_HDL_UI",
+ "LoadSubCategory": null,
+ "PostProcessStatus": null,
+ "DataSetRequestId": 4466272,
+ "RollbackErrorCount": 0,
+ "SkippedCount": 0,
+ "SkippedStatus": "N",
+ "TransferStatus": "SUCCESS",
+ "UnprocessedCount": 0,
+ "ValidatedCount": 0,
+ "ValidatedStatus": "NOT_READY",
+ "ZipFileSize": null,
+ "DataSetStatusLookupCode": "ORA_IN_ERROR",
+ "DataSetStatusMeaning": "Error",
+ "IsDeleteDataSetEnabled": "Y",
+ "SourceTypeMeaning": "Functional Setup Manager",
+ "IntegrationTypeMeaning": null,
+ "ImportStatusMeaning": "Success",
+ "ProtectedFlagMeaning": "Standard",
+ "RollBackSuccessPercentage": 0,
+ "LayoutCode": null,
+ "LayoutName": null,
+ "AllowGenerateSpreadsheet": "N",
+ "AllowGenerateFailedLines": "N",
+ "AllowDownloadFailedLinesFile": "N",
+ "LoadSource": "Import and Load Data user interface",
+ "ArchivalStatusMeaning": "Active",
+ "ErrorRowsFileGenStatusMeaning": "Not applicable",
+ "RollBackEnabledFlag": false,
+ "LoadEligibleObjExists": "N",
+ "NonObsoleteObjExists": "N",
+ "MessageCountExistsFlag": false,
+ "DataSetBusinessObjectsCount": 0,
+ "PostProcessStatusMeaning": null,
+ "PendingObjects": 0,
+ "RunId": "300000395104645",
+ "RunTaskCode": "EGP_MANAGE_CATEGORY_ATTRIBUTES",
+ "FsmMigRequestId": 100004737407917,
+ "FsmTaskCode": "EGP_MANAGE_CATEGORY_ATTRIBUTES",
+ "CxImportActivityId": null,
+ "dataSetObjects": {
+  "items": [],
+  "count": 0,
+  "hasMore": false,
+  "limit": 24,
+  "offset": 0,
+  "links": [
+   {
+    "rel": "self",
+    "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/hcmRestApi/resources/11.13.18.05/dataLoaderDataSets/300000395032160/child/dataSetObjects",
+    "name": "dataSetObjects",
+    "kind": "collection"
+   }
+  ]
+ },
+ "DataSetBusinessObjects": {
+  "items": [],
+  "count": 0,
+  "hasMore": false,
+  "limit": 24,
+  "offset": 0,
+  "links": [
+   {
+    "rel": "self",
+    "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/hcmRestApi/resources/11.13.18.05/dataLoaderDataSets/300000395032160/child/DataSetBusinessObjects",
+    "name": "DataSetBusinessObjects",
+    "kind": "collection"
+   }
+  ]
+ },
+ "errorMessages": {
+  "items": [
+   {
+    "DataSetId": 300000395032160,
+    "MessageTypeCode": "ERROR",
+    "OriginatingProcess": "Web Service Invocation",
+    "Type": "Error",
+    "OriginatingProcessCode": "SERVICE",
+    "BusinessObject": null,
+    "BusinessComponent": null,
+    "Location": "Data set",
+    "LocationCode": "ORA_HRC_DL_DATA_SETS",
+    "MessageSourceTableName": "HRC_DL_DATA_SETS",
+    "MsgText": "Your data set couldn't be processed: oracle.as.scheduler.ExecutionBizErrorException: FSM migration request 100004737407917 completed with status COMPLETED_ERRORS. Review the FSM log for the actual status of the FSM import and additional details..",
+    "MsgErrorId": 0,
+    "DataSetBusObjId": null,
+    "UIName": null,
+    "MessageCount": 1,
+    "MsgCause": null,
+    "MsgUserAction": null,
+    "GroupByExprVal": "HRC:::HRC_DLOAD_ESS_COMMON",
+    "MsgUserDetails": null
+   }
+  ],
+  "count": 1,
+  "hasMore": false,
+  "limit": 25,
+  "offset": 0,
+  "links": [
+   {
+    "rel": "self",
+    "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/hcmRestApi/resources/11.13.18.05/dataLoaderDataSets/300000395032160/child/errorMessages",
+    "name": "errorMessages",
+    "kind": "collection"
+   }
+  ]
+ },
+ "failedLines": {
+  "items": [],
+  "count": 0,
+  "hasMore": false,
+  "limit": 24,
+  "offset": 0,
+  "links": [
+   {
+    "rel": "self",
+    "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/hcmRestApi/resources/11.13.18.05/dataLoaderDataSets/300000395032160/child/failedLines",
+    "name": "failedLines",
+    "kind": "collection"
+   }
+  ]
+ },
+ "processes": {
+  "items": [
+   {
+    "ProcessId": 4466272,
+    "Definition": "JobDefinition://oracle/apps/ess/hcm/common/dataLoader/HRC_DL_MAIN",
+    "Status": "Succeeded",
+    "Scheduled": "2026-11-17T08:55:03.023+00:00",
+    "Submission": "2026-11-17T08:55:03.023+00:00",
+    "Elapsed": "+000000000 00:01:07.080000",
+    "Finished": "2026-11-17T08:56:14.493+00:00",
+    "Iscertified": null,
+    "DisplayName": "Import and Load Data",
+    "BoName": null,
+    "ParentRequestId": 0,
+    "AbsParentId": 4466272,
+    "DataSetId": 300000395032160,
+    "AttachmentDocumentId": 300000395032192
+   }
+  ],
+  "count": 1,
+  "hasMore": false,
+  "limit": 24,
+  "offset": 0,
+  "links": [
+   {
+    "rel": "self",
+    "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/hcmRestApi/resources/11.13.18.05/dataLoaderDataSets/300000395032160/child/processes",
+    "name": "processes",
+    "kind": "collection"
+   }
+  ]
+ },
+ "fbdiProcesses": {
+  "items": [
+   {
+    "DataSetId": 300000395032160,
+    "ProcessId": 4466272,
+    "AbsParentId": 4466272,
+    "ParentRequestId": 0,
+    "Status": "Succeeded",
+    "Definition": "JobDefinition://oracle/apps/ess/hcm/common/dataLoader/HRC_DL_MAIN",
+    "FallbackDisplayName": "Import and Load HCM Data File",
+    "Elapsed": "+000000000 00:01:07.080000",
+    "Submission": "2026-11-17T08:55:03.023+00:00",
+    "Finished": "2026-11-17T08:56:14.493+00:00",
+    "Scheduled": "2026-11-17T08:55:03.023+00:00",
+    "DisplayName": "Import and Load HCM Data File"
+   }
+  ],
+  "count": 1,
+  "hasMore": false,
+  "limit": 24,
+  "offset": 0,
+  "links": [
+   {
+    "rel": "self",
+    "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/hcmRestApi/resources/11.13.18.05/dataLoaderDataSets/300000395032160/child/fbdiProcesses",
+    "name": "fbdiProcesses",
+    "kind": "collection"
+   }
+  ]
+ },
+ "fsmBusinessObjects": {
+  "items": [
+   {
+    "CfgPackageName": "Manage Category Descriptive Flexfields_20261117_085509_578",
+    "MigRequestId": 100004737407917,
+    "ImportSequence": 250,
+    "BusinessObjectName": "Application Descriptive Flexfield",
+    "StatusCode": null,
+    "StatusMeaning": null,
+    "MigObjDetlStatusId": null,
+    "DetailObject": null,
+    "TotalRows": null,
+    "ErrorRows": null,
+    "StartTime": null,
+    "EndTime": null
+   }
+  ],
+  "count": 1,
+  "hasMore": false,
+  "limit": 24,
+  "offset": 0,
+  "links": [
+   {
+    "rel": "self",
+    "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/hcmRestApi/resources/11.13.18.05/dataLoaderDataSets/300000395032160/child/fsmBusinessObjects",
+    "name": "fsmBusinessObjects",
+    "kind": "collection"
+   }
+  ]
+ },
+ "fbdiBusinessObjects": {
+  "items": [],
+  "count": 0,
+  "hasMore": false,
+  "limit": 24,
+  "offset": 0,
+  "links": [
+   {
+    "rel": "self",
+    "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/hcmRestApi/resources/11.13.18.05/dataLoaderDataSets/300000395032160/child/fbdiBusinessObjects",
+    "name": "fbdiBusinessObjects",
+    "kind": "collection"
+   }
+  ]
+ },
+ "cxImportBusinessObjects": {
+  "items": [],
+  "count": 0,
+  "hasMore": false,
+  "limit": 24,
+  "offset": 0,
+  "links": [
+   {
+    "rel": "self",
+    "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/hcmRestApi/resources/11.13.18.05/dataLoaderDataSets/300000395032160/child/cxImportBusinessObjects",
+    "name": "cxImportBusinessObjects",
+    "kind": "collection"
+   }
+  ]
+ },
+ "dataSetAllObjects": {
+  "items": [],
+  "count": 0,
+  "hasMore": false,
+  "limit": 24,
+  "offset": 0,
+  "links": [
+   {
+    "rel": "self",
+    "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/hcmRestApi/resources/11.13.18.05/dataLoaderDataSets/300000395032160/child/dataSetAllObjects",
+    "name": "dataSetAllObjects",
+    "kind": "collection"
+   },
+   {
+    "rel": "action",
+    "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/hcmRestApi/resources/11.13.18.05/dataLoaderDataSets/300000395032160/child/dataSetAllObjects/action/getObjectHierarchy",
+    "name": "getObjectHierarchy",
+    "kind": "other"
+   },
+   {
+    "rel": "action",
+    "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/hcmRestApi/resources/11.13.18.05/dataLoaderDataSets/300000395032160/child/dataSetAllObjects/action/getUserKeyDetails",
+    "name": "getUserKeyDetails",
+    "kind": "other"
+   },
+   {
+    "rel": "action",
+    "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/hcmRestApi/resources/11.13.18.05/dataLoaderDataSets/300000395032160/child/dataSetAllObjects/action/getReferenceDetails",
+    "name": "getReferenceDetails",
+    "kind": "other"
+   },
+   {
+    "rel": "action",
+    "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/hcmRestApi/resources/11.13.18.05/dataLoaderDataSets/300000395032160/child/dataSetAllObjects/action/getErrorCorrectionAttributeDetails",
+    "name": "getErrorCorrectionAttributeDetails",
+    "kind": "other"
+   },
+   {
+    "rel": "action",
+    "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/hcmRestApi/resources/11.13.18.05/dataLoaderDataSets/300000395032160/child/dataSetAllObjects/action/updatePhysicalLine",
+    "name": "updatePhysicalLine",
+    "kind": "other"
+   }
+  ]
+ },
+ "errorDataFiles": {
+  "items": [],
+  "count": 0,
+  "hasMore": false,
+  "limit": 24,
+  "offset": 0,
+  "links": [
+   {
+    "rel": "self",
+    "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/hcmRestApi/resources/11.13.18.05/dataLoaderDataSets/300000395032160/child/errorDataFiles",
+    "name": "errorDataFiles",
+    "kind": "collection"
+   }
+  ]
+ }
+}

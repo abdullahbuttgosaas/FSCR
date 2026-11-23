@@ -1,0 +1,21 @@
+200
+{
+  "items" : [ {
+    "ValueSetId" : 588083,
+    "ValueSetCode" : "FSCRT_R34_VS",
+    "ModuleId" : "AFBED13209D2FBA6E0401490D3C538E3",
+    "ValidationType" : "INDEP",
+    "ValueDataType" : "VARCHAR2",
+    "MaximumLength" : 30
+  } ],
+  "count" : 1,
+  "hasMore" : false,
+  "limit" : 25,
+  "offset" : 0,
+  "links" : [ {
+    "rel" : "self",
+    "href" : "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/valueSets",
+    "name" : "valueSets",
+    "kind" : "collection"
+  } ]
+}

@@ -1,0 +1,10 @@
+TaskCode: ORA_MANAGE_EXTERNAL_PURCHASE_PRICES_LOOKUPS (Manage External Purchase Prices Lookups); CSVExportImportSupportedFlag: Y
+No matching pillar setup-task metadata found; using supplied or Fusion task context for export path.
+Started setup task CSV export process: 100004737407905
+ProcessCompletedFlag: False; StatusCode: (no result yet); ResultCount: 0
+ProcessCompletedFlag: False; StatusCode: (no result yet); ResultCount: 0
+ProcessCompletedFlag: False; StatusCode: (no result yet); ResultCount: 0
+ProcessCompletedFlag: True; StatusCode: (no result yet); ResultCount: 0
+StatusCode: (unknown)
+Retrieved: FileContent
+Wrote E:\GoSaaS\Configuration Automation v2.1\fscr-main\_fscr_run_35_purchasing_test\export_before\ORA_MANAGE_EXTERNAL_PURCHASE_PRICES_LOOKUPS\ETIA-TEST_setup_task_csv_export_ora_manage_external_purchase_prices_lookups_100004737407905.zip (1878 bytes)

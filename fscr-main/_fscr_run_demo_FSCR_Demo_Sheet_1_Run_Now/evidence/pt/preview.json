@@ -1,0 +1,135 @@
+{
+  "baselineSha256": "d247c232c5435b43795b705cce95fc94e4f978186ddf37980f33b8b08044d778",
+  "businessSummary": {
+    "action": "create",
+    "allowDiscountOnPartialPayments": "N",
+    "appliedDefaults": {
+      "BaseAmount": "100",
+      "CalcDiscountOnLinesFlag": "I",
+      "CreditCheckFlag": "N",
+      "DiscountBasisDateType": "APPLICATION_DATE",
+      "FirstInstallmentCode": "INCLUDE",
+      "InUse": "N",
+      "PartialDiscountFlag": "N",
+      "PrepaymentFlag": "N"
+    },
+    "baseAmount": "100",
+    "baseAmountMeaning": "Ratio denominator for installment RelativeAmount values; not a transaction currency amount.",
+    "billingCycle": "",
+    "changeSummary": {
+      "addedRows": [
+        {
+          "entity": "AR_PAYMENT_TERM.csv",
+          "key": [
+            "FSCRT_N20D1",
+            "ENTERPRISE"
+          ]
+        },
+        {
+          "entity": "AR_PAYMENT_TERM_LINE.csv",
+          "key": [
+            "1"
+          ]
+        },
+        {
+          "entity": "AR_PAYMENT_TERM_TRANSLATION.csv",
+          "key": [
+            "US"
+          ]
+        }
+      ],
+      "changedFields": [],
+      "preservedFieldCount": 0,
+      "removedRows": []
+    },
+    "creditCheck": "N",
+    "description": "FSCRT demo payment term 1",
+    "discountBasis": {
+      "code": "I",
+      "meaning": "Invoice amount"
+    },
+    "discountBasisDateType": "APPLICATION_DATE",
+    "discounts": [],
+    "endDateActive": "",
+    "flexfields": {},
+    "installmentOption": {
+      "code": "INCLUDE",
+      "meaning": "Include tax and freight in the first installment"
+    },
+    "lines": [
+      {
+        "dueMethod": "DueDays",
+        "dueMonthsForward": "",
+        "dueValue": "20",
+        "relativeAmount": "100",
+        "sequence": "1"
+      }
+    ],
+    "name": "FSCRT_N20D1",
+    "operationId": "pt1",
+    "operationIndex": 1,
+    "prepayment": "N",
+    "printingLeadDays": "",
+    "setCode": "ENTERPRISE",
+    "startDateActive": "2026-11-04",
+    "translations": [
+      {
+        "description": "FSCRT demo payment term 1",
+        "language": "US",
+        "name": "FSCRT_N20D1",
+        "sourceLanguage": "US"
+      }
+    ]
+  },
+  "confirmationInstruction": "Show the business summary and ask the customer to reply exactly confirm before generating the local ZIP.",
+  "designSha256": "d77df98e38642508806831481870711b1291e87c30680b8f2acb7794a1cb888a",
+  "externalCalls": 0,
+  "mode": "offline_preview",
+  "mutationAuthorized": false,
+  "resolution": {
+    "action": "create",
+    "appliedDefaults": {
+      "BaseAmount": "100",
+      "CalcDiscountOnLinesFlag": "I",
+      "CreditCheckFlag": "N",
+      "DiscountBasisDateType": "APPLICATION_DATE",
+      "FirstInstallmentCode": "INCLUDE",
+      "InUse": "N",
+      "PartialDiscountFlag": "N",
+      "PrepaymentFlag": "N"
+    },
+    "baselineMatchCount": 0,
+    "name": "FSCRT_N20D1",
+    "operationId": "pt1",
+    "operationIndex": 1,
+    "requestedChildRows": {
+      "AR_PAYMENT_TERM_DISCOUNT.csv": 0,
+      "AR_PAYMENT_TERM_LINE.csv": 1,
+      "AR_PAYMENT_TERM_TRANSLATION.csv": 1
+    },
+    "requestedHeaderFields": [
+      "BaseAmount",
+      "CalcDiscountOnLinesFlag",
+      "CreditCheckFlag",
+      "Description",
+      "DiscountBasisDateType",
+      "InUse",
+      "Name",
+      "PartialDiscountFlag",
+      "PrepaymentFlag",
+      "SetCode",
+      "StartDateActive"
+    ],
+    "setCode": "ENTERPRISE",
+    "setResolution": "supplied_exact"
+  },
+  "rowCounts": {
+    "AR_PAYMENT_TERM.csv": 1,
+    "AR_PAYMENT_TERM_DISCOUNT.csv": 0,
+    "AR_PAYMENT_TERM_LINE.csv": 1,
+    "AR_PAYMENT_TERM_TRANSLATION.csv": 1
+  },
+  "status": "confirmation_required",
+  "taskCode": "AR_MANAGE_RECEIVABLES_PAYMENT_TERMS",
+  "templateSha256": "9c86fa485202b6f2d0c37586bfa99087b0e0130ae6d42b2a906a8ed09b215ef3"
+}

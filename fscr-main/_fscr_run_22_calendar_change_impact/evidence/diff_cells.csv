@@ -1,0 +1,134 @@
+Sheet,Row,Column,Baseline,Edited,RowKeys
+Periods,52,EndDate,2026/12/31,2026/12/24,GoSaaS MFG | 2026 | Dec-26 | 12 | 2026/12/01 | 2026/12/31 | N
+PeriodStatus,52,EndDate,2026-12-31,2026-12-24,GoSaaS MFG | AG Primary Ledger | 300000394686036 | 10037 | not read (ID only) | Dec-26 | 2026
+PeriodStatus,104,EndDate,2026-12-31,2026-12-24,GoSaaS MFG | AG Primary Ledger | 300000394686036 | 101 | General Ledger | Dec-26 | 2026
+PeriodStatus,156,EndDate,2026-12-31,2026-12-24,GoSaaS MFG | AG Primary Ledger | 300000394686036 | 10455 | not read (ID only) | Dec-26 | 2026
+PeriodStatus,208,EndDate,2026-12-31,2026-12-24,GoSaaS MFG | AG Primary Ledger | 300000394686036 | 200 | Payables | Dec-26 | 2026
+PeriodStatus,260,EndDate,2026-12-31,2026-12-24,GoSaaS MFG | AG Primary Ledger | 300000394686036 | 222 | Receivables | Dec-26 | 2026
+PeriodStatus,312,EndDate,2026-12-31,2026-12-24,GoSaaS MFG | AG-81209 | 300000328239293 | 10037 | not read (ID only) | Dec-26 | 2026
+PeriodStatus,364,EndDate,2026-12-31,2026-12-24,GoSaaS MFG | AG-81209 | 300000328239293 | 101 | General Ledger | Dec-26 | 2026
+PeriodStatus,416,EndDate,2026-12-31,2026-12-24,GoSaaS MFG | AG-81209 | 300000328239293 | 10455 | not read (ID only) | Dec-26 | 2026
+PeriodStatus,468,EndDate,2026-12-31,2026-12-24,GoSaaS MFG | AG-81209 | 300000328239293 | 200 | Payables | Dec-26 | 2026
+PeriodStatus,520,EndDate,2026-12-31,2026-12-24,GoSaaS MFG | AG-81209 | 300000328239293 | 222 | Receivables | Dec-26 | 2026
+PeriodStatus,572,EndDate,2026-12-31,2026-12-24,GoSaaS MFG | Ash Ledger | 300000337170053 | 10037 | not read (ID only) | Dec-26 | 2026
+PeriodStatus,624,EndDate,2026-12-31,2026-12-24,GoSaaS MFG | Ash Ledger | 300000337170053 | 101 | General Ledger | Dec-26 | 2026
+PeriodStatus,676,EndDate,2026-12-31,2026-12-24,GoSaaS MFG | Ash Ledger | 300000337170053 | 10455 | not read (ID only) | Dec-26 | 2026
+PeriodStatus,728,EndDate,2026-12-31,2026-12-24,GoSaaS MFG | Ash Ledger | 300000337170053 | 200 | Payables | Dec-26 | 2026
+PeriodStatus,780,EndDate,2026-12-31,2026-12-24,GoSaaS MFG | Ash Ledger | 300000337170053 | 222 | Receivables | Dec-26 | 2026
+PeriodStatus,832,EndDate,2026-12-31,2026-12-24,GoSaaS MFG | DK ledger | 300000329119446 | 10037 | not read (ID only) | Dec-26 | 2026
+PeriodStatus,884,EndDate,2026-12-31,2026-12-24,GoSaaS MFG | DK ledger | 300000329119446 | 101 | General Ledger | Dec-26 | 2026
+PeriodStatus,936,EndDate,2026-12-31,2026-12-24,GoSaaS MFG | DK ledger | 300000329119446 | 10455 | not read (ID only) | Dec-26 | 2026
+PeriodStatus,988,EndDate,2026-12-31,2026-12-24,GoSaaS MFG | DK ledger | 300000329119446 | 200 | Payables | Dec-26 | 2026
+PeriodStatus,1040,EndDate,2026-12-31,2026-12-24,GoSaaS MFG | DK ledger | 300000329119446 | 222 | Receivables | Dec-26 | 2026
+PeriodStatus,1092,EndDate,2026-12-31,2026-12-24,GoSaaS MFG | Duck | 300000329239045 | 10037 | not read (ID only) | Dec-26 | 2026
+PeriodStatus,1144,EndDate,2026-12-31,2026-12-24,GoSaaS MFG | Duck | 300000329239045 | 101 | General Ledger | Dec-26 | 2026
+PeriodStatus,1196,EndDate,2026-12-31,2026-12-24,GoSaaS MFG | Duck | 300000329239045 | 10455 | not read (ID only) | Dec-26 | 2026
+PeriodStatus,1248,EndDate,2026-12-31,2026-12-24,GoSaaS MFG | Duck | 300000329239045 | 200 | Payables | Dec-26 | 2026
+PeriodStatus,1300,EndDate,2026-12-31,2026-12-24,GoSaaS MFG | Duck | 300000329239045 | 222 | Receivables | Dec-26 | 2026
+PeriodStatus,1352,EndDate,2026-12-31,2026-12-24,GoSaaS MFG | EBS-Testing-AI | 300000333835040 | 10037 | not read (ID only) | Dec-26 | 2026
+PeriodStatus,1404,EndDate,2026-12-31,2026-12-24,GoSaaS MFG | EBS-Testing-AI | 300000333835040 | 101 | General Ledger | Dec-26 | 2026
+PeriodStatus,1456,EndDate,2026-12-31,2026-12-24,GoSaaS MFG | EBS-Testing-AI | 300000333835040 | 10455 | not read (ID only) | Dec-26 | 2026
+PeriodStatus,1508,EndDate,2026-12-31,2026-12-24,GoSaaS MFG | EBS-Testing-AI | 300000333835040 | 200 | Payables | Dec-26 | 2026
+PeriodStatus,1560,EndDate,2026-12-31,2026-12-24,GoSaaS MFG | EBS-Testing-AI | 300000333835040 | 222 | Receivables | Dec-26 | 2026
+PeriodStatus,1612,EndDate,2026-12-31,2026-12-24,GoSaaS MFG | GoSaaS MFG US | 300000327609001 | 10037 | not read (ID only) | Dec-26 | 2026
+PeriodStatus,1664,EndDate,2026-12-31,2026-12-24,GoSaaS MFG | GoSaaS MFG US | 300000327609001 | 101 | General Ledger | Dec-26 | 2026
+PeriodStatus,1716,EndDate,2026-12-31,2026-12-24,GoSaaS MFG | GoSaaS MFG US | 300000327609001 | 10455 | not read (ID only) | Dec-26 | 2026
+PeriodStatus,1768,EndDate,2026-12-31,2026-12-24,GoSaaS MFG | GoSaaS MFG US | 300000327609001 | 200 | Payables | Dec-26 | 2026
+PeriodStatus,1820,EndDate,2026-12-31,2026-12-24,GoSaaS MFG | GoSaaS MFG US | 300000327609001 | 222 | Receivables | Dec-26 | 2026
+PeriodStatus,1872,EndDate,2026-12-31,2026-12-24,GoSaaS MFG | Mannan Ledger | 300000329151240 | 10037 | not read (ID only) | Dec-26 | 2026
+PeriodStatus,1924,EndDate,2026-12-31,2026-12-24,GoSaaS MFG | Mannan Ledger | 300000329151240 | 101 | General Ledger | Dec-26 | 2026
+PeriodStatus,1976,EndDate,2026-12-31,2026-12-24,GoSaaS MFG | Mannan Ledger | 300000329151240 | 10455 | not read (ID only) | Dec-26 | 2026
+PeriodStatus,2028,EndDate,2026-12-31,2026-12-24,GoSaaS MFG | Mannan Ledger | 300000329151240 | 200 | Payables | Dec-26 | 2026
+PeriodStatus,2080,EndDate,2026-12-31,2026-12-24,GoSaaS MFG | Mannan Ledger | 300000329151240 | 222 | Receivables | Dec-26 | 2026
+PeriodStatus,2132,EndDate,2026-12-31,2026-12-24,GoSaaS MFG | NN2_Primary_Ledger | 300000385583001 | 10037 | not read (ID only) | Dec-26 | 2026
+PeriodStatus,2184,EndDate,2026-12-31,2026-12-24,GoSaaS MFG | NN2_Primary_Ledger | 300000385583001 | 101 | General Ledger | Dec-26 | 2026
+PeriodStatus,2236,EndDate,2026-12-31,2026-12-24,GoSaaS MFG | NN2_Primary_Ledger | 300000385583001 | 10455 | not read (ID only) | Dec-26 | 2026
+PeriodStatus,2288,EndDate,2026-12-31,2026-12-24,GoSaaS MFG | NN2_Primary_Ledger | 300000385583001 | 200 | Payables | Dec-26 | 2026
+PeriodStatus,2340,EndDate,2026-12-31,2026-12-24,GoSaaS MFG | NN2_Primary_Ledger | 300000385583001 | 222 | Receivables | Dec-26 | 2026
+PeriodStatus,2392,EndDate,2026-12-31,2026-12-24,GoSaaS MFG | S-3 | 300000329151076 | 10037 | not read (ID only) | Dec-26 | 2026
+PeriodStatus,2444,EndDate,2026-12-31,2026-12-24,GoSaaS MFG | S-3 | 300000329151076 | 101 | General Ledger | Dec-26 | 2026
+PeriodStatus,2496,EndDate,2026-12-31,2026-12-24,GoSaaS MFG | S-3 | 300000329151076 | 10455 | not read (ID only) | Dec-26 | 2026
+PeriodStatus,2548,EndDate,2026-12-31,2026-12-24,GoSaaS MFG | S-3 | 300000329151076 | 200 | Payables | Dec-26 | 2026
+PeriodStatus,2600,EndDate,2026-12-31,2026-12-24,GoSaaS MFG | S-3 | 300000329151076 | 222 | Receivables | Dec-26 | 2026
+PeriodStatus,2652,EndDate,2026-12-31,2026-12-24,GoSaaS MFG | T2 Ledger | 300000328999989 | 10037 | not read (ID only) | Dec-26 | 2026
+PeriodStatus,2704,EndDate,2026-12-31,2026-12-24,GoSaaS MFG | T2 Ledger | 300000328999989 | 101 | General Ledger | Dec-26 | 2026
+PeriodStatus,2756,EndDate,2026-12-31,2026-12-24,GoSaaS MFG | T2 Ledger | 300000328999989 | 10455 | not read (ID only) | Dec-26 | 2026
+PeriodStatus,2808,EndDate,2026-12-31,2026-12-24,GoSaaS MFG | T2 Ledger | 300000328999989 | 200 | Payables | Dec-26 | 2026
+PeriodStatus,2860,EndDate,2026-12-31,2026-12-24,GoSaaS MFG | T2 Ledger | 300000328999989 | 222 | Receivables | Dec-26 | 2026
+PeriodStatus,2912,EndDate,2026-12-31,2026-12-24,GoSaaS MFG | URA OPERATIONS | 300000337168013 | 10037 | not read (ID only) | Dec-26 | 2026
+PeriodStatus,2964,EndDate,2026-12-31,2026-12-24,GoSaaS MFG | URA OPERATIONS | 300000337168013 | 101 | General Ledger | Dec-26 | 2026
+PeriodStatus,3016,EndDate,2026-12-31,2026-12-24,GoSaaS MFG | URA OPERATIONS | 300000337168013 | 10455 | not read (ID only) | Dec-26 | 2026
+PeriodStatus,3068,EndDate,2026-12-31,2026-12-24,GoSaaS MFG | URA OPERATIONS | 300000337168013 | 200 | Payables | Dec-26 | 2026
+PeriodStatus,3120,EndDate,2026-12-31,2026-12-24,GoSaaS MFG | URA OPERATIONS | 300000337168013 | 222 | Receivables | Dec-26 | 2026
+PeriodStatus,3172,EndDate,2026-12-31,2026-12-24,GoSaaS MFG | USAMA LEDGER | 300000337168008 | 10037 | not read (ID only) | Dec-26 | 2026
+PeriodStatus,3224,EndDate,2026-12-31,2026-12-24,GoSaaS MFG | USAMA LEDGER | 300000337168008 | 101 | General Ledger | Dec-26 | 2026
+PeriodStatus,3276,EndDate,2026-12-31,2026-12-24,GoSaaS MFG | USAMA LEDGER | 300000337168008 | 10455 | not read (ID only) | Dec-26 | 2026
+PeriodStatus,3328,EndDate,2026-12-31,2026-12-24,GoSaaS MFG | USAMA LEDGER | 300000337168008 | 200 | Payables | Dec-26 | 2026
+PeriodStatus,3380,EndDate,2026-12-31,2026-12-24,GoSaaS MFG | USAMA LEDGER | 300000337168008 | 222 | Receivables | Dec-26 | 2026
+Changes,row count,1,67,,
+Changes,2,(new row),,Periods | Change 1: GoSaaS MFG | Dec-26 (row 52) | EndDate | 2026/12/31 | 2026/12/24,
+Changes,3,(new row),,PeriodStatus | Change 1: GoSaaS MFG | AG Primary Ledger | app 10037 | Dec-26 (row 52) | EndDate | 2026-12-31 | 2026-12-24,
+Changes,4,(new row),,PeriodStatus | Change 1: GoSaaS MFG | AG Primary Ledger | app 101 | Dec-26 (row 104) | EndDate | 2026-12-31 | 2026-12-24,
+Changes,5,(new row),,PeriodStatus | Change 1: GoSaaS MFG | AG Primary Ledger | app 10455 | Dec-26 (row 156) | EndDate | 2026-12-31 | 2026-12-24,
+Changes,6,(new row),,PeriodStatus | Change 1: GoSaaS MFG | AG Primary Ledger | app 200 | Dec-26 (row 208) | EndDate | 2026-12-31 | 2026-12-24,
+Changes,7,(new row),,PeriodStatus | Change 1: GoSaaS MFG | AG Primary Ledger | app 222 | Dec-26 (row 260) | EndDate | 2026-12-31 | 2026-12-24,
+Changes,8,(new row),,PeriodStatus | Change 1: GoSaaS MFG | AG-81209 | app 10037 | Dec-26 (row 312) | EndDate | 2026-12-31 | 2026-12-24,
+Changes,9,(new row),,PeriodStatus | Change 1: GoSaaS MFG | AG-81209 | app 101 | Dec-26 (row 364) | EndDate | 2026-12-31 | 2026-12-24,
+Changes,10,(new row),,PeriodStatus | Change 1: GoSaaS MFG | AG-81209 | app 10455 | Dec-26 (row 416) | EndDate | 2026-12-31 | 2026-12-24,
+Changes,11,(new row),,PeriodStatus | Change 1: GoSaaS MFG | AG-81209 | app 200 | Dec-26 (row 468) | EndDate | 2026-12-31 | 2026-12-24,
+Changes,12,(new row),,PeriodStatus | Change 1: GoSaaS MFG | AG-81209 | app 222 | Dec-26 (row 520) | EndDate | 2026-12-31 | 2026-12-24,
+Changes,13,(new row),,PeriodStatus | Change 1: GoSaaS MFG | Ash Ledger | app 10037 | Dec-26 (row 572) | EndDate | 2026-12-31 | 2026-12-24,
+Changes,14,(new row),,PeriodStatus | Change 1: GoSaaS MFG | Ash Ledger | app 101 | Dec-26 (row 624) | EndDate | 2026-12-31 | 2026-12-24,
+Changes,15,(new row),,PeriodStatus | Change 1: GoSaaS MFG | Ash Ledger | app 10455 | Dec-26 (row 676) | EndDate | 2026-12-31 | 2026-12-24,
+Changes,16,(new row),,PeriodStatus | Change 1: GoSaaS MFG | Ash Ledger | app 200 | Dec-26 (row 728) | EndDate | 2026-12-31 | 2026-12-24,
+Changes,17,(new row),,PeriodStatus | Change 1: GoSaaS MFG | Ash Ledger | app 222 | Dec-26 (row 780) | EndDate | 2026-12-31 | 2026-12-24,
+Changes,18,(new row),,PeriodStatus | Change 1: GoSaaS MFG | DK ledger | app 10037 | Dec-26 (row 832) | EndDate | 2026-12-31 | 2026-12-24,
+Changes,19,(new row),,PeriodStatus | Change 1: GoSaaS MFG | DK ledger | app 101 | Dec-26 (row 884) | EndDate | 2026-12-31 | 2026-12-24,
+Changes,20,(new row),,PeriodStatus | Change 1: GoSaaS MFG | DK ledger | app 10455 | Dec-26 (row 936) | EndDate | 2026-12-31 | 2026-12-24,
+Changes,21,(new row),,PeriodStatus | Change 1: GoSaaS MFG | DK ledger | app 200 | Dec-26 (row 988) | EndDate | 2026-12-31 | 2026-12-24,
+Changes,22,(new row),,PeriodStatus | Change 1: GoSaaS MFG | DK ledger | app 222 | Dec-26 (row 1040) | EndDate | 2026-12-31 | 2026-12-24,
+Changes,23,(new row),,PeriodStatus | Change 1: GoSaaS MFG | Duck | app 10037 | Dec-26 (row 1092) | EndDate | 2026-12-31 | 2026-12-24,
+Changes,24,(new row),,PeriodStatus | Change 1: GoSaaS MFG | Duck | app 101 | Dec-26 (row 1144) | EndDate | 2026-12-31 | 2026-12-24,
+Changes,25,(new row),,PeriodStatus | Change 1: GoSaaS MFG | Duck | app 10455 | Dec-26 (row 1196) | EndDate | 2026-12-31 | 2026-12-24,
+Changes,26,(new row),,PeriodStatus | Change 1: GoSaaS MFG | Duck | app 200 | Dec-26 (row 1248) | EndDate | 2026-12-31 | 2026-12-24,
+Changes,27,(new row),,PeriodStatus | Change 1: GoSaaS MFG | Duck | app 222 | Dec-26 (row 1300) | EndDate | 2026-12-31 | 2026-12-24,
+Changes,28,(new row),,PeriodStatus | Change 1: GoSaaS MFG | EBS-Testing-AI | app 10037 | Dec-26 (row 1352) | EndDate | 2026-12-31 | 2026-12-24,
+Changes,29,(new row),,PeriodStatus | Change 1: GoSaaS MFG | EBS-Testing-AI | app 101 | Dec-26 (row 1404) | EndDate | 2026-12-31 | 2026-12-24,
+Changes,30,(new row),,PeriodStatus | Change 1: GoSaaS MFG | EBS-Testing-AI | app 10455 | Dec-26 (row 1456) | EndDate | 2026-12-31 | 2026-12-24,
+Changes,31,(new row),,PeriodStatus | Change 1: GoSaaS MFG | EBS-Testing-AI | app 200 | Dec-26 (row 1508) | EndDate | 2026-12-31 | 2026-12-24,
+Changes,32,(new row),,PeriodStatus | Change 1: GoSaaS MFG | EBS-Testing-AI | app 222 | Dec-26 (row 1560) | EndDate | 2026-12-31 | 2026-12-24,
+Changes,33,(new row),,PeriodStatus | Change 1: GoSaaS MFG | GoSaaS MFG US | app 10037 | Dec-26 (row 1612) | EndDate | 2026-12-31 | 2026-12-24,
+Changes,34,(new row),,PeriodStatus | Change 1: GoSaaS MFG | GoSaaS MFG US | app 101 | Dec-26 (row 1664) | EndDate | 2026-12-31 | 2026-12-24,
+Changes,35,(new row),,PeriodStatus | Change 1: GoSaaS MFG | GoSaaS MFG US | app 10455 | Dec-26 (row 1716) | EndDate | 2026-12-31 | 2026-12-24,
+Changes,36,(new row),,PeriodStatus | Change 1: GoSaaS MFG | GoSaaS MFG US | app 200 | Dec-26 (row 1768) | EndDate | 2026-12-31 | 2026-12-24,
+Changes,37,(new row),,PeriodStatus | Change 1: GoSaaS MFG | GoSaaS MFG US | app 222 | Dec-26 (row 1820) | EndDate | 2026-12-31 | 2026-12-24,
+Changes,38,(new row),,PeriodStatus | Change 1: GoSaaS MFG | Mannan Ledger | app 10037 | Dec-26 (row 1872) | EndDate | 2026-12-31 | 2026-12-24,
+Changes,39,(new row),,PeriodStatus | Change 1: GoSaaS MFG | Mannan Ledger | app 101 | Dec-26 (row 1924) | EndDate | 2026-12-31 | 2026-12-24,
+Changes,40,(new row),,PeriodStatus | Change 1: GoSaaS MFG | Mannan Ledger | app 10455 | Dec-26 (row 1976) | EndDate | 2026-12-31 | 2026-12-24,
+Changes,41,(new row),,PeriodStatus | Change 1: GoSaaS MFG | Mannan Ledger | app 200 | Dec-26 (row 2028) | EndDate | 2026-12-31 | 2026-12-24,
+Changes,42,(new row),,PeriodStatus | Change 1: GoSaaS MFG | Mannan Ledger | app 222 | Dec-26 (row 2080) | EndDate | 2026-12-31 | 2026-12-24,
+Changes,43,(new row),,PeriodStatus | Change 1: GoSaaS MFG | NN2_Primary_Ledger | app 10037 | Dec-26 (row 2132) | EndDate | 2026-12-31 | 2026-12-24,
+Changes,44,(new row),,PeriodStatus | Change 1: GoSaaS MFG | NN2_Primary_Ledger | app 101 | Dec-26 (row 2184) | EndDate | 2026-12-31 | 2026-12-24,
+Changes,45,(new row),,PeriodStatus | Change 1: GoSaaS MFG | NN2_Primary_Ledger | app 10455 | Dec-26 (row 2236) | EndDate | 2026-12-31 | 2026-12-24,
+Changes,46,(new row),,PeriodStatus | Change 1: GoSaaS MFG | NN2_Primary_Ledger | app 200 | Dec-26 (row 2288) | EndDate | 2026-12-31 | 2026-12-24,
+Changes,47,(new row),,PeriodStatus | Change 1: GoSaaS MFG | NN2_Primary_Ledger | app 222 | Dec-26 (row 2340) | EndDate | 2026-12-31 | 2026-12-24,
+Changes,48,(new row),,PeriodStatus | Change 1: GoSaaS MFG | S-3 | app 10037 | Dec-26 (row 2392) | EndDate | 2026-12-31 | 2026-12-24,
+Changes,49,(new row),,PeriodStatus | Change 1: GoSaaS MFG | S-3 | app 101 | Dec-26 (row 2444) | EndDate | 2026-12-31 | 2026-12-24,
+Changes,50,(new row),,PeriodStatus | Change 1: GoSaaS MFG | S-3 | app 10455 | Dec-26 (row 2496) | EndDate | 2026-12-31 | 2026-12-24,
+Changes,51,(new row),,PeriodStatus | Change 1: GoSaaS MFG | S-3 | app 200 | Dec-26 (row 2548) | EndDate | 2026-12-31 | 2026-12-24,
+Changes,52,(new row),,PeriodStatus | Change 1: GoSaaS MFG | S-3 | app 222 | Dec-26 (row 2600) | EndDate | 2026-12-31 | 2026-12-24,
+Changes,53,(new row),,PeriodStatus | Change 1: GoSaaS MFG | T2 Ledger | app 10037 | Dec-26 (row 2652) | EndDate | 2026-12-31 | 2026-12-24,
+Changes,54,(new row),,PeriodStatus | Change 1: GoSaaS MFG | T2 Ledger | app 101 | Dec-26 (row 2704) | EndDate | 2026-12-31 | 2026-12-24,
+Changes,55,(new row),,PeriodStatus | Change 1: GoSaaS MFG | T2 Ledger | app 10455 | Dec-26 (row 2756) | EndDate | 2026-12-31 | 2026-12-24,
+Changes,56,(new row),,PeriodStatus | Change 1: GoSaaS MFG | T2 Ledger | app 200 | Dec-26 (row 2808) | EndDate | 2026-12-31 | 2026-12-24,
+Changes,57,(new row),,PeriodStatus | Change 1: GoSaaS MFG | T2 Ledger | app 222 | Dec-26 (row 2860) | EndDate | 2026-12-31 | 2026-12-24,
+Changes,58,(new row),,PeriodStatus | Change 1: GoSaaS MFG | URA OPERATIONS | app 10037 | Dec-26 (row 2912) | EndDate | 2026-12-31 | 2026-12-24,
+Changes,59,(new row),,PeriodStatus | Change 1: GoSaaS MFG | URA OPERATIONS | app 101 | Dec-26 (row 2964) | EndDate | 2026-12-31 | 2026-12-24,
+Changes,60,(new row),,PeriodStatus | Change 1: GoSaaS MFG | URA OPERATIONS | app 10455 | Dec-26 (row 3016) | EndDate | 2026-12-31 | 2026-12-24,
+Changes,61,(new row),,PeriodStatus | Change 1: GoSaaS MFG | URA OPERATIONS | app 200 | Dec-26 (row 3068) | EndDate | 2026-12-31 | 2026-12-24,
+Changes,62,(new row),,PeriodStatus | Change 1: GoSaaS MFG | URA OPERATIONS | app 222 | Dec-26 (row 3120) | EndDate | 2026-12-31 | 2026-12-24,
+Changes,63,(new row),,PeriodStatus | Change 1: GoSaaS MFG | USAMA LEDGER | app 10037 | Dec-26 (row 3172) | EndDate | 2026-12-31 | 2026-12-24,
+Changes,64,(new row),,PeriodStatus | Change 1: GoSaaS MFG | USAMA LEDGER | app 101 | Dec-26 (row 3224) | EndDate | 2026-12-31 | 2026-12-24,
+Changes,65,(new row),,PeriodStatus | Change 1: GoSaaS MFG | USAMA LEDGER | app 10455 | Dec-26 (row 3276) | EndDate | 2026-12-31 | 2026-12-24,
+Changes,66,(new row),,PeriodStatus | Change 1: GoSaaS MFG | USAMA LEDGER | app 200 | Dec-26 (row 3328) | EndDate | 2026-12-31 | 2026-12-24,
+Changes,67,(new row),,PeriodStatus | Change 1: GoSaaS MFG | USAMA LEDGER | app 222 | Dec-26 (row 3380) | EndDate | 2026-12-31 | 2026-12-24,

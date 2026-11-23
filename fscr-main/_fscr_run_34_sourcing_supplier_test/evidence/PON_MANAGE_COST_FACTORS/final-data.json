@@ -1,0 +1,11 @@
+{
+ "archiveName": "pon_manage_cost_factors_fscrt.zip",
+ "rowCounts": {
+  "PON_PRICE_ELEMENT_TYPES.csv": 1,
+  "PON_PRICE_ELEMENT_TYPES_TRANSLATION.csv": 1
+ },
+ "operation": "create",
+ "names": [
+  "FSCRT_R34_CF"
+ ]
+}

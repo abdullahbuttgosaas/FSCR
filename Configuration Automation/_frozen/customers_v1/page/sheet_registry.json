@@ -1,0 +1,40 @@
+{
+  "about": "Which configuration folder runs which tabs of the upload sheet (page/sheet_definition.json). page/workbook.py builds one request per record row and the page runs it through that folder's --run. A tab that is in no group here is reported as not set up yet. See the root CLAUDE.md > The upload sheet.",
+  "ignore_tabs": ["Read me"],
+  "groups": [
+    {
+      "name": "Customers",
+      "folder": "Customers",
+      "record": "customer",
+      "max_records": 100,
+      "same_name_check": "--existing",
+      "address_check": "--check-address",
+      "record_tabs": {
+        "Organization Customers": {"what": "organization customer", "fixed": {"customer_type": "Organization"},
+                                   "name_from": ["Name"], "link_name": ["Name"]},
+        "Person Customers": {"what": "person customer", "fixed": {"customer_type": "Person"},
+                             "name_from": ["First Name", "Middle Name", "Last Name", "Suffix"],
+                             "link_name": ["First Name", "Last Name"]}
+      },
+      "child_tabs": {
+        "Address Purposes": {
+          "into": "purposes",
+          "what": "address purpose",
+          "link": {"column": "Customer Name",
+                   "about": "A purpose row belongs to the customer whose link_name (record tab: Name; First Name + space + Last Name) equals Customer Name, ignoring case and extra spaces. Names must be unique within one sheet (never assumed unique in Oracle)."},
+          "unique": ["Purpose"],
+          "one_yes_per": {"flag": "Primary", "per": "Purpose"},
+          "within_parent": {"start": "From Date", "end": "To Date",
+                            "parent_start": "From Date", "parent_end": "To Date", "parent_what": "address"},
+          "address_pick": {
+            "about": "Bill-to Site is a list in Oracle holding only this customer's one address, shown on Ship to rows only. Empty = picked automatically; a typed value must match the text built from the record's address (case and extra spaces ignored).",
+            "column": "Bill-to Site", "only_on": {"Purpose": "Ship to"}, "needs_row": {"Purpose": "Bill to"},
+            "text": [{"column": "Address Line 1"}, {"column": "Address Line 2", "sep": ","},
+                     {"column": "City", "sep": ",", "upper": true}, {"column": "State", "sep": ", "},
+                     {"column": "Postal Code", "sep": " "}]
+          }
+        }
+      }
+    }
+  ]
+}

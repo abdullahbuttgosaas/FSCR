@@ -1,0 +1,2 @@
+pillar,module,total_tasks,a_skill_or_guide,b_route_no_skill,c_neither,a_strict_skill_and_route,skill_but_no_route,missing_N_of_total,proposed_coverage,coverage_basis,check_vs_module_counts
+ERP,Security,6,6,0,0,6,0,0/6,Full,6/6 (100%) tasks have a skill or guide (rule: >=75% = Full),match

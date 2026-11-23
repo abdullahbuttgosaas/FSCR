@@ -1,0 +1,33 @@
+{
+  "items" : [ {
+    "DocumentNumberId" : 300000395044283,
+    "ObjectVersionNumber" : 1,
+    "DeterminantType" : "REQUISITIONING_BU",
+    "LegalEntityId" : -1,
+    "BusinessUnitId" : 300000394664009,
+    "Prefix" : "FSCRT_R33|",
+    "Suffix" : null,
+    "MinimumDigits" : 5,
+    "Preview" : "FSCRT_R33|00000",
+    "CurrentMaximumUniqueIdentifier" : 0,
+    "TableName" : "REQUISITION",
+    "CreatedBy" : "<user>",
+    "CreationDate" : "2026-11-16T20:45:50.121+00:00",
+    "LastUpdateDate" : "2026-11-16T20:45:50.182+00:00",
+    "LastUpdatedBy" : "<user>",
+    "BusinessUnitName" : "FSCRT_Brindle Harbor Marine Supply F01",
+    "LegalEntityName" : null,
+    "DeterminantTypeName" : "Requisitioning BU",
+    "DocumentType" : "Requisition"
+  } ],
+  "count" : 1,
+  "hasMore" : false,
+  "limit" : 20,
+  "offset" : 0,
+  "links" : [ {
+    "rel" : "self",
+    "href" : "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/procurementDocumentNumberings",
+    "name" : "procurementDocumentNumberings",
+    "kind" : "collection"
+  } ]
+}

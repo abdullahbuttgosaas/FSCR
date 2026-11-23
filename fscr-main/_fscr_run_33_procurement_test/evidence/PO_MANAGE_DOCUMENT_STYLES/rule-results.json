@@ -1,0 +1,28 @@
+[
+ {
+  "source": "ora_input_validation.md",
+  "status": "passed",
+  "changes": [],
+  "issues": [
+   {
+    "severity": "info",
+    "message": "MDS.VALIDATE_INPUT -> valid. StyleName 'FSCRT_R33 Style' (15 chars) and StyleDescription are under 240 characters; Status ACTIVE is under 30 characters; LineTypeAllowed=ALL and no line type input supplied."
+   },
+   {
+    "severity": "info",
+    "message": "NOTE: the rule is written for the REST object (Purchase Basis = Quantity/Amount). The Fusion CSV package carries PURCHASE_BASES lines GOODS and SERVICES instead, so the Quantity/Amount value check had nothing to test."
+   }
+  ]
+ },
+ {
+  "source": "ora_defaulting_rules.md",
+  "status": "passed",
+  "changes": [],
+  "issues": [
+   {
+    "severity": "info",
+    "message": "MDS.APPLY_DEFAULTS -> no default applied: no Purchase Basis Quantity/Amount field and no Line Type input in the CSV package."
+   }
+  ]
+ }
+]

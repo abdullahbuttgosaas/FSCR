@@ -1,0 +1,886 @@
+{
+ "items": [
+  {
+   "ParentWorkerJourneyId": "300000395104647",
+   "WorkerJourneyTaskId": "300000395104656",
+   "Description": "Create and edit functional area catalogs.",
+   "Name": "Manage Functional Area Catalogs",
+   "RequiredFlag": false,
+   "Status": "INI",
+   "StatusCategory": "OPEN",
+   "TargetEndDate": null,
+   "TargetStartDate": "2026-11-17",
+   "ExpiryRelativeTo": "ORA_CHK_AFT_ASSIGNED_DT",
+   "TargetDuration": null,
+   "TargetDurationUOM": null,
+   "CompletionDate": null,
+   "DependentTaskName": null,
+   "Type": "ORA_CHK_DATA_LOADER",
+   "TypeMeaning": "Import and Load Data",
+   "SubType": null,
+   "ActionReassign": "V",
+   "StageName": "Procurement - Purchasing Categories",
+   "StageSequence": 10,
+   "Sequence": 100,
+   "SubSequence": null,
+   "TaskPercentageComplete": null,
+   "ActionEditDueDate": "V",
+   "ActionRemove": "V",
+   "ActionReopen": "H",
+   "ActionEdit": "V",
+   "AllowPrecedingTaskFlag": false,
+   "PerformerType": "ORA_WORKER",
+   "PerformerTypeMeaning": "Worker",
+   "@context": {
+    "key": "300000395104656",
+    "links": [
+     {
+      "rel": "self",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/hcmRestApi/resources/11.13.18.05/journeySubjects/RBK/child/assignedJourneys/300000395104645/child/allStepTasks/300000395104656",
+      "name": "allStepTasks",
+      "kind": "item"
+     },
+     {
+      "rel": "canonical",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/hcmRestApi/resources/11.13.18.05/journeySubjects/RBK/child/assignedJourneys/300000395104645/child/allStepTasks/300000395104656",
+      "name": "allStepTasks",
+      "kind": "item"
+     },
+     {
+      "rel": "parent",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/hcmRestApi/resources/11.13.18.05/journeySubjects/RBK/child/assignedJourneys/300000395104645",
+      "name": "assignedJourneys",
+      "kind": "item"
+     }
+    ]
+   }
+  },
+  {
+   "ParentWorkerJourneyId": "300000395104647",
+   "WorkerJourneyTaskId": "300000395104664",
+   "Description": "Create and edit catalog descriptive flexfield attributes.",
+   "Name": "Manage Catalog Descriptive Flexfields",
+   "RequiredFlag": false,
+   "Status": "INI",
+   "StatusCategory": "OPEN",
+   "TargetEndDate": null,
+   "TargetStartDate": "2026-11-17",
+   "ExpiryRelativeTo": "ORA_CHK_AFT_ASSIGNED_DT",
+   "TargetDuration": null,
+   "TargetDurationUOM": null,
+   "CompletionDate": null,
+   "DependentTaskName": null,
+   "Type": "ORA_CHK_DATA_LOADER",
+   "TypeMeaning": "Import and Load Data",
+   "SubType": null,
+   "ActionReassign": "V",
+   "StageName": "Procurement - Purchasing Categories",
+   "StageSequence": 10,
+   "Sequence": 200,
+   "SubSequence": null,
+   "TaskPercentageComplete": null,
+   "ActionEditDueDate": "V",
+   "ActionRemove": "V",
+   "ActionReopen": "H",
+   "ActionEdit": "V",
+   "AllowPrecedingTaskFlag": false,
+   "PerformerType": "ORA_WORKER",
+   "PerformerTypeMeaning": "Worker",
+   "@context": {
+    "key": "300000395104664",
+    "links": [
+     {
+      "rel": "self",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/hcmRestApi/resources/11.13.18.05/journeySubjects/RBK/child/assignedJourneys/300000395104645/child/allStepTasks/300000395104664",
+      "name": "allStepTasks",
+      "kind": "item"
+     },
+     {
+      "rel": "canonical",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/hcmRestApi/resources/11.13.18.05/journeySubjects/RBK/child/assignedJourneys/300000395104645/child/allStepTasks/300000395104664",
+      "name": "allStepTasks",
+      "kind": "item"
+     },
+     {
+      "rel": "parent",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/hcmRestApi/resources/11.13.18.05/journeySubjects/RBK/child/assignedJourneys/300000395104645",
+      "name": "assignedJourneys",
+      "kind": "item"
+     }
+    ]
+   }
+  },
+  {
+   "ParentWorkerJourneyId": "300000395104647",
+   "WorkerJourneyTaskId": "300000395104672",
+   "Description": "Create and edit category descriptive flexfield attributes.",
+   "Name": "Manage Category Descriptive Flexfields",
+   "RequiredFlag": false,
+   "Status": "INI",
+   "StatusCategory": "OPEN",
+   "TargetEndDate": null,
+   "TargetStartDate": "2026-11-17",
+   "ExpiryRelativeTo": "ORA_CHK_AFT_ASSIGNED_DT",
+   "TargetDuration": null,
+   "TargetDurationUOM": null,
+   "CompletionDate": null,
+   "DependentTaskName": null,
+   "Type": "ORA_CHK_DATA_LOADER",
+   "TypeMeaning": "Import and Load Data",
+   "SubType": null,
+   "ActionReassign": "V",
+   "StageName": "Procurement - Purchasing Categories",
+   "StageSequence": 10,
+   "Sequence": 300,
+   "SubSequence": null,
+   "TaskPercentageComplete": null,
+   "ActionEditDueDate": "V",
+   "ActionRemove": "V",
+   "ActionReopen": "H",
+   "ActionEdit": "V",
+   "AllowPrecedingTaskFlag": false,
+   "PerformerType": "ORA_WORKER",
+   "PerformerTypeMeaning": "Worker",
+   "@context": {
+    "key": "300000395104672",
+    "links": [
+     {
+      "rel": "self",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/hcmRestApi/resources/11.13.18.05/journeySubjects/RBK/child/assignedJourneys/300000395104645/child/allStepTasks/300000395104672",
+      "name": "allStepTasks",
+      "kind": "item"
+     },
+     {
+      "rel": "canonical",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/hcmRestApi/resources/11.13.18.05/journeySubjects/RBK/child/assignedJourneys/300000395104645/child/allStepTasks/300000395104672",
+      "name": "allStepTasks",
+      "kind": "item"
+     },
+     {
+      "rel": "parent",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/hcmRestApi/resources/11.13.18.05/journeySubjects/RBK/child/assignedJourneys/300000395104645",
+      "name": "assignedJourneys",
+      "kind": "item"
+     }
+    ]
+   }
+  },
+  {
+   "ParentWorkerJourneyId": "300000395104650",
+   "WorkerJourneyTaskId": "300000395104680",
+   "Description": "Create and maintain templates to identify type of attribute changes that should result in a formal revision of the document.",
+   "Name": "Manage Change Order Templates",
+   "RequiredFlag": false,
+   "Status": "INI",
+   "StatusCategory": "OPEN",
+   "TargetEndDate": null,
+   "TargetStartDate": "2026-11-17",
+   "ExpiryRelativeTo": "ORA_CHK_AFT_ASSIGNED_DT",
+   "TargetDuration": null,
+   "TargetDurationUOM": null,
+   "CompletionDate": null,
+   "DependentTaskName": null,
+   "Type": "ORA_CHK_MANUAL",
+   "TypeMeaning": "Manual Task",
+   "SubType": null,
+   "ActionReassign": "V",
+   "StageName": "Procurement - Purchasing Foundation",
+   "StageSequence": 20,
+   "Sequence": 400,
+   "SubSequence": null,
+   "TaskPercentageComplete": null,
+   "ActionEditDueDate": "V",
+   "ActionRemove": "V",
+   "ActionReopen": "H",
+   "ActionEdit": "V",
+   "AllowPrecedingTaskFlag": false,
+   "PerformerType": "ORA_WORKER",
+   "PerformerTypeMeaning": "Worker",
+   "@context": {
+    "key": "300000395104680",
+    "links": [
+     {
+      "rel": "self",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/hcmRestApi/resources/11.13.18.05/journeySubjects/RBK/child/assignedJourneys/300000395104645/child/allStepTasks/300000395104680",
+      "name": "allStepTasks",
+      "kind": "item"
+     },
+     {
+      "rel": "canonical",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/hcmRestApi/resources/11.13.18.05/journeySubjects/RBK/child/assignedJourneys/300000395104645/child/allStepTasks/300000395104680",
+      "name": "allStepTasks",
+      "kind": "item"
+     },
+     {
+      "rel": "parent",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/hcmRestApi/resources/11.13.18.05/journeySubjects/RBK/child/assignedJourneys/300000395104645",
+      "name": "assignedJourneys",
+      "kind": "item"
+     }
+    ]
+   }
+  },
+  {
+   "ParentWorkerJourneyId": "300000395104650",
+   "WorkerJourneyTaskId": "300000395104688",
+   "Description": "Define and maintain the Purchasing value sets for common application's flexfields.",
+   "Name": "Manage Purchasing Value Sets",
+   "RequiredFlag": false,
+   "Status": "INI",
+   "StatusCategory": "OPEN",
+   "TargetEndDate": null,
+   "TargetStartDate": "2026-11-17",
+   "ExpiryRelativeTo": "ORA_CHK_AFT_ASSIGNED_DT",
+   "TargetDuration": null,
+   "TargetDurationUOM": null,
+   "CompletionDate": null,
+   "DependentTaskName": null,
+   "Type": "ORA_CHK_MANUAL",
+   "TypeMeaning": "Manual Task",
+   "SubType": null,
+   "ActionReassign": "V",
+   "StageName": "Procurement - Purchasing Foundation",
+   "StageSequence": 20,
+   "Sequence": 500,
+   "SubSequence": null,
+   "TaskPercentageComplete": null,
+   "ActionEditDueDate": "V",
+   "ActionRemove": "V",
+   "ActionReopen": "H",
+   "ActionEdit": "V",
+   "AllowPrecedingTaskFlag": false,
+   "PerformerType": "ORA_WORKER",
+   "PerformerTypeMeaning": "Worker",
+   "@context": {
+    "key": "300000395104688",
+    "links": [
+     {
+      "rel": "self",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/hcmRestApi/resources/11.13.18.05/journeySubjects/RBK/child/assignedJourneys/300000395104645/child/allStepTasks/300000395104688",
+      "name": "allStepTasks",
+      "kind": "item"
+     },
+     {
+      "rel": "canonical",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/hcmRestApi/resources/11.13.18.05/journeySubjects/RBK/child/assignedJourneys/300000395104645/child/allStepTasks/300000395104688",
+      "name": "allStepTasks",
+      "kind": "item"
+     },
+     {
+      "rel": "parent",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/hcmRestApi/resources/11.13.18.05/journeySubjects/RBK/child/assignedJourneys/300000395104645",
+      "name": "assignedJourneys",
+      "kind": "item"
+     }
+    ]
+   }
+  },
+  {
+   "ParentWorkerJourneyId": "300000395104650",
+   "WorkerJourneyTaskId": "300000395104696",
+   "Description": "Define and maintain the optional Purchasing descriptive flexfields.",
+   "Name": "Manage Purchasing Descriptive Flexfields",
+   "RequiredFlag": false,
+   "Status": "INI",
+   "StatusCategory": "OPEN",
+   "TargetEndDate": null,
+   "TargetStartDate": "2026-11-17",
+   "ExpiryRelativeTo": "ORA_CHK_AFT_ASSIGNED_DT",
+   "TargetDuration": null,
+   "TargetDurationUOM": null,
+   "CompletionDate": null,
+   "DependentTaskName": null,
+   "Type": "ORA_CHK_MANUAL",
+   "TypeMeaning": "Manual Task",
+   "SubType": null,
+   "ActionReassign": "V",
+   "StageName": "Procurement - Purchasing Foundation",
+   "StageSequence": 20,
+   "Sequence": 600,
+   "SubSequence": null,
+   "TaskPercentageComplete": null,
+   "ActionEditDueDate": "V",
+   "ActionRemove": "V",
+   "ActionReopen": "H",
+   "ActionEdit": "V",
+   "AllowPrecedingTaskFlag": false,
+   "PerformerType": "ORA_WORKER",
+   "PerformerTypeMeaning": "Worker",
+   "@context": {
+    "key": "300000395104696",
+    "links": [
+     {
+      "rel": "self",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/hcmRestApi/resources/11.13.18.05/journeySubjects/RBK/child/assignedJourneys/300000395104645/child/allStepTasks/300000395104696",
+      "name": "allStepTasks",
+      "kind": "item"
+     },
+     {
+      "rel": "canonical",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/hcmRestApi/resources/11.13.18.05/journeySubjects/RBK/child/assignedJourneys/300000395104645/child/allStepTasks/300000395104696",
+      "name": "allStepTasks",
+      "kind": "item"
+     },
+     {
+      "rel": "parent",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/hcmRestApi/resources/11.13.18.05/journeySubjects/RBK/child/assignedJourneys/300000395104645",
+      "name": "assignedJourneys",
+      "kind": "item"
+     }
+    ]
+   }
+  },
+  {
+   "ParentWorkerJourneyId": "300000395104650",
+   "WorkerJourneyTaskId": "300000395104704",
+   "Description": "Create and maintain rule set names used in buyer assignment rules.",
+   "Name": "Manage Buyer Assignment Rule Sets Lookup",
+   "RequiredFlag": false,
+   "Status": "INI",
+   "StatusCategory": "OPEN",
+   "TargetEndDate": null,
+   "TargetStartDate": "2026-11-17",
+   "ExpiryRelativeTo": "ORA_CHK_AFT_ASSIGNED_DT",
+   "TargetDuration": null,
+   "TargetDurationUOM": null,
+   "CompletionDate": null,
+   "DependentTaskName": null,
+   "Type": "ORA_CHK_MANUAL",
+   "TypeMeaning": "Manual Task",
+   "SubType": null,
+   "ActionReassign": "V",
+   "StageName": "Procurement - Purchasing Foundation",
+   "StageSequence": 20,
+   "Sequence": 700,
+   "SubSequence": null,
+   "TaskPercentageComplete": null,
+   "ActionEditDueDate": "V",
+   "ActionRemove": "V",
+   "ActionReopen": "H",
+   "ActionEdit": "V",
+   "AllowPrecedingTaskFlag": false,
+   "PerformerType": "ORA_WORKER",
+   "PerformerTypeMeaning": "Worker",
+   "@context": {
+    "key": "300000395104704",
+    "links": [
+     {
+      "rel": "self",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/hcmRestApi/resources/11.13.18.05/journeySubjects/RBK/child/assignedJourneys/300000395104645/child/allStepTasks/300000395104704",
+      "name": "allStepTasks",
+      "kind": "item"
+     },
+     {
+      "rel": "canonical",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/hcmRestApi/resources/11.13.18.05/journeySubjects/RBK/child/assignedJourneys/300000395104645/child/allStepTasks/300000395104704",
+      "name": "allStepTasks",
+      "kind": "item"
+     },
+     {
+      "rel": "parent",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/hcmRestApi/resources/11.13.18.05/journeySubjects/RBK/child/assignedJourneys/300000395104645",
+      "name": "assignedJourneys",
+      "kind": "item"
+     }
+    ]
+   }
+  },
+  {
+   "ParentWorkerJourneyId": "300000395104650",
+   "WorkerJourneyTaskId": "300000395104712",
+   "Description": "Define rules based on various combinations of requisition attributes to assign a requisition line to the most appropriate buyer.",
+   "Name": "Manage Buyer Assignment Rules",
+   "RequiredFlag": false,
+   "Status": "INI",
+   "StatusCategory": "OPEN",
+   "TargetEndDate": null,
+   "TargetStartDate": "2026-11-17",
+   "ExpiryRelativeTo": "ORA_CHK_AFT_ASSIGNED_DT",
+   "TargetDuration": null,
+   "TargetDurationUOM": null,
+   "CompletionDate": null,
+   "DependentTaskName": null,
+   "Type": "ORA_CHK_MANUAL",
+   "TypeMeaning": "Manual Task",
+   "SubType": null,
+   "ActionReassign": "V",
+   "StageName": "Procurement - Purchasing Foundation",
+   "StageSequence": 20,
+   "Sequence": 800,
+   "SubSequence": null,
+   "TaskPercentageComplete": null,
+   "ActionEditDueDate": "V",
+   "ActionRemove": "V",
+   "ActionReopen": "H",
+   "ActionEdit": "V",
+   "AllowPrecedingTaskFlag": false,
+   "PerformerType": "ORA_WORKER",
+   "PerformerTypeMeaning": "Worker",
+   "@context": {
+    "key": "300000395104712",
+    "links": [
+     {
+      "rel": "self",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/hcmRestApi/resources/11.13.18.05/journeySubjects/RBK/child/assignedJourneys/300000395104645/child/allStepTasks/300000395104712",
+      "name": "allStepTasks",
+      "kind": "item"
+     },
+     {
+      "rel": "canonical",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/hcmRestApi/resources/11.13.18.05/journeySubjects/RBK/child/assignedJourneys/300000395104645/child/allStepTasks/300000395104712",
+      "name": "allStepTasks",
+      "kind": "item"
+     },
+     {
+      "rel": "parent",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/hcmRestApi/resources/11.13.18.05/journeySubjects/RBK/child/assignedJourneys/300000395104645",
+      "name": "assignedJourneys",
+      "kind": "item"
+     }
+    ]
+   }
+  },
+  {
+   "ParentWorkerJourneyId": "300000395104650",
+   "WorkerJourneyTaskId": "300000395104720",
+   "Description": "Review and edit Purchasing messages.",
+   "Name": "Manage Purchasing Messages",
+   "RequiredFlag": false,
+   "Status": "INI",
+   "StatusCategory": "OPEN",
+   "TargetEndDate": null,
+   "TargetStartDate": "2026-11-17",
+   "ExpiryRelativeTo": "ORA_CHK_AFT_ASSIGNED_DT",
+   "TargetDuration": null,
+   "TargetDurationUOM": null,
+   "CompletionDate": null,
+   "DependentTaskName": null,
+   "Type": "ORA_CHK_MANUAL",
+   "TypeMeaning": "Manual Task",
+   "SubType": null,
+   "ActionReassign": "V",
+   "StageName": "Procurement - Purchasing Foundation",
+   "StageSequence": 20,
+   "Sequence": 900,
+   "SubSequence": null,
+   "TaskPercentageComplete": null,
+   "ActionEditDueDate": "V",
+   "ActionRemove": "V",
+   "ActionReopen": "H",
+   "ActionEdit": "V",
+   "AllowPrecedingTaskFlag": false,
+   "PerformerType": "ORA_WORKER",
+   "PerformerTypeMeaning": "Worker",
+   "@context": {
+    "key": "300000395104720",
+    "links": [
+     {
+      "rel": "self",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/hcmRestApi/resources/11.13.18.05/journeySubjects/RBK/child/assignedJourneys/300000395104645/child/allStepTasks/300000395104720",
+      "name": "allStepTasks",
+      "kind": "item"
+     },
+     {
+      "rel": "canonical",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/hcmRestApi/resources/11.13.18.05/journeySubjects/RBK/child/assignedJourneys/300000395104645/child/allStepTasks/300000395104720",
+      "name": "allStepTasks",
+      "kind": "item"
+     },
+     {
+      "rel": "parent",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/hcmRestApi/resources/11.13.18.05/journeySubjects/RBK/child/assignedJourneys/300000395104645",
+      "name": "assignedJourneys",
+      "kind": "item"
+     }
+    ]
+   }
+  },
+  {
+   "ParentWorkerJourneyId": "300000395104650",
+   "WorkerJourneyTaskId": "300000395104728",
+   "Description": "Create and maintain hazard class codes and description which aid in clearly identifying orders for hazardous materials.",
+   "Name": "Manage Hazard Classes",
+   "RequiredFlag": false,
+   "Status": "INI",
+   "StatusCategory": "OPEN",
+   "TargetEndDate": null,
+   "TargetStartDate": "2026-11-17",
+   "ExpiryRelativeTo": "ORA_CHK_AFT_ASSIGNED_DT",
+   "TargetDuration": null,
+   "TargetDurationUOM": null,
+   "CompletionDate": null,
+   "DependentTaskName": null,
+   "Type": "ORA_CHK_MANUAL",
+   "TypeMeaning": "Manual Task",
+   "SubType": null,
+   "ActionReassign": "V",
+   "StageName": "Procurement - Purchasing Foundation",
+   "StageSequence": 20,
+   "Sequence": 1000,
+   "SubSequence": null,
+   "TaskPercentageComplete": null,
+   "ActionEditDueDate": "V",
+   "ActionRemove": "V",
+   "ActionReopen": "H",
+   "ActionEdit": "V",
+   "AllowPrecedingTaskFlag": false,
+   "PerformerType": "ORA_WORKER",
+   "PerformerTypeMeaning": "Worker",
+   "@context": {
+    "key": "300000395104728",
+    "links": [
+     {
+      "rel": "self",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/hcmRestApi/resources/11.13.18.05/journeySubjects/RBK/child/assignedJourneys/300000395104645/child/allStepTasks/300000395104728",
+      "name": "allStepTasks",
+      "kind": "item"
+     },
+     {
+      "rel": "canonical",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/hcmRestApi/resources/11.13.18.05/journeySubjects/RBK/child/assignedJourneys/300000395104645/child/allStepTasks/300000395104728",
+      "name": "allStepTasks",
+      "kind": "item"
+     },
+     {
+      "rel": "parent",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/hcmRestApi/resources/11.13.18.05/journeySubjects/RBK/child/assignedJourneys/300000395104645",
+      "name": "assignedJourneys",
+      "kind": "item"
+     }
+    ]
+   }
+  },
+  {
+   "ParentWorkerJourneyId": "300000395104650",
+   "WorkerJourneyTaskId": "300000395104736",
+   "Description": "Create and maintain United Nations identification numbers for hazardous materials.",
+   "Name": "Manage UN Numbers",
+   "RequiredFlag": false,
+   "Status": "INI",
+   "StatusCategory": "OPEN",
+   "TargetEndDate": null,
+   "TargetStartDate": "2026-11-17",
+   "ExpiryRelativeTo": "ORA_CHK_AFT_ASSIGNED_DT",
+   "TargetDuration": null,
+   "TargetDurationUOM": null,
+   "CompletionDate": null,
+   "DependentTaskName": null,
+   "Type": "ORA_CHK_MANUAL",
+   "TypeMeaning": "Manual Task",
+   "SubType": null,
+   "ActionReassign": "V",
+   "StageName": "Procurement - Purchasing Foundation",
+   "StageSequence": 20,
+   "Sequence": 1100,
+   "SubSequence": null,
+   "TaskPercentageComplete": null,
+   "ActionEditDueDate": "V",
+   "ActionRemove": "V",
+   "ActionReopen": "H",
+   "ActionEdit": "V",
+   "AllowPrecedingTaskFlag": false,
+   "PerformerType": "ORA_WORKER",
+   "PerformerTypeMeaning": "Worker",
+   "@context": {
+    "key": "300000395104736",
+    "links": [
+     {
+      "rel": "self",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/hcmRestApi/resources/11.13.18.05/journeySubjects/RBK/child/assignedJourneys/300000395104645/child/allStepTasks/300000395104736",
+      "name": "allStepTasks",
+      "kind": "item"
+     },
+     {
+      "rel": "canonical",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/hcmRestApi/resources/11.13.18.05/journeySubjects/RBK/child/assignedJourneys/300000395104645/child/allStepTasks/300000395104736",
+      "name": "allStepTasks",
+      "kind": "item"
+     },
+     {
+      "rel": "parent",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/hcmRestApi/resources/11.13.18.05/journeySubjects/RBK/child/assignedJourneys/300000395104645",
+      "name": "assignedJourneys",
+      "kind": "item"
+     }
+    ]
+   }
+  },
+  {
+   "ParentWorkerJourneyId": "300000395104650",
+   "WorkerJourneyTaskId": "300000395104744",
+   "Description": "Create and maintain approved supplier list statuses.",
+   "Name": "Manage Approved Supplier List Statuses",
+   "RequiredFlag": false,
+   "Status": "INI",
+   "StatusCategory": "OPEN",
+   "TargetEndDate": null,
+   "TargetStartDate": "2026-11-17",
+   "ExpiryRelativeTo": "ORA_CHK_AFT_ASSIGNED_DT",
+   "TargetDuration": null,
+   "TargetDurationUOM": null,
+   "CompletionDate": null,
+   "DependentTaskName": null,
+   "Type": "ORA_CHK_MANUAL",
+   "TypeMeaning": "Manual Task",
+   "SubType": null,
+   "ActionReassign": "V",
+   "StageName": "Procurement - Purchasing Foundation",
+   "StageSequence": 20,
+   "Sequence": 1200,
+   "SubSequence": null,
+   "TaskPercentageComplete": null,
+   "ActionEditDueDate": "V",
+   "ActionRemove": "V",
+   "ActionReopen": "H",
+   "ActionEdit": "V",
+   "AllowPrecedingTaskFlag": false,
+   "PerformerType": "ORA_WORKER",
+   "PerformerTypeMeaning": "Worker",
+   "@context": {
+    "key": "300000395104744",
+    "links": [
+     {
+      "rel": "self",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/hcmRestApi/resources/11.13.18.05/journeySubjects/RBK/child/assignedJourneys/300000395104645/child/allStepTasks/300000395104744",
+      "name": "allStepTasks",
+      "kind": "item"
+     },
+     {
+      "rel": "canonical",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/hcmRestApi/resources/11.13.18.05/journeySubjects/RBK/child/assignedJourneys/300000395104645/child/allStepTasks/300000395104744",
+      "name": "allStepTasks",
+      "kind": "item"
+     },
+     {
+      "rel": "parent",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/hcmRestApi/resources/11.13.18.05/journeySubjects/RBK/child/assignedJourneys/300000395104645",
+      "name": "assignedJourneys",
+      "kind": "item"
+     }
+    ]
+   }
+  },
+  {
+   "ParentWorkerJourneyId": "300000395104653",
+   "WorkerJourneyTaskId": "300000395104752",
+   "Description": "Manage the mapping of requisitioning business units to a source organization for external purchase prices.",
+   "Name": "Manage External Purchase Prices Requisitioning BU Mapping",
+   "RequiredFlag": false,
+   "Status": "INI",
+   "StatusCategory": "OPEN",
+   "TargetEndDate": null,
+   "TargetStartDate": "2026-11-17",
+   "ExpiryRelativeTo": "ORA_CHK_AFT_ASSIGNED_DT",
+   "TargetDuration": null,
+   "TargetDurationUOM": null,
+   "CompletionDate": null,
+   "DependentTaskName": null,
+   "Type": "ORA_CHK_DATA_LOADER",
+   "TypeMeaning": "Import and Load Data",
+   "SubType": null,
+   "ActionReassign": "V",
+   "StageName": "Procurement - External Purchase Prices",
+   "StageSequence": 30,
+   "Sequence": 1300,
+   "SubSequence": null,
+   "TaskPercentageComplete": null,
+   "ActionEditDueDate": "V",
+   "ActionRemove": "V",
+   "ActionReopen": "H",
+   "ActionEdit": "V",
+   "AllowPrecedingTaskFlag": false,
+   "PerformerType": "ORA_WORKER",
+   "PerformerTypeMeaning": "Worker",
+   "@context": {
+    "key": "300000395104752",
+    "links": [
+     {
+      "rel": "self",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/hcmRestApi/resources/11.13.18.05/journeySubjects/RBK/child/assignedJourneys/300000395104645/child/allStepTasks/300000395104752",
+      "name": "allStepTasks",
+      "kind": "item"
+     },
+     {
+      "rel": "canonical",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/hcmRestApi/resources/11.13.18.05/journeySubjects/RBK/child/assignedJourneys/300000395104645/child/allStepTasks/300000395104752",
+      "name": "allStepTasks",
+      "kind": "item"
+     },
+     {
+      "rel": "parent",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/hcmRestApi/resources/11.13.18.05/journeySubjects/RBK/child/assignedJourneys/300000395104645",
+      "name": "assignedJourneys",
+      "kind": "item"
+     }
+    ]
+   }
+  },
+  {
+   "ParentWorkerJourneyId": "300000395104653",
+   "WorkerJourneyTaskId": "300000395104760",
+   "Description": "Manage the criteria used to select the external purchase prices for a requisitioning business unit. The selected external purchase prices are created as blanket purchase agreements.",
+   "Name": "Manage External Purchase Prices Selection Criteria",
+   "RequiredFlag": false,
+   "Status": "INI",
+   "StatusCategory": "OPEN",
+   "TargetEndDate": null,
+   "TargetStartDate": "2026-11-17",
+   "ExpiryRelativeTo": "ORA_CHK_AFT_ASSIGNED_DT",
+   "TargetDuration": null,
+   "TargetDurationUOM": null,
+   "CompletionDate": null,
+   "DependentTaskName": null,
+   "Type": "ORA_CHK_DATA_LOADER",
+   "TypeMeaning": "Import and Load Data",
+   "SubType": null,
+   "ActionReassign": "V",
+   "StageName": "Procurement - External Purchase Prices",
+   "StageSequence": 30,
+   "Sequence": 1400,
+   "SubSequence": null,
+   "TaskPercentageComplete": null,
+   "ActionEditDueDate": "V",
+   "ActionRemove": "V",
+   "ActionReopen": "H",
+   "ActionEdit": "V",
+   "AllowPrecedingTaskFlag": false,
+   "PerformerType": "ORA_WORKER",
+   "PerformerTypeMeaning": "Worker",
+   "@context": {
+    "key": "300000395104760",
+    "links": [
+     {
+      "rel": "self",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/hcmRestApi/resources/11.13.18.05/journeySubjects/RBK/child/assignedJourneys/300000395104645/child/allStepTasks/300000395104760",
+      "name": "allStepTasks",
+      "kind": "item"
+     },
+     {
+      "rel": "canonical",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/hcmRestApi/resources/11.13.18.05/journeySubjects/RBK/child/assignedJourneys/300000395104645/child/allStepTasks/300000395104760",
+      "name": "allStepTasks",
+      "kind": "item"
+     },
+     {
+      "rel": "parent",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/hcmRestApi/resources/11.13.18.05/journeySubjects/RBK/child/assignedJourneys/300000395104645",
+      "name": "assignedJourneys",
+      "kind": "item"
+     }
+    ]
+   }
+  },
+  {
+   "ParentWorkerJourneyId": "300000395104653",
+   "WorkerJourneyTaskId": "300000395104768",
+   "Description": "Manage the default values that are configured at a requisitioning BU level in external purchase prices that would be used during the creation of the blanket purchase agreement.",
+   "Name": "Manage External Purchase Prices Purchase Agreement Defaults",
+   "RequiredFlag": false,
+   "Status": "INI",
+   "StatusCategory": "OPEN",
+   "TargetEndDate": null,
+   "TargetStartDate": "2026-11-17",
+   "ExpiryRelativeTo": "ORA_CHK_AFT_ASSIGNED_DT",
+   "TargetDuration": null,
+   "TargetDurationUOM": null,
+   "CompletionDate": null,
+   "DependentTaskName": null,
+   "Type": "ORA_CHK_DATA_LOADER",
+   "TypeMeaning": "Import and Load Data",
+   "SubType": null,
+   "ActionReassign": "V",
+   "StageName": "Procurement - External Purchase Prices",
+   "StageSequence": 30,
+   "Sequence": 1500,
+   "SubSequence": null,
+   "TaskPercentageComplete": null,
+   "ActionEditDueDate": "V",
+   "ActionRemove": "V",
+   "ActionReopen": "H",
+   "ActionEdit": "V",
+   "AllowPrecedingTaskFlag": false,
+   "PerformerType": "ORA_WORKER",
+   "PerformerTypeMeaning": "Worker",
+   "@context": {
+    "key": "300000395104768",
+    "links": [
+     {
+      "rel": "self",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/hcmRestApi/resources/11.13.18.05/journeySubjects/RBK/child/assignedJourneys/300000395104645/child/allStepTasks/300000395104768",
+      "name": "allStepTasks",
+      "kind": "item"
+     },
+     {
+      "rel": "canonical",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/hcmRestApi/resources/11.13.18.05/journeySubjects/RBK/child/assignedJourneys/300000395104645/child/allStepTasks/300000395104768",
+      "name": "allStepTasks",
+      "kind": "item"
+     },
+     {
+      "rel": "parent",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/hcmRestApi/resources/11.13.18.05/journeySubjects/RBK/child/assignedJourneys/300000395104645",
+      "name": "assignedJourneys",
+      "kind": "item"
+     }
+    ]
+   }
+  },
+  {
+   "ParentWorkerJourneyId": "300000395104653",
+   "WorkerJourneyTaskId": "300000395104776",
+   "Description": "Review and maintain lookup values used for managing external purchase prices.",
+   "Name": "Manage External Purchase Prices Lookups",
+   "RequiredFlag": false,
+   "Status": "INI",
+   "StatusCategory": "OPEN",
+   "TargetEndDate": null,
+   "TargetStartDate": "2026-11-17",
+   "ExpiryRelativeTo": "ORA_CHK_AFT_ASSIGNED_DT",
+   "TargetDuration": null,
+   "TargetDurationUOM": null,
+   "CompletionDate": null,
+   "DependentTaskName": null,
+   "Type": "ORA_CHK_MANUAL",
+   "TypeMeaning": "Manual Task",
+   "SubType": null,
+   "ActionReassign": "V",
+   "StageName": "Procurement - External Purchase Prices",
+   "StageSequence": 30,
+   "Sequence": 1600,
+   "SubSequence": null,
+   "TaskPercentageComplete": null,
+   "ActionEditDueDate": "V",
+   "ActionRemove": "V",
+   "ActionReopen": "H",
+   "ActionEdit": "V",
+   "AllowPrecedingTaskFlag": false,
+   "PerformerType": "ORA_WORKER",
+   "PerformerTypeMeaning": "Worker",
+   "@context": {
+    "key": "300000395104776",
+    "links": [
+     {
+      "rel": "self",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/hcmRestApi/resources/11.13.18.05/journeySubjects/RBK/child/assignedJourneys/300000395104645/child/allStepTasks/300000395104776",
+      "name": "allStepTasks",
+      "kind": "item"
+     },
+     {
+      "rel": "canonical",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/hcmRestApi/resources/11.13.18.05/journeySubjects/RBK/child/assignedJourneys/300000395104645/child/allStepTasks/300000395104776",
+      "name": "allStepTasks",
+      "kind": "item"
+     },
+     {
+      "rel": "parent",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/hcmRestApi/resources/11.13.18.05/journeySubjects/RBK/child/assignedJourneys/300000395104645",
+      "name": "assignedJourneys",
+      "kind": "item"
+     }
+    ]
+   }
+  }
+ ],
+ "count": 16,
+ "hasMore": false
+}

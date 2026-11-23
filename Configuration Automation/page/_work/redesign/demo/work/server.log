@@ -1,0 +1,849 @@
+2026-10-26 11:41:52  upload 2e2f8f958c (Setup_Workbook.xlsx): not ready, 8 record(s), 2 problem(s), 0 stop(s), checked in 6 s
+2026-10-26 11:41:59  upload d0377d12dd (Setup_Workbook_fixed.xlsx): ready, 8 record(s), 0 problem(s), 0 stop(s), checked in 6 s
+2026-10-26 12:54:28  upload f23d6eec05 (Setup_Workbook.xlsx): not ready, 8 record(s), 2 problem(s), 0 stop(s), checked in 6 s
+2026-10-26 12:54:37  upload 8ec20861ff (Setup_Workbook_fixed.xlsx): ready, 8 record(s), 0 problem(s), 0 stop(s), checked in 6 s
+2026-10-26 12:54:38  job cbd5b4984d queued: Order Types (upload 8ec20861ff)
+2026-10-26 12:54:38  job cbd5b4984d: order type 1 of 8: STANDARD_SALES
+2026-10-26 12:54:41  job cbd5b4984d_1 done: Created STANDARD_SALES in Oracle and checked every value.
+2026-10-26 12:54:41  job cbd5b4984d: STANDARD_SALES done
+2026-10-26 12:54:41  job cbd5b4984d: order type 2 of 8: RETURN_ORDER
+2026-10-26 12:54:43  job cbd5b4984d_2 done: Created RETURN_ORDER in Oracle and checked every value.
+2026-10-26 12:54:43  job cbd5b4984d: RETURN_ORDER done
+2026-10-26 12:54:43  job cbd5b4984d: payment term 3 of 8: NET30_ZZ
+2026-10-26 12:54:43  job cbd5b4984d: payment term 4 of 8: 2/10 NET 30
+2026-10-26 12:54:43  job cbd5b4984d: payment term 5 of 8: NET 60
+2026-10-26 12:54:51  job cbd5b4984d_3 stopped (INVALID_REQUEST): Oracle refused the payment term NET30_ZZ: You must enter months ahead when Day of Month is used. Nothing was saved in Oracle.
+2026-10-26 12:54:51  job cbd5b4984d: NET30_ZZ failed
+2026-10-26 12:54:51  job cbd5b4984d_4 done: Created 2/10 NET 30 in Oracle and checked every value.
+2026-10-26 12:54:51  job cbd5b4984d: 2/10 NET 30 done
+2026-10-26 12:54:51  job cbd5b4984d_5 done: Created NET 60 in Oracle and checked every value.
+2026-10-26 12:54:51  job cbd5b4984d: NET 60 done
+2026-10-26 12:54:51  job cbd5b4984d: question 3 (NET30_ZZ): Months Ahead '0' refused: You must enter months ahead when Day of Month is used.; suggested: 1, 2, 3
+2026-10-26 12:54:51  job cbd5b4984d: lookup type 6 of 8: ZZ_ORDER_REASON
+2026-10-26 12:54:53  job cbd5b4984d: question 3 (NET30_ZZ) answered: Months Ahead = 1; trying again
+2026-10-26 12:54:54  job cbd5b4984d_6 done: Created ZZ_ORDER_REASON in Oracle and checked every value.
+2026-10-26 12:54:54  job cbd5b4984d: ZZ_ORDER_REASON done
+2026-10-26 12:54:54  job cbd5b4984d: business unit 7 of 8: Lahore Retail BU
+2026-10-26 12:54:54  job cbd5b4984d: business unit 8 of 8: Karachi Wholesale BU
+2026-10-26 12:54:59  job cbd5b4984d_7 done: Created Lahore Retail BU in Oracle and checked every value.
+2026-10-26 12:54:59  job cbd5b4984d: Lahore Retail BU done
+2026-10-26 12:54:59  job cbd5b4984d_8 done: Created Karachi Wholesale BU in Oracle and checked every value.
+2026-10-26 12:54:59  job cbd5b4984d: Karachi Wholesale BU done
+2026-10-26 12:54:59  job cbd5b4984d: payment term 3 of 8: NET30_ZZ
+2026-10-26 12:55:01  job cbd5b4984d_3 done: Created NET30_ZZ in Oracle and checked every value.
+2026-10-26 12:55:01  job cbd5b4984d: NET30_ZZ done
+2026-10-26 12:55:01  job cbd5b4984d: question 3 (NET30_ZZ) answered: Months Ahead = 1; done
+2026-10-26 12:56:28  upload 9911d08fff (Setup_Workbook.xlsx): not ready, 8 record(s), 2 problem(s), 0 stop(s), checked in 6 s
+2026-10-26 12:56:37  upload 03353153fd (Setup_Workbook_fixed.xlsx): ready, 8 record(s), 0 problem(s), 0 stop(s), checked in 6 s
+2026-10-26 12:56:38  job 5ebd9e2d24 queued: Order Types (upload 03353153fd)
+2026-10-26 12:56:38  job 5ebd9e2d24: order type 1 of 8: STANDARD_SALES
+2026-10-26 12:56:40  job 5ebd9e2d24_1 done: Created STANDARD_SALES in Oracle and checked every value.
+2026-10-26 12:56:40  job 5ebd9e2d24: STANDARD_SALES done
+2026-10-26 12:56:40  job 5ebd9e2d24: order type 2 of 8: RETURN_ORDER
+2026-10-26 12:56:43  job 5ebd9e2d24_2 done: Created RETURN_ORDER in Oracle and checked every value.
+2026-10-26 12:56:43  job 5ebd9e2d24: RETURN_ORDER done
+2026-10-26 12:56:43  job 5ebd9e2d24: payment term 3 of 8: NET30_ZZ
+2026-10-26 12:56:43  job 5ebd9e2d24: payment term 4 of 8: 2/10 NET 30
+2026-10-26 12:56:43  job 5ebd9e2d24: payment term 5 of 8: NET 60
+2026-10-26 12:56:51  job 5ebd9e2d24_3 stopped (INVALID_REQUEST): Oracle refused the payment term NET30_ZZ: You must enter months ahead when Day of Month is used. Nothing was saved in Oracle.
+2026-10-26 12:56:51  job 5ebd9e2d24: NET30_ZZ failed
+2026-10-26 12:56:51  job 5ebd9e2d24_4 done: Created 2/10 NET 30 in Oracle and checked every value.
+2026-10-26 12:56:51  job 5ebd9e2d24: 2/10 NET 30 done
+2026-10-26 12:56:51  job 5ebd9e2d24_5 done: Created NET 60 in Oracle and checked every value.
+2026-10-26 12:56:51  job 5ebd9e2d24: NET 60 done
+2026-10-26 12:56:51  job 5ebd9e2d24: question 3 (NET30_ZZ): Months Ahead '0' refused: You must enter months ahead when Day of Month is used.; suggested: 1, 2, 3
+2026-10-26 12:56:51  job 5ebd9e2d24: lookup type 6 of 8: ZZ_ORDER_REASON
+2026-10-26 12:56:53  job 5ebd9e2d24: question 3 (NET30_ZZ) answered: Months Ahead = 1; trying again
+2026-10-26 12:56:53  job 5ebd9e2d24_6 done: Created ZZ_ORDER_REASON in Oracle and checked every value.
+2026-10-26 12:56:53  job 5ebd9e2d24: ZZ_ORDER_REASON done
+2026-10-26 12:56:53  job 5ebd9e2d24: business unit 7 of 8: Lahore Retail BU
+2026-10-26 12:56:53  job 5ebd9e2d24: business unit 8 of 8: Karachi Wholesale BU
+2026-10-26 12:56:58  job 5ebd9e2d24_7 done: Created Lahore Retail BU in Oracle and checked every value.
+2026-10-26 12:56:58  job 5ebd9e2d24: Lahore Retail BU done
+2026-10-26 12:56:58  job 5ebd9e2d24_8 done: Created Karachi Wholesale BU in Oracle and checked every value.
+2026-10-26 12:56:58  job 5ebd9e2d24: Karachi Wholesale BU done
+2026-10-26 12:56:58  job 5ebd9e2d24: payment term 3 of 8: NET30_ZZ
+2026-10-26 12:57:01  job 5ebd9e2d24_3 done: Created NET30_ZZ in Oracle and checked every value.
+2026-10-26 12:57:01  job 5ebd9e2d24: NET30_ZZ done
+2026-10-26 12:57:01  job 5ebd9e2d24: question 3 (NET30_ZZ) answered: Months Ahead = 1; done
+2026-10-26 12:57:30  upload 4266d32a83 (Setup_Workbook.xlsx): not ready, 8 record(s), 2 problem(s), 0 stop(s), checked in 6 s
+2026-10-26 12:57:39  upload ff42778b8f (Setup_Workbook_fixed.xlsx): ready, 8 record(s), 0 problem(s), 0 stop(s), checked in 6 s
+2026-10-26 12:57:40  job 227439f1ee queued: Order Types (upload ff42778b8f)
+2026-10-26 12:57:40  job 227439f1ee: order type 1 of 8: STANDARD_SALES
+2026-10-26 12:57:43  job 227439f1ee_1 done: Created STANDARD_SALES in Oracle and checked every value.
+2026-10-26 12:57:43  job 227439f1ee: STANDARD_SALES done
+2026-10-26 12:57:43  job 227439f1ee: order type 2 of 8: RETURN_ORDER
+2026-10-26 12:57:46  job 227439f1ee_2 done: Created RETURN_ORDER in Oracle and checked every value.
+2026-10-26 12:57:46  job 227439f1ee: RETURN_ORDER done
+2026-10-26 12:57:46  job 227439f1ee: payment term 3 of 8: NET30_ZZ
+2026-10-26 12:57:46  job 227439f1ee: payment term 4 of 8: 2/10 NET 30
+2026-10-26 12:57:46  job 227439f1ee: payment term 5 of 8: NET 60
+2026-10-26 12:57:53  job 227439f1ee_3 stopped (INVALID_REQUEST): Oracle refused the payment term NET30_ZZ: You must enter months ahead when Day of Month is used. Nothing was saved in Oracle.
+2026-10-26 12:57:53  job 227439f1ee: NET30_ZZ failed
+2026-10-26 12:57:53  job 227439f1ee_4 done: Created 2/10 NET 30 in Oracle and checked every value.
+2026-10-26 12:57:53  job 227439f1ee: 2/10 NET 30 done
+2026-10-26 12:57:53  job 227439f1ee_5 done: Created NET 60 in Oracle and checked every value.
+2026-10-26 12:57:53  job 227439f1ee: NET 60 done
+2026-10-26 12:57:53  job 227439f1ee: question 3 (NET30_ZZ): Months Ahead '0' refused: You must enter months ahead when Day of Month is used.; suggested: 1, 2, 3
+2026-10-26 12:57:53  job 227439f1ee: lookup type 6 of 8: ZZ_ORDER_REASON
+2026-10-26 12:57:55  job 227439f1ee: question 3 (NET30_ZZ) answered: Months Ahead = 1; trying again
+2026-10-26 12:57:56  job 227439f1ee_6 done: Created ZZ_ORDER_REASON in Oracle and checked every value.
+2026-10-26 12:57:56  job 227439f1ee: ZZ_ORDER_REASON done
+2026-10-26 12:57:56  job 227439f1ee: business unit 7 of 8: Lahore Retail BU
+2026-10-26 12:57:56  job 227439f1ee: business unit 8 of 8: Karachi Wholesale BU
+2026-10-26 12:58:01  job 227439f1ee_7 done: Created Lahore Retail BU in Oracle and checked every value.
+2026-10-26 12:58:01  job 227439f1ee: Lahore Retail BU done
+2026-10-26 12:58:01  job 227439f1ee_8 done: Created Karachi Wholesale BU in Oracle and checked every value.
+2026-10-26 12:58:01  job 227439f1ee: Karachi Wholesale BU done
+2026-10-26 12:58:01  job 227439f1ee: payment term 3 of 8: NET30_ZZ
+2026-10-26 12:58:03  job 227439f1ee_3 done: Created NET30_ZZ in Oracle and checked every value.
+2026-10-26 12:58:03  job 227439f1ee: NET30_ZZ done
+2026-10-26 12:58:03  job 227439f1ee: question 3 (NET30_ZZ) answered: Months Ahead = 1; done
+2026-10-26 12:58:33  upload 58b7cc8c39 (Setup_Workbook.xlsx): not ready, 8 record(s), 2 problem(s), 0 stop(s), checked in 6 s
+2026-10-26 12:58:42  upload b6846ea947 (Setup_Workbook_fixed.xlsx): ready, 8 record(s), 0 problem(s), 0 stop(s), checked in 6 s
+2026-10-26 12:58:43  job 98066d53f1 queued: Order Types (upload b6846ea947)
+2026-10-26 12:58:43  job 98066d53f1: order type 1 of 8: STANDARD_SALES
+2026-10-26 12:58:45  job 98066d53f1_1 done: Created STANDARD_SALES in Oracle and checked every value.
+2026-10-26 12:58:45  job 98066d53f1: STANDARD_SALES done
+2026-10-26 12:58:45  job 98066d53f1: order type 2 of 8: RETURN_ORDER
+2026-10-26 12:58:48  job 98066d53f1_2 done: Created RETURN_ORDER in Oracle and checked every value.
+2026-10-26 12:58:48  job 98066d53f1: RETURN_ORDER done
+2026-10-26 12:58:48  job 98066d53f1: payment term 3 of 8: NET30_ZZ
+2026-10-26 12:58:48  job 98066d53f1: payment term 4 of 8: 2/10 NET 30
+2026-10-26 12:58:48  job 98066d53f1: payment term 5 of 8: NET 60
+2026-10-26 12:58:55  job 98066d53f1_3 stopped (INVALID_REQUEST): Oracle refused the payment term NET30_ZZ: You must enter months ahead when Day of Month is used. Nothing was saved in Oracle.
+2026-10-26 12:58:55  job 98066d53f1: NET30_ZZ failed
+2026-10-26 12:58:55  job 98066d53f1_4 done: Created 2/10 NET 30 in Oracle and checked every value.
+2026-10-26 12:58:55  job 98066d53f1: 2/10 NET 30 done
+2026-10-26 12:58:55  job 98066d53f1_5 done: Created NET 60 in Oracle and checked every value.
+2026-10-26 12:58:55  job 98066d53f1: NET 60 done
+2026-10-26 12:58:55  job 98066d53f1: question 3 (NET30_ZZ): Months Ahead '0' refused: You must enter months ahead when Day of Month is used.; suggested: 1, 2, 3
+2026-10-26 12:58:55  job 98066d53f1: lookup type 6 of 8: ZZ_ORDER_REASON
+2026-10-26 12:58:57  job 98066d53f1: question 3 (NET30_ZZ) answered: Months Ahead = 1; trying again
+2026-10-26 12:58:58  job 98066d53f1_6 done: Created ZZ_ORDER_REASON in Oracle and checked every value.
+2026-10-26 12:58:58  job 98066d53f1: ZZ_ORDER_REASON done
+2026-10-26 12:58:58  job 98066d53f1: business unit 7 of 8: Lahore Retail BU
+2026-10-26 12:58:58  job 98066d53f1: business unit 8 of 8: Karachi Wholesale BU
+2026-10-26 12:59:03  job 98066d53f1_7 done: Created Lahore Retail BU in Oracle and checked every value.
+2026-10-26 12:59:03  job 98066d53f1: Lahore Retail BU done
+2026-10-26 12:59:03  job 98066d53f1_8 done: Created Karachi Wholesale BU in Oracle and checked every value.
+2026-10-26 12:59:03  job 98066d53f1: Karachi Wholesale BU done
+2026-10-26 12:59:03  job 98066d53f1: payment term 3 of 8: NET30_ZZ
+2026-10-26 12:59:06  job 98066d53f1_3 done: Created NET30_ZZ in Oracle and checked every value.
+2026-10-26 12:59:06  job 98066d53f1: NET30_ZZ done
+2026-10-26 12:59:06  job 98066d53f1: question 3 (NET30_ZZ) answered: Months Ahead = 1; done
+2026-10-26 13:00:09  upload 88419f967c (Setup_Workbook.xlsx): not ready, 8 record(s), 2 problem(s), 0 stop(s), checked in 6 s
+2026-10-26 13:00:18  upload 0566df130e (Setup_Workbook_fixed.xlsx): ready, 8 record(s), 0 problem(s), 0 stop(s), checked in 6 s
+2026-10-26 13:00:19  job 6b7e28d714 queued: Order Types (upload 0566df130e)
+2026-10-26 13:00:19  job 6b7e28d714: order type 1 of 8: STANDARD_SALES
+2026-10-26 13:00:21  job 6b7e28d714_1 done: Created STANDARD_SALES in Oracle and checked every value.
+2026-10-26 13:00:21  job 6b7e28d714: STANDARD_SALES done
+2026-10-26 13:00:21  job 6b7e28d714: order type 2 of 8: RETURN_ORDER
+2026-10-26 13:00:24  job 6b7e28d714_2 done: Created RETURN_ORDER in Oracle and checked every value.
+2026-10-26 13:00:24  job 6b7e28d714: RETURN_ORDER done
+2026-10-26 13:00:24  job 6b7e28d714: payment term 3 of 8: NET30_ZZ
+2026-10-26 13:00:24  job 6b7e28d714: payment term 4 of 8: 2/10 NET 30
+2026-10-26 13:00:24  job 6b7e28d714: payment term 5 of 8: NET 60
+2026-10-26 13:00:32  job 6b7e28d714_3 stopped (INVALID_REQUEST): Oracle refused the payment term NET30_ZZ: You must enter months ahead when Day of Month is used. Nothing was saved in Oracle.
+2026-10-26 13:00:32  job 6b7e28d714: NET30_ZZ failed
+2026-10-26 13:00:32  job 6b7e28d714_4 done: Created 2/10 NET 30 in Oracle and checked every value.
+2026-10-26 13:00:32  job 6b7e28d714: 2/10 NET 30 done
+2026-10-26 13:00:32  job 6b7e28d714_5 done: Created NET 60 in Oracle and checked every value.
+2026-10-26 13:00:32  job 6b7e28d714: NET 60 done
+2026-10-26 13:00:32  job 6b7e28d714: question 3 (NET30_ZZ): Months Ahead '0' refused: You must enter months ahead when Day of Month is used.; suggested: 1, 2, 3
+2026-10-26 13:00:32  job 6b7e28d714: lookup type 6 of 8: ZZ_ORDER_REASON
+2026-10-26 13:00:34  job 6b7e28d714: question 3 (NET30_ZZ) answered: Months Ahead = 1; trying again
+2026-10-26 13:00:34  job 6b7e28d714_6 done: Created ZZ_ORDER_REASON in Oracle and checked every value.
+2026-10-26 13:00:34  job 6b7e28d714: ZZ_ORDER_REASON done
+2026-10-26 13:00:34  job 6b7e28d714: business unit 7 of 8: Lahore Retail BU
+2026-10-26 13:00:34  job 6b7e28d714: business unit 8 of 8: Karachi Wholesale BU
+2026-10-26 13:00:39  job 6b7e28d714_7 done: Created Lahore Retail BU in Oracle and checked every value.
+2026-10-26 13:00:39  job 6b7e28d714: Lahore Retail BU done
+2026-10-26 13:00:39  job 6b7e28d714_8 done: Created Karachi Wholesale BU in Oracle and checked every value.
+2026-10-26 13:00:39  job 6b7e28d714: Karachi Wholesale BU done
+2026-10-26 13:00:39  job 6b7e28d714: payment term 3 of 8: NET30_ZZ
+2026-10-26 13:00:42  job 6b7e28d714_3 done: Created NET30_ZZ in Oracle and checked every value.
+2026-10-26 13:00:42  job 6b7e28d714: NET30_ZZ done
+2026-10-26 13:00:42  job 6b7e28d714: question 3 (NET30_ZZ) answered: Months Ahead = 1; done
+2026-10-26 13:01:11  upload 033245a2bb (Setup_Workbook.xlsx): not ready, 8 record(s), 2 problem(s), 0 stop(s), checked in 6 s
+2026-10-26 13:01:20  upload 3a613856af (Setup_Workbook_fixed.xlsx): ready, 8 record(s), 0 problem(s), 0 stop(s), checked in 6 s
+2026-10-26 13:01:21  job d95bf8a73b queued: Order Types (upload 3a613856af)
+2026-10-26 13:01:21  job d95bf8a73b: order type 1 of 8: STANDARD_SALES
+2026-10-26 13:01:24  job d95bf8a73b_1 done: Created STANDARD_SALES in Oracle and checked every value.
+2026-10-26 13:01:24  job d95bf8a73b: STANDARD_SALES done
+2026-10-26 13:01:24  job d95bf8a73b: order type 2 of 8: RETURN_ORDER
+2026-10-26 13:01:26  job d95bf8a73b_2 done: Created RETURN_ORDER in Oracle and checked every value.
+2026-10-26 13:01:26  job d95bf8a73b: RETURN_ORDER done
+2026-10-26 13:01:26  job d95bf8a73b: payment term 3 of 8: NET30_ZZ
+2026-10-26 13:01:26  job d95bf8a73b: payment term 4 of 8: 2/10 NET 30
+2026-10-26 13:01:26  job d95bf8a73b: payment term 5 of 8: NET 60
+2026-10-26 13:01:34  job d95bf8a73b_3 stopped (INVALID_REQUEST): Oracle refused the payment term NET30_ZZ: You must enter months ahead when Day of Month is used. Nothing was saved in Oracle.
+2026-10-26 13:01:34  job d95bf8a73b: NET30_ZZ failed
+2026-10-26 13:01:34  job d95bf8a73b_4 done: Created 2/10 NET 30 in Oracle and checked every value.
+2026-10-26 13:01:34  job d95bf8a73b: 2/10 NET 30 done
+2026-10-26 13:01:34  job d95bf8a73b_5 done: Created NET 60 in Oracle and checked every value.
+2026-10-26 13:01:34  job d95bf8a73b: NET 60 done
+2026-10-26 13:01:34  job d95bf8a73b: question 3 (NET30_ZZ): Months Ahead '0' refused: You must enter months ahead when Day of Month is used.; suggested: 1, 2, 3
+2026-10-26 13:01:34  job d95bf8a73b: lookup type 6 of 8: ZZ_ORDER_REASON
+2026-10-26 13:01:36  job d95bf8a73b: question 3 (NET30_ZZ) answered: Months Ahead = 1; trying again
+2026-10-26 13:01:37  job d95bf8a73b_6 done: Created ZZ_ORDER_REASON in Oracle and checked every value.
+2026-10-26 13:01:37  job d95bf8a73b: ZZ_ORDER_REASON done
+2026-10-26 13:01:37  job d95bf8a73b: business unit 7 of 8: Lahore Retail BU
+2026-10-26 13:01:37  job d95bf8a73b: business unit 8 of 8: Karachi Wholesale BU
+2026-10-26 13:01:42  job d95bf8a73b_7 done: Created Lahore Retail BU in Oracle and checked every value.
+2026-10-26 13:01:42  job d95bf8a73b: Lahore Retail BU done
+2026-10-26 13:01:42  job d95bf8a73b_8 done: Created Karachi Wholesale BU in Oracle and checked every value.
+2026-10-26 13:01:42  job d95bf8a73b: Karachi Wholesale BU done
+2026-10-26 13:01:42  job d95bf8a73b: payment term 3 of 8: NET30_ZZ
+2026-10-26 13:01:44  job d95bf8a73b_3 done: Created NET30_ZZ in Oracle and checked every value.
+2026-10-26 13:01:44  job d95bf8a73b: NET30_ZZ done
+2026-10-26 13:01:44  job d95bf8a73b: question 3 (NET30_ZZ) answered: Months Ahead = 1; done
+2026-10-26 13:02:14  upload 4f39551894 (Setup_Workbook.xlsx): not ready, 8 record(s), 2 problem(s), 0 stop(s), checked in 6 s
+2026-10-26 13:02:23  upload 0b4206989b (Setup_Workbook_fixed.xlsx): ready, 8 record(s), 0 problem(s), 0 stop(s), checked in 6 s
+2026-10-26 13:02:24  job 356ffa7df7 queued: Order Types (upload 0b4206989b)
+2026-10-26 13:02:24  job 356ffa7df7: order type 1 of 8: STANDARD_SALES
+2026-10-26 13:02:26  job 356ffa7df7_1 done: Created STANDARD_SALES in Oracle and checked every value.
+2026-10-26 13:02:26  job 356ffa7df7: STANDARD_SALES done
+2026-10-26 13:02:26  job 356ffa7df7: order type 2 of 8: RETURN_ORDER
+2026-10-26 13:02:29  job 356ffa7df7_2 done: Created RETURN_ORDER in Oracle and checked every value.
+2026-10-26 13:02:29  job 356ffa7df7: RETURN_ORDER done
+2026-10-26 13:02:29  job 356ffa7df7: payment term 3 of 8: NET30_ZZ
+2026-10-26 13:02:29  job 356ffa7df7: payment term 4 of 8: 2/10 NET 30
+2026-10-26 13:02:29  job 356ffa7df7: payment term 5 of 8: NET 60
+2026-10-26 13:02:36  job 356ffa7df7_3 stopped (INVALID_REQUEST): Oracle refused the payment term NET30_ZZ: You must enter months ahead when Day of Month is used. Nothing was saved in Oracle.
+2026-10-26 13:02:36  job 356ffa7df7: NET30_ZZ failed
+2026-10-26 13:02:36  job 356ffa7df7_4 done: Created 2/10 NET 30 in Oracle and checked every value.
+2026-10-26 13:02:36  job 356ffa7df7: 2/10 NET 30 done
+2026-10-26 13:02:36  job 356ffa7df7_5 done: Created NET 60 in Oracle and checked every value.
+2026-10-26 13:02:36  job 356ffa7df7: NET 60 done
+2026-10-26 13:02:36  job 356ffa7df7: question 3 (NET30_ZZ): Months Ahead '0' refused: You must enter months ahead when Day of Month is used.; suggested: 1, 2, 3
+2026-10-26 13:02:36  job 356ffa7df7: lookup type 6 of 8: ZZ_ORDER_REASON
+2026-10-26 13:02:38  job 356ffa7df7: question 3 (NET30_ZZ) answered: Months Ahead = 1; trying again
+2026-10-26 13:02:39  job 356ffa7df7_6 done: Created ZZ_ORDER_REASON in Oracle and checked every value.
+2026-10-26 13:02:39  job 356ffa7df7: ZZ_ORDER_REASON done
+2026-10-26 13:02:39  job 356ffa7df7: business unit 7 of 8: Lahore Retail BU
+2026-10-26 13:02:39  job 356ffa7df7: business unit 8 of 8: Karachi Wholesale BU
+2026-10-26 13:02:44  job 356ffa7df7_7 done: Created Lahore Retail BU in Oracle and checked every value.
+2026-10-26 13:02:44  job 356ffa7df7: Lahore Retail BU done
+2026-10-26 13:02:44  job 356ffa7df7_8 done: Created Karachi Wholesale BU in Oracle and checked every value.
+2026-10-26 13:02:44  job 356ffa7df7: Karachi Wholesale BU done
+2026-10-26 13:02:44  job 356ffa7df7: payment term 3 of 8: NET30_ZZ
+2026-10-26 13:02:47  job 356ffa7df7_3 done: Created NET30_ZZ in Oracle and checked every value.
+2026-10-26 13:02:47  job 356ffa7df7: NET30_ZZ done
+2026-10-26 13:02:47  job 356ffa7df7: question 3 (NET30_ZZ) answered: Months Ahead = 1; done
+2026-10-26 17:48:56  upload bdde8d7ebd (Done_mixed.xlsx): ready, 10 record(s), 0 problem(s), 0 stop(s), checked in 6 s
+2026-10-26 17:48:56  job 59c1b18c96 queued: Order Types (upload bdde8d7ebd)
+2026-10-26 17:48:56  job 59c1b18c96: order type 1 of 10: STANDARD_SALES
+2026-10-26 17:48:59  job 59c1b18c96_1 done: Created STANDARD_SALES in Oracle and checked every value.
+2026-10-26 17:48:59  job 59c1b18c96: STANDARD_SALES done
+2026-10-26 17:48:59  job 59c1b18c96: order type 2 of 10: RUSH_FLAKY
+2026-10-26 17:49:01  job 59c1b18c96_2 repair attempt 1: cost $0.0123 (this run $0.0123), status no_change_needed, changed nothing: It was a temporary problem (stub).
+2026-10-26 17:49:04  job 59c1b18c96_2: rerun after repair attempt 1: ok - Created RUSH_FLAKY in Oracle and checked every value.
+2026-10-26 17:49:04  job 59c1b18c96_2: repair finished, total cost $0.0123
+2026-10-26 17:49:04  job 59c1b18c96_2 done: Created RUSH_FLAKY in Oracle and checked every value.
+2026-10-26 17:49:04  job 59c1b18c96: RUSH_FLAKY done
+2026-10-26 17:49:04  job 59c1b18c96: order type 3 of 10: RETURN_ORDER
+2026-10-26 17:49:07  job 59c1b18c96_3 stopped (INVALID_REQUEST): Oracle refused RETURN_ORDER: Another order type (RETURNS) already uses the name 'Return Order'. Nothing was saved in Oracle.
+2026-10-26 17:49:07  job 59c1b18c96: RETURN_ORDER failed
+2026-10-26 17:49:07  job 59c1b18c96: question 3 (RETURN_ORDER): Meaning 'Return Order' refused: Another order type (RETURNS) already uses the name 'Return Order'.; suggested: Return Order (RETURN_ORDER), Return Order 2
+2026-10-26 17:49:07  job 59c1b18c96: payment term 4 of 10: NET30_ZZ
+2026-10-26 17:49:07  job 59c1b18c96: payment term 5 of 10: 2/10 NET 30
+2026-10-26 17:49:07  job 59c1b18c96: payment term 6 of 10: NET 60
+2026-10-26 17:49:07  job 59c1b18c96: question 3 (RETURN_ORDER) answered: Meaning = Return Order 2; trying again
+2026-10-26 17:49:14  job 59c1b18c96_4 stopped (INVALID_REQUEST): Oracle refused the payment term NET30_ZZ: You must enter months ahead when Day of Month is used. Nothing was saved in Oracle.
+2026-10-26 17:49:14  job 59c1b18c96: NET30_ZZ failed
+2026-10-26 17:49:14  job 59c1b18c96_5 stopped (INVALID_REQUEST): Oracle refused the payment term 2/10 NET 30: ORA-20001: this description isn't accepted for this payment term (demo). Nothing was saved in Oracle.
+2026-10-26 17:49:14  job 59c1b18c96: 2/10 NET 30 failed
+2026-10-26 17:49:14  job 59c1b18c96_6 done: Created NET 60 in Oracle and checked every value.
+2026-10-26 17:49:14  job 59c1b18c96: NET 60 done
+2026-10-26 17:49:14  job 59c1b18c96: question 4 (NET30_ZZ): Months Ahead '0' refused: You must enter months ahead when Day of Month is used.; suggested: 1, 2, 3
+2026-10-26 17:49:14  job 59c1b18c96_5p proposal: cost $0.0123, field description, value 'CLAUDE_FIX': The stub proposes a value that works.
+2026-10-26 17:49:14  job 59c1b18c96: question 5 (2/10 NET 30): Item Description 'UNKNOWN_ME' refused: ORA-20001: this description isn't accepted for this payment term (demo).; suggested: CLAUDE_FIX
+2026-10-26 17:49:14  job 59c1b18c96: lookup type 7 of 10: ZZ_ORDER_REASON
+2026-10-26 17:49:16  job 59c1b18c96: question 4 (NET30_ZZ) answered: Months Ahead = 1; trying again
+2026-10-26 17:49:17  job 59c1b18c96_7 stopped (INVALID_REQUEST): Oracle refused ZZ_ORDER_REASON: Lookup Type ZZ_ORDER_REASON already has lookup code meaning Late delivery. (FND-7103) Nothing was saved in Oracle.
+2026-10-26 17:49:17  job 59c1b18c96: ZZ_ORDER_REASON failed
+2026-10-26 17:49:17  job 59c1b18c96: question 7 (ZZ_ORDER_REASON): Meaning 'Late delivery' refused: Lookup Type ZZ_ORDER_REASON already has lookup code meaning Late delivery. (FND-7103); suggested: Late delivery (LATE), Late delivery 2
+2026-10-26 17:49:17  job 59c1b18c96: business unit 8 of 10: Lahore Retail BU
+2026-10-26 17:49:17  job 59c1b18c96: business unit 9 of 10: Karachi Wholesale BU
+2026-10-26 17:49:17  job 59c1b18c96: business unit 10 of 10: Dallas BU
+2026-10-26 17:49:18  job 59c1b18c96: question 5 (2/10 NET 30) answered: Item Description = CLAUDE_FIX; trying again
+2026-10-26 17:49:20  job 59c1b18c96: question 7 (ZZ_ORDER_REASON) skipped by the user
+2026-10-26 17:49:24  job 59c1b18c96_8 done: Created Lahore Retail BU in Oracle and checked every value.
+2026-10-26 17:49:24  job 59c1b18c96: Lahore Retail BU done
+2026-10-26 17:49:24  job 59c1b18c96_9 done: Created Karachi Wholesale BU in Oracle and checked every value.
+2026-10-26 17:49:24  job 59c1b18c96: Karachi Wholesale BU done
+2026-10-26 17:49:24  job 59c1b18c96_10 stopped (NO_PERMISSION): Your Oracle user has no permission to create business units here. Nothing was saved in Oracle.
+2026-10-26 17:49:24  job 59c1b18c96: Dallas BU failed
+2026-10-26 17:49:24  job 59c1b18c96: order type 3 of 10: RETURN_ORDER
+2026-10-26 17:49:27  job 59c1b18c96_3 done: Created RETURN_ORDER in Oracle and checked every value.
+2026-10-26 17:49:27  job 59c1b18c96: RETURN_ORDER done
+2026-10-26 17:49:27  job 59c1b18c96: question 3 (RETURN_ORDER) answered: Meaning = Return Order 2; done
+2026-10-26 17:49:27  job 59c1b18c96: payment term 4 of 10: NET30_ZZ
+2026-10-26 17:49:27  job 59c1b18c96: payment term 5 of 10: 2/10 NET 30
+2026-10-26 17:49:32  job 59c1b18c96_4 done: Created NET30_ZZ in Oracle and checked every value.
+2026-10-26 17:49:32  job 59c1b18c96: NET30_ZZ done
+2026-10-26 17:49:32  job 59c1b18c96_5 done: Created 2/10 NET 30 in Oracle and checked every value.
+2026-10-26 17:49:32  job 59c1b18c96: 2/10 NET 30 done
+2026-10-26 17:49:32  job 59c1b18c96: question 4 (NET30_ZZ) answered: Months Ahead = 1; done
+2026-10-26 17:49:32  job 59c1b18c96: question 5 (2/10 NET 30) answered: Item Description = CLAUDE_FIX; done
+2026-10-26 17:49:46  upload 44b87ca28c (Done_clean.xlsx): ready, 10 record(s), 0 problem(s), 0 stop(s), checked in 6 s
+2026-10-26 17:49:47  job 83eae6a2f1 queued: Order Types (upload 44b87ca28c)
+2026-10-26 17:49:47  job 83eae6a2f1: order type 1 of 10: STANDARD_SALES
+2026-10-26 17:49:49  job 83eae6a2f1_1 done: Created STANDARD_SALES in Oracle and checked every value.
+2026-10-26 17:49:49  job 83eae6a2f1: STANDARD_SALES done
+2026-10-26 17:49:49  job 83eae6a2f1: order type 2 of 10: RUSH_ORDER
+2026-10-26 17:49:52  job 83eae6a2f1_2 done: Created RUSH_ORDER in Oracle and checked every value.
+2026-10-26 17:49:52  job 83eae6a2f1: RUSH_ORDER done
+2026-10-26 17:49:52  job 83eae6a2f1: order type 3 of 10: RETURN_ORDER
+2026-10-26 17:49:55  job 83eae6a2f1_3 done: Created RETURN_ORDER in Oracle and checked every value.
+2026-10-26 17:49:55  job 83eae6a2f1: RETURN_ORDER done
+2026-10-26 17:49:55  job 83eae6a2f1: payment term 4 of 10: NET30_ZZ
+2026-10-26 17:49:55  job 83eae6a2f1: payment term 5 of 10: 2/10 NET 30
+2026-10-26 17:49:55  job 83eae6a2f1: payment term 6 of 10: NET 60
+2026-10-26 17:50:02  job 83eae6a2f1_4 done: Created NET30_ZZ in Oracle and checked every value.
+2026-10-26 17:50:02  job 83eae6a2f1: NET30_ZZ done
+2026-10-26 17:50:02  job 83eae6a2f1_5 done: Created 2/10 NET 30 in Oracle and checked every value.
+2026-10-26 17:50:02  job 83eae6a2f1: 2/10 NET 30 done
+2026-10-26 17:50:02  job 83eae6a2f1_6 done: Created NET 60 in Oracle and checked every value.
+2026-10-26 17:50:02  job 83eae6a2f1: NET 60 done
+2026-10-26 17:50:02  job 83eae6a2f1: lookup type 7 of 10: ZZ_ORDER_REASON
+2026-10-26 17:50:05  job 83eae6a2f1_7 done: Created ZZ_ORDER_REASON in Oracle and checked every value.
+2026-10-26 17:50:05  job 83eae6a2f1: ZZ_ORDER_REASON done
+2026-10-26 17:50:05  job 83eae6a2f1: business unit 8 of 10: Lahore Retail BU
+2026-10-26 17:50:05  job 83eae6a2f1: business unit 9 of 10: Karachi Wholesale BU
+2026-10-26 17:50:05  job 83eae6a2f1: business unit 10 of 10: Seattle BU
+2026-10-26 17:50:12  job 83eae6a2f1_8 done: Created Lahore Retail BU in Oracle and checked every value.
+2026-10-26 17:50:12  job 83eae6a2f1: Lahore Retail BU done
+2026-10-26 17:50:12  job 83eae6a2f1_9 done: Created Karachi Wholesale BU in Oracle and checked every value.
+2026-10-26 17:50:12  job 83eae6a2f1: Karachi Wholesale BU done
+2026-10-26 17:50:12  job 83eae6a2f1_10 done: Created Seattle BU in Oracle and checked every value.
+2026-10-26 17:50:12  job 83eae6a2f1: Seattle BU done
+2026-10-26 17:50:22  upload c351537f56 (Done_mixed.xlsx): ready, 10 record(s), 0 problem(s), 0 stop(s), checked in 6 s
+2026-10-26 17:50:22  job d04926ff5d queued: Order Types (upload c351537f56)
+2026-10-26 17:50:22  job d04926ff5d: order type 1 of 10: STANDARD_SALES
+2026-10-26 17:50:25  job d04926ff5d_1 done: Created STANDARD_SALES in Oracle and checked every value.
+2026-10-26 17:50:25  job d04926ff5d: STANDARD_SALES done
+2026-10-26 17:50:25  job d04926ff5d: order type 2 of 10: RUSH_FLAKY
+2026-10-26 17:50:28  job d04926ff5d_2 repair attempt 1: cost $0.0123 (this run $0.0123), status no_change_needed, changed nothing: It was a temporary problem (stub).
+2026-10-26 17:50:30  job d04926ff5d_2: rerun after repair attempt 1: ok - Created RUSH_FLAKY in Oracle and checked every value.
+2026-10-26 17:50:30  job d04926ff5d_2: repair finished, total cost $0.0123
+2026-10-26 17:50:30  job d04926ff5d_2 done: Created RUSH_FLAKY in Oracle and checked every value.
+2026-10-26 17:50:30  job d04926ff5d: RUSH_FLAKY done
+2026-10-26 17:50:30  job d04926ff5d: order type 3 of 10: RETURN_ORDER
+2026-10-26 17:50:33  job d04926ff5d_3 stopped (INVALID_REQUEST): Oracle refused RETURN_ORDER: Another order type (RETURNS) already uses the name 'Return Order'. Nothing was saved in Oracle.
+2026-10-26 17:50:33  job d04926ff5d: RETURN_ORDER failed
+2026-10-26 17:50:33  job d04926ff5d: question 3 (RETURN_ORDER): Meaning 'Return Order' refused: Another order type (RETURNS) already uses the name 'Return Order'.; suggested: Return Order (RETURN_ORDER), Return Order 2
+2026-10-26 17:50:33  job d04926ff5d: payment term 4 of 10: NET30_ZZ
+2026-10-26 17:50:33  job d04926ff5d: payment term 5 of 10: 2/10 NET 30
+2026-10-26 17:50:33  job d04926ff5d: payment term 6 of 10: NET 60
+2026-10-26 17:50:33  job d04926ff5d: question 3 (RETURN_ORDER) answered: Meaning = Return Order 2; trying again
+2026-10-26 17:50:41  job d04926ff5d_4 stopped (INVALID_REQUEST): Oracle refused the payment term NET30_ZZ: You must enter months ahead when Day of Month is used. Nothing was saved in Oracle.
+2026-10-26 17:50:41  job d04926ff5d: NET30_ZZ failed
+2026-10-26 17:50:41  job d04926ff5d_5 stopped (INVALID_REQUEST): Oracle refused the payment term 2/10 NET 30: ORA-20001: this description isn't accepted for this payment term (demo). Nothing was saved in Oracle.
+2026-10-26 17:50:41  job d04926ff5d: 2/10 NET 30 failed
+2026-10-26 17:50:41  job d04926ff5d_6 done: Created NET 60 in Oracle and checked every value.
+2026-10-26 17:50:41  job d04926ff5d: NET 60 done
+2026-10-26 17:50:41  job d04926ff5d: question 4 (NET30_ZZ): Months Ahead '0' refused: You must enter months ahead when Day of Month is used.; suggested: 1, 2, 3
+2026-10-26 17:50:41  job d04926ff5d_5p proposal: cost $0.0123, field description, value 'CLAUDE_FIX': The stub proposes a value that works.
+2026-10-26 17:50:41  job d04926ff5d: question 5 (2/10 NET 30): Item Description 'UNKNOWN_ME' refused: ORA-20001: this description isn't accepted for this payment term (demo).; suggested: CLAUDE_FIX
+2026-10-26 17:50:41  job d04926ff5d: lookup type 7 of 10: ZZ_ORDER_REASON
+2026-10-26 17:50:43  job d04926ff5d: question 4 (NET30_ZZ) answered: Months Ahead = 1; trying again
+2026-10-26 17:50:43  job d04926ff5d_7 stopped (INVALID_REQUEST): Oracle refused ZZ_ORDER_REASON: Lookup Type ZZ_ORDER_REASON already has lookup code meaning Late delivery. (FND-7103) Nothing was saved in Oracle.
+2026-10-26 17:50:43  job d04926ff5d: ZZ_ORDER_REASON failed
+2026-10-26 17:50:43  job d04926ff5d: question 7 (ZZ_ORDER_REASON): Meaning 'Late delivery' refused: Lookup Type ZZ_ORDER_REASON already has lookup code meaning Late delivery. (FND-7103); suggested: Late delivery (LATE), Late delivery 2
+2026-10-26 17:50:43  job d04926ff5d: business unit 8 of 10: Lahore Retail BU
+2026-10-26 17:50:43  job d04926ff5d: business unit 9 of 10: Karachi Wholesale BU
+2026-10-26 17:50:43  job d04926ff5d: business unit 10 of 10: Dallas BU
+2026-10-26 17:50:44  job d04926ff5d: question 5 (2/10 NET 30) answered: Item Description = CLAUDE_FIX; trying again
+2026-10-26 17:50:46  job d04926ff5d: question 7 (ZZ_ORDER_REASON) skipped by the user
+2026-10-26 17:50:51  job d04926ff5d_8 done: Created Lahore Retail BU in Oracle and checked every value.
+2026-10-26 17:50:51  job d04926ff5d: Lahore Retail BU done
+2026-10-26 17:50:51  job d04926ff5d_9 done: Created Karachi Wholesale BU in Oracle and checked every value.
+2026-10-26 17:50:51  job d04926ff5d: Karachi Wholesale BU done
+2026-10-26 17:50:51  job d04926ff5d_10 stopped (NO_PERMISSION): Your Oracle user has no permission to create business units here. Nothing was saved in Oracle.
+2026-10-26 17:50:51  job d04926ff5d: Dallas BU failed
+2026-10-26 17:50:51  job d04926ff5d: order type 3 of 10: RETURN_ORDER
+2026-10-26 17:50:54  job d04926ff5d_3 done: Created RETURN_ORDER in Oracle and checked every value.
+2026-10-26 17:50:54  job d04926ff5d: RETURN_ORDER done
+2026-10-26 17:50:54  job d04926ff5d: question 3 (RETURN_ORDER) answered: Meaning = Return Order 2; done
+2026-10-26 17:50:54  job d04926ff5d: payment term 4 of 10: NET30_ZZ
+2026-10-26 17:50:54  job d04926ff5d: payment term 5 of 10: 2/10 NET 30
+2026-10-26 17:50:59  job d04926ff5d_4 done: Created NET30_ZZ in Oracle and checked every value.
+2026-10-26 17:50:59  job d04926ff5d: NET30_ZZ done
+2026-10-26 17:50:59  job d04926ff5d_5 done: Created 2/10 NET 30 in Oracle and checked every value.
+2026-10-26 17:50:59  job d04926ff5d: 2/10 NET 30 done
+2026-10-26 17:50:59  job d04926ff5d: question 4 (NET30_ZZ) answered: Months Ahead = 1; done
+2026-10-26 17:50:59  job d04926ff5d: question 5 (2/10 NET 30) answered: Item Description = CLAUDE_FIX; done
+2026-10-26 17:51:09  upload da46df180f (Done_clean.xlsx): ready, 10 record(s), 0 problem(s), 0 stop(s), checked in 6 s
+2026-10-26 17:51:09  job 1e9e9b9ec3 queued: Order Types (upload da46df180f)
+2026-10-26 17:51:09  job 1e9e9b9ec3: order type 1 of 10: STANDARD_SALES
+2026-10-26 17:51:12  job 1e9e9b9ec3_1 done: Created STANDARD_SALES in Oracle and checked every value.
+2026-10-26 17:51:12  job 1e9e9b9ec3: STANDARD_SALES done
+2026-10-26 17:51:12  job 1e9e9b9ec3: order type 2 of 10: RUSH_ORDER
+2026-10-26 17:51:15  job 1e9e9b9ec3_2 done: Created RUSH_ORDER in Oracle and checked every value.
+2026-10-26 17:51:15  job 1e9e9b9ec3: RUSH_ORDER done
+2026-10-26 17:51:15  job 1e9e9b9ec3: order type 3 of 10: RETURN_ORDER
+2026-10-26 17:51:17  job 1e9e9b9ec3_3 done: Created RETURN_ORDER in Oracle and checked every value.
+2026-10-26 17:51:17  job 1e9e9b9ec3: RETURN_ORDER done
+2026-10-26 17:51:17  job 1e9e9b9ec3: payment term 4 of 10: NET30_ZZ
+2026-10-26 17:51:17  job 1e9e9b9ec3: payment term 5 of 10: 2/10 NET 30
+2026-10-26 17:51:17  job 1e9e9b9ec3: payment term 6 of 10: NET 60
+2026-10-26 17:51:25  job 1e9e9b9ec3_4 done: Created NET30_ZZ in Oracle and checked every value.
+2026-10-26 17:51:25  job 1e9e9b9ec3: NET30_ZZ done
+2026-10-26 17:51:25  job 1e9e9b9ec3_5 done: Created 2/10 NET 30 in Oracle and checked every value.
+2026-10-26 17:51:25  job 1e9e9b9ec3: 2/10 NET 30 done
+2026-10-26 17:51:25  job 1e9e9b9ec3_6 done: Created NET 60 in Oracle and checked every value.
+2026-10-26 17:51:25  job 1e9e9b9ec3: NET 60 done
+2026-10-26 17:51:25  job 1e9e9b9ec3: lookup type 7 of 10: ZZ_ORDER_REASON
+2026-10-26 17:51:27  job 1e9e9b9ec3_7 done: Created ZZ_ORDER_REASON in Oracle and checked every value.
+2026-10-26 17:51:27  job 1e9e9b9ec3: ZZ_ORDER_REASON done
+2026-10-26 17:51:27  job 1e9e9b9ec3: business unit 8 of 10: Lahore Retail BU
+2026-10-26 17:51:27  job 1e9e9b9ec3: business unit 9 of 10: Karachi Wholesale BU
+2026-10-26 17:51:27  job 1e9e9b9ec3: business unit 10 of 10: Seattle BU
+2026-10-26 17:51:35  job 1e9e9b9ec3_8 done: Created Lahore Retail BU in Oracle and checked every value.
+2026-10-26 17:51:35  job 1e9e9b9ec3: Lahore Retail BU done
+2026-10-26 17:51:35  job 1e9e9b9ec3_9 done: Created Karachi Wholesale BU in Oracle and checked every value.
+2026-10-26 17:51:35  job 1e9e9b9ec3: Karachi Wholesale BU done
+2026-10-26 17:51:35  job 1e9e9b9ec3_10 done: Created Seattle BU in Oracle and checked every value.
+2026-10-26 17:51:35  job 1e9e9b9ec3: Seattle BU done
+2026-10-26 17:51:45  upload 82515c02fe (Done_mixed.xlsx): ready, 10 record(s), 0 problem(s), 0 stop(s), checked in 6 s
+2026-10-26 17:51:45  job f4316bc219 queued: Order Types (upload 82515c02fe)
+2026-10-26 17:51:45  job f4316bc219: order type 1 of 10: STANDARD_SALES
+2026-10-26 17:51:48  job f4316bc219_1 done: Created STANDARD_SALES in Oracle and checked every value.
+2026-10-26 17:51:48  job f4316bc219: STANDARD_SALES done
+2026-10-26 17:51:48  job f4316bc219: order type 2 of 10: RUSH_FLAKY
+2026-10-26 17:51:50  job f4316bc219_2 repair attempt 1: cost $0.0123 (this run $0.0123), status no_change_needed, changed nothing: It was a temporary problem (stub).
+2026-10-26 17:51:53  job f4316bc219_2: rerun after repair attempt 1: ok - Created RUSH_FLAKY in Oracle and checked every value.
+2026-10-26 17:51:53  job f4316bc219_2: repair finished, total cost $0.0123
+2026-10-26 17:51:53  job f4316bc219_2 done: Created RUSH_FLAKY in Oracle and checked every value.
+2026-10-26 17:51:53  job f4316bc219: RUSH_FLAKY done
+2026-10-26 17:51:53  job f4316bc219: order type 3 of 10: RETURN_ORDER
+2026-10-26 17:51:56  job f4316bc219_3 stopped (INVALID_REQUEST): Oracle refused RETURN_ORDER: Another order type (RETURNS) already uses the name 'Return Order'. Nothing was saved in Oracle.
+2026-10-26 17:51:56  job f4316bc219: RETURN_ORDER failed
+2026-10-26 17:51:56  job f4316bc219: question 3 (RETURN_ORDER): Meaning 'Return Order' refused: Another order type (RETURNS) already uses the name 'Return Order'.; suggested: Return Order (RETURN_ORDER), Return Order 2
+2026-10-26 17:51:56  job f4316bc219: payment term 4 of 10: NET30_ZZ
+2026-10-26 17:51:56  job f4316bc219: payment term 5 of 10: 2/10 NET 30
+2026-10-26 17:51:56  job f4316bc219: payment term 6 of 10: NET 60
+2026-10-26 17:51:56  job f4316bc219: question 3 (RETURN_ORDER) answered: Meaning = Return Order 2; trying again
+2026-10-26 17:52:03  job f4316bc219_4 stopped (INVALID_REQUEST): Oracle refused the payment term NET30_ZZ: You must enter months ahead when Day of Month is used. Nothing was saved in Oracle.
+2026-10-26 17:52:03  job f4316bc219: NET30_ZZ failed
+2026-10-26 17:52:03  job f4316bc219_5 stopped (INVALID_REQUEST): Oracle refused the payment term 2/10 NET 30: ORA-20001: this description isn't accepted for this payment term (demo). Nothing was saved in Oracle.
+2026-10-26 17:52:03  job f4316bc219: 2/10 NET 30 failed
+2026-10-26 17:52:03  job f4316bc219_6 done: Created NET 60 in Oracle and checked every value.
+2026-10-26 17:52:03  job f4316bc219: NET 60 done
+2026-10-26 17:52:03  job f4316bc219: question 4 (NET30_ZZ): Months Ahead '0' refused: You must enter months ahead when Day of Month is used.; suggested: 1, 2, 3
+2026-10-26 17:52:03  job f4316bc219_5p proposal: cost $0.0123, field description, value 'CLAUDE_FIX': The stub proposes a value that works.
+2026-10-26 17:52:03  job f4316bc219: question 5 (2/10 NET 30): Item Description 'UNKNOWN_ME' refused: ORA-20001: this description isn't accepted for this payment term (demo).; suggested: CLAUDE_FIX
+2026-10-26 17:52:03  job f4316bc219: lookup type 7 of 10: ZZ_ORDER_REASON
+2026-10-26 17:52:05  job f4316bc219: question 4 (NET30_ZZ) answered: Months Ahead = 1; trying again
+2026-10-26 17:52:06  job f4316bc219_7 stopped (INVALID_REQUEST): Oracle refused ZZ_ORDER_REASON: Lookup Type ZZ_ORDER_REASON already has lookup code meaning Late delivery. (FND-7103) Nothing was saved in Oracle.
+2026-10-26 17:52:06  job f4316bc219: ZZ_ORDER_REASON failed
+2026-10-26 17:52:06  job f4316bc219: question 7 (ZZ_ORDER_REASON): Meaning 'Late delivery' refused: Lookup Type ZZ_ORDER_REASON already has lookup code meaning Late delivery. (FND-7103); suggested: Late delivery (LATE), Late delivery 2
+2026-10-26 17:52:06  job f4316bc219: business unit 8 of 10: Lahore Retail BU
+2026-10-26 17:52:06  job f4316bc219: business unit 9 of 10: Karachi Wholesale BU
+2026-10-26 17:52:06  job f4316bc219: business unit 10 of 10: Dallas BU
+2026-10-26 17:52:07  job f4316bc219: question 5 (2/10 NET 30) answered: Item Description = CLAUDE_FIX; trying again
+2026-10-26 17:52:08  job f4316bc219: question 7 (ZZ_ORDER_REASON) skipped by the user
+2026-10-26 17:52:13  job f4316bc219_8 done: Created Lahore Retail BU in Oracle and checked every value.
+2026-10-26 17:52:13  job f4316bc219: Lahore Retail BU done
+2026-10-26 17:52:13  job f4316bc219_9 done: Created Karachi Wholesale BU in Oracle and checked every value.
+2026-10-26 17:52:13  job f4316bc219: Karachi Wholesale BU done
+2026-10-26 17:52:13  job f4316bc219_10 stopped (NO_PERMISSION): Your Oracle user has no permission to create business units here. Nothing was saved in Oracle.
+2026-10-26 17:52:13  job f4316bc219: Dallas BU failed
+2026-10-26 17:52:13  job f4316bc219: order type 3 of 10: RETURN_ORDER
+2026-10-26 17:52:16  job f4316bc219_3 done: Created RETURN_ORDER in Oracle and checked every value.
+2026-10-26 17:52:16  job f4316bc219: RETURN_ORDER done
+2026-10-26 17:52:16  job f4316bc219: question 3 (RETURN_ORDER) answered: Meaning = Return Order 2; done
+2026-10-26 17:52:16  job f4316bc219: payment term 4 of 10: NET30_ZZ
+2026-10-26 17:52:16  job f4316bc219: payment term 5 of 10: 2/10 NET 30
+2026-10-26 17:52:21  job f4316bc219_4 done: Created NET30_ZZ in Oracle and checked every value.
+2026-10-26 17:52:21  job f4316bc219: NET30_ZZ done
+2026-10-26 17:52:21  job f4316bc219_5 done: Created 2/10 NET 30 in Oracle and checked every value.
+2026-10-26 17:52:21  job f4316bc219: 2/10 NET 30 done
+2026-10-26 17:52:21  job f4316bc219: question 4 (NET30_ZZ) answered: Months Ahead = 1; done
+2026-10-26 17:52:21  job f4316bc219: question 5 (2/10 NET 30) answered: Item Description = CLAUDE_FIX; done
+2026-10-26 17:52:31  upload cf10163207 (Done_clean.xlsx): ready, 10 record(s), 0 problem(s), 0 stop(s), checked in 6 s
+2026-10-26 17:52:32  job bd0b17f95c queued: Order Types (upload cf10163207)
+2026-10-26 17:52:32  job bd0b17f95c: order type 1 of 10: STANDARD_SALES
+2026-10-26 17:52:34  job bd0b17f95c_1 done: Created STANDARD_SALES in Oracle and checked every value.
+2026-10-26 17:52:34  job bd0b17f95c: STANDARD_SALES done
+2026-10-26 17:52:34  job bd0b17f95c: order type 2 of 10: RUSH_ORDER
+2026-10-26 17:52:37  job bd0b17f95c_2 done: Created RUSH_ORDER in Oracle and checked every value.
+2026-10-26 17:52:37  job bd0b17f95c: RUSH_ORDER done
+2026-10-26 17:52:37  job bd0b17f95c: order type 3 of 10: RETURN_ORDER
+2026-10-26 17:52:39  job bd0b17f95c_3 done: Created RETURN_ORDER in Oracle and checked every value.
+2026-10-26 17:52:39  job bd0b17f95c: RETURN_ORDER done
+2026-10-26 17:52:39  job bd0b17f95c: payment term 4 of 10: NET30_ZZ
+2026-10-26 17:52:39  job bd0b17f95c: payment term 5 of 10: 2/10 NET 30
+2026-10-26 17:52:39  job bd0b17f95c: payment term 6 of 10: NET 60
+2026-10-26 17:52:47  job bd0b17f95c_4 done: Created NET30_ZZ in Oracle and checked every value.
+2026-10-26 17:52:47  job bd0b17f95c: NET30_ZZ done
+2026-10-26 17:52:47  job bd0b17f95c_5 done: Created 2/10 NET 30 in Oracle and checked every value.
+2026-10-26 17:52:47  job bd0b17f95c: 2/10 NET 30 done
+2026-10-26 17:52:47  job bd0b17f95c_6 done: Created NET 60 in Oracle and checked every value.
+2026-10-26 17:52:47  job bd0b17f95c: NET 60 done
+2026-10-26 17:52:47  job bd0b17f95c: lookup type 7 of 10: ZZ_ORDER_REASON
+2026-10-26 17:52:50  job bd0b17f95c_7 done: Created ZZ_ORDER_REASON in Oracle and checked every value.
+2026-10-26 17:52:50  job bd0b17f95c: ZZ_ORDER_REASON done
+2026-10-26 17:52:50  job bd0b17f95c: business unit 8 of 10: Lahore Retail BU
+2026-10-26 17:52:50  job bd0b17f95c: business unit 9 of 10: Karachi Wholesale BU
+2026-10-26 17:52:50  job bd0b17f95c: business unit 10 of 10: Seattle BU
+2026-10-26 17:52:57  job bd0b17f95c_8 done: Created Lahore Retail BU in Oracle and checked every value.
+2026-10-26 17:52:57  job bd0b17f95c: Lahore Retail BU done
+2026-10-26 17:52:57  job bd0b17f95c_9 done: Created Karachi Wholesale BU in Oracle and checked every value.
+2026-10-26 17:52:57  job bd0b17f95c: Karachi Wholesale BU done
+2026-10-26 17:52:57  job bd0b17f95c_10 done: Created Seattle BU in Oracle and checked every value.
+2026-10-26 17:52:57  job bd0b17f95c: Seattle BU done
+2026-10-26 17:55:01  upload 037eafd5e0 (Done_mixed.xlsx): ready, 10 record(s), 0 problem(s), 0 stop(s), checked in 6 s
+2026-10-26 17:55:02  job eec3dfc42e queued: Order Types (upload 037eafd5e0)
+2026-10-26 17:55:02  job eec3dfc42e: order type 1 of 10: STANDARD_SALES
+2026-10-26 17:55:04  job eec3dfc42e_1 done: Created STANDARD_SALES in Oracle and checked every value.
+2026-10-26 17:55:04  job eec3dfc42e: STANDARD_SALES done
+2026-10-26 17:55:04  job eec3dfc42e: order type 2 of 10: RUSH_FLAKY
+2026-10-26 17:55:07  job eec3dfc42e_2 repair attempt 1: cost $0.0123 (this run $0.0123), status no_change_needed, changed nothing: It was a temporary problem (stub).
+2026-10-26 17:55:10  job eec3dfc42e_2: rerun after repair attempt 1: ok - Created RUSH_FLAKY in Oracle and checked every value.
+2026-10-26 17:55:10  job eec3dfc42e_2: repair finished, total cost $0.0123
+2026-10-26 17:55:10  job eec3dfc42e_2 done: Created RUSH_FLAKY in Oracle and checked every value.
+2026-10-26 17:55:10  job eec3dfc42e: RUSH_FLAKY done
+2026-10-26 17:55:10  job eec3dfc42e: order type 3 of 10: RETURN_ORDER
+2026-10-26 17:55:12  job eec3dfc42e_3 stopped (INVALID_REQUEST): Oracle refused RETURN_ORDER: Another order type (RETURNS) already uses the name 'Return Order'. Nothing was saved in Oracle.
+2026-10-26 17:55:12  job eec3dfc42e: RETURN_ORDER failed
+2026-10-26 17:55:12  job eec3dfc42e: question 3 (RETURN_ORDER): Meaning 'Return Order' refused: Another order type (RETURNS) already uses the name 'Return Order'.; suggested: Return Order (RETURN_ORDER), Return Order 2
+2026-10-26 17:55:12  job eec3dfc42e: payment term 4 of 10: NET30_ZZ
+2026-10-26 17:55:12  job eec3dfc42e: payment term 5 of 10: 2/10 NET 30
+2026-10-26 17:55:12  job eec3dfc42e: payment term 6 of 10: NET 60
+2026-10-26 17:55:13  job eec3dfc42e: question 3 (RETURN_ORDER) answered: Meaning = Return Order (manual); trying again
+2026-10-26 17:55:20  job eec3dfc42e_4 stopped (INVALID_REQUEST): Oracle refused the payment term NET30_ZZ: You must enter months ahead when Day of Month is used. Nothing was saved in Oracle.
+2026-10-26 17:55:20  job eec3dfc42e: NET30_ZZ failed
+2026-10-26 17:55:20  job eec3dfc42e_5 stopped (INVALID_REQUEST): Oracle refused the payment term 2/10 NET 30: ORA-20001: this description isn't accepted for this payment term (demo). Nothing was saved in Oracle.
+2026-10-26 17:55:20  job eec3dfc42e: 2/10 NET 30 failed
+2026-10-26 17:55:20  job eec3dfc42e_6 done: Created NET 60 in Oracle and checked every value.
+2026-10-26 17:55:20  job eec3dfc42e: NET 60 done
+2026-10-26 17:55:20  job eec3dfc42e: question 4 (NET30_ZZ): Months Ahead '0' refused: You must enter months ahead when Day of Month is used.; suggested: 1, 2, 3
+2026-10-26 17:55:20  job eec3dfc42e_5p proposal: cost $0.0123, field description, value 'CLAUDE_FIX': The stub proposes a value that works.
+2026-10-26 17:55:20  job eec3dfc42e: question 5 (2/10 NET 30): Item Description 'UNKNOWN_ME' refused: ORA-20001: this description isn't accepted for this payment term (demo).; suggested: CLAUDE_FIX
+2026-10-26 17:55:20  job eec3dfc42e: lookup type 7 of 10: ZZ_ORDER_REASON
+2026-10-26 17:55:22  job eec3dfc42e: question 4 (NET30_ZZ) answered: Months Ahead = 1; trying again
+2026-10-26 17:55:23  job eec3dfc42e_7 stopped (INVALID_REQUEST): Oracle refused ZZ_ORDER_REASON: Lookup Type ZZ_ORDER_REASON already has lookup code meaning Late delivery. (FND-7103) Nothing was saved in Oracle.
+2026-10-26 17:55:23  job eec3dfc42e: ZZ_ORDER_REASON failed
+2026-10-26 17:55:23  job eec3dfc42e: question 7 (ZZ_ORDER_REASON): Meaning 'Late delivery' refused: Lookup Type ZZ_ORDER_REASON already has lookup code meaning Late delivery. (FND-7103); suggested: Late delivery (LATE), Late delivery 2
+2026-10-26 17:55:23  job eec3dfc42e: business unit 8 of 10: Lahore Retail BU
+2026-10-26 17:55:23  job eec3dfc42e: business unit 9 of 10: Karachi Wholesale BU
+2026-10-26 17:55:23  job eec3dfc42e: business unit 10 of 10: Dallas BU
+2026-10-26 17:55:24  job eec3dfc42e: question 5 (2/10 NET 30) answered: Item Description = CLAUDE_FIX; trying again
+2026-10-26 17:55:26  job eec3dfc42e: question 7 (ZZ_ORDER_REASON) skipped by the user
+2026-10-26 17:55:30  job eec3dfc42e_8 done: Created Lahore Retail BU in Oracle and checked every value.
+2026-10-26 17:55:30  job eec3dfc42e: Lahore Retail BU done
+2026-10-26 17:55:30  job eec3dfc42e_9 done: Created Karachi Wholesale BU in Oracle and checked every value.
+2026-10-26 17:55:30  job eec3dfc42e: Karachi Wholesale BU done
+2026-10-26 17:55:30  job eec3dfc42e_10 stopped (NO_PERMISSION): Your Oracle user has no permission to create business units here. Nothing was saved in Oracle.
+2026-10-26 17:55:30  job eec3dfc42e: Dallas BU failed
+2026-10-26 17:55:30  job eec3dfc42e: order type 3 of 10: RETURN_ORDER
+2026-10-26 17:55:33  job eec3dfc42e_3 done: Created RETURN_ORDER in Oracle and checked every value.
+2026-10-26 17:55:33  job eec3dfc42e: RETURN_ORDER done
+2026-10-26 17:55:33  job eec3dfc42e: question 3 (RETURN_ORDER) answered: Meaning = Return Order (manual); done
+2026-10-26 17:55:33  job eec3dfc42e: payment term 4 of 10: NET30_ZZ
+2026-10-26 17:55:33  job eec3dfc42e: payment term 5 of 10: 2/10 NET 30
+2026-10-26 17:55:38  job eec3dfc42e_4 done: Created NET30_ZZ in Oracle and checked every value.
+2026-10-26 17:55:38  job eec3dfc42e: NET30_ZZ done
+2026-10-26 17:55:38  job eec3dfc42e_5 done: Created 2/10 NET 30 in Oracle and checked every value.
+2026-10-26 17:55:38  job eec3dfc42e: 2/10 NET 30 done
+2026-10-26 17:55:38  job eec3dfc42e: question 4 (NET30_ZZ) answered: Months Ahead = 1; done
+2026-10-26 17:55:38  job eec3dfc42e: question 5 (2/10 NET 30) answered: Item Description = CLAUDE_FIX; done
+2026-10-26 17:55:51  upload a7683d21e5 (Done_clean.xlsx): ready, 10 record(s), 0 problem(s), 0 stop(s), checked in 6 s
+2026-10-26 17:55:52  job 33c0c23534 queued: Order Types (upload a7683d21e5)
+2026-10-26 17:55:52  job 33c0c23534: order type 1 of 10: STANDARD_SALES
+2026-10-26 17:55:54  job 33c0c23534_1 done: Created STANDARD_SALES in Oracle and checked every value.
+2026-10-26 17:55:54  job 33c0c23534: STANDARD_SALES done
+2026-10-26 17:55:54  job 33c0c23534: order type 2 of 10: RUSH_ORDER
+2026-10-26 17:55:57  job 33c0c23534_2 done: Created RUSH_ORDER in Oracle and checked every value.
+2026-10-26 17:55:57  job 33c0c23534: RUSH_ORDER done
+2026-10-26 17:55:57  job 33c0c23534: order type 3 of 10: RETURN_ORDER
+2026-10-26 17:56:00  job 33c0c23534_3 done: Created RETURN_ORDER in Oracle and checked every value.
+2026-10-26 17:56:00  job 33c0c23534: RETURN_ORDER done
+2026-10-26 17:56:00  job 33c0c23534: payment term 4 of 10: NET30_ZZ
+2026-10-26 17:56:00  job 33c0c23534: payment term 5 of 10: 2/10 NET 30
+2026-10-26 17:56:00  job 33c0c23534: payment term 6 of 10: NET 60
+2026-10-26 17:56:07  job 33c0c23534_4 done: Created NET30_ZZ in Oracle and checked every value.
+2026-10-26 17:56:07  job 33c0c23534: NET30_ZZ done
+2026-10-26 17:56:07  job 33c0c23534_5 done: Created 2/10 NET 30 in Oracle and checked every value.
+2026-10-26 17:56:07  job 33c0c23534: 2/10 NET 30 done
+2026-10-26 17:56:07  job 33c0c23534_6 done: Created NET 60 in Oracle and checked every value.
+2026-10-26 17:56:07  job 33c0c23534: NET 60 done
+2026-10-26 17:56:07  job 33c0c23534: lookup type 7 of 10: ZZ_ORDER_REASON
+2026-10-26 17:56:10  job 33c0c23534_7 done: Created ZZ_ORDER_REASON in Oracle and checked every value.
+2026-10-26 17:56:10  job 33c0c23534: ZZ_ORDER_REASON done
+2026-10-26 17:56:10  job 33c0c23534: business unit 8 of 10: Lahore Retail BU
+2026-10-26 17:56:10  job 33c0c23534: business unit 9 of 10: Karachi Wholesale BU
+2026-10-26 17:56:10  job 33c0c23534: business unit 10 of 10: Seattle BU
+2026-10-26 17:56:17  job 33c0c23534_8 done: Created Lahore Retail BU in Oracle and checked every value.
+2026-10-26 17:56:17  job 33c0c23534: Lahore Retail BU done
+2026-10-26 17:56:17  job 33c0c23534_9 done: Created Karachi Wholesale BU in Oracle and checked every value.
+2026-10-26 17:56:17  job 33c0c23534: Karachi Wholesale BU done
+2026-10-26 17:56:17  job 33c0c23534_10 done: Created Seattle BU in Oracle and checked every value.
+2026-10-26 17:56:17  job 33c0c23534: Seattle BU done
+2026-10-26 17:56:27  upload 778f22c7cd (Done_mixed.xlsx): ready, 10 record(s), 0 problem(s), 0 stop(s), checked in 6 s
+2026-10-26 17:56:28  job 2ce20d4449 queued: Order Types (upload 778f22c7cd)
+2026-10-26 17:56:28  job 2ce20d4449: order type 1 of 10: STANDARD_SALES
+2026-10-26 17:56:31  job 2ce20d4449_1 done: Created STANDARD_SALES in Oracle and checked every value.
+2026-10-26 17:56:31  job 2ce20d4449: STANDARD_SALES done
+2026-10-26 17:56:31  job 2ce20d4449: order type 2 of 10: RUSH_FLAKY
+2026-10-26 17:56:33  job 2ce20d4449_2 repair attempt 1: cost $0.0123 (this run $0.0123), status no_change_needed, changed nothing: It was a temporary problem (stub).
+2026-10-26 17:56:36  job 2ce20d4449_2: rerun after repair attempt 1: ok - Created RUSH_FLAKY in Oracle and checked every value.
+2026-10-26 17:56:36  job 2ce20d4449_2: repair finished, total cost $0.0123
+2026-10-26 17:56:36  job 2ce20d4449_2 done: Created RUSH_FLAKY in Oracle and checked every value.
+2026-10-26 17:56:36  job 2ce20d4449: RUSH_FLAKY done
+2026-10-26 17:56:36  job 2ce20d4449: order type 3 of 10: RETURN_ORDER
+2026-10-26 17:56:38  job 2ce20d4449_3 stopped (INVALID_REQUEST): Oracle refused RETURN_ORDER: Another order type (RETURNS) already uses the name 'Return Order'. Nothing was saved in Oracle.
+2026-10-26 17:56:38  job 2ce20d4449: RETURN_ORDER failed
+2026-10-26 17:56:38  job 2ce20d4449: question 3 (RETURN_ORDER): Meaning 'Return Order' refused: Another order type (RETURNS) already uses the name 'Return Order'.; suggested: Return Order (RETURN_ORDER), Return Order 2
+2026-10-26 17:56:38  job 2ce20d4449: payment term 4 of 10: NET30_ZZ
+2026-10-26 17:56:38  job 2ce20d4449: payment term 5 of 10: 2/10 NET 30
+2026-10-26 17:56:38  job 2ce20d4449: payment term 6 of 10: NET 60
+2026-10-26 17:56:39  job 2ce20d4449: question 3 (RETURN_ORDER) answered: Meaning = Return Order (manual); trying again
+2026-10-26 17:56:46  job 2ce20d4449_4 stopped (INVALID_REQUEST): Oracle refused the payment term NET30_ZZ: You must enter months ahead when Day of Month is used. Nothing was saved in Oracle.
+2026-10-26 17:56:46  job 2ce20d4449: NET30_ZZ failed
+2026-10-26 17:56:46  job 2ce20d4449_5 stopped (INVALID_REQUEST): Oracle refused the payment term 2/10 NET 30: ORA-20001: this description isn't accepted for this payment term (demo). Nothing was saved in Oracle.
+2026-10-26 17:56:46  job 2ce20d4449: 2/10 NET 30 failed
+2026-10-26 17:56:46  job 2ce20d4449_6 done: Created NET 60 in Oracle and checked every value.
+2026-10-26 17:56:46  job 2ce20d4449: NET 60 done
+2026-10-26 17:56:46  job 2ce20d4449: question 4 (NET30_ZZ): Months Ahead '0' refused: You must enter months ahead when Day of Month is used.; suggested: 1, 2, 3
+2026-10-26 17:56:46  job 2ce20d4449_5p proposal: cost $0.0123, field description, value 'CLAUDE_FIX': The stub proposes a value that works.
+2026-10-26 17:56:46  job 2ce20d4449: question 5 (2/10 NET 30): Item Description 'UNKNOWN_ME' refused: ORA-20001: this description isn't accepted for this payment term (demo).; suggested: CLAUDE_FIX
+2026-10-26 17:56:46  job 2ce20d4449: lookup type 7 of 10: ZZ_ORDER_REASON
+2026-10-26 17:56:48  job 2ce20d4449: question 4 (NET30_ZZ) answered: Months Ahead = 1; trying again
+2026-10-26 17:56:49  job 2ce20d4449_7 stopped (INVALID_REQUEST): Oracle refused ZZ_ORDER_REASON: Lookup Type ZZ_ORDER_REASON already has lookup code meaning Late delivery. (FND-7103) Nothing was saved in Oracle.
+2026-10-26 17:56:49  job 2ce20d4449: ZZ_ORDER_REASON failed
+2026-10-26 17:56:49  job 2ce20d4449: question 7 (ZZ_ORDER_REASON): Meaning 'Late delivery' refused: Lookup Type ZZ_ORDER_REASON already has lookup code meaning Late delivery. (FND-7103); suggested: Late delivery (LATE), Late delivery 2
+2026-10-26 17:56:49  job 2ce20d4449: business unit 8 of 10: Lahore Retail BU
+2026-10-26 17:56:49  job 2ce20d4449: business unit 9 of 10: Karachi Wholesale BU
+2026-10-26 17:56:49  job 2ce20d4449: business unit 10 of 10: Dallas BU
+2026-10-26 17:56:50  job 2ce20d4449: question 5 (2/10 NET 30) answered: Item Description = CLAUDE_FIX; trying again
+2026-10-26 17:56:52  job 2ce20d4449: question 7 (ZZ_ORDER_REASON) skipped by the user
+2026-10-26 17:56:56  job 2ce20d4449_8 done: Created Lahore Retail BU in Oracle and checked every value.
+2026-10-26 17:56:56  job 2ce20d4449: Lahore Retail BU done
+2026-10-26 17:56:56  job 2ce20d4449_9 done: Created Karachi Wholesale BU in Oracle and checked every value.
+2026-10-26 17:56:56  job 2ce20d4449: Karachi Wholesale BU done
+2026-10-26 17:56:56  job 2ce20d4449_10 stopped (NO_PERMISSION): Your Oracle user has no permission to create business units here. Nothing was saved in Oracle.
+2026-10-26 17:56:56  job 2ce20d4449: Dallas BU failed
+2026-10-26 17:56:56  job 2ce20d4449: order type 3 of 10: RETURN_ORDER
+2026-10-26 17:56:59  job 2ce20d4449_3 done: Created RETURN_ORDER in Oracle and checked every value.
+2026-10-26 17:56:59  job 2ce20d4449: RETURN_ORDER done
+2026-10-26 17:56:59  job 2ce20d4449: question 3 (RETURN_ORDER) answered: Meaning = Return Order (manual); done
+2026-10-26 17:56:59  job 2ce20d4449: payment term 4 of 10: NET30_ZZ
+2026-10-26 17:56:59  job 2ce20d4449: payment term 5 of 10: 2/10 NET 30
+2026-10-26 17:57:04  job 2ce20d4449_4 done: Created NET30_ZZ in Oracle and checked every value.
+2026-10-26 17:57:04  job 2ce20d4449: NET30_ZZ done
+2026-10-26 17:57:04  job 2ce20d4449_5 done: Created 2/10 NET 30 in Oracle and checked every value.
+2026-10-26 17:57:04  job 2ce20d4449: 2/10 NET 30 done
+2026-10-26 17:57:04  job 2ce20d4449: question 4 (NET30_ZZ) answered: Months Ahead = 1; done
+2026-10-26 17:57:04  job 2ce20d4449: question 5 (2/10 NET 30) answered: Item Description = CLAUDE_FIX; done
+2026-10-26 17:57:14  upload acf42c2cf7 (Done_clean.xlsx): ready, 10 record(s), 0 problem(s), 0 stop(s), checked in 6 s
+2026-10-26 17:57:15  job 718209e3be queued: Order Types (upload acf42c2cf7)
+2026-10-26 17:57:15  job 718209e3be: order type 1 of 10: STANDARD_SALES
+2026-10-26 17:57:18  job 718209e3be_1 done: Created STANDARD_SALES in Oracle and checked every value.
+2026-10-26 17:57:18  job 718209e3be: STANDARD_SALES done
+2026-10-26 17:57:18  job 718209e3be: order type 2 of 10: RUSH_ORDER
+2026-10-26 17:57:20  job 718209e3be_2 done: Created RUSH_ORDER in Oracle and checked every value.
+2026-10-26 17:57:20  job 718209e3be: RUSH_ORDER done
+2026-10-26 17:57:20  job 718209e3be: order type 3 of 10: RETURN_ORDER
+2026-10-26 17:57:23  job 718209e3be_3 done: Created RETURN_ORDER in Oracle and checked every value.
+2026-10-26 17:57:23  job 718209e3be: RETURN_ORDER done
+2026-10-26 17:57:23  job 718209e3be: payment term 4 of 10: NET30_ZZ
+2026-10-26 17:57:23  job 718209e3be: payment term 5 of 10: 2/10 NET 30
+2026-10-26 17:57:23  job 718209e3be: payment term 6 of 10: NET 60
+2026-10-26 17:57:30  job 718209e3be_4 done: Created NET30_ZZ in Oracle and checked every value.
+2026-10-26 17:57:30  job 718209e3be: NET30_ZZ done
+2026-10-26 17:57:30  job 718209e3be_5 done: Created 2/10 NET 30 in Oracle and checked every value.
+2026-10-26 17:57:30  job 718209e3be: 2/10 NET 30 done
+2026-10-26 17:57:30  job 718209e3be_6 done: Created NET 60 in Oracle and checked every value.
+2026-10-26 17:57:30  job 718209e3be: NET 60 done
+2026-10-26 17:57:30  job 718209e3be: lookup type 7 of 10: ZZ_ORDER_REASON
+2026-10-26 17:57:33  job 718209e3be_7 done: Created ZZ_ORDER_REASON in Oracle and checked every value.
+2026-10-26 17:57:33  job 718209e3be: ZZ_ORDER_REASON done
+2026-10-26 17:57:33  job 718209e3be: business unit 8 of 10: Lahore Retail BU
+2026-10-26 17:57:33  job 718209e3be: business unit 9 of 10: Karachi Wholesale BU
+2026-10-26 17:57:33  job 718209e3be: business unit 10 of 10: Seattle BU
+2026-10-26 17:57:41  job 718209e3be_8 done: Created Lahore Retail BU in Oracle and checked every value.
+2026-10-26 17:57:41  job 718209e3be: Lahore Retail BU done
+2026-10-26 17:57:41  job 718209e3be_9 done: Created Karachi Wholesale BU in Oracle and checked every value.
+2026-10-26 17:57:41  job 718209e3be: Karachi Wholesale BU done
+2026-10-26 17:57:41  job 718209e3be_10 done: Created Seattle BU in Oracle and checked every value.
+2026-10-26 17:57:41  job 718209e3be: Seattle BU done
+2026-10-26 17:57:51  upload 26bb95af2a (Done_mixed.xlsx): ready, 10 record(s), 0 problem(s), 0 stop(s), checked in 6 s
+2026-10-26 17:57:51  job 377a4422c0 queued: Order Types (upload 26bb95af2a)
+2026-10-26 17:57:51  job 377a4422c0: order type 1 of 10: STANDARD_SALES
+2026-10-26 17:57:54  job 377a4422c0_1 done: Created STANDARD_SALES in Oracle and checked every value.
+2026-10-26 17:57:54  job 377a4422c0: STANDARD_SALES done
+2026-10-26 17:57:54  job 377a4422c0: order type 2 of 10: RUSH_FLAKY
+2026-10-26 17:57:56  job 377a4422c0_2 repair attempt 1: cost $0.0123 (this run $0.0123), status no_change_needed, changed nothing: It was a temporary problem (stub).
+2026-10-26 17:57:59  job 377a4422c0_2: rerun after repair attempt 1: ok - Created RUSH_FLAKY in Oracle and checked every value.
+2026-10-26 17:57:59  job 377a4422c0_2: repair finished, total cost $0.0123
+2026-10-26 17:57:59  job 377a4422c0_2 done: Created RUSH_FLAKY in Oracle and checked every value.
+2026-10-26 17:57:59  job 377a4422c0: RUSH_FLAKY done
+2026-10-26 17:57:59  job 377a4422c0: order type 3 of 10: RETURN_ORDER
+2026-10-26 17:58:02  job 377a4422c0_3 stopped (INVALID_REQUEST): Oracle refused RETURN_ORDER: Another order type (RETURNS) already uses the name 'Return Order'. Nothing was saved in Oracle.
+2026-10-26 17:58:02  job 377a4422c0: RETURN_ORDER failed
+2026-10-26 17:58:02  job 377a4422c0: question 3 (RETURN_ORDER): Meaning 'Return Order' refused: Another order type (RETURNS) already uses the name 'Return Order'.; suggested: Return Order (RETURN_ORDER), Return Order 2
+2026-10-26 17:58:02  job 377a4422c0: payment term 4 of 10: NET30_ZZ
+2026-10-26 17:58:02  job 377a4422c0: payment term 5 of 10: 2/10 NET 30
+2026-10-26 17:58:02  job 377a4422c0: payment term 6 of 10: NET 60
+2026-10-26 17:58:03  job 377a4422c0: question 3 (RETURN_ORDER) answered: Meaning = Return Order (manual); trying again
+2026-10-26 17:58:09  job 377a4422c0_4 stopped (INVALID_REQUEST): Oracle refused the payment term NET30_ZZ: You must enter months ahead when Day of Month is used. Nothing was saved in Oracle.
+2026-10-26 17:58:09  job 377a4422c0: NET30_ZZ failed
+2026-10-26 17:58:09  job 377a4422c0_5 stopped (INVALID_REQUEST): Oracle refused the payment term 2/10 NET 30: ORA-20001: this description isn't accepted for this payment term (demo). Nothing was saved in Oracle.
+2026-10-26 17:58:09  job 377a4422c0: 2/10 NET 30 failed
+2026-10-26 17:58:09  job 377a4422c0_6 done: Created NET 60 in Oracle and checked every value.
+2026-10-26 17:58:09  job 377a4422c0: NET 60 done
+2026-10-26 17:58:09  job 377a4422c0: question 4 (NET30_ZZ): Months Ahead '0' refused: You must enter months ahead when Day of Month is used.; suggested: 1, 2, 3
+2026-10-26 17:58:09  job 377a4422c0_5p proposal: cost $0.0123, field description, value 'CLAUDE_FIX': The stub proposes a value that works.
+2026-10-26 17:58:09  job 377a4422c0: question 5 (2/10 NET 30): Item Description 'UNKNOWN_ME' refused: ORA-20001: this description isn't accepted for this payment term (demo).; suggested: CLAUDE_FIX
+2026-10-26 17:58:09  job 377a4422c0: lookup type 7 of 10: ZZ_ORDER_REASON
+2026-10-26 17:58:12  job 377a4422c0_7 stopped (INVALID_REQUEST): Oracle refused ZZ_ORDER_REASON: Lookup Type ZZ_ORDER_REASON already has lookup code meaning Late delivery. (FND-7103) Nothing was saved in Oracle.
+2026-10-26 17:58:12  job 377a4422c0: ZZ_ORDER_REASON failed
+2026-10-26 17:58:12  job 377a4422c0: question 7 (ZZ_ORDER_REASON): Meaning 'Late delivery' refused: Lookup Type ZZ_ORDER_REASON already has lookup code meaning Late delivery. (FND-7103); suggested: Late delivery (LATE), Late delivery 2
+2026-10-26 17:58:12  job 377a4422c0: business unit 8 of 10: Lahore Retail BU
+2026-10-26 17:58:12  job 377a4422c0: business unit 9 of 10: Karachi Wholesale BU
+2026-10-26 17:58:12  job 377a4422c0: business unit 10 of 10: Dallas BU
+2026-10-26 17:58:13  job 377a4422c0: question 4 (NET30_ZZ) answered: Months Ahead = 1; trying again
+2026-10-26 17:58:14  job 377a4422c0: question 5 (2/10 NET 30) answered: Item Description = CLAUDE_FIX; trying again
+2026-10-26 17:58:16  job 377a4422c0: question 7 (ZZ_ORDER_REASON) skipped by the user
+2026-10-26 17:58:20  job 377a4422c0_8 done: Created Lahore Retail BU in Oracle and checked every value.
+2026-10-26 17:58:20  job 377a4422c0: Lahore Retail BU done
+2026-10-26 17:58:20  job 377a4422c0_9 done: Created Karachi Wholesale BU in Oracle and checked every value.
+2026-10-26 17:58:20  job 377a4422c0: Karachi Wholesale BU done
+2026-10-26 17:58:20  job 377a4422c0_10 stopped (NO_PERMISSION): Your Oracle user has no permission to create business units here. Nothing was saved in Oracle.
+2026-10-26 17:58:20  job 377a4422c0: Dallas BU failed
+2026-10-26 17:58:20  job 377a4422c0: order type 3 of 10: RETURN_ORDER
+2026-10-26 17:58:22  job 377a4422c0_3 done: Created RETURN_ORDER in Oracle and checked every value.
+2026-10-26 17:58:22  job 377a4422c0: RETURN_ORDER done
+2026-10-26 17:58:22  job 377a4422c0: question 3 (RETURN_ORDER) answered: Meaning = Return Order (manual); done
+2026-10-26 17:58:22  job 377a4422c0: payment term 4 of 10: NET30_ZZ
+2026-10-26 17:58:22  job 377a4422c0: payment term 5 of 10: 2/10 NET 30
+2026-10-26 17:58:27  job 377a4422c0_4 done: Created NET30_ZZ in Oracle and checked every value.
+2026-10-26 17:58:27  job 377a4422c0: NET30_ZZ done
+2026-10-26 17:58:27  job 377a4422c0_5 done: Created 2/10 NET 30 in Oracle and checked every value.
+2026-10-26 17:58:27  job 377a4422c0: 2/10 NET 30 done
+2026-10-26 17:58:27  job 377a4422c0: question 4 (NET30_ZZ) answered: Months Ahead = 1; done
+2026-10-26 17:58:27  job 377a4422c0: question 5 (2/10 NET 30) answered: Item Description = CLAUDE_FIX; done
+2026-10-26 17:58:37  upload e63420bce6 (Done_clean.xlsx): ready, 10 record(s), 0 problem(s), 0 stop(s), checked in 6 s
+2026-10-26 17:58:38  job a8221af766 queued: Order Types (upload e63420bce6)
+2026-10-26 17:58:38  job a8221af766: order type 1 of 10: STANDARD_SALES
+2026-10-26 17:58:40  job a8221af766_1 done: Created STANDARD_SALES in Oracle and checked every value.
+2026-10-26 17:58:40  job a8221af766: STANDARD_SALES done
+2026-10-26 17:58:40  job a8221af766: order type 2 of 10: RUSH_ORDER
+2026-10-26 17:58:43  job a8221af766_2 done: Created RUSH_ORDER in Oracle and checked every value.
+2026-10-26 17:58:43  job a8221af766: RUSH_ORDER done
+2026-10-26 17:58:43  job a8221af766: order type 3 of 10: RETURN_ORDER
+2026-10-26 17:58:46  job a8221af766_3 done: Created RETURN_ORDER in Oracle and checked every value.
+2026-10-26 17:58:46  job a8221af766: RETURN_ORDER done
+2026-10-26 17:58:46  job a8221af766: payment term 4 of 10: NET30_ZZ
+2026-10-26 17:58:46  job a8221af766: payment term 5 of 10: 2/10 NET 30
+2026-10-26 17:58:46  job a8221af766: payment term 6 of 10: NET 60
+2026-10-26 17:58:53  job a8221af766_4 done: Created NET30_ZZ in Oracle and checked every value.
+2026-10-26 17:58:53  job a8221af766: NET30_ZZ done
+2026-10-26 17:58:53  job a8221af766_5 done: Created 2/10 NET 30 in Oracle and checked every value.
+2026-10-26 17:58:53  job a8221af766: 2/10 NET 30 done
+2026-10-26 17:58:53  job a8221af766_6 done: Created NET 60 in Oracle and checked every value.
+2026-10-26 17:58:53  job a8221af766: NET 60 done
+2026-10-26 17:58:53  job a8221af766: lookup type 7 of 10: ZZ_ORDER_REASON
+2026-10-26 17:58:56  job a8221af766_7 done: Created ZZ_ORDER_REASON in Oracle and checked every value.
+2026-10-26 17:58:56  job a8221af766: ZZ_ORDER_REASON done
+2026-10-26 17:58:56  job a8221af766: business unit 8 of 10: Lahore Retail BU
+2026-10-26 17:58:56  job a8221af766: business unit 9 of 10: Karachi Wholesale BU
+2026-10-26 17:58:56  job a8221af766: business unit 10 of 10: Seattle BU
+2026-10-26 17:59:03  job a8221af766_8 done: Created Lahore Retail BU in Oracle and checked every value.
+2026-10-26 17:59:03  job a8221af766: Lahore Retail BU done
+2026-10-26 17:59:03  job a8221af766_9 done: Created Karachi Wholesale BU in Oracle and checked every value.
+2026-10-26 17:59:03  job a8221af766: Karachi Wholesale BU done
+2026-10-26 17:59:03  job a8221af766_10 done: Created Seattle BU in Oracle and checked every value.
+2026-10-26 17:59:03  job a8221af766: Seattle BU done
+2026-10-26 17:59:58  upload 5d7814a33f (Done_mixed.xlsx): ready, 10 record(s), 0 problem(s), 0 stop(s), checked in 6 s
+2026-10-26 17:59:59  job a50f5db24e queued: Order Types (upload 5d7814a33f)
+2026-10-26 17:59:59  job a50f5db24e: order type 1 of 10: STANDARD_SALES
+2026-10-26 18:00:01  job a50f5db24e_1 done: Created STANDARD_SALES in Oracle and checked every value.
+2026-10-26 18:00:01  job a50f5db24e: STANDARD_SALES done
+2026-10-26 18:00:01  job a50f5db24e: order type 2 of 10: RUSH_FLAKY
+2026-10-26 18:00:04  job a50f5db24e_2 repair attempt 1: cost $0.0123 (this run $0.0123), status no_change_needed, changed nothing: It was a temporary problem (stub).
+2026-10-26 18:00:07  job a50f5db24e_2: rerun after repair attempt 1: ok - Created RUSH_FLAKY in Oracle and checked every value.
+2026-10-26 18:00:07  job a50f5db24e_2: repair finished, total cost $0.0123
+2026-10-26 18:00:07  job a50f5db24e_2 done: Created RUSH_FLAKY in Oracle and checked every value.
+2026-10-26 18:00:07  job a50f5db24e: RUSH_FLAKY done
+2026-10-26 18:00:07  job a50f5db24e: order type 3 of 10: RETURN_ORDER
+2026-10-26 18:00:09  job a50f5db24e_3 stopped (INVALID_REQUEST): Oracle refused RETURN_ORDER: Another order type (RETURNS) already uses the name 'Return Order'. Nothing was saved in Oracle.
+2026-10-26 18:00:09  job a50f5db24e: RETURN_ORDER failed
+2026-10-26 18:00:09  job a50f5db24e: question 3 (RETURN_ORDER): Meaning 'Return Order' refused: Another order type (RETURNS) already uses the name 'Return Order'.; suggested: Return Order (RETURN_ORDER), Return Order 2
+2026-10-26 18:00:09  job a50f5db24e: payment term 4 of 10: NET30_ZZ
+2026-10-26 18:00:09  job a50f5db24e: payment term 5 of 10: 2/10 NET 30
+2026-10-26 18:00:09  job a50f5db24e: payment term 6 of 10: NET 60
+2026-10-26 18:00:11  job a50f5db24e: question 3 (RETURN_ORDER) answered: Meaning = Return Order (manual); trying again
+2026-10-26 18:00:17  job a50f5db24e_4 stopped (INVALID_REQUEST): Oracle refused the payment term NET30_ZZ: You must enter months ahead when Day of Month is used. Nothing was saved in Oracle.
+2026-10-26 18:00:17  job a50f5db24e: NET30_ZZ failed
+2026-10-26 18:00:17  job a50f5db24e_5 stopped (INVALID_REQUEST): Oracle refused the payment term 2/10 NET 30: ORA-20001: this description isn't accepted for this payment term (demo). Nothing was saved in Oracle.
+2026-10-26 18:00:17  job a50f5db24e: 2/10 NET 30 failed
+2026-10-26 18:00:17  job a50f5db24e_6 done: Created NET 60 in Oracle and checked every value.
+2026-10-26 18:00:17  job a50f5db24e: NET 60 done
+2026-10-26 18:00:17  job a50f5db24e: question 4 (NET30_ZZ): Months Ahead '0' refused: You must enter months ahead when Day of Month is used.; suggested: 1, 2, 3
+2026-10-26 18:00:17  job a50f5db24e_5p proposal: cost $0.0123, field description, value 'CLAUDE_FIX': The stub proposes a value that works.
+2026-10-26 18:00:17  job a50f5db24e: question 5 (2/10 NET 30): Item Description 'UNKNOWN_ME' refused: ORA-20001: this description isn't accepted for this payment term (demo).; suggested: CLAUDE_FIX
+2026-10-26 18:00:17  job a50f5db24e: lookup type 7 of 10: ZZ_ORDER_REASON
+2026-10-26 18:00:20  job a50f5db24e_7 stopped (INVALID_REQUEST): Oracle refused ZZ_ORDER_REASON: Lookup Type ZZ_ORDER_REASON already has lookup code meaning Late delivery. (FND-7103) Nothing was saved in Oracle.
+2026-10-26 18:00:20  job a50f5db24e: ZZ_ORDER_REASON failed
+2026-10-26 18:00:20  job a50f5db24e: question 7 (ZZ_ORDER_REASON): Meaning 'Late delivery' refused: Lookup Type ZZ_ORDER_REASON already has lookup code meaning Late delivery. (FND-7103); suggested: Late delivery (LATE), Late delivery 2
+2026-10-26 18:00:20  job a50f5db24e: business unit 8 of 10: Lahore Retail BU
+2026-10-26 18:00:20  job a50f5db24e: business unit 9 of 10: Karachi Wholesale BU
+2026-10-26 18:00:20  job a50f5db24e: business unit 10 of 10: Dallas BU
+2026-10-26 18:00:20  job a50f5db24e: question 4 (NET30_ZZ) answered: Months Ahead = 1; trying again
+2026-10-26 18:00:22  job a50f5db24e: question 5 (2/10 NET 30) answered: Item Description = CLAUDE_FIX; trying again
+2026-10-26 18:00:23  job a50f5db24e: question 7 (ZZ_ORDER_REASON) skipped by the user
+2026-10-26 18:00:27  job a50f5db24e_8 done: Created Lahore Retail BU in Oracle and checked every value.
+2026-10-26 18:00:27  job a50f5db24e: Lahore Retail BU done
+2026-10-26 18:00:27  job a50f5db24e_9 done: Created Karachi Wholesale BU in Oracle and checked every value.
+2026-10-26 18:00:27  job a50f5db24e: Karachi Wholesale BU done
+2026-10-26 18:00:27  job a50f5db24e_10 stopped (NO_PERMISSION): Your Oracle user has no permission to create business units here. Nothing was saved in Oracle.
+2026-10-26 18:00:27  job a50f5db24e: Dallas BU failed
+2026-10-26 18:00:27  job a50f5db24e: order type 3 of 10: RETURN_ORDER
+2026-10-26 18:00:30  job a50f5db24e_3 done: Created RETURN_ORDER in Oracle and checked every value.
+2026-10-26 18:00:30  job a50f5db24e: RETURN_ORDER done
+2026-10-26 18:00:30  job a50f5db24e: question 3 (RETURN_ORDER) answered: Meaning = Return Order (manual); done
+2026-10-26 18:00:30  job a50f5db24e: payment term 4 of 10: NET30_ZZ
+2026-10-26 18:00:30  job a50f5db24e: payment term 5 of 10: 2/10 NET 30
+2026-10-26 18:00:35  job a50f5db24e_4 done: Created NET30_ZZ in Oracle and checked every value.
+2026-10-26 18:00:35  job a50f5db24e: NET30_ZZ done
+2026-10-26 18:00:35  job a50f5db24e_5 done: Created 2/10 NET 30 in Oracle and checked every value.
+2026-10-26 18:00:35  job a50f5db24e: 2/10 NET 30 done
+2026-10-26 18:00:35  job a50f5db24e: question 4 (NET30_ZZ) answered: Months Ahead = 1; done
+2026-10-26 18:00:35  job a50f5db24e: question 5 (2/10 NET 30) answered: Item Description = CLAUDE_FIX; done
+2026-10-26 18:00:45  upload 9ced61c513 (Done_clean.xlsx): ready, 10 record(s), 0 problem(s), 0 stop(s), checked in 6 s
+2026-10-26 18:00:45  job 07818891c1 queued: Order Types (upload 9ced61c513)
+2026-10-26 18:00:45  job 07818891c1: order type 1 of 10: STANDARD_SALES
+2026-10-26 18:00:48  job 07818891c1_1 done: Created STANDARD_SALES in Oracle and checked every value.
+2026-10-26 18:00:48  job 07818891c1: STANDARD_SALES done
+2026-10-26 18:00:48  job 07818891c1: order type 2 of 10: RUSH_ORDER
+2026-10-26 18:00:51  job 07818891c1_2 done: Created RUSH_ORDER in Oracle and checked every value.
+2026-10-26 18:00:51  job 07818891c1: RUSH_ORDER done
+2026-10-26 18:00:51  job 07818891c1: order type 3 of 10: RETURN_ORDER
+2026-10-26 18:00:53  job 07818891c1_3 done: Created RETURN_ORDER in Oracle and checked every value.
+2026-10-26 18:00:53  job 07818891c1: RETURN_ORDER done
+2026-10-26 18:00:53  job 07818891c1: payment term 4 of 10: NET30_ZZ
+2026-10-26 18:00:53  job 07818891c1: payment term 5 of 10: 2/10 NET 30
+2026-10-26 18:00:53  job 07818891c1: payment term 6 of 10: NET 60
+2026-10-26 18:01:01  job 07818891c1_4 done: Created NET30_ZZ in Oracle and checked every value.
+2026-10-26 18:01:01  job 07818891c1: NET30_ZZ done
+2026-10-26 18:01:01  job 07818891c1_5 done: Created 2/10 NET 30 in Oracle and checked every value.
+2026-10-26 18:01:01  job 07818891c1: 2/10 NET 30 done
+2026-10-26 18:01:01  job 07818891c1_6 done: Created NET 60 in Oracle and checked every value.
+2026-10-26 18:01:01  job 07818891c1: NET 60 done
+2026-10-26 18:01:01  job 07818891c1: lookup type 7 of 10: ZZ_ORDER_REASON
+2026-10-26 18:01:03  job 07818891c1_7 done: Created ZZ_ORDER_REASON in Oracle and checked every value.
+2026-10-26 18:01:03  job 07818891c1: ZZ_ORDER_REASON done
+2026-10-26 18:01:03  job 07818891c1: business unit 8 of 10: Lahore Retail BU
+2026-10-26 18:01:03  job 07818891c1: business unit 9 of 10: Karachi Wholesale BU
+2026-10-26 18:01:03  job 07818891c1: business unit 10 of 10: Seattle BU
+2026-10-26 18:01:11  job 07818891c1_8 done: Created Lahore Retail BU in Oracle and checked every value.
+2026-10-26 18:01:11  job 07818891c1: Lahore Retail BU done
+2026-10-26 18:01:11  job 07818891c1_9 done: Created Karachi Wholesale BU in Oracle and checked every value.
+2026-10-26 18:01:11  job 07818891c1: Karachi Wholesale BU done
+2026-10-26 18:01:11  job 07818891c1_10 done: Created Seattle BU in Oracle and checked every value.
+2026-10-26 18:01:11  job 07818891c1: Seattle BU done

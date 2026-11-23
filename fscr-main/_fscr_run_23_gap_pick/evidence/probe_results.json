@@ -1,0 +1,166 @@
+[
+ {
+  "id": "imp_GL_MANAGE_JOURNAL_CATEGORIES",
+  "path": "setupTaskCSVImports/GL_MANAGE_JOURNAL_CATEGORIES",
+  "q": null,
+  "status": 200,
+  "summary": "keys=TaskCode,ImportSupportedFlag,@context",
+  "file": "evidence/imp_GL_MANAGE_JOURNAL_CATEGORIES.json"
+ },
+ {
+  "id": "exp_GL_MANAGE_JOURNAL_CATEGORIES",
+  "path": "setupTaskCSVExports/GL_MANAGE_JOURNAL_CATEGORIES",
+  "q": null,
+  "status": 200,
+  "summary": "keys=TaskCode,ExportSupportedFlag,@context",
+  "file": "evidence/exp_GL_MANAGE_JOURNAL_CATEGORIES.json"
+ },
+ {
+  "id": "imp_AR_MANAGE_STATEMENT_CYCLES",
+  "path": "setupTaskCSVImports/AR_MANAGE_STATEMENT_CYCLES",
+  "q": null,
+  "status": 200,
+  "summary": "keys=TaskCode,ImportSupportedFlag,@context",
+  "file": "evidence/imp_AR_MANAGE_STATEMENT_CYCLES.json"
+ },
+ {
+  "id": "exp_AR_MANAGE_STATEMENT_CYCLES",
+  "path": "setupTaskCSVExports/AR_MANAGE_STATEMENT_CYCLES",
+  "q": null,
+  "status": 200,
+  "summary": "keys=TaskCode,ExportSupportedFlag,@context",
+  "file": "evidence/exp_AR_MANAGE_STATEMENT_CYCLES.json"
+ },
+ {
+  "id": "imp_AR_MANAGE_STANDARD_MEMO_LINES",
+  "path": "setupTaskCSVImports/AR_MANAGE_STANDARD_MEMO_LINES",
+  "q": null,
+  "status": 200,
+  "summary": "keys=TaskCode,ImportSupportedFlag,@context",
+  "file": "evidence/imp_AR_MANAGE_STANDARD_MEMO_LINES.json"
+ },
+ {
+  "id": "exp_AR_MANAGE_STANDARD_MEMO_LINES",
+  "path": "setupTaskCSVExports/AR_MANAGE_STANDARD_MEMO_LINES",
+  "q": null,
+  "status": 200,
+  "summary": "keys=TaskCode,ExportSupportedFlag,@context",
+  "file": "evidence/exp_AR_MANAGE_STANDARD_MEMO_LINES.json"
+ },
+ {
+  "id": "imp_PO_MANAGE_HAZARD_CLASSES",
+  "path": "setupTaskCSVImports/PO_MANAGE_HAZARD_CLASSES",
+  "q": null,
+  "status": 200,
+  "summary": "keys=TaskCode,ImportSupportedFlag,@context",
+  "file": "evidence/imp_PO_MANAGE_HAZARD_CLASSES.json"
+ },
+ {
+  "id": "exp_PO_MANAGE_HAZARD_CLASSES",
+  "path": "setupTaskCSVExports/PO_MANAGE_HAZARD_CLASSES",
+  "q": null,
+  "status": 200,
+  "summary": "keys=TaskCode,ExportSupportedFlag,@context",
+  "file": "evidence/exp_PO_MANAGE_HAZARD_CLASSES.json"
+ },
+ {
+  "id": "imp_WSH_MANAGE_SHIPPING_COST_TYPES",
+  "path": "setupTaskCSVImports/WSH_MANAGE_SHIPPING_COST_TYPES",
+  "q": null,
+  "status": 200,
+  "summary": "keys=TaskCode,ImportSupportedFlag,@context",
+  "file": "evidence/imp_WSH_MANAGE_SHIPPING_COST_TYPES.json"
+ },
+ {
+  "id": "exp_WSH_MANAGE_SHIPPING_COST_TYPES",
+  "path": "setupTaskCSVExports/WSH_MANAGE_SHIPPING_COST_TYPES",
+  "q": null,
+  "status": 200,
+  "summary": "keys=TaskCode,ExportSupportedFlag,@context",
+  "file": "evidence/exp_WSH_MANAGE_SHIPPING_COST_TYPES.json"
+ },
+ {
+  "id": "imp_ORA_POQ_MANAGE_SUPPLIER_QUALIFICATION_AREAS",
+  "path": "setupTaskCSVImports/ORA_POQ_MANAGE_SUPPLIER_QUALIFICATION_AREAS",
+  "q": null,
+  "status": 200,
+  "summary": "keys=TaskCode,ImportSupportedFlag,@context",
+  "file": "evidence/imp_ORA_POQ_MANAGE_SUPPLIER_QUALIFICATION_AREAS.json"
+ },
+ {
+  "id": "exp_ORA_POQ_MANAGE_SUPPLIER_QUALIFICATION_AREAS",
+  "path": "setupTaskCSVExports/ORA_POQ_MANAGE_SUPPLIER_QUALIFICATION_AREAS",
+  "q": null,
+  "status": 200,
+  "summary": "keys=TaskCode,ExportSupportedFlag,@context",
+  "file": "evidence/exp_ORA_POQ_MANAGE_SUPPLIER_QUALIFICATION_AREAS.json"
+ },
+ {
+  "id": "imp_CST_MANAGE_COST_ELEMENTS",
+  "path": "setupTaskCSVImports/CST_MANAGE_COST_ELEMENTS",
+  "q": null,
+  "status": 200,
+  "summary": "keys=TaskCode,ImportSupportedFlag,@context",
+  "file": "evidence/imp_CST_MANAGE_COST_ELEMENTS.json"
+ },
+ {
+  "id": "exp_CST_MANAGE_COST_ELEMENTS",
+  "path": "setupTaskCSVExports/CST_MANAGE_COST_ELEMENTS",
+  "q": null,
+  "status": 200,
+  "summary": "keys=TaskCode,ExportSupportedFlag,@context",
+  "file": "evidence/exp_CST_MANAGE_COST_ELEMENTS.json"
+ },
+ {
+  "id": "jc_fscrt",
+  "path": "journalCategoriesLOV",
+  "q": {
+   "q": "UserJeCategoryName LIKE 'FSCRT_%'"
+  },
+  "status": 200,
+  "summary": "items=0 hasMore=False",
+  "file": "evidence/jc_fscrt.json"
+ },
+ {
+  "id": "jc_describe",
+  "path": "journalCategoriesLOV/describe",
+  "q": null,
+  "status": 200,
+  "summary": "describe ok",
+  "file": "evidence/jc_describe.json"
+ },
+ {
+  "id": "memo_describe",
+  "path": "memoLinesLOV/describe",
+  "q": null,
+  "status": 200,
+  "summary": "describe ok",
+  "file": "evidence/memo_describe.json"
+ },
+ {
+  "id": "sqa_describe",
+  "path": "supplierQualificationAreas/describe",
+  "q": null,
+  "status": 200,
+  "summary": "describe ok",
+  "file": "evidence/sqa_describe.json"
+ },
+ {
+  "id": "sct_describe",
+  "path": "shippingCostTypesLOV/describe",
+  "q": null,
+  "status": 200,
+  "summary": "describe ok",
+  "file": "evidence/sct_describe.json"
+ },
+ {
+  "id": "setupOfferings",
+  "path": "setupOfferings",
+  "q": {
+   "limit": "2"
+  },
+  "status": 404,
+  "summary": "",
+  "file": "evidence/setupOfferings.json"
+ }
+]

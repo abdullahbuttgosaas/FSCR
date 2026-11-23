@@ -1,0 +1,12 @@
+
+--stderr--
+{
+  "errors": [
+    {
+      "code": "ADAPTER_ERROR",
+      "message": "Operation b1 targetKey must contain exactly []."
+    }
+  ],
+  "schemaVersion": "fscr-fsm-task-adapter-v1",
+  "status": "FAIL"
+}

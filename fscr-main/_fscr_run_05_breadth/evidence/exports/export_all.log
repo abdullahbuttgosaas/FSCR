@@ -1,0 +1,320 @@
+== XLE_MANAGE_LEGAL_JURISDICTIONS --template-only start 09:41:57
+Started setup task CSV template export process: 100004733448280
+ProcessCompletedFlag: False; StatusCode: (no result yet); ResultCount: 0
+ProcessCompletedFlag: False; StatusCode: (no result yet); ResultCount: 0
+ProcessCompletedFlag: True; StatusCode: (no result yet); ResultCount: 0
+StatusCode: (unknown)
+Wrote E:\GoSaaS\Configuration Automation v2.1\fscr-main\_fscr_run_05_breadth\evidence\exports\XLE_MANAGE_LEGAL_JURISDICTIONS\ETIA-TEST_setup_task_csv_template_export_xle_manage_legal_jurisdictions_100004733448280.zip (1832 bytes)
+== XLE_MANAGE_LEGAL_JURISDICTIONS --template-only end 09:42:33
+== XLE_MANAGE_LEGAL_JURISDICTIONS --data start 09:42:33
+Started setup task CSV export process: 100004734412839
+ProcessCompletedFlag: False; StatusCode: (no result yet); ResultCount: 0
+ProcessCompletedFlag: True; StatusCode: (no result yet); ResultCount: 0
+StatusCode: (unknown)
+Wrote E:\GoSaaS\Configuration Automation v2.1\fscr-main\_fscr_run_05_breadth\evidence\exports\XLE_MANAGE_LEGAL_JURISDICTIONS\ETIA-TEST_setup_task_csv_export_xle_manage_legal_jurisdictions_100004734412839.zip (9582 bytes)
+== XLE_MANAGE_LEGAL_JURISDICTIONS --data end 09:42:53
+== FA_MANAGE_ASSET_CATEGORY --template-only start 09:42:53
+Started setup task CSV template export process: 100004734413014
+ProcessCompletedFlag: False; StatusCode: (no result yet); ResultCount: 0
+ProcessCompletedFlag: False; StatusCode: (no result yet); ResultCount: 0
+ProcessCompletedFlag: False; StatusCode: (no result yet); ResultCount: 0
+ProcessCompletedFlag: True; StatusCode: (no result yet); ResultCount: 0
+StatusCode: (unknown)
+Wrote E:\GoSaaS\Configuration Automation v2.1\fscr-main\_fscr_run_05_breadth\evidence\exports\FA_MANAGE_ASSET_CATEGORY\ETIA-TEST_setup_task_csv_template_export_fa_manage_asset_category_100004734413014.zip (4568 bytes)
+== FA_MANAGE_ASSET_CATEGORY --template-only end 09:43:39
+== FA_MANAGE_ASSET_CATEGORY --data start 09:43:39
+Started setup task CSV export process: 100004733447172
+ProcessCompletedFlag: False; StatusCode: (no result yet); ResultCount: 0
+ProcessCompletedFlag: False; StatusCode: (no result yet); ResultCount: 0
+ProcessCompletedFlag: False; StatusCode: (no result yet); ResultCount: 0
+ProcessCompletedFlag: True; StatusCode: (no result yet); ResultCount: 0
+StatusCode: (unknown)
+Wrote E:\GoSaaS\Configuration Automation v2.1\fscr-main\_fscr_run_05_breadth\evidence\exports\FA_MANAGE_ASSET_CATEGORY\ETIA-TEST_setup_task_csv_export_fa_manage_asset_category_100004733447172.zip (4570 bytes)
+== FA_MANAGE_ASSET_CATEGORY --data end 09:44:23
+== FA_MANAGE_FIXED_ASSETS_FLEXFIELD_VALUE_SETS --template-only start 09:44:23
+Started setup task CSV template export process: 100004733447186
+ProcessCompletedFlag: False; StatusCode: (no result yet); ResultCount: 0
+ProcessCompletedFlag: False; StatusCode: (no result yet); ResultCount: 0
+ProcessCompletedFlag: False; StatusCode: (no result yet); ResultCount: 0
+ProcessCompletedFlag: True; StatusCode: (no result yet); ResultCount: 0
+StatusCode: (unknown)
+Wrote E:\GoSaaS\Configuration Automation v2.1\fscr-main\_fscr_run_05_breadth\evidence\exports\FA_MANAGE_FIXED_ASSETS_FLEXFIELD_VALUE_SETS\ETIA-TEST_setup_task_csv_template_export_fa_manage_fixed_assets_flexfield_value_sets_100004733447186.zip (3733 bytes)
+== FA_MANAGE_FIXED_ASSETS_FLEXFIELD_VALUE_SETS --template-only end 09:45:08
+== FA_MANAGE_FIXED_ASSETS_FLEXFIELD_VALUE_SETS --data start 09:45:08
+Started setup task CSV export process: 100004733448403
+ProcessCompletedFlag: False; StatusCode: (no result yet); ResultCount: 0
+ProcessCompletedFlag: False; StatusCode: (no result yet); ResultCount: 0
+ProcessCompletedFlag: True; StatusCode: (no result yet); ResultCount: 0
+StatusCode: (unknown)
+Wrote E:\GoSaaS\Configuration Automation v2.1\fscr-main\_fscr_run_05_breadth\evidence\exports\FA_MANAGE_FIXED_ASSETS_FLEXFIELD_VALUE_SETS\ETIA-TEST_setup_task_csv_export_fa_manage_fixed_assets_flexfield_value_sets_100004733448403.zip (3729 bytes)
+== FA_MANAGE_FIXED_ASSETS_FLEXFIELD_VALUE_SETS --data end 09:45:42
+== GL_COMPLETE_PRIMARY_TO_SECONDARY_LEDGER_MAPPING --template-only start 09:45:42
+Started setup task CSV template export process: 100004734413061
+ProcessCompletedFlag: False; StatusCode: (no result yet); ResultCount: 0
+ProcessCompletedFlag: False; StatusCode: (no result yet); ResultCount: 0
+ProcessCompletedFlag: False; StatusCode: (no result yet); ResultCount: 0
+ProcessCompletedFlag: True; StatusCode: (no result yet); ResultCount: 0
+StatusCode: (unknown)
+Wrote E:\GoSaaS\Configuration Automation v2.1\fscr-main\_fscr_run_05_breadth\evidence\exports\GL_COMPLETE_PRIMARY_TO_SECONDARY_LEDGER_MAPPING\ETIA-TEST_setup_task_csv_template_export_gl_complete_primary_to_secondary_ledger_mapping_100004734413061.zip (8193 byt
+== GL_COMPLETE_PRIMARY_TO_SECONDARY_LEDGER_MAPPING --template-only end 09:46:50
+== GL_COMPLETE_PRIMARY_TO_SECONDARY_LEDGER_MAPPING --data start 09:46:50
+Started setup task CSV export process: 100004733448480
+ProcessCompletedFlag: False; StatusCode: (no result yet); ResultCount: 0
+ProcessCompletedFlag: False; StatusCode: (no result yet); ResultCount: 0
+ProcessCompletedFlag: True; StatusCode: (no result yet); ResultCount: 0
+StatusCode: (unknown)
+Wrote E:\GoSaaS\Configuration Automation v2.1\fscr-main\_fscr_run_05_breadth\evidence\exports\GL_COMPLETE_PRIMARY_TO_SECONDARY_LEDGER_MAPPING\ETIA-TEST_setup_task_csv_export_gl_complete_primary_to_secondary_ledger_mapping_100004733448480.zip (27942 bytes)
+== GL_COMPLETE_PRIMARY_TO_SECONDARY_LEDGER_MAPPING --data end 09:47:23
+== GL_MANAGE_LEDGER_SETS --template-only start 09:47:23
+Started setup task CSV template export process: 100004733447195
+ProcessCompletedFlag: False; StatusCode: (no result yet); ResultCount: 0
+ProcessCompletedFlag: False; StatusCode: (no result yet); ResultCount: 0
+ProcessCompletedFlag: True; StatusCode: (no result yet); ResultCount: 0
+StatusCode: (unknown)
+Wrote E:\GoSaaS\Configuration Automation v2.1\fscr-main\_fscr_run_05_breadth\evidence\exports\GL_MANAGE_LEDGER_SETS\ETIA-TEST_setup_task_csv_template_export_gl_manage_ledger_sets_100004733447195.zip (3069 bytes)
+== GL_MANAGE_LEDGER_SETS --template-only end 09:47:56
+== GL_MANAGE_LEDGER_SETS --data start 09:47:56
+Started setup task CSV export process: 100004734413121
+ProcessCompletedFlag: False; StatusCode: (no result yet); ResultCount: 0
+ProcessCompletedFlag: False; StatusCode: (no result yet); ResultCount: 0
+ProcessCompletedFlag: True; StatusCode: (no result yet); ResultCount: 0
+StatusCode: (unknown)
+Wrote E:\GoSaaS\Configuration Automation v2.1\fscr-main\_fscr_run_05_breadth\evidence\exports\GL_MANAGE_LEDGER_SETS\ETIA-TEST_setup_task_csv_export_gl_manage_ledger_sets_100004734413121.zip (3737 bytes)
+== GL_MANAGE_LEDGER_SETS --data end 09:48:29
+== ORA_MANAGE_CHANGE_ATTRIBUTE_GROUPS_AND_ATTRIBUTES --template-only start 09:48:29
+Started setup task CSV template export process: 100004733446806
+ProcessCompletedFlag: False; StatusCode: (no result yet); ResultCount: 0
+ProcessCompletedFlag: False; StatusCode: (no result yet); ResultCount: 0
+ProcessCompletedFlag: False; StatusCode: (no result yet); ResultCount: 0
+ProcessCompletedFlag: True; StatusCode: (no result yet); ResultCount: 0
+StatusCode: (unknown)
+Wrote E:\GoSaaS\Configuration Automation v2.1\fscr-main\_fscr_run_05_breadth\evidence\exports\ORA_MANAGE_CHANGE_ATTRIBUTE_GROUPS_AND_ATTRIBUTES\ETIA-TEST_setup_task_csv_template_export_ora_manage_change_attribute_groups_and_attributes_100004733446806.zip (8537
+== ORA_MANAGE_CHANGE_ATTRIBUTE_GROUPS_AND_ATTRIBUTES --template-only end 09:49:14
+== ORA_MANAGE_CHANGE_ATTRIBUTE_GROUPS_AND_ATTRIBUTES --data start 09:49:14
+Started setup task CSV export process: 100004734412904
+ProcessCompletedFlag: False; StatusCode: (no result yet); ResultCount: 0
+ProcessCompletedFlag: False; StatusCode: (no result yet); ResultCount: 0
+ProcessCompletedFlag: False; StatusCode: (no result yet); ResultCount: 0
+ProcessCompletedFlag: True; StatusCode: (no result yet); ResultCount: 0
+StatusCode: (unknown)
+Wrote E:\GoSaaS\Configuration Automation v2.1\fscr-main\_fscr_run_05_breadth\evidence\exports\ORA_MANAGE_CHANGE_ATTRIBUTE_GROUPS_AND_ATTRIBUTES\ETIA-TEST_setup_task_csv_export_ora_manage_change_attribute_groups_and_attributes_100004734412904.zip (42563 bytes)
+== ORA_MANAGE_CHANGE_ATTRIBUTE_GROUPS_AND_ATTRIBUTES --data end 09:50:00
+== INV_MANAGE_INVENTORY_ORGANIZATIONS --template-only start 09:50:00
+Started setup task CSV template export process: 100004734412991
+ProcessCompletedFlag: False; StatusCode: (no result yet); ResultCount: 0
+ProcessCompletedFlag: False; StatusCode: (no result yet); ResultCount: 0
+ProcessCompletedFlag: False; StatusCode: (no result yet); ResultCount: 0
+ProcessCompletedFlag: True; StatusCode: (no result yet); ResultCount: 0
+StatusCode: (unknown)
+Wrote E:\GoSaaS\Configuration Automation v2.1\fscr-main\_fscr_run_05_breadth\evidence\exports\INV_MANAGE_INVENTORY_ORGANIZATIONS\ETIA-TEST_setup_task_csv_template_export_inv_manage_inventory_organizations_100004734412991.zip (5364 bytes)
+== INV_MANAGE_INVENTORY_ORGANIZATIONS --template-only end 09:51:08
+== INV_MANAGE_INVENTORY_ORGANIZATIONS --data start 09:51:08
+Started setup task CSV export process: 100004733447232
+ProcessCompletedFlag: False; StatusCode: (no result yet); ResultCount: 0
+ProcessCompletedFlag: False; StatusCode: (no result yet); ResultCount: 0
+ProcessCompletedFlag: True; StatusCode: (no result yet); ResultCount: 0
+StatusCode: (unknown)
+Wrote E:\GoSaaS\Configuration Automation v2.1\fscr-main\_fscr_run_05_breadth\evidence\exports\INV_MANAGE_INVENTORY_ORGANIZATIONS\ETIA-TEST_setup_task_csv_export_inv_manage_inventory_organizations_100004733447232.zip (13152 bytes)
+== INV_MANAGE_INVENTORY_ORGANIZATIONS --data end 09:51:42
+== ORA_INVENTORY_DOCUMENT_OUTPUT_PREFERENCES --template-only start 09:51:42
+Started setup task CSV template export process: 100004733447248
+ProcessCompletedFlag: False; StatusCode: (no result yet); ResultCount: 0
+ProcessCompletedFlag: False; StatusCode: (no result yet); ResultCount: 0
+ProcessCompletedFlag: True; StatusCode: (no result yet); ResultCount: 0
+StatusCode: (unknown)
+Wrote E:\GoSaaS\Configuration Automation v2.1\fscr-main\_fscr_run_05_breadth\evidence\exports\ORA_INVENTORY_DOCUMENT_OUTPUT_PREFERENCES\ETIA-TEST_setup_task_csv_template_export_ora_inventory_document_output_preferences_100004733447248.zip (1915 bytes)
+== ORA_INVENTORY_DOCUMENT_OUTPUT_PREFERENCES --template-only end 09:52:15
+== ORA_INVENTORY_DOCUMENT_OUTPUT_PREFERENCES --data start 09:52:15
+Started setup task CSV export process: 100004734413143
+ProcessCompletedFlag: False; StatusCode: (no result yet); ResultCount: 0
+ProcessCompletedFlag: True; StatusCode: (no result yet); ResultCount: 0
+StatusCode: (unknown)
+Wrote E:\GoSaaS\Configuration Automation v2.1\fscr-main\_fscr_run_05_breadth\evidence\exports\ORA_INVENTORY_DOCUMENT_OUTPUT_PREFERENCES\ETIA-TEST_setup_task_csv_export_ora_inventory_document_output_preferences_100004734413143.zip (2339 bytes)
+== ORA_INVENTORY_DOCUMENT_OUTPUT_PREFERENCES --data end 09:52:37
+== EGP_ITEM_RELATIONSHIP_DFFS --template-only start 09:52:37
+Started setup task CSV template export process: 100004733448618
+ProcessCompletedFlag: True; StatusCode: (no result yet); ResultCount: 0
+StatusCode: (unknown)
+Wrote E:\GoSaaS\Configuration Automation v2.1\fscr-main\_fscr_run_05_breadth\evidence\exports\EGP_ITEM_RELATIONSHIP_DFFS\ETIA-TEST_setup_task_csv_template_export_egp_item_relationship_dffs_100004733448618.zip (6933 bytes)
+== EGP_ITEM_RELATIONSHIP_DFFS --template-only end 09:53:08
+== EGP_ITEM_RELATIONSHIP_DFFS --data start 09:53:08
+Started setup task CSV export process: 100004734413218
+ProcessCompletedFlag: False; StatusCode: (no result yet); ResultCount: 0
+ProcessCompletedFlag: False; StatusCode: (no result yet); ResultCount: 0
+ProcessCompletedFlag: True; StatusCode: (no result yet); ResultCount: 0
+StatusCode: (unknown)
+Wrote E:\GoSaaS\Configuration Automation v2.1\fscr-main\_fscr_run_05_breadth\evidence\exports\EGP_ITEM_RELATIONSHIP_DFFS\ETIA-TEST_setup_task_csv_export_egp_item_relationship_dffs_100004734413218.zip (9620 bytes)
+== EGP_ITEM_RELATIONSHIP_DFFS --data end 09:53:42
+== ORA_INVENTORY_ZONES --template-only start 09:53:42
+Started setup task CSV template export process: 100004733446816
+ProcessCompletedFlag: False; StatusCode: (no result yet); ResultCount: 0
+ProcessCompletedFlag: False; StatusCode: (no result yet); ResultCount: 0
+ProcessCompletedFlag: True; StatusCode: (no result yet); ResultCount: 0
+StatusCode: (unknown)
+Wrote E:\GoSaaS\Configuration Automation v2.1\fscr-main\_fscr_run_05_breadth\evidence\exports\ORA_INVENTORY_ZONES\ETIA-TEST_setup_task_csv_template_export_ora_inventory_zones_100004733446816.zip (1956 bytes)
+== ORA_INVENTORY_ZONES --template-only end 09:54:15
+== ORA_INVENTORY_ZONES --data start 09:54:15
+Error: Failed calling https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com/fscmRestApi/resources/11.13.18.05/setupTaskCSVExports/ORA_INVENTORY_ZONES/child/SetupTaskCSVExportProcess/100004733448689/child/SetupTaskCSVExportProcessResult?onlyData=true&limit=25
+Started setup task CSV export process: 100004733448689
+ProcessCompletedFlag: False; StatusCode: (no result yet); ResultCount: 0
+== ORA_INVENTORY_ZONES --data end 09:55:16
+== ORA_MANAGE_RECEIPT_ACCOUNTING_PROFILE_OPTIONS --template-only start 09:55:16
+Started setup task CSV template export process: 100004734413257
+ProcessCompletedFlag: False; StatusCode: (no result yet); ResultCount: 0
+ProcessCompletedFlag: False; StatusCode: (no result yet); ResultCount: 0
+ProcessCompletedFlag: True; StatusCode: (no result yet); ResultCount: 0
+StatusCode: (unknown)
+Wrote E:\GoSaaS\Configuration Automation v2.1\fscr-main\_fscr_run_05_breadth\evidence\exports\ORA_MANAGE_RECEIPT_ACCOUNTING_PROFILE_OPTIONS\ETIA-TEST_setup_task_csv_template_export_ora_manage_receipt_accounting_profile_options_100004734413257.zip (2077 bytes)
+== ORA_MANAGE_RECEIPT_ACCOUNTING_PROFILE_OPTIONS --template-only end 09:55:50
+== ORA_MANAGE_RECEIPT_ACCOUNTING_PROFILE_OPTIONS --data start 09:55:50
+Started setup task CSV export process: 100004734413290
+ProcessCompletedFlag: False; StatusCode: (no result yet); ResultCount: 0
+ProcessCompletedFlag: True; StatusCode: (no result yet); ResultCount: 0
+StatusCode: (unknown)
+Wrote E:\GoSaaS\Configuration Automation v2.1\fscr-main\_fscr_run_05_breadth\evidence\exports\ORA_MANAGE_RECEIPT_ACCOUNTING_PROFILE_OPTIONS\ETIA-TEST_setup_task_csv_export_ora_manage_receipt_accounting_profile_options_100004734413290.zip (2943 bytes)
+== ORA_MANAGE_RECEIPT_ACCOUNTING_PROFILE_OPTIONS --data end 09:56:11
+== POR_MANAGE_SUPPLIER_PRODUCTS_AND_SERVICES_CATEGORY_HIERARCHY --template-only start 09:56:11
+Started setup task CSV template export process: 100004733447262
+ProcessCompletedFlag: False; StatusCode: (no result yet); ResultCount: 0
+ProcessCompletedFlag: False; StatusCode: (no result yet); ResultCount: 0
+ProcessCompletedFlag: True; StatusCode: (no result yet); ResultCount: 0
+StatusCode: (unknown)
+Wrote E:\GoSaaS\Configuration Automation v2.1\fscr-main\_fscr_run_05_breadth\evidence\exports\POR_MANAGE_SUPPLIER_PRODUCTS_AND_SERVICES_CATEGORY_HIERARCHY\ETIA-TEST_setup_task_csv_template_export_por_manage_supplier_products_and_services_category_hierarchy_100
+== POR_MANAGE_SUPPLIER_PRODUCTS_AND_SERVICES_CATEGORY_HIERARCHY --template-only end 09:56:44
+== POR_MANAGE_SUPPLIER_PRODUCTS_AND_SERVICES_CATEGORY_HIERARCHY --data start 09:56:44
+Started setup task CSV export process: 100004733448749
+ProcessCompletedFlag: False; StatusCode: (no result yet); ResultCount: 0
+ProcessCompletedFlag: True; StatusCode: (no result yet); ResultCount: 0
+StatusCode: (unknown)
+Wrote E:\GoSaaS\Configuration Automation v2.1\fscr-main\_fscr_run_05_breadth\evidence\exports\POR_MANAGE_SUPPLIER_PRODUCTS_AND_SERVICES_CATEGORY_HIERARCHY\ETIA-TEST_setup_task_csv_export_por_manage_supplier_products_and_services_category_hierarchy_100004733448
+== POR_MANAGE_SUPPLIER_PRODUCTS_AND_SERVICES_CATEGORY_HIERARCHY --data end 09:57:07
+== ORA_IRC_COMMUNICATE_LOOKUPS --template-only start 09:57:07
+Started setup task CSV template export process: 100004734414054
+ProcessCompletedFlag: False; StatusCode: (no result yet); ResultCount: 0
+ProcessCompletedFlag: True; StatusCode: (no result yet); ResultCount: 0
+StatusCode: (unknown)
+Wrote E:\GoSaaS\Configuration Automation v2.1\fscr-main\_fscr_run_05_breadth\evidence\exports\ORA_IRC_COMMUNICATE_LOOKUPS\ETIA-TEST_setup_task_csv_template_export_ora_irc_communicate_lookups_100004734414054.zip (1841 bytes)
+== ORA_IRC_COMMUNICATE_LOOKUPS --template-only end 09:57:28
+== ORA_IRC_COMMUNICATE_LOOKUPS --data start 09:57:28
+Started setup task CSV export process: 100004733446832
+ProcessCompletedFlag: False; StatusCode: (no result yet); ResultCount: 0
+ProcessCompletedFlag: False; StatusCode: (no result yet); ResultCount: 0
+ProcessCompletedFlag: True; StatusCode: (no result yet); ResultCount: 0
+StatusCode: (unknown)
+Wrote E:\GoSaaS\Configuration Automation v2.1\fscr-main\_fscr_run_05_breadth\evidence\exports\ORA_IRC_COMMUNICATE_LOOKUPS\ETIA-TEST_setup_task_csv_export_ora_irc_communicate_lookups_100004733446832.zip (1842 bytes)
+== ORA_IRC_COMMUNICATE_LOOKUPS --data end 09:58:01
+== PAY_MANAGE_PAYROLL_VALUE_SETS --template-only start 09:58:01
+Started setup task CSV template export process: 100004734414162
+ProcessCompletedFlag: False; StatusCode: (no result yet); ResultCount: 0
+ProcessCompletedFlag: False; StatusCode: (no result yet); ResultCount: 0
+ProcessCompletedFlag: True; StatusCode: (no result yet); ResultCount: 0
+StatusCode: (unknown)
+Wrote E:\GoSaaS\Configuration Automation v2.1\fscr-main\_fscr_run_05_breadth\evidence\exports\PAY_MANAGE_PAYROLL_VALUE_SETS\ETIA-TEST_setup_task_csv_template_export_pay_manage_payroll_value_sets_100004734414162.zip (3715 bytes)
+== PAY_MANAGE_PAYROLL_VALUE_SETS --template-only end 09:58:35
+== PAY_MANAGE_PAYROLL_VALUE_SETS --data start 09:58:35
+Started setup task CSV export process: 100004733446938
+ProcessCompletedFlag: False; StatusCode: (no result yet); ResultCount: 0
+ProcessCompletedFlag: False; StatusCode: (no result yet); ResultCount: 0
+ProcessCompletedFlag: True; StatusCode: (no result yet); ResultCount: 0
+StatusCode: (unknown)
+Wrote E:\GoSaaS\Configuration Automation v2.1\fscr-main\_fscr_run_05_breadth\evidence\exports\PAY_MANAGE_PAYROLL_VALUE_SETS\ETIA-TEST_setup_task_csv_export_pay_manage_payroll_value_sets_100004733446938.zip (3715 bytes)
+== PAY_MANAGE_PAYROLL_VALUE_SETS --data end 09:59:30
+== PAY_MANAGE_PAYMENT_SOURCE_COSTING --template-only start 09:59:30
+Started setup task CSV template export process: 100004734413419
+ProcessCompletedFlag: False; StatusCode: (no result yet); ResultCount: 0
+ProcessCompletedFlag: False; StatusCode: (no result yet); ResultCount: 0
+ProcessCompletedFlag: True; StatusCode: (no result yet); ResultCount: 0
+StatusCode: (unknown)
+Wrote E:\GoSaaS\Configuration Automation v2.1\fscr-main\_fscr_run_05_breadth\evidence\exports\PAY_MANAGE_PAYMENT_SOURCE_COSTING\ETIA-TEST_setup_task_csv_template_export_pay_manage_payment_source_costing_100004734413419.zip (2926 bytes)
+== PAY_MANAGE_PAYMENT_SOURCE_COSTING --template-only end 10:00:03
+== PAY_MANAGE_PAYMENT_SOURCE_COSTING --data start 10:00:03
+Started setup task CSV export process: 100004734413562
+ProcessCompletedFlag: False; StatusCode: (no result yet); ResultCount: 0
+ProcessCompletedFlag: False; StatusCode: (no result yet); ResultCount: 0
+ProcessCompletedFlag: True; StatusCode: (no result yet); ResultCount: 0
+StatusCode: (unknown)
+Wrote E:\GoSaaS\Configuration Automation v2.1\fscr-main\_fscr_run_05_breadth\evidence\exports\PAY_MANAGE_PAYMENT_SOURCE_COSTING\ETIA-TEST_setup_task_csv_export_pay_manage_payment_source_costing_100004734413562.zip (2924 bytes)
+== PAY_MANAGE_PAYMENT_SOURCE_COSTING --data end 10:00:37
+== FND_MANAGE_ADMINISTRATOR_PROFILE_VALUES --template-only start 10:00:37
+Started setup task CSV template export process: 100004734414172
+ProcessCompletedFlag: False; StatusCode: (no result yet); ResultCount: 0
+ProcessCompletedFlag: False; StatusCode: (no result yet); ResultCount: 0
+ProcessCompletedFlag: True; StatusCode: (no result yet); ResultCount: 0
+StatusCode: (unknown)
+Wrote E:\GoSaaS\Configuration Automation v2.1\fscr-main\_fscr_run_05_breadth\evidence\exports\FND_MANAGE_ADMINISTRATOR_PROFILE_VALUES\ETIA-TEST_setup_task_csv_template_export_fnd_manage_administrator_profile_values_100004734414172.zip (2020 bytes)
+== FND_MANAGE_ADMINISTRATOR_PROFILE_VALUES --template-only end 10:01:10
+== FND_MANAGE_ADMINISTRATOR_PROFILE_VALUES --data start 10:01:10
+Started setup task CSV export process: 100004733446980
+ProcessCompletedFlag: False; StatusCode: (no result yet); ResultCount: 0
+ProcessCompletedFlag: False; StatusCode: (no result yet); ResultCount: 0
+ProcessCompletedFlag: True; StatusCode: (no result yet); ResultCount: 0
+StatusCode: (unknown)
+Wrote E:\GoSaaS\Configuration Automation v2.1\fscr-main\_fscr_run_05_breadth\evidence\exports\FND_MANAGE_ADMINISTRATOR_PROFILE_VALUES\ETIA-TEST_setup_task_csv_export_fnd_manage_administrator_profile_values_100004733446980.zip (55664 bytes)
+== FND_MANAGE_ADMINISTRATOR_PROFILE_VALUES --data end 10:01:44
+== FND_MANAGE_PROFILE_OPTIONS --template-only start 10:01:44
+Started setup task CSV template export process: 100004733447316
+ProcessCompletedFlag: False; StatusCode: (no result yet); ResultCount: 0
+ProcessCompletedFlag: False; StatusCode: (no result yet); ResultCount: 0
+ProcessCompletedFlag: False; StatusCode: (no result yet); ResultCount: 0
+ProcessCompletedFlag: True; StatusCode: (no result yet); ResultCount: 0
+StatusCode: (unknown)
+Wrote E:\GoSaaS\Configuration Automation v2.1\fscr-main\_fscr_run_05_breadth\evidence\exports\FND_MANAGE_PROFILE_OPTIONS\ETIA-TEST_setup_task_csv_template_export_fnd_manage_profile_options_100004733447316.zip (2040 bytes)
+== FND_MANAGE_PROFILE_OPTIONS --template-only end 10:02:29
+== FND_MANAGE_PROFILE_OPTIONS --data start 10:02:29
+Started setup task CSV export process: 100004733448884
+ProcessCompletedFlag: False; StatusCode: (no result yet); ResultCount: 0
+ProcessCompletedFlag: False; StatusCode: (no result yet); ResultCount: 0
+ProcessCompletedFlag: False; StatusCode: (no result yet); ResultCount: 0
+ProcessCompletedFlag: False; StatusCode: (no result yet); ResultCount: 0
+ProcessCompletedFlag: True; StatusCode: (no result yet); ResultCount: 0
+StatusCode: (unknown)
+Wrote E:\GoSaaS\Configuration Automation v2.1\fscr-main\_fscr_run_05_breadth\evidence\exports\FND_MANAGE_PROFILE_OPTIONS\ETIA-TEST_setup_task_csv_export_fnd_manage_profile_options_100004733448884.zip (106458 bytes)
+== FND_MANAGE_PROFILE_OPTIONS --data end 10:03:27
+== FND_MANAGE_KEY_FLEXFIELDS --template-only start 10:03:27
+Started setup task CSV template export process: 100004733447330
+ProcessCompletedFlag: False; StatusCode: (no result yet); ResultCount: 0
+ProcessCompletedFlag: False; StatusCode: (no result yet); ResultCount: 0
+ProcessCompletedFlag: False; StatusCode: (no result yet); ResultCount: 0
+ProcessCompletedFlag: True; StatusCode: (no result yet); ResultCount: 0
+StatusCode: (unknown)
+Wrote E:\GoSaaS\Configuration Automation v2.1\fscr-main\_fscr_run_05_breadth\evidence\exports\FND_MANAGE_KEY_FLEXFIELDS\ETIA-TEST_setup_task_csv_template_export_fnd_manage_key_flexfields_100004733447330.zip (3782 bytes)
+== FND_MANAGE_KEY_FLEXFIELDS --template-only end 10:04:12
+== FND_MANAGE_KEY_FLEXFIELDS --data start 10:04:12
+Started setup task CSV export process: 100004734414186
+ProcessCompletedFlag: False; StatusCode: (no result yet); ResultCount: 0
+ProcessCompletedFlag: False; StatusCode: (no result yet); ResultCount: 0
+ProcessCompletedFlag: True; StatusCode: (no result yet); ResultCount: 0
+StatusCode: (unknown)
+Wrote E:\GoSaaS\Configuration Automation v2.1\fscr-main\_fscr_run_05_breadth\evidence\exports\FND_MANAGE_KEY_FLEXFIELDS\ETIA-TEST_setup_task_csv_export_fnd_manage_key_flexfields_100004734414186.zip (9074 bytes)
+== FND_MANAGE_KEY_FLEXFIELDS --data end 10:05:08
+== ZCA_MANAGE_WAREHOUSE_ENABLE_PROFILE --template-only start 10:05:08
+Started setup task CSV template export process: 100004734413620
+ProcessCompletedFlag: False; StatusCode: (no result yet); ResultCount: 0
+ProcessCompletedFlag: True; StatusCode: (no result yet); ResultCount: 0
+StatusCode: (unknown)
+Wrote E:\GoSaaS\Configuration Automation v2.1\fscr-main\_fscr_run_05_breadth\evidence\exports\ZCA_MANAGE_WAREHOUSE_ENABLE_PROFILE\ETIA-TEST_setup_task_csv_template_export_zca_manage_warehouse_enable_profile_100004734413620.zip (2050 bytes)
+== ZCA_MANAGE_WAREHOUSE_ENABLE_PROFILE --template-only end 10:05:50
+== ZCA_MANAGE_WAREHOUSE_ENABLE_PROFILE --data start 10:05:50
+Started setup task CSV export process: 100004733447341
+ProcessCompletedFlag: False; StatusCode: (no result yet); ResultCount: 0
+ProcessCompletedFlag: False; StatusCode: (no result yet); ResultCount: 0
+ProcessCompletedFlag: True; StatusCode: (no result yet); ResultCount: 0
+StatusCode: (unknown)
+Wrote E:\GoSaaS\Configuration Automation v2.1\fscr-main\_fscr_run_05_breadth\evidence\exports\ZCA_MANAGE_WAREHOUSE_ENABLE_PROFILE\ETIA-TEST_setup_task_csv_export_zca_manage_warehouse_enable_profile_100004733447341.zip (2053 bytes)
+== ZCA_MANAGE_WAREHOUSE_ENABLE_PROFILE --data end 10:06:22
+== HZ_MANAGE_CONTACT_LOOKUPS --template-only start 10:06:22
+Started setup task CSV template export process: 100004733449061
+ProcessCompletedFlag: False; StatusCode: (no result yet); ResultCount: 0
+ProcessCompletedFlag: False; StatusCode: (no result yet); ResultCount: 0
+ProcessCompletedFlag: True; StatusCode: (no result yet); ResultCount: 0
+StatusCode: (unknown)
+Wrote E:\GoSaaS\Configuration Automation v2.1\fscr-main\_fscr_run_05_breadth\evidence\exports\HZ_MANAGE_CONTACT_LOOKUPS\ETIA-TEST_setup_task_csv_template_export_hz_manage_contact_lookups_100004733449061.zip (2006 bytes)
+== HZ_MANAGE_CONTACT_LOOKUPS --template-only end 10:06:56
+== HZ_MANAGE_CONTACT_LOOKUPS --data start 10:06:56
+Started setup task CSV export process: 100004734414256
+ProcessCompletedFlag: False; StatusCode: (no result yet); ResultCount: 0
+ProcessCompletedFlag: False; StatusCode: (no result yet); ResultCount: 0
+ProcessCompletedFlag: True; StatusCode: (no result yet); ResultCount: 0
+StatusCode: (unknown)
+Wrote E:\GoSaaS\Configuration Automation v2.1\fscr-main\_fscr_run_05_breadth\evidence\exports\HZ_MANAGE_CONTACT_LOOKUPS\ETIA-TEST_setup_task_csv_export_hz_manage_contact_lookups_100004734414256.zip (2008 bytes)
+== HZ_MANAGE_CONTACT_LOOKUPS --data end 10:07:28

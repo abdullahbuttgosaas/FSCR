@@ -1,0 +1,42 @@
+{
+  "LookupType" : "FSCRT_OUTDOOR_ACTIVITY_F01",
+  "ModuleId" : "61ECAF4AAB00E990E040449821C61C97",
+  "Meaning" : "FSCRT_Outdoor activity F01",
+  "Description" : "Activities a product is sold for",
+  "CustomizationLevel" : "U",
+  "RestAccessSecured" : "SECURE",
+  "CreatedBy" : "Configuration.TEST",
+  "CreationDate" : "2026-11-02T19:53:36+00:00",
+  "LastUpdateDate" : "2026-11-02T19:53:36.268+00:00",
+  "LastUpdateLogin" : "5F4DD5A7CB610AE7E0631C65310A4BA1",
+  "LastUpdatedBy" : "Configuration.TEST",
+  "lookupCodes" : [ {
+    "LookupCode" : "FSCRT_HIKING",
+    "Meaning" : "FSCRT_Hiking",
+    "Description" : null,
+    "EnabledFlag" : "Y",
+    "StartDateActive" : null,
+    "EndDateActive" : null,
+    "DisplaySequence" : 1,
+    "Tag" : null,
+    "CreatedBy" : "Configuration.TEST",
+    "CreationDate" : "2026-11-02T19:53:52+00:00",
+    "LastUpdateDate" : "2026-11-02T19:53:52.244+00:00",
+    "LastUpdateLogin" : "5F4DD5EB79FF0B7FE0631C65310AED71",
+    "LastUpdatedBy" : "Configuration.TEST"
+  }, {
+    "LookupCode" : "FSCRT_PADDLING",
+    "Meaning" : "FSCRT_Paddling",
+    "Description" : "Kayak and canoe gear",
+    "EnabledFlag" : "Y",
+    "StartDateActive" : null,
+    "EndDateActive" : null,
+    "DisplaySequence" : 2,
+    "Tag" : "water",
+    "CreatedBy" : "Configuration.TEST",
+    "CreationDate" : "2026-11-02T19:53:54+00:00",
+    "LastUpdateDate" : "2026-11-02T19:53:54.237+00:00",
+    "LastUpdateLogin" : "5F4BED34FA1FF747E0631B65310A6627",
+    "LastUpdatedBy" : "Configuration.TEST"
+  } ]
+}

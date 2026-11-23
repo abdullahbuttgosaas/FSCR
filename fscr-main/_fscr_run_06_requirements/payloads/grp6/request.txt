@@ -1,0 +1,1 @@
+Create AutoInvoice grouping rule FSCRT_GRP6 starting 2026-11-03, set up like FSCRT_GRP1: Invoice transaction class, no line ordering rule, description 'FSCRT Run06 consignment grouping rule'.

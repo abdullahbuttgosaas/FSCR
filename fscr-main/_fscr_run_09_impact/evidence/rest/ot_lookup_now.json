@@ -1,0 +1,30 @@
+{
+  "items" : [ {
+    "LookupCode" : "FSCRT_SO_TRAIL_DEALER_F01",
+    "Meaning" : "FSCRT_Trail Dealer Replenishment F01",
+    "Description" : "Stock refills for trail dealers, retired after October 2027",
+    "EnabledFlag" : "Y",
+    "StartDateActive" : null,
+    "EndDateActive" : "2027-10-31",
+    "DisplaySequence" : null,
+    "Tag" : null,
+    "CreatedBy" : "Configuration.TEST",
+    "CreationDate" : "2026-11-02T19:54:12+00:00",
+    "LastUpdateDate" : "2026-11-03T02:56:40+00:00",
+    "LastUpdateLogin" : "5F4DD5A7CC330AE7E0631C65310A4BA1",
+    "LastUpdatedBy" : "Configuration.TEST",
+    "@context" : {
+      "key" : "FSCRT_SO_TRAIL_DEALER_F01"
+    }
+  } ],
+  "count" : 1,
+  "hasMore" : false,
+  "limit" : 25,
+  "offset" : 0,
+  "links" : [ {
+    "rel" : "self",
+    "href" : "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/ORA_DOO_ORDER_TYPES/child/lookupCodes",
+    "name" : "lookupCodes",
+    "kind" : "collection"
+  } ]
+}

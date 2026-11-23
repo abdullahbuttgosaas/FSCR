@@ -1,0 +1,38 @@
+{
+ "old": "fscr-work8/project/draft_impl_project_20261104/exports/baseline/AR_MANAGE_AUTOINVOICE_GROUPING_RULES/ETIA-TEST_setup_task_csv_export_ar_manage_autoinvoice_grouping_rules_100004733467316.zip",
+ "new": "fscr-work8/project/draft_impl_project_20261104/exports/extra/AR_MANAGE_AUTOINVOICE_GROUPING_RULES/ETIA-TEST_setup_task_csv_export_ar_manage_autoinvoice_grouping_rules_100004733457755.zip",
+ "files": {
+  "AR_AI_GROUPING_RULE.csv": {
+   "rows_old": 13,
+   "rows_new": 13,
+   "key_columns": [
+    "Name",
+    "LineOrderingRuleName"
+   ],
+   "added": [],
+   "removed": [],
+   "changed": []
+  },
+  "ORA_AR_AI_GRP_TXN_REQUEST.csv": {
+   "rows_old": 23,
+   "rows_new": 23,
+   "key_columns": [
+    "AR_AI_GROUPING_RULE.Name",
+    "FromColumnName"
+   ],
+   "added": [],
+   "removed": [],
+   "changed": []
+  },
+  "ORA_AR_AI_GRP_TXN_TYPE.csv": {
+   "rows_old": 17,
+   "rows_new": 17,
+   "key_columns": [
+    "AR_AI_GROUPING_RULE.Name"
+   ],
+   "added": [],
+   "removed": [],
+   "changed": []
+  }
+ }
+}

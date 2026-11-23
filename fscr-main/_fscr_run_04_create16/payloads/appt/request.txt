@@ -1,0 +1,1 @@
+Create a Payables payment term FSCRT_AP_N45: net 45 days, 100% due in 45 days, enabled, standard type, start 2026-11-03, available in reference data set ENTERPRISE, US description.

@@ -1,0 +1,2446 @@
+{
+ "items": [
+  {
+   "LookupCode": "teest",
+   "DisplaySequence": "1",
+   "Meaning": "TESTT",
+   "@context": {
+    "key": "teest",
+    "links": [
+     {
+      "rel": "self",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/ORA_DOO_ORDER_TYPES/child/lookupCodes/teest",
+      "name": "lookupCodes",
+      "kind": "item"
+     },
+     {
+      "rel": "canonical",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/ORA_DOO_ORDER_TYPES/child/lookupCodes/teest",
+      "name": "lookupCodes",
+      "kind": "item"
+     },
+     {
+      "rel": "parent",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/ORA_DOO_ORDER_TYPES",
+      "name": "standardLookups",
+      "kind": "item"
+     },
+     {
+      "rel": "child",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/ORA_DOO_ORDER_TYPES/child/lookupCodes/teest/child/lookupsDFF",
+      "name": "lookupsDFF",
+      "kind": "collection"
+     },
+     {
+      "rel": "child",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/ORA_DOO_ORDER_TYPES/child/lookupCodes/teest/child/translations",
+      "name": "translations",
+      "kind": "collection"
+     }
+    ]
+   }
+  },
+  {
+   "LookupCode": "Subscription",
+   "DisplaySequence": "2",
+   "Meaning": "Subscription",
+   "@context": {
+    "key": "Subscription",
+    "links": [
+     {
+      "rel": "self",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/ORA_DOO_ORDER_TYPES/child/lookupCodes/Subscription",
+      "name": "lookupCodes",
+      "kind": "item"
+     },
+     {
+      "rel": "canonical",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/ORA_DOO_ORDER_TYPES/child/lookupCodes/Subscription",
+      "name": "lookupCodes",
+      "kind": "item"
+     },
+     {
+      "rel": "parent",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/ORA_DOO_ORDER_TYPES",
+      "name": "standardLookups",
+      "kind": "item"
+     },
+     {
+      "rel": "child",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/ORA_DOO_ORDER_TYPES/child/lookupCodes/Subscription/child/lookupsDFF",
+      "name": "lookupsDFF",
+      "kind": "collection"
+     },
+     {
+      "rel": "child",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/ORA_DOO_ORDER_TYPES/child/lookupCodes/Subscription/child/translations",
+      "name": "translations",
+      "kind": "collection"
+     }
+    ]
+   }
+  },
+  {
+   "LookupCode": "AMNA_STANDARD_ORDERS",
+   "DisplaySequence": "3",
+   "Meaning": "Standard Sales Orders_10",
+   "@context": {
+    "key": "AMNA_STANDARD_ORDERS",
+    "links": [
+     {
+      "rel": "self",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/ORA_DOO_ORDER_TYPES/child/lookupCodes/AMNA_STANDARD_ORDERS",
+      "name": "lookupCodes",
+      "kind": "item"
+     },
+     {
+      "rel": "canonical",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/ORA_DOO_ORDER_TYPES/child/lookupCodes/AMNA_STANDARD_ORDERS",
+      "name": "lookupCodes",
+      "kind": "item"
+     },
+     {
+      "rel": "parent",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/ORA_DOO_ORDER_TYPES",
+      "name": "standardLookups",
+      "kind": "item"
+     },
+     {
+      "rel": "child",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/ORA_DOO_ORDER_TYPES/child/lookupCodes/AMNA_STANDARD_ORDERS/child/lookupsDFF",
+      "name": "lookupsDFF",
+      "kind": "collection"
+     },
+     {
+      "rel": "child",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/ORA_DOO_ORDER_TYPES/child/lookupCodes/AMNA_STANDARD_ORDERS/child/translations",
+      "name": "translations",
+      "kind": "collection"
+     }
+    ]
+   }
+  },
+  {
+   "LookupCode": "IMTENAN_STANDARD",
+   "DisplaySequence": "4",
+   "Meaning": "Imtenan Standard",
+   "@context": {
+    "key": "IMTENAN_STANDARD",
+    "links": [
+     {
+      "rel": "self",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/ORA_DOO_ORDER_TYPES/child/lookupCodes/IMTENAN_STANDARD",
+      "name": "lookupCodes",
+      "kind": "item"
+     },
+     {
+      "rel": "canonical",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/ORA_DOO_ORDER_TYPES/child/lookupCodes/IMTENAN_STANDARD",
+      "name": "lookupCodes",
+      "kind": "item"
+     },
+     {
+      "rel": "parent",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/ORA_DOO_ORDER_TYPES",
+      "name": "standardLookups",
+      "kind": "item"
+     },
+     {
+      "rel": "child",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/ORA_DOO_ORDER_TYPES/child/lookupCodes/IMTENAN_STANDARD/child/lookupsDFF",
+      "name": "lookupsDFF",
+      "kind": "collection"
+     },
+     {
+      "rel": "child",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/ORA_DOO_ORDER_TYPES/child/lookupCodes/IMTENAN_STANDARD/child/translations",
+      "name": "translations",
+      "kind": "collection"
+     }
+    ]
+   }
+  },
+  {
+   "LookupCode": "ABDULLAH_STANDARD",
+   "DisplaySequence": "5",
+   "Meaning": "Abdullah Standard",
+   "@context": {
+    "key": "ABDULLAH_STANDARD",
+    "links": [
+     {
+      "rel": "self",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/ORA_DOO_ORDER_TYPES/child/lookupCodes/ABDULLAH_STANDARD",
+      "name": "lookupCodes",
+      "kind": "item"
+     },
+     {
+      "rel": "canonical",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/ORA_DOO_ORDER_TYPES/child/lookupCodes/ABDULLAH_STANDARD",
+      "name": "lookupCodes",
+      "kind": "item"
+     },
+     {
+      "rel": "parent",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/ORA_DOO_ORDER_TYPES",
+      "name": "standardLookups",
+      "kind": "item"
+     },
+     {
+      "rel": "child",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/ORA_DOO_ORDER_TYPES/child/lookupCodes/ABDULLAH_STANDARD/child/lookupsDFF",
+      "name": "lookupsDFF",
+      "kind": "collection"
+     },
+     {
+      "rel": "child",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/ORA_DOO_ORDER_TYPES/child/lookupCodes/ABDULLAH_STANDARD/child/translations",
+      "name": "translations",
+      "kind": "collection"
+     }
+    ]
+   }
+  },
+  {
+   "LookupCode": "RETURN_STANDARD",
+   "DisplaySequence": "6",
+   "Meaning": "Return Standard",
+   "@context": {
+    "key": "RETURN_STANDARD",
+    "links": [
+     {
+      "rel": "self",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/ORA_DOO_ORDER_TYPES/child/lookupCodes/RETURN_STANDARD",
+      "name": "lookupCodes",
+      "kind": "item"
+     },
+     {
+      "rel": "canonical",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/ORA_DOO_ORDER_TYPES/child/lookupCodes/RETURN_STANDARD",
+      "name": "lookupCodes",
+      "kind": "item"
+     },
+     {
+      "rel": "parent",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/ORA_DOO_ORDER_TYPES",
+      "name": "standardLookups",
+      "kind": "item"
+     },
+     {
+      "rel": "child",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/ORA_DOO_ORDER_TYPES/child/lookupCodes/RETURN_STANDARD/child/lookupsDFF",
+      "name": "lookupsDFF",
+      "kind": "collection"
+     },
+     {
+      "rel": "child",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/ORA_DOO_ORDER_TYPES/child/lookupCodes/RETURN_STANDARD/child/translations",
+      "name": "translations",
+      "kind": "collection"
+     }
+    ]
+   }
+  },
+  {
+   "LookupCode": "CH_RETURN",
+   "DisplaySequence": "7",
+   "Meaning": "CH Return",
+   "@context": {
+    "key": "CH_RETURN",
+    "links": [
+     {
+      "rel": "self",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/ORA_DOO_ORDER_TYPES/child/lookupCodes/CH_RETURN",
+      "name": "lookupCodes",
+      "kind": "item"
+     },
+     {
+      "rel": "canonical",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/ORA_DOO_ORDER_TYPES/child/lookupCodes/CH_RETURN",
+      "name": "lookupCodes",
+      "kind": "item"
+     },
+     {
+      "rel": "parent",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/ORA_DOO_ORDER_TYPES",
+      "name": "standardLookups",
+      "kind": "item"
+     },
+     {
+      "rel": "child",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/ORA_DOO_ORDER_TYPES/child/lookupCodes/CH_RETURN/child/lookupsDFF",
+      "name": "lookupsDFF",
+      "kind": "collection"
+     },
+     {
+      "rel": "child",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/ORA_DOO_ORDER_TYPES/child/lookupCodes/CH_RETURN/child/translations",
+      "name": "translations",
+      "kind": "collection"
+     }
+    ]
+   }
+  },
+  {
+   "LookupCode": "CH_TEST",
+   "DisplaySequence": "8",
+   "Meaning": "CH Test",
+   "@context": {
+    "key": "CH_TEST",
+    "links": [
+     {
+      "rel": "self",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/ORA_DOO_ORDER_TYPES/child/lookupCodes/CH_TEST",
+      "name": "lookupCodes",
+      "kind": "item"
+     },
+     {
+      "rel": "canonical",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/ORA_DOO_ORDER_TYPES/child/lookupCodes/CH_TEST",
+      "name": "lookupCodes",
+      "kind": "item"
+     },
+     {
+      "rel": "parent",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/ORA_DOO_ORDER_TYPES",
+      "name": "standardLookups",
+      "kind": "item"
+     },
+     {
+      "rel": "child",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/ORA_DOO_ORDER_TYPES/child/lookupCodes/CH_TEST/child/lookupsDFF",
+      "name": "lookupsDFF",
+      "kind": "collection"
+     },
+     {
+      "rel": "child",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/ORA_DOO_ORDER_TYPES/child/lookupCodes/CH_TEST/child/translations",
+      "name": "translations",
+      "kind": "collection"
+     }
+    ]
+   }
+  },
+  {
+   "LookupCode": "ABCABC1",
+   "DisplaySequence": "10",
+   "Meaning": "ABC ABC Order Type 1",
+   "@context": {
+    "key": "ABCABC1",
+    "links": [
+     {
+      "rel": "self",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/ORA_DOO_ORDER_TYPES/child/lookupCodes/ABCABC1",
+      "name": "lookupCodes",
+      "kind": "item"
+     },
+     {
+      "rel": "canonical",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/ORA_DOO_ORDER_TYPES/child/lookupCodes/ABCABC1",
+      "name": "lookupCodes",
+      "kind": "item"
+     },
+     {
+      "rel": "parent",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/ORA_DOO_ORDER_TYPES",
+      "name": "standardLookups",
+      "kind": "item"
+     },
+     {
+      "rel": "child",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/ORA_DOO_ORDER_TYPES/child/lookupCodes/ABCABC1/child/lookupsDFF",
+      "name": "lookupsDFF",
+      "kind": "collection"
+     },
+     {
+      "rel": "child",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/ORA_DOO_ORDER_TYPES/child/lookupCodes/ABCABC1/child/translations",
+      "name": "translations",
+      "kind": "collection"
+     }
+    ]
+   }
+  },
+  {
+   "LookupCode": "ZZ_POC_STANDARD_ORDER",
+   "DisplaySequence": "10",
+   "Meaning": "ZZ POC Standard Sales Order",
+   "@context": {
+    "key": "ZZ_POC_STANDARD_ORDER",
+    "links": [
+     {
+      "rel": "self",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/ORA_DOO_ORDER_TYPES/child/lookupCodes/ZZ_POC_STANDARD_ORDER",
+      "name": "lookupCodes",
+      "kind": "item"
+     },
+     {
+      "rel": "canonical",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/ORA_DOO_ORDER_TYPES/child/lookupCodes/ZZ_POC_STANDARD_ORDER",
+      "name": "lookupCodes",
+      "kind": "item"
+     },
+     {
+      "rel": "parent",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/ORA_DOO_ORDER_TYPES",
+      "name": "standardLookups",
+      "kind": "item"
+     },
+     {
+      "rel": "child",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/ORA_DOO_ORDER_TYPES/child/lookupCodes/ZZ_POC_STANDARD_ORDER/child/lookupsDFF",
+      "name": "lookupsDFF",
+      "kind": "collection"
+     },
+     {
+      "rel": "child",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/ORA_DOO_ORDER_TYPES/child/lookupCodes/ZZ_POC_STANDARD_ORDER/child/translations",
+      "name": "translations",
+      "kind": "collection"
+     }
+    ]
+   }
+  },
+  {
+   "LookupCode": "ABCABC2",
+   "DisplaySequence": "11",
+   "Meaning": "ABC ABC Order Type 2",
+   "@context": {
+    "key": "ABCABC2",
+    "links": [
+     {
+      "rel": "self",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/ORA_DOO_ORDER_TYPES/child/lookupCodes/ABCABC2",
+      "name": "lookupCodes",
+      "kind": "item"
+     },
+     {
+      "rel": "canonical",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/ORA_DOO_ORDER_TYPES/child/lookupCodes/ABCABC2",
+      "name": "lookupCodes",
+      "kind": "item"
+     },
+     {
+      "rel": "parent",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/ORA_DOO_ORDER_TYPES",
+      "name": "standardLookups",
+      "kind": "item"
+     },
+     {
+      "rel": "child",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/ORA_DOO_ORDER_TYPES/child/lookupCodes/ABCABC2/child/lookupsDFF",
+      "name": "lookupsDFF",
+      "kind": "collection"
+     },
+     {
+      "rel": "child",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/ORA_DOO_ORDER_TYPES/child/lookupCodes/ABCABC2/child/translations",
+      "name": "translations",
+      "kind": "collection"
+     }
+    ]
+   }
+  },
+  {
+   "LookupCode": "TESTORDER22",
+   "DisplaySequence": "12",
+   "Meaning": "TESTORDER22",
+   "@context": {
+    "key": "TESTORDER22",
+    "links": [
+     {
+      "rel": "self",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/ORA_DOO_ORDER_TYPES/child/lookupCodes/TESTORDER22",
+      "name": "lookupCodes",
+      "kind": "item"
+     },
+     {
+      "rel": "canonical",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/ORA_DOO_ORDER_TYPES/child/lookupCodes/TESTORDER22",
+      "name": "lookupCodes",
+      "kind": "item"
+     },
+     {
+      "rel": "parent",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/ORA_DOO_ORDER_TYPES",
+      "name": "standardLookups",
+      "kind": "item"
+     },
+     {
+      "rel": "child",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/ORA_DOO_ORDER_TYPES/child/lookupCodes/TESTORDER22/child/lookupsDFF",
+      "name": "lookupsDFF",
+      "kind": "collection"
+     },
+     {
+      "rel": "child",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/ORA_DOO_ORDER_TYPES/child/lookupCodes/TESTORDER22/child/translations",
+      "name": "translations",
+      "kind": "collection"
+     }
+    ]
+   }
+  },
+  {
+   "LookupCode": "THJTHJ",
+   "DisplaySequence": "12",
+   "Meaning": "thjthj",
+   "@context": {
+    "key": "THJTHJ",
+    "links": [
+     {
+      "rel": "self",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/ORA_DOO_ORDER_TYPES/child/lookupCodes/THJTHJ",
+      "name": "lookupCodes",
+      "kind": "item"
+     },
+     {
+      "rel": "canonical",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/ORA_DOO_ORDER_TYPES/child/lookupCodes/THJTHJ",
+      "name": "lookupCodes",
+      "kind": "item"
+     },
+     {
+      "rel": "parent",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/ORA_DOO_ORDER_TYPES",
+      "name": "standardLookups",
+      "kind": "item"
+     },
+     {
+      "rel": "child",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/ORA_DOO_ORDER_TYPES/child/lookupCodes/THJTHJ/child/lookupsDFF",
+      "name": "lookupsDFF",
+      "kind": "collection"
+     },
+     {
+      "rel": "child",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/ORA_DOO_ORDER_TYPES/child/lookupCodes/THJTHJ/child/translations",
+      "name": "translations",
+      "kind": "collection"
+     }
+    ]
+   }
+  },
+  {
+   "LookupCode": "IMTENAN_STANDARD_2",
+   "DisplaySequence": "13",
+   "Meaning": "Imtenan Standard 2",
+   "@context": {
+    "key": "IMTENAN_STANDARD_2",
+    "links": [
+     {
+      "rel": "self",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/ORA_DOO_ORDER_TYPES/child/lookupCodes/IMTENAN_STANDARD_2",
+      "name": "lookupCodes",
+      "kind": "item"
+     },
+     {
+      "rel": "canonical",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/ORA_DOO_ORDER_TYPES/child/lookupCodes/IMTENAN_STANDARD_2",
+      "name": "lookupCodes",
+      "kind": "item"
+     },
+     {
+      "rel": "parent",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/ORA_DOO_ORDER_TYPES",
+      "name": "standardLookups",
+      "kind": "item"
+     },
+     {
+      "rel": "child",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/ORA_DOO_ORDER_TYPES/child/lookupCodes/IMTENAN_STANDARD_2/child/lookupsDFF",
+      "name": "lookupsDFF",
+      "kind": "collection"
+     },
+     {
+      "rel": "child",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/ORA_DOO_ORDER_TYPES/child/lookupCodes/IMTENAN_STANDARD_2/child/translations",
+      "name": "translations",
+      "kind": "collection"
+     }
+    ]
+   }
+  },
+  {
+   "LookupCode": "ZZ_DEMO_ORDER",
+   "DisplaySequence": "20",
+   "Meaning": "ZZ Demo Sales Order",
+   "@context": {
+    "key": "ZZ_DEMO_ORDER",
+    "links": [
+     {
+      "rel": "self",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/ORA_DOO_ORDER_TYPES/child/lookupCodes/ZZ_DEMO_ORDER",
+      "name": "lookupCodes",
+      "kind": "item"
+     },
+     {
+      "rel": "canonical",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/ORA_DOO_ORDER_TYPES/child/lookupCodes/ZZ_DEMO_ORDER",
+      "name": "lookupCodes",
+      "kind": "item"
+     },
+     {
+      "rel": "parent",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/ORA_DOO_ORDER_TYPES",
+      "name": "standardLookups",
+      "kind": "item"
+     },
+     {
+      "rel": "child",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/ORA_DOO_ORDER_TYPES/child/lookupCodes/ZZ_DEMO_ORDER/child/lookupsDFF",
+      "name": "lookupsDFF",
+      "kind": "collection"
+     },
+     {
+      "rel": "child",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/ORA_DOO_ORDER_TYPES/child/lookupCodes/ZZ_DEMO_ORDER/child/translations",
+      "name": "translations",
+      "kind": "collection"
+     }
+    ]
+   }
+  },
+  {
+   "LookupCode": "ZZ_DEMO_ORDER22",
+   "DisplaySequence": "20",
+   "Meaning": "ZZ Demo Sales Order 22",
+   "@context": {
+    "key": "ZZ_DEMO_ORDER22",
+    "links": [
+     {
+      "rel": "self",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/ORA_DOO_ORDER_TYPES/child/lookupCodes/ZZ_DEMO_ORDER22",
+      "name": "lookupCodes",
+      "kind": "item"
+     },
+     {
+      "rel": "canonical",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/ORA_DOO_ORDER_TYPES/child/lookupCodes/ZZ_DEMO_ORDER22",
+      "name": "lookupCodes",
+      "kind": "item"
+     },
+     {
+      "rel": "parent",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/ORA_DOO_ORDER_TYPES",
+      "name": "standardLookups",
+      "kind": "item"
+     },
+     {
+      "rel": "child",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/ORA_DOO_ORDER_TYPES/child/lookupCodes/ZZ_DEMO_ORDER22/child/lookupsDFF",
+      "name": "lookupsDFF",
+      "kind": "collection"
+     },
+     {
+      "rel": "child",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/ORA_DOO_ORDER_TYPES/child/lookupCodes/ZZ_DEMO_ORDER22/child/translations",
+      "name": "translations",
+      "kind": "collection"
+     }
+    ]
+   }
+  },
+  {
+   "LookupCode": "ABDULLAH_STANDARD_2",
+   "DisplaySequence": "21",
+   "Meaning": "Abdullah Standard 2",
+   "@context": {
+    "key": "ABDULLAH_STANDARD_2",
+    "links": [
+     {
+      "rel": "self",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/ORA_DOO_ORDER_TYPES/child/lookupCodes/ABDULLAH_STANDARD_2",
+      "name": "lookupCodes",
+      "kind": "item"
+     },
+     {
+      "rel": "canonical",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/ORA_DOO_ORDER_TYPES/child/lookupCodes/ABDULLAH_STANDARD_2",
+      "name": "lookupCodes",
+      "kind": "item"
+     },
+     {
+      "rel": "parent",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/ORA_DOO_ORDER_TYPES",
+      "name": "standardLookups",
+      "kind": "item"
+     },
+     {
+      "rel": "child",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/ORA_DOO_ORDER_TYPES/child/lookupCodes/ABDULLAH_STANDARD_2/child/lookupsDFF",
+      "name": "lookupsDFF",
+      "kind": "collection"
+     },
+     {
+      "rel": "child",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/ORA_DOO_ORDER_TYPES/child/lookupCodes/ABDULLAH_STANDARD_2/child/translations",
+      "name": "translations",
+      "kind": "collection"
+     }
+    ]
+   }
+  },
+  {
+   "LookupCode": "ZZ_TEST_6387",
+   "DisplaySequence": "22",
+   "Meaning": "ZZ_TEST_6387",
+   "@context": {
+    "key": "ZZ_TEST_6387",
+    "links": [
+     {
+      "rel": "self",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/ORA_DOO_ORDER_TYPES/child/lookupCodes/ZZ_TEST_6387",
+      "name": "lookupCodes",
+      "kind": "item"
+     },
+     {
+      "rel": "canonical",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/ORA_DOO_ORDER_TYPES/child/lookupCodes/ZZ_TEST_6387",
+      "name": "lookupCodes",
+      "kind": "item"
+     },
+     {
+      "rel": "parent",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/ORA_DOO_ORDER_TYPES",
+      "name": "standardLookups",
+      "kind": "item"
+     },
+     {
+      "rel": "child",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/ORA_DOO_ORDER_TYPES/child/lookupCodes/ZZ_TEST_6387/child/lookupsDFF",
+      "name": "lookupsDFF",
+      "kind": "collection"
+     },
+     {
+      "rel": "child",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/ORA_DOO_ORDER_TYPES/child/lookupCodes/ZZ_TEST_6387/child/translations",
+      "name": "translations",
+      "kind": "collection"
+     }
+    ]
+   }
+  },
+  {
+   "LookupCode": "ZZ_TEST_4833",
+   "DisplaySequence": "23",
+   "Meaning": "ZZ_TEST_4833",
+   "@context": {
+    "key": "ZZ_TEST_4833",
+    "links": [
+     {
+      "rel": "self",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/ORA_DOO_ORDER_TYPES/child/lookupCodes/ZZ_TEST_4833",
+      "name": "lookupCodes",
+      "kind": "item"
+     },
+     {
+      "rel": "canonical",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/ORA_DOO_ORDER_TYPES/child/lookupCodes/ZZ_TEST_4833",
+      "name": "lookupCodes",
+      "kind": "item"
+     },
+     {
+      "rel": "parent",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/ORA_DOO_ORDER_TYPES",
+      "name": "standardLookups",
+      "kind": "item"
+     },
+     {
+      "rel": "child",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/ORA_DOO_ORDER_TYPES/child/lookupCodes/ZZ_TEST_4833/child/lookupsDFF",
+      "name": "lookupsDFF",
+      "kind": "collection"
+     },
+     {
+      "rel": "child",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/ORA_DOO_ORDER_TYPES/child/lookupCodes/ZZ_TEST_4833/child/translations",
+      "name": "translations",
+      "kind": "collection"
+     }
+    ]
+   }
+  },
+  {
+   "LookupCode": "ZZ_TEST_2868",
+   "DisplaySequence": "24",
+   "Meaning": "ZZ_TEST_2868",
+   "@context": {
+    "key": "ZZ_TEST_2868",
+    "links": [
+     {
+      "rel": "self",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/ORA_DOO_ORDER_TYPES/child/lookupCodes/ZZ_TEST_2868",
+      "name": "lookupCodes",
+      "kind": "item"
+     },
+     {
+      "rel": "canonical",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/ORA_DOO_ORDER_TYPES/child/lookupCodes/ZZ_TEST_2868",
+      "name": "lookupCodes",
+      "kind": "item"
+     },
+     {
+      "rel": "parent",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/ORA_DOO_ORDER_TYPES",
+      "name": "standardLookups",
+      "kind": "item"
+     },
+     {
+      "rel": "child",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/ORA_DOO_ORDER_TYPES/child/lookupCodes/ZZ_TEST_2868/child/lookupsDFF",
+      "name": "lookupsDFF",
+      "kind": "collection"
+     },
+     {
+      "rel": "child",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/ORA_DOO_ORDER_TYPES/child/lookupCodes/ZZ_TEST_2868/child/translations",
+      "name": "translations",
+      "kind": "collection"
+     }
+    ]
+   }
+  },
+  {
+   "LookupCode": "abdullahabdullah",
+   "DisplaySequence": "25",
+   "Meaning": "abdullahabdullah",
+   "@context": {
+    "key": "abdullahabdullah",
+    "links": [
+     {
+      "rel": "self",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/ORA_DOO_ORDER_TYPES/child/lookupCodes/abdullahabdullah",
+      "name": "lookupCodes",
+      "kind": "item"
+     },
+     {
+      "rel": "canonical",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/ORA_DOO_ORDER_TYPES/child/lookupCodes/abdullahabdullah",
+      "name": "lookupCodes",
+      "kind": "item"
+     },
+     {
+      "rel": "parent",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/ORA_DOO_ORDER_TYPES",
+      "name": "standardLookups",
+      "kind": "item"
+     },
+     {
+      "rel": "child",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/ORA_DOO_ORDER_TYPES/child/lookupCodes/abdullahabdullah/child/lookupsDFF",
+      "name": "lookupsDFF",
+      "kind": "collection"
+     },
+     {
+      "rel": "child",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/ORA_DOO_ORDER_TYPES/child/lookupCodes/abdullahabdullah/child/translations",
+      "name": "translations",
+      "kind": "collection"
+     }
+    ]
+   }
+  },
+  {
+   "LookupCode": "ABCDEFGH",
+   "DisplaySequence": "26",
+   "Meaning": "ABCDEFGH",
+   "@context": {
+    "key": "ABCDEFGH",
+    "links": [
+     {
+      "rel": "self",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/ORA_DOO_ORDER_TYPES/child/lookupCodes/ABCDEFGH",
+      "name": "lookupCodes",
+      "kind": "item"
+     },
+     {
+      "rel": "canonical",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/ORA_DOO_ORDER_TYPES/child/lookupCodes/ABCDEFGH",
+      "name": "lookupCodes",
+      "kind": "item"
+     },
+     {
+      "rel": "parent",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/ORA_DOO_ORDER_TYPES",
+      "name": "standardLookups",
+      "kind": "item"
+     },
+     {
+      "rel": "child",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/ORA_DOO_ORDER_TYPES/child/lookupCodes/ABCDEFGH/child/lookupsDFF",
+      "name": "lookupsDFF",
+      "kind": "collection"
+     },
+     {
+      "rel": "child",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/ORA_DOO_ORDER_TYPES/child/lookupCodes/ABCDEFGH/child/translations",
+      "name": "translations",
+      "kind": "collection"
+     }
+    ]
+   }
+  },
+  {
+   "LookupCode": "ABDTEST",
+   "DisplaySequence": "27",
+   "Meaning": "abdabd",
+   "@context": {
+    "key": "ABDTEST",
+    "links": [
+     {
+      "rel": "self",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/ORA_DOO_ORDER_TYPES/child/lookupCodes/ABDTEST",
+      "name": "lookupCodes",
+      "kind": "item"
+     },
+     {
+      "rel": "canonical",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/ORA_DOO_ORDER_TYPES/child/lookupCodes/ABDTEST",
+      "name": "lookupCodes",
+      "kind": "item"
+     },
+     {
+      "rel": "parent",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/ORA_DOO_ORDER_TYPES",
+      "name": "standardLookups",
+      "kind": "item"
+     },
+     {
+      "rel": "child",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/ORA_DOO_ORDER_TYPES/child/lookupCodes/ABDTEST/child/lookupsDFF",
+      "name": "lookupsDFF",
+      "kind": "collection"
+     },
+     {
+      "rel": "child",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/ORA_DOO_ORDER_TYPES/child/lookupCodes/ABDTEST/child/translations",
+      "name": "translations",
+      "kind": "collection"
+     }
+    ]
+   }
+  },
+  {
+   "LookupCode": "ZZ_TEST_9464",
+   "DisplaySequence": "28",
+   "Meaning": "ZZ_TEST_9464",
+   "@context": {
+    "key": "ZZ_TEST_9464",
+    "links": [
+     {
+      "rel": "self",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/ORA_DOO_ORDER_TYPES/child/lookupCodes/ZZ_TEST_9464",
+      "name": "lookupCodes",
+      "kind": "item"
+     },
+     {
+      "rel": "canonical",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/ORA_DOO_ORDER_TYPES/child/lookupCodes/ZZ_TEST_9464",
+      "name": "lookupCodes",
+      "kind": "item"
+     },
+     {
+      "rel": "parent",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/ORA_DOO_ORDER_TYPES",
+      "name": "standardLookups",
+      "kind": "item"
+     },
+     {
+      "rel": "child",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/ORA_DOO_ORDER_TYPES/child/lookupCodes/ZZ_TEST_9464/child/lookupsDFF",
+      "name": "lookupsDFF",
+      "kind": "collection"
+     },
+     {
+      "rel": "child",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/ORA_DOO_ORDER_TYPES/child/lookupCodes/ZZ_TEST_9464/child/translations",
+      "name": "translations",
+      "kind": "collection"
+     }
+    ]
+   }
+  },
+  {
+   "LookupCode": "test123456",
+   "DisplaySequence": "29",
+   "Meaning": "TEST123456",
+   "@context": {
+    "key": "test123456",
+    "links": [
+     {
+      "rel": "self",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/ORA_DOO_ORDER_TYPES/child/lookupCodes/test123456",
+      "name": "lookupCodes",
+      "kind": "item"
+     },
+     {
+      "rel": "canonical",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/ORA_DOO_ORDER_TYPES/child/lookupCodes/test123456",
+      "name": "lookupCodes",
+      "kind": "item"
+     },
+     {
+      "rel": "parent",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/ORA_DOO_ORDER_TYPES",
+      "name": "standardLookups",
+      "kind": "item"
+     },
+     {
+      "rel": "child",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/ORA_DOO_ORDER_TYPES/child/lookupCodes/test123456/child/lookupsDFF",
+      "name": "lookupsDFF",
+      "kind": "collection"
+     },
+     {
+      "rel": "child",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/ORA_DOO_ORDER_TYPES/child/lookupCodes/test123456/child/translations",
+      "name": "translations",
+      "kind": "collection"
+     }
+    ]
+   }
+  },
+  {
+   "LookupCode": "TESTORDER1",
+   "DisplaySequence": "30",
+   "Meaning": "TESTORDER1",
+   "@context": {
+    "key": "TESTORDER1",
+    "links": [
+     {
+      "rel": "self",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/ORA_DOO_ORDER_TYPES/child/lookupCodes/TESTORDER1",
+      "name": "lookupCodes",
+      "kind": "item"
+     },
+     {
+      "rel": "canonical",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/ORA_DOO_ORDER_TYPES/child/lookupCodes/TESTORDER1",
+      "name": "lookupCodes",
+      "kind": "item"
+     },
+     {
+      "rel": "parent",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/ORA_DOO_ORDER_TYPES",
+      "name": "standardLookups",
+      "kind": "item"
+     },
+     {
+      "rel": "child",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/ORA_DOO_ORDER_TYPES/child/lookupCodes/TESTORDER1/child/lookupsDFF",
+      "name": "lookupsDFF",
+      "kind": "collection"
+     },
+     {
+      "rel": "child",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/ORA_DOO_ORDER_TYPES/child/lookupCodes/TESTORDER1/child/translations",
+      "name": "translations",
+      "kind": "collection"
+     }
+    ]
+   }
+  },
+  {
+   "LookupCode": "TESTORDER2",
+   "DisplaySequence": "31",
+   "Meaning": "TESTORDER2",
+   "@context": {
+    "key": "TESTORDER2",
+    "links": [
+     {
+      "rel": "self",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/ORA_DOO_ORDER_TYPES/child/lookupCodes/TESTORDER2",
+      "name": "lookupCodes",
+      "kind": "item"
+     },
+     {
+      "rel": "canonical",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/ORA_DOO_ORDER_TYPES/child/lookupCodes/TESTORDER2",
+      "name": "lookupCodes",
+      "kind": "item"
+     },
+     {
+      "rel": "parent",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/ORA_DOO_ORDER_TYPES",
+      "name": "standardLookups",
+      "kind": "item"
+     },
+     {
+      "rel": "child",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/ORA_DOO_ORDER_TYPES/child/lookupCodes/TESTORDER2/child/lookupsDFF",
+      "name": "lookupsDFF",
+      "kind": "collection"
+     },
+     {
+      "rel": "child",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/ORA_DOO_ORDER_TYPES/child/lookupCodes/TESTORDER2/child/translations",
+      "name": "translations",
+      "kind": "collection"
+     }
+    ]
+   }
+  },
+  {
+   "LookupCode": "TESTORDER1000",
+   "DisplaySequence": "32",
+   "Meaning": "TESTORDER1000",
+   "@context": {
+    "key": "TESTORDER1000",
+    "links": [
+     {
+      "rel": "self",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/ORA_DOO_ORDER_TYPES/child/lookupCodes/TESTORDER1000",
+      "name": "lookupCodes",
+      "kind": "item"
+     },
+     {
+      "rel": "canonical",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/ORA_DOO_ORDER_TYPES/child/lookupCodes/TESTORDER1000",
+      "name": "lookupCodes",
+      "kind": "item"
+     },
+     {
+      "rel": "parent",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/ORA_DOO_ORDER_TYPES",
+      "name": "standardLookups",
+      "kind": "item"
+     },
+     {
+      "rel": "child",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/ORA_DOO_ORDER_TYPES/child/lookupCodes/TESTORDER1000/child/lookupsDFF",
+      "name": "lookupsDFF",
+      "kind": "collection"
+     },
+     {
+      "rel": "child",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/ORA_DOO_ORDER_TYPES/child/lookupCodes/TESTORDER1000/child/translations",
+      "name": "translations",
+      "kind": "collection"
+     }
+    ]
+   }
+  },
+  {
+   "LookupCode": "iop",
+   "DisplaySequence": "33",
+   "Meaning": "iop",
+   "@context": {
+    "key": "iop",
+    "links": [
+     {
+      "rel": "self",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/ORA_DOO_ORDER_TYPES/child/lookupCodes/iop",
+      "name": "lookupCodes",
+      "kind": "item"
+     },
+     {
+      "rel": "canonical",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/ORA_DOO_ORDER_TYPES/child/lookupCodes/iop",
+      "name": "lookupCodes",
+      "kind": "item"
+     },
+     {
+      "rel": "parent",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/ORA_DOO_ORDER_TYPES",
+      "name": "standardLookups",
+      "kind": "item"
+     },
+     {
+      "rel": "child",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/ORA_DOO_ORDER_TYPES/child/lookupCodes/iop/child/lookupsDFF",
+      "name": "lookupsDFF",
+      "kind": "collection"
+     },
+     {
+      "rel": "child",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/ORA_DOO_ORDER_TYPES/child/lookupCodes/iop/child/translations",
+      "name": "translations",
+      "kind": "collection"
+     }
+    ]
+   }
+  },
+  {
+   "LookupCode": "TESTORDER1001",
+   "DisplaySequence": "34",
+   "Meaning": "TESTLOOKUP1001",
+   "@context": {
+    "key": "TESTORDER1001",
+    "links": [
+     {
+      "rel": "self",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/ORA_DOO_ORDER_TYPES/child/lookupCodes/TESTORDER1001",
+      "name": "lookupCodes",
+      "kind": "item"
+     },
+     {
+      "rel": "canonical",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/ORA_DOO_ORDER_TYPES/child/lookupCodes/TESTORDER1001",
+      "name": "lookupCodes",
+      "kind": "item"
+     },
+     {
+      "rel": "parent",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/ORA_DOO_ORDER_TYPES",
+      "name": "standardLookups",
+      "kind": "item"
+     },
+     {
+      "rel": "child",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/ORA_DOO_ORDER_TYPES/child/lookupCodes/TESTORDER1001/child/lookupsDFF",
+      "name": "lookupsDFF",
+      "kind": "collection"
+     },
+     {
+      "rel": "child",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/ORA_DOO_ORDER_TYPES/child/lookupCodes/TESTORDER1001/child/translations",
+      "name": "translations",
+      "kind": "collection"
+     }
+    ]
+   }
+  },
+  {
+   "LookupCode": "TESTORDER1010",
+   "DisplaySequence": "35",
+   "Meaning": "TESTORDER1010",
+   "@context": {
+    "key": "TESTORDER1010",
+    "links": [
+     {
+      "rel": "self",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/ORA_DOO_ORDER_TYPES/child/lookupCodes/TESTORDER1010",
+      "name": "lookupCodes",
+      "kind": "item"
+     },
+     {
+      "rel": "canonical",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/ORA_DOO_ORDER_TYPES/child/lookupCodes/TESTORDER1010",
+      "name": "lookupCodes",
+      "kind": "item"
+     },
+     {
+      "rel": "parent",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/ORA_DOO_ORDER_TYPES",
+      "name": "standardLookups",
+      "kind": "item"
+     },
+     {
+      "rel": "child",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/ORA_DOO_ORDER_TYPES/child/lookupCodes/TESTORDER1010/child/lookupsDFF",
+      "name": "lookupsDFF",
+      "kind": "collection"
+     },
+     {
+      "rel": "child",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/ORA_DOO_ORDER_TYPES/child/lookupCodes/TESTORDER1010/child/translations",
+      "name": "translations",
+      "kind": "collection"
+     }
+    ]
+   }
+  },
+  {
+   "LookupCode": "GAME_PREORDER",
+   "DisplaySequence": "50",
+   "Meaning": "Game Pre-Order",
+   "@context": {
+    "key": "GAME_PREORDER",
+    "links": [
+     {
+      "rel": "self",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/ORA_DOO_ORDER_TYPES/child/lookupCodes/GAME_PREORDER",
+      "name": "lookupCodes",
+      "kind": "item"
+     },
+     {
+      "rel": "canonical",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/ORA_DOO_ORDER_TYPES/child/lookupCodes/GAME_PREORDER",
+      "name": "lookupCodes",
+      "kind": "item"
+     },
+     {
+      "rel": "parent",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/ORA_DOO_ORDER_TYPES",
+      "name": "standardLookups",
+      "kind": "item"
+     },
+     {
+      "rel": "child",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/ORA_DOO_ORDER_TYPES/child/lookupCodes/GAME_PREORDER/child/lookupsDFF",
+      "name": "lookupsDFF",
+      "kind": "collection"
+     },
+     {
+      "rel": "child",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/ORA_DOO_ORDER_TYPES/child/lookupCodes/GAME_PREORDER/child/translations",
+      "name": "translations",
+      "kind": "collection"
+     }
+    ]
+   }
+  },
+  {
+   "LookupCode": "GHGH",
+   "DisplaySequence": "50",
+   "Meaning": "yy",
+   "@context": {
+    "key": "GHGH",
+    "links": [
+     {
+      "rel": "self",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/ORA_DOO_ORDER_TYPES/child/lookupCodes/GHGH",
+      "name": "lookupCodes",
+      "kind": "item"
+     },
+     {
+      "rel": "canonical",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/ORA_DOO_ORDER_TYPES/child/lookupCodes/GHGH",
+      "name": "lookupCodes",
+      "kind": "item"
+     },
+     {
+      "rel": "parent",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/ORA_DOO_ORDER_TYPES",
+      "name": "standardLookups",
+      "kind": "item"
+     },
+     {
+      "rel": "child",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/ORA_DOO_ORDER_TYPES/child/lookupCodes/GHGH/child/lookupsDFF",
+      "name": "lookupsDFF",
+      "kind": "collection"
+     },
+     {
+      "rel": "child",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/ORA_DOO_ORDER_TYPES/child/lookupCodes/GHGH/child/translations",
+      "name": "translations",
+      "kind": "collection"
+     }
+    ]
+   }
+  },
+  {
+   "LookupCode": "RET",
+   "DisplaySequence": "50",
+   "Meaning": "RETT",
+   "@context": {
+    "key": "RET",
+    "links": [
+     {
+      "rel": "self",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/ORA_DOO_ORDER_TYPES/child/lookupCodes/RET",
+      "name": "lookupCodes",
+      "kind": "item"
+     },
+     {
+      "rel": "canonical",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/ORA_DOO_ORDER_TYPES/child/lookupCodes/RET",
+      "name": "lookupCodes",
+      "kind": "item"
+     },
+     {
+      "rel": "parent",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/ORA_DOO_ORDER_TYPES",
+      "name": "standardLookups",
+      "kind": "item"
+     },
+     {
+      "rel": "child",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/ORA_DOO_ORDER_TYPES/child/lookupCodes/RET/child/lookupsDFF",
+      "name": "lookupsDFF",
+      "kind": "collection"
+     },
+     {
+      "rel": "child",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/ORA_DOO_ORDER_TYPES/child/lookupCodes/RET/child/translations",
+      "name": "translations",
+      "kind": "collection"
+     }
+    ]
+   }
+  },
+  {
+   "LookupCode": "RET1",
+   "DisplaySequence": "50",
+   "Meaning": "RETT12",
+   "@context": {
+    "key": "RET1",
+    "links": [
+     {
+      "rel": "self",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/ORA_DOO_ORDER_TYPES/child/lookupCodes/RET1",
+      "name": "lookupCodes",
+      "kind": "item"
+     },
+     {
+      "rel": "canonical",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/ORA_DOO_ORDER_TYPES/child/lookupCodes/RET1",
+      "name": "lookupCodes",
+      "kind": "item"
+     },
+     {
+      "rel": "parent",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/ORA_DOO_ORDER_TYPES",
+      "name": "standardLookups",
+      "kind": "item"
+     },
+     {
+      "rel": "child",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/ORA_DOO_ORDER_TYPES/child/lookupCodes/RET1/child/lookupsDFF",
+      "name": "lookupsDFF",
+      "kind": "collection"
+     },
+     {
+      "rel": "child",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/ORA_DOO_ORDER_TYPES/child/lookupCodes/RET1/child/translations",
+      "name": "translations",
+      "kind": "collection"
+     }
+    ]
+   }
+  },
+  {
+   "LookupCode": "RET12",
+   "DisplaySequence": "50",
+   "Meaning": "RETT122",
+   "@context": {
+    "key": "RET12",
+    "links": [
+     {
+      "rel": "self",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/ORA_DOO_ORDER_TYPES/child/lookupCodes/RET12",
+      "name": "lookupCodes",
+      "kind": "item"
+     },
+     {
+      "rel": "canonical",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/ORA_DOO_ORDER_TYPES/child/lookupCodes/RET12",
+      "name": "lookupCodes",
+      "kind": "item"
+     },
+     {
+      "rel": "parent",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/ORA_DOO_ORDER_TYPES",
+      "name": "standardLookups",
+      "kind": "item"
+     },
+     {
+      "rel": "child",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/ORA_DOO_ORDER_TYPES/child/lookupCodes/RET12/child/lookupsDFF",
+      "name": "lookupsDFF",
+      "kind": "collection"
+     },
+     {
+      "rel": "child",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/ORA_DOO_ORDER_TYPES/child/lookupCodes/RET12/child/translations",
+      "name": "translations",
+      "kind": "collection"
+     }
+    ]
+   }
+  },
+  {
+   "LookupCode": "RET125",
+   "DisplaySequence": "50",
+   "Meaning": "RETT1225",
+   "@context": {
+    "key": "RET125",
+    "links": [
+     {
+      "rel": "self",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/ORA_DOO_ORDER_TYPES/child/lookupCodes/RET125",
+      "name": "lookupCodes",
+      "kind": "item"
+     },
+     {
+      "rel": "canonical",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/ORA_DOO_ORDER_TYPES/child/lookupCodes/RET125",
+      "name": "lookupCodes",
+      "kind": "item"
+     },
+     {
+      "rel": "parent",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/ORA_DOO_ORDER_TYPES",
+      "name": "standardLookups",
+      "kind": "item"
+     },
+     {
+      "rel": "child",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/ORA_DOO_ORDER_TYPES/child/lookupCodes/RET125/child/lookupsDFF",
+      "name": "lookupsDFF",
+      "kind": "collection"
+     },
+     {
+      "rel": "child",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/ORA_DOO_ORDER_TYPES/child/lookupCodes/RET125/child/translations",
+      "name": "translations",
+      "kind": "collection"
+     }
+    ]
+   }
+  },
+  {
+   "LookupCode": "RETT",
+   "DisplaySequence": "50",
+   "Meaning": "RETTT",
+   "@context": {
+    "key": "RETT",
+    "links": [
+     {
+      "rel": "self",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/ORA_DOO_ORDER_TYPES/child/lookupCodes/RETT",
+      "name": "lookupCodes",
+      "kind": "item"
+     },
+     {
+      "rel": "canonical",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/ORA_DOO_ORDER_TYPES/child/lookupCodes/RETT",
+      "name": "lookupCodes",
+      "kind": "item"
+     },
+     {
+      "rel": "parent",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/ORA_DOO_ORDER_TYPES",
+      "name": "standardLookups",
+      "kind": "item"
+     },
+     {
+      "rel": "child",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/ORA_DOO_ORDER_TYPES/child/lookupCodes/RETT/child/lookupsDFF",
+      "name": "lookupsDFF",
+      "kind": "collection"
+     },
+     {
+      "rel": "child",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/ORA_DOO_ORDER_TYPES/child/lookupCodes/RETT/child/translations",
+      "name": "translations",
+      "kind": "collection"
+     }
+    ]
+   }
+  },
+  {
+   "LookupCode": "RETT1",
+   "DisplaySequence": "50",
+   "Meaning": "RETTT12",
+   "@context": {
+    "key": "RETT1",
+    "links": [
+     {
+      "rel": "self",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/ORA_DOO_ORDER_TYPES/child/lookupCodes/RETT1",
+      "name": "lookupCodes",
+      "kind": "item"
+     },
+     {
+      "rel": "canonical",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/ORA_DOO_ORDER_TYPES/child/lookupCodes/RETT1",
+      "name": "lookupCodes",
+      "kind": "item"
+     },
+     {
+      "rel": "parent",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/ORA_DOO_ORDER_TYPES",
+      "name": "standardLookups",
+      "kind": "item"
+     },
+     {
+      "rel": "child",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/ORA_DOO_ORDER_TYPES/child/lookupCodes/RETT1/child/lookupsDFF",
+      "name": "lookupsDFF",
+      "kind": "collection"
+     },
+     {
+      "rel": "child",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/ORA_DOO_ORDER_TYPES/child/lookupCodes/RETT1/child/translations",
+      "name": "translations",
+      "kind": "collection"
+     }
+    ]
+   }
+  },
+  {
+   "LookupCode": "RETT12",
+   "DisplaySequence": "50",
+   "Meaning": "RETTT122",
+   "@context": {
+    "key": "RETT12",
+    "links": [
+     {
+      "rel": "self",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/ORA_DOO_ORDER_TYPES/child/lookupCodes/RETT12",
+      "name": "lookupCodes",
+      "kind": "item"
+     },
+     {
+      "rel": "canonical",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/ORA_DOO_ORDER_TYPES/child/lookupCodes/RETT12",
+      "name": "lookupCodes",
+      "kind": "item"
+     },
+     {
+      "rel": "parent",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/ORA_DOO_ORDER_TYPES",
+      "name": "standardLookups",
+      "kind": "item"
+     },
+     {
+      "rel": "child",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/ORA_DOO_ORDER_TYPES/child/lookupCodes/RETT12/child/lookupsDFF",
+      "name": "lookupsDFF",
+      "kind": "collection"
+     },
+     {
+      "rel": "child",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/ORA_DOO_ORDER_TYPES/child/lookupCodes/RETT12/child/translations",
+      "name": "translations",
+      "kind": "collection"
+     }
+    ]
+   }
+  },
+  {
+   "LookupCode": "RETT125",
+   "DisplaySequence": "50",
+   "Meaning": "RETTT1225",
+   "@context": {
+    "key": "RETT125",
+    "links": [
+     {
+      "rel": "self",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/ORA_DOO_ORDER_TYPES/child/lookupCodes/RETT125",
+      "name": "lookupCodes",
+      "kind": "item"
+     },
+     {
+      "rel": "canonical",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/ORA_DOO_ORDER_TYPES/child/lookupCodes/RETT125",
+      "name": "lookupCodes",
+      "kind": "item"
+     },
+     {
+      "rel": "parent",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/ORA_DOO_ORDER_TYPES",
+      "name": "standardLookups",
+      "kind": "item"
+     },
+     {
+      "rel": "child",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/ORA_DOO_ORDER_TYPES/child/lookupCodes/RETT125/child/lookupsDFF",
+      "name": "lookupsDFF",
+      "kind": "collection"
+     },
+     {
+      "rel": "child",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/ORA_DOO_ORDER_TYPES/child/lookupCodes/RETT125/child/translations",
+      "name": "translations",
+      "kind": "collection"
+     }
+    ]
+   }
+  },
+  {
+   "LookupCode": "ZZ_TEST_3435",
+   "DisplaySequence": "60",
+   "Meaning": "ZZ_TEST_3435 Game Pre-Order",
+   "@context": {
+    "key": "ZZ_TEST_3435",
+    "links": [
+     {
+      "rel": "self",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/ORA_DOO_ORDER_TYPES/child/lookupCodes/ZZ_TEST_3435",
+      "name": "lookupCodes",
+      "kind": "item"
+     },
+     {
+      "rel": "canonical",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/ORA_DOO_ORDER_TYPES/child/lookupCodes/ZZ_TEST_3435",
+      "name": "lookupCodes",
+      "kind": "item"
+     },
+     {
+      "rel": "parent",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/ORA_DOO_ORDER_TYPES",
+      "name": "standardLookups",
+      "kind": "item"
+     },
+     {
+      "rel": "child",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/ORA_DOO_ORDER_TYPES/child/lookupCodes/ZZ_TEST_3435/child/lookupsDFF",
+      "name": "lookupsDFF",
+      "kind": "collection"
+     },
+     {
+      "rel": "child",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/ORA_DOO_ORDER_TYPES/child/lookupCodes/ZZ_TEST_3435/child/translations",
+      "name": "translations",
+      "kind": "collection"
+     }
+    ]
+   }
+  },
+  {
+   "LookupCode": "ZZ_TEST_7981",
+   "DisplaySequence": "61",
+   "Meaning": "ZZ_TEST_7981 Disabled Order",
+   "@context": {
+    "key": "ZZ_TEST_7981",
+    "links": [
+     {
+      "rel": "self",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/ORA_DOO_ORDER_TYPES/child/lookupCodes/ZZ_TEST_7981",
+      "name": "lookupCodes",
+      "kind": "item"
+     },
+     {
+      "rel": "canonical",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/ORA_DOO_ORDER_TYPES/child/lookupCodes/ZZ_TEST_7981",
+      "name": "lookupCodes",
+      "kind": "item"
+     },
+     {
+      "rel": "parent",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/ORA_DOO_ORDER_TYPES",
+      "name": "standardLookups",
+      "kind": "item"
+     },
+     {
+      "rel": "child",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/ORA_DOO_ORDER_TYPES/child/lookupCodes/ZZ_TEST_7981/child/lookupsDFF",
+      "name": "lookupsDFF",
+      "kind": "collection"
+     },
+     {
+      "rel": "child",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/ORA_DOO_ORDER_TYPES/child/lookupCodes/ZZ_TEST_7981/child/translations",
+      "name": "translations",
+      "kind": "collection"
+     }
+    ]
+   }
+  },
+  {
+   "LookupCode": "Standard Pre-order",
+   "DisplaySequence": "62",
+   "Meaning": "RETT1",
+   "@context": {
+    "key": "Standard%20Pre-order",
+    "links": [
+     {
+      "rel": "self",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/ORA_DOO_ORDER_TYPES/child/lookupCodes/Standard%2520Pre-order",
+      "name": "lookupCodes",
+      "kind": "item"
+     },
+     {
+      "rel": "canonical",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/ORA_DOO_ORDER_TYPES/child/lookupCodes/Standard%2520Pre-order",
+      "name": "lookupCodes",
+      "kind": "item"
+     },
+     {
+      "rel": "parent",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/ORA_DOO_ORDER_TYPES",
+      "name": "standardLookups",
+      "kind": "item"
+     },
+     {
+      "rel": "child",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/ORA_DOO_ORDER_TYPES/child/lookupCodes/Standard%2520Pre-order/child/lookupsDFF",
+      "name": "lookupsDFF",
+      "kind": "collection"
+     },
+     {
+      "rel": "child",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/ORA_DOO_ORDER_TYPES/child/lookupCodes/Standard%2520Pre-order/child/translations",
+      "name": "translations",
+      "kind": "collection"
+     }
+    ]
+   }
+  },
+  {
+   "LookupCode": "Standard Pre-order Return",
+   "DisplaySequence": "63",
+   "Meaning": "RETTT1",
+   "@context": {
+    "key": "Standard%20Pre-order%20Return",
+    "links": [
+     {
+      "rel": "self",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/ORA_DOO_ORDER_TYPES/child/lookupCodes/Standard%2520Pre-order%2520Return",
+      "name": "lookupCodes",
+      "kind": "item"
+     },
+     {
+      "rel": "canonical",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/ORA_DOO_ORDER_TYPES/child/lookupCodes/Standard%2520Pre-order%2520Return",
+      "name": "lookupCodes",
+      "kind": "item"
+     },
+     {
+      "rel": "parent",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/ORA_DOO_ORDER_TYPES",
+      "name": "standardLookups",
+      "kind": "item"
+     },
+     {
+      "rel": "child",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/ORA_DOO_ORDER_TYPES/child/lookupCodes/Standard%2520Pre-order%2520Return/child/lookupsDFF",
+      "name": "lookupsDFF",
+      "kind": "collection"
+     },
+     {
+      "rel": "child",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/ORA_DOO_ORDER_TYPES/child/lookupCodes/Standard%2520Pre-order%2520Return/child/translations",
+      "name": "translations",
+      "kind": "collection"
+     }
+    ]
+   }
+  },
+  {
+   "LookupCode": "ZZ_TEST_6142_OTB",
+   "DisplaySequence": "64",
+   "Meaning": "ZZ OT 6142 A",
+   "@context": {
+    "key": "ZZ_TEST_6142_OTB",
+    "links": [
+     {
+      "rel": "self",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/ORA_DOO_ORDER_TYPES/child/lookupCodes/ZZ_TEST_6142_OTB",
+      "name": "lookupCodes",
+      "kind": "item"
+     },
+     {
+      "rel": "canonical",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/ORA_DOO_ORDER_TYPES/child/lookupCodes/ZZ_TEST_6142_OTB",
+      "name": "lookupCodes",
+      "kind": "item"
+     },
+     {
+      "rel": "parent",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/ORA_DOO_ORDER_TYPES",
+      "name": "standardLookups",
+      "kind": "item"
+     },
+     {
+      "rel": "child",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/ORA_DOO_ORDER_TYPES/child/lookupCodes/ZZ_TEST_6142_OTB/child/lookupsDFF",
+      "name": "lookupsDFF",
+      "kind": "collection"
+     },
+     {
+      "rel": "child",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/ORA_DOO_ORDER_TYPES/child/lookupCodes/ZZ_TEST_6142_OTB/child/translations",
+      "name": "translations",
+      "kind": "collection"
+     }
+    ]
+   }
+  },
+  {
+   "LookupCode": "ZZ_TEST_6142_OTA",
+   "DisplaySequence": "65",
+   "Meaning": "ZZ OT 6142 A (ZZ_TEST_6142_OTA)",
+   "@context": {
+    "key": "ZZ_TEST_6142_OTA",
+    "links": [
+     {
+      "rel": "self",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/ORA_DOO_ORDER_TYPES/child/lookupCodes/ZZ_TEST_6142_OTA",
+      "name": "lookupCodes",
+      "kind": "item"
+     },
+     {
+      "rel": "canonical",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/ORA_DOO_ORDER_TYPES/child/lookupCodes/ZZ_TEST_6142_OTA",
+      "name": "lookupCodes",
+      "kind": "item"
+     },
+     {
+      "rel": "parent",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/ORA_DOO_ORDER_TYPES",
+      "name": "standardLookups",
+      "kind": "item"
+     },
+     {
+      "rel": "child",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/ORA_DOO_ORDER_TYPES/child/lookupCodes/ZZ_TEST_6142_OTA/child/lookupsDFF",
+      "name": "lookupsDFF",
+      "kind": "collection"
+     },
+     {
+      "rel": "child",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/ORA_DOO_ORDER_TYPES/child/lookupCodes/ZZ_TEST_6142_OTA/child/translations",
+      "name": "translations",
+      "kind": "collection"
+     }
+    ]
+   }
+  },
+  {
+   "LookupCode": "SO_ESPORTS_PRIZE_D01",
+   "DisplaySequence": "66",
+   "Meaning": "Esports Prize Fulfilment Order D01",
+   "@context": {
+    "key": "SO_ESPORTS_PRIZE_D01",
+    "links": [
+     {
+      "rel": "self",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/ORA_DOO_ORDER_TYPES/child/lookupCodes/SO_ESPORTS_PRIZE_D01",
+      "name": "lookupCodes",
+      "kind": "item"
+     },
+     {
+      "rel": "canonical",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/ORA_DOO_ORDER_TYPES/child/lookupCodes/SO_ESPORTS_PRIZE_D01",
+      "name": "lookupCodes",
+      "kind": "item"
+     },
+     {
+      "rel": "parent",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/ORA_DOO_ORDER_TYPES",
+      "name": "standardLookups",
+      "kind": "item"
+     },
+     {
+      "rel": "child",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/ORA_DOO_ORDER_TYPES/child/lookupCodes/SO_ESPORTS_PRIZE_D01/child/lookupsDFF",
+      "name": "lookupsDFF",
+      "kind": "collection"
+     },
+     {
+      "rel": "child",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/ORA_DOO_ORDER_TYPES/child/lookupCodes/SO_ESPORTS_PRIZE_D01/child/translations",
+      "name": "translations",
+      "kind": "collection"
+     }
+    ]
+   }
+  },
+  {
+   "LookupCode": "SO_COLLECTOR_EDITION_D01",
+   "DisplaySequence": "67",
+   "Meaning": "Collector Edition Pre-Order D01",
+   "@context": {
+    "key": "SO_COLLECTOR_EDITION_D01",
+    "links": [
+     {
+      "rel": "self",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/ORA_DOO_ORDER_TYPES/child/lookupCodes/SO_COLLECTOR_EDITION_D01",
+      "name": "lookupCodes",
+      "kind": "item"
+     },
+     {
+      "rel": "canonical",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/ORA_DOO_ORDER_TYPES/child/lookupCodes/SO_COLLECTOR_EDITION_D01",
+      "name": "lookupCodes",
+      "kind": "item"
+     },
+     {
+      "rel": "parent",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/ORA_DOO_ORDER_TYPES",
+      "name": "standardLookups",
+      "kind": "item"
+     },
+     {
+      "rel": "child",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/ORA_DOO_ORDER_TYPES/child/lookupCodes/SO_COLLECTOR_EDITION_D01/child/lookupsDFF",
+      "name": "lookupsDFF",
+      "kind": "collection"
+     },
+     {
+      "rel": "child",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/ORA_DOO_ORDER_TYPES/child/lookupCodes/SO_COLLECTOR_EDITION_D01/child/translations",
+      "name": "translations",
+      "kind": "collection"
+     }
+    ]
+   }
+  },
+  {
+   "LookupCode": "KINGSTON_US_STANDARD",
+   "DisplaySequence": "68",
+   "Meaning": "Kingston US Standard",
+   "@context": {
+    "key": "KINGSTON_US_STANDARD",
+    "links": [
+     {
+      "rel": "self",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/ORA_DOO_ORDER_TYPES/child/lookupCodes/KINGSTON_US_STANDARD",
+      "name": "lookupCodes",
+      "kind": "item"
+     },
+     {
+      "rel": "canonical",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/ORA_DOO_ORDER_TYPES/child/lookupCodes/KINGSTON_US_STANDARD",
+      "name": "lookupCodes",
+      "kind": "item"
+     },
+     {
+      "rel": "parent",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/ORA_DOO_ORDER_TYPES",
+      "name": "standardLookups",
+      "kind": "item"
+     },
+     {
+      "rel": "child",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/ORA_DOO_ORDER_TYPES/child/lookupCodes/KINGSTON_US_STANDARD/child/lookupsDFF",
+      "name": "lookupsDFF",
+      "kind": "collection"
+     },
+     {
+      "rel": "child",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/ORA_DOO_ORDER_TYPES/child/lookupCodes/KINGSTON_US_STANDARD/child/translations",
+      "name": "translations",
+      "kind": "collection"
+     }
+    ]
+   }
+  },
+  {
+   "LookupCode": "KINGSTON_GB_STANDARD",
+   "DisplaySequence": "69",
+   "Meaning": "Kingston GB Standard",
+   "@context": {
+    "key": "KINGSTON_GB_STANDARD",
+    "links": [
+     {
+      "rel": "self",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/ORA_DOO_ORDER_TYPES/child/lookupCodes/KINGSTON_GB_STANDARD",
+      "name": "lookupCodes",
+      "kind": "item"
+     },
+     {
+      "rel": "canonical",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/ORA_DOO_ORDER_TYPES/child/lookupCodes/KINGSTON_GB_STANDARD",
+      "name": "lookupCodes",
+      "kind": "item"
+     },
+     {
+      "rel": "parent",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/ORA_DOO_ORDER_TYPES",
+      "name": "standardLookups",
+      "kind": "item"
+     },
+     {
+      "rel": "child",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/ORA_DOO_ORDER_TYPES/child/lookupCodes/KINGSTON_GB_STANDARD/child/lookupsDFF",
+      "name": "lookupsDFF",
+      "kind": "collection"
+     },
+     {
+      "rel": "child",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/ORA_DOO_ORDER_TYPES/child/lookupCodes/KINGSTON_GB_STANDARD/child/translations",
+      "name": "translations",
+      "kind": "collection"
+     }
+    ]
+   }
+  },
+  {
+   "LookupCode": "KINGSTON_JP_STANDARD",
+   "DisplaySequence": "70",
+   "Meaning": "Kingston JP Standard",
+   "@context": {
+    "key": "KINGSTON_JP_STANDARD",
+    "links": [
+     {
+      "rel": "self",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/ORA_DOO_ORDER_TYPES/child/lookupCodes/KINGSTON_JP_STANDARD",
+      "name": "lookupCodes",
+      "kind": "item"
+     },
+     {
+      "rel": "canonical",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/ORA_DOO_ORDER_TYPES/child/lookupCodes/KINGSTON_JP_STANDARD",
+      "name": "lookupCodes",
+      "kind": "item"
+     },
+     {
+      "rel": "parent",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/ORA_DOO_ORDER_TYPES",
+      "name": "standardLookups",
+      "kind": "item"
+     },
+     {
+      "rel": "child",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/ORA_DOO_ORDER_TYPES/child/lookupCodes/KINGSTON_JP_STANDARD/child/lookupsDFF",
+      "name": "lookupsDFF",
+      "kind": "collection"
+     },
+     {
+      "rel": "child",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/ORA_DOO_ORDER_TYPES/child/lookupCodes/KINGSTON_JP_STANDARD/child/translations",
+      "name": "translations",
+      "kind": "collection"
+     }
+    ]
+   }
+  },
+  {
+   "LookupCode": "ZZ_TEST_OT_1932_A",
+   "DisplaySequence": "71",
+   "Meaning": "ZZ Test Order Type 1932 A",
+   "@context": {
+    "key": "ZZ_TEST_OT_1932_A",
+    "links": [
+     {
+      "rel": "self",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/ORA_DOO_ORDER_TYPES/child/lookupCodes/ZZ_TEST_OT_1932_A",
+      "name": "lookupCodes",
+      "kind": "item"
+     },
+     {
+      "rel": "canonical",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/ORA_DOO_ORDER_TYPES/child/lookupCodes/ZZ_TEST_OT_1932_A",
+      "name": "lookupCodes",
+      "kind": "item"
+     },
+     {
+      "rel": "parent",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/ORA_DOO_ORDER_TYPES",
+      "name": "standardLookups",
+      "kind": "item"
+     },
+     {
+      "rel": "child",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/ORA_DOO_ORDER_TYPES/child/lookupCodes/ZZ_TEST_OT_1932_A/child/lookupsDFF",
+      "name": "lookupsDFF",
+      "kind": "collection"
+     },
+     {
+      "rel": "child",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/ORA_DOO_ORDER_TYPES/child/lookupCodes/ZZ_TEST_OT_1932_A/child/translations",
+      "name": "translations",
+      "kind": "collection"
+     }
+    ]
+   }
+  },
+  {
+   "LookupCode": "ZZ_TEST_OT_1932_B",
+   "DisplaySequence": "72",
+   "Meaning": "ZZ Test Order Type 1932 B",
+   "@context": {
+    "key": "ZZ_TEST_OT_1932_B",
+    "links": [
+     {
+      "rel": "self",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/ORA_DOO_ORDER_TYPES/child/lookupCodes/ZZ_TEST_OT_1932_B",
+      "name": "lookupCodes",
+      "kind": "item"
+     },
+     {
+      "rel": "canonical",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/ORA_DOO_ORDER_TYPES/child/lookupCodes/ZZ_TEST_OT_1932_B",
+      "name": "lookupCodes",
+      "kind": "item"
+     },
+     {
+      "rel": "parent",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/ORA_DOO_ORDER_TYPES",
+      "name": "standardLookups",
+      "kind": "item"
+     },
+     {
+      "rel": "child",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/ORA_DOO_ORDER_TYPES/child/lookupCodes/ZZ_TEST_OT_1932_B/child/lookupsDFF",
+      "name": "lookupsDFF",
+      "kind": "collection"
+     },
+     {
+      "rel": "child",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/ORA_DOO_ORDER_TYPES/child/lookupCodes/ZZ_TEST_OT_1932_B/child/translations",
+      "name": "translations",
+      "kind": "collection"
+     }
+    ]
+   }
+  },
+  {
+   "LookupCode": "ZZ_TEST_OT_1932_A4554",
+   "DisplaySequence": "73",
+   "Meaning": "ZZ Test Order Type 1932 A4545",
+   "@context": {
+    "key": "ZZ_TEST_OT_1932_A4554",
+    "links": [
+     {
+      "rel": "self",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/ORA_DOO_ORDER_TYPES/child/lookupCodes/ZZ_TEST_OT_1932_A4554",
+      "name": "lookupCodes",
+      "kind": "item"
+     },
+     {
+      "rel": "canonical",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/ORA_DOO_ORDER_TYPES/child/lookupCodes/ZZ_TEST_OT_1932_A4554",
+      "name": "lookupCodes",
+      "kind": "item"
+     },
+     {
+      "rel": "parent",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/ORA_DOO_ORDER_TYPES",
+      "name": "standardLookups",
+      "kind": "item"
+     },
+     {
+      "rel": "child",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/ORA_DOO_ORDER_TYPES/child/lookupCodes/ZZ_TEST_OT_1932_A4554/child/lookupsDFF",
+      "name": "lookupsDFF",
+      "kind": "collection"
+     },
+     {
+      "rel": "child",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/ORA_DOO_ORDER_TYPES/child/lookupCodes/ZZ_TEST_OT_1932_A4554/child/translations",
+      "name": "translations",
+      "kind": "collection"
+     }
+    ]
+   }
+  },
+  {
+   "LookupCode": "FSCRT_SO_CONSIGN_F06",
+   "DisplaySequence": null,
+   "Meaning": "FSCRT_Dealer Consignment F06",
+   "@context": {
+    "key": "FSCRT_SO_CONSIGN_F06",
+    "links": [
+     {
+      "rel": "self",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/ORA_DOO_ORDER_TYPES/child/lookupCodes/FSCRT_SO_CONSIGN_F06",
+      "name": "lookupCodes",
+      "kind": "item"
+     },
+     {
+      "rel": "canonical",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/ORA_DOO_ORDER_TYPES/child/lookupCodes/FSCRT_SO_CONSIGN_F06",
+      "name": "lookupCodes",
+      "kind": "item"
+     },
+     {
+      "rel": "parent",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/ORA_DOO_ORDER_TYPES",
+      "name": "standardLookups",
+      "kind": "item"
+     },
+     {
+      "rel": "child",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/ORA_DOO_ORDER_TYPES/child/lookupCodes/FSCRT_SO_CONSIGN_F06/child/lookupsDFF",
+      "name": "lookupsDFF",
+      "kind": "collection"
+     },
+     {
+      "rel": "child",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/ORA_DOO_ORDER_TYPES/child/lookupCodes/FSCRT_SO_CONSIGN_F06/child/translations",
+      "name": "translations",
+      "kind": "collection"
+     }
+    ]
+   }
+  },
+  {
+   "LookupCode": "FSCRT_SO_TRAIL_DEALER_F01",
+   "DisplaySequence": null,
+   "Meaning": "FSCRT_Trail Dealer Replenishment F01",
+   "@context": {
+    "key": "FSCRT_SO_TRAIL_DEALER_F01",
+    "links": [
+     {
+      "rel": "self",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/ORA_DOO_ORDER_TYPES/child/lookupCodes/FSCRT_SO_TRAIL_DEALER_F01",
+      "name": "lookupCodes",
+      "kind": "item"
+     },
+     {
+      "rel": "canonical",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/ORA_DOO_ORDER_TYPES/child/lookupCodes/FSCRT_SO_TRAIL_DEALER_F01",
+      "name": "lookupCodes",
+      "kind": "item"
+     },
+     {
+      "rel": "parent",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/ORA_DOO_ORDER_TYPES",
+      "name": "standardLookups",
+      "kind": "item"
+     },
+     {
+      "rel": "child",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/ORA_DOO_ORDER_TYPES/child/lookupCodes/FSCRT_SO_TRAIL_DEALER_F01/child/lookupsDFF",
+      "name": "lookupsDFF",
+      "kind": "collection"
+     },
+     {
+      "rel": "child",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/ORA_DOO_ORDER_TYPES/child/lookupCodes/FSCRT_SO_TRAIL_DEALER_F01/child/translations",
+      "name": "translations",
+      "kind": "collection"
+     }
+    ]
+   }
+  },
+  {
+   "LookupCode": "FSCRT_SO_WARRANTY_SWAP_F01",
+   "DisplaySequence": null,
+   "Meaning": "FSCRT_Warranty Swap Order F01",
+   "@context": {
+    "key": "FSCRT_SO_WARRANTY_SWAP_F01",
+    "links": [
+     {
+      "rel": "self",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/ORA_DOO_ORDER_TYPES/child/lookupCodes/FSCRT_SO_WARRANTY_SWAP_F01",
+      "name": "lookupCodes",
+      "kind": "item"
+     },
+     {
+      "rel": "canonical",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/ORA_DOO_ORDER_TYPES/child/lookupCodes/FSCRT_SO_WARRANTY_SWAP_F01",
+      "name": "lookupCodes",
+      "kind": "item"
+     },
+     {
+      "rel": "parent",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/ORA_DOO_ORDER_TYPES",
+      "name": "standardLookups",
+      "kind": "item"
+     },
+     {
+      "rel": "child",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/ORA_DOO_ORDER_TYPES/child/lookupCodes/FSCRT_SO_WARRANTY_SWAP_F01/child/lookupsDFF",
+      "name": "lookupsDFF",
+      "kind": "collection"
+     },
+     {
+      "rel": "child",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/ORA_DOO_ORDER_TYPES/child/lookupCodes/FSCRT_SO_WARRANTY_SWAP_F01/child/translations",
+      "name": "translations",
+      "kind": "collection"
+     }
+    ]
+   }
+  },
+  {
+   "LookupCode": "FSCR_TEST_01",
+   "DisplaySequence": null,
+   "Meaning": "FSCR Test Order Type 01",
+   "@context": {
+    "key": "FSCR_TEST_01",
+    "links": [
+     {
+      "rel": "self",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/ORA_DOO_ORDER_TYPES/child/lookupCodes/FSCR_TEST_01",
+      "name": "lookupCodes",
+      "kind": "item"
+     },
+     {
+      "rel": "canonical",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/ORA_DOO_ORDER_TYPES/child/lookupCodes/FSCR_TEST_01",
+      "name": "lookupCodes",
+      "kind": "item"
+     },
+     {
+      "rel": "parent",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/ORA_DOO_ORDER_TYPES",
+      "name": "standardLookups",
+      "kind": "item"
+     },
+     {
+      "rel": "child",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/ORA_DOO_ORDER_TYPES/child/lookupCodes/FSCR_TEST_01/child/lookupsDFF",
+      "name": "lookupsDFF",
+      "kind": "collection"
+     },
+     {
+      "rel": "child",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/ORA_DOO_ORDER_TYPES/child/lookupCodes/FSCR_TEST_01/child/translations",
+      "name": "translations",
+      "kind": "collection"
+     }
+    ]
+   }
+  },
+  {
+   "LookupCode": "FSCR_TEST_02",
+   "DisplaySequence": null,
+   "Meaning": "FSCR Testing",
+   "@context": {
+    "key": "FSCR_TEST_02",
+    "links": [
+     {
+      "rel": "self",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/ORA_DOO_ORDER_TYPES/child/lookupCodes/FSCR_TEST_02",
+      "name": "lookupCodes",
+      "kind": "item"
+     },
+     {
+      "rel": "canonical",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/ORA_DOO_ORDER_TYPES/child/lookupCodes/FSCR_TEST_02",
+      "name": "lookupCodes",
+      "kind": "item"
+     },
+     {
+      "rel": "parent",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/ORA_DOO_ORDER_TYPES",
+      "name": "standardLookups",
+      "kind": "item"
+     },
+     {
+      "rel": "child",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/ORA_DOO_ORDER_TYPES/child/lookupCodes/FSCR_TEST_02/child/lookupsDFF",
+      "name": "lookupsDFF",
+      "kind": "collection"
+     },
+     {
+      "rel": "child",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/ORA_DOO_ORDER_TYPES/child/lookupCodes/FSCR_TEST_02/child/translations",
+      "name": "translations",
+      "kind": "collection"
+     }
+    ]
+   }
+  },
+  {
+   "LookupCode": "STANDARD",
+   "DisplaySequence": null,
+   "Meaning": "Standard Sales Orders",
+   "@context": {
+    "key": "STANDARD",
+    "links": [
+     {
+      "rel": "self",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/ORA_DOO_ORDER_TYPES/child/lookupCodes/STANDARD",
+      "name": "lookupCodes",
+      "kind": "item"
+     },
+     {
+      "rel": "canonical",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/ORA_DOO_ORDER_TYPES/child/lookupCodes/STANDARD",
+      "name": "lookupCodes",
+      "kind": "item"
+     },
+     {
+      "rel": "parent",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/ORA_DOO_ORDER_TYPES",
+      "name": "standardLookups",
+      "kind": "item"
+     },
+     {
+      "rel": "child",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/ORA_DOO_ORDER_TYPES/child/lookupCodes/STANDARD/child/lookupsDFF",
+      "name": "lookupsDFF",
+      "kind": "collection"
+     },
+     {
+      "rel": "child",
+      "href": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/ORA_DOO_ORDER_TYPES/child/lookupCodes/STANDARD/child/translations",
+      "name": "translations",
+      "kind": "collection"
+     }
+    ]
+   }
+  }
+ ],
+ "count": 61,
+ "pages": 2
+}

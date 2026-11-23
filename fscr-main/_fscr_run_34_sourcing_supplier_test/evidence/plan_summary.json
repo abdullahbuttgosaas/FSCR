@@ -1,0 +1,52 @@
+{
+ "tasks": 91,
+ "levels": {
+  "c": 11,
+  "b": 35,
+  "a": 45
+ },
+ "missing": "46/91",
+ "skills_read": 45,
+ "graph_links_used": 0,
+ "fscr_tasks_with_any_prereq": 7,
+ "fscr_prereq_links": 18,
+ "oracle_links_rows": 26,
+ "oracle_links_sourced_rows": 15,
+ "oracle_pairs_sourced": 14,
+ "oracle_pairs_respected": 14,
+ "oracle_pairs_stated_by_fscr_skills": 1,
+ "unverified": 11,
+ "unverified_but_plan_respects": 8,
+ "violations": [],
+ "area_check": {
+  "suppliers_all_before_sourcing": false,
+  "suppliers_all_before_qualification": false,
+  "suppliers_median_before_sourcing": true,
+  "suppliers_tasks_after_first_sourcing_task": 29,
+  "portal_before_sourcing": true,
+  "sourcing_before_qualification": true,
+  "area_ranges": {
+   "Suppliers": [
+    1,
+    91,
+    63
+   ],
+   "Supplier Portal": [
+    2,
+    40,
+    6
+   ],
+   "Sourcing": [
+    41,
+    51,
+    11
+   ],
+   "Supplier Qualification": [
+    52,
+    62,
+    11
+   ]
+  }
+ },
+ "run33_links_reused": 0
+}

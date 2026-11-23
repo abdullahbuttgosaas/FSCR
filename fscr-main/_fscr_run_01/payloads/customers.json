@@ -1,0 +1,289 @@
+{
+  "orgA": {
+    "party_type": "ORGANIZATION",
+    "location": {
+      "Country": "US",
+      "Address1": "2210 Pearl Street",
+      "Address2": "Unit 5",
+      "City": "Boulder",
+      "PostalCode": "80302",
+      "State": "CO",
+      "SalesTaxInsideCityLimits": "1",
+      "CreatedByModule": "HZ_WS"
+    },
+    "location_dff": {
+      "responsibleMineralStatus": "Conflict Free",
+      "address1": "Cooperative depot",
+      "urlattr": "https://www.kestrelbasin.example.com",
+      "ContactEmailAttr": "buying@kestrelbasin.example.com",
+      "AuthorizerAttr": "Rhea Lindqvist",
+      "TekSupplierSiteID": "4201"
+    },
+    "party": {
+      "CreatedByModule": "HZ_WS"
+    },
+    "party_profile": {
+      "OrganizationName": "FSCRT_Kestrel Basin Trading Cooperative F01",
+      "DUNSNumberC": "204118306",
+      "JgzzFiscalCode": "84-2210764",
+      "CreatedByModule": "HZ_WS"
+    },
+    "party_site": {
+      "PartySiteName": "FSCRT_Kestrel Basin Depot",
+      "Mailstop": "Bay B",
+      "StartDateActive": "2026-11-02",
+      "EndDateActive": "2028-12-31",
+      "IdentifyingAddressFlag": "true",
+      "CreatedByModule": "HZ_WS"
+    },
+    "account": {
+      "AccountName": "Buying cooperative for trail shops",
+      "CustomerType": "R",
+      "CustomerClassCode": "PUBLIC SECTOR COMPANIES",
+      "AccountEstablishedDate": "2026-11-02",
+      "AccountTerminationDate": "2028-12-31",
+      "CreatedByModule": "HZ_WS"
+    },
+    "account_dff": {
+      "accountNotesOther": "Net 45 account, seasonal volume orders",
+      "shippingInstrustions": "Deliver to loading bay B, weekdays 7am to 3pm",
+      "customerAgreement": "Two year dealer supply agreement"
+    },
+    "account_site": {
+      "SetId": "300000000003463",
+      "StartDate": "2026-11-02",
+      "EndDate": "2028-12-31",
+      "KeyAccountFlag": "true",
+      "TpHeaderId": "5502101",
+      "EceTpLocationCode": "KBT-EDI-01",
+      "TranslatedCustomerName": "Kestrel Basin Trading Co-op",
+      "CreatedByModule": "HZ_WS"
+    },
+    "site_uses": [
+      {
+        "SiteUseCode": "BILL_TO",
+        "PrimaryFlag": "true",
+        "StartDate": "2026-11-02",
+        "CreatedByModule": "HZ_WS"
+      },
+      {
+        "SiteUseCode": "SHIP_TO",
+        "PrimaryFlag": "true",
+        "StartDate": "2026-11-02",
+        "CreatedByModule": "HZ_WS"
+      }
+    ]
+  },
+  "orgB": {
+    "party_type": "ORGANIZATION",
+    "location": {
+      "Country": "US",
+      "Address1": "1740 Wynkoop Street",
+      "Address2": "Suite 110",
+      "City": "Denver",
+      "PostalCode": "80202",
+      "State": "CO",
+      "SalesTaxInsideCityLimits": "1",
+      "CreatedByModule": "HZ_WS"
+    },
+    "location_dff": {
+      "responsibleMineralStatus": "Undetermined",
+      "address1": "Boatyard office",
+      "urlattr": "https://www.pembertoncove.example.com",
+      "ContactEmailAttr": "purchasing@pembertoncove.example.com",
+      "AuthorizerAttr": "Saoirse Vandenberg",
+      "TekSupplierSiteID": "4203"
+    },
+    "party": {
+      "CreatedByModule": "HZ_WS"
+    },
+    "party_profile": {
+      "OrganizationName": "FSCRT_Pemberton Cove Boatworks F01",
+      "DUNSNumberC": "428351077",
+      "JgzzFiscalCode": "36-9054187",
+      "CreatedByModule": "HZ_WS"
+    },
+    "party_site": {
+      "PartySiteName": "FSCRT_Pemberton Cove Yard",
+      "Mailstop": "Slip 3",
+      "StartDateActive": "2026-11-03",
+      "EndDateActive": "2029-06-30",
+      "IdentifyingAddressFlag": "true",
+      "CreatedByModule": "HZ_WS"
+    },
+    "account": {
+      "AccountName": "Boat builder and chandlery",
+      "CustomerType": "R",
+      "CustomerClassCode": "PUBLIC SECTOR COMPANIES",
+      "AccountEstablishedDate": "2026-11-03",
+      "AccountTerminationDate": "2029-06-30",
+      "CreatedByModule": "HZ_WS"
+    },
+    "account_dff": {
+      "accountNotesOther": "Rush orders common in spring",
+      "shippingInstrustions": "Deliver to the slipway office",
+      "customerAgreement": "Marine parts framework agreement"
+    },
+    "account_site": {
+      "SetId": "300000334604945",
+      "StartDate": "2026-11-03",
+      "EndDate": "2029-06-30",
+      "KeyAccountFlag": "true",
+      "TpHeaderId": "5502103",
+      "EceTpLocationCode": "PCB-EDI-03",
+      "TranslatedCustomerName": "Pemberton Cove Boatworks LLC",
+      "CreatedByModule": "HZ_WS"
+    },
+    "site_uses": [
+      {
+        "SiteUseCode": "BILL_TO",
+        "PrimaryFlag": "true",
+        "StartDate": "2026-11-03",
+        "CreatedByModule": "HZ_WS"
+      },
+      {
+        "SiteUseCode": "SHIP_TO",
+        "PrimaryFlag": "true",
+        "StartDate": "2026-11-03",
+        "CreatedByModule": "HZ_WS"
+      }
+    ]
+  },
+  "perA": {
+    "party_type": "PERSON",
+    "location": {
+      "Country": "US",
+      "Address1": "1250 N State Street",
+      "Address2": "Apt 3B",
+      "City": "Chicago",
+      "PostalCode": "60601",
+      "State": "IL",
+      "SalesTaxInsideCityLimits": "1",
+      "CreatedByModule": "HZ_WS"
+    },
+    "location_dff": {
+      "responsibleMineralStatus": "Conflict Free",
+      "address1": "Home address",
+      "urlattr": "https://www.thornbury.example.com",
+      "ContactEmailAttr": "caspian@thornbury.example.com",
+      "AuthorizerAttr": "Caspian Thornbury",
+      "TekSupplierSiteID": "4301"
+    },
+    "party": {
+      "CreatedByModule": "HZ_WS"
+    },
+    "party_site": {
+      "PartySiteName": "FSCRT_Thornbury Residence",
+      "Mailstop": "Unit 1",
+      "StartDateActive": "2026-11-02",
+      "IdentifyingAddressFlag": "true",
+      "CreatedByModule": "HZ_WS"
+    },
+    "account": {
+      "AccountName": "Independent trail guide",
+      "CustomerType": "R",
+      "CustomerClassCode": "PUBLIC SECTOR COMPANIES",
+      "AccountEstablishedDate": "2026-11-02",
+      "CreatedByModule": "HZ_WS"
+    },
+    "account_dff": {
+      "accountNotesOther": "Pays by card at pickup",
+      "shippingInstrustions": "Hold at front desk",
+      "customerAgreement": "Individual gear purchase terms"
+    },
+    "account_site": {
+      "SetId": "300000000003463",
+      "StartDate": "2026-11-02",
+      "KeyAccountFlag": "false",
+      "TpHeaderId": "6603101",
+      "EceTpLocationCode": "CT-EDI-01",
+      "TranslatedCustomerName": "Caspian R Thornbury",
+      "CreatedByModule": "HZ_WS"
+    },
+    "site_uses": [
+      {
+        "SiteUseCode": "BILL_TO",
+        "PrimaryFlag": "true",
+        "StartDate": "2026-11-02",
+        "CreatedByModule": "HZ_WS"
+      }
+    ],
+    "party_profile": {
+      "JgzzFiscalCode": "58-4410237",
+      "CreatedByModule": "HZ_WS",
+      "PersonPreNameAdjunct": "MR.",
+      "PersonFirstName": "FSCRT_Caspian",
+      "PersonMiddleName": "Reed",
+      "PersonLastName": "Thornbury",
+      "PersonNameSuffix": "Jr."
+    }
+  },
+  "perB": {
+    "party_type": "PERSON",
+    "location": {
+      "Country": "US",
+      "Address1": "88 Beacon Street",
+      "City": "Boston",
+      "PostalCode": "02110",
+      "State": "MA",
+      "SalesTaxInsideCityLimits": "0",
+      "CreatedByModule": "HZ_WS"
+    },
+    "location_dff": {
+      "responsibleMineralStatus": "N/A",
+      "address1": "Home address",
+      "urlattr": "https://www.voskuijlen.example.com",
+      "ContactEmailAttr": "linnea@voskuijlen.example.com",
+      "AuthorizerAttr": "Linnea Voskuijlen",
+      "TekSupplierSiteID": "4302"
+    },
+    "party": {
+      "CreatedByModule": "HZ_WS"
+    },
+    "party_site": {
+      "PartySiteName": "FSCRT_Voskuijlen Home",
+      "StartDateActive": "2026-11-02",
+      "EndDateActive": "2027-12-31",
+      "IdentifyingAddressFlag": "true",
+      "CreatedByModule": "HZ_WS"
+    },
+    "account": {
+      "AccountName": "Kayak instructor",
+      "CustomerType": "R",
+      "CustomerClassCode": "FEDERAL",
+      "AccountEstablishedDate": "2026-11-02",
+      "AccountTerminationDate": "2027-12-31",
+      "CreatedByModule": "HZ_WS"
+    },
+    "account_dff": {
+      "accountNotesOther": "Orders paddles twice a year",
+      "shippingInstrustions": "Leave with neighbour if absent",
+      "customerAgreement": "Instructor equipment terms"
+    },
+    "account_site": {
+      "SetId": "300000000003463",
+      "StartDate": "2026-11-02",
+      "EndDate": "2027-12-31",
+      "KeyAccountFlag": "false",
+      "TpHeaderId": "6603102",
+      "EceTpLocationCode": "LV-EDI-02",
+      "TranslatedCustomerName": "Linnea Voskuijlen",
+      "CreatedByModule": "HZ_WS"
+    },
+    "site_uses": [
+      {
+        "SiteUseCode": "SHIP_TO",
+        "PrimaryFlag": "true",
+        "StartDate": "2026-11-02",
+        "CreatedByModule": "HZ_WS"
+      }
+    ],
+    "party_profile": {
+      "JgzzFiscalCode": "63-7702158",
+      "CreatedByModule": "HZ_WS",
+      "PersonPreNameAdjunct": "MS.",
+      "PersonFirstName": "FSCRT_Linnea",
+      "PersonLastName": "Voskuijlen"
+    }
+  }
+}

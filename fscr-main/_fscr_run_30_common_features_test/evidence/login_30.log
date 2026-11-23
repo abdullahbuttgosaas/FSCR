@@ -1,0 +1,5 @@
+Opening Oracle Identity Cloud login in your browser.
+
+Waiting up to 280 seconds for OAuth callback at http://127.0.0.1:8765/oauth/callback
+Error: Failed calling https://idcs-5494651e240c4013a8bbb054d96637ec.identity.oraclecloud.com/oauth2/v1/token: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+exit=1

@@ -1,0 +1,24 @@
+READ-ONLY CAPTURE (not the original file). Masked: C1 = large PLM customer (also the "PLM ... Instance Plan" customer).
+Original: Customers / Tektronix - PLM / 10 PMO / Archive / "Project Plan Excel" (Google Sheet 1ECT0P1D1KYKl24AshtNnWLuj0njGcv5izudW8YAGz4Y, mod 2024-09-30). Single sheet, 706 grid rows, 508 tasks, WBS depth up to 7, 273 tasks with predecessors.
+This is an MS Project export pasted into Sheets. Columns:
+Project | Task ID | WBS | Phase (CRP/SIT/UAT/Go Live) | Resource Names | Task Name | Duration | Start | Finish | Status (Future Task/Late/Complete) | Constraint Date | Predecessors | Successors | % Complete | Resource Group | Deadline | Start Slack | Task Calendar | Ignore Resource Calendar | Task Mode
+Note: WBS cells were auto-formatted as numbers in places (1.10 shows as "1.1", child "1.8.3.1" shows as "8.3.1").
+Dependency notation: task IDs, with types/lags e.g. "193SS", "119FS+3 days".
+
+Level 0: project | 367 days | Fri Oct 4 (2024) -> Mon Mar 2 (2026)
+Level 1/2 summary (WBS | Phase | Task | Duration | Start | Finish):
+1.1 Project Management (Kick Off Meeting, Stream Leads Meeting-Planning) ; 1.3 Project Plan ; 1.4 Instance Plan ; 1.5 Environment Sizing (all Mon Oct 7)
+1.2 Oracle Quarterly Updates (Cohort C) | 250 days | Oct 4 -> Sep 19: children Oct-24, Jan-25, Apr-25, Jul-25, Oct-25; each = 10 days with two 0-day milestones "Non Production" (1st Friday) and "Production" (+2 weeks), using constraint dates; some milestones drive successors (e.g. Jan-25 Non-Prod -> task 434, Apr-25 -> 451, Jul-25 -> 476).
+1.3 Organization Change Management | 290 days (communication prep, adoption plan, pulse surveys at Design Workshop / CRP / Integration Test / UAT / Training @ Go Live / 60 days, executive check-ins, process change documentation QSD/GPD/LPD/LWI/ISO 9000)
+1.4 Infrastructure | 283 days: Environment Preparation/Onboarding (confirm provisioned environments & cohort, governance tool access, Cloud dev env access, customer env access, SSO, customization deployment server, Power Tool / Archiver / GoCompliance provisioning, translation server);
+    environment deployments per phase: CRP Environment Deployment (Oct 18-29), SIT Environment Deployment (Mar 11-31), UAT Environment Deployment (Jul 24), PROD Environment Deployment (Nov 5) - each with Power Tools, Archiver, EG&C, Security, User & Role configuration.
+1.5 [CRP] Pre-Implementation Training: Product Development, Product Data Hub - PIM, Quality, GoCompliance, Supplier Portal (Oct 7-14)
+1.6 [CRP] Design Workshops | 114 days | Oct 15 -> Mar 21 (business process workshops per module, follow-ups, CRP design)
+1.7 [CRP] ConfigDev: CRP Config & Dev 52d (Nov 4-Jan 14); SIT Config & Dev Deployment 30d (Mar 21-May 2); UAT Config & Dev Deployment 25d (Jul 24-Aug 27); PROD Config & Dev Deployment 25d (Nov 5-Dec 9)
+1.8 Data Migration: Design 33d; CRP Partial Data Migration 85d; SIT Full DM (Round 1 46d + Round 2 - Delta 14d, Feb 20-Apr 30); UAT Full DM (Round 1 35d + Round 2 - Delta 10d, Jul 24-Sep 24); PROD Full DM (Round 1 20d + Round 2 - Delta 5d, Dec 11-Jan 14)
+1.9 Integrations: Integration Workshops (EBS-PD, PD-ECAD, PD-MCAD, MCAD-PD) Nov 18-Dec 13; Product SW licensing DB (GENDB); Design & Mapping Sign Off (RPDB replaceable parts, Sitecore published on website, GENDB);
+    Integration Development ready by SIT (Z2-PD, RPDB, Sitecore, GENDB) Dec 6-Mar 21; ready by UAT Jul 24-Sep 3; ready by PROD Nov 5-Dec 9
+1.10 Testing: CRP Test Phase 94d (Oct 29-Mar 10); SIT Test Phase 88d (Mar 21-Jul 23); UAT Test Phase 101d (Jul 4-Nov 21)
+1.11 Training: End User Training Material (Jul 25); Conduct End User Training 25d (Jul 28-Aug 29)
+1.12 Go-Live: Go-Live Planning 113d; Launch Criteria 307d; Go/No Launch Decision (Dec 10); Cutover Execution 28d (Dec 11-Jan 19); Go Live milestone Mon Jan 19 (2026)
+1.13 Hyper Care Support | 30 days | Jan 20 -> Mar 2

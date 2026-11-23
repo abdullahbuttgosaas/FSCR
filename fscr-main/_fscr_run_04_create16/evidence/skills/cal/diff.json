@@ -1,0 +1,106 @@
+{
+ "old": "evidence/exports/AP_MANAGE_PAYABLES_CALENDARS/ETIA-TEST_setup_task_csv_export_ap_manage_payables_calendars_100004733446521.zip",
+ "new": "evidence/skills/cal/after_export/ETIA-TEST_setup_task_csv_export_ap_manage_payables_calendars_100004733440885.zip",
+ "files": {
+  "AP_OTHER_PERIOD_PERIOD.csv": {
+   "rows_old": 12,
+   "rows_new": 24,
+   "key_columns": [
+    "AP_OTHER_PERIOD_TYPE.CalendarName",
+    "EnteredPeriodName",
+    "CalendarName",
+    "PeriodName"
+   ],
+   "added": [
+    {
+     "AP_OTHER_PERIOD_TYPE.CalendarName": "FSCRT_CAL1",
+     "EnteredPeriodName": "Apr",
+     "CalendarName": "FSCRT_CAL1",
+     "PeriodName": "Apr-27"
+    },
+    {
+     "AP_OTHER_PERIOD_TYPE.CalendarName": "FSCRT_CAL1",
+     "EnteredPeriodName": "Aug",
+     "CalendarName": "FSCRT_CAL1",
+     "PeriodName": "Aug-27"
+    },
+    {
+     "AP_OTHER_PERIOD_TYPE.CalendarName": "FSCRT_CAL1",
+     "EnteredPeriodName": "Dec",
+     "CalendarName": "FSCRT_CAL1",
+     "PeriodName": "Dec-27"
+    },
+    {
+     "AP_OTHER_PERIOD_TYPE.CalendarName": "FSCRT_CAL1",
+     "EnteredPeriodName": "Feb",
+     "CalendarName": "FSCRT_CAL1",
+     "PeriodName": "Feb-27"
+    },
+    {
+     "AP_OTHER_PERIOD_TYPE.CalendarName": "FSCRT_CAL1",
+     "EnteredPeriodName": "Jan",
+     "CalendarName": "FSCRT_CAL1",
+     "PeriodName": "Jan-27"
+    },
+    {
+     "AP_OTHER_PERIOD_TYPE.CalendarName": "FSCRT_CAL1",
+     "EnteredPeriodName": "Jul",
+     "CalendarName": "FSCRT_CAL1",
+     "PeriodName": "Jul-27"
+    },
+    {
+     "AP_OTHER_PERIOD_TYPE.CalendarName": "FSCRT_CAL1",
+     "EnteredPeriodName": "Jun",
+     "CalendarName": "FSCRT_CAL1",
+     "PeriodName": "Jun-27"
+    },
+    {
+     "AP_OTHER_PERIOD_TYPE.CalendarName": "FSCRT_CAL1",
+     "EnteredPeriodName": "Mar",
+     "CalendarName": "FSCRT_CAL1",
+     "PeriodName": "Mar-27"
+    },
+    {
+     "AP_OTHER_PERIOD_TYPE.CalendarName": "FSCRT_CAL1",
+     "EnteredPeriodName": "May",
+     "CalendarName": "FSCRT_CAL1",
+     "PeriodName": "May-27"
+    },
+    {
+     "AP_OTHER_PERIOD_TYPE.CalendarName": "FSCRT_CAL1",
+     "EnteredPeriodName": "Nov",
+     "CalendarName": "FSCRT_CAL1",
+     "PeriodName": "Nov-27"
+    },
+    {
+     "AP_OTHER_PERIOD_TYPE.CalendarName": "FSCRT_CAL1",
+     "EnteredPeriodName": "Oct",
+     "CalendarName": "FSCRT_CAL1",
+     "PeriodName": "Oct-27"
+    },
+    {
+     "AP_OTHER_PERIOD_TYPE.CalendarName": "FSCRT_CAL1",
+     "EnteredPeriodName": "Sep",
+     "CalendarName": "FSCRT_CAL1",
+     "PeriodName": "Sep-27"
+    }
+   ],
+   "removed": [],
+   "changed": []
+  },
+  "AP_OTHER_PERIOD_TYPE.csv": {
+   "rows_old": 5,
+   "rows_new": 6,
+   "key_columns": [
+    "CalendarName"
+   ],
+   "added": [
+    {
+     "CalendarName": "FSCRT_CAL1"
+    }
+   ],
+   "removed": [],
+   "changed": []
+  }
+ }
+}

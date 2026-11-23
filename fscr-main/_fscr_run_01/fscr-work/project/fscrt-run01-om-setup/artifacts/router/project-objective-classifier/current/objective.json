@@ -1,0 +1,15 @@
+{
+  "$schema": "../../../../../../schemas/implementation-objective.schema.json",
+  "objective": "FSCR capability test run 01: create OM and Financials test records on ETIA-TEST",
+  "customer": "GoSaaS",
+  "pillars": [
+    "SCM"
+  ],
+  "offerings": [
+    "Order Management",
+    "Financials"
+  ],
+  "countries": [],
+  "industry": "TBD",
+  "implementation_phase": "build"
+}

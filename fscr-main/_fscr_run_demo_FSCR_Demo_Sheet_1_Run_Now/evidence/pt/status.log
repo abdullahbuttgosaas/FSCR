@@ -1,0 +1,9 @@
+| Data Set | Status | Total | Loaded | Failed |
+|---|---|---:|---:|---:|
+| fscrt-demo-pt-candidate.zip | ✅ Succeeded | 3 | 3 | 0 |
+
+FSM Process Logs:
+
+| Data Set | File |
+|---|---|
+| fscrt-demo-pt-candidate.zip | [fscrt-demo-pt-candidate.zip-fsm-100004734447407-1.log](C:\Users\PC\.codex\data-loader-status-logs\requestid-4436026\fscrt-demo-pt-candidate.zip-fsm-100004734447407-1.log) |

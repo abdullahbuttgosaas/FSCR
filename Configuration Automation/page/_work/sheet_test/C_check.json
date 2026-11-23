@@ -1,0 +1,225 @@
+{
+ "file": "Receivables_sheet_test_C_mistakes_check_only.xlsx",
+ "check_start": "06:13:54",
+ "check_end": "06:18:42",
+ "check_seconds": 287,
+ "upload_http": 200,
+ "preview": {
+  "ok": false,
+  "stops": [],
+  "notes": [
+   "Oracle's today couldn't be read, so dates left empty weren't compared.",
+   "Oracle couldn't be reached to read its date; dates are checked again when you press Create."
+  ],
+  "oracle_stops": null,
+  "signin": null,
+  "problems_count": 16
+ },
+ "modules": [
+  [
+   "Receivables Payment Terms",
+   3,
+   null
+  ],
+  [
+   "AutoInvoice Grouping Rules",
+   3,
+   null
+  ],
+  [
+   "Transaction Types",
+   5,
+   null
+  ],
+  [
+   "Transaction Sources",
+   5,
+   null
+  ]
+ ],
+ "records": [
+  {
+   "group": "Receivables Payment Terms",
+   "name": "ZZ_TEST_PT_TOOLONG",
+   "ok": false,
+   "skipped": null,
+   "summary": null,
+   "problems": [
+    "Name is longer than 15 characters (Oracle's limit for Receivables payment terms). Shorten it."
+   ],
+   "notes": []
+  },
+  {
+   "group": "Receivables Payment Terms",
+   "name": "ZZ_TEST_PT_SUM",
+   "ok": false,
+   "skipped": null,
+   "summary": null,
+   "problems": [
+    "The installments add up to 90, but Base Amount is 100. They must add up to exactly 100."
+   ],
+   "notes": []
+  },
+  {
+   "group": "Receivables Payment Terms",
+   "name": "ZZ_TEST_PT_SET",
+   "ok": false,
+   "skipped": null,
+   "summary": null,
+   "problems": [
+    "Set Code 'ZZ_TEST_NO_SET' isn't one of Oracle's reference data sets."
+   ],
+   "notes": []
+  },
+  {
+   "group": "AutoInvoice Grouping Rules",
+   "name": "ZZ_TEST_AG_NODATE",
+   "ok": false,
+   "skipped": null,
+   "summary": null,
+   "problems": [
+    "From Date is missing."
+   ],
+   "notes": []
+  },
+  {
+   "group": "AutoInvoice Grouping Rules",
+   "name": "ZZ_TEST_AG_CHAR",
+   "ok": false,
+   "skipped": null,
+   "summary": null,
+   "problems": [
+    "Class row 1: no grouping rule in Oracle uses characteristic 'L.INTERFACE_LINE_ATTRIBUTE15', so it can't be confirmed before Create (Oracle has no list of them to read)."
+   ],
+   "notes": []
+  },
+  {
+   "group": "AutoInvoice Grouping Rules",
+   "name": "ZZ_TEST_AG_DATES",
+   "ok": false,
+   "skipped": null,
+   "summary": null,
+   "problems": [
+    "To Date (15 October 2026) must be after From Date (1 November 2026)."
+   ],
+   "notes": []
+  },
+  {
+   "group": "Transaction Types",
+   "name": "ZZ_TEST_TT_TOO_LONG_X",
+   "ok": false,
+   "skipped": null,
+   "summary": null,
+   "problems": [
+    "Name 'ZZ_TEST_TT_TOO_LONG_X' has 21 characters; Oracle takes at most 20. It is never shortened for you."
+   ],
+   "notes": []
+  },
+  {
+   "group": "Transaction Types",
+   "name": "ZZ_TEST_TT_CM",
+   "ok": false,
+   "skipped": null,
+   "summary": null,
+   "problems": [
+    "Class 'Credit Memo' isn't offered yet: this version offers Invoice and Debit Memo only (a credit memo needs a negative sign, and the other classes need setup that isn't on the sheet)."
+   ],
+   "notes": []
+  },
+  {
+   "group": "Transaction Types",
+   "name": "ZZ_TEST_TT_NOGL",
+   "ok": false,
+   "skipped": null,
+   "summary": null,
+   "problems": [
+    "Post to GL is missing."
+   ],
+   "notes": []
+  },
+  {
+   "group": "Transaction Types",
+   "name": "ZZ_TEST_TT_BOTH",
+   "ok": false,
+   "skipped": null,
+   "summary": null,
+   "problems": [
+    "Natural Application Only and Allow Overapplication can't both be Yes."
+   ],
+   "notes": []
+  },
+  {
+   "group": "Transaction Types",
+   "name": "ZZ_TEST_TT_TERM",
+   "ok": false,
+   "skipped": null,
+   "summary": null,
+   "problems": [
+    "Payment Term 'ZZ_TEST_NO_TERM' in set COMMON isn't in Oracle and isn't on this sheet's Receivables Payment Terms tab."
+   ],
+   "notes": []
+  },
+  {
+   "group": "Transaction Sources",
+   "name": "ZZ_TEST_TS_ZERO",
+   "ok": false,
+   "skipped": null,
+   "summary": null,
+   "problems": [
+    "Last Number must be a whole number, 1 or more; it says '0'."
+   ],
+   "notes": []
+  },
+  {
+   "group": "Transaction Sources",
+   "name": "ZZ_TEST_TS_MANUAL",
+   "ok": false,
+   "skipped": null,
+   "summary": null,
+   "problems": [
+    "A grouping rule only applies to an AutoInvoice source; this one is Manual."
+   ],
+   "notes": []
+  },
+  {
+   "group": "Transaction Sources",
+   "name": "ZZ_TEST_TS_NORULE",
+   "ok": false,
+   "skipped": null,
+   "summary": null,
+   "problems": [
+    "Grouping Rule 'ZZ_TEST_NO_RULE' isn't in Oracle and isn't on this sheet's AutoInvoice Grouping Rules tab."
+   ],
+   "notes": []
+  },
+  {
+   "group": "Transaction Sources",
+   "name": "ZZ_TEST_TS_NODESC",
+   "ok": false,
+   "skipped": null,
+   "summary": null,
+   "problems": [
+    "Item Description is missing."
+   ],
+   "notes": []
+  },
+  {
+   "group": "Transaction Sources",
+   "name": "ZZ_TEST_TS_NUMBER",
+   "ok": false,
+   "skipped": null,
+   "summary": null,
+   "problems": [
+    "Last Number only applies with automatic numbering."
+   ],
+   "notes": []
+  }
+ ],
+ "upload": "246f1b2302",
+ "create_attempt": {
+  "http": 400,
+  "answer": {
+   "error": "not ready"
+  }
+ }
+}

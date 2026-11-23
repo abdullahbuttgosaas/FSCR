@@ -1,0 +1,76 @@
+{
+  "baselineSha256": "a3330a42f036bc17d841b667d01c24cd006bdb9698cba4c266aea9cf475cf918",
+  "designSha256": "83cdb9446a8f44ead22df4dcc0f8dce1dbf9b97e1721aa7e73715e838224ff5e",
+  "explicitDefaults": [],
+  "operations": [
+    {
+      "action": "create",
+      "entity": "AP_TERM_HEADER",
+      "id": "h1",
+      "preserveOtherValues": true,
+      "preserveUnspecifiedRows": true,
+      "requestedValues": {
+        "Description": "FSCRT Run04 net 45",
+        "EnabledFlag": "Y",
+        "StartDateActive": "2026-11-03",
+        "Type": "STD"
+      },
+      "targetKey": {
+        "Name": "FSCRT_AP_N45"
+      }
+    },
+    {
+      "action": "create",
+      "entity": "AP_TERM_LINE",
+      "id": "l1",
+      "preserveOtherValues": true,
+      "preserveUnspecifiedRows": true,
+      "requestedValues": {
+        "DueDays": "45",
+        "DuePercent": "100"
+      },
+      "targetKey": {
+        "AP_TERM_HEADER.Name": "FSCRT_AP_N45",
+        "SequenceNum": "1"
+      }
+    },
+    {
+      "action": "create",
+      "entity": "AP_TERM_SUBSCRIPTION",
+      "id": "s1",
+      "preserveOtherValues": true,
+      "preserveUnspecifiedRows": true,
+      "requestedValues": {},
+      "targetKey": {
+        "AP_TERM_HEADER.Name": "FSCRT_AP_N45",
+        "SetCode": "ENTERPRISE"
+      }
+    },
+    {
+      "action": "create",
+      "entity": "AP_TERM_HEADER_TRANSLATION",
+      "id": "t1",
+      "preserveOtherValues": true,
+      "preserveUnspecifiedRows": true,
+      "requestedValues": {
+        "Description": "FSCRT Run04 net 45",
+        "Name": "FSCRT_AP_N45",
+        "SourceLang": "US"
+      },
+      "targetKey": {
+        "AP_TERM_HEADER.Name": "FSCRT_AP_N45",
+        "Language": "US"
+      }
+    }
+  ],
+  "prerequisites": [],
+  "requestSha256": "2734c5e32c8dfb3826f51cbb001ead10d7e2b2bae6e56705c1cd66bf4abd4eed",
+  "requirementCount": 17,
+  "resolverFindings": [],
+  "schemaVersion": "fscr-fsm-task-adapter-v1",
+  "task": {
+    "code": "AP_MANAGE_PAYMENT_TERMS",
+    "name": "Manage Payment Terms"
+  },
+  "warnings": []
+}

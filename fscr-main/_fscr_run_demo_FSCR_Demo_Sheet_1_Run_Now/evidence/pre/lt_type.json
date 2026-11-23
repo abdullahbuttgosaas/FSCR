@@ -1,0 +1,13 @@
+{
+  "items" : [ ],
+  "count" : 0,
+  "hasMore" : false,
+  "limit" : 25,
+  "offset" : 0,
+  "links" : [ {
+    "rel" : "self",
+    "href" : "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups",
+    "name" : "standardLookups",
+    "kind" : "collection"
+  } ]
+}

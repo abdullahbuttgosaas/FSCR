@@ -1,0 +1,28 @@
+Environment: etia-test
+Revision: 11.13.26.10.0
+
+The configuration package Manage Transaction Sources_20261103_040200_745 was generated using setup data from environment etia-test with 11.13.26.10.0 revision.
+
+Request ID: 4,432,204. Status: In progress. Submitted By: Configuration.TEST. Process Date: 11/3/26 4:19 AM.
+
+Business object: Receivables Transaction Source. Status: In progress. Status details: 
+	Detail Object: CmTransactionBatchSource. Status: Completed successfully. Status Details: A total of 0 rows were processed. 0 rows of them failed and 0 rows completed with warnings.. Started: 11/3/26 4:19 AM. Ended: 11/3/26 4:19 AM.
+
+Business object: Receivables Transaction Source. Status: Completed successfully. Status details: 
+	Detail Object: TransactionBatchSource. Status: Completed successfully. Status Details: A total of 1 rows were processed. 0 rows of them failed and 0 rows completed with warnings.. Started: 11/3/26 4:19 AM. Ended: 11/3/26 4:19 AM.
+	Detail Object: CmTransactionBatchSource. Status: Completed successfully. Status Details: A total of 0 rows were processed. 0 rows of them failed and 0 rows completed with warnings.. Started: 11/3/26 4:19 AM. Ended: 11/3/26 4:19 AM.
+
+Business object: Receivables Transaction Batch Source. Status: Completed successfully. Status details: This object was already processed. The import or export details were listed under the Receivables Transaction Source business object.
+
+Total Objects Processed: 2
+
+Total Objects Succeeded: 2
+
+Total Objects Failed: 0
+
+Total Objects with Warnings: 0
+
+Total Objects for External Loading: 0
+
+Request ID: 4,432,204. Status: Completed successfully. Submitted By: Configuration.TEST. Process Date: 11/3/26 4:19 AM.
+

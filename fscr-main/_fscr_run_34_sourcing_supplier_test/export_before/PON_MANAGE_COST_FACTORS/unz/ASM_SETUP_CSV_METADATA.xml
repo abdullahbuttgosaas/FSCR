@@ -1,0 +1,52 @@
+<MigrationProcessCSVMetadataVO>
+   <MigrationProcessCSVMetadataVORow>
+      <ProcessId>-999</ProcessId>
+      <ProcessName>Manage Cost Factors_20261117_075755_777</ProcessName>
+      <ProcessDescription>Manage Cost Factors_20261117_075755_777</ProcessDescription>
+      <ProcessDate>2026-11-17 07:58:21.176</ProcessDate>
+      <ObjectShortName>PON_MANAGE_COST_FACTORS</ObjectShortName>
+      <ObjectType>TASK</ObjectType>
+      <CreatedByFlow>TASK_CSV_SERVICE</CreatedByFlow>
+      <ProcessType>EXPORT</ProcessType>
+      <ProcessStatus>COMPLETED</ProcessStatus>
+      <ProcessEnv>etia-test</ProcessEnv>
+      <ProcessStartDate>2026-11-17 07:57:55.583</ProcessStartDate>
+      <ProcessEndDate>2026-11-17 07:58:21.176</ProcessEndDate>
+      <ProcessRelease>11.13.26.10.0</ProcessRelease>
+      <SubmittedBy>Configuration.TEST</SubmittedBy>
+      <ESSRequestId>4466151</ESSRequestId>
+      <MigrationProcessBusinessObjectCSVMetadata1>
+         <MigrationProcessBusinessObjectCSVMetadataVORow>
+            <ProcessId>-999</ProcessId>
+            <BusinessObjectShortName>PON_PRICE_ELEMENT_TYPES</BusinessObjectShortName>
+            <BatchName null="true"/>
+            <XmlAttributeList>Name,Description,PriceElementCode,PricingBasis,EnabledFlag,SystemFlag,CreationDate,CreatedBy,LastUpdateDate,LastUpdatedBy,LastUpdateLogin,CostFactorType</XmlAttributeList>
+            <XmlAttributeTypeList>string,string,string,string,string,string,dateTime,string,dateTime,string,string,string</XmlAttributeTypeList>
+            <XmlNodePath>/SourcingCostFactorTypeMigratorVO/SourcingCostFactorTypeMigratorVORow</XmlNodePath>
+            <NodeSequence>1</NodeSequence>
+         </MigrationProcessBusinessObjectCSVMetadataVORow>
+         <MigrationProcessBusinessObjectCSVMetadataVORow>
+            <ProcessId>-999</ProcessId>
+            <BusinessObjectShortName>PON_PRICE_ELEMENT_TYPES_TRANSLATION</BusinessObjectShortName>
+            <BatchName null="true"/>
+            <XmlAttributeList>Name,Description,Language,SourceLang,CreationDate,CreatedBy,LastUpdateDate,LastUpdatedBy,LastUpdateLogin</XmlAttributeList>
+            <XmlAttributeTypeList>string,string,string,string,dateTime,string,dateTime,string,string</XmlAttributeTypeList>
+            <XmlNodePath>/SourcingCostFactorTypeMigratorVO/SourcingCostFactorTypeMigratorVORow/SourcingCostFactorTypeMigratorTranslation/SourcingCostFactorTypeMigratorTranslationVORow</XmlNodePath>
+            <NodeSequence>1</NodeSequence>
+         </MigrationProcessBusinessObjectCSVMetadataVORow>
+      </MigrationProcessBusinessObjectCSVMetadata1>
+      <MigrationProcessBatchCSVMetadata null="true"/>
+      <MigrationProcessScopeValueCSVMetadata null="true"/>
+      <MigrationProcessMigrationObjectCSVMetadata>
+         <MigrationProcessMigrationObjectCSVMetadataVORow>
+            <ProcessId>-999</ProcessId>
+            <BusinessObjectShortName>PON_PRICE_ELEMENT_TYPES</BusinessObjectShortName>
+            <MigrateFlag>Y</MigrateFlag>
+            <IncludeExternalDataFlag>Y</IncludeExternalDataFlag>
+            <ServiceType null="true"/>
+         </MigrationProcessMigrationObjectCSVMetadataVORow>
+      </MigrationProcessMigrationObjectCSVMetadata>
+      <MigrationProcessTaskCSVMetadata null="true"/>
+      <MigrationProcessServiceVersionCSVMetadata null="true"/>
+   </MigrationProcessCSVMetadataVORow>
+</MigrationProcessCSVMetadataVO>

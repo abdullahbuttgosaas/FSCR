@@ -1,0 +1,246 @@
+{
+ "items": [
+  {
+   "LookupType": "DOO_ADJUSTMENT_TYPE",
+   "ModuleId": "61ECAF4AAB00E990E040449821C61C97",
+   "Meaning": "Price Adjustment Type",
+   "Description": "Price adjustment types that can be associated with a sales order and the associated lines, or with the sales order lines only.",
+   "CustomizationLevel": "S",
+   "RestAccessSecured": "AUTH",
+   "CreatedBy": "SEED_DATA_FROM_APPLICATION",
+   "CreationDate": "2021-03-07T03:57:19+00:00",
+   "LastUpdateDate": "2026-04-02T12:45:52.613+00:00",
+   "LastUpdateLogin": "-1",
+   "LastUpdatedBy": "SEED_DATA_FROM_APPLICATION",
+   "@context": {
+    "key": "DOO_ADJUSTMENT_TYPE"
+   }
+  },
+  {
+   "LookupType": "DOO_LINE_CATEGORY",
+   "ModuleId": "61ECAF4AAB00E990E040449821C61C97",
+   "Meaning": "Line Category",
+   "Description": "Mechanism to group similar sales order lines together.",
+   "CustomizationLevel": "S",
+   "RestAccessSecured": "AUTH",
+   "CreatedBy": "SEED_DATA_FROM_APPLICATION",
+   "CreationDate": "2021-03-07T03:57:19.048+00:00",
+   "LastUpdateDate": "2026-04-02T12:45:52.613+00:00",
+   "LastUpdateLogin": "-1",
+   "LastUpdatedBy": "SEED_DATA_FROM_APPLICATION",
+   "@context": {
+    "key": "DOO_LINE_CATEGORY"
+   }
+  },
+  {
+   "LookupType": "DOO_SOURCE_ORDER_STATUS",
+   "ModuleId": "61ECAF4AAB00E990E040449821C61C97",
+   "Meaning": "Source Order Status",
+   "Description": "Codes that indicate the status of a source order.",
+   "CustomizationLevel": "S",
+   "RestAccessSecured": "SECURE",
+   "CreatedBy": "SEED_DATA_FROM_APPLICATION",
+   "CreationDate": "2021-03-07T03:57:19.076+00:00",
+   "LastUpdateDate": "2026-04-02T12:45:52.613+00:00",
+   "LastUpdateLogin": "-1",
+   "LastUpdatedBy": "SEED_DATA_FROM_APPLICATION",
+   "@context": {
+    "key": "DOO_SOURCE_ORDER_STATUS"
+   }
+  },
+  {
+   "LookupType": "FSCRT_CARRIER_SERVICE_TIER_F01",
+   "ModuleId": "61ECAF4AAB00E990E040449821C61C97",
+   "Meaning": "FSCRT_Carrier service tier F01",
+   "Description": "Shipping service levels offered to dealers",
+   "CustomizationLevel": "U",
+   "RestAccessSecured": "AUTH",
+   "CreatedBy": "Configuration.TEST",
+   "CreationDate": "2026-11-02T19:53:38+00:00",
+   "LastUpdateDate": "2026-11-02T19:53:38.188+00:00",
+   "LastUpdateLogin": "5F4DC615B8ADA793E0631C65310A696A",
+   "LastUpdatedBy": "Configuration.TEST",
+   "@context": {
+    "key": "FSCRT_CARRIER_SERVICE_TIER_F01"
+   }
+  },
+  {
+   "LookupType": "FSCRT_OUTDOOR_ACTIVITY_F01",
+   "ModuleId": "61ECAF4AAB00E990E040449821C61C97",
+   "Meaning": "FSCRT_Outdoor activity F01",
+   "Description": "Activities a product is sold for",
+   "CustomizationLevel": "U",
+   "RestAccessSecured": "SECURE",
+   "CreatedBy": "Configuration.TEST",
+   "CreationDate": "2026-11-02T19:53:36+00:00",
+   "LastUpdateDate": "2026-11-02T19:53:36.268+00:00",
+   "LastUpdateLogin": "5F4DD5A7CB610AE7E0631C65310A4BA1",
+   "LastUpdatedBy": "Configuration.TEST",
+   "@context": {
+    "key": "FSCRT_OUTDOOR_ACTIVITY_F01"
+   }
+  },
+  {
+   "LookupType": "ORA_DOO_CONFIG_EFFEC_DATE",
+   "ModuleId": "61ECAF4AAB00E990E040449821C61C97",
+   "Meaning": "Configuration Effective Date",
+   "Description": "Date used to filter effective components in the model BOM.",
+   "CustomizationLevel": "S",
+   "RestAccessSecured": "SECURE",
+   "CreatedBy": "SEED_DATA_FROM_APPLICATION",
+   "CreationDate": "2021-03-07T03:57:19.120+00:00",
+   "LastUpdateDate": "2026-04-02T12:45:52.613+00:00",
+   "LastUpdateLogin": "-1",
+   "LastUpdatedBy": "SEED_DATA_FROM_APPLICATION",
+   "@context": {
+    "key": "ORA_DOO_CONFIG_EFFEC_DATE"
+   }
+  },
+  {
+   "LookupType": "ORA_DOO_CUST_REL_TYPE",
+   "ModuleId": "61ECAF4AAB00E990E040449821C61C97",
+   "Meaning": "Customer Relationship Type",
+   "Description": "Indicates whether the customer is a single customer or has multiple related customers.",
+   "CustomizationLevel": "S",
+   "RestAccessSecured": "SECURE",
+   "CreatedBy": "SEED_DATA_FROM_APPLICATION",
+   "CreationDate": "2021-03-07T03:57:19.158+00:00",
+   "LastUpdateDate": "2026-04-02T12:45:52.613+00:00",
+   "LastUpdateLogin": "-1",
+   "LastUpdatedBy": "SEED_DATA_FROM_APPLICATION",
+   "@context": {
+    "key": "ORA_DOO_CUST_REL_TYPE"
+   }
+  },
+  {
+   "LookupType": "ORA_DOO_INTERFACE_STATUS",
+   "ModuleId": "61ECAF4AAB00E990E040449821C61C97",
+   "Meaning": "Interface Import Status",
+   "Description": "Codes that indicate the processing status of an order that was imported from a channel and uploaded to the interface tables.",
+   "CustomizationLevel": "S",
+   "RestAccessSecured": "SECURE",
+   "CreatedBy": "SEED_DATA_FROM_APPLICATION",
+   "CreationDate": "2021-03-07T03:57:19.186+00:00",
+   "LastUpdateDate": "2026-04-02T12:45:52.613+00:00",
+   "LastUpdateLogin": "-1",
+   "LastUpdatedBy": "SEED_DATA_FROM_APPLICATION",
+   "@context": {
+    "key": "ORA_DOO_INTERFACE_STATUS"
+   }
+  },
+  {
+   "LookupType": "ORA_DOO_LINE_TYPES",
+   "ModuleId": "61ECAF4AAB00E990E040449821C61C97",
+   "Meaning": "Fulfillment Line Type",
+   "Description": "Codes that identify types of fulfillment lines.",
+   "CustomizationLevel": "E",
+   "RestAccessSecured": "AUTH",
+   "CreatedBy": "SEED_DATA_FROM_APPLICATION",
+   "CreationDate": "2021-03-07T03:57:19.276+00:00",
+   "LastUpdateDate": "2026-04-02T12:45:52.613+00:00",
+   "LastUpdateLogin": "-1",
+   "LastUpdatedBy": "SEED_DATA_FROM_APPLICATION",
+   "@context": {
+    "key": "ORA_DOO_LINE_TYPES"
+   }
+  },
+  {
+   "LookupType": "ORA_DOO_ORDER_HDR_STATUS",
+   "ModuleId": "61ECAF4AAB00E990E040449821C61C97",
+   "Meaning": "Order Header Status",
+   "Description": "Name of a parameter for a scheduled process.",
+   "CustomizationLevel": "S",
+   "RestAccessSecured": "SECURE",
+   "CreatedBy": "SEED_DATA_FROM_APPLICATION",
+   "CreationDate": "2024-10-02T12:07:07.659+00:00",
+   "LastUpdateDate": "2026-04-02T12:45:52.613+00:00",
+   "LastUpdateLogin": "-1",
+   "LastUpdatedBy": "SEED_DATA_FROM_APPLICATION",
+   "@context": {
+    "key": "ORA_DOO_ORDER_HDR_STATUS"
+   }
+  },
+  {
+   "LookupType": "ORA_DOO_ORDER_TYPES",
+   "ModuleId": "61ECAF4AAB00E990E040449821C61C97",
+   "Meaning": "Type of Sales Order",
+   "Description": "Abbreviated text that identifies the type of sales order.",
+   "CustomizationLevel": "U",
+   "RestAccessSecured": "AUTH",
+   "CreatedBy": "SEED_DATA_FROM_APPLICATION",
+   "CreationDate": "2021-03-07T03:57:19.297+00:00",
+   "LastUpdateDate": "2026-04-02T12:45:52.613+00:00",
+   "LastUpdateLogin": "-1",
+   "LastUpdatedBy": "SEED_DATA_FROM_APPLICATION",
+   "@context": {
+    "key": "ORA_DOO_ORDER_TYPES"
+   }
+  },
+  {
+   "LookupType": "ORA_DOO_REL_TYPE_SHIP_TO",
+   "ModuleId": "61ECAF4AAB00E990E040449821C61C97",
+   "Meaning": "Relationship for Ship-To Customer",
+   "Description": "Specify whether the relationship for the ship-to customer comes from the party or the account.",
+   "CustomizationLevel": "S",
+   "RestAccessSecured": "SECURE",
+   "CreatedBy": "SEED_DATA_FROM_APPLICATION",
+   "CreationDate": "2024-07-03T07:51:04.311+00:00",
+   "LastUpdateDate": "2026-04-02T12:45:52.613+00:00",
+   "LastUpdateLogin": "-1",
+   "LastUpdatedBy": "SEED_DATA_FROM_APPLICATION",
+   "@context": {
+    "key": "ORA_DOO_REL_TYPE_SHIP_TO"
+   }
+  },
+  {
+   "LookupType": "ORA_DOO_RETURN_LINE_TYPES",
+   "ModuleId": "61ECAF4AAB00E990E040449821C61C97",
+   "Meaning": "Return Order Line Types",
+   "Description": "Codes that identify types of return order lines.",
+   "CustomizationLevel": "E",
+   "RestAccessSecured": "AUTH",
+   "CreatedBy": "SEED_DATA_FROM_APPLICATION",
+   "CreationDate": "2021-03-07T03:57:19.309+00:00",
+   "LastUpdateDate": "2026-04-02T12:45:52.613+00:00",
+   "LastUpdateLogin": "-1",
+   "LastUpdatedBy": "SEED_DATA_FROM_APPLICATION",
+   "@context": {
+    "key": "ORA_DOO_RETURN_LINE_TYPES"
+   }
+  },
+  {
+   "LookupType": "TEST LINE TYPES",
+   "ModuleId": "61ECAF4AAB00E990E040449821C61C97",
+   "Meaning": "TEST LINE TYPES",
+   "Description": "TEST LINE TYPES",
+   "CustomizationLevel": "U",
+   "RestAccessSecured": "AUTH",
+   "CreatedBy": "Configuration",
+   "CreationDate": "2025-03-13T01:05:26+00:00",
+   "LastUpdateDate": "2025-03-13T01:06:19.271+00:00",
+   "LastUpdateLogin": "302C7DAB3170A45CE0631B65310A9DD5",
+   "LastUpdatedBy": "Configuration",
+   "@context": {
+    "key": "TEST%20LINE%20TYPES"
+   }
+  },
+  {
+   "LookupType": "TEST LINE TYPES 1",
+   "ModuleId": "61ECAF4AAB00E990E040449821C61C97",
+   "Meaning": "TEST LINE TYPES 1",
+   "Description": "TEST LINE TYPES 1",
+   "CustomizationLevel": "U",
+   "RestAccessSecured": "AUTH",
+   "CreatedBy": "Configuration",
+   "CreationDate": "2025-03-13T01:12:37+00:00",
+   "LastUpdateDate": "2025-03-13T01:12:37.123+00:00",
+   "LastUpdateLogin": "302BB219C3D1775FE0631B65310A0F40",
+   "LastUpdatedBy": "Configuration",
+   "@context": {
+    "key": "TEST%20LINE%20TYPES%201"
+   }
+  }
+ ],
+ "count": 15,
+ "pages": 1
+}

@@ -1,0 +1,161 @@
+{
+  "schema_version": "1.0",
+  "tasks": [
+    {
+      "sequence": 1,
+      "task_name": "Activate Audit Policies",
+      "offering": "Risk and Security",
+      "functional_area": "Activate Algorithms",
+      "task_code": "ORA_GTG_ACTIVATE_AUDIT_POLICIES",
+      "skill_path": "pillars/erp/risk-and-security/activate-algorithms/activate-audit-policies/SKILL.md",
+      "skill_selection": {
+        "status": "selected",
+        "selected_by": "EXACT_TASK_CODE_AND_NAME",
+        "candidates": [
+          "pillars/erp/risk-and-security/activate-algorithms/activate-audit-policies/SKILL.md"
+        ],
+        "context_relation": "same-context",
+        "project_context": {
+          "offering": "Risk and Security",
+          "functional_area": "Activate Algorithms"
+        },
+        "skill_context": {
+          "offering": "Risk and Security",
+          "functional_area": "Activate Algorithms"
+        }
+      },
+      "match_status": "matched",
+      "business_objects": []
+    },
+    {
+      "sequence": 2,
+      "task_name": "Add EPM Data Sources",
+      "offering": "Risk and Security",
+      "functional_area": "Add Other Data Sources",
+      "task_code": "ORA_GTG_ADD_EPM_DATA_SOURCES",
+      "skill_path": "pillars/erp/risk-and-security/add-other-data-sources/add-epm-data-sources/SKILL.md",
+      "skill_selection": {
+        "status": "selected",
+        "selected_by": "EXACT_TASK_CODE_AND_NAME",
+        "candidates": [
+          "pillars/erp/risk-and-security/add-other-data-sources/add-epm-data-sources/SKILL.md"
+        ],
+        "context_relation": "same-context",
+        "project_context": {
+          "offering": "Risk and Security",
+          "functional_area": "Add Other Data Sources"
+        },
+        "skill_context": {
+          "offering": "Risk and Security",
+          "functional_area": "Add Other Data Sources"
+        }
+      },
+      "match_status": "matched",
+      "business_objects": []
+    },
+    {
+      "sequence": 3,
+      "task_name": "Assign Default Process Owners",
+      "offering": "Risk and Security",
+      "functional_area": "Assign Initial Users",
+      "task_code": "ORA_GTG_ASSIGN_DEFAULT_PROCESS_OWNERS",
+      "skill_path": "pillars/erp/risk-and-security/assign-initial-users/assign-default-process-owners/SKILL.md",
+      "skill_selection": {
+        "status": "selected",
+        "selected_by": "EXACT_TASK_CODE_AND_NAME",
+        "candidates": [
+          "pillars/erp/risk-and-security/assign-initial-users/assign-default-process-owners/SKILL.md"
+        ],
+        "context_relation": "same-context",
+        "project_context": {
+          "offering": "Risk and Security",
+          "functional_area": "Assign Initial Users"
+        },
+        "skill_context": {
+          "offering": "Risk and Security",
+          "functional_area": "Assign Initial Users"
+        }
+      },
+      "match_status": "matched",
+      "business_objects": []
+    },
+    {
+      "sequence": 4,
+      "task_name": "Activate Algorithms",
+      "offering": "Risk and Security",
+      "functional_area": "Activate Algorithms",
+      "task_code": "ORA_GTG_ACTIVATE_ALGORITHMS",
+      "skill_path": "pillars/erp/risk-and-security/activate-algorithms/activate-algorithms/SKILL.md",
+      "skill_selection": {
+        "status": "selected",
+        "selected_by": "EXACT_TASK_CODE_AND_NAME",
+        "candidates": [
+          "pillars/erp/risk-and-security/activate-algorithms/activate-algorithms/SKILL.md"
+        ],
+        "context_relation": "same-context",
+        "project_context": {
+          "offering": "Risk and Security",
+          "functional_area": "Activate Algorithms"
+        },
+        "skill_context": {
+          "offering": "Risk and Security",
+          "functional_area": "Activate Algorithms"
+        }
+      },
+      "match_status": "matched",
+      "business_objects": []
+    },
+    {
+      "sequence": 5,
+      "task_name": "Add Other Data Sources",
+      "offering": "Risk and Security",
+      "functional_area": "Add Other Data Sources",
+      "task_code": "ORA_GTG_ADD_OTHER_DATA_SOURCES",
+      "skill_path": "pillars/erp/risk-and-security/add-other-data-sources/add-other-data-sources/SKILL.md",
+      "skill_selection": {
+        "status": "selected",
+        "selected_by": "EXACT_TASK_CODE_AND_NAME",
+        "candidates": [
+          "pillars/erp/risk-and-security/add-other-data-sources/add-other-data-sources/SKILL.md"
+        ],
+        "context_relation": "same-context",
+        "project_context": {
+          "offering": "Risk and Security",
+          "functional_area": "Add Other Data Sources"
+        },
+        "skill_context": {
+          "offering": "Risk and Security",
+          "functional_area": "Add Other Data Sources"
+        }
+      },
+      "match_status": "matched",
+      "business_objects": []
+    },
+    {
+      "sequence": 6,
+      "task_name": "Assign Risk Power User Role",
+      "offering": "Risk and Security",
+      "functional_area": "Assign Initial Users",
+      "task_code": "ORA_GTG_ASSIGN_RISK_POWER_USER_ROLE",
+      "skill_path": "pillars/erp/risk-and-security/assign-initial-users/assign-risk-power-user-role/SKILL.md",
+      "skill_selection": {
+        "status": "selected",
+        "selected_by": "EXACT_TASK_CODE_AND_NAME",
+        "candidates": [
+          "pillars/erp/risk-and-security/assign-initial-users/assign-risk-power-user-role/SKILL.md"
+        ],
+        "context_relation": "same-context",
+        "project_context": {
+          "offering": "Risk and Security",
+          "functional_area": "Assign Initial Users"
+        },
+        "skill_context": {
+          "offering": "Risk and Security",
+          "functional_area": "Assign Initial Users"
+        }
+      },
+      "match_status": "matched",
+      "business_objects": []
+    }
+  ]
+}

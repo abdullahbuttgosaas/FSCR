@@ -1,0 +1,10 @@
+FREEZE RECORD – FSCR Run 15 (Part 2 planning)
+Frozen at: 2026-11-05 19:56:37 Pakistan Standard Time (UTC+0500)
+Rule: outputs below are not edited after this time. Comparison with the manual baseline starts after this record.
+
+3e1f1e36b5cfa5928ffe946ad8e7683d      12204 bytes  01_OFFERING_TASK_MAP.md
+aeeaae6447eecf81abe67ccfd4b83e2e     292017 bytes  01_OFFERING_TASK_MAP_tasks.csv
+07ff52c10758c3f0ca55d37aa3e35b87     703492 bytes  01_identified-task-mapping.json
+e281323fb4ffb3c30df312186598308d      21727 bytes  02_WAVE_PLAN.xlsx
+7e3c3714cf23cb806ae3650eeaaac0ca      11839 bytes  03_TASK_DEPENDENCIES.md
+c981c87e1662222a46b5667f498d5cae      11499 bytes  04_READINESS_CHECKLIST.md

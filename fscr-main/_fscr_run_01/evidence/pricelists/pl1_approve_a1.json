@@ -1,0 +1,67 @@
+{
+  "PriceListName" : "FSCRT_Quillon Ridge Wholesale Tents USD F01",
+  "PriceListId" : "300000394622041",
+  "PriceListDescription" : "Wholesale tent and shelter prices for retail dealers",
+  "PriceListType" : "Segment price list",
+  "PriceListTypeCode" : "SEGMENT",
+  "BusinessUnit" : "FSCRT_Quillon Ridge Outfitters West F01",
+  "BusinessUnitId" : "300000394664006",
+  "Currency" : "US Dollar",
+  "CurrencyCode" : "USD",
+  "Status" : "Approved",
+  "StatusCode" : "APPROVED",
+  "StartDate" : "2026-11-03T00:00:00+00:00",
+  "EndDate" : null,
+  "EntityApprovalStatus" : null,
+  "EntityApprovalStatusCode" : null,
+  "PricingChargeDefinition" : "Sale Price",
+  "PricingChargeDefinitionCode" : "QP_SALE_PRICE",
+  "PricingChargeDefinitionId" : "300000000325736",
+  "LineType" : "Buy",
+  "LineTypeCode" : "ORA_BUY",
+  "CalculationMethod" : "Price",
+  "CalculationMethodCode" : "PRICE",
+  "CreationDate" : "2026-11-03T01:43:04.001+00:00",
+  "CreatedBy" : "Configuration.TEST",
+  "LastUpdateDate" : "2026-11-03T01:59:11+00:00",
+  "LastUpdatedBy" : "Configuration.TEST",
+  "ChangeTypeCode" : null,
+  "ChangeType" : null,
+  "@context" : {
+    "key" : "300000394622041",
+    "headers" : {
+      "ETag" : "ACED0005737200136A6176612E7574696C2E41727261794C6973747881D21D99C7619D03000149000473697A65787000000001770400000001737200116A6176612E6C616E672E496E746567657212E2A0A4F781873802000149000576616C7565787200106A6176612E6C616E672E4E756D62657286AC951D0B94E08B02000078700000000278"
+    },
+    "links" : [ {
+      "rel" : "self",
+      "href" : "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/priceLists/300000394622041",
+      "name" : "priceLists",
+      "kind" : "item"
+    }, {
+      "rel" : "canonical",
+      "href" : "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/priceLists/300000394622041",
+      "name" : "priceLists",
+      "kind" : "item"
+    }, {
+      "rel" : "child",
+      "href" : "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/priceLists/300000394622041/child/accessSets",
+      "name" : "accessSets",
+      "kind" : "collection"
+    }, {
+      "rel" : "child",
+      "href" : "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/priceLists/300000394622041/child/headerDFF",
+      "name" : "headerDFF",
+      "kind" : "collection"
+    }, {
+      "rel" : "child",
+      "href" : "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/priceLists/300000394622041/child/items",
+      "name" : "items",
+      "kind" : "collection"
+    }, {
+      "rel" : "child",
+      "href" : "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/priceLists/300000394622041/child/referencedEntities",
+      "name" : "referencedEntities",
+      "kind" : "collection"
+    } ]
+  }
+}

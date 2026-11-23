@@ -1,0 +1,23 @@
+{
+  "TaskCode" : "ORA_POQ_MANAGE_SUPPLIER_QUALIFICATION_AREAS",
+  "ImportSupportedFlag" : true,
+  "@context" : {
+    "key" : "ORA_POQ_MANAGE_SUPPLIER_QUALIFICATION_AREAS",
+    "links" : [ {
+      "rel" : "self",
+      "href" : "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/setupTaskCSVImports/ORA_POQ_MANAGE_SUPPLIER_QUALIFICATION_AREAS",
+      "name" : "setupTaskCSVImports",
+      "kind" : "item"
+    }, {
+      "rel" : "canonical",
+      "href" : "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/setupTaskCSVImports/ORA_POQ_MANAGE_SUPPLIER_QUALIFICATION_AREAS",
+      "name" : "setupTaskCSVImports",
+      "kind" : "item"
+    }, {
+      "rel" : "child",
+      "href" : "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/setupTaskCSVImports/ORA_POQ_MANAGE_SUPPLIER_QUALIFICATION_AREAS/child/SetupTaskCSVImportProcess",
+      "name" : "SetupTaskCSVImportProcess",
+      "kind" : "collection"
+    } ]
+  }
+}

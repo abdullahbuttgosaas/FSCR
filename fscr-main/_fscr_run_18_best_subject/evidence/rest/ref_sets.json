@@ -1,0 +1,318 @@
+{
+ "items": [
+  {
+   "SetCode": "001 CUSTOMER SITE",
+   "SetName": "001 Customer Site",
+   "Description": null,
+   "@context": {
+    "key": "001%20CUSTOMER%20SITE"
+   }
+  },
+  {
+   "SetCode": "28REFDATA",
+   "SetName": "28REFDATA",
+   "Description": "28REFDATA for Payment Terms",
+   "@context": {
+    "key": "28REFDATA"
+   }
+  },
+  {
+   "SetCode": "A1_DATA_SET",
+   "SetName": "A1 Data Set",
+   "Description": "A1 Data Set",
+   "@context": {
+    "key": "A1_DATA_SET"
+   }
+  },
+  {
+   "SetCode": "AHSAN RDS",
+   "SetName": "AHSAN RDS NAME",
+   "Description": null,
+   "@context": {
+    "key": "AHSAN%20RDS"
+   }
+  },
+  {
+   "SetCode": "AKREFDATA",
+   "SetName": "AK Referance Data Set",
+   "Description": "AK Referance Data Set",
+   "@context": {
+    "key": "AKREFDATA"
+   }
+  },
+  {
+   "SetCode": "ASCEND_001",
+   "SetName": "ASCEND",
+   "Description": "ASCEND MONEY",
+   "@context": {
+    "key": "ASCEND_001"
+   }
+  },
+  {
+   "SetCode": "ASAD123",
+   "SetName": "Asad123",
+   "Description": "Default Set for Asad BU",
+   "@context": {
+    "key": "ASAD123"
+   }
+  },
+  {
+   "SetCode": "25010114",
+   "SetName": "Ash",
+   "Description": null,
+   "@context": {
+    "key": "25010114"
+   }
+  },
+  {
+   "SetCode": "ASH-25010114",
+   "SetName": "Ash BU Reference Data Set",
+   "Description": "Ash BU Reference Data Set",
+   "@context": {
+    "key": "ASH-25010114"
+   }
+  },
+  {
+   "SetCode": "ORA25010114",
+   "SetName": "Ash Bash",
+   "Description": null,
+   "@context": {
+    "key": "ORA25010114"
+   }
+  },
+  {
+   "SetCode": "CUSTOMER_RDS",
+   "SetName": "CUSTOMER_RDS",
+   "Description": "CUSTOMER_RDS",
+   "@context": {
+    "key": "CUSTOMER_RDS"
+   }
+  },
+  {
+   "SetCode": "COMMON",
+   "SetName": "Common Set",
+   "Description": null,
+   "@context": {
+    "key": "COMMON"
+   }
+  },
+  {
+   "SetCode": "DSSREFDATA",
+   "SetName": "DSSREFDATA",
+   "Description": "DSSREFDATA for Payment Terms",
+   "@context": {
+    "key": "DSSREFDATA"
+   }
+  },
+  {
+   "SetCode": "221",
+   "SetName": "Duck set",
+   "Description": "dnjs",
+   "@context": {
+    "key": "221"
+   }
+  },
+  {
+   "SetCode": "ENTERPRISE",
+   "SetName": "Enterprise Set",
+   "Description": null,
+   "@context": {
+    "key": "ENTERPRISE"
+   }
+  },
+  {
+   "SetCode": "SET0001",
+   "SetName": "GoSaaS Labs Data Set",
+   "Description": null,
+   "@context": {
+    "key": "SET0001"
+   }
+  },
+  {
+   "SetCode": "HAHAREFDATA",
+   "SetName": "HAHAREFDATA",
+   "Description": "HAHAREFDATA for payment terms ",
+   "@context": {
+    "key": "HAHAREFDATA"
+   }
+  },
+  {
+   "SetCode": "ITBU",
+   "SetName": "ITBY",
+   "Description": "ITBu",
+   "@context": {
+    "key": "ITBU"
+   }
+  },
+  {
+   "SetCode": "KR_DIST_SET",
+   "SetName": "KR Distribution Set",
+   "Description": null,
+   "@context": {
+    "key": "KR_DIST_SET"
+   }
+  },
+  {
+   "SetCode": "KR_LOG_SET",
+   "SetName": "KR Logistics Set",
+   "Description": null,
+   "@context": {
+    "key": "KR_LOG_SET"
+   }
+  },
+  {
+   "SetCode": "1111",
+   "SetName": "Ln106",
+   "Description": "Iphone",
+   "@context": {
+    "key": "1111"
+   }
+  },
+  {
+   "SetCode": "MA_CUST_SET",
+   "SetName": "MA_CUST_SET",
+   "Description": null,
+   "@context": {
+    "key": "MA_CUST_SET"
+   }
+  },
+  {
+   "SetCode": "MGREFST ",
+   "SetName": "MG US1 Business Unit ",
+   "Description": "MG US1 Business Unit ",
+   "@context": {
+    "key": "MGREFST%20"
+   }
+  },
+  {
+   "SetCode": "MGREF-AP",
+   "SetName": "MGREF-AP",
+   "Description": "Momina reference data set for AP",
+   "@context": {
+    "key": "MGREF-AP"
+   }
+  },
+  {
+   "SetCode": "MNC_CUST_OM_RDS",
+   "SetName": "MNC_CUST_OM_RDS",
+   "Description": "MNC_CUST_OM_RDS",
+   "@context": {
+    "key": "MNC_CUST_OM_RDS"
+   }
+  },
+  {
+   "SetCode": "MWBKBU1",
+   "SetName": "MWBK BU 1",
+   "Description": null,
+   "@context": {
+    "key": "MWBKBU1"
+   }
+  },
+  {
+   "SetCode": "MWBKBU2",
+   "SetName": "MWBK BU 2",
+   "Description": null,
+   "@context": {
+    "key": "MWBKBU2"
+   }
+  },
+  {
+   "SetCode": "23",
+   "SetName": "Mannan's Set",
+   "Description": "For youngsters",
+   "@context": {
+    "key": "23"
+   }
+  },
+  {
+   "SetCode": "MOMINA12",
+   "SetName": "Mominaset",
+   "Description": "Reference data set ",
+   "@context": {
+    "key": "MOMINA12"
+   }
+  },
+  {
+   "SetCode": "N24REFDATA",
+   "SetName": "N24REFDATA",
+   "Description": "N24REFDATA for Payment Terms",
+   "@context": {
+    "key": "N24REFDATA"
+   }
+  },
+  {
+   "SetCode": "NMT",
+   "SetName": "Northwind",
+   "Description": null,
+   "@context": {
+    "key": "NMT"
+   }
+  },
+  {
+   "SetCode": "PPREFDATA",
+   "SetName": "PPREFDATA",
+   "Description": "PPREFDATA for Payment Terms",
+   "@context": {
+    "key": "PPREFDATA"
+   }
+  },
+  {
+   "SetCode": "PRC100R",
+   "SetName": "PRC100 Reference Data Set",
+   "Description": null,
+   "@context": {
+    "key": "PRC100R"
+   }
+  },
+  {
+   "SetCode": "S-31",
+   "SetName": "Project Set",
+   "Description": null,
+   "@context": {
+    "key": "S-31"
+   }
+  },
+  {
+   "SetCode": "S_DATA_SET",
+   "SetName": "S Data Set",
+   "Description": null,
+   "@context": {
+    "key": "S_DATA_SET"
+   }
+  },
+  {
+   "SetCode": "21",
+   "SetName": "T2 set",
+   "Description": null,
+   "@context": {
+    "key": "21"
+   }
+  },
+  {
+   "SetCode": "7382",
+   "SetName": "T22 set",
+   "Description": null,
+   "@context": {
+    "key": "7382"
+   }
+  },
+  {
+   "SetCode": "TEST",
+   "SetName": "TEST",
+   "Description": "TEST",
+   "@context": {
+    "key": "TEST"
+   }
+  },
+  {
+   "SetCode": "25010094",
+   "SetName": "USAMA SET",
+   "Description": null,
+   "@context": {
+    "key": "25010094"
+   }
+  }
+ ],
+ "count": 39,
+ "pages": 1
+}

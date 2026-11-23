@@ -1,0 +1,17 @@
+The data-load file was validated successfully. Nothing was uploaded.
+
+| Check | Result |
+|---|---|
+| Source file | JobFamily.dat |
+| Business object | Job Family |
+| Workbook structure | Valid |
+| Live schema validation | Valid |
+| Prepared archive | JobFamily-FSCRT_R30_JF.zip |
+
+| File | Link |
+|---|---|
+| Validated ZIP | [JobFamily-FSCRT_R30_JF.zip](<E:\GoSaaS\Configuration Automation v2.1\fscr-main\_fscr_run_30_common_features_test\payload\PER_MANAGE_JOB_FAMILY\JobFamily-FSCRT_R30_JF.zip>) |
+
+| Next action | Details |
+|---|---|
+| When ready | Submit a data-load request to upload and initiate this file. |

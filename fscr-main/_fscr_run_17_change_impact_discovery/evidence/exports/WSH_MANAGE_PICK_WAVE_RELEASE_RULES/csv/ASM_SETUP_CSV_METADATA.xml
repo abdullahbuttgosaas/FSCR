@@ -1,0 +1,43 @@
+<MigrationProcessCSVMetadataVO>
+   <MigrationProcessCSVMetadataVORow>
+      <ProcessId>-999</ProcessId>
+      <ProcessName>Manage Pick Wave Release Rules_20261109_123647_097</ProcessName>
+      <ProcessDescription>Manage Pick Wave Release Rules_20261109_123647_097</ProcessDescription>
+      <ProcessDate>2026-11-09 12:37:16.145</ProcessDate>
+      <ObjectShortName>WSH_MANAGE_PICK_WAVE_RELEASE_RULES</ObjectShortName>
+      <ObjectType>TASK</ObjectType>
+      <CreatedByFlow>TASK_CSV_SERVICE</CreatedByFlow>
+      <ProcessType>EXPORT</ProcessType>
+      <ProcessStatus>COMPLETED</ProcessStatus>
+      <ProcessEnv>etia-test</ProcessEnv>
+      <ProcessStartDate>2026-11-09 12:36:47.139</ProcessStartDate>
+      <ProcessEndDate>2026-11-09 12:37:16.145</ProcessEndDate>
+      <ProcessRelease>11.13.26.10.0</ProcessRelease>
+      <SubmittedBy>Configuration.TEST</SubmittedBy>
+      <ESSRequestId>4447516</ESSRequestId>
+      <MigrationProcessBusinessObjectCSVMetadata1>
+         <MigrationProcessBusinessObjectCSVMetadataVORow>
+            <ProcessId>-999</ProcessId>
+            <BusinessObjectShortName>WSH_PICKING_RULE</BusinessObjectShortName>
+            <BatchName null="true"/>
+            <XmlAttributeList>BackordersOnlyFlag,ShipmentPriorityCode,DefaultStageSubinventory,PickFromSubinventory,AutodetailPrFlag,AutoPickConfirmFlag,ShipSetNumber,FromRequestedDate,ToRequestedDate,FromScheduledShipDate,ToScheduledShipDate,StartDateActive,EndDateActive,ExistingRsvsOnlyFlag,IncludePlannedLines,AutocreateDeliveryFlag,AttributeCategory,Attribute1,Attribute2,Attribute3,Attribute4,Attribute5,Attribute6,Attribute7,Attribute8,Attribute9,Attribute10,Attribute11,Attribute12,Attribute13,Attribute14,Attribute15,RequestId,AutopackFlag,AutopackLevel,AppendFlag,SchStartDays,SchStartHours,SchEndDays,SchEndHours,ReqStartDays,ReqStartHours,ReqEndDays,ReqEndHours,RegionId,ZoneId,AcDeliveryCriteria,RelSubinventory,PickingRuleName,DestinationTypeCode,ScheduleDateFromQualifier,ScheduleDateToQualifier,RequestedDateFromQualifier,RequestedDateToQualifier,ShipSetName,JobDefinitionName,JobDefinitionPackage,OrganizationCode,PartySiteNumber,ItemNumber,ItemOrganizationCode,PickSequenceRuleName,ShipConfirmRuleName,OrganizationCode1,PartySiteNumber1,CatalogCode,PickGroupingRuleName,PickFromLocatorConcatenated,DefaultStageLocatorConcatenated,AttributeDate1,AttributeDate2,AttributeDate3,AttributeDate4,AttributeDate5,AttributeNumber1,AttributeNumber10,AttributeNumber2,AttributeNumber3,AttributeNumber4,AttributeNumber5,AttributeNumber6,AttributeNumber7,AttributeNumber8,AttributeNumber9,AttributeTimestamp1,AttributeTimestamp2,AttributeTimestamp3,AttributeTimestamp4,AttributeTimestamp5,GeographyCode,GeographyName,GeographyId,GeographyDescription,GeographyCode1,GeographyName1,GeographyId1,SalesOrderNumber,CarrierName,ModeOfTransport,ServiceLevel,CategoryName,PartyNumber,FormattedAddress,PickFromStructureInstanceCode,DefStageKFFStructureInstanceCode,SourceLineType,TransportationShipmentNumber,TradeComplianceScreeningMethod,InitialDestinationLocationId,JobSetName,JobSetPackageName,ProjectCostingProjectNumber,ProjectCostingProjectName,ProjectCostingTaskNumber,ProjectCostingTaskName,SourceOrderTypeCode</XmlAttributeList>
+            <XmlAttributeTypeList>string,string,string,string,string,string,long,dateTime,dateTime,dateTime,dateTime,dateTime,dateTime,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,long,string,long,string,long,long,long,long,long,long,long,long,long,long,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,date,date,date,date,date,decimal,decimal,decimal,decimal,decimal,decimal,decimal,decimal,decimal,decimal,dateTime,dateTime,dateTime,dateTime,dateTime,string,string,long,string,string,string,long,string,string,string,string,string,string,string,string,string,string,string,string,long,string,string,string,string,string,string,string</XmlAttributeTypeList>
+            <XmlNodePath>/PickWaveReleaseRuleVO/PickWaveReleaseRuleVORow</XmlNodePath>
+            <NodeSequence>1</NodeSequence>
+         </MigrationProcessBusinessObjectCSVMetadataVORow>
+      </MigrationProcessBusinessObjectCSVMetadata1>
+      <MigrationProcessBatchCSVMetadata null="true"/>
+      <MigrationProcessScopeValueCSVMetadata null="true"/>
+      <MigrationProcessMigrationObjectCSVMetadata>
+         <MigrationProcessMigrationObjectCSVMetadataVORow>
+            <ProcessId>-999</ProcessId>
+            <BusinessObjectShortName>WSH_PICKING_RULE</BusinessObjectShortName>
+            <MigrateFlag>Y</MigrateFlag>
+            <IncludeExternalDataFlag>Y</IncludeExternalDataFlag>
+            <ServiceType null="true"/>
+         </MigrationProcessMigrationObjectCSVMetadataVORow>
+      </MigrationProcessMigrationObjectCSVMetadata>
+      <MigrationProcessTaskCSVMetadata null="true"/>
+      <MigrationProcessServiceVersionCSVMetadata null="true"/>
+   </MigrationProcessCSVMetadataVORow>
+</MigrationProcessCSVMetadataVO>

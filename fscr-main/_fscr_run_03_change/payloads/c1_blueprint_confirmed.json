@@ -1,0 +1,28 @@
+{
+  "operations": [
+    {
+      "operation_id": "c1",
+      "action": "end-date",
+      "header": {
+        "Name": "FSCRT_D25B75AF1",
+        "SetCode": "ENTERPRISE",
+        "EndDateActive": "2028-12-31"
+      },
+      "lines": [],
+      "translations": [],
+      "discounts": []
+    }
+  ],
+  "evidence": {
+    "reference_data_sets": [
+      "ENTERPRISE"
+    ],
+    "languages": [
+      "US"
+    ]
+  },
+  "confirmation": {
+    "confirmed": true,
+    "design_sha256": "06089bee006bb428690759da474fb447178ff0915f402fad2ba6ec27abe4067f"
+  }
+}

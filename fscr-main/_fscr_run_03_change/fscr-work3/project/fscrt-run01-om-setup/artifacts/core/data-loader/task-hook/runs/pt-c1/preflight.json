@@ -1,0 +1,36 @@
+{
+  "schemaVersion": "1.0",
+  "preflight": {
+    "eligible": [
+      {
+        "sourceName": "fscrt-pt-c1-enddate-candidate.zip",
+        "businessObject": "FSM Setup"
+      }
+    ],
+    "sourcePaths": [
+      "E:\\GoSaaS\\Configuration Automation v2.1\\fscr-main\\_fscr_run_03_change\\fscr-work3\\project\\fscrt-run01-om-setup\\exports\\financials\\customer-billing\\manage-receivables-payment-terms\\fscrt-pt-c1-enddate-candidate.zip"
+    ],
+    "archiveName": "fscrt-pt-c1-enddate-candidate.zip",
+    "archiveSha256": "b2425e0196ea7e27e97e0173a77b319636a50592a28d99843563f723df189354",
+    "uploadFileName": "fscrt-pt-c1-enddate-candidate.zip",
+    "environment": "ETIA-TEST",
+    "host": "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com",
+    "runID": null,
+    "taskRouted": true,
+    "supportsRunBookTaskCode": false,
+    "columnMappings": [],
+    "mappingComplete": true,
+    "sourceType": "FSM",
+    "cxImportObjectCode": null,
+    "cxUcmAccount": null,
+    "cxImportHighVolumeLoad": false,
+    "fbdiBusinessObject": null,
+    "fbdiUcmAccount": null,
+    "fbdiFiles": [],
+    "fbdiLoadAdapterInterfaceId": null,
+    "cxFiles": [],
+    "archivePath": "E:\\GoSaaS\\Configuration Automation v2.1\\fscr-main\\_fscr_run_03_change\\fscr-work3\\project\\fscrt-run01-om-setup\\exports\\financials\\customer-billing\\manage-receivables-payment-terms\\fscrt-pt-c1-enddate-candidate.zip",
+    "approvedArtifactPath": "E:\\GoSaaS\\Configuration Automation v2.1\\fscr-main\\_fscr_run_03_change\\fscr-work3\\project\\fscrt-run01-om-setup\\exports\\financials\\customer-billing\\manage-receivables-payment-terms\\fscrt-pt-c1-enddate-candidate.zip"
+  },
+  "fingerprint": "6de9141655441bc15115ef31e950dcf4073fc0d3073462216c98834e099172c1"
+}

@@ -1,0 +1,205 @@
+{
+  "items" : [ {
+    "LookupType" : "CZ_DISP_COND_DISCRETE_OPERATOR",
+    "Meaning" : "Display Condition Discrete Value Operators",
+    "@context" : {
+      "key" : "CZ_DISP_COND_DISCRETE_OPERATOR"
+    }
+  }, {
+    "LookupType" : "ORA_ACO_DISCOUNT_BASIS",
+    "Meaning" : "Consumer Goods Discount Basis",
+    "@context" : {
+      "key" : "ORA_ACO_DISCOUNT_BASIS"
+    }
+  }, {
+    "LookupType" : "ORA_ACO_DISCOUNT_METHOD",
+    "Meaning" : "Consumer Goods Promotion Tactics Discount Method",
+    "@context" : {
+      "key" : "ORA_ACO_DISCOUNT_METHOD"
+    }
+  }, {
+    "LookupType" : "ORA_ACO_DISCOUNT_METHOD_2",
+    "Meaning" : "Consumer Goods Extended Promotion Discount Method",
+    "@context" : {
+      "key" : "ORA_ACO_DISCOUNT_METHOD_2"
+    }
+  }, {
+    "LookupType" : "ORA_ACO_VOLUME_DISCOUNT_TYPE",
+    "Meaning" : "Consumer Goods Volume Discount Type",
+    "@context" : {
+      "key" : "ORA_ACO_VOLUME_DISCOUNT_TYPE"
+    }
+  }, {
+    "LookupType" : "ORA_ATC_DISC_EXP_VARIABLES",
+    "Meaning" : "Discount Expression Characteristics",
+    "@context" : {
+      "key" : "ORA_ATC_DISC_EXP_VARIABLES"
+    }
+  }, {
+    "LookupType" : "ORA_ATC_DISC_TYPE",
+    "Meaning" : "Discount Type",
+    "@context" : {
+      "key" : "ORA_ATC_DISC_TYPE"
+    }
+  }, {
+    "LookupType" : "ORA_ATC_DYNAMIC_DISC_METHOD",
+    "Meaning" : "Dynamic Discount Method",
+    "@context" : {
+      "key" : "ORA_ATC_DYNAMIC_DISC_METHOD"
+    }
+  }, {
+    "LookupType" : "ORA_CJM_DISCOUNT_APPLIED_TO",
+    "Meaning" : "Discount Applied To",
+    "@context" : {
+      "key" : "ORA_CJM_DISCOUNT_APPLIED_TO"
+    }
+  }, {
+    "LookupType" : "ORA_CJM_LINE_DISCOUNT_TYPE",
+    "Meaning" : "Line Discount Type",
+    "@context" : {
+      "key" : "ORA_CJM_LINE_DISCOUNT_TYPE"
+    }
+  }, {
+    "LookupType" : "ORA_CJM_SUP_RBT_DISC_TYPE",
+    "Meaning" : "Discount Type for Supplier Rebates",
+    "@context" : {
+      "key" : "ORA_CJM_SUP_RBT_DISC_TYPE"
+    }
+  }, {
+    "LookupType" : "ORA_CMF_ET_MATCH_DISCREPANCY",
+    "Meaning" : "Matching Discrepancy Hold",
+    "@context" : {
+      "key" : "ORA_CMF_ET_MATCH_DISCREPANCY"
+    }
+  }, {
+    "LookupType" : "ORA_CMF_ET_POLICY_DISCREPANCY",
+    "Meaning" : "Policy Discrepancy Hold",
+    "@context" : {
+      "key" : "ORA_CMF_ET_POLICY_DISCREPANCY"
+    }
+  }, {
+    "LookupType" : "ORA_CMF_ET_QTTY_DISCREPANCY",
+    "Meaning" : "Quantity discrepancy",
+    "@context" : {
+      "key" : "ORA_CMF_ET_QTTY_DISCREPANCY"
+    }
+  }, {
+    "LookupType" : "ORA_CZ_UI_DISCND_SLCT_STAT_VAL",
+    "Meaning" : "Display Select State Condition Value",
+    "@context" : {
+      "key" : "ORA_CZ_UI_DISCND_SLCT_STAT_VAL"
+    }
+  }, {
+    "LookupType" : "ORA_CZ_UI_DISCND_STAT__VAL",
+    "Meaning" : "Display Condition State System Property Value",
+    "@context" : {
+      "key" : "ORA_CZ_UI_DISCND_STAT__VAL"
+    }
+  }, {
+    "LookupType" : "ORA_CZ_UI_DISCND_VALUE_OPERAT",
+    "Meaning" : "Display Condition Value Operator",
+    "@context" : {
+      "key" : "ORA_CZ_UI_DISCND_VALUE_OPERAT"
+    }
+  }, {
+    "LookupType" : "ORA_CZ_UI_DISPCOND_DISC_OPERAT",
+    "Meaning" : "Discrete Value Display Condition Operators",
+    "@context" : {
+      "key" : "ORA_CZ_UI_DISPCOND_DISC_OPERAT"
+    }
+  }, {
+    "LookupType" : "ORA_FV_DISC_LOST_REASON_CODE",
+    "Meaning" : "Discount Reason Code",
+    "@context" : {
+      "key" : "ORA_FV_DISC_LOST_REASON_CODE"
+    }
+  }, {
+    "LookupType" : "ORA_LOY_MEM_VOUC_DISCOUNT_TYPE",
+    "Meaning" : "Loyalty Voucher Discount Type",
+    "@context" : {
+      "key" : "ORA_LOY_MEM_VOUC_DISCOUNT_TYPE"
+    }
+  }, {
+    "LookupType" : "ORA_OSS_AGENT_DISCOUNT_ALERT",
+    "Meaning" : "Discount Alerts",
+    "@context" : {
+      "key" : "ORA_OSS_AGENT_DISCOUNT_ALERT"
+    }
+  }, {
+    "LookupType" : "ORA_QP_DISCOUNT_BENEFITS",
+    "Meaning" : "Discount Benefit Types",
+    "@context" : {
+      "key" : "ORA_QP_DISCOUNT_BENEFITS"
+    }
+  }, {
+    "LookupType" : "ORA_QP_DISC_RULE_DATE_FILTERS",
+    "Meaning" : "Discount Rule Date Filter",
+    "@context" : {
+      "key" : "ORA_QP_DISC_RULE_DATE_FILTERS"
+    }
+  }, {
+    "LookupType" : "ORA_QP_DUPLICATE_DISCOUNT_RULE",
+    "Meaning" : "Duplicate Discount Rule",
+    "@context" : {
+      "key" : "ORA_QP_DUPLICATE_DISCOUNT_RULE"
+    }
+  }, {
+    "LookupType" : "ORA_QP_DUP_DISC_RULE_DATES",
+    "Meaning" : "Duplicate Discount Rule Dates",
+    "@context" : {
+      "key" : "ORA_QP_DUP_DISC_RULE_DATES"
+    }
+  }, {
+    "LookupType" : "ORA_ZQP_DISC_STATUS",
+    "Meaning" : "Pharmaceutical Disclaimer Status",
+    "@context" : {
+      "key" : "ORA_ZQP_DISC_STATUS"
+    }
+  }, {
+    "LookupType" : "ORA_ZQP_DISC_TYPE",
+    "Meaning" : "Pharmaceutical Disclaimer Type",
+    "@context" : {
+      "key" : "ORA_ZQP_DISC_TYPE"
+    }
+  }, {
+    "LookupType" : "PJB_DISCOUNT_REASON",
+    "Meaning" : "Discount Reason",
+    "@context" : {
+      "key" : "PJB_DISCOUNT_REASON"
+    }
+  }, {
+    "LookupType" : "PJB_LABOR_DISCOUNT_REASON",
+    "Meaning" : "Labor Discount Reason",
+    "@context" : {
+      "key" : "PJB_LABOR_DISCOUNT_REASON"
+    }
+  }, {
+    "LookupType" : "PJB_NONLABOR_DISCOUNT_REASON",
+    "Meaning" : "Nonlabor Discount Reason",
+    "@context" : {
+      "key" : "PJB_NONLABOR_DISCOUNT_REASON"
+    }
+  }, {
+    "LookupType" : "PON_ONLINE_DISC_MSG_TYPE",
+    "Meaning" : "Online Message Type",
+    "@context" : {
+      "key" : "PON_ONLINE_DISC_MSG_TYPE"
+    }
+  }, {
+    "LookupType" : "PON_ONLINE_DISC_RECIPIENT",
+    "Meaning" : "Online Message Recipients",
+    "@context" : {
+      "key" : "PON_ONLINE_DISC_RECIPIENT"
+    }
+  } ],
+  "count" : 32,
+  "hasMore" : false,
+  "limit" : 60,
+  "offset" : 0,
+  "links" : [ {
+    "rel" : "self",
+    "href" : "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups",
+    "name" : "standardLookups",
+    "kind" : "collection"
+  } ]
+}

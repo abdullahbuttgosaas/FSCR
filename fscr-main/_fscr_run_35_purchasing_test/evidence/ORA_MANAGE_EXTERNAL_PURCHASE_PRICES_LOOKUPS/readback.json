@@ -1,0 +1,17 @@
+{
+ "lookupType": {
+  "LookupType": "FSCRT_R35_EPP_LKP",
+  "Meaning": "FSCRT_R35 EPP Lookup",
+  "Description": "FSCR Run 35 test lookup type",
+  "ModuleId": "B862754B98C2262DE0533380F50A6DA9",
+  "CustomizationLevel": "U"
+ },
+ "codes": [
+  {
+   "LookupCode": "FSCRT_A",
+   "Meaning": "FSCRT_R35 Value A",
+   "EnabledFlag": "Y",
+   "StartDateActive": "2026-01-01"
+  }
+ ]
+}

@@ -1,0 +1,128 @@
+{
+  "baselineSha256": "3ef1092d7e044806ae84511b816d3c43927d45f08cfa9e0bf278320658283f26",
+  "candidateSha256": "8df257c9bb374b738f1cec6a26890f0edb3f190e2976b8d16491dd38e72ab27d",
+  "exportSha256": "7b543b502d5dd8cec1560d142ccbdee7ab0a27854ad391b2a7a193ffa4b22046",
+  "mismatchCount": 0,
+  "requirementMatrix": [
+    {
+      "candidate": "present",
+      "detail": "Fresh export persists ORA_AR_TXN_BATCH_SOURCE create rows through AR_BATCH_SOURCE.",
+      "passed": true,
+      "persisted": "present",
+      "requested": "record present",
+      "requirement": "create exactly one ORA_AR_TXN_BATCH_SOURCE record identified by {\"Name\":\"FSCRT_TS1\",\"SetCode\":\"ENTERPRISE\"}",
+      "requirementId": "REQ-001"
+    },
+    {
+      "candidate": "Y",
+      "detail": "Fresh export persists ORA_AR_TXN_BATCH_SOURCE create rows through AR_BATCH_SOURCE.",
+      "passed": true,
+      "persisted": "Y",
+      "requested": "Y",
+      "requirement": "Persist ORA_AR_TXN_BATCH_SOURCE.AutoTrxNumberingFlag=Y",
+      "requirementId": "REQ-002"
+    },
+    {
+      "candidate": "INV",
+      "detail": "Fresh export persists ORA_AR_TXN_BATCH_SOURCE create rows through AR_BATCH_SOURCE.",
+      "passed": true,
+      "persisted": "INV",
+      "requested": "INV",
+      "requirement": "Persist ORA_AR_TXN_BATCH_SOURCE.BatchSourceType=INV",
+      "requirementId": "REQ-003"
+    },
+    {
+      "candidate": "FSCRT Run04 manual source",
+      "detail": "Fresh export persists ORA_AR_TXN_BATCH_SOURCE create rows through AR_BATCH_SOURCE.",
+      "passed": true,
+      "persisted": "FSCRT Run04 manual source",
+      "requested": "FSCRT Run04 manual source",
+      "requirement": "Persist ORA_AR_TXN_BATCH_SOURCE.Description=FSCRT Run04 manual source",
+      "requirementId": "REQ-004"
+    },
+    {
+      "candidate": "Reject",
+      "detail": "Fresh export persists ORA_AR_TXN_BATCH_SOURCE create rows through AR_BATCH_SOURCE.",
+      "passed": true,
+      "persisted": "Reject",
+      "requested": "Reject",
+      "requirement": "Persist ORA_AR_TXN_BATCH_SOURCE.InvalidLinesRule=Reject",
+      "requirementId": "REQ-005"
+    },
+    {
+      "candidate": "1",
+      "detail": "Fresh export persists ORA_AR_TXN_BATCH_SOURCE create rows through AR_BATCH_SOURCE.",
+      "passed": true,
+      "persisted": "1",
+      "requested": "1",
+      "requirement": "Persist ORA_AR_TXN_BATCH_SOURCE.LastBatchNum=1",
+      "requirementId": "REQ-006"
+    },
+    {
+      "candidate": "2026-11-03",
+      "detail": "Fresh export persists ORA_AR_TXN_BATCH_SOURCE create rows through AR_BATCH_SOURCE. Retained the raw declared-date format difference under FSCR.TYPE.DATE.STRICT_ISO_TO_SLASH.",
+      "passed": true,
+      "persisted": "2026/11/03",
+      "rawDifferences": [
+        {
+          "candidate": "2026-11-03",
+          "field": "StartDate",
+          "persisted": "2026/11/03",
+          "requested": "2026-11-03"
+        }
+      ],
+      "requested": "2026-11-03",
+      "requirement": "Persist ORA_AR_TXN_BATCH_SOURCE.StartDate=2026-11-03",
+      "requirementId": "REQ-007",
+      "semanticEquivalences": [
+        {
+          "canonicalValue": "2026-11-03",
+          "contractEvidence": [
+            "e2e-adapter.json package.entities[ORA_AR_TXN_BATCH_SOURCE].types[StartDate]=date",
+            "Exact ASM_SETUP_CSV_METADATA.xml XmlAttributeTypeList date contract"
+          ],
+          "declaredType": "date",
+          "entity": "ORA_AR_TXN_BATCH_SOURCE",
+          "field": "StartDate",
+          "rawValues": {
+            "candidate": "2026-11-03",
+            "persisted": "2026/11/03",
+            "requested": "2026-11-03"
+          },
+          "ruleId": "FSCR.TYPE.DATE.STRICT_ISO_TO_SLASH",
+          "semanticValue": "same Gregorian calendar date"
+        }
+      ]
+    },
+    {
+      "candidate": "A",
+      "detail": "Fresh export persists ORA_AR_TXN_BATCH_SOURCE create rows through AR_BATCH_SOURCE.",
+      "passed": true,
+      "persisted": "A",
+      "requested": "A",
+      "requirement": "Persist ORA_AR_TXN_BATCH_SOURCE.Status=A",
+      "requirementId": "REQ-008"
+    },
+    {
+      "candidate": "not populated by design",
+      "detail": "Unexpected difference count: 0.",
+      "passed": true,
+      "persisted": "unchanged",
+      "requested": "unchanged",
+      "requirement": "Preserve every unspecified record and non-audit value",
+      "requirementId": "REQ-009"
+    }
+  ],
+  "schemaVersion": "fscr-fsm-task-adapter-v1",
+  "status": "PASS",
+  "task": {
+    "code": "AR_MANAGE_TRANSACTION_SOURCES",
+    "csvSupported": true,
+    "functionalArea": "Customer Billing",
+    "importMode": "FSM",
+    "name": "Manage Transaction Sources",
+    "offering": "Financials"
+  }
+}
+
+--stderr--

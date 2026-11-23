@@ -1,0 +1,1718 @@
+{
+ "A1": {
+  "FSCRT_Quillon Ridge Outfitters West F01": {
+   "export": {
+    "Name": "FSCRT_Quillon Ridge Outfitters West F01",
+    "Status": "A",
+    "DefaultSetCode": "ENTERPRISE",
+    "PrimaryLedgerName": "",
+    "LegalEntityName": "",
+    "InternalLocationCode": "",
+    "LocationSetCode": "",
+    "ManagerListName": "Smith, Aron",
+    "ProfitCenterFlag": "",
+    "CreationDate": "2026/11/02 19:53:14.973",
+    "CreatedBy": "Configuration.TEST"
+   },
+   "rest_lov": {
+    "BusinessUnitId": "300000394664006",
+    "BusinessUnitName": "FSCRT_Quillon Ridge Outfitters West F01",
+    "ActiveFlag": true,
+    "PrimaryLedgerId": null,
+    "LocationId": null,
+    "ManagerId": "300000326995006",
+    "LegalEntityId": null,
+    "ProfitCenterFlag": null
+   },
+   "business_functions": 0
+  },
+  "FSCRT_Brindle Harbor Marine Supply F01": {
+   "export": {
+    "Name": "FSCRT_Brindle Harbor Marine Supply F01",
+    "Status": "A",
+    "DefaultSetCode": "ENTERPRISE",
+    "PrimaryLedgerName": "",
+    "LegalEntityName": "",
+    "InternalLocationCode": "LHR_WH",
+    "LocationSetCode": "COMMON",
+    "ManagerListName": "Yaqub, Younas",
+    "ProfitCenterFlag": "",
+    "CreationDate": "2026/11/02 19:53:15.407",
+    "CreatedBy": "Configuration.TEST"
+   },
+   "rest_lov": {
+    "BusinessUnitId": "300000394664009",
+    "BusinessUnitName": "FSCRT_Brindle Harbor Marine Supply F01",
+    "ActiveFlag": true,
+    "PrimaryLedgerId": null,
+    "LocationId": "300000389039489",
+    "ManagerId": "300000002688269",
+    "LegalEntityId": null,
+    "ProfitCenterFlag": null
+   },
+   "business_functions": 0
+  },
+  "0012": {
+   "export": {
+    "Name": "0012",
+    "Status": "A",
+    "DefaultSetCode": "ASCEND_001",
+    "PrimaryLedgerName": "GoSaaS MFG US",
+    "LegalEntityName": "Go Venue 02",
+    "InternalLocationCode": "GoSaaS Labs Location",
+    "LocationSetCode": "SET0001",
+    "ManagerListName": "User, Test",
+    "ProfitCenterFlag": "N",
+    "CreationDate": "2025/03/04 10:25:13.003",
+    "CreatedBy": "Configuration"
+   },
+   "rest_lov": {
+    "BusinessUnitId": "300000334772012",
+    "BusinessUnitName": "0012",
+    "ActiveFlag": true,
+    "PrimaryLedgerId": "300000327609001",
+    "LocationId": "300000327469549",
+    "ManagerId": "300000079613001",
+    "LegalEntityId": "300000327324882",
+    "ProfitCenterFlag": false
+   },
+   "business_functions": 1
+  },
+  "01PRC Exam BU": {
+   "export": {
+    "Name": "01PRC Exam BU",
+    "Status": "A",
+    "DefaultSetCode": "COMMON",
+    "PrimaryLedgerName": "GoSaaS Labs Ledger",
+    "LegalEntityName": "GoSaaS Inc.",
+    "InternalLocationCode": "01Loc",
+    "LocationSetCode": "COMMON",
+    "ManagerListName": "",
+    "ProfitCenterFlag": "N",
+    "CreationDate": "2026/01/12 14:38:36.171",
+    "CreatedBy": "Configuration"
+   },
+   "rest_lov": {
+    "BusinessUnitId": "300000380031406",
+    "BusinessUnitName": "01PRC Exam BU",
+    "ActiveFlag": true,
+    "PrimaryLedgerId": "300000327526346",
+    "LocationId": "300000380031020",
+    "ManagerId": null,
+    "LegalEntityId": "300000130947095",
+    "ProfitCenterFlag": false
+   },
+   "business_functions": 6
+  },
+  "TESTBU4": {
+   "export": {
+    "Name": "TESTBU4",
+    "Status": "A",
+    "DefaultSetCode": "CUSTOMER_RDS",
+    "PrimaryLedgerName": "",
+    "LegalEntityName": "",
+    "InternalLocationCode": "1022",
+    "LocationSetCode": "ENTERPRISE",
+    "ManagerListName": "",
+    "ProfitCenterFlag": "N",
+    "CreationDate": "2026/10/21 16:17:16.053",
+    "CreatedBy": "Configuration.TEST"
+   },
+   "rest_lov": {
+    "BusinessUnitId": "300000393672209",
+    "BusinessUnitName": "TESTBU4",
+    "ActiveFlag": true,
+    "PrimaryLedgerId": null,
+    "LocationId": "300000097034256",
+    "ManagerId": null,
+    "LegalEntityId": null,
+    "ProfitCenterFlag": false
+   },
+   "business_functions": 0
+  }
+ },
+ "A1_stats": {
+  "bus_total": 183,
+  "bus_without_functions": 97,
+  "bus_without_ledger": 94,
+  "set_assignment_rows_for_fscrt": 0,
+  "data_access_rows_fscrt": [
+   [
+    "Configuration.TEST",
+    "Pricing Administrator",
+    "FSCRT_Quillon Ridge Outfitters West F01",
+    "2026-11-03T01:40:49+00:00"
+   ],
+   [
+    "Configuration.TEST",
+    "Pricing Administrator",
+    "FSCRT_Brindle Harbor Marine Supply F01",
+    "2026-11-03T01:41:27.621+00:00"
+   ]
+  ]
+ },
+ "A2": {
+  "TESTPRICELIST4": {
+   "PriceListId": "300000393936114",
+   "PriceListName": "TESTPRICELIST4",
+   "PriceListDescription": null,
+   "PriceListTypeCode": "SEGMENT",
+   "BusinessUnit": "TESTBU4",
+   "CurrencyCode": "AFN",
+   "StatusCode": "APPROVED",
+   "StartDate": "2026-10-19T19:00:00+00:00",
+   "EndDate": null,
+   "PricingChargeDefinition": null,
+   "LineTypeCode": "ORA_BUY",
+   "CalculationMethodCode": "PRICE",
+   "CreatedBy": "Configuration.TEST",
+   "CreationDate": "2026-10-21T16:21:04.001+00:00",
+   "access_sets": [
+    "ENTERPRISE"
+   ],
+   "items_read": "HTTP 200 rows=0 pages=1"
+  },
+  "Collector Retail USD D01": {
+   "PriceListId": "300000394356198",
+   "PriceListName": "Collector Retail USD D01",
+   "PriceListDescription": "Retail prices for collector editions",
+   "PriceListTypeCode": "SEGMENT",
+   "BusinessUnit": "Emberlight Games North America Retail D01",
+   "CurrencyCode": "USD",
+   "StatusCode": "APPROVED",
+   "StartDate": "2026-11-01T04:00:00+00:00",
+   "EndDate": null,
+   "PricingChargeDefinition": "Sale Price",
+   "LineTypeCode": "ORA_BUY",
+   "CalculationMethodCode": "PRICE",
+   "CreatedBy": "Configuration.TEST",
+   "CreationDate": "2026-10-26T17:14:39.001+00:00",
+   "access_sets": [
+    "ENTERPRISE"
+   ],
+   "items_read": "HTTP 200 rows=0 pages=1"
+  },
+  "FSCRT_Brindle Harbor Dock Equipment EUR F01": {
+   "PriceListId": "300000394623080",
+   "PriceListName": "FSCRT_Brindle Harbor Dock Equipment EUR F01",
+   "PriceListDescription": "Dock and mooring equipment prices for European marinas",
+   "PriceListTypeCode": "SEGMENT",
+   "BusinessUnit": "FSCRT_Brindle Harbor Marine Supply F01",
+   "CurrencyCode": "EUR",
+   "StatusCode": "APPROVED",
+   "StartDate": "2026-11-03T00:00:00+00:00",
+   "EndDate": "2027-10-31T23:59:59+00:00",
+   "PricingChargeDefinition": "Sale Price",
+   "LineTypeCode": "ORA_BUY",
+   "CalculationMethodCode": "PRICE",
+   "CreatedBy": "Configuration.TEST",
+   "CreationDate": "2026-11-03T01:43:16.001+00:00",
+   "access_sets": [
+    "ENTERPRISE"
+   ],
+   "items_read": "HTTP 200 rows=0 pages=1"
+  },
+  "FSCRT_Quillon Ridge Wholesale Tents USD F01": {
+   "PriceListId": "300000394622041",
+   "PriceListName": "FSCRT_Quillon Ridge Wholesale Tents USD F01",
+   "PriceListDescription": "Wholesale tent and shelter prices for retail dealers",
+   "PriceListTypeCode": "SEGMENT",
+   "BusinessUnit": "FSCRT_Quillon Ridge Outfitters West F01",
+   "CurrencyCode": "USD",
+   "StatusCode": "APPROVED",
+   "StartDate": "2026-11-03T00:00:00+00:00",
+   "EndDate": null,
+   "PricingChargeDefinition": "Sale Price",
+   "LineTypeCode": "ORA_BUY",
+   "CalculationMethodCode": "PRICE",
+   "CreatedBy": "Configuration.TEST",
+   "CreationDate": "2026-11-03T01:43:04.001+00:00",
+   "access_sets": [
+    "ENTERPRISE"
+   ],
+   "items_read": "HTTP 200 rows=0 pages=1"
+  },
+  "zz_test_pl_8034_all": {
+   "PriceListId": "300000394372048",
+   "PriceListName": "zz_test_pl_8034_all",
+   "PriceListDescription": null,
+   "PriceListTypeCode": "SEGMENT",
+   "BusinessUnit": "ABD",
+   "CurrencyCode": "USD",
+   "StatusCode": "IN_PROGRESS",
+   "StartDate": "2026-10-27T04:00:00+00:00",
+   "EndDate": null,
+   "PricingChargeDefinition": null,
+   "LineTypeCode": "ORA_BUY",
+   "CalculationMethodCode": "PRICE",
+   "CreatedBy": "Configuration.TEST",
+   "CreationDate": "2026-10-26T00:19:41+00:00",
+   "access_sets": [],
+   "items_read": "HTTP 200 rows=0 pages=1"
+  }
+ },
+ "A2_stats": {
+  "price_lists_total": 55,
+  "with_items_via_rest": 0,
+  "in_progress": [
+   "zz_test_pl_8034_all"
+  ],
+  "no_access_set": [
+   "zz_test_pl_8034_all"
+  ]
+ },
+ "A3": {
+  "FSCRT_2P10N30F1": {
+   "term": {
+    "Name": "FSCRT_2P10N30F1",
+    "Description": "2 percent off if paid in 10 days, otherwise due in 30",
+    "SetCode": "ENTERPRISE",
+    "StartDateActive": "2026/11/03",
+    "EndDateActive": "2028/12/31",
+    "BaseAmount": "100",
+    "FirstInstallmentCode": "INCLUDE",
+    "PrintingLeadDays": "",
+    "CalcDiscountOnLinesFlag": "I",
+    "PartialDiscountFlag": "N",
+    "CreditCheckFlag": "N",
+    "PrepaymentFlag": "N"
+   },
+   "lines": [
+    {
+     "SequenceNum": "1",
+     "RelativeAmount": "100",
+     "DueDays": "30",
+     "DueDate": "",
+     "DueDayOfMonth": ""
+    }
+   ],
+   "discounts": [
+    {
+     "AR_PAYMENT_TERM.Name": "FSCRT_2P10N30F1",
+     "AR_PAYMENT_TERM.SetCode": "ENTERPRISE",
+     "AR_PAYMENT_TERM_LINE.SequenceNum": "1",
+     "SequenceNum": "1",
+     "DiscountPercent": "2",
+     "DiscountDays": "10",
+     "SetCode": "ENTERPRISE"
+    }
+   ]
+  },
+  "FSCRT_D25B75AF1": {
+   "term": {
+    "Name": "FSCRT_D25B75AF1",
+    "Description": "25 percent deposit at 15 days, balance at 60 days",
+    "SetCode": "ENTERPRISE",
+    "StartDateActive": "2026/11/02",
+    "EndDateActive": "",
+    "BaseAmount": "100",
+    "FirstInstallmentCode": "ALLOCATE",
+    "PrintingLeadDays": "1",
+    "CalcDiscountOnLinesFlag": "I",
+    "PartialDiscountFlag": "N",
+    "CreditCheckFlag": "N",
+    "PrepaymentFlag": "N"
+   },
+   "lines": [
+    {
+     "SequenceNum": "1",
+     "RelativeAmount": "25",
+     "DueDays": "15",
+     "DueDate": "",
+     "DueDayOfMonth": ""
+    },
+    {
+     "SequenceNum": "2",
+     "RelativeAmount": "75",
+     "DueDays": "60",
+     "DueDate": "",
+     "DueDayOfMonth": ""
+    }
+   ],
+   "discounts": []
+  },
+  "ORA_HES": {
+   "term": {
+    "Name": "ORA_HES",
+    "Description": "Payment term for HES balance forward billing.",
+    "SetCode": "COMMON",
+    "StartDateActive": "1952/01/01",
+    "EndDateActive": "",
+    "BaseAmount": "100",
+    "FirstInstallmentCode": "INCLUDE",
+    "PrintingLeadDays": "",
+    "CalcDiscountOnLinesFlag": "I",
+    "PartialDiscountFlag": "N",
+    "CreditCheckFlag": "N",
+    "PrepaymentFlag": "N"
+   },
+   "lines": [
+    {
+     "SequenceNum": "1",
+     "RelativeAmount": "100",
+     "DueDays": "15",
+     "DueDate": "",
+     "DueDayOfMonth": ""
+    }
+   ],
+   "discounts": []
+  },
+  "ABC": {
+   "term": {
+    "Name": "ABC",
+    "Description": "",
+    "SetCode": "001 CUSTOMER SITE",
+    "StartDateActive": "2026/10/29",
+    "EndDateActive": "",
+    "BaseAmount": "100",
+    "FirstInstallmentCode": "INCLUDE",
+    "PrintingLeadDays": "",
+    "CalcDiscountOnLinesFlag": "I",
+    "PartialDiscountFlag": "N",
+    "CreditCheckFlag": "N",
+    "PrepaymentFlag": "N"
+   },
+   "lines": [
+    {
+     "SequenceNum": "1",
+     "RelativeAmount": "100",
+     "DueDays": "1",
+     "DueDate": "",
+     "DueDayOfMonth": ""
+    }
+   ],
+   "discounts": []
+  },
+  "30 Net": {
+   "term": {
+    "Name": "30 Net",
+    "Description": "Payment of the transaction balance is due within 30 days of the transaction date.",
+    "SetCode": "COMMON",
+    "StartDateActive": "1952/01/01",
+    "EndDateActive": "",
+    "BaseAmount": "100",
+    "FirstInstallmentCode": "INCLUDE",
+    "PrintingLeadDays": "",
+    "CalcDiscountOnLinesFlag": "I",
+    "PartialDiscountFlag": "N",
+    "CreditCheckFlag": "N",
+    "PrepaymentFlag": "N"
+   },
+   "lines": [
+    {
+     "SequenceNum": "1",
+     "RelativeAmount": "100",
+     "DueDays": "30",
+     "DueDate": "",
+     "DueDayOfMonth": ""
+    }
+   ],
+   "discounts": []
+  }
+ },
+ "A3_stats": {
+  "terms_total": 17,
+  "terms_ended": [
+   "15NET",
+   "FSCRT_2P10N30F1"
+  ],
+  "fscr_reconcile": "verified"
+ },
+ "A4": {
+  "FSCRT_CARRIER_SERVICE_TIER_F01": {
+   "type": {
+    "Meaning": "FSCRT_Carrier service tier F01",
+    "Description": "Shipping service levels offered to dealers",
+    "ModuleId": "61ECAF4AAB00E990E040449821C61C97",
+    "CustomizationLevel": "U",
+    "RestAccessSecured": "AUTH"
+   },
+   "codes": [
+    {
+     "LookupCode": "FSCRT_FREIGHT",
+     "Meaning": "FSCRT_Pallet freight",
+     "Description": "",
+     "EnabledFlag": "N",
+     "DisplaySequence": "",
+     "Tag": "",
+     "StartDateActive": "",
+     "EndDateActive": ""
+    },
+    {
+     "LookupCode": "FSCRT_STANDARD",
+     "Meaning": "FSCRT_Standard ground",
+     "Description": "",
+     "EnabledFlag": "Y",
+     "DisplaySequence": "",
+     "Tag": "",
+     "StartDateActive": "",
+     "EndDateActive": ""
+    }
+   ],
+   "rest_tag": {
+    "FSCRT_FREIGHT": null,
+    "FSCRT_STANDARD": null
+   }
+  },
+  "FSCRT_OUTDOOR_ACTIVITY_F01": {
+   "type": {
+    "Meaning": "FSCRT_Outdoor activity F01",
+    "Description": "Activities a product is sold for",
+    "ModuleId": "61ECAF4AAB00E990E040449821C61C97",
+    "CustomizationLevel": "U",
+    "RestAccessSecured": "SECURE"
+   },
+   "codes": [
+    {
+     "LookupCode": "FSCRT_HIKING",
+     "Meaning": "FSCRT_Hiking",
+     "Description": "",
+     "EnabledFlag": "Y",
+     "DisplaySequence": "1",
+     "Tag": "",
+     "StartDateActive": "",
+     "EndDateActive": ""
+    },
+    {
+     "LookupCode": "FSCRT_PADDLING",
+     "Meaning": "FSCRT_Paddling",
+     "Description": "Kayak and canoe gear",
+     "EnabledFlag": "Y",
+     "DisplaySequence": "2",
+     "Tag": "water",
+     "StartDateActive": "",
+     "EndDateActive": ""
+    }
+   ],
+   "rest_tag": {
+    "FSCRT_HIKING": null,
+    "FSCRT_PADDLING": "water"
+   }
+  },
+  "ORA_DOO_LINE_TYPES": {
+   "type": {
+    "Meaning": "Fulfillment Line Type",
+    "Description": "Codes that identify types of fulfillment lines.",
+    "ModuleId": "61ECAF4AAB00E990E040449821C61C97",
+    "CustomizationLevel": "E",
+    "RestAccessSecured": "AUTH"
+   },
+   "codes": [
+    {
+     "LookupCode": "ORA_BUY",
+     "Meaning": "Buy",
+     "Description": "Line is for buying product",
+     "EnabledFlag": "Y",
+     "DisplaySequence": "",
+     "Tag": "",
+     "StartDateActive": "1959/01/01",
+     "EndDateActive": ""
+    },
+    {
+     "LookupCode": "PRJ",
+     "Meaning": "Projects",
+     "Description": "Contains Project Details",
+     "EnabledFlag": "Y",
+     "DisplaySequence": "2",
+     "Tag": "",
+     "StartDateActive": "2024/05/26",
+     "EndDateActive": ""
+    }
+   ],
+   "rest_tag": null
+  },
+  "ORA_DOO_ORDER_TYPES": {
+   "type": {
+    "Meaning": "Type of Sales Order",
+    "Description": "Abbreviated text that identifies the type of sales order.",
+    "ModuleId": "61ECAF4AAB00E990E040449821C61C97",
+    "CustomizationLevel": "U",
+    "RestAccessSecured": "AUTH"
+   },
+   "codes": [
+    {
+     "LookupCode": "ABCABC1",
+     "Meaning": "ABC ABC Order Type 1",
+     "Description": "Custom POC Order Type for Automation Testing",
+     "EnabledFlag": "Y",
+     "DisplaySequence": "10",
+     "Tag": "",
+     "StartDateActive": "2026/10/19",
+     "EndDateActive": ""
+    },
+    {
+     "LookupCode": "ABCABC2",
+     "Meaning": "ABC ABC Order Type 2",
+     "Description": "",
+     "EnabledFlag": "Y",
+     "DisplaySequence": "11",
+     "Tag": "",
+     "StartDateActive": "",
+     "EndDateActive": ""
+    },
+    {
+     "LookupCode": "ABCDEFGH",
+     "Meaning": "ABCDEFGH",
+     "Description": "Quick test",
+     "EnabledFlag": "Y",
+     "DisplaySequence": "26",
+     "Tag": "",
+     "StartDateActive": "",
+     "EndDateActive": ""
+    },
+    {
+     "LookupCode": "ABDTEST",
+     "Meaning": "abdabd",
+     "Description": "Quick test",
+     "EnabledFlag": "Y",
+     "DisplaySequence": "27",
+     "Tag": "",
+     "StartDateActive": "",
+     "EndDateActive": ""
+    },
+    {
+     "LookupCode": "ABDULLAH_STANDARD",
+     "Meaning": "Abdullah Standard",
+     "Description": "Abdullah Standard",
+     "EnabledFlag": "Y",
+     "DisplaySequence": "5",
+     "Tag": "",
+     "StartDateActive": "2026/10/15",
+     "EndDateActive": ""
+    },
+    {
+     "LookupCode": "ABDULLAH_STANDARD_2",
+     "Meaning": "Abdullah Standard 2",
+     "Description": "",
+     "EnabledFlag": "Y",
+     "DisplaySequence": "21",
+     "Tag": "",
+     "StartDateActive": "",
+     "EndDateActive": ""
+    },
+    {
+     "LookupCode": "AMNA_STANDARD_ORDERS",
+     "Meaning": "Standard Sales Orders_10",
+     "Description": "",
+     "EnabledFlag": "Y",
+     "DisplaySequence": "3",
+     "Tag": "",
+     "StartDateActive": "2026/08/07",
+     "EndDateActive": ""
+    },
+    {
+     "LookupCode": "CH_RETURN",
+     "Meaning": "CH Return",
+     "Description": "CH Return",
+     "EnabledFlag": "Y",
+     "DisplaySequence": "7",
+     "Tag": "",
+     "StartDateActive": "2026/10/15",
+     "EndDateActive": ""
+    },
+    {
+     "LookupCode": "CH_TEST",
+     "Meaning": "CH Test",
+     "Description": "CH Test",
+     "EnabledFlag": "Y",
+     "DisplaySequence": "8",
+     "Tag": "",
+     "StartDateActive": "2026/10/15",
+     "EndDateActive": ""
+    },
+    {
+     "LookupCode": "FSCRT_SO_TRAIL_DEALER_F01",
+     "Meaning": "FSCRT_Trail Dealer Replenishment F01",
+     "Description": "Stock refills for trail dealers",
+     "EnabledFlag": "Y",
+     "DisplaySequence": "",
+     "Tag": "",
+     "StartDateActive": "",
+     "EndDateActive": ""
+    },
+    {
+     "LookupCode": "FSCRT_SO_WARRANTY_SWAP_F01",
+     "Meaning": "FSCRT_Warranty Swap Order F01",
+     "Description": "Replacement under warranty",
+     "EnabledFlag": "N",
+     "DisplaySequence": "",
+     "Tag": "",
+     "StartDateActive": "",
+     "EndDateActive": ""
+    },
+    {
+     "LookupCode": "FSCR_TEST_01",
+     "Meaning": "FSCR Test Order Type 01",
+     "Description": "Created by FSCR setup test on 28-Oct-2026. Safe to delete.",
+     "EnabledFlag": "Y",
+     "DisplaySequence": "",
+     "Tag": "",
+     "StartDateActive": "",
+     "EndDateActive": ""
+    },
+    {
+     "LookupCode": "FSCR_TEST_02",
+     "Meaning": "FSCR Testing",
+     "Description": "created by imtenan via FSCR",
+     "EnabledFlag": "Y",
+     "DisplaySequence": "",
+     "Tag": "",
+     "StartDateActive": "",
+     "EndDateActive": ""
+    },
+    {
+     "LookupCode": "GAME_PREORDER",
+     "Meaning": "Game Pre-Order",
+     "Description": "Pre-order sales for upcoming game releases",
+     "EnabledFlag": "Y",
+     "DisplaySequence": "50",
+     "Tag": "GAMING",
+     "StartDateActive": "2026/10/22",
+     "EndDateActive": "2027/12/31"
+    },
+    {
+     "LookupCode": "GHGH",
+     "Meaning": "yy",
+     "Description": "Pre-order sales for upcoming game releases",
+     "EnabledFlag": "Y",
+     "DisplaySequence": "50",
+     "Tag": "GAMING",
+     "StartDateActive": "2026/10/22",
+     "EndDateActive": "2027/12/31"
+    },
+    {
+     "LookupCode": "IMTENAN_STANDARD",
+     "Meaning": "Imtenan Standard",
+     "Description": "Imtenan Standard",
+     "EnabledFlag": "Y",
+     "DisplaySequence": "4",
+     "Tag": "",
+     "StartDateActive": "2026/10/15",
+     "EndDateActive": ""
+    },
+    {
+     "LookupCode": "IMTENAN_STANDARD_2",
+     "Meaning": "Imtenan Standard 2",
+     "Description": "Imtenan standard order type 2",
+     "EnabledFlag": "Y",
+     "DisplaySequence": "13",
+     "Tag": "",
+     "StartDateActive": "2026/10/19",
+     "EndDateActive": ""
+    },
+    {
+     "LookupCode": "KINGSTON_GB_STANDARD",
+     "Meaning": "Kingston GB Standard",
+     "Description": "Standard sales orders for Kingston GB",
+     "EnabledFlag": "Y",
+     "DisplaySequence": "69",
+     "Tag": "",
+     "StartDateActive": "2026/10/25",
+     "EndDateActive": ""
+    },
+    {
+     "LookupCode": "KINGSTON_JP_STANDARD",
+     "Meaning": "Kingston JP Standard",
+     "Description": "Standard sales orders for Kingston JP",
+     "EnabledFlag": "Y",
+     "DisplaySequence": "70",
+     "Tag": "",
+     "StartDateActive": "2026/10/25",
+     "EndDateActive": ""
+    },
+    {
+     "LookupCode": "KINGSTON_US_STANDARD",
+     "Meaning": "Kingston US Standard",
+     "Description": "Standard sales orders for Kingston US",
+     "EnabledFlag": "Y",
+     "DisplaySequence": "68",
+     "Tag": "",
+     "StartDateActive": "2026/10/25",
+     "EndDateActive": ""
+    },
+    {
+     "LookupCode": "RET",
+     "Meaning": "RETT",
+     "Description": "Pre-order sales for upcoming game releases",
+     "EnabledFlag": "Y",
+     "DisplaySequence": "50",
+     "Tag": "GAMING",
+     "StartDateActive": "2026/10/22",
+     "EndDateActive": "2027/12/31"
+    },
+    {
+     "LookupCode": "RET1",
+     "Meaning": "RETT12",
+     "Description": "Pre-order sales for upcoming game releases",
+     "EnabledFlag": "Y",
+     "DisplaySequence": "50",
+     "Tag": "GAMING",
+     "StartDateActive": "2026/10/22",
+     "EndDateActive": "2027/12/31"
+    },
+    {
+     "LookupCode": "RET12",
+     "Meaning": "RETT122",
+     "Description": "Pre-order sales for upcoming game releases",
+     "EnabledFlag": "Y",
+     "DisplaySequence": "50",
+     "Tag": "GAMING",
+     "StartDateActive": "2026/10/22",
+     "EndDateActive": "2027/12/31"
+    },
+    {
+     "LookupCode": "RET125",
+     "Meaning": "RETT1225",
+     "Description": "Pre-order sales for upcoming game releases",
+     "EnabledFlag": "Y",
+     "DisplaySequence": "50",
+     "Tag": "GAMING",
+     "StartDateActive": "2026/10/22",
+     "EndDateActive": "2027/12/31"
+    },
+    {
+     "LookupCode": "RETT",
+     "Meaning": "RETTT",
+     "Description": "Pre-order sales for upcoming game releases",
+     "EnabledFlag": "Y",
+     "DisplaySequence": "50",
+     "Tag": "GAMING",
+     "StartDateActive": "2026/10/22",
+     "EndDateActive": "2027/12/31"
+    },
+    {
+     "LookupCode": "RETT1",
+     "Meaning": "RETTT12",
+     "Description": "Pre-order sales for upcoming game releases",
+     "EnabledFlag": "Y",
+     "DisplaySequence": "50",
+     "Tag": "GAMING",
+     "StartDateActive": "2026/10/22",
+     "EndDateActive": "2027/12/31"
+    },
+    {
+     "LookupCode": "RETT12",
+     "Meaning": "RETTT122",
+     "Description": "Pre-order sales for upcoming game releases",
+     "EnabledFlag": "Y",
+     "DisplaySequence": "50",
+     "Tag": "GAMING",
+     "StartDateActive": "2026/10/22",
+     "EndDateActive": "2027/12/31"
+    },
+    {
+     "LookupCode": "RETT125",
+     "Meaning": "RETTT1225",
+     "Description": "Pre-order sales for upcoming game releases",
+     "EnabledFlag": "Y",
+     "DisplaySequence": "50",
+     "Tag": "GAMING",
+     "StartDateActive": "2026/10/22",
+     "EndDateActive": "2027/12/31"
+    },
+    {
+     "LookupCode": "RETURN_STANDARD",
+     "Meaning": "Return Standard",
+     "Description": "Return Standard",
+     "EnabledFlag": "Y",
+     "DisplaySequence": "6",
+     "Tag": "",
+     "StartDateActive": "2026/10/15",
+     "EndDateActive": ""
+    },
+    {
+     "LookupCode": "SO_COLLECTOR_EDITION_D01",
+     "Meaning": "Collector Edition Pre-Order D01",
+     "Description": "Limited edition pre-orders",
+     "EnabledFlag": "Y",
+     "DisplaySequence": "67",
+     "Tag": "",
+     "StartDateActive": "2026/10/25",
+     "EndDateActive": ""
+    },
+    {
+     "LookupCode": "SO_ESPORTS_PRIZE_D01",
+     "Meaning": "Esports Prize Fulfilment Order D01",
+     "Description": "Prizes shipped to tournament winners",
+     "EnabledFlag": "Y",
+     "DisplaySequence": "66",
+     "Tag": "",
+     "StartDateActive": "2026/12/01",
+     "EndDateActive": "2027/12/31"
+    },
+    {
+     "LookupCode": "STANDARD",
+     "Meaning": "Standard Sales Orders",
+     "Description": "",
+     "EnabledFlag": "Y",
+     "DisplaySequence": "",
+     "Tag": "",
+     "StartDateActive": "2025/04/22",
+     "EndDateActive": ""
+    },
+    {
+     "LookupCode": "Standard Pre-order",
+     "Meaning": "RETT1",
+     "Description": "Pre-order sales Standard",
+     "EnabledFlag": "Y",
+     "DisplaySequence": "62",
+     "Tag": "GAMES",
+     "StartDateActive": "2026/10/26",
+     "EndDateActive": "2027/12/31"
+    },
+    {
+     "LookupCode": "Standard Pre-order Return",
+     "Meaning": "RETTT1",
+     "Description": "Pre-order sales Standard return",
+     "EnabledFlag": "Y",
+     "DisplaySequence": "63",
+     "Tag": "GAMES",
+     "StartDateActive": "2026/10/26",
+     "EndDateActive": "2027/12/31"
+    },
+    {
+     "LookupCode": "Subscription",
+     "Meaning": "Subscription",
+     "Description": "Subscription Order",
+     "EnabledFlag": "Y",
+     "DisplaySequence": "2",
+     "Tag": "",
+     "StartDateActive": "2025/08/07",
+     "EndDateActive": ""
+    },
+    {
+     "LookupCode": "TESTORDER1",
+     "Meaning": "TESTORDER1",
+     "Description": "",
+     "EnabledFlag": "Y",
+     "DisplaySequence": "30",
+     "Tag": "",
+     "StartDateActive": "",
+     "EndDateActive": ""
+    },
+    {
+     "LookupCode": "TESTORDER1000",
+     "Meaning": "TESTORDER1000",
+     "Description": "",
+     "EnabledFlag": "Y",
+     "DisplaySequence": "32",
+     "Tag": "",
+     "StartDateActive": "",
+     "EndDateActive": ""
+    },
+    {
+     "LookupCode": "TESTORDER1001",
+     "Meaning": "TESTLOOKUP1001",
+     "Description": "",
+     "EnabledFlag": "Y",
+     "DisplaySequence": "34",
+     "Tag": "",
+     "StartDateActive": "",
+     "EndDateActive": ""
+    },
+    {
+     "LookupCode": "TESTORDER1010",
+     "Meaning": "TESTORDER1010",
+     "Description": "",
+     "EnabledFlag": "Y",
+     "DisplaySequence": "35",
+     "Tag": "",
+     "StartDateActive": "",
+     "EndDateActive": ""
+    },
+    {
+     "LookupCode": "TESTORDER2",
+     "Meaning": "TESTORDER2",
+     "Description": "",
+     "EnabledFlag": "Y",
+     "DisplaySequence": "31",
+     "Tag": "",
+     "StartDateActive": "",
+     "EndDateActive": ""
+    },
+    {
+     "LookupCode": "TESTORDER22",
+     "Meaning": "TESTORDER22",
+     "Description": "asd",
+     "EnabledFlag": "Y",
+     "DisplaySequence": "12",
+     "Tag": "INT",
+     "StartDateActive": "2026/10/21",
+     "EndDateActive": "2026/10/24"
+    },
+    {
+     "LookupCode": "THJTHJ",
+     "Meaning": "thjthj",
+     "Description": "thjthj order type",
+     "EnabledFlag": "Y",
+     "DisplaySequence": "12",
+     "Tag": "",
+     "StartDateActive": "2026/10/19",
+     "EndDateActive": ""
+    },
+    {
+     "LookupCode": "ZZ_DEMO_ORDER",
+     "Meaning": "ZZ Demo Sales Order",
+     "Description": "Demo order type",
+     "EnabledFlag": "Y",
+     "DisplaySequence": "20",
+     "Tag": "",
+     "StartDateActive": "2026/10/19",
+     "EndDateActive": ""
+    },
+    {
+     "LookupCode": "ZZ_DEMO_ORDER22",
+     "Meaning": "ZZ Demo Sales Order 22",
+     "Description": "Demo order type",
+     "EnabledFlag": "Y",
+     "DisplaySequence": "20",
+     "Tag": "",
+     "StartDateActive": "2026/10/20",
+     "EndDateActive": ""
+    },
+    {
+     "LookupCode": "ZZ_POC_STANDARD_ORDER",
+     "Meaning": "ZZ POC Standard Sales Order",
+     "Description": "Custom POC Order Type for Automation Testing",
+     "EnabledFlag": "Y",
+     "DisplaySequence": "10",
+     "Tag": "",
+     "StartDateActive": "2026/10/19",
+     "EndDateActive": ""
+    },
+    {
+     "LookupCode": "ZZ_TEST_2868",
+     "Meaning": "ZZ_TEST_2868",
+     "Description": "",
+     "EnabledFlag": "Y",
+     "DisplaySequence": "24",
+     "Tag": "",
+     "StartDateActive": "",
+     "EndDateActive": ""
+    },
+    {
+     "LookupCode": "ZZ_TEST_3435",
+     "Meaning": "ZZ_TEST_3435 Game Pre-Order",
+     "Description": "Pre-order sales for upcoming game releases",
+     "EnabledFlag": "Y",
+     "DisplaySequence": "60",
+     "Tag": "GAMING",
+     "StartDateActive": "2026/10/22",
+     "EndDateActive": "2027/12/31"
+    },
+    {
+     "LookupCode": "ZZ_TEST_4833",
+     "Meaning": "ZZ_TEST_4833",
+     "Description": "",
+     "EnabledFlag": "Y",
+     "DisplaySequence": "23",
+     "Tag": "",
+     "StartDateActive": "2026/10/17",
+     "EndDateActive": ""
+    },
+    {
+     "LookupCode": "ZZ_TEST_6142_OTA",
+     "Meaning": "ZZ OT 6142 A (ZZ_TEST_6142_OTA)",
+     "Description": "",
+     "EnabledFlag": "Y",
+     "DisplaySequence": "65",
+     "Tag": "",
+     "StartDateActive": "2026/10/25",
+     "EndDateActive": ""
+    },
+    {
+     "LookupCode": "ZZ_TEST_6142_OTB",
+     "Meaning": "ZZ OT 6142 A",
+     "Description": "",
+     "EnabledFlag": "Y",
+     "DisplaySequence": "64",
+     "Tag": "",
+     "StartDateActive": "",
+     "EndDateActive": ""
+    },
+    {
+     "LookupCode": "ZZ_TEST_6387",
+     "Meaning": "ZZ_TEST_6387",
+     "Description": "",
+     "EnabledFlag": "Y",
+     "DisplaySequence": "22",
+     "Tag": "",
+     "StartDateActive": "2026/10/17",
+     "EndDateActive": ""
+    },
+    {
+     "LookupCode": "ZZ_TEST_7981",
+     "Meaning": "ZZ_TEST_7981 Disabled Order",
+     "Description": "Enabled No test",
+     "EnabledFlag": "N",
+     "DisplaySequence": "61",
+     "Tag": "TAGB",
+     "StartDateActive": "2026/10/24",
+     "EndDateActive": "2027/06/30"
+    },
+    {
+     "LookupCode": "ZZ_TEST_9464",
+     "Meaning": "ZZ_TEST_9464",
+     "Description": "Page interface test",
+     "EnabledFlag": "Y",
+     "DisplaySequence": "28",
+     "Tag": "",
+     "StartDateActive": "",
+     "EndDateActive": ""
+    },
+    {
+     "LookupCode": "ZZ_TEST_OT_1932_A",
+     "Meaning": "ZZ Test Order Type 1932 A",
+     "Description": "Random test order type",
+     "EnabledFlag": "Y",
+     "DisplaySequence": "71",
+     "Tag": "",
+     "StartDateActive": "2026/10/26",
+     "EndDateActive": ""
+    },
+    {
+     "LookupCode": "ZZ_TEST_OT_1932_A4554",
+     "Meaning": "ZZ Test Order Type 1932 A4545",
+     "Description": "Random test order type",
+     "EnabledFlag": "Y",
+     "DisplaySequence": "73",
+     "Tag": "",
+     "StartDateActive": "2026/10/26",
+     "EndDateActive": ""
+    },
+    {
+     "LookupCode": "ZZ_TEST_OT_1932_B",
+     "Meaning": "ZZ Test Order Type 1932 B",
+     "Description": "Random test order type",
+     "EnabledFlag": "Y",
+     "DisplaySequence": "72",
+     "Tag": "",
+     "StartDateActive": "2026/10/26",
+     "EndDateActive": ""
+    },
+    {
+     "LookupCode": "abdullahabdullah",
+     "Meaning": "abdullahabdullah",
+     "Description": "Order type abdullahabdullah",
+     "EnabledFlag": "Y",
+     "DisplaySequence": "25",
+     "Tag": "",
+     "StartDateActive": "",
+     "EndDateActive": ""
+    },
+    {
+     "LookupCode": "iop",
+     "Meaning": "iop",
+     "Description": "",
+     "EnabledFlag": "Y",
+     "DisplaySequence": "33",
+     "Tag": "",
+     "StartDateActive": "",
+     "EndDateActive": ""
+    },
+    {
+     "LookupCode": "teest",
+     "Meaning": "TESTT",
+     "Description": "",
+     "EnabledFlag": "Y",
+     "DisplaySequence": "1",
+     "Tag": "",
+     "StartDateActive": "2026/10/20",
+     "EndDateActive": "2026/10/20"
+    },
+    {
+     "LookupCode": "test123456",
+     "Meaning": "TEST123456",
+     "Description": "",
+     "EnabledFlag": "Y",
+     "DisplaySequence": "29",
+     "Tag": "",
+     "StartDateActive": "",
+     "EndDateActive": ""
+    }
+   ],
+   "rest_tag": null
+  },
+  "TEST LINE TYPES": {
+   "type": {
+    "Meaning": "TEST LINE TYPES",
+    "Description": "TEST LINE TYPES",
+    "ModuleId": "61ECAF4AAB00E990E040449821C61C97",
+    "CustomizationLevel": "U",
+    "RestAccessSecured": "AUTH"
+   },
+   "codes": [
+    {
+     "LookupCode": "TEST LOOK CODE",
+     "Meaning": "TEST LOOK CODE",
+     "Description": "TEST LOOK CODE",
+     "EnabledFlag": "Y",
+     "DisplaySequence": "1",
+     "Tag": "TEST LOOK CODE",
+     "StartDateActive": "2025/03/13",
+     "EndDateActive": ""
+    }
+   ],
+   "rest_tag": null
+  },
+  "TEST LINE TYPES 1": {
+   "type": {
+    "Meaning": "TEST LINE TYPES 1",
+    "Description": "TEST LINE TYPES 1",
+    "ModuleId": "61ECAF4AAB00E990E040449821C61C97",
+    "CustomizationLevel": "U",
+    "RestAccessSecured": "AUTH"
+   },
+   "codes": [
+    {
+     "LookupCode": "TEST LOOK CODE 1",
+     "Meaning": "TEST LOOK CODE 1",
+     "Description": "TEST LOOK CODE 1",
+     "EnabledFlag": "Y",
+     "DisplaySequence": "1",
+     "Tag": "TEST LOOK CODE 1",
+     "StartDateActive": "2025/03/13",
+     "EndDateActive": ""
+    }
+   ],
+   "rest_tag": null
+  }
+ },
+ "A5": {
+  "FSCRT_SO_TRAIL_DEALER_F01": {
+   "LookupCode": "FSCRT_SO_TRAIL_DEALER_F01",
+   "Meaning": "FSCRT_Trail Dealer Replenishment F01",
+   "Description": "Stock refills for trail dealers",
+   "EnabledFlag": "Y",
+   "DisplaySequence": null,
+   "Tag": null,
+   "StartDateActive": null,
+   "EndDateActive": null,
+   "CreatedBy": "Configuration.TEST",
+   "CreationDate": "2026-11-02T19:54:12+00:00"
+  },
+  "FSCRT_SO_WARRANTY_SWAP_F01": {
+   "LookupCode": "FSCRT_SO_WARRANTY_SWAP_F01",
+   "Meaning": "FSCRT_Warranty Swap Order F01",
+   "Description": "Replacement under warranty",
+   "EnabledFlag": "N",
+   "DisplaySequence": null,
+   "Tag": null,
+   "StartDateActive": null,
+   "EndDateActive": null,
+   "CreatedBy": "Configuration.TEST",
+   "CreationDate": "2026-11-02T19:54:13+00:00"
+  },
+  "teest": {
+   "LookupCode": "teest",
+   "Meaning": "TESTT",
+   "Description": null,
+   "EnabledFlag": "Y",
+   "DisplaySequence": "1",
+   "Tag": null,
+   "StartDateActive": "2026-10-20",
+   "EndDateActive": "2026-10-20",
+   "CreatedBy": "Configuration.TEST",
+   "CreationDate": "2026-10-21T05:01:07+00:00"
+  },
+  "Subscription": {
+   "LookupCode": "Subscription",
+   "Meaning": "Subscription",
+   "Description": "Subscription Order",
+   "EnabledFlag": "Y",
+   "DisplaySequence": "2",
+   "Tag": null,
+   "StartDateActive": "2025-08-07",
+   "EndDateActive": null,
+   "CreatedBy": "Configuration",
+   "CreationDate": "2025-08-07T15:26:35+00:00"
+  },
+  "AMNA_STANDARD_ORDERS": {
+   "LookupCode": "AMNA_STANDARD_ORDERS",
+   "Meaning": "Standard Sales Orders_10",
+   "Description": null,
+   "EnabledFlag": "Y",
+   "DisplaySequence": "3",
+   "Tag": null,
+   "StartDateActive": "2026-08-07",
+   "EndDateActive": null,
+   "CreatedBy": "Configuration",
+   "CreationDate": "2026-08-10T07:37:14+00:00"
+  }
+ },
+ "A5_stats": {
+  "codes_now": 60,
+  "codes_before_run01": 58,
+  "changed_preexisting": [],
+  "new_since_run01": [
+   "FSCRT_SO_TRAIL_DEALER_F01",
+   "FSCRT_SO_WARRANTY_SWAP_F01"
+  ],
+  "disabled_now": [
+   "ZZ_TEST_7981",
+   "FSCRT_SO_WARRANTY_SWAP_F01"
+  ]
+ },
+ "A6": {
+  "22050": {
+   "AccountNumber": "22050",
+   "AccountName": "Buying cooperative for trail shops",
+   "PartyId": "300000394619196",
+   "CustomerType": "R",
+   "CustomerClassCode": "PUBLIC SECTOR COMPANIES",
+   "Status": "A",
+   "AccountEstablishedDate": "2026-11-02",
+   "AccountTerminationDate": "2028-12-31",
+   "site_SetId": "300000000003463",
+   "site_StartDate": "2026-11-02",
+   "site_EndDate": "2028-12-31",
+   "KeyAccountFlag": "true",
+   "TpHeaderId": "5502101",
+   "EceTpLocationCode": "KBT-EDI-01",
+   "site_uses": [
+    {
+     "SiteUseCode": "BILL_TO",
+     "PrimaryFlag": "true",
+     "StartDate": "2026-11-02",
+     "Status": "A"
+    },
+    {
+     "SiteUseCode": "SHIP_TO",
+     "PrimaryFlag": "true",
+     "StartDate": "2026-11-02",
+     "Status": "A"
+    }
+   ],
+   "account_DFF": {
+    "accountNotesOther": "Net 45 account, seasonal volume orders",
+    "shippingInstrustions": "Deliver to loading bay B, weekdays 7am to 3pm",
+    "customerAgreement": "Two year dealer supply agreement"
+   },
+   "profile": "NO PROFILE: The record  for Account ID 300000394607181 doesn't exist."
+  },
+  "22051": {
+   "AccountNumber": "22051",
+   "AccountName": "Boat builder and chandlery",
+   "PartyId": "300000394593171",
+   "CustomerType": "R",
+   "CustomerClassCode": "PUBLIC SECTOR COMPANIES",
+   "Status": "A",
+   "AccountEstablishedDate": "2026-11-03",
+   "AccountTerminationDate": "2029-06-30",
+   "site_SetId": "300000334604945",
+   "site_StartDate": "2026-11-03",
+   "site_EndDate": "2029-06-30",
+   "KeyAccountFlag": "true",
+   "TpHeaderId": "5502103",
+   "EceTpLocationCode": "PCB-EDI-03",
+   "site_uses": [
+    {
+     "SiteUseCode": "BILL_TO",
+     "PrimaryFlag": "true",
+     "StartDate": "2026-11-03",
+     "Status": "A"
+    },
+    {
+     "SiteUseCode": "SHIP_TO",
+     "PrimaryFlag": "true",
+     "StartDate": "2026-11-03",
+     "Status": "A"
+    }
+   ],
+   "account_DFF": {
+    "accountNotesOther": "Rush orders common in spring",
+    "shippingInstrustions": "Deliver to the slipway office",
+    "customerAgreement": "Marine parts framework agreement"
+   },
+   "profile": "NO PROFILE: The record  for Account ID 300000394607188 doesn't exist."
+  },
+  "1002": {
+   "AccountNumber": "1002",
+   "AccountName": null,
+   "PartyId": "300000327305736",
+   "CustomerType": null,
+   "CustomerClassCode": null,
+   "Status": "A",
+   "AccountEstablishedDate": "2024-05-22",
+   "AccountTerminationDate": "4712-12-31",
+   "site_SetId": "300000130947183",
+   "site_StartDate": "2024-05-22",
+   "site_EndDate": "4712-12-31",
+   "KeyAccountFlag": null,
+   "TpHeaderId": null,
+   "EceTpLocationCode": null,
+   "site_uses": [
+    {
+     "SiteUseCode": "BILL_TO",
+     "PrimaryFlag": "true",
+     "StartDate": "2024-05-22",
+     "Status": "A"
+    }
+   ],
+   "account_DFF": {
+    "accountNotesOther": null,
+    "shippingInstrustions": null,
+    "customerAgreement": null
+   },
+   "profile": {
+    "ProfileClassName": "DEFAULT",
+    "CreditChecking": "Y",
+    "CollectorName": "Default Collector",
+    "OverrideTerms": "Y",
+    "StandardTerms": null,
+    "PaymentTerms": null,
+    "EffectiveStartDate": "2024-05-22"
+   }
+  },
+  "20008": {
+   "AccountNumber": "20008",
+   "AccountName": null,
+   "PartyId": "300000393699012",
+   "CustomerType": "R",
+   "CustomerClassCode": "PUBLIC SECTOR COMPANIES",
+   "Status": "A",
+   "AccountEstablishedDate": "2026-10-19",
+   "AccountTerminationDate": "4712-12-31",
+   "site_SetId": "300000130947183",
+   "site_StartDate": "2026-10-19",
+   "site_EndDate": "4712-12-31",
+   "KeyAccountFlag": null,
+   "TpHeaderId": null,
+   "EceTpLocationCode": null,
+   "site_uses": [
+    {
+     "SiteUseCode": "BILL_TO",
+     "PrimaryFlag": "true",
+     "StartDate": "2026-10-19",
+     "Status": "A"
+    },
+    {
+     "SiteUseCode": "SHIP_TO",
+     "PrimaryFlag": "true",
+     "StartDate": "2026-10-19",
+     "Status": "A"
+    }
+   ],
+   "account_DFF": {
+    "accountNotesOther": null,
+    "shippingInstrustions": null,
+    "customerAgreement": null
+   },
+   "profile": {
+    "ProfileClassName": "DEFAULT",
+    "CreditChecking": "Y",
+    "CollectorName": "Default Collector",
+    "OverrideTerms": "Y"
+   }
+  }
+ },
+ "A7": {
+  "22052": {
+   "AccountNumber": "22052",
+   "AccountName": "Independent trail guide",
+   "PartyId": "300000394607195",
+   "CustomerType": "R",
+   "CustomerClassCode": "PUBLIC SECTOR COMPANIES",
+   "Status": "A",
+   "AccountEstablishedDate": "2026-11-02",
+   "AccountTerminationDate": "4712-12-31",
+   "site_SetId": "300000000003463",
+   "site_StartDate": "2026-11-02",
+   "site_EndDate": "4712-12-31",
+   "KeyAccountFlag": "false",
+   "TpHeaderId": "6603101",
+   "EceTpLocationCode": "CT-EDI-01",
+   "site_uses": [
+    {
+     "SiteUseCode": "BILL_TO",
+     "PrimaryFlag": "true",
+     "StartDate": "2026-11-02",
+     "Status": "A"
+    }
+   ],
+   "account_DFF": {
+    "accountNotesOther": "Pays by card at pickup",
+    "shippingInstrustions": "Hold at front desk",
+    "customerAgreement": "Individual gear purchase terms"
+   },
+   "profile": "NO PROFILE: The record  for Account ID 300000394612201 doesn't exist."
+  },
+  "22053": {
+   "AccountNumber": "22053",
+   "AccountName": "Kayak instructor",
+   "PartyId": "300000394619202",
+   "CustomerType": "R",
+   "CustomerClassCode": "FEDERAL",
+   "Status": "A",
+   "AccountEstablishedDate": "2026-11-02",
+   "AccountTerminationDate": "2027-12-31",
+   "site_SetId": "300000000003463",
+   "site_StartDate": "2026-11-02",
+   "site_EndDate": "2027-12-31",
+   "KeyAccountFlag": "false",
+   "TpHeaderId": "6603102",
+   "EceTpLocationCode": "LV-EDI-02",
+   "site_uses": [
+    {
+     "SiteUseCode": "SHIP_TO",
+     "PrimaryFlag": "true",
+     "StartDate": "2026-11-02",
+     "Status": "A"
+    }
+   ],
+   "account_DFF": {
+    "accountNotesOther": "Orders paddles twice a year",
+    "shippingInstrustions": "Leave with neighbour if absent",
+    "customerAgreement": "Instructor equipment terms"
+   },
+   "profile": "NO PROFILE: The record  for Account ID 300000394593177 doesn't exist."
+  },
+  "21264": {
+   "AccountNumber": "21264",
+   "AccountName": "ZZ test account",
+   "PartyId": "300000393916604",
+   "CustomerType": "R",
+   "CustomerClassCode": "FEDERAL",
+   "Status": "A",
+   "AccountEstablishedDate": "2026-10-22",
+   "AccountTerminationDate": "2027-12-31",
+   "site_SetId": "300000000003463",
+   "site_StartDate": "2026-10-22",
+   "site_EndDate": "2027-12-31",
+   "KeyAccountFlag": "true",
+   "TpHeaderId": "12345",
+   "EceTpLocationCode": "EDI001",
+   "site_uses": [
+    {
+     "SiteUseCode": "BILL_TO",
+     "PrimaryFlag": "true",
+     "StartDate": "2026-10-22",
+     "Status": "A"
+    },
+    {
+     "SiteUseCode": "SHIP_TO",
+     "PrimaryFlag": "true",
+     "StartDate": "2026-10-22",
+     "Status": "A"
+    }
+   ],
+   "account_DFF": {
+    "accountNotesOther": "Dummy notes",
+    "shippingInstrustions": "Dummy shipping instructions",
+    "customerAgreement": "Dummy agreement"
+   },
+   "profile": {
+    "ProfileClassName": "DEFAULT",
+    "CreditChecking": "Y",
+    "CollectorName": "Default Collector",
+    "OverrideTerms": "Y",
+    "StandardTerms": null,
+    "PaymentTerms": null,
+    "EffectiveStartDate": "2026-10-22"
+   }
+  },
+  "21040": {
+   "AccountNumber": "21040",
+   "AccountName": "ZZ person account",
+   "PartyId": "300000393786218",
+   "CustomerType": "R",
+   "CustomerClassCode": "FEDERAL",
+   "Status": "A",
+   "AccountEstablishedDate": "2026-10-19",
+   "AccountTerminationDate": "4712-12-31",
+   "site_SetId": "300000334604945",
+   "site_StartDate": "2026-10-20",
+   "site_EndDate": "4712-12-31",
+   "KeyAccountFlag": "true",
+   "TpHeaderId": "777",
+   "EceTpLocationCode": null,
+   "site_uses": [
+    {
+     "SiteUseCode": "BILL_TO",
+     "PrimaryFlag": "true",
+     "StartDate": "2026-10-20",
+     "Status": "A"
+    },
+    {
+     "SiteUseCode": "SHIP_TO",
+     "PrimaryFlag": "true",
+     "StartDate": "2026-10-20",
+     "Status": "A"
+    }
+   ],
+   "account_DFF": {
+    "accountNotesOther": "ZZ person notes",
+    "shippingInstrustions": null,
+    "customerAgreement": null
+   },
+   "profile": {
+    "ProfileClassName": "DEFAULT",
+    "CreditChecking": "Y",
+    "CollectorName": "Default Collector",
+    "OverrideTerms": "Y",
+    "StandardTerms": null,
+    "PaymentTerms": null,
+    "EffectiveStartDate": "2026-10-19"
+   }
+  }
+ },
+ "A8": {
+  "22050": [
+   {
+    "SiteUseCode": "BILL_TO",
+    "PrimaryFlag": "true",
+    "StartDate": "2026-11-02",
+    "Status": "A"
+   },
+   {
+    "SiteUseCode": "SHIP_TO",
+    "PrimaryFlag": "true",
+    "StartDate": "2026-11-02",
+    "Status": "A"
+   }
+  ],
+  "22051": [
+   {
+    "SiteUseCode": "BILL_TO",
+    "PrimaryFlag": "true",
+    "StartDate": "2026-11-03",
+    "Status": "A"
+   },
+   {
+    "SiteUseCode": "SHIP_TO",
+    "PrimaryFlag": "true",
+    "StartDate": "2026-11-03",
+    "Status": "A"
+   }
+  ],
+  "1002": [
+   {
+    "SiteUseCode": "BILL_TO",
+    "PrimaryFlag": "true",
+    "StartDate": "2024-05-22",
+    "Status": "A"
+   }
+  ],
+  "20008": [
+   {
+    "SiteUseCode": "BILL_TO",
+    "PrimaryFlag": "true",
+    "StartDate": "2026-10-19",
+    "Status": "A"
+   },
+   {
+    "SiteUseCode": "SHIP_TO",
+    "PrimaryFlag": "true",
+    "StartDate": "2026-10-19",
+    "Status": "A"
+   }
+  ],
+  "22052": [
+   {
+    "SiteUseCode": "BILL_TO",
+    "PrimaryFlag": "true",
+    "StartDate": "2026-11-02",
+    "Status": "A"
+   }
+  ],
+  "22053": [
+   {
+    "SiteUseCode": "SHIP_TO",
+    "PrimaryFlag": "true",
+    "StartDate": "2026-11-02",
+    "Status": "A"
+   }
+  ],
+  "21264": [
+   {
+    "SiteUseCode": "BILL_TO",
+    "PrimaryFlag": "true",
+    "StartDate": "2026-10-22",
+    "Status": "A"
+   },
+   {
+    "SiteUseCode": "SHIP_TO",
+    "PrimaryFlag": "true",
+    "StartDate": "2026-10-22",
+    "Status": "A"
+   }
+  ],
+  "21040": [
+   {
+    "SiteUseCode": "BILL_TO",
+    "PrimaryFlag": "true",
+    "StartDate": "2026-10-20",
+    "Status": "A"
+   },
+   {
+    "SiteUseCode": "SHIP_TO",
+    "PrimaryFlag": "true",
+    "StartDate": "2026-10-20",
+    "Status": "A"
+   }
+  ]
+ },
+ "A6_party": {
+  "FSCRT_Kestrel Basin Trading Cooperative F01": {
+   "PartyNumber": "131319",
+   "DUNSNumberC": null,
+   "JgzzFiscalCode": null,
+   "Type": null,
+   "Status": "A"
+  },
+  "FSCRT_Pemberton Cove Boatworks F01": {
+   "PartyNumber": "131320",
+   "DUNSNumberC": null,
+   "JgzzFiscalCode": null,
+   "Type": null,
+   "Status": "A"
+  }
+ },
+ "A7_party": [
+  {
+   "PartyNumber": "130309",
+   "PersonName": "ZZ_TEST_9231 Q Tester Jr.",
+   "FirstName": "ZZ_TEST_9231",
+   "MiddleName": "Q",
+   "LastName": "Tester",
+   "NameSuffix": "Jr.",
+   "Title": null,
+   "Salutation": null,
+   "JgzzFiscalCode": null
+  },
+  {
+   "PartyNumber": "130534",
+   "PersonName": "ZZ_TEST_2536 Q Person Jr",
+   "FirstName": "ZZ_TEST_2536",
+   "MiddleName": "Q",
+   "LastName": "Person",
+   "NameSuffix": "Jr",
+   "Title": null,
+   "Salutation": null,
+   "JgzzFiscalCode": null
+  },
+  {
+   "PartyNumber": "131321",
+   "PersonName": "FSCRT_Caspian Reed Thornbury Jr.",
+   "FirstName": "FSCRT_Caspian",
+   "MiddleName": "Reed",
+   "LastName": "Thornbury",
+   "NameSuffix": "Jr.",
+   "Title": null,
+   "Salutation": null,
+   "JgzzFiscalCode": null
+  },
+  {
+   "PartyNumber": "131322",
+   "PersonName": "FSCRT_Linnea Voskuijlen",
+   "FirstName": "FSCRT_Linnea",
+   "MiddleName": null,
+   "LastName": "Voskuijlen",
+   "NameSuffix": null,
+   "Title": null,
+   "Salutation": null,
+   "JgzzFiscalCode": null
+  }
+ ],
+ "C_customer_diffs_vs_run01_payload": []
+}

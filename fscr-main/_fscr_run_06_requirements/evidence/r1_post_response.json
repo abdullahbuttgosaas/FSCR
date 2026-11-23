@@ -1,0 +1,41 @@
+{
+  "LookupCode" : "FSCRT_SO_CONSIGN_F06",
+  "Meaning" : "FSCRT_Dealer Consignment F06",
+  "Description" : "Stock placed at dealers on consignment",
+  "EnabledFlag" : "Y",
+  "StartDateActive" : null,
+  "EndDateActive" : null,
+  "DisplaySequence" : null,
+  "Tag" : null,
+  "CreatedBy" : "Configuration.TEST",
+  "CreationDate" : "2026-11-03T17:10:47+00:00",
+  "LastUpdateDate" : "2026-11-03T17:10:47.068+00:00",
+  "LastUpdateLogin" : "5F62425B30EA0099E0631B65310A4FB1",
+  "LastUpdatedBy" : "Configuration.TEST",
+  "links" : [ {
+    "rel" : "self",
+    "href" : "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/ORA_DOO_ORDER_TYPES/child/lookupCodes/FSCRT_SO_CONSIGN_F06",
+    "name" : "lookupCodes",
+    "kind" : "item"
+  }, {
+    "rel" : "canonical",
+    "href" : "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/ORA_DOO_ORDER_TYPES/child/lookupCodes/FSCRT_SO_CONSIGN_F06",
+    "name" : "lookupCodes",
+    "kind" : "item"
+  }, {
+    "rel" : "parent",
+    "href" : "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/ORA_DOO_ORDER_TYPES",
+    "name" : "standardLookups",
+    "kind" : "item"
+  }, {
+    "rel" : "child",
+    "href" : "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/ORA_DOO_ORDER_TYPES/child/lookupCodes/FSCRT_SO_CONSIGN_F06/child/lookupsDFF",
+    "name" : "lookupsDFF",
+    "kind" : "collection"
+  }, {
+    "rel" : "child",
+    "href" : "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/standardLookups/ORA_DOO_ORDER_TYPES/child/lookupCodes/FSCRT_SO_CONSIGN_F06/child/translations",
+    "name" : "translations",
+    "kind" : "collection"
+  } ]
+}

@@ -1,0 +1,450 @@
+{
+ "rest_sample": [
+  {
+   "task": "HZ_MANAGE_GEOGRAPHIES",
+   "pillar": "CX",
+   "path": "pillars/cx/customer-data-management/enterprise-profile/manage-geographies/SKILL.md",
+   "routes": [
+    "CX_IMPORT",
+    "ESS",
+    "REST"
+   ],
+   "rest_paths_named": [
+    "/crmRestApi/resources/11.13.18.05/importMappings",
+    "/ess/rest/scheduler/v1/requests",
+    "/fscmRestApi/resources/11.13.18.05/profileOptions"
+   ],
+   "write_on_a_rest_path": [
+    "pillars/cx/customer-data-management/enterprise-profile/manage-geographies/ora-resource/ora_reference_lookups.md:26: | import_mapping_resolver | Before the business preview for GET; after approval only for a missing-definition POST | stable mapping name and object code | Data Loader-validated REST core service GET on `/crmRestApi/resou",
+    "pillars/cx/customer-data-management/enterprise-profile/manage-geographies/ora-resource/ora_rest_execution.md:72: | Create missing site-level profile value after confirmation | POST | /fscmRestApi/resources/11.13.18.05/profileOptions/{ProfileOptionName}/child/siteProfileOptionValues |"
+   ],
+   "oracle_docs_write_operation": [
+    "pillars/cx/customer-data-management/enterprise-profile/manage-geographies/SKILL.md:1226: `https://docs.oracle.com/en/cloud/saas/sales/faaps/op-importmappings-post.html`",
+    "pillars/cx/customer-data-management/enterprise-profile/manage-geographies/SKILL.md:1230: `https://docs.oracle.com/en/cloud/saas/sales/faaps/op-importactivities-post.html`"
+   ],
+   "tbd_or_stop": [],
+   "required_fields_file": true,
+   "required_fields_lines": [
+    "pillars/cx/customer-data-management/enterprise-profile/manage-geographies/SKILL.md:146: - purpose: \"Mandatory country, profile, environment, immutable-artifact, and single-request gates\""
+   ]
+  },
+  {
+   "task": "GL_MANAGE_ACCOUNTING_CALENDARS",
+   "pillar": "ERP",
+   "path": "pillars/erp/financials/financial-reporting-structures/manage-accounting-calendars/SKILL.md",
+   "routes": [
+    "REST"
+   ],
+   "rest_paths_named": [
+    "/fscmRestApi/resources/11.13.18.05/accountingCalendarsLOV",
+    "/fscmRestApi/resources/11.13.18.05/accountingPeriodStatusLOV",
+    "/fscmRestApi/resources/11.13.18.05/accountingPeriodsLOV",
+    "/fscmRestApi/resources/11.13.18.05/ledgersLOV"
+   ],
+   "write_on_a_rest_path": [],
+   "oracle_docs_write_operation": [],
+   "tbd_or_stop": [
+    "pillars/erp/financials/financial-reporting-structures/manage-accounting-calendars/ora-resource/ora_reference_lookups.md:163: Complete pagination and exact environment/identity matching. Failed, partial or unauthorized reads do not prove absence or success. Report unavailable required evidence explicitly; do not invent an endpoint or use UI as "
+   ],
+   "required_fields_file": true,
+   "required_fields_lines": [
+    "pillars/erp/financials/financial-reporting-structures/manage-accounting-calendars/SKILL.md:167: mandatory Data Loader workflow after exact identity resolution. Both the"
+   ]
+  },
+  {
+   "task": "BEN_MANAGE_ELIGIBILITY_PROFILES",
+   "pillar": "HCM",
+   "path": "pillars/hcm/benefits-configuration/benefits-eligibility/eligibility-profiles/SKILL.md",
+   "routes": [
+    "ESS",
+    "FSM_CSV",
+    "REST"
+   ],
+   "rest_paths_named": [
+    "/ess/rest/scheduler/v1/requests",
+    "/fscmRestApi/resources/11.13.18.05/commonLookupsLOV",
+    "/fscmRestApi/resources/11.13.18.05/currenciesLOV",
+    "/fscmRestApi/resources/11.13.18.05/genericLookups",
+    "/hcmRestApi/resources/11.13.18.05/absenceTypeReasonsLOV",
+    "/hcmRestApi/resources/11.13.18.05/absenceTypesLovV2"
+   ],
+   "write_on_a_rest_path": [
+    "pillars/hcm/benefits-configuration/benefits-eligibility/eligibility-profiles/SKILL.md:151: - \"POST and GET access to /hcmRestApi/resources/11.13.18.05/formulaEvaluations, its evaluateEligibility action, result child, and MessageDetails enclosure\""
+   ],
+   "oracle_docs_write_operation": [],
+   "tbd_or_stop": [],
+   "required_fields_file": true,
+   "required_fields_lines": [
+    "pillars/hcm/benefits-configuration/benefits-eligibility/eligibility-profiles/SKILL.md:158: Converts the end-user-supplied XLSX workbook, using the `Fusion_Elpro_Setup.xlsx` template structure, into the ten batches required by the eligibility Plan Copy workflow and\u2014only after explicit approval\u2014creates eligibili"
+   ]
+  },
+  {
+   "task": "ORA_ADVANCED_INVENTORY_PARAMETERS",
+   "pillar": "SCM",
+   "path": "pillars/scm/manufacturing-and-supply-chain-materials-management/advanced-inventory-management/advanced-inventory-parameters/SKILL.md",
+   "routes": [
+    "FSM_CSV",
+    "REST"
+   ],
+   "rest_paths_named": [
+    "/fscmRestApi/resources/11.13.18.05/standardLookupsLOV"
+   ],
+   "write_on_a_rest_path": [],
+   "oracle_docs_write_operation": [],
+   "tbd_or_stop": [],
+   "required_fields_file": true,
+   "required_fields_lines": [
+    "pillars/scm/manufacturing-and-supply-chain-materials-management/advanced-inventory-management/advanced-inventory-parameters/SKILL.md:184: - Preserve `CrossDockItemCategoryName` exactly as supplied. Its direct pass-through is intentional; no category lookup is required."
+   ]
+  },
+  {
+   "task": "ORA_HZ_RUN_GEOCODE_LOADER",
+   "pillar": "CX",
+   "path": "pillars/cx/customer-data-management/enterprise-profile/run-geocode-generation/SKILL.md",
+   "routes": [
+    "ESS",
+    "REST"
+   ],
+   "rest_paths_named": [
+    "/ess/rest/scheduler/v1/requests"
+   ],
+   "write_on_a_rest_path": [
+    "pillars/cx/customer-data-management/enterprise-profile/run-geocode-generation/ora-resource/ora_rest_execution.md:30: | Submit Populate Location Latitude and Longitude Information | POST | /ess/rest/scheduler/v1/requests |"
+   ],
+   "oracle_docs_write_operation": [
+    "pillars/cx/customer-data-management/enterprise-profile/run-geocode-generation/SKILL.md:410: `https://docs.oracle.com/en/cloud/saas/applications-common/26c/farca/op-ess-rest-scheduler-v1-requests-post.html`"
+   ],
+   "tbd_or_stop": [],
+   "required_fields_file": true,
+   "required_fields_lines": [
+    "pillars/cx/customer-data-management/enterprise-profile/run-geocode-generation/SKILL.md:108: - purpose: \"Mandatory mode, environment, date, and one-POST gates\""
+   ]
+  },
+  {
+   "task": "GL_MANAGE_CHART_OF_ACCOUNTS_MAPPING",
+   "pillar": "ERP",
+   "path": "pillars/erp/financials/financial-reporting-structures/manage-chart-of-accounts-mappings/SKILL.md",
+   "routes": [
+    "REST"
+   ],
+   "rest_paths_named": [
+    "/fscmRestApi/resources/11.13.18.05/chartOfAccountsLOV",
+    "/fscmRestApi/resources/11.13.18.05/setupTaskCSVImports",
+    "/fscmRestApi/resources/11.13.18.05/valueSets"
+   ],
+   "write_on_a_rest_path": [
+    "pillars/erp/financials/financial-reporting-structures/manage-chart-of-accounts-mappings/ora-resource/ora_rest_execution.md:44: | Upload FSM task-CSV package | POST through shared import workflow | /fscmRestApi/resources/11.13.18.05/setupTaskCSVImports |"
+   ],
+   "oracle_docs_write_operation": [],
+   "tbd_or_stop": [],
+   "required_fields_file": true,
+   "required_fields_lines": [
+    "pillars/erp/financials/financial-reporting-structures/manage-chart-of-accounts-mappings/SKILL.md:170: 9. Preview the exact action. Require explicit approval for create, update, Replace, upload, import, or delete."
+   ]
+  },
+  {
+   "task": "BEN_MANAGE_BENEFIT_PROGRAMS_DETAILS",
+   "pillar": "HCM",
+   "path": "pillars/hcm/benefits-configuration/benefits-program-and-plan-hierarchy/benefit-programs/SKILL.md",
+   "routes": [
+    "ESS",
+    "REST"
+   ],
+   "rest_paths_named": [
+    "/ess/rest/scheduler/v1/requests",
+    "/hcmRestApi/resources/latest/benefitPlanCopyParameters"
+   ],
+   "write_on_a_rest_path": [
+    "pillars/hcm/benefits-configuration/benefits-program-and-plan-hierarchy/benefit-programs/references/plan-copy-import.md:49: 4. `POST /hcmRestApi/resources/latest/benefitPlanCopyParameters` with"
+   ],
+   "oracle_docs_write_operation": [],
+   "tbd_or_stop": [],
+   "required_fields_file": true,
+   "required_fields_lines": [
+    "pillars/hcm/benefits-configuration/benefits-program-and-plan-hierarchy/benefit-programs/SKILL.md:79: - \"When required for a requested plan, merges the catalog-resolved Benefit Programs task into the selected active Run Book and refreshes project planning artifacts.\""
+   ]
+  },
+  {
+   "task": "ORA_INVENTORY_TASK_CONFIGURATIONS",
+   "pillar": "SCM",
+   "path": "pillars/scm/manufacturing-and-supply-chain-materials-management/advanced-inventory-management/inventory-task-configurations/SKILL.md",
+   "routes": [
+    "FSM_CSV",
+    "REST"
+   ],
+   "rest_paths_named": [
+    "/fscmRestApi/resources/11.13.18.05/inventoryAccessibleOrganizations",
+    "/fscmRestApi/resources/11.13.18.05/inventoryZoneTaskConfigurations"
+   ],
+   "write_on_a_rest_path": [],
+   "oracle_docs_write_operation": [],
+   "tbd_or_stop": [],
+   "required_fields_file": true,
+   "required_fields_lines": [
+    "pillars/scm/manufacturing-and-supply-chain-materials-management/advanced-inventory-management/inventory-task-configurations/SKILL.md:175: 6. Emit exactly one `activityUsages` worksheet row for each of the five activity types, even when task generation is disabled. Set `TasksEnabled` from the user's Yes/No value, populate the mandatory grouping level from t"
+   ]
+  },
+  {
+   "task": "HZ_MANAGE_RESOURCE_ROLES",
+   "pillar": "CX",
+   "path": "pillars/cx/customer-data-management/resources/manage-resource-roles/SKILL.md",
+   "routes": [
+    "FSM_CSV",
+    "REST"
+   ],
+   "rest_paths_named": [
+    "/crmRestApi/resources/11.13.18.05/resourceRoles"
+   ],
+   "write_on_a_rest_path": [],
+   "oracle_docs_write_operation": [],
+   "tbd_or_stop": [
+    "pillars/cx/customer-data-management/resources/manage-resource-roles/ora-resource/ora_bulk_intake.md:7: | TBD | No bulk contract is documented in the supplied source | Do not infer bulk processing |",
+    "pillars/cx/customer-data-management/resources/manage-resource-roles/ora-resource/ora_bulk_intake.md:13: | TBD | TBD | Block until approved bulk guidance is supplied |"
+   ],
+   "required_fields_file": true,
+   "required_fields_lines": [
+    "pillars/cx/customer-data-management/resources/manage-resource-roles/ora-resource/ora_dependency_readiness.md:3: ## Required Dependency Order"
+   ]
+  },
+  {
+   "task": "GL_MANAGE_CHARTS_OF_ACCOUNTS_STRUCTURE_INSTANCES",
+   "pillar": "ERP",
+   "path": "pillars/erp/financials/financial-reporting-structures/manage-chart-of-accounts-structure-instances/SKILL.md",
+   "routes": [
+    "FSM_CSV",
+    "REST"
+   ],
+   "rest_paths_named": [
+    "/fscmRestApi/resources/11.13.18.05/chartOfAccountsLOV"
+   ],
+   "write_on_a_rest_path": [],
+   "oracle_docs_write_operation": [],
+   "tbd_or_stop": [
+    "pillars/erp/financials/financial-reporting-structures/manage-chart-of-accounts-structure-instances/ora-resource/ora_rest_execution.md:14: | Direct REST write contract unavailable | Mark TBD; do not invent endpoint, payload, or UI-label code |"
+   ],
+   "required_fields_file": true,
+   "required_fields_lines": [
+    "pillars/erp/financials/financial-reporting-structures/manage-chart-of-accounts-structure-instances/ora-resource/ora_bulk_intake.md:7: | Complete same-task FSM CSV export and metadata XML | Every required exported file and column; template-only files only when needed to clarify shape | Validate, default, lookup, then preview each row |"
+   ]
+  }
+ ],
+ "csv_sample": [
+  {
+   "task": "ZCH_MANAGE_CUSTOMER_HUB_COMMON_LOOKUPS",
+   "pillar": "CX",
+   "path": "pillars/cx/customer-data-management/customer-hub/manage-customer-hub-common-lookups/SKILL.md",
+   "routes": [
+    "FSM_CSV"
+   ],
+   "task_code_stated": true,
+   "template_or_export_step": [
+    "pillars/cx/customer-data-management/customer-hub/manage-customer-hub-common-lookups/SKILL.md:35: - \"shared.setup-export.task-level-export\""
+   ],
+   "entity_or_csv_names": [],
+   "metadata_file_named": true,
+   "import_step": [
+    "pillars/cx/customer-data-management/customer-hub/manage-customer-hub-common-lookups/SKILL.md:135: 4. Import setup task data with `core.data-loader`."
+   ],
+   "required_fields_file": true,
+   "create_fields_listed": false,
+   "required_fields_lines": [
+    "pillars/cx/customer-data-management/customer-hub/manage-customer-hub-common-lookups/ora-resource/ora_defaulting_rules.md:7: | TaskCode | ZCH_MANAGE_CUSTOMER_HUB_COMMON_LOOKUPS | Export or import | Yes; exact identity is mandatory |  |"
+   ]
+  },
+  {
+   "task": "ASXS_MANAGE_DATA_SECURITY_POLICIES",
+   "pillar": "Common",
+   "path": "pillars/common/security-console/manage-data-security-policies/SKILL.md",
+   "routes": [
+    "FSM_CSV"
+   ],
+   "task_code_stated": true,
+   "template_or_export_step": [
+    "pillars/common/security-console/manage-data-security-policies/SKILL.md:4: description: \"Prepare individual data-security-policy creation, updates, deletion and redesign requests using verified FSM templates, and route supported changes through validated Data Loader imports.\""
+   ],
+   "entity_or_csv_names": [],
+   "metadata_file_named": true,
+   "import_step": [],
+   "required_fields_file": true,
+   "create_fields_listed": false,
+   "required_fields_lines": [
+    "pillars/common/security-console/manage-data-security-policies/SKILL.md:138: ## Required preflight"
+   ]
+  },
+  {
+   "task": "AR_MANAGE_AUTOACCOUNTING_RULES",
+   "pillar": "ERP",
+   "path": "pillars/erp/financials/customer-billing/manage-autoaccounting-rules/SKILL.md",
+   "routes": [
+    "FSM_CSV"
+   ],
+   "task_code_stated": true,
+   "template_or_export_step": [
+    "pillars/erp/financials/customer-billing/manage-autoaccounting-rules/SKILL.md:35: - \"shared.setup-export.task-level-export\""
+   ],
+   "entity_or_csv_names": [
+    "pillars/erp/financials/customer-billing/manage-autoaccounting-rules/SKILL.md:95: <!-- fscr-create-fields: AR_AUTO_ACCOUNTING::Attribute1, AR_AUTO_ACCOUNTING::Attribute10, AR_AUTO_ACCOUNTING::Attribute11, AR_AUTO_ACCOUNTING::Attribute12, AR_AUTO_ACCOUNTING::Attribute13, AR_AUTO_ACCOUNTING::Attribute14",
+    "pillars/erp/financials/customer-billing/manage-autoaccounting-rules/SKILL.md:96: <!-- fscr-update-fields: AR_AUTO_ACCOUNTING::Attribute1, AR_AUTO_ACCOUNTING::Attribute10, AR_AUTO_ACCOUNTING::Attribute11, AR_AUTO_ACCOUNTING::Attribute12, AR_AUTO_ACCOUNTING::Attribute13, AR_AUTO_ACCOUNTING::Attribute14"
+   ],
+   "metadata_file_named": false,
+   "import_step": [
+    "pillars/erp/financials/customer-billing/manage-autoaccounting-rules/SKILL.md:180: 4. Import setup task data with `core.data-loader`."
+   ],
+   "required_fields_file": true,
+   "create_fields_listed": true,
+   "required_fields_lines": [
+    "pillars/erp/financials/customer-billing/manage-autoaccounting-rules/SKILL.md:88: - \"After the active Run Book and Core Data Loader complete their required preview and approval gates, the authorized FSM adapter may create or update AutoAccounting setup in the approved Fusion environment.\""
+   ]
+  },
+  {
+   "task": "FND_MANAGE_ADMINISTRATOR_PROFILE_VALUES",
+   "pillar": "HCM",
+   "path": "pillars/hcm/compensation/compensation-common/manage-administrator-profile-values/SKILL.md",
+   "routes": [
+    "FSM_CSV"
+   ],
+   "task_code_stated": true,
+   "template_or_export_step": [
+    "pillars/hcm/compensation/compensation-common/manage-administrator-profile-values/SKILL.md:35: - \"shared.setup-export.task-level-export\""
+   ],
+   "entity_or_csv_names": [],
+   "metadata_file_named": false,
+   "import_step": [
+    "pillars/hcm/compensation/compensation-common/manage-administrator-profile-values/SKILL.md:135: 4. Import setup task data with `core.data-loader`."
+   ],
+   "required_fields_file": false,
+   "create_fields_listed": false,
+   "required_fields_lines": []
+  },
+  {
+   "task": "DOO_MANAGE_ORCHESTRATION_LOOKUPS",
+   "pillar": "SCM",
+   "path": "pillars/scm/order-management/orders/manage-order-lookups/SKILL.md",
+   "routes": [
+    "FSM_CSV"
+   ],
+   "task_code_stated": true,
+   "template_or_export_step": [
+    "pillars/scm/order-management/orders/manage-order-lookups/SKILL.md:35: - \"shared.setup-export.task-level-export\""
+   ],
+   "entity_or_csv_names": [],
+   "metadata_file_named": false,
+   "import_step": [
+    "pillars/scm/order-management/orders/manage-order-lookups/SKILL.md:281: 4. Import setup task data with `core.data-loader`."
+   ],
+   "required_fields_file": false,
+   "create_fields_listed": false,
+   "required_fields_lines": []
+  },
+  {
+   "task": "ORA_ZCH_MANAGE_SOURCE_SYSTEM_CONFIDENCE",
+   "pillar": "CX",
+   "path": "pillars/cx/customer-data-management/customer-hub/manage-source-system-confidence/SKILL.md",
+   "routes": [
+    "FSM_CSV"
+   ],
+   "task_code_stated": true,
+   "template_or_export_step": [
+    "pillars/cx/customer-data-management/customer-hub/manage-source-system-confidence/SKILL.md:37: - \"shared.setup-export.task-level-export\""
+   ],
+   "entity_or_csv_names": [
+    "pillars/cx/customer-data-management/customer-hub/manage-source-system-confidence/SKILL.md:144: require its `HZ_ORIG_SYSTEMS_B.csv` export only when a value is not in the seeded catalog.",
+    "pillars/cx/customer-data-management/customer-hub/manage-source-system-confidence/SKILL.md:158: | ORA_ZCH_CONFIDENCE_LEVEL.csv | Attribute confidence levels | Yes        | assets/ORA_ZCH_CONFIDENCE_LEVEL.csv | references/confidence-levels.md | initialize from export or template and update based on user input |"
+   ],
+   "metadata_file_named": true,
+   "import_step": [
+    "pillars/cx/customer-data-management/customer-hub/manage-source-system-confidence/SKILL.md:140: 4. Import setup task data with `core.data-loader`."
+   ],
+   "required_fields_file": true,
+   "create_fields_listed": false,
+   "required_fields_lines": [
+    "pillars/cx/customer-data-management/customer-hub/manage-source-system-confidence/ora-resource/ora_dependency_readiness.md:3: ## Required Dependency Order"
+   ]
+  },
+  {
+   "task": "ASXS_MANAGE_DUTIES",
+   "pillar": "Common",
+   "path": "pillars/common/security-console/manage-duties/SKILL.md",
+   "routes": [
+    "FSM_CSV"
+   ],
+   "task_code_stated": true,
+   "template_or_export_step": [
+    "pillars/common/security-console/manage-duties/SKILL.md:4: description: \"Prepare custom duty creation, updates, deletion and redesign requests from user requirements or FSM templates; validate and execute supported Manage Duties changes through approval-gated Data Loader imports"
+   ],
+   "entity_or_csv_names": [],
+   "metadata_file_named": false,
+   "import_step": [],
+   "required_fields_file": false,
+   "create_fields_listed": false,
+   "required_fields_lines": [
+    "pillars/common/security-console/manage-duties/SKILL.md:113: and required columns, map supplied business values, and prepare a separate"
+   ]
+  },
+  {
+   "task": "AR_MANAGE_AUTOINVOICE_GROUPING_RULES",
+   "pillar": "ERP",
+   "path": "pillars/erp/financials/customer-billing/manage-autoinvoice-grouping-rules/SKILL.md",
+   "routes": [
+    "FSM_CSV"
+   ],
+   "task_code_stated": true,
+   "template_or_export_step": [
+    "pillars/erp/financials/customer-billing/manage-autoinvoice-grouping-rules/SKILL.md:35: - \"shared.setup-export.task-level-export\""
+   ],
+   "entity_or_csv_names": [
+    "pillars/erp/financials/customer-billing/manage-autoinvoice-grouping-rules/SKILL.md:94: <!-- fscr-update-fields: AR_AI_GROUPING_RULE::Description, AR_AI_GROUPING_RULE::EndDate, AR_AI_GROUPING_RULE::LineOrderingRuleName, AR_AI_GROUPING_RULE::StartDate -->",
+    "pillars/erp/financials/customer-billing/manage-autoinvoice-grouping-rules/SKILL.md:95: <!-- fscr-create-fields: AR_AI_GROUPING_RULE::Description, AR_AI_GROUPING_RULE::EndDate, AR_AI_GROUPING_RULE::LineOrderingRuleName, AR_AI_GROUPING_RULE::Name, AR_AI_GROUPING_RULE::StartDate, ORA_AR_AI_GRP_TXN_TYPE::AR_AI"
+   ],
+   "metadata_file_named": true,
+   "import_step": [
+    "pillars/erp/financials/customer-billing/manage-autoinvoice-grouping-rules/SKILL.md:139: 4. Import setup task data with `core.data-loader`."
+   ],
+   "required_fields_file": true,
+   "create_fields_listed": true,
+   "required_fields_lines": [
+    "pillars/erp/financials/customer-billing/manage-autoinvoice-grouping-rules/SKILL.md:193: For an existing-record update, resolve exactly one root by unchanged Name from a fresh same-task export. Description, StartDate, EndDate and LineOrderingRuleName have source-backed root-field update contracts. Descriptio"
+   ]
+  },
+  {
+   "task": "FND_MANAGE_DESCRIPTIVE_FLEXFIELDS",
+   "pillar": "HCM",
+   "path": "pillars/hcm/compensation/compensation-common/manage-descriptive-flexfields/SKILL.md",
+   "routes": [
+    "FSM_CSV"
+   ],
+   "task_code_stated": true,
+   "template_or_export_step": [
+    "pillars/hcm/compensation/compensation-common/manage-descriptive-flexfields/SKILL.md:35: - \"shared.setup-export.task-level-export\""
+   ],
+   "entity_or_csv_names": [],
+   "metadata_file_named": false,
+   "import_step": [
+    "pillars/hcm/compensation/compensation-common/manage-descriptive-flexfields/SKILL.md:135: 4. Import setup task data with `core.data-loader`."
+   ],
+   "required_fields_file": false,
+   "create_fields_listed": false,
+   "required_fields_lines": []
+  },
+  {
+   "task": "DOO_MANAGE_ORCHESTRATION_PROFILES",
+   "pillar": "SCM",
+   "path": "pillars/scm/order-management/orders/manage-order-profiles/SKILL.md",
+   "routes": [
+    "FSM_CSV"
+   ],
+   "task_code_stated": true,
+   "template_or_export_step": [
+    "pillars/scm/order-management/orders/manage-order-profiles/SKILL.md:35: - \"shared.setup-export.task-level-export\""
+   ],
+   "entity_or_csv_names": [],
+   "metadata_file_named": false,
+   "import_step": [
+    "pillars/scm/order-management/orders/manage-order-profiles/SKILL.md:210: 4. Import setup task data with `core.data-loader`."
+   ],
+   "required_fields_file": false,
+   "create_fields_listed": false,
+   "required_fields_lines": []
+  }
+ ]
+}

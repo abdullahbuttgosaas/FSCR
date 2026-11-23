@@ -1,0 +1,17 @@
+seq,task_code,task_name,functional_area,row_tag,catalog_offering,catalog_functional_area,catalog_display_sequence,level_run32,fscr_prerequisites_found,oracle_sourced_prerequisites
+1,EGP_MANAGE_DEFAULT_CATALOGS,Manage Functional Area Catalogs,Purchasing Categories,Purchasing,Procurement,Purchasing Categories,78,a,,
+2,EGP_MANAGE_CATALOG_ATTRIBUTES,Manage Catalog Descriptive Flexfields,Purchasing Categories,Purchasing,Procurement,Purchasing Categories,79,a,,
+3,EGP_MANAGE_CATEGORY_ATTRIBUTES,Manage Category Descriptive Flexfields,Purchasing Categories,Purchasing,Procurement,Purchasing Categories,80,a,,
+4,PO_MANAGE_CHANGE_ORDER_TEMPLATES,Manage Change Order Templates,Purchasing Foundation,Purchasing,Procurement,Purchasing Foundation,219,b,,
+5,PO_MANAGE_PURCHASING_VALUE_SETS,Manage Purchasing Value Sets,Purchasing Foundation,Purchasing,Procurement,Purchasing Foundation,220,b,,
+6,PO_MANAGE_PURCHASING_DESCRIPTIVE_FLEXFIELDS,Manage Purchasing Descriptive Flexfields,Purchasing Foundation,Purchasing,Procurement,Purchasing Foundation,221,b,,
+7,ORA_PO_MANAGE_ASSIGNMENT_RULE_SETS_LOOKUP,Manage Buyer Assignment Rule Sets Lookup,Purchasing Foundation,Purchasing,Procurement,Purchasing Foundation,224,b,,
+8,ORA_PO_MANAGE_BUYER_ASSIGNMENT_RULES,Manage Buyer Assignment Rules,Purchasing Foundation,Purchasing,Procurement,Purchasing Foundation,225,b,,ORA_PO_MANAGE_ASSIGNMENT_RULE_SETS_LOOKUP
+9,ORA_PO_MANAGE_PURCHASING_MESSAGES,Manage Purchasing Messages,Purchasing Foundation,Purchasing,Procurement,Purchasing Foundation,226,c,,
+10,PO_MANAGE_HAZARD_CLASSES,Manage Hazard Classes,Purchasing Foundation,Purchasing,Procurement,Purchasing Foundation,227,b,,
+11,PO_MANAGE_UN_NUMBERS,Manage UN Numbers,Purchasing Foundation,Purchasing,Procurement,Purchasing Foundation,228,b,,
+12,PO_MANAGE_APPROVED_SUPPLIER_LIST_STATUSES,Manage Approved Supplier List Statuses,Purchasing Foundation,Purchasing,Procurement,Purchasing Foundation,229,b,,
+13,ORA_MANAGE_EXTERNAL_PURCHASE_PRICES_REQBU_MAPPING,Manage External Purchase Prices Requisitioning BU Mapping,External Purchase Prices,Purchasing,Procurement,External Purchase Prices,438,a,,
+14,ORA_MANAGE_EXTERNAL_PURCHASE_PRICES_SELECTION_CRITERIA,Manage External Purchase Prices Selection Criteria,External Purchase Prices,Purchasing,Procurement,External Purchase Prices,439,a,,ORA_MANAGE_EXTERNAL_PURCHASE_PRICES_PA_DEFAULTS; ORA_MANAGE_EXTERNAL_PURCHASE_PRICES_REQBU_MAPPING
+15,ORA_MANAGE_EXTERNAL_PURCHASE_PRICES_PA_DEFAULTS,Manage External Purchase Prices Purchase Agreement Defaults,External Purchase Prices,Purchasing,Procurement,External Purchase Prices,440,a,,ORA_MANAGE_EXTERNAL_PURCHASE_PRICES_REQBU_MAPPING
+16,ORA_MANAGE_EXTERNAL_PURCHASE_PRICES_LOOKUPS,Manage External Purchase Prices Lookups,External Purchase Prices,Purchasing,Procurement,External Purchase Prices,442,b,,

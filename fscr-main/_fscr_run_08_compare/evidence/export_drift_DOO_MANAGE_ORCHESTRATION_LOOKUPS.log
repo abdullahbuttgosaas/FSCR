@@ -1,0 +1,4 @@
+== DOO_MANAGE_ORCHESTRATION_LOOKUPS drift start 14:24:18
+Error: Failed calling https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com/fscmRestApi/resources/11.13.18.05/setupTaskCSVExports/DOO_MANAGE_ORCHESTRATION_LOOKUPS/child/SetupTaskCSVExportProcess/100004733457672/child/SetupTaskCSVExportProcessResult?onlyData=
+Started setup task CSV export process: 100004733457672
+== DOO_MANAGE_ORCHESTRATION_LOOKUPS drift end 14:25:11

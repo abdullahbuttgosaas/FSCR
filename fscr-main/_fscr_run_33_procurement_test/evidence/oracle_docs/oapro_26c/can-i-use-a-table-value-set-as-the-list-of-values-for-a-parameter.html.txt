@@ -1,0 +1,2 @@
+URL: https://docs.oracle.com/en/cloud/saas/procurement/26c/oapro/can-i-use-a-table-value-set-as-the-list-of-values-for-a-parameter.html
+ Previous Next JavaScript must be enabled to correctly display this content Implementing Procurement Can I use a table value set as the list of values for a parameter? Can I use a table value set as the list of values for a parameter? No, you should create a list of values source instead to provide the same values for the parameter. 

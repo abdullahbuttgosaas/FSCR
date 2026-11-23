@@ -1,0 +1,2684 @@
+{
+  "Resources" : {
+    "supplierQualificationAreas" : {
+      "discrColumnType" : false,
+      "titlePlural" : "Supplier Qualification Areas",
+      "usage" : "BusinessObject",
+      "attributes" : [ {
+        "name" : "QualAreaId",
+        "type" : "string",
+        "format" : "BigInt",
+        "updatable" : true,
+        "mandatory" : true,
+        "queryable" : true,
+        "allowChanges" : "always",
+        "precision" : 18,
+        "hasDefaultValueExpression" : true,
+        "operators" : [ "=", "<>", "<", "<=", ">", ">=", "BETWEEN", "NOTBETWEEN", "ISBLANK", "ISNOTBLANK" ],
+        "properties" : {
+          "fnd:GLOBALLY_UNIQUE" : "true"
+        },
+        "annotations" : {
+          "description" : "Value that uniquely identifies the area."
+        }
+      }, {
+        "name" : "OriginalQualAreaId",
+        "type" : "string",
+        "format" : "BigInt",
+        "updatable" : true,
+        "mandatory" : false,
+        "queryable" : true,
+        "allowChanges" : "always",
+        "precision" : 18,
+        "operators" : [ "=", "<>", "<", "<=", ">", ">=", "BETWEEN", "NOTBETWEEN", "ISBLANK", "ISNOTBLANK" ],
+        "annotations" : {
+          "description" : "Value that uniquely identifies the original area."
+        }
+      }, {
+        "name" : "Revision",
+        "type" : "integer",
+        "updatable" : true,
+        "mandatory" : true,
+        "queryable" : true,
+        "allowChanges" : "always",
+        "precision" : 9,
+        "defaultValue" : 0,
+        "title" : "Revision",
+        "annotations" : {
+          "description" : "Number that identifies the revision of this area. Revision 0 is the base revision."
+        }
+      }, {
+        "name" : "QualArea",
+        "type" : "string",
+        "updatable" : true,
+        "mandatory" : true,
+        "inputRequired" : true,
+        "queryable" : true,
+        "allowChanges" : "always",
+        "precision" : 80,
+        "title" : "Qualification Area",
+        "maxLength" : "80",
+        "annotations" : {
+          "description" : "Name of the area or identifier entered by the user."
+        }
+      }, {
+        "name" : "QualAreaDescription",
+        "type" : "string",
+        "updatable" : true,
+        "mandatory" : false,
+        "queryable" : true,
+        "allowChanges" : "always",
+        "precision" : 1000,
+        "title" : "Item Description",
+        "maxLength" : "1000",
+        "properties" : {
+          "fnd:GLOBALLY_UNIQUE" : "false"
+        },
+        "annotations" : {
+          "description" : "Description of the qualification area."
+        }
+      }, {
+        "name" : "QualAreaStatus",
+        "type" : "string",
+        "updatable" : false,
+        "mandatory" : true,
+        "queryable" : true,
+        "allowChanges" : "never",
+        "precision" : 80,
+        "title" : "Status",
+        "maxLength" : "80",
+        "properties" : {
+          "DISPLAYWIDTH" : "50"
+        },
+        "annotations" : {
+          "description" : "Status of the area."
+        }
+      }, {
+        "name" : "QualAreaStatusCode",
+        "type" : "string",
+        "updatable" : true,
+        "mandatory" : true,
+        "queryable" : true,
+        "allowChanges" : "always",
+        "precision" : 30,
+        "defaultValue" : "DRAFT",
+        "title" : "Qualification Area Status Code",
+        "maxLength" : "30",
+        "annotations" : {
+          "description" : "Abbreviation that identifies the status of the area. A list of accepted values is defined in the lookup type POQ_QUAL_AREA_STATUS. Review the values for this attribute using the Setup and Maintenance work area, and the Manage Standard Lookups task."
+        }
+      }, {
+        "name" : "GlobalFlag",
+        "type" : "boolean",
+        "updatable" : true,
+        "mandatory" : true,
+        "queryable" : true,
+        "allowChanges" : "always",
+        "precision" : 1,
+        "defaultValue" : false,
+        "title" : "Global BU access",
+        "maxLength" : "1",
+        "annotations" : {
+          "description" : "Contains one of the following values: true or false. If true, then the set up object is globally accessible by all procurement business units. If false, then the set up object isn't globally accessible. The default value is false."
+        }
+      }, {
+        "name" : "InformationOnlyFlag",
+        "type" : "boolean",
+        "updatable" : true,
+        "mandatory" : false,
+        "queryable" : true,
+        "allowChanges" : "always",
+        "precision" : 1,
+        "defaultValue" : false,
+        "title" : "Information only",
+        "maxLength" : "1",
+        "annotations" : {
+          "description" : "Contains one of the following values: true or false. If true, then a qualification based on this qualification area will be evaluated or will be used for information only purposes. If false, then the qualification won't be used for information only process. The default value is false."
+        }
+      }, {
+        "name" : "LatestRevisionFlag",
+        "type" : "boolean",
+        "updatable" : true,
+        "mandatory" : false,
+        "queryable" : true,
+        "allowChanges" : "always",
+        "precision" : 1,
+        "defaultValue" : true,
+        "title" : "Latest Revision",
+        "maxLength" : "1",
+        "annotations" : {
+          "description" : "Contains one of the following values: true or false. If true, then the qualification area revision is the most recent revision. If false, then the revision of question isn't the latest. The default value is false."
+        }
+      }, {
+        "name" : "QualAreaLevelCode",
+        "type" : "string",
+        "updatable" : true,
+        "mandatory" : true,
+        "queryable" : true,
+        "allowChanges" : "always",
+        "precision" : 30,
+        "defaultValue" : "SUPPLIER",
+        "title" : "Qualification Area Level Code",
+        "maxLength" : "30",
+        "annotations" : {
+          "description" : "Abbreviation that identifies whether the area is relevant to a supplier or to a supplier site. A list of accepted values is defined in the lookup type POQ_QUAL_AREA_LEVEL. Review the values for this attribute using the Setup and Maintenance work area, and the Manage Standard Lookups task."
+        }
+      }, {
+        "name" : "QualAreaLevel",
+        "type" : "string",
+        "updatable" : false,
+        "mandatory" : true,
+        "queryable" : true,
+        "allowChanges" : "never",
+        "precision" : 80,
+        "title" : "Qualification Area Level",
+        "maxLength" : "80",
+        "properties" : {
+          "DISPLAYWIDTH" : "50"
+        },
+        "annotations" : {
+          "description" : "Value that identifies whether the area is relevant to a supplier or to a supplier site."
+        }
+      }, {
+        "name" : "ProcurementBUId",
+        "type" : "string",
+        "format" : "BigInt",
+        "updatable" : true,
+        "mandatory" : true,
+        "inputRequired" : true,
+        "queryable" : true,
+        "allowChanges" : "always",
+        "precision" : 18,
+        "operators" : [ "=", "<>", "<", "<=", ">", ">=", "BETWEEN", "NOTBETWEEN", "ISBLANK", "ISNOTBLANK" ],
+        "title" : "Owning Procurement BU ID",
+        "annotations" : {
+          "description" : "Value that uniquely identifies the owning procurement business unit."
+        }
+      }, {
+        "name" : "ProcurementBU",
+        "type" : "string",
+        "updatable" : false,
+        "mandatory" : true,
+        "queryable" : true,
+        "allowChanges" : "never",
+        "precision" : 240,
+        "title" : "Owning Procurement BU",
+        "controlType" : "choice",
+        "maxLength" : "240",
+        "properties" : {
+          "DISPLAYWIDTH" : "50"
+        },
+        "annotations" : {
+          "description" : "Name of the procurement business unit that owns the qualification area."
+        }
+      }, {
+        "name" : "OwnerId",
+        "type" : "string",
+        "format" : "BigInt",
+        "updatable" : true,
+        "mandatory" : false,
+        "queryable" : true,
+        "allowChanges" : "always",
+        "precision" : 18,
+        "hasDefaultValueExpression" : true,
+        "operators" : [ "=", "<>", "<", "<=", ">", ">=", "BETWEEN", "NOTBETWEEN", "ISBLANK", "ISNOTBLANK" ],
+        "title" : "Qualification Area Owner ID",
+        "annotations" : {
+          "description" : "Value that uniquely identifies the owner of the area."
+        }
+      }, {
+        "name" : "Owner",
+        "type" : "string",
+        "updatable" : false,
+        "mandatory" : false,
+        "queryable" : true,
+        "allowChanges" : "never",
+        "precision" : 240,
+        "title" : "Owner",
+        "maxLength" : "240",
+        "properties" : {
+          "DISPLAYWIDTH" : "30"
+        },
+        "annotations" : {
+          "description" : "Name of the person who owns the qualification area."
+        }
+      }, {
+        "name" : "SubjectCode",
+        "type" : "string",
+        "updatable" : true,
+        "mandatory" : false,
+        "queryable" : true,
+        "allowChanges" : "always",
+        "precision" : 30,
+        "title" : "Subject Code",
+        "maxLength" : "30",
+        "annotations" : {
+          "description" : "Abbreviation that identifies the subject to be associated with the area for search purposes. A list of accepted values is defined in the lookup type POQ_SUBJECT. Review the values for this attribute using the Setup and Maintenance work area, and the Manage Standard Lookups task."
+        }
+      }, {
+        "name" : "Subject",
+        "type" : "string",
+        "updatable" : false,
+        "mandatory" : true,
+        "queryable" : true,
+        "allowChanges" : "never",
+        "precision" : 80,
+        "title" : "Subject",
+        "maxLength" : "80",
+        "properties" : {
+          "DISPLAYWIDTH" : "50"
+        },
+        "annotations" : {
+          "description" : "Value that identifies the subject to be associated with the area that's used to conduct a search."
+        }
+      }, {
+        "name" : "StandardsOrganizationCode",
+        "type" : "string",
+        "updatable" : true,
+        "mandatory" : false,
+        "queryable" : true,
+        "allowChanges" : "always",
+        "precision" : 30,
+        "title" : "Standards Organization Code",
+        "maxLength" : "30",
+        "annotations" : {
+          "description" : "Abbreviation that identifies the standards organization designated as the source of this requirement. A list of accepted values is defined in the lookup type POQ_STDS_ORG. Review the values for this attribute using the Setup and Maintenance work area, and the Manage Standard Lookups task."
+        }
+      }, {
+        "name" : "StandardsOrganization",
+        "type" : "string",
+        "updatable" : false,
+        "mandatory" : true,
+        "queryable" : true,
+        "allowChanges" : "never",
+        "precision" : 80,
+        "title" : "Standards Organization",
+        "maxLength" : "80",
+        "properties" : {
+          "DISPLAYWIDTH" : "50"
+        },
+        "annotations" : {
+          "description" : "Value that identifies the standards organization designated as the source of this requirement."
+        }
+      }, {
+        "name" : "ActivationDate",
+        "type" : "datetime",
+        "updatable" : true,
+        "mandatory" : false,
+        "queryable" : true,
+        "allowChanges" : "always",
+        "annotations" : {
+          "description" : "Date and time when the area is activated."
+        }
+      }, {
+        "name" : "EnableScoringFlag",
+        "type" : "boolean",
+        "updatable" : true,
+        "mandatory" : false,
+        "queryable" : true,
+        "allowChanges" : "always",
+        "precision" : 1,
+        "defaultValue" : false,
+        "title" : "Enable scoring",
+        "maxLength" : "1",
+        "annotations" : {
+          "description" : "Contains one of the following values: true or false. If true, then scoring is enabled on the qualification area. If false, then scoring not enabled. The default value is false."
+        }
+      }, {
+        "name" : "AutoAcceptResponsesFlag",
+        "type" : "boolean",
+        "updatable" : true,
+        "mandatory" : false,
+        "queryable" : true,
+        "allowChanges" : "always",
+        "precision" : 1,
+        "defaultValue" : false,
+        "title" : "Automatically accept responses",
+        "maxLength" : "1",
+        "annotations" : {
+          "description" : "Contains one of the following values: true or false. If true, then the responses to the questions in this qualification will be automatically accepted. If false, then automatic acceptance is disabled. The default value is false."
+        }
+      }, {
+        "name" : "AutoPopulateResponsesFlag",
+        "type" : "boolean",
+        "updatable" : true,
+        "mandatory" : false,
+        "queryable" : true,
+        "allowChanges" : "always",
+        "precision" : 1,
+        "defaultValue" : true,
+        "title" : "Automatically populate responses",
+        "maxLength" : "1",
+        "annotations" : {
+          "description" : "Contains one of the following values: true or false. If true, then question responses should be defaulted from the existing responses in the response repository when responders respond to a questionnaire containing the qualification area. If false, then the responses aren't defaulted. The default value is false."
+        }
+      }, {
+        "name" : "AutoEvaluateQualFlag",
+        "type" : "boolean",
+        "updatable" : true,
+        "mandatory" : false,
+        "queryable" : true,
+        "allowChanges" : "always",
+        "precision" : 1,
+        "defaultValue" : false,
+        "title" : "Automatically evaluate qualification",
+        "maxLength" : "1",
+        "annotations" : {
+          "description" : "Contains one of the following values: true or false. If true, then the qualification created based on the qualification area will be automatically evaluated. If false, then automatic evaluation is disabled. The default value is false."
+        }
+      }, {
+        "name" : "ExpirationReminderTypeCode",
+        "type" : "string",
+        "updatable" : true,
+        "mandatory" : false,
+        "queryable" : true,
+        "allowChanges" : "always",
+        "precision" : 30,
+        "title" : "Expiration Reminder Type Code",
+        "maxLength" : "30",
+        "annotations" : {
+          "description" : "Abbreviation that identifies the unit of time to indicate days, weeks, and months."
+        }
+      }, {
+        "name" : "ExpirationReminderType",
+        "type" : "string",
+        "updatable" : false,
+        "mandatory" : true,
+        "queryable" : true,
+        "allowChanges" : "never",
+        "precision" : 80,
+        "title" : "Expiration Reminder Type",
+        "controlType" : "choice",
+        "maxLength" : "80",
+        "properties" : {
+          "DISPLAYWIDTH" : "50"
+        },
+        "annotations" : {
+          "description" : "Unit of time to indicate days, weeks, or months."
+        }
+      }, {
+        "name" : "ExpirationReminderPeriod",
+        "type" : "integer",
+        "updatable" : true,
+        "mandatory" : false,
+        "queryable" : true,
+        "allowChanges" : "always",
+        "precision" : 3,
+        "annotations" : {
+          "description" : "Period during which the application alerts the owner about the expiration of a qualification."
+        }
+      }, {
+        "name" : "RequalifyExpirationFlag",
+        "type" : "boolean",
+        "updatable" : true,
+        "mandatory" : false,
+        "queryable" : true,
+        "allowChanges" : "always",
+        "precision" : 1,
+        "defaultValue" : false,
+        "title" : "On qualification expiration",
+        "maxLength" : "1",
+        "annotations" : {
+          "description" : "Contains one of the following values: true or false. If true, then the qualification automatically requalify on expiration of the corresponding qualification. If false, then don't automatically requalify. The default value is false."
+        }
+      }, {
+        "name" : "QualificationDurationTypeCode",
+        "type" : "string",
+        "updatable" : true,
+        "mandatory" : false,
+        "queryable" : true,
+        "allowChanges" : "always",
+        "precision" : 30,
+        "title" : "Qualification Duration Type Code",
+        "maxLength" : "30",
+        "annotations" : {
+          "description" : "Abbreviation that identifies the duration for which the qualification is valid."
+        }
+      }, {
+        "name" : "QualificationDurationType",
+        "type" : "string",
+        "updatable" : false,
+        "mandatory" : true,
+        "queryable" : true,
+        "allowChanges" : "never",
+        "precision" : 80,
+        "title" : "Qualification Duration Type",
+        "maxLength" : "80",
+        "properties" : {
+          "DISPLAYWIDTH" : "50"
+        },
+        "annotations" : {
+          "description" : "Indicates the type of expiration reminder duration, days, weeks, or months."
+        }
+      }, {
+        "name" : "QualificationDuration",
+        "type" : "integer",
+        "updatable" : true,
+        "mandatory" : false,
+        "queryable" : false,
+        "allowChanges" : "always",
+        "precision" : 9,
+        "title" : "Qualification Duration",
+        "annotations" : {
+          "description" : "Duration for which the qualification is valid."
+        }
+      }, {
+        "name" : "ShowQualToSupplierFlag",
+        "type" : "boolean",
+        "updatable" : true,
+        "mandatory" : false,
+        "queryable" : true,
+        "allowChanges" : "always",
+        "precision" : 1,
+        "title" : "Share qualification with supplier",
+        "maxLength" : "1",
+        "annotations" : {
+          "description" : "Contains one of the following values: true or false. If true, then share the response summary with the corresponding supplier. If false, then don't share. The default value is false."
+        }
+      }, {
+        "name" : "ShowQualSuppRespFlag",
+        "type" : "boolean",
+        "updatable" : true,
+        "mandatory" : false,
+        "queryable" : true,
+        "allowChanges" : "always",
+        "precision" : 1,
+        "title" : "Supplier response",
+        "maxLength" : "1",
+        "annotations" : {
+          "description" : "Contains one of the following values: true or false. If true, then share the supplier responses with the corresponding supplier. If false, then don't share. The default value is false."
+        }
+      }, {
+        "name" : "ShowQualInterRespFlag",
+        "type" : "boolean",
+        "updatable" : true,
+        "mandatory" : false,
+        "queryable" : true,
+        "allowChanges" : "always",
+        "precision" : 1,
+        "title" : "Internal response",
+        "maxLength" : "1",
+        "annotations" : {
+          "description" : "Contains one of the following values: true or false. If true, then share the response of the internal responder with the corresponding supplier. If false, then don't share. The default value is false."
+        }
+      }, {
+        "name" : "NoteToSupplier",
+        "type" : "string",
+        "updatable" : true,
+        "mandatory" : false,
+        "queryable" : true,
+        "allowChanges" : "always",
+        "precision" : 1000,
+        "title" : "Note to Supplier",
+        "maxLength" : "1000",
+        "annotations" : {
+          "description" : "Value to indicate note to the supplier about the qualification."
+        }
+      }, {
+        "name" : "RequalifyResponseFlag",
+        "type" : "boolean",
+        "updatable" : true,
+        "mandatory" : false,
+        "queryable" : true,
+        "allowChanges" : "always",
+        "precision" : 1,
+        "title" : "On new response",
+        "maxLength" : "1",
+        "annotations" : {
+          "description" : "Contains one of the following values: true or false. If true, then qualification will automatically requalify for a new response of the corresponding qualification. If false, then don't automatically requalify. The default value is false."
+        }
+      }, {
+        "name" : "SingleQualAutoInitFlag",
+        "type" : "boolean",
+        "updatable" : true,
+        "mandatory" : false,
+        "queryable" : true,
+        "allowChanges" : "always",
+        "precision" : 1,
+        "title" : "Automatic initiative with single qualification",
+        "maxLength" : "1",
+        "annotations" : {
+          "description" : "Contains one of the following values: true or false. If true, then the qualification area is automatically initiated with single qualification. If false, then don't automatically initiate. The default value is false."
+        }
+      }, {
+        "name" : "QualificationOwnerId",
+        "type" : "string",
+        "format" : "BigInt",
+        "updatable" : true,
+        "mandatory" : false,
+        "queryable" : true,
+        "allowChanges" : "always",
+        "precision" : 18,
+        "operators" : [ "=", "<>", "<", "<=", ">", ">=", "BETWEEN", "NOTBETWEEN", "ISBLANK", "ISNOTBLANK" ],
+        "title" : "Default Qualification Owner ID",
+        "annotations" : {
+          "description" : "Value that uniquely identifies the default owner of the corresponding qualification."
+        }
+      }, {
+        "name" : "QualificationOwnerName",
+        "type" : "string",
+        "updatable" : false,
+        "mandatory" : false,
+        "queryable" : true,
+        "allowChanges" : "never",
+        "precision" : 240,
+        "title" : "Default Qualification Owner",
+        "maxLength" : "240",
+        "properties" : {
+          "DISPLAYWIDTH" : "30"
+        },
+        "annotations" : {
+          "description" : "Name of the default owner of the corresponding qualification."
+        }
+      }, {
+        "name" : "QualAreaSurveyFlag",
+        "type" : "boolean",
+        "updatable" : true,
+        "mandatory" : true,
+        "queryable" : true,
+        "allowChanges" : "always",
+        "precision" : 1,
+        "defaultValue" : false,
+        "title" : "Internal survey",
+        "maxLength" : "1",
+        "annotations" : {
+          "description" : "Contains one of the following values: true or false. If true, use responses from multiple internal responders for evaluation of the qualification. If false, then allow response from a single internal responder for evaluation of the qualification. The default value is false."
+        }
+      }, {
+        "name" : "SectionName",
+        "type" : "string",
+        "updatable" : true,
+        "mandatory" : true,
+        "inputRequired" : true,
+        "queryable" : true,
+        "allowChanges" : "always",
+        "precision" : 80,
+        "title" : "Section Name",
+        "maxLength" : "80",
+        "annotations" : {
+          "description" : "Name of the section that will be used in a questionnaire."
+        }
+      }, {
+        "name" : "HasInactiveQuestionFlag",
+        "type" : "boolean",
+        "updatable" : false,
+        "mandatory" : false,
+        "queryable" : true,
+        "allowChanges" : "never",
+        "precision" : 255,
+        "maxLength" : "255",
+        "annotations" : {
+          "description" : "Indicates that there is an inactive question within the qualification area."
+        }
+      } ],
+      "collection" : {
+        "rangeSize" : 25,
+        "finders" : [ {
+          "name" : "FindAreasForBU",
+          "title" : "QualAreaByBUAccessibility",
+          "annotations" : {
+            "description" : "Finds the qualification areas for the given business unit."
+          },
+          "attributes" : [ {
+            "name" : "BindProcurementBuId",
+            "type" : "string",
+            "format" : "BigInt",
+            "updatable" : true,
+            "required" : "Optional",
+            "queryable" : false,
+            "allowChanges" : "always",
+            "annotations" : {
+              "description" : "Value that uniquely identifies the qualification area specific to a given business unit."
+            }
+          } ]
+        }, {
+          "name" : "PrimaryKey",
+          "annotations" : {
+            "description" : "Finds unique areas according to the area identifier."
+          },
+          "attributes" : [ {
+            "name" : "QualAreaId",
+            "type" : "string",
+            "format" : "BigInt",
+            "updatable" : true,
+            "mandatory" : true,
+            "queryable" : true,
+            "allowChanges" : "always",
+            "precision" : 18,
+            "hasDefaultValueExpression" : true,
+            "properties" : {
+              "fnd:GLOBALLY_UNIQUE" : "true"
+            },
+            "annotations" : {
+              "description" : "Value that uniquely identifies the area."
+            }
+          } ]
+        } ],
+        "links" : [ {
+          "rel" : "self",
+          "href" : "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/supplierQualificationAreas",
+          "name" : "self",
+          "kind" : "collection"
+        } ],
+        "actions" : [ {
+          "name" : "get",
+          "method" : "GET",
+          "responseType" : [ "application/vnd.oracle.adf.resourcecollection+json", "application/json" ],
+          "annotations" : {
+            "title" : "Get all areas"
+          }
+        } ]
+      },
+      "item" : {
+        "links" : [ {
+          "rel" : "child",
+          "href" : "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/supplierQualificationAreas/{id}/child/attachments",
+          "name" : "attachments",
+          "kind" : "collection",
+          "cardinality" : {
+            "value" : "1 to *",
+            "sourceAttributes" : "QualAreaId, AttachmentEntityName",
+            "destinationAttributes" : "Pk1Value, EntityName"
+          }
+        }, {
+          "rel" : "child",
+          "href" : "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/supplierQualificationAreas/{id}/child/businessUnits",
+          "name" : "businessUnits",
+          "kind" : "collection",
+          "cardinality" : {
+            "value" : "1 to *",
+            "sourceAttributes" : "QualAreaId",
+            "destinationAttributes" : "QualAreaId"
+          }
+        }, {
+          "rel" : "child",
+          "href" : "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/supplierQualificationAreas/{id}/child/outcomes",
+          "name" : "outcomes",
+          "kind" : "collection",
+          "cardinality" : {
+            "value" : "1 to *",
+            "sourceAttributes" : "QualAreaId",
+            "destinationAttributes" : "QualAreaId"
+          }
+        }, {
+          "rel" : "child",
+          "href" : "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/supplierQualificationAreas/{id}/child/questions",
+          "name" : "questions",
+          "kind" : "collection",
+          "cardinality" : {
+            "value" : "1 to *",
+            "sourceAttributes" : "QualAreaId",
+            "destinationAttributes" : "QualAreaId"
+          }
+        }, {
+          "rel" : "self",
+          "href" : "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/supplierQualificationAreas/{id}",
+          "name" : "self",
+          "kind" : "item"
+        }, {
+          "rel" : "canonical",
+          "href" : "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/supplierQualificationAreas/{id}",
+          "name" : "canonical",
+          "kind" : "item"
+        }, {
+          "rel" : "action",
+          "href" : "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/supplierQualificationAreas/{id}/action/getQuestionBranching",
+          "name" : "getQuestionBranching",
+          "kind" : "other"
+        } ],
+        "actions" : [ {
+          "name" : "get",
+          "method" : "GET",
+          "responseType" : [ "application/vnd.oracle.adf.resourceitem+json", "application/json" ],
+          "annotations" : {
+            "title" : "Get one area"
+          }
+        }, {
+          "name" : "getQuestionBranching",
+          "batchEnabled" : false,
+          "resultType" : "array",
+          "typeProperties" : {
+            "itemType" : "object",
+            "typeProperties" : {
+              "itemType" : "string"
+            }
+          },
+          "method" : "POST",
+          "requestType" : [ "application/vnd.oracle.adf.action+json" ],
+          "responseType" : [ "application/vnd.oracle.adf.actionresult+json", "application/json" ],
+          "annotations" : {
+            "title" : "Get question hierarchy",
+            "description" : "Fetches the question hierarchy, including root and branching questions.",
+            "return" : {
+              "description" : "If the request is successful, this action returns the question hierarchy, including root and branching questions."
+            }
+          }
+        } ]
+      },
+      "annotations" : {
+        "description" : "The Supplier Qualification Areas resource gets the areas in supplier qualification management along with the underlying questions.<br>You must have the necessary roles and privileges to use this REST resource. For additional details, refer to the Job Roles and Privileges and Status Codes topics."
+      },
+      "children" : {
+        "attachments" : {
+          "discrColumnType" : true,
+          "title" : "Attachments",
+          "titlePlural" : "Attachments",
+          "attributes" : [ {
+            "name" : "AttachedDocumentId",
+            "type" : "string",
+            "format" : "BigInt",
+            "updatable" : true,
+            "mandatory" : true,
+            "queryable" : true,
+            "allowChanges" : "inCreate",
+            "precision" : 18,
+            "hasDefaultValueExpression" : true,
+            "operators" : [ "=", "<>", "<", "<=", ">", ">=", "BETWEEN", "NOTBETWEEN", "ISBLANK", "ISNOTBLANK" ],
+            "title" : "Attached Document Id",
+            "includeInCompactView" : true,
+            "properties" : {
+              "fnd:FND_AUDIT_ATTR_ENABLED" : "true",
+              "fnd:GLOBALLY_UNIQUE" : "true"
+            },
+            "annotations" : {
+              "description" : "The unique identifier of the attached document."
+            }
+          }, {
+            "name" : "LastUpdateDate",
+            "type" : "datetime",
+            "updatable" : false,
+            "mandatory" : true,
+            "queryable" : true,
+            "allowChanges" : "never",
+            "title" : "Last Update Date",
+            "includeInCompactView" : true,
+            "properties" : {
+              "FMT_FORMAT" : "d-MMM-yyyy HH:mm:ss"
+            },
+            "annotations" : {
+              "description" : "The date when the record was last updated."
+            }
+          }, {
+            "name" : "LastUpdatedBy",
+            "type" : "string",
+            "updatable" : false,
+            "mandatory" : true,
+            "queryable" : true,
+            "allowChanges" : "never",
+            "precision" : 255,
+            "title" : "Last Updated By",
+            "includeInCompactView" : true,
+            "maxLength" : "255",
+            "annotations" : {
+              "description" : "The user who last updated the record."
+            }
+          }, {
+            "name" : "DatatypeCode",
+            "type" : "string",
+            "updatable" : true,
+            "mandatory" : true,
+            "queryable" : true,
+            "allowChanges" : "always",
+            "precision" : 30,
+            "defaultValue" : "FILE",
+            "title" : "Type",
+            "includeInCompactView" : true,
+            "maxLength" : "30",
+            "properties" : {
+              "fnd:FND_AUDIT_ATTR_ENABLED" : "true"
+            },
+            "annotations" : {
+              "description" : "A value that indicates the data type."
+            }
+          }, {
+            "name" : "FileName",
+            "type" : "string",
+            "updatable" : true,
+            "mandatory" : false,
+            "queryable" : true,
+            "allowChanges" : "always",
+            "precision" : 2048,
+            "title" : "File Name",
+            "includeInCompactView" : true,
+            "maxLength" : "2048",
+            "properties" : {
+              "fnd:FND_AUDIT_ATTR_ENABLED" : "true"
+            },
+            "annotations" : {
+              "description" : "The file name of the attachment."
+            }
+          }, {
+            "name" : "DmFolderPath",
+            "type" : "string",
+            "updatable" : true,
+            "mandatory" : false,
+            "queryable" : true,
+            "allowChanges" : "always",
+            "precision" : 1000,
+            "title" : "Dm Folder Path",
+            "includeInCompactView" : true,
+            "maxLength" : "1000",
+            "properties" : {
+              "fnd:FND_AUDIT_ATTR_ENABLED" : "true"
+            },
+            "annotations" : {
+              "description" : "The folder path from which the attachment is created."
+            }
+          }, {
+            "name" : "DmDocumentId",
+            "type" : "string",
+            "updatable" : true,
+            "mandatory" : false,
+            "queryable" : true,
+            "allowChanges" : "always",
+            "precision" : 255,
+            "includeInCompactView" : true,
+            "maxLength" : "255",
+            "properties" : {
+              "fnd:FND_AUDIT_ATTR_ENABLED" : "true",
+              "fnd:OA_TRANSLATABLE" : "true"
+            },
+            "annotations" : {
+              "description" : "The document ID from which the attachment is created."
+            }
+          }, {
+            "name" : "DmVersionNumber",
+            "type" : "string",
+            "updatable" : true,
+            "mandatory" : false,
+            "queryable" : true,
+            "allowChanges" : "always",
+            "precision" : 255,
+            "includeInCompactView" : true,
+            "maxLength" : "255",
+            "properties" : {
+              "fnd:FND_AUDIT_ATTR_ENABLED" : "true"
+            },
+            "annotations" : {
+              "description" : "The document version number from which the attachment is created."
+            }
+          }, {
+            "name" : "Url",
+            "type" : "string",
+            "updatable" : true,
+            "mandatory" : false,
+            "queryable" : true,
+            "allowChanges" : "always",
+            "precision" : 4000,
+            "title" : "Url",
+            "includeInCompactView" : true,
+            "maxLength" : "4000",
+            "properties" : {
+              "fnd:FND_AUDIT_ATTR_ENABLED" : "true"
+            },
+            "annotations" : {
+              "description" : "The URL of a web page type attachment."
+            }
+          }, {
+            "name" : "CategoryName",
+            "type" : "string",
+            "updatable" : true,
+            "mandatory" : false,
+            "queryable" : true,
+            "allowChanges" : "always",
+            "precision" : 30,
+            "title" : "Category",
+            "includeInCompactView" : true,
+            "maxLength" : "30",
+            "properties" : {
+              "fnd:FND_AUDIT_ATTR_ENABLED" : "true"
+            },
+            "annotations" : {
+              "description" : "The category of the attachment."
+            }
+          }, {
+            "name" : "UserName",
+            "type" : "string",
+            "updatable" : false,
+            "mandatory" : true,
+            "queryable" : true,
+            "allowChanges" : "never",
+            "precision" : 255,
+            "title" : "User Name",
+            "includeInCompactView" : true,
+            "maxLength" : "255",
+            "properties" : {
+              "fnd:FND_AUDIT_ATTR_ENABLED" : "false"
+            },
+            "annotations" : {
+              "description" : "The login credentials of the user who created the attachment."
+            }
+          }, {
+            "name" : "Uri",
+            "type" : "string",
+            "updatable" : true,
+            "mandatory" : false,
+            "queryable" : true,
+            "allowChanges" : "always",
+            "precision" : 4000,
+            "title" : "Uri",
+            "includeInCompactView" : true,
+            "maxLength" : "4000",
+            "properties" : {
+              "fnd:FND_AUDIT_ATTR_ENABLED" : "false"
+            },
+            "annotations" : {
+              "description" : "The URI of a Topology Manager type attachment."
+            }
+          }, {
+            "name" : "FileUrl",
+            "type" : "string",
+            "updatable" : true,
+            "mandatory" : false,
+            "queryable" : false,
+            "allowChanges" : "always",
+            "title" : "File Url",
+            "includeInCompactView" : true,
+            "properties" : {
+              "fnd:FND_AUDIT_ATTR_ENABLED" : "false"
+            },
+            "annotations" : {
+              "description" : "The URI of the file."
+            }
+          }, {
+            "name" : "UploadedText",
+            "type" : "string",
+            "updatable" : true,
+            "mandatory" : false,
+            "queryable" : false,
+            "allowChanges" : "always",
+            "title" : "Uploaded Text",
+            "includeInCompactView" : true,
+            "properties" : {
+              "fnd:FND_AUDIT_ATTR_ENABLED" : "false"
+            },
+            "annotations" : {
+              "description" : "The text content for a new text attachment."
+            }
+          }, {
+            "name" : "UploadedFileContentType",
+            "type" : "string",
+            "updatable" : true,
+            "mandatory" : false,
+            "queryable" : false,
+            "allowChanges" : "always",
+            "title" : "Uploaded File Content Type",
+            "includeInCompactView" : true,
+            "properties" : {
+              "fnd:FND_AUDIT_ATTR_ENABLED" : "false"
+            },
+            "annotations" : {
+              "description" : "The content type of the attachment."
+            }
+          }, {
+            "name" : "UploadedFileLength",
+            "type" : "string",
+            "format" : "BigInt",
+            "updatable" : true,
+            "mandatory" : false,
+            "queryable" : false,
+            "allowChanges" : "always",
+            "operators" : [ "=", "<>", "<", "<=", ">", ">=", "BETWEEN", "NOTBETWEEN", "ISBLANK", "ISNOTBLANK" ],
+            "title" : "File Size",
+            "includeInCompactView" : true,
+            "properties" : {
+              "fnd:FND_AUDIT_ATTR_ENABLED" : "false"
+            },
+            "annotations" : {
+              "description" : "The size of the attachment file."
+            }
+          }, {
+            "name" : "UploadedFileName",
+            "type" : "string",
+            "updatable" : true,
+            "mandatory" : false,
+            "queryable" : false,
+            "allowChanges" : "always",
+            "title" : "Uploaded File Name",
+            "includeInCompactView" : true,
+            "properties" : {
+              "fnd:FND_AUDIT_ATTR_ENABLED" : "false"
+            },
+            "annotations" : {
+              "description" : "The name to assign to a new attachment file."
+            }
+          }, {
+            "name" : "ContentRepositoryFileShared",
+            "type" : "boolean",
+            "updatable" : true,
+            "mandatory" : false,
+            "queryable" : false,
+            "allowChanges" : "always",
+            "title" : "Shared",
+            "includeInCompactView" : true,
+            "properties" : {
+              "fnd:FND_AUDIT_ATTR_ENABLED" : "false"
+            },
+            "annotations" : {
+              "description" : "Indicates whether the attachment is shared"
+            }
+          }, {
+            "name" : "Title",
+            "type" : "string",
+            "updatable" : true,
+            "mandatory" : false,
+            "queryable" : false,
+            "allowChanges" : "always",
+            "title" : "Title",
+            "includeInCompactView" : true,
+            "properties" : {
+              "fnd:FND_AUDIT_ATTR_ENABLED" : "false"
+            },
+            "annotations" : {
+              "description" : "The title of the attachment."
+            }
+          }, {
+            "name" : "Description",
+            "type" : "string",
+            "updatable" : true,
+            "mandatory" : false,
+            "queryable" : false,
+            "allowChanges" : "always",
+            "precision" : 255,
+            "title" : "Item Description",
+            "includeInCompactView" : true,
+            "maxLength" : "255",
+            "properties" : {
+              "fnd:FND_AUDIT_ATTR_ENABLED" : "false"
+            },
+            "annotations" : {
+              "description" : "The description of the attachment."
+            }
+          }, {
+            "name" : "ErrorStatusCode",
+            "type" : "string",
+            "updatable" : true,
+            "mandatory" : false,
+            "queryable" : false,
+            "allowChanges" : "always",
+            "title" : "Error Status Code",
+            "includeInCompactView" : true,
+            "properties" : {
+              "fnd:FND_AUDIT_ATTR_ENABLED" : "false"
+            },
+            "annotations" : {
+              "description" : "The error code, if any, for the attachment."
+            }
+          }, {
+            "name" : "ErrorStatusMessage",
+            "type" : "string",
+            "updatable" : true,
+            "mandatory" : false,
+            "queryable" : false,
+            "allowChanges" : "always",
+            "title" : "Error Status Message",
+            "includeInCompactView" : true,
+            "properties" : {
+              "fnd:FND_AUDIT_ATTR_ENABLED" : "false"
+            },
+            "annotations" : {
+              "description" : "The error message, if any, for the attachment."
+            }
+          }, {
+            "name" : "CreatedBy",
+            "type" : "string",
+            "updatable" : false,
+            "mandatory" : true,
+            "queryable" : true,
+            "allowChanges" : "never",
+            "precision" : 255,
+            "title" : "Created By",
+            "includeInCompactView" : true,
+            "maxLength" : "255",
+            "annotations" : {
+              "description" : "The user who created the record."
+            }
+          }, {
+            "name" : "CreationDate",
+            "type" : "datetime",
+            "updatable" : false,
+            "mandatory" : true,
+            "queryable" : true,
+            "allowChanges" : "never",
+            "title" : "Creation Date",
+            "includeInCompactView" : true,
+            "annotations" : {
+              "description" : "The date when the record was created."
+            }
+          }, {
+            "name" : "FileContents",
+            "type" : "attachment",
+            "updatable" : true,
+            "mandatory" : false,
+            "queryable" : false,
+            "allowChanges" : "always",
+            "title" : "File Contents",
+            "properties" : {
+              "XML_ELEMENT" : "#hide"
+            },
+            "actions" : [ {
+              "name" : "replace",
+              "method" : "PUT",
+              "requestType" : [ "application/octet-stream" ]
+            }, {
+              "name" : "delete",
+              "method" : "DELETE"
+            }, {
+              "name" : "get",
+              "method" : "GET",
+              "responseType" : [ "application/octet-stream" ]
+            } ],
+            "annotations" : {
+              "description" : "The contents of the attachment."
+            }
+          }, {
+            "name" : "ExpirationDate",
+            "type" : "datetime",
+            "updatable" : true,
+            "mandatory" : false,
+            "queryable" : true,
+            "allowChanges" : "always",
+            "title" : "Expiration Date",
+            "includeInCompactView" : true,
+            "annotations" : {
+              "description" : "The expiration date of the contents in the attachment."
+            }
+          }, {
+            "name" : "LastUpdatedByUserName",
+            "type" : "string",
+            "updatable" : false,
+            "mandatory" : false,
+            "queryable" : true,
+            "allowChanges" : "never",
+            "title" : "Last Updated By User",
+            "includeInCompactView" : true,
+            "properties" : {
+              "fnd:FND_AUDIT_ATTR_ENABLED" : "false"
+            },
+            "annotations" : {
+              "description" : "The user name who last updated the record."
+            }
+          }, {
+            "name" : "CreatedByUserName",
+            "type" : "string",
+            "updatable" : false,
+            "mandatory" : false,
+            "queryable" : true,
+            "allowChanges" : "never",
+            "title" : "Created By User Name",
+            "includeInCompactView" : true,
+            "properties" : {
+              "fnd:FND_AUDIT_ATTR_ENABLED" : "false"
+            },
+            "annotations" : {
+              "description" : "The user name who created the record."
+            }
+          }, {
+            "name" : "AsyncTrackerId",
+            "type" : "string",
+            "updatable" : true,
+            "mandatory" : false,
+            "queryable" : false,
+            "allowChanges" : "inCreate",
+            "title" : "Asynchronous Upload Tracker Id",
+            "includeInCompactView" : true,
+            "properties" : {
+              "DESCRIPTION" : "The identifier used to track asynchronous background uploads of file contents.  This field can only be used when the DatatypeCode=\"FILE\".  When queried it will only show when the ErrorCode=\"Pending\" which signifies that a background upload has been registered but not yet completed.  The async tracker id can only be set upon creation of an attachment.  If the FileContents and tracker id are set then the tracker will be ignored.",
+              "DISPLAYHINT" : "Hide",
+              "PAYLOADHINT" : "Show"
+            },
+            "annotations" : {
+              "description" : "Attribute provided for the exclusive use by the Attachment UI components to assist in uploading files."
+            }
+          }, {
+            "name" : "FileWebImage",
+            "type" : "attachment",
+            "updatable" : false,
+            "mandatory" : false,
+            "queryable" : false,
+            "allowChanges" : "never",
+            "title" : "File Web Image",
+            "properties" : {
+              "PAYLOADHINT" : "Show",
+              "TOOLTIP" : "The base64 encoded image of the file displayed in .png format if the source is a convertible image.",
+              "XML_ELEMENT" : "#hide"
+            },
+            "actions" : [ {
+              "name" : "get",
+              "method" : "GET",
+              "responseType" : [ "application/octet-stream" ]
+            } ],
+            "annotations" : {
+              "description" : "The base64 encoded image of the file displayed in .png format if the source is a convertible image."
+            }
+          }, {
+            "name" : "DownloadInfo",
+            "type" : "string",
+            "updatable" : true,
+            "mandatory" : false,
+            "queryable" : false,
+            "allowChanges" : "always",
+            "title" : "DownloadInfo",
+            "includeInCompactView" : true,
+            "properties" : {
+              "fnd:FND_AUDIT_ATTR_ENABLED" : "false"
+            },
+            "annotations" : {
+              "description" : "JSON object represented as a string containing information used to programmatically retrieve a file attachment."
+            }
+          }, {
+            "name" : "PostProcessingAction",
+            "type" : "string",
+            "updatable" : true,
+            "mandatory" : false,
+            "queryable" : false,
+            "allowChanges" : "always",
+            "includeInCompactView" : true,
+            "properties" : {
+              "fnd:FND_AUDIT_ATTR_ENABLED" : "false"
+            },
+            "annotations" : {
+              "description" : "The name of the action that can be performed after an attachment is uploaded."
+            }
+          } ],
+          "collection" : {
+            "rangeSize" : 0,
+            "finders" : [ {
+              "name" : "PrimaryKey",
+              "annotations" : {
+                "description" : "Finds the attached document with the specified primary key."
+              },
+              "attributes" : [ {
+                "name" : "AttachedDocumentId",
+                "type" : "string",
+                "format" : "BigInt",
+                "updatable" : true,
+                "mandatory" : true,
+                "queryable" : true,
+                "allowChanges" : "inCreate",
+                "precision" : 18,
+                "hasDefaultValueExpression" : true,
+                "title" : "Attached Document Id",
+                "includeInCompactView" : true,
+                "properties" : {
+                  "fnd:FND_AUDIT_ATTR_ENABLED" : "true",
+                  "fnd:GLOBALLY_UNIQUE" : "true"
+                },
+                "annotations" : {
+                  "description" : "The unique identifier of the attached document."
+                }
+              } ]
+            } ],
+            "links" : [ {
+              "rel" : "self",
+              "href" : "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/supplierQualificationAreas/{id}/child/attachments",
+              "name" : "self",
+              "kind" : "collection"
+            } ],
+            "actions" : [ {
+              "name" : "get",
+              "method" : "GET",
+              "responseType" : [ "application/vnd.oracle.adf.resourcecollection+json", "application/json" ],
+              "annotations" : {
+                "title" : "Get all attachments"
+              }
+            } ]
+          },
+          "item" : {
+            "links" : [ {
+              "rel" : "self",
+              "href" : "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/supplierQualificationAreas/{id}/child/attachments/{id}",
+              "name" : "self",
+              "kind" : "item"
+            }, {
+              "rel" : "parent",
+              "href" : "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/supplierQualificationAreas/{id}",
+              "name" : "parent",
+              "kind" : "item"
+            }, {
+              "rel" : "canonical",
+              "href" : "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/supplierQualificationAreas/{id}/child/attachments/{id}",
+              "name" : "canonical",
+              "kind" : "item"
+            }, {
+              "rel" : "enclosure",
+              "href" : "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/supplierQualificationAreas/{id}/child/attachments/{id}/enclosure/FileContents",
+              "name" : "FileContents",
+              "kind" : "other"
+            }, {
+              "rel" : "enclosure",
+              "href" : "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/supplierQualificationAreas/{id}/child/attachments/{id}/enclosure/FileWebImage",
+              "name" : "FileWebImage",
+              "kind" : "other"
+            } ],
+            "actions" : [ {
+              "name" : "get",
+              "method" : "GET",
+              "responseType" : [ "application/vnd.oracle.adf.resourceitem+json", "application/json" ],
+              "annotations" : {
+                "title" : "Get an attachment"
+              }
+            } ]
+          },
+          "annotations" : {
+            "description" : "The attachments resource is used to view, create, and update attachments."
+          },
+          "links" : [ {
+            "rel" : "self",
+            "href" : "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/supplierQualificationAreas/{id}/child/attachments/describe",
+            "name" : "self",
+            "kind" : "describe"
+          }, {
+            "rel" : "canonical",
+            "href" : "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/supplierQualificationAreas/{id}/child/attachments/describe",
+            "name" : "canonical",
+            "kind" : "describe"
+          } ]
+        },
+        "businessUnits" : {
+          "discrColumnType" : false,
+          "titlePlural" : "Business Units",
+          "attributes" : [ {
+            "name" : "QualAreaBUAccessId",
+            "type" : "string",
+            "format" : "BigInt",
+            "updatable" : true,
+            "mandatory" : true,
+            "queryable" : true,
+            "allowChanges" : "always",
+            "precision" : 18,
+            "hasDefaultValueExpression" : true,
+            "operators" : [ "=", "<>", "<", "<=", ">", ">=", "BETWEEN", "NOTBETWEEN", "ISBLANK", "ISNOTBLANK" ],
+            "properties" : {
+              "fnd:GLOBALLY_UNIQUE" : "true"
+            },
+            "annotations" : {
+              "description" : "Value that uniquely identifies the area business unit."
+            }
+          }, {
+            "name" : "QualAreaId",
+            "type" : "string",
+            "format" : "BigInt",
+            "updatable" : true,
+            "mandatory" : true,
+            "inputRequired" : true,
+            "queryable" : true,
+            "allowChanges" : "always",
+            "precision" : 18,
+            "operators" : [ "=", "<>", "<", "<=", ">", ">=", "BETWEEN", "NOTBETWEEN", "ISBLANK", "ISNOTBLANK" ],
+            "annotations" : {
+              "description" : "Finds the qualification areas for the given business unit."
+            }
+          }, {
+            "name" : "ProcurementBUId",
+            "type" : "string",
+            "format" : "BigInt",
+            "updatable" : true,
+            "mandatory" : true,
+            "inputRequired" : true,
+            "queryable" : true,
+            "allowChanges" : "always",
+            "precision" : 18,
+            "operators" : [ "=", "<>", "<", "<=", ">", ">=", "BETWEEN", "NOTBETWEEN", "ISBLANK", "ISNOTBLANK" ],
+            "annotations" : {
+              "description" : "Value that uniquely identifies the procurement business unit."
+            }
+          }, {
+            "name" : "ProcurementBU",
+            "type" : "string",
+            "updatable" : false,
+            "mandatory" : true,
+            "queryable" : true,
+            "allowChanges" : "never",
+            "precision" : 240,
+            "title" : "Procurement BU",
+            "maxLength" : "240",
+            "properties" : {
+              "DISPLAYWIDTH" : "40"
+            },
+            "annotations" : {
+              "description" : "Name of the procurement business unit."
+            }
+          }, {
+            "name" : "QualificationOwnerId",
+            "type" : "string",
+            "format" : "BigInt",
+            "updatable" : true,
+            "mandatory" : false,
+            "queryable" : true,
+            "allowChanges" : "always",
+            "precision" : 18,
+            "operators" : [ "=", "<>", "<", "<=", ">", ">=", "BETWEEN", "NOTBETWEEN", "ISBLANK", "ISNOTBLANK" ],
+            "title" : "Qualification Owner ID",
+            "annotations" : {
+              "description" : "Value that uniquely identify the default owner of the corresponding qualification."
+            }
+          }, {
+            "name" : "QualificationOwnerName",
+            "type" : "string",
+            "updatable" : false,
+            "mandatory" : false,
+            "queryable" : true,
+            "allowChanges" : "never",
+            "precision" : 240,
+            "title" : "Qualification Owner",
+            "maxLength" : "240",
+            "properties" : {
+              "DISPLAYWIDTH" : "30"
+            },
+            "annotations" : {
+              "description" : "Finds the qualification areas for the given business unit."
+            }
+          } ],
+          "collection" : {
+            "rangeSize" : 0,
+            "finders" : [ {
+              "name" : "PrimaryKey",
+              "annotations" : {
+                "description" : "Finds business units according to the business unit identifier."
+              },
+              "attributes" : [ {
+                "name" : "QualAreaBUAccessId",
+                "type" : "string",
+                "format" : "BigInt",
+                "updatable" : true,
+                "mandatory" : true,
+                "queryable" : true,
+                "allowChanges" : "always",
+                "precision" : 18,
+                "hasDefaultValueExpression" : true,
+                "properties" : {
+                  "fnd:GLOBALLY_UNIQUE" : "true"
+                },
+                "annotations" : {
+                  "description" : "Value that uniquely identifies the business unit."
+                }
+              } ]
+            } ],
+            "links" : [ {
+              "rel" : "self",
+              "href" : "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/supplierQualificationAreas/{id}/child/businessUnits",
+              "name" : "self",
+              "kind" : "collection"
+            } ],
+            "actions" : [ {
+              "name" : "get",
+              "method" : "GET",
+              "responseType" : [ "application/vnd.oracle.adf.resourcecollection+json", "application/json" ],
+              "annotations" : {
+                "title" : "Get all business units"
+              }
+            } ]
+          },
+          "item" : {
+            "links" : [ {
+              "rel" : "self",
+              "href" : "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/supplierQualificationAreas/{id}/child/businessUnits/{id}",
+              "name" : "self",
+              "kind" : "item"
+            }, {
+              "rel" : "parent",
+              "href" : "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/supplierQualificationAreas/{id}",
+              "name" : "parent",
+              "kind" : "item"
+            }, {
+              "rel" : "canonical",
+              "href" : "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/supplierQualificationAreas/{id}/child/businessUnits/{id}",
+              "name" : "canonical",
+              "kind" : "item"
+            } ],
+            "actions" : [ {
+              "name" : "get",
+              "method" : "GET",
+              "responseType" : [ "application/vnd.oracle.adf.resourceitem+json", "application/json" ],
+              "annotations" : {
+                "title" : "Get one business unit"
+              }
+            } ]
+          },
+          "annotations" : {
+            "description" : "The Business Unit resource gets the business units for a particular area."
+          },
+          "links" : [ {
+            "rel" : "self",
+            "href" : "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/supplierQualificationAreas/{id}/child/businessUnits/describe",
+            "name" : "self",
+            "kind" : "describe"
+          }, {
+            "rel" : "canonical",
+            "href" : "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/supplierQualificationAreas/{id}/child/businessUnits/describe",
+            "name" : "canonical",
+            "kind" : "describe"
+          } ]
+        },
+        "outcomes" : {
+          "discrColumnType" : false,
+          "titlePlural" : "Outcomes",
+          "attributes" : [ {
+            "name" : "QualAreaOutcomeId",
+            "type" : "string",
+            "format" : "BigInt",
+            "updatable" : true,
+            "mandatory" : true,
+            "queryable" : true,
+            "allowChanges" : "always",
+            "precision" : 18,
+            "hasDefaultValueExpression" : true,
+            "operators" : [ "=", "<>", "<", "<=", ">", ">=", "BETWEEN", "NOTBETWEEN", "ISBLANK", "ISNOTBLANK" ],
+            "properties" : {
+              "fnd:GLOBALLY_UNIQUE" : "true"
+            },
+            "annotations" : {
+              "description" : "Value that uniquely identify the outcome of the qualification area."
+            }
+          }, {
+            "name" : "QualAreaId",
+            "type" : "string",
+            "format" : "BigInt",
+            "updatable" : true,
+            "mandatory" : true,
+            "inputRequired" : true,
+            "queryable" : true,
+            "allowChanges" : "always",
+            "precision" : 18,
+            "operators" : [ "=", "<>", "<", "<=", ">", ">=", "BETWEEN", "NOTBETWEEN", "ISBLANK", "ISNOTBLANK" ],
+            "annotations" : {
+              "description" : "Finds the qualification areas for the given business unit."
+            }
+          }, {
+            "name" : "DisplaySequence",
+            "type" : "integer",
+            "updatable" : true,
+            "mandatory" : true,
+            "inputRequired" : true,
+            "queryable" : true,
+            "allowChanges" : "always",
+            "precision" : 9,
+            "title" : "Display Sequence",
+            "annotations" : {
+              "description" : "Order in which the outcomes are displayed to the user for this specific area."
+            }
+          }, {
+            "name" : "OutcomeName",
+            "type" : "string",
+            "updatable" : true,
+            "mandatory" : true,
+            "inputRequired" : true,
+            "queryable" : true,
+            "allowChanges" : "always",
+            "precision" : 80,
+            "title" : "Outcome",
+            "maxLength" : "80",
+            "annotations" : {
+              "description" : "Name of the qualification area outcome. This value is set as an outcome of a qualification as part of the evaluation."
+            }
+          }, {
+            "name" : "FromScore",
+            "type" : "integer",
+            "updatable" : true,
+            "mandatory" : false,
+            "queryable" : true,
+            "allowChanges" : "always",
+            "precision" : 9,
+            "title" : "From Score",
+            "annotations" : {
+              "description" : "Lowest score for the qualification outcome."
+            }
+          }, {
+            "name" : "ToScore",
+            "type" : "integer",
+            "updatable" : true,
+            "mandatory" : false,
+            "queryable" : true,
+            "allowChanges" : "always",
+            "precision" : 9,
+            "title" : "To Score",
+            "annotations" : {
+              "description" : "Highest score for the qualification outcome."
+            }
+          }, {
+            "name" : "ActiveFlag",
+            "type" : "boolean",
+            "updatable" : true,
+            "mandatory" : false,
+            "queryable" : false,
+            "allowChanges" : "always",
+            "precision" : 1,
+            "defaultValue" : true,
+            "title" : "Active",
+            "controlType" : "check_box",
+            "maxLength" : "1",
+            "annotations" : {
+              "description" : "Contains one of the following values: true or false. If true, then the qualification area outcome is active and is used for the evaluation process. If false, then the qualification area outcome isn't active."
+            }
+          }, {
+            "name" : "NotificationFlag",
+            "type" : "boolean",
+            "updatable" : true,
+            "mandatory" : false,
+            "queryable" : true,
+            "allowChanges" : "always",
+            "precision" : 1,
+            "defaultValue" : false,
+            "title" : "Notify",
+            "maxLength" : "1",
+            "annotations" : {
+              "description" : "Contains one of the following values: true or false. If true, then send notification of outcome for the automatically evaluated qualification. If false, then don't send notification to the Qualification Owner The default value is false."
+            }
+          }, {
+            "name" : "KnockoutOutcomeFlag",
+            "type" : "boolean",
+            "updatable" : true,
+            "mandatory" : false,
+            "queryable" : true,
+            "allowChanges" : "always",
+            "precision" : 1,
+            "defaultValue" : false,
+            "title" : "Knockout Outcome",
+            "maxLength" : "1",
+            "annotations" : {
+              "description" : "Contains one of the following values: true or false. If true, then assign the outcome to the qualification if the question response score is at or below the question knockout score. If false, then don't assign the outcome. The default value is false."
+            }
+          } ],
+          "collection" : {
+            "rangeSize" : 0,
+            "finders" : [ {
+              "name" : "PrimaryKey",
+              "annotations" : {
+                "description" : "Finds outcomes according to the outcome identifier."
+              },
+              "attributes" : [ {
+                "name" : "QualAreaOutcomeId",
+                "type" : "string",
+                "format" : "BigInt",
+                "updatable" : true,
+                "mandatory" : true,
+                "queryable" : true,
+                "allowChanges" : "always",
+                "precision" : 18,
+                "hasDefaultValueExpression" : true,
+                "properties" : {
+                  "fnd:GLOBALLY_UNIQUE" : "true"
+                },
+                "annotations" : {
+                  "description" : "Value that uniquely identifies the outcome."
+                }
+              } ]
+            } ],
+            "links" : [ {
+              "rel" : "self",
+              "href" : "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/supplierQualificationAreas/{id}/child/outcomes",
+              "name" : "self",
+              "kind" : "collection"
+            } ],
+            "actions" : [ {
+              "name" : "get",
+              "method" : "GET",
+              "responseType" : [ "application/vnd.oracle.adf.resourcecollection+json", "application/json" ],
+              "annotations" : {
+                "title" : "Get all outcomes"
+              }
+            } ]
+          },
+          "item" : {
+            "links" : [ {
+              "rel" : "self",
+              "href" : "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/supplierQualificationAreas/{id}/child/outcomes/{id}",
+              "name" : "self",
+              "kind" : "item"
+            }, {
+              "rel" : "parent",
+              "href" : "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/supplierQualificationAreas/{id}",
+              "name" : "parent",
+              "kind" : "item"
+            }, {
+              "rel" : "canonical",
+              "href" : "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/supplierQualificationAreas/{id}/child/outcomes/{id}",
+              "name" : "canonical",
+              "kind" : "item"
+            } ],
+            "actions" : [ {
+              "name" : "get",
+              "method" : "GET",
+              "responseType" : [ "application/vnd.oracle.adf.resourceitem+json", "application/json" ],
+              "annotations" : {
+                "title" : "Get one outcome"
+              }
+            } ]
+          },
+          "annotations" : {
+            "description" : "The Outcome resource gets the outcomes for a particular area."
+          },
+          "links" : [ {
+            "rel" : "self",
+            "href" : "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/supplierQualificationAreas/{id}/child/outcomes/describe",
+            "name" : "self",
+            "kind" : "describe"
+          }, {
+            "rel" : "canonical",
+            "href" : "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/supplierQualificationAreas/{id}/child/outcomes/describe",
+            "name" : "canonical",
+            "kind" : "describe"
+          } ]
+        },
+        "questions" : {
+          "discrColumnType" : false,
+          "titlePlural" : "Questions",
+          "attributes" : [ {
+            "name" : "QualAreaQuestionId",
+            "type" : "string",
+            "format" : "BigInt",
+            "updatable" : true,
+            "mandatory" : true,
+            "queryable" : true,
+            "allowChanges" : "always",
+            "precision" : 18,
+            "hasDefaultValueExpression" : true,
+            "operators" : [ "=", "<>", "<", "<=", ">", ">=", "BETWEEN", "NOTBETWEEN", "ISBLANK", "ISNOTBLANK" ],
+            "properties" : {
+              "fnd:GLOBALLY_UNIQUE" : "true"
+            },
+            "annotations" : {
+              "description" : "Value that uniquely identifies the qualification area question."
+            }
+          }, {
+            "name" : "QuestionId",
+            "type" : "string",
+            "format" : "BigInt",
+            "updatable" : true,
+            "mandatory" : true,
+            "inputRequired" : true,
+            "queryable" : true,
+            "allowChanges" : "always",
+            "precision" : 18,
+            "operators" : [ "=", "<>", "<", "<=", ">", ">=", "BETWEEN", "NOTBETWEEN", "ISBLANK", "ISNOTBLANK" ],
+            "controlType" : "choice",
+            "lov" : {
+              "attributeMap" : [ {
+                "source" : "QuestionId",
+                "target" : "QuestionId"
+              } ],
+              "displayAttributes" : [ "QuestionId" ]
+            },
+            "annotations" : {
+              "description" : "Value that uniquely identifies the question."
+            }
+          }, {
+            "name" : "DisplaySequence",
+            "type" : "integer",
+            "updatable" : true,
+            "mandatory" : false,
+            "queryable" : true,
+            "allowChanges" : "always",
+            "precision" : 9,
+            "annotations" : {
+              "description" : "Order in which the questions are displayed to the user for this specific area."
+            }
+          }, {
+            "name" : "Question",
+            "type" : "string",
+            "updatable" : true,
+            "mandatory" : true,
+            "inputRequired" : true,
+            "queryable" : true,
+            "allowChanges" : "always",
+            "precision" : 80,
+            "title" : "Question",
+            "controlType" : "choice",
+            "maxLength" : "80",
+            "properties" : {
+              "DISPLAYWIDTH" : "80"
+            },
+            "dependencies" : [ "QuestionStatusCode" ],
+            "lov" : {
+              "attributeMap" : [ {
+                "source" : "QuestionName",
+                "target" : "Question"
+              }, {
+                "source" : "QuestionId",
+                "target" : "QuestionId",
+                "derived" : true
+              } ],
+              "displayAttributes" : [ "QuestionName", "QuestionId" ]
+            },
+            "annotations" : {
+              "description" : "Name of the question or an identifier entered by the user."
+            }
+          }, {
+            "name" : "QuestionStatus",
+            "type" : "string",
+            "updatable" : true,
+            "mandatory" : false,
+            "queryable" : true,
+            "allowChanges" : "always",
+            "precision" : 80,
+            "title" : "Meaning",
+            "controlType" : "choice",
+            "maxLength" : "80",
+            "properties" : {
+              "DISPLAYWIDTH" : "50"
+            },
+            "lov" : {
+              "attributeMap" : [ {
+                "source" : "Meaning",
+                "target" : "QuestionStatus"
+              }, {
+                "source" : "LookupCode",
+                "target" : "QuestionStatusCode",
+                "derived" : true
+              } ],
+              "displayAttributes" : [ "Meaning", "LookupCode" ]
+            },
+            "annotations" : {
+              "description" : "Status of the question."
+            }
+          }, {
+            "name" : "Weight",
+            "type" : "string",
+            "format" : "BigDecimal",
+            "updatable" : true,
+            "mandatory" : false,
+            "queryable" : true,
+            "allowChanges" : "always",
+            "operators" : [ "=", "<>", "<", "<=", ">", ">=", "BETWEEN", "NOTBETWEEN", "ISBLANK", "ISNOTBLANK" ],
+            "annotations" : {
+              "description" : "Value that indicates the importance of the question in the qualification area. This value is used to calculate the overall score of the qualification."
+            }
+          }, {
+            "name" : "KnockoutScore",
+            "type" : "string",
+            "format" : "BigDecimal",
+            "updatable" : true,
+            "mandatory" : false,
+            "queryable" : true,
+            "allowChanges" : "always",
+            "operators" : [ "=", "<>", "<", "<=", ">", ">=", "BETWEEN", "NOTBETWEEN", "ISBLANK", "ISNOTBLANK" ],
+            "annotations" : {
+              "description" : "Value that indicates that any response score at or below the knockout score for the question will give the qualification the knockout outcome."
+            }
+          }, {
+            "name" : "Revision",
+            "type" : "integer",
+            "updatable" : false,
+            "mandatory" : true,
+            "queryable" : true,
+            "allowChanges" : "never",
+            "precision" : 9,
+            "defaultValue" : 0,
+            "title" : "Revision",
+            "annotations" : {
+              "description" : "Number that identifies the revision number of the question. Revision 0 is the base revision."
+            }
+          }, {
+            "name" : "QuestionStatusCode",
+            "type" : "string",
+            "updatable" : true,
+            "mandatory" : false,
+            "queryable" : true,
+            "allowChanges" : "always",
+            "precision" : 255,
+            "dependencies" : [ "QuestionStatusCode1" ],
+            "annotations" : {
+              "description" : "Abbreviation that identifies the status of the question. A list of accepted values is defined in the lookup type POQ_QUESTION_STATUS. Review the values for this attribute using the Setup and Maintenance work area, and the Manage Standard Lookups task."
+            }
+          }, {
+            "name" : "QuestionText",
+            "type" : "attachment",
+            "updatable" : false,
+            "mandatory" : true,
+            "queryable" : false,
+            "allowChanges" : "never",
+            "title" : "Question Text",
+            "actions" : [ {
+              "name" : "replace",
+              "method" : "PUT",
+              "requestType" : [ "application/octet-stream" ]
+            }, {
+              "name" : "delete",
+              "method" : "DELETE"
+            }, {
+              "name" : "get",
+              "method" : "GET",
+              "responseType" : [ "application/octet-stream" ]
+            } ],
+            "annotations" : {
+              "description" : "Text of the question to be displayed to responders in the questionnaire."
+            }
+          } ],
+          "collection" : {
+            "rangeSize" : 0,
+            "finders" : [ {
+              "name" : "PrimaryKey",
+              "annotations" : {
+                "description" : "Finds questions according to the question identifier."
+              },
+              "attributes" : [ {
+                "name" : "QualAreaQuestionId",
+                "type" : "string",
+                "format" : "BigInt",
+                "updatable" : true,
+                "mandatory" : true,
+                "queryable" : true,
+                "allowChanges" : "always",
+                "precision" : 18,
+                "hasDefaultValueExpression" : true,
+                "properties" : {
+                  "fnd:GLOBALLY_UNIQUE" : "true"
+                },
+                "annotations" : {
+                  "description" : "Value that uniquely identifies the question."
+                }
+              } ]
+            } ],
+            "links" : [ {
+              "rel" : "self",
+              "href" : "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/supplierQualificationAreas/{id}/child/questions",
+              "name" : "self",
+              "kind" : "collection"
+            } ],
+            "actions" : [ {
+              "name" : "get",
+              "method" : "GET",
+              "responseType" : [ "application/vnd.oracle.adf.resourcecollection+json", "application/json" ],
+              "annotations" : {
+                "title" : "Get all questions"
+              }
+            }, {
+              "name" : "create",
+              "method" : "POST",
+              "requestType" : [ "application/vnd.oracle.adf.resourceitem+json", "application/json" ],
+              "responseType" : [ "application/vnd.oracle.adf.resourceitem+json", "application/json" ],
+              "annotations" : {
+                "title" : "Create qualification question records"
+              }
+            } ]
+          },
+          "item" : {
+            "links" : [ {
+              "rel" : "child",
+              "href" : "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/supplierQualificationAreas/{id}/child/questions/{id}/child/Attachments",
+              "name" : "Attachments",
+              "kind" : "collection",
+              "cardinality" : {
+                "value" : "1 to *",
+                "sourceAttributes" : "QuestionId, AttachmentsEntityName",
+                "destinationAttributes" : "Pk1Value, EntityName"
+              }
+            }, {
+              "rel" : "self",
+              "href" : "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/supplierQualificationAreas/{id}/child/questions/{id}",
+              "name" : "self",
+              "kind" : "item"
+            }, {
+              "rel" : "parent",
+              "href" : "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/supplierQualificationAreas/{id}",
+              "name" : "parent",
+              "kind" : "item"
+            }, {
+              "rel" : "canonical",
+              "href" : "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/supplierQualificationAreas/{id}/child/questions/{id}",
+              "name" : "canonical",
+              "kind" : "item"
+            }, {
+              "rel" : "enclosure",
+              "href" : "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/supplierQualificationAreas/{id}/child/questions/{id}/enclosure/QuestionText",
+              "name" : "QuestionText",
+              "kind" : "other"
+            } ],
+            "actions" : [ {
+              "name" : "get",
+              "method" : "GET",
+              "responseType" : [ "application/vnd.oracle.adf.resourceitem+json", "application/json" ],
+              "annotations" : {
+                "title" : "Get one question"
+              }
+            } ]
+          },
+          "annotations" : {
+            "description" : "The Questions resource gets the questions for a particular area."
+          },
+          "children" : {
+            "Attachments" : {
+              "discrColumnType" : true,
+              "title" : "Attachments",
+              "titlePlural" : "Attachments",
+              "attributes" : [ {
+                "name" : "AttachedDocumentId",
+                "type" : "string",
+                "format" : "BigInt",
+                "updatable" : true,
+                "mandatory" : true,
+                "queryable" : true,
+                "allowChanges" : "inCreate",
+                "precision" : 18,
+                "hasDefaultValueExpression" : true,
+                "operators" : [ "=", "<>", "<", "<=", ">", ">=", "BETWEEN", "NOTBETWEEN", "ISBLANK", "ISNOTBLANK" ],
+                "title" : "Attached Document Id",
+                "includeInCompactView" : true,
+                "properties" : {
+                  "fnd:FND_AUDIT_ATTR_ENABLED" : "true",
+                  "fnd:GLOBALLY_UNIQUE" : "true"
+                },
+                "annotations" : {
+                  "description" : "The unique identifier of the attached document."
+                }
+              }, {
+                "name" : "LastUpdateDate",
+                "type" : "datetime",
+                "updatable" : false,
+                "mandatory" : true,
+                "queryable" : true,
+                "allowChanges" : "never",
+                "title" : "Last Update Date",
+                "includeInCompactView" : true,
+                "properties" : {
+                  "FMT_FORMAT" : "d-MMM-yyyy HH:mm:ss"
+                },
+                "annotations" : {
+                  "description" : "The date when the record was last updated."
+                }
+              }, {
+                "name" : "LastUpdatedBy",
+                "type" : "string",
+                "updatable" : false,
+                "mandatory" : true,
+                "queryable" : true,
+                "allowChanges" : "never",
+                "precision" : 255,
+                "title" : "Last Updated By",
+                "includeInCompactView" : true,
+                "maxLength" : "255",
+                "annotations" : {
+                  "description" : "The user who last updated the record."
+                }
+              }, {
+                "name" : "DatatypeCode",
+                "type" : "string",
+                "updatable" : true,
+                "mandatory" : true,
+                "queryable" : true,
+                "allowChanges" : "always",
+                "precision" : 30,
+                "defaultValue" : "FILE",
+                "title" : "Type",
+                "includeInCompactView" : true,
+                "maxLength" : "30",
+                "properties" : {
+                  "fnd:FND_AUDIT_ATTR_ENABLED" : "true"
+                },
+                "annotations" : {
+                  "description" : "A value that indicates the data type."
+                }
+              }, {
+                "name" : "FileName",
+                "type" : "string",
+                "updatable" : true,
+                "mandatory" : false,
+                "queryable" : true,
+                "allowChanges" : "always",
+                "precision" : 2048,
+                "title" : "File Name",
+                "includeInCompactView" : true,
+                "maxLength" : "2048",
+                "properties" : {
+                  "fnd:FND_AUDIT_ATTR_ENABLED" : "true"
+                },
+                "annotations" : {
+                  "description" : "The file name of the attachment."
+                }
+              }, {
+                "name" : "DmFolderPath",
+                "type" : "string",
+                "updatable" : true,
+                "mandatory" : false,
+                "queryable" : true,
+                "allowChanges" : "always",
+                "precision" : 1000,
+                "title" : "Dm Folder Path",
+                "includeInCompactView" : true,
+                "maxLength" : "1000",
+                "properties" : {
+                  "fnd:FND_AUDIT_ATTR_ENABLED" : "true"
+                },
+                "annotations" : {
+                  "description" : "The folder path from which the attachment is created."
+                }
+              }, {
+                "name" : "DmDocumentId",
+                "type" : "string",
+                "updatable" : true,
+                "mandatory" : false,
+                "queryable" : true,
+                "allowChanges" : "always",
+                "precision" : 255,
+                "includeInCompactView" : true,
+                "maxLength" : "255",
+                "properties" : {
+                  "fnd:FND_AUDIT_ATTR_ENABLED" : "true",
+                  "fnd:OA_TRANSLATABLE" : "true"
+                },
+                "annotations" : {
+                  "description" : "The document ID from which the attachment is created."
+                }
+              }, {
+                "name" : "DmVersionNumber",
+                "type" : "string",
+                "updatable" : true,
+                "mandatory" : false,
+                "queryable" : true,
+                "allowChanges" : "always",
+                "precision" : 255,
+                "includeInCompactView" : true,
+                "maxLength" : "255",
+                "properties" : {
+                  "fnd:FND_AUDIT_ATTR_ENABLED" : "true"
+                },
+                "annotations" : {
+                  "description" : "The document version number from which the attachment is created."
+                }
+              }, {
+                "name" : "Url",
+                "type" : "string",
+                "updatable" : true,
+                "mandatory" : false,
+                "queryable" : true,
+                "allowChanges" : "always",
+                "precision" : 4000,
+                "title" : "Url",
+                "includeInCompactView" : true,
+                "maxLength" : "4000",
+                "properties" : {
+                  "fnd:FND_AUDIT_ATTR_ENABLED" : "true"
+                },
+                "annotations" : {
+                  "description" : "The URL of a web page type attachment."
+                }
+              }, {
+                "name" : "CategoryName",
+                "type" : "string",
+                "updatable" : true,
+                "mandatory" : false,
+                "queryable" : true,
+                "allowChanges" : "always",
+                "precision" : 30,
+                "title" : "Category",
+                "includeInCompactView" : true,
+                "maxLength" : "30",
+                "properties" : {
+                  "fnd:FND_AUDIT_ATTR_ENABLED" : "true"
+                },
+                "annotations" : {
+                  "description" : "The category of the attachment."
+                }
+              }, {
+                "name" : "UserName",
+                "type" : "string",
+                "updatable" : false,
+                "mandatory" : true,
+                "queryable" : true,
+                "allowChanges" : "never",
+                "precision" : 255,
+                "title" : "User Name",
+                "includeInCompactView" : true,
+                "maxLength" : "255",
+                "properties" : {
+                  "fnd:FND_AUDIT_ATTR_ENABLED" : "false"
+                },
+                "annotations" : {
+                  "description" : "The login credentials of the user who created the attachment."
+                }
+              }, {
+                "name" : "Uri",
+                "type" : "string",
+                "updatable" : true,
+                "mandatory" : false,
+                "queryable" : true,
+                "allowChanges" : "always",
+                "precision" : 4000,
+                "title" : "Uri",
+                "includeInCompactView" : true,
+                "maxLength" : "4000",
+                "properties" : {
+                  "fnd:FND_AUDIT_ATTR_ENABLED" : "false"
+                },
+                "annotations" : {
+                  "description" : "The URI of a Topology Manager type attachment."
+                }
+              }, {
+                "name" : "FileUrl",
+                "type" : "string",
+                "updatable" : true,
+                "mandatory" : false,
+                "queryable" : false,
+                "allowChanges" : "always",
+                "title" : "File Url",
+                "includeInCompactView" : true,
+                "properties" : {
+                  "fnd:FND_AUDIT_ATTR_ENABLED" : "false"
+                },
+                "annotations" : {
+                  "description" : "The URI of the file."
+                }
+              }, {
+                "name" : "UploadedText",
+                "type" : "string",
+                "updatable" : true,
+                "mandatory" : false,
+                "queryable" : false,
+                "allowChanges" : "always",
+                "title" : "Uploaded Text",
+                "includeInCompactView" : true,
+                "properties" : {
+                  "fnd:FND_AUDIT_ATTR_ENABLED" : "false"
+                },
+                "annotations" : {
+                  "description" : "The text content for a new text attachment."
+                }
+              }, {
+                "name" : "UploadedFileContentType",
+                "type" : "string",
+                "updatable" : true,
+                "mandatory" : false,
+                "queryable" : false,
+                "allowChanges" : "always",
+                "title" : "Uploaded File Content Type",
+                "includeInCompactView" : true,
+                "properties" : {
+                  "fnd:FND_AUDIT_ATTR_ENABLED" : "false"
+                },
+                "annotations" : {
+                  "description" : "The content type of the attachment."
+                }
+              }, {
+                "name" : "UploadedFileLength",
+                "type" : "string",
+                "format" : "BigInt",
+                "updatable" : true,
+                "mandatory" : false,
+                "queryable" : false,
+                "allowChanges" : "always",
+                "operators" : [ "=", "<>", "<", "<=", ">", ">=", "BETWEEN", "NOTBETWEEN", "ISBLANK", "ISNOTBLANK" ],
+                "title" : "File Size",
+                "includeInCompactView" : true,
+                "properties" : {
+                  "fnd:FND_AUDIT_ATTR_ENABLED" : "false"
+                },
+                "annotations" : {
+                  "description" : "The size of the attachment file."
+                }
+              }, {
+                "name" : "UploadedFileName",
+                "type" : "string",
+                "updatable" : true,
+                "mandatory" : false,
+                "queryable" : false,
+                "allowChanges" : "always",
+                "title" : "Uploaded File Name",
+                "includeInCompactView" : true,
+                "properties" : {
+                  "fnd:FND_AUDIT_ATTR_ENABLED" : "false"
+                },
+                "annotations" : {
+                  "description" : "The name to assign to a new attachment file."
+                }
+              }, {
+                "name" : "ContentRepositoryFileShared",
+                "type" : "boolean",
+                "updatable" : true,
+                "mandatory" : false,
+                "queryable" : false,
+                "allowChanges" : "always",
+                "title" : "Shared",
+                "includeInCompactView" : true,
+                "properties" : {
+                  "fnd:FND_AUDIT_ATTR_ENABLED" : "false"
+                },
+                "annotations" : {
+                  "description" : "Indicates whether the attachment is shared"
+                }
+              }, {
+                "name" : "Title",
+                "type" : "string",
+                "updatable" : true,
+                "mandatory" : false,
+                "queryable" : false,
+                "allowChanges" : "always",
+                "title" : "Title",
+                "includeInCompactView" : true,
+                "properties" : {
+                  "fnd:FND_AUDIT_ATTR_ENABLED" : "false"
+                },
+                "annotations" : {
+                  "description" : "The title of the attachment."
+                }
+              }, {
+                "name" : "Description",
+                "type" : "string",
+                "updatable" : true,
+                "mandatory" : false,
+                "queryable" : false,
+                "allowChanges" : "always",
+                "precision" : 255,
+                "title" : "Item Description",
+                "includeInCompactView" : true,
+                "maxLength" : "255",
+                "properties" : {
+                  "fnd:FND_AUDIT_ATTR_ENABLED" : "false"
+                },
+                "annotations" : {
+                  "description" : "The description of the attachment."
+                }
+              }, {
+                "name" : "ErrorStatusCode",
+                "type" : "string",
+                "updatable" : true,
+                "mandatory" : false,
+                "queryable" : false,
+                "allowChanges" : "always",
+                "title" : "Error Status Code",
+                "includeInCompactView" : true,
+                "properties" : {
+                  "fnd:FND_AUDIT_ATTR_ENABLED" : "false"
+                },
+                "annotations" : {
+                  "description" : "The error code, if any, for the attachment."
+                }
+              }, {
+                "name" : "ErrorStatusMessage",
+                "type" : "string",
+                "updatable" : true,
+                "mandatory" : false,
+                "queryable" : false,
+                "allowChanges" : "always",
+                "title" : "Error Status Message",
+                "includeInCompactView" : true,
+                "properties" : {
+                  "fnd:FND_AUDIT_ATTR_ENABLED" : "false"
+                },
+                "annotations" : {
+                  "description" : "The error message, if any, for the attachment."
+                }
+              }, {
+                "name" : "CreatedBy",
+                "type" : "string",
+                "updatable" : false,
+                "mandatory" : true,
+                "queryable" : true,
+                "allowChanges" : "never",
+                "precision" : 255,
+                "title" : "Created By",
+                "includeInCompactView" : true,
+                "maxLength" : "255",
+                "annotations" : {
+                  "description" : "The user who created the record."
+                }
+              }, {
+                "name" : "CreationDate",
+                "type" : "datetime",
+                "updatable" : false,
+                "mandatory" : true,
+                "queryable" : true,
+                "allowChanges" : "never",
+                "title" : "Creation Date",
+                "includeInCompactView" : true,
+                "annotations" : {
+                  "description" : "The date when the record was created."
+                }
+              }, {
+                "name" : "FileContents",
+                "type" : "attachment",
+                "updatable" : true,
+                "mandatory" : false,
+                "queryable" : false,
+                "allowChanges" : "always",
+                "title" : "File Contents",
+                "properties" : {
+                  "XML_ELEMENT" : "#hide"
+                },
+                "actions" : [ {
+                  "name" : "replace",
+                  "method" : "PUT",
+                  "requestType" : [ "application/octet-stream" ]
+                }, {
+                  "name" : "delete",
+                  "method" : "DELETE"
+                }, {
+                  "name" : "get",
+                  "method" : "GET",
+                  "responseType" : [ "application/octet-stream" ]
+                } ],
+                "annotations" : {
+                  "description" : "The contents of the attachment."
+                }
+              }, {
+                "name" : "ExpirationDate",
+                "type" : "datetime",
+                "updatable" : true,
+                "mandatory" : false,
+                "queryable" : true,
+                "allowChanges" : "always",
+                "title" : "Expiration Date",
+                "includeInCompactView" : true,
+                "annotations" : {
+                  "description" : "The expiration date of the contents in the attachment."
+                }
+              }, {
+                "name" : "LastUpdatedByUserName",
+                "type" : "string",
+                "updatable" : false,
+                "mandatory" : false,
+                "queryable" : true,
+                "allowChanges" : "never",
+                "title" : "Last Updated By User",
+                "includeInCompactView" : true,
+                "properties" : {
+                  "fnd:FND_AUDIT_ATTR_ENABLED" : "false"
+                },
+                "annotations" : {
+                  "description" : "The user name who last updated the record."
+                }
+              }, {
+                "name" : "CreatedByUserName",
+                "type" : "string",
+                "updatable" : false,
+                "mandatory" : false,
+                "queryable" : true,
+                "allowChanges" : "never",
+                "title" : "Created By User Name",
+                "includeInCompactView" : true,
+                "properties" : {
+                  "fnd:FND_AUDIT_ATTR_ENABLED" : "false"
+                },
+                "annotations" : {
+                  "description" : "The user name who created the record."
+                }
+              }, {
+                "name" : "AsyncTrackerId",
+                "type" : "string",
+                "updatable" : true,
+                "mandatory" : false,
+                "queryable" : false,
+                "allowChanges" : "inCreate",
+                "title" : "Asynchronous Upload Tracker Id",
+                "includeInCompactView" : true,
+                "properties" : {
+                  "DESCRIPTION" : "The identifier used to track asynchronous background uploads of file contents.  This field can only be used when the DatatypeCode=\"FILE\".  When queried it will only show when the ErrorCode=\"Pending\" which signifies that a background upload has been registered but not yet completed.  The async tracker id can only be set upon creation of an attachment.  If the FileContents and tracker id are set then the tracker will be ignored.",
+                  "DISPLAYHINT" : "Hide",
+                  "PAYLOADHINT" : "Show"
+                },
+                "annotations" : {
+                  "description" : "Attribute provided for the exclusive use by the Attachment UI components to assist in uploading files."
+                }
+              }, {
+                "name" : "FileWebImage",
+                "type" : "attachment",
+                "updatable" : false,
+                "mandatory" : false,
+                "queryable" : false,
+                "allowChanges" : "never",
+                "title" : "File Web Image",
+                "properties" : {
+                  "PAYLOADHINT" : "Show",
+                  "TOOLTIP" : "The base64 encoded image of the file displayed in .png format if the source is a convertible image.",
+                  "XML_ELEMENT" : "#hide"
+                },
+                "actions" : [ {
+                  "name" : "get",
+                  "method" : "GET",
+                  "responseType" : [ "application/octet-stream" ]
+                } ],
+                "annotations" : {
+                  "description" : "The base64 encoded image of the file displayed in .png format if the source is a convertible image."
+                }
+              }, {
+                "name" : "DownloadInfo",
+                "type" : "string",
+                "updatable" : true,
+                "mandatory" : false,
+                "queryable" : false,
+                "allowChanges" : "always",
+                "title" : "DownloadInfo",
+                "includeInCompactView" : true,
+                "properties" : {
+                  "fnd:FND_AUDIT_ATTR_ENABLED" : "false"
+                },
+                "annotations" : {
+                  "description" : "JSON object represented as a string containing information used to programmatically retrieve a file attachment."
+                }
+              }, {
+                "name" : "PostProcessingAction",
+                "type" : "string",
+                "updatable" : true,
+                "mandatory" : false,
+                "queryable" : false,
+                "allowChanges" : "always",
+                "includeInCompactView" : true,
+                "properties" : {
+                  "fnd:FND_AUDIT_ATTR_ENABLED" : "false"
+                },
+                "annotations" : {
+                  "description" : "The name of the action that can be performed after an attachment is uploaded."
+                }
+              } ],
+              "collection" : {
+                "rangeSize" : 0,
+                "finders" : [ {
+                  "name" : "PrimaryKey",
+                  "annotations" : {
+                    "description" : "Finds the attached document with the specified primary key."
+                  },
+                  "attributes" : [ {
+                    "name" : "AttachedDocumentId",
+                    "type" : "string",
+                    "format" : "BigInt",
+                    "updatable" : true,
+                    "mandatory" : true,
+                    "queryable" : true,
+                    "allowChanges" : "inCreate",
+                    "precision" : 18,
+                    "hasDefaultValueExpression" : true,
+                    "title" : "Attached Document Id",
+                    "includeInCompactView" : true,
+                    "properties" : {
+                      "fnd:FND_AUDIT_ATTR_ENABLED" : "true",
+                      "fnd:GLOBALLY_UNIQUE" : "true"
+                    },
+                    "annotations" : {
+                      "description" : "The unique identifier of the attached document."
+                    }
+                  } ]
+                } ],
+                "links" : [ {
+                  "rel" : "self",
+                  "href" : "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/supplierQualificationAreas/{id}/child/questions/{id}/child/Attachments",
+                  "name" : "self",
+                  "kind" : "collection"
+                } ],
+                "actions" : [ {
+                  "name" : "get",
+                  "method" : "GET",
+                  "responseType" : [ "application/vnd.oracle.adf.resourcecollection+json", "application/json" ],
+                  "annotations" : {
+                    "title" : "Get all attachments"
+                  }
+                } ]
+              },
+              "item" : {
+                "links" : [ {
+                  "rel" : "self",
+                  "href" : "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/supplierQualificationAreas/{id}/child/questions/{id}/child/Attachments/{id}",
+                  "name" : "self",
+                  "kind" : "item"
+                }, {
+                  "rel" : "parent",
+                  "href" : "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/supplierQualificationAreas/{id}/child/questions/{id}",
+                  "name" : "parent",
+                  "kind" : "item"
+                }, {
+                  "rel" : "canonical",
+                  "href" : "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/supplierQualificationAreas/{id}/child/questions/{id}/child/Attachments/{id}",
+                  "name" : "canonical",
+                  "kind" : "item"
+                }, {
+                  "rel" : "enclosure",
+                  "href" : "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/supplierQualificationAreas/{id}/child/questions/{id}/child/Attachments/{id}/enclosure/FileContents",
+                  "name" : "FileContents",
+                  "kind" : "other"
+                }, {
+                  "rel" : "enclosure",
+                  "href" : "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/supplierQualificationAreas/{id}/child/questions/{id}/child/Attachments/{id}/enclosure/FileWebImage",
+                  "name" : "FileWebImage",
+                  "kind" : "other"
+                } ],
+                "actions" : [ {
+                  "name" : "get",
+                  "method" : "GET",
+                  "responseType" : [ "application/vnd.oracle.adf.resourceitem+json", "application/json" ],
+                  "annotations" : {
+                    "title" : "Get an attachment"
+                  }
+                } ]
+              },
+              "annotations" : {
+                "description" : "The attachments resource is used to view, create, and update attachments."
+              },
+              "links" : [ {
+                "rel" : "self",
+                "href" : "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/supplierQualificationAreas/{id}/child/questions/{id}/child/Attachments/describe",
+                "name" : "self",
+                "kind" : "describe"
+              }, {
+                "rel" : "canonical",
+                "href" : "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/supplierQualificationAreas/{id}/child/questions/{id}/child/Attachments/describe",
+                "name" : "canonical",
+                "kind" : "describe"
+              } ]
+            }
+          },
+          "links" : [ {
+            "rel" : "self",
+            "href" : "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/supplierQualificationAreas/{id}/child/questions/describe",
+            "name" : "self",
+            "kind" : "describe"
+          }, {
+            "rel" : "canonical",
+            "href" : "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/supplierQualificationAreas/{id}/child/questions/describe",
+            "name" : "canonical",
+            "kind" : "describe"
+          } ]
+        }
+      },
+      "links" : [ {
+        "rel" : "self",
+        "href" : "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/supplierQualificationAreas/describe",
+        "name" : "self",
+        "kind" : "describe"
+      }, {
+        "rel" : "canonical",
+        "href" : "https://fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmRestApi/resources/11.13.18.05/supplierQualificationAreas/describe",
+        "name" : "canonical",
+        "kind" : "describe"
+      } ]
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+ "archiveName": "pon_manage_negotiation_styles_fscrt.zip",
+ "rowCounts": {
+  "PON_NEGOTIATION_STYLES.csv": 1,
+  "PON_NEGOTIATION_STYLES_TRANSLATION.csv": 1,
+  "PON_DOCTYPE_STYLES.csv": 3,
+  "PON_DOCTYPE_STYLES_TRANSLATION.csv": 3
+ },
+ "operation": "create",
+ "names": [
+  "FSCRT_R34_STYLE"
+ ]
+}

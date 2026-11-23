@@ -1,0 +1,3 @@
+"FND_APP_FLEX_VALUE_SET.ValueSetCode","Value","IndependentValue","IndependentValueNumber","IndependentValueDate","IndependentValueTimestamp","ValueNumber","ValueDate","ValueTimestamp","TranslatedValue","Description","EnabledFlag","StartDateActive","EndDateActive","SummaryFlag","FlexValueAttribute1","FlexValueAttribute2","FlexValueAttribute3","FlexValueAttribute4","FlexValueAttribute5","FlexValueAttribute6","SortOrder","ExternalDataSource","CreationDate","CreatedBy","LastUpdateDate","LastUpdatedBy","LastUpdateLogin"
+"FSCRT_R34_VS","FSCRT_A","","","","","","","","","FSCR Run 34 value FSCRT_A","Y","","","N","","","","","","","","","","","","",""
+"FSCRT_R34_VS","FSCRT_B","","","","","","","","","FSCR Run 34 value FSCRT_B","Y","","","N","","","","","","","","","","","","",""

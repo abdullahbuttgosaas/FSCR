@@ -1,0 +1,732 @@
+[
+ {
+  "skill": "pillars/erp/financials/customer-billing/manage-autoaccounting-rules",
+  "task_code": "AR_MANAGE_AUTOACCOUNTING_RULES",
+  "built_release": null,
+  "adapter_labels": [
+   [
+    "status",
+    "ready"
+   ],
+   [
+    "status",
+    "ready"
+   ],
+   [
+    "status",
+    "ready"
+   ]
+  ],
+  "execution_mode": "assisted",
+  "supported_ops": "create, update",
+  "dl_mode": "FSM",
+  "registry": true,
+  "scripts": [
+   "fsm_task_adapter.py"
+  ],
+  "tests": [],
+  "adapter_keys": [
+   "capabilities",
+   "classification",
+   "deletionPolicy",
+   "entrypoints",
+   "generation",
+   "normalization",
+   "package",
+   "protocol",
+   "reconciliationPolicy",
+   "schemaVersion",
+   "semanticModel",
+   "task"
+  ],
+  "csv_entities": [
+   "AR_AUTO_ACCOUNTING.csv",
+   "ORA_LE_AR_AUTO_ACCOUNTING_SEGMENT.csv"
+  ]
+ },
+ {
+  "skill": "pillars/erp/financials/customer-billing/manage-autoinvoice-grouping-rules",
+  "task_code": "AR_MANAGE_AUTOINVOICE_GROUPING_RULES",
+  "built_release": null,
+  "adapter_labels": [
+   [
+    "status",
+    "ready"
+   ],
+   [
+    "status",
+    "ready"
+   ],
+   [
+    "status",
+    "ready"
+   ]
+  ],
+  "execution_mode": "assisted",
+  "supported_ops": "create, update",
+  "dl_mode": "FSM",
+  "registry": true,
+  "scripts": [
+   "fsm_task_adapter.py"
+  ],
+  "tests": [],
+  "adapter_keys": [
+   "capabilities",
+   "classification",
+   "deletionPolicy",
+   "entrypoints",
+   "generation",
+   "normalization",
+   "package",
+   "protocol",
+   "reconciliationPolicy",
+   "schemaVersion",
+   "semanticModel",
+   "task"
+  ],
+  "csv_entities": [
+   "AR_AI_GROUPING_RULE.csv",
+   "ORA_AR_AI_GRP_TXN_REQUEST.csv",
+   "ORA_AR_AI_GRP_TXN_TYPE.csv"
+  ]
+ },
+ {
+  "skill": "pillars/erp/financials/customer-billing/manage-receivables-payment-terms",
+  "task_code": "AR_MANAGE_RECEIVABLES_PAYMENT_TERMS",
+  "built_release": null,
+  "adapter_labels": [
+   [
+    "status",
+    "ready"
+   ],
+   [
+    "status",
+    "ready"
+   ],
+   [
+    "status",
+    "ready"
+   ]
+  ],
+  "execution_mode": "assisted",
+  "supported_ops": "create, update",
+  "dl_mode": "FSM",
+  "registry": true,
+  "scripts": [
+   "fsm_task_adapter.py",
+   "payment_terms_fsm_package.py"
+  ],
+  "tests": [],
+  "adapter_keys": [
+   "capabilities",
+   "classification",
+   "deletionPolicy",
+   "entrypoints",
+   "generation",
+   "normalization",
+   "package",
+   "protocol",
+   "reconciliationPolicy",
+   "schemaVersion",
+   "semanticModel",
+   "task"
+  ],
+  "csv_entities": [
+   "AR_PAYMENT_TERM.csv",
+   "AR_PAYMENT_TERM_DISCOUNT.csv",
+   "AR_PAYMENT_TERM_LINE.csv",
+   "AR_PAYMENT_TERM_TRANSLATION.csv"
+  ]
+ },
+ {
+  "skill": "pillars/erp/financials/customer-billing/manage-remit-to-addresses",
+  "task_code": "AR_MANAGE_REMIT_TO_ADDRESSES",
+  "built_release": null,
+  "adapter_labels": [
+   [
+    "status",
+    "ready"
+   ],
+   [
+    "status",
+    "ready"
+   ],
+   [
+    "status",
+    "ready"
+   ]
+  ],
+  "execution_mode": "assisted",
+  "supported_ops": "create, update",
+  "dl_mode": "FSM",
+  "registry": true,
+  "scripts": [
+   "fsm_task_adapter.py",
+   "remit_identity.py"
+  ],
+  "tests": [],
+  "adapter_keys": [
+   "capabilities",
+   "classification",
+   "deletionPolicy",
+   "entrypoints",
+   "generation",
+   "normalization",
+   "package",
+   "protocol",
+   "reconciliationPolicy",
+   "schemaVersion",
+   "semanticModel",
+   "task"
+  ],
+  "csv_entities": [
+   "AR_REMIT_TO_ADDRESS.csv",
+   "AR_REMIT_TO_LOCATION.csv"
+  ]
+ },
+ {
+  "skill": "pillars/erp/financials/customer-billing/manage-transaction-sources",
+  "task_code": "AR_MANAGE_TRANSACTION_SOURCES",
+  "built_release": null,
+  "adapter_labels": [
+   [
+    "status",
+    "ready"
+   ],
+   [
+    "status",
+    "ready"
+   ],
+   [
+    "status",
+    "ready"
+   ]
+  ],
+  "execution_mode": "assisted",
+  "supported_ops": "create, update",
+  "dl_mode": "FSM",
+  "registry": true,
+  "scripts": [
+   "fsm_task_adapter.py"
+  ],
+  "tests": [],
+  "adapter_keys": [
+   "capabilities",
+   "classification",
+   "deletionPolicy",
+   "entrypoints",
+   "generation",
+   "normalization",
+   "package",
+   "protocol",
+   "reconciliationPolicy",
+   "schemaVersion",
+   "semanticModel",
+   "task"
+  ],
+  "csv_entities": [
+   "AR_BATCH_SOURCE.csv",
+   "ORA_AR_TXN_BATCH_SOURCE.csv"
+  ]
+ },
+ {
+  "skill": "pillars/erp/financials/customer-billing/manage-transaction-types",
+  "task_code": "AR_MANAGE_TRANSACTION_TYPES",
+  "built_release": null,
+  "adapter_labels": [
+   [
+    "status",
+    "ready"
+   ],
+   [
+    "status",
+    "ready"
+   ],
+   [
+    "status",
+    "ready"
+   ]
+  ],
+  "execution_mode": "assisted",
+  "supported_ops": "create, update",
+  "dl_mode": "FSM",
+  "registry": true,
+  "scripts": [
+   "fsm_task_adapter.py"
+  ],
+  "tests": [],
+  "adapter_keys": [
+   "capabilities",
+   "classification",
+   "deletionPolicy",
+   "entrypoints",
+   "generation",
+   "normalization",
+   "package",
+   "protocol",
+   "reconciliationPolicy",
+   "schemaVersion",
+   "semanticModel",
+   "task"
+  ],
+  "csv_entities": [
+   "AR_REF_ACCT_TRX_TYPE.csv",
+   "AR_TRANSACTION_TYPE.csv"
+  ]
+ },
+ {
+  "skill": "pillars/erp/financials/customer-payments/manage-receipt-classes-and-methods",
+  "task_code": "AR_MANAGE_RECEIPT_CLASSES_AND_METHODS",
+  "built_release": null,
+  "adapter_labels": [
+   [
+    "status",
+    "ready"
+   ],
+   [
+    "status",
+    "ready"
+   ],
+   [
+    "status",
+    "ready"
+   ]
+  ],
+  "execution_mode": "assisted",
+  "supported_ops": "create, update",
+  "dl_mode": "FSM",
+  "registry": true,
+  "scripts": [
+   "fsm_task_adapter.py"
+  ],
+  "tests": [],
+  "adapter_keys": [
+   "capabilities",
+   "classification",
+   "entrypoints",
+   "generation",
+   "normalization",
+   "package",
+   "protocol",
+   "schemaVersion",
+   "semanticModel",
+   "task",
+   "reconciliationPolicy",
+   "deletionPolicy"
+  ],
+  "csv_entities": [
+   "AR_CC_ERROR_MAPPINGS.csv",
+   "AR_RECEIPT_CLASS.csv",
+   "AR_RECEIPT_METHOD.csv",
+   "AR_RECEIPT_METHOD_ACCOUNT.csv"
+  ]
+ },
+ {
+  "skill": "pillars/erp/financials/customer-payments/manage-receipt-sources",
+  "task_code": null,
+  "built_release": null,
+  "adapter_labels": [
+   [
+    "status",
+    "ready"
+   ],
+   [
+    "status",
+    "ready"
+   ],
+   [
+    "status",
+    "ready"
+   ]
+  ],
+  "execution_mode": "assisted",
+  "supported_ops": "create, update",
+  "dl_mode": null,
+  "registry": true,
+  "scripts": [
+   "fsm_task_adapter.py"
+  ],
+  "tests": [],
+  "adapter_keys": [
+   "capabilities",
+   "classification",
+   "deletionPolicy",
+   "entrypoints",
+   "generation",
+   "normalization",
+   "package",
+   "protocol",
+   "reconciliationPolicy",
+   "schemaVersion",
+   "semanticModel",
+   "task"
+  ],
+  "csv_entities": [
+   "AR_RECEIPT_SOURCE.csv"
+  ]
+ },
+ {
+  "skill": "pillars/erp/financials/expenses/manage-conversion-rates-and-policies",
+  "task_code": "EXM_MANAGE_CONVERSION_RATES_AND_POLICIES",
+  "built_release": null,
+  "adapter_labels": [
+   [
+    "status",
+    "ready"
+   ],
+   [
+    "status",
+    "ready"
+   ],
+   [
+    "status",
+    "ready"
+   ]
+  ],
+  "execution_mode": "assisted",
+  "supported_ops": "create, update",
+  "dl_mode": "FSM",
+  "registry": true,
+  "scripts": [
+   "build_fsm_from_workbook.py",
+   "fsm_task_adapter.py",
+   "validate_references.py"
+  ],
+  "tests": [
+   "e2e-test-catalog.json",
+   "references\\create-test-lifecycle.md"
+  ],
+  "adapter_keys": [
+   "capabilities",
+   "classification",
+   "cleanupPolicy",
+   "deletionPolicy",
+   "entrypoints",
+   "generation",
+   "normalization",
+   "package",
+   "protocol",
+   "reconciliationPolicy",
+   "schemaVersion",
+   "semanticModel"
+  ],
+  "csv_entities": [
+   "EXM_EXCHANGE_RATE_OPTION.csv",
+   "EXM_EXCH_RATE_TOLERANCE.csv"
+  ]
+ },
+ {
+  "skill": "pillars/erp/financials/payables/manage-bank-charges",
+  "task_code": null,
+  "built_release": null,
+  "adapter_labels": [
+   [
+    "status",
+    "blocked"
+   ],
+   [
+    "status",
+    "ready"
+   ],
+   [
+    "status",
+    "blocked"
+   ]
+  ],
+  "execution_mode": "assisted",
+  "supported_ops": "create, update",
+  "dl_mode": null,
+  "registry": true,
+  "scripts": [
+   "fsm_task_adapter.py",
+   "inspect_bank_charge_group.py",
+   "prepare_charge_group_create.py"
+  ],
+  "tests": [],
+  "adapter_keys": [
+   "capabilities",
+   "deletionPolicy",
+   "entrypoints",
+   "generation",
+   "normalization",
+   "package",
+   "protocol",
+   "reconciliationPolicy",
+   "schemaVersion",
+   "semanticModel",
+   "task"
+  ],
+  "csv_entities": [
+   "ORA_AP_BANK_CHARGE.csv",
+   "ORA_AP_BANK_CHARGE_LINE.csv"
+  ]
+ },
+ {
+  "skill": "pillars/erp/financials/payables/manage-common-options-for-payables-and-procurement",
+  "task_code": "AP_MANAGE_COMMON_OPTIONS_FOR_PAYABLES_AND_PROCUREMENT",
+  "built_release": null,
+  "adapter_labels": [
+   [
+    "status",
+    "ready"
+   ],
+   [
+    "status",
+    "ready"
+   ],
+   [
+    "status",
+    "ready"
+   ]
+  ],
+  "execution_mode": "hybrid",
+  "supported_ops": "create, update",
+  "dl_mode": "FSM",
+  "registry": true,
+  "scripts": [
+   "account_combination_create.py",
+   "account_combination_preflight.py",
+   "account_combination_workflow.py",
+   "fsm_task_adapter.py"
+  ],
+  "tests": [],
+  "adapter_keys": [
+   "capabilities",
+   "deletionPolicy",
+   "entrypoints",
+   "generation",
+   "normalization",
+   "package",
+   "protocol",
+   "schemaVersion",
+   "semanticModel",
+   "task"
+  ],
+  "csv_entities": [
+   "AP_FINANCIAL_SYS_PARAM.csv"
+  ]
+ },
+ {
+  "skill": "pillars/erp/financials/payables/manage-invoice-options",
+  "task_code": "AP_MANAGE_INVOICE_OPTIONS",
+  "built_release": null,
+  "adapter_labels": [
+   [
+    "status",
+    "ready"
+   ],
+   [
+    "status",
+    "ready"
+   ],
+   [
+    "status",
+    "ready"
+   ]
+  ],
+  "execution_mode": "assisted",
+  "supported_ops": "create, update",
+  "dl_mode": "FSM",
+  "registry": true,
+  "scripts": [
+   "fsm_task_adapter.py",
+   "resolve_lookup_prerequisites.py"
+  ],
+  "tests": [],
+  "adapter_keys": [
+   "capabilities",
+   "deletionPolicy",
+   "entrypoints",
+   "generation",
+   "normalization",
+   "package",
+   "protocol",
+   "reconciliationPolicy",
+   "schemaVersion",
+   "semanticModel",
+   "task"
+  ],
+  "csv_entities": [
+   "AP_SYSTEM_PARAMETER.csv"
+  ]
+ },
+ {
+  "skill": "pillars/erp/financials/payables/manage-payables-calendars",
+  "task_code": "AP_MANAGE_PAYABLES_CALENDARS",
+  "built_release": null,
+  "adapter_labels": [
+   [
+    "status",
+    "ready"
+   ],
+   [
+    "status",
+    "ready"
+   ],
+   [
+    "status",
+    "ready"
+   ]
+  ],
+  "execution_mode": "assisted",
+  "supported_ops": "create, update",
+  "dl_mode": "FSM",
+  "registry": true,
+  "scripts": [
+   "fsm_task_adapter.py"
+  ],
+  "tests": [],
+  "adapter_keys": [
+   "capabilities",
+   "deletionPolicy",
+   "entrypoints",
+   "generation",
+   "normalization",
+   "package",
+   "protocol",
+   "reconciliationPolicy",
+   "schemaVersion",
+   "semanticModel",
+   "task"
+  ],
+  "csv_entities": [
+   "AP_OTHER_PERIOD_PERIOD.csv",
+   "AP_OTHER_PERIOD_TYPE.csv"
+  ]
+ },
+ {
+  "skill": "pillars/erp/financials/payables/manage-payment-options",
+  "task_code": "AP_MANAGE_PAYMENT_OPTIONS",
+  "built_release": null,
+  "adapter_labels": [
+   [
+    "status",
+    "ready"
+   ],
+   [
+    "status",
+    "ready"
+   ],
+   [
+    "status",
+    "ready"
+   ]
+  ],
+  "execution_mode": "assisted",
+  "supported_ops": "create, update",
+  "dl_mode": "FSM",
+  "registry": true,
+  "scripts": [
+   "fsm_task_adapter.py",
+   "resolve_lookup_prerequisites.py"
+  ],
+  "tests": [],
+  "adapter_keys": [
+   "capabilities",
+   "deletionPolicy",
+   "entrypoints",
+   "generation",
+   "normalization",
+   "package",
+   "protocol",
+   "reconciliationPolicy",
+   "schemaVersion",
+   "semanticModel",
+   "task"
+  ],
+  "csv_entities": [
+   "AP_SYSTEM_PARAMETER.csv"
+  ]
+ },
+ {
+  "skill": "pillars/erp/financials/payables/manage-payment-terms",
+  "task_code": "AP_MANAGE_PAYMENT_TERMS",
+  "built_release": null,
+  "adapter_labels": [
+   [
+    "status",
+    "ready"
+   ],
+   [
+    "status",
+    "ready"
+   ],
+   [
+    "status",
+    "ready"
+   ]
+  ],
+  "execution_mode": "assisted",
+  "supported_ops": "create, update",
+  "dl_mode": "FSM",
+  "registry": true,
+  "scripts": [
+   "fsm_task_adapter.py",
+   "resolve_reference_prerequisites.py"
+  ],
+  "tests": [],
+  "adapter_keys": [
+   "capabilities",
+   "deletionPolicy",
+   "entrypoints",
+   "generation",
+   "normalization",
+   "package",
+   "protocol",
+   "reconciliationPolicy",
+   "schemaVersion",
+   "semanticModel",
+   "task"
+  ],
+  "csv_entities": [
+   "AP_TERM_HEADER.csv",
+   "AP_TERM_HEADER_TRANSLATION.csv",
+   "AP_TERM_LINE.csv",
+   "AP_TERM_SUBSCRIPTION.csv"
+  ]
+ },
+ {
+  "skill": "pillars/erp/financials/receivables/manage-receivables-system-options",
+  "task_code": null,
+  "built_release": null,
+  "adapter_labels": [
+   [
+    "status",
+    "ready"
+   ],
+   [
+    "status",
+    "ready"
+   ],
+   [
+    "status",
+    "ready"
+   ]
+  ],
+  "execution_mode": "assisted",
+  "supported_ops": "create, update",
+  "dl_mode": "FSM",
+  "registry": true,
+  "scripts": [
+   "fsm_task_adapter.py"
+  ],
+  "tests": [],
+  "adapter_keys": [
+   "capabilities",
+   "classification",
+   "deletionPolicy",
+   "entrypoints",
+   "generation",
+   "normalization",
+   "package",
+   "protocol",
+   "reconciliationPolicy",
+   "schemaVersion",
+   "semanticModel",
+   "task"
+  ],
+  "csv_entities": [
+   "AR_SYSTEM_OPTIONS.csv"
+  ]
+ }
+]

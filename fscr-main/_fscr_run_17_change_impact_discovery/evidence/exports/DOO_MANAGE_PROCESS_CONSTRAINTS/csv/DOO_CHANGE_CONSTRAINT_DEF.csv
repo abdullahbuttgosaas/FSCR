@@ -1,0 +1,7 @@
+"OrchestrationApplicationCode","RecordSetShortName","DatabaseObjectName","PkRecordSetFlag","SystemFlag","DisplayName","CreatedBy","LastUpdatedBy"
+"DOO","T002","DOO_ORDER_FLINES_V","N","N","Test002","Configuration","Configuration"
+"DOO","MNCDAT","DOO_ORDER_FLINES_V","N","N","MNC Fulfillment line","Configuration","Configuration"
+"DOO","T003","DOO_ORDER_FLINES_V","N","N","Test003","Configuration","Configuration"
+"DOO","SNOBER","DOO_ORDER_FLINES_V","N","N","Fulfillment lines that belong to the same lines snober","Configuration","Configuration"
+"DOO","FLSL10","DOO_ORDER_FLINES_V","N","N","Fulfillment Lines that Belong to the same Line 10 ","Configuration","Configuration"
+"DOO","FLSL_ZS","DOO_ORDER_FLINES_V","N","N","Fulfilment lines that belong to the same line ZS","Configuration","Configuration"

@@ -1,0 +1,35 @@
+Pillar,Module,Total Tasks,a (skill or guide),"b (route, no skill)",c (neither),Skill but no route,Missing (b+c),Skill/guide coverage %,Proposed FSCR coverage (testers set final)
+ERP,Common Features,227,79,99,49,10,148,34.8,Partial
+ERP,Security,6,6,0,0,0,0,100.0,Full
+ERP,General Ledger,158,3,117,38,0,155,1.9,Partial
+ERP,Payables,46,6,33,7,0,40,13.0,Partial
+ERP,Receivables,142,68,66,8,3,74,47.9,Partial
+ERP,Cash Management,19,0,17,2,0,19,0.0,None
+ERP,Fixed Assets,28,10,18,0,0,18,35.7,Partial
+ERP,Expenses,39,6,28,5,0,33,15.4,Partial
+ERP,Revenue Management,22,0,21,1,0,22,0.0,None
+ERP,Project Financial Management,214,15,171,28,1,199,7.0,Partial
+ERP,Purchasing,14,3,9,2,0,11,21.4,Partial
+HCM,Global HR,167,82,50,35,2,85,49.1,Partial
+HCM,Absence Management,10,8,2,0,0,2,80.0,Full
+HCM,Time and Labor,37,27,7,3,0,10,73.0,Partial
+HCM,Global Payroll,47,42,5,0,3,5,89.4,Full
+HCM,Benefits,36,16,6,14,2,20,44.4,Partial
+HCM,Workforce Compensation,17,17,0,0,0,0,100.0,Full
+HCM,Performance and Goal Management,23,14,8,1,0,9,60.9,Partial
+HCM,Talent Review and Succession,9,0,9,0,0,9,0.0,None
+HCM,Recruiting,50,41,5,4,1,9,82.0,Full
+HCM,Learning,20,15,0,5,0,5,75.0,Full
+SCM,Procurement,41,15,18,8,0,26,36.6,Partial
+SCM,Sourcing and Supplier Management,58,32,16,10,9,26,55.2,Partial
+SCM,Inventory Management,134,61,68,5,0,73,45.5,Partial
+SCM,Order Management,68,33,26,9,1,35,48.5,Partial
+SCM,Manufacturing,18,13,3,2,0,5,72.2,Partial
+SCM,Cost Management,62,32,27,3,1,30,51.6,Partial
+SCM,Supply Planning,17,11,2,4,3,6,64.7,Partial
+SCM,Maintenance,19,4,10,5,0,15,21.1,Partial
+SCM,Logistics - Transportation Management,1,0,1,0,0,1,0.0,None
+SCM,Logistics - Global Trade Management,7,1,6,0,0,6,14.3,Partial
+SCM,PLM - Product Hub,44,29,10,5,0,15,65.9,Partial
+SCM,PLM - Product Development,37,15,19,3,0,22,40.5,Partial
+SCM,PLM - Quality Management,5,0,5,0,0,5,0.0,None

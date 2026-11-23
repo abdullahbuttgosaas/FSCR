@@ -1,0 +1,115 @@
+[
+  {
+    "entity": "ORA_AR_TXN_BATCH_SOURCE",
+    "id": "REQ-001",
+    "kind": "target",
+    "operationId": "s1",
+    "requirement": "create exactly one ORA_AR_TXN_BATCH_SOURCE record identified by {\"Name\":\"FSCRT_TS1\",\"SetCode\":\"ENTERPRISE\"}",
+    "targetKey": {
+      "Name": "FSCRT_TS1",
+      "SetCode": "ENTERPRISE"
+    }
+  },
+  {
+    "entity": "ORA_AR_TXN_BATCH_SOURCE",
+    "field": "AutoTrxNumberingFlag",
+    "id": "REQ-002",
+    "kind": "value",
+    "operationId": "s1",
+    "requestedValue": "Y",
+    "requirement": "Persist ORA_AR_TXN_BATCH_SOURCE.AutoTrxNumberingFlag=Y",
+    "targetKey": {
+      "Name": "FSCRT_TS1",
+      "SetCode": "ENTERPRISE"
+    }
+  },
+  {
+    "entity": "ORA_AR_TXN_BATCH_SOURCE",
+    "field": "BatchSourceType",
+    "id": "REQ-003",
+    "kind": "value",
+    "operationId": "s1",
+    "requestedValue": "INV",
+    "requirement": "Persist ORA_AR_TXN_BATCH_SOURCE.BatchSourceType=INV",
+    "targetKey": {
+      "Name": "FSCRT_TS1",
+      "SetCode": "ENTERPRISE"
+    }
+  },
+  {
+    "entity": "ORA_AR_TXN_BATCH_SOURCE",
+    "field": "Description",
+    "id": "REQ-004",
+    "kind": "value",
+    "operationId": "s1",
+    "requestedValue": "FSCRT Run04 manual source",
+    "requirement": "Persist ORA_AR_TXN_BATCH_SOURCE.Description=FSCRT Run04 manual source",
+    "targetKey": {
+      "Name": "FSCRT_TS1",
+      "SetCode": "ENTERPRISE"
+    }
+  },
+  {
+    "entity": "ORA_AR_TXN_BATCH_SOURCE",
+    "field": "InvalidLinesRule",
+    "id": "REQ-005",
+    "kind": "value",
+    "operationId": "s1",
+    "requestedValue": "Reject",
+    "requirement": "Persist ORA_AR_TXN_BATCH_SOURCE.InvalidLinesRule=Reject",
+    "targetKey": {
+      "Name": "FSCRT_TS1",
+      "SetCode": "ENTERPRISE"
+    }
+  },
+  {
+    "entity": "ORA_AR_TXN_BATCH_SOURCE",
+    "field": "LastBatchNum",
+    "id": "REQ-006",
+    "kind": "value",
+    "operationId": "s1",
+    "requestedValue": "1",
+    "requirement": "Persist ORA_AR_TXN_BATCH_SOURCE.LastBatchNum=1",
+    "targetKey": {
+      "Name": "FSCRT_TS1",
+      "SetCode": "ENTERPRISE"
+    }
+  },
+  {
+    "entity": "ORA_AR_TXN_BATCH_SOURCE",
+    "field": "StartDate",
+    "id": "REQ-007",
+    "kind": "value",
+    "operationId": "s1",
+    "requestedValue": "2026-11-03",
+    "requirement": "Persist ORA_AR_TXN_BATCH_SOURCE.StartDate=2026-11-03",
+    "targetKey": {
+      "Name": "FSCRT_TS1",
+      "SetCode": "ENTERPRISE"
+    }
+  },
+  {
+    "entity": "ORA_AR_TXN_BATCH_SOURCE",
+    "field": "Status",
+    "id": "REQ-008",
+    "kind": "value",
+    "operationId": "s1",
+    "requestedValue": "A",
+    "requirement": "Persist ORA_AR_TXN_BATCH_SOURCE.Status=A",
+    "targetKey": {
+      "Name": "FSCRT_TS1",
+      "SetCode": "ENTERPRISE"
+    }
+  },
+  {
+    "entity": "ORA_AR_TXN_BATCH_SOURCE",
+    "id": "REQ-009",
+    "kind": "preserve_rows",
+    "operationId": "s1",
+    "requirement": "Preserve every unspecified record and non-audit value",
+    "targetKey": {
+      "Name": "FSCRT_TS1",
+      "SetCode": "ENTERPRISE"
+    }
+  }
+]

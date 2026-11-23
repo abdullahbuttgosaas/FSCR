@@ -1,0 +1,11 @@
+{
+ "archiveName": "ora_poz_manage_certifying_agencies_fscrt.zip",
+ "rowCounts": {
+  "ORA_POZ_CERTIFYING_AGENCY.csv": 1,
+  "ORA_POZ_CERT_AGENCY_BUS_CLASS.csv": 1
+ },
+ "operation": "create",
+ "names": [
+  "FSCRT_R34 Agency"
+ ]
+}

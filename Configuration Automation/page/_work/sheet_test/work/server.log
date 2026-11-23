@@ -1,0 +1,44 @@
+2026-11-02 06:13:07  sheet test server started at http://127.0.0.1:8799 (environment test)
+2026-11-02 06:13:15  folders: Lookup types, Price Lists, Payment Terms, Order Types, Customers, Business Units, Receivables Payment Terms, AutoInvoice Grouping Rules, Transaction Sources, Transaction Types
+2026-11-02 06:13:54  sheet test: browser sign-in check skipped (Receivables modules use no browser)
+2026-11-02 06:14:06  Oracle's today could not be read: nectionError: HTTPSConnectionPool(host='fa-etia-test-saasfaprod1.fa.ocs.oraclecloud.com', port=443): Max retries exceeded with url: /fscmRestApi/resources/11.13.18.05/standardLookups?finder=LookupT"}
+
+2026-11-02 06:18:42  upload 246f1b2302 (Receivables_sheet_test_C_mistakes_check_only.xlsx): not ready, 16 record(s), 16 problem(s), 0 stop(s), checked in 287 s
+2026-11-02 06:19:10  sheet test: browser sign-in check skipped (Receivables modules use no browser)
+2026-11-02 06:22:48  upload 3bf3afa7ef (Receivables_sheet_test_A_run_by_Claude.xlsx): ready, 5 record(s), 0 problem(s), 0 stop(s), checked in 218 s
+2026-11-02 06:22:48  sheet test: browser sign-in check skipped (Receivables modules use no browser)
+2026-11-02 06:22:48  job a589337822 queued: Receivables Payment Terms (upload 3bf3afa7ef)
+2026-11-02 06:22:48  job a589337822: receivables payment term 1 of 5: ZZ_TEST_PT_311
+2026-11-02 06:24:55  job a589337822_1 done: Created the Receivables payment term ZZ_TEST_PT_311 in set COMMON with 1 installment, and checked it in Oracle: every value as sent.
+2026-11-02 06:24:55  job a589337822: ZZ_TEST_PT_311 done
+2026-11-02 06:24:55  job a589337822: autoinvoice grouping rule 2 of 5: ZZ_TEST_AG_3112
+2026-11-02 06:27:11  job a589337822_2 done: Created the AutoInvoice grouping rule ZZ_TEST_AG_3112 with 1 transaction class and 1 characteristic, and checked it in Oracle: every value as sent.
+2026-11-02 06:27:11  job a589337822: ZZ_TEST_AG_3112 done
+2026-11-02 06:27:11  job a589337822: transaction type 3 of 5: ZZ_TEST_TT_3113
+2026-11-02 06:27:11  job a589337822: transaction type 4 of 5: ZZ_TEST_TT_6421
+2026-11-02 06:30:18  job a589337822_3 done: Created the transaction type ZZ_TEST_TT_3113 (Invoice) in set COMMON with payment term ZZ_TEST_PT_311, and checked it in Oracle: every value as sent.
+2026-11-02 06:30:18  job a589337822: ZZ_TEST_TT_3113 done
+2026-11-02 06:30:18  job a589337822_4 done: The transaction type ZZ_TEST_TT_6421 is already in set COMMON in Oracle, so it was skipped; nothing was changed.
+2026-11-02 06:30:18  job a589337822: ZZ_TEST_TT_6421 done
+2026-11-02 06:30:18  job a589337822: transaction source 5 of 5: ZZ_TEST_TS_3114
+2026-11-02 06:33:50  job a589337822_5 done: Created the transaction source ZZ_TEST_TS_3114 in set COMMON for AutoInvoice with grouping rule ZZ_TEST_AG_3112, and checked it in Oracle: every value as sent.
+2026-11-02 06:33:50  job a589337822: ZZ_TEST_TS_3114 done
+2026-11-02 06:34:18  sheet test: browser sign-in check skipped (Receivables modules use no browser)
+2026-11-02 06:38:26  upload a51ef38567 (Receivables_sheet_test_A_run_by_Claude.xlsx): ready, 5 record(s), 0 problem(s), 0 stop(s), checked in 247 s
+2026-11-02 06:38:26  sheet test: browser sign-in check skipped (Receivables modules use no browser)
+2026-11-02 06:38:26  job 937c85da6f queued: Receivables Payment Terms (upload a51ef38567)
+2026-11-02 06:38:26  job 937c85da6f: receivables payment term 1 of 5: ZZ_TEST_PT_311
+2026-11-02 06:39:28  job 937c85da6f_1 done: The Receivables payment term ZZ_TEST_PT_311 is already in set COMMON in Oracle, so it was skipped; nothing was changed.
+2026-11-02 06:39:28  job 937c85da6f: ZZ_TEST_PT_311 done
+2026-11-02 06:39:28  job 937c85da6f: autoinvoice grouping rule 2 of 5: ZZ_TEST_AG_3112
+2026-11-02 06:40:33  job 937c85da6f_2 done: The AutoInvoice grouping rule ZZ_TEST_AG_3112 is already in Oracle, so it was skipped; nothing was changed.
+2026-11-02 06:40:33  job 937c85da6f: ZZ_TEST_AG_3112 done
+2026-11-02 06:40:33  job 937c85da6f: transaction type 3 of 5: ZZ_TEST_TT_3113
+2026-11-02 06:40:33  job 937c85da6f: transaction type 4 of 5: ZZ_TEST_TT_6421
+2026-11-02 06:41:36  job 937c85da6f_3 done: The transaction type ZZ_TEST_TT_3113 is already in set COMMON in Oracle, so it was skipped; nothing was changed.
+2026-11-02 06:41:36  job 937c85da6f: ZZ_TEST_TT_3113 done
+2026-11-02 06:41:36  job 937c85da6f_4 done: The transaction type ZZ_TEST_TT_6421 is already in set COMMON in Oracle, so it was skipped; nothing was changed.
+2026-11-02 06:41:36  job 937c85da6f: ZZ_TEST_TT_6421 done
+2026-11-02 06:41:36  job 937c85da6f: transaction source 5 of 5: ZZ_TEST_TS_3114
+2026-11-02 06:42:58  job 937c85da6f_5 done: The transaction source ZZ_TEST_TS_3114 is already in set COMMON in Oracle, so it was skipped; nothing was changed.
+2026-11-02 06:42:58  job 937c85da6f: ZZ_TEST_TS_3114 done

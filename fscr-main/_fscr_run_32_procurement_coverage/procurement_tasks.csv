@@ -1,0 +1,168 @@
+task,task_code,functional_area,row_tag,level,skill_or_guide,csv_flag,routes_declared,skill_but_no_csv_rest_route,offerings
+Manage Intake Request Approvals,ORA_PO_MANAGE_INTAKE_REQUEST_APPROVALS,Approval Management,Procurement,c,none,N,-,N,Procurement
+Manage Internal Supplier Profile Change Approvals,ORA_POZ_MANAGE_INTERNAL_SUPPLIER_PROFILE_CHANGE_APPROVALS,Approval Management,Procurement,a,task guide only,N,MANUAL_ONLY,Y,Procurement
+Manage Internal Supplier Registration Approvals,ORA_POZ_MANAGE_INTERNAL_SUPPLIER_REGISTRATION_APPROVALS,Approval Management,Procurement,a,task guide only,N,MANUAL_ONLY,Y,Procurement
+Manage Purchasing Document Approvals,PO_MANAGE_PURCHASING_DOCUMENT_APPROVALS,Approval Management,Procurement,c,none,N,-,N,Procurement
+Manage Supplier Profile Change Approvals,ORA_POZ_MANAGE_SUPPLIER_PROFILE_CHANGE_APPROVALS,Approval Management,Procurement,a,task guide only,N,MANUAL_ONLY,Y,Procurement
+Manage Supplier Spend Authorization Approvals,ORA_POZ_MANAGE_SUPPLIER_SPEND_AUTHORIZATION_APPROVALS,Approval Management,Procurement,a,task guide only,N,MANUAL_ONLY,Y,Procurement
+Manage Task Configurations for Procurement,PO_MANAGE_TASK_CONFIGURATIONS,Approval Management,Procurement,c,none,N,-,N,Procurement
+Manage Work Confirmation Approvals,ORA_PO_MANAGE_WORK_CONFIRMATION_APPROVALS,Approval Management,Procurement,c,none,N,-,N,Procurement
+Manage Requisition Approvals,POR_MANAGE_REQUISITION_APPROVALS,Approval Management; Self Service Procurement,Procurement,c,none,N,-,N,Procurement
+Manage Compliance Checklist Questions,ORA_PO_COMPLIANCE_CHECKLIST_QUESTIONS,Compliance Checklists,Procurement,b,none,Y,-,N,Procurement
+Manage Compliance Checklist Sections,ORA_PO_COMPLIANCE_CHECKLIST_SECTIONS,Compliance Checklists,Procurement,b,none,Y,-,N,Procurement
+Manage Compliance Checklist Templates,ORA_PO_COMPLIANCE_CHECKLIST_TEMPLATES,Compliance Checklists,Procurement,b,none,Y,-,N,Procurement
+Manage Contract Clause Types,OKC_MANAGE_CLAUSE_AND_TEMPLATE_MANAGEMENT_LOOKUPS,Procurement Contracts,Procurement,b,none,Y,-,N,Procurement
+Manage Contract Line Types,OKC_MANAGE_CONTRACT_LINE_TYPES,Procurement Contracts,Procurement,b,none,Y,-,N,Enterprise Contracts
+Manage Contract Terms Descriptive Flexfields,ORA_OKC_MANAGE_CONTRACT_TERMS_DESCRIPTIVE_FLEXFIELDS,Procurement Contracts,Procurement,b,none,Y,-,N,Procurement
+Manage Contract Terms Value Sets,OKC_MANAGE_CONTRACT_TERMS_VALUE_SETS,Procurement Contracts,Procurement,b,none,Y,-,N,Procurement
+Manage Contract and Procurement System Integrations,OKC_MANAGE_CONTRACTS_DELIVERABLE_PROCUREMENT_SYSTEM_LOOKUPS,Procurement Contracts,Procurement,b,none,Y,-,N,Enterprise Contracts
+Manage Task Configurations for Customer Relationship Management,ZBS_MANAGE_TASK_CONFIGURATIONS,Procurement Contracts,Procurement,c,none,N,-,N,Procurement
+Manage Task Configurations for Incentive Compensation,CN_MANAGE_TASK_CONFIGURATIONS,Procurement Contracts,Procurement,c,none,N,-,N,Procurement
+Specify Contract Clause Import XML File Location,OKC_MANAGE_CLAUSE_AND_TEMPLATE_MANAGEMENT_PROFILES,Procurement Contracts,Procurement,b,none,Y,-,N,Procurement
+Specify Supplier Contract Management Business Function Properties,OKC_SPECIFY_PROCUREMENT_CONTRACT_MGMT_BUSINESS_FUNC_PROP,Procurement Contracts,Procurement,b,none,Y,-,N,Enterprise Contracts; Procurement
+Configure Procurement Business Function,PO_CONFIGURE_PROCUREMENT_BUSINESS_FUNCTION,Procurement Foundation,Procurement,b,none,Y,-,N,Procurement
+Configure Requisitioning Business Function,POR_CONFIGURE_REQUISITIONING_BUSINESS_FUNCTION,Procurement Foundation,Procurement,a,SKILL.md,Y,FSM_CSV,N,Procurement
+Manage Carriers,WSH_MANAGE_CARRIERS,Procurement Foundation,Procurement,a,SKILL.md,Y,"FSM_CSV, REST",N,Procurement
+Manage Carriers Lookups,ORA_RCS_MANAGE_SHIPPING_LOOKUPS,Procurement Foundation,Procurement,b,none,Y,-,N,Procurement
+Manage Common Options for Payables and Procurement,AP_MANAGE_COMMON_OPTIONS_FOR_PAYABLES_AND_PROCUREMENT,Procurement Foundation,Procurement,a,SKILL.md,Y,"FSM_CSV, REST",N,Procurement
+Manage Document Styles,PO_MANAGE_DOCUMENT_STYLES,Procurement Foundation,Procurement,a,SKILL.md,Y,"FSM_CSV, REST",N,Procurement
+Manage FOB Lookup,PO_MANAGE_FOB_LOOKUP,Procurement Foundation,Procurement,b,none,Y,-,N,Procurement
+Manage Freight Terms Lookup,PO_MANAGE_FREIGHT_TERM_LOOKUP,Procurement Foundation,Procurement,b,none,Y,-,N,Procurement
+Manage Payment Terms,AP_MANAGE_PAYMENT_TERMS,Procurement Foundation,Procurement,a,SKILL.md,Y,FSM_CSV,N,Procurement
+Manage Procurement Category Hierarchy,POR_MANAGE_AGENT_ASSIGNMENTS_CATEGORY_HIERARCHY,Procurement Foundation,Procurement,a,SKILL.md,Y,FSM_CSV,N,Procurement
+Manage Procurement Document Numbering,ORA_PO_MANAGE_PROCUREMENT_DOCUMENT_NUMBERING,Procurement Foundation,Procurement,a,SKILL.md,Y,"FSM_CSV, REST",N,Procurement
+Manage Purchasing Line Types,PO_MANAGE_PURCHASING_LINE_TYPES,Procurement Foundation,Procurement,a,SKILL.md,Y,"FSM_CSV, REST",N,Procurement
+Manage Purchasing Profile Options,PO_MANAGE_PURCHASING_PROFILE_OPTIONS,Procurement Foundation,Procurement,b,none,Y,-,N,Procurement
+Manage Units of Measure,INV_MANAGE_UNITS_OF_MEASURE,Procurement Foundation,Procurement,a,SKILL.md,Y,"FSM_CSV, REST",N,Procurement
+Manage Account Rules,XLA_MANAGE_ACCOUNT_RULE,Procurement Transaction Account Rules,Procurement,b,none,Y,-,N,Procurement
+Manage Mapping Sets,XLA_MANAGE_MAPPING_SET,Procurement Transaction Account Rules,Procurement,b,none,Y,-,N,Procurement
+Manage Sources,XLA_MANAGE_SOURCES,Procurement Transaction Account Rules,Procurement,b,none,Y,-,N,Procurement
+Manage Subledger Accounting Options,XLA_MANAGE_SUBLEDGER_ACCOUNTING_OPTIONS,Procurement Transaction Account Rules,Procurement,b,none,Y,-,N,Procurement
+Manage Subledger Application,XLA_MANAGE_SUBLEDGER_APPLICATION,Procurement Transaction Account Rules,Procurement,b,none,Y,-,N,Procurement
+Manage Transaction Account Definitions,XLA_MANAGE_TRANSACTION_ACCOUNT_DEFINITION,Procurement Transaction Account Rules,Procurement,b,none,Y,-,N,Procurement
+Manage Transaction Account Types,XLA_MANAGE_TRANSACTION_ACCOUNT_TYPES,Procurement Transaction Account Rules,Procurement,b,none,Y,-,N,Procurement
+Manage User-Defined Formulas,ORA_XLA_MANAGE_FORMULA,Procurement Transaction Account Rules,Procurement,b,none,Y,-,N,Procurement
+Update Subledger Application Options,XLA_UPDATE_SUBLEDGER_APPLICATION_OPTIONS,Procurement Transaction Account Rules,Procurement,c,none,N,-,N,Procurement
+Manage Catalog Category Hierarchy,POR_MANAGE_CATALOG_CATEGORY_HIERARCHY,Self Service Procurement,Procurement,a,SKILL.md,Y,FSM_CSV,N,Procurement
+Manage Corporate Card Issuers,EXM_MANAGE_CORPORATE_CARD_ISSUERS,Self Service Procurement,Procurement,b,none,Y,-,N,Procurement
+Manage Corporate Card Programs,EXM_MANAGE_CORPORATE_CARD_PROGRAMS,Self Service Procurement,Procurement,b,none,Y,-,N,Procurement
+Manage Corporate Cards,EXM_MANAGE_CORPORATE_CARDS,Self Service Procurement,Procurement,c,none,N,-,N,Procurement
+Manage Information Template Descriptive Flexfields,POR_MANAGE_INFORMATION_TEMPLATE_DESCRIPTIVE_FLEXFIELDS,Self Service Procurement,Procurement,a,SKILL.md,Y,FSM_CSV,N,Procurement
+Manage Information Template Value Sets,POR_MANAGE_INFORMATION_TEMPLATE_VALUE_SETS,Self Service Procurement,Procurement,a,task guide only,Y,FSM_CSV,N,Procurement
+Manage Self Service Procurement Messages,ORA_POR_MANAGE_SELF_SERVICE_PROCUREMENT_MESSAGES,Self Service Procurement,Procurement,c,none,N,-,N,Procurement
+Manage Self Service Procurement Profile Options,POR_MANAGE_SELF_SERVICE_PROCUREMENT_PROFILE_OPTIONS,Self Service Procurement,Procurement,a,task guide only,Y,FSM_CSV,N,Procurement
+Manage External Purchase Prices Lookups,ORA_MANAGE_EXTERNAL_PURCHASE_PRICES_LOOKUPS,External Purchase Prices,Purchasing,b,none,Y,-,N,Procurement
+Manage External Purchase Prices Purchase Agreement Defaults,ORA_MANAGE_EXTERNAL_PURCHASE_PRICES_PA_DEFAULTS,External Purchase Prices,Purchasing,a,SKILL.md,Y,"FSM_CSV, REST",N,Procurement
+Manage External Purchase Prices Requisitioning BU Mapping,ORA_MANAGE_EXTERNAL_PURCHASE_PRICES_REQBU_MAPPING,External Purchase Prices,Purchasing,a,SKILL.md,Y,"FSM_CSV, REST",N,Procurement
+Manage External Purchase Prices Selection Criteria,ORA_MANAGE_EXTERNAL_PURCHASE_PRICES_SELECTION_CRITERIA,External Purchase Prices,Purchasing,a,SKILL.md,Y,"FSM_CSV, REST",N,Procurement
+Manage Catalog Descriptive Flexfields,EGP_MANAGE_CATALOG_ATTRIBUTES,Purchasing Categories,Purchasing,a,SKILL.md,Y,"FSM_CSV, REST",N,Procurement
+Manage Category Descriptive Flexfields,EGP_MANAGE_CATEGORY_ATTRIBUTES,Purchasing Categories,Purchasing,a,SKILL.md,Y,"FSM_CSV, REST",N,Procurement
+Manage Functional Area Catalogs,EGP_MANAGE_DEFAULT_CATALOGS,Purchasing Categories,Purchasing,a,SKILL.md,Y,"FSM_CSV, REST",N,Procurement
+Manage Approved Supplier List Statuses,PO_MANAGE_APPROVED_SUPPLIER_LIST_STATUSES,Purchasing Foundation,Purchasing,b,none,Y,-,N,Procurement
+Manage Buyer Assignment Rule Sets Lookup,ORA_PO_MANAGE_ASSIGNMENT_RULE_SETS_LOOKUP,Purchasing Foundation,Purchasing,b,none,Y,-,N,Procurement
+Manage Buyer Assignment Rules,ORA_PO_MANAGE_BUYER_ASSIGNMENT_RULES,Purchasing Foundation,Purchasing,b,none,Y,-,N,Procurement
+Manage Change Order Templates,PO_MANAGE_CHANGE_ORDER_TEMPLATES,Purchasing Foundation,Purchasing,b,none,Y,-,N,Procurement
+Manage Hazard Classes,PO_MANAGE_HAZARD_CLASSES,Purchasing Foundation,Purchasing,b,none,Y,-,N,Procurement
+Manage Purchasing Descriptive Flexfields,PO_MANAGE_PURCHASING_DESCRIPTIVE_FLEXFIELDS,Purchasing Foundation,Purchasing,b,none,Y,-,N,Procurement
+Manage Purchasing Messages,ORA_PO_MANAGE_PURCHASING_MESSAGES,Purchasing Foundation,Purchasing,c,none,N,-,N,Procurement
+Manage Purchasing Value Sets,PO_MANAGE_PURCHASING_VALUE_SETS,Purchasing Foundation,Purchasing,b,none,Y,-,N,Procurement
+Manage UN Numbers,PO_MANAGE_UN_NUMBERS,Purchasing Foundation,Purchasing,b,none,Y,-,N,Procurement
+Manage External Purchase Price Approvals,ORA_SCH_MANAGE_EXTERNAL_PURCHASE_PRICE_APPROVALS,Approval Management; External Purchase Prices,Shared,c,none,N,-,N,Procurement
+Manage Supplier Negotiation Approvals,ORA_PON_MANAGE_NEG_APPROVALS,Approval Management; Sourcing,Shared,c,none,N,-,N,Procurement
+Manage Supplier Negotiation Award Approvals,ORA_PON_MANAGE_NEG_AWARD_APPROVALS,Approval Management; Sourcing,Shared,c,none,N,-,N,Procurement
+Manage Supplier Registration Approvals,ORA_POZ_MANAGE_SUPPLIER_REGISTRATION_APPROVALS,Approval Management; Supplier Portal; Sourcing; Supplier Qualification,Shared,a,task guide only,N,MANUAL_ONLY,Y,Procurement
+Manage Requisition Descriptive Flexfields,POR_MANAGE_REQUISITION_DESCRIPTIVE_FLEXFIELDS,Purchasing Foundation; Self Service Procurement,Shared,a,SKILL.md,Y,"FSM_CSV, REST",N,Procurement
+Manage Requisition Value Sets,POR_MANAGE_REQUISITION_VALUE_SETS,Purchasing Foundation; Self Service Procurement,Shared,a,task guide only,Y,FSM_CSV,N,Procurement
+Manage Approval Groups,ORA_MANAGE_APPROVAL_GROUPS,Suppliers; Approval Management; Procurement Contracts,Shared,c,none,N,-,N,Manufacturing and Supply Chain Materials Management; Procurement
+Manage Procurement Agents,PO_MANAGE_PROCUREMENT_AGENTS,Suppliers; Procurement Foundation,Shared,a,SKILL.md,Y,"FSM_CSV, REST",N,Manufacturing and Supply Chain Materials Management; Procurement
+Configure Negotiation Award Outbound Service,ORA_PON_CONFIGURE_OUTBOUND_PURCHASING_SERVICE,Sourcing,Sourcing and Supplier Management,c,none,N,-,N,Procurement
+Manage Attribute Lists,PON_MANAGE_ATTRIBUTE_LISTS,Sourcing,Sourcing and Supplier Management,b,none,Y,-,N,Procurement
+Manage Cost Factor Lists,PON_MANAGE_COST_FACTOR_LISTS,Sourcing,Sourcing and Supplier Management,a,SKILL.md,Y,"FSM_CSV, REST",N,Procurement
+Manage Cost Factors,PON_MANAGE_COST_FACTORS,Sourcing,Sourcing and Supplier Management,a,SKILL.md,Y,"FSM_CSV, REST",N,Procurement
+Manage Negotiation Styles,PON_MANAGE_NEGOTIATION_STYLES,Sourcing,Sourcing and Supplier Management,b,none,Y,-,N,Procurement
+Manage Sourcing Descriptive Flexfields,PON_MANAGE_SOURCING_DESCRIPTIVE_FLEXFIELDS,Sourcing,Sourcing and Supplier Management,b,none,Y,-,N,Procurement
+Manage Sourcing Lookups,ORA_PON_MANAGE_SOURCING_LOOKUPS,Sourcing,Sourcing and Supplier Management,b,none,Y,-,N,Procurement
+Manage Sourcing Messages,ORA_PON_MANAGE_SOURCING_MESSAGES,Sourcing,Sourcing and Supplier Management,c,none,N,-,N,Procurement
+Manage Sourcing Notifications,ORA_PON_MANAGE_NOTIFICATIONS,Sourcing,Sourcing and Supplier Management,a,SKILL.md,Y,"FSM_CSV, REST",N,Procurement
+Manage Sourcing Value Sets,PON_MANAGE_SOURCING_VALUE_SETS,Sourcing,Sourcing and Supplier Management,b,none,Y,-,N,Procurement
+Manage Supplier Questions,ORA_POQ_MANAGE_SUPPLIER_QUALIFICATION_QUESTIONS,Sourcing; Supplier Qualification,Sourcing and Supplier Management,a,SKILL.md,Y,"FSM_CSV, REST",N,Procurement
+Configure Supplier Notifications,ORA_POZ_CONFIGURE_SUPPLIER_NOTIFICATIONS_FOR_PROFILE_MGMT,Supplier Portal; Sourcing; Supplier Qualification,Sourcing and Supplier Management,a,SKILL.md,Y,"FSM_CSV, REST",N,Procurement; Product Management
+Manage Supplier Portal Messages,ORA_POZ_MANAGE_SUPPLIER_PORTAL_MESSAGES,Supplier Portal; Sourcing; Supplier Qualification,Sourcing and Supplier Management,a,SKILL.md,N,MANUAL_ONLY,Y,Procurement; Product Management
+Manage Supplier User Role Usages,POZ_MANAGE_SUPPLIER_USER_ROLE_USAGES,Supplier Portal; Sourcing; Supplier Qualification,Sourcing and Supplier Management,a,SKILL.md,Y,REST,N,Procurement; Product Management
+Manage Supplier User Roles,POZ_MANAGE_SUPPLIER_USER_ROLES,Supplier Portal; Sourcing; Supplier Qualification,Sourcing and Supplier Management,a,SKILL.md,Y,"FSM_CSV, REST",N,Procurement; Product Management
+Specify Supplier News Content,POZ_SPECIFY_SUPPLIER_NEWS_CONTENT,Supplier Portal; Sourcing; Supplier Qualification,Sourcing and Supplier Management,a,SKILL.md,Y,"FSM_CSV, REST",N,Procurement; Product Management
+Specify User Category for New Supplier Users,ORA_POZ_SPECIFY_SUP_USER_CATEGORY,Supplier Portal; Sourcing; Supplier Qualification,Sourcing and Supplier Management,c,none,N,-,N,Procurement; Product Management
+Configure Supplier Qualification Controls,ORA_POQ_CONFIGURE_SUPPLIER_QUALIFICATION_CONTROLS,Supplier Qualification,Sourcing and Supplier Management,b,none,Y,-,N,Procurement
+Manage Assessment Outcome Lookup,ORA_POQ_MANAGE_ASSESSMENT_OUTCOME_LOOKUP,Supplier Qualification,Sourcing and Supplier Management,b,none,Y,-,N,Procurement
+Manage Qualification Areas,ORA_POQ_MANAGE_SUPPLIER_QUALIFICATION_AREAS,Supplier Qualification,Sourcing and Supplier Management,b,none,Y,-,N,Procurement
+Manage Qualification Models,ORA_POQ_MANAGE_SUPPLIER_QUALIFICATION_MODELS,Supplier Qualification,Sourcing and Supplier Management,b,none,Y,-,N,Procurement
+Manage Qualification Outcome Lookup,ORA_POQ_MANAGE_QUALIFICATION_OUTCOME_LOOKUP,Supplier Qualification,Sourcing and Supplier Management,b,none,Y,-,N,Procurement
+Manage Standards Organization Lookup,ORA_POQ_MANAGE_STANDARDS_ORGANIZATION_LOOKUP,Supplier Qualification,Sourcing and Supplier Management,b,none,Y,-,N,Procurement
+Manage Subject Lookup,ORA_POQ_MANAGE_SUBJECT_LOOKUP,Supplier Qualification,Sourcing and Supplier Management,b,none,Y,-,N,Procurement
+Manage Supplier Qualification Descriptive Flexfields,ORA_POQ_MANAGE_SUPPLIER_QUALIFICATION_DESCRIPTIVE_FLEXFIELDS,Supplier Qualification,Sourcing and Supplier Management,b,none,Y,-,N,Procurement
+Manage Supplier Qualification Messages,ORA_POQ_MANAGE_SUPPLIER_QUALIFICATION_MESSAGES,Supplier Qualification,Sourcing and Supplier Management,c,none,N,-,N,Procurement
+Manage Supplier Qualification Rule Sets,ORA_POQ_MANAGE_SUPPLIER_REG_RULE_SETS,Supplier Qualification,Sourcing and Supplier Management,b,none,Y,-,N,Procurement
+Manage Supplier Qualification Value Sets,ORA_POQ_MANAGE_SUPPLIER_QUALIFICATION_VALUE_SETS,Supplier Qualification,Sourcing and Supplier Management,b,none,Y,-,N,Procurement
+Associate Customer with Inventory Organization,ORA_RCS_ASSOCIATE_CUSTOMER_WITH_INVENTORY_ORGANIZATION,Suppliers,Sourcing and Supplier Management,b,none,Y,-,N,Manufacturing and Supply Chain Materials Management
+Associate Expired Lot Subinventories and Locators with Inventory Organizations,ORA_RCS_ASSOCIATE_EXPIRED_LOT_SUBINVLOC_WITH_INVENTORY_ORGANIZATIONS,Suppliers,Sourcing and Supplier Management,b,none,Y,-,N,Manufacturing and Supply Chain Materials Management
+Associate Fixed Asset Books with Inventory Organizations,ORA_RCS_ASSOCIATE_FABOOK_WITH_INVENTORY_ORGANIZATION,Suppliers,Sourcing and Supplier Management,b,none,Y,-,N,Manufacturing and Supply Chain Materials Management
+Associate Source Organization with Inventory Organization,ORA_RCS_ASSOCIATE_SOURCE_ORGANIZATION_WITH_INVENTORY_ORGANIZATION,Suppliers,Sourcing and Supplier Management,b,none,Y,-,N,Manufacturing and Supply Chain Materials Management
+Associate Supplier with Contract Manufacturing Plant,ORA_RCS_ASSOCIATE_SUPPLIER_W_MFG_ORG,Suppliers,Sourcing and Supplier Management,b,none,Y,-,N,Manufacturing and Supply Chain Materials Management
+Configure Electronic Signature Preferences,ORA_EDR_ELECTRONIC_SIGN_PREF,Suppliers,Sourcing and Supplier Management,b,none,Y,-,N,Manufacturing and Supply Chain Materials Management
+Configure New Supplier Notification,ORA_POZ_CONFIGURE_NEW_SUPPLIER_NOTIFICATION,Suppliers,Sourcing and Supplier Management,a,SKILL.md,Y,"FSM_CSV, REST",N,Procurement
+Configure Party Relationships for Supplier Match,ORA_POZ_CONFIGURE_PARTY_RELATIONSHIPS_FOR_SUPPLIER_MATCH,Suppliers,Sourcing and Supplier Management,b,none,Y,-,N,Procurement
+Configure Supplier Outbound Synchronization Service,ORA_POZ_CONFIGURE_SUPPLIER_OUTBOUND_SYNCHRONIZATION_SERVICE,Suppliers,Sourcing and Supplier Management,a,task guide only,N,MANUAL_ONLY,Y,Procurement
+Configure Supplier Profile Change Request,ORA_POZ_CONFIGURE_SUPPLIER_PROFILE_CHANGE_REQUEST,Suppliers,Sourcing and Supplier Management,a,SKILL.md,Y,"FSM_CSV, REST",N,Procurement
+Configure Supplier Registration,POZ_CONFIGURE_SUPPLIER_REGISTRATION,Suppliers,Sourcing and Supplier Management,a,SKILL.md,Y,"FSM_CSV, REST",N,Procurement
+Copy Inventory Organizations,ORA_RCS_COPY_INVENTORY_ORGANIZATIONS,Suppliers,Sourcing and Supplier Management,b,none,Y,-,N,Manufacturing and Supply Chain Materials Management
+Import Person and Organization,HZ_IMPORT_PARTNERS,Suppliers,Sourcing and Supplier Management,c,none,N,-,N,Manufacturing and Supply Chain Materials Management
+Import Suppliers,POZ_IMPORT_SUPPLIERS,Suppliers,Sourcing and Supplier Management,a,SKILL.md,N,FBDI,Y,Procurement
+Load Supplier Interface through Scheduled Process,ORA_POZ_LOAD_SUPPLIER_INTERFACE_VIA_SCHEDULED_PROCESS,Suppliers,Sourcing and Supplier Management,c,none,N,-,N,Procurement
+Manage Address Formats,HZ_MANAGE_ADDRESS_FORMATS,Suppliers,Sourcing and Supplier Management,a,SKILL.md,Y,FSM_CSV,N,Procurement
+Manage B2B Configuration,ORA_CMK_MANAGE_B2B_CONFIG,Suppliers,Sourcing and Supplier Management,c,none,N,-,N,Manufacturing and Supply Chain Materials Management; Procurement
+Manage Business Classification Lookup,POZ_MANAGE_BUSINESS_CLASSIFICATION_LOOKUP,Suppliers,Sourcing and Supplier Management,a,SKILL.md,Y,"FSM_CSV, REST",N,Procurement
+Manage Certifying Agencies,ORA_POZ_MANAGE_CERTIFYING_AGENCIES,Suppliers,Sourcing and Supplier Management,a,SKILL.md,Y,"FSM_CSV, REST",N,Procurement
+Manage Collaboration Messaging Domain Value Map,ORA_CMK_MANAGE_COLLAB_MESG_DVM,Suppliers,Sourcing and Supplier Management,c,none,N,-,N,Manufacturing and Supply Chain Materials Management; Procurement
+Manage Collaboration Messaging Service Providers,ORA_CMK_COLLAB_MESG_SERVICE_PROVIDER,Suppliers,Sourcing and Supplier Management,a,SKILL.md,Y,"FSM_CSV, REST",N,Manufacturing and Supply Chain Materials Management; Procurement
+Manage Default Expenditure Types,ORA_RCS_MANAGE_DEFAULT_EXPENDITURE_TYPES,Suppliers,Sourcing and Supplier Management,b,none,Y,-,N,Manufacturing and Supply Chain Materials Management
+Manage Default Expenditure Types Lookups,ORA_RCS_MANAGE_DEFAULT_EXPENDITURE_TYPES_LOOKUPS,Suppliers,Sourcing and Supplier Management,b,none,Y,-,N,Manufacturing and Supply Chain Materials Management
+Manage Enterprise Data Quality Matching Configurations,ORA_ZCQ_EDQ_MATCH_CONFIGURATIONS,Suppliers,Sourcing and Supplier Management,b,none,Y,-,N,Procurement
+Manage Import Lookups,HZ_MANAGE_IMPORT_LOOKUPS,Suppliers,Sourcing and Supplier Management,a,SKILL.md,Y,FSM_CSV,N,Manufacturing and Supply Chain Materials Management
+Manage Integration with Oracle Verification Services,ORA_MANAGE_ADDRESS_VERIFICATION_CLOUD_TO_CX_CLOUD_INTEGRATION,Suppliers,Sourcing and Supplier Management,c,none,N,-,N,Procurement
+Manage Intercompany and Contract Manufacturing Suppliers,ORA_RCS_MANAGE_SUPPLIER,Suppliers,Sourcing and Supplier Management,c,none,N,-,N,Manufacturing and Supply Chain Materials Management
+Manage Inventory Organizations Descriptive Flexfields,ORA_RCS_MANAGE_INV_ORG_FLEXFIELDS,Suppliers,Sourcing and Supplier Management,b,none,Y,-,N,Manufacturing and Supply Chain Materials Management
+Manage Inventory Organizations Value Sets,ORA_RCS_MANAGE_INV_ORG_VALUE_SETS,Suppliers,Sourcing and Supplier Management,a,task guide only,Y,FSM_CSV,N,Manufacturing and Supply Chain Materials Management
+Manage Item Organizations,EGP_MANAGE_ITEM_ORGANIZATIONS,Suppliers,Sourcing and Supplier Management,a,SKILL.md,Y,"FSM_CSV, REST",N,Manufacturing and Supply Chain Materials Management
+Manage Item Organizations Descriptive Flexfields,ORA_RCS_MANAGE_ITEM_ORG_FLEXFIELDS,Suppliers,Sourcing and Supplier Management,b,none,Y,-,N,Manufacturing and Supply Chain Materials Management
+Manage Item Organizations Value Sets,ORA_RCS_MANAGE_ITEM_ORG_VALUE_SETS,Suppliers,Sourcing and Supplier Management,a,task guide only,Y,FSM_CSV,N,Manufacturing and Supply Chain Materials Management
+Manage Minority Group Lookup,POZ_MANAGE_MINORITY_GROUP_LOOKUP,Suppliers,Sourcing and Supplier Management,a,SKILL.md,Y,"FSM_CSV, REST",N,Procurement
+Manage Plant Profiles,ORA_RCS_MANAGE_MFG_PLANT_PROFILE,Suppliers,Sourcing and Supplier Management,a,task guide only,Y,FSM_CSV,N,Manufacturing and Supply Chain Materials Management
+Manage Project Attribute Defaults,ORA_RCS_MANAGE_PROJECT_ATTRIBUTE_DEFAULTS,Suppliers,Sourcing and Supplier Management,b,none,Y,-,N,Manufacturing and Supply Chain Materials Management
+Manage Project Costing Descriptive Flexfields,PJC_MANAGE_PROJECT_COSTING_DESCRIPTIVE_FLEXFIELDS,Suppliers,Sourcing and Supplier Management,b,none,Y,-,N,Manufacturing and Supply Chain Materials Management
+Manage Project Organization Classifications,PJF_MANAGE_PROJECT_ORGANIZATION_CLASSIFICATIONS,Suppliers,Sourcing and Supplier Management,a,SKILL.md,Y,"HDL, REST",N,Manufacturing and Supply Chain Materials Management
+Manage Project Type Cost Exclusions,ORA_RCS_MANAGE_PROJECT_TYPE_COST_EXCLUSIONS,Suppliers,Sourcing and Supplier Management,b,none,Y,-,N,Manufacturing and Supply Chain Materials Management
+Manage SCM Common Lookups,ORA_RCS_MANAGE_SCM_COMMON_LOOKUPS,Suppliers,Sourcing and Supplier Management,b,none,Y,-,N,Manufacturing and Supply Chain Materials Management
+Manage SCM Enterprise Calendar Profile Option,ORA_RCS_MANAGE_CALENDAR_PROFILE_OPTION,Suppliers,Sourcing and Supplier Management,a,task guide only,Y,FSM_CSV,N,Manufacturing and Supply Chain Materials Management
+Manage Server Configurations,ZCQ_MANAGE_SERVER_CONFIGURATIONS,Suppliers,Sourcing and Supplier Management,a,SKILL.md,Y,FSM_CSV,N,Procurement
+Manage Simplified Collaboration Messaging Configuration,ORA_CMK_MNGE_SIMPLIFIED_COLLAB_MSG_CONFIG,Suppliers,Sourcing and Supplier Management,a,SKILL.md,Y,"FSM_CSV, REST",N,Manufacturing and Supply Chain Materials Management; Procurement
+Manage Source System Descriptive Flexfields,HZ_MANAGE_SOURCE_SYSTEM_DESCRIPTIVE_FLEXFIELDS,Suppliers,Sourcing and Supplier Management,a,SKILL.md,Y,FSM_CSV,N,Manufacturing and Supply Chain Materials Management
+Manage Source System Entities,HZ_MANAGE_SOURCE_SYSTEM_ENTITIES,Suppliers,Sourcing and Supplier Management,a,SKILL.md,Y,FSM_CSV,N,Manufacturing and Supply Chain Materials Management
+Manage Source System Lookups,HZ_MANAGE_SOURCE_SYSTEM_LOOKUPS,Suppliers,Sourcing and Supplier Management,a,SKILL.md,Y,FSM_CSV,N,Manufacturing and Supply Chain Materials Management
+Manage Supplier Bank Account Descriptive Flexfields,ORA_MANAGE_SUPPLIER_BANK_ACCOUNT_DESCRIPTIVE_FLEXFIELDS,Suppliers,Sourcing and Supplier Management,a,SKILL.md,Y,"FSM_CSV, REST",N,Procurement
+Manage Supplier Descriptive Flexfields,POZ_MANAGE_SUPPLIER_DESCRIPTIVE_FLEXFIELDS,Suppliers,Sourcing and Supplier Management,a,SKILL.md,Y,"FSM_CSV, REST",N,Procurement
+Manage Supplier Messages,ORA_POZ_MANAGE_SUPPLIER_MESSAGES,Suppliers,Sourcing and Supplier Management,a,SKILL.md,N,MANUAL_ONLY,Y,Procurement
+Manage Supplier Products and Services Category Hierarchy,POR_MANAGE_SUPPLIER_PRODUCTS_AND_SERVICES_CATEGORY_HIERARCHY,Suppliers,Sourcing and Supplier Management,a,SKILL.md,Y,FSM_CSV,N,Procurement
+Manage Supplier Profile Options,ORA_POZ_MANAGE_SUPPLIER_PROFILE_OPTIONS,Suppliers,Sourcing and Supplier Management,a,SKILL.md,Y,"FSM_CSV, REST",N,Procurement
+Manage Supplier Registration Descriptive Flexfields,POZ_MANAGE_SUPPLIER_REGISTRATION_DESCRIPTIVE_FLEXFIELDS,Suppliers,Sourcing and Supplier Management,a,SKILL.md,Y,"FSM_CSV, REST",N,Procurement
+Manage Supplier Registration Value Sets,POZ_MANAGE_SUPPLIER_REGISTRATION_VALUE_SETS,Suppliers,Sourcing and Supplier Management,a,SKILL.md,Y,"FSM_CSV, REST",N,Procurement
+Manage Supplier Type Lookup,POZ_MANAGE_SUPPLIER_TYPE_LOOKUP,Suppliers,Sourcing and Supplier Management,a,SKILL.md,Y,"FSM_CSV, REST",N,Procurement
+Manage Supplier Value Sets,POZ_MANAGE_SUPPLIER_VALUE_SETS,Suppliers,Sourcing and Supplier Management,a,SKILL.md,Y,"FSM_CSV, REST",N,Procurement
+Manage Task Configurations for Supply Chain Management,INV_MANAGE_TASK_CONFIGURATIONS,Suppliers,Sourcing and Supplier Management,b,none,Y,-,N,Manufacturing and Supply Chain Materials Management; Procurement
+Manage Tax Organization Type Lookup,POZ_MANAGE_TAX_ORGANIZATION_TYPE_LOOKUP,Suppliers,Sourcing and Supplier Management,a,SKILL.md,Y,"FSM_CSV, REST",N,Procurement
+Manage Trading Community Organization Site Descriptive Flexfields,HZ_TRADING_COMMUNITY_ORGANIZATION_SITE_DESC_FLEXFIELDS,Suppliers,Sourcing and Supplier Management,a,SKILL.md,Y,FSM_CSV,N,Procurement
+Manage Trading Community Person Descriptive Flexfields,HZ_MANAGE_TRADING_COMMUNITY_PERSON_DESCRIPTIVE_FLEXFIELDS,Suppliers,Sourcing and Supplier Management,a,SKILL.md,Y,FSM_CSV,N,Procurement
+Manage Trading Community Source Systems,HZ_MANAGE_TRADING_COMMUNITY_SOURCE_SYSTEMS,Suppliers,Sourcing and Supplier Management,a,SKILL.md,Y,FSM_CSV,N,Manufacturing and Supply Chain Materials Management
+Search Legal Entities,XLE_SEARCH_LEGAL_ENTITIES,Suppliers,Sourcing and Supplier Management,b,none,Y,-,N,Manufacturing and Supply Chain Materials Management
+Specify Supplier Numbering,POZ_SPECIFY_SUPPLIER_NUMBERING,Suppliers,Sourcing and Supplier Management,a,SKILL.md,Y,"FSM_CSV, REST",N,Manufacturing and Supply Chain Materials Management; Procurement
+Upload Supplier Import File,ORA_POZ_UPLOAD_SUPPLIER_IMPORT_FILE,Suppliers,Sourcing and Supplier Management,c,none,N,-,N,Procurement
+View Accounting Configuration Summary,GL_VIEW_ACCOUNTING_CONFIGURATION_SUMMARY,Suppliers,Sourcing and Supplier Management,b,none,Y,-,N,Manufacturing and Supply Chain Materials Management

@@ -1,0 +1,1 @@
+{"operations":[{"id":"b1","action":"create","entity":"ORA_AP_BANK_CHARGE","targetKey":{"CurrencyCode":"USD","SettlementPriorityDisplay":"Express","TransferringBankOption":"All","TransferringBranchOption":"All","ReceivingBankOption":"All","ReceivingBranchOption":"All"},"values":{}}]}

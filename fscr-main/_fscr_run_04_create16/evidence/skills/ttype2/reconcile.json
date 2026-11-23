@@ -1,0 +1,180 @@
+{
+  "baselineSha256": "694029faa84d7d164ec0cafb9baea0fd694dd065a1f9a5c2c423fcfbc223df14",
+  "candidateSha256": "c9fa278d225b00cfc55c0eb1307e270d80bde48a9b88984f4e6c27f0c3f4bc55",
+  "exportSha256": "10b035f15ae1721b363e2343d119911b5981f5d7ba3e6f3a8e5e550eefe59538",
+  "mismatchCount": 0,
+  "requirementMatrix": [
+    {
+      "candidate": "present",
+      "detail": "",
+      "passed": true,
+      "persisted": "present",
+      "requested": "record present",
+      "requirement": "create exactly one AR_TRANSACTION_TYPE record identified by {\"Name\":\"FSCRT_TT1\",\"SetCode\":\"ENTERPRISE\"}",
+      "requirementId": "REQ-001"
+    },
+    {
+      "candidate": "Y",
+      "detail": "",
+      "passed": true,
+      "persisted": "Y",
+      "requested": "Y",
+      "requirement": "Persist AR_TRANSACTION_TYPE.AccountingAffectFlag=Y",
+      "requirementId": "REQ-002"
+    },
+    {
+      "candidate": "N",
+      "detail": "",
+      "passed": true,
+      "persisted": "N",
+      "requested": "N",
+      "requirement": "Persist AR_TRANSACTION_TYPE.AllowFreightFlag=N",
+      "requirementId": "REQ-003"
+    },
+    {
+      "candidate": "N",
+      "detail": "",
+      "passed": true,
+      "persisted": "N",
+      "requested": "N",
+      "requirement": "Persist AR_TRANSACTION_TYPE.AllowOverapplicationFlag=N",
+      "requirementId": "REQ-004"
+    },
+    {
+      "candidate": "P",
+      "detail": "",
+      "passed": true,
+      "persisted": "P",
+      "requested": "P",
+      "requirement": "Persist AR_TRANSACTION_TYPE.CreationSign=P",
+      "requirementId": "REQ-005"
+    },
+    {
+      "candidate": "PRI",
+      "detail": "",
+      "passed": true,
+      "persisted": "PRI",
+      "requested": "PRI",
+      "requirement": "Persist AR_TRANSACTION_TYPE.DefaultPrintingOption=PRI",
+      "requirementId": "REQ-006"
+    },
+    {
+      "candidate": "OP",
+      "detail": "",
+      "passed": true,
+      "persisted": "OP",
+      "requested": "OP",
+      "requirement": "Persist AR_TRANSACTION_TYPE.DefaultStatus=OP",
+      "requirementId": "REQ-007"
+    },
+    {
+      "candidate": "FSCRT Run04 invoice type",
+      "detail": "",
+      "passed": true,
+      "persisted": "FSCRT Run04 invoice type",
+      "requested": "FSCRT Run04 invoice type",
+      "requirement": "Persist AR_TRANSACTION_TYPE.Description=FSCRT Run04 invoice type",
+      "requirementId": "REQ-008"
+    },
+    {
+      "candidate": "N",
+      "detail": "",
+      "passed": true,
+      "persisted": "N",
+      "requested": "N",
+      "requirement": "Persist AR_TRANSACTION_TYPE.NaturalApplicationOnlyFlag=N",
+      "requirementId": "REQ-009"
+    },
+    {
+      "candidate": "N",
+      "detail": "",
+      "passed": true,
+      "persisted": "N",
+      "requested": "N",
+      "requirement": "Persist AR_TRANSACTION_TYPE.PostToGl=N",
+      "requirementId": "REQ-010"
+    },
+    {
+      "candidate": "2026-11-03",
+      "detail": "Retained the raw declared-date format difference under FSCR.TYPE.DATE.STRICT_ISO_TO_SLASH.",
+      "passed": true,
+      "persisted": "2026/11/03",
+      "rawDifferences": [
+        {
+          "candidate": "2026-11-03",
+          "field": "StartDate",
+          "persisted": "2026/11/03",
+          "requested": "2026-11-03"
+        }
+      ],
+      "requested": "2026-11-03",
+      "requirement": "Persist AR_TRANSACTION_TYPE.StartDate=2026-11-03",
+      "requirementId": "REQ-011",
+      "semanticEquivalences": [
+        {
+          "canonicalValue": "2026-11-03",
+          "contractEvidence": [
+            "e2e-adapter.json package.entities[AR_TRANSACTION_TYPE].types[StartDate]=date",
+            "Exact ASM_SETUP_CSV_METADATA.xml XmlAttributeTypeList date contract"
+          ],
+          "declaredType": "date",
+          "entity": "AR_TRANSACTION_TYPE",
+          "field": "StartDate",
+          "rawValues": {
+            "candidate": "2026-11-03",
+            "persisted": "2026/11/03",
+            "requested": "2026-11-03"
+          },
+          "ruleId": "FSCR.TYPE.DATE.STRICT_ISO_TO_SLASH",
+          "semanticValue": "same Gregorian calendar date"
+        }
+      ]
+    },
+    {
+      "candidate": "A",
+      "detail": "",
+      "passed": true,
+      "persisted": "A",
+      "requested": "A",
+      "requirement": "Persist AR_TRANSACTION_TYPE.Status=A",
+      "requirementId": "REQ-012"
+    },
+    {
+      "candidate": "N",
+      "detail": "",
+      "passed": true,
+      "persisted": "N",
+      "requested": "N",
+      "requirement": "Persist AR_TRANSACTION_TYPE.TaxCalculationFlag=N",
+      "requirementId": "REQ-013"
+    },
+    {
+      "candidate": "INV",
+      "detail": "",
+      "passed": true,
+      "persisted": "INV",
+      "requested": "INV",
+      "requirement": "Persist AR_TRANSACTION_TYPE.Type=INV",
+      "requirementId": "REQ-014"
+    },
+    {
+      "candidate": "not populated by design",
+      "detail": "Unexpected difference count: 0.",
+      "passed": true,
+      "persisted": "unchanged",
+      "requested": "unchanged",
+      "requirement": "Preserve every unspecified record and non-audit value",
+      "requirementId": "REQ-015"
+    }
+  ],
+  "schemaVersion": "fscr-fsm-task-adapter-v1",
+  "status": "PASS",
+  "task": {
+    "code": "AR_MANAGE_TRANSACTION_TYPES",
+    "csvSupported": true,
+    "functionalArea": "Customer Billing",
+    "importMode": "FSM",
+    "name": "Manage Transaction Types",
+    "offering": "Financials"
+  }
+}

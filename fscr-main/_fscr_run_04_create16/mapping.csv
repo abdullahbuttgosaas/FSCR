@@ -1,0 +1,7 @@
+skill,object,intended_name,created_name,note
+S2,Payables calendar,FSCRT_CAL1,FSCRT_CAL1,GENERAL monthly 2027 (12 periods Jan-27..Dec-27)
+run,FSCR Run Book,FSCRT Run04 Create16,FSCRT Run04 Create16,WorkerJourneyId 300000394655024 (created by FSCR initializer)
+S3,Payables payment term,FSCRT_AP_N45,FSCRT_AP_N45,net 45; set ENTERPRISE
+S8,AutoInvoice grouping rule,FSCRT_GRP1,FSCRT_GRP1,class I
+S12,Receivables transaction type,FSCRT_TT1,FSCRT_TT1,set ENTERPRISE; INV; CreationSign P
+S14,Receivables transaction source,FSCRT_TS1,FSCRT_TS1,set ENTERPRISE; manual; type link not supported on create

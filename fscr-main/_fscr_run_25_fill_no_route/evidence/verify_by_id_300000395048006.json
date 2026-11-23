@@ -1,0 +1,26 @@
+{
+  "AlternateNameId" : "300000395048006",
+  "AlternatePayerName" : "FSCRT_R25 Payer B",
+  "ZenginCustomerBankName" : "FSCRT_R25 Test Bank",
+  "ZenginCustomerBankBranchName" : "FSCRT_R25 Test Branch",
+  "CustomerName" : "ZZ_TEST_CU_2589_14_OK",
+  "CustomerAccountNumber" : "21541",
+  "BillToSite" : null,
+  "RemittanceBankName" : null,
+  "RemittanceBankNumber" : null,
+  "RemittanceBankBranchNumber" : null,
+  "VirtualAccountNumber" : null,
+  "Active" : "Y",
+  "CreatedBy" : "Configuration.TEST",
+  "CreationDate" : "2026-11-15T11:51:54+00:00",
+  "LastUpdateDate" : "2026-11-15T11:51:54.142+00:00",
+  "LastUpdateLogin" : "604F77DDF43D4D0AE0631B65310ABA6B",
+  "LastUpdatedBy" : "Configuration.TEST",
+  "ObjectVersionNumber" : 1,
+  "@context" : {
+    "key" : "300000395048006",
+    "headers" : {
+      "ETag" : "ACED0005737200136A6176612E7574696C2E41727261794C6973747881D21D99C7619D03000149000473697A65787000000001770400000001737200116A6176612E6C616E672E496E746567657212E2A0A4F781873802000149000576616C7565787200106A6176612E6C616E672E4E756D62657286AC951D0B94E08B02000078700000000178"
+    }
+  }
+}

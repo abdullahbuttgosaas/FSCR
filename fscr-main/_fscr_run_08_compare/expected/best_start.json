@@ -1,0 +1,309 @@
+{
+ "payment_term|FSCRT_2P10N30F1": {
+  "area": "payment_term",
+  "key": "FSCRT_2P10N30F1",
+  "source": "Run01 input [3]",
+  "fields": {
+   "SetCode": "ENTERPRISE",
+   "Description": "2 percent off if paid in 10 days, otherwise due in 30",
+   "StartDateActive": "2026-11-03",
+   "EndDateActive": "2028-12-31",
+   "Lines": "1:100:30",
+   "Discounts": "1:2:10"
+  },
+  "fingerprint": "6ce8d2990d91ebdf15f1ed3913b9162e"
+ },
+ "payment_term|FSCRT_D25B75AF1": {
+  "area": "payment_term",
+  "key": "FSCRT_D25B75AF1",
+  "source": "Run01 input [3] + Run03 C1",
+  "fields": {
+   "SetCode": "ENTERPRISE",
+   "Description": "25 percent deposit at 15 days, balance at 60 days",
+   "StartDateActive": "2026-11-02",
+   "EndDateActive": "2028-12-31",
+   "Lines": "1:25:15;2:75:60",
+   "Discounts": ""
+  },
+  "fingerprint": "a45630ed34c9489e48b4c03269c06c8c"
+ },
+ "lookup_type|FSCRT_OUTDOOR_ACTIVITY_F01": {
+  "area": "lookup_type",
+  "key": "FSCRT_OUTDOOR_ACTIVITY_F01",
+  "source": "Run01 payload lt1.json",
+  "fields": {
+   "Meaning": "FSCRT_Outdoor activity F01",
+   "Description": "Activities a product is sold for",
+   "ModuleId": "61ECAF4AAB00E990E040449821C61C97",
+   "CustomizationLevel": "U"
+  },
+  "fingerprint": "39c6569aa3efcb2f33b2afbadad6dc17"
+ },
+ "lookup_type|FSCRT_CARRIER_SERVICE_TIER_F01": {
+  "area": "lookup_type",
+  "key": "FSCRT_CARRIER_SERVICE_TIER_F01",
+  "source": "Run01 payload lt2.json",
+  "fields": {
+   "Meaning": "FSCRT_Carrier service tier F01",
+   "Description": "Shipping service levels offered to dealers",
+   "ModuleId": "61ECAF4AAB00E990E040449821C61C97",
+   "CustomizationLevel": "U",
+   "RestAccessSecured": "AUTH"
+  },
+  "fingerprint": "3738ddc39e9eecc09c3a5e6aa78c9b93"
+ },
+ "lookup_code|FSCRT_OUTDOOR_ACTIVITY_F01/FSCRT_HIKING": {
+  "area": "lookup_code",
+  "key": "FSCRT_OUTDOOR_ACTIVITY_F01/FSCRT_HIKING",
+  "source": "lc_hiking + c2_hiking",
+  "fields": {
+   "Description": "Day hikes and multi-day treks",
+   "Tag": "",
+   "EndDateActive": "",
+   "Meaning": "FSCRT_Hiking and trekking",
+   "EnabledFlag": "Y",
+   "DisplaySequence": "1"
+  },
+  "fingerprint": "80982c4c436d78a0811f2c93e3e791ab"
+ },
+ "lookup_code|FSCRT_OUTDOOR_ACTIVITY_F01/FSCRT_PADDLING": {
+  "area": "lookup_code",
+  "key": "FSCRT_OUTDOOR_ACTIVITY_F01/FSCRT_PADDLING",
+  "source": "lc_paddling + r3_paddling",
+  "fields": {
+   "Description": "Kayak, canoe and paddleboard gear",
+   "Tag": "water",
+   "EndDateActive": "",
+   "Meaning": "FSCRT_Paddling",
+   "EnabledFlag": "Y",
+   "DisplaySequence": "2"
+  },
+  "fingerprint": "61a5da51ae0cca343017f0d074f10d1a"
+ },
+ "lookup_code|FSCRT_CARRIER_SERVICE_TIER_F01/FSCRT_STANDARD": {
+  "area": "lookup_code",
+  "key": "FSCRT_CARRIER_SERVICE_TIER_F01/FSCRT_STANDARD",
+  "source": "lc_standard + c2_standard",
+  "fields": {
+   "Description": "",
+   "Tag": "",
+   "EndDateActive": "",
+   "Meaning": "FSCRT_Standard ground",
+   "EnabledFlag": "N"
+  },
+  "fingerprint": "5cefdbe8b99b3bf66b7fa3b115db4e26"
+ },
+ "lookup_code|FSCRT_CARRIER_SERVICE_TIER_F01/FSCRT_FREIGHT": {
+  "area": "lookup_code",
+  "key": "FSCRT_CARRIER_SERVICE_TIER_F01/FSCRT_FREIGHT",
+  "source": "lc_freight + c2_freight",
+  "fields": {
+   "Description": "",
+   "Tag": "",
+   "EndDateActive": "",
+   "Meaning": "FSCRT_Pallet freight",
+   "EnabledFlag": "Y"
+  },
+  "fingerprint": "3101ed21debe1bdae69cea9b2fff9276"
+ },
+ "lookup_code|FSCRT_OUTDOOR_ACTIVITY_F01/FSCRT_CLIMBING": {
+  "area": "lookup_code",
+  "key": "FSCRT_OUTDOOR_ACTIVITY_F01/FSCRT_CLIMBING",
+  "source": "r2_climbing",
+  "fields": {
+   "Description": "",
+   "Tag": "",
+   "EndDateActive": "",
+   "Meaning": "FSCRT_Climbing",
+   "EnabledFlag": "Y",
+   "DisplaySequence": "3"
+  },
+  "fingerprint": "1b4a848cfb71358c49466b9972c163df"
+ },
+ "order_type|FSCRT_SO_TRAIL_DEALER_F01": {
+  "area": "order_type",
+  "key": "FSCRT_SO_TRAIL_DEALER_F01",
+  "source": "ot_trail + c3_trail",
+  "fields": {
+   "EndDateActive": "2027-10-31",
+   "Meaning": "FSCRT_Trail Dealer Replenishment F01",
+   "Description": "Stock refills for trail dealers, retired after October 2027",
+   "EnabledFlag": "Y"
+  },
+  "fingerprint": "8e69d74b820f30cd960059900d5165b8"
+ },
+ "order_type|FSCRT_SO_WARRANTY_SWAP_F01": {
+  "area": "order_type",
+  "key": "FSCRT_SO_WARRANTY_SWAP_F01",
+  "source": "ot_warranty + c3_warranty",
+  "fields": {
+   "EndDateActive": "",
+   "Meaning": "FSCRT_Warranty Swap Order F01",
+   "Description": "Replacement under warranty",
+   "EnabledFlag": "Y"
+  },
+  "fingerprint": "6264c077ea77624b4ff6ade585853478"
+ },
+ "order_type|FSCRT_SO_CONSIGN_F06": {
+  "area": "order_type",
+  "key": "FSCRT_SO_CONSIGN_F06",
+  "source": "r1_consign",
+  "fields": {
+   "EndDateActive": "",
+   "Meaning": "FSCRT_Dealer Consignment F06",
+   "Description": "Stock placed at dealers on consignment",
+   "EnabledFlag": "Y"
+  },
+  "fingerprint": "e5db8a5584df42bc1c63689c2555ac06"
+ },
+ "grouping_rule|FSCRT_GRP1": {
+  "area": "grouping_rule",
+  "key": "FSCRT_GRP1",
+  "source": "_fscr_run_04_create16\\payloads\\grp\\design.json",
+  "fields": {
+   "Description": "FSCRT Run04 grouping rule",
+   "StartDate": "2026-11-03",
+   "EndDate": "",
+   "Classes": "I"
+  },
+  "fingerprint": "42def27b8cc4572a6280093d77b51052"
+ },
+ "grouping_rule|FSCRT_GRP6": {
+  "area": "grouping_rule",
+  "key": "FSCRT_GRP6",
+  "source": "_fscr_run_06_requirements\\payloads\\grp6\\design.json",
+  "fields": {
+   "Description": "FSCRT Run06 consignment grouping rule",
+   "StartDate": "2026-11-03",
+   "EndDate": "",
+   "Classes": "I"
+  },
+  "fingerprint": "6d6778f255f3bdb22c3fc23b0e980d88"
+ },
+ "business_unit|FSCRT_Quillon Ridge Outfitters West F01": {
+  "area": "business_unit",
+  "key": "FSCRT_Quillon Ridge Outfitters West F01",
+  "source": "Run01 input [1]",
+  "fields": {
+   "DefaultSetCode": "ENTERPRISE",
+   "Status": "A",
+   "ManagerListName": "Smith, Aron",
+   "InternalLocationCode": ""
+  },
+  "fingerprint": "beee78ee9d487ff8fbe4fbf8b0884338"
+ },
+ "business_unit|FSCRT_Brindle Harbor Marine Supply F01": {
+  "area": "business_unit",
+  "key": "FSCRT_Brindle Harbor Marine Supply F01",
+  "source": "Run01 input [1]",
+  "fields": {
+   "DefaultSetCode": "ENTERPRISE",
+   "Status": "A",
+   "ManagerListName": "Yaqub, Younas",
+   "InternalLocationCode": "LHR_WH"
+  },
+  "fingerprint": "4fe3588e95d1a4d21c05f7b30c16dab1"
+ },
+ "price_list|FSCRT_Quillon Ridge Wholesale Tents USD F01": {
+  "area": "price_list",
+  "key": "FSCRT_Quillon Ridge Wholesale Tents USD F01",
+  "source": "pl1",
+  "fields": {
+   "PriceListDescription": "Wholesale tent and shelter prices for retail dealers",
+   "PriceListTypeCode": "SEGMENT",
+   "BusinessUnit": "FSCRT_Quillon Ridge Outfitters West F01",
+   "CurrencyCode": "USD",
+   "StatusCode": "APPROVED",
+   "StartDate": "2026-11-03",
+   "EndDate": "",
+   "PricingChargeDefinitionId": "300000000325736",
+   "AccessSets": "ENTERPRISE",
+   "LineTypeCode": "ORA_BUY",
+   "CalculationMethodCode": "PRICE"
+  },
+  "fingerprint": "7341989043f8bd884c9fe0b8ff68e565"
+ },
+ "price_list|FSCRT_Brindle Harbor Dock Equipment EUR F01": {
+  "area": "price_list",
+  "key": "FSCRT_Brindle Harbor Dock Equipment EUR F01",
+  "source": "pl2 + c5_pl",
+  "fields": {
+   "PriceListDescription": "Dock and mooring equipment prices for European marinas, 2027 season",
+   "PriceListTypeCode": "SEGMENT",
+   "BusinessUnit": "FSCRT_Brindle Harbor Marine Supply F01",
+   "CurrencyCode": "EUR",
+   "StatusCode": "APPROVED",
+   "StartDate": "2026-11-03",
+   "EndDate": "2027-09-30",
+   "PricingChargeDefinitionId": "300000000325736",
+   "AccessSets": "ENTERPRISE"
+  },
+  "fingerprint": "44ca60f63f0bcdd4dfb3dd688ef6c04c"
+ },
+ "org_customer|FSCRT_Kestrel Basin Trading Cooperative F01": {
+  "area": "org_customer",
+  "key": "FSCRT_Kestrel Basin Trading Cooperative F01",
+  "source": "Run01 customers.json + Run03 C6",
+  "fields": {
+   "DUNSNumber": "204118306",
+   "TaxpayerIdentificationNumber": "84-2210764",
+   "AccountName": "Buying cooperative for trail and outdoor shops",
+   "CustomerType": "R",
+   "CustomerClassCode": "PUBLIC SECTOR COMPANIES",
+   "AccountEstablishedDate": "2026-11-02",
+   "AccountTerminationDate": "2028-12-31",
+   "DFF_accountNotesOther": "Net 45 account, seasonal volume orders",
+   "DFF_shippingInstrustions": "Deliver to loading bay B, weekdays 7am to 3pm",
+   "DFF_customerAgreement": "Two year dealer supply agreement",
+   "SiteSetId": "300000000003463",
+   "SiteStartDate": "2026-11-02",
+   "SiteEndDate": "2028-12-31",
+   "KeyAccountFlag": "Y",
+   "TpHeaderId": "5502101",
+   "EceTpLocationCode": "KBT-EDI-01",
+   "TranslatedCustomerName": "Kestrel Basin Trading Co-op",
+   "SiteUses": "BILL_TO:Y,SHIP_TO:Y",
+   "Address1": "2210 Pearl Street",
+   "Address2": "Unit 5",
+   "City": "Boulder",
+   "State": "CO",
+   "PostalCode": "80302",
+   "Country": "US",
+   "Mailstop": "Bay B"
+  },
+  "fingerprint": "0ca9b6afeda8a5a434d650bc969ce0f0"
+ },
+ "org_customer|FSCRT_Pemberton Cove Boatworks F01": {
+  "area": "org_customer",
+  "key": "FSCRT_Pemberton Cove Boatworks F01",
+  "source": "Run01 customers.json",
+  "fields": {
+   "DUNSNumber": "428351077",
+   "TaxpayerIdentificationNumber": "36-9054187",
+   "AccountName": "Boat builder and chandlery",
+   "CustomerType": "R",
+   "CustomerClassCode": "PUBLIC SECTOR COMPANIES",
+   "AccountEstablishedDate": "2026-11-03",
+   "AccountTerminationDate": "2029-06-30",
+   "DFF_accountNotesOther": "Rush orders common in spring",
+   "DFF_shippingInstrustions": "Deliver to the slipway office",
+   "DFF_customerAgreement": "Marine parts framework agreement",
+   "SiteSetId": "300000334604945",
+   "SiteStartDate": "2026-11-03",
+   "SiteEndDate": "2029-06-30",
+   "KeyAccountFlag": "Y",
+   "TpHeaderId": "5502103",
+   "EceTpLocationCode": "PCB-EDI-03",
+   "TranslatedCustomerName": "Pemberton Cove Boatworks LLC",
+   "SiteUses": "BILL_TO:Y,SHIP_TO:Y",
+   "Address1": "1740 Wynkoop Street",
+   "Address2": "Suite 110",
+   "City": "Denver",
+   "State": "CO",
+   "PostalCode": "80202",
+   "Country": "US",
+   "Mailstop": "Slip 3"
+  },
+  "fingerprint": "559f6fc30714778cb0ba1b2ce9a7188a"
+ }
+}

@@ -1,0 +1,43 @@
+{
+ "made": "2026-10-26T20:03:27",
+ "from": "customers v2 fix",
+ "sheet": {
+  "source": "E:\\GoSaaS\\Configuration Automation v2.1\\Configuration Automation\\_frozen\\customers_v1\\input\\customer_sheet.xlsx",
+  "sha256": "ec1368b2906cb957c044ac045ab5808b76665b68e9a745516e61325a3d10fa7d"
+ },
+ "files": {
+  "page/look.py": "2c7e328191adb3e365ef2e30cf189b068aefbad33f84fd456c6ed0aa9d63ee4c",
+  "page/matrix/stub_claude.py": "d914753424ae6ddfedbc5f241423fd3ad5b51ef3a9ba2d65a5da3fa3ef5456f2",
+  "page/matrix/stub_folder.py": "c66f78a153b949d163a083397298597dfed826da9f5b9cf2f41e3e7b1b798ffe",
+  "page/matrix/test_matrix.py": "05838ec12b2067a410f25013f0eb21df095037ffa291182ddf721fac1d0cd6dd",
+  "page/oracle_today.py": "1f52211ea7c487e027828b3b3f08daa59a0f221b6e441c4b160e2b04610c672c",
+  "page/regression_customers.py": "efdaa868238134f343d2ffb95873dcaf7835f8f86e75053e450e3fad6a3ee544",
+  "page/run_summary.py": "a4c9500d76c78ee6bc310d23de91f644b801e6552adabff6f4b7d5450ef9680d",
+  "page/server.py": "f6ad30022dfc6445656fb3be09b5cadbb5266708cd9694738fbe86854152be97",
+  "page/setup_check.py": "03e262b54ff9811626a00e2993e77d44a3ad5a04d4d1b14e9a6022d032db5433",
+  "page/sheet_definition.json": "c80b888583bbfe2870d0d81b5eb9ca9988a849c030f7f3f4507a370864e91a7b",
+  "page/sheet_registry.json": "4e3f5142edf8e217906c23ad9e1566621bc01ea35d8b746d71fb91647067be77",
+  "page/static/app.js": "ccb626799632bd4ddba5eccb7d88cc626f256cbad4bb155adc13c5a09085ca43",
+  "page/static/index.html": "f88362d4afc19b2678b9839fde1a22e60a0792e03de54c8584c0e45f5ffa4c99",
+  "page/static/style.css": "88f12d7d8f8b25c14c653ef565ca1f6c99c3610ef9e4238a772388e365fadc92",
+  "page/workbook.py": "5e4259e7a4bed88f92c32c3f1bf06a918e939d132539be832db86610c11c3e23",
+  "common/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "common/browser.py": "2144bf1b484cccf43886b0ab00443dc63d7c7d8f7f7809df66456e9ac86d2ede",
+  "common/check_setup.py": "6cf16fb2031b0ebeb0a7ea1f17cc7e2f74a9da8c0f7fcdbb18ccb9290a944c51",
+  "common/claude_tool.py": "b84b792fcbbb78aa02c1d78302ad4750d3771e78eb19663336b2666ea40429d7",
+  "common/created_business_units.json": "a2065adec9c7ab93e4965401bde455a2cf1f1bd13b33bc9f3d4fb214891901ee",
+  "common/login_once.py": "66dd996c0ac889c5d18c5718071104a5e0e29a8155aaa29b961d3fa3307cbf28",
+  "common/oracle.py": "3460a50d70a40fddb35748d0754a7d09c50ba403eab29bccf867be1513cb0085",
+  "common/page.py": "689ad028877002bc77e087db563aee931a0bc28f166a761f0d9125a0b51c5f85",
+  "common/session_check.py": "baffcd8561fd786e8e1853ba1ccd82457e822e6843a4a5f5c5696922e1fbaee4",
+  "Customers/browser_flow.py": "129cf1eeb1835287d1c60ff27e9886f1842ad3aea4d8a2b134f023575b03a989",
+  "Customers/CLAUDE.md": "88511c6d517f82b34686a8dd613bc45519059a2275dab02761ed91f6bb930847",
+  "Customers/customers.json": "d93cb2bcee1f63bbc6a14f5cd2e393b926f9ed7bd9daeb417fd4e1192dcca1f9",
+  "Customers/manual-notes/CU_TEST_10.xlsx": "bbeba0d6985eb48fda0acb19cb64bc72f7ac55c7e64423cfb33a1b43b738a932",
+  "Customers/manual-notes/CU_TEST_ask.xlsx": "e418d2946df0021c935ef52e478b0733d8d55158d58444b00c6f300d6b1dd51d",
+  "Customers/manual-notes/CU_TEST_valid5.xlsx": "a556867cd1dd3b6ad82c41d549ecd1634e10118a05b4276a3e6c70890cafc809",
+  "Customers/manual-notes/v2_tester_notes.md": "2df58cacf2e9aa4f62fe00cd6c8afbaabb252e985d4c14eeb7e9e76169b059eb",
+  "Customers/sheet_fields.md": "02412a438ed55b29ad6a5551c8f83d088bb7ee32e177a59b7f13d314639f12aa",
+  "CLAUDE.md": "9ee64c0afef04bc3ec33b9bd62d39d7d3fccc9fd5002fbb03f6e79fde4772f1f"
+ }
+}
