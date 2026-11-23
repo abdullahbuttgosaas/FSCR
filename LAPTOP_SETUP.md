@@ -36,3 +36,5 @@ The laptop already has the full folder, unzipped from `Configuration Automation 
    - `core\auth\fusionEnv.properties` inside any FSCR copy you use, from `_patches\fusionEnv.properties.example`
    If the zip was unzipped whole, these files are already there; just check they exist and never `git add -f` them.
 7. **First message to Claude in this folder:** `Start session.`
+
+First time on a machine that has no CLAUDE.md yet: git pull, then read CONTEXT.md and do the Start session steps.

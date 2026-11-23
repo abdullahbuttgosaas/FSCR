@@ -1,0 +1,2 @@
+# FSCR work folder
+At the start of every chat in this folder, read CONTEXT.md first. It holds the full history, the rules and the exact steps for the two session commands. "Start session" and "End session" are defined in CONTEXT.md section 13; when I type either, do those steps exactly. If I type neither, still read CONTEXT.md and CHANGELOG.md before answering, and tell me in 3 lines where we are. Never print or commit secrets (see .gitignore). Never push to GitHub (tell me to run git push). Keep answers short and in simple words.
