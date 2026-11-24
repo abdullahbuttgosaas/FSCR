@@ -1,0 +1,21 @@
+Cause of the JBO-26041 on Manage Tax Zone Types (batch taxfix2, 2026-11-24, ETIA-TEST, release 11.13.26.10.0)
+
+1. Read-only export 100004742409723: 2 zone types (GAPFILL_AB_TF_ZT1 made on the screen, US Zone Type).
+2. Round trip (RT1): that export's own files, only the GAPFILL_AB_TF_ZT1 row and its translation row kept,
+   code -> GAPFILL_AB_TF2_ZT2, name -> "Gapfill Ab Tf2 Zt2", everything else unchanged.
+   Import ProcessId 100004741416084 (request 4,483,732): Completed successfully, GeographyType 1 processed 0 failed.
+   Read back: export 100004741416143 shows GAPFILL_AB_TF2_ZT2 (TAX, N, HZ_GEO_HIERARCHY, 1 US translation row).
+   => the setup CSV import of zone types WORKS. It is not an Oracle defect and not an access limit.
+3. Same values built with our skill's builder, compared byte by byte with the RT1 package:
+   only differences = CreatedBy and LastUpdatedBy (zone type row and translation row):
+     RT1   : the user name exported by Oracle
+     skill : EMPTY
+   (and the zip member order). The metadata xml and all other files were identical.
+4. Fix try F1: skill builder (sorted zip order kept) + CreatedBy = LastUpdatedBy = SubmittedBy of the export
+   metadata (the signed-in user). Code GAPFILL_AB_TF2_ZT3.
+   Import ProcessId 100004742412123 (request 4,483,739): Completed successfully, 1 processed 0 failed.
+   Read back: export 100004741415297, compare_fsm_exports RESULT: PASS (1 zone type + 1 translation row added, nothing else changed).
+=> Cause (PROVED by RT1 vs F1 vs the 6 failed tries): empty who columns. Mechanism (GUESS): they pass validation but
+   reach the insert of HZ_GEOGRAPHY_TYPES_B as null, which the table refuses, so the database raises JBO-26041. Zip order does not matter.
+   All 6 earlier tries (batch 2 and batch taxfix) had these two columns empty.
+User names are not written in this file.

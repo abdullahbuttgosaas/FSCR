@@ -1,7 +1,7 @@
 ---
 skill_id: "gosaas.gap-fills.common-features.manage-tax-regimes"
 name: "Manage Tax Regimes (GoSaaS gap fill)"
-description: "Create a new transaction tax regime (header + translation, no subscription, no taxes) through FSCR's setup-task CSV export and import, copying the settings of one existing regime, then read it back by REST (taxRegimesLOV) and a second export. New records only. Added by GoSaaS, not part of official FSCR."
+description: "Create a new transaction tax regime (header + translation, no subscription, no taxes) through FSCR's setup-task CSV export and import, copying the settings of one existing regime, then read it back by REST (taxRegimesLOV) and a second export. Step 7 adds the global configuration owner option row to a regime, the prerequisite for tax statuses, rates and rules. New records only. Added by GoSaaS, not part of official FSCR."
 origin: "GoSaaS gap fill, batch 2 part 3, 2026-11-23. Written and tested live on one test environment. NOT official FSCR."
 layer: "pillar"
 pillar: "ERP"
@@ -12,7 +12,7 @@ dataloader_import_mode: "FSM"
 type: "import"
 execution_mode: "hybrid"
 owner_team: "GoSaaS"
-version: "0.1.0"
+version: "0.2.0"
 depends_on:
   - "core.auth.fusion-oauth-authentication"
   - "shared.setup-export.task-level-export"
@@ -43,6 +43,7 @@ FSCR    = the FSCR root folder: the one that directly holds core\, shared\ and c
 GAPS    = the gaps-filled folder that holds this skill (two levels above this SKILL.md)
 H       = <GAPS>/common-features/manage-docseq-categories/scripts   (generic helpers)
 T       = <GAPS>/common-features/manage-tax-regimes/scripts          (template_row.py)
+P       = <GAPS>/common-features/manage-profile-options/scripts      (copy_parent_rows.py, Step 7 only)
 RUN     = a NEW empty work folder for this run, OUTSIDE FSCR, with no folder in its path named exactly "project"
 PREFIX  = your test prefix, e.g. GAPFILL_<INITIALS>_
 CODE    = new TaxRegimeCode: upper case letters, digits and _, starting with PREFIX, max 30 (GUESS)
@@ -133,10 +134,48 @@ python -I "<H>/compare_fsm_exports.py" "<RUN>/export_before/unz" "<RUN>/export_a
 ```
 `RESULT: PASS` = only your regime and its translation were added, nothing removed or changed, and no subscription or usage file changed. If someone else changed regimes between your two exports, extra rows appear: judge your own rows (added) plus `removed 0` and `changed 0`, and report the extras.
 
+## Step 7 (only when asked). Prerequisite for tax statuses, rates and rules: the global configuration owner (GCO) option
+Oracle refuses **tax statuses, tax rates and tax rules** owned by the global configuration owner on a tax whose regime has **no GCO configuration option row** (status import: `ZX_INVALID_VALUE: You must provide a valid value for the Tax attribute`; rule import: `ZX_RECRATE_DATE_INVALID ... {TAX_START_DATE} to {TAX_END_DATE}` with empty placeholders). A new regime made by Steps 1 to 6 has no such row. VERIFIED. Do this step when the person asks for it, or when a statuses/rates/rules skill sends you here.
+
+Extra placeholder: `REGIME` = the TaxRegimeCode that needs the row (your own test regime in a test). `REGIME` must already exist and must **not** be listed in `ORA_ZX_BU_GCO_TAX_SUB.csv` yet.
+1. **Export** as in Step 2, into a new `RUN`, with `--output-dir "<RUN>/export_before"`, and unzip to `<RUN>/export_before/unz`. List the regimes that have the GCO row, and the start date of REGIME:
+   ```bash
+   python -I -c "import csv,sys; [print(r['TaxRegimeCode'],'| org',r['FirstPtyOrgId'],'| view',r['ViewOptionsCode'],'| from',r['EffectiveFrom']) for r in csv.DictReader(open(sys.argv[1]+'/ORA_ZX_BU_GCO_TAX_SUB.csv',encoding='utf-8-sig'))]" "<RUN>/export_before/unz"
+   python -I -c "import csv,sys; [print(r['TaxRegimeCode'],'| from',r['EffectiveFrom']) for r in csv.DictReader(open(sys.argv[1]+'/ZX_TAX_REGIME.csv',encoding='utf-8-sig')) if r['TaxRegimeCode']==sys.argv[2]]" "<RUN>/export_before/unz" "<REGIME>"
+   ```
+   If REGIME is already in the first list: nothing to do, stop here. `GCOTEMPLATE` = the first listed regime of the first list (any one works: the row holds no regime-specific value; `FirstPtyOrgId`/`ParentFirstPtyOrgId` are `-99`, Oracle's fixed id of the global configuration owner, and `SubscriptionOptionId` is `0`). If the list is empty: **stop** (not tested).
+2. **Build** (the row copied from GCOTEMPLATE, never typed in; the parent regime rows copied unchanged):
+   ```bash
+   python -I "<T>/template_row.py" --export-dir "<RUN>/export_before/unz" --file ORA_ZX_BU_GCO_TAX_SUB.csv \
+     --match "TaxRegimeCode=<GCOTEMPLATE>" --set "ZX_TAX_REGIME.TaxRegimeCode=<REGIME>" --set "TaxRegimeCode=<REGIME>" \
+     --set "EffectiveFrom=<REGIME start, yyyy/mm/dd>" --clear EffectiveTo --out "<RUN>/rows_gco.txt"
+   python -I "<H>/build_fsm_package.py" --export-dir "<RUN>/export_before/unz" --out-dir "<RUN>/payload" \
+     --zip-name regime_gco_sub.zip --prefix <PREFIX> \
+     --key "ORA_ZX_BU_GCO_TAX_SUB.csv=TaxRegimeCode,FirstPtyOrgId" --prefix-col "ORA_ZX_BU_GCO_TAX_SUB.csv=TaxRegimeCode" @"<RUN>/rows_gco.txt"
+   python -I "<P>/copy_parent_rows.py" --export-dir "<RUN>/export_before/unz" --payload-dir "<RUN>/payload" \
+     --zip-name regime_gco_sub.zip --file ZX_TAX_REGIME.csv --where "TaxRegimeCode=<REGIME>" --prefix <PREFIX>
+   python -I "<P>/copy_parent_rows.py" --export-dir "<RUN>/export_before/unz" --payload-dir "<RUN>/payload" \
+     --zip-name regime_gco_sub.zip --file ZX_TAX_REGIME_TRANSLATION.csv --where "ZX_TAX_REGIME.TaxRegimeCode=<REGIME>" --where "Language=US" --prefix <PREFIX>
+   ```
+   with `P = <GAPS>/common-features/manage-profile-options/scripts`. Here PREFIX is the test prefix REGIME starts with. The builder must print `ORA_ZX_BU_GCO_TAX_SUB.csv: 1 new rows` and 0 for the rest; each copy must print `copied 1 parent row unchanged`.
+3. **Import** as in Step 5 with `--zip-file "<RUN>/payload/regime_gco_sub.zip"` and its own `--output-dir`. Write down the ProcessId. Success (VERIFIED): business object `Business Unit GCO Tax Subscription ... Completed successfully`, `Detail Object: TaxRegime ... 1 rows ... 0 failed` (the parent), `Total Objects Failed: 0`. The GCO row itself gets **no** detail line, so only Step 7.4 proves it. The Step 5 one-liner does not show business object lines; print them with:
+   ```bash
+   python -I -c "import sys,glob,re; t=open(glob.glob(sys.argv[1]+'/*_process_log.txt')[0],encoding='utf-8').read().replace(chr(92)+'r'+chr(92)+'n',chr(10)); print(chr(10).join(sorted(set(re.findall(r'Business object: Business Unit GCO Tax Subscription\. Status: [^.]+',t)))))" "<RUN>/import_result"
+   ```
+   Quote every `--match`/`--where` value: regime codes can hold spaces.
+4. **Read back:** export again (Step 2 with `--output-dir "<RUN>/export_after"`, unzip to `<RUN>/export_after/unz`), then
+   ```bash
+   python -I "<H>/compare_fsm_exports.py" "<RUN>/export_before/unz" "<RUN>/export_after/unz" \
+     --key "ORA_ZX_BU_GCO_TAX_SUB.csv=TaxRegimeCode,FirstPtyOrgId" --key "ZX_TAX_REGIME.csv=TaxRegimeCode" \
+     --expect "ORA_ZX_BU_GCO_TAX_SUB.csv=<REGIME>,-99" --rows-out "<RUN>/added_rows.csv"
+   ```
+   `RESULT: PASS` = exactly that one row added, nothing removed or changed.
+- **Effect:** the regime's content (taxes, statuses, rates, rules) becomes visible to the global configuration owner. It does **not** make any tax live and adds **no** business unit or legal entity subscription, so no transaction is taxed differently while the regime's taxes are not live (`N`). VERIFIED (2026-11-24: status, rate and disabled rule then imported on a not-live test tax; the regime also had a test business-unit subscription at that time).
+
 ## Rules and limits
 1. New records only; never import a full export.
-2. Keep all 10 files, metadata XML unchanged; every file except the regime and its translation stays header-only.
-3. **No subscription or usage in a test.** A subscription makes the regime apply to real transactions of a business unit or legal entity. Adding one is **not tested** and needs the person's explicit approval.
+2. Keep all 10 files, metadata XML unchanged; every file except the regime and its translation stays header-only (Step 7: only the GCO row and the unchanged parent rows).
+3. **No business-unit or legal-entity subscription or usage in a test.** That makes the regime apply to real transactions. It is **not** part of this skill and needs the person's explicit approval. The GCO option of Step 7 is allowed when asked (see its "Effect").
 4. Test records may stay for good. This skill never deletes. Record every created regime.
 5. Not tested: regimes for a country group, parent/sub-regimes, tax reporting configuration, regimes without a template.
 6. Tested on one environment (release 11.13.26.10.0).

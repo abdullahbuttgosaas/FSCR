@@ -1,0 +1,6 @@
+Fresh Claude tests (only task name + SKILL.md), 2026-11-24
+Fresh test  GAPFILL_AB_TF2_ZT4F  import ProcessId 100004742411691  compare RESULT: PASS  -> PASS
+  wording fixed after it: log filter (no user name), re-run export folder, good Step 2, name style
+Re-test     GAPFILL_AB_TF2_ZT5R  import ProcessId 100004742412240  compare RESULT: PASS  -> PASS
+  no wording change after the re-test
+Both records read back by AB's Claude from the after-exports: TAX / N / HZ_GEO_HIERARCHY, 1 US translation row each.

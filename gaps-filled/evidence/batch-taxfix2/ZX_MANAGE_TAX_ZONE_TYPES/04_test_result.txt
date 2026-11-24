@@ -1,0 +1,6 @@
+Live test, batch taxfix2, 2026-11-24, ETIA-TEST (release 11.13.26.10.0)
+RT1 round trip  GAPFILL_AB_TF2_ZT2  ProcessId 100004741416084  Completed successfully, GeographyType 1 processed 0 failed
+F1  fixed row   GAPFILL_AB_TF2_ZT3  ProcessId 100004742412123  Completed successfully, 1 processed 0 failed
+    read back: export 100004741415297, compare_fsm_exports RESULT: PASS
+    (1 zone type + 1 US translation row added; nothing else changed; TAX / N / HZ_GEO_HIERARCHY)
+Fix = CreatedBy and LastUpdatedBy filled from the export's SubmittedBy (scripts/zone_type_rows.py).

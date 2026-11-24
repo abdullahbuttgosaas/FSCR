@@ -14,3 +14,7 @@
 ## Test records created
 - `GAPFILL_AB_P1_TX1`, `GAPFILL_AB_P1_TX2F`, `GAPFILL_AB_P1_TX3R` (regime `GAPFILL_AB_TR1`, not live).
 - `GAPFILL_AB_P1_TX4S` (regime `GAPFILL_AB_TR1`, simulation `S`; the regime has no subscription, so no real transaction can use it).
+
+## Note, 2026-11-24 (batch taxfix): Rules item 5 corrected
+- The GUESS "statuses need a live or simulation tax on a subscribed regime" was wrong. The real need is the regime's global configuration owner option row (manage-tax-regimes Step 7); a not-live tax then accepts statuses, rates and rules. Wording of Rules item 5 updated (a note in "Rules and limits", not a step; the tested steps are unchanged).
+- Test record made with this recipe in the main session: tax `GAPFILL_AB_TF_TX2` on `GAPFILL_AB_TR2F` (ProcessId 100004741413437; TaxRegime parent and TransactionTax 1 row each, 0 failed).

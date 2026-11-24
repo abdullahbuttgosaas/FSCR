@@ -10,5 +10,5 @@ waiting_minutes: 5
 fresh_claude_pass: yes
 route: FSM CSV
 depends_on: none
-test_records: GAPFILL_AB_TR1; GAPFILL_AB_TR2F; GAPFILL_AB_TR3R
-notes: Batch 2 part 3. New regime header + translation copied from an existing regime (new helper scripts/template_row.py), no subscription. REST taxRegimesLOV before-read and read-back + export compare (subscription and usage files unchanged). Fresh test PASS, wording fixed, re-test PASS (no wording change after it).
+test_records: GAPFILL_AB_TR1; GAPFILL_AB_TR2F; GAPFILL_AB_TR3R; Step 7 GCO option rows on GAPFILL_AB_TR1, GAPFILL_AB_TR2F, GAPFILL_AB_TR3R
+notes: Batch 2 part 3. New regime header + translation copied from an existing regime (new helper scripts/template_row.py), no subscription. REST taxRegimesLOV before-read and read-back + export compare (subscription and usage files unchanged). Fresh test PASS, wording fixed, re-test PASS (no wording change after it). Batch taxfix 2026-11-24: new Step 7 (global configuration owner option row, the prerequisite for tax statuses, rates and rules) written and live-tested on TR1, fresh test PASS on TR2F, 2 wording fixes, re-test PASS on TR3R (no wording change after it).

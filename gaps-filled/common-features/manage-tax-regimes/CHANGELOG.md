@@ -35,3 +35,18 @@
 - Why: a test for Manage Tax Statuses. It did not help (see `manage-tax-statuses`).
 - Impact: the regime's taxes are not live (one is in simulation), so no transaction of that business unit changes. The subscription was not deleted (no-delete rule).
 - SKILL.md was **not** changed (it still says: no subscription in a test), so no re-test is pending.
+
+## 0.2.0, 2026-11-24 (batch taxfix, AB with Claude): Step 7, the GCO option row (prerequisite for statuses, rates, rules)
+- Cause of the failed tax statuses and rules found: every regime with tax content has a row in `ORA_ZX_BU_GCO_TAX_SUB.csv` (global configuration owner, `FirstPtyOrgId`/`ParentFirstPtyOrgId` -99 = Oracle's fixed id, `ViewOptionsCode` VFC, `SubscriptionOptionId` 0); the test regime had none. A business-unit subscription (batch 3) does not replace it.
+- Step 7 added: copy that row from any regime that has it (`template_row.py`), set the regime code and start date, re-send the regime rows unchanged, import, read back by export compare.
+- Live test: `GAPFILL_AB_TR1` (ProcessId 100004742409055), compare PASS (1 row added). Then status, rate and disabled rule imported on its test tax.
+- Fresh test 1 (15:01-15:04): PASS on `GAPFILL_AB_TR2F` (ProcessId 100004742409416). Wording fixed after it: a command that prints the business object line, the export folder names.
+- Re-test (15:04-15:07): PASS on `GAPFILL_AB_TR3R` (ProcessId 100004742410710). Notes NOT applied (keep tested wording): say which log holds the approval; name the Step 7.3 output folder; move the quoting note into 7.2; expected 8 objects processed.
+- A status was then made on a new tax of `GAPFILL_AB_TR2F`, which has only the GCO row and **no** business-unit subscription: so the GCO row alone is enough.
+
+## Test records created (batch taxfix)
+| When | Who | Record |
+|---|---|---|
+| live test | main session | GCO option row of `GAPFILL_AB_TR1` |
+| fresh test 1 | sub-agent | GCO option row of `GAPFILL_AB_TR2F` |
+| re-test | sub-agent | GCO option row of `GAPFILL_AB_TR3R` |

@@ -140,7 +140,7 @@ python -I "<H>/compare_fsm_exports.py" "<RUN>/export_before/unz" "<RUN>/export_a
 2. Keep all 23 files, metadata XML unchanged; only the tax, its translation and the unchanged parent regime rows go in.
 3. **Never make the tax live** (`Y`) or enabled for simulation (`S`) in a test, and never add a subscription. Both change real tax results and need the person's explicit approval.
 4. Test records may stay for good. This skill never deletes. Record every created tax.
-5. **Children of a new tax:** a tax formula on the new tax imported fine (gap skill `manage-tax-formulas`). A **tax status** on it was **rejected** (`ZX_INVALID_VALUE: You must provide a valid value for the Tax attribute`, see `manage-tax-statuses`): statuses seem to need a live or simulation tax on a subscribed regime. GUESS
+5. **Children of a new tax:** a tax formula and jurisdictions import fine on the new tax. Tax **statuses, rates and rules** need the regime's **global configuration owner option row** first (gap skill `manage-tax-regimes` Step 7; without it Oracle says `ZX_INVALID_VALUE ... Tax attribute`). The tax does not have to be live. VERIFIED 2026-11-24
 6. Not tested: taxes owned by a business unit (`OU`) or legal entity, withholding taxes, offset taxes, tax accounts, thresholds.
 7. Tested on one environment (release 11.13.26.10.0).
 8. Python flags: `-B` without `-I` for FSCR scripts; `-I` for `template_row.py`, `build_fsm_package.py`, `copy_parent_rows.py`, `compare_fsm_exports.py` and the one-liners.

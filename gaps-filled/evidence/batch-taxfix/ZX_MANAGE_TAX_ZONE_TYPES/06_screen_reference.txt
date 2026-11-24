@@ -1,0 +1,9 @@
+Screen reference zone type, 2026-11-24 (read-only export ProcessId 100004742409666, 62 s)
+AB created GAPFILL_AB_TF_ZT1 on Manage Tax Zone Types > Create. It SAVED.
+Export now has 2 zone types:
+  GAPFILL_AB_TF_ZT1: GeographyUse TAX, PostalCodeRangeFlag N, CreatedByModule HZ_GEO_HIERARCHY, no country limit, no dates, name "Gapfill Ab Tf Zt1", 1 translation row (US)
+  US Zone Type (older, screen-made): same plus country limit United States and dates 0001/01/01 to 4712/12/31
+The import user (FSCR sign-in) is the SAME Oracle user that created GAPFILL_AB_TF_ZT1 on the screen (checked by name, not printed).
+Batch 2 attempt 2 sent the same shape (TAX, N, HZ_GEO_HIERARCHY, no limit, translation row) and the database refused it with JBO-26041.
+Conclusion: same user and same values work on the screen but fail in the setup CSV import, so the cause is not access and not the file:
+it is the Setup CSV import of geography types (Oracle defect or an unsupported insert path). Needs an Oracle SR.
