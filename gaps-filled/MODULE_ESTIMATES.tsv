@@ -1,0 +1,21 @@
+module	module_folder	missing_total	tested	failed	open_gaps	screen_only_likely	csv_api_open	est_hours_low	est_hours_high	sittings_flag	note
+Common Features	common-features	148	42	0	106	49	57	9.5	23.8	more than one sitting	
+Security	security	0	0	0	0	0	0	0.0	0.0	none	no gaps in the index
+General Ledger	general-ledger	155	1	0	154	38	116	19.3	48.3	more than one sitting	
+Payables	payables	40	0	0	40	7	33	5.5	13.8	more than one sitting	
+Receivables	receivables	74	1	0	73	7	66	11.0	27.5	more than one sitting	
+Cash Management	cash-management	19	0	0	19	2	17	2.8	7.1	one sitting	
+Fixed Assets	fixed-assets	18	0	0	18	0	18	3.0	7.5	one sitting	
+Expenses	expenses	33	0	0	33	5	28	4.7	11.7	one sitting	
+Revenue Management	revenue-management	22	0	0	22	1	21	3.5	8.8	one sitting	
+Project Financial Management	project-financial-management	199	0	0	199	28	171	28.5	71.2	more than one sitting	
+Purchasing	purchasing	11	0	0	11	2	9	1.5	3.8	one sitting	
+Procurement	procurement	26	0	0	26	8	18	3.0	7.5	one sitting	
+Sourcing and Supplier Management	sourcing-and-supplier-management	26	0	0	26	10	16	2.7	6.7	one sitting	
+Inventory Management	inventory-management	73	0	0	73	5	68	11.3	28.3	more than one sitting	
+Order Management	order-management	35	0	0	35	9	26	4.3	10.8	one sitting	
+Manufacturing	manufacturing	5	0	0	5	2	3	0.5	1.2	one sitting	
+Cost Management	cost-management	30	0	0	30	3	27	4.5	11.2	one sitting	
+Supply Planning	supply-planning	6	0	0	6	4	2	0.3	0.8	one sitting	
+Maintenance	maintenance	15	0	0	15	5	10	1.7	4.2	one sitting	
+All modules	-	935	44	0	891	185	706	117.7	294.2	-	screen_only_likely = open gaps with level neither (no FSM CSV route found) or marked screen-only; csv_api_open = open route-only gaps; hours = csv_api_open x 10 to 25 min; more than one sitting = over 30 CSV/API gaps; from gap_index.csv 2026-11-24

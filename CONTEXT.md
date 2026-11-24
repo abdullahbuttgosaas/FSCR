@@ -1,6 +1,6 @@
 # CONTEXT: full memory of the FSCR work
 
-Read this first in every session. Plain words. "unconfirmed" = not confirmed from files. "per Abdullah" = stated by Abdullah, not found in a file. Last full rewrite: 2026-11-23 on the PC (DESKTOP-TJ1S90V). Sections 9, 11, 12 updated 2026-11-24 on the PC.
+Read this first in every session. Plain words. "unconfirmed" = not confirmed from files. "per Abdullah" = stated by Abdullah, not found in a file. Last full rewrite: 2026-11-23 on the PC (DESKTOP-TJ1S90V). Sections 8, 9, 11, 12 updated 2026-11-24 (evening, after batch 4) on the PC.
 
 ---
 
@@ -106,13 +106,13 @@ Open: owners for HCM, Logistics and PLM; how to split the big modules (PFM, GL, 
 
 ## 8. Index rule
 
-`gaps-filled\gap_index.csv` is **built, never hand-edited**. Run `python rebuild_index.py` in `gaps-filled\`: it reads every `STATUS.md`, updates `gap_index.csv` and writes `gap_progress.tsv` (standard library only; keeps CRLF). Expected now: **935 rows, 32 tested** (32 cards, 0 failed).
+`gaps-filled\gap_index.csv` is **built, never hand-edited**. Run `python rebuild_index.py` in `gaps-filled\`: it reads every `STATUS.md`, updates `gap_index.csv` and writes `gap_progress.tsv` (standard library only; keeps CRLF). Expected now: **935 rows, 44 tested** (44 cards, 0 failed).
 
 ## 9. What is done
 
-### Gaps filled (from the 32 STATUS.md cards, 2026-11-24)
+### Gaps filled (from the 44 STATUS.md cards, 2026-11-24)
 
-**32 tested** in total: Common Features **30**, General Ledger **1**, Receivables **1**. Each passed a fresh Claude test on its final wording (no `retest_after_wording_fix` is pending). **0 failed**: the 4 tax chain gaps were fixed on 2026-11-24 (below). All filled by AB. Routes: 31 FSM CSV, 1 REST (alternate name mapping rules).
+**44 tested** in total: Common Features **42**, General Ledger **1**, Receivables **1**. Each passed a fresh Claude test on its final wording (no `retest_after_wording_fix` is pending). **0 failed**: the 4 tax chain gaps were fixed on 2026-11-24 (below). All filled by AB. Routes: FSM CSV for all but alternate name mapping rules (REST); Tax Exemptions uses CRM REST for its prerequisite customer + tax profile, then FSM CSV. Per-module open gaps and hour estimates: `gaps-filled\MODULE_ESTIMATES.tsv` (891 open, 185 likely screen-only, 706 CSV/API, about 118 to 294 hours).
 
 | Batch | Date | Result | Report |
 |---|---|---|---|
@@ -123,6 +123,8 @@ Open: owners for HCM, Logistics and PLM; how to split the big modules (PFM, GL, 
 | batch 3 | 2026-11-23/24 | **7 of 10** tested; Tax Statuses, Tax Rates, Tax Rules failed | `gaps-filled\BATCH3_PLAN.md`, `BATCH3_PART1..3_RESULT.md` |
 | batch taxfix | 2026-11-24 | Tax Statuses, Rates, Rules now **tested**; new Step 7 in Manage Tax Regimes (GCO option row) tested; Zone Types still failed | `gaps-filled\BATCH_TAXFIX_RESULT.md` |
 | batch taxfix2 | 2026-11-24 | Tax Zone Types now **tested** (who columns fix); new helper `zone_type_rows.py` | `gaps-filled\BATCH_TAXFIX2_RESULT.md` |
+| batch 4 | 2026-11-24 | **11 of 12** tested (profile options, ATK values, attachment entities, 3 fiscal classifications, note type mapping, party tax profiles, tax exceptions, location of final discharge); Tax Exemptions failed | `gaps-filled\BATCH4_PLAN.md`, `BATCH4_PART1..3_RESULT.md` |
+| batch 4 fix | 2026-11-24 | Tax Exemptions now **tested** (test customer + THIRD_PARTY tax profile by CRM REST); Party Tax Profiles Step 3 wording fixed and re-tested | `gaps-filled\BATCH4_FIX_RESULT.md` |
 
 | Task code | Task | Module | Status | Date | Write / test / wait min |
 |---|---|---|---|---|---|
@@ -156,6 +158,18 @@ Open: owners for HCM, Logistics and PLM; how to split the big modules (PFM, GL, 
 | ZX_MANAGE_PARTY_FISCAL_CLASSIFICATIONS | Manage Party Fiscal Classifications | Common Features | tested | 2026-11-24 | 5 / 8 / 9 |
 | ORA_GL_MANAGE_SHORTHAND_ALIASES | Manage Shorthand Aliases | Common Features | tested | 2026-11-24 | 5 / 3 / 9 |
 | XLE_MANAGE_LEGAL_AUTHORITIES | Manage Legal Authorities | Common Features | tested | 2026-11-24 | 7 / 7 / 9 |
+| XLE_MANAGE_LEGAL_ENITTY_PROFILE_OPTIONS | Manage Legal Entity Configurator Profile Options | Common Features | tested | 2026-11-24 | 4 / 4 / 3 |
+| ORA_ZX_MANAGE_TAX_PROFILE_OPTIONS | Manage Tax Profile Options | Common Features | tested | 2026-11-24 | 3 / 3 / 3 |
+| ORA_ATK_ADMIN_PROFILE_OPTION_VALUES | Manage Application Toolkit Administrator Profile Values | Common Features | tested | 2026-11-24 | 4 / 3 / 3 |
+| FND_MANAGE_APPLICATIONS_CORE_ATTACHMENT_ENTITIES | Manage Applications Core Attachment Entities | Common Features | tested | 2026-11-24 | 6 / 3 / 5 |
+| ZX_MANAGE_TRANSACTION_FISCAL_CLASSIFICATIONS | Manage Transaction Fiscal Classifications | Common Features | tested | 2026-11-24 | 8 / 13 / 9 |
+| ORA_ZX_MANAGE_TRANSACTION_BASED_FISCAL_CLASSIFICATIONS | Manage Transaction-Based Fiscal Classifications | Common Features | tested | 2026-11-24 | 4 / 7 / 6 |
+| ORA_ZX_MANAGE_PRODUCT_BASED_FISCAL_CLASSIFICATIONS | Manage Product-Based Fiscal Classifications | Common Features | tested | 2026-11-24 | 3 / 3 / 5 |
+| HZ_MANAGE_RESOURCE_NOTE_TYPE_MAPPING | Manage Resource Note Type Mapping | Common Features | tested | 2026-11-24 | 5 / 6 / 2 |
+| ORA_ZX_MANAGE_PARTY_TAX_PROFILES | Manage Party Tax Profiles | Common Features | tested | 2026-11-24 | 5 / 8 / 9 |
+| ZX_MANAGE_TAX_EXCEPTIONS | Manage Tax Exceptions | Common Features | tested | 2026-11-24 | 4 / 4 / 3 |
+| ORA_ZX_MANAGE_LOCATION_FINAL_DISCHARGE | Manage Location of Final Discharge | Common Features | tested | 2026-11-24 | 4 / 6 / 2 |
+| ORA_ZX_MANAGE_TAX_EXEMPTIONS | Manage Tax Exemptions | Common Features | tested | 2026-11-24 | 12 / 9 / 7 |
 | GL_MANAGE_JOURNAL_CATEGORIES | Manage Journal Categories | General Ledger | tested | 2026-11-15 (re-test 2026-11-24) | unknown / 4 / unknown |
 | ORA_MANAGE_ALTERNATE_NAME_MAPPING_RULES | Manage Alternate Name Mapping Rules | Receivables | tested | 2026-11-16 (re-test 2026-11-24) | unknown / 12 / unknown |
 
@@ -163,6 +177,8 @@ Open: owners for HCM, Logistics and PLM; how to split the big modules (PFM, GL, 
 - **Tax Statuses, Rates, Rules:** real cause = the test regime had no **global configuration owner (GCO) option row** (`ORA_ZX_BU_GCO_TAX_SUB.csv`, in the taxes/regimes package). Added as **Step 7 of `manage-tax-regimes`** (fresh test + re-test pass). After that all three imported first try and passed fresh tests. No live tax and no business unit subscription needed.
 - **Tax Zone Types:** real cause = `CreatedBy` and `LastUpdatedBy` left empty. Fill them from the export's `SubmittedBy` (helper `manage-tax-zone-types\scripts\zone_type_rows.py`). The taxfix "Oracle defect, needs SR" conclusion was **wrong**; no SR needed.
 - Records made: GCO rows on `GAPFILL_AB_TR1`, `TR2F`, `TR3R`; tax `GAPFILL_AB_TF_TX2` (not live); statuses `GAPFILL_AB_TF_ST1/ST2F/ST3R`; rates `GAPFILL_AB_TF_RT1/RT2F`; rules `GAPFILL_AB_TF_RL1/RL2F` (disabled); zone types `GAPFILL_AB_TF_ZT1` (screen, by AB), `GAPFILL_AB_TF2_ZT2..ZT5R`.
+
+**Batch 4 (2026-11-24):** 12 Common Features gaps, all **tested** after the fix. Records: `GAPFILL_AB_P1_..`, `P2_..`, `P3_..` (see each Part result), plus `GAPFILL_AB_B4FIX_CUST1/CUST2F` (test customers with THIRD_PARTY tax profiles, no account site or transactions), exemptions `GAPFILL_AB_B4FIX_EXM1/EXM2F` (on test tax `GAPFILL_AB_P1_TX1`, not live), legal authority `GAPFILL_AB_B4FIX_LA5R`. New helper `manage-transaction-fiscal-classifications\scripts\fiscal_code_rows.py` (writes the 4 code/denorm rows). Work folders `E:\GoSaaS\gw\b4p1..b4p3`, `b4fix` (outside repo). `PEOPLE_PROMPT.md` rewritten: one paste runs all batches of a module without stopping (Opus, sign-in renewal, prerequisites, re-test rule).
 
 **Security re-check (2026-11-24, read only):** `boss_scope` set in the pack's git-ignored `fusionEnv.properties`; BOSS sign-in works. 6 of 6 Security tasks read OK; no load done; Execution stays blank. Blocked by: no `rmc_scope` (tasks 3, 4), no Risk Administrator role (tasks 2, 5, 6), and safety approval (tasks 1, 2, 5, 6). Report: `fscr-main\fscr-module-test-pack\evidence\Security\SECURITY_RERUN_RESULT.md`.
 
@@ -216,6 +232,8 @@ Open: owners for HCM, Logistics and PLM; how to split the big modules (PFM, GL, 
 | batch 1 re-test | `gaps-filled\RETEST_BATCH1_RESULT.md` | 2026-11-24 | 10 re-test cards: 10 pass; 2 older skills made portable |
 | batch taxfix | `gaps-filled\BATCH_TAXFIX_RESULT.md` | 2026-11-24 | tax statuses, rates, rules fixed (GCO row); regimes Step 7 |
 | batch taxfix2 | `gaps-filled\BATCH_TAXFIX2_RESULT.md` | 2026-11-24 | tax zone types fixed (who columns) |
+| batch 4 | `gaps-filled\BATCH4_PLAN.md`, `BATCH4_PART1..3_RESULT.md` | 2026-11-24 | 12 Common Features gaps: 11 tested, Tax Exemptions failed |
+| batch 4 fix | `gaps-filled\BATCH4_FIX_RESULT.md` | 2026-11-24 | Tax Exemptions tested (CRM REST customer + profile); Party Tax Profiles wording re-tested |
 | Security re-check | `fscr-main\fscr-module-test-pack\evidence\Security\SECURITY_RERUN_RESULT.md` | 2026-11-24 | read-only, boss_scope set; 6 of 6 read OK, loads blocked |
 
 ## 10. Time measured
@@ -240,6 +258,12 @@ Open: owners for HCM, Logistics and PLM; how to split the big modules (PFM, GL, 
 - **Fresh tests that share an FSM package run one after the other**, not in parallel.
 - **Tax content prerequisite:** statuses, rates, rules (and likely exemptions, exceptions, other content under a GCO tax) need the regime's **GCO option row** (`manage-tax-regimes` Step 7). A tax does not need to be live; no business unit subscription is needed. Keep test rules disabled. Still: do not make test taxes live or add subscriptions without AB's decision.
 - **Who columns:** if a row validates (`1 rows processed, 0 failed`) and then fails with `JBO-26041` at the insert, fill `CreatedBy` / `LastUpdatedBy` from the export's `SubmittedBy` first. A round trip of a screen-made record's own export splits "file problem" from "import problem".
+- **Diagnosis order:** read the `JBO-` message first; if it names a column, compare with working records of the same object (a wider read-only export). Use the who-columns / round-trip rule for generic errors.
+- **Child-only tasks:** a seeded parent row may go in the file only **unchanged** (`copy_parent_rows.py`), and the after-export compare must show it changed 0. The import log counts only the top object; the compare is the proof for child rows.
+- **Fiscal classification codes** need 4 rows (code, translation, denorm, denorm translation): use `fiscal_code_rows.py`.
+- **Tax exemptions** live only on a customer (THIRD_PARTY) tax profile. Make a `GAPFILL_` test customer and its profile by CRM REST (`accounts`, `partyTaxProfiles`; GET first, POST only if missing) through FSCR's REST client.
+- **Read ids live by REST** (for example `profileOptions` by `ApplicationShortName`), never from an export.
+- **Prerequisites inside one package** (for example an ATK option + its value) go in one import when the package allows it.
 - **Safe wording for reports:** "tested by a fresh Claude on ETIA-TEST, record created and read back".
 
 ## 12. Pending
@@ -254,7 +278,9 @@ Open: owners for HCM, Logistics and PLM; how to split the big modules (PFM, GL, 
 - Imtenan (Supply Planning) agreement.
 - Security admin asks: add Risk Cloud scope to the sign-in app and send the `rmc_scope` value (tasks 3, 4); give the test user Risk Administrator (tasks 2, 5, 6); written OK before any load (tasks 1, 2, 5, 6); real EPM connector details (task 3). Update the Security tracker row with the wording in `SECURITY_RERUN_RESULT.md`.
 - Delete the empty folder tree `E:\e\` by hand (left by a `/e/...` path slip in batch 3 part 2; it holds no files).
-- **Next:** batch 4, about 10 easy Common Features gaps; tax content gaps (exemptions, exceptions) are now open too, using regimes Step 7.
+- Open tester notes (not applied, each needs a re-test if applied): see "Problems and findings" in `BATCH4_PART1..3_RESULT.md` and `BATCH4_FIX_RESULT.md`; the `manage-profile-options` Step 5 log one-liner still prints a `Submitted By` user name (Part 1 finding 6).
+- Pilot the new `PEOPLE_PROMPT.md` (one paste, all batches) with one person.
+- **Next:** batch 5, Common Features (106 open: about 57 CSV/API, 49 likely screen-only per `MODULE_ESTIMATES.tsv`).
 
 ## 13. Session commands (Claude: follow exactly when Abdullah types these words)
 
