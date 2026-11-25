@@ -1,6 +1,6 @@
 # CONTEXT: full memory of the FSCR work
 
-Read this first in every session. Plain words. "unconfirmed" = not confirmed from files. "per Abdullah" = stated by Abdullah, not found in a file. Last full rewrite: 2026-11-23 on the PC (DESKTOP-TJ1S90V). Sections 8, 9, 11, 12 updated 2026-11-25 (after Common Features batches 05 to 08) on the PC.
+Read this first in every session. Plain words. "unconfirmed" = not confirmed from files. "per Abdullah" = stated by Abdullah, not found in a file. Last full rewrite: 2026-11-23 on the PC (DESKTOP-TJ1S90V). Sections 8, 9, 11, 12 updated 2026-11-25 (after Common Features batches 09 and 10) on the PC.
 
 ---
 
@@ -106,7 +106,7 @@ Open: owners for HCM, Logistics and PLM; how to split the big modules (PFM, GL, 
 
 ## 8. Index rule
 
-`gaps-filled\gap_index.csv` is **built, never hand-edited**. Run `python rebuild_index.py` in `gaps-filled\`: it reads every `STATUS.md`, updates `gap_index.csv` and writes `gap_progress.tsv` (standard library only; keeps CRLF). Expected now: **935 rows, 56 tested, 8 written** (64 cards, 0 failed).
+`gaps-filled\gap_index.csv` is **built, never hand-edited**. Run `python rebuild_index.py` in `gaps-filled\`: it reads every `STATUS.md`, updates `gap_index.csv` and writes `gap_progress.tsv` (standard library only; keeps CRLF). Expected now: **935 rows, 60 tested, 14 written** (74 cards, 0 failed). Screen-only tasks are not cards: they are in `common-features\screen-only.csv` (4).
 
 ## 9. What is done
 
@@ -127,6 +127,9 @@ Open: owners for HCM, Logistics and PLM; how to split the big modules (PFM, GL, 
 | batch 4 fix | 2026-11-24 | Tax Exemptions now **tested** (test customer + THIRD_PARTY tax profile by CRM REST); Party Tax Profiles Step 3 wording fixed and re-tested | `gaps-filled\BATCH4_FIX_RESULT.md` |
 | batches 05+06 | 2026-11-25 | **6 tested** (Search Legal Entities, Search Legal Reporting Units, View Accounting Configuration Summary, View Service Clients, Manage Data Access Sets, Manage Daily Rates), **4 written** (unsafe: Search / CRM BU profile options, Map Reports to Work Areas, Country Default Controls) | `gaps-filled\common-features\BATCH_05_RESULT.md`, `BATCH_06_RESULT.md` |
 | batches 07+08 | 2026-11-25 | **6 tested** (Account Hierarchy Labels, Tree Labels, Trees and Tree Versions, Account Hierarchies, Tree Structures, Ledger Document Sequences), **4 written** (unsafe: Legal Entity Tax Profiles, Configuration Owner Tax Options, Intercompany Exceptions, LRU Tax Profiles); all 49 "neither" tasks checked: none has an FSM CSV | `gaps-filled\common-features\BATCH_07_RESULT.md`, `BATCH_08_RESULT.md` |
+| batches 09+10 | 2026-11-25 | **4 tested** (Tax Registrations by REST, Legal Document Sequences, BU Document Sequences, Billing Extensions), **6 written** (unsafe: Partner Organizations, Create Implementation Users, Import Worker Users, Data Access for Users, BU and Reference Data Set Data Access for Users), **4 screen-only** (3 message tasks, Cross-Validation Rules) | `gaps-filled\common-features\BATCH_09_RESULT.md`, `BATCH_10_RESULT.md` |
+
+**Since batches 09+10 (2026-11-25):** totals now **60 tested, 14 written, 0 failed**, plus 4 proven screen-only (`common-features\screen-only.csv`). Common Features: **72 open**. New helper `common-features\scripts\rest_call.py` (runs FSCR's REST client unchanged but shows Oracle's real error text). Records `GAPFILL_AB_B9_..`, `GAPFILL_AB_B10_..` (incl. test customer `GAPFILL_AB_B9_CUST3R`, test doc sequence categories `B9_LC1`, `B9_BC1`, billing extensions `B10_BX2` Invoice, `B10_BX3F` Revenue).
 
 **Since 2026-11-25 (batches 05 to 08):** totals now **56 tested, 8 written (unsafe to test), 0 failed**. Common Features: 54 tested, 8 written, **86 open** of 148. Module summary and per-task list: `gaps-filled\common-features\MODULE_RESULT.md`, `MODULE_TRACKER.csv`, `my_gaps.csv` (built by `common-features\scripts\build_module_tracker.py`). New helpers: `search-legal-entities\scripts\view_record.py` (read-only export viewer), `tree_rows.py`. Records: `GAPFILL_AB_B5_..` to `GAPFILL_AB_B8_..` (see each batch result). The new STATUS cards are in the per-task folders; the table below lists only the first 44. Also made: `gaps-filled\GAP_LEVEL_COUNT.md` (b/c count per module, files only) and `fscr-main\fscr-module-test-pack\evidence\Security\SECURITY_IMPACT.md` (what each of the 6 Security tasks would change, read only; raw reads in `E:\GoSaaS\gw\secimpact`, outside repo).
 
@@ -238,6 +241,7 @@ Open: owners for HCM, Logistics and PLM; how to split the big modules (PFM, GL, 
 | batch taxfix2 | `gaps-filled\BATCH_TAXFIX2_RESULT.md` | 2026-11-24 | tax zone types fixed (who columns) |
 | batch 4 | `gaps-filled\BATCH4_PLAN.md`, `BATCH4_PART1..3_RESULT.md` | 2026-11-24 | 12 Common Features gaps: 11 tested, Tax Exemptions failed |
 | batch 4 fix | `gaps-filled\BATCH4_FIX_RESULT.md` | 2026-11-24 | Tax Exemptions tested (CRM REST customer + profile); Party Tax Profiles wording re-tested |
+| batches 09+10 | `gaps-filled\common-features\BATCH_09_RESULT.md`, `BATCH_10_RESULT.md` | 2026-11-25 | 10 Common Features gaps: 4 tested, 6 written (unsafe), plus 4 screen-only |
 | Security re-check | `fscr-main\fscr-module-test-pack\evidence\Security\SECURITY_RERUN_RESULT.md` | 2026-11-24 | read-only, boss_scope set; 6 of 6 read OK, loads blocked |
 
 ## 10. Time measured
@@ -272,7 +276,12 @@ Open: owners for HCM, Logistics and PLM; how to split the big modules (PFM, GL, 
 - **"Written (unsafe to test)"** is a status: a task whose load changes a shared or seeded setting (seeded profile values, a work-area link, country tax defaults, the profile Oracle makes for each legal entity / reporting unit, configuration owner options, the legal entity package) gets a skill but no load. Read steps VERIFIED, load steps GUESS. Load-test only on an environment we own, with written approval.
 - **Import log counts only the top object:** child rows can drop silently (daily rates: rule rows with `EnabledFlag=Y` are dropped; use `N`). The after-export compare is the proof.
 - **Fresh-test briefs must use their own parent** (ledger, category, etc.) when the object allows one open row per parent (FND-7020 on ledger document sequences).
-- **"Neither" tasks:** check read-only export and REST GET per task before calling one screen-only; write the result in `my_gaps.csv`.
+- **"Neither" tasks:** check read-only export and REST GET per task before calling one screen-only; write the result in `my_gaps.csv`. Proven screen-only tasks go in `common-features\screen-only.csv` (no STATUS card).
+- **REST errors:** FSCR's REST client shows gzip error bodies as garbage; use `common-features\scripts\rest_call.py` to read Oracle's real message.
+- **REST `q=` filters:** on some resources (for example `taxRegistrations`) `q=A and B` returns 0 rows; use `q=A;B`. A duplicate check must be proven to find a known row first.
+- **After-export compare:** if the export gave no ZIP, the compare shows false "removed" rows; check the ZIP exists first.
+- **Lookup-coded columns** (for example billing extension `CallingProcess`) take the lookup code, not the meaning; read codes live.
+- **Also unsafe (written, not loaded):** anything that creates users or HR persons, grants a real user data access, or needs a real person as owner resource (partner organizations).
 
 ## 12. Pending
 
@@ -289,8 +298,9 @@ Open: owners for HCM, Logistics and PLM; how to split the big modules (PFM, GL, 
 - Open tester notes (not applied, each needs a re-test if applied): see "Problems and findings" in `BATCH4_PART1..3_RESULT.md` and `BATCH4_FIX_RESULT.md`; the `manage-profile-options` Step 5 log one-liner still prints a `Submitted By` user name (Part 1 finding 6).
 - Pilot the new `PEOPLE_PROMPT.md` (one paste, all batches) with one person.
 - Security: send the 5-line ask in `SECURITY_IMPACT.md` to the senior (audit OK, which algorithms, default owners, Risk Administrator role, `rmc_scope`).
-- Approval to load-test the 8 "written (unsafe to test)" tasks on an environment we own (or leave them written).
-- **Next:** Common Features batch 09 (86 open): REST routes found for messages (3 tasks), partner organizations, user accounts (2 tasks); then cross-validation rules (check FBDI/REST), descriptive flexfields, then the other "neither" tasks one by one (see `BATCH_08_RESULT.md`, `my_gaps.csv`).
+- Approval to load-test the 14 "written (unsafe to test)" tasks on an environment we own (or leave them written).
+- FSCR has an implementation-users skill (SCIM) its catalog does not map to `FND_CREATE_IMPLEMENTATION_USERS`: worth telling Oracle / the team.
+- **Next:** Common Features batch 11 (72 open): billing extension assignments (first check a test method can be made), segment value security rules and data role tasks (likely unsafe), descriptive flexfields (deploy), country-only tasks (Italy, China, Brazil, EMEA), then the other "neither" tasks (languages, territories, time zones as read-only skills; see `BATCH_10_RESULT.md`, `my_gaps.csv`).
 
 ## 13. Session commands (Claude: follow exactly when Abdullah types these words)
 

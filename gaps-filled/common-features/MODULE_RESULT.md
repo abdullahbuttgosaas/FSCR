@@ -2,17 +2,44 @@
 
 GoSaaS work, not official FSCR. Newest sitting first. The cards (`*/STATUS.md`) are the truth; `MODULE_TRACKER.csv` shows them.
 
-## Cumulative counts (all sittings, after the second 2026-11-25 sitting)
+## Cumulative counts (all sittings, after the third 2026-11-25 sitting)
 | Status | Count |
 |---|---:|
-| tested | 54 |
-| written (unsafe to test) | 8 |
+| tested | 58 |
+| written (unsafe to test) | 14 |
 | failed | 0 |
-| screen-only (proven) | 0 |
-| open (left) | 86 |
+| screen-only (proven) | 4 |
+| open (left) | 72 |
 | **Missing tasks in the module** | **148** |
 
-Matches `MODULE_TRACKER.csv` (tested 54, skipped-unsafe 8, open 86) and `gap_progress.tsv`.
+Matches `MODULE_TRACKER.csv` (tested 58, skipped-unsafe 14, screen-only 4, open 72) and `gap_progress.tsv`.
+
+## Sitting 2026-11-25, third (batches 09 and 10)
+**Counts this sitting:** 4 tested, 6 written (unsafe to test), 0 failed, 4 screen-only (proven; not counted in the limit). Sitting limit (10) reached.
+
+| Batch | Task | Status | Working min | Waiting min |
+|---|---|---|---:|---:|
+| 09 | Manage Tax Registrations | tested | 14 | 3 |
+| 09 | Manage Legal Document Sequences | tested | 11 | 6 |
+| 09 | Manage Business Unit Document Sequences | tested | 10 | 5 |
+| 09 | Manage Partner Organizations | written (unsafe) | 6 | 2 |
+| 09 | Create Implementation Users | written (unsafe) | 4 | 0 |
+| 10 | Manage Billing Extensions | tested | 10 | 4 |
+| 10 | Import Worker Users | written (unsafe) | 3 | 0 |
+| 10 | Manage Data Access for Users | written (unsafe) | 5 | 2 |
+| 10 | Manage Business Unit Data Access for Users | written (unsafe) | 2 | 1 |
+| 10 | Manage Reference Data Set Data Access for Users | written (unsafe) | 1 | 1 |
+| | **Total** | **4 tested, 6 written** | **66** | **24** |
+
+Screen-only (proven): Manage Applications Core Messages, Manage Messages, Manage Messages for General Ledger (REST `messages` is read-only: create refused), Manage Cross-Validation Rules (the CSV package has no rule object; REST 404). Reasons in `screen-only.csv`.
+
+Fresh tests: 4 of 4 PASS in the end. Tax registrations failed its read-back as first written (`q=A and B` returns 0 rows; fixed to `;`, re-test PASS). Legal and BU sequences were re-tested after a wording fix (after-export ZIP check; one wrong sentence in the BU skill). Sign-ins: 1 (16 s, waiting time). Failed tasks: none.
+
+Test records created: tax registrations `GAPFILL_AB_B9_TRG2`, `TRG3F`, `TRG4R` and test customer `GAPFILL_AB_B9_CUST3R` with its THIRD_PARTY tax profile; categories `GAPFILL_AB_B9_LC1`, `BC1`; legal sequences `GAPFILL_AB_B9_GSQ1`, `GSQ2F`, `GSQ3R`; BU sequences `GAPFILL_AB_B9_BSQ1`, `BSQ2F`, `BSQ3R`; billing extensions `GAPFILL_AB_B10_BX2`, `BX3F`. Refused, nothing created: `TRG1`, `PRT1`, `BX1`, message `GAPFILL_AB_B9_MSG1`.
+
+New shared helper: `scripts/rest_call.py` (runs FSCR's REST client unchanged, shows Oracle's error text, hides the server address).
+
+**Left for the next sitting:** 72 open (see `BATCH_10_RESULT.md`, "What is left", and `my_gaps.csv`).
 
 ## Sitting 2026-11-25, second (batches 07 and 08)
 **Counts this sitting:** 6 tested, 4 written (unsafe to test), 0 failed, 0 screen-only. Sitting limit (10) reached. All 49 "neither" tasks checked for CSV and REST (results in `my_gaps.csv`, see BATCH_08_RESULT.md).
