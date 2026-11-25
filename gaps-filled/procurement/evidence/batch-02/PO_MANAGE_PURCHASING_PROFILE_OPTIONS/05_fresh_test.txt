@@ -1,0 +1,4 @@
+Fresh tests (fresh sub-agent, skill only), 2026-11-25:
+GAPFILL_AB_B2_PO2F (100004743406790), PO3R (100004744394653), PO4R (100004744396141; connection dropped, log recovered by ProcessId)
+Round F: PASS, skill faults found and fixed. Round R: PASS, faults found and fixed. Round R2: PASS, no wrong sentence.
+Suggestions not applied: mkdir the import folder before the recovery fetch; StatusCode '(no result yet)' is normal too.

@@ -1,0 +1,3 @@
+Own live test, 2026-11-25:
+GAPFILL_AB_B3_CQ1 draft (100004744395732); GAPFILL_AB_B3_CQ2 active (100004744395761); fresh GAPFILL_AB_B3_CQ3F (100004744391947)
+Draft and active questions created; compare PASS.

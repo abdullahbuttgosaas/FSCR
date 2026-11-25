@@ -1,0 +1,3 @@
+Task ORA_CMK_MANAGE_COLLAB_MESG_CONFIG (Manage Collaboration Messaging Configuration), module Procurement.
+FSCR coverage: route only (CSV export/import supported); no FSCR skill or guide.
+Source: gaps-filled/gap_index.csv (Run 36 scope map).

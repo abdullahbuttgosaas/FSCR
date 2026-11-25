@@ -1,0 +1,3 @@
+Read-only FSM CSV export of OKC_MANAGE_CLAUSE_AND_TEMPLATE_MANAGEMENT_PROFILES on the test environment, 2026-11-25: OK.
+Route used: FSM CSV (profile package, option OKC_CLAUSE_IMP_FILE_LOCATION, app 510) + REST profileOptions read-back.
+Prerequisites: none.

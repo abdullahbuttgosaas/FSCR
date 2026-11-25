@@ -1,0 +1,4 @@
+Fresh tests (fresh sub-agent, skill only), 2026-11-25:
+GAPFILL_AB_B1_VS3F + GAPFILL_G1/G2 (100004744394206), VS4R + GAPFILL_H1/H2 (100004744391472), VS5R + GAPFILL_I1/I2 (100004744391561)
+Round F: PASS, skill faults found and fixed. Round R: PASS, faults found and fixed. Round R2: PASS, no wrong sentence.
+Suggestions not applied: Check for a ZIP before the unzip line; repeat the 're-run folder' rule inside the Step 5 compare.

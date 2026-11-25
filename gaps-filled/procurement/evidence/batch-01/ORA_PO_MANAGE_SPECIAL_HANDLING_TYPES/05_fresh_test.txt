@@ -1,0 +1,4 @@
+Fresh tests (fresh sub-agent, skill only), 2026-11-25:
+GAPFILL_AB_B1_SH3F (100004744394175), SH4R (100004744394477; connection dropped, log recovered by ProcessId), SH5R (100004744393577)
+Round F: PASS, skill faults found and fixed. Round R: PASS, faults found and fixed. Round R2: PASS, no wrong sentence.
+Suggestions not applied: Step 1: warn not to print audit columns when looking at the export.

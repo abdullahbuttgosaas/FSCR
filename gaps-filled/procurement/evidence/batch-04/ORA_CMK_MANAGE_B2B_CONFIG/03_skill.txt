@@ -1,0 +1,2 @@
+Skill written: gaps-filled/procurement/manage-b2b-configuration/SKILL.md (GoSaaS gap fill, not official FSCR).
+Generic: placeholders; ids read live; no environment data.

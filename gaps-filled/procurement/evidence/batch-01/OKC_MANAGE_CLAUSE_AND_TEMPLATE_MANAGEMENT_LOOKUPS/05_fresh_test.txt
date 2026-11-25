@@ -1,0 +1,4 @@
+Fresh tests (fresh sub-agent, skill only), 2026-11-25:
+codes GAPFILL_AB_B1_CT3F (100004744394163), CT4R (100004744393544), CT5R (100004743407899)
+Round F: PASS, skill faults found and fixed. Round R: PASS, faults found and fixed. Round R2: PASS, no wrong sentence.
+Suggestions not applied: Save the export output to a file and print only a pass/fail line (the network error line holds the server address).

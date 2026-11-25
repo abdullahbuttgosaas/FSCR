@@ -1,0 +1,3 @@
+Read-only FSM CSV export of OKC_MANAGE_CONTRACT_TERMS_VALUE_SETS on the test environment, 2026-11-25: OK.
+Route used: FSM CSV (value set package, module OKC) + REST valueSets read-back.
+Prerequisites: none.

@@ -1,0 +1,3 @@
+Own live test, 2026-11-25:
+Test records: code GAPFILL_AB_B1_CT1 on OKC_SUBJECT (ProcessId 100004744392840); fresh code GAPFILL_AB_B1_CT2F created (100004744393360)
+Own test: type row unchanged + 1 code; the seeded type's LastUpdateDate did not change. New helper lookup_type_row.py (also for the demo-reserve FOB / FREIGHT TERMS tasks).

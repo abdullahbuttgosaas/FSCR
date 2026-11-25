@@ -1,0 +1,3 @@
+Own live test, 2026-11-25:
+none (export only: 23 columns, 0 rows)
+Export only: 2 files, ORA_ZCA_ESIGNATURE_SETUP.csv 23 columns, 0 rows. No import (credentials).

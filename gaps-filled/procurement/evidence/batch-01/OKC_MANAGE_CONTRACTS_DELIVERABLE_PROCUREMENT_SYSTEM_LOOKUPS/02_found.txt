@@ -1,0 +1,3 @@
+Read-only FSM CSV export of OKC_MANAGE_CONTRACTS_DELIVERABLE_PROCUREMENT_SYSTEM_LOOKUPS on the test environment, 2026-11-25: OK.
+Route used: FSM CSV (ORA_OKC_DTS_PO_INTEG).
+Prerequisites: none for an internal target; an external system's URL, account and password (given by its owner) for an external one.

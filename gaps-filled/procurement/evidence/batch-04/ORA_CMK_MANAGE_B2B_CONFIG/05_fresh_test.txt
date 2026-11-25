@@ -1,0 +1,1 @@
+Fresh test 2026-11-25: PASS. service provider GAPFILL_AB_B4_SP2F + trading partner GAPFILL_AB_B4_TP3F, READBACK PASS. Suggestions NOT applied: say shell variables are fine inside one call; wrap REST calls in a timeout.

@@ -1,0 +1,3 @@
+Read-only check of OKC_SPECIFY_PROCUREMENT_CONTRACT_MGMT_BUSINESS_FUNC_PROP on the test environment, 2026-11-25: OK.
+Route used: FSM CSV (OKC_BU_IMPL_OPTIONS, one row per BU) --edit-row.
+Prerequisites: an existing BU with contract options.

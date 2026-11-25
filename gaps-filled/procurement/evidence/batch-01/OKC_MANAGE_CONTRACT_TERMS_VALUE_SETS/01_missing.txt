@@ -1,0 +1,3 @@
+Task OKC_MANAGE_CONTRACT_TERMS_VALUE_SETS (Manage Contract Terms Value Sets), module Procurement.
+FSCR coverage: route only (CSV export/import supported); no FSCR skill or guide.
+Source: gaps-filled/gap_index.csv (Run 36 scope map).

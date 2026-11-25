@@ -1,0 +1,3 @@
+Read-only check of ORA_PO_COMPLIANCE_CHECKLIST_QUESTIONS on the test environment, 2026-11-25: OK.
+Route used: FSM CSV (ORA_POQ_CHECKLIST_QUESTION + translation).
+Prerequisites: none.

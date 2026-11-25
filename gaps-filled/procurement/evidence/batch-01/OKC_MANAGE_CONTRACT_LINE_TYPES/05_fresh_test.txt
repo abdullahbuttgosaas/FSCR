@@ -1,0 +1,4 @@
+Fresh tests (fresh sub-agent, skill only), 2026-11-25:
+GAPFILL_AB_B1_LT4F (100004744394186), LT5R (100004744394829), LT6R (100004743407814)
+Round F: PASS, skill faults found and fixed. Round R: PASS, faults found and fixed. Round R2: PASS, no wrong sentence.
+Suggestions not applied: Check for a ZIP before the unzip line (a failed export gives an IndexError); save export output to a file.

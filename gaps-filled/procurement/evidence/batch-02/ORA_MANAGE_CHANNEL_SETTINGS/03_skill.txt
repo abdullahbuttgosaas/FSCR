@@ -1,0 +1,2 @@
+Skill written: gaps-filled/procurement/manage-channel-settings/SKILL.md (GoSaaS gap fill, not official FSCR).
+Generic: placeholders FSCR, GAPS, RUN; ids read live; no environment data.

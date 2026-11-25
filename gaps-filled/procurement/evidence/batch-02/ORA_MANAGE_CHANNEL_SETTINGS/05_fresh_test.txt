@@ -1,0 +1,1 @@
+Fresh test, 2026-11-25: PASS. CUST_CHANNEL_CALENDAR/BUU1 EnabledFlag Y->N (100004744395141, IMPORT PASS; mid: changed 1 only), N->Y (100004744395154, IMPORT PASS); final compare PASS. No wrong sentence.

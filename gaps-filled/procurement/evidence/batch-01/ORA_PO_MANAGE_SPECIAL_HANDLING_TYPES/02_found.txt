@@ -1,0 +1,3 @@
+Read-only FSM CSV export of ORA_PO_MANAGE_SPECIAL_HANDLING_TYPES on the test environment, 2026-11-25: OK.
+Route used: FSM CSV (ORA_PO_SPECIAL_HANDLING + translation).
+Prerequisites: none.

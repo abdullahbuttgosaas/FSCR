@@ -1,0 +1,3 @@
+Read-only FSM CSV export of OKC_MANAGE_CLAUSE_AND_TEMPLATE_MANAGEMENT_LOOKUPS on the test environment, 2026-11-25: OK.
+Route used: FSM CSV (standard lookup package, type OKC_SUBJECT) + REST standardLookups read-back.
+Prerequisites: none (seeded extensible type OKC_SUBJECT).

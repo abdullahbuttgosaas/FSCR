@@ -1,0 +1,3 @@
+Task PO_CONFIGURE_PROCUREMENT_BUSINESS_FUNCTION (Configure Procurement Business Function), module Procurement.
+FSCR coverage: route only; no FSCR skill or guide.
+Source: gaps-filled/gap_index.csv (Run 36 scope map).

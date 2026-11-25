@@ -1,0 +1,3 @@
+Read-only check of PO_CONFIGURE_PROCUREMENT_BUSINESS_FUNCTION on the test environment, 2026-11-25: OK.
+Route used: FSM CSV (PO_SYSTEM_PARAMETER per BU, document types, negotiation contract text) --edit-row.
+Prerequisites: an existing procurement BU.

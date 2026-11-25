@@ -1,0 +1,3 @@
+Read-only check of ORA_CMK_MANAGE_B2B_CONFIG on the test environment, 2026-11-25: OK.
+Route used: REST b2bServiceProviders + b2bTradingPartners (POST, GET by id).
+Prerequisites: none (own test service provider).

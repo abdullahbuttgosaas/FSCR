@@ -1,0 +1,2 @@
+Skill written: gaps-filled/procurement/manage-contract-procurement-integrations/SKILL.md (GoSaaS gap fill, not official FSCR).
+Generic: placeholders FSCR, GAPS, RUN, PREFIX; ids read live; no environment data.

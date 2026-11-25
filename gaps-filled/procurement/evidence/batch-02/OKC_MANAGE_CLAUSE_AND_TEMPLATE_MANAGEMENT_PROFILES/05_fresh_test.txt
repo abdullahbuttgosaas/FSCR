@@ -1,0 +1,1 @@
+Fresh test, 2026-11-25: PASS. OLD /usr/tmp/, NEWDIR set (100004744396393, IMPORT PASS, REST = NEWDIR), restored (100004744395169, IMPORT PASS, SAME: PASS). No wrong sentence; one misleading ('CSVs may be empty').

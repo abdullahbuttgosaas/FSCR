@@ -1,0 +1,2 @@
+Skill written: gaps-filled/procurement/manage-compliance-checklist-templates/SKILL.md (GoSaaS gap fill, not official FSCR).
+Generic: placeholders; ids read live; no environment data.

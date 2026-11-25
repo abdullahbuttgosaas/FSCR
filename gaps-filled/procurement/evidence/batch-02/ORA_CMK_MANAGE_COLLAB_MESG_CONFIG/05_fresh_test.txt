@@ -1,0 +1,2 @@
+Fresh F, 2026-11-25: PASS (EssOutRepInterval 140->141->140), one wrong sentence found and fixed.
+Re-test R: PASS AutoRepTimePeriod 50->52 100004744396452, ->50 100004744393644; final compare PASS. Re-test R found no wrong sentence. Suggestions NOT applied: re-run folder for the before export; check for 'Failed calling' before the unzip line.

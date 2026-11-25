@@ -1,6 +1,6 @@
 # CONTEXT: full memory of the FSCR work
 
-Read this first in every session. Plain words. "unconfirmed" = not confirmed from files. "per Abdullah" = stated by Abdullah, not found in a file. Last full rewrite: 2026-11-23 on the PC (DESKTOP-TJ1S90V). Sections 8, 9, 11, 12 updated 2026-11-25 (after Common Features batches 09 and 10) on the PC.
+Read this first in every session. Plain words. "unconfirmed" = not confirmed from files. "per Abdullah" = stated by Abdullah, not found in a file. Last full rewrite: 2026-11-23 on the PC (DESKTOP-TJ1S90V). Sections 8, 9, 11, 12 updated 2026-11-25 (after Procurement sittings 1 and 2) on the PC.
 
 ---
 
@@ -106,7 +106,7 @@ Open: owners for HCM, Logistics and PLM; how to split the big modules (PFM, GL, 
 
 ## 8. Index rule
 
-`gaps-filled\gap_index.csv` is **built, never hand-edited**. Run `python rebuild_index.py` in `gaps-filled\`: it reads every `STATUS.md`, updates `gap_index.csv` and writes `gap_progress.tsv` (standard library only; keeps CRLF). Expected now: **935 rows, 60 tested, 14 written** (74 cards, 0 failed). Screen-only tasks are not cards: they are in `common-features\screen-only.csv` (4).
+`gaps-filled\gap_index.csv` is **built, never hand-edited**. Run `python rebuild_index.py` in `gaps-filled\`: it reads every `STATUS.md`, updates `gap_index.csv` and writes `gap_progress.tsv` (standard library only; keeps CRLF). Expected now: **935 rows, 73 tested, 18 written, 6 screen-only** (0 failed; Common Features 58 / 14 / 4, Procurement 13 / 4 / 2). Screen-only tasks are listed in `common-features\screen-only.csv` (4) and `procurement\screen-only.csv` (2).
 
 ## 9. What is done
 
@@ -127,7 +127,11 @@ Open: owners for HCM, Logistics and PLM; how to split the big modules (PFM, GL, 
 | batch 4 fix | 2026-11-24 | Tax Exemptions now **tested** (test customer + THIRD_PARTY tax profile by CRM REST); Party Tax Profiles Step 3 wording fixed and re-tested | `gaps-filled\BATCH4_FIX_RESULT.md` |
 | batches 05+06 | 2026-11-25 | **6 tested** (Search Legal Entities, Search Legal Reporting Units, View Accounting Configuration Summary, View Service Clients, Manage Data Access Sets, Manage Daily Rates), **4 written** (unsafe: Search / CRM BU profile options, Map Reports to Work Areas, Country Default Controls) | `gaps-filled\common-features\BATCH_05_RESULT.md`, `BATCH_06_RESULT.md` |
 | batches 07+08 | 2026-11-25 | **6 tested** (Account Hierarchy Labels, Tree Labels, Trees and Tree Versions, Account Hierarchies, Tree Structures, Ledger Document Sequences), **4 written** (unsafe: Legal Entity Tax Profiles, Configuration Owner Tax Options, Intercompany Exceptions, LRU Tax Profiles); all 49 "neither" tasks checked: none has an FSM CSV | `gaps-filled\common-features\BATCH_07_RESULT.md`, `BATCH_08_RESULT.md` |
+| Procurement sitting 1 + continuation | 2026-11-25 | **9 tested** (Special Handling Types, Contract Line Types, Contract Clause Types, Contract Terms Value Sets, Contract and Procurement System Integrations, Purchasing Profile Options, Clause Import XML File Location, Collaboration Messaging Configuration, Channel Settings; last 3 as test-and-restore), **1 written** (unsafe: Electronic Signature) | `gaps-filled\procurement\BATCH_01_RESULT.md`, `BATCH_02_RESULT.md`, `MODULE_RESULT.md` |
+| Procurement sitting 2 | 2026-11-25 | **4 tested** (Compliance Checklist Sections, Questions, Templates; B2B Configuration by REST), **3 written** (unsafe: Configure Procurement Business Function, Supplier Contract Management BF Properties, Contract Terms DFF), **2 screen-only** (Collaboration Messaging DVM, SSP Messages) | `gaps-filled\procurement\BATCH_03_RESULT.md`, `BATCH_04_RESULT.md` |
 | batches 09+10 | 2026-11-25 | **4 tested** (Tax Registrations by REST, Legal Document Sequences, BU Document Sequences, Billing Extensions), **6 written** (unsafe: Partner Organizations, Create Implementation Users, Import Worker Users, Data Access for Users, BU and Reference Data Set Data Access for Users), **4 screen-only** (3 message tasks, Cross-Validation Rules) | `gaps-filled\common-features\BATCH_09_RESULT.md`, `BATCH_10_RESULT.md` |
+
+**Since Procurement sittings 1 and 2 (2026-11-25):** totals now **73 tested, 18 written, 0 failed, 6 screen-only**. Procurement: 13 tested, 4 written (unsafe), 2 screen-only, **7 open** of 26 (2 reserved for a live demo: FOB and Freight Terms lookups, `procurement\DEMO_RESERVE.md`; 5 approval / task-configuration tasks). Sitting 1 was stopped at about 17:30 by the org's monthly Claude spend limit and finished after the reset. Module files: `gaps-filled\procurement\` (`my_gaps.csv`, `MODULE_TRACKER.csv`, `MODULE_RESULT.md`, `screen-only.csv`, 17 skill folders, evidence). New helpers in `procurement\scripts\`: `build_csv_package.py` (`--copy-row`, `--edit-row`), `compare_exports.py`, `lookup_type_row.py`, `build_module_tracker.py`, `read_import_log.py`, `profile_option_row.py`. Records: `GAPFILL_AB_B1_..` to `GAPFILL_AB_B4_..` (see `MODULE_RESULT.md`); 3 shared settings changed and restored (clause XML location, collab messaging parameter, 2 channel setting values).
 
 **Since batches 09+10 (2026-11-25):** totals now **60 tested, 14 written, 0 failed**, plus 4 proven screen-only (`common-features\screen-only.csv`). Common Features: **72 open**. New helper `common-features\scripts\rest_call.py` (runs FSCR's REST client unchanged but shows Oracle's real error text). Records `GAPFILL_AB_B9_..`, `GAPFILL_AB_B10_..` (incl. test customer `GAPFILL_AB_B9_CUST3R`, test doc sequence categories `B9_LC1`, `B9_BC1`, billing extensions `B10_BX2` Invoice, `B10_BX3F` Revenue).
 
@@ -242,6 +246,7 @@ Open: owners for HCM, Logistics and PLM; how to split the big modules (PFM, GL, 
 | batch 4 | `gaps-filled\BATCH4_PLAN.md`, `BATCH4_PART1..3_RESULT.md` | 2026-11-24 | 12 Common Features gaps: 11 tested, Tax Exemptions failed |
 | batch 4 fix | `gaps-filled\BATCH4_FIX_RESULT.md` | 2026-11-24 | Tax Exemptions tested (CRM REST customer + profile); Party Tax Profiles wording re-tested |
 | batches 09+10 | `gaps-filled\common-features\BATCH_09_RESULT.md`, `BATCH_10_RESULT.md` | 2026-11-25 | 10 Common Features gaps: 4 tested, 6 written (unsafe), plus 4 screen-only |
+| Procurement 1, 1b, 2 | `gaps-filled\procurement\BATCH_01..04_RESULT.md`, `MODULE_RESULT.md` | 2026-11-25 | 19 Procurement tasks moved: 13 tested, 4 written (unsafe), 2 screen-only |
 | Security re-check | `fscr-main\fscr-module-test-pack\evidence\Security\SECURITY_RERUN_RESULT.md` | 2026-11-24 | read-only, boss_scope set; 6 of 6 read OK, loads blocked |
 
 ## 10. Time measured
@@ -282,6 +287,12 @@ Open: owners for HCM, Logistics and PLM; how to split the big modules (PFM, GL, 
 - **After-export compare:** if the export gave no ZIP, the compare shows false "removed" rows; check the ZIP exists first.
 - **Lookup-coded columns** (for example billing extension `CallingProcess`) take the lookup code, not the meaning; read codes live.
 - **Also unsafe (written, not loaded):** anything that creates users or HR persons, grants a real user data access, or needs a real person as owner resource (partner organizations).
+- **Demo reserve:** Procurement FOB and Freight Terms lookups (`PO_MANAGE_FOB_LOOKUP`, `PO_MANAGE_FREIGHT_TERM_LOOKUP`) stay open for a live demo; never fill or test them in a sitting (`procurement\DEMO_RESERVE.md`).
+- **Test-and-restore** is allowed for a single shared setting when the old value is read first, the change is proved, and the old value is put back and proved (clause XML location, collab messaging, channel settings). Settings with one row per live business unit stay written-unsafe.
+- **Extensible seeded lookup types:** the export has 0 rows, so the load carries the seeded type row **unchanged** (from REST) plus the new code (`lookup_type_row.py`).
+- **Compliance checklists:** section and question usage `ORA_CHECKLIST`, template usage `CHECKLIST` (`ORA_CHECKLIST` imports "successfully" but the template is invisible); a template section row needs `ObjectVersionNumber1=1`; an active section needs at least 1 active question.
+- **Credentials:** a task that needs provider or endpoint credentials (electronic signature, external integration targets) is written-unsafe; an agent never enters them.
+- **Approval rules** (REST `approvalRules`) need a `ParticipantId` and change who approves live documents: read participants first, then decide disabled-rule test or unsafe.
 
 ## 12. Pending
 
@@ -300,6 +311,7 @@ Open: owners for HCM, Logistics and PLM; how to split the big modules (PFM, GL, 
 - Security: send the 5-line ask in `SECURITY_IMPACT.md` to the senior (audit OK, which algorithms, default owners, Risk Administrator role, `rmc_scope`).
 - Approval to load-test the 14 "written (unsafe to test)" tasks on an environment we own (or leave them written).
 - FSCR has an implementation-users skill (SCIM) its catalog does not map to `FND_CREATE_IMPLEMENTATION_USERS`: worth telling Oracle / the team.
+- **Procurement next:** the 5 approval / task-configuration tasks (read approval participants read-only, then disabled-rule test or written-unsafe). Demo reserve stays open. Tester suggestions "not applied" are listed in each Procurement STATUS.md.
 - **Next:** Common Features batch 11 (72 open): billing extension assignments (first check a test method can be made), segment value security rules and data role tasks (likely unsafe), descriptive flexfields (deploy), country-only tasks (Italy, China, Brazil, EMEA), then the other "neither" tasks (languages, territories, time zones as read-only skills; see `BATCH_10_RESULT.md`, `my_gaps.csv`).
 
 ## 13. Session commands (Claude: follow exactly when Abdullah types these words)

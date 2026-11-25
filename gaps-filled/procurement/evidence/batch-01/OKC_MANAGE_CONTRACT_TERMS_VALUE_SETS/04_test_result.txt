@@ -1,0 +1,3 @@
+Own live test, 2026-11-25:
+Test records: GAPFILL_AB_B1_VS1 + values GAPFILL_V1, GAPFILL_V2 (ProcessId 100004744391249); fresh GAPFILL_AB_B1_VS2F + GAPFILL_F1, GAPFILL_F2 created (100004744393376)
+Own test: 3 rows processed, 0 failed.

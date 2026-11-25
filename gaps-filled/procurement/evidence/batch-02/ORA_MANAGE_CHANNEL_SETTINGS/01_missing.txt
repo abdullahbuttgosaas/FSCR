@@ -1,0 +1,3 @@
+Task ORA_MANAGE_CHANNEL_SETTINGS (Manage Channel Settings), module Procurement.
+FSCR coverage: route only (CSV export/import supported); no FSCR skill or guide.
+Source: gaps-filled/gap_index.csv (Run 36 scope map).

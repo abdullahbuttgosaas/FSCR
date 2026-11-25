@@ -1,0 +1,3 @@
+Task OKC_MANAGE_CLAUSE_AND_TEMPLATE_MANAGEMENT_PROFILES (Specify Contract Clause Import XML File Location), module Procurement.
+FSCR coverage: route only (CSV export/import supported); no FSCR skill or guide.
+Source: gaps-filled/gap_index.csv (Run 36 scope map).

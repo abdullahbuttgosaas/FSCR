@@ -1,0 +1,3 @@
+Read-only FSM CSV export of ORA_PO_CONFIGURE_ELECTRONIC_SIGNATURE on the test environment, 2026-11-25: OK.
+Route used: FSM CSV (ORA_ZCA_ESIGNATURE_SETUP) - read-only export only; setup by a person on the screen.
+Prerequisites: a DocuSign or Adobe Sign account and its credentials (entered by a person).

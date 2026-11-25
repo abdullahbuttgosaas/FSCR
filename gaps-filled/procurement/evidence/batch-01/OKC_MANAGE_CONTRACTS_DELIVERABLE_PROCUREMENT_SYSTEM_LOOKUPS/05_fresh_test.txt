@@ -1,0 +1,4 @@
+Fresh tests (fresh sub-agent, skill only), 2026-11-25:
+GAPFILL_AB_B1_TS6F (100004744393438), TS7R (100004744395059), TS8R (100004743407825); path A (internal)
+Round F: PASS, skill faults found and fixed. Round R: PASS, faults found and fixed. Round R2: PASS, no wrong sentence.
+Suggestions not applied: Step 3 code block: add `> "<RUN>/import.out" 2>&1`; worked-example counts are old (skill already says counts grow).

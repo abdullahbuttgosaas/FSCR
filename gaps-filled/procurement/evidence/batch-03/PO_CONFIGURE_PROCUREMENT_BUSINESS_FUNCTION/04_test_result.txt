@@ -1,0 +1,3 @@
+Own live test, 2026-11-25:
+none (package built offline, not imported)
+Export read; change package built offline (one field of one BU); import blocked as unsafe, not run.

@@ -1,0 +1,3 @@
+Task ORA_PO_MANAGE_SPECIAL_HANDLING_TYPES (Manage Special Handling Types), module Procurement.
+FSCR coverage: route only (CSV export/import supported); no FSCR skill or guide.
+Source: gaps-filled/gap_index.csv (Run 36 scope map).
