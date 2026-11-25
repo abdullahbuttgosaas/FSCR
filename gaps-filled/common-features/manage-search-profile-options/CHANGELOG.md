@@ -6,3 +6,5 @@
 
 ## Test records created
 - none (not loaded)
+- 2026-11-25, batch 11 (AB with Claude). Re-opened (new unsafe rule). USER-level route found (REST child userProfileOptionValues; levels read live). Try 1 refused (user name as LevelValue), try 2 created (GUID). Skill rewritten: USER route tested, SITE route kept as not run. Fresh test (U2F): PASS.
+- Tester suggestions not applied: strip links from saved files; say the SCIM id is Resources[0].id; build post.json from the read with python; read only 3 fields of the POST answer; repeat the read command in Step 4.

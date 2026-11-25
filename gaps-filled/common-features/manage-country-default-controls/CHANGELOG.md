@@ -6,3 +6,4 @@
 
 ## Test records created
 - none (not loaded)
+- 2026-11-25, batch 13 (AB with Claude). Own test AQ: PASS. Skill rewritten as tested (v0.2.0). Fresh test BV: PASS. Wording fixed (Step 4 says which log holds the result; Step 1 warns about the process log; Step 2/5 retry folders). Re-test HM: PASS; clarity edits after it (In progress line, unzip into unz).

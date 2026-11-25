@@ -1,0 +1,3 @@
+# Changelog
+- 2026-11-25, batch 12 (AB with Claude). Own tries IM1 (refused, ProcessingOrder) and IM2 (PASS). Skill written. Fresh test IM3F: PASS. Wording fixed (Step 4 drop sign, Step 3 AsmFlag, Prerequisite 1 one-liner, Step 2 row count). Re-test IM4R: PASS.
+- Tester suggestions not applied (no wrong sentence): copy the billing-extension export command into Prerequisite 1 (folder <RUN>/ext); one-liner to check METHOD is free; say a clean run leaves one *_process_log.txt; an IndexError from the unzip line means no ZIP; 19-character names work (no maximum found); the package holds only new rows (check the ZIP).

@@ -1,71 +1,86 @@
 ---
 skill_id: "gosaas.gap-fills.common-features.manage-search-profile-options"
-name: "Manage Search Profile Options (GoSaaS gap fill, written, not load-tested)"
-description: "Read, and when a person approves it, change the SITE value of the seeded search profile options (Search Method Default and the hide-sensitive-attributes option) through FSCR's setup-task CSV export/import of ZCA_MANAGE_SEARCH_PROFILE_OPTIONS, with the current value read by REST. WRITTEN ONLY: the import step was not run on the shared test environment because it changes search for every user. Added by GoSaaS, not part of official FSCR."
-origin: "GoSaaS gap fill, batch 06, 2026-11-25. Export and REST reads seen live on one test environment; the import was NOT run (unsafe on a shared environment). NOT official FSCR."
+name: "Manage Search Profile Options: set the search method for one user by REST; read the SITE value (GoSaaS gap fill)"
+description: "Sets a USER-level value of the search profile option Search Method Default (ZCA_SEARCH_DEFAULT_OPTION) through the REST child userProfileOptionValues (run with FSCR's REST client), reads it back, and reads the SITE value and the task's CSV export. The SITE change (every user) is documented but not run. Added by GoSaaS, not part of official FSCR."
+origin: "GoSaaS gap fill, batch 06 (written), batch 11 (USER level tested), 2026-11-25. NOT official FSCR."
 layer: "pillar"
 pillar: "ERP"
 offering: "Common Features"
 task_code: "ZCA_MANAGE_SEARCH_PROFILE_OPTIONS"
 task_name: "Manage Search Profile Options"
-dataloader_import_mode: "FSM"
-type: "import"
+type: "rest"
 execution_mode: "hybrid"
 owner_team: "GoSaaS"
-version: "0.1.0"
+version: "0.2.0"
+status: "tested (batch 11, USER level)"
 depends_on:
   - "core.auth.fusion-oauth-authentication"
-  - "shared.setup-export.task-level-export"
-  - "shared.setup-import.task-level-import"
-  - "gosaas common-features/manage-profile-options (full profile recipe) and manage-admin-profile-values (SITE values)"
-  - "gosaas common-features/manage-profile-options/scripts/copy_parent_rows.py"
-  - "gosaas common-features/manage-docseq-categories/scripts (generic helpers)"
+  - "core.fusion-api.rest-api-client (through the GoSaaS wrapper rest_call.py)"
+  - "gap skill create-implementation-users (a test user for the USER level)"
+  - "shared.setup-export.task-level-export (read only)"
 side_effects:
-  - "Steps 2 and 3 are read only."
-  - "Step 5 (import) changes a seeded SITE value: it takes effect at once for every user of the environment. Run it only on an environment you own, with written approval."
+  - "Step 3 adds one USER-level value: only that user's default search method changes."
+  - "Steps 6 to 8 (SITE, not run) would change the default for every user."
 ---
 
 # Manage Search Profile Options (GoSaaS gap fill)
 
 > **Added by GoSaaS, not part of official FSCR.** FSCR's catalog only routes this task; it has no skill or guide. This skill runs FSCR's scripts in place and edits no FSCR file.
-> **Status: written, not load-tested.** The export and the REST reads were run live (VERIFIED). The import was **not** run on our shared test environment: the task only edits seeded options whose SITE value every user gets. Steps 4 to 6 are therefore **GUESS**, built from the tested profile-value recipe (`manage-admin-profile-values`, batch 2) and this task's export.
+> Labels: **VERIFIED** = seen live (2026-11-25) · **GUESS** = not run live.
+> **Tested:** the USER-level value by REST (Steps 2 to 4, on a test user nobody signs in with). **Not run:** the SITE change (Steps 6 to 8): it changes search for every user of the environment; only with the owner's written approval.
 
 ## What it is and when to use
 The task holds the profile options that control the global search in Fusion (application `ZCA`). Its export scope is two named, **seeded** options in `edit` mode (VERIFIED, from the export's `ASM_SETUP_CSV_METADATA.xml`):
-| Option | User name | Values |
-|---|---|---|
-| `ZCA_SEARCH_DEFAULT_OPTION` | Search Method Default | e.g. `KEYWORD_SEARCH` (the SITE value we read, VERIFIED) |
-| `ZCA_SEARCH_HIDE_SENSITIVE_ATTR` | hide sensitive attributes in search (GUESS from the code) | not found by REST in our release (VERIFIED: `profileOptions` 0 rows), so it may not exist in every release |
 
-Use the skill when someone asks what these options are set to (Steps 2 and 3, safe) or asks to change them on an environment they own (Steps 4 to 6, with approval). Do **not** create new options here (use `manage-profile-options`).
+| Option | User name | Levels (VERIFIED, REST `profileOptionLevels`) | Values |
+|---|---|---|---|
+| `ZCA_SEARCH_DEFAULT_OPTION` | Search Method Default | SITE and USER enabled and updatable; PRODUCT not | lookup `ZCA_SEARCH_OPTION`: `KEYWORD_SEARCH`, `REAL-TIME_SEARCH` (VERIFIED) |
+| `ZCA_SEARCH_HIDE_SENSITIVE_ATTR` | hide sensitive attributes (GUESS from the code) | not found by REST in our release (HTTP 404 / 0 rows, VERIFIED) | - |
+
+Use the USER route to give one user (for example a test or demo user) a different default search; use the read steps to report the current SITE value.
 
 ## Placeholders
 ```text
-FSCR    = the FSCR root folder: the one that directly holds core\, shared\ and core\auth\fusionEnv.properties. Read only, never edit.
-GAPS    = the gaps-filled folder that holds this skill (two levels above this SKILL.md)
-H       = <GAPS>/common-features/manage-docseq-categories/scripts   (generic helpers)
-RUN     = a NEW empty work folder, OUTSIDE FSCR and outside any git repo, with no folder in its path named exactly "project"
-OPTION  = ZCA_SEARCH_DEFAULT_OPTION (or the other option of the scope)
-NEWVAL  = the new SITE value the person approved
+FSCR     = the FSCR root folder: the one that directly holds core\, shared\ and core\auth\fusionEnv.properties. Read only, never edit.
+GAPS     = the gaps-filled folder that holds this skill (two levels above this SKILL.md)
+W        = <GAPS>/common-features/scripts/rest_call.py   (runs FSCR's fusion_rest_client.py unchanged; shows Oracle's error text)
+H        = <GAPS>/common-features/manage-docseq-categories/scripts   (generic helpers, for the export)
+RUN      = a NEW empty work folder, OUTSIDE FSCR and outside any git repo
+OPTION   = ZCA_SEARCH_DEFAULT_OPTION
+USER     = the user name that gets the value (for a test: your own test user, Prerequisite 2)
+USERGUID = that user's 32-character id (SCIM id), read live in Prerequisite 2
+VALUE    = KEYWORD_SEARCH or REAL-TIME_SEARCH (read live, Step 2)
+P        = /fscmRestApi/resources/11.13.18.05/profileOptions/<OPTION>
 ```
+Call pattern: `cd "<RUN>"; timeout 120 python -B "<W>" "<FSCR>" <endpoint> [--scim-only] [--method POST --body-file f.json --header "Content-Type=application/vnd.oracle.adf.resourceitem+json"] [--query k=v ...] --no-open-browser --output x.json > x.log 2>&1; echo rc=$?`. On `rc=1` the last line of `x.log` is Oracle's message.
 
 ## Step 1. Safe run and sign-in
-FSCR scripts with full path and `python -B`; Git Bash paths as `E:/...` (never `$PWD` or `/e/...`), `export PYTHONUTF8=1 MSYS_NO_PATHCONV=1`; `timeout 120` before REST reads. On HTTP 401/403, an expired token or a hang, sign in with `cd "<FSCR>"; python -B core/auth/fusion-oauth-authentication/scripts/fusion_login.py --token-cache auto --open-browser --callback-timeout 600` (a person completes the browser page on port 8765; never type credentials). Never print tokens, headers, the server address or user names; FSCR's output file names hold the environment name, never copy them into a report.
+FSCR scripts with full path and `python -B`; Git Bash paths as `E:/...` (never `$PWD` or `/e/...`), `export PYTHONUTF8=1 MSYS_NO_PATHCONV=1`. On HTTP 401/403, an expired token or a hang, sign in with `cd "<FSCR>"; python -B core/auth/fusion-oauth-authentication/scripts/fusion_login.py --token-cache auto --open-browser --callback-timeout 600` (a person completes the browser page on port 8765; never type credentials). Never print tokens, headers, the server address (JSON answers hold it in `links`) or other people's user names; always pass `fields=` on reads of value rows.
 
 ## Prerequisites
-1. Read access to `profileOptions` and the export privilege for this task.
-2. For Step 5 only: written approval from whoever owns the environment, naming OPTION, the level (SITE) and NEWVAL, because every user is affected.
+1. Read access to `profileOptions`; for Step 3 the right to change profile values.
+2. **USER exists and USERGUID is known.** For a test use your own test user made with the gap skill `create-implementation-users` (no roles needed). USERGUID = the `id` of `/hcmRestApi/scim/Users --scim-only --query 'filter=userName eq "<USER>"' --query attributes=id,userName,active` (VERIFIED).
+3. **USER has no value yet:** `<P>/child/userProfileOptionValues --query "q=LevelValue='<USERGUID>'" --query onlyData=true --query fields=UserName,ProfileOptionValue` → `count 0` (VERIFIED filter: it found the row after Step 3). If there is a value, stop: changing it is an update of an existing record.
 
-## Step 2. Read the options and their current value by REST (read only)
-```bash
-timeout 120 python -B "<H>/rest_read.py" --fscr "<FSCR>" --resource profileOptions --q "ProfileOptionName='<OPTION>'" \
-  --fields ProfileOptionName,ApplicationShortName,UserProfileOptionName --out "<RUN>/option.json" --expect-count 1
-timeout 120 python -B "<H>/rest_read.py" --fscr "<FSCR>" --resource profileOptions/<OPTION>/child/siteProfileOptionValues \
-  --fields LevelValue,ProfileOptionValue --out "<RUN>/site_before.json"
+## Step 2. Read the option, its levels, values and SITE value (read only, VERIFIED)
+- `<P>/child/profileOptionLevels --query onlyData=true` → USER `EnabledFlag Y`, `UpdateableFlag Y`. If USER is not enabled (for example `HZ_ENABLE_MULTIPLE_BU_CRM`), this route is closed.
+- `/fscmRestApi/resources/11.13.18.05/standardLookups/ZCA_SEARCH_OPTION/child/lookupCodes --query onlyData=true --query fields=LookupCode,Meaning,EnabledFlag` → the allowed VALUEs.
+- `<P>/child/siteProfileOptionValues --query onlyData=true --query fields=LevelValue,ProfileOptionValue` → SITE value (VERIFIED: `KEYWORD_SEARCH`). Write it down: Step 4 proves it did not change.
+- The REST resource `profileOptions` itself is read only; its children `siteProfileOptionValues`, `userProfileOptionValues`, `productProfileOptionValues` allow get, create, upsert, update, delete (VERIFIED by `/describe`).
+
+## Step 3. Create the USER value (VERIFIED)
+`<RUN>/post.json`:
+```json
+{"LevelValue":"<USERGUID>","UserName":"<USER>","ProfileOptionValue":"<VALUE>"}
 ```
-VERIFIED: `ZCA_SEARCH_DEFAULT_OPTION` (application ZCA) has SITE value `KEYWORD_SEARCH`. Always pass `--fields`: without it the read also prints `CreatedBy` / `LastUpdatedBy` (user names). An unknown field in `--fields` gives HTTP 400 (VERIFIED: `SQLValidation`).
+POST to `<P>/child/userProfileOptionValues` → `rc=0`; the answer shows LevelValue = USERGUID, your VALUE and USER (VERIFIED).
+- `LevelValue` is the user's **GUID**, not the user name: with `LevelValue` = the user name Oracle refuses `Applying List binding LOV_UserName with given set of values leads to no matching row` (VERIFIED, nothing created).
+- Never send `Upsert-Mode`. Dropped connection: do not POST again; wait 2 minutes and do Step 4.
 
-## Step 3. Read-only export
+## Step 4. Read back (VERIFIED)
+Prerequisite 3's read again → `count 1` with VALUE; Step 2's SITE read again → unchanged.
+
+## Step 5. Read-only export (optional)
 ```bash
 cd "<FSCR>"
 python -B shared/setup-export/task-level-export/scripts/export_setup_task_csv.py \
@@ -75,9 +90,9 @@ python -B shared/setup-export/task-level-export/scripts/export_setup_task_csv.py
 python -I -c "import sys,zipfile,glob; zipfile.ZipFile(glob.glob(sys.argv[1]+'/*.zip')[0]).extractall(sys.argv[1]+'/unz')" "<RUN>/export_before"
 python -I "<H>/inspect_export.py" "<RUN>/export_before/unz"
 ```
-VERIFIED (about 40 s): 4 files, `FND_APP_PROFILE_OPTION.csv` (13 columns), `ORA_FND_APP_PROFILE_OPTION_LEVEL.csv` (10), `FND_APP_PROFILE_VALUE.csv` (10: `FND_APP_PROFILE_OPTION.ProfileOptionName`, `FND_APP_PROFILE_OPTION.ApplicationId`, `LevelName`, `LevelValue`, `ProfileOptionValue` + audit), all with **0 rows**, and the metadata. The export leaves seeded options out (as batch 4 saw for ZX options), so the export cannot be the read-back here: use REST (Step 2).
+VERIFIED (about 40 s): 4 files, `FND_APP_PROFILE_OPTION.csv` (13 columns), `ORA_FND_APP_PROFILE_OPTION_LEVEL.csv` (10), `FND_APP_PROFILE_VALUE.csv` (10: `FND_APP_PROFILE_OPTION.ProfileOptionName`, `FND_APP_PROFILE_OPTION.ApplicationId`, `LevelName`, `LevelValue`, `ProfileOptionValue` + audit), all with **0 rows**, and the metadata. The export leaves seeded options out (as batch 4 saw for ZX options), so the export cannot be the read-back here: use REST (Steps 2 and 4).
 
-## Step 4. Build the value row (GUESS: not run)
+## Step 6. SITE value: build the row (GUESS: not run; changes every user)
 A value is a child row of its option (hierarchical package): the parent option row must be in the same ZIP, unchanged (lesson from `manage-admin-profile-values`, VERIFIED there for own options). Here the parent is seeded and the export has no row for it, so the parent row must be written from REST, with exactly the seeded values (`ProfileOptionName`, `ApplicationId`, `ModuleId`, `UserProfileOptionName`, `Description`, `SqlValidation`, dates). GUESS: if any parent value differs, the import updates the seeded option; a round trip (rule from batch 4) on an environment you own should be done first.
 ```bash
 python -I "<H>/build_fsm_package.py" --export-dir "<RUN>/export_before/unz" --out-dir "<RUN>/payload" --zip-name search_value.zip \
@@ -87,7 +102,7 @@ python -I "<H>/build_fsm_package.py" --export-dir "<RUN>/export_before/unz" --ou
 ```
 NEWVAL must be one of the option's allowed values (read the option's `SQLValidation` through REST field names your release accepts, or the option's lookup) (GUESS).
 
-## Step 5. Import (GUESS: not run; only with the approval of Prerequisite 2)
+## Step 7. SITE value: import (GUESS: not run; only with the environment owner's written approval)
 ```bash
 cd "<FSCR>"
 python -B shared/setup-import/task-level-import/scripts/import_setup_task_csv.py \
@@ -95,21 +110,22 @@ python -B shared/setup-import/task-level-import/scripts/import_setup_task_csv.py
   --zip-file "<RUN>/payload/search_value.zip" \
   --token-cache auto --wait-seconds 400 --poll-interval 15 --no-open-browser --output-dir "<RUN>/import_result"
 ```
-Write down the `ProcessId`. If the connection drops after the process started, do not import again: wait 2 minutes and read back (Step 6). A generic database error at the insert (`JBO-26041`): fill `CreatedBy`/`LastUpdatedBy` with the export metadata's `SubmittedBy` (read at run time, never print it).
+Write down the `ProcessId`. If the connection drops after the process started, do not import again: wait 2 minutes and read back (Step 8). A generic database error at the insert (`JBO-26041`): fill `CreatedBy`/`LastUpdatedBy` with the export metadata's `SubmittedBy` (read at run time, never print it).
 
-## Step 6. Read back (REST)
-Repeat the second call of Step 2 into `site_after.json`; the SITE `ProfileOptionValue` must be NEWVAL, and `profileOptions` must show the option unchanged.
+## Step 8. SITE value: other route and read back (GUESS)
+The REST child `siteProfileOptionValues` also allows update (VERIFIED by `/describe`, not run). After any SITE change, Step 2's SITE read must show NEWVAL, and `profileOptions` must show the option unchanged. NEWVAL = the new SITE value the owner approved; note the old value first so it can be set back.
 
 ## Rules and limits
-1. Steps 2 and 3 are safe anywhere. Steps 4 to 6 change a setting for every user: only on an environment you own, with written approval; note the old value (Step 2) so it can be set back.
-2. Never change these options on a shared test environment for a test (that is why this skill was not load-tested).
-3. Not tested: the import, the parent row written from REST, USER-level values (GUESS: the task's levels are in `ORA_FND_APP_PROFILE_OPTION_LEVEL.csv`).
-4. Export and REST seen on one environment (release 11.13.26.10.0).
+1. Steps 2, 4 and 5 are safe anywhere. Step 3 changes only USER's search default: use your own test user, or a real user only on that person's request.
+2. Steps 6 to 8 change the default for every user: only on an environment you own, with written approval; never as a test on a shared environment.
+3. Never update or delete an existing USER or SITE value (that is a change of someone else's setting).
+4. Seen on one environment (release 11.13.26.10.0).
 
-## Worked example (read part only, VERIFIED 2026-11-25)
-| Step | Result |
-|---|---|
-| REST `profileOptions` | `ZCA_SEARCH_DEFAULT_OPTION`, application ZCA, "Search Method Default"; `ZCA_SEARCH_HIDE_SENSITIVE_ATTR`: 0 rows |
-| REST site value | `KEYWORD_SEARCH` |
-| Export | 4 files, 0 rows (scope: the 2 named options, mode `edit`), about 40 s |
-| Import | not run (unsafe: changes search for every user) |
+## Worked example (2026-11-25)
+| Step | Record | Result |
+|---|---|---|
+| levels | `ZCA_SEARCH_DEFAULT_OPTION` | SITE and USER enabled; SITE value `KEYWORD_SEARCH`; 0 USER values |
+| POST with LevelValue = user name | test user `GAPFILL_AB_B11_U1` | refused, LOV_UserName no matching row; nothing created |
+| POST with LevelValue = GUID | `GAPFILL_AB_B11_U1`, `REAL-TIME_SEARCH` | created; read back `count 1`; SITE still `KEYWORD_SEARCH` |
+| export (batch 06) | scope: the 2 named options | 4 files, 0 rows, about 40 s |
+| fresh test | see CHANGELOG.md | |

@@ -11,4 +11,4 @@ fresh_claude_pass: no
 route: FSM CSV (FND_APP_PROFILE_OPTION/VALUE/LEVEL); read by REST
 depends_on: ZCA_MANAGE_SEARCH_PROFILE_OPTIONS skill (card over it)
 test_records: none (not loaded)
-notes: unsafe to test: the export scope is the single seeded option HZ_ENABLE_MULTIPLE_BU_CRM (edit mode); a load switches multiple-BU behaviour for every CRM user. Reads VERIFIED (SITE value N); import GUESS. Next step: load-test only on an environment we own.
+notes: unsafe to test: the export scope is the single seeded option HZ_ENABLE_MULTIPLE_BU_CRM (edit mode); a load switches multiple-BU behaviour for every CRM user. Reads VERIFIED (SITE value N); import GUESS. Next step: load-test only on an environment we own. Re-judged 2026-11-25 (sitting 4, new unsafe rule): HZ_ENABLE_MULTIPLE_BU_CRM allows only SITE level (REST profileOptionLevels: USER EnabledFlag N, VERIFIED 2026-11-25), so no own-user value is possible; a SITE flip changes multiple-BU behaviour for every CRM user and is not a single value we can safely prove restored for others during the test. Stays written.

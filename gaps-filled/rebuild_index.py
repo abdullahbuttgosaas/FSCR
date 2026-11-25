@@ -30,7 +30,7 @@ KEYS = ['task_code', 'task_name', 'module', 'status', 'filled_by', 'date', 'minu
         'minutes_to_test', 'waiting_minutes', 'fresh_claude_pass', 'route', 'depends_on',
         'test_records', 'notes']
 OPTIONAL = ['retest_after_wording_fix']
-CARD_STATUS = {'tested', 'written', 'failed'}
+CARD_STATUS = {'tested', 'written', 'failed', 'screen-only'}  # screen-only card: a route was tried and proven not to work
 SKIP_DIRS = {'evidence'}  # also skipped: names starting with '_' or '.' (work and shared folders)
 
 problems = []
@@ -131,6 +131,7 @@ def main():
         per_code[card['task_code']].append(card)
 
     applied = set()
+    screen = set()  # screen-only rows (from cards and from screen-only.csv lists)
     for code, cards in per_code.items():
         if len(cards) > 1:
             problems.append(f'task_code {code} has {len(cards)} cards: '
@@ -148,10 +149,12 @@ def main():
             put(k, c[k])
         if c['status'] in ('tested', 'written'):
             r[col['screen_only']] = 'no'
+        if c['status'] == 'screen-only':
+            r[col['screen_only']] = 'yes'
+            screen.add(code)
         applied.add(code)
 
     # ---- screen-only lists ----
-    screen = set()
     for slug, module in SLUG.items():
         path = os.path.join(ROOT, slug, 'screen-only.csv')
         if not os.path.isfile(path):
@@ -172,6 +175,8 @@ def main():
                 if r[col['module']] != module:
                     problems.append(f'{rel(path)} line {n}: {code} belongs to {r[col["module"]]}, not {module}')
                     continue
+                if code in applied and r[col['status']] == 'screen-only':
+                    continue  # the card says screen-only too
                 if code in applied:
                     problems.append(f'{rel(path)} line {n}: {code} also has a STATUS.md card; card kept')
                     continue
@@ -187,7 +192,7 @@ def main():
             r[col['status']] = 'open'
             r[col['screen_only']] = 'unknown'
             warnings.append(f'{code}: no longer in any screen-only.csv, set back to open')
-        elif r[col['status']] in CARD_STATUS and code not in applied:
+        elif r[col['status']] in CARD_STATUS and code not in applied and code not in screen:
             warnings.append(f'{code}: gap_index.csv says {r[col["status"]]} but no STATUS.md card was applied (left as is)')
 
     # ---- write index (CRLF) ----

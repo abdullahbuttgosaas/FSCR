@@ -2,17 +2,60 @@
 
 GoSaaS work, not official FSCR. Newest sitting first. The cards (`*/STATUS.md`) are the truth; `MODULE_TRACKER.csv` shows them.
 
-## Cumulative counts (all sittings, after the third 2026-11-25 sitting)
+## Cumulative counts (all sittings, after the fifth 2026-11-25 sitting)
 | Status | Count |
 |---|---:|
-| tested | 58 |
-| written (unsafe to test) | 14 |
+| tested | 72 |
+| written (unsafe to test) | 8 |
 | failed | 0 |
-| screen-only (proven) | 4 |
-| open (left) | 72 |
+| screen-only (proven) | 8 |
+| open (left) | 60 |
 | **Missing tasks in the module** | **148** |
 
-Matches `MODULE_TRACKER.csv` (tested 58, skipped-unsafe 14, screen-only 4, open 72) and `gap_progress.tsv`.
+Matches `MODULE_TRACKER.csv` (tested 72, skipped-unsafe 8, failed 0, screen-only 8, open 60) and `gap_progress.tsv`.
+
+## Sitting 2026-11-25, fifth (batch 13)
+**Counts this sitting:** 4 tested (1 of them re-opened from written: Country Default Controls), 0 written, 0 failed, 1 screen-only (Manage Help Content, failed until 2026-11-26). One batch, asked for after the fourth sitting. Details in `BATCH_13_RESULT.md`.
+
+| Batch | Task | Status | Working min | Waiting min |
+|---|---|---|---:|---:|
+| 13 | Manage Country Default Controls | tested (was written) | 8 | 3 |
+| 13 | Set Help Options | tested (test-and-restore) | 10 | 4 |
+| 13 | Manage Help Content | screen-only (was failed: CSV exists but cannot create a new topic; PrimaryHierarchyIds rejected on insert; the page creates the hierarchy ID) | 18 | 12 |
+| 13 | Enable Click to Dial | tested (SITE test-and-restore, REST) | 7 | 0 |
+| 13 | Configure Guided Learning | tested (SITE test-and-restore, REST) | 5 | 1 |
+| | **Total** | **4 tested, 1 screen-only** | **48** | **20** |
+
+Fresh tests: 4 of 4 PASS; 4 re-tests after wording fixes, all PASS. Sign-ins: 1. Test records: country rows `AQ`, `BV`, `HM` (every default N); help flag `OracleUnivEnabled`, `HZ_ENABLE_CLICK_TO_DIAL`, `FND_GUIDED_LEARNING_ENABLED` each changed and set back (old value proven by read-back); help content tries `GAPFILL_AB_B13_HT1` to `HT10` refused and a round trip of an existing topic (no change), nothing left.
+
+What is left (60 open): a test legal entity chain (unlocks 4 written + LE financial info / balancing segments / business entities), a test worker chain (Import Worker Users, Partner Organizations, resource organizations), help content only by the page or a whole configuration package, descriptive flexfields, country-only tasks, and the other "neither" tasks.
+
+## Sitting 2026-11-25, fourth (batches 11 and 12)
+**Counts this sitting:** 10 tested (5 of them re-opened from written-unsafe under the new rule "a new prefix record nobody uses is not unsafe"), 0 written, 0 failed, 3 screen-only (proven; not counted in the limit). Sitting limit (10) reached.
+
+| Batch | Task | Status | Working min | Waiting min |
+|---|---|---|---:|---:|
+| 11 | Create Implementation Users | tested (was written) | 10 | 1 |
+| 11 | Manage Data Access for Users | tested (was written) | 8 | 1 |
+| 11 | Manage Business Unit Data Access for Users | tested (was written) | 5 | 1 |
+| 11 | Manage Reference Data Set Data Access for Users | tested (was written) | 4 | 1 |
+| 11 | Manage Search Profile Options | tested (was written; USER level) | 7 | 1 |
+| 12 | Manage Invoice Methods: Billing Extension Assignments | tested | 16 | 4 |
+| 12 | Manage Revenue Methods: Billing Extension Assignments | tested | 7 | 3 |
+| 12 | Manage ESS Job Definitions and Job Sets (FSCM) | tested | 9 | 2 |
+| 12 | Manage ESS Job Definitions and Job Sets (CRM) | tested | 4 | 2 |
+| 12 | Manage ESS Job Definitions and Job Sets (HCM) | tested | 4 | 2 |
+| | **Total** | **10 tested** | **74** | **18** |
+
+Screen-only (proven): Manage Languages, Manage Territories, Manage Time Zones (REST `languagesLOV`, `territoriesLOV`, `timezonesLOV` are get-only; plain resources 404; no FSM CSV). Reasons in `screen-only.csv`.
+
+Fresh tests: 10 of 10 PASS; 2 re-tests after wording fixes (implementation users, invoice methods), both PASS. Sign-ins: 1 (waiting time). Failed tasks: none. Network drops (DNS) hit 2 imports and 2 exports; no import was repeated (log fetched by ProcessId).
+
+Re-judged written cards that stay written (reasons in each STATUS.md): Common CRM BU Profile Options (SITE only), Map Reports to Work Areas (no delete, shows to all), Intercompany Exceptions + LE / LRU Tax Profiles + Configuration Owner Tax Options (safe way = a new test legal entity: long chain, next), Import Worker Users + Partner Organizations (safe way = a new test worker, then resource, then partner: next). Country Default Controls re-judged as safe (new row for an unused country): first task of the next sitting.
+
+Test records created: test users `GAPFILL_AB_B11_U1`, `U2F`, `U3R` (mailbox @example.com, nobody signs in; U1 and U2F got General Accountant, Buyer, Order Administrator for the grant tests); 6 data access grants on U1 / U2F (data access sets `GAPFILL_AB_B5_DAS2`, `DAS3F`; business units; reference data sets); USER search values on U1 and U2F; invoice methods `GAPFILL_AB_B12_IM2`, `IM3F`, `IM4R`; revenue methods `GAPFILL_AB_B12_RM1`, `RM2F`; LOV sources `GAPFILL_AB_B12_LOV1` to `LOV6F`. Refused, nothing created: `IM1`, 2 grant tries, 1 profile value try.
+
+What is left for the next sitting (64 open): Country Default Controls (ready), a test legal entity chain (unlocks 4 written + LE financial info / balancing segments / business entities), a test worker chain (unlocks Import Worker Users, Partner Organizations, resource organizations), help settings and help content, descriptive flexfields, country-only tasks, and the other "neither" tasks one by one.
 
 ## Sitting 2026-11-25, third (batches 09 and 10)
 **Counts this sitting:** 4 tested, 6 written (unsafe to test), 0 failed, 4 screen-only (proven; not counted in the limit). Sitting limit (10) reached.

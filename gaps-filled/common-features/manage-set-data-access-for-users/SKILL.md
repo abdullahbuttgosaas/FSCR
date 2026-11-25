@@ -1,8 +1,8 @@
 ---
 skill_id: "gosaas.gap-fills.common-features.manage-set-data-access-for-users"
-name: "Manage Reference Data Set Data Access for Users: grant a user a role for one reference data set (GoSaaS gap fill, written, not load-tested)"
-description: "Read and add reference data set data access for a user through FSCR's REST client (resource dataSecurities, SecurityContext 'Reference data set'). Read steps VERIFIED; the grant is GUESS because it is a security change for a real user. Added by GoSaaS, not part of official FSCR."
-origin: "GoSaaS gap fill, batch 10, 2026-11-25. REST reads seen live; nothing created. NOT official FSCR."
+name: "Manage Reference Data Set Data Access for Users: grant a user a role for one reference data set (GoSaaS gap fill)"
+description: "Adds and reads a reference data set data assignment (user + role + set) through the REST resource dataSecurities, context 'Reference data set', run with FSCR's REST client. Tested on a test user that nobody signs in with. Added by GoSaaS, not part of official FSCR."
+origin: "GoSaaS gap fill, batch 10 (written) and batch 11 (tested), 2026-11-25. NOT official FSCR."
 layer: "pillar"
 pillar: "ERP"
 offering: "Common Features"
@@ -11,50 +11,50 @@ task_name: "Manage Reference Data Set Data Access for Users"
 type: "rest"
 execution_mode: "hybrid"
 owner_team: "GoSaaS"
-version: "0.1.0"
-status: "written (unsafe to test on a shared environment)"
+version: "0.2.0"
+status: "tested (batch 11)"
 depends_on:
-  - "core.auth.fusion-oauth-authentication"
-  - "core.fusion-api.rest-api-client (through the GoSaaS wrapper rest_call.py)"
-  - "gosaas common-features/manage-data-access-for-users (same resource, full rules)"
+  - "gap skill manage-data-access-for-users (same resource, full rules)"
+  - "gap skill create-implementation-users (test user, Step 5 role)"
 side_effects:
-  - "Grant step: gives one user one role for one reference data set. The user then sees and changes that reference data set's data."
+  - "Adds one data assignment: USER can use ROLE for reference data set VALUE."
 ---
 
 # Manage Reference Data Set Data Access for Users (GoSaaS gap fill)
 
-> **Added by GoSaaS, not part of official FSCR.** FSCR has no skill or guide for this task and no FSM CSV route for its own task code (read-only export refused, VERIFIED 2026-11-25). The same data is reachable through the REST resource `dataSecurities` (VERIFIED: `get`, `create`, `upsert`) and through the CSV package of the sister task `ORA_FUN_MANAGE_DATA_ACCESS_FOR_USERS` (file `ORA_FUN_ALL_USER_DATA_ACCESS.csv`, column `SetName`, VERIFIED).
+> **Added by GoSaaS, not part of official FSCR.** No FSCR skill or guide; no FSM CSV route for this task code (read-only export refused, VERIFIED). The data lives in the REST resource `dataSecurities` (VERIFIED: get, create, upsert), context `Reference data set`.
 > Labels: **VERIFIED** = seen live (2026-11-25) · **GUESS** = not run live.
-> **Status: written, not load-tested.** Why: a grant gives a **real user** access to a real reference data set. The only user we could use is our own sign-in user, and granting ourselves more access is a security change on a shared environment that its security owner did not approve. Load-test only on an environment you own, with written approval.
 
 ## What it is and when to use
-Roles such as roles that maintain set-enabled reference data (for example payment terms or transaction types) work "by reference data set": the user has the role, and a data assignment says for which reference data set. This task lists and adds those assignments for the security context `Reference data set`. Read the gap skill `manage-data-access-for-users` first: it holds the full rules (placeholders, sign-in, never printing user names, CSV alternative).
+Some roles (for example Order Administrator, Cost Accountant, Product Data Steward, Customer Service Representative) are granted "by reference data set": the user has the role, and a data assignment says for which set. This task adds those assignments. **Read the gap skill `manage-data-access-for-users` first**: it holds the placeholders, call pattern, sign-in, the rules about user names, and Steps 1 to 4. This skill only fixes CTX and the value check.
 
 ## Placeholders
 ```text
-FSCR, GAPS, W, RUN, USER, ROLE = as in manage-data-access-for-users
-VALUE = the reference data set name
+FSCR, GAPS, W, RUN, USER, ROLE, ROLE_CODE = as in manage-data-access-for-users
+CTX   = Reference data set   (exactly)
+VALUE = the reference data set NAME (SetName), not its code
 ```
 
-## Step 1. Read (VERIFIED)
-`cd "<RUN>"; timeout 120 python -B "<W>" "<FSCR>" /fscmRestApi/resources/11.13.18.05/dataSecurities --query "q=SecurityContext='Reference data set'" --query onlyData=true --query fields=RoleNameCr,SecurityContextValue,ActiveFlag --no-open-browser --output ctx.json > ctx.log 2>&1`
-VERIFIED: rows with SecurityContext `Reference data set` exist (VERIFIED: 24 rows with this filter). Keep `UserName` out of `fields` when you show rows; filter on it in `q=` only for your own test user.
-Check VALUE exists: the set name must appear in the read-only export of the reference data set task, or as `SetName` in `ORA_FUN_ALL_USER_DATA_ACCESS.csv` (VERIFIED column); a REST set list was not checked (GUESS).
-
-## Step 2. Prerequisites (for a grant)
-1. USER already has ROLE; ROLE uses context `Reference data set` (`ORA_FUN_SECURITY_CONTEXT_MAPPING.csv` of the sister task's export, VERIFIED file).
-2. No row yet: `q=UserName='<USER>';RoleNameCr='<ROLE>';SecurityContext='Reference data set';SecurityContextValue='<VALUE>'` → `count 0` (GUESS for the exact filter).
-
-## Step 3. Grant (GUESS, not run)
-```json
-{"UserName":"<USER>","RoleNameCr":"<ROLE>","SecurityContext":"Reference data set","SecurityContextValue":"<VALUE>","ActiveFlag":true}
-```
-POST to `/fscmRestApi/resources/11.13.18.05/dataSecurities` with `--header "Content-Type=application/vnd.oracle.adf.resourceitem+json"` → want `HTTP 201`. Never send `Upsert-Mode`. Read back with Step 2's filter → `count 1`.
+## Steps
+1. **Sign-in and read**: Steps 1 and 2 of `manage-data-access-for-users`. Pick ROLE among rows with `SecurityContext` `Reference data set` (VERIFIED: Order Administrator = `ORA_DOO_ORDER_ADMINISTRATOR_JOB`, Cost Accountant, Product Data Steward, Customer Service Representative, Order Promising Manager, Supplier Administrator, Application Implementation Consultant).
+2. **USER has ROLE**: its Prerequisite 1 (for a test: your own test user from `create-implementation-users`, role added with its Step 5). Without the role the POST is refused (`LOV_RoleNameCr ... no matching row`, VERIFIED in the sister skill).
+3. **VALUE exists**: `/fscmRestApi/resources/11.13.18.05/setIdSetsLOV --query "q=SetName='<VALUE>'" --query onlyData=true --query fields=SetName,SetCode` → `count 1` (VERIFIED).
+4. **No row yet**: its Prerequisite 4, filtered on `Userrf` (never `UserName`, which always returns 0, VERIFIED).
+5. **Grant**: POST to `/fscmRestApi/resources/11.13.18.05/dataSecurities` with `--header "Content-Type=application/vnd.oracle.adf.resourceitem+json"` and
+   ```json
+   {"UserName":"<USER>","RoleNameCr":"<ROLE>","SecurityContext":"Reference data set","SecurityContextValue":"<VALUE>","ActiveFlag":true}
+   ```
+   Want `rc=0` and an answer with `UserRoleDataAssignmentId`, `RoleCommonName` = ROLE_CODE, your VALUE, `ActiveFlag true` (VERIFIED). `RoleNameCr` takes the display name, not the code. No `Upsert-Mode`. Dropped connection: do not POST again; wait 2 minutes and read back.
+6. **Read back**: its Step 4 (by `Userrf`, or by `UserRoleDataAssignmentId`) → your row, active (VERIFIED).
 
 ## Rules and limits
-1. Only on an environment you own, or with written approval of its security owner. Never grant access to another person's user.
+1. For tests use only your own test user, which nobody signs in with. A grant to a real user gives that person the set's reference data: only on the environment owner's written request.
 2. Never deactivate, change or delete an existing grant.
 3. Full rows hold user names: keep them in RUN only.
 
-## Worked example
-None: not load-tested (see Status). VERIFIED reads only.
+## Worked example (2026-11-25, batch 11)
+| Step | Values | Result |
+|---|---|---|
+| role | Order Administrator on test user `GAPFILL_AB_B11_U1` (create-implementation-users Step 5) | SCIM read shows `ORA_DOO_ORDER_ADMINISTRATOR_JOB` |
+| grant | `Reference data set` = `Common Set` | created (HTTP 201), read back by `Userrf`, active |
+| fresh test | see CHANGELOG.md | |

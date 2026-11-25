@@ -1,14 +1,14 @@
 task_code: ZX_MANAGE_COUNTRY_DEFAULT_CONTROLS
 task_name: Manage Country Default Controls
 module: Common Features
-status: written
+status: tested
 filled_by: AB
 date: 2026-11-25
-minutes_to_write: 4
-minutes_to_test: 0
-waiting_minutes: 1
-fresh_claude_pass: no
-route: FSM CSV (ZX_COUNTRY_DEFAULTS)
-depends_on: ZX_MANAGE_TAX_REGIMES; ZX_MANAGE_TAXES (if defaults name them)
-test_records: none (not loaded)
-notes: unsafe to test: one row per country; a row changes tax defaulting for every transaction and registration in that country (no test country exists). Export VERIFIED (52 columns, 0 rows). Build/import GUESS. Next step: load-test only on an environment we own.
+minutes_to_write: 6
+minutes_to_test: 2
+waiting_minutes: 3
+fresh_claude_pass: yes (re-test R after a wording fix)
+route: FSM CSV (ZX_COUNTRY_DEFAULTS: a NEW row for a country nobody transacts in, every default flag N); export compare read-back
+depends_on: none for the test row; ZX_MANAGE_TAX_REGIMES and ZX_MANAGE_TAXES if a real row names a default regime and tax
+test_records: AQ (100004743428300); fresh BV (100004743427417); re-test HM (100004744404860). Country rows have no name column, so no prefix is possible
+notes: Batch 13 (was written in batch 06; re-judged safe in sitting 4: a row for an unused country with every default N has no effect). Export had 0 rows. CountryCode + 4 flags N imported first try; Oracle adds RegimeTypeFlag I. Fresh test PASS; wording fixed (process log, not import.log, holds the result; StatusCode unknown is normal; retry folder names); re-test PASS. The CSV route has no delete: the 3 rows stay.
