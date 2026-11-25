@@ -1,5 +1,5 @@
 Module	Missing	Tested	Written	Open	Screen-only	% done	Last update
-Common Features	148	42	0	106	0	28.4	2026-11-24
+Common Features	148	54	8	86	0	36.5	2026-11-25
 Security	0	0	0	0	0	0.0	-
 General Ledger	155	1	0	154	0	0.6	2026-11-15
 Payables	40	0	0	40	0	0.0	-
@@ -18,4 +18,4 @@ Manufacturing	5	0	0	5	0	0.0	-
 Cost Management	30	0	0	30	0	0.0	-
 Supply Planning	6	0	0	6	0	0.0	-
 Maintenance	15	0	0	15	0	0.0	-
-All 19 modules	935	44	0	891	0	4.7	2026-11-24
+All 19 modules	935	56	8	871	0	6.0	2026-11-25

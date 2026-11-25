@@ -1,6 +1,6 @@
 # CONTEXT: full memory of the FSCR work
 
-Read this first in every session. Plain words. "unconfirmed" = not confirmed from files. "per Abdullah" = stated by Abdullah, not found in a file. Last full rewrite: 2026-11-23 on the PC (DESKTOP-TJ1S90V). Sections 8, 9, 11, 12 updated 2026-11-24 (evening, after batch 4) on the PC.
+Read this first in every session. Plain words. "unconfirmed" = not confirmed from files. "per Abdullah" = stated by Abdullah, not found in a file. Last full rewrite: 2026-11-23 on the PC (DESKTOP-TJ1S90V). Sections 8, 9, 11, 12 updated 2026-11-25 (after Common Features batches 05 to 08) on the PC.
 
 ---
 
@@ -106,7 +106,7 @@ Open: owners for HCM, Logistics and PLM; how to split the big modules (PFM, GL, 
 
 ## 8. Index rule
 
-`gaps-filled\gap_index.csv` is **built, never hand-edited**. Run `python rebuild_index.py` in `gaps-filled\`: it reads every `STATUS.md`, updates `gap_index.csv` and writes `gap_progress.tsv` (standard library only; keeps CRLF). Expected now: **935 rows, 44 tested** (44 cards, 0 failed).
+`gaps-filled\gap_index.csv` is **built, never hand-edited**. Run `python rebuild_index.py` in `gaps-filled\`: it reads every `STATUS.md`, updates `gap_index.csv` and writes `gap_progress.tsv` (standard library only; keeps CRLF). Expected now: **935 rows, 56 tested, 8 written** (64 cards, 0 failed).
 
 ## 9. What is done
 
@@ -125,6 +125,10 @@ Open: owners for HCM, Logistics and PLM; how to split the big modules (PFM, GL, 
 | batch taxfix2 | 2026-11-24 | Tax Zone Types now **tested** (who columns fix); new helper `zone_type_rows.py` | `gaps-filled\BATCH_TAXFIX2_RESULT.md` |
 | batch 4 | 2026-11-24 | **11 of 12** tested (profile options, ATK values, attachment entities, 3 fiscal classifications, note type mapping, party tax profiles, tax exceptions, location of final discharge); Tax Exemptions failed | `gaps-filled\BATCH4_PLAN.md`, `BATCH4_PART1..3_RESULT.md` |
 | batch 4 fix | 2026-11-24 | Tax Exemptions now **tested** (test customer + THIRD_PARTY tax profile by CRM REST); Party Tax Profiles Step 3 wording fixed and re-tested | `gaps-filled\BATCH4_FIX_RESULT.md` |
+| batches 05+06 | 2026-11-25 | **6 tested** (Search Legal Entities, Search Legal Reporting Units, View Accounting Configuration Summary, View Service Clients, Manage Data Access Sets, Manage Daily Rates), **4 written** (unsafe: Search / CRM BU profile options, Map Reports to Work Areas, Country Default Controls) | `gaps-filled\common-features\BATCH_05_RESULT.md`, `BATCH_06_RESULT.md` |
+| batches 07+08 | 2026-11-25 | **6 tested** (Account Hierarchy Labels, Tree Labels, Trees and Tree Versions, Account Hierarchies, Tree Structures, Ledger Document Sequences), **4 written** (unsafe: Legal Entity Tax Profiles, Configuration Owner Tax Options, Intercompany Exceptions, LRU Tax Profiles); all 49 "neither" tasks checked: none has an FSM CSV | `gaps-filled\common-features\BATCH_07_RESULT.md`, `BATCH_08_RESULT.md` |
+
+**Since 2026-11-25 (batches 05 to 08):** totals now **56 tested, 8 written (unsafe to test), 0 failed**. Common Features: 54 tested, 8 written, **86 open** of 148. Module summary and per-task list: `gaps-filled\common-features\MODULE_RESULT.md`, `MODULE_TRACKER.csv`, `my_gaps.csv` (built by `common-features\scripts\build_module_tracker.py`). New helpers: `search-legal-entities\scripts\view_record.py` (read-only export viewer), `tree_rows.py`. Records: `GAPFILL_AB_B5_..` to `GAPFILL_AB_B8_..` (see each batch result). The new STATUS cards are in the per-task folders; the table below lists only the first 44. Also made: `gaps-filled\GAP_LEVEL_COUNT.md` (b/c count per module, files only) and `fscr-main\fscr-module-test-pack\evidence\Security\SECURITY_IMPACT.md` (what each of the 6 Security tasks would change, read only; raw reads in `E:\GoSaaS\gw\secimpact`, outside repo).
 
 | Task code | Task | Module | Status | Date | Write / test / wait min |
 |---|---|---|---|---|---|
@@ -265,6 +269,10 @@ Open: owners for HCM, Logistics and PLM; how to split the big modules (PFM, GL, 
 - **Read ids live by REST** (for example `profileOptions` by `ApplicationShortName`), never from an export.
 - **Prerequisites inside one package** (for example an ATK option + its value) go in one import when the package allows it.
 - **Safe wording for reports:** "tested by a fresh Claude on ETIA-TEST, record created and read back".
+- **"Written (unsafe to test)"** is a status: a task whose load changes a shared or seeded setting (seeded profile values, a work-area link, country tax defaults, the profile Oracle makes for each legal entity / reporting unit, configuration owner options, the legal entity package) gets a skill but no load. Read steps VERIFIED, load steps GUESS. Load-test only on an environment we own, with written approval.
+- **Import log counts only the top object:** child rows can drop silently (daily rates: rule rows with `EnabledFlag=Y` are dropped; use `N`). The after-export compare is the proof.
+- **Fresh-test briefs must use their own parent** (ledger, category, etc.) when the object allows one open row per parent (FND-7020 on ledger document sequences).
+- **"Neither" tasks:** check read-only export and REST GET per task before calling one screen-only; write the result in `my_gaps.csv`.
 
 ## 12. Pending
 
@@ -280,7 +288,9 @@ Open: owners for HCM, Logistics and PLM; how to split the big modules (PFM, GL, 
 - Delete the empty folder tree `E:\e\` by hand (left by a `/e/...` path slip in batch 3 part 2; it holds no files).
 - Open tester notes (not applied, each needs a re-test if applied): see "Problems and findings" in `BATCH4_PART1..3_RESULT.md` and `BATCH4_FIX_RESULT.md`; the `manage-profile-options` Step 5 log one-liner still prints a `Submitted By` user name (Part 1 finding 6).
 - Pilot the new `PEOPLE_PROMPT.md` (one paste, all batches) with one person.
-- **Next:** batch 5, Common Features (106 open: about 57 CSV/API, 49 likely screen-only per `MODULE_ESTIMATES.tsv`).
+- Security: send the 5-line ask in `SECURITY_IMPACT.md` to the senior (audit OK, which algorithms, default owners, Risk Administrator role, `rmc_scope`).
+- Approval to load-test the 8 "written (unsafe to test)" tasks on an environment we own (or leave them written).
+- **Next:** Common Features batch 09 (86 open): REST routes found for messages (3 tasks), partner organizations, user accounts (2 tasks); then cross-validation rules (check FBDI/REST), descriptive flexfields, then the other "neither" tasks one by one (see `BATCH_08_RESULT.md`, `my_gaps.csv`).
 
 ## 13. Session commands (Claude: follow exactly when Abdullah types these words)
 
