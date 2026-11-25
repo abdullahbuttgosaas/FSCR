@@ -1,0 +1,19 @@
+TEST RESULT (own live test, 2026-11-25)
+
+New record : FOB code  GAPFILL_AB_B5_FOB1
+             "GAPFILL AB Demo FOB Point 1"
+
+Import     : ProcessId 100004744393796
+             Business object: Application Standard Lookup
+             Status: Completed successfully
+             A total of 2 rows were processed. 0 rows of them failed
+
+Read back (REST standardLookups/FOB, before vs after)
+             codes before 1, after 2
+             added   : GAPFILL_AB_B5_FOB1  (enabled Y)
+             removed : none
+             changed : none   (type row unchanged, even its
+                               LastUpdateDate)
+             READBACK: PASS
+
+Second export: type FOB + 2 codes (NONE, GAPFILL_AB_B5_FOB1)

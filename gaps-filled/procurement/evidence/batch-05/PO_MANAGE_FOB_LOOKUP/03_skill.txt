@@ -1,0 +1,16 @@
+THE SKILL (GoSaaS gap fill, not official FSCR)
+
+File: gaps-filled/procurement/manage-fob-lookup/SKILL.md
+
+  Step 1  Read-only export (FSCR task-level export)
+  Step 2  REST read of type FOB -> type row copied unchanged
+          + one new code row  ->  import ZIP (2 rows)
+  Step 3  FSCR task-level import  ->  ProcessId, "0 rows failed"
+  Step 4  Read back: REST before vs after (only the new code
+          added, nothing else changed) + second export
+
+Generic: placeholders FSCR, GAPS, RUN, PREFIX, CODE.
+No environment names, no ids from exports, no user names.
+Helpers: lookup_type_row.py, build_csv_package.py,
+         read_import_log.py, rest_call.py
+Every claim labelled VERIFIED (seen live) or GUESS.

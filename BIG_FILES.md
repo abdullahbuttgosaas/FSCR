@@ -27,3 +27,4 @@ Checked again on 2026-11-24 (PC, after batches 2-3 and the batch 1 re-test): no 
 | Backups | `*.before`, `*.before_signin_change`, `gaps-filled\gap_index_backup_2026-11-20.csv` | PC, laptop (zip) | 0.6 MB | | old copies before an edit | | Drive/USB if ever needed |
 | Python caches | `__pycache__\` | both | 6.2 MB | | compiled Python | | made again automatically |
 | Sign-in transcripts | `fscr-main\_fscr_run_17_change_impact_discovery\evidence\signin_try3.raw`, `_try4.raw`, `_try5.raw`; `fscr-main\_fscr_run_20_cross_module_subject\evidence\signin.raw` | PC, laptop (zip) | under 1 KB each | 2026-11-09 | raw sign-in output; held back to be safe (may show sign-in addresses) | runs 17, 20 | Drive/USB if needed |
+| Vercel link folder | `dashboard\.vercel\` (`project.json`, `README.txt`) | PC | under 1 KB | 2026-11-25 | links the folder to the Vercel project `fscr-gap-dashboard` | dashboard set-up | run `vercel link` in `dashboard\` and pick `fscr-gap-dashboard` |

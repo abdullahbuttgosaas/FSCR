@@ -1,0 +1,14 @@
+WHAT WAS MISSING
+
+Task       : Manage FOB Lookup  (PO_MANAGE_FOB_LOOKUP)
+Module     : Procurement  >  Procurement Foundation
+FSCR level : route only  -  Oracle has a CSV route, but FSCR has
+             no skill and no guide for this task.
+
+Source: gaps-filled/gap_index.csv (built from the FSCR scope map, Run 36)
+
+  task_code            level        status   skill
+  PO_MANAGE_FOB_LOOKUP route only   open     none
+
+Kept open for the demo since 2026-11-25 (DEMO_RESERVE.md);
+released for this run.

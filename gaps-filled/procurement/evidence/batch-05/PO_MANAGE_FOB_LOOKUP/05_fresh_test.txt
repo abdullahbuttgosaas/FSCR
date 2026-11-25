@@ -1,0 +1,19 @@
+FRESH TEST (new Claude, no context: task name + SKILL.md only)
+
+Round F  code GAPFILL_AB_B5_FOB2F
+         Network dropped before Oracle gave a ProcessId.
+         Checked by REST and a new export: nothing created.
+         Tester found a gap: the skill had no step for
+         "drop with no ProcessId".  -> wording fixed.
+
+Round R  code GAPFILL_AB_B5_FOB3R   (fresh Claude again)
+         Import ProcessId 100004744397138
+         Status: Completed successfully
+         A total of 2 rows were processed. 0 rows of them failed
+         REST read back: codes 2 -> 3, added GAPFILL_AB_B5_FOB3R,
+                         removed none, changed none
+         Export compare: codes added 1, removed 0, changed 0
+         RESULT: PASS  (no wrong sentence found)
+
+Checked again by me (REST): type FOB unchanged,
+GAPFILL_AB_B5_FOB1 and GAPFILL_AB_B5_FOB3R enabled.

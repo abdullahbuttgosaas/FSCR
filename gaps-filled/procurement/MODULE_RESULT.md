@@ -3,6 +3,41 @@
 ## Cumulative counts (all sittings)
 | Status | Count |
 |---|---|
+| tested | 14 |
+| written (fresh test pending) | 0 |
+| written (unsafe to test) | 4 |
+| failed | 0 |
+| screen-only | 2 |
+| open (1 of them reserved for the live demo: Freight Terms) | 6 |
+| **Total missing tasks** | **26** |
+
+---
+
+## Sitting 3: 2026-11-25 night (AB with Claude, PC): demo task Manage FOB Lookup
+
+Only task: **Manage FOB Lookup** (`PO_MANAGE_FOB_LOOKUP`), released from the demo reserve and filled for the demo (batch 05, size 1, sitting limit 1). Freight Terms stays reserved.
+
+### Counts this sitting
+tested 1 · written-unsafe 0 · failed 0 · screen-only 0 · left 6 (incl. 1 demo reserve)
+
+### Per task
+| Task | Status | Write / test / wait min | Records (new) |
+|---|---|---|---|
+| Manage FOB Lookup | tested | 4 / 12 / 5 | GAPFILL_AB_B5_FOB1 (100004744393796); fresh F GAPFILL_AB_B5_FOB2F not created (network drop, no ProcessId); re-test GAPFILL_AB_B5_FOB3R (100004744397138) |
+
+Total this sitting: working 16 minutes, waiting 5 minutes (incl. sign-in). Details: `BATCH_05_RESULT.md`.
+
+### Failed tasks
+None.
+
+### Next sitting
+1. Approval tasks (4) and task configurations: read approval participants (read-only), then decide disabled-rule test vs unsafe.
+2. Freight Terms lookup stays reserved for the demo.
+
+### Test records created
+GAPFILL_AB_B5_FOB1, GAPFILL_AB_B5_FOB3R (FOB codes, new; nothing existing changed).
+
+---|---|
 | tested | 13 |
 | written (fresh test pending) | 0 |
 | written (unsafe to test) | 4 |

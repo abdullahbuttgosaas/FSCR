@@ -1,0 +1,8 @@
+update.py
+README.md
+screenshots
+__pycache__
+.env*
+.vercel
+.gitignore
+UPDATE_STEPS.md

@@ -1,10 +1,12 @@
 # Procurement: demo reserve (2 tasks kept open for a live demo)
 
+> **Update 2026-11-25 (sitting 3): Manage FOB Lookup (`PO_MANAGE_FOB_LOOKUP`) was released by AB and filled for the demo.** Status tested: own record `GAPFILL_AB_B5_FOB1` (ProcessId 100004744393796), re-test `GAPFILL_AB_B5_FOB3R` (100004744397138). Skill `manage-fob-lookup/SKILL.md`, evidence `evidence/batch-05/PO_MANAGE_FOB_LOOKUP/`, report `BATCH_05_RESULT.md`. **Manage Freight Terms Lookup stays reserved and untouched.**
+
 Picked 2026-11-25 by AB with Claude, before any Procurement task was filled. These 2 tasks are **not filled, loaded or tested in any sitting**. Their status stays `open`, reason "reserved for live demo".
 
 | Task code | Task name | Why it was picked | Where the record shows in Fusion |
 |---|---|---|---|
-| PO_MANAGE_FOB_LOOKUP | Manage FOB Lookup | Easiest task in the module: one new lookup code (for example `GAPFILL_AB_DEMO_FOB`) on the seeded, extensible lookup type `FOB` ("Valid FOB Codes"). Known route: the standard lookup FSM CSV package (same 3 files as `common-features/manage-standard-lookups`). No prerequisite. Stand-alone: nothing else uses a new code. | Setup and Maintenance > Procurement > Procurement Foundation > **Manage FOB Lookup** (search type FOB, the new code is in the list). Also the **FOB** list on a purchase order's Terms. |
+| PO_MANAGE_FOB_LOOKUP | Manage FOB Lookup (**filled for the demo**, 2026-11-25, tested) | Easiest task in the module: one new lookup code (for example `GAPFILL_AB_DEMO_FOB`) on the seeded, extensible lookup type `FOB` ("Valid FOB Codes"). Known route: the standard lookup FSM CSV package (same 3 files as `common-features/manage-standard-lookups`). No prerequisite. Stand-alone: nothing else uses a new code. | Setup and Maintenance > Procurement > Procurement Foundation > **Manage FOB Lookup** (search type FOB, the new code is in the list). Also the **FOB** list on a purchase order's Terms. |
 | PO_MANAGE_FREIGHT_TERM_LOOKUP | Manage Freight Terms Lookup | Same pattern as FOB: one new lookup code on the seeded, extensible type `FREIGHT TERMS` ("Valid Freight Terms"). Same package, no prerequisite, stand-alone. | Setup and Maintenance > Procurement > Procurement Foundation > **Manage Freight Terms Lookup**. Also the **Freight Terms** list on a purchase order's Terms. |
 
 ## Read-only checks done (no load)

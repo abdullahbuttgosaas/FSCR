@@ -1,0 +1,18 @@
+HOW IT WAS FOUND (read only, nothing changed)
+
+1) FSCR read-only export of PO_MANAGE_FOB_LOOKUP
+   Files in the ZIP:
+     ASM_SETUP_CSV_METADATA.xml            scope: lookup type FOB
+     FND_APP_STANDARD_LOOKUP.csv           0 rows (header only)
+     ORA_FND_APP_STANDARD_LOOKUP_CODE.csv  0 rows (header only)
+
+2) REST read: standardLookups/FOB
+     LookupType          FOB
+     Meaning             Valid FOB Codes
+     CustomizationLevel  E   (extensible: new codes allowed)
+     Codes               1   (NONE)
+
+Finding: the export is empty, so a load must carry the seeded
+type row UNCHANGED (taken from the REST read) plus the new code.
+Same pattern already tested in this module (Contract Clause Types).
+Prerequisites: none.
