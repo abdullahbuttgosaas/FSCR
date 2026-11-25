@@ -1,14 +1,14 @@
 task_code: ZX_MANAGE_CONFIGURATION_OWNER_TAX_OPTIONS
 task_name: Manage Configuration Owner Tax Options
 module: Common Features
-status: written
+status: tested
 filled_by: AB
-date: 2026-11-25
-minutes_to_write: 3
-minutes_to_test: 0
-waiting_minutes: 1
-fresh_claude_pass: not run
-route: FSM CSV (ZX_CONFIGURATION_OWNER_TAX_OPTIONS); export VERIFIED, import GUESS
-depends_on: a real business unit or legal entity (owner); ZX_MANAGE_TAX_DETERMINING_FACTOR_SETS if a factor set is named
-test_records: none
-notes: Batch 08. unsafe to test: each row sets tax options of a real business unit or legal entity for one application event class (there is no test owner); a new row changes tax handling of that owner's real transactions. Export VERIFIED (4 rows); build/import GUESS. Next step: load-test only on an environment we own, with written approval. Re-judged 2026-11-25 (sitting 4, new unsafe rule): each row sets options of a real business unit or legal entity; a NEW test legal entity with prefix name (with its own main reporting unit and tax profiles) would make this safe; that is a long chain through the legal entity package (party, address, registration), planned as the next step for a later sitting.
+date: 2026-11-26
+minutes_to_write: 5
+minutes_to_test: 5
+waiting_minutes: 3
+fresh_claude_pass: yes
+route: FSM CSV (ZX_CONFIGURATION_OWNER_TAX_OPTIONS): new row
+depends_on: a legal entity as owner (test: test-legal-entity skill)
+test_records: AP / STANDARD INVOICES row for GAPFILL_AB_B14_LE1 (100004743430482); fresh LE2F (100004743430917); re-test LE3R (100004744416273)
+notes: Batch 14 (sitting 6). Re-opened from written (unsafe): a new row for a NEW test legal entity as owner changes no real owner. PartyTypeCode FIRST_PARTY, DetFactorTemplCode TAXREGIME, who columns empty. Own test PASS (4 -> 5 rows). Fresh test PASS on LE2F, wording fixed, re-test PASS on LE3R (2 path/quote fixes after it).

@@ -1,14 +1,14 @@
 task_code: ZX_MANAGE_LEGAL_ENTITY_TAX_PROFILES
 task_name: Manage Legal Entity Tax Profiles
 module: Common Features
-status: written
+status: tested
 filled_by: AB
-date: 2026-11-25
-minutes_to_write: 4
-minutes_to_test: 0
-waiting_minutes: 1
-fresh_claude_pass: not run
-route: FSM CSV (ZX_LEGAL_ENTITY_TAX_PROFILE); export VERIFIED, import GUESS
-depends_on: an existing legal entity (its profile is created with it)
-test_records: none
-notes: Batch 08. unsafe to test: Oracle creates one tax profile with each legal entity (67 entities, 67 profile rows), so every load updates an existing profile and changes tax on that legal entity's real transactions. Export and read steps VERIFIED; change/import/read-back GUESS. Next step: load-test only on an environment we own, with written approval. Re-judged 2026-11-25 (sitting 4, new unsafe rule): every existing profile belongs to a real legal entity; a NEW test legal entity with prefix name (with its own main reporting unit and tax profiles) would make this safe; that is a long chain through the legal entity package (party, address, registration), planned as the next step for a later sitting.
+date: 2026-11-26
+minutes_to_write: 5
+minutes_to_test: 6
+waiting_minutes: 4
+fresh_claude_pass: yes
+route: FSM CSV (ZX_LEGAL_ENTITY_TAX_PROFILE): update own row
+depends_on: a legal entity (test: test-legal-entity skill)
+test_records: GAPFILL_AB_B14_LE1 profile (100004743430357); fresh GAPFILL_AB_B14_LE2F (100004744413207); re-test GAPFILL_AB_B14_LE3R (100004743435628)
+notes: Batch 14 (sitting 6). Re-opened from written (unsafe): a NEW test legal entity (prefix name) gets its own tax profile, so updating that one row changes no real entity. New prerequisite skill test-legal-entity and helpers scripts/own_row_package.py + compare_own_update.py. Own test PASS (RoundingRuleCode NEAREST, RoundingLevelCode LINE; other rows changed 0). Fresh test PASS on GAPFILL_AB_B14_LE2F, wording fixed, re-test PASS on GAPFILL_AB_B14_LE3R.

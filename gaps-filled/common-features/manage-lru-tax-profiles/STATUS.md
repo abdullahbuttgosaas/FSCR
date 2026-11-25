@@ -1,14 +1,14 @@
 task_code: ZX_MANAGE_LEGAL_REPORTING_UNIT_TAX_PROFILES
 task_name: Manage Legal Reporting Unit Tax Profiles
 module: Common Features
-status: written
+status: tested
 filled_by: AB
-date: 2026-11-25
-minutes_to_write: 3
-minutes_to_test: 0
-waiting_minutes: 1
-fresh_claude_pass: not run
-route: FSM CSV (ZX_ESTABLISHMENT_TAX_PROFILE + fiscal classification files); export VERIFIED, import GUESS
-depends_on: an existing legal reporting unit (its profile is created with it); fiscal classification skills for codes
-test_records: none
-notes: Batch 08. unsafe to test: one profile per existing reporting unit (67 rows); every load updates an existing profile and changes tax and tax reporting of that unit. Export VERIFIED (about 70 files); import GUESS. Next step: load-test only on an environment we own, with written approval. Re-judged 2026-11-25 (sitting 4, new unsafe rule): every existing profile belongs to a real reporting unit; a NEW test legal entity with prefix name (with its own main reporting unit and tax profiles) would make this safe; that is a long chain through the legal entity package (party, address, registration), planned as the next step for a later sitting.
+date: 2026-11-26
+minutes_to_write: 5
+minutes_to_test: 5
+waiting_minutes: 4
+fresh_claude_pass: yes
+route: FSM CSV (ZX_ESTABLISHMENT_TAX_PROFILE, 73-file package): update own row
+depends_on: a reporting unit (test: main unit of a test legal entity)
+test_records: GAPFILL_AB_B14_LE1 unit profile (100004744411602); fresh GAPFILL_AB_B14_LE2F (100004743432165); re-test GAPFILL_AB_B14_LE3R (100004744416787)
+notes: Batch 14 (sitting 6). Re-opened from written (unsafe): the test legal entity's main reporting unit has its own profile. Own row package, other 72 files header only. Own test PASS (other rows changed 0). Fresh test PASS on LE2F, wording fixed, re-test PASS on LE3R.

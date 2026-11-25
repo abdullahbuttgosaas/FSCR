@@ -2,17 +2,40 @@
 
 GoSaaS work, not official FSCR. Newest sitting first. The cards (`*/STATUS.md`) are the truth; `MODULE_TRACKER.csv` shows them.
 
-## Cumulative counts (all sittings, after the fifth 2026-11-25 sitting)
+## Cumulative counts (all sittings, after the sixth sitting 2026-11-26)
 | Status | Count |
 |---|---:|
-| tested | 72 |
-| written (unsafe to test) | 8 |
-| failed | 0 |
+| tested | 81 |
+| written (unsafe to test) | 5 |
+| failed | 1 |
 | screen-only (proven) | 8 |
-| open (left) | 60 |
+| open (left) | 53 |
 | **Missing tasks in the module** | **148** |
 
-Matches `MODULE_TRACKER.csv` (tested 72, skipped-unsafe 8, failed 0, screen-only 8, open 60) and `gap_progress.tsv`.
+Matches `MODULE_TRACKER.csv` (tested 81, skipped-unsafe 5, failed 1, screen-only 8, open 53) and `gap_progress.tsv` (which counts the failed task under Open: 54).
+
+## Sitting 2026-11-26, sixth (batches 14 and 15)
+**Counts this sitting:** 9 tested (3 of them re-opened from written-unsafe: Legal Entity Tax Profiles, Legal Reporting Unit Tax Profiles, Configuration Owner Tax Options), 0 written, 1 failed (Manage Application Tax Options), 0 screen-only. Sitting limit (10) reached. Details in `BATCH_14_RESULT.md` and `BATCH_15_RESULT.md`.
+
+| Batch | Task | Status | Working min | Waiting min |
+|---|---|---|---:|---:|
+| 14 | Manage Legal Entity Tax Profiles | tested (was written, unsafe) | 11 | 4 |
+| 14 | Manage Legal Reporting Unit Tax Profiles | tested (was written, unsafe) | 10 | 4 |
+| 14 | Manage Configuration Owner Tax Options | tested (was written, unsafe) | 10 | 3 |
+| 14 | Manage Legal Entity Financial Information | tested | 13 | 5 |
+| 14 | Manage Legal Reporting Unit Financial Information | tested | 10 | 4 |
+| 15 | Manage Associated Business Entities | tested | 19 | 6 |
+| 15 | Manage Application Tax Options | failed (row not tied to the named business unit; proof by refused re-send was not valid) | 16 | 7 |
+| 15 | Manage Set Assignments for Set Determinant Type | tested | 13 | 5 |
+| 15 | Manage Segment Value Security Rules | tested | 10 | 3 |
+| 15 | Manage Chart of Accounts Configurations | tested | 9 | 3 |
+| | **Total** | **9 tested, 1 failed** | **121** | **44** |
+
+Fresh tests: 9 of 10 PASS (application tax options FAIL); 9 re-tests after wording fixes, all PASS; prerequisite skills test-legal-entity and test-business-unit fresh and re-tested PASS. Sign-ins: 3 (renewals). New helpers: `scripts/own_row_package.py`, `scripts/compare_own_update.py`.
+
+Test records created: test legal entities `GAPFILL_AB_B14_LE1`, `LE2F`, `LE3R` (each with its own main reporting unit and tax profiles; tax profiles, owner AP row and ActivityCode changed only on these); test business units `GAPFILL_AB_B15_BU1`, `BU2F`, `BU3`, `BU4F`, `BU5R`; associations LE1→BU3, LE2F→BU4F, LE3R→BU5R; reference data sets `GAPFILL_AB_B15_SET1`, `SET2F`, `SET3R` with SET assignments `PJF_RATES`→`COMMON`; secured value sets `GAPFILL_AB_B15_SVS1`, `SVS2F`, `SVS3R` (value `T1`); policies `GAPFILL_AB_B15_SVP1`, `SVP2F`, `SVP3R` (role General Accountant on SVS1). **Possible leftover:** one AP application tax options row from the first load (ProcessId 100004744413261) whose business unit Oracle may not have resolved; it cannot be seen by export or REST. AB to check on the page.
+
+What is left (53 open + 5 written + 1 failed): application tax options (find the business unit column, check the page), Intercompany Exceptions and Associated Balancing Segments (need a test ledger), a test worker chain (Import Worker Users, Partner Organizations, resource organizations), descriptive flexfields, country-only tasks, and the other "neither" tasks.
 
 ## Sitting 2026-11-25, fifth (batch 13)
 **Counts this sitting:** 4 tested (1 of them re-opened from written: Country Default Controls), 0 written, 0 failed, 1 screen-only (Manage Help Content, failed until 2026-11-26). One batch, asked for after the fourth sitting. Details in `BATCH_13_RESULT.md`.
