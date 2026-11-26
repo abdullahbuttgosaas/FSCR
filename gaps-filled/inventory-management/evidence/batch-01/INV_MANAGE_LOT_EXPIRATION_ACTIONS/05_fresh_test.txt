@@ -1,0 +1,27 @@
+Fresh sub-agent tests (given only the task name, the SKILL.md path, FSCR root, prefix, record name, run folder and approval).
+
+Fresh test F: record FSCRT_HF_GF_LEA1F, ProcessId 100004744433492
+  IMPORT RESULT: OK (0 failed objects)
+  INV_LOT_EXPIRATION_ACTIONS.csv: before 5, after 6, FSCRT_HF_GF_ rows added 1 ['FSCRT_HF_GF_LEA1F'], existing changed or missing 0
+  RESULT: PASS (only prefix rows added, existing changed 0)
+  Read back by Claude (export compare above). Result: PASS
+
+Fresh test R: record FSCRT_HF_GF_LEA1R, ProcessId 100004744436085
+  IMPORT RESULT: OK (0 failed objects)
+  INV_LOT_EXPIRATION_ACTIONS.csv: before 6, after 7, FSCRT_HF_GF_ rows added 1 ['FSCRT_HF_GF_LEA1R'], existing changed or missing 0
+  RESULT: PASS (only prefix rows added, existing changed 0)
+  Read back by Claude (export compare above). Result: PASS
+
+Fresh test R2: record FSCRT_HF_GF_LEA2R, ProcessId 100004743456900
+  IMPORT RESULT: OK (0 failed objects)
+  INV_LOT_EXPIRATION_ACTIONS.csv: before 7, after 8, FSCRT_HF_GF_ rows added 1 ['FSCRT_HF_GF_LEA2R'], existing changed or missing 0
+  RESULT: PASS (only prefix rows added, existing changed 0)
+  Read back by Claude (export compare above). Result: PASS
+
+Fresh test R3: record FSCRT_HF_GF_LEA3R, ProcessId 100004743457232
+  IMPORT RESULT: OK (0 failed objects)
+  INV_LOT_EXPIRATION_ACTIONS.csv: before 8, after 9, FSCRT_HF_GF_ rows added 1 ['FSCRT_HF_GF_LEA3R'], existing changed or missing 0
+  RESULT: PASS (only prefix rows added, existing changed 0)
+  Read back by Claude (export compare above). Result: PASS
+
+Wording fixes between runs: see CHANGELOG.md. The last run reported no wrong sentence.

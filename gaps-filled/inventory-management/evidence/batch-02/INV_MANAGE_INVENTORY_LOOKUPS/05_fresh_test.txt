@@ -1,0 +1,17 @@
+Fresh sub-agent tests (given only the task name, the SKILL.md path, FSCR root, prefix, record name, run folder and approval).
+
+Fresh test F: record FSCRT_HF_GF_LK1F, ProcessId 100004744435460
+  IMPORT RESULT: OK (0 failed objects)
+  FND_APP_STANDARD_LOOKUP.csv: before 14, after 15, FSCRT_HF_GF_ rows added 1 ['FSCRT_HF_GF_LK1F'], existing changed or missing 0
+  ORA_FND_APP_STANDARD_LOOKUP_CODE.csv: before 27, after 28, FSCRT_HF_GF_ rows added 1 ['FSCRT_HF_GF_C1F', 'FSCRT_HF_GF_LK1F'], existing changed or missing 0
+  RESULT: PASS (only prefix rows added, existing changed 0)
+  Read back by Claude (export compare above, REST LIKE query lists the record). Result: PASS
+
+Fresh test R: record FSCRT_HF_GF_LK1R, ProcessId 100004744435537
+  IMPORT RESULT: OK (0 failed objects)
+  FND_APP_STANDARD_LOOKUP.csv: before 15, after 16, FSCRT_HF_GF_ rows added 1 ['FSCRT_HF_GF_LK1R'], existing changed or missing 0
+  ORA_FND_APP_STANDARD_LOOKUP_CODE.csv: before 28, after 29, FSCRT_HF_GF_ rows added 1 ['FSCRT_HF_GF_C1R', 'FSCRT_HF_GF_LK1R'], existing changed or missing 0
+  RESULT: PASS (only prefix rows added, existing changed 0)
+  Read back by Claude (export compare above, REST LIKE query lists the record). Result: PASS
+
+Wording fixes between runs: see CHANGELOG.md. The last run reported no wrong sentence.

@@ -1,0 +1,41 @@
+task_code,task_name,level,status,skill_written,tested,reason_or_next_step,test_records,working_minutes,date
+AP_MANAGE_INVOICE_HOLDS_AND_RELEASES,Manage Invoice Holds and Releases,route only,tested,Y,Y,,FSCRT_AK_GF_HLD1; FSCRT_AK_GF_HLD1F; FSCRT_AK_GF_HLD1R,9,2026-11-25
+AP_MANAGE_INVOICE_TOLERANCES,Manage Invoice Tolerances,route only,tested,Y,Y,,FSCRT_AK_GF_TOL1; FSCRT_AK_GF_TOL1F; FSCRT_AK_GF_TOL1R,7,2026-11-25
+AP_MANAGE_AGING_PERIODS,Manage Aging Periods,route only,tested,Y,Y,,FSCRT_AK_GF_AGE1; FSCRT_AK_GF_AGE1F,7,2026-11-25
+AP_MANAGE_PAYABLES_LOOKUPS,Manage Payables Lookups,route only,tested,Y,Y,,FSCRT_AK_GF_PG1; FSCRT_AK_GF_PG1F,12,2026-11-25
+IBY_MANAGE_LOOKUPS:_DISBURSEMENTS,Manage Disbursement Lookups,route only,tested,Y,Y,,FSCRT_AK_GF_BCB1; FSCRT_AK_GF_BCB1F; FSCRT_AK_GF_BCB1R,11,2026-11-25
+IBY_MANAGE_LOOKUPS:_EXTERNAL_CONNECTIVITY,Manage Payment System Connectivity Lookups,route only,tested,Y,Y,,FSCRT_AK_GF_SCT1; FSCRT_AK_GF_SCT1F,7,2026-11-25
+IBY_MANAGE_PAYMENT_CODES,Manage Payment Codes,route only,tested,Y,Y,,FSCRT_AK_GF_PR1; FSCRT_AK_GF_PR1F,8,2026-11-25
+AP_MANAGE_TAX_REGIONS,Manage Tax Regions,route only,tested,Y,Y,,FSCRT_AK_1; FSCRT_AK_F,8,2026-11-25
+IBY_MANAGE_PAYMENT_METHODS,Manage Payment Methods,route only,tested,Y,Y,,FSCRT_AK_GF_PM1; FSCRT_AK_GF_PM1F,9,2026-11-25
+IBY_MANAGE_PAYMENT_SYSTEMS,Manage Payment Systems,route only,failed,Y,N,"create refused with FND_CMN_CMPLT_FLDS ""You must complete the required fields"" even for an exact round trip of a working screen-created payment system (ProcessId 100004743428187), so the export lacks a field the import requires; next step: try a 10-character Suffix (FSCRT_AK_2), then compare with the task's CSV template export for mandatory attributes",none created (FSCRT_AK_GF_PS1 refused in every try; export after shows added 0),10,2026-11-25
+IBY_MANAGE_CODE_MAP_GROUPS,Manage Code Map Groups,route only,open,N,N,not started; planned order 11 (easy),,,
+AP_MANAGE_PAYABLES_DOCUMENT_SEQUENCES,Manage Payables Document Sequences,route only,open,N,N,not started; planned order 12 (medium),,,
+AP_MANAGE_INTEREST_RATES,Manage Interest Rates,route only,open,N,N,not started; planned order 13 (medium),,,
+IBY_MANAGE_TRANSMISSION_CONFIGURATIONS,Manage Transmission Configurations,route only,open,N,N,not started; planned order 14 (medium),,,
+IBY_MANAGE_FORMATS,Manage Formats,route only,open,N,N,not started; planned order 15 (medium),,,
+AP_MANAGE_DISTRIBUTION_SETS,Manage Distribution Sets,route only,open,N,N,not started; planned order 16 (medium),,,
+AP_MANAGE_PAYABLES_DESCRIPTIVE_FLEXFIELDS,Manage Payables Descriptive Flexfields,route only,open,N,N,not started; planned order 17 (medium),,,
+IBY_MANAGE_FLEXFIELDS:_DISBURSEMENTS,Manage Disbursement Flexfields,route only,open,N,N,not started; planned order 18 (medium),,,
+IBY_MANAGE_FLEXFIELDS:_EXTERNAL_CONNECTIVITY,Manage Payment System Connectivity Flexfields,route only,open,N,N,not started; planned order 19 (medium),,,
+AP_MANAGE_PAYABLES_PROFILE_OPTIONS,Manage Payables Profile Options,route only,open,N,N,not started; planned order 20 (medium),,,
+ORA_MANAGE_PAYABLES_QUEUE_DEFINITIONS,Manage User-Defined Rules for Payables,route only,open,N,N,not started; planned order 21 (medium),,,
+ORA_IBY_MANAGE_USER_DEFINED_RULES_FOR_EMP_BANK_ACCT_APPROVALS,Manage User-Defined Rules for Employee Bank Account Approvals,route only,open,N,N,not started; planned order 22 (medium),,,
+IBY_MANAGE_PAYMENT_METHOD_DEFAULTING_RULES,Manage Payment Method Defaulting Rules,route only,open,N,N,not started; planned order 23 (medium),,,
+AP_MANAGE_REPORTING_ENTITIES,Manage Reporting Entities,route only,open,N,N,not started; planned order 24 (medium),,,
+ORA_AP_MANAGE_PAYMENT_PROCESS_REQUEST_TEMPLATE,Create Payment Process Request Templates,route only,open,N,N,not started; planned order 25 (hard),,,
+IBY_MANAGE_PAYMENT_PROCESS_PROFILES,Manage Payment Process Profiles,route only,open,N,N,not started; planned order 26 (hard),,,
+ORA_IBY_MANAGE_VIRTUAL_CARD_PROGRAMS,Manage Virtual Card Programs,route only,open,N,N,not started; planned order 27 (hard),,,
+AP_MANAGE_TAX_CODES,Manage Tax Codes,route only,open,N,N,not started; planned order 28 (hard),,,
+AP_MANAGE_WITHHOLDING_GROUPS,Manage Withholding Tax Classifications,route only,open,N,N,not started; planned order 29 (hard),,,
+AP_MANAGE_WITHHOLDING_CERTIFICATES,Manage Withholding Certificates,route only,open,N,N,not started; planned order 30 (hard),,,
+AP_MANAGE_TAX_REPORTING_AND_WITHHOLDING_TAX_OPTIONS,Manage Tax Reporting and Withholding Tax Options,route only,open,N,N,not started; planned order 31 (hard),,,
+ORA_MANAGE_INTELLIGENT_DOCUMENT_RECOGNITION_OPTIONS,Manage Intelligent Document Recognition Options,route only,open,N,N,not started; planned order 32 (hard),,,
+IBY_MANAGE_DISBURSEMENT_SYSTEM_OPTIONS,Manage Disbursement System Options,route only,open,N,N,not started; planned order 33 (hard),,,
+IBY_MANAGE_SYSTEM_SECURITY_OPTIONS,Manage System Security Options,neither,screen-only,N,N,live FSM task flags CSVExportImportSupportedFlag N and ExportImportSupportedFlag N (2026-11-25); FSCR read-only export refuses the task; no REST resource in Oracle's Financials REST endpoint list and GET paymentSystemSecurityOptions/systemSecurityOptions returned 404,,,2026-11-25
+IBY_INTEGRATE_EXTERNAL_PAYMENT_SYSTEMS,Integrate External Payment Systems,neither,screen-only,N,N,live FSM task flags CSVExportImportSupportedFlag N and ExportImportSupportedFlag N (2026-11-25); FSCR read-only export refuses the task; no REST resource in Oracle's Financials REST endpoint list and GET paymentSystems/externalPaymentSystems returned 404,,,2026-11-25
+IBY_MANAGE_BI_PUBLISHER_TEMPLATES,Manage BI Publisher Templates,neither,screen-only,N,N,"live FSM task flags CSVExportImportSupportedFlag N and ExportImportSupportedFlag N (2026-11-25); FSCR read-only export refuses the task; no REST resource in Oracle's Financials REST endpoint list and GET biPublisherTemplates/paymentFormatTemplates (templates live in the BI Publisher catalog, not in Fusion setup data) returned 404",,,2026-11-25
+IBY_VIEW_VALIDATIONS,View Validations,neither,screen-only,N,N,live FSM task flags CSVExportImportSupportedFlag N and ExportImportSupportedFlag N (2026-11-25); FSCR read-only export refuses the task; no REST resource in Oracle's Financials REST endpoint list and GET paymentValidations/disbursementValidations/validations (view-only task) returned 404,,,2026-11-25
+AP_DEFINE_AUTOMATED_INVOICE_PROCESSING_CONFIGURATION,Define Automated Invoice Processing Configuration,neither,screen-only,N,N,live FSM task flags CSVExportImportSupportedFlag N and ExportImportSupportedFlag N (2026-11-25); FSCR read-only export refuses the task; no REST resource in Oracle's Financials REST endpoint list and GET automatedInvoiceProcessingConfigurations/payablesInvoiceProcessingConfigurations returned 404,,,2026-11-25
+ORA_MANAGE_PAYABLES_WORKFLOW_RULES,Manage Payables Workflow Rules,neither,screen-only,N,N,live FSM task flags CSVExportImportSupportedFlag N and ExportImportSupportedFlag N (2026-11-25); FSCR read-only export refuses the task; no REST resource in Oracle's Financials REST endpoint list and GET payablesWorkflowRules/payablesApprovalRules/invoiceApprovalRules (rules live in BPM Worklist) returned 404,,,2026-11-25
+IBY_GRANT_PAYMENT_FUNCTION_ACCESS,Grant Payment Function Access,neither,screen-only,N,N,live FSM task flags CSVExportImportSupportedFlag N and ExportImportSupportedFlag N (2026-11-25); FSCR read-only export refuses the task; no REST resource in Oracle's Financials REST endpoint list and GET paymentFunctionAccess/paymentFunctionAccesses (security role and data access setup) returned 404,,,2026-11-25

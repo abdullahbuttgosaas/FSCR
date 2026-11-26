@@ -1,0 +1,5 @@
+Manage Order Attachment Categories (DOO_MANAGE_ORCHESTRATION_ATTACHMENT_CATEGORIES) - 03_skill
+
+gaps-filled/order-management/order-attachment-categories/SKILL.md written: placeholders, notes, sign-in, prerequisites, export, build rows, import, read back, rules, worked example. Route: FSM CSV (task-level export/import).
+
+Source: gaps-filled//order-attachment-categories

@@ -1,0 +1,31 @@
+Fresh sub-agent tests (given only the task name, the SKILL.md path, FSCR root, prefix, record name, run folder and approval).
+
+Fresh test F: record FSCRT_HF_GF_RSR1F, ProcessId 100004744434457
+  IMPORT RESULT: OK (0 failed objects)
+  WSH_PICK_SEQUENCE_RULE.csv: before 9, after 10, FSCRT_HF_GF_ rows added 1 ['FSCRT_HF_GF_RSR1F'], existing changed or missing 0
+  WSH_PICK_SEQUENCE_RULE_TRANSLATION.csv: before 9, after 10, FSCRT_HF_GF_ rows added 1 ['FSCRT_HF_GF_RSR1F'], existing changed or missing 0
+  RESULT: PASS (only prefix rows added, existing changed 0)
+  Read back by Claude (export compare above). Result: PASS
+
+Fresh test R: record FSCRT_HF_GF_RSR1R, ProcessId 100004744433597
+  IMPORT RESULT: OK (0 failed objects)
+  WSH_PICK_SEQUENCE_RULE.csv: before 10, after 11, FSCRT_HF_GF_ rows added 1 ['FSCRT_HF_GF_RSR1R'], existing changed or missing 0
+  WSH_PICK_SEQUENCE_RULE_TRANSLATION.csv: before 10, after 11, FSCRT_HF_GF_ rows added 1 ['FSCRT_HF_GF_RSR1R'], existing changed or missing 0
+  RESULT: PASS (only prefix rows added, existing changed 0)
+  Read back by Claude (export compare above). Result: PASS
+
+Fresh test R2: record FSCRT_HF_GF_RSR2R, ProcessId 100004744436226
+  IMPORT RESULT: OK (0 failed objects)
+  WSH_PICK_SEQUENCE_RULE.csv: before 11, after 12, FSCRT_HF_GF_ rows added 1 ['FSCRT_HF_GF_RSR2R'], existing changed or missing 0
+  WSH_PICK_SEQUENCE_RULE_TRANSLATION.csv: before 11, after 12, FSCRT_HF_GF_ rows added 1 ['FSCRT_HF_GF_RSR2R'], existing changed or missing 0
+  RESULT: PASS (only prefix rows added, existing changed 0)
+  Read back by Claude (export compare above). Result: PASS
+
+Fresh test R3: record FSCRT_HF_GF_RSR3R, ProcessId 100004744435524
+  IMPORT RESULT: OK (0 failed objects)
+  WSH_PICK_SEQUENCE_RULE.csv: before 12, after 13, FSCRT_HF_GF_ rows added 1 ['FSCRT_HF_GF_RSR3R'], existing changed or missing 0
+  WSH_PICK_SEQUENCE_RULE_TRANSLATION.csv: before 12, after 13, FSCRT_HF_GF_ rows added 1 ['FSCRT_HF_GF_RSR3R'], existing changed or missing 0
+  RESULT: PASS (only prefix rows added, existing changed 0)
+  Read back by Claude (export compare above). Result: PASS
+
+Wording fixes between runs: see CHANGELOG.md. The last run reported no wrong sentence.

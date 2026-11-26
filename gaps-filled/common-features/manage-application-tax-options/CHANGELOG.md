@@ -1,3 +1,6 @@
 # CHANGELOG: manage-application-tax-options (GoSaaS gap fill)
 
+- 2026-11-26, final check (AB with Claude, read only, no Oracle call): the package's 34 columns hold no business unit ID or other business unit column (only Name, already tried 3 ways); so no ID load was possible. Status failed -> screen-only, listed in screen-only.csv. The stray Payables row is not visible on the page (AB checked): no cleanup possible, low risk. Skill kept as a guide only (v0.1.2).
+- 2026-11-26, read-only check (AB with Claude): the import error lines name the key 'Row Identifier: 200, .' (Payables, empty business unit). One row is left from the first load (ProcessId 100004744413261): Payables application tax options with NO business unit. It cannot be fixed or removed by CSV; remove it on the page Manage Application Tax Options (Payables, business unit blank). Status stays failed.
 - 2026-11-26, batch 15 (AB with Claude). Skill written and live-tested; own test looked like a PASS, but the fresh test and a probe proved the row is not tied to the named business unit: status failed, skill v0.1.1 carries a warning. Possible leftover AP row with no business unit from try 1 (check on the page).
+- 2026-11-26, screen-only verification run (AB with Claude, read only): decision failed. Set back from screen-only: rapid tax spreadsheets do not cover application tax options

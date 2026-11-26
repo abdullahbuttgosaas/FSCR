@@ -1,0 +1,9 @@
+Read-only task-level export (--data) before the test: files, columns and row counts.
+
+[file] ASM_SETUP_CSV_METADATA.xml
+
+== INV_PICK_GROUPING_RULE.csv: 27 row(s)
+   columns: PickGroupingRuleName, Description, OrderNumberFlag, SubinventoryFlag, CustomerFlag, ShipToFlag, CarrierFlag, ShipmentPriorityFlag, DeliveryFlag, StartDateActive, EndDateActive, DestSubFlag, DestOrgFlag, DestLocFlag, OperationFlag, WorkCenterFlag, PushOrPullFlag, WorkAreaFlag, ItemFlag, LocatorFlag, ProjectFlag, TaskFlag, Attribute1, Attribute10, Attribute11, Attribute12, Attribute13, Attribute14, Attribute15, Attribute2, Attribute3, Attribute4, Attribute5, Attribute6, Attribute7, Attribute8, Attribute9, AttributeCategory, ZoneFlag, ItemCategoryFlag, CatalogName
+
+== INV_PICK_GROUPING_RULE_TRANSLATION.csv: 27 row(s)
+   columns: INV_PICK_GROUPING_RULE.PickGroupingRuleName, SourceLang, Language, Description, PickGroupingRuleName

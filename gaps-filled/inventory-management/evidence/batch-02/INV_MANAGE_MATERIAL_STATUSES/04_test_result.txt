@@ -1,0 +1,34 @@
+Own live test, record FSCRT_HF_GF_MS1.
+
+--- Own test import 1 (ProcessId 100004744436442) ---
+Business object: Inventory Status. Status: Completed with errors. Status details: Review and report the errors for this object to product Inventory Management.
+Detail Object: InventoryStatus. Status: Completed with errors. Status Details: A total of 1 rows were processed. 1 rows of them failed and 0 rows completed with warnings.. Started: 11/26/26 12:58 PM. Ended: 11/26/26 12:58 PM.
+Row Identifier: FSCRT_HF_GF_MS1. Status: Error. Message Code: INV_INT_TRXTYPCODE, Params. Message Text: You must provide a value for the TransactionTypeId attribute.
+Business object: Inventory Status Transaction Control. Status: Completed with errors. Status details: This object was already processed. The import or export details were listed under the Inventory Status business object.
+Total Objects Processed: 2
+Total Objects Succeeded: 0
+Total Objects Failed: 2
+Total Objects with Warnings: 0
+Total Objects for External Loading: 0
+Request ID: 4,490,145. Status: Completed with errors. Submitted By: <hidden>. Process Date: 11/26/26 12:58 PM.
+IMPORT RESULT: NOT OK (see the lines above)
+
+--- Own test import 2 (ProcessId 100004744435347) ---
+Business object: Inventory Status. Status: Completed successfully. Status details:
+Detail Object: InventoryStatus. Status: Completed successfully. Status Details: A total of 1 rows were processed. 0 rows of them failed and 0 rows completed with warnings.. Started: 11/26/26 1:01 PM. Ended: 11/26/26 1:01 PM.
+Business object: Inventory Status Transaction Control. Status: Completed successfully. Status details: This object was already processed. The import or export details were listed under the Inventory Status business object.
+Total Objects Processed: 2
+Total Objects Succeeded: 2
+Total Objects Failed: 0
+Total Objects with Warnings: 0
+Total Objects for External Loading: 0
+Request ID: 4,490,167. Status: Completed successfully. Submitted By: <hidden>. Process Date: 11/26/26 1:01 PM.
+IMPORT RESULT: OK (0 failed objects)
+
+--- Read-back: export compare ---
+INV_INVENTORY_STATUS.csv: before 51, after 52, FSCRT_HF_GF_ rows added 1 ['FSCRT_HF_GF_MS1'], existing changed or missing 0
+INV_INVENTORY_STATUS_TRANSACTION_CONTROL.csv: before 1445, after 1486, FSCRT_HF_GF_ rows added 41 ['FSCRT_HF_GF_MS1'], existing changed or missing 0
+INV_INVENTORY_STATUS_TRANSLATION.csv: before 51, after 52, FSCRT_HF_GF_ rows added 1 ['FSCRT_HF_GF_MS1'], existing changed or missing 0
+RESULT: PASS (only prefix rows added, existing changed 0)
+
+REST read-back: inventoryMaterialStatuses (count 1)

@@ -1,0 +1,12 @@
+Read-only task-level export (--data) before the test: files, columns and row counts.
+
+[file] ASM_SETUP_CSV_METADATA.xml
+
+== INV_RULE_SELECTION_CRITERION.csv: 18 row(s)
+   columns: ORA_INV_RULE.RuleName, SequenceNumber, FromOrganizationCode, RuleTypeCode, ReturnTypeCode, EnabledFlag, DateTypeCode, DateTypeFrom, DateTypeTo, DateTypeLookupType, EffectiveFrom, EffectiveTo, FromSubinventoryName, ToSubinventoryName, CustomerId, ItemType, UserId, TransactionActionId, UomCode, UomClass, CustomerName, ToOrganizationCode, AssignmentGroupName, AbcClassName, ReasonName, TransactionSrcTypeNameRef, TransactionTypeNameRef, FreightCarrierId, ItemNumber, CategoryName
+
+== ORA_INV_RULE.csv: 24 row(s)
+   columns: RuleName, EnabledFlag, TypeCode, UserDefinedFlag, Description, HasActiveAssignments, ShelfDays, SingleLot, PartialAllowedFlag, CustSpecMatchFlag, LotSort, LotSortRank, RevisionSort, RevisionSortRank, SubinventorySort, SubinventorySortRank, LocatorSort, WmsStrategyId, LocatorSortRank, RequestId, JobDefinitionName, JobDefinitionPackage, AllocateLPNFlag, LPNSort, LPNSortRank, LPNLocationOnlyFlag, ObjectVersionNumber, ObjectVersionNumber1, AllocationModeId, Priority2Sort, Priority3Sort, Priority4Sort, PartialAllowedFlagBoolean, SingleLotBoolean, Priority1Sort
+
+== ORA_INV_RULE_TRANSLATION.csv: 24 row(s)
+   columns: ORA_INV_RULE.RuleName, Language, SourceLang, Description, RuleName

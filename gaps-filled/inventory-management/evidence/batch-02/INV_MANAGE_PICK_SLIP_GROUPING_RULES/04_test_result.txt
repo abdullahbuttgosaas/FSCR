@@ -1,0 +1,19 @@
+Own live test, record FSCRT_HF_GF_PSG1.
+
+--- Own test import 1 (ProcessId 100004744433919) ---
+Business object: Picking Grouping Rule. Status: Completed successfully. Status details:
+Detail Object: PickingGroupingRule. Status: Completed successfully. Status Details: A total of 1 rows were processed. 0 rows of them failed and 0 rows completed with warnings.. Started: 11/26/26 12:58 PM. Ended: 11/26/26 12:58 PM.
+Total Objects Processed: 1
+Total Objects Succeeded: 1
+Total Objects Failed: 0
+Total Objects with Warnings: 0
+Total Objects for External Loading: 0
+Request ID: 4,490,146. Status: Completed successfully. Submitted By: <hidden>. Process Date: 11/26/26 12:58 PM.
+IMPORT RESULT: OK (0 failed objects)
+
+--- Read-back: export compare ---
+INV_PICK_GROUPING_RULE.csv: before 27, after 28, FSCRT_HF_GF_ rows added 1 ['FSCRT_HF_GF_PSG1'], existing changed or missing 0
+INV_PICK_GROUPING_RULE_TRANSLATION.csv: before 27, after 28, FSCRT_HF_GF_ rows added 1 ['FSCRT_HF_GF_PSG1'], existing changed or missing 0
+RESULT: PASS (only prefix rows added, existing changed 0)
+
+REST read-back: pickSlipGroupingRules (count 1)

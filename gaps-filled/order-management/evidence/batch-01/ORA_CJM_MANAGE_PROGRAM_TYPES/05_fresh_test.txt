@@ -1,0 +1,6 @@
+Manage Channel Program Types (ORA_CJM_MANAGE_PROGRAM_TYPES) - 05_fresh_test
+
+FSCRT_AK_GF_PTF: export 100004744432577, import 100004743455628, after-export 100004744431370: 3 new rows, 0 changed; REST OK. PASS.
+FSCRT_AK_GF_PTR: export 100004744431388, import 100004743455842, after-export 100004743456531: 3 new rows, 0 changed; REST OK. PASS, no wrong sentence.
+
+Source: gaps-filled//channel-program-types

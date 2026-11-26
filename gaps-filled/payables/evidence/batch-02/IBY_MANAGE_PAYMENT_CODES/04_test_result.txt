@@ -1,0 +1,10 @@
+04 TEST RESULT - own live test
+Record: PAYMENT_REASON / FSCRT_AK_GF_PR1 (format value PR1)
+try 1 ProcessId 100004743427065: refused, JBO-27014 EndDate is required
+try 2 ProcessId 100004744404205: PaymentCode 1 row processed, 0 failed
+Compare: IBY_PAYMENT_CODE.csv before 365, after 366, added 1, removed/changed 0
+         IBY_PAYMENT_CODE_TRANSLATION.csv before 365, after 366, added 1, removed/changed 0
+         RESULT: OK - only prefix rows added, nothing removed or changed
+REST paymentCodesLOV: FSCRT_AK_GF_PR1, PAYMENT_REASON, alias PR1, EndDate 4712-12-31
+
+-- source: gaps-filled/payables/evidence/batch-02/IBY_MANAGE_PAYMENT_CODES/04_test_result.txt

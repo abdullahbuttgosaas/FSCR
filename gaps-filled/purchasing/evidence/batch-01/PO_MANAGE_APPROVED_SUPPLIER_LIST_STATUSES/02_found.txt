@@ -1,0 +1,7 @@
+Read-only checks, 25/11/2026 (sign-in with the tester's own login; no values shown)
+FSCR task-level export (--data): succeeded. Files, headers and row counts (no rows shown):
+[csv] PO_APPROVED_SUPPLIER_LIST_STATUS.csv: 1 row(s)
+  header: ['Status', 'AllowPoApprovalFlag', 'AllowSourcingFlag', 'AslDefaultFlag', 'Attribute1', 'Attribute10', 'Attribute11', 'Attribute12', 'Attribute13', 'Attribute14', 'Attribute15', 'Attribute2', 'Attribute3', 'Attribute4', 'Attribute5', 'Attribute6', 'Attribute7', 'Attribute8', 'Attribute9', 'AttributeCategory', 'CreatedBy', 'InactiveDate', 'LastUpdatedBy', 'StatusDescription']
+[file] ASM_SETUP_CSV_METADATA.xml
+
+REST: approvedSupplierListStatusesLOV describe: not found

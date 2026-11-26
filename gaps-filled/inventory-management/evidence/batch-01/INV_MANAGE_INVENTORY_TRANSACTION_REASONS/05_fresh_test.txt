@@ -1,0 +1,31 @@
+Fresh sub-agent tests (given only the task name, the SKILL.md path, FSCR root, prefix, record name, run folder and approval).
+
+Fresh test F: record FSCRT_HF_GF_RSN1F, ProcessId 100004744436023
+  IMPORT RESULT: OK (0 failed objects)
+  INV_INVENTORY_TRANSACTION_REASON.csv: before 79, after 80, FSCRT_HF_GF_ rows added 1 ['FSCRT_HF_GF_RSN1F'], existing changed or missing 0
+  INV_INVENTORY_TRANSACTION_REASON_TRANSLATION.csv: before 79, after 80, FSCRT_HF_GF_ rows added 1 ['FSCRT_HF_GF_RSN1F'], existing changed or missing 0
+  RESULT: PASS (only prefix rows added, existing changed 0)
+  Read back by Claude (export compare above, REST LIKE query lists the record). Result: PASS
+
+Fresh test R: record FSCRT_HF_GF_RSN1R, ProcessId 100004744433588
+  IMPORT RESULT: OK (0 failed objects)
+  INV_INVENTORY_TRANSACTION_REASON.csv: before 80, after 81, FSCRT_HF_GF_ rows added 1 ['FSCRT_HF_GF_RSN1R'], existing changed or missing 0
+  INV_INVENTORY_TRANSACTION_REASON_TRANSLATION.csv: before 80, after 81, FSCRT_HF_GF_ rows added 1 ['FSCRT_HF_GF_RSN1R'], existing changed or missing 0
+  RESULT: PASS (only prefix rows added, existing changed 0)
+  Read back by Claude (export compare above, REST LIKE query lists the record). Result: PASS
+
+Fresh test R2: record FSCRT_HF_GF_RSN2R, ProcessId 100004743456909
+  IMPORT RESULT: OK (0 failed objects)
+  INV_INVENTORY_TRANSACTION_REASON.csv: before 81, after 82, FSCRT_HF_GF_ rows added 1 ['FSCRT_HF_GF_RSN2R'], existing changed or missing 0
+  INV_INVENTORY_TRANSACTION_REASON_TRANSLATION.csv: before 81, after 82, FSCRT_HF_GF_ rows added 1 ['FSCRT_HF_GF_RSN2R'], existing changed or missing 0
+  RESULT: PASS (only prefix rows added, existing changed 0)
+  Read back by Claude (export compare above, REST LIKE query lists the record). Result: PASS
+
+Fresh test R3: record FSCRT_HF_GF_RSN3R, ProcessId 100004743459255
+  IMPORT RESULT: OK (0 failed objects)
+  INV_INVENTORY_TRANSACTION_REASON.csv: before 82, after 83, FSCRT_HF_GF_ rows added 1 ['FSCRT_HF_GF_RSN3R'], existing changed or missing 0
+  INV_INVENTORY_TRANSACTION_REASON_TRANSLATION.csv: before 82, after 83, FSCRT_HF_GF_ rows added 1 ['FSCRT_HF_GF_RSN3R'], existing changed or missing 0
+  RESULT: PASS (only prefix rows added, existing changed 0)
+  Read back by Claude (export compare above, REST LIKE query lists the record). Result: PASS
+
+Wording fixes between runs: see CHANGELOG.md. The last run reported no wrong sentence.

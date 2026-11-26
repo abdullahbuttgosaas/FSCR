@@ -1,0 +1,6 @@
+Manage Task Types (DOO_MANAGE_TASK_TYPES) - 05_fresh_test
+
+FSCRT_AK_GF_TTF: export 100004744422955, import 100004743456490, after-export 100004743455721: 6 new rows, 0 changed. PASS.
+FSCRT_AK_GF_TTR: export 100004744433050, import 100004744433146, after-export 100004744431692: 6 new rows, 0 changed. PASS, no wrong sentence.
+
+Source: gaps-filled//task-types

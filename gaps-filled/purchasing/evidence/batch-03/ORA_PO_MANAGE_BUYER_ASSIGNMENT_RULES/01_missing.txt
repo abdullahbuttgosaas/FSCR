@@ -1,0 +1,5 @@
+Task: Manage Buyer Assignment Rules (ORA_PO_MANAGE_BUYER_ASSIGNMENT_RULES)
+Module: Purchasing (ERP)   Functional area: Purchasing Foundation
+FSCR coverage level: b = route only (no FSCR skill or guide; catalog CSV export/import flag Y)
+Source: evidence/Purchasing/data/scope_tasks.csv (module test, 17/11/2026)
+Decision: written only (batch 02)  Reason: unsafe to test: a rule assigns an existing buyer (person e-mail) to other people's purchasing documents on the shared environment

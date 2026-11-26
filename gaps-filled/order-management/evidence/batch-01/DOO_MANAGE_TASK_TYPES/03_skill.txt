@@ -1,0 +1,5 @@
+Manage Task Types (DOO_MANAGE_TASK_TYPES) - 03_skill
+
+gaps-filled/order-management/task-types/SKILL.md written: placeholders, sign-in, prerequisites, export, build rows, import, read back, rules, worked example. Route: FSM CSV (task-level export/import).
+
+Source: gaps-filled//task-types

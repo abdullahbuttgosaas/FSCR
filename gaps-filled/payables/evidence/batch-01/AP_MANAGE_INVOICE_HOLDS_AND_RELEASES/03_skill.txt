@@ -1,0 +1,17 @@
+03 SKILL - AP_MANAGE_INVOICE_HOLDS_AND_RELEASES
+File: gaps-filled/payables/manage-invoice-holds/SKILL.md
+Sections:
+  # Manage Invoice Holds and Releases (CSV)
+  ## What it is and when to use
+  ## Placeholders
+  ## Sign-in
+  ## Prerequisites
+  ## Export (read only)
+  ## Build rows
+  ## Import
+  ## Read back
+  ## Rules and limits
+  ## Worked example (sitting 1)
+Length: 130 lines
+
+-- source: gaps-filled/payables/evidence/batch-01/AP_MANAGE_INVOICE_HOLDS_AND_RELEASES/03_skill.txt

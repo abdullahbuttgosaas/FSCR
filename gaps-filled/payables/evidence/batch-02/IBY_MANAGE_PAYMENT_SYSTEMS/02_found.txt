@@ -1,0 +1,7 @@
+02 FOUND - IBY_MANAGE_PAYMENT_SYSTEMS
+Read-only FSM setup-data export, ProcessId 100004743427215.
+Package: ASM_SETUP_CSV_METADATA.xml + IBY_PAYMENT_SYSTEM.csv (31 rows, 57 cols) and children ORA_IBY_PAYMENT_SYSTEM_FORMAT (45),
+  _KEY (46), _SCHEME (58), _TRAN (39), _ACC_NAME (258) + _TRANSLATION (258), _ACC_VAL (854).
+Credential/URL columns exist and were never printed. REST: paymentSystems / externalPaymentSystems 404.
+
+-- source: gaps-filled/payables/evidence/batch-02/IBY_MANAGE_PAYMENT_SYSTEMS/02_found.txt

@@ -1,0 +1,17 @@
+Read-only checks, 25/11/2026 (sign-in with the tester's own login; no values shown)
+FSCR task-level export (--data): succeeded. Files, headers and row counts (no rows shown):
+[csv] FND_APP_FLEX_VALUE_SET.csv: 0 row(s)
+  header: ['ValueSetCode', 'ModuleId', 'ValueSetIdentifier', 'Description', 'ValidationType', 'ValueDataType', 'ValueSubtype', 'MaximumLength', 'Precision', 'Scale', 'UppercaseOnlyFlag', 'ZeroFillFlag', 'SecurityEnabledFlag', 'DataSecurityObjectName', 'MinimumValue', 'MinimumValueNumber', 'MinimumValueDate', 'MinimumValueTimestamp', 'MaximumValue', 'MaximumValueNumber', 'MaximumValueDate', 'MaximumValueTimestamp', 'CreationDate', 'CreatedBy', 'LastUpdateDate', 'LastUpdatedBy', 'LastUpdateLogin', 'IndependentValueSetCode']
+[csv] ORA_APPLICATION_FLEXFIELD_RELATED_VALUE_SET.csv: 0 row(s)
+  header: ['FND_APP_FLEX_VALUE_SET.ValueSetCode', 'ValueSetCode1', 'EnabledFlag', 'CreationDate', 'CreatedBy', 'LastUpdateDate', 'LastUpdatedBy', 'LastUpdateLogin']
+[csv] ORA_APPLICATION_FLEXFIELD_VALUE_SET_VALIDATION_VIEW_OBJECT.csv: 0 row(s)
+  header: ['FND_APP_FLEX_VALUE_SET.ValueSetCode', 'ViewObjectName', 'ValueAttributeName', 'ValueAttributeType', 'ValueAttributeLength', 'CreationDate', 'CreatedBy', 'LastUpdateDate', 'LastUpdatedBy', 'LastUpdateLogin']
+[csv] ORA_FND_APP_FLEX_VALUE_SET_VALIDATION_TABLE.csv: 0 row(s)
+  header: ['FND_APP_FLEX_VALUE_SET.ValueSetCode', 'FromClause', 'WhereClause', 'OrderByClause', 'ValueColumnName', 'IdColumnName', 'DescriptionColumnName', 'EnabledFlagColumnName', 'StartDateColumnName', 'EndDateColumnName', 'ValueAttributesTableAlias', 'CreationDate', 'CreatedBy', 'LastUpdateDate', 'LastUpdatedBy', 'LastUpdateLogin']
+[csv] ORA_FND_APP_FLEX_VALUE_SET_VALUE.csv: 0 row(s)
+  header: ['FND_APP_FLEX_VALUE_SET.ValueSetCode', 'Value', 'IndependentValue', 'IndependentValueNumber', 'IndependentValueDate', 'IndependentValueTimestamp', 'ValueNumber', 'ValueDate', 'ValueTimestamp', 'TranslatedValue', 'Description', 'EnabledFlag', 'StartDateActive', 'EndDateActive', 'SummaryFlag', 'FlexValueAttribute1', 'FlexValueAttribute2', 'FlexValueAttribute3', 'FlexValueAttribute4', 'FlexValueAttribute5', 'FlexValueAttribute6', 'SortOrder', 'ExternalDataSource', 'CreationDate', 'CreatedBy', 'LastUpdateDate', 'LastUpdatedBy', 'LastUpdateLogin']
+[csv] ORA_APPLICATION_FLEXFIELD_RELATED_VALUE_SET_VALUE.csv: 0 row(s)
+  header: ['FND_APP_FLEX_VALUE_SET.ValueSetCode', 'ORA_APPLICATION_FLEXFIELD_RELATED_VALUE_SET.ValueSetCode1', 'Value1', 'Value2', 'EnabledFlag', 'CreationDate', 'CreatedBy', 'LastUpdateDate', 'LastUpdatedBy', 'LastUpdateLogin']
+[file] ASM_SETUP_CSV_METADATA.xml
+
+REST: valueSets: get, create, update (used for read-back)

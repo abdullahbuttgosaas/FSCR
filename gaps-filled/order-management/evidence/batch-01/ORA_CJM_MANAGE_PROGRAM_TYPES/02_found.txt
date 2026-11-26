@@ -1,0 +1,5 @@
+Manage Channel Program Types (ORA_CJM_MANAGE_PROGRAM_TYPES) - 02_found
+
+Export package: ORA_CJM_PROGRAM_TYPE (52 columns) and ORA_CJM_PROGRAM_TYPE_QUALIFIER. REST resource channelProgramTypes exists (GET 200).
+
+Source: gaps-filled//channel-program-types

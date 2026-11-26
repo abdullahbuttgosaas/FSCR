@@ -1,0 +1,41 @@
+task_code,task_name,level,ease,depends_on,decision,reason
+AP_MANAGE_INVOICE_HOLDS_AND_RELEASES,Manage Invoice Holds and Releases,route only,easy,-,filled,tested (fresh test passed)
+AP_MANAGE_INVOICE_TOLERANCES,Manage Invoice Tolerances,route only,easy,-,filled,tested (fresh test passed)
+AP_MANAGE_AGING_PERIODS,Manage Aging Periods,route only,easy,-,filled,tested (fresh test passed)
+AP_MANAGE_PAYABLES_LOOKUPS,Manage Payables Lookups,route only,easy,"an extensible Payables lookup type (e.g. PAY GROUP, read live by REST genericLookups)",filled,tested (fresh test passed)
+IBY_MANAGE_LOOKUPS:_DISBURSEMENTS,Manage Disbursement Lookups,route only,easy,"an extensible IBY lookup type (e.g. IBY_BANK_CHARGE_BEARER, read live)",filled,tested (fresh test passed)
+IBY_MANAGE_LOOKUPS:_EXTERNAL_CONNECTIVITY,Manage Payment System Connectivity Lookups,route only,easy,"an extensible IBY lookup type (e.g. IBY_SEC_CRED_TYPES, read live)",filled,tested (fresh test passed)
+IBY_MANAGE_PAYMENT_CODES,Manage Payment Codes,route only,easy,-,filled,tested (fresh test passed)
+AP_MANAGE_TAX_REGIONS,Manage Tax Regions,route only,easy,-,filled,tested (fresh test passed)
+IBY_MANAGE_PAYMENT_METHODS,Manage Payment Methods,route only,easy,-,filled,tested (fresh test passed)
+IBY_MANAGE_PAYMENT_SYSTEMS,Manage Payment Systems,route only,easy,"an existing bank (BankName); seeded format, transmission protocol and payment scheme codes",failed,"create refused with FND_CMN_CMPLT_FLDS ""You must complete the required fields"" even for an exact round trip of a working screen-created payment system (ProcessId 100004743428187), so the export lacks a field the import requires; next step: try a 10-character Suffix (FSCRT_AK_2), then compare with the task's CSV template export for mandatory attributes"
+IBY_MANAGE_CODE_MAP_GROUPS,Manage Code Map Groups,route only,easy,-,fill,new code map group with PREFIX
+AP_MANAGE_PAYABLES_DOCUMENT_SEQUENCES,Manage Payables Document Sequences,route only,medium,a Payables document sequence category,fill,new sequence with PREFIX
+AP_MANAGE_INTEREST_RATES,Manage Interest Rates,route only,medium,-,fill,new rate period; judge against the unsafe rule (shared rate table by date)
+IBY_MANAGE_TRANSMISSION_CONFIGURATIONS,Manage Transmission Configurations,route only,medium,an existing transmission protocol (read only),fill,new configuration with PREFIX
+IBY_MANAGE_FORMATS,Manage Formats,route only,medium,an existing BI Publisher template (read only),fill,new format with PREFIX
+AP_MANAGE_DISTRIBUTION_SETS,Manage Distribution Sets,route only,medium,a business unit; a valid charge account,fill,new distribution set with PREFIX
+AP_MANAGE_PAYABLES_DESCRIPTIVE_FLEXFIELDS,Manage Payables Descriptive Flexfields,route only,medium,-,fill,new DFF context with PREFIX; judge against the unsafe rule
+IBY_MANAGE_FLEXFIELDS:_DISBURSEMENTS,Manage Disbursement Flexfields,route only,medium,-,fill,new DFF context with PREFIX; judge against the unsafe rule
+IBY_MANAGE_FLEXFIELDS:_EXTERNAL_CONNECTIVITY,Manage Payment System Connectivity Flexfields,route only,medium,-,fill,new DFF context with PREFIX; judge against the unsafe rule
+AP_MANAGE_PAYABLES_PROFILE_OPTIONS,Manage Payables Profile Options,route only,medium,-,fill,"value at user level for own user, or test-and-restore"
+ORA_MANAGE_PAYABLES_QUEUE_DEFINITIONS,Manage User-Defined Rules for Payables,route only,medium,a business unit,fill,new user-defined rule with PREFIX
+ORA_IBY_MANAGE_USER_DEFINED_RULES_FOR_EMP_BANK_ACCT_APPROVALS,Manage User-Defined Rules for Employee Bank Account Approvals,route only,medium,-,fill,new approval rule with PREFIX
+IBY_MANAGE_PAYMENT_METHOD_DEFAULTING_RULES,Manage Payment Method Defaulting Rules,route only,medium,IBY_MANAGE_PAYMENT_METHODS,fill,new defaulting rule with PREFIX; check priority impact
+AP_MANAGE_REPORTING_ENTITIES,Manage Reporting Entities,route only,medium,a legal entity; balancing segment values,fill,new 1099 reporting entity with PREFIX
+ORA_AP_MANAGE_PAYMENT_PROCESS_REQUEST_TEMPLATE,Create Payment Process Request Templates,route only,hard,a business unit; IBY_MANAGE_PAYMENT_PROCESS_PROFILES,fill,new PPR template with PREFIX
+IBY_MANAGE_PAYMENT_PROCESS_PROFILES,Manage Payment Process Profiles,route only,hard,IBY_MANAGE_FORMATS; IBY_MANAGE_PAYMENT_METHODS,fill,new profile with PREFIX; long chain
+ORA_IBY_MANAGE_VIRTUAL_CARD_PROGRAMS,Manage Virtual Card Programs,route only,hard,a card issuer; a payment system,fill,new program with PREFIX
+AP_MANAGE_TAX_CODES,Manage Tax Codes,route only,hard,a withholding tax regime and tax,fill,new withholding tax code with PREFIX
+AP_MANAGE_WITHHOLDING_GROUPS,Manage Withholding Tax Classifications,route only,hard,AP_MANAGE_TAX_CODES,fill,new withholding classification with PREFIX
+AP_MANAGE_WITHHOLDING_CERTIFICATES,Manage Withholding Certificates,route only,hard,AP_MANAGE_TAX_CODES; a supplier site,fill,new certificate with PREFIX
+AP_MANAGE_TAX_REPORTING_AND_WITHHOLDING_TAX_OPTIONS,Manage Tax Reporting and Withholding Tax Options,route only,hard,a business unit,fill,BU-level options: judge against the unsafe rule
+ORA_MANAGE_INTELLIGENT_DOCUMENT_RECOGNITION_OPTIONS,Manage Intelligent Document Recognition Options,route only,hard,a business unit,fill,BU-level options: judge against the unsafe rule
+IBY_MANAGE_DISBURSEMENT_SYSTEM_OPTIONS,Manage Disbursement System Options,route only,hard,-,fill,single global record: judge against the unsafe rule
+IBY_MANAGE_SYSTEM_SECURITY_OPTIONS,Manage System Security Options,neither,n/a,-,screen-only,live FSM task flags CSVExportImportSupportedFlag N and ExportImportSupportedFlag N (2026-11-25); FSCR read-only export refuses the task; no REST resource in Oracle's Financials REST endpoint list and GET paymentSystemSecurityOptions/systemSecurityOptions returned 404
+IBY_INTEGRATE_EXTERNAL_PAYMENT_SYSTEMS,Integrate External Payment Systems,neither,n/a,-,screen-only,live FSM task flags CSVExportImportSupportedFlag N and ExportImportSupportedFlag N (2026-11-25); FSCR read-only export refuses the task; no REST resource in Oracle's Financials REST endpoint list and GET paymentSystems/externalPaymentSystems returned 404
+IBY_MANAGE_BI_PUBLISHER_TEMPLATES,Manage BI Publisher Templates,neither,n/a,-,screen-only,"live FSM task flags CSVExportImportSupportedFlag N and ExportImportSupportedFlag N (2026-11-25); FSCR read-only export refuses the task; no REST resource in Oracle's Financials REST endpoint list and GET biPublisherTemplates/paymentFormatTemplates (templates live in the BI Publisher catalog, not in Fusion setup data) returned 404"
+IBY_VIEW_VALIDATIONS,View Validations,neither,n/a,-,screen-only,live FSM task flags CSVExportImportSupportedFlag N and ExportImportSupportedFlag N (2026-11-25); FSCR read-only export refuses the task; no REST resource in Oracle's Financials REST endpoint list and GET paymentValidations/disbursementValidations/validations (view-only task) returned 404
+AP_DEFINE_AUTOMATED_INVOICE_PROCESSING_CONFIGURATION,Define Automated Invoice Processing Configuration,neither,n/a,-,screen-only,live FSM task flags CSVExportImportSupportedFlag N and ExportImportSupportedFlag N (2026-11-25); FSCR read-only export refuses the task; no REST resource in Oracle's Financials REST endpoint list and GET automatedInvoiceProcessingConfigurations/payablesInvoiceProcessingConfigurations returned 404
+ORA_MANAGE_PAYABLES_WORKFLOW_RULES,Manage Payables Workflow Rules,neither,n/a,-,screen-only,live FSM task flags CSVExportImportSupportedFlag N and ExportImportSupportedFlag N (2026-11-25); FSCR read-only export refuses the task; no REST resource in Oracle's Financials REST endpoint list and GET payablesWorkflowRules/payablesApprovalRules/invoiceApprovalRules (rules live in BPM Worklist) returned 404
+IBY_GRANT_PAYMENT_FUNCTION_ACCESS,Grant Payment Function Access,neither,n/a,-,screen-only,live FSM task flags CSVExportImportSupportedFlag N and ExportImportSupportedFlag N (2026-11-25); FSCR read-only export refuses the task; no REST resource in Oracle's Financials REST endpoint list and GET paymentFunctionAccess/paymentFunctionAccesses (security role and data access setup) returned 404

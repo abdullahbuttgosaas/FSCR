@@ -1,0 +1,36 @@
+task_code,task_name,level,ease,depends_on,decision,reason
+ORA_CJM_MANAGE_PROGRAM_TYPES,Manage Channel Program Types,route only,easy,,tested (sitting 1),"new channel program type, stand-alone"
+DOO_MANAGE_JEOPARDY_PRIORITIES,Manage Jeopardy Priorities,route only,easy,,tested (sitting 1),"new jeopardy priority row, stand-alone"
+DOO_MANAGE_ORCHESTRATION_ATTACHMENT_CATEGORIES,Manage Order Attachment Categories,route only,easy,,tested (sitting 1),new category mapping
+DOO_MANAGE_STATUS_VALUES,Manage Status Values,route only,easy,,tested (sitting 1),new stand-alone status code
+DOO_MANAGE_TASK_TYPES,Manage Task Types,route only,easy,,tested (sitting 1),new stand-alone task type with services
+ORA_OKC_MANAGE_TIME_UNIT_MAPPINGS,Manage Time Unit Mappings,route only,easy,,tested (sitting 1),new time unit mapping
+ORA_QP_MANAGE_EXT_SERVICES_FOR_ALGORITHMS,Manage External Service Details for Algorithms,route only,easy,,tested (sitting 1),"new external service connection, stand-alone"
+ORA_QP_MANAGE_PRICING_MATRIX_TYPES,Manage Pricing Matrix Types,route only,easy,,tested (sitting 1),"new matrix type, stand-alone"
+ORA_QP_MANAGE_PRICING_RESULTS_PRESENTATIONS,Manage Pricing Results Presentations,route only,easy,,tested (sitting 1),"new presentation, stand-alone"
+ORA_QP_MANAGE_PRICING_TOTALS_DEFINITIONS,Manage Pricing Totals,route only,easy,,tested (sitting 1),"new pricing total, stand-alone"
+DOO_MANAGE_CONSTRAINT_OBJECTS,Manage Constraint Entities,route only,medium,,open - next sitting,new constraint entity on a seeded view object
+DOO_MANAGE_JEOPARDY_THRESHOLDS,Manage Jeopardy Thresholds,route only,medium,DOO_MANAGE_TASK_TYPES; DOO_MANAGE_JEOPARDY_PRIORITIES,open - next sitting,needs a task type
+DOO_MANAGE_ORDER_ATTRIBUTES_IDENTIFYING_CHANGE,Manage Order Attributes That Identify Change,route only,medium,,open - next sitting,attribute rows on seeded entities
+DOO_MANAGE_PROCESS_CONSTRAINTS,Manage Processing Constraints,route only,medium,DOO_MANAGE_CONSTRAINT_OBJECTS,open - next sitting,needs a constraint entity
+DOO_MANAGE_TRANSFORMATION_RULES,Manage Product Transformation Rules,route only,medium,,open - next sitting,business rules in a shared dictionary
+DOO_MANAGE_TASK_STATUS_CONDITIONS,Manage Task Status Conditions,route only,medium,DOO_MANAGE_TASK_TYPES; DOO_MANAGE_STATUS_VALUES,open - next sitting,needs a task type and status codes
+DOO_ORCHESTRATION_MANAGE_SOURCE_SYSTEMS,Manage Upstream and Fulfillment Source Systems,route only,medium,a trading community source system,open - next sitting,"new orchestration source system (ORA_MSC_APPS_INSTANCE, export read in sitting 1); may need a trading community source system first"
+ORA_QP_MANAGE_PRICING_PROCESS_ASSIGNMENTS,Manage Pricing Process Assignments,route only,medium,,open - next sitting,assignment of a pricing algorithm
+ORA_DOO_MANAGE_EXTERNAL_INTEGRATION_VIB_ROUTING_RULES,Manage External Integration Routing Rules for Sales Orders,route only,hard,,open - next sitting,visual information builder rules
+DOO_MANAGE_ORCHESTRATION_PROCESS_DEFINITIONS,Manage Orchestration Process Definitions,route only,hard,DOO_MANAGE_TASK_TYPES; DOO_MANAGE_STATUS_VALUES,open - next sitting,"long dependency chain, large package"
+DOO_MANAGE_ORCHESTRATION_DESCRIPTIVE_FLEXFIELDS,Manage Order Descriptive Flexfields,route only,hard,,open - next sitting,"flexfield context/segments, deployment"
+DOO_MANAGE_EXTERNAL_INTERFACE_DATA_VALUE_MAPS,Manage Posttransformation Defaulting Rules,route only,hard,,open - next sitting,business rules in a shared dictionary
+DOO_MANAGE_TRANSFORMATION_RULE_SETS,Manage Pretransformation Defaulting Rules,route only,hard,,open - next sitting,business rules in a shared dictionary
+ORA_DOO_MANAGE_PRETRANSFORMATION_VIB_RULE_SETS,Manage Pretransformation Rules for Sales Orders,route only,hard,,open - next sitting,visual information builder rules
+ORA_DOO_MANAGE_PROCESS_VIB_ASSIGNMENT_RULES,Manage Process Assignment Rules for Sales Orders,route only,hard,DOO_MANAGE_ORCHESTRATION_PROCESS_DEFINITIONS,open - next sitting,visual information builder rules
+ORA_QP_MANAGE_PRICING_DESCRIPTIVE_FLEXFIELDS,Manage Pricing Descriptive Flexfields,route only,hard,,open - next sitting,"flexfield context/segments, deployment"
+ORA_CJM_MANAGE_CHANNEL_MESSAGES,Manage Channel Messages,neither,n/a,,screen-only,No FSM CSV: setupTaskCSVExports returned no ProcessId (catalog CSV flag N). No REST resource: GET channelMessages = 404. Screen task (Setup and Maintenance).
+ORA_CJM_RUN_MIGRATE_PENDING_APPROVALS_TO_BPM_WORKFLOW_PROCESS,Run Migrate Pending Approvals to BPM Workflow Process,neither,n/a,,screen-only,"Scheduled process, not a setup record. No FSM CSV: export returned no ProcessId (catalog export and CSV flags N). No setup REST resource; run it from Scheduled Processes."
+ORA_FOM_COLLECT_ORDER_REFERENCE_DATA,Collect Order Reference Data,neither,n/a,,screen-only,"Scheduled process (collections), not a setup record. No FSM CSV: export returned no ProcessId (flags N). No REST resource: GET orderReferenceData = 404."
+DOO_GENERATE_BUCKET_SETS_FOR_BUSINESS_RULES,Generate Bucket Sets for Business Rules,neither,n/a,,screen-only,"Scheduled process, not a setup record. No FSM CSV: export returned no ProcessId (flags N). No REST resource: GET bucketSets = 404."
+ORA_FOM_LOAD_ORDER_REFERENCE_DATA_FROM_FLAT_FILES,Load Order Reference Data from Flat Files,neither,n/a,,screen-only,"Scheduled process (file-based collections load), not a setup record. No FSM CSV: export returned no ProcessId (flags N). No setup REST resource."
+DOO_MANAGE_EXTERNAL_INTERFACE_TRANSFORMATION_STYLESHEETS,Manage External Interface Transformation Style Sheets,neither,n/a,,screen-only,No FSM CSV: export returned no ProcessId (flags N). No REST resource: GET transformationStylesheets = 404. Screen task (upload of XSL files).
+DOO_MANAGE_EXTERNAL_INTERFACE_MEDIATORS,Manage Integration with Oracle Fusion Distributed Order Orchestration,neither,n/a,,screen-only,No FSM CSV: export returned no ProcessId (flags N). No REST resource: GET orderManagementMediators = 404. Screen/integration task.
+ORA_DOO_PUBLISH_EFF_ATTRIBUTES,Publish Extensible Flexfield Attributes,neither,n/a,,screen-only,"Scheduled process (publishes extensible flexfield attributes), not a setup record. No FSM CSV: export returned no ProcessId (flags N). No setup REST resource."
+DOO_REVIEW_ORCHESTRATION_COLLECTED_DATA,Review Collected Order Reference Data,neither,n/a,,screen-only,"Review (read) page for collected data, not a setup record. No FSM CSV: export returned no ProcessId (flags N). No REST resource: GET collectedOrderReferenceData = 404."

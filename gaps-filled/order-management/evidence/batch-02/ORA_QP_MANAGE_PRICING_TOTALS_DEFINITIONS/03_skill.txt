@@ -1,0 +1,5 @@
+Manage Pricing Totals (ORA_QP_MANAGE_PRICING_TOTALS_DEFINITIONS) - 03_skill
+
+gaps-filled/order-management/pricing-totals/SKILL.md written: placeholders, notes, sign-in, prerequisites, export, build rows, import, read back, rules, worked example. Route: FSM CSV (task-level export/import).
+
+Source: gaps-filled//pricing-totals

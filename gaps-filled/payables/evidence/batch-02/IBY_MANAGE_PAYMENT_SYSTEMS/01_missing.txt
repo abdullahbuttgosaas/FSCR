@@ -1,0 +1,8 @@
+01 MISSING - IBY_MANAGE_PAYMENT_SYSTEMS
+Task: Manage Payment Systems
+Module: Payables
+Coverage level in evidence/Payables/data/scope_tasks.csv: b (route only); FSCR skill or guide: none
+Catalog CSV export/import flag: Y
+Source: evidence/Payables/data/scope_tasks.csv
+
+-- source: gaps-filled/payables/evidence/batch-02/IBY_MANAGE_PAYMENT_SYSTEMS/01_missing.txt

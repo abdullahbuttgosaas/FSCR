@@ -1,0 +1,9 @@
+04 TEST RESULT - own live test
+Record: FSCRT_AK_GF_HLD1 (INVOICE HOLD REASON)
+Import ProcessId 100004744396632: business object Approval Code, 1 row processed, 0 failed, 0 warnings.
+Compare before/after export:
+  AP_HOLD_CODE.csv: before 109, after 110, added 1, removed/changed 0
+  RESULT: OK - only prefix rows added, nothing removed or changed
+Read-back row: HoldLookupCode FSCRT_AK_GF_HLD1, HoldType INVOICE HOLD REASON, UserReleaseableFlag Y, PostableFlag N
+
+-- source: gaps-filled/payables/evidence/batch-01/AP_MANAGE_INVOICE_HOLDS_AND_RELEASES/04_test_result.txt

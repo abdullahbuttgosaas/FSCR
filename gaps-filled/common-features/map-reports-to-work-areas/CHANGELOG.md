@@ -6,3 +6,4 @@
 
 ## Test records created
 - none (not loaded)
+- 2026-11-26, sitting 8 (AB with Claude). Re-judged against the unsafe rule: still unsafe: a mapping is not a named new record (it changes what every user of a seeded work area sees) and cannot be removed by CSV, so neither a new-record nor a test-and-restore way exists.

@@ -1,0 +1,5 @@
+Task: Manage Buyer Assignment Rule Sets Lookup (ORA_PO_MANAGE_ASSIGNMENT_RULE_SETS_LOOKUP)
+Module: Purchasing (ERP)   Functional area: Purchasing Foundation
+FSCR coverage level: b = route only (no FSCR skill or guide; catalog CSV export/import flag Y)
+Source: evidence/Purchasing/data/scope_tasks.csv (module test, 17/11/2026)
+Decision: fill (batch 02)  Reason: new lookup code under the rule-set lookup type; export empty so rows written in full

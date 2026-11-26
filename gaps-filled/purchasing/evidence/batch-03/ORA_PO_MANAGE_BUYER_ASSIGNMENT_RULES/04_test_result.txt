@@ -1,0 +1,7 @@
+Own live test, 26/11/2026 (after the tester confirmed the environment is for testing only). Rule 9999 in rule set FSCRT_MZ_GF_RS1, ExceedsLineAmount 999999999; BU, organization, supplier and buyer copied from existing rule 1 (no e-mail printed).
+Safeguard basis (Oracle 26D docs): all rules are evaluated in ascending sequence whatever their rule set, so the rule uses the highest sequence and an amount no real line reaches.
+Before-export ProcessId 100004743447687: 2 rules (sequences 1 and 2, rule set DEFAULT).
+Import ProcessId 100004744422117: Purchasing Buyer Assignment Rules, Completed successfully, 1 processed, 0 failed.
+After-export ProcessId 100004743447698:
+ORA_PO_BUYER_ASSIGNMENT_RULES.csv: before 2, after 3, added 1 ['9999'], existing removed or changed 0, added without prefix 0
+RESULT: only prefix rows added; existing rows unchanged

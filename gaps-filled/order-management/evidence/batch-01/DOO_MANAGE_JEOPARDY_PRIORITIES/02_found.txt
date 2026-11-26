@@ -1,0 +1,5 @@
+Manage Jeopardy Priorities (DOO_MANAGE_JEOPARDY_PRIORITIES) - 02_found
+
+Export package: 1 CSV DOO_JEOPARDY_PRIORITY (JeopardyPriorityCode, OrchestrationApplicationCode, MaximumScore, MinimumScore, CreatedBy, LastUpdatedBy); seeded HIGH, MEDIUM, LOW.
+
+Source: gaps-filled//jeopardy-priorities

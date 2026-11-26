@@ -1,0 +1,5 @@
+Task: Manage Approved Supplier List Statuses (PO_MANAGE_APPROVED_SUPPLIER_LIST_STATUSES)
+Module: Purchasing (ERP)   Functional area: Purchasing Foundation
+FSCR coverage level: b = route only (no FSCR skill or guide; catalog CSV export/import flag Y)
+Source: evidence/Purchasing/data/scope_tasks.csv (module test, 17/11/2026)
+Decision: fill (batch 01)  Reason: new stand-alone status row; FSM CSV export works

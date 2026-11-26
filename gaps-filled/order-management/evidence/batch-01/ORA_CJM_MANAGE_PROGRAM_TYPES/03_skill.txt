@@ -1,0 +1,5 @@
+Manage Channel Program Types (ORA_CJM_MANAGE_PROGRAM_TYPES) - 03_skill
+
+gaps-filled/order-management/channel-program-types/SKILL.md written: placeholders, sign-in, prerequisites, export, build rows, import, read back, rules, worked example. Route: FSM CSV load; REST channelProgramTypes read-back.
+
+Source: gaps-filled//channel-program-types

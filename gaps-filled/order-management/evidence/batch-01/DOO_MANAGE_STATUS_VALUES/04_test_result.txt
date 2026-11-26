@@ -1,0 +1,5 @@
+Manage Status Values (DOO_MANAGE_STATUS_VALUES) - 04_test_result
+
+FSCRT_AK_GF_ST1: export 100004744432201, import 100004743455333 (1 row, 0 failed), after-export 100004744422896: 2 new rows (code + US translation), 0 existing changed.
+
+Source: gaps-filled//status-values

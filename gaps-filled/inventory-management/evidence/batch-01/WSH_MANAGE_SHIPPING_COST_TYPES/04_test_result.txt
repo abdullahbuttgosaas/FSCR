@@ -1,0 +1,31 @@
+Own live test, record FSCRT_HF_GF_SCT1.
+
+--- Own test import 1 (ProcessId 100004744432773) ---
+Business object: Shipping Cost Type. Status: Completed with errors. Status details: Review and report the errors for this object to product Shipping.
+Detail Object: CostType. Status: Completed with errors. Status Details: A total of 1 rows were processed. 1 rows of them failed and 0 rows completed with warnings.. Started: 11/26/26 12:40 PM. Ended: 11/26/26 12:40 PM.
+Row Identifier: FSCRT_HF_GF_SCT1. Status: Error. Message Code: . Message Text:
+JBO-25026: Row oracle.jbo.Key[300000395547043 ] with XML tag CostTypeVORow cannot be loaded.JBO-27014: Attribute Amount in ShippingCostTypeEO__DefCustomizer__ is required.
+Total Objects Processed: 1
+Total Objects Succeeded: 0
+Total Objects Failed: 1
+Total Objects with Warnings: 0
+Total Objects for External Loading: 0
+Request ID: 4,489,986. Status: Completed with errors. Submitted By: <hidden>. Process Date: 11/26/26 12:40 PM.
+IMPORT RESULT: NOT OK (see the lines above)
+
+--- Own test import 2 (ProcessId 100004743455953) ---
+Business object: Shipping Cost Type. Status: Completed successfully. Status details:
+Detail Object: CostType. Status: Completed successfully. Status Details: A total of 1 rows were processed. 0 rows of them failed and 0 rows completed with warnings.. Started: 11/26/26 12:42 PM. Ended: 11/26/26 12:42 PM.
+Total Objects Processed: 1
+Total Objects Succeeded: 1
+Total Objects Failed: 0
+Total Objects with Warnings: 0
+Total Objects for External Loading: 0
+Request ID: 4,490,001. Status: Completed successfully. Submitted By: <hidden>. Process Date: 11/26/26 12:42 PM.
+IMPORT RESULT: OK (0 failed objects)
+
+--- Read-back: export compare ---
+WSH_SHIPMENT_CHARGE_TYPE.csv: before 0, after 1, FSCRT_HF_GF_ rows added 1 ['FSCRT_HF_GF_SCT1'], existing changed or missing 0
+RESULT: PASS (only prefix rows added, existing changed 0)
+
+REST read-back: none (no REST resource)

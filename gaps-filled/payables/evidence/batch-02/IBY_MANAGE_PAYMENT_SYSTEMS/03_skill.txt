@@ -1,0 +1,16 @@
+03 SKILL - IBY_MANAGE_PAYMENT_SYSTEMS
+File: gaps-filled/payables/manage-payment-systems/SKILL.md
+Sections:
+  # Manage Payment Systems (CSV) - status: failed (create path not proven)
+  ## What it is and when to use
+  ## Placeholders
+  ## Sign-in
+  ## Prerequisites
+  ## Export (read only)
+  ## Build rows (shape tried in sitting 1 - NOT accepted)
+  ## Import
+  ## Read back
+  ## Rules and limits
+Length: 115 lines
+
+-- source: gaps-filled/payables/evidence/batch-02/IBY_MANAGE_PAYMENT_SYSTEMS/03_skill.txt

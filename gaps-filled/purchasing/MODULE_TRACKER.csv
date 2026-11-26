@@ -1,0 +1,12 @@
+task_code,task_name,level,status,skill_written,tested,reason_or_next_step,test_records,working_minutes,date
+PO_MANAGE_HAZARD_CLASSES,Manage Hazard Classes,route only,tested,Y,Y,,"FSCRT_MZ_GF_HC1 (+ fresh/retest records, see STATUS.md)",15,26/11/2026
+PO_MANAGE_APPROVED_SUPPLIER_LIST_STATUSES,Manage Approved Supplier List Statuses,route only,tested,Y,Y,,"FSCRT_MZ_GF_AS1 (+ fresh/retest records, see STATUS.md)",13,26/11/2026
+ORA_MANAGE_EXTERNAL_PURCHASE_PRICES_LOOKUPS,Manage External Purchase Prices Lookups,route only,tested,Y,Y,,"FSCRT_MZ_GF_LK1 (+ fresh/retest records, see STATUS.md)",16,26/11/2026
+PO_MANAGE_PURCHASING_VALUE_SETS,Manage Purchasing Value Sets,route only,tested,Y,Y,,"FSCRT_MZ_GF_VS1 (+ fresh/retest records, see STATUS.md)",17,26/11/2026
+PO_MANAGE_UN_NUMBERS,Manage UN Numbers,route only,tested,Y,Y,,"FSCRT_MZ_GF_UN1 (+ fresh/retest records, see STATUS.md)",16,26/11/2026
+ORA_PO_MANAGE_ASSIGNMENT_RULE_SETS_LOOKUP,Manage Buyer Assignment Rule Sets Lookup,route only,tested,Y,Y,,"FSCRT_MZ_GF_RS1 (+ fresh/retest records, see STATUS.md)",17,26/11/2026
+PO_MANAGE_CHANGE_ORDER_TEMPLATES,Manage Change Order Templates,route only,tested,Y,Y,,"FSCRT_MZ_GF_CO1 (+ fresh/retest records, see STATUS.md)",16,26/11/2026
+ORA_PO_MANAGE_BUYER_ASSIGNMENT_RULES,Manage Buyer Assignment Rules,route only,tested,Y,Y,,"rules 9999 (FSCRT_MZ_GF_RS1, own), 9998 (FSCRT_MZ_GF_RSF, fresh), 10007 (FSCRT_MZ_GF_RS2R, retest R), 10008 (FSCRT_MZ_GF_RS3R, retest 2R); all with ExceedsLineAmount 999999999 (+ fresh/retest records, see STATUS.md)",24,26/11/2026
+PO_MANAGE_PURCHASING_DESCRIPTIVE_FLEXFIELDS,Manage Purchasing Descriptive Flexfields,route only,tested,Y,Y,,"DFF PO_LINE_TYPES contexts FSCRT_MZ_GF_CTX1 (+ fresh/retest records, see STATUS.md)",26,26/11/2026
+ORA_PO_MANAGE_PURCHASING_MESSAGES,Manage Purchasing Messages,neither,screen-only,N,N,catalog CSV flag N; FSCR export refused; REST messages allows get only,,0,25/11/2026
+ORA_SCH_MANAGE_EXTERNAL_PURCHASE_PRICE_APPROVALS,Manage External Purchase Price Approvals,neither,screen-only,N,N,catalog ExportImport N and CSV N; FSCR export refused; no REST resource,,0,25/11/2026

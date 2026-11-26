@@ -1,0 +1,6 @@
+Read-only task export (FSCR shared/setup-export/task-level-export, --data), 24/11/2026:
+  FND_APP_ATTACHMENT_CATEGORY.csv      20 rows  (CategoryName, ApplicationId, Description, ModuleId, UserName + who-columns)
+  ORA_FND_APP_ATTACHMENT_CATEGORY.csv  18 rows  (category to entity links)
+ModuleId for supply orchestration read live by REST: standardLookups, LookupType ORA_DOS_DOCUMENT_TYPE.
+ApplicationId: the value most category rows carry in the same export.
+Prerequisites: none (stand-alone record).

@@ -1,0 +1,5 @@
+05 FRESH TEST
+  F: FSCRT_AK_GF_AGE1F + 3 lines, ProcessId 100004744396714, PASS (header 4 -> 5, lines 13 -> 16, RESULT OK). No errors.
+Own read-back: final export lists AGE1 and AGE1F with lines 1-3 as sent; first vs final: header +2, lines +6, removed/changed 0.
+
+-- source: gaps-filled/payables/evidence/batch-01/AP_MANAGE_AGING_PERIODS/05_fresh_test.txt

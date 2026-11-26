@@ -1,0 +1,184 @@
+SKILL.md after batch 03 fixes
+
+# Collect Planning Data (REST)
+
+Task code: `ORA_MSC_COLLECT_PLANNING_DATA`
+Offering: Supply Chain Planning · Functional area: Supply Chain Planning Configuration
+
+> **Status: written, not fully tested.** A live POST (batch 03, approved) showed that a template is required. No
+> collection has run yet. Starting a collection writes into the planning data repository, which every plan,
+> order promising and order orchestration process in the environment shares. This skill was written from a read-only
+> REST check and Oracle's documentation; the POST step has never been run by its author. Run it only in an
+> environment where you own the planning data (or have the planning owner's approval), never on a shared test
+> environment without that approval.
+
+## What it is and when to use
+
+Collect Planning Data is not a setup record. It starts a **data collection process**: Oracle pulls reference and
+transactional data (items, organizations, units of measure, on-hand, sales orders and so on) from the Oracle Fusion
+source system into staging tables, then loads it into the planning data repository (Oracle docs: *Overview of Data
+Collections for Supply Chain Planning*). Plans, order promising and order orchestration read that repository.
+
+Use this skill when an implementation step says to collect planning data (for example "collect organizations first,
+then reference data") and you want to start and monitor the collection by REST instead of the Collect Planning Data
+page.
+
+- FSM CSV: **not available.** The setup catalog has `CSVExportImportSupportedFlag: N`, and FSCR's task-level export
+  refuses the task. (VERIFIED)
+- REST: `/fscmRestApi/resources/11.13.18.05/dataCollections`. The describe lists collection actions `get` (GET) and
+  `create` (POST), item actions `get` (GET) and `delete` (DELETE), and no child resources. (VERIFIED)
+- Each item is one collection run, keyed by `InstanceId` + `RefreshNumber` (Oracle assigns both). A run has no name,
+  so a test run cannot carry your `<PREFIX>`. (VERIFIED from the describe and a read-only GET)
+
+## Placeholders
+
+| Placeholder | Meaning | Example |
+|---|---|---|
+| `<FSCR_ROOT>` | the FSCR pack folder; run every command from it | |
+| `<RUN>` | a new run folder OUTSIDE the FSCR folder (responses hold user names); create it first with `mkdir -p "<RUN>/logs"` | |
+| `<SOURCE_SYSTEM>` | code of the source system to collect from (the predefined Oracle Fusion source system, or an external one); read it as in Prerequisites step 2 | |
+| `<COLLECTION_TYPE>` | `1` targeted, `2` net change, `3` automatic selection (Oracle's describe text) | `2` |
+| `<ENTITY_LIST>` | not needed: the template sets the entities (see Build rows) | |
+| `<ORG_ID_LIST>` | comma-separated organization ids, or leave out to use the organizations enabled for the source system | |
+| `<TEMPLATE_NAME>` | **required**: a collection template saved on the Collect Planning Data page (VERIFIED: the POST is refused without one) | |
+
+## Sign-in
+
+Sign in with FSCR's PKCE login before you start (skip it if you are already signed in):
+
+```bash
+python core/auth/fusion-oauth-authentication/scripts/fusion_login.py --token-cache auto
+```
+
+Then pass `--token-cache auto --no-open-browser` to every command. On Windows set `PYTHONUTF8=1` (Git Bash:
+`export PYTHONUTF8=1`). In Git Bash, start each `fusion_rest_client.py` command with `MSYS_NO_PATHCONV=1` (otherwise
+`/fscmRestApi/...` is turned into a Windows path), and redirect its output instead of using `--output`. (VERIFIED)
+
+A REST call with an expired sign-in may hang with no output instead of failing (VERIFIED: a GET hung for 2 minutes
+until the sign-in was renewed). Run calls with `timeout 110`. If a call times out, sign in again and repeat it.
+
+**Output stays private.** Responses hold `CreatedBy` / `LastUpdatedBy` (user names) and links with the server address.
+Always redirect responses to `<RUN>/logs` and read them only with the one-line Python summaries below, which never print
+those fields or links.
+
+## Prerequisites
+
+1. **Organizations enabled for collections** on the source system (task *Manage Planning Source Systems*, `MSC_MANAGE_PLANNING_SOURCE_SYSTEMS`: the source
+   system has *Collections allowed* set, and *Enable for Collections* is selected for each organization you collect).
+   Oracle's docs: refresh the organization list, then enable the organizations. (GUESS: not checked live. Changing
+   this is itself a shared setting.)
+2. **Source system code.** Read it from earlier runs (read-only):
+
+   ```bash
+   mkdir -p "<RUN>/logs"
+   MSYS_NO_PATHCONV=1 timeout 110 python core/fusion-api/rest-api-client/scripts/fusion_rest_client.py --method GET /fscmRestApi/resources/11.13.18.05/dataCollections --query limit=25 --query onlyData=true --query "orderBy=CreationDate:desc" --query fields=InstanceId,RefreshNumber,ProcPhase,Status,EntityList,SourceSystem,CollectionType,TemplateName --token-cache auto --no-open-browser > "<RUN>/logs/runs.json" 2> "<RUN>/logs/runs.log"
+   python -c "import json,sys,collections; d=json.load(open(sys.argv[1],encoding='utf-8')); it=d['items']; print('runs:',len(it)); [print(k,v) for k,v in collections.Counter((i.get('SourceSystem'),i.get('CollectionType')) for i in it).items()]; [print(i['RefreshNumber'],i['ProcPhase'],i['Status'],i.get('EntityList')) for i in it[:5]]" "<RUN>/logs/runs.json"
+   ```
+
+   The `fields` list leaves out the user-name columns. (VERIFIED: both commands ran as written and printed
+   `runs: 25`, one count line and five run lines. In the environment checked, all 25 latest runs had `SourceSystem` and
+   `CollectionType` empty: they came from flat-file loads. In that case, read the source system code on the Manage
+   Planning Source Systems page instead.)
+3. **No collection running.** In the output above, the newest run's `ProcPhase` must be `Completed`. Do not start a
+   second collection while one is running. (GUESS that Oracle refuses or queues a parallel run.)
+4. **Approval** from whoever owns the planning data in this environment (see the status note at the top).
+
+## Export
+
+There is no FSM CSV for this task (VERIFIED: FSCR's task-level export stops with `CSVExportImportSupportedFlag` N).
+The read-only "export" is the GET in Prerequisites step 2. Save the newest `RefreshNumber`: it is your "before" value.
+
+## Build rows
+
+Write `<RUN>/body.json` with one collection request. **`TemplateName` is required.** (VERIFIED: a POST with
+`SourceSystem`, `CollectionType` and `EntityList` but no template came back without an error code. Its `Message` was
+`You must enter a value for the TemplateName attribute.`, `ESSCollectionJobId` was empty, and a GET showed that no run
+had been created.)
+
+```json
+{"TemplateName": "<TEMPLATE_NAME>", "SourceSystem": "<SOURCE_SYSTEM>", "CollectionType": <COLLECTION_TYPE>}
+```
+
+- `<TEMPLATE_NAME>`: a collection template saved on the Collect Planning Data page. It sets which entities and filters
+  are collected, so pick or save a template that holds only the entities you mean to collect. No REST resource for
+  templates was found: `dataCollectionTemplates`, `collectionTemplates` and `planningCollectionTemplates` do not exist
+  (VERIFIED). Past runs return `TemplateName` empty, so you cannot read template names from them (VERIFIED).
+- `<SOURCE_SYSTEM>`: Oracle's REST example uses `GPR` for the Oracle Fusion source system (Oracle doc, 26D). The POST
+  above echoed `GPR` back without complaint, but it stopped at the missing template, so whether `GPR` is right in your
+  environment is a GUESS.
+- `<COLLECTION_TYPE>`: lookup `MSC_DATA_COLLECTION_MODE` has `1` Targeted, `2` Net change, `3` Automatic selection
+  (VERIFIED by `standardLookups/MSC_DATA_COLLECTION_MODE/child/lookupCodes`).
+- Entity codes seen in earlier Fusion collections (runs with an `ESSCollectionJobId`) include `UOM_CODES`,
+  `UOM_CONVERSIONS`, `UOM_CLASS_CONVERSIONS`, `ORGANIZATIONS`, `ITEM_ORGS` and `SALES_ORDERS` (VERIFIED). Whether an
+  `EntityList` sent together with a template narrows the template is a GUESS. Do not count on it.
+
+- Add `"OrgIdList": "<ORG_ID_LIST>"` only to limit the run to some enabled organizations.
+- Leave out `InstanceId`, `RefreshNumber`, `ProcPhase`, `Status`, the who-columns and the job ids. The describe marks
+  some of them mandatory, but they describe the run, so Oracle fills them. (GUESS: not seen live, because no POST was
+  sent.)
+- Start small: use a template with few entities. For an initial setup, Oracle's docs advise collecting organizations
+  first.
+
+## Import (starts the collection: unsafe on a shared environment)
+
+```bash
+MSYS_NO_PATHCONV=1 timeout 110 python core/fusion-api/rest-api-client/scripts/fusion_rest_client.py --method POST /fscmRestApi/resources/11.13.18.05/dataCollections --body-file "<RUN>/body.json" --token-cache auto --no-open-browser > "<RUN>/logs/post.json" 2> "<RUN>/logs/post.log"
+python -c "import json,sys; i=json.load(open(sys.argv[1],encoding='utf-8')); print({k:i.get(k) for k in ('InstanceId','RefreshNumber','ProcPhase','Status','ESSCollectionJobId','Message')})" "<RUN>/logs/post.json"
+```
+
+(`--body-file` is the client's option for a JSON body file: VERIFIED in its `--help`. GUESS: Oracle's response to the
+POST, because it was never sent.) Keep the `RefreshNumber`
+and `ESSCollectionJobId`: they identify your run and its scheduled process.
+
+- **The call can "succeed" without starting anything.** The client exits 0 and Oracle returns an item. Only an
+  `ESSCollectionJobId` in the response means a collection started; an empty one plus a `Message` means it was refused,
+  and nothing was created (VERIFIED). Oracle's doc example returns `RefreshNumber` 0 and an `ESSCollectionJobId` on
+  success (GUESS: not seen live).
+
+- POST **once**. If the call times out or the connection drops, do not POST again: wait 2 minutes, then run the GET in
+  Prerequisites step 2 and look for a run newer than your "before" `RefreshNumber`.
+- Never send DELETE on a run.
+
+## Read back
+
+Repeat the GET in Prerequisites step 2 until your run's `ProcPhase` is `Completed` (wait a few minutes between checks).
+
+- Pass: a new run (a `RefreshNumber` above your "before" value) with `Status` `NORMAL`.
+- `WARNING` or `FAILED`: read the `Message` field of that run only. Print just that field; it may name entities or
+  organizations, but no user names.
+- To see the data itself, use the Supply Network Model page or the planning work areas (screen only). (GUESS)
+
+## Other routes checked (batch 03)
+
+- **The page versus REST.** On the Collect Planning Data page only the source system, the collection type and at least
+  one data object are required; a template is optional (Oracle doc *Collection Job Set*). `dataCollections` still
+  refuses a POST without `TemplateName` (VERIFIED). Use the page, or a saved template with REST.
+- **Submitting the scheduled process (erpintegrations `submitESSJobRequest`).** Oracle documents this only for *Load
+  Planning Data from Flat Files* (job package `oracle/apps/ess/scm/advancedPlanning/collection/configuration`, job
+  `CSVController`, with a ZIP of planning CSV files for an external source system). Oracle documents no job name or
+  parameter list for the Fusion-source Collection Job Set. A past run's parameters cannot be read either: the ESS
+  request endpoint returns 404, and the `erpintegrations` `ESSJobStatusRF` finder returns no job name or parameters
+  (VERIFIED). Do not guess positional parameters: a wrong list can start a much larger collection.
+- Oracle's rules for the job set: one collection at a time, and a net-change run needs an earlier targeted run of the
+  same entities (Oracle doc).
+
+## Rules and limits
+
+- Unsafe on a shared environment: a collection changes data that other people's plans use. Never run it there without
+  the planning owner's approval.
+- Collection runs carry no name, so a test run cannot be marked with a test prefix. Your only trace is the
+  `RefreshNumber`.
+- One collection at a time. POST once.
+- Read-only GET calls are safe at any time.
+- At the end, check that nothing you started is still running: `tasklist //FI "IMAGENAME eq python.exe"` (Git Bash on
+  Windows; `pgrep -l python` on Mac) shows no Python from this run, and `netstat -ano | grep ":8765 " | grep LISTEN`
+  prints nothing.
+
+## Worked example
+
+Batch 03 sent one POST: `{"SourceSystem": "GPR", "CollectionType": 2, "EntityList": "UOM_CODES"}`. Oracle refused it with
+`You must enter a value for the TemplateName attribute.` No job was submitted, and the newest run stayed the same
+(VERIFIED). Earlier, in batch 02, nothing was loaded. Read-only checks only: the GET returned earlier collection runs (`ProcPhase` `Completed`,
+`Status` `NORMAL`, `EntityList` values such as `ALL` and `ITEM,ORDORCHREFOBJ,ORGPARAM,UOM,ONHAND,SALESORD`). The
+describe showed POST (`create`) on the collection and DELETE on an item. FSCR's FSM export refused the task (CSV flag N).
+No ProcessId exists because nothing was imported.

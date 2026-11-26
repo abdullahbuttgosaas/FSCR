@@ -1,0 +1,6 @@
+Own live test, 25/11/2026. New rule set code FSCRT_MZ_GF_RS1 in lookup type PO_BUYER_ASSIGN_RULE_SETS.
+Try 1 (code row only) ProcessId 100004743404860: 'Parent row is missing in file FND_APP_STANDARD_LOOKUP.csv ... Row will be skipped'; 0 rows processed; nothing created.
+Diagnosis: hierarchical package; child processed only with its parent row in the same ZIP. Fix: parent type row read live by REST and sent unchanged.
+Try 2 ProcessId 100004743404898: Application Standard Lookup, Completed successfully, 2 rows processed, 0 failed.
+REST proof: parent type unchanged: True; existing codes (DEFAULT) unchanged: True; codes before ['DEFAULT'], after ['DEFAULT', 'FSCRT_MZ_GF_RS1'].
+After-export ProcessId 100004743404936: existing removed or changed 0 in both CSVs; the export now also lists the unchanged parent and the seeded DEFAULT code (before-export was empty), so 'added without prefix' is 1 per CSV, as expected.

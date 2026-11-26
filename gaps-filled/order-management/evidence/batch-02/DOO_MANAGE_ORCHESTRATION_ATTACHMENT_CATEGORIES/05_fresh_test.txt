@@ -1,0 +1,5 @@
+Manage Order Attachment Categories (DOO_MANAGE_ORCHESTRATION_ATTACHMENT_CATEGORIES) - 05_fresh_test
+
+FSCRT_AK_GF_ACF: export 100004743456843, import 100004744433698, after-export 100004744433765: 2 new rows, 0 changed. PASS, no wrong sentence.
+
+Source: gaps-filled//order-attachment-categories

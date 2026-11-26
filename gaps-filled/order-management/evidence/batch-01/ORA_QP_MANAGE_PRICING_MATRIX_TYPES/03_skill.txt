@@ -1,0 +1,5 @@
+Manage Pricing Matrix Types (ORA_QP_MANAGE_PRICING_MATRIX_TYPES) - 03_skill
+
+gaps-filled/order-management/pricing-matrix-types/SKILL.md written: placeholders, sign-in, prerequisites, export, build rows, import, read back, rules, worked example. Route: FSM CSV load; REST pricingMatrixTypes read-back.
+
+Source: gaps-filled//pricing-matrix-types

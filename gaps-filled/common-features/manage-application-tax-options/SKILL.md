@@ -12,7 +12,7 @@ dataloader_import_mode: "FSM"
 type: "import"
 execution_mode: "hybrid"
 owner_team: "GoSaaS"
-version: "0.1.1"
+version: "0.1.2"
 depends_on:
   - "core.auth.fusion-oauth-authentication"
   - "shared.setup-export.task-level-export"
@@ -24,7 +24,9 @@ side_effects:
 
 # Manage Application Tax Options (GoSaaS gap fill)
 
-> **STATUS: FAILED (2026-11-26). Do not use this skill to load real options.** The fresh test proved that the import does not tie the row to the business unit named in `Name`: a brand-new business unit (`GAPFILL_AB_B15_BU2F`, ProcessId 100004743432577) and a business unit name that does not exist (`GAPFILL_AB_B15_NOSUCHBU`, ProcessId 100004744415341) are both refused with `ZX_APPL_OU_UNIQUE`. So the first load (try 1 below) most likely stored a row whose business unit Oracle did not resolve, and every later AP row collides with it. The refusal in Step 4 is therefore **not** proof. Open questions: which column Oracle uses to find the business unit (the export has `EnterpriseId`, `EventClassCode`, `EntityCode` too) and whether the try-1 row is visible on the page (check Manage Application Tax Options in the page for application AP). Next step: look on the page, then retry with the identifier column Oracle expects.
+> **STATUS: SCREEN-ONLY (2026-11-26). Do not use this skill to load options.** The CSV route only creates a row with a **blank** business unit: the package's 34 columns have no business unit ID or code, legal entity, ledger or set column, and `Name` is not used for the key. Set application tax options on the Manage Application Tax Options page. The steps below stay only as a guide to the package and to what was tried.
+>
+> History: FAILED (2026-11-26). The fresh test proved that the import does not tie the row to the business unit named in `Name`: a brand-new business unit (`GAPFILL_AB_B15_BU2F`, ProcessId 100004743432577) and a business unit name that does not exist (`GAPFILL_AB_B15_NOSUCHBU`, ProcessId 100004744415341) are both refused with `ZX_APPL_OU_UNIQUE`. So the first load (try 1 below) most likely stored a row whose business unit Oracle did not resolve, and every later AP row collides with it. The refusal in Step 4 is therefore **not** proof. Open questions: which column Oracle uses to find the business unit (the export has `EnterpriseId`, `EventClassCode`, `EntityCode` too) and whether the try-1 row is visible on the page (check Manage Application Tax Options in the page for application AP). **Read-only check (2026-11-26):** the error line `Row Identifier: 200, .` shows the key Oracle checks is application 200 with an **empty** business unit; so try 1 left ONE Payables row with no business unit. It cannot be changed or deleted by CSV; remove it on the page (Manage Application Tax Options, Payables, business unit blank). Next step: after that, find the column Oracle uses for the business unit before any new try.
 
 > **Added by GoSaaS, not part of official FSCR.** FSCR's catalog only routes this task (CSV flag Y). This skill runs FSCR's scripts in place and edits no FSCR file.
 > Labels: **VERIFIED** = seen live (2026-11-26) · **GUESS** = not run live.

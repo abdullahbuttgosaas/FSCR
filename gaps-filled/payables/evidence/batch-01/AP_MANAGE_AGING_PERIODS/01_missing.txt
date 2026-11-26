@@ -1,0 +1,8 @@
+01 MISSING - AP_MANAGE_AGING_PERIODS
+Task: Manage Aging Periods
+Module: Payables
+Coverage level in evidence/Payables/data/scope_tasks.csv: b (route only); FSCR skill or guide: none
+Catalog CSV export/import flag: Y
+Source: evidence/Payables/data/scope_tasks.csv
+
+-- source: gaps-filled/payables/evidence/batch-01/AP_MANAGE_AGING_PERIODS/01_missing.txt

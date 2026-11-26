@@ -1,0 +1,30 @@
+Own live test, record FSCRT_HF_GF_RSR1.
+
+--- Own test import 1 (ProcessId 100004743455865) ---
+Business object: Pick Sequence Rule. Status: Completed with errors. Status details: JBO-26041: Failed to post data to database during \"Insert\": SQL Statement \"INSERT INTO WSH_PICK_SEQUENCE_RULES_B(PICK_SEQUENCE_RULE_ID,ORDER_ID_PRIORITY,ORDER_ID_SORT,START_DATE_ACTIVE,CREATION_DATE,CREATED_BY,LAST_UPDATE_DATE,LAST_UPDATED_BY,LAST_UPDATE_LOGIN,OBJECT_VERSION_NUMBER) VALUES (:1,:2,:3,:4,:5,:6,:7,:8,:9,:10)\".
+Detail Object: PickSequenceRule. Status: Completed successfully. Status Details: A total of 1 rows were processed. 0 rows of them failed and 0 rows completed with warnings.. Started: 11/26/26 12:40 PM. Ended: 11/26/26 12:40 PM.
+Total Objects Processed: 1
+Total Objects Succeeded: 0
+Total Objects Failed: 1
+Total Objects with Warnings: 0
+Total Objects for External Loading: 0
+Request ID: 4,489,985. Status: Completed with errors. Submitted By: <hidden>. Process Date: 11/26/26 12:40 PM.
+IMPORT RESULT: NOT OK (see the lines above)
+
+--- Own test import 2 (ProcessId 100004744434147) ---
+Business object: Pick Sequence Rule. Status: Completed successfully. Status details:
+Detail Object: PickSequenceRule. Status: Completed successfully. Status Details: A total of 1 rows were processed. 0 rows of them failed and 0 rows completed with warnings.. Started: 11/26/26 12:42 PM. Ended: 11/26/26 12:42 PM.
+Total Objects Processed: 1
+Total Objects Succeeded: 1
+Total Objects Failed: 0
+Total Objects with Warnings: 0
+Total Objects for External Loading: 0
+Request ID: 4,490,002. Status: Completed successfully. Submitted By: <hidden>. Process Date: 11/26/26 12:42 PM.
+IMPORT RESULT: OK (0 failed objects)
+
+--- Read-back: export compare ---
+WSH_PICK_SEQUENCE_RULE.csv: before 8, after 9, FSCRT_HF_GF_ rows added 1 ['FSCRT_HF_GF_RSR1'], existing changed or missing 0
+WSH_PICK_SEQUENCE_RULE_TRANSLATION.csv: before 8, after 9, FSCRT_HF_GF_ rows added 1 ['FSCRT_HF_GF_RSR1'], existing changed or missing 0
+RESULT: PASS (only prefix rows added, existing changed 0)
+
+REST read-back: none (no REST resource)

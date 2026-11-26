@@ -1,0 +1,8 @@
+04 TEST RESULT - own live test
+Record: FSCRT_AK_GF_TOL1 (QUANTITY BASED, price 2, quantity 5, received 5)
+Import ProcessId 100004744396658: Invoice Tolerance Set, 1 row processed, 0 failed.
+Compare: AP_TOLERANCE_TEMPLATE.csv: before 3, after 4, added 1, removed/changed 0
+  RESULT: OK - only prefix rows added, nothing removed or changed
+REST read-back: toleranceName FSCRT_AK_GF_TOL1, toleranceType QUANTITY BASED, priceTolerance 2, quantityTolerance 5, quantityReceivedTolerance 5
+
+-- source: gaps-filled/payables/evidence/batch-01/AP_MANAGE_INVOICE_TOLERANCES/04_test_result.txt

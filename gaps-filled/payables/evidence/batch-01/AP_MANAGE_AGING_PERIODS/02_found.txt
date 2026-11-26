@@ -1,0 +1,10 @@
+02 FOUND - AP_MANAGE_AGING_PERIODS
+Read-only FSM setup-data export, ProcessId 100004744393907.
+Package: ASM_SETUP_CSV_METADATA.xml +
+  AP_AGING_PERIOD.csv (3 rows): PeriodName, Description, Status, AttributeCategory, Attribute1-15, who/date columns
+  AP_AGING_PERIOD_LINE.csv (10 rows): AP_AGING_PERIOD.PeriodName, PeriodSequenceNum, DaysStart, DaysTo, Type,
+    ReportHeading1-3, AttributeCategory, Attribute1-15, who/date columns
+Line types in the data: PAST 9, CURRENT 1. Open-ended last column uses DaysTo 999999999.
+REST: payablesAgingPeriods 404, agingPeriods 404.
+
+-- source: gaps-filled/payables/evidence/batch-01/AP_MANAGE_AGING_PERIODS/02_found.txt

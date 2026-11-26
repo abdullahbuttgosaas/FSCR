@@ -1,0 +1,7 @@
+02 FOUND - IBY_MANAGE_PAYMENT_CODES
+Read-only FSM setup-data export, ProcessId 100004744396903.
+Package: ASM_SETUP_CSV_METADATA.xml + IBY_PAYMENT_CODE.csv (365 rows, 16 cols) + IBY_PAYMENT_CODE_TRANSLATION.csv (365 rows, 13 cols)
+Types: PAYMENT_REASON 200, DELIVERY_CHANNEL 84, LOCAL_INSTRUMENT 37, BANK_INSTRUCTION 33, SERVICE_LEVEL 11 (all SeededFlag N).
+REST: paymentCodesLOV (GET) reads payment codes.
+
+-- source: gaps-filled/payables/evidence/batch-02/IBY_MANAGE_PAYMENT_CODES/02_found.txt

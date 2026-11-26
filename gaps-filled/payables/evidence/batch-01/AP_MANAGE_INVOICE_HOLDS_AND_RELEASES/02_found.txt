@@ -1,0 +1,11 @@
+02 FOUND - AP_MANAGE_INVOICE_HOLDS_AND_RELEASES
+Read-only FSM setup-data export (FSCR task-level-export --data), ProcessId 100004744396624.
+Package: ASM_SETUP_CSV_METADATA.xml + AP_HOLD_CODE.csv (109 rows, 17 columns):
+  HoldLookupCode, HoldType, LastUpdateDate, LastUpdatedBy, UserReleaseableFlag, UserUpdateableFlag, InactiveDate,
+  PostableFlag, LastUpdateLogin, CreationDate, CreatedBy, ExternalDescription, HoldInstruction, WaitBeforeNotifyDays,
+  ReminderDays, InitiateWorkflowFlag, DspDescription
+Hold types in the data: INVOICE HOLD REASON 27, MATCHING HOLD REASON 24, INVOICE RELEASE REASON 19, LINE HOLD REASON 8, ...
+REST: payablesHoldCodes 404, invoiceHoldCodes 404 (no setup REST resource).
+Oracle doc: Implementing Payables Invoice to Pay > Invoice Holds and Releases (user-defined types).
+
+-- source: gaps-filled/payables/evidence/batch-01/AP_MANAGE_INVOICE_HOLDS_AND_RELEASES/02_found.txt

@@ -1,0 +1,5 @@
+Manage Jeopardy Priorities (DOO_MANAGE_JEOPARDY_PRIORITIES) - 03_skill
+
+gaps-filled/order-management/jeopardy-priorities/SKILL.md written: placeholders, sign-in, prerequisites, export, build rows, import, read back, rules, worked example. Route: FSM CSV (task-level export/import); no REST resource (jeopardyPriorities 404).
+
+Source: gaps-filled//jeopardy-priorities

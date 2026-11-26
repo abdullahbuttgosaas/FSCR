@@ -1,0 +1,9 @@
+Read-only task-level export (--data) before the test: files, columns and row counts.
+
+[file] ASM_SETUP_CSV_METADATA.xml
+
+== FND_APP_STANDARD_LOOKUP.csv: 13 row(s)
+   columns: LookupType, Meaning, Description, CreatedBy, CreationDate, LastUpdatedBy, LastUpdateDate, LastUpdateLogin, ModuleId, CustomizationLevel, RestAccessSecured, BossAppPackageName, BossAppPackageVersion, BossModuleName, BossIdentifier
+
+== ORA_FND_APP_STANDARD_LOOKUP_CODE.csv: 26 row(s)
+   columns: FND_APP_STANDARD_LOOKUP.LookupType, LookupCode, Meaning, Description, EnabledFlag, StartDateActive, EndDateActive, DisplaySequence, CreatedBy, CreationDate, LastUpdatedBy, LastUpdateDate, LastUpdateLogin, Tag

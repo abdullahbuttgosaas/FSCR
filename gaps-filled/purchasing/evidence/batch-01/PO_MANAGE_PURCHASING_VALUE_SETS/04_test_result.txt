@@ -1,0 +1,8 @@
+Own live test, 25/11/2026. Value set FSCRT_MZ_GF_VS1 (INDEP, VARCHAR2, TEXT, max 20) with value FSCRT_MZ_GF_V1; module ID read live from ORA_PO_* lookup types.
+Import ProcessId 100004743402716: Application Flexfield Value Set, Completed successfully, 2 rows processed, 0 failed.
+After-export ProcessId 100004743405729:
+FND_APP_FLEX_VALUE_SET.csv: before 0, after 1, added 1 ['FSCRT_MZ_GF_VS1'], existing removed or changed 0, added without prefix 0
+ORA_FND_APP_FLEX_VALUE_SET_VALUE.csv: before 0, after 1, added 1 ['FSCRT_MZ_GF_VS1'], existing removed or changed 0, added without prefix 0
+(4 other CSVs: 0 -> 0)
+RESULT: only prefix rows added; existing rows unchanged
+REST valueSets q=ValueSetCode='FSCRT_MZ_GF_VS1': 1 item, ValidationType INDEP, MaximumLength 20

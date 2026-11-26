@@ -1,0 +1,8 @@
+02 FOUND - AP_MANAGE_TAX_REGIONS
+Read-only FSM setup-data export, ProcessId 100004743425936.
+Package: ASM_SETUP_CSV_METADATA.xml + AP_INCOME_TAX_REGION.csv (56 rows, 27 cols): RegionShortName, RegionCode, RegionLongName,
+  ReportingLimit, NumOfPayees, ControlTotal1-10, ActiveDate, InactiveDate, ReportingLimitMethodCode, ControlTotal13-15b, who/date columns
+Short names are 2 characters (US states); methods FEDERAL 43, INDIVIDUAL 12, SUM 1.
+REST: payablesIncomeTaxRegions (GET; attributes state, regionName, reportingLimitMethod).
+
+-- source: gaps-filled/payables/evidence/batch-02/AP_MANAGE_TAX_REGIONS/02_found.txt

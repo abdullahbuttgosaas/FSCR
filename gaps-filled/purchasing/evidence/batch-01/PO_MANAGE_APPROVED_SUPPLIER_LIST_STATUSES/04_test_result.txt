@@ -1,0 +1,5 @@
+Own live test, 25/11/2026. Record FSCRT_MZ_GF_AS1.
+Import ProcessId 100004743402666: Approved Supplier List Status, Completed successfully, 1 processed, 0 failed.
+After-export ProcessId 100004743405690:
+PO_APPROVED_SUPPLIER_LIST_STATUS.csv: before 1, after 2, added 1 ['FSCRT_MZ_GF_AS1'], existing removed or changed 0, added without prefix 0
+RESULT: only prefix rows added; existing rows unchanged

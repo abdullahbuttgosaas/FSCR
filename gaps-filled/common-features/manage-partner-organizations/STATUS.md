@@ -1,14 +1,14 @@
 task_code: HZ_MANAGE_PARTNER_ORGANIZATIONS
 task_name: Manage Partner Organizations
 module: Common Features
-status: written
+status: failed
 filled_by: AB
-date: 2026-11-25
+date: 2026-11-26
 minutes_to_write: 6
-minutes_to_test: 0
+minutes_to_test: 6
 waiting_minutes: 2
-fresh_claude_pass: not run
+fresh_claude_pass: not run (failed before a working step)
 route: REST crmRestApi partners (get, create, upsert, runAssignment); no FSM CSV (export refused)
 depends_on: an owner resource (CRM resource of a person)
-test_records: none (POST GAPFILL_AB_B9_PRT1 refused: ResourceId required; nothing created)
-notes: Batch 09. unsafe to test: a partner must have an owner ResourceId (HTTP 400 without it, VERIFIED); the sign-in user is not a CRM resource (VERIFIED), so a test partner would be owned by a real colleague, who would see it and get its assignment work. Read steps VERIFIED; create GUESS. Next step: load-test only on an environment we own (or with our own resource), with written approval. Re-judged 2026-11-25 (sitting 4, new unsafe rule): needs an owner resource; the safe way is our own test worker made a resource (after Import Worker Users); long chain, planned next.
+test_records: none created: POST GAPFILL_AB_B9_PRT1 (2026-11-25, no owner) and GAPFILL_AB_B21_PRT1 twice (2026-11-26: ResourceId attribute invalid; OwnerPartyNumber of own resource GAPFILL_AB_B20_RM1 refused 'Provide a valid value for ResourceId'); GET 0 rows
+notes: Batch 21 (sitting 9). Was written-untested (SAFE WAY FOUND, sitting 8). Tested 2026-11-26 with an own owner resource (GAPFILL_AB_B20_RM1, active, no user account): Oracle refused the owner, nothing created. FAILED. Next step: an owner resource with a user account (e.g. the Import Worker Users test worker made a resource), with approval.

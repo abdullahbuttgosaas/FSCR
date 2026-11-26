@@ -1,0 +1,6 @@
+Manage Status Values (DOO_MANAGE_STATUS_VALUES) - 05_fresh_test
+
+FSCRT_AK_GF_STF: export 100004743456389, import 100004744431303, after-export 100004743455676: 2 new rows, 0 changed. PASS.
+FSCRT_AK_GF_STR: export 100004744432727, import 100004744431579, after-export 100004744431734: 2 new rows, 0 changed. PASS, no wrong sentence.
+
+Source: gaps-filled//status-values

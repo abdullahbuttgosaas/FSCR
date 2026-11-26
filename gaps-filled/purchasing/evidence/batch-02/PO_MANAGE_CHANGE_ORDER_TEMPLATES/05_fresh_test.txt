@@ -1,0 +1,7 @@
+Fresh tests: each by a new sub-agent with no context, given only the task name, the SKILL.md path, the FSCR root, the prefix, a new record name, a run folder and the approval.
+
+F: record FSCRT_MZ_GF_COF; import ProcessId 100004744392093; after-export ProcessId 100004744393058; PASS; reported --rows sample concern, source template choice, ProcessId order
+2R: record FSCRT_MZ_GF_CO2R; import ProcessId 100004743436232; after-export ProcessId 100004743448005; PASS; no wrong sentence
+3R: record FSCRT_MZ_GF_CO3R; import ProcessId 100004744422018; after-export ProcessId 100004744422033; PASS; no wrong sentence
+
+I read the final retest records back myself from the testers' after-exports (compare_fsm_exports.py): only prefix rows added, existing rows unchanged.

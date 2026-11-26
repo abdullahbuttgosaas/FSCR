@@ -1,0 +1,12 @@
+Read-only task-level export (--data) before the test: files, columns and row counts.
+
+[file] ASM_SETUP_CSV_METADATA.xml
+
+== INV_INVENTORY_STATUS.csv: 51 row(s)
+   columns: StatusCode, EnabledFlag, ZoneControl, LocatorControl, LotControl, SerialControl, Description, InventoryAtpCode, AvailabilityType, ReservableType, StatusAssigned
+
+== INV_INVENTORY_STATUS_TRANSACTION_CONTROL.csv: 1445 row(s)
+   columns: INV_INVENTORY_STATUS.StatusCode, TransactionTypeName, IsAllowed
+
+== INV_INVENTORY_STATUS_TRANSLATION.csv: 51 row(s)
+   columns: INV_INVENTORY_STATUS.StatusCode, StatusCode, Description, Language, SourceLang

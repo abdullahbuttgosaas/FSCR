@@ -1,0 +1,8 @@
+04 TEST RESULT - own live test
+Record: FSCRT_AK_GF_AGE1 + 3 lines
+Import ProcessId 100004744404007: Aging Period Header 1 row processed, 0 failed; Aging Period Line processed under the header.
+Compare: AP_AGING_PERIOD.csv before 3, after 4, added 1, removed/changed 0
+         AP_AGING_PERIOD_LINE.csv before 10, after 13, added 3, removed/changed 0
+         RESULT: OK - only prefix rows added, nothing removed or changed
+
+-- source: gaps-filled/payables/evidence/batch-01/AP_MANAGE_AGING_PERIODS/04_test_result.txt

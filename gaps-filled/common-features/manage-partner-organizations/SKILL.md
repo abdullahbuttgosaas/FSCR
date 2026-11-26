@@ -11,7 +11,7 @@ task_name: "Manage Partner Organizations"
 type: "rest"
 execution_mode: "hybrid"
 owner_team: "GoSaaS"
-version: "0.1.0"
+version: "0.1.1"
 status: "written (unsafe to test on a shared environment)"
 depends_on:
   - "core.auth.fusion-oauth-authentication"
@@ -87,3 +87,8 @@ Step 2 with `q=OrganizationName='<NAME>'` and `fields=PartyNumber,OrganizationNa
 |---|---|---|
 | 1 | POST `GAPFILL_AB_B9_PRT1`, country US, no owner | refused: `HTTP 400 Provide a valid value for ResourceId`; GET: 0 rows, nothing created (VERIFIED) |
 | owner check | the sign-in user's own resource | 0 rows: the user is not a resource; create step stopped (unsafe to borrow another person's resource) |
+| 2 (2026-11-26) | POST `GAPFILL_AB_B21_PRT1`, US, `"ResourceId": <own test resource PartyId>` | refused: `HTTP 400 Invalid attribute "ResourceId" in the payload` (VERIFIED: `ResourceId` is not a partners attribute; describe lists `OwnerPartyNumber`) |
+| 3 (2026-11-26) | same, `"OwnerPartyNumber": <own test resource party number>` (resource `GAPFILL_AB_B20_RM1`, made by manage-resource-org-members, active, no user account) | refused: `HTTP 400 Provide a valid value for ResourceId.`; GET afterwards 0 rows, nothing created (VERIFIED) |
+
+**Result 2026-11-26: failed.** Oracle does not accept a CRM resource without a user account as the partner owner through REST (GUESS for the cause: the owner is taken from, or checked against, a resource with a sign-in user, or it needs a channel role). Next try: an owner resource that has a user account (for example the Import Worker Users test worker made a resource), with the person's approval.
+

@@ -30,7 +30,7 @@ KEYS = ['task_code', 'task_name', 'module', 'status', 'filled_by', 'date', 'minu
         'minutes_to_test', 'waiting_minutes', 'fresh_claude_pass', 'route', 'depends_on',
         'test_records', 'notes']
 OPTIONAL = ['retest_after_wording_fix']
-CARD_STATUS = {'tested', 'written', 'failed', 'screen-only'}  # screen-only card: a route was tried and proven not to work
+CARD_STATUS = {'tested', 'written', 'failed', 'screen-only', 'open'}  # screen-only card: a route was tried and proven not to work; open card: set back to open with its findings (verification run 2026-11-26)
 SKIP_DIRS = {'evidence'}  # also skipped: names starting with '_' or '.' (work and shared folders)
 
 problems = []
@@ -70,7 +70,7 @@ def read_card(path):
     if not missing and [k for k in order if k in KEYS] != KEYS:
         warnings.append(f'{rel(path)}: keys are not in the standard order')
     if data.get('status') and data['status'] not in CARD_STATUS:
-        problems.append(f'{rel(path)}: unknown status "{data["status"]}" (use tested, written or failed)')
+        problems.append(f'{rel(path)}: unknown status "{data["status"]}" (use tested, written, failed, screen-only or open)')
         bad = True
     if data.get('module') and data['module'] not in MODULES:
         problems.append(f'{rel(path)}: module "{data["module"]}" is not one of the 19 tracker modules')
@@ -142,6 +142,10 @@ def main():
             problems.append(f'{rel(c["_path"])}: module "{c["module"]}" but gap_index.csv says "{r[col["module"]]}"')
             continue
         def put(name, value):
+            if name == 'date':  # some colleague cards write dd/mm/yyyy; the index keeps yyyy-mm-dd
+                d = value.split('/')
+                if len(d) == 3 and len(d[2]) == 4 and d[0].isdigit() and d[1].isdigit():
+                    value = f'{d[2]}-{int(d[1]):02d}-{int(d[0]):02d}'
             r[col[name]] = '' if value in ('unknown', 'none') else value
         put('status', c['status'])
         put('skill_path', c['_skill'])

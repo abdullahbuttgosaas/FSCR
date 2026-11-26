@@ -1,0 +1,5 @@
+Manage Pricing Results Presentations (ORA_QP_MANAGE_PRICING_RESULTS_PRESENTATIONS) - 01_missing
+
+FSCR coverage (evidence/Order Management/data/coverage.csv, scope_tasks.csv): level 'route only' - FSCR declares an FSM CSV route but has no skill or guide for this task.
+
+Source: gaps-filled//pricing-results-presentations

@@ -1,0 +1,7 @@
+Own live test, 24/11/2026
+Record: FSCRT_IR_GF_AC1
+Import ProcessId: 100004742420025 - Completed successfully; FndDocumentCategoriesVLSD: 1 row processed, 0 failed.
+Read back (after-export compared with before-export, who-columns ignored):
+  FND_APP_ATTACHMENT_CATEGORY.csv: 20 -> 21, added 1 (FSCRT_IR_GF_AC1), removed/changed 0
+  ORA_FND_APP_ATTACHMENT_CATEGORY.csv: 18 -> 18, added 0, removed/changed 0
+Result: PASS

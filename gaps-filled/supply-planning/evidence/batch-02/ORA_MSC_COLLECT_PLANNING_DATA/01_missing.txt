@@ -1,0 +1,5 @@
+Task: Collect Planning Data (ORA_MSC_COLLECT_PLANNING_DATA)
+Module: Supply Planning (tracker row), functional area Supply Chain Planning Configuration, offering Supply Chain Planning
+Gap: level "neither" (c) in scope_tasks.csv: no FSCR skill or guide, no declared route; Oracle catalog CSV flag N.
+Source: evidence/Supply Planning/data/coverage.csv (6 of 17 tasks missing) and scope_tasks.csv (module test, 18/11/2026).
+Earlier sitting (batch 01): skipped as unsafe without a skill; re-opened in batch 02.

@@ -1,0 +1,9 @@
+Read-only checks, 25/11/2026 (sign-in with the tester's own login; no values shown)
+FSCR task-level export (--data): succeeded. Files, headers and row counts (no rows shown):
+[csv] FND_APP_STANDARD_LOOKUP.csv: 0 row(s)
+  header: ['LookupType', 'Meaning', 'Description', 'CreatedBy', 'CreationDate', 'LastUpdatedBy', 'LastUpdateDate', 'LastUpdateLogin', 'ModuleId', 'CustomizationLevel', 'RestAccessSecured', 'BossAppPackageName', 'BossAppPackageVersion', 'BossModuleName', 'BossIdentifier']
+[csv] ORA_FND_APP_STANDARD_LOOKUP_CODE.csv: 0 row(s)
+  header: ['FND_APP_STANDARD_LOOKUP.LookupType', 'LookupCode', 'Meaning', 'Description', 'EnabledFlag', 'StartDateActive', 'EndDateActive', 'DisplaySequence', 'CreatedBy', 'CreationDate', 'LastUpdatedBy', 'LastUpdateDate', 'LastUpdateLogin', 'Tag']
+[file] ASM_SETUP_CSV_METADATA.xml
+
+REST: standardLookups/PO_BUYER_ASSIGN_RULE_SETS (+ child lookupCodes): read-back and unchanged-parent proof

@@ -1,0 +1,8 @@
+Fresh tests: each by a new sub-agent with no context, given only the task name, the SKILL.md path, the FSCR root, the prefix, a new record name, a run folder and the approval.
+
+F: record FSCRT_MZ_GF_ASF; import ProcessId 100004743404886; after-export ProcessId 100004743402872; PASS; reported --match wording, length and description unclear, listener stop missing
+R: record FSCRT_MZ_GF_ASR; import ProcessId 100004744391092; after-export ProcessId 100004744393044; PASS; no wrong sentence
+2R: record FSCRT_MZ_GF_A2R; import ProcessId 100004743436222; after-export ProcessId 100004744415960; PASS; noted COMMON prose slip S/log_summary.py
+3R: record FSCRT_MZ_GF_A3R; import ProcessId 100004743447599; after-export ProcessId 100004744417655; PASS; no wrong sentence
+
+I read the final retest records back myself from the testers' after-exports (compare_fsm_exports.py): only prefix rows added, existing rows unchanged.

@@ -1,0 +1,12 @@
+Read-only checks, 24/11/2026 (batch 02)
+
+FSM CSV: FSCR task-level export refused the task (CSVExportImportSupportedFlag N). No ZIP was written.
+REST: /fscmRestApi/resources/11.13.18.05/dataCollections exists.
+  describe: 29 attributes; collection actions get (GET) and create (POST); item actions get (GET) and delete (DELETE); no children.
+  GET (25 newest runs): all ProcPhase Completed, Status NORMAL; SourceSystem and CollectionType empty (flat-file loads);
+  EntityList values seen: ALL; ITEM,ORGPARAM; ITEM,ORDORCHREFOBJ,ORGPARAM,UOM,ONHAND,SALESORD; and a longer list.
+Decision: not screen-only (REST POST exists). Unsafe to test: a POST starts a collection into the planning data
+repository that every plan, order promising and order orchestration process on the shared environment uses.
+A collection run has no name, so it cannot carry the FSCRT_IR_GF_ test prefix.
+Oracle docs read: Overview of Data Collections for Supply Chain Planning; Manage Planning Source Systems for Data
+Collections; Considerations for Enabling Organizations for Data Collections (26D).

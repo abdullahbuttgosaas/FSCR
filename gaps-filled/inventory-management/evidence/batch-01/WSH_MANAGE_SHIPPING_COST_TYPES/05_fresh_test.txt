@@ -1,0 +1,27 @@
+Fresh sub-agent tests (given only the task name, the SKILL.md path, FSCR root, prefix, record name, run folder and approval).
+
+Fresh test F: record FSCRT_HF_GF_SCT1F, ProcessId 100004744433483
+  IMPORT RESULT: OK (0 failed objects)
+  WSH_SHIPMENT_CHARGE_TYPE.csv: before 1, after 2, FSCRT_HF_GF_ rows added 1 ['FSCRT_HF_GF_SCT1F'], existing changed or missing 0
+  RESULT: PASS (only prefix rows added, existing changed 0)
+  Read back by Claude (export compare above). Result: PASS
+
+Fresh test R: record FSCRT_HF_GF_SCT1R, ProcessId 100004744435209
+  IMPORT RESULT: OK (0 failed objects)
+  WSH_SHIPMENT_CHARGE_TYPE.csv: before 2, after 3, FSCRT_HF_GF_ rows added 1 ['FSCRT_HF_GF_SCT1R'], existing changed or missing 0
+  RESULT: PASS (only prefix rows added, existing changed 0)
+  Read back by Claude (export compare above). Result: PASS
+
+Fresh test R2: record FSCRT_HF_GF_SCT2R, ProcessId 100004744435268
+  IMPORT RESULT: OK (0 failed objects)
+  WSH_SHIPMENT_CHARGE_TYPE.csv: before 3, after 4, FSCRT_HF_GF_ rows added 1 ['FSCRT_HF_GF_SCT2R'], existing changed or missing 0
+  RESULT: PASS (only prefix rows added, existing changed 0)
+  Read back by Claude (export compare above). Result: PASS
+
+Fresh test R3: record FSCRT_HF_GF_SCT3R, ProcessId 100004743458601
+  IMPORT RESULT: OK (0 failed objects)
+  WSH_SHIPMENT_CHARGE_TYPE.csv: before 4, after 5, FSCRT_HF_GF_ rows added 1 ['FSCRT_HF_GF_SCT3R'], existing changed or missing 0
+  RESULT: PASS (only prefix rows added, existing changed 0)
+  Read back by Claude (export compare above). Result: PASS
+
+Wording fixes between runs: see CHANGELOG.md. The last run reported no wrong sentence.

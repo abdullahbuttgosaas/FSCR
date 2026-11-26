@@ -1,0 +1,7 @@
+Own live test, 25/11/2026. Template FSCRT_MZ_GF_CO1: header + US translation + 132 attribute rows copied from the existing user template in the before-export (round trip).
+Import ProcessId 100004744391044: Purchasing Change Order Template, Completed successfully, 1 processed, 0 failed; attributes processed with the header.
+After-export ProcessId 100004743404958:
+PO_CHANGE_ORDER_TEMPLATE.csv: before 1, after 2, added 1 ['FSCRT_MZ_GF_CO1'], existing removed or changed 0, added without prefix 0
+PO_CHANGE_ORDER_TEMPLATE_ATTR_VALUE.csv: before 132, after 264, added 132 ['FSCRT_MZ_GF_CO1'], existing removed or changed 0, added without prefix 0
+PO_CHANGE_ORDER_TEMPLATE_TRANSLATION.csv: before 1, after 2, added 1 ['FSCRT_MZ_GF_CO1'], existing removed or changed 0, added without prefix 0
+RESULT: only prefix rows added; existing rows unchanged

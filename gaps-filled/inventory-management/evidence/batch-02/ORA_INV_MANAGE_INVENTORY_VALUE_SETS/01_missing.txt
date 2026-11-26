@@ -1,0 +1,4 @@
+Task: Manage Inventory Value Sets (ORA_INV_MANAGE_INVENTORY_VALUE_SETS)
+Module: Inventory Management
+Scope map level: b (route only): Oracle's catalog flags an FSM CSV route (CSVExportImportSupportedFlag Y), FSCR has no skill or guide.
+Source: evidence/Inventory Management/data/scope_tasks.csv and knowledge/setup-task-catalog.

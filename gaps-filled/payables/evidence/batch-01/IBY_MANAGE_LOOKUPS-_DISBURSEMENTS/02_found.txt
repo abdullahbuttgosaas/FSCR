@@ -1,0 +1,8 @@
+02 FOUND - IBY_MANAGE_LOOKUPS:_DISBURSEMENTS
+Read-only FSM setup-data export, ProcessId 100004743425266.
+Package: ASM_SETUP_CSV_METADATA.xml + ORA_FINANCIALS_GENERIC_LOOKUP_TYPE(.._TRANSLATION).csv, FUN_APP_GENERIC_LOOKUP.csv,
+  FUN_APP_GENERIC_LOOKUP_TRANSLATION.csv - all 0 rows (no user-defined IBY codes yet).
+REST genericLookups: IBY types are ViewApplicationId 0 / FND; 56 extensible (E/U) IBY types, e.g. IBY_BANK_CHARGE_BEARER (E).
+REST standardLookups/<type>/child/lookupCodes reads IBY codes.
+
+-- source: gaps-filled/payables/evidence/batch-01/IBY_MANAGE_LOOKUPS-_DISBURSEMENTS/02_found.txt

@@ -1,0 +1,4 @@
+Task: Manage Material Statuses (INV_MANAGE_MATERIAL_STATUSES)
+Module: Inventory Management
+Scope map level: b (route only): Oracle's catalog flags an FSM CSV route (CSVExportImportSupportedFlag Y), FSCR has no skill or guide.
+Source: evidence/Inventory Management/data/scope_tasks.csv and knowledge/setup-task-catalog.

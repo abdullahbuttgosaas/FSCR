@@ -1,0 +1,5 @@
+Manage Task Types (DOO_MANAGE_TASK_TYPES) - 04_test_result
+
+FSCRT_AK_GF_TT1: export 100004744422798, import 100004743456286 (1 row, 0 failed), after-export 100004743455410: 6 new rows (type, translation, 2 services, 2 service translations), 0 existing changed.
+
+Source: gaps-filled//task-types

@@ -1,0 +1,5 @@
+Task: Manage Purchasing Descriptive Flexfields (PO_MANAGE_PURCHASING_DESCRIPTIVE_FLEXFIELDS)
+Module: Purchasing (ERP)   Functional area: Purchasing Foundation
+FSCR coverage level: b = route only (no FSCR skill or guide; catalog CSV export/import flag Y)
+Source: evidence/Purchasing/data/scope_tasks.csv (module test, 17/11/2026)
+Decision: written only (batch 02)  Reason: unsafe to test: contexts/segments on seeded Purchasing DFFs need a flexfield deploy that changes pages for every user

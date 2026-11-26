@@ -1,0 +1,5 @@
+Task: Manage Change Order Templates (PO_MANAGE_CHANGE_ORDER_TEMPLATES)
+Module: Purchasing (ERP)   Functional area: Purchasing Foundation
+FSCR coverage level: b = route only (no FSCR skill or guide; catalog CSV export/import flag Y)
+Source: evidence/Purchasing/data/scope_tasks.csv (module test, 17/11/2026)
+Decision: fill (batch 02)  Reason: new template with header + translation + attribute rows (large package: 132 attribute rows per template)

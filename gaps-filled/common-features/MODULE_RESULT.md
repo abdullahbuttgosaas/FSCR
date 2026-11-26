@@ -2,20 +2,131 @@
 
 GoSaaS work, not official FSCR. Newest sitting first. The cards (`*/STATUS.md`) are the truth; `MODULE_TRACKER.csv` shows them.
 
-## Cumulative counts (all sittings, after the sixth sitting 2026-11-26)
+## Cumulative counts (all sittings, after the eleventh sitting 2026-11-27)
 | Status | Count |
 |---|---:|
-| tested | 81 |
-| written (unsafe to test) | 5 |
-| failed | 1 |
-| screen-only (proven) | 8 |
-| open (left) | 53 |
+| tested | 95 |
+| written (unsafe to test) | 15 |
+| failed | 7 |
+| screen-only (proven) | 31 |
+| open (left) | 0 |
 | **Missing tasks in the module** | **148** |
 
-Matches `MODULE_TRACKER.csv` (tested 81, skipped-unsafe 5, failed 1, screen-only 8, open 53) and `gap_progress.tsv` (which counts the failed task under Open: 54).
+Matches `MODULE_TRACKER.csv` and `gap_progress.tsv`. No task is open.
+
+## Sitting 2026-11-26/27, eleventh (batches 24 and 25)
+**Counts this sitting:** 1 tested, 4 written (unsafe), 1 failed = 6 (all that were open). Starting point: 94 tested, 11 written, 6 failed, 31 screen-only, 6 open. Details in `BATCH_24_RESULT.md` and `BATCH_25_RESULT.md`.
+
+| Batch | Task | Status | Working min | Waiting min |
+|---|---|---|---:|---:|
+| 24 | Load Geography Interface Data | written (unsafe: shared master geography, no delete; 3 tries read 0 rows) | 13 | 3 |
+| 24 | Manage Tax Geographies | written (unsafe: changes existing countries' tax use) | 4 | 0 |
+| 24 | Manage Messages for General Ledger | failed (same as Manage Messages: job path not published) | 4 | 0 |
+| 24 | Manage Cross-Validation Rules | written (unsafe: shared chart, Replace mode deletes) | 5 | 1 |
+| 24 | Manage Associated Balancing Segments | written (unsafe: file route builds a whole ledger setup) | 4 | 0 |
+| 25 | Establish Enterprise Structures | tested (new draft configuration, never loaded) | 11 | 6 |
+
+Rule slip: the geography interface tries ran although batch 21 had judged geography loads unsafe; they read 0 rows and created nothing (see the card).
+
+## Sitting 2026-11-26, tenth (batches 22 and 23)
+**Counts this sitting:** 3 tested, 3 written (unsafe), 2 failed, 2 screen-only = 10 (sitting limit). Starting point (after the screen-only verification run): 91 tested, 9 written, 4 failed, 29 screen-only, 15 open. Details in `BATCH_22_RESULT.md` and `BATCH_23_RESULT.md`.
+
+| Batch | Task | Status | Working min | Waiting min |
+|---|---|---|---:|---:|
+| 22 | Manage Internal Resource Organizations | tested | 10 | 2 |
+| 22 | Create Data Role for Implementation Users | tested | 12 | 4 |
+| 22 | Manage Tax Box Allocation Rules | tested (was written-untested) | 18 | 8 |
+| 22 | Manage Indirect Tax Automation with Thomson Reuters | written (unsafe: partner account, environment-wide, no delete) | 4 | 1 |
+| 22 | Manage Thomson Reuters Services | written (unsafe: same route) | 3 | 1 |
+| 23 | Guided Journeys | screen-only (REST refuses the guided category, also on duplicate) | 8 | 2 |
+| 23 | Publish Account Hierarchies | written (unsafe: shared balances cube, no unpublish) | 6 | 3 |
+| 23 | Manage Resource Teams | screen-only (no Import Management object; REST 404) | 7 | 4 |
+| 23 | Manage Messages | failed (process job path not published or readable) | 8 | 2 |
+| 23 | Manage Applications Core Messages | failed (same) | 3 | 1 |
+| | **Total** | **3 tested, 3 written, 2 failed, 2 screen-only** | **79** | **28** |
+
+Fresh tests: 3 run (resource organizations PASS, data role PASS, tax box FAIL on a skill gap with nothing created); re-tests after fixes: resource organizations R and R2 PASS, tax box R PASS. Sign-ins: 1. New helper: `create-data-role-for-implementation-users/scripts/impl_data_role.py`.
+
+**Failed tasks, causes and next steps**
+- Manage Messages, Manage Applications Core Messages: the route is a MESSAGES file + scheduled process Upload Comma-Separated Values File for Import Process; its job package and definition are not published and not readable by REST. Next: AB reads the job name once on the Scheduled Processes page (or MOS 2174930.1); then test with a `GAPFILL_AB_` message.
+- Earlier, unchanged: Partner Organizations (own owner resource refused), Italy and China options (export access denied: localization privilege), Application Tax Options (row not tied to the business unit).
+
+**Test records created:** resource organizations `GAPFILL_AB_B22_ORG1`, `ORG2F`, `ORG3R`, `ORG4R` (managers `GAPFILL_AB_B22_RM1`, `RM2F`, `RM3R`, `RM4R`, no accounts); data roles `GAPFILL_AB_B22_IDR1`, `IDR2F` (assigned to nobody); disabled tax box rules `GAPFILL_AB_B22_TB1`, `TB3R` (TB2F refused, nothing created).
+
+**What is left (6 open):** Manage Cross-Validation Rules, Manage Associated Balancing Segments, Establish Enterprise Structures, Load Geography Interface Data, Manage Tax Geographies, Manage Messages for General Ledger (same route and blocker as Manage Messages). Plus the 6 failed tasks' next steps.
+
+## Sitting 2026-11-26, ninth (batches 20 and 21)
+**Counts this sitting:** 3 tested, 5 written (4 unsafe, 1 safe way found), 1 failed, 1 screen-only = 10 (sitting limit). Details in `BATCH_20_RESULT.md` and `BATCH_21_RESULT.md`.
+
+| Batch | Task | Status | Working min | Waiting min |
+|---|---|---|---:|---:|
+| 20 | Manage Resource Organization Members | tested | 22 | 4 |
+| 20 | Manage Resource Organization Hierarchies | tested | 14 | 3 |
+| 20 | Assign Help Text Administration Duty | screen-only | 5 | 2 |
+| 20 | Revoke Data Role from Implementation Users | written (unsafe: delete only) | 8 | 2 |
+| 20 | Run Jurisdiction and Rates Upload Program | written (unsafe: shared US tax content) | 8 | 2 |
+| 21 | Import Worker Users | tested | 14 | 3 |
+| 21 | Manage Partner Organizations | failed (owner refused) | 12 | 2 |
+| 21 | Run Geography Loader | written (unsafe: shared master geography) | 6 | 2 |
+| 21 | Manage User-Defined Rules for Project Management | written (unsafe: replaces a rule set) | 6 | 2 |
+| 21 | Manage Tax Box Allocation Rules | written (safe way found, not tested yet) | 10 | 3 |
+| | **Total** | **3 tested, 5 written, 1 failed, 1 screen-only** | **105** | **25** |
+
+Re-judged written cards: Map Reports to Work Areas, CRM BU Profile Options, Archive and Purge, Avalara onboarding stay unsafe (reasons on the cards); Import Worker Users tested; Partner Organizations failed.
+
+What is left: 2 open (Select Aggregation Options for account hierarchies: trees package; Establish Enterprise Structures: own configuration never loaded), Tax Box Allocation Rules (needs a template rule), 3 failed (Partner Organizations, Italy and China options need the localization privilege). Also: re-judge Manage Internal Resource Organizations (resourceUsers makes organizations) and Thomson Reuters indirect tax (taxPartnerRegistrations); give the 31 csv-only screen-only tasks cards.
+
+## Sitting 2026-11-26, eighth (batches 18 and 19)
+**Counts this sitting:** 0 tested, 1 written (unsafe), 0 failed, 9 screen-only = 10 (sitting limit). All read only on Oracle; no test record created. Details in `BATCH_18_RESULT.md` and `BATCH_19_RESULT.md`.
+
+| Batch | Task | Status | Working min | Waiting min |
+|---|---|---|---:|---:|
+| 18 | Deploy WebLogic Communication Services | screen-only | 4 | 2 |
+| 18 | Integrate WebLogic Communication Services with Telephony Network | screen-only | 4 | 2 |
+| 18 | Migrate Enterprise Roles and Assignments to PaaS Identity Store | screen-only | 4 | 2 |
+| 18 | Manage User Identity Synchronization to PaaS Identity Store | screen-only | 4 | 2 |
+| 18 | Manage Read-Only Schema Column Masking for Users | screen-only | 4 | 2 |
+| 19 | Manage Tablet Application Configuration | screen-only | 4 | 2 |
+| 19 | Manage Digital Assistant | screen-only | 4 | 2 |
+| 19 | Manage Avalara E-invoicing | screen-only | 4 | 2 |
+| 19 | Manage Indirect Tax Automation with Avalara | written (unsafe: needs the customer's partner account; no delete) | 10 | 3 |
+| 19 | Create Enterprise Additional Account Attributes for China | screen-only | 4 | 2 |
+| | **Total** | **9 screen-only, 1 written** | **46** | **21** |
+
+Re-judged written cards (new unsafe rule): Import Worker Users and Partner Organizations have a safe way (new user with no roles; own resource via crm resourceUsers) and are now `written-untested`, to test next sitting. Map Reports to Work Areas, CRM BU Profile Options, Archive and Purge stay unsafe.
+
+What is left (10 open + 2 written-untested + 2 failed): Tax Box Allocation Rules (tax rules package with reporting columns), Select Aggregation Options (trees), Establish Enterprise Structures, Project User-Defined Rules, Resource Organization Members (crm resourceUsers), Assign Help Text Administration Duty, Revoke Data Role from Implementation Users, Resource Organization Hierarchies, Run Geography Loader, Run Jurisdiction and Rates Upload Program; Import Worker Users and Partner Organizations (safe way found); Italy and China options need the localization privilege. Also: re-judge Thomson Reuters indirect tax (taxPartnerRegistrations), and give the 31 csv-only screen-only tasks cards.
+
+## Screen-only audit 2026-11-26 (asked by AB)
+Of the 40 tasks made screen-only in sitting 7, 19 had no proof (REST never probed). A read-only re-check of 10 (export + REST GET) confirmed 9 and found a possible route for Tax Box Allocation Rules. 16 tasks set back to open (15 without proof + Tax Box); 24 stay screen-only. Details: `SCREEN_ONLY_AUDIT.md`.
+
+## Sitting 2026-11-26, seventh (batches 16 and 17)
+**Counts this sitting:** 7 tested, 1 written (unsafe), 2 failed = 10 (sitting limit reached); 40 screen-only (proven; not counted in the limit). Details in `BATCH_16_RESULT.md` and `BATCH_17_RESULT.md`.
+
+| Batch | Task | Status | Working min | Waiting min |
+|---|---|---|---:|---:|
+| 16 | Manage Project Process Configurator | tested | 14 | 4 |
+| 16 | Manage Applications Core Descriptive Flexfields | tested | 16 | 4 |
+| 16 | Manage Tax Authority Profiles for Brazil | tested | 12 | 4 |
+| 16 | Manage Data Role and Security Profiles | tested | 13 | 4 |
+| 16 | Manage Letter of Intent Limits for Italy | failed (export access denied) | 6 | 3 |
+| 16 | Manage Enterprise Financial Data Export Options for China | failed (export access denied) | 6 | 3 |
+| 17 | Manage Legal Entity Configurator Descriptive Flexfield | tested | 12 | 6 |
+| 17 | Manage Resource Note Descriptive Flexfields | tested | 11 | 6 |
+| 17 | Manage Chart of Accounts Synchronization with DRM | tested | 11 | 5 |
+| 17 | Manage Archive and Purge Policies | written (unsafe: needs a real ledger) | 10 | 3 |
+| | **Total** | **7 tested, 1 written, 2 failed** | **111** | **42** |
+
+Fresh tests: 7 of 7 PASS; 7 re-tests after wording fixes, all PASS. Sign-ins: 1 (cached). New helpers: `manage-applcore-dffs/scripts/dff_context_package.py`, `manage-applcore-dffs/scripts/check_dff_rows.py`, `manage-data-roles/scripts/copy_data_role.py`.
+
+Re-judged written cards: Intercompany Exceptions → screen-only (no exception record in the package); CRM BU Profile Options, Map Reports to Work Areas, Import Worker Users, Partner Organizations stay unsafe. Screen-only: 40 new rows in `screen-only.csv` (36 "neither" tasks after REST probes, plus Associated Balancing Segments, Task Configurations, Tax Box Allocation Rules and Intercompany Exceptions).
+
+Test records created: project process configurators `GAPFILL_AB_B16_PPC1`, `PPC2F`, `PPC3R` (inactive); disabled flexfield contexts with one segment each: `GAPFILL_AB_B16_CTX1/2F/3R` (attachments), `GAPFILL_AB_B17_LCX1/2F/3R` (legal entity), `GAPFILL_AB_B17_NCX1/2F/3R` (notes); data roles `GAPFILL_AB_B16_DR1`, `DR2F`, `DR3R` (assigned to nobody); GL profile options `GAPFILL_AB_B17_GPO1`, `GPO2F`, `GPO3R`; tax authority profile flag changed on own test legal authorities `GAPFILL_AB_P3_LA3`, `LA4F`, `GAPFILL_AB_B4FIX_LA5R`. Nothing left over from refused tries.
+
+What is left (4 open + 5 written + 2 failed): Manage Resource Organization Members (REST resourceUsers can create; judge), Manage User-Defined Rules for Project Management (BPM rule upload), Establish Enterprise Structures (wizard package), Select Aggregation Options for Account Hierarchies (trees package); Italy and China need the localization privilege.
 
 ## Sitting 2026-11-26, sixth (batches 14 and 15)
-**Counts this sitting:** 9 tested (3 of them re-opened from written-unsafe: Legal Entity Tax Profiles, Legal Reporting Unit Tax Profiles, Configuration Owner Tax Options), 0 written, 1 failed (Manage Application Tax Options), 0 screen-only. Sitting limit (10) reached. Details in `BATCH_14_RESULT.md` and `BATCH_15_RESULT.md`.
+**Counts this sitting:** 9 tested (3 of them re-opened from written-unsafe: Legal Entity Tax Profiles, Legal Reporting Unit Tax Profiles, Configuration Owner Tax Options), 0 written, 0 failed, 1 screen-only (Manage Application Tax Options: failed until the final check 2026-11-26; reason in `screen-only.csv`). Sitting limit (10) reached. Details in `BATCH_14_RESULT.md` and `BATCH_15_RESULT.md`.
 
 | Batch | Task | Status | Working min | Waiting min |
 |---|---|---|---:|---:|
@@ -25,17 +136,17 @@ Matches `MODULE_TRACKER.csv` (tested 81, skipped-unsafe 5, failed 1, screen-only
 | 14 | Manage Legal Entity Financial Information | tested | 13 | 5 |
 | 14 | Manage Legal Reporting Unit Financial Information | tested | 10 | 4 |
 | 15 | Manage Associated Business Entities | tested | 19 | 6 |
-| 15 | Manage Application Tax Options | failed (row not tied to the named business unit; proof by refused re-send was not valid) | 16 | 7 |
+| 15 | Manage Application Tax Options | screen-only (was failed: the CSV only creates a row with a blank business unit; no business unit ID column) | 26 | 7 |
 | 15 | Manage Set Assignments for Set Determinant Type | tested | 13 | 5 |
 | 15 | Manage Segment Value Security Rules | tested | 10 | 3 |
 | 15 | Manage Chart of Accounts Configurations | tested | 9 | 3 |
-| | **Total** | **9 tested, 1 failed** | **121** | **44** |
+| | **Total** | **9 tested, 1 screen-only** | **131** | **44** |
 
 Fresh tests: 9 of 10 PASS (application tax options FAIL); 9 re-tests after wording fixes, all PASS; prerequisite skills test-legal-entity and test-business-unit fresh and re-tested PASS. Sign-ins: 3 (renewals). New helpers: `scripts/own_row_package.py`, `scripts/compare_own_update.py`.
 
-Test records created: test legal entities `GAPFILL_AB_B14_LE1`, `LE2F`, `LE3R` (each with its own main reporting unit and tax profiles; tax profiles, owner AP row and ActivityCode changed only on these); test business units `GAPFILL_AB_B15_BU1`, `BU2F`, `BU3`, `BU4F`, `BU5R`; associations LE1→BU3, LE2F→BU4F, LE3R→BU5R; reference data sets `GAPFILL_AB_B15_SET1`, `SET2F`, `SET3R` with SET assignments `PJF_RATES`→`COMMON`; secured value sets `GAPFILL_AB_B15_SVS1`, `SVS2F`, `SVS3R` (value `T1`); policies `GAPFILL_AB_B15_SVP1`, `SVP2F`, `SVP3R` (role General Accountant on SVS1). **Possible leftover:** one AP application tax options row from the first load (ProcessId 100004744413261) whose business unit Oracle may not have resolved; it cannot be seen by export or REST. AB to check on the page.
+Test records created: test legal entities `GAPFILL_AB_B14_LE1`, `LE2F`, `LE3R` (each with its own main reporting unit and tax profiles; tax profiles, owner AP row and ActivityCode changed only on these); test business units `GAPFILL_AB_B15_BU1`, `BU2F`, `BU3`, `BU4F`, `BU5R`; associations LE1→BU3, LE2F→BU4F, LE3R→BU5R; reference data sets `GAPFILL_AB_B15_SET1`, `SET2F`, `SET3R` with SET assignments `PJF_RATES`→`COMMON`; secured value sets `GAPFILL_AB_B15_SVS1`, `SVS2F`, `SVS3R` (value `T1`); policies `GAPFILL_AB_B15_SVP1`, `SVP2F`, `SVP3R` (role General Accountant on SVS1). **Leftover:** one Payables application tax options row with no business unit from the first load (ProcessId 100004744413261); not visible on the page (AB checked 2026-11-26), so no cleanup possible, low risk.
 
-What is left (53 open + 5 written + 1 failed): application tax options (find the business unit column, check the page), Intercompany Exceptions and Associated Balancing Segments (need a test ledger), a test worker chain (Import Worker Users, Partner Organizations, resource organizations), descriptive flexfields, country-only tasks, and the other "neither" tasks.
+What is left (53 open + 5 written): Intercompany Exceptions and Associated Balancing Segments (need a test ledger), a test worker chain (Import Worker Users, Partner Organizations, resource organizations), descriptive flexfields, country-only tasks, and the other "neither" tasks.
 
 ## Sitting 2026-11-25, fifth (batch 13)
 **Counts this sitting:** 4 tested (1 of them re-opened from written: Country Default Controls), 0 written, 0 failed, 1 screen-only (Manage Help Content, failed until 2026-11-26). One batch, asked for after the fourth sitting. Details in `BATCH_13_RESULT.md`.

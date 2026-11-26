@@ -1,0 +1,10 @@
+04 TEST RESULT - own live test: FAILED (proven cause)
+try 1 ProcessId 100004743426216: Row Identifier BankId error (made-up bank)
+try 2 ProcessId 100004743428155: FND_CMN_CMPLT_FLDS You must complete the required fields
+try 3 ProcessId 100004743429062: same (dates added)
+round trip with existing bank ProcessId 100004743429083: same
+full round trip of a working record ProcessId 100004743428187: same -> export lacks a field required to create
+Export after: added 0, removed/changed 0 (RESULT: NO ROWS ADDED) - nothing created.
+Next step: 10-character Suffix test, then the task CSV template for mandatory attributes.
+
+-- source: gaps-filled/payables/evidence/batch-02/IBY_MANAGE_PAYMENT_SYSTEMS/04_test_result.txt

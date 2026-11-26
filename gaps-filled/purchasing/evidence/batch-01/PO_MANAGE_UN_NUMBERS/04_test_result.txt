@@ -1,0 +1,6 @@
+Own live test, 25/11/2026. Record FSCRT_MZ_GF_UN1 linked to hazard class FSCRT_MZ_GF_HC1 (prerequisite created by the hazard class skill).
+Import ProcessId 100004742441905: Purchasing UN Number, Completed successfully, 1 processed, 0 failed.
+After-export ProcessId 100004742441914:
+PO_UN_NUMBER.csv: before 5, after 6, added 1 ['FSCRT_MZ_GF_UN1'], existing removed or changed 0, added without prefix 0
+PO_UN_NUMBER_TRANSLATION.csv: before 5, after 6, added 1 ['FSCRT_MZ_GF_UN1'], existing removed or changed 0, added without prefix 0
+RESULT: only prefix rows added; existing rows unchanged

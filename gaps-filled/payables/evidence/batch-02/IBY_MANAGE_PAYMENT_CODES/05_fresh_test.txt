@@ -1,0 +1,5 @@
+05 FRESH TEST
+  F: FSCRT_AK_GF_PR1F, ProcessId 100004743427101, PASS first try (366 -> 367, RESULT OK, REST 1 item). No errors.
+Own REST read-back: PR1 and PR1F.
+
+-- source: gaps-filled/payables/evidence/batch-02/IBY_MANAGE_PAYMENT_CODES/05_fresh_test.txt

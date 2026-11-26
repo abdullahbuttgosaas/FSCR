@@ -1,0 +1,9 @@
+04 TEST RESULT - own live test
+Record: IBY_SEC_CRED_TYPES / FSCRT_AK_GF_SCT1
+Import ProcessId 100004743427114: LookupGeneric1 1 row processed, 0 failed; Total Objects Failed 0.
+Compare: FUN_APP_GENERIC_LOOKUP.csv before 3, after 4, added 1, removed/changed 0
+         FUN_APP_GENERIC_LOOKUP_TRANSLATION.csv before 3, after 4, added 1, removed/changed 0
+         RESULT: OK - only prefix rows added, nothing removed or changed
+REST read-back: FSCRT_AK_GF_SCT1, FSCRT AK GF test credential type, EnabledFlag Y
+
+-- source: gaps-filled/payables/evidence/batch-02/IBY_MANAGE_LOOKUPS-_EXTERNAL_CONNECTIVITY/04_test_result.txt

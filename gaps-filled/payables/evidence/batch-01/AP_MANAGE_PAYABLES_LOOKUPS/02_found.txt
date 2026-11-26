@@ -1,0 +1,9 @@
+02 FOUND - AP_MANAGE_PAYABLES_LOOKUPS
+Read-only FSM setup-data export, ProcessId 100004744396705.
+Package: ASM_SETUP_CSV_METADATA.xml +
+  ORA_FINANCIALS_GENERIC_LOOKUP_TYPE.csv 0 rows, ORA_FINANCIALS_GENERIC_LOOKUP_TYPE_TRANSLATION.csv 0 rows,
+  FUN_APP_GENERIC_LOOKUP.csv 12 rows (37 cols), FUN_APP_GENERIC_LOOKUP_TRANSLATION.csv 12 rows (17 cols)
+Only non-seeded codes are exported (PAY GROUP, HOLD CODE, INVOICE TYPE). Codes are a top-level object; translations are children.
+REST: genericLookups LookupType='PAY GROUP' -> 1 item, CustomizationLevel E, ViewApplicationId 200.
+
+-- source: gaps-filled/payables/evidence/batch-01/AP_MANAGE_PAYABLES_LOOKUPS/02_found.txt

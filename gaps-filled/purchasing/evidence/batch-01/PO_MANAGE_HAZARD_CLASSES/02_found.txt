@@ -1,0 +1,9 @@
+Read-only checks, 25/11/2026 (sign-in with the tester's own login; no values shown)
+FSCR task-level export (--data): succeeded. Files, headers and row counts (no rows shown):
+[csv] PO_HAZARD_CLASS.csv: 5 row(s)
+  header: ['HazardClassCode', 'Attribute1', 'Attribute10', 'Attribute11', 'Attribute12', 'Attribute13', 'Attribute14', 'Attribute15', 'Attribute2', 'Attribute3', 'Attribute4', 'Attribute5', 'Attribute6', 'Attribute7', 'Attribute8', 'Attribute9', 'AttributeCategory', 'CreatedBy', 'CreationDate', 'Description', 'HazardClass', 'InactiveDate', 'LastUpdateDate', 'LastUpdateLogin', 'LastUpdatedBy']
+[csv] PO_HAZARD_CLASS_TRANSLATION.csv: 5 row(s)
+  header: ['PO_HAZARD_CLASS.HazardClassCode', 'CreatedBy', 'CreationDate', 'Description', 'HazardClass', 'Language', 'LastUpdateDate', 'LastUpdateLogin', 'LastUpdatedBy', 'SourceLang']
+[file] ASM_SETUP_CSV_METADATA.xml
+
+REST: hazardClasses / hazardClassesLOV describe: not found

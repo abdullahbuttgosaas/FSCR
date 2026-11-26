@@ -1,0 +1,5 @@
+Manage Order Attachment Categories (DOO_MANAGE_ORCHESTRATION_ATTACHMENT_CATEGORIES) - 02_found
+
+Export package: FND_APP_ATTACHMENT_CATEGORY and ORA_FND_APP_ATTACHMENT_CATEGORY, 0 rows; export scope is module DOO (moduleKey DOO in the package metadata).
+
+Source: gaps-filled//order-attachment-categories

@@ -1,0 +1,9 @@
+04 TEST RESULT - own live test
+Record: IBY_BANK_CHARGE_BEARER / FSCRT_AK_GF_BCB1
+Import ProcessId 100004743426030: LookupGeneric1 1 row processed, 0 failed; Total Objects Failed 0.
+Compare: FUN_APP_GENERIC_LOOKUP.csv before 0, after 1, added 1, removed/changed 0
+         FUN_APP_GENERIC_LOOKUP_TRANSLATION.csv before 0, after 1, added 1, removed/changed 0
+         RESULT: OK - only prefix rows added, nothing removed or changed
+REST read-back: LookupCode FSCRT_AK_GF_BCB1, Meaning FSCRT AK GF test bearer, EnabledFlag Y
+
+-- source: gaps-filled/payables/evidence/batch-01/IBY_MANAGE_LOOKUPS-_DISBURSEMENTS/04_test_result.txt

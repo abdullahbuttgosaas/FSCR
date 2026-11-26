@@ -1,0 +1,4 @@
+05 FRESH TEST
+Not run: the own test did not pass (status failed).
+
+-- source: gaps-filled/payables/evidence/batch-02/IBY_MANAGE_PAYMENT_SYSTEMS/05_fresh_test.txt

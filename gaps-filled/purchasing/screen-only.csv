@@ -1,0 +1,3 @@
+task_code,task_name,reason
+ORA_PO_MANAGE_PURCHASING_MESSAGES,Manage Purchasing Messages,"Read-only checks 25/11/2026: catalog CSVExportImportSupportedFlag N, FSCR task-level export refused (no CSV export created); REST /messages describe allows get only (no create)"
+ORA_SCH_MANAGE_EXTERNAL_PURCHASE_PRICE_APPROVALS,Manage External Purchase Price Approvals,"Read-only checks 25/11/2026: catalog ExportImportSupportedFlag N and CSV N, FSCR task-level export refused; no REST resource for approval rules (describe not found)"

@@ -1,0 +1,8 @@
+Fresh tests: each by a new sub-agent with no context, given only the task name, the SKILL.md path, the FSCR root, the prefix, a new record name, a run folder and the approval.
+
+F: record FSCRT_MZ_GF_LKF; import ProcessId 100004743405762; after-export ProcessId 100004743404925; PASS; reported prerequisite 2 output overwrite, Meaning wording, import status lines
+R: record FSCRT_MZ_GF_LKR; import ProcessId 100004744392107; after-export ProcessId 100004744391139; PASS; reported free-text conflict with COMMON_STEPS, REST redirect, bare S
+2R: record FSCRT_MZ_GF_LK2R; import ProcessId 100004744415939; after-export ProcessId 100004744415972; PASS; noted COMMON prose slip S/log_summary.py
+3R: record FSCRT_MZ_GF_LK3R; import ProcessId 100004744417642; after-export ProcessId 100004743448077; PASS; no wrong sentence
+
+I read the final retest records back myself from the testers' after-exports (compare_fsm_exports.py): only prefix rows added, existing rows unchanged.

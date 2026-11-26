@@ -1,0 +1,7 @@
+05 FRESH TEST
+Fresh agent (no context, only task name + SKILL.md path):
+  F: FSCRT_AK_GF_HLD1F, ProcessId 100004744393889, PASS (110 -> 111, RESULT OK). Reported 1 error (worked-example counts) -> fixed.
+  R: FSCRT_AK_GF_HLD1R, ProcessId 100004744391997, PASS (111 -> 112, RESULT OK). No errors.
+Own read-back: final export lists FSCRT_AK_GF_HLD1, _HLD1F, _HLD1R; first vs final export: added 3, removed/changed 0.
+
+-- source: gaps-filled/payables/evidence/batch-01/AP_MANAGE_INVOICE_HOLDS_AND_RELEASES/05_fresh_test.txt

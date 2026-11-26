@@ -1,0 +1,5 @@
+Task: Manage Hazard Classes (PO_MANAGE_HAZARD_CLASSES)
+Module: Purchasing (ERP)   Functional area: Purchasing Foundation
+FSCR coverage level: b = route only (no FSCR skill or guide; catalog CSV export/import flag Y)
+Source: evidence/Purchasing/data/scope_tasks.csv (module test, 17/11/2026)
+Decision: fill (batch 01)  Reason: new stand-alone hazard class + translation row; FSM CSV export works (5 rows)

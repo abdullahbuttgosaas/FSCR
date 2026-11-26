@@ -1,0 +1,8 @@
+Fresh tests: each by a new sub-agent with no context, given only the task name, the SKILL.md path, the FSCR root, the prefix, a new record name, a run folder and the approval.
+
+F: record FSCRT_MZ_GF_UNF; import ProcessId 100004743405788; after-export ProcessId 100004742424000; PASS; reported --match wording, separate run folder for the prerequisite, extra prefix keys
+R: record FSCRT_MZ_GF_UNR; import ProcessId 100004744392231; after-export ProcessId 100004744392255; records created and read back; the tester stopped on an API spend limit before reporting (results checked from its files)
+2R: record FSCRT_MZ_GF_UN2R; import ProcessId 100004743436417; after-export ProcessId 100004743447583; PASS; noted <RUN> sub-folder wording
+3R: record FSCRT_MZ_GF_UN3R; import ProcessId 100004743436725; after-export ProcessId 100004743436736; PASS; no wrong sentence
+
+I read the final retest records back myself from the testers' after-exports (compare_fsm_exports.py): only prefix rows added, existing rows unchanged.

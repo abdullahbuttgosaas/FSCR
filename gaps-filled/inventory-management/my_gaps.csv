@@ -1,0 +1,74 @@
+task_code,task_name,level,ease,depends_on,decision,reason
+INV_MANAGE_INVENTORY_TRANSACTION_REASONS,Manage Inventory Transaction Reasons,route only,easy,,tested,done in sitting 1 (see STATUS.md)
+INV_MANAGE_LOT_EXPIRATION_ACTIONS,Manage Lot Expiration Actions,route only,easy,,tested,done in sitting 1 (see STATUS.md)
+INV_MANAGE_LOT_GRADES,Manage Lot Grades,route only,easy,,tested,done in sitting 1 (see STATUS.md)
+WSH_MANAGE_RELEASE_SEQUENCE_RULES,Manage Release Sequence Rules,route only,easy,,tested,done in sitting 1 (see STATUS.md)
+WSH_MANAGE_SHIPPING_COST_TYPES,Manage Shipping Cost Types,route only,easy,WSH_MANAGE_SHIPPING_LOOKUPS (freight cost type lookup code),tested,done in sitting 1 (see STATUS.md)
+INV_MANAGE_INVENTORY_LOOKUPS,Manage Inventory Lookups,route only,easy,,tested,done in sitting 1 (see STATUS.md)
+INV_MANAGE_MATERIAL_STATUSES,Manage Material Statuses,route only,easy,INV_MANAGE_INVENTORY_TRANSACTION_SOURCES_AND_TYPES (status-controlled types),tested,done in sitting 1 (see STATUS.md)
+INV_MANAGE_PICKING_RULES,Manage Picking Rules,route only,easy,,tested,done in sitting 1 (see STATUS.md)
+INV_MANAGE_PICK_SLIP_GROUPING_RULES,Manage Pick Slip Grouping Rules,route only,easy,,tested,done in sitting 1 (see STATUS.md)
+ORA_INV_MANAGE_INVENTORY_VALUE_SETS,Manage Inventory Value Sets,route only,easy,,tested,done in sitting 1 (see STATUS.md)
+ORA_MANAGE_REGULATORY_AUTHORITY_FOR_PRODUCT_RECALL,Manage Regulatory Authority for Product Recall,route only,easy,,fill,new authority
+ORA_RCS_MANAGE_SCM_COMMON_LOOKUPS,Manage SCM Common Lookups,route only,easy,,fill,new user lookup type with PREFIX code
+ORA_RCS_MANAGE_SHIPPING_LOOKUPS,Manage Carriers Lookups,route only,easy,,fill,new user lookup type with PREFIX code
+ORA_RCV_MANAGE_RECEIVING_VALUE_SETS,Manage Receiving Value Sets,route only,easy,,fill,new value set with PREFIX code
+ORA_WSH_MANAGE_SHIPPING_VALUE_SETS,Manage Shipping Value Sets,route only,easy,,fill,new value set with PREFIX code
+WSH_MANAGE_SHIPPING_EXCEPTIONS,Manage Shipping Exceptions,route only,easy,,fill,new user-defined exception
+WSH_MANAGE_SHIPPING_LOOKUPS,Manage Shipping Lookups,route only,easy,,fill,new user lookup type with PREFIX code
+WSH_MANAGE_SHIP_CONFIRM_RULES,Manage Ship Confirm Rules,route only,easy,WSH_MANAGE_SHIPPING_DOCUMENT_SEQUENCE (only if BOL/packing slip is ticked),fill,new rule; leave document options off
+INV_MANAGE_ABC_CLASSES,Manage ABC Classes,route only,medium,an inventory organization,fill,new class in a test org
+INV_MANAGE_ACCOUNT_ALIASES,Manage Account Aliases,route only,medium,an inventory organization; a GL account combination; INV_MANAGE_INVENTORY_ACCOUNT_ALIAS_KEY_FLEXFIELD,fill,new alias
+INV_MANAGE_INVENTORY_TRANSACTION_SOURCES_AND_TYPES,Manage Inventory Transaction Sources and Types,route only,medium,,fill,new user-defined source/type
+INV_MANAGE_SUBINVENTORIES_AND_LOCATORS,Manage Subinventories and Locators,route only,medium,an inventory organization; INV_MANAGE_MATERIAL_STATUSES,fill,new subinventory in a test org
+ORA_ACCOUNT_ALIASES,Account Aliases,route only,medium,as INV_MANAGE_ACCOUNT_ALIASES,fill,feature task; same package
+ORA_MANAGE_MIN_MAX_CLASSIFICATION_GROUPS,Manage Min-Max Planning Classification Groups,route only,medium,item catalog category,fill,new classification under the default group
+ORA_MANAGE_MIN_MAX_PLANNING_POLICY_PROFILES,Manage Min-Max Planning Policy Profiles,route only,medium,,fill,new policy profile
+PO_MANAGE_INVENTORY_ORG_LOCATIONS,Manage Inventory Organization Locations,route only,medium,a location set,fill,new location with PREFIX code
+WSH_MANAGE_DEFAULT_PACKING_CONFIGURATIONS,Manage Default Packing Configurations,route only,medium,an inventory organization; an item or category,fill,new packing configuration
+WSH_MANAGE_SHIPPING_ZONES,Manage Shipping Zones,route only,medium,geographies,fill,new zone with PREFIX name
+WSH_MANAGE_TRANSPORTATION_SCHEDULES,Manage Transportation Schedules,route only,medium,a carrier (WSH_MANAGE_CARRIERS); a location,fill,new schedule
+INV_MANAGE_ABC_ASSIGNMENT_GROUPS,Manage ABC Assignment Groups,route only,medium-prereq,INV_MANAGE_ABC_CLASSES; INV_MANAGE_ABC_CLASSIFICATION_SETS,fill,new group
+INV_MANAGE_ABC_CLASSIFICATION_SETS,Manage ABC Classification Sets,route only,medium-prereq,INV_MANAGE_ABC_CLASSES; an inventory organization,fill,new set
+INV_MANAGE_INTERORGANIZATION_PARAMETERS,Manage Interorganization Parameters,route only,medium-prereq,two inventory organizations,fill,new shipping network between two test orgs
+INV_MANAGE_ITEM_TRANSACTION_DEFAULTS,Manage Item Transaction Defaults,route only,medium-prereq,an item; INV_MANAGE_SUBINVENTORIES_AND_LOCATORS,fill,new default for a test item
+INV_MANAGE_LOT_AND_SERIAL_ATTRIBUTES_MAPPING,Manage Lot and Serial Attributes Mapping,route only,medium-prereq,a lot attributes DFF context; an item,fill,new mapping
+INV_MANAGE_PICKING_RULE_ASSIGNMENTS,Manage Picking Rule Assignments,route only,medium-prereq,INV_MANAGE_PICKING_RULES; an inventory organization,fill,new assignment of own rule
+ORA_INV_MANAGE_INTERSUBINVENTORY_PARAMETERS,Manage Intersubinventory Parameters,route only,medium-prereq,INV_MANAGE_SUBINVENTORIES_AND_LOCATORS (two subinventories),fill,new parameters between own subinventories
+ORA_INV_MANAGE_INVENTORY_CONSUMPTION_RULES,Manage Consumption Rules,route only,medium-prereq,inventory organizations; supplier,fill,new consumption rule
+ORA_INV_MANAGE_UNITS_OF_MEASURE_USAGES,Manage Units of Measure Usages,route only,medium-prereq,an item; an inventory organization,fill,new usage for a test item
+ORA_INV_POLICY_PROFILE_ASSIGNMENTS,Policy Profile Assignments,route only,medium-prereq,as ORA_MANAGE_MIN_MAX_PLANNING_POLICY_PROFILE_ASSIGNMENTS,fill,feature task; same package
+ORA_MANAGE_ITEM_SPECIFIC_UOM_CONVERSIONS,Manage Item-Specific UOM Conversions,route only,medium-prereq,an item,fill,new conversion for a test item
+ORA_MANAGE_MIN_MAX_PLANNING_POLICY_PROFILE_ASSIGNMENTS,Manage Min-Max Planning Policy Profile Assignments,route only,medium-prereq,ORA_MANAGE_MIN_MAX_CLASSIFICATION_GROUPS; ORA_MANAGE_MIN_MAX_PLANNING_POLICY_PROFILES; an inventory organization,fill,assignment of own profile to own classification
+ORA_RCS_ASSOCIATE_CUSTOMER_WITH_INVENTORY_ORGANIZATION,Associate Customer with Inventory Organization,route only,medium-prereq,a test customer; a PREFIX inventory organization,fill,association on a new PREFIX org or unsafe
+ORA_RCS_ASSOCIATE_EXPIRED_LOT_SUBINVLOC_WITH_INVENTORY_ORGANIZATIONS,Associate Expired Lot Subinventories and Locators with Inventory Organizations,route only,medium-prereq,an inventory organization; a subinventory,fill,association on own subinventory
+ORA_RCS_ASSOCIATE_FABOOK_WITH_INVENTORY_ORGANIZATION,Associate Fixed Asset Books with Inventory Organizations,route only,medium-prereq,a fixed asset book; an inventory organization,fill,association on a new PREFIX org or unsafe
+ORA_RCS_ASSOCIATE_SOURCE_ORGANIZATION_WITH_INVENTORY_ORGANIZATION,Associate Source Organization with Inventory Organization,route only,medium-prereq,two inventory organizations,fill,association on a new PREFIX org or unsafe
+ORA_WSH_MANAGE_SHIPPING_LEGAL_ENTITY_DOCUMENT_SEQUENCES,Manage Shipping Legal Entity Document Sequences,route only,medium-prereq,a legal entity; WSH_MANAGE_SHIPPING_DOCUMENT_SEQUENCE,fill,new assignment
+WSH_MANAGE_PICK_WAVE_RELEASE_RULES,Manage Pick Wave Release Rules,route only,medium-prereq,WSH_MANAGE_RELEASE_SEQUENCE_RULES; INV_MANAGE_PICK_SLIP_GROUPING_RULES; WSH_MANAGE_SHIP_CONFIRM_RULES,fill,new rule referring to own rules
+WSH_MANAGE_SHIPPING_DOCUMENT_SEQUENCE,Manage Shipping Document Sequences,route only,medium-prereq,document sequence categories,fill,new sequence with PREFIX name
+INV_MANAGE_INVENTORY_ACCOUNT_ALIAS_KEY_FLEXFIELD,Manage Inventory Account Alias Key Flexfield,route only,hard,,fill,key flexfield structure used by everyone: likely unsafe
+INV_MANAGE_INVENTORY_DESCRIPTIVE_FLEXFIELDS,Manage Inventory Descriptive Flexfields,route only,hard,,fill,flexfield deployment: new PREFIX context or unsafe
+INV_MANAGE_INVENTORY_LOCATOR_KEY_FLEXFIELD,Manage Inventory Locator Key Flexfield,route only,hard,,fill,key flexfield structure used by everyone: likely unsafe
+INV_MANAGE_INVENTORY_PROFILE_OPTIONS,Manage Inventory Profile Options,route only,hard,,fill,site-level setting: test-and-restore only
+ORA_EDR_ELECTRONIC_SIGN_PREF,Configure Electronic Signature Preferences,route only,hard,,fill,shared preference: test-and-restore only
+ORA_INVENTORY_ATTRIBUTE_CONFIGURATION,Inventory Attribute Configurations,route only,hard,,fill,shared configuration: test-and-restore only
+ORA_INV_DEFAULT_CLASSIFICATION_GROUP,Default Classification Group,route only,hard,,fill,shared setting: test-and-restore only
+ORA_MANAGE_INVENTORY_BUSINESS_EVENT_CONFIGURATIONS,Manage Inventory Business Event Configurations,route only,hard,,fill,shared configuration: test-and-restore only
+ORA_MANAGE_INVENTORY_DOCUMENT_OUTPUT_PREFERENCES,Manage Inventory Document Output Preferences,route only,hard,,fill,shared preference: test-and-restore only
+ORA_MANAGE_SHIPPING_DOCUMENT_OUTPUT_PREFERENCES,Manage Shipping Document Output Preferences,route only,hard,,fill,shared preference: test-and-restore only
+ORA_MANAGE_SHIPPING_PROFILE_OPTIONS,Manage Shipping Profile Options,route only,hard,,fill,site-level setting: test-and-restore only
+ORA_RCS_COPY_INVENTORY_ORGANIZATIONS,Copy Inventory Organizations,route only,hard,a source inventory organization,fill,creates a whole new org; heavy
+ORA_RCS_MANAGE_INV_ORG_FLEXFIELDS,Manage Inventory Organizations Descriptive Flexfields,route only,hard,,fill,flexfield deployment: new PREFIX context or unsafe
+ORA_RCS_MANAGE_ITEM_ORG_FLEXFIELDS,Manage Item Organizations Descriptive Flexfields,route only,hard,,fill,flexfield deployment: new PREFIX context or unsafe
+ORA_RCS_SEARCH_FACILITY_SCHEDULES,Search Facility Schedules,route only,hard,,fill,search page; probably no data of its own
+RCV_MANAGE_RECEIVING_DESCRIPTIVE_FLEXFIELDS,Manage Receiving Descriptive Flexfields,route only,hard,,fill,flexfield deployment: new PREFIX context or unsafe
+RCV_MANAGE_RECEIVING_PARAMETERS,Manage Receiving Parameters,route only,hard,an inventory organization,fill,per-org parameters: test-and-restore or a new PREFIX org
+RCV_MANAGE_RECEIVING_PROFILE_OPTIONS,Manage Receiving Profile Options,route only,hard,,fill,site-level setting: test-and-restore only
+WSH_MANAGE_SHIPPING_DESCRIPTIVE_FLEXFIELDS,Manage Shipping Descriptive Flexfields,route only,hard,,fill,flexfield deployment: new PREFIX context or unsafe
+WSH_MANAGE_SHIPPING_PARAMETERS,Manage Shipping Parameters,route only,hard,an inventory organization,fill,per-org parameters: test-and-restore or a new PREFIX org
+ORA_FUN_MANAGE_INVENTORY_ORGANIZATION_DATA_ACCESS_FOR_USERS,Manage Inventory Organization Data Access for Users,neither,screen-only check,,check screen-only,catalog CSV flag N: check screen-only (read-only export + REST GET)
+ORA_MANAGE_MOVEMENT_REQUEST_APPROVAL,Manage Movement Request Approvals,neither,screen-only check,,check screen-only,catalog CSV flag N: check screen-only (read-only export + REST GET)
+ORA_MANAGE_REGISTRATION_TO_RECEIVE_RECALL_ALERTS,Manage Registration to Receive Recall Alerts,neither,screen-only check,,check screen-only,catalog CSV flag N: check screen-only (read-only export + REST GET)
+ORA_MANAGE_SHIPPING_DOCUMENT_JOB_SET_RULES,Manage Shipping Document Job Set Rules,neither,screen-only check,,check screen-only,catalog CSV flag N: check screen-only (read-only export + REST GET)
+ORA_SHIPPING_DOCUMENT_JOB_SET_RULES,Shipping Document Job Set Rules,neither,screen-only check,,check screen-only,catalog CSV flag N: check screen-only (read-only export + REST GET)

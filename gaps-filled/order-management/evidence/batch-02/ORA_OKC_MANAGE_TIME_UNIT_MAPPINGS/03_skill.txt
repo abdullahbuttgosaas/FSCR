@@ -1,0 +1,5 @@
+Manage Time Unit Mappings (ORA_OKC_MANAGE_TIME_UNIT_MAPPINGS) - 03_skill
+
+gaps-filled/order-management/time-unit-mappings/SKILL.md written: placeholders, notes, sign-in, prerequisites, export, build rows, import, read back, rules, worked example. Route: REST unitsOfMeasure (prerequisite POST) + FSM CSV mapping.
+
+Source: gaps-filled//time-unit-mappings

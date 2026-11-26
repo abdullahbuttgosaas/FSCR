@@ -1,0 +1,15 @@
+Fresh tests (each a new agent with no context, given only the task name, the SKILL.md path, the FSCR root, the prefix,
+a record name, a run folder outside the pack, the approval and the privacy rule). Every record was read back by IR
+with compare_exports.py.
+
+| Record | Import ProcessId | Result | SKILL.md errors reported |
+|---|---|---|---|
+| FSCRT_IR_GF_ACF  | 100004742420054 | PASS | 4 (CHANGELOG link, worked example route, export ZIP name, ProcessId/StatusCode wording) -> fixed |
+| FSCRT_IR_GF_ACR  | 100004742419063 | PASS | 0 (suggestion: script output shows environment-named file names) -> fixed |
+| FSCRT_IR_GF_ACR2 | 100004742419086 | FAIL | display name not unique (FND_CORE_RCRD_VAL), 0 rows created, nothing changed; plus false PASS in compare, false ModuleId cross-check, grep blind to failures -> fixed |
+| FSCRT_IR_GF_ACR3 | 100004742420131 | PASS | 3 (REST output printed, length rules conflict, expected lines) -> fixed |
+| FSCRT_IR_GF_ACR4 | 100004742423164 | PASS | 2 (REST --output path under MSYS_NO_PATHCONV, prefix rule too broad) -> fixed |
+| FSCRT_IR_GF_ACR5 | 100004742421147 | PASS | 0 -> final |
+
+ACR5 read-back: categories 25 -> 26, added 1 (yours 1), removed/changed 0; links 18 -> 18;
+"PASS: 1 row(s) of yours added, nothing else added or changed". Import result: RESULT: SUCCESS, Total Objects Failed: 0.

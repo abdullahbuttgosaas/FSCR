@@ -1,0 +1,3 @@
+# CHANGELOG: register-url-for-the-telephony-gateway-or-soft-s (GoSaaS gap fill)
+
+- 2026-11-26, screen-only verification run (AB with Claude, read only): decision screen-only. Proof written on STATUS.md.

@@ -1,0 +1,5 @@
+Manage Time Unit Mappings (ORA_OKC_MANAGE_TIME_UNIT_MAPPINGS) - 04_test_result
+
+Prerequisite: unit ZK1 / FSCRT_AK_GF_U1 created by REST POST after two 400 refusals (UOMClassCode not accepted; then "BaseUomFlag is required"), each confirmed by GET as not created. Mapping FSCRT_AK_GF_TU1: export 100004744431254, import 100004743456567 (1 row, 0 failed), after-export 100004744432864: 1 new row, 0 existing changed. Safe way chosen: mapping an existing unit would change other contracts, so own unit first.
+
+Source: gaps-filled//time-unit-mappings

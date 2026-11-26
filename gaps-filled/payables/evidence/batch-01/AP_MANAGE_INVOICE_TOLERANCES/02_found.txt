@@ -1,0 +1,11 @@
+02 FOUND - AP_MANAGE_INVOICE_TOLERANCES
+Read-only FSM setup-data export, ProcessId 100004744396649.
+Package: ASM_SETUP_CSV_METADATA.xml + AP_TOLERANCE_TEMPLATE.csv (3 rows, 18 columns):
+  ToleranceName, Description, PriceTolerance, QuantityTolerance, QtyReceivedTolerance, MaxQtyOrdTolerance,
+  MaxQtyRecTolerance, ShipAmtTolerance, RateAmtTolerance, TotalAmtTolerance, ToleranceType, MaxQtyConTolerance,
+  QtyConsumedTolerance + who/date columns
+Types in the data: QUANTITY BASED, AMOUNT BASED.
+REST: payablesInvoiceTolerances exists (GET OK); invoiceTolerances 404.
+Oracle doc: Implementing Payables Invoice to Pay > Invoice Tolerances.
+
+-- source: gaps-filled/payables/evidence/batch-01/AP_MANAGE_INVOICE_TOLERANCES/02_found.txt

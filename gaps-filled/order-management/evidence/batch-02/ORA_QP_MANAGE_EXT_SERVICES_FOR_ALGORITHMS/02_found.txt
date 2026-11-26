@@ -1,0 +1,5 @@
+Manage External Service Details for Algorithms (ORA_QP_MANAGE_EXT_SERVICES_FOR_ALGORITHMS) - 02_found
+
+Export package: 1 CSV DOO_WEB_SERVICE_DETAILS, 0 rows (OrchestrationApplicationCode, ServiceName, Description, OrigSystemName, ResponseProcessPartialMode, SendAttachmentsFlag, InvocationMode). REST omWebServiceDefinitions exists. Codes read live from lookups.
+
+Source: gaps-filled//external-services-for-algorithms

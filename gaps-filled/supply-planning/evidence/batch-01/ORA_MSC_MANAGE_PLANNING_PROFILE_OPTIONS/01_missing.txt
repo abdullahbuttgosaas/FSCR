@@ -1,0 +1,4 @@
+Task: Manage Planning Profile Options (ORA_MSC_MANAGE_PLANNING_PROFILE_OPTIONS)
+Module: Supply Planning (tracker row), functional area Supply Chain Planning Configuration
+Gap: level "route only" in module_scope_map.csv: no FSCR skill or guide; Oracle catalog CSV flag Y.
+Source: evidence/Supply Planning/data/coverage.csv and scope_tasks.csv (module test, 18/11/2026).

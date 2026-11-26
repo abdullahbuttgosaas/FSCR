@@ -1,0 +1,9 @@
+02 FOUND - IBY_MANAGE_PAYMENT_METHODS
+Read-only FSM setup-data export, ProcessId 100004744404456.
+Package: ASM_SETUP_CSV_METADATA.xml +
+  ORA_IBY_FD_PARENT_PAY_MET.csv 42 rows (87 cols), IBY_FD_PAYMENT_METHOD.csv 517 rows (usage rules, child),
+  ORA_IBY_FD_PARENT_PAY_MET_TRANSLATION.csv 42, ORA_PMT_METHOD_VALIDATION_ASSIGNMENT.csv 8, ORA_PAYMENT_METHOD_VALIDATION_VALUE.csv 4
+Seeded 32, user-created 10. Usage rule types: CROSS_BORDER_FLAG, FOREIGN_CURRENCY_FLAG, PAYEE, PAYER_LE, PAYER_ORG, PAY_PROC_TRXN_TYPE.
+REST: disbursementPaymentMethodsLOV (GET).
+
+-- source: gaps-filled/payables/evidence/batch-02/IBY_MANAGE_PAYMENT_METHODS/02_found.txt

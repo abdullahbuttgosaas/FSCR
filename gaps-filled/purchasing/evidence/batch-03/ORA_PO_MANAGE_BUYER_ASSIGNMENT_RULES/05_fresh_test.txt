@@ -1,0 +1,7 @@
+Fresh tests: each by a new sub-agent with no context, given only the task name, the SKILL.md path, the FSCR root, the prefix, a new record name, a run folder and the approval.
+
+F: rule 9998; import ProcessId 100004743454843; after-export ProcessId 100004744417713; PASS; reported example sequence 9999 already taken and column-order wording
+R: rule 10007; import ProcessId 100004743454882; after-export ProcessId 100004743454893; PASS; reported that the script stopped before printing sequences
+2R: rule 10008; import ProcessId 100004743436885; after-export ProcessId 100004743447880; PASS; no factual error
+
+I read the final (2R) record back myself from the tester's exports (compare_fsm_exports.py): only prefix rows added, existing rows unchanged.

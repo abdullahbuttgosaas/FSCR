@@ -1,0 +1,5 @@
+05 FRESH TEST
+  F: FSCRT_AK_GF_SCT1F, ProcessId 100004743426159, PASS first try (4 -> 5, RESULT OK, REST 1 item). No errors.
+Own REST read-back: SCT1 and SCT1F.
+
+-- source: gaps-filled/payables/evidence/batch-02/IBY_MANAGE_LOOKUPS-_EXTERNAL_CONNECTIVITY/05_fresh_test.txt

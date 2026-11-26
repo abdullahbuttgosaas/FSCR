@@ -1,0 +1,7 @@
+Fresh tests: each by a new sub-agent with no context, given only the task name, the SKILL.md path, the FSCR root, the prefix, a new record name, a run folder and the approval.
+
+F: FSCRT_MZ_GF_CTXF; import ProcessId 100004744417700; after-export ProcessId 100004743454861; PASS; reported that DEPLOYED status cannot show pending edits
+R: FSCRT_MZ_GF_CTXR; import ProcessId 100004744417737; after-export ProcessId 100004744417758; PASS; found that each import moves DeploymentDate: the import deploys the flexfield (skill said it did not)
+2R: FSCRT_MZ_GF_CTX2R; import ProcessId 100004743447867; after-export ProcessId 100004744422238; PASS; no factual error
+
+I read the final (2R) record back myself from the tester's exports (compare_fsm_exports.py): only prefix rows added, existing rows unchanged.

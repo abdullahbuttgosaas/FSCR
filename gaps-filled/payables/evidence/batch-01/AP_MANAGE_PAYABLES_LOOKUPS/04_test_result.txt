@@ -1,0 +1,10 @@
+04 TEST RESULT - own live test (PAY GROUP / FSCRT_AK_GF_PG1)
+try 1 ProcessId 100004744396738: refused, JBO-25027 LookupGenericTranslation cannot be loaded
+try 2 ProcessId 100004744403973: refused, same (who-columns filled)
+try 3 ProcessId 100004744397542: refused, JBO-27014 ChangeSinceLastRefresh is required
+fix  ProcessId 100004744404058: 1 row processed, 0 failed
+Compare: FUN_APP_GENERIC_LOOKUP.csv before 12, after 13, added 1, removed/changed 0
+         FUN_APP_GENERIC_LOOKUP_TRANSLATION.csv before 12, after 13, added 1, removed/changed 0
+         RESULT: OK - only prefix rows added, nothing removed or changed
+
+-- source: gaps-filled/payables/evidence/batch-01/AP_MANAGE_PAYABLES_LOOKUPS/04_test_result.txt

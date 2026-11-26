@@ -1,0 +1,5 @@
+Manage Task Types (DOO_MANAGE_TASK_TYPES) - 01_missing
+
+FSCR coverage (evidence/Order Management/data/coverage.csv, scope_tasks.csv): level 'route only' - FSCR declares an FSM CSV route but has no skill or guide for this task.
+
+Source: gaps-filled//task-types

@@ -1,0 +1,6 @@
+Read-only task-level export (--data) before the test: files, columns and row counts.
+
+[file] ASM_SETUP_CSV_METADATA.xml
+
+== INV_LOT_EXPIRATION_ACTIONS.csv: 4 row(s)
+   columns: ActionCode, Description, DisableFlag, AttributeCategory, Attribute1, Attribute10, Attribute11, Attribute12, Attribute13, Attribute14, Attribute15, Attribute16, Attribute17, Attribute18, Attribute19, Attribute2, Attribute20, Attribute21, Attribute22, Attribute23, Attribute24, Attribute25, Attribute26, Attribute27, Attribute28, Attribute29, Attribute3, Attribute30, Attribute4, Attribute5, Attribute6, Attribute7, Attribute8, Attribute9, AutomatedActionCode, StatusCode

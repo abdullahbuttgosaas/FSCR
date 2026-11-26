@@ -1,0 +1,6 @@
+05 FRESH TEST
+  F: FSCRT_AK_GF_BCB1F, ProcessId 100004743426058, PASS (1 -> 2, RESULT OK, REST 1 item). 1 error (ModuleId not in --fields) -> fixed.
+  R: FSCRT_AK_GF_BCB1R, ProcessId 100004744396882, PASS (2 -> 3, RESULT OK, REST 1 item). No errors.
+Own REST read-back: BCB1, BCB1F, BCB1R.
+
+-- source: gaps-filled/payables/evidence/batch-01/IBY_MANAGE_LOOKUPS-_DISBURSEMENTS/05_fresh_test.txt

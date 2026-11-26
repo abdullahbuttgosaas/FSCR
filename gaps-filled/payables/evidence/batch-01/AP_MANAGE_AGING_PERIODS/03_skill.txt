@@ -1,0 +1,17 @@
+03 SKILL - AP_MANAGE_AGING_PERIODS
+File: gaps-filled/payables/manage-aging-periods/SKILL.md
+Sections:
+  # Manage Aging Periods (CSV)
+  ## What it is and when to use
+  ## Placeholders
+  ## Sign-in
+  ## Prerequisites
+  ## Export (read only)
+  ## Build rows
+  ## Import
+  ## Read back
+  ## Rules and limits
+  ## Worked example (sitting 1)
+Length: 123 lines
+
+-- source: gaps-filled/payables/evidence/batch-01/AP_MANAGE_AGING_PERIODS/03_skill.txt

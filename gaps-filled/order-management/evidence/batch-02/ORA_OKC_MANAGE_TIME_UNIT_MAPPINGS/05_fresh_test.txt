@@ -1,0 +1,5 @@
+Manage Time Unit Mappings (ORA_OKC_MANAGE_TIME_UNIT_MAPPINGS) - 05_fresh_test
+
+Unit ZKF / FSCRT_AK_GF_UF by REST (201); mapping FSCRT_AK_GF_TUF: export 100004744434635, import 100004744433739, after-export 100004744436295: 1 new row, 0 changed. PASS, no wrong sentence.
+
+Source: gaps-filled//time-unit-mappings

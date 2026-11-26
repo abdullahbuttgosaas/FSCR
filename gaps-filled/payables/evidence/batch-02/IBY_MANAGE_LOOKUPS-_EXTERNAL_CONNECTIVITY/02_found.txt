@@ -1,0 +1,7 @@
+02 FOUND - IBY_MANAGE_LOOKUPS:_EXTERNAL_CONNECTIVITY
+Read-only FSM setup-data export, ProcessId 100004744396870.
+Package: same four lookup CSVs as the other lookup tasks; FUN_APP_GENERIC_LOOKUP.csv 2 rows = the IBY codes from the disbursement lookups tests
+(both IBY lookup tasks export all user codes of the IBY module).
+REST genericLookups: IBY_SEC_CRED_TYPES (security credential types), CustomizationLevel U, ViewApplicationId 0.
+
+-- source: gaps-filled/payables/evidence/batch-02/IBY_MANAGE_LOOKUPS-_EXTERNAL_CONNECTIVITY/02_found.txt

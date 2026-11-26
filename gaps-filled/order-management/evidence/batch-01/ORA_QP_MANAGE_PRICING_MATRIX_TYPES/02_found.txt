@@ -1,0 +1,5 @@
+Manage Pricing Matrix Types (ORA_QP_MANAGE_PRICING_MATRIX_TYPES) - 02_found
+
+Export package: 1 CSV ORA_QP_PRICING_MATRIX_TYPE. REST pricingMatrixTypes exists (GET 200). Class id is resolved by Oracle from DynamicMatrixClassName.
+
+Source: gaps-filled//pricing-matrix-types

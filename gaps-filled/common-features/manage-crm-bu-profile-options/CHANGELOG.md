@@ -6,3 +6,4 @@
 
 ## Test records created
 - none (not loaded)
+- 2026-11-26, sitting 8 (AB with Claude). Re-judged against the unsafe rule: still unsafe: the only object is the seeded SITE option (USER level disabled); test-and-restore is not allowed because turning multiple BU on for CRM changes how other users' CRM records are stamped while it is on (GUESS from Oracle's description of the option), so the change may create other records.

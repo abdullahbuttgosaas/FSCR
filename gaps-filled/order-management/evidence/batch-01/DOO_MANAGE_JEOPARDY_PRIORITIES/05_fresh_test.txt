@@ -1,0 +1,6 @@
+Manage Jeopardy Priorities (DOO_MANAGE_JEOPARDY_PRIORITIES) - 05_fresh_test
+
+FSCRT_AK_GF_JPF: export 100004744431265, import 100004744422985, after-export 100004744431351: 1 new row, 0 changed. PASS.
+FSCRT_AK_GF_JPR: export 100004743455825, import 100004744431540, after-export 100004744432765: 1 new row, 0 changed. PASS, no wrong sentence.
+
+Source: gaps-filled//jeopardy-priorities

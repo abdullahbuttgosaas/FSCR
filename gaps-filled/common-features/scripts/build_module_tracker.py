@@ -90,6 +90,10 @@ def main():
             mins = num(c.get("minutes_to_write")) + num(c.get("minutes_to_test"))
             if st == "tested":
                 tstat, dec, reason = "tested", "done", ""
+            elif st == "written" and "SAFE WAY FOUND" in c.get("notes", ""):
+                # re-judged under the unsafe rule: a safe test exists but was not run yet (sitting 8)
+                tstat, dec = "written-untested", "open"
+                reason = c.get("notes", "")
             elif st == "written":
                 tstat, dec = "skipped-unsafe", "written (unsafe to test)"
                 reason = c.get("notes", "")
@@ -101,7 +105,8 @@ def main():
                 reason = screen.get(code) or c.get("notes", "")
             else:
                 tstat, dec, reason = "open", o.get("decision", "open"), o.get("reason", "")
-            trk.append([code, r["task_name"], r["level"], tstat, "Y",
+            has_skill = (MODDIR / c["_folder"] / "SKILL.md").exists()
+            trk.append([code, r["task_name"], r["level"], tstat, "Y" if has_skill else "N",
                         "Y" if st == "tested" else "N", reason if tstat != "tested" else "",
                         c.get("test_records", ""), f"{mins:g}", c.get("date", "")])
             gaps.append([code, r["task_name"], r["level"], r["ease"], c.get("depends_on", r["depends_on"]),

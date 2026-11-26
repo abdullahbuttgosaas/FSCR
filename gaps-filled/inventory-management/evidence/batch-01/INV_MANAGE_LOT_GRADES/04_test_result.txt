@@ -1,0 +1,18 @@
+Own live test, record FSCRT_HF_GF_LG1.
+
+--- Own test import 1 (ProcessId 100004744431804) ---
+Business object: Item Lot Grade. Status: Completed successfully. Status details:
+Detail Object: LotGrade. Status: Completed successfully. Status Details: A total of 1 rows were processed. 0 rows of them failed and 0 rows completed with warnings.. Started: 11/26/26 12:40 PM. Ended: 11/26/26 12:40 PM.
+Total Objects Processed: 1
+Total Objects Succeeded: 1
+Total Objects Failed: 0
+Total Objects with Warnings: 0
+Total Objects for External Loading: 0
+Request ID: 4,489,983. Status: Completed successfully. Submitted By: <hidden>. Process Date: 11/26/26 12:40 PM.
+IMPORT RESULT: OK (0 failed objects)
+
+--- Read-back: export compare ---
+INV_LOT_GRADE.csv: before 19, after 20, FSCRT_HF_GF_ rows added 1 ['FSCRT_HF_GF_LG1'], existing changed or missing 0
+RESULT: PASS (only prefix rows added, existing changed 0)
+
+REST read-back: inventoryLotGrades (count 1)

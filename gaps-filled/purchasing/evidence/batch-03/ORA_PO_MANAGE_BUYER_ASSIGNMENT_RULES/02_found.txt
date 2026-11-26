@@ -1,0 +1,7 @@
+Read-only checks, 25/11/2026 (sign-in with the tester's own login; no values shown)
+FSCR task-level export (--data): succeeded. Files, headers and row counts (no rows shown):
+[csv] ORA_PO_BUYER_ASSIGNMENT_RULES.csv: 2 row(s)
+  header: ['RuleSeqNum', 'RuleSetCode', 'CreatedBy', 'ExceedsLineAmount', 'LastUpdatedBy', 'NonCatalogFlag', 'OrganizationCode', 'VendorName', 'ListName', 'ProcCategoryName', 'ProjectNumber', 'ShortCodeReqBu', 'EnterpriseIdReqBU', 'ShortCodePrcBU', 'EnterpriseIdPrcBU', 'EgpCategoryCode', 'EmailAddress', 'CostCenter']
+[file] ASM_SETUP_CSV_METADATA.xml
+
+REST: buyerAssignmentRules describe: not found

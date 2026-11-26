@@ -1,0 +1,5 @@
+05 FRESH TEST
+  F: FSCRT_AK_F, ProcessId 100004743425983, PASS first try (57 -> 58, RESULT OK, REST 1 item). No errors.
+Own REST read-back: FSCRT_AK_1 and FSCRT_AK_F.
+
+-- source: gaps-filled/payables/evidence/batch-02/AP_MANAGE_TAX_REGIONS/05_fresh_test.txt

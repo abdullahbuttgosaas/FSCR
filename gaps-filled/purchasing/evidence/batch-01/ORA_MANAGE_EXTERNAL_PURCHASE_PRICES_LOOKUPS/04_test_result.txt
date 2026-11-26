@@ -1,0 +1,6 @@
+Own live test, 25/11/2026. Lookup type FSCRT_MZ_GF_LK1 with code FSCRT_MZ_GF_A (module ID read live from ORA_SCH_EPP% lookup types).
+Import ProcessId 100004742441892: Application Standard Lookup, Completed successfully, 2 rows processed, 0 failed.
+After-export ProcessId 100004743404730:
+FND_APP_STANDARD_LOOKUP.csv: before 1, after 2, added 1 ['FSCRT_MZ_GF_LK1'], existing removed or changed 0, added without prefix 0
+ORA_FND_APP_STANDARD_LOOKUP_CODE.csv: before 1, after 2, added 1 ['FSCRT_MZ_GF_LK1'], existing removed or changed 0, added without prefix 0
+RESULT: only prefix rows added; existing rows unchanged

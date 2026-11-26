@@ -1,0 +1,13 @@
+Live test, batch 03, 25/11/2026 (approved by IR: one small net-change collection of units of measure)
+POST /fscmRestApi/resources/11.13.18.05/dataCollections
+Body: {"SourceSystem": "GPR", "CollectionType": 2, "EntityList": "UOM_CODES"}
+Response: RefreshNumber 0, ESSCollectionJobId empty, Message "You must enter a value for the TemplateName attribute."
+Read back: GET newest runs: still RefreshNumber 11015 (12/08/2026). No run created.
+Lookup MSC_DATA_COLLECTION_MODE: 1 Targeted, 2 Net change, 3 Automatic selection.
+Template resource: none found (dataCollectionTemplates, collectionTemplates, planningCollectionTemplates do not exist).
+Result: not started. A template is required. A UOM-only template must be saved on the Collect Planning Data page first.
+
+Route 1 (scheduled process via erpintegrations), 25/11/2026: not submitted.
+Oracle documents submitESSJobRequest only for the flat-file load (CSVController); there is no job name or parameter list
+for the Fusion-source Collection Job Set. Reading a past request: ESS request endpoint 404; ESSJobStatusRF returns no job
+name or parameters.

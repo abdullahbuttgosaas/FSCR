@@ -1,0 +1,11 @@
+04 TEST RESULT - own live test
+Record: FSCRT_AK_GF_PM1 (Payables only) + 6 usage rows
+Import ProcessId 100004743428080: DisbursementPaymentMethod 1 row processed, 0 failed.
+Compare: ORA_IBY_FD_PARENT_PAY_MET.csv before 42, after 43, added 1, removed/changed 0
+         IBY_FD_PAYMENT_METHOD.csv before 517, after 523, added 6, removed/changed 0
+         ORA_IBY_FD_PARENT_PAY_MET_TRANSLATION.csv before 42, after 43, added 1, removed/changed 0
+         validation CSVs added 0
+         RESULT: OK - only prefix rows added, nothing removed or changed
+REST LOV: FSCRT_AK_GF_PM1, FromDate 2026-01-01, EndDate 4712-12-31
+
+-- source: gaps-filled/payables/evidence/batch-02/IBY_MANAGE_PAYMENT_METHODS/04_test_result.txt

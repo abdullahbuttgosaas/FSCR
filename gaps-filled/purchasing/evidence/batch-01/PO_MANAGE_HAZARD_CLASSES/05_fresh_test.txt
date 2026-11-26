@@ -1,0 +1,8 @@
+Fresh tests: each by a new sub-agent with no context, given only the task name, the SKILL.md path, the FSCR root, the prefix, a new record name, a run folder and the approval.
+
+F: record FSCRT_MZ_GF_HCF; import ProcessId 100004742441974; after-export ProcessId 100004744391008; PASS; reported COMMON_STEPS wording (--match output, extra prefix keys, env names in file names)
+R: record FSCRT_MZ_GF_HCR; import ProcessId 100004744393017; after-export ProcessId 100004744391126; PASS; no wrong sentence (COMMON_STEPS changed afterwards for other skills)
+2R: record FSCRT_MZ_GF_HC2R; import ProcessId 100004743435963; after-export ProcessId 100004744415952; PASS; noted COMMON prose slip S/log_summary.py
+3R: record FSCRT_MZ_GF_HC3R; import ProcessId 100004743448041; after-export ProcessId 100004743447608; PASS; no wrong sentence
+
+I read the final retest records back myself from the testers' after-exports (compare_fsm_exports.py): only prefix rows added, existing rows unchanged.

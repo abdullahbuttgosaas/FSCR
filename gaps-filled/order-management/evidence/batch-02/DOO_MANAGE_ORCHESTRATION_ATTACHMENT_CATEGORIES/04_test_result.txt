@@ -1,0 +1,5 @@
+Manage Order Attachment Categories (DOO_MANAGE_ORCHESTRATION_ATTACHMENT_CATEGORIES) - 04_test_result
+
+Empty export (rows written in full). Try 1 refused (ProcessId 100004744436010): JBO-27014 UserName (category display name) required. Try 2 loaded (100004744435085) but the category had no ModuleId, so it is not in the DOO-scoped export (FSCRT_AK_GF_AC1 exists outside the module). Try 3 FSCRT_AK_GF_AC2 with ModuleId read live by REST: import 100004744435115 (2 rows, 0 failed); export before 100004744432568, after 100004744434550: 2 new rows, 0 existing changed.
+
+Source: gaps-filled//order-attachment-categories

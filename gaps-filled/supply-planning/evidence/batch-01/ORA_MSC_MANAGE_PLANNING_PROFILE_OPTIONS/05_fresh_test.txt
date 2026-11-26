@@ -1,0 +1,14 @@
+Fresh tests (each a new agent with no context, given only the task name, the SKILL.md path, the FSCR root, the prefix,
+a record name, a run folder outside the pack, the approval and the privacy rule). Every record was read back by IR
+with compare_exports.py.
+
+| Record | Import ProcessId | Result | SKILL.md errors reported |
+|---|---|---|---|
+| FSCRT_IR_GF_POF  | 100004742421074 | PASS | 3 (log row count, drifting numbers, StatusCode wording) -> fixed |
+| FSCRT_IR_GF_POR  | 100004742423051 | PASS | 1 (export prints an environment-named file name) -> fixed |
+| FSCRT_IR_GF_POR2 | 100004742422229 | PASS | 0 (one misleading sentence about <RUN>) -> fixed |
+| FSCRT_IR_GF_POR3 | 100004742419116 | PASS | 0 (import check could not show failures, found on the other task) -> fixed |
+| FSCRT_IR_GF_POR4 | 100004742422357 | PASS | 0 -> final |
+
+POR4 read-back: option 17 -> 18, levels 51 -> 54, values 17 -> 18; yours 1 + 3 + 1; removed/changed 0;
+"PASS: 5 row(s) of yours added, nothing else added or changed". Import result: RESULT: SUCCESS, rows processed 5, failed 0.

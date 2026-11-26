@@ -1,0 +1,21 @@
+Own live test, record FSCRT_HF_GF_PR1.
+
+--- Own test import 1 (ProcessId 100004743457097) ---
+Business object: Picking Rule. Status: Completed successfully. Status details:
+Detail Object: InventoryRule. Status: Completed successfully. Status Details: A total of 1 rows were processed. 0 rows of them failed and 0 rows completed with warnings.. Started: 11/26/26 12:58 PM. Ended: 11/26/26 12:58 PM.
+Business object: Inventory Rule. Status: Completed successfully. Status details: This object was already processed. The import or export details were listed under the Picking Rule business object.
+Total Objects Processed: 2
+Total Objects Succeeded: 2
+Total Objects Failed: 0
+Total Objects with Warnings: 0
+Total Objects for External Loading: 0
+Request ID: 4,490,147. Status: Completed successfully. Submitted By: <hidden>. Process Date: 11/26/26 12:58 PM.
+IMPORT RESULT: OK (0 failed objects)
+
+--- Read-back: export compare ---
+INV_RULE_SELECTION_CRITERION.csv: before 18, after 18, FSCRT_HF_GF_ rows added 0 [], existing changed or missing 0
+ORA_INV_RULE.csv: before 24, after 25, FSCRT_HF_GF_ rows added 1 ['FSCRT_HF_GF_PR1'], existing changed or missing 0
+ORA_INV_RULE_TRANSLATION.csv: before 24, after 25, FSCRT_HF_GF_ rows added 1 ['FSCRT_HF_GF_PR1'], existing changed or missing 0
+RESULT: PASS (only prefix rows added, existing changed 0)
+
+REST read-back: none (pickingRules returns 404)

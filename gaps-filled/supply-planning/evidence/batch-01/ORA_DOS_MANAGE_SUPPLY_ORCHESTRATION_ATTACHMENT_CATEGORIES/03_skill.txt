@@ -1,0 +1,5 @@
+Skill: gaps-filled/supply-planning/attachment-categories/SKILL.md
+Route: FSM CSV, one new row in FND_APP_ATTACHMENT_CATEGORY.csv, package built with module-test-kit/scripts/fsm_package.py
+(new rows only), imported with FSCR shared/setup-import/task-level-import.
+Sections: what it is, placeholders, sign-in, prerequisites, export, build rows, import, read back, rules and limits,
+worked example. Claims labelled VERIFIED / GUESS.

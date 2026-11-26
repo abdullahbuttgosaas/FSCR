@@ -1,0 +1,4 @@
+Task: Manage Supply Orchestration Attachment Categories (ORA_DOS_MANAGE_SUPPLY_ORCHESTRATION_ATTACHMENT_CATEGORIES)
+Module: Supply Planning (tracker row), functional area Supply Chain Orchestration
+Gap: level "route only" in module_scope_map.csv: no FSCR skill or guide; Oracle catalog CSV flag Y.
+Source: evidence/Supply Planning/data/coverage.csv and scope_tasks.csv (module test, 18/11/2026).

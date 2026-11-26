@@ -1,0 +1,36 @@
+task_code,task_name,level,status,skill_written,tested,reason_or_next_step,test_records,working_minutes,date
+ORA_CJM_MANAGE_PROGRAM_TYPES,Manage Channel Program Types,route only,tested,Y,Y,,"FSCRT_AK_GF_PT1, FSCRT_AK_GF_PTF, FSCRT_AK_GF_PTR (Draft, Supplier Rebate, each with 2 qualifiers)",10,2026-11-26
+DOO_MANAGE_JEOPARDY_PRIORITIES,Manage Jeopardy Priorities,route only,tested,Y,Y,,"FSCRT_AK_GF_JP1 (1000-1010), FSCRT_AK_GF_JPF (1020-1030), FSCRT_AK_GF_JPR (1040-1050)",10,2026-11-26
+DOO_MANAGE_ORCHESTRATION_ATTACHMENT_CATEGORIES,Manage Order Attachment Categories,route only,tested,Y,Y,,"FSCRT_AK_GF_AC2, FSCRT_AK_GF_ACF (plus FSCRT_AK_GF_AC1 created outside the DOO module by try 2; own test record, left in place)",12,2026-11-26
+DOO_MANAGE_STATUS_VALUES,Manage Status Values,route only,tested,Y,Y,,"FSCRT_AK_GF_ST1, FSCRT_AK_GF_STF, FSCRT_AK_GF_STR",10,2026-11-26
+DOO_MANAGE_TASK_TYPES,Manage Task Types,route only,tested,Y,Y,,"FSCRT_AK_GF_TT1, FSCRT_AK_GF_TTF, FSCRT_AK_GF_TTR (each with services Create and Inbound)",10,2026-11-26
+ORA_OKC_MANAGE_TIME_UNIT_MAPPINGS,Manage Time Unit Mappings,route only,tested,Y,Y,,"units ZK1 (FSCRT_AK_GF_U1), ZKF (FSCRT_AK_GF_UF); mappings FSCRT_AK_GF_TU1, FSCRT_AK_GF_TUF",12,2026-11-26
+ORA_QP_MANAGE_EXT_SERVICES_FOR_ALGORITHMS,Manage External Service Details for Algorithms,route only,tested,Y,Y,,"FSCRT_AK_GF_WS1, FSCRT_AK_GF_WSF",12,2026-11-26
+ORA_QP_MANAGE_PRICING_MATRIX_TYPES,Manage Pricing Matrix Types,route only,tested,Y,Y,,"FSCRT_AK_GF_MT1, FSCRT_AK_GF_MTF, FSCRT_AK_GF_MTR (inactive)",10,2026-11-26
+ORA_QP_MANAGE_PRICING_RESULTS_PRESENTATIONS,Manage Pricing Results Presentations,route only,tested,Y,Y,,"FSCRT_AK_GF_RP1, FSCRT_AK_GF_RPF, FSCRT_AK_GF_RPR",10,2026-11-26
+ORA_QP_MANAGE_PRICING_TOTALS_DEFINITIONS,Manage Pricing Totals,route only,tested,Y,Y,,"FSCRT_AK_GF_TOA, FSCRT_AK_GF_TOF (FSCRT_AK_GF_TO1 refused, nothing created)",10,2026-11-26
+DOO_MANAGE_CONSTRAINT_OBJECTS,Manage Constraint Entities,route only,open,N,N,new constraint entity on a seeded view object,,,
+DOO_MANAGE_JEOPARDY_THRESHOLDS,Manage Jeopardy Thresholds,route only,open,N,N,needs a task type,,,
+DOO_MANAGE_ORDER_ATTRIBUTES_IDENTIFYING_CHANGE,Manage Order Attributes That Identify Change,route only,open,N,N,attribute rows on seeded entities,,,
+DOO_MANAGE_PROCESS_CONSTRAINTS,Manage Processing Constraints,route only,open,N,N,needs a constraint entity,,,
+DOO_MANAGE_TRANSFORMATION_RULES,Manage Product Transformation Rules,route only,open,N,N,business rules in a shared dictionary,,,
+DOO_MANAGE_TASK_STATUS_CONDITIONS,Manage Task Status Conditions,route only,open,N,N,needs a task type and status codes,,,
+DOO_ORCHESTRATION_MANAGE_SOURCE_SYSTEMS,Manage Upstream and Fulfillment Source Systems,route only,open,N,N,"new orchestration source system (ORA_MSC_APPS_INSTANCE, export read in sitting 1); may need a trading community source system first",,,
+ORA_QP_MANAGE_PRICING_PROCESS_ASSIGNMENTS,Manage Pricing Process Assignments,route only,open,N,N,assignment of a pricing algorithm,,,
+ORA_DOO_MANAGE_EXTERNAL_INTEGRATION_VIB_ROUTING_RULES,Manage External Integration Routing Rules for Sales Orders,route only,open,N,N,visual information builder rules,,,
+DOO_MANAGE_ORCHESTRATION_PROCESS_DEFINITIONS,Manage Orchestration Process Definitions,route only,open,N,N,"long dependency chain, large package",,,
+DOO_MANAGE_ORCHESTRATION_DESCRIPTIVE_FLEXFIELDS,Manage Order Descriptive Flexfields,route only,open,N,N,"flexfield context/segments, deployment",,,
+DOO_MANAGE_EXTERNAL_INTERFACE_DATA_VALUE_MAPS,Manage Posttransformation Defaulting Rules,route only,open,N,N,business rules in a shared dictionary,,,
+DOO_MANAGE_TRANSFORMATION_RULE_SETS,Manage Pretransformation Defaulting Rules,route only,open,N,N,business rules in a shared dictionary,,,
+ORA_DOO_MANAGE_PRETRANSFORMATION_VIB_RULE_SETS,Manage Pretransformation Rules for Sales Orders,route only,open,N,N,visual information builder rules,,,
+ORA_DOO_MANAGE_PROCESS_VIB_ASSIGNMENT_RULES,Manage Process Assignment Rules for Sales Orders,route only,open,N,N,visual information builder rules,,,
+ORA_QP_MANAGE_PRICING_DESCRIPTIVE_FLEXFIELDS,Manage Pricing Descriptive Flexfields,route only,open,N,N,"flexfield context/segments, deployment",,,
+ORA_CJM_MANAGE_CHANNEL_MESSAGES,Manage Channel Messages,neither,screen-only,N,N,No FSM CSV: setupTaskCSVExports returned no ProcessId (catalog CSV flag N). No REST resource: GET channelMessages = 404. Screen task (Setup and Maintenance).,,,
+ORA_CJM_RUN_MIGRATE_PENDING_APPROVALS_TO_BPM_WORKFLOW_PROCESS,Run Migrate Pending Approvals to BPM Workflow Process,neither,screen-only,N,N,"Scheduled process, not a setup record. No FSM CSV: export returned no ProcessId (catalog export and CSV flags N). No setup REST resource; run it from Scheduled Processes.",,,
+ORA_FOM_COLLECT_ORDER_REFERENCE_DATA,Collect Order Reference Data,neither,screen-only,N,N,"Scheduled process (collections), not a setup record. No FSM CSV: export returned no ProcessId (flags N). No REST resource: GET orderReferenceData = 404.",,,
+DOO_GENERATE_BUCKET_SETS_FOR_BUSINESS_RULES,Generate Bucket Sets for Business Rules,neither,screen-only,N,N,"Scheduled process, not a setup record. No FSM CSV: export returned no ProcessId (flags N). No REST resource: GET bucketSets = 404.",,,
+ORA_FOM_LOAD_ORDER_REFERENCE_DATA_FROM_FLAT_FILES,Load Order Reference Data from Flat Files,neither,screen-only,N,N,"Scheduled process (file-based collections load), not a setup record. No FSM CSV: export returned no ProcessId (flags N). No setup REST resource.",,,
+DOO_MANAGE_EXTERNAL_INTERFACE_TRANSFORMATION_STYLESHEETS,Manage External Interface Transformation Style Sheets,neither,screen-only,N,N,No FSM CSV: export returned no ProcessId (flags N). No REST resource: GET transformationStylesheets = 404. Screen task (upload of XSL files).,,,
+DOO_MANAGE_EXTERNAL_INTERFACE_MEDIATORS,Manage Integration with Oracle Fusion Distributed Order Orchestration,neither,screen-only,N,N,No FSM CSV: export returned no ProcessId (flags N). No REST resource: GET orderManagementMediators = 404. Screen/integration task.,,,
+ORA_DOO_PUBLISH_EFF_ATTRIBUTES,Publish Extensible Flexfield Attributes,neither,screen-only,N,N,"Scheduled process (publishes extensible flexfield attributes), not a setup record. No FSM CSV: export returned no ProcessId (flags N). No setup REST resource.",,,
+DOO_REVIEW_ORCHESTRATION_COLLECTED_DATA,Review Collected Order Reference Data,neither,screen-only,N,N,"Review (read) page for collected data, not a setup record. No FSM CSV: export returned no ProcessId (flags N). No REST resource: GET collectedOrderReferenceData = 404.",,,

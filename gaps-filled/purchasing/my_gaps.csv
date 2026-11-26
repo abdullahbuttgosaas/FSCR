@@ -1,0 +1,12 @@
+task_code,task_name,level,ease,depends_on,decision,reason
+PO_MANAGE_HAZARD_CLASSES,Manage Hazard Classes,route only,easy,,fill (batch 01),new stand-alone hazard class + translation row; FSM CSV export works (5 rows)
+PO_MANAGE_APPROVED_SUPPLIER_LIST_STATUSES,Manage Approved Supplier List Statuses,route only,easy,,fill (batch 01),new stand-alone status row; FSM CSV export works
+ORA_MANAGE_EXTERNAL_PURCHASE_PRICES_LOOKUPS,Manage External Purchase Prices Lookups,route only,easy,,fill (batch 01),new user lookup type + code in the task's module; REST standardLookups for read-back
+PO_MANAGE_PURCHASING_VALUE_SETS,Manage Purchasing Value Sets,route only,easy,,fill (batch 01),new independent value set + values (rows written in full: export empty); REST valueSets for read-back
+PO_MANAGE_UN_NUMBERS,Manage UN Numbers,route only,needs prerequisite,PO_MANAGE_HAZARD_CLASSES (optional hazard class),fill (batch 01),new UN number linked to a test hazard class
+ORA_PO_MANAGE_ASSIGNMENT_RULE_SETS_LOOKUP,Manage Buyer Assignment Rule Sets Lookup,route only,needs prerequisite,seeded rule-set lookup type (parent row),fill (batch 02),new lookup code under the rule-set lookup type; export empty so rows written in full
+PO_MANAGE_CHANGE_ORDER_TEMPLATES,Manage Change Order Templates,route only,hard,,fill (batch 02),new template with header + translation + attribute rows (large package: 132 attribute rows per template)
+ORA_PO_MANAGE_BUYER_ASSIGNMENT_RULES,Manage Buyer Assignment Rules,route only,hard,ORA_PO_MANAGE_ASSIGNMENT_RULE_SETS_LOOKUP; existing BU; existing buyer,"fill (batch 03, after the environment was confirmed test-only)",first judged unsafe: a rule assigns an existing buyer (person e-mail) to other people's purchasing documents on the shared environment; tested 26/11/2026 with safeguards (see STATUS.md)
+PO_MANAGE_PURCHASING_DESCRIPTIVE_FLEXFIELDS,Manage Purchasing Descriptive Flexfields,route only,hard,PO_MANAGE_PURCHASING_VALUE_SETS,"fill (batch 03, after the environment was confirmed test-only)",first judged unsafe: contexts/segments on seeded Purchasing DFFs need a flexfield deploy that changes pages for every user; tested 26/11/2026 with safeguards (see STATUS.md)
+ORA_PO_MANAGE_PURCHASING_MESSAGES,Manage Purchasing Messages,neither,screen-only,,screen-only,catalog CSV flag N; FSCR export refused; REST messages allows get only
+ORA_SCH_MANAGE_EXTERNAL_PURCHASE_PRICE_APPROVALS,Manage External Purchase Price Approvals,neither,screen-only,,screen-only,catalog ExportImport N and CSV N; FSCR export refused; no REST resource

@@ -1,0 +1,4 @@
+Skill: gaps-filled/supply-planning/planning-profile-options/SKILL.md
+Route: FSM CSV, new rows only (1 option, 3 levels, 1 site value), package built with module-test-kit/scripts/fsm_package.py,
+imported with FSCR shared/setup-import/task-level-import.
+Wording fix before any test: "all rows share one pair" was wrong (two ModuleId values); corrected to "take the most-used ModuleId".

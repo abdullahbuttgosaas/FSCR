@@ -1,0 +1,7 @@
+task_code,task_name,level,status,skill_written,tested,reason_or_next_step,test_records,working_minutes,date
+ORA_DOS_MANAGE_SUPPLY_ORCHESTRATION_ATTACHMENT_CATEGORIES,Manage Supply Orchestration Attachment Categories,route only,tested,Y,Y,,FSCRT_IR_GF_AC1; FSCRT_IR_GF_ACF; FSCRT_IR_GF_ACR; FSCRT_IR_GF_ACR3; FSCRT_IR_GF_ACR4; FSCRT_IR_GF_ACR5,32,24/11/2026
+ORA_MSC_MANAGE_PLANNING_PROFILE_OPTIONS,Manage Planning Profile Options,route only,tested,Y,Y,,FSCRT_IR_GF_PO1; FSCRT_IR_GF_POF; FSCRT_IR_GF_POR; FSCRT_IR_GF_POR2; FSCRT_IR_GF_POR3; FSCRT_IR_GF_POR4,27,24/11/2026
+ORA_VCS_MANAGE_PROCESS_DEFINTIONS,Manage Supply Chain Collaboration Orchestration Process Definitions,neither,screen-only,N,N,Catalog CSV flag N; FSCR task-level export refuses it; no REST resource,,1,24/11/2026
+ORA_VCS_MANAGE_MESSAGES,Manage Supply Chain Collaboration Messages,neither,screen-only,N,N,Catalog CSV flag N; no REST resource,,0,24/11/2026
+ORA_MSC_CONFIGURE_REMAINING_SHELF_LIFE_RULE,Configure Remaining Shelf Life Rule,neither,screen-only,N,N,Catalog CSV flag N; REST remainingShelfLifeRules allows GET only,,0,24/11/2026
+ORA_MSC_COLLECT_PLANNING_DATA,Collect Planning Data,neither,written-untested,Y,N,"unsafe on a shared environment; REST dataCollections needs TemplateName (VERIFIED); scheduled-process route undocumented for the Fusion-source job set. Next: save a UOM-only template on the Collect Planning Data page, then POST once and run the fresh test",,14,25/11/2026

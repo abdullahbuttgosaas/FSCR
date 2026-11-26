@@ -1,0 +1,5 @@
+Manage Time Unit Mappings (ORA_OKC_MANAGE_TIME_UNIT_MAPPINGS) - 02_found
+
+Export package: 1 CSV ORA_OKC_TIME_UNIT_MAPPING (ConversionCode, UserUomCode, BaseUomCode, ConversionRate, ActiveFlag). Existing user units are class TIME; ConversionCode accepts any unique text.
+
+Source: gaps-filled//time-unit-mappings

@@ -1,0 +1,5 @@
+Task: Manage External Purchase Prices Lookups (ORA_MANAGE_EXTERNAL_PURCHASE_PRICES_LOOKUPS)
+Module: Purchasing (ERP)   Functional area: External Purchase Prices
+FSCR coverage level: b = route only (no FSCR skill or guide; catalog CSV export/import flag Y)
+Source: evidence/Purchasing/data/scope_tasks.csv (module test, 17/11/2026)
+Decision: fill (batch 01)  Reason: new user lookup type + code in the task's module; REST standardLookups for read-back

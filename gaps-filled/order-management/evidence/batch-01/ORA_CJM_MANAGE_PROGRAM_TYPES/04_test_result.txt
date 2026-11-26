@@ -1,0 +1,5 @@
+Manage Channel Program Types (ORA_CJM_MANAGE_PROGRAM_TYPES) - 04_test_result
+
+FSCRT_AK_GF_PT1: export 100004744431194, import 100004744432477 (1 row, 0 failed), after-export 100004744432496: 3 new rows (type + 2 qualifiers), 0 existing changed; REST GET returned it (DRAFT).
+
+Source: gaps-filled//channel-program-types

@@ -1,0 +1,11 @@
+Read-only checks, 25/11/2026 (sign-in with the tester's own login; no values shown)
+FSCR task-level export (--data): succeeded. Files, headers and row counts (no rows shown):
+[csv] PO_CHANGE_ORDER_TEMPLATE.csv: 1 row(s)
+  header: ['CoTemplateCode', 'CreatedBy', 'CreationDate', 'Description', 'LastUpdateDate', 'LastUpdateLogin', 'LastUpdatedBy', 'SeededTemplateId', 'Status', 'TemplateName', 'TypeLookupCode']
+[csv] PO_CHANGE_ORDER_TEMPLATE_ATTR_VALUE.csv: 132 row(s)
+  header: ['PO_CHANGE_ORDER_TEMPLATE.CoTemplateCode', 'EntityType', 'AttrName', 'CreatedBy', 'CreationDate', 'DispatchToSupFlag', 'LastUpdateDate', 'LastUpdateLogin', 'LastUpdatedBy', 'ListOrder', 'UserUpdatableFlag']
+[csv] PO_CHANGE_ORDER_TEMPLATE_TRANSLATION.csv: 1 row(s)
+  header: ['PO_CHANGE_ORDER_TEMPLATE.CoTemplateCode', 'CreatedBy', 'CreationDate', 'Description', 'Language', 'LastUpdateDate', 'LastUpdateLogin', 'LastUpdatedBy', 'SourceLang', 'TemplateName']
+[file] ASM_SETUP_CSV_METADATA.xml
+
+REST: changeOrderTemplatesLOV describe: not found

@@ -1,0 +1,5 @@
+Manage Status Values (DOO_MANAGE_STATUS_VALUES) - 03_skill
+
+gaps-filled/order-management/status-values/SKILL.md written: placeholders, sign-in, prerequisites, export, build rows, import, read back, rules, worked example. Route: FSM CSV (task-level export/import); no REST resource (orchestrationStatusValues 404).
+
+Source: gaps-filled//status-values

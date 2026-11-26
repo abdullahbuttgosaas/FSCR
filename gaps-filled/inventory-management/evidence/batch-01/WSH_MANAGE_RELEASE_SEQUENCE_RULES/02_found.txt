@@ -1,0 +1,9 @@
+Read-only task-level export (--data) before the test: files, columns and row counts.
+
+[file] ASM_SETUP_CSV_METADATA.xml
+
+== WSH_PICK_SEQUENCE_RULE.csv: 8 row(s)
+   columns: PickSequenceRuleName, Description, OrderIdPriority, OrderIdSort, InvoiceValuePriority, InvoiceValueSort, ScheduleDatePriority, ScheduleDateSort, ShipmentPriPriority, ShipmentPriSort, InitialShipDatePriority, InitialShipDateSort, StartDateActive, EndDateActive, AttributeCategory, Attribute1, Attribute2, Attribute3, Attribute4, Attribute5, Attribute6, Attribute7, Attribute8, Attribute9, Attribute10, Attribute11, Attribute12, Attribute13, Attribute14, Attribute15, Priority1Rule, Priority2Rule, Priority3Rule, Priority4Rule, Priority5Rule, Priority1Sort, Priority2Sort, Priority3Sort, Priority4Sort, Priority5Sort, JobDefinitionPackage, JobDefinitionName, AttributeDate1, AttributeDate2, AttributeDate3, AttributeDate4, AttributeDate5, AttributeNumber1, AttributeNumber10, AttributeNumber2, AttributeNumber3, AttributeNumber4, AttributeNumber5, AttributeNumber6, AttributeNumber7, AttributeNumber8, AttributeNumber9, AttributeTimestamp1, AttributeTimestamp2, AttributeTimestamp3, AttributeTimestamp4, AttributeTimestamp5, ObjectVersionNumber
+
+== WSH_PICK_SEQUENCE_RULE_TRANSLATION.csv: 8 row(s)
+   columns: WSH_PICK_SEQUENCE_RULE.PickSequenceRuleName, Description, Language, PickSequenceRuleName, SourceLang

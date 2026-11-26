@@ -1,0 +1,5 @@
+05 FRESH TEST
+  F: FSCRT_AK_GF_PG1F, ProcessId 100004744404109, PASS first try (codes 13 -> 14, translations 13 -> 14, RESULT OK). No errors.
+Own read-back: final export lists PG1 and PG1F; first vs final: +2 / +2, removed/changed 0.
+
+-- source: gaps-filled/payables/evidence/batch-01/AP_MANAGE_PAYABLES_LOOKUPS/05_fresh_test.txt

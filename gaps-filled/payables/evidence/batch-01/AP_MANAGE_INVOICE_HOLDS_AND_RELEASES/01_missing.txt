@@ -1,0 +1,8 @@
+01 MISSING - AP_MANAGE_INVOICE_HOLDS_AND_RELEASES
+Task: Manage Invoice Holds and Releases
+Module: Payables
+Coverage level in evidence/Payables/data/scope_tasks.csv: b (route only); FSCR skill or guide: none
+Catalog CSV export/import flag: Y
+Source: evidence/Payables/data/scope_tasks.csv
+
+-- source: gaps-filled/payables/evidence/batch-01/AP_MANAGE_INVOICE_HOLDS_AND_RELEASES/01_missing.txt

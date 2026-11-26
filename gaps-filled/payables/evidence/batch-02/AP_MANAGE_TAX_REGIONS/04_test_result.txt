@@ -1,0 +1,8 @@
+04 TEST RESULT - own live test
+try 1 FSCRT_AK_GF_TR1, ProcessId 100004743425947: refused, JBO-27040 RegionShortName exceeds the maximum length
+try 2 FSCRT_AK_1 (long name FSCRT_AK_GF_ test income tax region 1, FEDERAL), ProcessId 100004743427182: 1 row processed, 0 failed
+Compare: AP_INCOME_TAX_REGION.csv before 56, after 57, added 1, removed/changed 0
+         RESULT: OK - only prefix rows added, nothing removed or changed
+REST read-back: state FSCRT_AK_1, regionName FSCRT_AK_GF_ test income tax region 1, FEDERAL
+
+-- source: gaps-filled/payables/evidence/batch-02/AP_MANAGE_TAX_REGIONS/04_test_result.txt

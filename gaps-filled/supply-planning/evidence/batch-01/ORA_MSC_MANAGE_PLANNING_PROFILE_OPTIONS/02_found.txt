@@ -1,0 +1,6 @@
+Read-only task export (FSCR shared/setup-export/task-level-export, --data), 24/11/2026:
+  FND_APP_PROFILE_OPTION.csv            12 rows  (definitions)
+  ORA_FND_APP_PROFILE_OPTION_LEVEL.csv  36 rows  (3 levels per option: SITE, PRODUCT, USER)
+  FND_APP_PROFILE_VALUE.csv             12 rows  (values)
+All options share one ApplicationId; two ModuleId values are in use (7 and 5 rows). The skill takes the most-used one.
+Prerequisites: none (stand-alone record). Existing options and values are never touched.

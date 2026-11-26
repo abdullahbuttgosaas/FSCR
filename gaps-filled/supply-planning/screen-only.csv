@@ -1,0 +1,4 @@
+task_code,task_name,reason
+ORA_VCS_MANAGE_PROCESS_DEFINTIONS,Manage Supply Chain Collaboration Orchestration Process Definitions,"Catalog CSV flag N; FSCR's task-level export refuses it (read-only check, 24/11/2026); no REST resource in Oracle's 26D SCM REST list."
+ORA_VCS_MANAGE_MESSAGES,Manage Supply Chain Collaboration Messages,"Catalog CSV flag N; no REST resource for these messages in Oracle's 26D SCM REST list (module test, 18/11/2026)."
+ORA_MSC_CONFIGURE_REMAINING_SHELF_LIFE_RULE,Configure Remaining Shelf Life Rule,"Catalog CSV flag N; REST remainingShelfLifeRules allows GET only (describe checked in the module test, 18/11/2026)."
