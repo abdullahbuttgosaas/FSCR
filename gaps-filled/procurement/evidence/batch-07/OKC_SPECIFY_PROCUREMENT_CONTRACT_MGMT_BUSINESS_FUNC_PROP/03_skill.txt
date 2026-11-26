@@ -1,0 +1,2 @@
+Skill: gaps-filled/procurement/specify-supplier-contract-business-function/SKILL.md (status tested).
+FSM CSV (OKC_BU_IMPL_OPTIONS) for an own prefix business unit; unit id read live by REST finBusinessUnitsLOV; build_csv_package.py / compare_exports.py

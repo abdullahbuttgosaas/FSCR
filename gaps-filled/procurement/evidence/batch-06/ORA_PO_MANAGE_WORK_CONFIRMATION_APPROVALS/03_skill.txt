@@ -1,0 +1,2 @@
+Skill: gaps-filled/procurement/manage-work-confirmation-approvals/SKILL.md (status written).
+REST approvalRules (same script as Requisition / Purchasing Document Approvals); refused here with POR-2011627

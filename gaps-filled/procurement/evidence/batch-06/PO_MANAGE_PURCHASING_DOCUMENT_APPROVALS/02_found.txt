@@ -1,0 +1,2 @@
+Read-only checks, 2026-11-27:
+approvalTasks: Purchasing Document Approvals (TaskKey DocumentApproval, upgraded True); 15 participants; 107 NUMBER attributes (documentCurrencyApprovalTotal / PurchasingDocumentHeader). 5 existing rules (read only).

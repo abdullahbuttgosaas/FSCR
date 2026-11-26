@@ -1,0 +1,2 @@
+Fresh test, 2026-11-27:
+Fresh Claude (skill only), 00:56-00:59: Case B; context GAPFILL_AB_B7_CCX2F + segment GAPFILL_AB_B7_CSG2F on ATTRIBUTE12, value set Text 150; ProcessId 100004743464090: 3 processed, 0 failed; compare contexts 1 -> 2, segments 1 -> 2, removed 0, changed 0: RESULT PASS; EnabledFlag N; DEPLOYED. No wrong sentence.

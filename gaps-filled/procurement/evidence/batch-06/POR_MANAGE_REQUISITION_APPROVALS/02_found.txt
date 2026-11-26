@@ -1,0 +1,2 @@
+Read-only checks, 2026-11-27:
+REST approvalRules (get, create, upsert, duplicate; children conditions, actions); approvalTasks (13 tasks; this one TaskKey ReqApproval, upgraded True); participants 13; approvalAttributesLOV 430 attributes (requisitionTotal / ReqHeaderDimension NUMBER). 23 existing rules, 22 enabled (read only).

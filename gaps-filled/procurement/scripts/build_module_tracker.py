@@ -99,9 +99,13 @@ def main():
             elif st == "failed":
                 tstat, dec = "failed", "failed"
                 reason = c.get("notes", "")
+            elif st == "screen-only":
+                tstat, dec = "screen-only", "screen-only"
+                reason = screen.get(code) or c.get("notes", "")
             else:
                 tstat, dec, reason = "open", o.get("decision", "open"), o.get("reason", "")
-            trk.append([code, r["task_name"], r["level"], tstat, "Y",
+            trk.append([code, r["task_name"], r["level"], tstat,
+                        "Y" if (MODDIR / c["_folder"] / "SKILL.md").exists() else "N",
                         "Y" if st == "tested" else "N", reason if tstat != "tested" else "",
                         c.get("test_records", ""), f"{mins:g}", c.get("date", "")])
             gaps.append([code, r["task_name"], r["level"], o.get("ease") or r["ease"], c.get("depends_on", r["depends_on"]),

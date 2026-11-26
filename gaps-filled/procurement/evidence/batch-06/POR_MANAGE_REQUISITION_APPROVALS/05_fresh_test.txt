@@ -1,0 +1,2 @@
+Fresh test, 2026-11-27:
+Round F (fresh Claude, skill only): GAPFILL_AB_B6_RQ2F on Header Consensus: rules 4 -> 5, added only RQ2F, RESULT PASS; READBACK found 1, EnabledFlag False (read back again by AB). Notes: pending flag already True (wording 'False -> True' misleading) -> fixed. Round R: GAPFILL_AB_B6_RQ3R on Header Hierarchy 3: rules 0 -> 1, RESULT PASS, READBACK PASS, no wrong sentence.

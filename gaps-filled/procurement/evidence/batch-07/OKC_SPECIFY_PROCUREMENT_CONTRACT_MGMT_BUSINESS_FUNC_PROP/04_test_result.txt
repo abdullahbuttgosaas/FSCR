@@ -1,0 +1,2 @@
+Own live test, 2026-11-27:
+Own test 01:04-01:07 on GAPFILL_AB_B15_BU1: 3 refused tries (causes on the card, nothing created), try 4 ProcessId 100004743463626: 1 processed, 0 failed; compare rows 1 -> 2, added GAPFILL_AB_B15_BU1, removed 0, changed 0: PASS.

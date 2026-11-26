@@ -1,0 +1,2 @@
+Skill: gaps-filled/procurement/manage-contract-terms-dff/SKILL.md (status tested).
+FSM CSV (flexfield package, module OKC); parent row by REST descriptiveFlexfields when the export is empty; builders from common-features/manage-applcore-dffs

@@ -1,0 +1,3 @@
+Task PO_MANAGE_PURCHASING_DOCUMENT_APPROVALS (Manage Purchasing Document Approvals), module Procurement.
+FSCR coverage: neither; no FSCR skill or guide.
+Source: gaps-filled/gap_index.csv (Run 36 scope map).

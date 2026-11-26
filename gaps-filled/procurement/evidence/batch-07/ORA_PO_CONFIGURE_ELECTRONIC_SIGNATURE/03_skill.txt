@@ -1,0 +1,2 @@
+Skill: gaps-filled/procurement/configure-electronic-signature/SKILL.md (status written).
+FSM CSV (ORA_ZCA_ESIGNATURE_SETUP) - read-only export only; setup by a person on the screen

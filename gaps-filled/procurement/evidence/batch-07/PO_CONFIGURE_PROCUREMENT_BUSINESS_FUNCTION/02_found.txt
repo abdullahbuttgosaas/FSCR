@@ -1,0 +1,2 @@
+Read-only checks, 2026-11-27:
+Task export 5 CSVs: PO_SYSTEM_PARAMETER 14 rows x 123 columns, PO_DOCUMENT_TYPE 84 (+84 translations), PON_CONTRACTS 2 (+2). Assign BU Business Function export: FUN_BUSINESS_UNIT 193, FUN_BU_USAGE 1105 (own test units had no function), FUN_BU_SERVICE_PROVIDERS 276.

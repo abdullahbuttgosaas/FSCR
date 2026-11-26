@@ -1,0 +1,3 @@
+Task POR_MANAGE_REQUISITION_APPROVALS (Manage Requisition Approvals), module Procurement.
+FSCR coverage: neither; no FSCR skill or guide.
+Source: gaps-filled/gap_index.csv (Run 36 scope map).

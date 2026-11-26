@@ -1,0 +1,2 @@
+Own live test, 2026-11-27:
+Own test 00:53-00:55: package parent (from REST, unchanged) + context + segment; ProcessId 100004743464073: 3 processed, 0 failed, Application Descriptive Flexfield completed successfully. After-export: flexfield 1, context 1, context segment 1, segment 1; check_dff_rows.py RESULT PASS; context EnabledFlag N; DeploymentStatus DEPLOYED before and after.

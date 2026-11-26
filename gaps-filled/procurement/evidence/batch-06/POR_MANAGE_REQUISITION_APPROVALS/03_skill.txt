@@ -1,0 +1,2 @@
+Skill: gaps-filled/procurement/manage-requisition-approvals/SKILL.md (status tested).
+REST approvalRules (POST, child conditions + actions) through rest_call.py; ids read live from approvalTasks, participants, approvalAttributesLOV; helper procurement/scripts/approval_rule.py

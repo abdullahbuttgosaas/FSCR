@@ -1,0 +1,2 @@
+Read-only checks, 2026-11-27:
+Task export 13 CSVs + metadata, all 0 rows (no OKC flexfield had a user context). REST descriptiveFlexfields LIKE 'OKC%': OKC_ARTICLES_DESCFLEX (Clause), OKC_LINES_DESC_FLEX (Contract Line), both ProtectedFlag N, DEPLOYED.

@@ -1,0 +1,2 @@
+Fresh test, 2026-11-27:
+Round F: GAPFILL_AB_B6_PO2F on Terms Approval Serial 2: rules 0 -> 1, RESULT PASS, READBACK PASS (read back again by AB). Note: pending flag already True -> wording fixed. Round R: GAPFILL_AB_B6_PO3R on Terms Approval Serial 2: rules 1 -> 2, RESULT PASS, READBACK PASS, no wrong sentence.

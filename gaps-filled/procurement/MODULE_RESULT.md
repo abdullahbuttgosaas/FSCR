@@ -1,15 +1,52 @@
 # Procurement: module result
 
-## Cumulative counts (all sittings)
+## Cumulative counts (all sittings, after sitting 4)
 | Status | Count |
 |---|---|
-| tested | 14 |
+| tested | 19 |
 | written (fresh test pending) | 0 |
-| written (unsafe to test) | 4 |
+| written (unsafe to test) | 3 |
 | failed | 0 |
-| screen-only | 2 |
-| open (1 of them reserved for the live demo: Freight Terms) | 6 |
+| screen-only | 3 |
+| open (reserved for the live demo: Freight Terms lookup) | 1 |
 | **Total missing tasks** | **26** |
+
+---
+
+## Sitting 4: 2026-11-27 night (AB with Claude, PC): batches 06 and 07
+
+9 tasks worked (all that were open or written-unsafe; the 10th open task is the demo reserve, untouched): **5 tested**, **3 written (unsafe)**, **1 screen-only**, **0 failed**.
+
+### Counts this sitting
+tested 5 · written-unsafe 3 · failed 0 · screen-only 1 · left 1 (demo reserve only)
+
+### Per task
+| Task | Status | Write / test / wait min | Records (new) |
+|---|---|---|---|
+| Manage Requisition Approvals | tested (REST) | 6 / 8 / 2 | disabled pending rules GAPFILL_AB_B6_RQ1, RQ2F, RQ3R |
+| Manage Purchasing Document Approvals | tested (REST) | 3 / 5 / 1 | GAPFILL_AB_B6_PO1, PO2F, PO3R |
+| Manage Work Confirmation Approvals | written (unsafe) | 2 / 1 / 1 | none (POR-2011627: rules not upgraded from BPM) |
+| Manage Intake Request Approvals | written (unsafe) | 2 / 1 / 1 | none (POR-2011627) |
+| Manage Task Configurations for Procurement | screen-only | 0 / 2 / 3 | none |
+| Manage Contract Terms Descriptive Flexfields | tested (re-opened) | 5 / 6 / 4 | contexts GAPFILL_AB_B7_CCX1, CCX2F (disabled) + segments CSG1, CSG2F |
+| Configure Procurement Business Function | tested (re-opened) | 8 / 7 / 6 | function 110 + config on GAPFILL_AB_B15_BU1, BU2F, BU5R |
+| Specify Supplier Contract Management BF Properties | tested (re-opened) | 6 / 6 / 4 | contract properties on GAPFILL_AB_B15_BU1, BU2F |
+| Configure Electronic Signature | written (unsafe), re-judged | 1 / 0 / 1 | none |
+
+Total this sitting: working 69 minutes, waiting 23 minutes (sign-in 1 minute included in waiting). Details: `BATCH_06_RESULT.md`, `BATCH_07_RESULT.md`.
+
+### Written (unsafe) and why
+- Work Confirmation and Intake Request Approvals: the tasks' rules are not upgraded from BPM; every new rule is refused (POR-2011627). The upgrade is a one-time shared page action with no REST undo. Safe when the task is already upgraded (then the skill runs unchanged).
+- Electronic Signature: needs real provider credentials; the one row turns signing on for everyone.
+
+### Failed tasks
+None.
+
+### Next sitting
+Nothing left in Procurement except the demo reserve (Manage Freight Terms Lookup). Possible later work: load-test the 3 written tasks on an environment we own.
+
+### Test records created
+Approval rules (disabled, pending, never deployed): GAPFILL_AB_B6_RQ1, RQ2F, RQ3R, PO1, PO2F, PO3R. OKC contexts (disabled): GAPFILL_AB_B7_CCX1, CCX2F with segments CSG1, CSG2F. Business function 110 and procurement configuration on own units GAPFILL_AB_B15_BU1, BU2F, BU5R; contract properties on BU1, BU2F. Nothing existing was changed.
 
 ---
 

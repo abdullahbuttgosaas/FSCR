@@ -1,0 +1,2 @@
+Fresh test, 2026-11-27:
+Fresh Claude (skill only) on GAPFILL_AB_B15_BU2F: function 110 already there; id read by REST; ProcessId 100004743464382: 1 processed, 0 failed; compare 2 -> 3 PASS. No wrong sentence. AB read-back 01:25: 1 -> 3, only own units: PASS.

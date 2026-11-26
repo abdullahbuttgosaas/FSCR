@@ -1,0 +1,2 @@
+Skill: gaps-filled/procurement/configure-procurement-business-function/SKILL.md (status tested).
+FSM CSV: prerequisite Assign Business Unit Business Function (FUN_BU_USAGE, ModuleId 110) + PO_SYSTEM_PARAMETER row for an own prefix business unit; build_csv_package.py / compare_exports.py

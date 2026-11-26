@@ -1,0 +1,2 @@
+Read-only checks, 2026-11-27:
+approvalTasks: Intake Request Approvals upgraded False, pending False; participants listed; attribute amount / IntakeRequestLine (NUMBER); 0 rules on every participant.

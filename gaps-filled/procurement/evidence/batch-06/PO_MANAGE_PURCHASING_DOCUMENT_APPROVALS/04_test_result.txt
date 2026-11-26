@@ -1,0 +1,2 @@
+Own live test, 2026-11-27:
+Own test 00:49: script RESULT PASS; rules 0 -> 1, added GAPFILL_AB_B6_PO1, removed 0, changed 0; condition Document Total Amount Greater than 999999999999; action AUTOMATIC/REJECTED; pending flag False -> True.

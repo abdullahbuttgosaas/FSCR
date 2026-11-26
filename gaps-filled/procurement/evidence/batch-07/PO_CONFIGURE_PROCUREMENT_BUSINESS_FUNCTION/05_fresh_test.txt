@@ -1,0 +1,2 @@
+Fresh test, 2026-11-27:
+Round F (fresh Claude, skill only) on GAPFILL_AB_B15_BU2F: function 100004743465127 (compare PASS), config 100004744437693 (compare PASS). Wrong sentence: 'TPL ... (Step 3 lists them)' -> fixed to Step 1. Round R on GAPFILL_AB_B15_BU5R: function 100004743464296 PASS, config 100004743463880 PASS, no wrong sentence. AB read-back 01:21: PO_SYSTEM_PARAMETER 14 -> 17, only the 3 own units added: PASS.

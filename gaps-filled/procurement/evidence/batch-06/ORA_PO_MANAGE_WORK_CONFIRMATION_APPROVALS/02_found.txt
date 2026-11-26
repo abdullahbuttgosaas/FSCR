@@ -1,0 +1,2 @@
+Read-only checks, 2026-11-27:
+approvalTasks: Work Confirmation Approvals upgraded False, pending False; participants listed; attribute amountInDocumentCurrency / PoWorkConfirmationHeader (NUMBER); 0 rules on every participant.

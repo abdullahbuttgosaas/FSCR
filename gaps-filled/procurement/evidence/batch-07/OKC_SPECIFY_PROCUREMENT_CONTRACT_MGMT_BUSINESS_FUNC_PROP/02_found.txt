@@ -1,0 +1,2 @@
+Read-only checks, 2026-11-27:
+Task export: OKC_BU_IMPL_OPTIONS.csv 1 row (one real unit, the global business unit). REST finBusinessUnitsLOV gives the unit id (control: a real unit's id equals its OrgId in the export).
