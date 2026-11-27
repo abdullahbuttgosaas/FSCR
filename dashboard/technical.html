@@ -1,0 +1,291 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Technical Details</title>
+<meta name="description" content="How one FSCR gap is filled and tested, where each gap ends up, and the numbers per module.">
+<script>try{var fscrT=localStorage.getItem("fscr-theme")}catch(e){}document.documentElement.setAttribute("data-theme",fscrT==="dusk"||fscrT==="light"?fscrT:"night")</script>
+<link rel="stylesheet" href="assets/site.css">
+<style>
+*{box-sizing:border-box}
+html,body{margin:0}
+html{scroll-behavior:smooth}
+body{background:var(--bg);color:var(--ink);font:17px/1.55 "Segoe UI",system-ui,-apple-system,Roboto,"Helvetica Neue",Arial,sans-serif;-webkit-font-smoothing:antialiased}
+.num{font-variant-numeric:tabular-nums}
+.wrap{position:relative;z-index:1;max-width:1080px;margin:0 auto;padding:calc(var(--navh) + 40px) 16px 56px}
+.hero{position:relative;isolation:isolate}
+.hero::before{content:"";position:absolute;inset:-60px -40px -40px;z-index:-1;background:radial-gradient(500px 260px at 8% 20%,var(--glow1),transparent 70%),radial-gradient(420px 240px at 60% 0%,var(--glow2),transparent 70%),radial-gradient(420px 260px at 95% 70%,var(--glow3),transparent 70%);pointer-events:none}
+@media (max-width:1180px){.hero::before{left:-16px;right:-16px}}
+.hero h1 .g{background:var(--gr-main);-webkit-background-clip:text;background-clip:text;color:transparent}
+.hero h1{font-size:clamp(32px,5vw,52px);line-height:1.1;margin:0;font-weight:680;letter-spacing:-.022em}
+.hero p{color:var(--ink2);font-size:clamp(17px,1.9vw,20px);margin:14px 0 0;max-width:740px}
+.toc{display:flex;flex-wrap:wrap;gap:8px;margin:22px 0 0;padding:0;list-style:none}
+.toc a{display:block;padding:6px 13px;border:1px solid var(--line);border-radius:999px;background:var(--card);color:var(--ink2);text-decoration:none;font-size:14px}
+.toc a:hover{color:var(--ink);border-color:var(--hl)}
+section.blk{margin-top:64px;scroll-margin-top:calc(var(--navh) + 16px)}
+.eyebrow{font-size:13px;font-weight:650;letter-spacing:.12em;text-transform:uppercase;color:var(--before);margin:0 0 8px}
+h2{font-size:clamp(26px,3.4vw,36px);line-height:1.15;margin:0 0 8px;font-weight:660;letter-spacing:-.015em}
+.sub{color:var(--ink2);margin:0 0 26px;max-width:760px}
+.card,.oc,.tblwrap,.outside{box-shadow:var(--shadow)}
+.card{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:22px}
+
+.js .rv{opacity:0;transform:translateY(14px);transition:opacity .7s cubic-bezier(.2,.7,.2,1),transform .7s cubic-bezier(.2,.7,.2,1);transition-delay:var(--d,0s)}
+.js .in .rv,.js .rv.in{opacity:1;transform:none}
+
+/* a) steps */
+.steps{list-style:none;margin:0;padding:0;position:relative}
+.steps::before{content:"";position:absolute;left:23px;top:24px;bottom:24px;width:2px;background:var(--line)}
+.steps .rail{position:absolute;left:23px;top:24px;width:2px;height:0;background:linear-gradient(var(--before),var(--tested));transition:height 2.2s cubic-bezier(.4,.1,.2,1) .2s}
+.in .steps .rail{height:calc(100% - 48px)}
+.step{display:grid;grid-template-columns:48px 1fr;gap:18px;align-items:start;padding:12px 0;position:relative}
+.step .n{width:48px;height:48px;border-radius:50%;background:var(--card);border:2px solid var(--line);display:grid;place-items:center;font-weight:700;font-size:18px;color:var(--ink3);transition:background .4s,border-color .4s,color .4s;transition-delay:var(--d,0s);position:relative;z-index:1}
+.in .step .n{background:linear-gradient(135deg,var(--accent1),var(--accent2));border-color:transparent;color:#fff;box-shadow:0 4px 14px rgba(77,110,255,.3)}
+.in .step:last-child .n{background:linear-gradient(135deg,var(--tested),#7be8c4)}
+.step h3{margin:10px 0 2px;font-size:19px;font-weight:640}
+.step p{margin:0;color:var(--ink2)}
+.step .tag{display:inline-block;margin-left:8px;font-size:12.5px;font-weight:600;color:var(--ink2);background:var(--soft);border-radius:6px;padding:2px 8px;vertical-align:2px}
+
+/* b) outcome cards */
+.cards{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}
+.oc{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:20px;border-top:5px solid var(--c);display:flex;flex-direction:column}
+.oc .k{font-size:15px;font-weight:620;display:flex;align-items:center;gap:8px}
+.oc .v{text-shadow:0 0 24px color-mix(in srgb,var(--c) 35%,transparent);font-size:clamp(38px,4.6vw,54px);font-weight:700;letter-spacing:-.025em;line-height:1.1;margin:6px 0 6px}
+.oc p{margin:0;color:var(--ink2);font-size:15.5px}
+.oc .ext{margin-top:14px;padding-top:12px;border-top:1px dashed var(--line);font-size:14px;color:var(--ink2)}
+.oc .ext b{color:var(--ink);font-weight:620}
+.outside{margin-top:14px;display:grid;grid-template-columns:auto 1fr;gap:18px;align-items:start;background:var(--card);border:1px solid var(--warmline);border-radius:16px;padding:18px 20px}
+.outside .ico{width:46px;height:46px;border-radius:50%;background:var(--warmbg);display:grid;place-items:center;color:var(--warmink);font-weight:700;font-size:22px}
+.outside h3{margin:0;font-size:17px}
+.outside p{margin:4px 0 0;color:var(--ink2);font-size:15.5px}
+.outside ul.need{margin:10px 0 0;padding:0;list-style:none;display:flex;flex-wrap:wrap;gap:8px}
+.outside ul.need li{font-size:14px;padding:5px 12px;border-radius:999px;background:var(--warmbg);color:var(--warmink);font-weight:560}
+.fix{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin:16px 0 0;padding:0;list-style:none;counter-reset:f}
+.fix li{position:relative;padding:12px 14px 12px 46px;border-radius:12px;background:var(--soft);font-size:15px;color:var(--ink);line-height:1.4;font-weight:600}
+.fix li::before{counter-increment:f;content:counter(f);position:absolute;left:12px;top:11px;width:24px;height:24px;border-radius:50%;background:linear-gradient(135deg,var(--accent1),var(--accent2));color:#fff;font-size:13px;font-weight:700;display:grid;place-items:center}
+.fix li span{display:block;color:var(--ink2);font-size:13.5px;margin-top:2px;font-weight:400}
+@media (max-width:760px){.fix{grid-template-columns:1fr}}
+.opennote{margin:14px 0 0;color:var(--ink2);font-size:15.5px}
+.sw{width:12px;height:12px;border-radius:3px;display:inline-block;flex:none}
+
+/* c) kinds */
+.kinds{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}
+.kind{padding:20px}
+.kind .meter{display:flex;gap:4px;margin:0 0 14px}
+.kind .meter i{height:6px;flex:1;border-radius:3px;background:var(--open)}
+.kind .meter i.f{background:var(--c)}
+.kind h3{margin:0 0 6px;font-size:18px}
+.kind p{margin:0;color:var(--ink2);font-size:15.5px}
+
+/* d) table */
+.tblwrap{overflow-x:auto;-webkit-overflow-scrolling:touch;border:1px solid var(--line);border-radius:16px;background:var(--card)}
+table{border-collapse:collapse;width:100%;min-width:760px;font-size:15px}
+th,td{padding:10px 12px;text-align:right;white-space:nowrap}
+th{font-size:13px;font-weight:620;color:var(--ink2);border-bottom:1px solid var(--line);background:var(--head);position:sticky;top:0}
+th:first-child,td:first-child{text-align:left}
+tbody tr{border-bottom:1px solid var(--grid)}
+tbody tr:last-child{border-bottom:0}
+tbody tr:hover{background:var(--hover)}
+tfoot td{font-weight:700;border-top:2px solid var(--line);background:var(--head)}
+td.mod{font-weight:560}
+td.barc{width:34%;min-width:180px}
+.mbar{display:flex;height:12px;gap:2px;width:0;transition:width 1s cubic-bezier(.2,.7,.2,1);transition-delay:var(--d,0s)}
+.mbar span{height:100%}
+.mbar span:first-child{border-radius:3px 0 0 3px}.mbar span:last-child{border-radius:0 3px 3px 0}.mbar span:only-child{border-radius:3px}
+.s-tested{background:var(--tested)}.s-written{background:var(--written)}.s-failed{background:var(--failed)}.s-screen{background:var(--screen)}.s-open{background:var(--open);box-shadow:inset 0 0 0 1px var(--openline)}
+.zero{color:var(--zero)}
+.legend{display:flex;flex-wrap:wrap;gap:6px 16px;margin:0 0 14px;padding:0;list-style:none;font-size:14px;color:var(--ink2)}
+.legend li{display:flex;align-items:center;gap:6px}
+.tnote{font-size:14px;color:var(--ink3);margin:10px 0 0}
+
+/* e) definitions */
+.defs{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+.defs .card p{margin:4px 0 0;color:var(--ink2)}
+.defs h3{margin:0;font-size:17px;display:flex;align-items:center;gap:8px}
+.foot{margin-top:48px;display:flex;flex-wrap:wrap;gap:12px;justify-content:space-between;align-items:center;color:var(--ink3);font-size:14px}
+.foot a{color:var(--before);font-weight:600;text-decoration:none}
+.foot a:hover{text-decoration:underline}
+
+@media (max-width:900px){ .cards,.kinds{grid-template-columns:1fr 1fr} }
+@media (max-width:560px){
+  .wrap{padding:calc(var(--navh) + 26px) 16px 40px}
+  .cards,.kinds,.defs{grid-template-columns:1fr}
+  section.blk{margin-top:48px}
+  .outside{grid-template-columns:1fr;gap:10px}
+}
+@media (max-width:640px){
+  table{min-width:0;display:block;font-size:14px}
+  thead{display:none}
+  tbody,tfoot{display:block}
+  tr{display:grid;grid-template-columns:repeat(6,1fr);padding:10px 12px 12px;gap:2px 4px}
+  td{padding:0;text-align:center!important;white-space:normal}
+  td.mod,tfoot td:first-child{grid-column:1/-1;text-align:left!important;font-size:15px;margin-bottom:2px}
+  td.barc{grid-column:1/-1;grid-row:2;width:auto;min-width:0;margin:2px 0 6px}
+  td[data-l]::before{content:attr(data-l);display:block;font-size:10.5px;font-weight:500;color:var(--ink3);letter-spacing:.01em}
+  tfoot td:last-child{display:none}
+  tfoot td{border-top:0}
+  tfoot tr{border-top:2px solid var(--line)}
+}
+@media (min-width:1600px){ body{font-size:19px} .wrap{max-width:1240px} }
+@media (prefers-reduced-motion:reduce){
+  html{scroll-behavior:auto}
+  *{transition:none!important;animation:none!important}
+  .js .rv{opacity:1;transform:none}
+}
+</style>
+<script>
+document.documentElement.className = "js";
+</script>
+</head>
+<body>
+<nav class="topnav" aria-label="Pages">
+  <a class="brand" href="index.html"><i></i>FSCR gap filling</a>
+  <ul><li><a class="lnk" href="index.html">Dashboard</a></li><li><a class="lnk" href="story.html">How it works</a></li><li><a class="lnk" href="technical.html" aria-current="page">Technical details</a></li></ul>
+</nav>
+
+<div class="wrap">
+  <header class="hero">
+    <p class="eyebrow">Technical details</p>
+    <h1>How the gaps in FSCR are <span class="g">filled and checked</span></h1>
+    <p>FSCR has skills for <span class="num" data-k="before">–</span> of <span class="num" data-k="total">–</span> ERP and SCM tasks. This page shows how each of the other <span class="num" data-k="missing">–</span> is handled, and where each one stands today.</p>
+    <ul class="toc">
+      <li><a href="#flow">How one gap is filled</a></li><li><a href="#outcomes">Where a gap ends up</a></li>
+      <li><a href="#kinds">Easy, harder, needs help</a></li><li><a href="#modules">Each module</a></li><li><a href="#defs">Definitions</a></li>
+    </ul>
+  </header>
+
+  <!-- a) flow -->
+  <section class="blk" id="flow">
+    <p class="eyebrow">Step by step</p>
+    <h2>How one gap is filled</h2>
+    <p class="sub">The same six steps for every task. Read only on existing data; only new test records are added.</p>
+    <div class="card">
+      <ol class="steps">
+        <li class="rail" aria-hidden="true"></li>
+        <li class="step" style="--d:.15s"><span class="n">1</span><div><h3>Read-only export</h3><p>Export what Oracle holds for the task, read only, to learn the exact shape of the data.</p></div></li>
+        <li class="step" style="--d:.5s"><span class="n">2</span><div><h3>Write a generic skill</h3><p>Write the skill in the same shape as FSCR's own skills. Generic: no customer data, usable for any customer.</p></div></li>
+        <li class="step" style="--d:.85s"><span class="n">3</span><div><h3>Load one new test record<span class="tag">CSV or REST</span></h3><p>Load one brand-new test record through the task's CSV package or REST route.</p></div></li>
+        <li class="step" style="--d:1.2s"><span class="n">4</span><div><h3>Read it back</h3><p>Read the record back from Oracle and compare it with what was sent.</p></div></li>
+        <li class="step" style="--d:1.55s"><span class="n">5</span><div><h3>Fresh Claude test</h3><p>A fresh Claude, given only the skill, does the task again with its own new record. Any wrong sentence is fixed and tested again.</p></div></li>
+        <li class="step" style="--d:1.9s"><span class="n">6</span><div><h3>Status card and evidence</h3><p>The result goes on a status card for the task, with the read-backs and screenshots as evidence.</p></div></li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- b) outcomes -->
+  <section class="blk" id="outcomes">
+    <p class="eyebrow">Outcomes</p>
+    <h2>Where a gap ends up</h2>
+    <p class="sub">Each gap that has been worked on ends in one of four places. The counts are the same as on the dashboard.</p>
+    <div class="cards">
+      <div class="oc rv" style="--c:var(--tested);--d:0s"><div class="k"><span class="sw" style="background:var(--tested)"></span>Tested</div><div class="v num" data-k="tested">–</div><p>Loaded into Oracle, read back, and passed a fresh test.</p></div>
+      <div class="oc rv" style="--c:var(--written);--d:.1s"><div class="k"><span class="sw" style="background:var(--written)"></span>Written</div><div class="v num" data-k="written">–</div><p>Skill written; live test pending, because the load cannot be put back or needs credentials.</p>
+        <div class="ext"><b>Some need outside input,</b> such as a partner account or provider credentials.</div></div>
+      <div class="oc rv" style="--c:var(--failed);--d:.2s"><div class="k"><span class="sw" style="background:var(--failed)"></span>Failed</div><div class="v num" data-k="failed">–</div><p>A proven cause, written down with a next step.</p>
+        <div class="ext"><b>Some need outside input,</b> such as a missing permission or a job name Oracle does not publish.</div></div>
+      <div class="oc rv" style="--c:var(--screen);--d:.3s"><div class="k"><span class="sw" style="background:var(--screen)"></span>Screen-only</div><div class="v num" data-k="screen_only">–</div><p>No CSV or REST route; only the Oracle screen can do it.</p></div>
+    </div>
+    <div class="outside rv">
+      <span class="ico" aria-hidden="true"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="8" r="4"/><path d="M2 21c0-4 3-7 7-7s7 3 7 7"/><path d="M17 11l2 2 4-4"/></svg></span>
+      <div><h3>Needs outside input: a consultant unlocks it</h3>
+        <p>For some written and failed tasks the skill is ready, but we cannot finish the test on our own. One thing is missing that only a consultant or the owner of the Oracle environment can give, for example:</p>
+        <ul class="need"><li>a permission on the test environment</li><li>the exact name of an Oracle background job that Oracle does not publish</li><li>a test account with a tax partner</li></ul>
+        <ol class="fix">
+          <li>We write down what is missing<span>One clear ask per task, on its status card.</span></li>
+          <li>A consultant provides it<span>Grants the access, reads the job name once on the Oracle screen, or sets up the partner test account.</span></li>
+          <li>We run the normal test again<span>Load, read back, fresh check. If it passes, the task moves to Tested.</span></li>
+        </ol>
+        <p style="font-size:13.5px;color:var(--ink3);margin-top:12px">No count is shown: the task files describe this in words, not as a separate status we can count.</p></div>
+    </div>
+    <p class="opennote rv"><b class="num" data-k="open">–</b> tasks are still open: not started yet.</p>
+  </section>
+
+  <!-- c) kinds -->
+  <section class="blk" id="kinds">
+    <p class="eyebrow">In plain words</p>
+    <h2>Easy, harder, and needs help</h2>
+    <p class="sub">Not every task is the same amount of work.</p>
+    <div class="kinds">
+      <div class="card kind rv" style="--c:var(--tested);--d:0s"><div class="meter" aria-hidden="true"><i class="f"></i><i></i><i></i><i></i></div><h3>Loads straight away</h3><p>Oracle offers a CSV package or a REST route. The skill loads one test record and reads it back.</p></div>
+      <div class="card kind rv" style="--c:var(--before);--d:.1s"><div class="meter" aria-hidden="true"><i class="f"></i><i class="f"></i><i></i><i></i></div><h3>Needs prerequisites first</h3><p>The record hangs off something else, such as a test legal entity or business unit. That is built first, as a test record of its own.</p></div>
+      <div class="card kind rv" style="--c:var(--screen);--d:.2s"><div class="meter" aria-hidden="true"><i class="f"></i><i class="f"></i><i class="f"></i><i></i></div><h3>Screen only</h3><p>No CSV and no REST route. A person does it on the Oracle screen; the proof is kept on the task's card.</p></div>
+      <div class="card kind rv" style="--c:var(--written);--d:.3s"><div class="meter" aria-hidden="true"><i class="f"></i><i class="f"></i><i class="f"></i><i class="f"></i></div><h3>Needs someone to provide something</h3><p>A consultant or the environment owner has to give a permission, a name or an account before the test can run.</p></div>
+    </div>
+  </section>
+
+  <!-- d) table -->
+  <section class="blk" id="modules">
+    <p class="eyebrow">By module</p>
+    <h2>Each module</h2>
+    <p class="sub">Missing tasks per module and where they stand. Same data as the dashboard; longest gap list first.</p>
+    <ul class="legend">
+      <li><span class="sw s-tested"></span>Tested</li><li><span class="sw s-written"></span>Written</li><li><span class="sw s-failed"></span>Failed</li><li><span class="sw s-screen"></span>Screen-only</li><li><span class="sw s-open"></span>Open</li>
+    </ul>
+    <div class="tblwrap rv" id="tblwrap">
+      <table>
+        <thead><tr><th scope="col">Module</th><th scope="col">Missing</th><th scope="col">Tested</th><th scope="col">Written</th><th scope="col">Failed</th><th scope="col">Screen-only</th><th scope="col">Open</th><th scope="col" style="text-align:left">Missing tasks</th></tr></thead>
+        <tbody id="tbody"></tbody>
+        <tfoot id="tfoot"></tfoot>
+      </table>
+    </div>
+    <p class="tnote" id="tnote"></p>
+  </section>
+
+  <!-- e) definitions -->
+  <section class="blk" id="defs">
+    <p class="eyebrow">Definitions</p>
+    <h2>What the words mean</h2>
+    <div class="defs">
+      <div class="card rv"><h3><span class="sw s-tested"></span>Tested</h3><p>Loaded into Oracle and checked by a fresh Claude.</p></div>
+      <div class="card rv" style="--d:.1s"><h3><span class="sw s-written"></span>Written</h3><p>Skill written, live test pending.</p></div>
+    </div>
+    <p class="tnote">Skills available = skills FSCR already had + tested + written. Security is left out of every count: it has no missing tasks.</p>
+  </section>
+
+  <div class="foot">
+    <span>Last updated <span id="upd">–</span></span>
+    <span><a href="story.html">← How it works</a> &nbsp;·&nbsp; <a href="index.html">Dashboard</a></span>
+  </div>
+</div>
+
+<script src="data/data.js"></script>
+<script src="assets/site.js"></script>
+<script>
+(function(){
+  "use strict";
+  var F = window.FSCR, $ = function(id){ return document.getElementById(id); };
+  var COLS = [["tested","s-tested"],["written","s-written"],["failed","s-failed"],["screen_only","s-screen"],["open","s-open"]];
+  var LBL = ["Missing","Tested","Written","Failed","Screen","Open"], ci = 0;
+  function cell(v){ var l = LBL[ci++ % 6]; return '<td class="num' + (v ? "" : " zero") + '" data-l="' + l + '">' + F.fmt(v) + "</td>"; }
+  F.load().then(function(d){
+    var s = d.summary;
+    F.fill(document, s);
+    $("upd").textContent = d.updated;
+    var mods = d.modules.filter(function(m){ return m.in_charts; })
+      .sort(function(a,b){ return (b.missing - a.missing) || a.name.localeCompare(b.name); });
+    var max = Math.max.apply(null, mods.map(function(m){ return m.missing; }));
+    var sum = {missing:0, tested:0, written:0, failed:0, screen_only:0, open:0};
+    $("tbody").innerHTML = mods.map(function(m, i){
+      Object.keys(sum).forEach(function(k){ sum[k] += m[k]; });
+      var segs = COLS.filter(function(c){ return m[c[0]] > 0; }).map(function(c){
+        return '<span class="' + c[1] + '" style="flex:' + m[c[0]] + ' 1 0" title="' + c[0].replace("_","-") + ": " + m[c[0]] + '"></span>';
+      }).join("");
+      return '<tr><td class="mod">' + m.name + '</td>' + cell(m.missing) + cell(m.tested) + cell(m.written) + cell(m.failed) +
+        cell(m.screen_only) + cell(m.open) + '<td class="barc"><div class="mbar" style="--d:' + (i*0.03).toFixed(2) + 's" data-w="' +
+        (100 * m.missing / max).toFixed(2) + '">' + segs + "</div></td></tr>";
+    }).join("");
+    $("tfoot").innerHTML = '<tr><td>All ' + mods.length + ' modules</td>' + cell(sum.missing) + cell(sum.tested) + cell(sum.written) +
+      cell(sum.failed) + cell(sum.screen_only) + cell(sum.open) + "<td></td></tr>";
+    var lo = d.left_out || [];
+    $("tnote").textContent = (lo.length ? lo.join(", ") + " is left out: it has no missing tasks. " : "") + "Bar length = missing tasks, on one shared scale.";
+    F.reveal("section.blk, .rv", function(el){
+      if (el.id === "tblwrap") el.querySelectorAll(".mbar").forEach(function(b){ b.style.width = b.getAttribute("data-w") + "%"; });
+    }, 0.15);
+  }).catch(function(){
+    document.querySelectorAll("section.blk, .rv").forEach(function(el){ el.classList.add("in"); });
+    F.fail();
+  });
+})();
+</script>
+</body>
+</html>

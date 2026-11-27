@@ -1,0 +1,3 @@
+ORA_POQ_MANAGE_SUPPLIER_QUALIFICATION_VALUE_SETS | Manage Supplier Qualification Value Sets
+Module: Sourcing and Supplier Management. FSCR level: route only (CSV route declared, no FSCR skill or guide).
+Source: gaps-filled/gap_index.csv, 2026-11-27.

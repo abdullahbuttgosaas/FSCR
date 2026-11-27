@@ -1,0 +1,4 @@
+task_code,task_name,reason
+ORA_PON_CONFIGURE_OUTBOUND_PURCHASING_SERVICE,Configure Negotiation Award Outbound Service,"no FSM CSV (export refused, flag N) and no REST resource (5 names HTTP 404), checked 2026-11-28; proof on configure-negotiation-award-outbound-service/STATUS.md"
+ORA_MANAGE_ADDRESS_VERIFICATION_CLOUD_TO_CX_CLOUD_INTEGRATION,Manage Integration with Oracle Verification Services,"no FSM CSV (export refused, flag N) and no REST resource (6 names HTTP 404), checked 2026-11-28; proof on manage-oracle-verification-services-integration/STATUS.md"
+ORA_POZ_SPECIFY_SUP_USER_CATEGORY,Specify User Category for New Supplier Users,"no FSM CSV (export refused, flag N) and no REST resource (5 names HTTP 404), checked 2026-11-28; proof on specify-supplier-user-category/STATUS.md"

@@ -1,0 +1,1 @@
+Read-only export of ORA_POQ_MANAGE_SUPPLIER_QUALIFICATION_AREAS (2026-11-27). Route: FSM CSV (qualification area package: ORA_POQ_QUAL_AREAS, _OUTCOMES, _QUESTIONS, _BU_ACCESSES) + REST supplierQualificationAreas read-back.

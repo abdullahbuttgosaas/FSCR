@@ -26,6 +26,7 @@ MODULES = ['Common Features', 'Security', 'General Ledger', 'Payables', 'Receiva
            'Procurement', 'Sourcing and Supplier Management', 'Inventory Management', 'Order Management',
            'Manufacturing', 'Cost Management', 'Supply Planning', 'Maintenance']
 SLUG = {m.lower().replace(' ', '-'): m for m in MODULES}          # folder name -> module name
+SLUG['sourcing'] = 'Sourcing and Supplier Management'            # AB's short folder name for this module (2026-11-27)
 KEYS = ['task_code', 'task_name', 'module', 'status', 'filled_by', 'date', 'minutes_to_write',
         'minutes_to_test', 'waiting_minutes', 'fresh_claude_pass', 'route', 'depends_on',
         'test_records', 'notes']

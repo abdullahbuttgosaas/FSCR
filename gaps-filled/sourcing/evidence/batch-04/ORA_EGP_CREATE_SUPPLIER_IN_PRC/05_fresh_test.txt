@@ -1,0 +1,3 @@
+Fresh Claude test(s) (sub-agent with only the task name and the SKILL.md path)
+fresh_claude_pass: yes (fresh F PASS; no wrong sentence)
+records: GAPFILL_AB_S4_SUP1 (supplier number 12331, own test, HTTP 201); GAPFILL_AB_S4_SUP2F (supplier number 12332, fresh F (v1.0.0), HTTP 201)

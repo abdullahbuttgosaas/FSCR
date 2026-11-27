@@ -1,0 +1,12 @@
+Skill: sourcing/configure-supplier-qualification-controls/SKILL.md (version 1.0.0, 102 lines)
+Sections:
+## What it is and when to use
+## Placeholders
+## Sign-in
+## Prerequisites
+## Step 1. Read-only export (the old value)
+## Step 2. Build BOTH packages first (offline)
+## Step 3. Change, prove, restore (one call, no pause)
+## Step 4. Prove the restore
+## Rules and limits
+## Worked example (VERIFIED, 2026-11-28)

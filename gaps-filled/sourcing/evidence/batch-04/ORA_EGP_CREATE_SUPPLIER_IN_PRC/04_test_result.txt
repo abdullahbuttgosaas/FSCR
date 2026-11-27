@@ -1,0 +1,4 @@
+Own live test (2026-11-28)
+test_records: GAPFILL_AB_S4_SUP1 (supplier number 12331, own test, HTTP 201)
+result: see notes
+notes: Sourcing batch 04 (sitting 2). Level "neither": the CSV export is refused (flag N), but REST suppliers has create (describe). New PROSPECTIVE supplier, tax organization type CORPORATION, no address, site or contact; created at once (Status ACTIVE, CreationSourceCode WEB_SERVICE), read back by REST. Duplicate check proved on a known supplier first. Suppliers cannot be deleted. Suggestions NOT applied: escape apostrophes in the control name or use SupplierId; encoding in Step 1's json.load; echo rc for every call; record the supplier number.

@@ -1,0 +1,2 @@
+Own test 2026-11-27: GAPFILL_AB_S2_STY1, ProcessId 100004743464567
+clone of Standard_Negotiation (clone_rows.py, new helper): 1 style + 1 translation + 3 document types + 3 translations; import 2 objects, 0 failed; export 5 -> 6 styles, 15 -> 18 document-type rows; compare PASS; ACTIVE, SystemFlag N, 3 document types enabled

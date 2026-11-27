@@ -1,0 +1,16 @@
+Skill: sourcing/configure-party-relationships-supplier-match/SKILL.md (version 1.0.1, 175 lines)
+Sections:
+## What it is and when to use
+## Placeholders
+## Shell, logs and counts (read first)
+## Sign-in
+## Prerequisites (numbered steps; P1 to P3 create your own relationship type)
+### P1. Check RT is new and read-only export of Manage Relationship Types
+### P2. Build and import the relationship type
+### P3. Read the new type back
+## Step 1. Read-only export of the task
+## Step 2. Build the package (offline)
+## Step 3. Import
+## Step 4. Read back (second exports)
+## Rules and limits
+## Worked example (VERIFIED, 2026-11-28). Do not reuse these names or texts.

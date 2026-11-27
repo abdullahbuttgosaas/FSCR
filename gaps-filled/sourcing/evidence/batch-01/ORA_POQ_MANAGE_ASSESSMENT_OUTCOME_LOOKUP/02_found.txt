@@ -1,0 +1,4 @@
+Read-only export of ORA_POQ_MANAGE_ASSESSMENT_OUTCOME_LOOKUP (2026-11-27): 3 files: ASM_SETUP_CSV_METADATA.xml, FND_APP_STANDARD_LOOKUP.csv, ORA_FND_APP_STANDARD_LOOKUP_CODE.csv.
+Scope lookup type(s): POQ_ASSESSMENT_OUTCOME.
+REST standardLookups/<TYPE>?expand=lookupCodes: CustomizationLevel E/U (new codes allowed).
+Catalog: CSVExportImportSupportedFlag Y.

@@ -1,0 +1,112 @@
+/* Shared by index.html, story.html and technical.html: the three themes, the moving background and the top bar.
+   Theme is set on <html data-theme="night|dusk|light"> (night is the default). */
+:root,:root[data-theme="night"]{
+  color-scheme:dark;
+  --bg:#070b18; --card:rgba(15,22,42,.78); --glass:rgba(255,255,255,.055); --line:rgba(255,255,255,.11); --grid:rgba(255,255,255,.06);
+  --ink:#f3f5fb; --ink2:#aab3cb; --ink3:#7a85a3;
+  --before:#4d8dff; --tested:#22d39a; --written:#ffc64d; --screen:#6f7892; --open:rgba(255,255,255,.1); --failed:#ff5d6c; --gap:#ff7a5c;
+  --focus:#8fc0ff; --navbg:rgba(7,11,24,.86); --navhover:rgba(255,255,255,.07); --navcur:rgba(77,141,255,.22);
+  --soft:rgba(255,255,255,.06); --head:rgba(255,255,255,.035); --hover:rgba(255,255,255,.045); --hl:rgba(143,192,255,.45);
+  --warmbg:rgba(255,198,77,.13); --warmink:#ffd27a; --warmline:rgba(255,198,77,.3); --openline:rgba(255,255,255,.14); --zero:#4f5872;
+  --gainink:#5cf0be; --tipbg:#1a2340; --tipink:#f3f5fb; --err:#ff8a8a; --shadow:0 12px 40px rgba(0,0,0,.35);
+  --glow1:rgba(77,141,255,.22); --glow2:rgba(139,92,255,.2); --glow3:rgba(34,197,141,.14);
+  --orb1:#2f5bff; --orb2:#7a3cff; --orb3:#0fb88a; --orb4:#ff6a3d; --orbop:.5; --dots:1;
+  --track:rgba(255,255,255,.07); --ctrlfade:rgba(7,11,24,.9); --accent1:#3d7bff; --accent2:#8b5cff;
+  --gr-main:linear-gradient(100deg,#8fc0ff 0%,#b79bff 45%,#7ef0c8 100%);
+  --gr-blue:linear-gradient(100deg,#6aa4ff,#b4d4ff); --gr-warm:linear-gradient(100deg,#ffb36b,#ff5d8f); --gr-mint:linear-gradient(100deg,#5cf0be,#b5ffe4);
+  --hs1:#8fc0ff; --hs2:#b79bff; --hs3:#7ef0c8;
+  --rb1:#3d7bff; --rb2:#8fc0ff; --rg1:#ffb36b; --rg2:#ff6a6a; --rg3:#ff4f8b; --rn1:#1fc48f; --rn2:#9dffd9; --rh1:#7aa8ff; --rh2:#4f6dff; --rh3:#8b5cff;
+  --chipbg:rgba(77,141,255,.14); --chipink:#8fc0ff; --chipline:rgba(77,141,255,.3);
+  --navh:52px;
+}
+:root[data-theme="dusk"]{
+  color-scheme:dark;
+  --bg:#100818; --card:rgba(38,17,50,.76); --glass:rgba(255,255,255,.06); --line:rgba(255,220,240,.12); --grid:rgba(255,255,255,.06);
+  --ink:#fdf3f8; --ink2:#cdb5cc; --ink3:#957e99;
+  --before:#8f8cff; --tested:#3ee0b0; --written:#ffc15e; --screen:#82708e; --open:rgba(255,255,255,.1); --failed:#ff5d7a; --gap:#ff8a4c;
+  --focus:#ffb3cf; --navbg:rgba(16,8,24,.86); --navhover:rgba(255,255,255,.07); --navcur:rgba(255,79,139,.22);
+  --soft:rgba(255,255,255,.06); --head:rgba(255,255,255,.035); --hover:rgba(255,255,255,.045); --hl:rgba(255,150,190,.45);
+  --warmbg:rgba(255,193,94,.14); --warmink:#ffd38a; --warmline:rgba(255,193,94,.3); --openline:rgba(255,255,255,.14); --zero:#61506a;
+  --gainink:#7cf5cf; --tipbg:#2a1636; --tipink:#fdf3f8; --err:#ff9aa8; --shadow:0 12px 40px rgba(0,0,0,.35);
+  --glow1:rgba(255,79,139,.2); --glow2:rgba(255,154,61,.16); --glow3:rgba(122,60,255,.2);
+  --orb1:#ff3d7f; --orb2:#7a3cff; --orb3:#ff8a2b; --orb4:#ff6a3d; --orbop:.45; --dots:1;
+  --track:rgba(255,255,255,.08); --ctrlfade:rgba(16,8,24,.9); --accent1:#ff4f8b; --accent2:#8b5cff;
+  --gr-main:linear-gradient(100deg,#ffb3cf 0%,#ffb36b 45%,#c9a8ff 100%);
+  --gr-blue:linear-gradient(100deg,#a7a6ff,#d8d0ff); --gr-warm:linear-gradient(100deg,#ffc07a,#ff5d8f); --gr-mint:linear-gradient(100deg,#6ff2c6,#c4ffea);
+  --hs1:#ffb3cf; --hs2:#ffb36b; --hs3:#c9a8ff;
+  --rb1:#7c7cff; --rb2:#b9b4ff; --rg1:#ffb36b; --rg2:#ff6a6a; --rg3:#ff4f8b; --rn1:#22c99a; --rn2:#a8ffe0; --rh1:#ff8ab4; --rh2:#ff4f8b; --rh3:#8b5cff;
+  --chipbg:rgba(255,79,139,.14); --chipink:#ffb3cf; --chipline:rgba(255,79,139,.32);
+}
+:root[data-theme="light"]{
+  color-scheme:light;
+  --bg:#f6f5f2; --card:rgba(255,255,255,.84); --glass:rgba(255,255,255,.7); --line:#e2e0da; --grid:#ecebe6;
+  --ink:#1d1d1b; --ink2:#52514e; --ink3:#77756f;
+  --before:#2a78d6; --tested:#1baf7a; --written:#eda100; --screen:#c4c0b7; --open:#e6e3dc; --failed:#e34948; --gap:#d9773f;
+  --focus:#2a78d6; --navbg:rgba(246,245,242,.92); --navhover:#ecebe6; --navcur:#e3ebf7;
+  --soft:#efeee9; --head:#f9f8f5; --hover:#f3f2ee; --hl:#cfd9e6;
+  --warmbg:#fbf1de; --warmink:#8a5f00; --warmline:#e2cfa9; --openline:#d8d4cb; --zero:#b5b2aa;
+  --gainink:#137a55; --tipbg:#1d1d1b; --tipink:#fff; --err:#b3261e; --shadow:0 8px 30px rgba(29,29,27,.06);
+  --glow1:rgba(42,120,214,.14); --glow2:rgba(139,92,255,.1); --glow3:rgba(27,175,122,.1);
+  --orb1:#9cc3ff; --orb2:#d4bcff; --orb3:#a6ecd2; --orb4:#ffc2a3; --orbop:.5; --dots:.55;
+  --track:#e6e3dc; --ctrlfade:rgba(246,245,242,.92); --accent1:#2a78d6; --accent2:#7b4fe0;
+  --gr-main:linear-gradient(100deg,#2a6fd6 0%,#7b4fe0 50%,#129e70 100%);
+  --gr-blue:linear-gradient(100deg,#1f62c9,#4f8ae6); --gr-warm:linear-gradient(100deg,#e0662e,#d63a6e); --gr-mint:linear-gradient(100deg,#0f9e6e,#21b985);
+  --hs1:#2a6fd6; --hs2:#7b4fe0; --hs3:#129e70;
+  --rb1:#2a78d6; --rb2:#5c9cf0; --rg1:#f39a52; --rg2:#ec6a5a; --rg3:#e0457a; --rn1:#159a6a; --rn2:#3fd09a; --rh1:#5c9cf0; --rh2:#2a78d6; --rh3:#7b4fe0;
+  --chipbg:rgba(42,120,214,.1); --chipink:#1f5fc4; --chipline:rgba(42,120,214,.28);
+}
+html{background:var(--bg)}
+body{transition:background-color .4s,color .4s}
+
+/* moving background (added by site.js) */
+.bg{position:fixed;inset:0;overflow:hidden;z-index:0;pointer-events:none;contain:strict}
+.orb{position:absolute;border-radius:50%;opacity:var(--orbop);will-change:transform;transform:translateZ(0);transition:opacity 1.2s}
+.orb.o1{width:46vmax;height:46vmax;left:-12vmax;top:-14vmax;background:radial-gradient(circle closest-side,var(--orb1) 0%,color-mix(in srgb,var(--orb1) 45%,transparent) 38%,transparent 100%);animation:fscr-d1 22s ease-in-out infinite alternate}
+.orb.o2{width:40vmax;height:40vmax;right:-12vmax;top:10vh;background:radial-gradient(circle closest-side,var(--orb2) 0%,color-mix(in srgb,var(--orb2) 45%,transparent) 38%,transparent 100%);animation:fscr-d2 26s ease-in-out infinite alternate}
+.orb.o3{width:42vmax;height:42vmax;left:22vw;bottom:-22vmax;background:radial-gradient(circle closest-side,var(--orb3) 0%,color-mix(in srgb,var(--orb3) 45%,transparent) 38%,transparent 100%);animation:fscr-d3 30s ease-in-out infinite alternate;opacity:calc(var(--orbop) * .75)}
+.orb.o4{width:30vmax;height:30vmax;right:8vw;bottom:-8vmax;background:radial-gradient(circle closest-side,var(--orb4) 0%,color-mix(in srgb,var(--orb4) 45%,transparent) 38%,transparent 100%);animation:fscr-d1 34s ease-in-out infinite alternate-reverse;opacity:0}
+@keyframes fscr-d1{from{transform:translateZ(0)}to{transform:translate3d(9vw,7vh,0) scale(1.12)}}
+@keyframes fscr-d2{from{transform:translateZ(0)}to{transform:translate3d(-8vw,9vh,0) scale(.9)}}
+@keyframes fscr-d3{from{transform:translateZ(0)}to{transform:translate3d(-10vw,-6vh,0) scale(1.1)}}
+.grain{position:absolute;inset:0;background-image:radial-gradient(var(--grid) 1px,transparent 1px);background-size:26px 26px;mask-image:radial-gradient(ellipse at center,#000 30%,transparent 80%);-webkit-mask-image:radial-gradient(ellipse at center,#000 30%,transparent 80%)}
+.bg canvas{position:absolute;inset:0;width:100%;height:100%;opacity:var(--dots);will-change:transform}
+
+/* top bar */
+.topnav{position:fixed;top:0;left:0;right:0;z-index:50;height:var(--navh);display:flex;align-items:center;justify-content:space-between;gap:12px;padding:0 20px;background:var(--navbg);border-bottom:1px solid var(--line);font:14px/1.2 "Segoe UI",system-ui,-apple-system,Roboto,"Helvetica Neue",Arial,sans-serif}
+.topnav .brand{font-weight:650;color:var(--ink);letter-spacing:-.005em;white-space:nowrap;text-decoration:none}
+.topnav .brand i{display:inline-block;width:9px;height:9px;border-radius:50%;background:var(--tested);margin-right:8px;vertical-align:1px;box-shadow:0 0 10px var(--tested)}
+.topnav ul{display:flex;align-items:center;gap:4px;margin:0;padding:0;list-style:none}
+.topnav a.lnk{display:block;padding:7px 11px;border-radius:8px;color:var(--ink2);text-decoration:none;white-space:nowrap;transition:background .15s,color .15s}
+.topnav a.lnk:hover{background:var(--navhover);color:var(--ink)}
+.topnav a.lnk[aria-current="page"]{color:var(--ink);background:var(--navcur);font-weight:600}
+.topnav a:focus-visible,.themepick:focus-visible,.thememenu button:focus-visible{outline:2px solid var(--focus);outline-offset:2px}
+
+/* theme picker */
+.themeli{position:relative;margin-left:6px}
+.themepick{display:flex;align-items:center;gap:7px;height:34px;padding:0 10px 0 8px;border-radius:999px;border:1px solid var(--line);background:var(--glass);color:var(--ink2);font:inherit;font-size:13px;cursor:pointer}
+.themepick:hover{background:var(--navhover);color:var(--ink)}
+.themepick .dots3{display:flex}
+.themepick .dots3 i{width:12px;height:12px;border-radius:50%;border:1.5px solid var(--bg);margin-left:-4px}
+.themepick .dots3 i:first-child{margin-left:0;background:var(--accent1)}
+.themepick .dots3 i:nth-child(2){background:var(--accent2)}
+.themepick .dots3 i:nth-child(3){background:var(--tested)}
+.thememenu{position:absolute;right:0;top:calc(100% + 8px);min-width:190px;padding:6px;border-radius:14px;border:1px solid var(--line);background:var(--bg);box-shadow:var(--shadow);display:none}
+:root[data-theme="light"] .thememenu{background:rgba(255,255,255,.95)}
+.thememenu.open{display:block;animation:fscr-menu .18s ease-out}
+@keyframes fscr-menu{from{opacity:0;transform:translateY(-4px)}to{opacity:1;transform:none}}
+.thememenu button{display:flex;align-items:center;gap:10px;width:100%;padding:9px 10px;border:0;border-radius:10px;background:none;color:var(--ink);font:inherit;font-size:14px;text-align:left;cursor:pointer}
+.thememenu button:hover{background:var(--navhover)}
+.thememenu button[aria-checked="true"]{background:var(--navcur);font-weight:600}
+.thememenu .sw3{width:28px;height:18px;border-radius:6px;flex:none;box-shadow:inset 0 0 0 1px rgba(127,127,127,.25)}
+.thememenu .tick{margin-left:auto;opacity:0}
+.thememenu button[aria-checked="true"] .tick{opacity:1}
+@media (max-width:560px){
+  .topnav{padding:0 8px;justify-content:center}
+  .topnav .brand{display:none}
+  .topnav ul{gap:2px}
+  .topnav a.lnk{padding:7px 6px;font-size:13px}
+  .themeli{margin-left:2px}
+  .themepick{padding:0 7px;height:30px}
+  .themepick .lbl{display:none}
+}
+@media (prefers-reduced-motion:reduce){ .orb{animation:none} }

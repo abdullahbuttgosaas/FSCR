@@ -1,0 +1,4 @@
+Fresh sub-agents given only the task name, the SKILL.md path, FSCR root, PREFIX, a new record name, a RUN folder and the approval:
+- fresh F (v1.0.0): GAPFILL_AB_S2_SVS2F, ProcessId 100004744441184: PASS
+- re-test R (v1.0.1): GAPFILL_AB_S2_SVS3R, ProcessId 100004743466262: PASS
+Round F (v1.0.0): record created and REST PASS, but both testers reported a wrong line: the Step 4 compare keyed values on Value alone, so the same value names in another test value set showed as 'changed' (false FAIL), and the sentence 'the values show as added too' was false. Fixed in v1.0.1: key FND_APP_FLEX_VALUE_SET.ValueSetCode+Value with an --expect per value, <text> placeholder, first-run note in Step 1. 

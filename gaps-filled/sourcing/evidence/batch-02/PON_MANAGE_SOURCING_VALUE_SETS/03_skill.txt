@@ -1,0 +1,2 @@
+Skill: gaps-filled/sourcing/manage-sourcing-value-sets/SKILL.md
+Prerequisites: none (module id read live)

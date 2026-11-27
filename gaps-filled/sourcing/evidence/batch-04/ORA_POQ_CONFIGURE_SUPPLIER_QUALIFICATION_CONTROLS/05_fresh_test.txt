@@ -1,0 +1,3 @@
+Fresh Claude test(s) (sub-agent with only the task name and the SKILL.md path)
+fresh_claude_pass: yes (fresh F PASS; no wrong sentence)
+records: no new record (one global row). Own test: SendRFENotifEvalTeamFlag Y -> N (100004744440678), restored Y (100004744440698), restored export = first export; fresh F: Y -> N (100004744441931), restored Y (100004744442345), restored export = first export

@@ -1,0 +1,5 @@
+Missing task (Sourcing and Supplier Management, gap_index.csv)
+task_code: ORA_POQ_MANAGE_SUPPLIER_REG_RULE_SETS
+task_name: Manage Supplier Qualification Rule Sets
+level: route only (no FSCR skill or guide)
+status before this sitting: open (sitting 1 left it for sitting 2)

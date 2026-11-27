@@ -1,0 +1,516 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>How It Works</title>
+<meta name="description" content="How GoSaaS fills the gaps in FSCR skills for ERP and SCM: a six-slide animated story.">
+<script>try{var fscrT=localStorage.getItem("fscr-theme")}catch(e){}document.documentElement.setAttribute("data-theme",fscrT==="dusk"||fscrT==="light"?fscrT:"night")</script>
+<link rel="stylesheet" href="assets/site.css">
+<style>
+:root{--ctrlh:72px}
+*{box-sizing:border-box}
+html,body{margin:0;height:100%;overflow:hidden}
+body{background:var(--bg);color:var(--ink);font:18px/1.5 "Segoe UI",system-ui,-apple-system,Roboto,"Helvetica Neue",Arial,sans-serif;-webkit-font-smoothing:antialiased}
+.num{font-variant-numeric:tabular-nums}
+
+/* page-only: a warm light behind the gaps slide (the background itself is in site.css) */
+body[data-slide="2"] .orb.o4{opacity:calc(var(--orbop) * .9)}
+
+/* stage and slides */
+.stage{position:fixed;left:0;right:0;top:var(--navh);bottom:var(--ctrlh);z-index:1}
+.slide{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;padding:20px 40px;opacity:0;visibility:hidden;transform:scale(1.035);transition:opacity .8s ease,transform 1s cubic-bezier(.2,.7,.2,1),visibility 0s linear .8s;overflow-y:auto;contain:layout paint}
+.slide.active{opacity:1;visibility:visible;transform:none;transition:opacity .8s ease .15s,transform 1s cubic-bezier(.2,.7,.2,1) .15s,visibility 0s}
+.inner{width:100%;max-width:1160px;margin:auto}
+.center{text-align:center}
+
+/* entrance animation, restarted every time a slide becomes active */
+.a,.pop{opacity:0}
+.slide.active .a{animation:rise .95s cubic-bezier(.2,.75,.2,1) var(--d,0s) both}
+@keyframes rise{from{opacity:0;transform:translateY(26px)}to{opacity:1;transform:none}}
+.slide.active .pop{animation:pop .8s cubic-bezier(.3,1.5,.5,1) var(--d,0s) both}
+@keyframes pop{from{opacity:0;transform:scale(.6)}to{opacity:1;transform:none}}
+
+.chip{display:inline-flex;align-items:center;gap:8px;padding:6px 14px;border-radius:999px;font-size:13px;font-weight:650;letter-spacing:.12em;text-transform:uppercase;background:var(--chipbg);color:var(--chipink);border:1px solid var(--chipline);margin-bottom:18px}
+.chip i{width:7px;height:7px;border-radius:50%;background:currentColor;box-shadow:0 0 10px currentColor}
+.chip.orange{background:rgba(255,138,76,.13);color:#ffb38a;border-color:rgba(255,138,76,.32)}
+.chip.mint{background:rgba(34,211,154,.13);color:#8af5cf;border-color:rgba(34,211,154,.32)}
+.chip.violet{background:rgba(155,107,255,.15);color:#c9b2ff;border-color:rgba(155,107,255,.34)}
+h1,h2{margin:0;font-weight:720;letter-spacing:-.025em;line-height:1.06}
+h1{font-size:clamp(44px,8vw,108px)}
+h2{font-size:clamp(30px,4.6vw,60px)}
+.grad{background:var(--gr-main);-webkit-background-clip:text;background-clip:text;color:transparent}
+.grad-warm{background:var(--gr-warm);-webkit-background-clip:text;background-clip:text;color:transparent}
+.grad-mint{background:var(--gr-mint);-webkit-background-clip:text;background-clip:text;color:transparent}
+.grad-blue{background:var(--gr-blue);-webkit-background-clip:text;background-clip:text;color:transparent}
+.lead{font-size:clamp(18px,2vw,25px);color:var(--ink2);max-width:780px;margin:22px auto 0;line-height:1.45}
+.stat{font-size:clamp(20px,2.4vw,30px);line-height:1.4;margin:22px 0 0;font-weight:520;color:var(--ink)}
+.stat b{font-weight:720}
+
+/* slide 1 */
+.word{display:inline-block;white-space:nowrap}
+.ch{display:inline-block;opacity:0}
+.slide.active .ch{animation:chr .9s cubic-bezier(.2,.8,.2,1) calc(.25s + var(--i) * 34ms) both}
+@keyframes chr{from{opacity:0;transform:translateY(.45em) rotate(4deg)}to{opacity:1;transform:none}}
+.emblem{width:96px;height:96px;margin:0 auto 26px}
+.emblem svg{width:100%;height:100%;overflow:visible}
+.spin{transform-origin:50px 50px;animation:spin 14s linear infinite}
+.spin.rev{animation-duration:9s;animation-direction:reverse}
+@keyframes spin{to{transform:rotate(360deg)}}
+.pillrow{display:flex;justify-content:center;gap:10px;margin-top:30px;flex-wrap:wrap}
+.tagp{padding:7px 16px;border-radius:999px;border:1px solid var(--line);background:var(--glass);color:var(--ink2);font-size:15px}
+
+/* ring slides */
+.split{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.05fr);gap:64px;align-items:center}
+.ringbox{position:relative;width:min(430px,38vw);aspect-ratio:1;margin:0 auto}
+.ringbox svg{position:relative;width:100%;height:100%;display:block;overflow:visible}
+.ringbox::before{content:"";position:absolute;inset:4%;border-radius:50%;background:radial-gradient(circle,transparent 52%,var(--rglow,rgba(77,141,255,.22)) 66%,transparent 74%)}
+#s3 .ringbox{--rglow:rgba(255,106,106,.24)} #s5 .ringbox{--rglow:rgba(34,211,154,.22)}
+.orbitd{position:absolute;inset:1.6%;border-radius:50%;border:1px dashed var(--line);animation:spin 40s linear infinite;will-change:transform}
+.ringc{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center}
+.ringc .big{font-size:clamp(54px,7.2vw,100px);font-weight:760;letter-spacing:-.035em;line-height:1}
+.ringc .of{font-size:clamp(14px,1.4vw,17px);color:var(--ink2);margin-top:10px}
+.track{fill:none;stroke:var(--track);stroke-width:20}
+.arc{fill:none;stroke-width:20;transform:rotate(-90deg);transform-origin:120px 120px}
+.arc.blue{stroke:url(#gBlue)}
+.arc.gap{stroke:url(#gGap)}
+.arc.gain{stroke:url(#gGain)}
+.arc.dim{opacity:.4}
+.key{display:flex;flex-wrap:wrap;gap:10px 24px;margin:26px 0 0;padding:0;list-style:none;font-size:16px;color:var(--ink2)}
+.key li{display:flex;align-items:center;gap:9px}
+.sw{width:14px;height:14px;border-radius:5px;display:inline-block;flex:none}
+.sw.blue{background:linear-gradient(135deg,#3d7bff,#8fc0ff);box-shadow:0 0 10px rgba(77,141,255,.6)}
+.sw.gap{background:linear-gradient(135deg,#ff8a4c,#ff4f8b);box-shadow:0 0 10px rgba(255,90,120,.6)}
+.sw.gain{background:linear-gradient(135deg,#1fc48f,#8af5cf);box-shadow:0 0 10px rgba(34,211,154,.6)}
+.badge{display:inline-flex;align-items:center;gap:10px;margin-top:22px;padding:12px 22px;border-radius:16px;background:linear-gradient(135deg,rgba(34,211,154,.2),rgba(34,211,154,.06));border:1px solid rgba(34,211,154,.4);font-size:clamp(20px,2.2vw,28px);font-weight:720;color:var(--gainink);box-shadow:0 10px 40px rgba(34,211,154,.18)}
+
+/* slide 4: the hub */
+.flow{margin:22px auto 0;max-width:1000px}
+.flow svg{width:100%;height:auto;display:block;overflow:visible}
+.flow .tall{display:none}
+.card rect{fill:var(--glass);stroke:var(--line);stroke-width:1.2}
+.card text{fill:var(--ink);font-size:17px;font-weight:580}
+.card .ic{fill:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+.wire{fill:none;stroke:rgba(143,192,255,.3);stroke-width:2;stroke-dasharray:1;stroke-dashoffset:1}
+.slide.active .wire{animation:draw 1.2s cubic-bezier(.4,.1,.2,1) var(--d,0s) forwards}
+@keyframes draw{to{stroke-dashoffset:0}}
+.dot{opacity:0}
+.slide.active .dot{animation:fadein .6s ease var(--d,1.6s) forwards}
+@keyframes fadein{to{opacity:1}}
+.hubg{transform-box:fill-box;transform-origin:center}
+.ringo{fill:none;stroke:rgba(183,155,255,.55);stroke-width:1.5;stroke-dasharray:3 9;transform-box:fill-box;transform-origin:center;animation:spin 16s linear infinite}
+.pulse{fill:none;stroke:rgba(143,160,255,.55);stroke-width:2;transform-box:fill-box;transform-origin:center;animation:ping 2.8s ease-out infinite}
+.pulse.p2{animation-delay:1.4s}
+@keyframes ping{from{transform:scale(1);opacity:.8}to{transform:scale(1.7);opacity:0}}
+.hubtxt{fill:#fff;font-weight:760;font-size:28px;letter-spacing:-.01em}
+.out rect{fill:rgba(34,211,154,.12);stroke:rgba(34,211,154,.55);stroke-width:1.4}
+.out text{fill:var(--gainink);font-size:18px;font-weight:650}
+.loop{display:flex;justify-content:center;align-items:center;gap:10px;margin:22px auto 0;padding:0;list-style:none;flex-wrap:wrap}
+.loop li{display:flex;align-items:center;gap:10px}
+.step{display:inline-flex;align-items:center;gap:10px;padding:10px 16px;border-radius:14px;border:1px solid var(--line);background:var(--glass);font-size:16px;color:var(--ink);line-height:1.25;opacity:0;position:relative;isolation:isolate}
+.step::after{content:"";position:absolute;inset:-1px;z-index:-1;border-radius:inherit;border:1px solid rgba(143,192,255,.85);background:rgba(77,141,255,.25);box-shadow:0 0 28px rgba(77,141,255,.4);opacity:0;pointer-events:none;will-change:opacity}
+.step b{display:inline-grid;place-items:center;width:26px;height:26px;border-radius:50%;background:linear-gradient(135deg,var(--accent1),var(--accent2));color:#fff;font-size:13px;flex:none}
+.slide.active .step{animation:rise .8s cubic-bezier(.2,.75,.2,1) var(--d,0s) both}
+.slide.active .step::after{animation:lit 6s ease-in-out calc(2.8s + var(--i) * 1.5s) infinite}
+@keyframes lit{0%,22%{opacity:1}30%,100%{opacity:0}}
+.arrow{color:var(--ink3);font-size:18px}
+.again{margin:14px 0 0;color:var(--ink2);font-size:16px;display:flex;align-items:center;justify-content:center;gap:8px}
+.again svg{animation:spin 6s linear infinite}
+
+/* slide 6 */
+.bigopen{font-size:clamp(90px,15vw,200px);font-weight:780;letter-spacing:-.045em;line-height:.95;margin:6px 0 4px;filter:drop-shadow(0 10px 40px rgba(155,107,255,.3))}
+.btns{display:flex;flex-wrap:wrap;gap:14px;justify-content:center;margin-top:36px}
+.btn{display:inline-flex;align-items:center;gap:10px;padding:15px 28px;border-radius:999px;font-size:18px;font-weight:650;text-decoration:none;transition:transform .2s,box-shadow .2s,background .2s}
+.btn.primary{background:linear-gradient(100deg,var(--accent1),var(--accent2));color:#fff;box-shadow:0 10px 34px rgba(91,110,255,.45)}
+.btn.primary:hover{transform:translateY(-2px);box-shadow:0 14px 40px rgba(91,110,255,.6)}
+.btn.ghost{color:var(--ink);border:1px solid var(--line);background:var(--glass)}
+.btn.ghost:hover{background:var(--navhover)}
+.btn:focus-visible,.cbtn:focus-visible,.seg:focus-visible{outline:2px solid var(--focus);outline-offset:3px}
+.upd{margin-top:28px;color:var(--ink3);font-size:15px}
+
+/* controls */
+.controls{position:fixed;left:0;right:0;bottom:0;height:var(--ctrlh);z-index:5;display:flex;align-items:center;gap:16px;padding:0 24px;background:linear-gradient(0deg,var(--ctrlfade),transparent)}
+.cbtn{width:42px;height:42px;border-radius:50%;border:1px solid var(--line);background:var(--glass);color:var(--ink);display:grid;place-items:center;cursor:pointer;flex:none;transition:background .2s,opacity .2s}
+.cbtn:hover{background:var(--navhover)}
+.cbtn.play{width:48px;height:48px;background:linear-gradient(135deg,var(--accent1),var(--accent2));border:0;box-shadow:0 6px 20px rgba(91,110,255,.45)}
+.cbtn:disabled{opacity:.3;cursor:default}
+.segs{flex:1;display:flex;gap:8px}
+.seg{flex:1;height:22px;border:0;padding:0;background:none;cursor:pointer;display:flex;align-items:center}
+.seg span{display:block;width:100%;height:4px;border-radius:2px;background:var(--line);overflow:hidden}
+.seg i{display:block;height:100%;width:0;background:linear-gradient(90deg,var(--accent1),var(--accent2));border-radius:2px}
+.count{color:var(--ink2);font-size:14px;min-width:44px;text-align:right}
+
+:root[data-theme="light"] .chip.orange{color:#b4501c;background:rgba(217,119,63,.1);border-color:rgba(217,119,63,.3)}
+:root[data-theme="light"] .chip.mint{color:#0f7d57;background:rgba(27,175,122,.1);border-color:rgba(27,175,122,.3)}
+:root[data-theme="light"] .chip.violet{color:#6a3fd0;background:rgba(123,79,224,.1);border-color:rgba(123,79,224,.28)}
+:root[data-theme="light"] .badge{background:rgba(27,175,122,.1);border-color:rgba(27,175,122,.35);box-shadow:none}
+:root[data-theme="light"] .wire{stroke:rgba(42,120,214,.3)}
+:root[data-theme="light"] .out rect{fill:rgba(27,175,122,.1)}
+:root[data-theme="light"] .tagp{background:rgba(255,255,255,.7)}
+:root[data-theme="dusk"] .wire{stroke:rgba(255,179,207,.3)}
+
+@media (max-width:860px){
+  :root{--ctrlh:66px}
+  body{font-size:16px}
+  .slide{padding:14px 18px}
+  .split{grid-template-columns:1fr;gap:18px;text-align:center}
+  .ringbox{width:min(250px,62vw,34vh)}
+  .key{justify-content:center;font-size:15px}
+  .flow .wide{display:none} .flow .tall{display:block;max-height:44vh;width:auto;max-width:100%;margin:0 auto}
+  .flow{margin-top:14px}
+  .hide-sm{display:none}
+  .loop{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-top:14px}
+  .loop .arrow{display:none}
+  .step{font-size:13.5px;padding:8px 10px;gap:8px;width:100%;text-align:left}
+  .step b{width:22px;height:22px;font-size:12px}
+  .again{font-size:14px;margin-top:10px}
+  .controls{padding:0 12px;gap:10px}
+  .cbtn{width:38px;height:38px}.cbtn.play{width:44px;height:44px}
+  .segs{gap:5px}
+  .count{display:none}
+  .stat{margin-top:14px}
+  .badge{margin-top:14px}
+  .chip{margin-bottom:12px}
+  .btn{font-size:16px;padding:13px 22px}
+}
+@media (max-height:640px) and (min-width:861px){ .ringbox{width:min(360px,34vw,56vh)} .flow{max-width:780px} .lead.hide-sm{display:none} }
+@media (min-width:1700px){ body{font-size:20px} .inner{max-width:1360px} .ringbox{width:min(520px,34vw)} }
+@media (prefers-reduced-motion:reduce){
+  *,*::before,*::after{animation:none!important;transition:none!important}
+  .a,.pop,.ch,.dot,.step{opacity:1}
+  .wire{stroke-dashoffset:0}
+}
+</style>
+</head>
+<body data-slide="0">
+<nav class="topnav" aria-label="Pages">
+  <a class="brand" href="index.html"><i></i>FSCR gap filling</a>
+  <ul><li><a class="lnk" href="index.html">Dashboard</a></li><li><a class="lnk" href="story.html" aria-current="page">How it works</a></li><li><a class="lnk" href="technical.html">Technical details</a></li></ul>
+</nav>
+
+<div class="bg" aria-hidden="true"><div class="orb o1"></div><div class="orb o2"></div><div class="orb o3"></div><div class="orb o4"></div><div class="grain"></div><canvas id="dust"></canvas></div>
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true"><defs>
+  <linearGradient id="gBlue" x1="0" y1="0" x2="1" y2="1"><stop offset="0" style="stop-color:var(--rb1)"/><stop offset="1" style="stop-color:var(--rb2)"/></linearGradient>
+  <linearGradient id="gGap" x1="0" y1="0" x2="1" y2="1"><stop offset="0" style="stop-color:var(--rg1)"/><stop offset=".5" style="stop-color:var(--rg2)"/><stop offset="1" style="stop-color:var(--rg3)"/></linearGradient>
+  <linearGradient id="gGain" x1="0" y1="0" x2="1" y2="1"><stop offset="0" style="stop-color:var(--rn1)"/><stop offset="1" style="stop-color:var(--rn2)"/></linearGradient>
+  <radialGradient id="gGlow"><stop offset=".55" style="stop-color:var(--rh2);stop-opacity:.45"/><stop offset="1" style="stop-color:var(--rh3);stop-opacity:0"/></radialGradient>
+  <radialGradient id="gHub" cx=".35" cy=".3" r=".9"><stop offset="0" style="stop-color:var(--rh1)"/><stop offset=".55" style="stop-color:var(--rh2)"/><stop offset="1" style="stop-color:var(--rh3)"/></radialGradient>
+</defs></svg>
+
+<main class="stage" id="stage" aria-roledescription="slideshow" aria-label="How it works">
+
+<!-- 1. Title -->
+<section class="slide" id="s1" aria-label="Title" aria-roledescription="slide">
+  <div class="inner center">
+    <div class="emblem pop" style="--d:0s" aria-hidden="true">
+      <svg viewBox="0 0 100 100">
+        <circle cx="50" cy="50" r="46" fill="none" style="stroke:var(--line)" stroke-width="1"/>
+        <g class="spin"><circle cx="50" cy="4" r="4" fill="#8fc0ff"/><circle cx="96" cy="50" r="3" fill="#b79bff"/><circle cx="50" cy="96" r="3.5" fill="#5cf0be"/></g>
+        <g class="spin rev"><circle cx="50" cy="50" r="30" fill="none" stroke="url(#gBlue)" stroke-width="3" stroke-dasharray="40 148" stroke-linecap="round"/><circle cx="50" cy="50" r="30" fill="none" stroke="url(#gGain)" stroke-width="3" stroke-dasharray="26 162" stroke-dashoffset="-80" stroke-linecap="round"/></g>
+        <circle cx="50" cy="50" r="12" fill="url(#gHub)"/>
+      </svg>
+    </div>
+    <h1 id="titleText" data-grad="1">FSCR gap filling</h1>
+    <h1 style="font-size:clamp(34px,6vw,80px);margin-top:6px" id="titleText2">ERP and SCM</h1>
+    <p class="lead a" style="--d:1.1s">FSCR is Oracle's open-source toolkit that lets AI configure Oracle Fusion Cloud.</p>
+    <div class="pillrow a" style="--d:1.5s"><span class="tagp">Oracle Fusion Cloud</span><span class="tagp">Skills for ERP and SCM</span><span class="tagp">GoSaaS</span></div>
+  </div>
+</section>
+
+<!-- 2. FSCR today -->
+<section class="slide" id="s2" aria-label="FSCR today" aria-roledescription="slide">
+  <div class="inner split">
+    <div class="ringbox pop" style="--d:.1s" aria-hidden="true">
+      <span class="orbitd"></span><svg viewBox="0 0 240 240"><circle class="track" cx="120" cy="120" r="100"/><circle class="arc blue" id="r1b" cx="120" cy="120" r="100" stroke-dasharray="0 1000"/></svg>
+      <div class="ringc"><div class="big num grad-blue" id="n1">0</div><div class="of">of <span class="num" data-k="total">–</span> tasks</div></div>
+    </div>
+    <div>
+      <div class="a" style="--d:.2s"><span class="chip"><i></i>FSCR today</span></div>
+      <h2 class="a" style="--d:.3s">Some tasks already have a skill.</h2>
+      <p class="stat a" style="--d:.5s">FSCR already had skills for ERP and SCM for <b class="num grad-blue" data-k="before">–</b> of the <b class="num" data-k="total">–</b> tasks in these modules.</p>
+      <ul class="key a" style="--d:.7s"><li><span class="sw blue"></span>Skills FSCR already had</li></ul>
+    </div>
+  </div>
+</section>
+
+<!-- 3. The gaps -->
+<section class="slide" id="s3" aria-label="The gaps" aria-roledescription="slide">
+  <div class="inner split">
+    <div>
+      <div class="a" style="--d:.2s"><span class="chip orange"><i></i>The gaps</span></div>
+      <h2 class="a" style="--d:.3s">Most tasks have <span class="grad-warm">no skill</span> yet.</h2>
+      <p class="stat a" style="--d:.5s"><b class="num grad-warm" data-k="missing">–</b> tasks have no FSCR skill: no proven recipe for an AI to follow.</p>
+      <ul class="key a" style="--d:.7s"><li><span class="sw blue"></span>Had a skill</li><li><span class="sw gap"></span>No skill: the gaps</li></ul>
+    </div>
+    <div class="ringbox pop" style="--d:.1s" aria-hidden="true">
+      <span class="orbitd"></span><svg viewBox="0 0 240 240"><circle class="track" cx="120" cy="120" r="100"/><circle class="arc blue dim" id="r2b" cx="120" cy="120" r="100" stroke-dasharray="0 1000"/><circle class="arc gap" id="r2g" cx="120" cy="120" r="100" stroke-dasharray="0 1000"/></svg>
+      <div class="ringc"><div class="big num grad-warm" id="n2">0</div><div class="of">tasks with no skill</div></div>
+    </div>
+  </div>
+</section>
+
+<!-- 4. GoSaaS fills the gaps -->
+<section class="slide" id="s4" aria-label="GoSaaS fills the gaps" aria-roledescription="slide">
+  <div class="inner center">
+    <div class="a" style="--d:.1s"><span class="chip violet"><i></i>The work</span></div>
+    <h2 class="a" style="--d:.2s"><span class="grad">GoSaaS</span> fills the gaps</h2>
+    <p class="lead a hide-sm" style="--d:.3s;margin-top:12px">Three sources flow in. Out come new generic skills, built in the same shape as FSCR's own.</p>
+    <div class="flow" aria-hidden="true">
+      <svg class="wide" viewBox="0 0 960 340">
+        <path id="w1" class="wire" pathLength="1" style="--d:.9s" d="M300 50 C 390 50, 380 170, 448 170"/>
+        <path id="w2" class="wire" pathLength="1" style="--d:1s" d="M300 170 L 448 170"/>
+        <path id="w3" class="wire" pathLength="1" style="--d:1.1s" d="M300 290 C 390 290, 380 170, 448 170"/>
+        <path id="w4" class="wire" pathLength="1" style="--d:1.7s" d="M612 170 L 690 170"/>
+        <g class="dot"><circle r="4.5" fill="#8fc0ff"><animateMotion dur="2.2s" repeatCount="indefinite"><mpath href="#w1"/></animateMotion></circle><circle r="3" fill="#8fc0ff"><animateMotion dur="2.2s" begin="-1.1s" repeatCount="indefinite"><mpath href="#w1"/></animateMotion></circle></g>
+        <g class="dot"><circle r="4.5" fill="#c9b2ff"><animateMotion dur="1.9s" begin="-.5s" repeatCount="indefinite"><mpath href="#w2"/></animateMotion></circle><circle r="3" fill="#c9b2ff"><animateMotion dur="1.9s" begin="-1.4s" repeatCount="indefinite"><mpath href="#w2"/></animateMotion></circle></g>
+        <g class="dot"><circle r="4.5" fill="#ffc64d"><animateMotion dur="2.4s" begin="-.3s" repeatCount="indefinite"><mpath href="#w3"/></animateMotion></circle><circle r="3" fill="#ffc64d"><animateMotion dur="2.4s" begin="-1.5s" repeatCount="indefinite"><mpath href="#w3"/></animateMotion></circle></g>
+        <g class="dot" style="--d:2.2s"><circle r="5" fill="#5cf0be"><animateMotion dur="1.2s" repeatCount="indefinite"><mpath href="#w4"/></animateMotion></circle><circle r="3.5" fill="#5cf0be"><animateMotion dur="1.2s" begin="-.6s" repeatCount="indefinite"><mpath href="#w4"/></animateMotion></circle></g>
+        <g class="card a" style="--d:.35s"><rect x="10" y="12" width="290" height="76" rx="18"/>
+          <g class="ic" stroke="#8fc0ff" transform="translate(32 34)"><path d="M2 3h10a4 4 0 0 1 4 4v24a3 3 0 0 0-3-3H2z"/><path d="M30 3H20a4 4 0 0 0-4 4v24a3 3 0 0 1 3-3h11z"/></g>
+          <text x="84" y="56">Oracle documentation</text></g>
+        <g class="card a" style="--d:.5s"><rect x="10" y="132" width="290" height="76" rx="18"/>
+          <g class="ic" stroke="#c9b2ff" transform="translate(32 154)"><circle cx="11" cy="9" r="6"/><path d="M1 31c0-6 4-10 10-10s10 4 10 10"/><circle cx="25" cy="10" r="5"/><path d="M23 20c5 0 9 3 9 9"/></g>
+          <text x="84" y="164"><tspan x="84">Consultant knowledge</tspan><tspan x="84" dy="22">and help</tspan></text></g>
+        <g class="card a" style="--d:.65s"><rect x="10" y="252" width="290" height="76" rx="18"/>
+          <g class="ic" stroke="#ffc64d" transform="translate(32 272)"><rect x="1" y="1" width="13" height="13" rx="3"/><rect x="19" y="1" width="13" height="13" rx="3"/><rect x="1" y="19" width="13" height="13" rx="3"/><rect x="19" y="19" width="13" height="13" rx="3" stroke-dasharray="3 3"/></g>
+          <text x="84" y="284"><tspan x="84">FSCR's own skills</tspan><tspan x="84" dy="22">as the pattern</tspan></text></g>
+        <g class="hubg pop" style="--d:.8s">
+          <circle class="pulse" cx="530" cy="170" r="80"/><circle class="pulse p2" cx="530" cy="170" r="80"/>
+          <circle class="ringo" cx="530" cy="170" r="100"/>
+          <circle cx="530" cy="170" r="118" fill="url(#gGlow)"/><circle cx="530" cy="170" r="80" fill="url(#gHub)"/>
+          <text class="hubtxt" x="530" y="180" text-anchor="middle">GoSaaS</text></g>
+        <g class="out a" style="--d:1.9s"><rect x="690" y="122" width="262" height="96" rx="20"/><text x="821" y="164" text-anchor="middle"><tspan x="821">New generic skills</tspan><tspan x="821" dy="24">for ERP and SCM</tspan></text></g>
+      </svg>
+      <svg class="tall" viewBox="0 0 360 420">
+        <path id="t1" class="wire" pathLength="1" style="--d:.9s" d="M59 86 C 59 140, 180 120, 180 160"/>
+        <path id="t2" class="wire" pathLength="1" style="--d:1s" d="M180 86 L 180 160"/>
+        <path id="t3" class="wire" pathLength="1" style="--d:1.1s" d="M301 86 C 301 140, 180 120, 180 160"/>
+        <path id="t4" class="wire" pathLength="1" style="--d:1.7s" d="M180 278 L 180 330"/>
+        <g class="dot"><circle r="4" fill="#8fc0ff"><animateMotion dur="2s" repeatCount="indefinite"><mpath href="#t1"/></animateMotion></circle></g>
+        <g class="dot"><circle r="4" fill="#c9b2ff"><animateMotion dur="1.7s" begin="-.6s" repeatCount="indefinite"><mpath href="#t2"/></animateMotion></circle></g>
+        <g class="dot"><circle r="4" fill="#ffc64d"><animateMotion dur="2.2s" begin="-1s" repeatCount="indefinite"><mpath href="#t3"/></animateMotion></circle></g>
+        <g class="dot" style="--d:2.2s"><circle r="4.5" fill="#5cf0be"><animateMotion dur="1.1s" repeatCount="indefinite"><mpath href="#t4"/></animateMotion></circle></g>
+        <g class="card a" style="--d:.35s"><rect x="4" y="2" width="110" height="84" rx="14"/><text x="59" y="38" text-anchor="middle" style="font-size:14px"><tspan x="59">Oracle</tspan><tspan x="59" dy="18">documentation</tspan></text></g>
+        <g class="card a" style="--d:.5s"><rect x="125" y="2" width="110" height="84" rx="14"/><text x="180" y="30" text-anchor="middle" style="font-size:14px"><tspan x="180">Consultant</tspan><tspan x="180" dy="18">knowledge</tspan><tspan x="180" dy="18">and help</tspan></text></g>
+        <g class="card a" style="--d:.65s"><rect x="246" y="2" width="110" height="84" rx="14"/><text x="301" y="30" text-anchor="middle" style="font-size:14px"><tspan x="301">FSCR's own</tspan><tspan x="301" dy="18">skills as</tspan><tspan x="301" dy="18">the pattern</tspan></text></g>
+        <g class="hubg pop" style="--d:.8s">
+          <circle class="pulse" cx="180" cy="219" r="58"/><circle class="pulse p2" cx="180" cy="219" r="58"/>
+          <circle class="ringo" cx="180" cy="219" r="72"/>
+          <circle cx="180" cy="219" r="86" fill="url(#gGlow)"/><circle cx="180" cy="219" r="58" fill="url(#gHub)"/>
+          <text class="hubtxt" x="180" y="227" text-anchor="middle" style="font-size:22px">GoSaaS</text></g>
+        <g class="out a" style="--d:1.9s"><rect x="50" y="330" width="260" height="78" rx="16"/><text x="180" y="363" text-anchor="middle" style="font-size:16px"><tspan x="180">New generic skills</tspan><tspan x="180" dy="21">for ERP and SCM</tspan></text></g>
+      </svg>
+    </div>
+    <ol class="loop" aria-label="The loop for each gap">
+      <li><span class="step" style="--d:2.1s;--i:0"><b>1</b>Write a generic skill</span><span class="arrow" aria-hidden="true">→</span></li>
+      <li><span class="step" style="--d:2.25s;--i:1"><b>2</b>Load one test record into Oracle</span><span class="arrow" aria-hidden="true">→</span></li>
+      <li><span class="step" style="--d:2.4s;--i:2"><b>3</b>Read it back</span><span class="arrow" aria-hidden="true">→</span></li>
+      <li><span class="step" style="--d:2.55s;--i:3"><b>4</b>A fresh Claude checks it using only the skill</span></li>
+    </ol>
+    <p class="again a" style="--d:2.8s"><svg width="16" height="16" viewBox="0 0 16 16" aria-hidden="true"><path d="M13.5 8A5.5 5.5 0 1 1 11 3.4" fill="none" stroke="#8fc0ff" stroke-width="1.6" stroke-linecap="round"/><path d="M11.5 1v3h-3" fill="none" stroke="#8fc0ff" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>Then the next gap, the same way.</p>
+  </div>
+</section>
+
+<!-- 5. FSCR after -->
+<section class="slide" id="s5" aria-label="FSCR after" aria-roledescription="slide">
+  <div class="inner split">
+    <div class="ringbox pop" style="--d:.1s" aria-hidden="true">
+      <span class="orbitd"></span><svg viewBox="0 0 240 240"><circle class="track" cx="120" cy="120" r="100"/>
+        <circle class="arc blue" id="r3b" cx="120" cy="120" r="100" stroke-dasharray="0 1000"/>
+        <circle class="arc gain" id="r3g" cx="120" cy="120" r="100" stroke-dasharray="0 1000"/></svg>
+      <div class="ringc"><div class="big num grad-mint" id="n3">0</div><div class="of">skills available now</div></div>
+    </div>
+    <div>
+      <div class="a" style="--d:.2s"><span class="chip mint"><i></i>FSCR after</span></div>
+      <h2 class="a" style="--d:.3s">The ring fills further.</h2>
+      <p class="stat a" style="--d:.5s">Skills available now: <b class="num grad-mint" data-k="available">–</b> of <span class="num" data-k="total">–</span>, up from <span class="num" data-k="before">–</span>.</p>
+      <div class="pop" style="--d:2.6s"><span class="badge num" id="gainWords">–</span></div>
+      <ul class="key a" style="--d:.7s"><li><span class="sw blue"></span>Had a skill</li><li><span class="sw gain"></span>Added by GoSaaS</li></ul>
+    </div>
+  </div>
+</section>
+
+<!-- 6. What is left -->
+<section class="slide" id="s6" aria-label="What is left" aria-roledescription="slide">
+  <div class="inner center">
+    <div class="a" style="--d:.1s"><span class="chip violet"><i></i>What is left</span></div>
+    <div class="bigopen num grad pop" style="--d:.25s" id="n4">0</div>
+    <h2 class="a" style="--d:.5s">tasks are still open.</h2>
+    <p class="lead a" style="--d:.7s">Each one goes through the same loop: a generic skill, one test record, a read-back and a fresh check.</p>
+    <div class="btns a" style="--d:.9s">
+      <a class="btn primary" href="technical.html">Click for technical details <span aria-hidden="true">→</span></a>
+      <a class="btn ghost" href="index.html">Back to the dashboard</a>
+    </div>
+    <p class="upd a" style="--d:1.1s">Same numbers as the dashboard · Last updated <span id="upd" style="white-space:nowrap">–</span></p>
+  </div>
+</section>
+</main>
+
+<div class="controls" role="group" aria-label="Slideshow controls">
+  <button class="cbtn" id="prev" type="button" aria-label="Previous slide"><svg width="16" height="16" viewBox="0 0 16 16"><path d="M10 3 5 8l5 5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+  <button class="cbtn play" id="play" type="button" aria-label="Pause"><svg id="playIcon" width="16" height="16" viewBox="0 0 16 16"></svg></button>
+  <button class="cbtn" id="next" type="button" aria-label="Next slide"><svg width="16" height="16" viewBox="0 0 16 16"><path d="m6 3 5 5-5 5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+  <div class="segs" id="segs"></div>
+  <span class="count num" id="count">1 / 6</span>
+</div>
+
+<script src="data/data.js"></script>
+<script src="assets/site.js"></script>
+<script>
+(function(){
+  "use strict";
+  var F = window.FSCR, $ = function(id){ return document.getElementById(id); };
+  var R = F.reduced, C = 2 * Math.PI * 100;
+  var slides = Array.prototype.slice.call(document.querySelectorAll(".slide"));
+  var DUR = [6500, 7500, 7500, 13000, 9000, 0];   // ms per slide; the last one waits
+  var cur = -1, playing = !R, t = 0, gen = 0, S = null, timers = [];
+
+  // title letters rise one by one
+  var STOPS;
+  function readStops(){ var cs = getComputedStyle(document.documentElement);
+    STOPS = ["--hs1", "--hs2", "--hs3"].map(function(v){ var h = cs.getPropertyValue(v).trim().replace("#", "");
+      return [0, 2, 4].map(function(i){ return parseInt(h.substr(i, 2), 16); }); }); }
+  readStops();
+  function hue(f){ var x = f * (STOPS.length - 1), k = Math.min(STOPS.length - 2, Math.floor(x)), u = x - k;
+    return "rgb(" + STOPS[k].map(function(v, j){ return Math.round(v + (STOPS[k+1][j] - v) * u); }).join(",") + ")"; }
+  ["titleText", "titleText2"].forEach(function(id, k){
+    var el = $(id), i = k * 16, txt = el.textContent, n = txt.replace(/ /g, "").length, m = 0, grad = el.hasAttribute("data-grad");
+    el.setAttribute("aria-label", txt);
+    el.innerHTML = txt.split(" ").map(function(w){
+      return '<span class="word" aria-hidden="true">' + w.split("").map(function(c){
+        var col = grad ? ";color:" + hue(m++ / Math.max(1, n - 1)) : "";
+        return '<span class="ch" style="--i:' + (i++) + col + '">' + c + "</span>"; }).join("") + "</span>";
+    }).join(" ");
+  });
+  window.addEventListener("fscr-theme", function(){
+    readStops();
+    var chs = $("titleText").querySelectorAll(".ch"), n = chs.length;
+    chs.forEach(function(c, j){ c.style.color = hue(j / Math.max(1, n - 1)); });
+  });
+
+  function later(fn, ms){ timers.push(setTimeout(fn, R ? 0 : ms)); }
+  function count(el, from, to, ms){
+    var g = gen; if (R){ el.textContent = F.fmt(to); return; }
+    var t0 = null; el.textContent = F.fmt(from);
+    function step(ts){ if (g !== gen) return; if (t0 === null) t0 = ts;
+      var p = Math.min(1, (ts - t0) / ms), e = 1 - Math.pow(1 - p, 3);
+      el.textContent = F.fmt(Math.round(from + (to - from) * e)); if (p < 1) requestAnimationFrame(step); }
+    requestAnimationFrame(step);
+  }
+  function arc(el, from, len, ms, delay){
+    el.style.transition = "none";
+    el.setAttribute("stroke-dasharray", "0 " + C.toFixed(1));
+    el.style.strokeDashoffset = (-C * from).toFixed(2);
+    el.getBoundingClientRect();
+    if (!R) el.style.transition = "stroke-dasharray " + ms + "ms cubic-bezier(.3,.1,.2,1) " + (delay || 0) + "ms";
+    el.setAttribute("stroke-dasharray", (C * len).toFixed(2) + " " + C.toFixed(2));
+  }
+  function play(i){
+    if (!S) return;
+    var T = S.total, b = S.before / T;
+    if (i === 1){ arc($("r1b"), 0, b, 1800, 500); later(function(){ count($("n1"), 0, S.before, 1800); }, 500); }
+    if (i === 2){ arc($("r2b"), 0, b, 600, 300); arc($("r2g"), b, S.missing / T, 2000, 900); later(function(){ count($("n2"), 0, S.missing, 2000); }, 900); }
+    if (i === 4){
+      arc($("r3b"), 0, b, 900, 300);
+      arc($("r3g"), b, S.gain / T, 1800, 1300);
+      $("n3").textContent = F.fmt(0);
+      later(function(){ count($("n3"), 0, S.before, 900); }, 300);
+      later(function(){ count($("n3"), S.before, S.available, 1800); }, 1300);
+    }
+    if (i === 5){ later(function(){ count($("n4"), 0, S.open, 1600); }, 300); }
+  }
+
+  // controls
+  var segs = $("segs");
+  slides.forEach(function(s, j){
+    var b = document.createElement("button");
+    b.className = "seg"; b.type = "button"; b.setAttribute("aria-label", "Slide " + (j + 1) + ": " + s.getAttribute("aria-label"));
+    b.innerHTML = "<span><i></i></span>";
+    b.addEventListener("click", function(){ go(j); });
+    segs.appendChild(b);
+  });
+  var fills = segs.querySelectorAll("i");
+  function paint(){
+    fills.forEach(function(f, j){
+      var w = j < cur ? 1 : j > cur ? 0 : (DUR[j] ? Math.min(1, t / DUR[j]) : 1);
+      f.style.width = (w * 100).toFixed(2) + "%";
+    });
+  }
+  var ICON_PAUSE = '<rect x="4" y="3" width="3" height="10" rx="1" fill="#fff"/><rect x="9" y="3" width="3" height="10" rx="1" fill="#fff"/>';
+  var ICON_PLAY = '<path d="M5 3.2v9.6c0 .6.6.9 1.1.6l7.3-4.8c.4-.3.4-.9 0-1.2L6.1 2.6C5.6 2.3 5 2.6 5 3.2z" fill="#fff"/>';
+  var ICON_AGAIN = '<path d="M13 8a5 5 0 1 1-1.6-3.7" fill="none" stroke="#fff" stroke-width="1.8" stroke-linecap="round"/><path d="M12 1.5v3.2H8.8" fill="none" stroke="#fff" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>';
+  function setPlayIcon(){
+    var end = cur === slides.length - 1;
+    $("playIcon").innerHTML = end ? ICON_AGAIN : (playing ? ICON_PAUSE : ICON_PLAY);
+    $("play").setAttribute("aria-label", end ? "Play again from the start" : (playing ? "Pause" : "Play"));
+  }
+  function go(i){
+    i = Math.max(0, Math.min(slides.length - 1, i));
+    if (i === cur) return;
+    gen++; timers.forEach(clearTimeout); timers = [];
+    slides.forEach(function(s, j){
+      var on = j === i;
+      s.classList.toggle("active", on);
+      s.setAttribute("aria-hidden", on ? "false" : "true");
+      if ("inert" in s) s.inert = !on;
+    });
+    cur = i; t = 0;
+    document.body.setAttribute("data-slide", String(i));
+    $("count").textContent = (i + 1) + " / " + slides.length;
+    $("prev").disabled = i === 0; $("next").disabled = i === slides.length - 1;
+    try { history.replaceState(null, "", "#" + (i + 1)); } catch (e) {}
+    setPlayIcon(); paint(); play(i);
+  }
+  window.storyGo = go;
+  window.storyPause = function(){ playing = false; setPlayIcon(); };
+  $("prev").addEventListener("click", function(){ go(cur - 1); });
+  $("next").addEventListener("click", function(){ go(cur + 1); });
+  $("play").addEventListener("click", function(){
+    if (cur === slides.length - 1){ playing = !R; go(0); return; }
+    playing = !playing; setPlayIcon();
+  });
+  document.addEventListener("keydown", function(e){
+    if (e.altKey || e.ctrlKey || e.metaKey) return;
+    var k = e.key, tg = e.target.tagName;
+    if (k === "ArrowRight" || k === "ArrowDown" || k === "PageDown" || (k === " " && tg !== "BUTTON" && tg !== "A")){ e.preventDefault(); go(cur + 1); }
+    else if (k === "ArrowLeft" || k === "ArrowUp" || k === "PageUp"){ e.preventDefault(); go(cur - 1); }
+    else if (k === "Home"){ go(0); } else if (k === "End"){ go(slides.length - 1); }
+    else if (k === "p" || k === "P" || k === "k"){ $("play").click(); }
+  });
+  var tx = null, ty = null;
+  $("stage").addEventListener("touchstart", function(e){ tx = e.touches[0].clientX; ty = e.touches[0].clientY; }, {passive:true});
+  $("stage").addEventListener("touchend", function(e){
+    if (tx === null) return;
+    var dx = e.changedTouches[0].clientX - tx, dy = e.changedTouches[0].clientY - ty;
+    if (Math.abs(dx) > 50 && Math.abs(dx) > Math.abs(dy)) go(cur + (dx < 0 ? 1 : -1));
+    tx = null;
+  }, {passive:true});
+
+  // timer: moves to the next slide on its own while playing
+  var last = null;
+  function tick(ts){
+    if (last !== null && playing && DUR[cur]){
+      t += Math.min(100, ts - last);
+      if (t >= DUR[cur]) go(cur + 1);
+    }
+    last = ts; paint(); requestAnimationFrame(tick);
+  }
+
+
+  function start(){
+    var h = parseInt((location.hash || "").slice(1), 10);
+    go(h >= 1 && h <= slides.length ? h - 1 : 0);
+    requestAnimationFrame(tick);
+  }
+  F.load().then(function(d){
+    S = d.summary;
+    F.fill(document, S);
+    $("upd").textContent = d.updated;
+    $("gainWords").textContent = "+" + F.fmt(S.gain) + " skills, " + F.pct(S.gain, S.before) + "% more";
+    start();
+  }).catch(function(){ start(); F.fail(); });
+})();
+</script>
+</body>
+</html>

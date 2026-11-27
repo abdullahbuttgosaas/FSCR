@@ -1,0 +1,5 @@
+Missing task (Sourcing and Supplier Management, gap_index.csv)
+task_code: ORA_MANAGE_ADDRESS_VERIFICATION_CLOUD_TO_CX_CLOUD_INTEGRATION
+task_name: Manage Integration with Oracle Verification Services
+level: neither (no FSCR skill or guide)
+status before this sitting: open (sitting 1 left it for sitting 2)

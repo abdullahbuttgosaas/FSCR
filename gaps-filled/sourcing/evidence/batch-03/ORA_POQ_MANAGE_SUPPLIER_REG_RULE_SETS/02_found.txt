@@ -1,0 +1,3 @@
+What was found (2026-11-28, read only)
+route: FSM CSV (rule set package: ORA_POQ_RULE_SETS, _TRANS_RULE_SETS, _RULE_SET_BU_ASSIGNMENTS, _RULE_SET_BU_EVENT_RULES, _RULES, _RULE_AREA_QUESTIONS); no REST resource (3 names HTTP 404)
+depends_on: a procurement business unit (own test unit GAPFILL_AB_B15_BU1/BU2F); ORA_POQ_MANAGE_SUPPLIER_QUALIFICATION_AREAS (own test area); status codes from standard lookup POQ_RULE_SET_STATUS (read live)

@@ -1,0 +1,11 @@
+Skill: sourcing/create-supplier-in-procurement/SKILL.md (version 1.0.0, 92 lines)
+Sections:
+## What it is and when to use
+## Placeholders
+## Sign-in
+## Prerequisites
+## Step 1. Check SUP is new (and that the check works)
+## Step 2. Create (POST once)
+## Step 3. Read back
+## Rules and limits
+## Worked example (VERIFIED, 2026-11-28). Do not reuse these names.

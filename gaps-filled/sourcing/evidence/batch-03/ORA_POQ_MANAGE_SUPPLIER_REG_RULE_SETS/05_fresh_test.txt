@@ -1,0 +1,3 @@
+Fresh Claude test(s) (sub-agent with only the task name and the SKILL.md path)
+fresh_claude_pass: yes (fresh F PASS; no wrong sentence)
+records: try 1 refused (100004744441515, status DRAFT invalid, nothing created, proved by export); GAPFILL_AB_S3_RS1 on own unit BU1, area QA1 (100004743464733, own test, try 2); GAPFILL_AB_S3_RS2F on own unit BU2F, area QA2F (100004743464790, fresh F (v1.0.0))

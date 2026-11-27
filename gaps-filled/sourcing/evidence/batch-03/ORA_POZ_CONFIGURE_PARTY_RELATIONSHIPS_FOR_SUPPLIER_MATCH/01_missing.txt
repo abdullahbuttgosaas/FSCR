@@ -1,0 +1,5 @@
+Missing task (Sourcing and Supplier Management, gap_index.csv)
+task_code: ORA_POZ_CONFIGURE_PARTY_RELATIONSHIPS_FOR_SUPPLIER_MATCH
+task_name: Configure Party Relationships for Supplier Match
+level: route only (no FSCR skill or guide)
+status before this sitting: open (sitting 1 left it for sitting 2)

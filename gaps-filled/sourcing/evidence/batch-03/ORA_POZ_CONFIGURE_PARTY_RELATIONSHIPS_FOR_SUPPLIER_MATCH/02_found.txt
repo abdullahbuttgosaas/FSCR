@@ -1,0 +1,3 @@
+What was found (2026-11-28, read only)
+route: FSM CSV (ORA_SUPPLIER_MATCH_PARTY_RELATIONSHIP, one column RelationshipType); prerequisite type by FSM CSV task HZ_MANAGE_RELATIONSHIP_TYPES, read back by CRM REST relationshipTypes (read only)
+depends_on: HZ_MANAGE_RELATIONSHIP_TYPES (a NEW own organization-to-organization relationship type that no party uses; the supplier match list is shared and has no delete)

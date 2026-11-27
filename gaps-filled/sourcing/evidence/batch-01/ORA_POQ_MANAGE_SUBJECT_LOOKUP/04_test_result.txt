@@ -1,0 +1,4 @@
+Own test 2026-11-27: code GAPFILL_AB_S1_SJ1, ProcessId 100004743465489
+Import: Application Standard Lookup, Completed successfully, 2 rows processed, 0 failed (IMPORT: PASS)
+REST: codes 4 -> 5; added only the new code; removed 0; changed 0; type unchanged (READBACK: PASS)
+Export compare: RESULT: PASS

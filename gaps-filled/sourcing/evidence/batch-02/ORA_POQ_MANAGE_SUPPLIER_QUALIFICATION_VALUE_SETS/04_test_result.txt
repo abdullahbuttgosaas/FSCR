@@ -1,0 +1,2 @@
+Own test 2026-11-27: GAPFILL_AB_S2_QVS1, ProcessId 100004744440268
+new INDEP VARCHAR2(20) value set with values GAPFILL_A, GAPFILL_B; ModuleId from POQ_ASSESSMENT_OUTCOME lands it in the task scope; import 3 rows, 0 failed; REST PASS; export compare PASS (1 -> 2 value sets, 2 -> 4 values)

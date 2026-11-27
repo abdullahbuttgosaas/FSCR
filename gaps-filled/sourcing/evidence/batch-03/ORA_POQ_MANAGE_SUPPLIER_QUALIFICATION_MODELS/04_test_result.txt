@@ -1,0 +1,4 @@
+Own live test (2026-11-28)
+test_records: GAPFILL_AB_S3_QM1 on own unit BU1, area QA1 (100004744440460, own test)
+result: see notes
+notes: Sourcing batch 03 (sitting 2). New DRAFT model with one area and one outcome, rows written in full (first export 0 rows although REST showed an ACTIVE model of another unit). Own test PASS first try (REST DRAFT, area and outcome ok; export 0 -> 1 in 3 files). Fresh F PASS; tester called "Our first export had 0 rows in every file" misleading (later exports list earlier test models): v1.0.1 reworded, re-test R PASS with no false sentence. Suggestions NOT applied: echo rc after export/import; print "build skipped"; print model names inside the ZIP before import; encoding in Step 2 json.load.

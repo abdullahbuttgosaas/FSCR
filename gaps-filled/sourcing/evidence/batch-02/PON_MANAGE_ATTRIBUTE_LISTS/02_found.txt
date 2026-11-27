@@ -1,0 +1,1 @@
+Read-only export of PON_MANAGE_ATTRIBUTE_LISTS (2026-11-27). Route: FSM CSV (attribute list package: PON_LINE_ATTR_LISTS, ORA_PON_LIST_ATTRIBUTE_GROUPS, PON_LIST_ATTRIBUTES, PON_LIST_ATTR_SCORES), rows written in full; no REST resource (attributeLists, negotiationAttributeLists HTTP 404), export is the read-back.

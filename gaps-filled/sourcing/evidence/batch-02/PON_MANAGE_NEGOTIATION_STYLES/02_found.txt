@@ -1,0 +1,1 @@
+Read-only export of PON_MANAGE_NEGOTIATION_STYLES (2026-11-27). Route: FSM CSV (negotiation style package: PON_NEGOTIATION_STYLES, PON_DOCTYPE_STYLES and translations); no REST resource (negotiationStyles, supplierNegotiationStyles, sourcingNegotiationStyles HTTP 404), export compare is the read-back.

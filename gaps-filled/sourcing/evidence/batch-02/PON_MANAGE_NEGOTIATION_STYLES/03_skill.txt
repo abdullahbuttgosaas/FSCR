@@ -1,0 +1,2 @@
+Skill: gaps-filled/sourcing/manage-negotiation-styles/SKILL.md
+Prerequisites: none (seeded style Standard_Negotiation is copied)

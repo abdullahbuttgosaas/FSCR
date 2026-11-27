@@ -1,0 +1,1 @@
+Read-only export of PON_MANAGE_SOURCING_VALUE_SETS (2026-11-27). Route: FSM CSV (FND_APP_FLEX_VALUE_SET package scoped to moduleKey PrcPonCommon; ModuleId read live from lookup PON_LINE_ATTRIBUTE_GROUPS) + REST valueSets read-back.

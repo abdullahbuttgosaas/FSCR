@@ -1,0 +1,5 @@
+Missing task (Sourcing and Supplier Management, gap_index.csv)
+task_code: ORA_POQ_CONFIGURE_SUPPLIER_QUALIFICATION_CONTROLS
+task_name: Configure Supplier Qualification Controls
+level: route only (no FSCR skill or guide)
+status before this sitting: open (sitting 1 left it for sitting 2)

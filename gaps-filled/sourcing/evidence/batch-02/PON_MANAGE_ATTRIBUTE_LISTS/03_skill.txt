@@ -1,0 +1,2 @@
+Skill: gaps-filled/sourcing/manage-attribute-lists/SKILL.md
+Prerequisites: none (SECTION = an enabled code of lookup type PON_LINE_ATTRIBUTE_GROUPS, read live)

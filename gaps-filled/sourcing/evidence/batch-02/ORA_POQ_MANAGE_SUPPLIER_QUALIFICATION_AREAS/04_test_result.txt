@@ -1,0 +1,2 @@
+Own test 2026-11-27: GAPFILL_AB_S2_QA1 on own unit GAPFILL_AB_B15_BU1, ProcessId 100004744440374
+new DRAFT area with 1 outcome ("GAPFILL AB Qualification Outcome 1") on our own test procurement unit, no questions; import 1 row, 0 failed (log counts only the area); REST 1 area DRAFT revision 0 BU ok; export 19 -> 20 areas, 48 -> 49 outcomes, compare PASS

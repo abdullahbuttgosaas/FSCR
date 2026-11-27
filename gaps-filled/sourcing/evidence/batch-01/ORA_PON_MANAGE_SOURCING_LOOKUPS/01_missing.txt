@@ -1,0 +1,3 @@
+ORA_PON_MANAGE_SOURCING_LOOKUPS | Manage Sourcing Lookups
+Module: Sourcing and Supplier Management. FSCR level: route only (CSV route declared, no FSCR skill or guide).
+Source: gaps-filled/gap_index.csv, 2026-11-27.

@@ -1,0 +1,3 @@
+Fresh Claude test(s) (sub-agent with only the task name and the SKILL.md path)
+fresh_claude_pass: yes (fresh F PASS, re-test R PASS on v1.0.1, re-test R2 PASS on v1.0.2; no false sentence left)
+records: POQ_INITIATIVES: context GAPFILL_AB_S3_QDX1 + segment GAPFILL_AB_S3_QDS1 on ATTRIBUTE10 (100004744442213, own test, Case A); QDX2F/QDS2F on ATTRIBUTE11 (100004744442270, fresh F (v1.0.0), Case B); QDX3R/QDS3R on ATTRIBUTE12 (100004744441909, re-test R (v1.0.1)); QDX4R/QDS4R on ATTRIBUTE13 (100004744443166, re-test R2 (v1.0.2)); all contexts disabled (EnabledFlag N), value set Text 150

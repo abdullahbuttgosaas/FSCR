@@ -1,0 +1,3 @@
+Fresh Claude test(s) (sub-agent with only the task name and the SKILL.md path)
+fresh_claude_pass: yes (fresh F PASS, re-test R PASS on v1.0.1; no wrong sentence left)
+records: GAPFILL_AB_S3_QM1 on own unit BU1, area QA1 (100004744440460, own test); GAPFILL_AB_S3_QM2F on BU2F, area QA2F (100004744440645, fresh F (v1.0.0)); GAPFILL_AB_S3_QM3R on BU1, area QA1 (100004744441922, re-test R (v1.0.1))

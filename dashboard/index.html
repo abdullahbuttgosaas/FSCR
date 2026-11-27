@@ -4,43 +4,46 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>FSCR Gap Filling</title>
+<script>try{var fscrT=localStorage.getItem("fscr-theme")}catch(e){}document.documentElement.setAttribute("data-theme",fscrT==="dusk"||fscrT==="light"?fscrT:"night")</script>
+<link rel="stylesheet" href="assets/site.css">
 <style>
-:root{
-  color-scheme: light;
-  --bg:#f6f5f2; --card:#fcfcfb; --line:#e4e2dc; --grid:#ecebe6;
-  --ink:#1d1d1b; --ink2:#52514e; --ink3:#86847e;
-  --before:#2a78d6; --tested:#1baf7a; --written:#eda100;
-  --screen:#c4c0b7; --open:#e6e3dc; --failed:#e34948;
-  --focus:#2a78d6;
-}
 *{box-sizing:border-box}
 html,body{margin:0}
 body{background:var(--bg);color:var(--ink);font:16px/1.5 "Segoe UI",system-ui,-apple-system,Roboto,"Helvetica Neue",Arial,sans-serif;-webkit-font-smoothing:antialiased}
-.wrap{max-width:1040px;margin:0 auto;padding:32px 16px 48px}
-header h1{font-size:clamp(24px,3.4vw,36px);line-height:1.2;margin:0 0 4px;font-weight:650;letter-spacing:-.01em}
+.wrap{position:relative;z-index:1;max-width:1040px;margin:0 auto;padding:calc(var(--navh,52px) + 28px) 16px 48px}
+header{display:flex;justify-content:space-between;align-items:center;gap:16px;flex-wrap:wrap}
+.howbtn{display:inline-flex;align-items:center;gap:10px;padding:10px 18px 10px 14px;border-radius:999px;border:1px solid var(--hl);background:var(--glass);color:var(--ink);font-size:15px;font-weight:600;text-decoration:none;box-shadow:0 4px 18px rgba(77,110,255,.18);transition:box-shadow .2s,border-color .2s,transform .2s}
+.howbtn:hover{border-color:var(--focus);box-shadow:0 8px 26px rgba(77,110,255,.3);transform:translateY(-1px)}
+.howbtn:focus-visible{outline:2px solid var(--focus);outline-offset:3px}
+.howbtn .play{width:26px;height:26px;border-radius:50%;background:linear-gradient(135deg,var(--accent1),var(--accent2));display:grid;place-items:center}
+.howbtn .arr{color:var(--focus);transition:transform .2s}.howbtn:hover .arr{transform:translateX(3px)}
+header h1{font-size:clamp(26px,3.6vw,40px);line-height:1.2;margin:0 0 4px;font-weight:700;letter-spacing:-.015em;background:var(--gr-main);-webkit-background-clip:text;background-clip:text;color:transparent}
 header p{margin:0;color:var(--ink2);font-size:15px}
-.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:24px;margin-top:20px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:24px;margin-top:20px;box-shadow:var(--shadow)}
 h2{font-size:18px;margin:0 0 4px;font-weight:620}
 .sub{color:var(--ink2);font-size:14px;margin:0 0 16px}
 .num{font-variant-numeric:tabular-nums}
 
 /* headline */
 #headline{cursor:pointer;transition:border-color .2s,box-shadow .2s;display:block;width:100%;text-align:left;font:inherit;color:inherit}
-#headline:hover{border-color:#cfd9e6;box-shadow:0 2px 14px rgba(42,120,214,.08)}
+#headline:hover{border-color:var(--hl);box-shadow:var(--shadow),0 0 0 1px var(--hl)}
 #headline:focus-visible{outline:2px solid var(--focus);outline-offset:3px}
 .hl{display:grid;grid-template-columns:1fr 1fr auto;gap:28px;align-items:center}
 .tile .lbl{font-size:15px;color:var(--ink2);font-weight:560}
+.tile.before .big{background:var(--gr-blue);-webkit-background-clip:text;background-clip:text;color:transparent}
+.tile.now .big{background:var(--gr-mint);-webkit-background-clip:text;background-clip:text;color:transparent}
 .tile .big{font-size:clamp(44px,7vw,68px);font-weight:680;line-height:1.05;letter-spacing:-.02em}
 .tile .of{font-size:16px;color:var(--ink2);font-weight:450;letter-spacing:0}
 .meter{height:12px;background:var(--open);border-radius:6px;overflow:hidden;margin:12px 0 8px}
 .meter i{display:block;height:100%;width:0;border-radius:6px;transition:width 1s cubic-bezier(.2,.7,.2,1)}
-.tile.before .meter i{background:var(--before)}
+.tile.before .meter i{background:var(--before);box-shadow:0 0 12px var(--before)}
 .tile.now .meter i{background:linear-gradient(90deg,var(--before) var(--split,70%),var(--tested) var(--split,70%))}
 .grey{color:var(--ink3);font-size:14px}
 .gain{margin-top:18px;font-size:clamp(18px,2.4vw,22px);font-weight:600}
-.gain b{color:#137a55}
+.gain b{color:var(--gainink)}
 .hint{margin-top:6px;color:var(--before);font-size:14px;font-weight:560}
 .ring{width:132px;height:132px}
+#ringArc{filter:drop-shadow(0 0 6px var(--before))}
 .ring text{font-family:inherit}
 
 /* modules */
@@ -51,7 +54,7 @@ h2{font-size:18px;margin:0 0 4px;font-weight:620}
 .sw{width:12px;height:12px;border-radius:3px;display:inline-block}
 .rows{display:grid;gap:6px}
 .row{display:grid;grid-template-columns:230px 1fr 92px;gap:14px;align-items:center;padding:5px 8px;margin:0 -8px;border-radius:8px;cursor:pointer;border:0;background:none;font:inherit;color:inherit;text-align:left;width:calc(100% + 16px)}
-.row:hover,.row.sel{background:#f1f0ec}
+.row:hover,.row.sel{background:var(--hover)}
 .row:focus-visible{outline:2px solid var(--focus)}
 .row .name{font-size:14.5px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 .row .val{font-size:13.5px;color:var(--ink2);text-align:right}
@@ -61,30 +64,30 @@ h2{font-size:18px;margin:0 0 4px;font-weight:620}
 .bar span:last-child{border-radius:0 4px 4px 0}
 .bar span:only-child{border-radius:4px}
 .s-before{background:var(--before)} .s-tested{background:var(--tested)} .s-written{background:var(--written)}
-.s-screen{background:var(--screen)} .s-open{background:var(--open);box-shadow:inset 0 0 0 1px #d8d4cb} .s-failed{background:var(--failed)}
+.s-screen{background:var(--screen)} .s-open{background:var(--open);box-shadow:inset 0 0 0 1px var(--openline)} .s-failed{background:var(--failed)}
 .axisnote{font-size:13px;color:var(--ink3);margin-top:12px}
 
 /* detail panel */
-#detail{border-color:#cfd9e6;animation:pop .25s ease-out}
+#detail{border-color:var(--hl);animation:pop .25s ease-out}
 #detail[hidden]{display:none}
 @keyframes pop{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:none}}
 .dhead{display:flex;justify-content:space-between;align-items:start;gap:12px}
-.close{border:1px solid var(--line);background:var(--card);border-radius:8px;padding:4px 12px;font:inherit;font-size:14px;color:var(--ink2);cursor:pointer}
-.close:hover{background:#f1f0ec}
+.close{border:1px solid var(--line);background:var(--glass);border-radius:8px;padding:4px 12px;font:inherit;font-size:14px;color:var(--ink2);cursor:pointer}
+.close:hover{background:var(--hover)}
 .stats{display:grid;grid-template-columns:repeat(7,1fr);gap:10px;margin:16px 0 10px}
 .stat{border:1px solid var(--line);border-radius:10px;padding:10px 12px}
 .stat .k{font-size:13px;color:var(--ink2);display:flex;align-items:center;gap:6px}
 .stat .v{font-size:24px;font-weight:650}
 .dwords{font-size:16px;margin:4px 0 0}
 
-.tip{position:fixed;pointer-events:none;background:#1d1d1b;color:#fff;font-size:13px;line-height:1.4;padding:7px 10px;border-radius:8px;box-shadow:0 4px 16px rgba(0,0,0,.18);opacity:0;transition:opacity .12s;z-index:10;max-width:240px}
+.tip{position:fixed;pointer-events:none;background:var(--tipbg);color:var(--tipink);border:1px solid var(--line);font-size:13px;line-height:1.4;padding:7px 10px;border-radius:8px;box-shadow:0 4px 16px rgba(0,0,0,.18);opacity:0;transition:opacity .12s;z-index:10;max-width:240px}
 .tip.on{opacity:1}
 footer{margin-top:22px;font-size:14px;color:var(--ink2)}
 footer p{margin:4px 0}
-.err{color:#b3261e}
+.err{color:var(--err)}
 
 @media (max-width:760px){
-  .wrap{padding:22px 16px 36px}
+  .wrap{padding:calc(var(--navh,52px) + 18px) 16px 36px}
   .card{padding:18px}
   .hl{grid-template-columns:1fr 1fr;gap:18px}
   .ring{grid-column:1/-1;justify-self:center;width:112px;height:112px;order:-1}
@@ -101,10 +104,17 @@ footer p{margin:4px 0}
 </style>
 </head>
 <body>
+<nav class="topnav" aria-label="Pages">
+  <a class="brand" href="index.html"><i></i>FSCR gap filling</a>
+  <ul><li><a class="lnk" href="index.html" aria-current="page">Dashboard</a></li><li><a class="lnk" href="story.html">How it works</a></li><li><a class="lnk" href="technical.html">Technical details</a></li></ul>
+</nav>
 <div class="wrap">
   <header>
-    <h1 id="title">FSCR gap filling: ERP and SCM</h1>
-    <p id="updated">Last updated: …</p>
+    <div>
+      <h1 id="title">FSCR gap filling: ERP and SCM</h1>
+      <p id="updated">Last updated: …</p>
+    </div>
+    <a class="howbtn" href="story.html"><span class="play" aria-hidden="true"><svg width="10" height="11" viewBox="0 0 10 11"><path d="M1 1.2v8.6c0 .5.5.8.9.5l6.9-4.3c.4-.2.4-.8 0-1L1.9.7C1.5.4 1 .7 1 1.2z" fill="#fff"/></svg></span>See how it works<span class="arr" aria-hidden="true">→</span></a>
   </header>
 
   <button class="card" id="headline" type="button" aria-expanded="false" aria-controls="modules">
@@ -160,6 +170,7 @@ footer p{margin:4px 0}
 <div class="tip" id="tip" role="tooltip"></div>
 
 <script src="data/data.js"></script>
+<script src="assets/site.js"></script>
 <script>
 (function(){
   "use strict";

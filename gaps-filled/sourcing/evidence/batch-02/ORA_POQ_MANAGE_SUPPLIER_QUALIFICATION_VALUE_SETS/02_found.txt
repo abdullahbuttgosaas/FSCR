@@ -1,0 +1,1 @@
+Read-only export of ORA_POQ_MANAGE_SUPPLIER_QUALIFICATION_VALUE_SETS (2026-11-27). Route: FSM CSV (FND_APP_FLEX_VALUE_SET package scoped to moduleKey PrcPoqCommon; ModuleId read live from lookup POQ_ASSESSMENT_OUTCOME) + REST valueSets read-back.

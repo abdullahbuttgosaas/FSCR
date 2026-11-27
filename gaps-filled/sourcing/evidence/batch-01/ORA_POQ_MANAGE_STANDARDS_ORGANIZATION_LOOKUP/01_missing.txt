@@ -1,0 +1,3 @@
+ORA_POQ_MANAGE_STANDARDS_ORGANIZATION_LOOKUP | Manage Standards Organization Lookup
+Module: Sourcing and Supplier Management. FSCR level: route only (CSV route declared, no FSCR skill or guide).
+Source: gaps-filled/gap_index.csv, 2026-11-27.

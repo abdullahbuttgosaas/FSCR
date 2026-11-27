@@ -1,0 +1,2 @@
+Own test 2026-11-27: GAPFILL_AB_S2_SVS1, ProcessId 100004743465550
+new INDEP VARCHAR2(20) value set with values GAPFILL_A, GAPFILL_B; ModuleId from PON_LINE_ATTRIBUTE_GROUPS lands it in the task scope; import 3 rows, 0 failed; REST PASS; export compare PASS (0 -> 1 value set, 0 -> 2 values)

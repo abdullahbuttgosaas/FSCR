@@ -1,0 +1,4 @@
+Read-only export of ORA_PON_MANAGE_SOURCING_LOOKUPS (2026-11-27): 3 files: ASM_SETUP_CSV_METADATA.xml, FND_APP_STANDARD_LOOKUP.csv, ORA_FND_APP_STANDARD_LOOKUP_CODE.csv.
+Scope lookup type(s): PON_LINE_ATTRIBUTE_GROUPS (own test, R2) and PON_HEADER_ATTRIBUTE_GROUPS (fresh F).
+REST standardLookups/<TYPE>?expand=lookupCodes: CustomizationLevel E/U (new codes allowed).
+Catalog: CSVExportImportSupportedFlag Y.

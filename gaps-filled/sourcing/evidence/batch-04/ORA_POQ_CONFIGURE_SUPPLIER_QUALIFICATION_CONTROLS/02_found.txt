@@ -1,0 +1,3 @@
+What was found (2026-11-28, read only)
+route: FSM CSV (ORA_SUPPLIER_QUALIFICATION_OPTIONS, one global row) as test-and-restore
+depends_on: none

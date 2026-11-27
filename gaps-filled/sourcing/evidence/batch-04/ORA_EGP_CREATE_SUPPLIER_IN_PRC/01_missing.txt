@@ -1,0 +1,5 @@
+Missing task (Sourcing and Supplier Management, gap_index.csv)
+task_code: ORA_EGP_CREATE_SUPPLIER_IN_PRC
+task_name: Create Supplier in Procurement
+level: neither (no FSCR skill or guide)
+status before this sitting: open (sitting 1 left it for sitting 2)

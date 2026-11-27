@@ -1,0 +1,13 @@
+Skill: sourcing/manage-qualification-models/SKILL.md (version 1.0.1, 159 lines)
+Sections:
+## What it is and when to use
+## Placeholders
+## Shell, logs and counts (read first)
+## Sign-in
+## Prerequisites
+## Step 1. Read-only export
+## Step 2. Check BU, AREA and MODEL live, then build the package
+## Step 3. Import
+## Step 4. Read back (REST and a second export)
+## Rules and limits
+## Worked example (VERIFIED, 2026-11-28). Do not reuse these names.

@@ -1,0 +1,2 @@
+Skill: gaps-filled/sourcing/manage-qualification-areas/SKILL.md
+Prerequisites: a procurement business unit (own test unit: common-features test-business-unit + procurement configure-procurement-business-function, function 110); optional own outcome code (ORA_POQ_MANAGE_QUALIFICATION_OUTCOME_LOOKUP)

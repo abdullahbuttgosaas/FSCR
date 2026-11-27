@@ -1,0 +1,3 @@
+What was found (2026-11-28, read only)
+route: FSM CSV (standard flexfield package, module PrcPonCommon); parent row read by REST descriptiveFlexfields in Case A
+depends_on: none (the flexfield's parent row is sent unchanged; disabled context, no deployment)

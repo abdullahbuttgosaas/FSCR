@@ -6,3 +6,5 @@ __pycache__
 .vercel
 .gitignore
 UPDATE_STEPS.md
+check_pages.py
+perf_check.py

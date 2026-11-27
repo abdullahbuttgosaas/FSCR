@@ -1,0 +1,12 @@
+Skill: sourcing/manage-sourcing-dffs/SKILL.md (version 1.0.2, 125 lines)
+Sections:
+## What it is and when to use
+## Placeholders
+## Sign-in
+## Prerequisites
+## Step 1. Read-only export (about 1 minute)
+## Step 2. Build (offline, VERIFIED)
+## Step 3. Import ONCE (VERIFIED)
+## Step 4. Read back (VERIFIED)
+## Rules and limits
+## Worked example (2026-11-28, codes and ProcessIds only)
